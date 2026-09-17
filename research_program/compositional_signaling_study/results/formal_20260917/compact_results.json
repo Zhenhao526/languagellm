@@ -1,0 +1,2401 @@
+{
+  "schema": "compositional_signaling_compact_results_v1",
+  "study": "compositional_signaling_study",
+  "execution_override_updates": 300,
+  "configured_updates": 3000,
+  "runs": 80,
+  "seeds": [
+    75101,
+    75102,
+    75103,
+    75104,
+    75105,
+    75106,
+    75107,
+    75108
+  ],
+  "conditions": 10,
+  "heldout_aggregate": {
+    "schema": "compositional_signaling_aggregate_v1",
+    "runs": 80,
+    "rows": [
+      {
+        "seed": 75101,
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "mode": "natural",
+        "return": 0.6666666666666665
+      },
+      {
+        "seed": 75101,
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "mode": "closed",
+        "return": 0.187469482421875
+      },
+      {
+        "seed": 75101,
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "mode": "permuted",
+        "return": 0.2542724609375
+      },
+      {
+        "seed": 75101,
+        "condition": "dual2_fixed_hidden_silent_factorized",
+        "mode": "natural",
+        "return": 0.24974568684895831
+      },
+      {
+        "seed": 75101,
+        "condition": "dual2_fixed_hidden_silent_factorized",
+        "mode": "closed",
+        "return": 0.24974568684895831
+      },
+      {
+        "seed": 75101,
+        "condition": "dual2_fixed_hidden_silent_factorized",
+        "mode": "permuted",
+        "return": 0.24974568684895831
+      },
+      {
+        "seed": 75101,
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "mode": "natural",
+        "return": 0.3814044859781379
+      },
+      {
+        "seed": 75101,
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "mode": "closed",
+        "return": 0.13901334691220413
+      },
+      {
+        "seed": 75101,
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "mode": "permuted",
+        "return": 0.25107169400176843
+      },
+      {
+        "seed": 75101,
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "mode": "natural",
+        "return": 0.3085883029499211
+      },
+      {
+        "seed": 75101,
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "mode": "closed",
+        "return": 0.13914053453939176
+      },
+      {
+        "seed": 75101,
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "mode": "permuted",
+        "return": 0.25124448996775617
+      },
+      {
+        "seed": 75101,
+        "condition": "dual2_rotating_hidden_silent_entangled",
+        "mode": "natural",
+        "return": 0.24962526998731088
+      },
+      {
+        "seed": 75101,
+        "condition": "dual2_rotating_hidden_silent_entangled",
+        "mode": "closed",
+        "return": 0.24962526998731088
+      },
+      {
+        "seed": 75101,
+        "condition": "dual2_rotating_hidden_silent_entangled",
+        "mode": "permuted",
+        "return": 0.24962526998731088
+      },
+      {
+        "seed": 75101,
+        "condition": "dual2_rotating_hidden_silent_factorized",
+        "mode": "natural",
+        "return": 0.2496395480843009
+      },
+      {
+        "seed": 75101,
+        "condition": "dual2_rotating_hidden_silent_factorized",
+        "mode": "closed",
+        "return": 0.2496395480843009
+      },
+      {
+        "seed": 75101,
+        "condition": "dual2_rotating_hidden_silent_factorized",
+        "mode": "permuted",
+        "return": 0.2496395480843009
+      },
+      {
+        "seed": 75101,
+        "condition": "dual2_rotating_visible_live_factorized",
+        "mode": "natural",
+        "return": 0.32869958511271125
+      },
+      {
+        "seed": 75101,
+        "condition": "dual2_rotating_visible_live_factorized",
+        "mode": "closed",
+        "return": 0.13914053453939176
+      },
+      {
+        "seed": 75101,
+        "condition": "dual2_rotating_visible_live_factorized",
+        "mode": "permuted",
+        "return": 0.25167310370379253
+      },
+      {
+        "seed": 75101,
+        "condition": "dual2_rotating_visible_silent_factorized",
+        "mode": "natural",
+        "return": 0.2496395480843009
+      },
+      {
+        "seed": 75101,
+        "condition": "dual2_rotating_visible_silent_factorized",
+        "mode": "closed",
+        "return": 0.2496395480843009
+      },
+      {
+        "seed": 75101,
+        "condition": "dual2_rotating_visible_silent_factorized",
+        "mode": "permuted",
+        "return": 0.2496395480843009
+      },
+      {
+        "seed": 75101,
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "mode": "natural",
+        "return": 0.37959287910623
+      },
+      {
+        "seed": 75101,
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "mode": "closed",
+        "return": 0.19680183835528628
+      },
+      {
+        "seed": 75101,
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "mode": "permuted",
+        "return": 0.2495418841792436
+      },
+      {
+        "seed": 75101,
+        "condition": "mono4_rotating_hidden_silent_factorized",
+        "mode": "natural",
+        "return": 0.25199655520589
+      },
+      {
+        "seed": 75101,
+        "condition": "mono4_rotating_hidden_silent_factorized",
+        "mode": "closed",
+        "return": 0.25199655520589
+      },
+      {
+        "seed": 75101,
+        "condition": "mono4_rotating_hidden_silent_factorized",
+        "mode": "permuted",
+        "return": 0.25199655520589
+      },
+      {
+        "seed": 75102,
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "mode": "natural",
+        "return": 0.5077718098958333
+      },
+      {
+        "seed": 75102,
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "mode": "closed",
+        "return": 0.22165934244791666
+      },
+      {
+        "seed": 75102,
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "mode": "permuted",
+        "return": 0.250762939453125
+      },
+      {
+        "seed": 75102,
+        "condition": "dual2_fixed_hidden_silent_factorized",
+        "mode": "natural",
+        "return": 0.24949137369791666
+      },
+      {
+        "seed": 75102,
+        "condition": "dual2_fixed_hidden_silent_factorized",
+        "mode": "closed",
+        "return": 0.24949137369791666
+      },
+      {
+        "seed": 75102,
+        "condition": "dual2_fixed_hidden_silent_factorized",
+        "mode": "permuted",
+        "return": 0.24949137369791666
+      },
+      {
+        "seed": 75102,
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "mode": "natural",
+        "return": 0.26881590011554457
+      },
+      {
+        "seed": 75102,
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "mode": "closed",
+        "return": 0.19584744637607626
+      },
+      {
+        "seed": 75102,
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "mode": "permuted",
+        "return": 0.24904583062703986
+      },
+      {
+        "seed": 75102,
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "mode": "natural",
+        "return": 0.3623209279796911
+      },
+      {
+        "seed": 75102,
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "mode": "closed",
+        "return": 0.1947069729478792
+      },
+      {
+        "seed": 75102,
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "mode": "permuted",
+        "return": 0.24951844572019416
+      },
+      {
+        "seed": 75102,
+        "condition": "dual2_rotating_hidden_silent_entangled",
+        "mode": "natural",
+        "return": 0.2506086423400381
+      },
+      {
+        "seed": 75102,
+        "condition": "dual2_rotating_hidden_silent_entangled",
+        "mode": "closed",
+        "return": 0.2506086423400381
+      },
+      {
+        "seed": 75102,
+        "condition": "dual2_rotating_hidden_silent_entangled",
+        "mode": "permuted",
+        "return": 0.2506086423400381
+      },
+      {
+        "seed": 75102,
+        "condition": "dual2_rotating_hidden_silent_factorized",
+        "mode": "natural",
+        "return": 0.2499092839072094
+      },
+      {
+        "seed": 75102,
+        "condition": "dual2_rotating_hidden_silent_factorized",
+        "mode": "closed",
+        "return": 0.2499092839072094
+      },
+      {
+        "seed": 75102,
+        "condition": "dual2_rotating_hidden_silent_factorized",
+        "mode": "permuted",
+        "return": 0.2499092839072094
+      },
+      {
+        "seed": 75102,
+        "condition": "dual2_rotating_visible_live_factorized",
+        "mode": "natural",
+        "return": 0.38235509662535894
+      },
+      {
+        "seed": 75102,
+        "condition": "dual2_rotating_visible_live_factorized",
+        "mode": "closed",
+        "return": 0.1947069729478792
+      },
+      {
+        "seed": 75102,
+        "condition": "dual2_rotating_visible_live_factorized",
+        "mode": "permuted",
+        "return": 0.25244309276375226
+      },
+      {
+        "seed": 75102,
+        "condition": "dual2_rotating_visible_silent_factorized",
+        "mode": "natural",
+        "return": 0.2499092839072094
+      },
+      {
+        "seed": 75102,
+        "condition": "dual2_rotating_visible_silent_factorized",
+        "mode": "closed",
+        "return": 0.2499092839072094
+      },
+      {
+        "seed": 75102,
+        "condition": "dual2_rotating_visible_silent_factorized",
+        "mode": "permuted",
+        "return": 0.2499092839072094
+      },
+      {
+        "seed": 75102,
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "mode": "natural",
+        "return": 0.36079177286514896
+      },
+      {
+        "seed": 75102,
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "mode": "closed",
+        "return": 0.15496157736668684
+      },
+      {
+        "seed": 75102,
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "mode": "permuted",
+        "return": 0.25187934987021904
+      },
+      {
+        "seed": 75102,
+        "condition": "mono4_rotating_hidden_silent_factorized",
+        "mode": "natural",
+        "return": 0.24666001525371506
+      },
+      {
+        "seed": 75102,
+        "condition": "mono4_rotating_hidden_silent_factorized",
+        "mode": "closed",
+        "return": 0.24666001525371506
+      },
+      {
+        "seed": 75102,
+        "condition": "mono4_rotating_hidden_silent_factorized",
+        "mode": "permuted",
+        "return": 0.24666001525371506
+      },
+      {
+        "seed": 75103,
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "mode": "natural",
+        "return": 0.4582316080729167
+      },
+      {
+        "seed": 75103,
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "mode": "closed",
+        "return": 0.15648396809895834
+      },
+      {
+        "seed": 75103,
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "mode": "permuted",
+        "return": 0.25335693359375
+      },
+      {
+        "seed": 75103,
+        "condition": "dual2_fixed_hidden_silent_factorized",
+        "mode": "natural",
+        "return": 0.25335693359375
+      },
+      {
+        "seed": 75103,
+        "condition": "dual2_fixed_hidden_silent_factorized",
+        "mode": "closed",
+        "return": 0.25335693359375
+      },
+      {
+        "seed": 75103,
+        "condition": "dual2_fixed_hidden_silent_factorized",
+        "mode": "permuted",
+        "return": 0.25335693359375
+      },
+      {
+        "seed": 75103,
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "mode": "natural",
+        "return": 0.35924854799282424
+      },
+      {
+        "seed": 75103,
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "mode": "closed",
+        "return": 0.16466533491821986
+      },
+      {
+        "seed": 75103,
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "mode": "permuted",
+        "return": 0.24894188798632216
+      },
+      {
+        "seed": 75103,
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "mode": "natural",
+        "return": 0.38696638509425674
+      },
+      {
+        "seed": 75103,
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "mode": "closed",
+        "return": 0.16394976208413695
+      },
+      {
+        "seed": 75103,
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "mode": "permuted",
+        "return": 0.24969402886385547
+      },
+      {
+        "seed": 75103,
+        "condition": "dual2_rotating_hidden_silent_entangled",
+        "mode": "natural",
+        "return": 0.2500302370050621
+      },
+      {
+        "seed": 75103,
+        "condition": "dual2_rotating_hidden_silent_entangled",
+        "mode": "closed",
+        "return": 0.2500302370050621
+      },
+      {
+        "seed": 75103,
+        "condition": "dual2_rotating_hidden_silent_entangled",
+        "mode": "permuted",
+        "return": 0.2500302370050621
+      },
+      {
+        "seed": 75103,
+        "condition": "dual2_rotating_hidden_silent_factorized",
+        "mode": "natural",
+        "return": 0.24888529136007523
+      },
+      {
+        "seed": 75103,
+        "condition": "dual2_rotating_hidden_silent_factorized",
+        "mode": "closed",
+        "return": 0.24888529136007523
+      },
+      {
+        "seed": 75103,
+        "condition": "dual2_rotating_hidden_silent_factorized",
+        "mode": "permuted",
+        "return": 0.24888529136007523
+      },
+      {
+        "seed": 75103,
+        "condition": "dual2_rotating_visible_live_factorized",
+        "mode": "natural",
+        "return": 0.3275069289009161
+      },
+      {
+        "seed": 75103,
+        "condition": "dual2_rotating_visible_live_factorized",
+        "mode": "closed",
+        "return": 0.16394976208413695
+      },
+      {
+        "seed": 75103,
+        "condition": "dual2_rotating_visible_live_factorized",
+        "mode": "permuted",
+        "return": 0.2484699331884544
+      },
+      {
+        "seed": 75103,
+        "condition": "dual2_rotating_visible_silent_factorized",
+        "mode": "natural",
+        "return": 0.24888529136007523
+      },
+      {
+        "seed": 75103,
+        "condition": "dual2_rotating_visible_silent_factorized",
+        "mode": "closed",
+        "return": 0.24888529136007523
+      },
+      {
+        "seed": 75103,
+        "condition": "dual2_rotating_visible_silent_factorized",
+        "mode": "permuted",
+        "return": 0.24888529136007523
+      },
+      {
+        "seed": 75103,
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "mode": "natural",
+        "return": 0.31605491228871785
+      },
+      {
+        "seed": 75103,
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "mode": "closed",
+        "return": 0.1552349884751948
+      },
+      {
+        "seed": 75103,
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "mode": "permuted",
+        "return": 0.252087014424253
+      },
+      {
+        "seed": 75103,
+        "condition": "mono4_rotating_hidden_silent_factorized",
+        "mode": "natural",
+        "return": 0.24794263251250756
+      },
+      {
+        "seed": 75103,
+        "condition": "mono4_rotating_hidden_silent_factorized",
+        "mode": "closed",
+        "return": 0.24794263251250756
+      },
+      {
+        "seed": 75103,
+        "condition": "mono4_rotating_hidden_silent_factorized",
+        "mode": "permuted",
+        "return": 0.24794263251250756
+      },
+      {
+        "seed": 75104,
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "mode": "natural",
+        "return": 0.43122355143229163
+      },
+      {
+        "seed": 75104,
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "mode": "closed",
+        "return": 0.15639241536458334
+      },
+      {
+        "seed": 75104,
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "mode": "permuted",
+        "return": 0.24750773111979163
+      },
+      {
+        "seed": 75104,
+        "condition": "dual2_fixed_hidden_silent_factorized",
+        "mode": "natural",
+        "return": 0.24969482421875
+      },
+      {
+        "seed": 75104,
+        "condition": "dual2_fixed_hidden_silent_factorized",
+        "mode": "closed",
+        "return": 0.24969482421875
+      },
+      {
+        "seed": 75104,
+        "condition": "dual2_fixed_hidden_silent_factorized",
+        "mode": "permuted",
+        "return": 0.24969482421875
+      },
+      {
+        "seed": 75104,
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "mode": "natural",
+        "return": 0.30090030169374093
+      },
+      {
+        "seed": 75104,
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "mode": "closed",
+        "return": 0.1489757320696798
+      },
+      {
+        "seed": 75104,
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "mode": "permuted",
+        "return": 0.2511318927688029
+      },
+      {
+        "seed": 75104,
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "mode": "natural",
+        "return": 0.39863126892057893
+      },
+      {
+        "seed": 75104,
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "mode": "closed",
+        "return": 0.14968851301973432
+      },
+      {
+        "seed": 75104,
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "mode": "permuted",
+        "return": 0.24757803131246564
+      },
+      {
+        "seed": 75104,
+        "condition": "dual2_rotating_hidden_silent_entangled",
+        "mode": "natural",
+        "return": 0.25047045105694005
+      },
+      {
+        "seed": 75104,
+        "condition": "dual2_rotating_hidden_silent_entangled",
+        "mode": "closed",
+        "return": 0.25047045105694005
+      },
+      {
+        "seed": 75104,
+        "condition": "dual2_rotating_hidden_silent_entangled",
+        "mode": "permuted",
+        "return": 0.25047045105694005
+      },
+      {
+        "seed": 75104,
+        "condition": "dual2_rotating_hidden_silent_factorized",
+        "mode": "natural",
+        "return": 0.2510444824956593
+      },
+      {
+        "seed": 75104,
+        "condition": "dual2_rotating_hidden_silent_factorized",
+        "mode": "closed",
+        "return": 0.2510444824956593
+      },
+      {
+        "seed": 75104,
+        "condition": "dual2_rotating_hidden_silent_factorized",
+        "mode": "permuted",
+        "return": 0.2510444824956593
+      },
+      {
+        "seed": 75104,
+        "condition": "dual2_rotating_visible_live_factorized",
+        "mode": "natural",
+        "return": 0.3214948800294459
+      },
+      {
+        "seed": 75104,
+        "condition": "dual2_rotating_visible_live_factorized",
+        "mode": "closed",
+        "return": 0.14968851301973432
+      },
+      {
+        "seed": 75104,
+        "condition": "dual2_rotating_visible_live_factorized",
+        "mode": "permuted",
+        "return": 0.24979477304345699
+      },
+      {
+        "seed": 75104,
+        "condition": "dual2_rotating_visible_silent_factorized",
+        "mode": "natural",
+        "return": 0.2510444824956593
+      },
+      {
+        "seed": 75104,
+        "condition": "dual2_rotating_visible_silent_factorized",
+        "mode": "closed",
+        "return": 0.2510444824956593
+      },
+      {
+        "seed": 75104,
+        "condition": "dual2_rotating_visible_silent_factorized",
+        "mode": "permuted",
+        "return": 0.2510444824956593
+      },
+      {
+        "seed": 75104,
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "mode": "natural",
+        "return": 0.3213146997991644
+      },
+      {
+        "seed": 75104,
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "mode": "closed",
+        "return": 0.15472723809966693
+      },
+      {
+        "seed": 75104,
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "mode": "permuted",
+        "return": 0.2514076010044655
+      },
+      {
+        "seed": 75104,
+        "condition": "mono4_rotating_hidden_silent_factorized",
+        "mode": "natural",
+        "return": 0.2478167057095715
+      },
+      {
+        "seed": 75104,
+        "condition": "mono4_rotating_hidden_silent_factorized",
+        "mode": "closed",
+        "return": 0.2478167057095715
+      },
+      {
+        "seed": 75104,
+        "condition": "mono4_rotating_hidden_silent_factorized",
+        "mode": "permuted",
+        "return": 0.2478167057095715
+      },
+      {
+        "seed": 75105,
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "mode": "natural",
+        "return": 0.4342244466145833
+      },
+      {
+        "seed": 75105,
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "mode": "closed",
+        "return": 0.22001139322916669
+      },
+      {
+        "seed": 75105,
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "mode": "permuted",
+        "return": 0.254119873046875
+      },
+      {
+        "seed": 75105,
+        "condition": "dual2_fixed_hidden_silent_factorized",
+        "mode": "natural",
+        "return": 0.25422159830729163
+      },
+      {
+        "seed": 75105,
+        "condition": "dual2_fixed_hidden_silent_factorized",
+        "mode": "closed",
+        "return": 0.25422159830729163
+      },
+      {
+        "seed": 75105,
+        "condition": "dual2_fixed_hidden_silent_factorized",
+        "mode": "permuted",
+        "return": 0.25422159830729163
+      },
+      {
+        "seed": 75105,
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "mode": "natural",
+        "return": 0.29185961698203755
+      },
+      {
+        "seed": 75105,
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "mode": "closed",
+        "return": 0.1966950849519541
+      },
+      {
+        "seed": 75105,
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "mode": "permuted",
+        "return": 0.25159448445882415
+      },
+      {
+        "seed": 75105,
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "mode": "natural",
+        "return": 0.2585999896295765
+      },
+      {
+        "seed": 75105,
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "mode": "closed",
+        "return": 0.19594330071105656
+      },
+      {
+        "seed": 75105,
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "mode": "permuted",
+        "return": 0.25174176517473323
+      },
+      {
+        "seed": 75105,
+        "condition": "dual2_rotating_hidden_silent_entangled",
+        "mode": "natural",
+        "return": 0.24980334087487935
+      },
+      {
+        "seed": 75105,
+        "condition": "dual2_rotating_hidden_silent_entangled",
+        "mode": "closed",
+        "return": 0.24980334087487935
+      },
+      {
+        "seed": 75105,
+        "condition": "dual2_rotating_hidden_silent_entangled",
+        "mode": "permuted",
+        "return": 0.24980334087487935
+      },
+      {
+        "seed": 75105,
+        "condition": "dual2_rotating_hidden_silent_factorized",
+        "mode": "natural",
+        "return": 0.2514058849772482
+      },
+      {
+        "seed": 75105,
+        "condition": "dual2_rotating_hidden_silent_factorized",
+        "mode": "closed",
+        "return": 0.2514058849772482
+      },
+      {
+        "seed": 75105,
+        "condition": "dual2_rotating_hidden_silent_factorized",
+        "mode": "permuted",
+        "return": 0.2514058849772482
+      },
+      {
+        "seed": 75105,
+        "condition": "dual2_rotating_visible_live_factorized",
+        "mode": "natural",
+        "return": 0.31027615196466696
+      },
+      {
+        "seed": 75105,
+        "condition": "dual2_rotating_visible_live_factorized",
+        "mode": "closed",
+        "return": 0.19594330071105656
+      },
+      {
+        "seed": 75105,
+        "condition": "dual2_rotating_visible_live_factorized",
+        "mode": "permuted",
+        "return": 0.25306283113801425
+      },
+      {
+        "seed": 75105,
+        "condition": "dual2_rotating_visible_silent_factorized",
+        "mode": "natural",
+        "return": 0.2514058849772482
+      },
+      {
+        "seed": 75105,
+        "condition": "dual2_rotating_visible_silent_factorized",
+        "mode": "closed",
+        "return": 0.2514058849772482
+      },
+      {
+        "seed": 75105,
+        "condition": "dual2_rotating_visible_silent_factorized",
+        "mode": "permuted",
+        "return": 0.2514058849772482
+      },
+      {
+        "seed": 75105,
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "mode": "natural",
+        "return": 0.3414978621161441
+      },
+      {
+        "seed": 75105,
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "mode": "closed",
+        "return": 0.1953831692944376
+      },
+      {
+        "seed": 75105,
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "mode": "permuted",
+        "return": 0.24845396266650174
+      },
+      {
+        "seed": 75105,
+        "condition": "mono4_rotating_hidden_silent_factorized",
+        "mode": "natural",
+        "return": 0.2501755419574794
+      },
+      {
+        "seed": 75105,
+        "condition": "mono4_rotating_hidden_silent_factorized",
+        "mode": "closed",
+        "return": 0.2501755419574794
+      },
+      {
+        "seed": 75105,
+        "condition": "mono4_rotating_hidden_silent_factorized",
+        "mode": "permuted",
+        "return": 0.2501755419574794
+      },
+      {
+        "seed": 75106,
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "mode": "natural",
+        "return": 0.35213216145833337
+      },
+      {
+        "seed": 75106,
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "mode": "closed",
+        "return": 0.163116455078125
+      },
+      {
+        "seed": 75106,
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "mode": "permuted",
+        "return": 0.249542236328125
+      },
+      {
+        "seed": 75106,
+        "condition": "dual2_fixed_hidden_silent_factorized",
+        "mode": "natural",
+        "return": 0.25651041666666663
+      },
+      {
+        "seed": 75106,
+        "condition": "dual2_fixed_hidden_silent_factorized",
+        "mode": "closed",
+        "return": 0.25651041666666663
+      },
+      {
+        "seed": 75106,
+        "condition": "dual2_fixed_hidden_silent_factorized",
+        "mode": "permuted",
+        "return": 0.25651041666666663
+      },
+      {
+        "seed": 75106,
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "mode": "natural",
+        "return": 0.32687350576055363
+      },
+      {
+        "seed": 75106,
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "mode": "closed",
+        "return": 0.17174476981697517
+      },
+      {
+        "seed": 75106,
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "mode": "permuted",
+        "return": 0.25240192540325845
+      },
+      {
+        "seed": 75106,
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "mode": "natural",
+        "return": 0.2620404311181854
+      },
+      {
+        "seed": 75106,
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "mode": "closed",
+        "return": 0.1695818698974587
+      },
+      {
+        "seed": 75106,
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "mode": "permuted",
+        "return": 0.2506805675820869
+      },
+      {
+        "seed": 75106,
+        "condition": "dual2_rotating_hidden_silent_entangled",
+        "mode": "natural",
+        "return": 0.25245990234844584
+      },
+      {
+        "seed": 75106,
+        "condition": "dual2_rotating_hidden_silent_entangled",
+        "mode": "closed",
+        "return": 0.25245990234844584
+      },
+      {
+        "seed": 75106,
+        "condition": "dual2_rotating_hidden_silent_entangled",
+        "mode": "permuted",
+        "return": 0.25245990234844584
+      },
+      {
+        "seed": 75106,
+        "condition": "dual2_rotating_hidden_silent_factorized",
+        "mode": "natural",
+        "return": 0.24784558654775526
+      },
+      {
+        "seed": 75106,
+        "condition": "dual2_rotating_hidden_silent_factorized",
+        "mode": "closed",
+        "return": 0.24784558654775526
+      },
+      {
+        "seed": 75106,
+        "condition": "dual2_rotating_hidden_silent_factorized",
+        "mode": "permuted",
+        "return": 0.24784558654775526
+      },
+      {
+        "seed": 75106,
+        "condition": "dual2_rotating_visible_live_factorized",
+        "mode": "natural",
+        "return": 0.3422211098415664
+      },
+      {
+        "seed": 75106,
+        "condition": "dual2_rotating_visible_live_factorized",
+        "mode": "closed",
+        "return": 0.1695818698974587
+      },
+      {
+        "seed": 75106,
+        "condition": "dual2_rotating_visible_live_factorized",
+        "mode": "permuted",
+        "return": 0.2520459702311527
+      },
+      {
+        "seed": 75106,
+        "condition": "dual2_rotating_visible_silent_factorized",
+        "mode": "natural",
+        "return": 0.24784558654775526
+      },
+      {
+        "seed": 75106,
+        "condition": "dual2_rotating_visible_silent_factorized",
+        "mode": "closed",
+        "return": 0.24784558654775526
+      },
+      {
+        "seed": 75106,
+        "condition": "dual2_rotating_visible_silent_factorized",
+        "mode": "permuted",
+        "return": 0.24784558654775526
+      },
+      {
+        "seed": 75106,
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "mode": "natural",
+        "return": 0.2877445346752816
+      },
+      {
+        "seed": 75106,
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "mode": "closed",
+        "return": 0.18470296719479495
+      },
+      {
+        "seed": 75106,
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "mode": "permuted",
+        "return": 0.24855606030144445
+      },
+      {
+        "seed": 75106,
+        "condition": "mono4_rotating_hidden_silent_factorized",
+        "mode": "natural",
+        "return": 0.2478883059635286
+      },
+      {
+        "seed": 75106,
+        "condition": "mono4_rotating_hidden_silent_factorized",
+        "mode": "closed",
+        "return": 0.2478883059635286
+      },
+      {
+        "seed": 75106,
+        "condition": "mono4_rotating_hidden_silent_factorized",
+        "mode": "permuted",
+        "return": 0.2478883059635286
+      },
+      {
+        "seed": 75107,
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "mode": "natural",
+        "return": 0.4554850260416667
+      },
+      {
+        "seed": 75107,
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "mode": "closed",
+        "return": 0.12273152669270833
+      },
+      {
+        "seed": 75107,
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "mode": "permuted",
+        "return": 0.24898274739583331
+      },
+      {
+        "seed": 75107,
+        "condition": "dual2_fixed_hidden_silent_factorized",
+        "mode": "natural",
+        "return": 0.24755859375
+      },
+      {
+        "seed": 75107,
+        "condition": "dual2_fixed_hidden_silent_factorized",
+        "mode": "closed",
+        "return": 0.24755859375
+      },
+      {
+        "seed": 75107,
+        "condition": "dual2_fixed_hidden_silent_factorized",
+        "mode": "permuted",
+        "return": 0.24755859375
+      },
+      {
+        "seed": 75107,
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "mode": "natural",
+        "return": 0.24884941022350876
+      },
+      {
+        "seed": 75107,
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "mode": "closed",
+        "return": 0.15635565151288847
+      },
+      {
+        "seed": 75107,
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "mode": "permuted",
+        "return": 0.24970386065102135
+      },
+      {
+        "seed": 75107,
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "mode": "natural",
+        "return": 0.18401775893616573
+      },
+      {
+        "seed": 75107,
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "mode": "closed",
+        "return": 0.15552814581321783
+      },
+      {
+        "seed": 75107,
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "mode": "permuted",
+        "return": 0.24832403354256205
+      },
+      {
+        "seed": 75107,
+        "condition": "dual2_rotating_hidden_silent_entangled",
+        "mode": "natural",
+        "return": 0.25214029495462753
+      },
+      {
+        "seed": 75107,
+        "condition": "dual2_rotating_hidden_silent_entangled",
+        "mode": "closed",
+        "return": 0.25214029495462753
+      },
+      {
+        "seed": 75107,
+        "condition": "dual2_rotating_hidden_silent_entangled",
+        "mode": "permuted",
+        "return": 0.25214029495462753
+      },
+      {
+        "seed": 75107,
+        "condition": "dual2_rotating_hidden_silent_factorized",
+        "mode": "natural",
+        "return": 0.2521224833570568
+      },
+      {
+        "seed": 75107,
+        "condition": "dual2_rotating_hidden_silent_factorized",
+        "mode": "closed",
+        "return": 0.2521224833570568
+      },
+      {
+        "seed": 75107,
+        "condition": "dual2_rotating_hidden_silent_factorized",
+        "mode": "permuted",
+        "return": 0.2521224833570568
+      },
+      {
+        "seed": 75107,
+        "condition": "dual2_rotating_visible_live_factorized",
+        "mode": "natural",
+        "return": 0.2622027212235454
+      },
+      {
+        "seed": 75107,
+        "condition": "dual2_rotating_visible_live_factorized",
+        "mode": "closed",
+        "return": 0.15552814581321783
+      },
+      {
+        "seed": 75107,
+        "condition": "dual2_rotating_visible_live_factorized",
+        "mode": "permuted",
+        "return": 0.25096235182112
+      },
+      {
+        "seed": 75107,
+        "condition": "dual2_rotating_visible_silent_factorized",
+        "mode": "natural",
+        "return": 0.2521224833570568
+      },
+      {
+        "seed": 75107,
+        "condition": "dual2_rotating_visible_silent_factorized",
+        "mode": "closed",
+        "return": 0.2521224833570568
+      },
+      {
+        "seed": 75107,
+        "condition": "dual2_rotating_visible_silent_factorized",
+        "mode": "permuted",
+        "return": 0.2521224833570568
+      },
+      {
+        "seed": 75107,
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "mode": "natural",
+        "return": 0.30325917143464376
+      },
+      {
+        "seed": 75107,
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "mode": "closed",
+        "return": 0.16290435821999688
+      },
+      {
+        "seed": 75107,
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "mode": "permuted",
+        "return": 0.2521386931414017
+      },
+      {
+        "seed": 75107,
+        "condition": "mono4_rotating_hidden_silent_factorized",
+        "mode": "natural",
+        "return": 0.24753785079856935
+      },
+      {
+        "seed": 75107,
+        "condition": "mono4_rotating_hidden_silent_factorized",
+        "mode": "closed",
+        "return": 0.24753785079856935
+      },
+      {
+        "seed": 75107,
+        "condition": "mono4_rotating_hidden_silent_factorized",
+        "mode": "permuted",
+        "return": 0.24753785079856935
+      },
+      {
+        "seed": 75108,
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "mode": "natural",
+        "return": 0.48188273111979163
+      },
+      {
+        "seed": 75108,
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "mode": "closed",
+        "return": 0.09162394205729166
+      },
+      {
+        "seed": 75108,
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "mode": "permuted",
+        "return": 0.244049072265625
+      },
+      {
+        "seed": 75108,
+        "condition": "dual2_fixed_hidden_silent_factorized",
+        "mode": "natural",
+        "return": 0.2589518229166667
+      },
+      {
+        "seed": 75108,
+        "condition": "dual2_fixed_hidden_silent_factorized",
+        "mode": "closed",
+        "return": 0.2589518229166667
+      },
+      {
+        "seed": 75108,
+        "condition": "dual2_fixed_hidden_silent_factorized",
+        "mode": "permuted",
+        "return": 0.2589518229166667
+      },
+      {
+        "seed": 75108,
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "mode": "natural",
+        "return": 0.34211218966275847
+      },
+      {
+        "seed": 75108,
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "mode": "closed",
+        "return": 0.17266714727284532
+      },
+      {
+        "seed": 75108,
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "mode": "permuted",
+        "return": 0.2523316229627859
+      },
+      {
+        "seed": 75108,
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "mode": "natural",
+        "return": 0.33177686156144426
+      },
+      {
+        "seed": 75108,
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "mode": "closed",
+        "return": 0.17293683150076458
+      },
+      {
+        "seed": 75108,
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "mode": "permuted",
+        "return": 0.2509327119235912
+      },
+      {
+        "seed": 75108,
+        "condition": "dual2_rotating_hidden_silent_entangled",
+        "mode": "natural",
+        "return": 0.2501487700623143
+      },
+      {
+        "seed": 75108,
+        "condition": "dual2_rotating_hidden_silent_entangled",
+        "mode": "closed",
+        "return": 0.2501487700623143
+      },
+      {
+        "seed": 75108,
+        "condition": "dual2_rotating_hidden_silent_entangled",
+        "mode": "permuted",
+        "return": 0.2501487700623143
+      },
+      {
+        "seed": 75108,
+        "condition": "dual2_rotating_hidden_silent_factorized",
+        "mode": "natural",
+        "return": 0.2483509048391852
+      },
+      {
+        "seed": 75108,
+        "condition": "dual2_rotating_hidden_silent_factorized",
+        "mode": "closed",
+        "return": 0.2483509048391852
+      },
+      {
+        "seed": 75108,
+        "condition": "dual2_rotating_hidden_silent_factorized",
+        "mode": "permuted",
+        "return": 0.2483509048391852
+      },
+      {
+        "seed": 75108,
+        "condition": "dual2_rotating_visible_live_factorized",
+        "mode": "natural",
+        "return": 0.31573149186692595
+      },
+      {
+        "seed": 75108,
+        "condition": "dual2_rotating_visible_live_factorized",
+        "mode": "closed",
+        "return": 0.17293683150076458
+      },
+      {
+        "seed": 75108,
+        "condition": "dual2_rotating_visible_live_factorized",
+        "mode": "permuted",
+        "return": 0.2500301825395186
+      },
+      {
+        "seed": 75108,
+        "condition": "dual2_rotating_visible_silent_factorized",
+        "mode": "natural",
+        "return": 0.2483509048391852
+      },
+      {
+        "seed": 75108,
+        "condition": "dual2_rotating_visible_silent_factorized",
+        "mode": "closed",
+        "return": 0.2483509048391852
+      },
+      {
+        "seed": 75108,
+        "condition": "dual2_rotating_visible_silent_factorized",
+        "mode": "permuted",
+        "return": 0.2483509048391852
+      },
+      {
+        "seed": 75108,
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "mode": "natural",
+        "return": 0.3174065118494681
+      },
+      {
+        "seed": 75108,
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "mode": "closed",
+        "return": 0.19415333638149956
+      },
+      {
+        "seed": 75108,
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "mode": "permuted",
+        "return": 0.2530967042438364
+      },
+      {
+        "seed": 75108,
+        "condition": "mono4_rotating_hidden_silent_factorized",
+        "mode": "natural",
+        "return": 0.24883082980929722
+      },
+      {
+        "seed": 75108,
+        "condition": "mono4_rotating_hidden_silent_factorized",
+        "mode": "closed",
+        "return": 0.24883082980929722
+      },
+      {
+        "seed": 75108,
+        "condition": "mono4_rotating_hidden_silent_factorized",
+        "mode": "permuted",
+        "return": 0.24883082980929722
+      }
+    ],
+    "effects": {
+      "dual2_fixed_hidden_live_factorized|natural-minus-closed": {
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "label": "natural-minus-closed",
+        "values": [
+          0.4791971842447915,
+          0.28611246744791663,
+          0.30174763997395837,
+          0.27483113606770826,
+          0.21421305338541663,
+          0.18901570638020837,
+          0.33275349934895837,
+          0.3902587890625
+        ],
+        "mean": 0.30851618448893225,
+        "ci95_t": [
+          0.2302965825362483,
+          0.3867357864416162
+        ]
+      },
+      "dual2_fixed_hidden_live_factorized|natural-minus-permuted": {
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "label": "natural-minus-permuted",
+        "values": [
+          0.4123942057291665,
+          0.25700887044270826,
+          0.20487467447916669,
+          0.1837158203125,
+          0.18010457356770831,
+          0.10258992513020837,
+          0.20650227864583337,
+          0.23783365885416663
+        ],
+        "mean": 0.22312800089518228,
+        "ci95_t": [
+          0.14852116131069484,
+          0.2977348404796697
+        ]
+      },
+      "dual2_fixed_hidden_live_factorized|natural-minus-silent": {
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "label": "natural-minus-silent",
+        "values": [
+          0.4169209798177082,
+          0.25828043619791663,
+          0.20487467447916669,
+          0.18152872721354163,
+          0.18000284830729169,
+          0.09562174479166674,
+          0.20792643229166669,
+          0.22293090820312494
+        ],
+        "mean": 0.22101084391276038,
+        "ci95_t": [
+          0.14413665772562953,
+          0.2978850300998912
+        ]
+      },
+      "dual2_fixed_hidden_live_factorized|recombined-minus-natural": {
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "label": "recombined-minus-natural",
+        "values": [
+          0.0,
+          -0.05198160807291663,
+          -0.20441691080729169,
+          -0.1312255859375,
+          0.027669270833333315,
+          -0.0037129720052083703,
+          -0.20100911458333331,
+          -0.230865478515625
+        ],
+        "mean": -0.09944279988606772,
+        "ci95_t": [
+          -0.1871851535394693,
+          -0.011700446232666126
+        ]
+      },
+      "dual2_rotating_hidden_live_entangled|natural-minus-closed": {
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "label": "natural-minus-closed",
+        "values": [
+          0.2423911390659338,
+          0.07296845373946831,
+          0.19458321307460438,
+          0.15192456962406115,
+          0.09516453203008346,
+          0.15512873594357846,
+          0.0924937587106203,
+          0.16944504238991315
+        ],
+        "mean": 0.1467624305722829,
+        "ci95_t": [
+          0.09873341658119439,
+          0.19479144456337139
+        ]
+      },
+      "dual2_rotating_hidden_live_entangled|natural-minus-permuted": {
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "label": "natural-minus-permuted",
+        "values": [
+          0.1303327919763695,
+          0.01977006948850471,
+          0.11030666000650208,
+          0.04976840892493806,
+          0.0402651325232134,
+          0.07447158035729518,
+          -0.0008544504275125875,
+          0.08978056669997259
+        ],
+        "mean": 0.06423009494366036,
+        "ci95_t": [
+          0.026508420763805447,
+          0.10195176912351528
+        ]
+      },
+      "dual2_rotating_hidden_live_entangled|natural-minus-silent": {
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "label": "natural-minus-silent",
+        "values": [
+          0.13177921599082704,
+          0.01820725777550647,
+          0.10921831098776213,
+          0.05042985063680089,
+          0.0420562761071582,
+          0.07441360341210779,
+          -0.0032908847311187706,
+          0.09196341960044419
+        ],
+        "mean": 0.06434713122243599,
+        "ci95_t": [
+          0.025875146686922187,
+          0.10281911575794979
+        ]
+      },
+      "dual2_rotating_hidden_live_entangled|recombined-minus-natural": {
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "label": "recombined-minus-natural",
+        "values": [
+          -0.09169538790540738,
+          -0.019999711534347764,
+          -0.04825943406072419,
+          -0.05081818980538977,
+          -0.07270416143078895,
+          -0.049208467751267915,
+          0.0022697146514645827,
+          -0.13635175262640456
+        ],
+        "mean": -0.05834592380785824,
+        "ci95_t": [
+          -0.0940871694911733,
+          -0.022604678124543177
+        ]
+      },
+      "dual2_rotating_hidden_live_factorized|natural-minus-closed": {
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "label": "natural-minus-closed",
+        "values": [
+          0.16944776841052936,
+          0.16761395503181192,
+          0.2230166230101198,
+          0.2489427559008446,
+          0.06265668891851991,
+          0.09245856122072674,
+          0.0284896131229479,
+          0.15884003006067968
+        ],
+        "mean": 0.1439332494595225,
+        "ci95_t": [
+          0.07970868413412714,
+          0.20815781478491785
+        ]
+      },
+      "dual2_rotating_hidden_live_factorized|natural-minus-permuted": {
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "label": "natural-minus-permuted",
+        "values": [
+          0.057343812982164954,
+          0.11280248225949696,
+          0.13727235623040127,
+          0.1510532376081133,
+          0.0068582244548432425,
+          0.011359863536098525,
+          -0.06430627460639632,
+          0.08084414963785308
+        ],
+        "mean": 0.06165348151282187,
+        "ci95_t": [
+          -4.3622312078384073e-05,
+          0.12335058533772213
+        ]
+      },
+      "dual2_rotating_hidden_live_factorized|natural-minus-silent": {
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "label": "natural-minus-silent",
+        "values": [
+          0.058948754865620234,
+          0.11241164407248172,
+          0.1380810937341815,
+          0.14758678642491962,
+          0.0071941046523282814,
+          0.01419484457043016,
+          -0.06810472442089105,
+          0.08342595672225905
+        ],
+        "mean": 0.06171730757766619,
+        "ci95_t": [
+          -0.00016353145822531334,
+          0.1235981466135577
+        ]
+      },
+      "dual2_rotating_hidden_live_factorized|recombined-minus-natural": {
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "label": "recombined-minus-natural",
+        "values": [
+          -0.033555159105333576,
+          -0.08754341333734283,
+          -0.14186647519501783,
+          -0.11081383642769066,
+          0.02633583453391125,
+          -0.023176816180744908,
+          0.06587108214524101,
+          -0.08275921692923383
+        ],
+        "mean": -0.04843850006202642,
+        "ci95_t": [
+          -0.10743169290243859,
+          0.010554692778385756
+        ]
+      },
+      "dual2_rotating_visible_live_factorized|natural-minus-closed": {
+        "condition": "dual2_rotating_visible_live_factorized",
+        "label": "natural-minus-closed",
+        "values": [
+          0.18955905057331948,
+          0.18764812367747974,
+          0.16355716681677915,
+          0.17180636700971155,
+          0.1143328512536104,
+          0.1726392399441077,
+          0.10667457541032754,
+          0.14279466036616137
+        ],
+        "mean": 0.1561265043814371,
+        "ci95_t": [
+          0.1295812668480918,
+          0.18267174191478242
+        ]
+      },
+      "dual2_rotating_visible_live_factorized|natural-minus-permuted": {
+        "condition": "dual2_rotating_visible_live_factorized",
+        "label": "natural-minus-permuted",
+        "values": [
+          0.07702648140891871,
+          0.12991200386160667,
+          0.0790369957124617,
+          0.07170010698598889,
+          0.0572133208266527,
+          0.09017513961041368,
+          0.011240369402425399,
+          0.06570130932740736
+        ],
+        "mean": 0.0727507158919844,
+        "ci95_t": [
+          0.045010432877998816,
+          0.10049099890596998
+        ]
+      },
+      "dual2_rotating_visible_live_factorized|natural-minus-silent": {
+        "condition": "dual2_rotating_visible_live_factorized",
+        "label": "natural-minus-silent",
+        "values": [
+          0.07906003702841036,
+          0.13244581271814954,
+          0.07862163754084087,
+          0.07045039753378657,
+          0.05887026698741876,
+          0.09437552329381113,
+          0.010080237866488595,
+          0.06738058702774075
+        ],
+        "mean": 0.07391056249958082,
+        "ci95_t": [
+          0.04520680708762005,
+          0.10261431791154159
+        ]
+      },
+      "dual2_rotating_visible_live_factorized|recombined-minus-natural": {
+        "condition": "dual2_rotating_visible_live_factorized",
+        "label": "recombined-minus-natural",
+        "values": [
+          -0.03814717857536809,
+          -0.08683991210426967,
+          -0.08688210843616176,
+          -0.01966667403551914,
+          -0.03290716805437632,
+          -0.03794795147009361,
+          -0.03712707442557481,
+          -0.027097321727389323
+        ],
+        "mean": -0.04582692360359409,
+        "ci95_t": [
+          -0.06764583216014838,
+          -0.024008015047039793
+        ]
+      },
+      "mono4_rotating_hidden_live_factorized|natural-minus-closed": {
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "label": "natural-minus-closed",
+        "values": [
+          0.18279104075094374,
+          0.20583019549846213,
+          0.16081992381352306,
+          0.16658746169949745,
+          0.14611469282170647,
+          0.10304156748048665,
+          0.14035481321464688,
+          0.12325317546796855
+        ],
+        "mean": 0.15359910884340436,
+        "ci95_t": [
+          0.1262122941615185,
+          0.18098592352529022
+        ]
+      },
+      "mono4_rotating_hidden_live_factorized|natural-minus-permuted": {
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "label": "natural-minus-permuted",
+        "values": [
+          0.1300509949269864,
+          0.10891242299492992,
+          0.06396789786446483,
+          0.06990709879469886,
+          0.09304389944964234,
+          0.03918847437383716,
+          0.051120478293242066,
+          0.06430980760563171
+        ],
+        "mean": 0.07756263428792916,
+        "ci95_t": [
+          0.05194938463742238,
+          0.10317588393843594
+        ]
+      },
+      "mono4_rotating_hidden_live_factorized|natural-minus-silent": {
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "label": "natural-minus-silent",
+        "values": [
+          0.12759632390034004,
+          0.1141317576114339,
+          0.06811227977621029,
+          0.07349799408959287,
+          0.0913223201586647,
+          0.03985622871175301,
+          0.055721320636074406,
+          0.0685756820401709
+        ],
+        "mean": 0.07985173836553001,
+        "ci95_t": [
+          0.05522219548201528,
+          0.10448128124904475
+        ]
+      }
+    },
+    "codebook": [
+      {
+        "seed": 75101,
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 1.0,
+        "semantic_success_min": 1.0
+      },
+      {
+        "seed": 75101,
+        "condition": "dual2_fixed_hidden_silent_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.34375,
+        "semantic_success_min": 0.25
+      },
+      {
+        "seed": 75101,
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.65625,
+        "semantic_success_min": 0.375
+      },
+      {
+        "seed": 75101,
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.5703125,
+        "semantic_success_min": 0.375
+      },
+      {
+        "seed": 75101,
+        "condition": "dual2_rotating_hidden_silent_entangled",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.3359375,
+        "semantic_success_min": 0.125
+      },
+      {
+        "seed": 75101,
+        "condition": "dual2_rotating_hidden_silent_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.34375,
+        "semantic_success_min": 0.125
+      },
+      {
+        "seed": 75101,
+        "condition": "dual2_rotating_visible_live_factorized",
+        "sender_sequence_agreement": 0.5,
+        "semantic_success_mean": 0.59375,
+        "semantic_success_min": 0.375
+      },
+      {
+        "seed": 75101,
+        "condition": "dual2_rotating_visible_silent_factorized",
+        "sender_sequence_agreement": 0.4375,
+        "semantic_success_mean": 0.3203125,
+        "semantic_success_min": 0.125
+      },
+      {
+        "seed": 75101,
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.65625,
+        "semantic_success_min": 0.375
+      },
+      {
+        "seed": 75101,
+        "condition": "mono4_rotating_hidden_silent_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.3984375,
+        "semantic_success_min": 0.125
+      },
+      {
+        "seed": 75102,
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.8125,
+        "semantic_success_min": 0.625
+      },
+      {
+        "seed": 75102,
+        "condition": "dual2_fixed_hidden_silent_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.3125,
+        "semantic_success_min": 0.125
+      },
+      {
+        "seed": 75102,
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.5234375,
+        "semantic_success_min": 0.25
+      },
+      {
+        "seed": 75102,
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.6328125,
+        "semantic_success_min": 0.25
+      },
+      {
+        "seed": 75102,
+        "condition": "dual2_rotating_hidden_silent_entangled",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.296875,
+        "semantic_success_min": 0.0
+      },
+      {
+        "seed": 75102,
+        "condition": "dual2_rotating_hidden_silent_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.3125,
+        "semantic_success_min": 0.0
+      },
+      {
+        "seed": 75102,
+        "condition": "dual2_rotating_visible_live_factorized",
+        "sender_sequence_agreement": 0.4375,
+        "semantic_success_mean": 0.65625,
+        "semantic_success_min": 0.5
+      },
+      {
+        "seed": 75102,
+        "condition": "dual2_rotating_visible_silent_factorized",
+        "sender_sequence_agreement": 0.5,
+        "semantic_success_mean": 0.3828125,
+        "semantic_success_min": 0.0
+      },
+      {
+        "seed": 75102,
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.6328125,
+        "semantic_success_min": 0.375
+      },
+      {
+        "seed": 75102,
+        "condition": "mono4_rotating_hidden_silent_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.296875,
+        "semantic_success_min": 0.125
+      },
+      {
+        "seed": 75103,
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.75,
+        "semantic_success_min": 0.5
+      },
+      {
+        "seed": 75103,
+        "condition": "dual2_fixed_hidden_silent_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.21875,
+        "semantic_success_min": 0.0
+      },
+      {
+        "seed": 75103,
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.6328125,
+        "semantic_success_min": 0.375
+      },
+      {
+        "seed": 75103,
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.6640625,
+        "semantic_success_min": 0.5
+      },
+      {
+        "seed": 75103,
+        "condition": "dual2_rotating_hidden_silent_entangled",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.375,
+        "semantic_success_min": 0.0
+      },
+      {
+        "seed": 75103,
+        "condition": "dual2_rotating_hidden_silent_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.3203125,
+        "semantic_success_min": 0.0
+      },
+      {
+        "seed": 75103,
+        "condition": "dual2_rotating_visible_live_factorized",
+        "sender_sequence_agreement": 0.4375,
+        "semantic_success_mean": 0.59375,
+        "semantic_success_min": 0.125
+      },
+      {
+        "seed": 75103,
+        "condition": "dual2_rotating_visible_silent_factorized",
+        "sender_sequence_agreement": 0.3125,
+        "semantic_success_mean": 0.3984375,
+        "semantic_success_min": 0.0
+      },
+      {
+        "seed": 75103,
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.578125,
+        "semantic_success_min": 0.25
+      },
+      {
+        "seed": 75103,
+        "condition": "mono4_rotating_hidden_silent_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.34375,
+        "semantic_success_min": 0.0
+      },
+      {
+        "seed": 75104,
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.71875,
+        "semantic_success_min": 0.625
+      },
+      {
+        "seed": 75104,
+        "condition": "dual2_fixed_hidden_silent_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.375,
+        "semantic_success_min": 0.125
+      },
+      {
+        "seed": 75104,
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.5625,
+        "semantic_success_min": 0.25
+      },
+      {
+        "seed": 75104,
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.6796875,
+        "semantic_success_min": 0.5
+      },
+      {
+        "seed": 75104,
+        "condition": "dual2_rotating_hidden_silent_entangled",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.359375,
+        "semantic_success_min": 0.0
+      },
+      {
+        "seed": 75104,
+        "condition": "dual2_rotating_hidden_silent_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.3984375,
+        "semantic_success_min": 0.125
+      },
+      {
+        "seed": 75104,
+        "condition": "dual2_rotating_visible_live_factorized",
+        "sender_sequence_agreement": 0.4375,
+        "semantic_success_mean": 0.5859375,
+        "semantic_success_min": 0.125
+      },
+      {
+        "seed": 75104,
+        "condition": "dual2_rotating_visible_silent_factorized",
+        "sender_sequence_agreement": 0.3125,
+        "semantic_success_mean": 0.3984375,
+        "semantic_success_min": 0.125
+      },
+      {
+        "seed": 75104,
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.5859375,
+        "semantic_success_min": 0.125
+      },
+      {
+        "seed": 75104,
+        "condition": "mono4_rotating_hidden_silent_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.28125,
+        "semantic_success_min": 0.0
+      },
+      {
+        "seed": 75105,
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.71875,
+        "semantic_success_min": 0.625
+      },
+      {
+        "seed": 75105,
+        "condition": "dual2_fixed_hidden_silent_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.3125,
+        "semantic_success_min": 0.25
+      },
+      {
+        "seed": 75105,
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.546875,
+        "semantic_success_min": 0.375
+      },
+      {
+        "seed": 75105,
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.5078125,
+        "semantic_success_min": 0.0
+      },
+      {
+        "seed": 75105,
+        "condition": "dual2_rotating_hidden_silent_entangled",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.34375,
+        "semantic_success_min": 0.125
+      },
+      {
+        "seed": 75105,
+        "condition": "dual2_rotating_hidden_silent_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.328125,
+        "semantic_success_min": 0.125
+      },
+      {
+        "seed": 75105,
+        "condition": "dual2_rotating_visible_live_factorized",
+        "sender_sequence_agreement": 0.3125,
+        "semantic_success_mean": 0.5703125,
+        "semantic_success_min": 0.375
+      },
+      {
+        "seed": 75105,
+        "condition": "dual2_rotating_visible_silent_factorized",
+        "sender_sequence_agreement": 0.25,
+        "semantic_success_mean": 0.390625,
+        "semantic_success_min": 0.0
+      },
+      {
+        "seed": 75105,
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.609375,
+        "semantic_success_min": 0.25
+      },
+      {
+        "seed": 75105,
+        "condition": "mono4_rotating_hidden_silent_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.328125,
+        "semantic_success_min": 0.125
+      },
+      {
+        "seed": 75106,
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.625,
+        "semantic_success_min": 0.375
+      },
+      {
+        "seed": 75106,
+        "condition": "dual2_fixed_hidden_silent_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.3125,
+        "semantic_success_min": 0.25
+      },
+      {
+        "seed": 75106,
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.59375,
+        "semantic_success_min": 0.25
+      },
+      {
+        "seed": 75106,
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.515625,
+        "semantic_success_min": 0.25
+      },
+      {
+        "seed": 75106,
+        "condition": "dual2_rotating_hidden_silent_entangled",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.328125,
+        "semantic_success_min": 0.0
+      },
+      {
+        "seed": 75106,
+        "condition": "dual2_rotating_hidden_silent_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.3203125,
+        "semantic_success_min": 0.0
+      },
+      {
+        "seed": 75106,
+        "condition": "dual2_rotating_visible_live_factorized",
+        "sender_sequence_agreement": 0.3125,
+        "semantic_success_mean": 0.609375,
+        "semantic_success_min": 0.25
+      },
+      {
+        "seed": 75106,
+        "condition": "dual2_rotating_visible_silent_factorized",
+        "sender_sequence_agreement": 0.5,
+        "semantic_success_mean": 0.25,
+        "semantic_success_min": 0.0
+      },
+      {
+        "seed": 75106,
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.546875,
+        "semantic_success_min": 0.25
+      },
+      {
+        "seed": 75106,
+        "condition": "mono4_rotating_hidden_silent_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.296875,
+        "semantic_success_min": 0.0
+      },
+      {
+        "seed": 75107,
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.75,
+        "semantic_success_min": 0.5
+      },
+      {
+        "seed": 75107,
+        "condition": "dual2_fixed_hidden_silent_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.3125,
+        "semantic_success_min": 0.25
+      },
+      {
+        "seed": 75107,
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.5,
+        "semantic_success_min": 0.25
+      },
+      {
+        "seed": 75107,
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.421875,
+        "semantic_success_min": 0.125
+      },
+      {
+        "seed": 75107,
+        "condition": "dual2_rotating_hidden_silent_entangled",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.296875,
+        "semantic_success_min": 0.0
+      },
+      {
+        "seed": 75107,
+        "condition": "dual2_rotating_hidden_silent_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.21875,
+        "semantic_success_min": 0.0
+      },
+      {
+        "seed": 75107,
+        "condition": "dual2_rotating_visible_live_factorized",
+        "sender_sequence_agreement": 0.3125,
+        "semantic_success_mean": 0.515625,
+        "semantic_success_min": 0.125
+      },
+      {
+        "seed": 75107,
+        "condition": "dual2_rotating_visible_silent_factorized",
+        "sender_sequence_agreement": 0.4375,
+        "semantic_success_mean": 0.296875,
+        "semantic_success_min": 0.0
+      },
+      {
+        "seed": 75107,
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.5625,
+        "semantic_success_min": 0.25
+      },
+      {
+        "seed": 75107,
+        "condition": "mono4_rotating_hidden_silent_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.3203125,
+        "semantic_success_min": 0.125
+      },
+      {
+        "seed": 75108,
+        "condition": "dual2_fixed_hidden_live_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.78125,
+        "semantic_success_min": 0.5
+      },
+      {
+        "seed": 75108,
+        "condition": "dual2_fixed_hidden_silent_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.40625,
+        "semantic_success_min": 0.125
+      },
+      {
+        "seed": 75108,
+        "condition": "dual2_rotating_hidden_live_entangled",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.609375,
+        "semantic_success_min": 0.25
+      },
+      {
+        "seed": 75108,
+        "condition": "dual2_rotating_hidden_live_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.59375,
+        "semantic_success_min": 0.25
+      },
+      {
+        "seed": 75108,
+        "condition": "dual2_rotating_hidden_silent_entangled",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.4140625,
+        "semantic_success_min": 0.125
+      },
+      {
+        "seed": 75108,
+        "condition": "dual2_rotating_hidden_silent_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.3125,
+        "semantic_success_min": 0.125
+      },
+      {
+        "seed": 75108,
+        "condition": "dual2_rotating_visible_live_factorized",
+        "sender_sequence_agreement": 0.4375,
+        "semantic_success_mean": 0.578125,
+        "semantic_success_min": 0.25
+      },
+      {
+        "seed": 75108,
+        "condition": "dual2_rotating_visible_silent_factorized",
+        "sender_sequence_agreement": 0.4375,
+        "semantic_success_mean": 0.34375,
+        "semantic_success_min": 0.125
+      },
+      {
+        "seed": 75108,
+        "condition": "mono4_rotating_hidden_live_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.578125,
+        "semantic_success_min": 0.375
+      },
+      {
+        "seed": 75108,
+        "condition": "mono4_rotating_hidden_silent_factorized",
+        "sender_sequence_agreement": 1.0,
+        "semantic_success_mean": 0.40625,
+        "semantic_success_min": 0.125
+      }
+    ]
+  },
+  "audit_summary": {
+    "schema": "compositional_signaling_audit_v1",
+    "status": "passed",
+    "runs": 80,
+    "training_log_rows": 24000,
+    "final_checkpoints": 80,
+    "max_abs_replay_error": 0.0,
+    "live_silent_trajectory_pairs": 12000
+  },
+  "raw_results_sha256": "ef9126f04e931aff825f726e0c0d8969159f4b44fac05346296f3b71a2f260fb",
+  "raw_results_path": "/tmp/compositional_formal2/execution/results.json",
+  "raw_execution_retained": false
+}

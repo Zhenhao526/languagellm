@@ -1,0 +1,95 @@
+{
+  "schema": "compositional_signaling_v1",
+  "prepared_sha256": "36534104aeda37c56b42969bbcecf98340a1ba480ea405a4bb6f64b5e5227411",
+  "sources": {
+    "research_program/compositional_signaling_study/__init__.py": "7fd3cf5aba22f3cd98c942dbd345c192e40e6514c3008a4c85b8d23dc0f2883b",
+    "research_program/compositional_signaling_study/README.md": "c058e97852cbdd46bd2eeba0454581298226967ba16f0d5db2870008a9f89092",
+    "research_program/compositional_signaling_study/design.py": "93c5cad7d18f3f9e0878950945c511775a8ca557cc0aa09414bce60fbe9adc50",
+    "research_program/compositional_signaling_study/policy.py": "379c35bff921f71f18df4a87f51b10957902f78f3c003b5d9502448772bb0b91",
+    "research_program/compositional_signaling_study/environment.py": "260dad05b035adc517a8fd47936ac244b95d9b9f0ffef9fe7126704640b3b948",
+    "research_program/compositional_signaling_study/runner.py": "4d1ad01637013163ec42019eca0c3d91c0c3f9a30f72b91f5b090956d560f88d",
+    "research_program/compositional_signaling_study/aggregate.py": "b4fe99570f358ddece69d0dcf7674fe06efe1df64aed14975530299c85fc6cd5",
+    "research_program/compositional_signaling_study/audit.py": "9f02e1c5040f8b9bbd9a9337816df0c53c1657fce00719d9e1a6e9dd5687fe11",
+    "research_program/compositional_signaling_study/plan.md": "c6bfe1673abd1132d102f1b8671f29f520ed9f6350f88e777812e2e849c52ec3",
+    "research_program/compositional_signaling_study/tests/test_game.py": "04f85bc97a3e0a6f325459776472b46988b8c96670c820792fdef55051071f66"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.2.6"
+  },
+  "config": {
+    "schema": "compositional_signaling_v1",
+    "horizon": 6,
+    "message_slots": 2,
+    "action_start": 2,
+    "subtasks": 2,
+    "steps_per_subtask": 2,
+    "forms": {
+      "mono4": {
+        "alphabet_size": 4,
+        "length": 1
+      },
+      "dual2": {
+        "alphabet_size": 2,
+        "length": 2
+      }
+    },
+    "null_message": -1,
+    "actions": [
+      "wait",
+      "take_site0",
+      "take_site1"
+    ],
+    "workers": 4,
+    "seeds": [
+      75101,
+      75102,
+      75103,
+      75104,
+      75105,
+      75106,
+      75107,
+      75108
+    ],
+    "conditions": [
+      "mono4_rotating_hidden_live_factorized",
+      "mono4_rotating_hidden_silent_factorized",
+      "dual2_rotating_hidden_live_factorized",
+      "dual2_rotating_hidden_silent_factorized",
+      "dual2_rotating_hidden_live_entangled",
+      "dual2_rotating_hidden_silent_entangled",
+      "dual2_rotating_visible_live_factorized",
+      "dual2_rotating_visible_silent_factorized",
+      "dual2_fixed_hidden_live_factorized",
+      "dual2_fixed_hidden_silent_factorized"
+    ],
+    "updates": 3000,
+    "batch_size": 512,
+    "learning_rate": 0.08,
+    "entropy_initial": 0.01,
+    "entropy_zero_after": 5000,
+    "capacity": 2,
+    "task": "two binary private factors drive two resource sub-tasks",
+    "worker_observation": "worker sees each sub-task local site-0 type; site 1 is its complement; goal is hidden",
+    "partner_visibility": "hidden removes partner id; visible permits partner-specific sequences",
+    "pairing": "worlds, goals, partner draws and action/message uniforms are shared across form, task, partner, visibility and channel arms",
+    "controls": [
+      "from-scratch silent",
+      "closed evaluation",
+      "whole-sequence permutation",
+      "slot recombination readout"
+    ],
+    "no_teacher_or_language_prior": true,
+    "compositionality_test": "dual2 token slots are recombined from factor-matched sender contexts on held-out worlds",
+    "checkpoints": [
+      0,
+      500,
+      1000,
+      2000,
+      3000
+    ],
+    "runtime_policy": "float64 NumPy only",
+    "runs": 80,
+    "evaluation_episodes_per_worker": 4096
+  }
+}

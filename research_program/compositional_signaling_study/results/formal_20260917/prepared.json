@@ -1,0 +1,75 @@
+{
+  "schema": "compositional_signaling_v1",
+  "horizon": 6,
+  "message_slots": 2,
+  "action_start": 2,
+  "subtasks": 2,
+  "steps_per_subtask": 2,
+  "forms": {
+    "mono4": {
+      "alphabet_size": 4,
+      "length": 1
+    },
+    "dual2": {
+      "alphabet_size": 2,
+      "length": 2
+    }
+  },
+  "null_message": -1,
+  "actions": [
+    "wait",
+    "take_site0",
+    "take_site1"
+  ],
+  "workers": 4,
+  "seeds": [
+    75101,
+    75102,
+    75103,
+    75104,
+    75105,
+    75106,
+    75107,
+    75108
+  ],
+  "conditions": [
+    "mono4_rotating_hidden_live_factorized",
+    "mono4_rotating_hidden_silent_factorized",
+    "dual2_rotating_hidden_live_factorized",
+    "dual2_rotating_hidden_silent_factorized",
+    "dual2_rotating_hidden_live_entangled",
+    "dual2_rotating_hidden_silent_entangled",
+    "dual2_rotating_visible_live_factorized",
+    "dual2_rotating_visible_silent_factorized",
+    "dual2_fixed_hidden_live_factorized",
+    "dual2_fixed_hidden_silent_factorized"
+  ],
+  "updates": 3000,
+  "batch_size": 512,
+  "learning_rate": 0.08,
+  "entropy_initial": 0.01,
+  "entropy_zero_after": 5000,
+  "capacity": 2,
+  "task": "two binary private factors drive two resource sub-tasks",
+  "worker_observation": "worker sees each sub-task local site-0 type; site 1 is its complement; goal is hidden",
+  "partner_visibility": "hidden removes partner id; visible permits partner-specific sequences",
+  "pairing": "worlds, goals, partner draws and action/message uniforms are shared across form, task, partner, visibility and channel arms",
+  "controls": [
+    "from-scratch silent",
+    "closed evaluation",
+    "whole-sequence permutation",
+    "slot recombination readout"
+  ],
+  "no_teacher_or_language_prior": true,
+  "compositionality_test": "dual2 token slots are recombined from factor-matched sender contexts on held-out worlds",
+  "checkpoints": [
+    0,
+    500,
+    1000,
+    2000,
+    3000
+  ],
+  "runtime_policy": "float64 NumPy only",
+  "runs": 80,
+  "evaluation_episodes_per_worker": 4096
+}

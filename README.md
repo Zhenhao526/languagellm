@@ -4,6 +4,7 @@
 
 - [完整研究报告](研究报告_共同符号形成机制_2026-09-17.md)
 - [tabular signaling 源代码与紧凑结果](research_program/tabular_signaling_study/)
+- [compositional signaling 预实验与紧凑结果](research_program/compositional_signaling_study/)
 - [population signaling 源代码与紧凑结果](research_program/population_signaling_study/)
 - [本轮同步与清理说明](SYNC_2026-09-17.md)
 
