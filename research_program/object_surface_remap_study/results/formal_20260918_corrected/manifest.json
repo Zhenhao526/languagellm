@@ -1,0 +1,84 @@
+{
+  "schema": "object_surface_remap_archive_manifest_v2",
+  "created_utc": "2026-09-17T19:31:48.177387+00:00",
+  "source_commit": "9a8a3bdda609773a884cd0729dda0d5874e12a08",
+  "validity": "corrected_permutation_stream_audited_compact_archive",
+  "archive": "research_program/object_surface_remap_study/results/formal_20260918_corrected",
+  "files": {
+    "README.md": {
+      "bytes": 1131,
+      "sha256": "b6766357295fa2980594a657aeaff410f008083be0478a773a5e2266c4e827db"
+    },
+    "aggregate.json": {
+      "bytes": 316321,
+      "sha256": "cd7482b64398b7e71207af228ba8b7073ecb39b24313f19a37d4ffeb6f09034a"
+    },
+    "aggregate.md": {
+      "bytes": 12230,
+      "sha256": "14c5968d2f119bd0f1332090d11d07dd2d05668e683422cf7795a173522496b1"
+    },
+    "audit.json": {
+      "bytes": 1766,
+      "sha256": "e926654a49a9d9c45a4777db3374ba31b5d086334b33cf25e2a915f1fc7516de"
+    },
+    "audit_part1.json": {
+      "bytes": 341,
+      "sha256": "9297ac4239c7f053ffed0c95c49643faa1b2185ae65fd2dc8751f890e8b5e515"
+    },
+    "audit_part2.json": {
+      "bytes": 341,
+      "sha256": "9297ac4239c7f053ffed0c95c49643faa1b2185ae65fd2dc8751f890e8b5e515"
+    },
+    "audit_part3.json": {
+      "bytes": 341,
+      "sha256": "9297ac4239c7f053ffed0c95c49643faa1b2185ae65fd2dc8751f890e8b5e515"
+    },
+    "compact_results.json": {
+      "bytes": 336858,
+      "sha256": "05adcddd0d439ba9b700754336fa99a29fc23b46b707f0aadfc7a39e549b888a"
+    },
+    "freeze.json": {
+      "bytes": 177,
+      "sha256": "9944f5403d6e764254ee092a553cb83ac0e1b84f9213ca9ad6184c30112655a2"
+    },
+    "parent_shift.json": {
+      "bytes": 17255,
+      "sha256": "866a179a557c01f77407a45d24248f2eb64152cd422dc62fb618f366859cdd20"
+    },
+    "plan.json": {
+      "bytes": 5302,
+      "sha256": "2c39380ac97da39b71aaf15171abbdffc41dab14fff0970c2cde4bc646c63a21"
+    },
+    "prepared.json": {
+      "bytes": 3471,
+      "sha256": "a381218fb0ec6d66b36b168c82f4b06a9134e85e3430f0037e2710ee04f17ed6"
+    },
+    "source_commit.txt": {
+      "bytes": 41,
+      "sha256": "43f88906d7b9b078c20808883167038720c47a61958fc759076dc436a9f225cb"
+    },
+    "validity.md": {
+      "bytes": 779,
+      "sha256": "2933f50236a24573fa225ef4adef27d6c1328d006cc5c97a660ac4c2c3e8d97f"
+    }
+  },
+  "counts": {
+    "seeds": 9,
+    "parent_runs": 18,
+    "child_runs": 216,
+    "raw_training_log_rows": 702000,
+    "checkpoints": 936,
+    "paired_live_silent_rows": 324000,
+    "paired_mapping_rows": 324000,
+    "raw_execution_retained_locally": false,
+    "archive_files": 14,
+    "archive_bytes": 696354
+  },
+  "raw_execution_paths": [
+    "/private/tmp/osr_remap_v4_part1",
+    "/private/tmp/osr_remap_v4_part2",
+    "/private/tmp/osr_remap_v4_part3"
+  ],
+  "raw_execution_retained_locally": false,
+  "receipt_excluded_from_manifest": "receipt.json"
+}

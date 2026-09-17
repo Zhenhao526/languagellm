@@ -284,5 +284,5 @@
   "total_bytes_removed": 1544335853,
   "retained_local": "source code, freeze/plan, compact results, audit bundle, report and local NumPy runtime",
   "remote_main_commit_verified_after_sync": "1f4b63d14593b4f7c4d9c33092b2b3ecb3e148b6",
-  "remote_verification_note": "Correct repository is languagellm.git; compact archive is prepared for push."
+  "remote_verification_note": "The corrected archive is tracked in languagellm.git; full per-update logs were removed after compact archive and replay audit verification."
 }
