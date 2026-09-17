@@ -1,9 +1,9 @@
 {
-  "schema": "local_cleanup_receipt_20260917_v8",
-  "timestamp_local": "2026-09-17",
+  "schema": "local_cleanup_receipt_20260918_v9",
+  "timestamp_local": "2026-09-18",
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
-  "remote_commit_verified_after_sync": "e690a23",
+  "remote_commit_verified_after_sync": "3ac403c6896e35ae3b02bc63cdadc2c3f06e125d",
   "remote_main_verified": true,
   "compact_archives_verified": {
     "research_program/action_dependent_signaling_study/results/formal_20260917": {
@@ -61,6 +61,10 @@
     "research_program/ternary_composition_study/results/formal_20260917": {
       "files": 8,
       "bytes": 749112
+    },
+    "research_program/repetition_pressure_study/results/formal_20260918": {
+      "files": 8,
+      "bytes": 6660206
     }
   },
   "raw_execution_trees_removed": {
@@ -174,6 +178,122 @@
     },
     "/tmp/archive_srs.py": {
       "present": false
+    },
+    "/private/tmp/repetition_formal_part1": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_formal_part2": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_formal_part3": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_formal_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_formal_prepared2": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_formal_prepared3": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_formal_prepared_check": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_formal_merged": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_formal_aggregate.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_formal_aggregate.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_formal_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_audit_part1.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_audit_part2.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_audit_part3.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_smoke_audit3.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_smoke_out2": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_smoke_out3": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_pressure_work": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_workspace": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/rps_balanced_20260917_out": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/rps_balanced_20260917_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/rps_debug_out": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/rps_merge_20260918": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/rps_merged_analysis.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/rps_merged_analysis.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/rps_part1_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/rps_part2_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/rps_part3_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/merge_repetition.py": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
     }
   },
   "temporary_raw_trees_removed": [
@@ -223,7 +343,36 @@
     "/private/tmp/ecs_compact_corrected.py",
     "/private/tmp/ecs_corrected_runner.log",
     "research_program/shared_redundancy_study/__pycache__",
-    "research_program/error_correcting_signaling_study/__pycache__"
+    "research_program/error_correcting_signaling_study/__pycache__",
+    "/private/tmp/repetition_formal_part1",
+    "/private/tmp/repetition_formal_part2",
+    "/private/tmp/repetition_formal_part3",
+    "/private/tmp/repetition_formal_prepared",
+    "/private/tmp/repetition_formal_prepared2",
+    "/private/tmp/repetition_formal_prepared3",
+    "/private/tmp/repetition_formal_prepared_check",
+    "/private/tmp/repetition_formal_merged",
+    "/private/tmp/repetition_formal_aggregate.json",
+    "/private/tmp/repetition_formal_aggregate.md",
+    "/private/tmp/repetition_formal_audit.json",
+    "/private/tmp/repetition_audit_part1.json",
+    "/private/tmp/repetition_audit_part2.json",
+    "/private/tmp/repetition_audit_part3.json",
+    "/private/tmp/repetition_smoke_audit3.json",
+    "/private/tmp/repetition_smoke_out2",
+    "/private/tmp/repetition_smoke_out3",
+    "/private/tmp/repetition_pressure_work",
+    "/private/tmp/repetition_workspace",
+    "/private/tmp/rps_balanced_20260917_out",
+    "/private/tmp/rps_balanced_20260917_prepared",
+    "/private/tmp/rps_debug_out",
+    "/private/tmp/rps_merge_20260918",
+    "/private/tmp/rps_merged_analysis.json",
+    "/private/tmp/rps_merged_analysis.md",
+    "/private/tmp/rps_part1_audit.json",
+    "/private/tmp/rps_part2_audit.json",
+    "/private/tmp/rps_part3_audit.json",
+    "/private/tmp/merge_repetition.py"
   ],
   "tracked_paths_pruned_in_commit": 8338,
   "git_history_preserved": true,
@@ -311,8 +460,8 @@
     }
   },
   "local_environment": {
-    "files": 895,
-    "bytes": 73154917
+    "files": 1313,
+    "bytes": 122672453
   },
   "retention_policy": "source code, frozen plans, compact results, audit receipts, final report and local runtime only; raw training logs, checkpoints, formal execution trees and temporary compaction scripts are not kept locally",
   "additional_cleanup": {
@@ -711,6 +860,53 @@
       "status": "rejected_before_analysis",
       "reason": "theoretical maximum return 4/7 = 0.5714 was below functional threshold 0.60",
       "data_retained": false
+    },
+    "research_program/repetition_pressure_study/results/invalid_20260917/unbalanced_unique4_partial_20260917": {
+      "status": "stopped_before_analysis",
+      "reason": "unbalanced unique4 fourth meaning a&b had 25% target-one rate; replaced by balanced 1-(a xor b)",
+      "data_retained": "compact receipt only"
     }
+  },
+  "current_batch": {
+    "removed_file_or_tree_count": 29,
+    "removed_bytes": 4705252814,
+    "paths": [
+      "/private/tmp/repetition_formal_part1",
+      "/private/tmp/repetition_formal_part2",
+      "/private/tmp/repetition_formal_part3",
+      "/private/tmp/repetition_formal_prepared",
+      "/private/tmp/repetition_formal_prepared2",
+      "/private/tmp/repetition_formal_prepared3",
+      "/private/tmp/repetition_formal_prepared_check",
+      "/private/tmp/repetition_formal_merged",
+      "/private/tmp/repetition_formal_aggregate.json",
+      "/private/tmp/repetition_formal_aggregate.md",
+      "/private/tmp/repetition_formal_audit.json",
+      "/private/tmp/repetition_audit_part1.json",
+      "/private/tmp/repetition_audit_part2.json",
+      "/private/tmp/repetition_audit_part3.json",
+      "/private/tmp/repetition_smoke_audit3.json",
+      "/private/tmp/repetition_smoke_out2",
+      "/private/tmp/repetition_smoke_out3",
+      "/private/tmp/repetition_pressure_work",
+      "/private/tmp/repetition_workspace",
+      "/private/tmp/rps_balanced_20260917_out",
+      "/private/tmp/rps_balanced_20260917_prepared",
+      "/private/tmp/rps_debug_out",
+      "/private/tmp/rps_merge_20260918",
+      "/private/tmp/rps_merged_analysis.json",
+      "/private/tmp/rps_merged_analysis.md",
+      "/private/tmp/rps_part1_audit.json",
+      "/private/tmp/rps_part2_audit.json",
+      "/private/tmp/rps_part3_audit.json",
+      "/private/tmp/merge_repetition.py"
+    ],
+    "verified_after_remote_commit": "3ac403c6896e35ae3b02bc63cdadc2c3f06e125d",
+    "archive": "research_program/repetition_pressure_study/results/formal_20260918",
+    "archive_stats": {
+      "files": 8,
+      "bytes": 6660206
+    },
+    "retained_invalid_record": "research_program/repetition_pressure_study/results/invalid_20260917/unbalanced_unique4_partial_20260917"
   }
 }

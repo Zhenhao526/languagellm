@@ -1,10 +1,10 @@
 {
-  "generated_at_local": "2026-09-17",
+  "generated_at_local": "2026-09-18",
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
-  "remote_commit": "e690a23",
+  "remote_commit": "3ac403c6896e35ae3b02bc63cdadc2c3f06e125d",
   "remote_main_verified": true,
-  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts",
+  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt",
   "retained_paths": {
     "research_program/action_dependent_signaling_study": {
       "files": 23,
@@ -85,6 +85,10 @@
     "研究报告_共同符号形成机制_2026-09-17.md": {
       "files": 0,
       "bytes": 0
+    },
+    "research_program/repetition_pressure_study": {
+      "files": 21,
+      "bytes": 6717003
     }
   },
   "compact_archives": {
@@ -143,6 +147,10 @@
     "research_program/ternary_composition_study/results/formal_20260917": {
       "files": 8,
       "bytes": 749112
+    },
+    "research_program/repetition_pressure_study/results/formal_20260918": {
+      "files": 8,
+      "bytes": 6660206
     }
   },
   "raw_execution_trees": {
@@ -256,6 +264,122 @@
     },
     "/tmp/archive_srs.py": {
       "present": false
+    },
+    "/private/tmp/repetition_formal_part1": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_formal_part2": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_formal_part3": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_formal_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_formal_prepared2": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_formal_prepared3": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_formal_prepared_check": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_formal_merged": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_formal_aggregate.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_formal_aggregate.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_formal_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_audit_part1.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_audit_part2.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_audit_part3.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_smoke_audit3.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_smoke_out2": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_smoke_out3": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_pressure_work": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_workspace": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/rps_balanced_20260917_out": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/rps_balanced_20260917_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/rps_debug_out": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/rps_merge_20260918": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/rps_merged_analysis.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/rps_merged_analysis.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/rps_part1_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/rps_part2_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/rps_part3_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/merge_repetition.py": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
     }
   },
   "temporary_raw_trees_removed": [
@@ -321,18 +445,47 @@
     "/tmp/srs_formal_analysis.json",
     "/tmp/srs_formal_analysis.md",
     "/tmp/archive_ecs.py",
-    "/tmp/archive_srs.py"
+    "/tmp/archive_srs.py",
+    "/private/tmp/repetition_formal_part1",
+    "/private/tmp/repetition_formal_part2",
+    "/private/tmp/repetition_formal_part3",
+    "/private/tmp/repetition_formal_prepared",
+    "/private/tmp/repetition_formal_prepared2",
+    "/private/tmp/repetition_formal_prepared3",
+    "/private/tmp/repetition_formal_prepared_check",
+    "/private/tmp/repetition_formal_merged",
+    "/private/tmp/repetition_formal_aggregate.json",
+    "/private/tmp/repetition_formal_aggregate.md",
+    "/private/tmp/repetition_formal_audit.json",
+    "/private/tmp/repetition_audit_part1.json",
+    "/private/tmp/repetition_audit_part2.json",
+    "/private/tmp/repetition_audit_part3.json",
+    "/private/tmp/repetition_smoke_audit3.json",
+    "/private/tmp/repetition_smoke_out2",
+    "/private/tmp/repetition_smoke_out3",
+    "/private/tmp/repetition_pressure_work",
+    "/private/tmp/repetition_workspace",
+    "/private/tmp/rps_balanced_20260917_out",
+    "/private/tmp/rps_balanced_20260917_prepared",
+    "/private/tmp/rps_debug_out",
+    "/private/tmp/rps_merge_20260918",
+    "/private/tmp/rps_merged_analysis.json",
+    "/private/tmp/rps_merged_analysis.md",
+    "/private/tmp/rps_part1_audit.json",
+    "/private/tmp/rps_part2_audit.json",
+    "/private/tmp/rps_part3_audit.json",
+    "/private/tmp/merge_repetition.py"
   ],
   "tracked_paths_pruned_in_commit": 8338,
   "historical_cleanup_estimate_bytes": 3687981411,
   "local_environment": {
-    "files": 895,
-    "bytes": 73154917
+    "files": 1313,
+    "bytes": 122672453
   },
   "policy": "raw training logs, checkpoints, model assets, literature caches and historical generated trees are not kept locally; Git history retains prior source snapshots",
   "additional_cleanup": {
-    "removed_file_or_tree_count": 51,
-    "removed_bytes": 8263808543,
+    "removed_file_or_tree_count": 80,
+    "removed_bytes": 12969061357,
     "removed_paths": [
       {
         "path": "/private/tmp/tabular_PI_stateless_silent",
@@ -585,139 +738,42 @@
         "kind": "tree"
       }
     ],
-    "verified_after_remote_commit": "e690a23",
+    "verified_after_remote_commit": "3ac403c6896e35ae3b02bc63cdadc2c3f06e125d",
     "current_batch": {
-      "removed_file_count": 1944,
-      "removed_bytes": 2332736190,
+      "removed_file_or_tree_count": 29,
+      "removed_bytes": 4705252814,
       "paths": [
-        {
-          "path": "/private/tmp/ecs_corrected_formal_out",
-          "present": false,
-          "files": 1894,
-          "bytes": 2326514287,
-          "kind": "tree"
-        },
-        {
-          "path": "/private/tmp/ecs_corrected_formal_prepared",
-          "present": false,
-          "files": 12,
-          "bytes": 56234,
-          "kind": "tree"
-        },
-        {
-          "path": "/private/tmp/ecs_corrected_archive",
-          "present": false,
-          "files": 9,
-          "bytes": 3671148,
-          "kind": "tree"
-        },
-        {
-          "path": "/private/tmp/ecs_corrected_audit.json",
-          "present": false,
-          "files": 1,
-          "bytes": 315,
-          "kind": "file"
-        },
-        {
-          "path": "/private/tmp/ecs_compact_corrected.py",
-          "present": false,
-          "files": 1,
-          "bytes": 3380,
-          "kind": "file"
-        },
-        {
-          "path": "/private/tmp/ecs_corrected_runner.log",
-          "present": false,
-          "files": 1,
-          "bytes": 0,
-          "kind": "file"
-        },
-        {
-          "path": "research_program/shared_redundancy_study/__pycache__",
-          "present": false,
-          "files": 7,
-          "bytes": 83038,
-          "kind": "tree"
-        },
-        {
-          "path": "research_program/error_correcting_signaling_study/__pycache__",
-          "present": false,
-          "files": 7,
-          "bytes": 80702,
-          "kind": "tree"
-        },
-        {
-          "path": "research_program/repetition_pressure_study",
-          "present": false,
-          "files": 11,
-          "bytes": 53853,
-          "kind": "tree"
-        },
-        {
-          "path": ".exp_venv/lib/python3.12/site-packages/__pycache__",
-          "present": false,
-          "files": null,
-          "bytes": 4744,
-          "kind": "tree"
-        },
-        {
-          "path": ".exp_venv/lib/python3.12/site-packages/numpy/__pycache__",
-          "present": false,
-          "files": null,
-          "bytes": 70087,
-          "kind": "tree"
-        },
-        {
-          "path": ".exp_venv/lib/python3.12/site-packages/numpy/_utils/__pycache__",
-          "present": false,
-          "files": null,
-          "bytes": 14249,
-          "kind": "tree"
-        },
-        {
-          "path": ".exp_venv/lib/python3.12/site-packages/numpy/linalg/__pycache__",
-          "present": false,
-          "files": null,
-          "bytes": 129547,
-          "kind": "tree"
-        },
-        {
-          "path": ".exp_venv/lib/python3.12/site-packages/numpy/_core/__pycache__",
-          "present": false,
-          "files": null,
-          "bytes": 919591,
-          "kind": "tree"
-        },
-        {
-          "path": ".exp_venv/lib/python3.12/site-packages/numpy/_typing/__pycache__",
-          "present": false,
-          "files": null,
-          "bytes": 35625,
-          "kind": "tree"
-        },
-        {
-          "path": ".exp_venv/lib/python3.12/site-packages/numpy/lib/__pycache__",
-          "present": false,
-          "files": null,
-          "bytes": 889077,
-          "kind": "tree"
-        },
-        {
-          "path": ".exp_venv/lib/python3.12/site-packages/numpy/random/__pycache__",
-          "present": false,
-          "files": null,
-          "bytes": 10473,
-          "kind": "tree"
-        },
-        {
-          "path": ".exp_venv/lib/python3.12/site-packages/numpy/matrixlib/__pycache__",
-          "present": false,
-          "files": null,
-          "bytes": 36451,
-          "kind": "tree"
-        }
+        "/private/tmp/repetition_formal_part1",
+        "/private/tmp/repetition_formal_part2",
+        "/private/tmp/repetition_formal_part3",
+        "/private/tmp/repetition_formal_prepared",
+        "/private/tmp/repetition_formal_prepared2",
+        "/private/tmp/repetition_formal_prepared3",
+        "/private/tmp/repetition_formal_prepared_check",
+        "/private/tmp/repetition_formal_merged",
+        "/private/tmp/repetition_formal_aggregate.json",
+        "/private/tmp/repetition_formal_aggregate.md",
+        "/private/tmp/repetition_formal_audit.json",
+        "/private/tmp/repetition_audit_part1.json",
+        "/private/tmp/repetition_audit_part2.json",
+        "/private/tmp/repetition_audit_part3.json",
+        "/private/tmp/repetition_smoke_audit3.json",
+        "/private/tmp/repetition_smoke_out2",
+        "/private/tmp/repetition_smoke_out3",
+        "/private/tmp/repetition_pressure_work",
+        "/private/tmp/repetition_workspace",
+        "/private/tmp/rps_balanced_20260917_out",
+        "/private/tmp/rps_balanced_20260917_prepared",
+        "/private/tmp/rps_debug_out",
+        "/private/tmp/rps_merge_20260918",
+        "/private/tmp/rps_merged_analysis.json",
+        "/private/tmp/rps_merged_analysis.md",
+        "/private/tmp/rps_part1_audit.json",
+        "/private/tmp/rps_part2_audit.json",
+        "/private/tmp/rps_part3_audit.json",
+        "/private/tmp/merge_repetition.py"
       ],
-      "verified_after_remote_commit": "e690a23"
+      "verified_after_remote_commit": "3ac403c6896e35ae3b02bc63cdadc2c3f06e125d"
     }
   },
   "pending_designs": {},
@@ -726,6 +782,11 @@
       "status": "rejected_before_analysis",
       "reason": "theoretical maximum return 4/7 = 0.5714 was below functional threshold 0.60",
       "data_retained": false
+    },
+    "research_program/repetition_pressure_study/results/invalid_20260917/unbalanced_unique4_partial_20260917": {
+      "status": "stopped_before_analysis",
+      "reason": "unbalanced unique4 fourth meaning a&b had 25% target-one rate; replaced by balanced 1-(a xor b)",
+      "data_retained": "compact receipt only"
     }
   }
 }
