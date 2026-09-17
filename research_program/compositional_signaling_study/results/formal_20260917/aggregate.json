@@ -6,7 +6,7 @@
       "seed": 75101,
       "condition": "dual2_fixed_hidden_live_factorized",
       "mode": "natural",
-      "return": 0.6666666666666665
+      "return": 0.46138509114583337
     },
     {
       "seed": 75101,
@@ -18,31 +18,31 @@
       "seed": 75101,
       "condition": "dual2_fixed_hidden_live_factorized",
       "mode": "permuted",
-      "return": 0.2542724609375
+      "return": 0.256103515625
     },
     {
       "seed": 75101,
       "condition": "dual2_fixed_hidden_silent_factorized",
       "mode": "natural",
-      "return": 0.24974568684895831
+      "return": 0.252593994140625
     },
     {
       "seed": 75101,
       "condition": "dual2_fixed_hidden_silent_factorized",
       "mode": "closed",
-      "return": 0.24974568684895831
+      "return": 0.252593994140625
     },
     {
       "seed": 75101,
       "condition": "dual2_fixed_hidden_silent_factorized",
       "mode": "permuted",
-      "return": 0.24974568684895831
+      "return": 0.252593994140625
     },
     {
       "seed": 75101,
       "condition": "dual2_rotating_hidden_live_entangled",
       "mode": "natural",
-      "return": 0.3814044859781379
+      "return": 0.6666666666666665
     },
     {
       "seed": 75101,
@@ -54,13 +54,13 @@
       "seed": 75101,
       "condition": "dual2_rotating_hidden_live_entangled",
       "mode": "permuted",
-      "return": 0.25107169400176843
+      "return": 0.2529165858911188
     },
     {
       "seed": 75101,
       "condition": "dual2_rotating_hidden_live_factorized",
       "mode": "natural",
-      "return": 0.3085883029499211
+      "return": 0.6666666666666665
     },
     {
       "seed": 75101,
@@ -72,49 +72,49 @@
       "seed": 75101,
       "condition": "dual2_rotating_hidden_live_factorized",
       "mode": "permuted",
-      "return": 0.25124448996775617
+      "return": 0.252331779068826
     },
     {
       "seed": 75101,
       "condition": "dual2_rotating_hidden_silent_entangled",
       "mode": "natural",
-      "return": 0.24962526998731088
+      "return": 0.2491399261004067
     },
     {
       "seed": 75101,
       "condition": "dual2_rotating_hidden_silent_entangled",
       "mode": "closed",
-      "return": 0.24962526998731088
+      "return": 0.2491399261004067
     },
     {
       "seed": 75101,
       "condition": "dual2_rotating_hidden_silent_entangled",
       "mode": "permuted",
-      "return": 0.24962526998731088
+      "return": 0.2491399261004067
     },
     {
       "seed": 75101,
       "condition": "dual2_rotating_hidden_silent_factorized",
       "mode": "natural",
-      "return": 0.2496395480843009
+      "return": 0.24896442863963483
     },
     {
       "seed": 75101,
       "condition": "dual2_rotating_hidden_silent_factorized",
       "mode": "closed",
-      "return": 0.2496395480843009
+      "return": 0.24896442863963483
     },
     {
       "seed": 75101,
       "condition": "dual2_rotating_hidden_silent_factorized",
       "mode": "permuted",
-      "return": 0.2496395480843009
+      "return": 0.24896442863963483
     },
     {
       "seed": 75101,
       "condition": "dual2_rotating_visible_live_factorized",
       "mode": "natural",
-      "return": 0.32869958511271125
+      "return": 0.4597648925448866
     },
     {
       "seed": 75101,
@@ -126,31 +126,31 @@
       "seed": 75101,
       "condition": "dual2_rotating_visible_live_factorized",
       "mode": "permuted",
-      "return": 0.25167310370379253
+      "return": 0.24990203925750953
     },
     {
       "seed": 75101,
       "condition": "dual2_rotating_visible_silent_factorized",
       "mode": "natural",
-      "return": 0.2496395480843009
+      "return": 0.24896442863963483
     },
     {
       "seed": 75101,
       "condition": "dual2_rotating_visible_silent_factorized",
       "mode": "closed",
-      "return": 0.2496395480843009
+      "return": 0.24896442863963483
     },
     {
       "seed": 75101,
       "condition": "dual2_rotating_visible_silent_factorized",
       "mode": "permuted",
-      "return": 0.2496395480843009
+      "return": 0.24896442863963483
     },
     {
       "seed": 75101,
       "condition": "mono4_rotating_hidden_live_factorized",
       "mode": "natural",
-      "return": 0.37959287910623
+      "return": 0.4588281084803426
     },
     {
       "seed": 75101,
@@ -162,31 +162,31 @@
       "seed": 75101,
       "condition": "mono4_rotating_hidden_live_factorized",
       "mode": "permuted",
-      "return": 0.2495418841792436
+      "return": 0.2506816116056972
     },
     {
       "seed": 75101,
       "condition": "mono4_rotating_hidden_silent_factorized",
       "mode": "natural",
-      "return": 0.25199655520589
+      "return": 0.25047118480165564
     },
     {
       "seed": 75101,
       "condition": "mono4_rotating_hidden_silent_factorized",
       "mode": "closed",
-      "return": 0.25199655520589
+      "return": 0.25047118480165564
     },
     {
       "seed": 75101,
       "condition": "mono4_rotating_hidden_silent_factorized",
       "mode": "permuted",
-      "return": 0.25199655520589
+      "return": 0.25047118480165564
     },
     {
       "seed": 75102,
       "condition": "dual2_fixed_hidden_live_factorized",
       "mode": "natural",
-      "return": 0.5077718098958333
+      "return": 0.46046956380208337
     },
     {
       "seed": 75102,
@@ -198,31 +198,31 @@
       "seed": 75102,
       "condition": "dual2_fixed_hidden_live_factorized",
       "mode": "permuted",
-      "return": 0.250762939453125
+      "return": 0.2572224934895833
     },
     {
       "seed": 75102,
       "condition": "dual2_fixed_hidden_silent_factorized",
       "mode": "natural",
-      "return": 0.24949137369791666
+      "return": 0.25020345052083337
     },
     {
       "seed": 75102,
       "condition": "dual2_fixed_hidden_silent_factorized",
       "mode": "closed",
-      "return": 0.24949137369791666
+      "return": 0.25020345052083337
     },
     {
       "seed": 75102,
       "condition": "dual2_fixed_hidden_silent_factorized",
       "mode": "permuted",
-      "return": 0.24949137369791666
+      "return": 0.25020345052083337
     },
     {
       "seed": 75102,
       "condition": "dual2_rotating_hidden_live_entangled",
       "mode": "natural",
-      "return": 0.26881590011554457
+      "return": 0.4574576065161393
     },
     {
       "seed": 75102,
@@ -234,13 +234,13 @@
       "seed": 75102,
       "condition": "dual2_rotating_hidden_live_entangled",
       "mode": "permuted",
-      "return": 0.24904583062703986
+      "return": 0.24880823176181624
     },
     {
       "seed": 75102,
       "condition": "dual2_rotating_hidden_live_factorized",
       "mode": "natural",
-      "return": 0.3623209279796911
+      "return": 0.46013974433866456
     },
     {
       "seed": 75102,
@@ -252,49 +252,49 @@
       "seed": 75102,
       "condition": "dual2_rotating_hidden_live_factorized",
       "mode": "permuted",
-      "return": 0.24951844572019416
+      "return": 0.25139870861704117
     },
     {
       "seed": 75102,
       "condition": "dual2_rotating_hidden_silent_entangled",
       "mode": "natural",
-      "return": 0.2506086423400381
+      "return": 0.2514014507155613
     },
     {
       "seed": 75102,
       "condition": "dual2_rotating_hidden_silent_entangled",
       "mode": "closed",
-      "return": 0.2506086423400381
+      "return": 0.2514014507155613
     },
     {
       "seed": 75102,
       "condition": "dual2_rotating_hidden_silent_entangled",
       "mode": "permuted",
-      "return": 0.2506086423400381
+      "return": 0.2514014507155613
     },
     {
       "seed": 75102,
       "condition": "dual2_rotating_hidden_silent_factorized",
       "mode": "natural",
-      "return": 0.2499092839072094
+      "return": 0.2494579737626233
     },
     {
       "seed": 75102,
       "condition": "dual2_rotating_hidden_silent_factorized",
       "mode": "closed",
-      "return": 0.2499092839072094
+      "return": 0.2494579737626233
     },
     {
       "seed": 75102,
       "condition": "dual2_rotating_hidden_silent_factorized",
       "mode": "permuted",
-      "return": 0.2499092839072094
+      "return": 0.2494579737626233
     },
     {
       "seed": 75102,
       "condition": "dual2_rotating_visible_live_factorized",
       "mode": "natural",
-      "return": 0.38235509662535894
+      "return": 0.45837965342269876
     },
     {
       "seed": 75102,
@@ -306,31 +306,31 @@
       "seed": 75102,
       "condition": "dual2_rotating_visible_live_factorized",
       "mode": "permuted",
-      "return": 0.25244309276375226
+      "return": 0.24831943583001576
     },
     {
       "seed": 75102,
       "condition": "dual2_rotating_visible_silent_factorized",
       "mode": "natural",
-      "return": 0.2499092839072094
+      "return": 0.2494579737626233
     },
     {
       "seed": 75102,
       "condition": "dual2_rotating_visible_silent_factorized",
       "mode": "closed",
-      "return": 0.2499092839072094
+      "return": 0.2494579737626233
     },
     {
       "seed": 75102,
       "condition": "dual2_rotating_visible_silent_factorized",
       "mode": "permuted",
-      "return": 0.2499092839072094
+      "return": 0.2494579737626233
     },
     {
       "seed": 75102,
       "condition": "mono4_rotating_hidden_live_factorized",
       "mode": "natural",
-      "return": 0.36079177286514896
+      "return": 0.46013974433866456
     },
     {
       "seed": 75102,
@@ -342,25 +342,25 @@
       "seed": 75102,
       "condition": "mono4_rotating_hidden_live_factorized",
       "mode": "permuted",
-      "return": 0.25187934987021904
+      "return": 0.25139870861704117
     },
     {
       "seed": 75102,
       "condition": "mono4_rotating_hidden_silent_factorized",
       "mode": "natural",
-      "return": 0.24666001525371506
+      "return": 0.248734044395674
     },
     {
       "seed": 75102,
       "condition": "mono4_rotating_hidden_silent_factorized",
       "mode": "closed",
-      "return": 0.24666001525371506
+      "return": 0.248734044395674
     },
     {
       "seed": 75102,
       "condition": "mono4_rotating_hidden_silent_factorized",
       "mode": "permuted",
-      "return": 0.24666001525371506
+      "return": 0.248734044395674
     },
     {
       "seed": 75103,
@@ -402,7 +402,7 @@
       "seed": 75103,
       "condition": "dual2_rotating_hidden_live_entangled",
       "mode": "natural",
-      "return": 0.35924854799282424
+      "return": 0.4570163631883272
     },
     {
       "seed": 75103,
@@ -414,13 +414,13 @@
       "seed": 75103,
       "condition": "dual2_rotating_hidden_live_entangled",
       "mode": "permuted",
-      "return": 0.24894188798632216
+      "return": 0.25042201837900785
     },
     {
       "seed": 75103,
       "condition": "dual2_rotating_hidden_live_factorized",
       "mode": "natural",
-      "return": 0.38696638509425674
+      "return": 0.46141816924860946
     },
     {
       "seed": 75103,
@@ -432,49 +432,49 @@
       "seed": 75103,
       "condition": "dual2_rotating_hidden_live_factorized",
       "mode": "permuted",
-      "return": 0.24969402886385547
+      "return": 0.2503222739567903
     },
     {
       "seed": 75103,
       "condition": "dual2_rotating_hidden_silent_entangled",
       "mode": "natural",
-      "return": 0.2500302370050621
+      "return": 0.24720800349611205
     },
     {
       "seed": 75103,
       "condition": "dual2_rotating_hidden_silent_entangled",
       "mode": "closed",
-      "return": 0.2500302370050621
+      "return": 0.24720800349611205
     },
     {
       "seed": 75103,
       "condition": "dual2_rotating_hidden_silent_entangled",
       "mode": "permuted",
-      "return": 0.2500302370050621
+      "return": 0.24720800349611205
     },
     {
       "seed": 75103,
       "condition": "dual2_rotating_hidden_silent_factorized",
       "mode": "natural",
-      "return": 0.24888529136007523
+      "return": 0.2479894576795643
     },
     {
       "seed": 75103,
       "condition": "dual2_rotating_hidden_silent_factorized",
       "mode": "closed",
-      "return": 0.24888529136007523
+      "return": 0.2479894576795643
     },
     {
       "seed": 75103,
       "condition": "dual2_rotating_hidden_silent_factorized",
       "mode": "permuted",
-      "return": 0.24888529136007523
+      "return": 0.2479894576795643
     },
     {
       "seed": 75103,
       "condition": "dual2_rotating_visible_live_factorized",
       "mode": "natural",
-      "return": 0.3275069289009161
+      "return": 0.4862633337632738
     },
     {
       "seed": 75103,
@@ -486,31 +486,31 @@
       "seed": 75103,
       "condition": "dual2_rotating_visible_live_factorized",
       "mode": "permuted",
-      "return": 0.2484699331884544
+      "return": 0.2504701662138256
     },
     {
       "seed": 75103,
       "condition": "dual2_rotating_visible_silent_factorized",
       "mode": "natural",
-      "return": 0.24888529136007523
+      "return": 0.2479894576795643
     },
     {
       "seed": 75103,
       "condition": "dual2_rotating_visible_silent_factorized",
       "mode": "closed",
-      "return": 0.24888529136007523
+      "return": 0.2479894576795643
     },
     {
       "seed": 75103,
       "condition": "dual2_rotating_visible_silent_factorized",
       "mode": "permuted",
-      "return": 0.24888529136007523
+      "return": 0.2479894576795643
     },
     {
       "seed": 75103,
       "condition": "mono4_rotating_hidden_live_factorized",
       "mode": "natural",
-      "return": 0.31605491228871785
+      "return": 0.5605659867137435
     },
     {
       "seed": 75103,
@@ -522,31 +522,31 @@
       "seed": 75103,
       "condition": "mono4_rotating_hidden_live_factorized",
       "mode": "permuted",
-      "return": 0.252087014424253
+      "return": 0.2470094949680443
     },
     {
       "seed": 75103,
       "condition": "mono4_rotating_hidden_silent_factorized",
       "mode": "natural",
-      "return": 0.24794263251250756
+      "return": 0.2481550600125591
     },
     {
       "seed": 75103,
       "condition": "mono4_rotating_hidden_silent_factorized",
       "mode": "closed",
-      "return": 0.24794263251250756
+      "return": 0.2481550600125591
     },
     {
       "seed": 75103,
       "condition": "mono4_rotating_hidden_silent_factorized",
       "mode": "permuted",
-      "return": 0.24794263251250756
+      "return": 0.2481550600125591
     },
     {
       "seed": 75104,
       "condition": "dual2_fixed_hidden_live_factorized",
       "mode": "natural",
-      "return": 0.43122355143229163
+      "return": 0.45650227864583337
     },
     {
       "seed": 75104,
@@ -558,31 +558,31 @@
       "seed": 75104,
       "condition": "dual2_fixed_hidden_live_factorized",
       "mode": "permuted",
-      "return": 0.24750773111979163
+      "return": 0.24654134114583334
     },
     {
       "seed": 75104,
       "condition": "dual2_fixed_hidden_silent_factorized",
       "mode": "natural",
-      "return": 0.24969482421875
+      "return": 0.2529500325520833
     },
     {
       "seed": 75104,
       "condition": "dual2_fixed_hidden_silent_factorized",
       "mode": "closed",
-      "return": 0.24969482421875
+      "return": 0.2529500325520833
     },
     {
       "seed": 75104,
       "condition": "dual2_fixed_hidden_silent_factorized",
       "mode": "permuted",
-      "return": 0.24969482421875
+      "return": 0.2529500325520833
     },
     {
       "seed": 75104,
       "condition": "dual2_rotating_hidden_live_entangled",
       "mode": "natural",
-      "return": 0.30090030169374093
+      "return": 0.4599949052645776
     },
     {
       "seed": 75104,
@@ -594,13 +594,13 @@
       "seed": 75104,
       "condition": "dual2_rotating_hidden_live_entangled",
       "mode": "permuted",
-      "return": 0.2511318927688029
+      "return": 0.2525988715335948
     },
     {
       "seed": 75104,
       "condition": "dual2_rotating_hidden_live_factorized",
       "mode": "natural",
-      "return": 0.39863126892057893
+      "return": 0.458221903166678
     },
     {
       "seed": 75104,
@@ -612,49 +612,49 @@
       "seed": 75104,
       "condition": "dual2_rotating_hidden_live_factorized",
       "mode": "permuted",
-      "return": 0.24757803131246564
+      "return": 0.2503104585863981
     },
     {
       "seed": 75104,
       "condition": "dual2_rotating_hidden_silent_entangled",
       "mode": "natural",
-      "return": 0.25047045105694005
+      "return": 0.25139057289275596
     },
     {
       "seed": 75104,
       "condition": "dual2_rotating_hidden_silent_entangled",
       "mode": "closed",
-      "return": 0.25047045105694005
+      "return": 0.25139057289275596
     },
     {
       "seed": 75104,
       "condition": "dual2_rotating_hidden_silent_entangled",
       "mode": "permuted",
-      "return": 0.25047045105694005
+      "return": 0.25139057289275596
     },
     {
       "seed": 75104,
       "condition": "dual2_rotating_hidden_silent_factorized",
       "mode": "natural",
-      "return": 0.2510444824956593
+      "return": 0.2471957559708338
     },
     {
       "seed": 75104,
       "condition": "dual2_rotating_hidden_silent_factorized",
       "mode": "closed",
-      "return": 0.2510444824956593
+      "return": 0.2471957559708338
     },
     {
       "seed": 75104,
       "condition": "dual2_rotating_hidden_silent_factorized",
       "mode": "permuted",
-      "return": 0.2510444824956593
+      "return": 0.2471957559708338
     },
     {
       "seed": 75104,
       "condition": "dual2_rotating_visible_live_factorized",
       "mode": "natural",
-      "return": 0.3214948800294459
+      "return": 0.510140582273613
     },
     {
       "seed": 75104,
@@ -666,31 +666,31 @@
       "seed": 75104,
       "condition": "dual2_rotating_visible_live_factorized",
       "mode": "permuted",
-      "return": 0.24979477304345699
+      "return": 0.250275013902437
     },
     {
       "seed": 75104,
       "condition": "dual2_rotating_visible_silent_factorized",
       "mode": "natural",
-      "return": 0.2510444824956593
+      "return": 0.2471957559708338
     },
     {
       "seed": 75104,
       "condition": "dual2_rotating_visible_silent_factorized",
       "mode": "closed",
-      "return": 0.2510444824956593
+      "return": 0.2471957559708338
     },
     {
       "seed": 75104,
       "condition": "dual2_rotating_visible_silent_factorized",
       "mode": "permuted",
-      "return": 0.2510444824956593
+      "return": 0.2471957559708338
     },
     {
       "seed": 75104,
       "condition": "mono4_rotating_hidden_live_factorized",
       "mode": "natural",
-      "return": 0.3213146997991644
+      "return": 0.4609135851678879
     },
     {
       "seed": 75104,
@@ -702,31 +702,31 @@
       "seed": 75104,
       "condition": "mono4_rotating_hidden_live_factorized",
       "mode": "permuted",
-      "return": 0.2514076010044655
+      "return": 0.25253438695895936
     },
     {
       "seed": 75104,
       "condition": "mono4_rotating_hidden_silent_factorized",
       "mode": "natural",
-      "return": 0.2478167057095715
+      "return": 0.24861395530837122
     },
     {
       "seed": 75104,
       "condition": "mono4_rotating_hidden_silent_factorized",
       "mode": "closed",
-      "return": 0.2478167057095715
+      "return": 0.24861395530837122
     },
     {
       "seed": 75104,
       "condition": "mono4_rotating_hidden_silent_factorized",
       "mode": "permuted",
-      "return": 0.2478167057095715
+      "return": 0.24861395530837122
     },
     {
       "seed": 75105,
       "condition": "dual2_fixed_hidden_live_factorized",
       "mode": "natural",
-      "return": 0.4342244466145833
+      "return": 0.45558675130208337
     },
     {
       "seed": 75105,
@@ -738,7 +738,7 @@
       "seed": 75105,
       "condition": "dual2_fixed_hidden_live_factorized",
       "mode": "permuted",
-      "return": 0.254119873046875
+      "return": 0.25356038411458337
     },
     {
       "seed": 75105,
@@ -762,7 +762,7 @@
       "seed": 75105,
       "condition": "dual2_rotating_hidden_live_entangled",
       "mode": "natural",
-      "return": 0.29185961698203755
+      "return": 0.45936665392918624
     },
     {
       "seed": 75105,
@@ -774,13 +774,13 @@
       "seed": 75105,
       "condition": "dual2_rotating_hidden_live_entangled",
       "mode": "permuted",
-      "return": 0.25159448445882415
+      "return": 0.2504898857755774
     },
     {
       "seed": 75105,
       "condition": "dual2_rotating_hidden_live_factorized",
       "mode": "natural",
-      "return": 0.2585999896295765
+      "return": 0.4611130719273946
     },
     {
       "seed": 75105,
@@ -792,49 +792,49 @@
       "seed": 75105,
       "condition": "dual2_rotating_hidden_live_factorized",
       "mode": "permuted",
-      "return": 0.25174176517473323
+      "return": 0.25471330587995356
     },
     {
       "seed": 75105,
       "condition": "dual2_rotating_hidden_silent_entangled",
       "mode": "natural",
-      "return": 0.24980334087487935
+      "return": 0.2517046028132385
     },
     {
       "seed": 75105,
       "condition": "dual2_rotating_hidden_silent_entangled",
       "mode": "closed",
-      "return": 0.24980334087487935
+      "return": 0.2517046028132385
     },
     {
       "seed": 75105,
       "condition": "dual2_rotating_hidden_silent_entangled",
       "mode": "permuted",
-      "return": 0.24980334087487935
+      "return": 0.2517046028132385
     },
     {
       "seed": 75105,
       "condition": "dual2_rotating_hidden_silent_factorized",
       "mode": "natural",
-      "return": 0.2514058849772482
+      "return": 0.25073604547064726
     },
     {
       "seed": 75105,
       "condition": "dual2_rotating_hidden_silent_factorized",
       "mode": "closed",
-      "return": 0.2514058849772482
+      "return": 0.25073604547064726
     },
     {
       "seed": 75105,
       "condition": "dual2_rotating_hidden_silent_factorized",
       "mode": "permuted",
-      "return": 0.2514058849772482
+      "return": 0.25073604547064726
     },
     {
       "seed": 75105,
       "condition": "dual2_rotating_visible_live_factorized",
       "mode": "natural",
-      "return": 0.31027615196466696
+      "return": 0.5367771769209027
     },
     {
       "seed": 75105,
@@ -846,31 +846,31 @@
       "seed": 75105,
       "condition": "dual2_rotating_visible_live_factorized",
       "mode": "permuted",
-      "return": 0.25306283113801425
+      "return": 0.2521520713640396
     },
     {
       "seed": 75105,
       "condition": "dual2_rotating_visible_silent_factorized",
       "mode": "natural",
-      "return": 0.2514058849772482
+      "return": 0.25073604547064726
     },
     {
       "seed": 75105,
       "condition": "dual2_rotating_visible_silent_factorized",
       "mode": "closed",
-      "return": 0.2514058849772482
+      "return": 0.25073604547064726
     },
     {
       "seed": 75105,
       "condition": "dual2_rotating_visible_silent_factorized",
       "mode": "permuted",
-      "return": 0.2514058849772482
+      "return": 0.25073604547064726
     },
     {
       "seed": 75105,
       "condition": "mono4_rotating_hidden_live_factorized",
       "mode": "natural",
-      "return": 0.3414978621161441
+      "return": 0.5627162888240804
     },
     {
       "seed": 75105,
@@ -882,31 +882,31 @@
       "seed": 75105,
       "condition": "mono4_rotating_hidden_live_factorized",
       "mode": "permuted",
-      "return": 0.24845396266650174
+      "return": 0.25262761328877986
     },
     {
       "seed": 75105,
       "condition": "mono4_rotating_hidden_silent_factorized",
       "mode": "natural",
-      "return": 0.2501755419574794
+      "return": 0.24949282286163862
     },
     {
       "seed": 75105,
       "condition": "mono4_rotating_hidden_silent_factorized",
       "mode": "closed",
-      "return": 0.2501755419574794
+      "return": 0.24949282286163862
     },
     {
       "seed": 75105,
       "condition": "mono4_rotating_hidden_silent_factorized",
       "mode": "permuted",
-      "return": 0.2501755419574794
+      "return": 0.24949282286163862
     },
     {
       "seed": 75106,
       "condition": "dual2_fixed_hidden_live_factorized",
       "mode": "natural",
-      "return": 0.35213216145833337
+      "return": 0.6666666666666665
     },
     {
       "seed": 75106,
@@ -918,7 +918,7 @@
       "seed": 75106,
       "condition": "dual2_fixed_hidden_live_factorized",
       "mode": "permuted",
-      "return": 0.249542236328125
+      "return": 0.2481689453125
     },
     {
       "seed": 75106,
@@ -942,7 +942,7 @@
       "seed": 75106,
       "condition": "dual2_rotating_hidden_live_entangled",
       "mode": "natural",
-      "return": 0.32687350576055363
+      "return": 0.456401687653342
     },
     {
       "seed": 75106,
@@ -954,13 +954,13 @@
       "seed": 75106,
       "condition": "dual2_rotating_hidden_live_entangled",
       "mode": "permuted",
-      "return": 0.25240192540325845
+      "return": 0.25324171980305965
     },
     {
       "seed": 75106,
       "condition": "dual2_rotating_hidden_live_factorized",
       "mode": "natural",
-      "return": 0.2620404311181854
+      "return": 0.4583465575333867
     },
     {
       "seed": 75106,
@@ -972,49 +972,49 @@
       "seed": 75106,
       "condition": "dual2_rotating_hidden_live_factorized",
       "mode": "permuted",
-      "return": 0.2506805675820869
+      "return": 0.24962913269245135
     },
     {
       "seed": 75106,
       "condition": "dual2_rotating_hidden_silent_entangled",
       "mode": "natural",
-      "return": 0.25245990234844584
+      "return": 0.2507822536843426
     },
     {
       "seed": 75106,
       "condition": "dual2_rotating_hidden_silent_entangled",
       "mode": "closed",
-      "return": 0.25245990234844584
+      "return": 0.2507822536843426
     },
     {
       "seed": 75106,
       "condition": "dual2_rotating_hidden_silent_entangled",
       "mode": "permuted",
-      "return": 0.25245990234844584
+      "return": 0.2507822536843426
     },
     {
       "seed": 75106,
       "condition": "dual2_rotating_hidden_silent_factorized",
       "mode": "natural",
-      "return": 0.24784558654775526
+      "return": 0.24586484690739882
     },
     {
       "seed": 75106,
       "condition": "dual2_rotating_hidden_silent_factorized",
       "mode": "closed",
-      "return": 0.24784558654775526
+      "return": 0.24586484690739882
     },
     {
       "seed": 75106,
       "condition": "dual2_rotating_hidden_silent_factorized",
       "mode": "permuted",
-      "return": 0.24784558654775526
+      "return": 0.24586484690739882
     },
     {
       "seed": 75106,
       "condition": "dual2_rotating_visible_live_factorized",
       "mode": "natural",
-      "return": 0.3422211098415664
+      "return": 0.48352743304988177
     },
     {
       "seed": 75106,
@@ -1026,31 +1026,31 @@
       "seed": 75106,
       "condition": "dual2_rotating_visible_live_factorized",
       "mode": "permuted",
-      "return": 0.2520459702311527
+      "return": 0.24949333396985274
     },
     {
       "seed": 75106,
       "condition": "dual2_rotating_visible_silent_factorized",
       "mode": "natural",
-      "return": 0.24784558654775526
+      "return": 0.24586484690739882
     },
     {
       "seed": 75106,
       "condition": "dual2_rotating_visible_silent_factorized",
       "mode": "closed",
-      "return": 0.24784558654775526
+      "return": 0.24586484690739882
     },
     {
       "seed": 75106,
       "condition": "dual2_rotating_visible_silent_factorized",
       "mode": "permuted",
-      "return": 0.24784558654775526
+      "return": 0.24586484690739882
     },
     {
       "seed": 75106,
       "condition": "mono4_rotating_hidden_live_factorized",
       "mode": "natural",
-      "return": 0.2877445346752816
+      "return": 0.45764522563320004
     },
     {
       "seed": 75106,
@@ -1062,25 +1062,25 @@
       "seed": 75106,
       "condition": "mono4_rotating_hidden_live_factorized",
       "mode": "permuted",
-      "return": 0.24855606030144445
+      "return": 0.2491234660049601
     },
     {
       "seed": 75106,
       "condition": "mono4_rotating_hidden_silent_factorized",
       "mode": "natural",
-      "return": 0.2478883059635286
+      "return": 0.24522468882619278
     },
     {
       "seed": 75106,
       "condition": "mono4_rotating_hidden_silent_factorized",
       "mode": "closed",
-      "return": 0.2478883059635286
+      "return": 0.24522468882619278
     },
     {
       "seed": 75106,
       "condition": "mono4_rotating_hidden_silent_factorized",
       "mode": "permuted",
-      "return": 0.2478883059635286
+      "return": 0.24522468882619278
     },
     {
       "seed": 75107,
@@ -1104,25 +1104,25 @@
       "seed": 75107,
       "condition": "dual2_fixed_hidden_silent_factorized",
       "mode": "natural",
-      "return": 0.24755859375
+      "return": 0.248779296875
     },
     {
       "seed": 75107,
       "condition": "dual2_fixed_hidden_silent_factorized",
       "mode": "closed",
-      "return": 0.24755859375
+      "return": 0.248779296875
     },
     {
       "seed": 75107,
       "condition": "dual2_fixed_hidden_silent_factorized",
       "mode": "permuted",
-      "return": 0.24755859375
+      "return": 0.248779296875
     },
     {
       "seed": 75107,
       "condition": "dual2_rotating_hidden_live_entangled",
       "mode": "natural",
-      "return": 0.24884941022350876
+      "return": 0.4586967702939273
     },
     {
       "seed": 75107,
@@ -1134,13 +1134,13 @@
       "seed": 75107,
       "condition": "dual2_rotating_hidden_live_entangled",
       "mode": "permuted",
-      "return": 0.24970386065102135
+      "return": 0.24842339364340243
     },
     {
       "seed": 75107,
       "condition": "dual2_rotating_hidden_live_factorized",
       "mode": "natural",
-      "return": 0.18401775893616573
+      "return": 0.5618304169374322
     },
     {
       "seed": 75107,
@@ -1152,49 +1152,49 @@
       "seed": 75107,
       "condition": "dual2_rotating_hidden_live_factorized",
       "mode": "permuted",
-      "return": 0.24832403354256205
+      "return": 0.25073577678785613
     },
     {
       "seed": 75107,
       "condition": "dual2_rotating_hidden_silent_entangled",
       "mode": "natural",
-      "return": 0.25214029495462753
+      "return": 0.2518965569106675
     },
     {
       "seed": 75107,
       "condition": "dual2_rotating_hidden_silent_entangled",
       "mode": "closed",
-      "return": 0.25214029495462753
+      "return": 0.2518965569106675
     },
     {
       "seed": 75107,
       "condition": "dual2_rotating_hidden_silent_entangled",
       "mode": "permuted",
-      "return": 0.25214029495462753
+      "return": 0.2518965569106675
     },
     {
       "seed": 75107,
       "condition": "dual2_rotating_hidden_silent_factorized",
       "mode": "natural",
-      "return": 0.2521224833570568
+      "return": 0.24911513257578982
     },
     {
       "seed": 75107,
       "condition": "dual2_rotating_hidden_silent_factorized",
       "mode": "closed",
-      "return": 0.2521224833570568
+      "return": 0.24911513257578982
     },
     {
       "seed": 75107,
       "condition": "dual2_rotating_hidden_silent_factorized",
       "mode": "permuted",
-      "return": 0.2521224833570568
+      "return": 0.24911513257578982
     },
     {
       "seed": 75107,
       "condition": "dual2_rotating_visible_live_factorized",
       "mode": "natural",
-      "return": 0.2622027212235454
+      "return": 0.5082279319466999
     },
     {
       "seed": 75107,
@@ -1206,31 +1206,31 @@
       "seed": 75107,
       "condition": "dual2_rotating_visible_live_factorized",
       "mode": "permuted",
-      "return": 0.25096235182112
+      "return": 0.24821470781790977
     },
     {
       "seed": 75107,
       "condition": "dual2_rotating_visible_silent_factorized",
       "mode": "natural",
-      "return": 0.2521224833570568
+      "return": 0.24911513257578982
     },
     {
       "seed": 75107,
       "condition": "dual2_rotating_visible_silent_factorized",
       "mode": "closed",
-      "return": 0.2521224833570568
+      "return": 0.24911513257578982
     },
     {
       "seed": 75107,
       "condition": "dual2_rotating_visible_silent_factorized",
       "mode": "permuted",
-      "return": 0.2521224833570568
+      "return": 0.24911513257578982
     },
     {
       "seed": 75107,
       "condition": "mono4_rotating_hidden_live_factorized",
       "mode": "natural",
-      "return": 0.30325917143464376
+      "return": 0.5632591662435046
     },
     {
       "seed": 75107,
@@ -1242,31 +1242,31 @@
       "seed": 75107,
       "condition": "mono4_rotating_hidden_live_factorized",
       "mode": "permuted",
-      "return": 0.2521386931414017
+      "return": 0.252138189958394
     },
     {
       "seed": 75107,
       "condition": "mono4_rotating_hidden_silent_factorized",
       "mode": "natural",
-      "return": 0.24753785079856935
+      "return": 0.2485422027711474
     },
     {
       "seed": 75107,
       "condition": "mono4_rotating_hidden_silent_factorized",
       "mode": "closed",
-      "return": 0.24753785079856935
+      "return": 0.2485422027711474
     },
     {
       "seed": 75107,
       "condition": "mono4_rotating_hidden_silent_factorized",
       "mode": "permuted",
-      "return": 0.24753785079856935
+      "return": 0.2485422027711474
     },
     {
       "seed": 75108,
       "condition": "dual2_fixed_hidden_live_factorized",
       "mode": "natural",
-      "return": 0.48188273111979163
+      "return": 0.4544677734375
     },
     {
       "seed": 75108,
@@ -1278,31 +1278,31 @@
       "seed": 75108,
       "condition": "dual2_fixed_hidden_live_factorized",
       "mode": "permuted",
-      "return": 0.244049072265625
+      "return": 0.25
     },
     {
       "seed": 75108,
       "condition": "dual2_fixed_hidden_silent_factorized",
       "mode": "natural",
-      "return": 0.2589518229166667
+      "return": 0.24877929687499997
     },
     {
       "seed": 75108,
       "condition": "dual2_fixed_hidden_silent_factorized",
       "mode": "closed",
-      "return": 0.2589518229166667
+      "return": 0.24877929687499997
     },
     {
       "seed": 75108,
       "condition": "dual2_fixed_hidden_silent_factorized",
       "mode": "permuted",
-      "return": 0.2589518229166667
+      "return": 0.24877929687499997
     },
     {
       "seed": 75108,
       "condition": "dual2_rotating_hidden_live_entangled",
       "mode": "natural",
-      "return": 0.34211218966275847
+      "return": 0.45894905322607127
     },
     {
       "seed": 75108,
@@ -1314,13 +1314,13 @@
       "seed": 75108,
       "condition": "dual2_rotating_hidden_live_entangled",
       "mode": "permuted",
-      "return": 0.2523316229627859
+      "return": 0.25017151100673646
     },
     {
       "seed": 75108,
       "condition": "dual2_rotating_hidden_live_factorized",
       "mode": "natural",
-      "return": 0.33177686156144426
+      "return": 0.46060647246186415
     },
     {
       "seed": 75108,
@@ -1332,49 +1332,49 @@
       "seed": 75108,
       "condition": "dual2_rotating_hidden_live_factorized",
       "mode": "permuted",
-      "return": 0.2509327119235912
+      "return": 0.24951509118524773
     },
     {
       "seed": 75108,
       "condition": "dual2_rotating_hidden_silent_entangled",
       "mode": "natural",
-      "return": 0.2501487700623143
+      "return": 0.24790770732343423
     },
     {
       "seed": 75108,
       "condition": "dual2_rotating_hidden_silent_entangled",
       "mode": "closed",
-      "return": 0.2501487700623143
+      "return": 0.24790770732343423
     },
     {
       "seed": 75108,
       "condition": "dual2_rotating_hidden_silent_entangled",
       "mode": "permuted",
-      "return": 0.2501487700623143
+      "return": 0.24790770732343423
     },
     {
       "seed": 75108,
       "condition": "dual2_rotating_hidden_silent_factorized",
       "mode": "natural",
-      "return": 0.2483509048391852
+      "return": 0.24980567944524562
     },
     {
       "seed": 75108,
       "condition": "dual2_rotating_hidden_silent_factorized",
       "mode": "closed",
-      "return": 0.2483509048391852
+      "return": 0.24980567944524562
     },
     {
       "seed": 75108,
       "condition": "dual2_rotating_hidden_silent_factorized",
       "mode": "permuted",
-      "return": 0.2483509048391852
+      "return": 0.24980567944524562
     },
     {
       "seed": 75108,
       "condition": "dual2_rotating_visible_live_factorized",
       "mode": "natural",
-      "return": 0.31573149186692595
+      "return": 0.4576226353913617
     },
     {
       "seed": 75108,
@@ -1386,31 +1386,31 @@
       "seed": 75108,
       "condition": "dual2_rotating_visible_live_factorized",
       "mode": "permuted",
-      "return": 0.2500301825395186
+      "return": 0.24760548378332045
     },
     {
       "seed": 75108,
       "condition": "dual2_rotating_visible_silent_factorized",
       "mode": "natural",
-      "return": 0.2483509048391852
+      "return": 0.24980567944524562
     },
     {
       "seed": 75108,
       "condition": "dual2_rotating_visible_silent_factorized",
       "mode": "closed",
-      "return": 0.2483509048391852
+      "return": 0.24980567944524562
     },
     {
       "seed": 75108,
       "condition": "dual2_rotating_visible_silent_factorized",
       "mode": "permuted",
-      "return": 0.2483509048391852
+      "return": 0.24980567944524562
     },
     {
       "seed": 75108,
       "condition": "mono4_rotating_hidden_live_factorized",
       "mode": "natural",
-      "return": 0.3174065118494681
+      "return": 0.4579075586964672
     },
     {
       "seed": 75108,
@@ -1422,25 +1422,25 @@
       "seed": 75108,
       "condition": "mono4_rotating_hidden_live_factorized",
       "mode": "permuted",
-      "return": 0.2530967042438364
+      "return": 0.25020784827415654
     },
     {
       "seed": 75108,
       "condition": "mono4_rotating_hidden_silent_factorized",
       "mode": "natural",
-      "return": 0.24883082980929722
+      "return": 0.24921015643244698
     },
     {
       "seed": 75108,
       "condition": "mono4_rotating_hidden_silent_factorized",
       "mode": "closed",
-      "return": 0.24883082980929722
+      "return": 0.24921015643244698
     },
     {
       "seed": 75108,
       "condition": "mono4_rotating_hidden_silent_factorized",
       "mode": "permuted",
-      "return": 0.24883082980929722
+      "return": 0.24921015643244698
     }
   ],
   "effects": {
@@ -1448,361 +1448,361 @@
       "condition": "dual2_fixed_hidden_live_factorized",
       "label": "natural-minus-closed",
       "values": [
-        0.4791971842447915,
-        0.28611246744791663,
+        0.27391560872395837,
+        0.2388102213541667,
         0.30174763997395837,
-        0.27483113606770826,
-        0.21421305338541663,
-        0.18901570638020837,
+        0.30010986328125,
+        0.23557535807291669,
+        0.5035502115885415,
         0.33275349934895837,
-        0.3902587890625
+        0.36284383138020837
       ],
-      "mean": 0.30851618448893225,
+      "mean": 0.3186632792154948,
       "ci95_t": [
-        0.2302965825362483,
-        0.3867357864416162
+        0.24642529754690426,
+        0.3909012608840854
       ]
     },
     "dual2_fixed_hidden_live_factorized|natural-minus-permuted": {
       "condition": "dual2_fixed_hidden_live_factorized",
       "label": "natural-minus-permuted",
       "values": [
-        0.4123942057291665,
-        0.25700887044270826,
+        0.20528157552083337,
+        0.20324707031250006,
         0.20487467447916669,
-        0.1837158203125,
-        0.18010457356770831,
-        0.10258992513020837,
+        0.20996093750000003,
+        0.2020263671875,
+        0.4184977213541665,
         0.20650227864583337,
-        0.23783365885416663
+        0.2044677734375
       ],
-      "mean": 0.22312800089518228,
+      "mean": 0.23185729980468753,
       "ci95_t": [
-        0.14852116131069484,
-        0.2977348404796697
+        0.16876870292330176,
+        0.2949458966860733
       ]
     },
     "dual2_fixed_hidden_live_factorized|natural-minus-silent": {
       "condition": "dual2_fixed_hidden_live_factorized",
       "label": "natural-minus-silent",
       "values": [
-        0.4169209798177082,
-        0.25828043619791663,
+        0.20879109700520837,
+        0.21026611328125,
         0.20487467447916669,
-        0.18152872721354163,
-        0.18000284830729169,
-        0.09562174479166674,
-        0.20792643229166669,
-        0.22293090820312494
+        0.20355224609375006,
+        0.20136515299479174,
+        0.4101562499999999,
+        0.20670572916666669,
+        0.20568847656250003
       ],
-      "mean": 0.22101084391276038,
+      "mean": 0.23142496744791669,
       "ci95_t": [
-        0.14413665772562953,
-        0.2978850300998912
+        0.17099365780054873,
+        0.2918562770952846
       ]
     },
     "dual2_fixed_hidden_live_factorized|recombined-minus-natural": {
       "condition": "dual2_fixed_hidden_live_factorized",
       "label": "recombined-minus-natural",
       "values": [
-        0.0,
-        -0.05198160807291663,
-        -0.20441691080729169,
-        -0.1312255859375,
-        0.027669270833333315,
-        -0.0037129720052083703,
+        0.0006103515625,
+        -0.00030517578125,
+        -0.20284016927083337,
+        -0.2083333333333334,
+        0.005696614583333315,
+        -0.4113769531249999,
         -0.20100911458333331,
-        -0.230865478515625
+        -0.20670572916666669
       ],
-      "mean": -0.09944279988606772,
+      "mean": -0.1530329386393229,
       "ci95_t": [
-        -0.1871851535394693,
-        -0.011700446232666126
+        -0.27526596589442154,
+        -0.03079991138422425
       ]
     },
     "dual2_rotating_hidden_live_entangled|natural-minus-closed": {
       "condition": "dual2_rotating_hidden_live_entangled",
       "label": "natural-minus-closed",
       "values": [
-        0.2423911390659338,
-        0.07296845373946831,
-        0.19458321307460438,
-        0.15192456962406115,
-        0.09516453203008346,
-        0.15512873594357846,
-        0.0924937587106203,
-        0.16944504238991315
+        0.5276533197544624,
+        0.26161016014006305,
+        0.2923510282701074,
+        0.3110191731948978,
+        0.26267156897723215,
+        0.2846569178363668,
+        0.30234111878103886,
+        0.28628190595322595
       ],
-      "mean": 0.1467624305722829,
+      "mean": 0.3160731491134243,
       "ci95_t": [
-        0.09873341658119439,
-        0.19479144456337139
+        0.243154662268451,
+        0.38899163595839764
       ]
     },
     "dual2_rotating_hidden_live_entangled|natural-minus-permuted": {
       "condition": "dual2_rotating_hidden_live_entangled",
       "label": "natural-minus-permuted",
       "values": [
-        0.1303327919763695,
-        0.01977006948850471,
-        0.11030666000650208,
-        0.04976840892493806,
-        0.0402651325232134,
-        0.07447158035729518,
-        -0.0008544504275125875,
-        0.08978056669997259
+        0.4137500807755477,
+        0.20864937475432307,
+        0.20659434480931937,
+        0.2073960337309828,
+        0.20887676815360884,
+        0.20315996785028234,
+        0.21027337665052487,
+        0.2087775422193348
       ],
-      "mean": 0.06423009494366036,
+      "mean": 0.23343468611799048,
       "ci95_t": [
-        0.026508420763805447,
-        0.10195176912351528
+        0.17248762247958702,
+        0.2943817497563939
       ]
     },
     "dual2_rotating_hidden_live_entangled|natural-minus-silent": {
       "condition": "dual2_rotating_hidden_live_entangled",
       "label": "natural-minus-silent",
       "values": [
-        0.13177921599082704,
-        0.01820725777550647,
-        0.10921831098776213,
-        0.05042985063680089,
-        0.0420562761071582,
-        0.07441360341210779,
-        -0.0032908847311187706,
-        0.09196341960044419
+        0.4175267405662598,
+        0.206056155800578,
+        0.20980835969221517,
+        0.20860433237182163,
+        0.20766205111594777,
+        0.2056194339689994,
+        0.20680021338325982,
+        0.21104134590263704
       ],
-      "mean": 0.06434713122243599,
+      "mean": 0.23413982910021483,
       "ci95_t": [
-        0.025875146686922187,
-        0.10281911575794979
+        0.1721620220727771,
+        0.2961176361276526
       ]
     },
     "dual2_rotating_hidden_live_entangled|recombined-minus-natural": {
       "condition": "dual2_rotating_hidden_live_entangled",
       "label": "recombined-minus-natural",
       "values": [
-        -0.09169538790540738,
-        -0.019999711534347764,
-        -0.04825943406072419,
-        -0.05081818980538977,
-        -0.07270416143078895,
-        -0.049208467751267915,
-        0.0022697146514645827,
-        -0.13635175262640456
+        0.0,
+        -0.18158076052457817,
+        -0.25969990706316326,
+        -0.22281771297028408,
+        -0.19043659111555672,
+        -0.21290285218831753,
+        0.14976995156096473,
+        -0.2535681254486914
       ],
-      "mean": -0.05834592380785824,
+      "mean": -0.14640449971870328,
       "ci95_t": [
-        -0.0940871694911733,
-        -0.022604678124543177
+        -0.2675378740971451,
+        -0.025271125340261505
       ]
     },
     "dual2_rotating_hidden_live_factorized|natural-minus-closed": {
       "condition": "dual2_rotating_hidden_live_factorized",
       "label": "natural-minus-closed",
       "values": [
-        0.16944776841052936,
-        0.16761395503181192,
-        0.2230166230101198,
-        0.2489427559008446,
-        0.06265668891851991,
-        0.09245856122072674,
-        0.0284896131229479,
-        0.15884003006067968
+        0.5275261321272747,
+        0.26543277139078536,
+        0.29746840716447254,
+        0.3085333901469437,
+        0.265169771216338,
+        0.288764687635928,
+        0.40630227112421435,
+        0.2876696409610996
       ],
-      "mean": 0.1439332494595225,
+      "mean": 0.3308583839708821,
       "ci95_t": [
-        0.07970868413412714,
-        0.20815781478491785
+        0.2546051875036086,
+        0.40711158043815554
       ]
     },
     "dual2_rotating_hidden_live_factorized|natural-minus-permuted": {
       "condition": "dual2_rotating_hidden_live_factorized",
       "label": "natural-minus-permuted",
       "values": [
-        0.057343812982164954,
-        0.11280248225949696,
-        0.13727235623040127,
-        0.1510532376081133,
-        0.0068582244548432425,
-        0.011359863536098525,
-        -0.06430627460639632,
-        0.08084414963785308
+        0.41433488759784054,
+        0.2087410357216234,
+        0.21109589529181916,
+        0.20791144458027988,
+        0.20639976604744104,
+        0.20871742484093536,
+        0.31109464014957605,
+        0.21109138127661642
       ],
-      "mean": 0.06165348151282187,
+      "mean": 0.2474233094382665,
       "ci95_t": [
-        -4.3622312078384073e-05,
-        0.12335058533772213
+        0.18359350848009343,
+        0.31125311039643955
       ]
     },
     "dual2_rotating_hidden_live_factorized|natural-minus-silent": {
       "condition": "dual2_rotating_hidden_live_factorized",
       "label": "natural-minus-silent",
       "values": [
-        0.058948754865620234,
-        0.11241164407248172,
-        0.1380810937341815,
-        0.14758678642491962,
-        0.0071941046523282814,
-        0.01419484457043016,
-        -0.06810472442089105,
-        0.08342595672225905
+        0.41770223802703166,
+        0.21068177057604126,
+        0.21342871156904517,
+        0.2110261471958442,
+        0.21037702645674733,
+        0.2124817106259879,
+        0.31271528436164236,
+        0.21080079301661853
       ],
-      "mean": 0.06171730757766619,
+      "mean": 0.2499017102286198,
       "ci95_t": [
-        -0.00016353145822531334,
-        0.1235981466135577
+        0.18592974543524857,
+        0.31387367502199104
       ]
     },
     "dual2_rotating_hidden_live_factorized|recombined-minus-natural": {
       "condition": "dual2_rotating_hidden_live_factorized",
       "label": "recombined-minus-natural",
       "values": [
-        -0.033555159105333576,
-        -0.08754341333734283,
-        -0.14186647519501783,
-        -0.11081383642769066,
-        0.02633583453391125,
-        -0.023176816180744908,
-        0.06587108214524101,
-        -0.08275921692923383
+        0.0,
+        -0.012811413630428536,
+        -0.20905291562549727,
+        -0.19604432257287951,
+        -0.21179859722834155,
+        -0.20582292553358367,
+        0.10483624972923433,
+        -0.20794369550790137
       ],
-      "mean": -0.04843850006202642,
+      "mean": -0.1173297025461747,
       "ci95_t": [
-        -0.10743169290243859,
-        0.010554692778385756
+        -0.22385952726411754,
+        -0.010799877828231857
       ]
     },
     "dual2_rotating_visible_live_factorized|natural-minus-closed": {
       "condition": "dual2_rotating_visible_live_factorized",
       "label": "natural-minus-closed",
       "values": [
-        0.18955905057331948,
-        0.18764812367747974,
-        0.16355716681677915,
-        0.17180636700971155,
-        0.1143328512536104,
-        0.1726392399441077,
-        0.10667457541032754,
-        0.14279466036616137
+        0.3206243580054948,
+        0.26367268047481957,
+        0.3223135716791369,
+        0.36045206925387874,
+        0.34083387620984607,
+        0.31394556315242306,
+        0.3526997861334821,
+        0.28468580389059717
       ],
-      "mean": 0.1561265043814371,
+      "mean": 0.3199034635999598,
       "ci95_t": [
-        0.1295812668480918,
-        0.18267174191478242
+        0.29234864031822166,
+        0.34745828688169794
       ]
     },
     "dual2_rotating_visible_live_factorized|natural-minus-permuted": {
       "condition": "dual2_rotating_visible_live_factorized",
       "label": "natural-minus-permuted",
       "values": [
-        0.07702648140891871,
-        0.12991200386160667,
-        0.0790369957124617,
-        0.07170010698598889,
-        0.0572133208266527,
-        0.09017513961041368,
-        0.011240369402425399,
-        0.06570130932740736
+        0.20986285328737708,
+        0.210060217592683,
+        0.23579316754944818,
+        0.259865568371176,
+        0.28462510555686305,
+        0.23403409908002903,
+        0.26001322412879013,
+        0.21001715160804127
       ],
-      "mean": 0.0727507158919844,
+      "mean": 0.23803392339680096,
       "ci95_t": [
-        0.045010432877998816,
-        0.10049099890596998
+        0.2145693204103331,
+        0.2614985263832688
       ]
     },
     "dual2_rotating_visible_live_factorized|natural-minus-silent": {
       "condition": "dual2_rotating_visible_live_factorized",
       "label": "natural-minus-silent",
       "values": [
-        0.07906003702841036,
-        0.13244581271814954,
-        0.07862163754084087,
-        0.07045039753378657,
-        0.05887026698741876,
-        0.09437552329381113,
-        0.010080237866488595,
-        0.06738058702774075
+        0.21080046390525178,
+        0.20892167966007547,
+        0.2382738760837095,
+        0.26294482630277927,
+        0.2860411314502554,
+        0.23766258614248295,
+        0.2591127993709101,
+        0.2078169559461161
       ],
-      "mean": 0.07391056249958082,
+      "mean": 0.23894678985769757,
       "ci95_t": [
-        0.04520680708762005,
-        0.10261431791154159
+        0.2147429758094884,
+        0.2631506039059067
       ]
     },
     "dual2_rotating_visible_live_factorized|recombined-minus-natural": {
       "condition": "dual2_rotating_visible_live_factorized",
       "label": "recombined-minus-natural",
       "values": [
-        -0.03814717857536809,
-        -0.08683991210426967,
-        -0.08688210843616176,
-        -0.01966667403551914,
-        -0.03290716805437632,
-        -0.03794795147009361,
-        -0.03712707442557481,
-        -0.027097321727389323
+        -0.1561557695105263,
+        -0.10461871926836397,
+        -0.23546065516338704,
+        -0.05398750774290223,
+        -0.052833049247828556,
+        -0.22973930977942802,
+        -0.10189859874563567,
+        -0.15562908624345706
       ],
-      "mean": -0.04582692360359409,
+      "mean": -0.1362903369626911,
       "ci95_t": [
-        -0.06764583216014838,
-        -0.024008015047039793
+        -0.1956352469707902,
+        -0.076945426954592
       ]
     },
     "mono4_rotating_hidden_live_factorized|natural-minus-closed": {
       "condition": "mono4_rotating_hidden_live_factorized",
       "label": "natural-minus-closed",
       "values": [
-        0.18279104075094374,
-        0.20583019549846213,
-        0.16081992381352306,
-        0.16658746169949745,
-        0.14611469282170647,
-        0.10304156748048665,
-        0.14035481321464688,
-        0.12325317546796855
+        0.2620262701250563,
+        0.30517816697197775,
+        0.4053309982385487,
+        0.30618634706822095,
+        0.3673331195296428,
+        0.2729422584384051,
+        0.4003548080235077,
+        0.26375422231496765
       ],
-      "mean": 0.15359910884340436,
+      "mean": 0.3228882738387908,
       "ci95_t": [
-        0.1262122941615185,
-        0.18098592352529022
+        0.27285716610288946,
+        0.3729193815746922
       ]
     },
     "mono4_rotating_hidden_live_factorized|natural-minus-permuted": {
       "condition": "mono4_rotating_hidden_live_factorized",
       "label": "natural-minus-permuted",
       "values": [
-        0.1300509949269864,
-        0.10891242299492992,
-        0.06396789786446483,
-        0.06990709879469886,
-        0.09304389944964234,
-        0.03918847437383716,
-        0.051120478293242066,
-        0.06430980760563171
+        0.20814649687464543,
+        0.2087410357216234,
+        0.31355649174569916,
+        0.20837919820892853,
+        0.31008867553530056,
+        0.20852175962823993,
+        0.3111209762851106,
+        0.20769971042231067
       ],
-      "mean": 0.07756263428792916,
+      "mean": 0.2470317930527323,
       "ci95_t": [
-        0.05194938463742238,
-        0.10317588393843594
+        0.20232471760592677,
+        0.2917388684995378
       ]
     },
     "mono4_rotating_hidden_live_factorized|natural-minus-silent": {
       "condition": "mono4_rotating_hidden_live_factorized",
       "label": "natural-minus-silent",
       "values": [
-        0.12759632390034004,
-        0.1141317576114339,
-        0.06811227977621029,
-        0.07349799408959287,
-        0.0913223201586647,
-        0.03985622871175301,
-        0.055721320636074406,
-        0.0685756820401709
+        0.20835692367868697,
+        0.21140569994299055,
+        0.31241092670118437,
+        0.21229962985951667,
+        0.31322346596244177,
+        0.21242053680700726,
+        0.31471696347235717,
+        0.20869740226402023
       ],
-      "mean": 0.07985173836553001,
+      "mean": 0.24919144358602563,
       "ci95_t": [
-        0.05522219548201528,
-        0.10448128124904475
+        0.20467797485161626,
+        0.293704912320435
       ]
     }
   },
@@ -1811,519 +1811,519 @@
       "seed": 75101,
       "condition": "dual2_fixed_hidden_live_factorized",
       "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.75,
+      "semantic_success_min": 0.5
+    },
+    {
+      "seed": 75101,
+      "condition": "dual2_fixed_hidden_silent_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.34375,
+      "semantic_success_min": 0.25
+    },
+    {
+      "seed": 75101,
+      "condition": "dual2_rotating_hidden_live_entangled",
+      "sender_sequence_agreement": 1.0,
       "semantic_success_mean": 1.0,
       "semantic_success_min": 1.0
     },
     {
       "seed": 75101,
-      "condition": "dual2_fixed_hidden_silent_factorized",
+      "condition": "dual2_rotating_hidden_live_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 1.0,
+      "semantic_success_min": 1.0
+    },
+    {
+      "seed": 75101,
+      "condition": "dual2_rotating_hidden_silent_entangled",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.3203125,
+      "semantic_success_min": 0.0
+    },
+    {
+      "seed": 75101,
+      "condition": "dual2_rotating_hidden_silent_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.359375,
+      "semantic_success_min": 0.125
+    },
+    {
+      "seed": 75101,
+      "condition": "dual2_rotating_visible_live_factorized",
+      "sender_sequence_agreement": 0.75,
+      "semantic_success_mean": 0.75,
+      "semantic_success_min": 0.5
+    },
+    {
+      "seed": 75101,
+      "condition": "dual2_rotating_visible_silent_factorized",
+      "sender_sequence_agreement": 0.375,
+      "semantic_success_mean": 0.34375,
+      "semantic_success_min": 0.125
+    },
+    {
+      "seed": 75101,
+      "condition": "mono4_rotating_hidden_live_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.75,
+      "semantic_success_min": 0.5
+    },
+    {
+      "seed": 75101,
+      "condition": "mono4_rotating_hidden_silent_factorized",
       "sender_sequence_agreement": 1.0,
       "semantic_success_mean": 0.34375,
+      "semantic_success_min": 0.125
+    },
+    {
+      "seed": 75102,
+      "condition": "dual2_fixed_hidden_live_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.75,
+      "semantic_success_min": 0.5
+    },
+    {
+      "seed": 75102,
+      "condition": "dual2_fixed_hidden_silent_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.3125,
+      "semantic_success_min": 0.125
+    },
+    {
+      "seed": 75102,
+      "condition": "dual2_rotating_hidden_live_entangled",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.75,
+      "semantic_success_min": 0.5
+    },
+    {
+      "seed": 75102,
+      "condition": "dual2_rotating_hidden_live_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.75,
+      "semantic_success_min": 0.5
+    },
+    {
+      "seed": 75102,
+      "condition": "dual2_rotating_hidden_silent_entangled",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.3203125,
+      "semantic_success_min": 0.125
+    },
+    {
+      "seed": 75102,
+      "condition": "dual2_rotating_hidden_silent_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.34375,
+      "semantic_success_min": 0.125
+    },
+    {
+      "seed": 75102,
+      "condition": "dual2_rotating_visible_live_factorized",
+      "sender_sequence_agreement": 0.75,
+      "semantic_success_mean": 0.75,
+      "semantic_success_min": 0.5
+    },
+    {
+      "seed": 75102,
+      "condition": "dual2_rotating_visible_silent_factorized",
+      "sender_sequence_agreement": 0.5625,
+      "semantic_success_mean": 0.3359375,
+      "semantic_success_min": 0.0
+    },
+    {
+      "seed": 75102,
+      "condition": "mono4_rotating_hidden_live_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.75,
+      "semantic_success_min": 0.5
+    },
+    {
+      "seed": 75102,
+      "condition": "mono4_rotating_hidden_silent_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.328125,
       "semantic_success_min": 0.25
     },
     {
-      "seed": 75101,
+      "seed": 75103,
+      "condition": "dual2_fixed_hidden_live_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.75,
+      "semantic_success_min": 0.5
+    },
+    {
+      "seed": 75103,
+      "condition": "dual2_fixed_hidden_silent_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.21875,
+      "semantic_success_min": 0.125
+    },
+    {
+      "seed": 75103,
       "condition": "dual2_rotating_hidden_live_entangled",
       "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.65625,
-      "semantic_success_min": 0.375
+      "semantic_success_mean": 0.75,
+      "semantic_success_min": 0.5
     },
     {
-      "seed": 75101,
+      "seed": 75103,
       "condition": "dual2_rotating_hidden_live_factorized",
       "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.5703125,
-      "semantic_success_min": 0.375
+      "semantic_success_mean": 0.75,
+      "semantic_success_min": 0.5
     },
     {
-      "seed": 75101,
+      "seed": 75103,
       "condition": "dual2_rotating_hidden_silent_entangled",
       "sender_sequence_agreement": 1.0,
       "semantic_success_mean": 0.3359375,
-      "semantic_success_min": 0.125
-    },
-    {
-      "seed": 75101,
-      "condition": "dual2_rotating_hidden_silent_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.34375,
-      "semantic_success_min": 0.125
-    },
-    {
-      "seed": 75101,
-      "condition": "dual2_rotating_visible_live_factorized",
-      "sender_sequence_agreement": 0.5,
-      "semantic_success_mean": 0.59375,
-      "semantic_success_min": 0.375
-    },
-    {
-      "seed": 75101,
-      "condition": "dual2_rotating_visible_silent_factorized",
-      "sender_sequence_agreement": 0.4375,
-      "semantic_success_mean": 0.3203125,
-      "semantic_success_min": 0.125
-    },
-    {
-      "seed": 75101,
-      "condition": "mono4_rotating_hidden_live_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.65625,
-      "semantic_success_min": 0.375
-    },
-    {
-      "seed": 75101,
-      "condition": "mono4_rotating_hidden_silent_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.3984375,
-      "semantic_success_min": 0.125
-    },
-    {
-      "seed": 75102,
-      "condition": "dual2_fixed_hidden_live_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.8125,
-      "semantic_success_min": 0.625
-    },
-    {
-      "seed": 75102,
-      "condition": "dual2_fixed_hidden_silent_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.3125,
-      "semantic_success_min": 0.125
-    },
-    {
-      "seed": 75102,
-      "condition": "dual2_rotating_hidden_live_entangled",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.5234375,
-      "semantic_success_min": 0.25
-    },
-    {
-      "seed": 75102,
-      "condition": "dual2_rotating_hidden_live_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.6328125,
-      "semantic_success_min": 0.25
-    },
-    {
-      "seed": 75102,
-      "condition": "dual2_rotating_hidden_silent_entangled",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.296875,
-      "semantic_success_min": 0.0
-    },
-    {
-      "seed": 75102,
-      "condition": "dual2_rotating_hidden_silent_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.3125,
-      "semantic_success_min": 0.0
-    },
-    {
-      "seed": 75102,
-      "condition": "dual2_rotating_visible_live_factorized",
-      "sender_sequence_agreement": 0.4375,
-      "semantic_success_mean": 0.65625,
-      "semantic_success_min": 0.5
-    },
-    {
-      "seed": 75102,
-      "condition": "dual2_rotating_visible_silent_factorized",
-      "sender_sequence_agreement": 0.5,
-      "semantic_success_mean": 0.3828125,
-      "semantic_success_min": 0.0
-    },
-    {
-      "seed": 75102,
-      "condition": "mono4_rotating_hidden_live_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.6328125,
-      "semantic_success_min": 0.375
-    },
-    {
-      "seed": 75102,
-      "condition": "mono4_rotating_hidden_silent_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.296875,
-      "semantic_success_min": 0.125
-    },
-    {
-      "seed": 75103,
-      "condition": "dual2_fixed_hidden_live_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.75,
-      "semantic_success_min": 0.5
-    },
-    {
-      "seed": 75103,
-      "condition": "dual2_fixed_hidden_silent_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.21875,
-      "semantic_success_min": 0.0
-    },
-    {
-      "seed": 75103,
-      "condition": "dual2_rotating_hidden_live_entangled",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.6328125,
-      "semantic_success_min": 0.375
-    },
-    {
-      "seed": 75103,
-      "condition": "dual2_rotating_hidden_live_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.6640625,
-      "semantic_success_min": 0.5
-    },
-    {
-      "seed": 75103,
-      "condition": "dual2_rotating_hidden_silent_entangled",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.375,
       "semantic_success_min": 0.0
     },
     {
       "seed": 75103,
       "condition": "dual2_rotating_hidden_silent_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.3203125,
-      "semantic_success_min": 0.0
-    },
-    {
-      "seed": 75103,
-      "condition": "dual2_rotating_visible_live_factorized",
-      "sender_sequence_agreement": 0.4375,
-      "semantic_success_mean": 0.59375,
-      "semantic_success_min": 0.125
-    },
-    {
-      "seed": 75103,
-      "condition": "dual2_rotating_visible_silent_factorized",
-      "sender_sequence_agreement": 0.3125,
-      "semantic_success_mean": 0.3984375,
-      "semantic_success_min": 0.0
-    },
-    {
-      "seed": 75103,
-      "condition": "mono4_rotating_hidden_live_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.578125,
-      "semantic_success_min": 0.25
-    },
-    {
-      "seed": 75103,
-      "condition": "mono4_rotating_hidden_silent_factorized",
       "sender_sequence_agreement": 1.0,
       "semantic_success_mean": 0.34375,
       "semantic_success_min": 0.0
     },
     {
-      "seed": 75104,
-      "condition": "dual2_fixed_hidden_live_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.71875,
-      "semantic_success_min": 0.625
-    },
-    {
-      "seed": 75104,
-      "condition": "dual2_fixed_hidden_silent_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.375,
-      "semantic_success_min": 0.125
-    },
-    {
-      "seed": 75104,
-      "condition": "dual2_rotating_hidden_live_entangled",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.5625,
-      "semantic_success_min": 0.25
-    },
-    {
-      "seed": 75104,
-      "condition": "dual2_rotating_hidden_live_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.6796875,
-      "semantic_success_min": 0.5
-    },
-    {
-      "seed": 75104,
-      "condition": "dual2_rotating_hidden_silent_entangled",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.359375,
-      "semantic_success_min": 0.0
-    },
-    {
-      "seed": 75104,
-      "condition": "dual2_rotating_hidden_silent_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.3984375,
-      "semantic_success_min": 0.125
-    },
-    {
-      "seed": 75104,
+      "seed": 75103,
       "condition": "dual2_rotating_visible_live_factorized",
-      "sender_sequence_agreement": 0.4375,
-      "semantic_success_mean": 0.5859375,
-      "semantic_success_min": 0.125
-    },
-    {
-      "seed": 75104,
-      "condition": "dual2_rotating_visible_silent_factorized",
-      "sender_sequence_agreement": 0.3125,
-      "semantic_success_mean": 0.3984375,
-      "semantic_success_min": 0.125
-    },
-    {
-      "seed": 75104,
-      "condition": "mono4_rotating_hidden_live_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.5859375,
-      "semantic_success_min": 0.125
-    },
-    {
-      "seed": 75104,
-      "condition": "mono4_rotating_hidden_silent_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.28125,
-      "semantic_success_min": 0.0
-    },
-    {
-      "seed": 75105,
-      "condition": "dual2_fixed_hidden_live_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.71875,
-      "semantic_success_min": 0.625
-    },
-    {
-      "seed": 75105,
-      "condition": "dual2_fixed_hidden_silent_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.3125,
-      "semantic_success_min": 0.25
-    },
-    {
-      "seed": 75105,
-      "condition": "dual2_rotating_hidden_live_entangled",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.546875,
-      "semantic_success_min": 0.375
-    },
-    {
-      "seed": 75105,
-      "condition": "dual2_rotating_hidden_live_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.5078125,
-      "semantic_success_min": 0.0
-    },
-    {
-      "seed": 75105,
-      "condition": "dual2_rotating_hidden_silent_entangled",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.34375,
-      "semantic_success_min": 0.125
-    },
-    {
-      "seed": 75105,
-      "condition": "dual2_rotating_hidden_silent_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.328125,
-      "semantic_success_min": 0.125
-    },
-    {
-      "seed": 75105,
-      "condition": "dual2_rotating_visible_live_factorized",
-      "sender_sequence_agreement": 0.3125,
-      "semantic_success_mean": 0.5703125,
-      "semantic_success_min": 0.375
-    },
-    {
-      "seed": 75105,
-      "condition": "dual2_rotating_visible_silent_factorized",
-      "sender_sequence_agreement": 0.25,
-      "semantic_success_mean": 0.390625,
-      "semantic_success_min": 0.0
-    },
-    {
-      "seed": 75105,
-      "condition": "mono4_rotating_hidden_live_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.609375,
-      "semantic_success_min": 0.25
-    },
-    {
-      "seed": 75105,
-      "condition": "mono4_rotating_hidden_silent_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.328125,
-      "semantic_success_min": 0.125
-    },
-    {
-      "seed": 75106,
-      "condition": "dual2_fixed_hidden_live_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.625,
-      "semantic_success_min": 0.375
-    },
-    {
-      "seed": 75106,
-      "condition": "dual2_fixed_hidden_silent_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.3125,
-      "semantic_success_min": 0.25
-    },
-    {
-      "seed": 75106,
-      "condition": "dual2_rotating_hidden_live_entangled",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.59375,
-      "semantic_success_min": 0.25
-    },
-    {
-      "seed": 75106,
-      "condition": "dual2_rotating_hidden_live_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.515625,
-      "semantic_success_min": 0.25
-    },
-    {
-      "seed": 75106,
-      "condition": "dual2_rotating_hidden_silent_entangled",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.328125,
-      "semantic_success_min": 0.0
-    },
-    {
-      "seed": 75106,
-      "condition": "dual2_rotating_hidden_silent_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.3203125,
-      "semantic_success_min": 0.0
-    },
-    {
-      "seed": 75106,
-      "condition": "dual2_rotating_visible_live_factorized",
-      "sender_sequence_agreement": 0.3125,
-      "semantic_success_mean": 0.609375,
-      "semantic_success_min": 0.25
-    },
-    {
-      "seed": 75106,
-      "condition": "dual2_rotating_visible_silent_factorized",
-      "sender_sequence_agreement": 0.5,
-      "semantic_success_mean": 0.25,
-      "semantic_success_min": 0.0
-    },
-    {
-      "seed": 75106,
-      "condition": "mono4_rotating_hidden_live_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.546875,
-      "semantic_success_min": 0.25
-    },
-    {
-      "seed": 75106,
-      "condition": "mono4_rotating_hidden_silent_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.296875,
-      "semantic_success_min": 0.0
-    },
-    {
-      "seed": 75107,
-      "condition": "dual2_fixed_hidden_live_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.75,
-      "semantic_success_min": 0.5
-    },
-    {
-      "seed": 75107,
-      "condition": "dual2_fixed_hidden_silent_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.3125,
-      "semantic_success_min": 0.25
-    },
-    {
-      "seed": 75107,
-      "condition": "dual2_rotating_hidden_live_entangled",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.5,
-      "semantic_success_min": 0.25
-    },
-    {
-      "seed": 75107,
-      "condition": "dual2_rotating_hidden_live_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.421875,
-      "semantic_success_min": 0.125
-    },
-    {
-      "seed": 75107,
-      "condition": "dual2_rotating_hidden_silent_entangled",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.296875,
-      "semantic_success_min": 0.0
-    },
-    {
-      "seed": 75107,
-      "condition": "dual2_rotating_hidden_silent_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.21875,
-      "semantic_success_min": 0.0
-    },
-    {
-      "seed": 75107,
-      "condition": "dual2_rotating_visible_live_factorized",
-      "sender_sequence_agreement": 0.3125,
-      "semantic_success_mean": 0.515625,
-      "semantic_success_min": 0.125
-    },
-    {
-      "seed": 75107,
-      "condition": "dual2_rotating_visible_silent_factorized",
-      "sender_sequence_agreement": 0.4375,
-      "semantic_success_mean": 0.296875,
-      "semantic_success_min": 0.0
-    },
-    {
-      "seed": 75107,
-      "condition": "mono4_rotating_hidden_live_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.5625,
-      "semantic_success_min": 0.25
-    },
-    {
-      "seed": 75107,
-      "condition": "mono4_rotating_hidden_silent_factorized",
-      "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.3203125,
-      "semantic_success_min": 0.125
-    },
-    {
-      "seed": 75108,
-      "condition": "dual2_fixed_hidden_live_factorized",
-      "sender_sequence_agreement": 1.0,
+      "sender_sequence_agreement": 0.6875,
       "semantic_success_mean": 0.78125,
       "semantic_success_min": 0.5
     },
     {
+      "seed": 75103,
+      "condition": "dual2_rotating_visible_silent_factorized",
+      "sender_sequence_agreement": 0.25,
+      "semantic_success_mean": 0.34375,
+      "semantic_success_min": 0.0
+    },
+    {
+      "seed": 75103,
+      "condition": "mono4_rotating_hidden_live_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.875,
+      "semantic_success_min": 0.5
+    },
+    {
+      "seed": 75103,
+      "condition": "mono4_rotating_hidden_silent_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.34375,
+      "semantic_success_min": 0.125
+    },
+    {
+      "seed": 75104,
+      "condition": "dual2_fixed_hidden_live_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.75,
+      "semantic_success_min": 0.5
+    },
+    {
+      "seed": 75104,
+      "condition": "dual2_fixed_hidden_silent_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.25,
+      "semantic_success_min": 0.125
+    },
+    {
+      "seed": 75104,
+      "condition": "dual2_rotating_hidden_live_entangled",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.75,
+      "semantic_success_min": 0.5
+    },
+    {
+      "seed": 75104,
+      "condition": "dual2_rotating_hidden_live_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.75,
+      "semantic_success_min": 0.5
+    },
+    {
+      "seed": 75104,
+      "condition": "dual2_rotating_hidden_silent_entangled",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.3515625,
+      "semantic_success_min": 0.0
+    },
+    {
+      "seed": 75104,
+      "condition": "dual2_rotating_hidden_silent_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.4140625,
+      "semantic_success_min": 0.125
+    },
+    {
+      "seed": 75104,
+      "condition": "dual2_rotating_visible_live_factorized",
+      "sender_sequence_agreement": 0.5625,
+      "semantic_success_mean": 0.8125,
+      "semantic_success_min": 0.5
+    },
+    {
+      "seed": 75104,
+      "condition": "dual2_rotating_visible_silent_factorized",
+      "sender_sequence_agreement": 0.4375,
+      "semantic_success_mean": 0.28125,
+      "semantic_success_min": 0.125
+    },
+    {
+      "seed": 75104,
+      "condition": "mono4_rotating_hidden_live_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.75,
+      "semantic_success_min": 0.5
+    },
+    {
+      "seed": 75104,
+      "condition": "mono4_rotating_hidden_silent_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.3984375,
+      "semantic_success_min": 0.125
+    },
+    {
+      "seed": 75105,
+      "condition": "dual2_fixed_hidden_live_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.75,
+      "semantic_success_min": 0.5
+    },
+    {
+      "seed": 75105,
+      "condition": "dual2_fixed_hidden_silent_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.25,
+      "semantic_success_min": 0.125
+    },
+    {
+      "seed": 75105,
+      "condition": "dual2_rotating_hidden_live_entangled",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.75,
+      "semantic_success_min": 0.5
+    },
+    {
+      "seed": 75105,
+      "condition": "dual2_rotating_hidden_live_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.75,
+      "semantic_success_min": 0.5
+    },
+    {
+      "seed": 75105,
+      "condition": "dual2_rotating_hidden_silent_entangled",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.296875,
+      "semantic_success_min": 0.125
+    },
+    {
+      "seed": 75105,
+      "condition": "dual2_rotating_hidden_silent_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.3203125,
+      "semantic_success_min": 0.0
+    },
+    {
+      "seed": 75105,
+      "condition": "dual2_rotating_visible_live_factorized",
+      "sender_sequence_agreement": 0.25,
+      "semantic_success_mean": 0.84375,
+      "semantic_success_min": 0.5
+    },
+    {
+      "seed": 75105,
+      "condition": "dual2_rotating_visible_silent_factorized",
+      "sender_sequence_agreement": 0.375,
+      "semantic_success_mean": 0.328125,
+      "semantic_success_min": 0.0
+    },
+    {
+      "seed": 75105,
+      "condition": "mono4_rotating_hidden_live_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.875,
+      "semantic_success_min": 0.5
+    },
+    {
+      "seed": 75105,
+      "condition": "mono4_rotating_hidden_silent_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.3125,
+      "semantic_success_min": 0.125
+    },
+    {
+      "seed": 75106,
+      "condition": "dual2_fixed_hidden_live_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 1.0,
+      "semantic_success_min": 1.0
+    },
+    {
+      "seed": 75106,
+      "condition": "dual2_fixed_hidden_silent_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.3125,
+      "semantic_success_min": 0.125
+    },
+    {
+      "seed": 75106,
+      "condition": "dual2_rotating_hidden_live_entangled",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.75,
+      "semantic_success_min": 0.5
+    },
+    {
+      "seed": 75106,
+      "condition": "dual2_rotating_hidden_live_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.75,
+      "semantic_success_min": 0.5
+    },
+    {
+      "seed": 75106,
+      "condition": "dual2_rotating_hidden_silent_entangled",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.34375,
+      "semantic_success_min": 0.0
+    },
+    {
+      "seed": 75106,
+      "condition": "dual2_rotating_hidden_silent_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.296875,
+      "semantic_success_min": 0.0
+    },
+    {
+      "seed": 75106,
+      "condition": "dual2_rotating_visible_live_factorized",
+      "sender_sequence_agreement": 0.25,
+      "semantic_success_mean": 0.78125,
+      "semantic_success_min": 0.5
+    },
+    {
+      "seed": 75106,
+      "condition": "dual2_rotating_visible_silent_factorized",
+      "sender_sequence_agreement": 0.5,
+      "semantic_success_mean": 0.28125,
+      "semantic_success_min": 0.0
+    },
+    {
+      "seed": 75106,
+      "condition": "mono4_rotating_hidden_live_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.75,
+      "semantic_success_min": 0.5
+    },
+    {
+      "seed": 75106,
+      "condition": "mono4_rotating_hidden_silent_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.3046875,
+      "semantic_success_min": 0.0
+    },
+    {
+      "seed": 75107,
+      "condition": "dual2_fixed_hidden_live_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.75,
+      "semantic_success_min": 0.5
+    },
+    {
+      "seed": 75107,
+      "condition": "dual2_fixed_hidden_silent_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.21875,
+      "semantic_success_min": 0.125
+    },
+    {
+      "seed": 75107,
+      "condition": "dual2_rotating_hidden_live_entangled",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.75,
+      "semantic_success_min": 0.5
+    },
+    {
+      "seed": 75107,
+      "condition": "dual2_rotating_hidden_live_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.875,
+      "semantic_success_min": 0.5
+    },
+    {
+      "seed": 75107,
+      "condition": "dual2_rotating_hidden_silent_entangled",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.3125,
+      "semantic_success_min": 0.0
+    },
+    {
+      "seed": 75107,
+      "condition": "dual2_rotating_hidden_silent_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.3046875,
+      "semantic_success_min": 0.0
+    },
+    {
+      "seed": 75107,
+      "condition": "dual2_rotating_visible_live_factorized",
+      "sender_sequence_agreement": 0.375,
+      "semantic_success_mean": 0.8125,
+      "semantic_success_min": 0.5
+    },
+    {
+      "seed": 75107,
+      "condition": "dual2_rotating_visible_silent_factorized",
+      "sender_sequence_agreement": 0.5625,
+      "semantic_success_mean": 0.3359375,
+      "semantic_success_min": 0.0
+    },
+    {
+      "seed": 75107,
+      "condition": "mono4_rotating_hidden_live_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.875,
+      "semantic_success_min": 0.5
+    },
+    {
+      "seed": 75107,
+      "condition": "mono4_rotating_hidden_silent_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.359375,
+      "semantic_success_min": 0.125
+    },
+    {
+      "seed": 75108,
+      "condition": "dual2_fixed_hidden_live_factorized",
+      "sender_sequence_agreement": 1.0,
+      "semantic_success_mean": 0.75,
+      "semantic_success_min": 0.5
+    },
+    {
       "seed": 75108,
       "condition": "dual2_fixed_hidden_silent_factorized",
       "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.40625,
+      "semantic_success_mean": 0.3125,
       "semantic_success_min": 0.125
     },
     {
       "seed": 75108,
       "condition": "dual2_rotating_hidden_live_entangled",
       "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.609375,
-      "semantic_success_min": 0.25
+      "semantic_success_mean": 0.75,
+      "semantic_success_min": 0.5
     },
     {
       "seed": 75108,
       "condition": "dual2_rotating_hidden_live_factorized",
       "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.59375,
-      "semantic_success_min": 0.25
+      "semantic_success_mean": 0.75,
+      "semantic_success_min": 0.5
     },
     {
       "seed": 75108,
@@ -2336,35 +2336,35 @@
       "seed": 75108,
       "condition": "dual2_rotating_hidden_silent_factorized",
       "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.3125,
+      "semantic_success_mean": 0.359375,
       "semantic_success_min": 0.125
     },
     {
       "seed": 75108,
       "condition": "dual2_rotating_visible_live_factorized",
-      "sender_sequence_agreement": 0.4375,
-      "semantic_success_mean": 0.578125,
-      "semantic_success_min": 0.25
+      "sender_sequence_agreement": 0.25,
+      "semantic_success_mean": 0.75,
+      "semantic_success_min": 0.5
     },
     {
       "seed": 75108,
       "condition": "dual2_rotating_visible_silent_factorized",
-      "sender_sequence_agreement": 0.4375,
-      "semantic_success_mean": 0.34375,
-      "semantic_success_min": 0.125
+      "sender_sequence_agreement": 0.5,
+      "semantic_success_mean": 0.296875,
+      "semantic_success_min": 0.0
     },
     {
       "seed": 75108,
       "condition": "mono4_rotating_hidden_live_factorized",
       "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.578125,
-      "semantic_success_min": 0.375
+      "semantic_success_mean": 0.75,
+      "semantic_success_min": 0.5
     },
     {
       "seed": 75108,
       "condition": "mono4_rotating_hidden_silent_factorized",
       "sender_sequence_agreement": 1.0,
-      "semantic_success_mean": 0.40625,
+      "semantic_success_mean": 0.359375,
       "semantic_success_min": 0.125
     }
   ]

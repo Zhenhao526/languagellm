@@ -2,7 +2,7 @@
 
 - [tabular_signaling_study](tabular_signaling_study/README.md)：144 个 run 的私有需求、记忆、容量与通道正对照。
 - [temporal_scarcity_study](temporal_scarcity_study/temporal_003_formal_结果与下一步.md)：128 个 run 的 neural temporal-scarcity 矩阵和负边界。
-- [compositional_signaling_study](compositional_signaling_study/README.md)：80 个筛查性 run，比较一个四值 token 与两个二值 token，并做槽位重组检验。
+- [compositional_signaling_study](compositional_signaling_study/README.md)：80 个筛查性 run 加 80 个 3000-update 完整 run，比较一个四值 token 与两个二值 token，并做槽位重组检验。
 - [population_signaling_study](population_signaling_study/README.md)：128 个 run 的固定/轮换伙伴与公共 token 对照。
 
 三个 signaling 包的 `results/formal_20260917/` 只保留紧凑汇总、冻结 JSON、审计和哈希收据；temporal 包保留源码、冻结方案、紧凑审计和结果报告，不保留原始日志或 checkpoint。完整阶段历史仍可从 Git 历史中的旧提交恢复；当前工作树只展开继续实验所需的代码和记录。
