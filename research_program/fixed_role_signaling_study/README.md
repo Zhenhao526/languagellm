@@ -17,6 +17,11 @@ matches the environment oracle exactly on persistent and switching held-out
 episodes, so the next learning control should expose the target to the worker
 before returning to private-information signaling.
 
+The same-architecture supervised FI action control is summarized in
+[fi_supervised_control_结果与下一步.md](fi_supervised_control_结果与下一步.md).
+It reaches the finite-horizon oracle on four held-out seeds, isolating
+self-play credit assignment from network expressivity.
+
 Run the invariant tests from the repository root:
 
 ```bash
