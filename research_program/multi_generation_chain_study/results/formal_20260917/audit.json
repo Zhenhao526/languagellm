@@ -1,0 +1,48 @@
+{
+  "schema": "multi_generation_chain_audit_v1",
+  "status": "passed",
+  "chains": 128,
+  "runs": 384,
+  "training_log_rows": 1152000,
+  "final_checkpoints": 1536,
+  "max_abs_replay_error": 0.0,
+  "paired_channel_trajectory_rows": 576000,
+  "parts": [
+    {
+      "path": "/private/tmp/mgc_chain_audit_parts/part0/audit.json",
+      "sha256": "9351e6517be0871276c3efe21e3030a3880d48d22edf622900d501a6150f815a",
+      "chains": 32,
+      "runs": 96,
+      "training_log_rows": 288000,
+      "final_checkpoints": 384,
+      "paired_channel_trajectory_rows": 144000
+    },
+    {
+      "path": "/private/tmp/mgc_chain_audit_parts/part1/audit.json",
+      "sha256": "76ff2605a30b9a145b7f48b430bdabbfb8fe4a621ff12bad3649892b92ef163d",
+      "chains": 32,
+      "runs": 96,
+      "training_log_rows": 288000,
+      "final_checkpoints": 384,
+      "paired_channel_trajectory_rows": 144000
+    },
+    {
+      "path": "/private/tmp/mgc_chain_audit_parts/part2/audit.json",
+      "sha256": "c09ee3f69d56d5ff3af370b0039f0daadceaaabd27a513f5d3fa91ad63c1de69",
+      "chains": 32,
+      "runs": 96,
+      "training_log_rows": 288000,
+      "final_checkpoints": 384,
+      "paired_channel_trajectory_rows": 144000
+    },
+    {
+      "path": "/private/tmp/mgc_chain_audit_parts/part3/audit.json",
+      "sha256": "679ecb432baa904fbfe0ea33ab01d4631a4858d72d9102003732dcad45f44d2f",
+      "chains": 32,
+      "runs": 96,
+      "training_log_rows": 288000,
+      "final_checkpoints": 384,
+      "paired_channel_trajectory_rows": 144000
+    }
+  ]
+}

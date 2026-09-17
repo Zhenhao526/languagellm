@@ -1,0 +1,121 @@
+{
+  "schema": "ternary_composition_study_v1",
+  "prepared_sha256": "c3618ee90197eaad76de83703264ce956d7d601c8d0d9016c7e9de93e537bfb5",
+  "sources": {
+    "research_program/ternary_composition_study/__init__.py": "65601cb06a02a5244bb22b302d4045181c84089647941fbcb33b70a62e5d64ed",
+    "research_program/ternary_composition_study/design.py": "3cac8cedbdf7cac3fa7b94090dcfb601cfcd36616863023800367a4119634299",
+    "research_program/ternary_composition_study/policy.py": "9c6631ed26595db7d0e4c2027150b006ca5a0e4424e340956ee892b19493f8a8",
+    "research_program/ternary_composition_study/environment.py": "ce479bac2d6094da30da6cf2b4d737d328e21ddf012e96fdf2602ebb9f202722",
+    "research_program/ternary_composition_study/runner.py": "d641d7b5541416b69d778e15574b865cd3ba79ce6dae36e7a90497010265f075",
+    "research_program/ternary_composition_study/aggregate.py": "45fad32b572da8841aea932b9e4dd86a6565c8183747924842d5818f62cabd3c",
+    "research_program/ternary_composition_study/audit.py": "7cbaa50092f13a79213147b75f559593d713372702852854d55b5f87a4e03949",
+    "research_program/ternary_composition_study/plan.md": "010ebf742ed29ea67583f2ccb10f9667ba62aa5dbfe5635f2f239dbe4daacee5",
+    "research_program/ternary_composition_study/tests/test_game.py": "b9b7d23c59f92d7e3afceca87b94441a9a56662074c0d524c687a76d7e912575"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.2.6"
+  },
+  "config": {
+    "schema": "ternary_composition_study_v1",
+    "horizon": 6,
+    "action_start": 2,
+    "subtasks": 2,
+    "steps_per_subtask": 2,
+    "forms": {
+      "mono9": {
+        "alphabet_size": 9,
+        "length": 1,
+        "state_count": 10
+      },
+      "tri3": {
+        "alphabet_size": 3,
+        "length": 2,
+        "state_count": 10
+      }
+    },
+    "tasks": [
+      "factorized",
+      "entangled"
+    ],
+    "protocols": {
+      "simultaneous": {
+        "mono9": [
+          0
+        ],
+        "tri3": [
+          0,
+          1
+        ]
+      },
+      "staged": {
+        "mono9": [
+          1
+        ],
+        "tri3": [
+          1,
+          3
+        ]
+      }
+    },
+    "channels": [
+      "silent",
+      "live"
+    ],
+    "workers": 4,
+    "object_types": 3,
+    "actions": [
+      "wait",
+      "take_site0",
+      "take_site1",
+      "take_site2"
+    ],
+    "capacity": 2,
+    "seeds": [
+      77101,
+      77102,
+      77103,
+      77104,
+      77105,
+      77106,
+      77107,
+      77108,
+      77109
+    ],
+    "conditions": [
+      "mono9_factorized_simultaneous_silent",
+      "mono9_factorized_simultaneous_live",
+      "mono9_factorized_staged_silent",
+      "mono9_factorized_staged_live",
+      "mono9_entangled_simultaneous_silent",
+      "mono9_entangled_simultaneous_live",
+      "mono9_entangled_staged_silent",
+      "mono9_entangled_staged_live",
+      "tri3_factorized_simultaneous_silent",
+      "tri3_factorized_simultaneous_live",
+      "tri3_factorized_staged_silent",
+      "tri3_factorized_staged_live",
+      "tri3_entangled_simultaneous_silent",
+      "tri3_entangled_simultaneous_live",
+      "tri3_entangled_staged_silent",
+      "tri3_entangled_staged_live"
+    ],
+    "updates": 3000,
+    "batch_size": 512,
+    "learning_rate": 0.08,
+    "entropy_initial": 0.01,
+    "entropy_zero_after": 5000,
+    "pairing": "forms, tasks, protocols and channel arms share worlds, goals, partners, message uniforms and action uniforms within each seed/update",
+    "compositionality": "tri3 slot recombination selects donors by target values; mono9 has no slot recombination readout",
+    "no_teacher_or_language_prior": true,
+    "checkpoints": [
+      0,
+      500,
+      1000,
+      2000,
+      3000
+    ],
+    "runs": 144,
+    "evaluation_episodes_per_worker": 4096
+  }
+}

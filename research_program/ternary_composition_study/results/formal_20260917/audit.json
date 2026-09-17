@@ -1,0 +1,9 @@
+{
+  "schema": "ternary_composition_audit_v1",
+  "status": "passed",
+  "runs": 144,
+  "training_log_rows": 432000,
+  "final_checkpoints": 144,
+  "paired_channel_trajectory_rows": 216000,
+  "max_abs_replay_error": 0.0
+}

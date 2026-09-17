@@ -10,6 +10,9 @@
 - [held-out goal-combination recovery 完整结果](research_program/heldout_composition_study/)
 - [receiver representation full-support 对照](research_program/receiver_representation_study/)
 - [两代组合协议传递链](research_program/multi_generation_transmission_study/)
+- [三代严格组合留出链](research_program/multi_generation_chain_study/)
+- [噪声下的协议维持与修复](research_program/noise_repair_study/)
+- [三值属性与消息容量扩展](research_program/ternary_composition_study/)
 - [population signaling 源代码与紧凑结果](research_program/population_signaling_study/)
 - [本轮同步与清理说明](SYNC_2026-09-17.md)
 

@@ -3,7 +3,7 @@
   "timestamp_local": "2026-09-17",
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
-  "remote_commit_verified_after_sync": "1cda33cd2bb4bfd1c3b0e5363ebff0b4e236a92f",
+  "remote_commit_verified_after_sync": "eb6b1532d16b36e4de14dd675686f281cc2b27d9",
   "remote_main_verified": true,
   "compact_archives_verified": {
     "research_program/tabular_signaling_study/results/formal_20260917": {
@@ -41,6 +41,18 @@
     "research_program/multi_generation_transmission_study/results/formal_20260917": {
       "files": 11,
       "bytes": 429349
+    },
+    "research_program/multi_generation_chain_study/results/formal_20260917": {
+      "files": 11,
+      "bytes": 3303018
+    },
+    "research_program/noise_repair_study/results/formal_20260917": {
+      "files": 9,
+      "bytes": 480182
+    },
+    "research_program/ternary_composition_study/results/formal_20260917": {
+      "files": 8,
+      "bytes": 749112
     }
   },
   "raw_execution_trees_removed": {
@@ -96,7 +108,17 @@
     "/tmp/mgt_parent_prepared",
     "/tmp/mgt_smoke_parent",
     "/tmp/mgt_smoke_prepared",
-    "/tmp/mgt_smoke_out"
+    "/tmp/mgt_smoke_out",
+    "/tmp/tcs_formal_out",
+    "/tmp/tcs_formal_prepared",
+    "/tmp/tcs_formal_prepared2",
+    "/tmp/tcs_smoke_out",
+    "/tmp/tcs_smoke_prepared",
+    "/private/tmp/tcs_audit_parts",
+    "/tmp/tcs_formal_analysis.json",
+    "/tmp/tcs_formal_analysis.md",
+    "/tmp/tcs_formal_audit.json",
+    "/tmp/tcs_formal_audit2.json"
   ],
   "tracked_paths_pruned_in_commit": 8338,
   "git_history_preserved": true,
@@ -161,11 +183,23 @@
     "research_program/multi_generation_transmission_study": {
       "files": 19,
       "bytes": 473034
+    },
+    "research_program/multi_generation_chain_study": {
+      "files": 25,
+      "bytes": 3372953
+    },
+    "research_program/noise_repair_study": {
+      "files": 24,
+      "bytes": 579504
+    },
+    "research_program/ternary_composition_study": {
+      "files": 26,
+      "bytes": 837634
     }
   },
   "local_environment": {
-    "files": 1200,
-    "bytes": 106900460
+    "files": 1838,
+    "bytes": 141968358
   },
   "retention_policy": "source code, frozen plans, compact results, audit receipts, final report and local runtime only; raw process trees and literature caches are not kept in the working tree",
   "additional_cleanup": {

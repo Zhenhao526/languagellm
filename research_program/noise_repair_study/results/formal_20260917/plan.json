@@ -1,0 +1,134 @@
+{
+  "schema": "noise_repair_study_v1",
+  "prepared_sha256": "31a58d12c6fc158de200c6c690e74f3cb3fda13cccf5b551595f2fd404429fbd",
+  "parent_analysis_sha256": "b6c5169c19f69e59bd348a51b2b83231036f07131ee1b03dfe8fdc389e865e50",
+  "sources": {
+    "research_program/noise_repair_study/__init__.py": "bec6de19e5c121f81d7ac1258671abaad8f5af269619a49446784715c92560cb",
+    "research_program/noise_repair_study/design.py": "ac9c018b5dd89fa49477aa711410671c405c281bfe6d108a59e2da2057c61700",
+    "research_program/noise_repair_study/environment.py": "79d4200177434753929f894ddf42d7eba15af1f208f9c0e72636d9405c7c5562",
+    "research_program/noise_repair_study/runner.py": "c6be526fb544c49c503275603fb85c8c987996a40a6a385a3917cfdf07692532",
+    "research_program/noise_repair_study/aggregate.py": "bc687460eb8e51abf3c466b51c64916c61b7b6d408e37cf7bf3b384beb7c65b4",
+    "research_program/noise_repair_study/audit.py": "db47a698c76b207499c4b6d2007b49f6131b47d6128b2c6634de2fa4e0f904ee",
+    "research_program/noise_repair_study/plan.md": "48f4d6ba4d81f7d85ebad3f4db221b01b99dc53fc3807358efacb9ddb6d5e626",
+    "research_program/noise_repair_study/tests/test_game.py": "fe7bcd1b0c2fa758d4f050d68e6fb3bf7a54d0954d15044f5f0294526edb7b38"
+  },
+  "dependencies": {
+    "research_program/action_dependent_signaling_study/design.py": "35daeabf190dc3f02f8addb77273d9d2b7190bf81cb59b2552cc335952cd16c4",
+    "research_program/action_dependent_signaling_study/environment.py": "bc64b0c4bdfc23d4c69566ebd1919dd4c470a91aeefb479f8aba855eb2bff688",
+    "research_program/action_dependent_signaling_study/policy.py": "379c35bff921f71f18df4a87f51b10957902f78f3c003b5d9502448772bb0b91"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.2.6"
+  },
+  "config": {
+    "schema": "noise_repair_study_v1",
+    "horizon": 6,
+    "action_start": 2,
+    "subtasks": 2,
+    "steps_per_subtask": 2,
+    "form": "dual2",
+    "partner_mode": "rotating",
+    "visibility": "hidden",
+    "task": "factorized",
+    "protocol": "staged",
+    "workers": 4,
+    "capacity": 2,
+    "target_worker": 0,
+    "seeds": [
+      76103,
+      76104,
+      76105,
+      76106,
+      76112,
+      76113,
+      76120,
+      76122,
+      76129
+    ],
+    "representations": [
+      "joint_history",
+      "slot_local"
+    ],
+    "adaptations": [
+      "worker_only",
+      "coadapt"
+    ],
+    "noise_levels": [
+      0.0,
+      0.1,
+      0.25,
+      0.4
+    ],
+    "noise_keys": {
+      "p00": 0.0,
+      "p10": 0.1,
+      "p25": 0.25,
+      "p40": 0.4
+    },
+    "conditions": [
+      "worker_only_joint_history_p00",
+      "worker_only_joint_history_p10",
+      "worker_only_joint_history_p25",
+      "worker_only_joint_history_p40",
+      "worker_only_slot_local_p00",
+      "worker_only_slot_local_p10",
+      "worker_only_slot_local_p25",
+      "worker_only_slot_local_p40",
+      "coadapt_joint_history_p00",
+      "coadapt_joint_history_p10",
+      "coadapt_joint_history_p25",
+      "coadapt_joint_history_p40",
+      "coadapt_slot_local_p00",
+      "coadapt_slot_local_p10",
+      "coadapt_slot_local_p25",
+      "coadapt_slot_local_p40"
+    ],
+    "updates": 3000,
+    "batch_size": 512,
+    "learning_rate": 0.08,
+    "entropy_initial": 0.01,
+    "entropy_zero_after": 5000,
+    "checkpoints": [
+      0,
+      500,
+      1000,
+      2000,
+      3000
+    ],
+    "parent_condition": "dual2_rotating_hidden_live_factorized_staged",
+    "parent_root": "/private/tmp/mgc_parent/execution",
+    "parent_checkpoint_sha256": {
+      "76103": "173c31117692e4fec1f9836de58e1e229fa35d5186dab08d0bbaada221348bf6",
+      "76104": "c19cd0f5d934cd29fe6f5cc19d15ccc525f9d7e15cfc7010814e437376d9ea69",
+      "76105": "c66f0700150d01b635668281d2dfcb277346027c9c00c124d091569c532a5d43",
+      "76106": "fe21343fe542b48625d1e3a905f0033516e11dbff009057b90229034e1190fd4",
+      "76112": "9a64e2de80ebb45383ff9494838e2c881becddcfa2e8f2da0c91f861e3a71051",
+      "76113": "dfd3472de4eacace3a555ce99ee1a86f1d54eae4416573334e516ec2924f70a9",
+      "76120": "53214a9b725ecb3c143b44abfdbd82a4b747373eb8cccbbd3d3408c6e8ef7f16",
+      "76122": "961d7ab95e803504b89d76e8e56f3681ee02009862e2c1c95cf937c3c5721330",
+      "76129": "3b7fe0ed59796d05696747c6772ae9e493626f5967bbb0c1e7ee2207e1ad8086"
+    },
+    "parent_analysis_sha256": "b6c5169c19f69e59bd348a51b2b83231036f07131ee1b03dfe8fdc389e865e50",
+    "pairing": "all noise/adaptation/representation arms share stage-specific worlds, goals, partners, message uniforms, action uniforms and noise uniforms within each seed/update",
+    "replacement": "replace worker 0; worker 1-3 remain frozen; worker_only freezes sender; coadapt updates hidden sender and worker 0 together",
+    "noise": "independent binary slot flips after message delivery and before receiver state update",
+    "composition_rule": "noisy natural return >= 0.60 and absolute noisy recombined-minus-natural <= 0.02",
+    "compatibility": "evaluate frozen incumbent workers 1-3 under the final sender to distinguish repair from sender drift",
+    "no_teacher_or_language_prior": true,
+    "parent_composable": {
+      "76103": true,
+      "76104": true,
+      "76105": true,
+      "76106": true,
+      "76112": true,
+      "76113": true,
+      "76120": true,
+      "76122": true,
+      "76129": true
+    },
+    "runs": 144,
+    "evaluation_episodes_total": 16384,
+    "evaluation_episodes_per_worker_expected": 4096
+  }
+}

@@ -1,0 +1,2079 @@
+{
+  "schema": "ternary_composition_analysis_v1",
+  "rule": {
+    "natural_min": 0.6,
+    "absolute_recombined_gap_max": 0.02
+  },
+  "rows": [
+    {
+      "seed": 77101,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.10749301495880188,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.10749301495880188
+    },
+    {
+      "seed": 77101,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.1375037036301689,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.1375037036301689
+    },
+    {
+      "seed": 77101,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.10749301495880188,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.10749301495880188
+    },
+    {
+      "seed": 77101,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.13920331965083108,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.13920331965083108
+    },
+    {
+      "seed": 77101,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.10917475112624433,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.10917475112624433
+    },
+    {
+      "seed": 77101,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.13307533852294517,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.13307533852294517
+    },
+    {
+      "seed": 77101,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.10917475112624433,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.10917475112624433
+    },
+    {
+      "seed": 77101,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.12904084245330008,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.12904084245330008
+    },
+    {
+      "seed": 77101,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.11121934513499929,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11121934513499929
+    },
+    {
+      "seed": 77101,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.15451097970149943,
+      "recombined_minus_natural": -0.015732855173485837,
+      "composable": false,
+      "worker_natural": 0.15451097970149943
+    },
+    {
+      "seed": 77101,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.11121934513499929,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11121934513499929
+    },
+    {
+      "seed": 77101,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.17067807566864235,
+      "recombined_minus_natural": -0.02752595159880798,
+      "composable": false,
+      "worker_natural": 0.17067807566864235
+    },
+    {
+      "seed": 77101,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.1096708961006073,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.1096708961006073
+    },
+    {
+      "seed": 77101,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.1400110767057694,
+      "recombined_minus_natural": -0.050752541315777645,
+      "composable": false,
+      "worker_natural": 0.1400110767057694
+    },
+    {
+      "seed": 77101,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.1096708961006073,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.1096708961006073
+    },
+    {
+      "seed": 77101,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.15526931400344535,
+      "recombined_minus_natural": -0.04416731842698444,
+      "composable": false,
+      "worker_natural": 0.15526931400344535
+    },
+    {
+      "seed": 77102,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.10919090392857607,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.10919090392857607
+    },
+    {
+      "seed": 77102,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.14127272595710347,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.14127272595710347
+    },
+    {
+      "seed": 77102,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.10919090392857607,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.10919090392857607
+    },
+    {
+      "seed": 77102,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.13686516157781164,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.13686516157781164
+    },
+    {
+      "seed": 77102,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.11206792872355353,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11206792872355353
+    },
+    {
+      "seed": 77102,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.18297568575103884,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.18297568575103884
+    },
+    {
+      "seed": 77102,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.11206792872355353,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11206792872355353
+    },
+    {
+      "seed": 77102,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.1708816707251189,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.1708816707251189
+    },
+    {
+      "seed": 77102,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.11444309204524064,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11444309204524064
+    },
+    {
+      "seed": 77102,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.18597876404436894,
+      "recombined_minus_natural": -0.046797078140102956,
+      "composable": false,
+      "worker_natural": 0.18597876404436894
+    },
+    {
+      "seed": 77102,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.11444309204524064,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11444309204524064
+    },
+    {
+      "seed": 77102,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.181266505808669,
+      "recombined_minus_natural": -0.050217105141650085,
+      "composable": false,
+      "worker_natural": 0.181266505808669
+    },
+    {
+      "seed": 77102,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.11164612149198161,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11164612149198161
+    },
+    {
+      "seed": 77102,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.16478090412591043,
+      "recombined_minus_natural": -0.011889166643875217,
+      "composable": false,
+      "worker_natural": 0.16478090412591043
+    },
+    {
+      "seed": 77102,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.11164612149198161,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11164612149198161
+    },
+    {
+      "seed": 77102,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.1696661295987407,
+      "recombined_minus_natural": -0.007781327186102704,
+      "composable": false,
+      "worker_natural": 0.1696661295987407
+    },
+    {
+      "seed": 77103,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.11279820647468808,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11279820647468808
+    },
+    {
+      "seed": 77103,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.15845698767869906,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.15845698767869906
+    },
+    {
+      "seed": 77103,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.11279820647468808,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11279820647468808
+    },
+    {
+      "seed": 77103,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.15565340296734975,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.15565340296734975
+    },
+    {
+      "seed": 77103,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.11003243629075443,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11003243629075443
+    },
+    {
+      "seed": 77103,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.16528414922044368,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.16528414922044368
+    },
+    {
+      "seed": 77103,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.11003243629075443,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11003243629075443
+    },
+    {
+      "seed": 77103,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.15359892332697508,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.15359892332697508
+    },
+    {
+      "seed": 77103,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.11125267399133429,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11125267399133429
+    },
+    {
+      "seed": 77103,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.16505188688838662,
+      "recombined_minus_natural": -0.05997515085243632,
+      "composable": false,
+      "worker_natural": 0.16505188688838662
+    },
+    {
+      "seed": 77103,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.11125267399133429,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11125267399133429
+    },
+    {
+      "seed": 77103,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.19595475906086052,
+      "recombined_minus_natural": -0.0012338812849975594,
+      "composable": false,
+      "worker_natural": 0.19595475906086052
+    },
+    {
+      "seed": 77103,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.1111620450967417,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.1111620450967417
+    },
+    {
+      "seed": 77103,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.17388846768333027,
+      "recombined_minus_natural": 0.004368078285481074,
+      "composable": false,
+      "worker_natural": 0.17388846768333027
+    },
+    {
+      "seed": 77103,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.1111620450967417,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.1111620450967417
+    },
+    {
+      "seed": 77103,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.23796515695744125,
+      "recombined_minus_natural": 0.015795630239590963,
+      "composable": false,
+      "worker_natural": 0.23796515695744125
+    },
+    {
+      "seed": 77104,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.10927415372874856,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.10927415372874856
+    },
+    {
+      "seed": 77104,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.16604423927090015,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.16604423927090015
+    },
+    {
+      "seed": 77104,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.10927415372874856,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.10927415372874856
+    },
+    {
+      "seed": 77104,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.15357489472492758,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.15357489472492758
+    },
+    {
+      "seed": 77104,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.11285922976305118,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11285922976305118
+    },
+    {
+      "seed": 77104,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.1301225632064467,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.1301225632064467
+    },
+    {
+      "seed": 77104,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.11285922976305118,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11285922976305118
+    },
+    {
+      "seed": 77104,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.12418228708952089,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.12418228708952089
+    },
+    {
+      "seed": 77104,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.11143610263651138,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11143610263651138
+    },
+    {
+      "seed": 77104,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.1565223025613009,
+      "recombined_minus_natural": -0.007915297350469096,
+      "composable": false,
+      "worker_natural": 0.1565223025613009
+    },
+    {
+      "seed": 77104,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.11143610263651138,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11143610263651138
+    },
+    {
+      "seed": 77104,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.18116739876033883,
+      "recombined_minus_natural": -0.02231960556031557,
+      "composable": false,
+      "worker_natural": 0.18116739876033883
+    },
+    {
+      "seed": 77104,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.11186413069106496,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11186413069106496
+    },
+    {
+      "seed": 77104,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.1819453256243697,
+      "recombined_minus_natural": -0.051997807470794286,
+      "composable": false,
+      "worker_natural": 0.1819453256243697
+    },
+    {
+      "seed": 77104,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.11186413069106496,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11186413069106496
+    },
+    {
+      "seed": 77104,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.15128561379052258,
+      "recombined_minus_natural": -0.015301513118089274,
+      "composable": false,
+      "worker_natural": 0.15128561379052258
+    },
+    {
+      "seed": 77105,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.10990995534111918,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.10990995534111918
+    },
+    {
+      "seed": 77105,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.15461639149540285,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.15461639149540285
+    },
+    {
+      "seed": 77105,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.10990995534111918,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.10990995534111918
+    },
+    {
+      "seed": 77105,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.14246745232598287,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.14246745232598287
+    },
+    {
+      "seed": 77105,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.11257803302415015,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11257803302415015
+    },
+    {
+      "seed": 77105,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.1737864666850481,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.1737864666850481
+    },
+    {
+      "seed": 77105,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.11257803302415015,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11257803302415015
+    },
+    {
+      "seed": 77105,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.16774356227282095,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.16774356227282095
+    },
+    {
+      "seed": 77105,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.10864062710394068,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.10864062710394068
+    },
+    {
+      "seed": 77105,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.2042733273389318,
+      "recombined_minus_natural": -0.007343196941901685,
+      "composable": false,
+      "worker_natural": 0.2042733273389318
+    },
+    {
+      "seed": 77105,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.10864062710394068,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.10864062710394068
+    },
+    {
+      "seed": 77105,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.21334412317589474,
+      "recombined_minus_natural": 0.010713124601057743,
+      "composable": false,
+      "worker_natural": 0.21334412317589474
+    },
+    {
+      "seed": 77105,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.10925033422053063,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.10925033422053063
+    },
+    {
+      "seed": 77105,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.18041126030183033,
+      "recombined_minus_natural": -0.03266018598062912,
+      "composable": false,
+      "worker_natural": 0.18041126030183033
+    },
+    {
+      "seed": 77105,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.10925033422053063,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.10925033422053063
+    },
+    {
+      "seed": 77105,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.16194787715618597,
+      "recombined_minus_natural": -0.0038027015359149846,
+      "composable": false,
+      "worker_natural": 0.16194787715618597
+    },
+    {
+      "seed": 77106,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.1087874560962387,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.1087874560962387
+    },
+    {
+      "seed": 77106,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.15514962247328276,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.15514962247328276
+    },
+    {
+      "seed": 77106,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.1087874560962387,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.1087874560962387
+    },
+    {
+      "seed": 77106,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.14621010160730807,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.14621010160730807
+    },
+    {
+      "seed": 77106,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.11055175053443111,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11055175053443111
+    },
+    {
+      "seed": 77106,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.1561240736449618,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.1561240736449618
+    },
+    {
+      "seed": 77106,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.11055175053443111,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11055175053443111
+    },
+    {
+      "seed": 77106,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.14078549585259323,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.14078549585259323
+    },
+    {
+      "seed": 77106,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.11135893683488537,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11135893683488537
+    },
+    {
+      "seed": 77106,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.21307885000836702,
+      "recombined_minus_natural": -0.02030807841452411,
+      "composable": false,
+      "worker_natural": 0.21307885000836702
+    },
+    {
+      "seed": 77106,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.11135893683488537,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11135893683488537
+    },
+    {
+      "seed": 77106,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.20217723826315712,
+      "recombined_minus_natural": -0.009471828474543566,
+      "composable": false,
+      "worker_natural": 0.20217723826315712
+    },
+    {
+      "seed": 77106,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.11086444567456394,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11086444567456394
+    },
+    {
+      "seed": 77106,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.21338603962623515,
+      "recombined_minus_natural": -0.04915509610184671,
+      "composable": false,
+      "worker_natural": 0.21338603962623515
+    },
+    {
+      "seed": 77106,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.11086444567456394,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11086444567456394
+    },
+    {
+      "seed": 77106,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.1591031467391602,
+      "recombined_minus_natural": -0.03974990600819713,
+      "composable": false,
+      "worker_natural": 0.1591031467391602
+    },
+    {
+      "seed": 77107,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.11250351558355745,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11250351558355745
+    },
+    {
+      "seed": 77107,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.14068439556216442,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.14068439556216442
+    },
+    {
+      "seed": 77107,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.11250351558355745,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11250351558355745
+    },
+    {
+      "seed": 77107,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.15249981390742745,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.15249981390742745
+    },
+    {
+      "seed": 77107,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.11345497913934229,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11345497913934229
+    },
+    {
+      "seed": 77107,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.12646892022788572,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.12646892022788572
+    },
+    {
+      "seed": 77107,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.11345497913934229,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11345497913934229
+    },
+    {
+      "seed": 77107,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.12091003121583559,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.12091003121583559
+    },
+    {
+      "seed": 77107,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.11248465633894583,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11248465633894583
+    },
+    {
+      "seed": 77107,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.1655957551816804,
+      "recombined_minus_natural": 0.0019258607451796278,
+      "composable": false,
+      "worker_natural": 0.1655957551816804
+    },
+    {
+      "seed": 77107,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.11248465633894583,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11248465633894583
+    },
+    {
+      "seed": 77107,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.19897452607941285,
+      "recombined_minus_natural": -0.022767515465212378,
+      "composable": false,
+      "worker_natural": 0.19897452607941285
+    },
+    {
+      "seed": 77107,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.11246526973169585,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11246526973169585
+    },
+    {
+      "seed": 77107,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.17949004967440635,
+      "recombined_minus_natural": -0.003933226016143487,
+      "composable": false,
+      "worker_natural": 0.17949004967440635
+    },
+    {
+      "seed": 77107,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.11246526973169585,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11246526973169585
+    },
+    {
+      "seed": 77107,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.18785928425171805,
+      "recombined_minus_natural": -0.004550090004581939,
+      "composable": false,
+      "worker_natural": 0.18785928425171805
+    },
+    {
+      "seed": 77108,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.10969152442370918,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.10969152442370918
+    },
+    {
+      "seed": 77108,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.1333990057954127,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.1333990057954127
+    },
+    {
+      "seed": 77108,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.10969152442370918,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.10969152442370918
+    },
+    {
+      "seed": 77108,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.1281270370119656,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.1281270370119656
+    },
+    {
+      "seed": 77108,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.10800637967957831,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.10800637967957831
+    },
+    {
+      "seed": 77108,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.13910692161131885,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.13910692161131885
+    },
+    {
+      "seed": 77108,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.10800637967957831,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.10800637967957831
+    },
+    {
+      "seed": 77108,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.1365161214226903,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.1365161214226903
+    },
+    {
+      "seed": 77108,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.11109859860776841,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11109859860776841
+    },
+    {
+      "seed": 77108,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.19131345591976123,
+      "recombined_minus_natural": -0.04553505986603977,
+      "composable": false,
+      "worker_natural": 0.19131345591976123
+    },
+    {
+      "seed": 77108,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.11109859860776841,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11109859860776841
+    },
+    {
+      "seed": 77108,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.2002880459261628,
+      "recombined_minus_natural": -0.011969940172790947,
+      "composable": false,
+      "worker_natural": 0.2002880459261628
+    },
+    {
+      "seed": 77108,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.10971528554787088,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.10971528554787088
+    },
+    {
+      "seed": 77108,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.17843151397139273,
+      "recombined_minus_natural": -0.054557596596372576,
+      "composable": false,
+      "worker_natural": 0.17843151397139273
+    },
+    {
+      "seed": 77108,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.10971528554787088,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.10971528554787088
+    },
+    {
+      "seed": 77108,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.17661051517080018,
+      "recombined_minus_natural": -0.010724416777370495,
+      "composable": false,
+      "worker_natural": 0.17661051517080018
+    },
+    {
+      "seed": 77109,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.11034366620334464,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11034366620334464
+    },
+    {
+      "seed": 77109,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.1483670650415613,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.1483670650415613
+    },
+    {
+      "seed": 77109,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.11034366620334464,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11034366620334464
+    },
+    {
+      "seed": 77109,
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.1315227970474037,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.1315227970474037
+    },
+    {
+      "seed": 77109,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.11162879838352491,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11162879838352491
+    },
+    {
+      "seed": 77109,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.17425010226523788,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.17425010226523788
+    },
+    {
+      "seed": 77109,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.11162879838352491,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11162879838352491
+    },
+    {
+      "seed": 77109,
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.1680682544138434,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.1680682544138434
+    },
+    {
+      "seed": 77109,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.11039789010764539,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11039789010764539
+    },
+    {
+      "seed": 77109,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.20542692792408052,
+      "recombined_minus_natural": -0.027931488551614987,
+      "composable": false,
+      "worker_natural": 0.20542692792408052
+    },
+    {
+      "seed": 77109,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.11039789010764539,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11039789010764539
+    },
+    {
+      "seed": 77109,
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.1895486271876196,
+      "recombined_minus_natural": 0.008782336663844259,
+      "composable": false,
+      "worker_natural": 0.1895486271876196
+    },
+    {
+      "seed": 77109,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "natural": 0.11374988055100045,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11374988055100045
+    },
+    {
+      "seed": 77109,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "natural": 0.21094813222084963,
+      "recombined_minus_natural": -0.059750550048241396,
+      "composable": false,
+      "worker_natural": 0.21094813222084963
+    },
+    {
+      "seed": 77109,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "silent",
+      "natural": 0.11374988055100045,
+      "recombined_minus_natural": null,
+      "composable": false,
+      "worker_natural": 0.11374988055100045
+    },
+    {
+      "seed": 77109,
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "live",
+      "natural": 0.19618599142043847,
+      "recombined_minus_natural": -0.032271928823327356,
+      "composable": false,
+      "worker_natural": 0.19618599142043847
+    }
+  ],
+  "groups": [
+    {
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "n": 9,
+      "natural_mean": 0.1099991551931982,
+      "natural_ci95_t": [
+        0.10878779566893514,
+        0.11121051471746125
+      ],
+      "recombined_minus_natural_mean": null,
+      "composable_count": 0
+    },
+    {
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "n": 9,
+      "natural_mean": 0.1483882374338551,
+      "natural_ci95_t": [
+        0.14064286664373368,
+        0.1561336082239765
+      ],
+      "recombined_minus_natural_mean": null,
+      "composable_count": 0
+    },
+    {
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "silent",
+      "n": 9,
+      "natural_mean": 0.1099991551931982,
+      "natural_ci95_t": [
+        0.10878779566893514,
+        0.11121051471746125
+      ],
+      "recombined_minus_natural_mean": null,
+      "composable_count": 0
+    },
+    {
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "live",
+      "n": 9,
+      "natural_mean": 0.14290266453566755,
+      "natural_ci95_t": [
+        0.13589769519087458,
+        0.14990763388046052
+      ],
+      "recombined_minus_natural_mean": null,
+      "composable_count": 0
+    },
+    {
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "n": 9,
+      "natural_mean": 0.11115047629607003,
+      "natural_ci95_t": [
+        0.10985162413934954,
+        0.11244932845279051
+      ],
+      "recombined_minus_natural_mean": null,
+      "composable_count": 0
+    },
+    {
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "n": 9,
+      "natural_mean": 0.15346602457059186,
+      "natural_ci95_t": [
+        0.138066848610646,
+        0.16886520053053772
+      ],
+      "recombined_minus_natural_mean": null,
+      "composable_count": 0
+    },
+    {
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "silent",
+      "n": 9,
+      "natural_mean": 0.11115047629607003,
+      "natural_ci95_t": [
+        0.10985162413934954,
+        0.11244932845279051
+      ],
+      "recombined_minus_natural_mean": null,
+      "composable_count": 0
+    },
+    {
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "live",
+      "n": 9,
+      "natural_mean": 0.1457474654191887,
+      "natural_ci95_t": [
+        0.13165747581506773,
+        0.15983745502330968
+      ],
+      "recombined_minus_natural_mean": null,
+      "composable_count": 0
+    },
+    {
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "n": 9,
+      "natural_mean": 0.1113702136445857,
+      "natural_ci95_t": [
+        0.11026966830883982,
+        0.11247075898033158
+      ],
+      "recombined_minus_natural_mean": null,
+      "composable_count": 0
+    },
+    {
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "n": 9,
+      "natural_mean": 0.1824169166187085,
+      "natural_ci95_t": [
+        0.16638586991423057,
+        0.19844796332318645
+      ],
+      "recombined_minus_natural_mean": -0.025512482727266125,
+      "composable_count": 0
+    },
+    {
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "silent",
+      "n": 9,
+      "natural_mean": 0.1113702136445857,
+      "natural_ci95_t": [
+        0.11026966830883982,
+        0.11247075898033158
+      ],
+      "recombined_minus_natural_mean": null,
+      "composable_count": 0
+    },
+    {
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "staged",
+      "channel": "live",
+      "n": 9,
+      "natural_mean": 0.19259992221452862,
+      "natural_ci95_t": [
+        0.18326148672639206,
+        0.2019383577026652
+      ],
+      "recombined_minus_natural_mean": -0.014001151825935122,
+      "composable_count": 0
+    },
+    {
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "silent",
+      "n": 9,
+      "natural_mean": 0.11115426767845081,
+      "natural_ci95_t": [
+        0.11011304475000863,
+        0.11219549060689299
+      ],
+      "recombined_minus_natural_mean": null,
+      "composable_count": 0
+    },
+    {
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "channel": "live",
+      "n": 9,
+      "natural_mean": 0.18036586332601046,
+      "natural_ci95_t": [
+        0.1645866356152932,
+        0.19614509103672773
+      ],
+      "recombined_minus_natural_mean": -0.034480899098688816,
+      "composable_count": 0
+    },
+    {
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "silent",
+      "n": 9,
+      "natural_mean": 0.11115426767845081,
+      "natural_ci95_t": [
+        0.11011304475000863,
+        0.11219549060689299
+      ],
+      "recombined_minus_natural_mean": null,
+      "composable_count": 0
+    },
+    {
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "staged",
+      "channel": "live",
+      "n": 9,
+      "natural_mean": 0.17732144767649474,
+      "natural_ci95_t": [
+        0.15796794784287438,
+        0.1966749475101151
+      ],
+      "recombined_minus_natural_mean": -0.015839285737886375,
+      "composable_count": 0
+    }
+  ],
+  "effects": [
+    {
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "effect": "live-minus-silent",
+      "values": [
+        0.03001068867136701,
+        0.0320818220285274,
+        0.045658781204010984,
+        0.056770085542151585,
+        0.04470643615428367,
+        0.04636216637704406,
+        0.028180879978606965,
+        0.023707481371703518,
+        0.03802339883821666
+      ],
+      "mean": 0.038389082240656874,
+      "ci95_t": [
+        0.030753210879849148,
+        0.0460249536014646
+      ]
+    },
+    {
+      "form": "mono9",
+      "task": "factorized",
+      "protocol": "staged",
+      "effect": "live-minus-silent",
+      "values": [
+        0.03171030469202919,
+        0.027674257649235576,
+        0.042855196492661674,
+        0.04430074099617902,
+        0.032557496984863696,
+        0.03742264551106937,
+        0.03999629832387,
+        0.018435512588256417,
+        0.02117913084405905
+      ],
+      "mean": 0.032903509342469335,
+      "ci95_t": [
+        0.026375680408168165,
+        0.039431338276770506
+      ]
+    },
+    {
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "effect": "live-minus-silent",
+      "values": [
+        0.02390058739670084,
+        0.07090775702748531,
+        0.05525171292968925,
+        0.017263333443395507,
+        0.061208433660897954,
+        0.045572323110530694,
+        0.013013941088543438,
+        0.03110054193174054,
+        0.06262130388171297
+      ],
+      "mean": 0.04231554827452184,
+      "ci95_t": [
+        0.027003406511467383,
+        0.05762769003757629
+      ]
+    },
+    {
+      "form": "mono9",
+      "task": "entangled",
+      "protocol": "staged",
+      "effect": "live-minus-silent",
+      "values": [
+        0.019866091327055746,
+        0.05881374200156536,
+        0.04356648703622065,
+        0.01132305732646971,
+        0.0551655292486708,
+        0.030233745318162114,
+        0.0074550520764933015,
+        0.02850974174311198,
+        0.0564394560303185
+      ],
+      "mean": 0.03459698912311868,
+      "ci95_t": [
+        0.020569409947747253,
+        0.0486245682984901
+      ]
+    },
+    {
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "effect": "live-minus-silent",
+      "values": [
+        0.04329163456650015,
+        0.0715356719991283,
+        0.053799212897052334,
+        0.045086199924789516,
+        0.09563270023499112,
+        0.10171991317348164,
+        0.05311109884273457,
+        0.08021485731199282,
+        0.09502903781643512
+      ],
+      "mean": 0.07104670297412284,
+      "ci95_t": [
+        0.054635812578416126,
+        0.08745759336982956
+      ]
+    },
+    {
+      "form": "tri3",
+      "task": "factorized",
+      "protocol": "staged",
+      "effect": "live-minus-silent",
+      "values": [
+        0.05945873053364306,
+        0.06682341376342835,
+        0.08470208506952623,
+        0.06973129612382745,
+        0.10470349607195406,
+        0.09081830142827174,
+        0.08648986974046702,
+        0.0891894473183944,
+        0.07915073707997422
+      ],
+      "mean": 0.08122970856994295,
+      "ci95_t": [
+        0.07129533114330783,
+        0.09116408599657808
+      ]
+    },
+    {
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "effect": "live-minus-silent",
+      "values": [
+        0.030340180605162095,
+        0.05313478263392882,
+        0.06272642258658857,
+        0.07008119493330475,
+        0.0711609260812997,
+        0.10252159395167121,
+        0.0670247799427105,
+        0.06871622842352185,
+        0.09719825166984918
+      ],
+      "mean": 0.06921159564755965,
+      "ci95_t": [
+        0.05390339827308481,
+        0.08451979302203448
+      ]
+    },
+    {
+      "form": "tri3",
+      "task": "entangled",
+      "protocol": "staged",
+      "effect": "live-minus-silent",
+      "values": [
+        0.04559841790283804,
+        0.058020008106759086,
+        0.12680311186069954,
+        0.039421483099457616,
+        0.052697542935655345,
+        0.04823870106459627,
+        0.0753940145200222,
+        0.06689522962292929,
+        0.08243611086943801
+      ],
+      "mean": 0.06616717999804395,
+      "ci95_t": [
+        0.04714482124225322,
+        0.08518953875383467
+      ]
+    }
+  ],
+  "staged_minus_simultaneous": [
+    {
+      "form": "mono9",
+      "task": "factorized",
+      "values": [
+        0.0016996160206621813,
+        -0.004407564379291823,
+        -0.0028035847113493106,
+        -0.012469344545972566,
+        -0.012148939169419976,
+        -0.008939520865974687,
+        0.011815418345263035,
+        -0.005271968783447101,
+        -0.016844267994157613
+      ],
+      "mean": -0.00548557289818754,
+      "ci95_t": [
+        -0.011604992156476392,
+        0.000633846360101312
+      ]
+    },
+    {
+      "form": "mono9",
+      "task": "entangled",
+      "values": [
+        -0.004034496069645094,
+        -0.012094015025919946,
+        -0.011685225893468598,
+        -0.005940276116925797,
+        -0.006042904412227157,
+        -0.01533857779236858,
+        -0.005558889012050136,
+        -0.0025908001886285614,
+        -0.006181847851394473
+      ],
+      "mean": -0.007718559151403149,
+      "ci95_t": [
+        -0.010751725401263719,
+        -0.00468539290154258
+      ]
+    },
+    {
+      "form": "tri3",
+      "task": "factorized",
+      "values": [
+        0.016167095967142914,
+        -0.0047122582356999565,
+        0.030902872172473894,
+        0.02464509619903793,
+        0.009070795836962936,
+        -0.0109016117452099,
+        0.033378770897732446,
+        0.008974590006401578,
+        -0.015878300736460904
+      ],
+      "mean": 0.010183005595820104,
+      "ci95_t": [
+        -0.002528087145856929,
+        0.022894098337497136
+      ]
+    },
+    {
+      "form": "tri3",
+      "task": "entangled",
+      "values": [
+        0.015258237297675947,
+        0.004885225472830268,
+        0.06407668927411098,
+        -0.030659711833847136,
+        -0.018463383145644358,
+        -0.05428289288707494,
+        0.008369234577311702,
+        -0.0018209988005925548,
+        -0.014762140800411161
+      ],
+      "mean": -0.003044415649515695,
+      "ci95_t": [
+        -0.026605687597438456,
+        0.020516856298407063
+      ]
+    }
+  ]
+}

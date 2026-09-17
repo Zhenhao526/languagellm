@@ -1,0 +1,18 @@
+{
+  "schema": "ternary_composition_receipt_v1",
+  "status": "compact_archive_created_after_passed_audit_source_refresh",
+  "archive": "research_program/ternary_composition_study/results/formal_20260917",
+  "prepared_sha256": "c3618ee90197eaad76de83703264ce956d7d601c8d0d9016c7e9de93e537bfb5",
+  "plan_sha256": "c6f76e3a5c8ac355a4018e4d0c0acc05abd68887e7972d49c07a207a4e9290a0",
+  "freeze_sha256": "5b03319cddfcd51dd9b7acf42b0d9cde7a2821008beb249dc79ccf18224c6466",
+  "audit_sha256": "09e74fda10373fd15415b73f8c6b0b95b64e7a9100ea449364b8ecbd2da8e4f4",
+  "aggregate_sha256": "ec65b249b714dcb88bf691306c3a42968d1f352fe7c44c337a8a7227a46f8a26",
+  "compact_results_sha256": "8411f39be6938651f94207fb9de1a82027fcbbc5185a02aa68cf6a2ba22213ce",
+  "runs": 144,
+  "training_log_rows": 432000,
+  "final_checkpoints": 144,
+  "paired_channel_trajectory_rows": 216000,
+  "max_abs_replay_error": 0.0,
+  "raw_execution_retained": false,
+  "source_refresh_note": "Aggregate key name was corrected before the final prepared freeze; training and evaluation source used for the run was otherwise unchanged."
+}

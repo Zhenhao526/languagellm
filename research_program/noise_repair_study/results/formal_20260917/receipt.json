@@ -1,0 +1,22 @@
+{
+  "schema": "noise_repair_receipt_v1",
+  "status": "compact_archive_created_after_passed_audit_source_refresh",
+  "archive": "research_program/noise_repair_study/results/formal_20260917",
+  "prepared_sha256": "31a58d12c6fc158de200c6c690e74f3cb3fda13cccf5b551595f2fd404429fbd",
+  "plan_sha256": "4d878b7a73a14e9c19e122c8312abad52a6ac99595fe344205fd217e12d89a65",
+  "freeze_sha256": "3369c7e09498927f5381b981b360d365cb29cf4abb74b210719e3ecf50591893",
+  "parent_analysis_sha256": "b6c5169c19f69e59bd348a51b2b83231036f07131ee1b03dfe8fdc389e865e50",
+  "audit_sha256": "652e07969683314eb6397a3e9b784d14f567c8523b56fef9c77402edd8c5d428",
+  "aggregate_sha256": "d0bcecc852d3a4e0e490647f09d4edf8805d90000b11be67d60f3bcb8f6fd47b",
+  "compact_results_sha256": "fa17b3f7022e8f641010efdaf990993cd443a5dd226d4c5bb398f10d01f5b4d8",
+  "runs": 144,
+  "parent_seeds": 9,
+  "adaptations": 2,
+  "representations": 2,
+  "noise_levels": 4,
+  "updates": 3000,
+  "raw_execution_retained": false,
+  "raw_parent_retained": false,
+  "max_abs_replay_error": 0.0,
+  "source_refresh_note": "Regenerated freeze metadata after making aggregate.py robust to partial smoke inputs; training and audit source are unchanged."
+}

@@ -1,0 +1,339 @@
+{
+  "schema": "multi_generation_chain_stratified_v1",
+  "strata": [
+    {
+      "representation": "joint_history",
+      "generation": 1,
+      "parent_composable": true,
+      "n": 9,
+      "natural_mean": 0.25,
+      "natural_ci95_t": [
+        0.25,
+        0.25
+      ],
+      "live_minus_silent_mean": 0.04363094986132475,
+      "live_minus_silent_ci95_t": [
+        -0.06788429677804254,
+        0.15514619650069206
+      ],
+      "recombined_gap_mean": 0.0,
+      "composable_passes": 0,
+      "composable_rate": 0.0
+    },
+    {
+      "representation": "joint_history",
+      "generation": 1,
+      "parent_composable": false,
+      "n": 23,
+      "natural_mean": 0.25,
+      "natural_ci95_t": [
+        0.25,
+        0.25
+      ],
+      "live_minus_silent_mean": 0.09548601150270242,
+      "live_minus_silent_ci95_t": [
+        0.06106795912606564,
+        0.1299040638793392
+      ],
+      "recombined_gap_mean": 0.0,
+      "composable_passes": 0,
+      "composable_rate": 0.0
+    },
+    {
+      "representation": "joint_history",
+      "generation": 2,
+      "parent_composable": true,
+      "n": 9,
+      "natural_mean": 0.20370370370370372,
+      "natural_ci95_t": [
+        0.09898148148148152,
+        0.30842592592592594
+      ],
+      "live_minus_silent_mean": 0.03177108935448457,
+      "live_minus_silent_ci95_t": [
+        -0.12594071431857,
+        0.18948289302753912
+      ],
+      "recombined_gap_mean": 0.0,
+      "composable_passes": 0,
+      "composable_rate": 0.0
+    },
+    {
+      "representation": "joint_history",
+      "generation": 2,
+      "parent_composable": false,
+      "n": 23,
+      "natural_mean": 0.1594202898550725,
+      "natural_ci95_t": [
+        0.08760334798398803,
+        0.23123723172615698
+      ],
+      "live_minus_silent_mean": 0.005287442872038919,
+      "live_minus_silent_ci95_t": [
+        -0.07774622239824368,
+        0.08832110814232151
+      ],
+      "recombined_gap_mean": 0.0,
+      "composable_passes": 0,
+      "composable_rate": 0.0
+    },
+    {
+      "representation": "joint_history",
+      "generation": 3,
+      "parent_composable": true,
+      "n": 9,
+      "natural_mean": 0.21771454838830728,
+      "natural_ci95_t": [
+        0.10457353730956448,
+        0.3308555594670501
+      ],
+      "live_minus_silent_mean": 0.024674751160801152,
+      "live_minus_silent_ci95_t": [
+        -0.13530104143447805,
+        0.18465054375608034
+      ],
+      "recombined_gap_mean": 0.0,
+      "composable_passes": 0,
+      "composable_rate": 0.0
+    },
+    {
+      "representation": "joint_history",
+      "generation": 3,
+      "parent_composable": false,
+      "n": 23,
+      "natural_mean": 0.1639026456266817,
+      "natural_ci95_t": [
+        0.10319609924710396,
+        0.22460919200625942
+      ],
+      "live_minus_silent_mean": 0.013215426855742006,
+      "live_minus_silent_ci95_t": [
+        -0.03679200334990592,
+        0.06322285706138993
+      ],
+      "recombined_gap_mean": 0.0,
+      "composable_passes": 0,
+      "composable_rate": 0.0
+    },
+    {
+      "representation": "slot_local",
+      "generation": 1,
+      "parent_composable": true,
+      "n": 9,
+      "natural_mean": 0.6666666666666665,
+      "natural_ci95_t": [
+        0.6666666666666665,
+        0.6666666666666665
+      ],
+      "live_minus_silent_mean": 0.44740384160608543,
+      "live_minus_silent_ci95_t": [
+        0.3309623511624877,
+        0.5638453320496832
+      ],
+      "recombined_gap_mean": 0.0,
+      "composable_passes": 9,
+      "composable_rate": 1.0
+    },
+    {
+      "representation": "slot_local",
+      "generation": 1,
+      "parent_composable": false,
+      "n": 23,
+      "natural_mean": 0.18659420289855075,
+      "natural_ci95_t": [
+        0.12674675133931368,
+        0.24644165445778782
+      ],
+      "live_minus_silent_mean": 0.0379667577143849,
+      "live_minus_silent_ci95_t": [
+        -0.03134185606895784,
+        0.10727537149772765
+      ],
+      "recombined_gap_mean": 0.0,
+      "composable_passes": 0,
+      "composable_rate": 0.0
+    },
+    {
+      "representation": "slot_local",
+      "generation": 2,
+      "parent_composable": true,
+      "n": 9,
+      "natural_mean": 0.2962962962962963,
+      "natural_ci95_t": [
+        0.107505625344918,
+        0.4850869672476745
+      ],
+      "live_minus_silent_mean": 0.10353329523774474,
+      "live_minus_silent_ci95_t": [
+        -0.09931521788664349,
+        0.30638180836213297
+      ],
+      "recombined_gap_mean": 0.0,
+      "composable_passes": 2,
+      "composable_rate": 0.2222222222222222
+    },
+    {
+      "representation": "slot_local",
+      "generation": 2,
+      "parent_composable": false,
+      "n": 23,
+      "natural_mean": 0.14130434782608697,
+      "natural_ci95_t": [
+        0.013281150363959826,
+        0.2693275452882141
+      ],
+      "live_minus_silent_mean": -0.00205758777819848,
+      "live_minus_silent_ci95_t": [
+        -0.14063831426969453,
+        0.13652313871329758
+      ],
+      "recombined_gap_mean": 0.0,
+      "composable_passes": 4,
+      "composable_rate": 0.17391304347826086
+    },
+    {
+      "representation": "slot_local",
+      "generation": 3,
+      "parent_composable": true,
+      "n": 9,
+      "natural_mean": 0.2962962962962963,
+      "natural_ci95_t": [
+        0.107505625344918,
+        0.4850869672476745
+      ],
+      "live_minus_silent_mean": 0.10111706432886011,
+      "live_minus_silent_ci95_t": [
+        -0.13786946209148146,
+        0.3401035907492017
+      ],
+      "recombined_gap_mean": 0.0,
+      "composable_passes": 2,
+      "composable_rate": 0.2222222222222222
+    },
+    {
+      "representation": "slot_local",
+      "generation": 3,
+      "parent_composable": false,
+      "n": 23,
+      "natural_mean": 0.15942028985507248,
+      "natural_ci95_t": [
+        0.03411167348546748,
+        0.2847289062246775
+      ],
+      "live_minus_silent_mean": 0.03541113610140072,
+      "live_minus_silent_ci95_t": [
+        -0.074816080936502,
+        0.14563835313930343
+      ],
+      "recombined_gap_mean": 0.0,
+      "composable_passes": 4,
+      "composable_rate": 0.17391304347826086
+    }
+  ],
+  "transitions": [
+    {
+      "representation": "joint_history",
+      "parent_composable": true,
+      "from_generation": 1,
+      "to_generation": 2,
+      "n": 9,
+      "counts": {
+        "False->False": 9,
+        "False->True": 0,
+        "True->False": 0,
+        "True->True": 0
+      }
+    },
+    {
+      "representation": "joint_history",
+      "parent_composable": true,
+      "from_generation": 2,
+      "to_generation": 3,
+      "n": 9,
+      "counts": {
+        "False->False": 9,
+        "False->True": 0,
+        "True->False": 0,
+        "True->True": 0
+      }
+    },
+    {
+      "representation": "joint_history",
+      "parent_composable": false,
+      "from_generation": 1,
+      "to_generation": 2,
+      "n": 23,
+      "counts": {
+        "False->False": 23,
+        "False->True": 0,
+        "True->False": 0,
+        "True->True": 0
+      }
+    },
+    {
+      "representation": "joint_history",
+      "parent_composable": false,
+      "from_generation": 2,
+      "to_generation": 3,
+      "n": 23,
+      "counts": {
+        "False->False": 23,
+        "False->True": 0,
+        "True->False": 0,
+        "True->True": 0
+      }
+    },
+    {
+      "representation": "slot_local",
+      "parent_composable": true,
+      "from_generation": 1,
+      "to_generation": 2,
+      "n": 9,
+      "counts": {
+        "False->False": 0,
+        "False->True": 0,
+        "True->False": 7,
+        "True->True": 2
+      }
+    },
+    {
+      "representation": "slot_local",
+      "parent_composable": true,
+      "from_generation": 2,
+      "to_generation": 3,
+      "n": 9,
+      "counts": {
+        "False->False": 7,
+        "False->True": 0,
+        "True->False": 0,
+        "True->True": 2
+      }
+    },
+    {
+      "representation": "slot_local",
+      "parent_composable": false,
+      "from_generation": 1,
+      "to_generation": 2,
+      "n": 23,
+      "counts": {
+        "False->False": 19,
+        "False->True": 4,
+        "True->False": 0,
+        "True->True": 0
+      }
+    },
+    {
+      "representation": "slot_local",
+      "parent_composable": false,
+      "from_generation": 2,
+      "to_generation": 3,
+      "n": 23,
+      "counts": {
+        "False->False": 18,
+        "False->True": 1,
+        "True->False": 1,
+        "True->True": 3
+      }
+    }
+  ]
+}
