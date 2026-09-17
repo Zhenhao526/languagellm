@@ -1,0 +1,166 @@
+{
+  "schema": "object_surface_remap_study_v1",
+  "prepared_sha256": "a381218fb0ec6d66b36b168c82f4b06a9134e85e3430f0037e2710ee04f17ed6",
+  "sources": {
+    "research_program/object_surface_remap_study/__init__.py": "b93fe03e69da20d9503f5aa8985d51ae66dd8c146459bd68ad1ee066cf134366",
+    "research_program/object_surface_remap_study/README.md": "39c9cda4f21d2d53565cfd4b57c935d6c4f4884d74921c8a6b975c3eaf50cd00",
+    "research_program/object_surface_remap_study/design.py": "920404a7b3fc37095e55a8621f54651bb0a54cbfe958c4e1db5cca9b9ab933bb",
+    "research_program/object_surface_remap_study/policy.py": "06888c66f9360cc3a31ef4edc134082da540110274f1be1c18992c270e57711c",
+    "research_program/object_surface_remap_study/environment.py": "05944d75868f00c6a80346506bb1ee8a06a54123dbb7b6db2f59d8b9adc2b68f",
+    "research_program/object_surface_remap_study/runner.py": "1d41573f7dccff00a700ffbf7bfbd11bfebcfea73e842ec316aaccb8a3188844",
+    "research_program/object_surface_remap_study/aggregate.py": "e9ba5785857f0c4aeb76994a594f7fd69e1620f576f1ee7afee2b7d5c281944f",
+    "research_program/object_surface_remap_study/audit.py": "04ca89c7cd20df9066023efc4e870d6a8034c0e1f82316764eb1b3ddd88ffabd",
+    "research_program/object_surface_remap_study/plan.md": "438f546fd5f003a4d35278adcb5e63bc3afc69cd3f8dd49bcd563c588b134e1e",
+    "research_program/object_surface_remap_study/tests/test_game.py": "4481442933857a7fe1dd427d8005c767d72cdcf08553ecba4bffba3613197831"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.2.6"
+  },
+  "config": {
+    "schema": "object_surface_remap_study_v1",
+    "horizon": 6,
+    "action_start": 2,
+    "subtasks": 2,
+    "steps_per_subtask": 2,
+    "object_types": 2,
+    "forms": {
+      "mono4": {
+        "alphabet_size": 4,
+        "length": 1,
+        "state_count_joint_history": 5,
+        "state_count_slot_local": null,
+        "arrival_times": [
+          1
+        ]
+      },
+      "dual2": {
+        "alphabet_size": 2,
+        "length": 2,
+        "state_count_joint_history": 5,
+        "state_count_slot_local": 3,
+        "arrival_times": [
+          1,
+          3
+        ]
+      }
+    },
+    "tasks": [
+      "factorized"
+    ],
+    "mappings": [
+      "identity",
+      "swap"
+    ],
+    "representations": [
+      "joint_history",
+      "slot_local"
+    ],
+    "supports": [
+      "full",
+      "leave_one_out"
+    ],
+    "channels": [
+      "live",
+      "silent"
+    ],
+    "partner_mode": "rotating",
+    "partner_visibility": "hidden",
+    "workers": 4,
+    "capacity": 2,
+    "actions": [
+      "wait",
+      "take_site0",
+      "take_site1"
+    ],
+    "seeds": [
+      78201,
+      78202,
+      78203,
+      78204,
+      78205,
+      78206,
+      78207,
+      78208,
+      78209
+    ],
+    "parent_conditions": [
+      "mono4_factorized",
+      "dual2_factorized"
+    ],
+    "child_conditions": [
+      "joint_history_mono4_factorized_identity_full_live",
+      "joint_history_mono4_factorized_identity_full_silent",
+      "joint_history_mono4_factorized_identity_leave_one_out_live",
+      "joint_history_mono4_factorized_identity_leave_one_out_silent",
+      "joint_history_mono4_factorized_swap_full_live",
+      "joint_history_mono4_factorized_swap_full_silent",
+      "joint_history_mono4_factorized_swap_leave_one_out_live",
+      "joint_history_mono4_factorized_swap_leave_one_out_silent",
+      "joint_history_dual2_factorized_identity_full_live",
+      "joint_history_dual2_factorized_identity_full_silent",
+      "joint_history_dual2_factorized_identity_leave_one_out_live",
+      "joint_history_dual2_factorized_identity_leave_one_out_silent",
+      "joint_history_dual2_factorized_swap_full_live",
+      "joint_history_dual2_factorized_swap_full_silent",
+      "joint_history_dual2_factorized_swap_leave_one_out_live",
+      "joint_history_dual2_factorized_swap_leave_one_out_silent",
+      "slot_local_dual2_factorized_identity_full_live",
+      "slot_local_dual2_factorized_identity_full_silent",
+      "slot_local_dual2_factorized_identity_leave_one_out_live",
+      "slot_local_dual2_factorized_identity_leave_one_out_silent",
+      "slot_local_dual2_factorized_swap_full_live",
+      "slot_local_dual2_factorized_swap_full_silent",
+      "slot_local_dual2_factorized_swap_leave_one_out_live",
+      "slot_local_dual2_factorized_swap_leave_one_out_silent"
+    ],
+    "updates": 3000,
+    "batch_size": 512,
+    "learning_rate": 0.08,
+    "entropy_initial": 0.01,
+    "entropy_zero_after": 5000,
+    "checkpoints": [
+      0,
+      500,
+      1000,
+      2000,
+      3000
+    ],
+    "goal_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "heldout_assignment": {
+      "78201": 0,
+      "78202": 1,
+      "78203": 2,
+      "78204": 3,
+      "78205": 0,
+      "78206": 1,
+      "78207": 2,
+      "78208": 3,
+      "78209": 0
+    },
+    "pairing": "identity/swap arms share semantic scenes, goals, partners, message uniforms and action uniforms; only surface labels differ",
+    "zero_shot_rule": "leave-one-out live heldout natural team return >= 0.60",
+    "no_teacher_or_language_prior": true,
+    "parent_runs": 18,
+    "child_runs": 216,
+    "runs": 234,
+    "runtime_policy": "float64 NumPy only"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "schema": "object_surface_remap_cleanup_receipt_v1",
+  "created_utc": "2026-09-17T19:07:14.570293+00:00",
+  "archive": "research_program/object_surface_remap_study/results/formal_20260918",
+  "archive_manifest_sha256": "47ee1b2971eff6c9f7b599705d0276b122ac4dfc77225b144f879d05da61f416",
+  "deleted": [
+    {
+      "path": "/private/tmp/osr_formal_part1",
+      "existed": true,
+      "bytes_removed": 251499472,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_formal_part2",
+      "existed": true,
+      "bytes_removed": 251498814,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_formal_part3",
+      "existed": true,
+      "bytes_removed": 251501560,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_formal_merged",
+      "existed": true,
+      "bytes_removed": 1360573,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_formal_prepared",
+      "existed": true,
+      "bytes_removed": 71173,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_formal_audit_part1.json",
+      "existed": true,
+      "bytes_removed": 341,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_formal_audit_part2.json",
+      "existed": true,
+      "bytes_removed": 341,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_formal_audit_part3.json",
+      "existed": true,
+      "bytes_removed": 341,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_formal_aggregate.json",
+      "existed": true,
+      "bytes_removed": 245880,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_formal_aggregate.md",
+      "existed": true,
+      "bytes_removed": 8174,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_formal_merged.json",
+      "existed": true,
+      "bytes_removed": 929080,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_formal_aggregate_final.json",
+      "existed": true,
+      "bytes_removed": 269263,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_formal_aggregate_final.md",
+      "existed": true,
+      "bytes_removed": 8589,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_formal_prepared_final",
+      "existed": true,
+      "bytes_removed": 72127,
+      "removed": true
+    }
+  ],
+  "total_bytes_removed": 757465728,
+  "updated_utc": "2026-09-17T19:07:39.388465+00:00"
+}

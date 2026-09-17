@@ -1,0 +1,13 @@
+{
+  "schema": "object_surface_remap_audit_v1",
+  "status": "passed",
+  "parent_runs": 6,
+  "child_runs": 72,
+  "parent_training_log_rows": 18000,
+  "child_training_log_rows": 216000,
+  "parent_checkpoints": 24,
+  "child_checkpoints": 288,
+  "paired_live_silent_rows": 108000,
+  "paired_mapping_rows": 108000,
+  "max_abs_replay_error": 0.0
+}

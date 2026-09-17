@@ -1,0 +1,60 @@
+{
+  "schema": "object_surface_remap_archive_manifest_v1",
+  "created_utc": "2026-09-17T19:06:49.079221+00:00",
+  "source_commit": "a10e16d1cd176d29dde89a6ca107f522db7a9bb6",
+  "files": {
+    "README.md": {
+      "bytes": 550,
+      "sha256": "77dd4d71eeaa0266aefe5e64ad3822a02fbf43e1ee9d00429d288a64b22b8372"
+    },
+    "aggregate.json": {
+      "bytes": 245880,
+      "sha256": "35a1d975719875c940326c133499e4dcb769ecd2ca78f808871a1d2a16e0825a"
+    },
+    "aggregate.md": {
+      "bytes": 8174,
+      "sha256": "f18e1d3702e289ef167bbdd8d422201cee148ed2b209eccbf394cc26d8eb6cee"
+    },
+    "audit.json": {
+      "bytes": 1586,
+      "sha256": "99a2506e994b019fcee048f6f3f1f3a77e21b0edebefaac59f44311cc2675219"
+    },
+    "audit_part1.json": {
+      "bytes": 341,
+      "sha256": "9297ac4239c7f053ffed0c95c49643faa1b2185ae65fd2dc8751f890e8b5e515"
+    },
+    "audit_part2.json": {
+      "bytes": 341,
+      "sha256": "9297ac4239c7f053ffed0c95c49643faa1b2185ae65fd2dc8751f890e8b5e515"
+    },
+    "audit_part3.json": {
+      "bytes": 341,
+      "sha256": "9297ac4239c7f053ffed0c95c49643faa1b2185ae65fd2dc8751f890e8b5e515"
+    },
+    "freeze.json": {
+      "bytes": 177,
+      "sha256": "5e09a6b67fc6010a83051545bafa4fcea6716b400c12b41d11254f6af41e7f76"
+    },
+    "plan.json": {
+      "bytes": 5302,
+      "sha256": "598fa7f70416cd8d2618df1689e42e4638922aad234c1d00d187aa7e4f76beec"
+    },
+    "prepared.json": {
+      "bytes": 3471,
+      "sha256": "a381218fb0ec6d66b36b168c82f4b06a9134e85e3430f0037e2710ee04f17ed6"
+    },
+    "results.json": {
+      "bytes": 1360573,
+      "sha256": "d5ac0e62c0c6dfbf10d7a7a9173f10008097f776846415564ac3ffa36eab3d9a"
+    },
+    "source_commit.txt": {
+      "bytes": 41,
+      "sha256": "a5d6b5e34af5b93d34b3ecae1cf192f93fc72d9c78fdad139fb9cda9c2379f33"
+    },
+    "validity.md": {
+      "bytes": 1201,
+      "sha256": "82e8b716d04a0866e7ad937bfb6dadf5702a3b680c38a49e0914355d3d4ea050"
+    }
+  },
+  "validity": "diagnostic_only_permutation_control_noop"
+}
