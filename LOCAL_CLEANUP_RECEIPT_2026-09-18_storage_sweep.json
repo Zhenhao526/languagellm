@@ -97,7 +97,7 @@
       "removed": true
     }
   ],
-  "total_bytes_removed": 2878493879,
+  "total_bytes_removed": 2880603723,
   "retained_local": "current source packages, .exp_venv runtime, frozen plans, compact results and audit receipts",
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
   "remote_commit": "fc026e6504d3d78fb213604899c229dafa3a4e00",
@@ -108,6 +108,60 @@
       "bytes_removed": 423421953,
       "removed": true,
       "note": "completed stale clone after initial process termination"
+    },
+    {
+      "path": ".exp_venv/lib/python3.12/site-packages/__pycache__",
+      "existed": true,
+      "bytes_removed": 4744,
+      "removed": true
+    },
+    {
+      "path": ".exp_venv/lib/python3.12/site-packages/numpy/__pycache__",
+      "existed": true,
+      "bytes_removed": 70087,
+      "removed": true
+    },
+    {
+      "path": ".exp_venv/lib/python3.12/site-packages/numpy/_core/__pycache__",
+      "existed": true,
+      "bytes_removed": 919591,
+      "removed": true
+    },
+    {
+      "path": ".exp_venv/lib/python3.12/site-packages/numpy/_typing/__pycache__",
+      "existed": true,
+      "bytes_removed": 35625,
+      "removed": true
+    },
+    {
+      "path": ".exp_venv/lib/python3.12/site-packages/numpy/_utils/__pycache__",
+      "existed": true,
+      "bytes_removed": 14249,
+      "removed": true
+    },
+    {
+      "path": ".exp_venv/lib/python3.12/site-packages/numpy/lib/__pycache__",
+      "existed": true,
+      "bytes_removed": 889077,
+      "removed": true
+    },
+    {
+      "path": ".exp_venv/lib/python3.12/site-packages/numpy/linalg/__pycache__",
+      "existed": true,
+      "bytes_removed": 129547,
+      "removed": true
+    },
+    {
+      "path": ".exp_venv/lib/python3.12/site-packages/numpy/matrixlib/__pycache__",
+      "existed": true,
+      "bytes_removed": 36451,
+      "removed": true
+    },
+    {
+      "path": ".exp_venv/lib/python3.12/site-packages/numpy/random/__pycache__",
+      "existed": true,
+      "bytes_removed": 10473,
+      "removed": true
     }
   ]
 }

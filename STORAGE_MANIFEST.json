@@ -132,7 +132,7 @@
     },
     "LOCAL_CLEANUP_RECEIPT_2026-09-18_storage_sweep.json": {
       "files": 1,
-      "bytes": 3211
+      "bytes": 4714
     }
   },
   "compact_archives": {
@@ -1594,8 +1594,8 @@
       "formal_estimate": false
     },
     "storage_sweep_2026-09-18": {
-      "removed_file_or_tree_count": 15,
-      "removed_bytes": 2878493879,
+      "removed_file_or_tree_count": 24,
+      "removed_bytes": 2880603723,
       "paths": [
         "/private/tmp/ecs2_formal_out",
         "/private/tmp/ecs2_formal_prepared",
@@ -1627,6 +1627,60 @@
           "bytes_removed": 423421953,
           "removed": true,
           "note": "completed stale clone after initial process termination"
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/__pycache__",
+          "existed": true,
+          "bytes_removed": 4744,
+          "removed": true
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/numpy/__pycache__",
+          "existed": true,
+          "bytes_removed": 70087,
+          "removed": true
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/numpy/_core/__pycache__",
+          "existed": true,
+          "bytes_removed": 919591,
+          "removed": true
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/numpy/_typing/__pycache__",
+          "existed": true,
+          "bytes_removed": 35625,
+          "removed": true
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/numpy/_utils/__pycache__",
+          "existed": true,
+          "bytes_removed": 14249,
+          "removed": true
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/numpy/lib/__pycache__",
+          "existed": true,
+          "bytes_removed": 889077,
+          "removed": true
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/numpy/linalg/__pycache__",
+          "existed": true,
+          "bytes_removed": 129547,
+          "removed": true
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/numpy/matrixlib/__pycache__",
+          "existed": true,
+          "bytes_removed": 36451,
+          "removed": true
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/numpy/random/__pycache__",
+          "existed": true,
+          "bytes_removed": 10473,
+          "removed": true
         }
       ]
     }
