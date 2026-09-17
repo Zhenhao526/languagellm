@@ -2,7 +2,7 @@
   "generated_at_local": "2026-09-18",
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
-  "remote_commit": "9a8a3bdda609773a884cd0729dda0d5874e12a08",
+  "remote_commit": "798d5663722d4c3fd1b41d052e02e50ca5c76f90",
   "remote_main_verified": true,
   "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix, ecological-factorization formal matrix, compact archive, replay audit and new-combination analysis, object-surface remapping corrected formal matrix, parent surface-shift analysis, replay audit and cleanup receipt",
   "retained_paths": {
@@ -1447,7 +1447,7 @@
   },
   "latest_batch": {
     "name": "object_surface_remap_corrected_20260918",
-    "remote_commit": "9a8a3bdda609773a884cd0729dda0d5874e12a08",
+    "remote_commit": "798d5663722d4c3fd1b41d052e02e50ca5c76f90",
     "archive": "research_program/object_surface_remap_study/results/formal_20260918_corrected",
     "archive_stats": {
       "files": 16,
@@ -1506,6 +1506,7 @@
       "bytes": 2405620
     },
     "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18_object_surface_remap.json",
-    "verified_paths_absent": true
+    "verified_paths_absent": true,
+    "remote_repository": "git@github.com:Zhenhao526/languagellm.git"
   }
 }

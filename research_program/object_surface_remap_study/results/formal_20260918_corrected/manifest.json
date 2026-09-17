@@ -80,5 +80,7 @@
     "/private/tmp/osr_remap_v4_part3"
   ],
   "raw_execution_retained_locally": false,
-  "receipt_excluded_from_manifest": "receipt.json"
+  "receipt_excluded_from_manifest": "receipt.json",
+  "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+  "remote_main_commit": "798d5663722d4c3fd1b41d052e02e50ca5c76f90"
 }

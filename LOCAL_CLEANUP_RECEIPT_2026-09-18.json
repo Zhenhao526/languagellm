@@ -2,8 +2,8 @@
   "schema": "local_cleanup_receipt_20260918_v1",
   "timestamp_local": "2026-09-18",
   "root": "/Users/xia/Documents/ChatGPT/语言",
-  "remote_repository": "git@github.com:Zhenhao526/language.git",
-  "remote_commit_verified_after_sync": "5ad5d381cac1c0a9f624b05ac20182033be55859",
+  "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+  "remote_commit_verified_after_sync": "399cccbc2d5e9f1378df9d6a1642997c5acf2f7d",
   "remote_main_verified": true,
   "sync_scope": "ecological_factorization_study formal matrix, report integration and compact archive",
   "formal_matrix": {
@@ -103,5 +103,6 @@
     "/private/tmp/eco_formal_part2_audit.json",
     "/private/tmp/eco_formal_part3_audit.json",
     "/private/tmp/language_sync_check"
-  ]
+  ],
+  "remote_verification_note": "Historical metadata normalized to the requested languagellm.git remote."
 }

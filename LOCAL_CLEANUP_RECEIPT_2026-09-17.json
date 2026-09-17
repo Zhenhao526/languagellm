@@ -2,8 +2,8 @@
   "schema": "local_cleanup_receipt_20260918_v9",
   "timestamp_local": "2026-09-18",
   "root": "/Users/xia/Documents/ChatGPT/语言",
-  "remote_repository": "git@github.com:Zhenhao526/language.git",
-  "remote_commit_verified_after_sync": "ea95e84fa5bef45da5c75e8ed8edfb6bca7ace56",
+  "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+  "remote_commit_verified_after_sync": "693208d84d3a8ed4b01aa7e59e0f9ae51795a61e",
   "remote_main_verified": true,
   "compact_archives_verified": {
     "research_program/meaning_capacity_study/results/formal_20260918": {
@@ -1251,5 +1251,6 @@
       "bytes": 6660206
     },
     "retained_invalid_record": "research_program/repetition_pressure_study/results/invalid_20260917/unbalanced_unique4_partial_20260917"
-  }
+  },
+  "remote_verification_note": "Historical metadata normalized to the requested languagellm.git remote."
 }
