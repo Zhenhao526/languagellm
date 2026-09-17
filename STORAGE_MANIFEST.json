@@ -2,7 +2,7 @@
   "generated_at_local": "2026-09-18",
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
-  "remote_commit": "40caff1a48a48623cb673485c05161a9f867aadc",
+  "remote_commit": "1dae42cc5e870a5f8e76fd2f9e1f3aa21f5312d",
   "remote_main_verified": true,
   "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix",
   "retained_paths": {
@@ -91,8 +91,8 @@
       "bytes": 6717003
     },
     "research_program/meaning_capacity_study": {
-      "files": 29,
-      "bytes": 7164091
+      "files": 20,
+      "bytes": 7067868
     }
   },
   "compact_archives": {
@@ -396,6 +396,106 @@
     "/private/tmp/repetition_archive": {
       "present": false,
       "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_analysis.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_analysis.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_capacity_aggregate.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_capacity_aggregate.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_debug_part1": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_merged": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_part1": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_part1.log": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_part1.pid": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_part2": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_part2.log": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_part2.pid": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_part3": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_part3.log": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_part3.pid": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_merge": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_part1_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_part2_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_part3_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_smoke_analysis.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_smoke_analysis.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_smoke_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_smoke_out": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_smoke_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
     }
   },
   "temporary_raw_trees_removed": [
@@ -492,18 +592,43 @@
     "/private/tmp/rps_part3_audit.json",
     "/private/tmp/merge_repetition.py",
     "/private/tmp/build_repetition_archive.py",
-    "/private/tmp/repetition_archive"
+    "/private/tmp/repetition_archive",
+    "/private/tmp/mcs_analysis.json",
+    "/private/tmp/mcs_analysis.md",
+    "/private/tmp/mcs_capacity_aggregate.json",
+    "/private/tmp/mcs_capacity_aggregate.md",
+    "/private/tmp/mcs_debug_part1",
+    "/private/tmp/mcs_formal_merged",
+    "/private/tmp/mcs_formal_part1",
+    "/private/tmp/mcs_formal_part1.log",
+    "/private/tmp/mcs_formal_part1.pid",
+    "/private/tmp/mcs_formal_part2",
+    "/private/tmp/mcs_formal_part2.log",
+    "/private/tmp/mcs_formal_part2.pid",
+    "/private/tmp/mcs_formal_part3",
+    "/private/tmp/mcs_formal_part3.log",
+    "/private/tmp/mcs_formal_part3.pid",
+    "/private/tmp/mcs_formal_prepared",
+    "/private/tmp/mcs_merge",
+    "/private/tmp/mcs_part1_audit.json",
+    "/private/tmp/mcs_part2_audit.json",
+    "/private/tmp/mcs_part3_audit.json",
+    "/private/tmp/mcs_smoke_analysis.json",
+    "/private/tmp/mcs_smoke_analysis.md",
+    "/private/tmp/mcs_smoke_audit.json",
+    "/private/tmp/mcs_smoke_out",
+    "/private/tmp/mcs_smoke_prepared"
   ],
   "tracked_paths_pruned_in_commit": 8338,
   "historical_cleanup_estimate_bytes": 3687981411,
   "local_environment": {
-    "files": 2156,
-    "bytes": 162273627
+    "files": 2168,
+    "bytes": 163026649
   },
   "policy": "raw training logs, checkpoints, model assets, literature caches and historical generated trees are not kept locally; Git history retains prior source snapshots",
   "additional_cleanup": {
-    "removed_file_or_tree_count": 82,
-    "removed_bytes": 12969066107,
+    "removed_file_or_tree_count": 107,
+    "removed_bytes": 17956501038,
     "removed_paths": [
       {
         "path": "/private/tmp/tabular_PI_stateless_silent",
@@ -756,8 +881,45 @@
         "kind": "tree"
       }
     ],
-    "verified_after_remote_commit": "3ac403c6896e35ae3b02bc63cdadc2c3f06e125d",
+    "verified_after_remote_commit": "1dae42cc5e870a5f8e76fd2f9e1f3aa21f5312d",
     "current_batch": {
+      "removed_file_or_tree_count": 25,
+      "removed_bytes": 4987434931,
+      "paths": [
+        "/private/tmp/mcs_analysis.json",
+        "/private/tmp/mcs_analysis.md",
+        "/private/tmp/mcs_capacity_aggregate.json",
+        "/private/tmp/mcs_capacity_aggregate.md",
+        "/private/tmp/mcs_debug_part1",
+        "/private/tmp/mcs_formal_merged",
+        "/private/tmp/mcs_formal_part1",
+        "/private/tmp/mcs_formal_part1.log",
+        "/private/tmp/mcs_formal_part1.pid",
+        "/private/tmp/mcs_formal_part2",
+        "/private/tmp/mcs_formal_part2.log",
+        "/private/tmp/mcs_formal_part2.pid",
+        "/private/tmp/mcs_formal_part3",
+        "/private/tmp/mcs_formal_part3.log",
+        "/private/tmp/mcs_formal_part3.pid",
+        "/private/tmp/mcs_formal_prepared",
+        "/private/tmp/mcs_merge",
+        "/private/tmp/mcs_part1_audit.json",
+        "/private/tmp/mcs_part2_audit.json",
+        "/private/tmp/mcs_part3_audit.json",
+        "/private/tmp/mcs_smoke_analysis.json",
+        "/private/tmp/mcs_smoke_analysis.md",
+        "/private/tmp/mcs_smoke_audit.json",
+        "/private/tmp/mcs_smoke_out",
+        "/private/tmp/mcs_smoke_prepared"
+      ],
+      "verified_after_remote_commit": "1dae42cc5e870a5f8e76fd2f9e1f3aa21f5312d",
+      "archive": "research_program/meaning_capacity_study/results/formal_20260918",
+      "archive_stats": {
+        "files": 8,
+        "bytes": 7011461
+      }
+    },
+    "previous_batch": {
       "removed_file_or_tree_count": 29,
       "removed_bytes": 4705252814,
       "paths": [
@@ -814,5 +976,107 @@
       "/private/tmp/build_repetition_archive.py",
       "/private/tmp/repetition_archive"
     ]
+  },
+  "raw_execution_trees_removed": {
+    "/private/tmp/mcs_analysis.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_analysis.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_capacity_aggregate.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_capacity_aggregate.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_debug_part1": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_merged": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_part1": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_part1.log": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_part1.pid": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_part2": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_part2.log": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_part2.pid": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_part3": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_part3.log": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_part3.pid": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_merge": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_part1_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_part2_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_part3_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_smoke_analysis.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_smoke_analysis.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_smoke_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_smoke_out": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_smoke_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    }
   }
 }
