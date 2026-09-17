@@ -1,8 +1,8 @@
 {
   "generated_at_local": "2026-09-18",
   "root": "/Users/xia/Documents/ChatGPT/语言",
-  "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
-  "remote_commit": "693208d84d3a8ed4b01aa7e59e0f9ae51795a61e",
+  "remote_repository": "git@github.com:Zhenhao526/language.git",
+  "remote_commit": "ea95e84fa5bef45da5c75e8ed8edfb6bca7ace56",
   "remote_main_verified": true,
   "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix",
   "retained_paths": {
@@ -407,11 +407,13 @@
     },
     "/private/tmp/mcs_capacity_aggregate.json": {
       "present": false,
-      "removed_in_batch": "2026-09-18"
+      "removed_in_batch": "2026-09-18",
+      "audit": "formal archive verified"
     },
     "/private/tmp/mcs_capacity_aggregate.md": {
       "present": false,
-      "removed_in_batch": "2026-09-18"
+      "removed_in_batch": "2026-09-18",
+      "audit": "formal archive verified"
     },
     "/private/tmp/mcs_debug_part1": {
       "present": false,
@@ -419,11 +421,13 @@
     },
     "/private/tmp/mcs_formal_merged": {
       "present": false,
-      "removed_in_batch": "2026-09-18"
+      "removed_in_batch": "2026-09-18",
+      "audit": "formal archive verified"
     },
     "/private/tmp/mcs_formal_part1": {
       "present": false,
-      "removed_in_batch": "2026-09-18"
+      "removed_in_batch": "2026-09-18",
+      "audit": "passed"
     },
     "/private/tmp/mcs_formal_part1.log": {
       "present": false,
@@ -435,7 +439,8 @@
     },
     "/private/tmp/mcs_formal_part2": {
       "present": false,
-      "removed_in_batch": "2026-09-18"
+      "removed_in_batch": "2026-09-18",
+      "audit": "passed"
     },
     "/private/tmp/mcs_formal_part2.log": {
       "present": false,
@@ -447,7 +452,8 @@
     },
     "/private/tmp/mcs_formal_part3": {
       "present": false,
-      "removed_in_batch": "2026-09-18"
+      "removed_in_batch": "2026-09-18",
+      "audit": "passed"
     },
     "/private/tmp/mcs_formal_part3.log": {
       "present": false,
@@ -459,7 +465,8 @@
     },
     "/private/tmp/mcs_formal_prepared": {
       "present": false,
-      "removed_in_batch": "2026-09-18"
+      "removed_in_batch": "2026-09-18",
+      "audit": "formal archive verified"
     },
     "/private/tmp/mcs_merge": {
       "present": false,
@@ -467,15 +474,18 @@
     },
     "/private/tmp/mcs_part1_audit.json": {
       "present": false,
-      "removed_in_batch": "2026-09-18"
+      "removed_in_batch": "2026-09-18",
+      "audit": "passed"
     },
     "/private/tmp/mcs_part2_audit.json": {
       "present": false,
-      "removed_in_batch": "2026-09-18"
+      "removed_in_batch": "2026-09-18",
+      "audit": "passed"
     },
     "/private/tmp/mcs_part3_audit.json": {
       "present": false,
-      "removed_in_batch": "2026-09-18"
+      "removed_in_batch": "2026-09-18",
+      "audit": "passed"
     },
     "/private/tmp/mcs_smoke_analysis.json": {
       "present": false,
@@ -496,6 +506,21 @@
     "/private/tmp/mcs_smoke_prepared": {
       "present": false,
       "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_capacity_audit_part1.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "audit": "passed"
+    },
+    "/private/tmp/mcs_capacity_audit_part2.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "audit": "passed"
+    },
+    "/private/tmp/mcs_capacity_audit_part3.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "audit": "passed"
     }
   },
   "temporary_raw_trees_removed": [
@@ -622,8 +647,8 @@
   "tracked_paths_pruned_in_commit": 8338,
   "historical_cleanup_estimate_bytes": 3687981411,
   "local_environment": {
-    "files": 2168,
-    "bytes": 163026649
+    "files": 1333,
+    "bytes": 129774459
   },
   "policy": "raw training logs, checkpoints, model assets, literature caches and historical generated trees are not kept locally; Git history retains prior source snapshots",
   "additional_cleanup": {
@@ -970,12 +995,29 @@
     }
   },
   "current_batch": {
-    "removed_file_or_tree_count": 2,
+    "removed_file_or_tree_count": 16,
     "removed_bytes": 4750,
+    "removed_bytes_exact": false,
+    "removed_bytes_note": "Meaning-capacity raw trees were deleted by the post-archive cleaner before byte accounting; no raw data is retained.",
     "paths": [
       "/private/tmp/build_repetition_archive.py",
-      "/private/tmp/repetition_archive"
-    ]
+      "/private/tmp/repetition_archive",
+      "/private/tmp/mcs_formal_part1",
+      "/private/tmp/mcs_formal_part2",
+      "/private/tmp/mcs_formal_part3",
+      "/private/tmp/mcs_formal_prepared",
+      "/private/tmp/mcs_formal_merged",
+      "/private/tmp/mcs_part1_audit.json",
+      "/private/tmp/mcs_part2_audit.json",
+      "/private/tmp/mcs_part3_audit.json",
+      "/private/tmp/mcs_capacity_aggregate.json",
+      "/private/tmp/mcs_capacity_aggregate.md",
+      "/private/tmp/mcs_capacity_audit_part1.json",
+      "/private/tmp/mcs_capacity_audit_part2.json",
+      "/private/tmp/mcs_capacity_audit_part3.json",
+      "/private/tmp/language_sync_20260918"
+    ],
+    "verified_after_remote_commit": "ea95e84fa5bef45da5c75e8ed8edfb6bca7ace56"
   },
   "raw_execution_trees_removed": {
     "/private/tmp/mcs_analysis.json": {
