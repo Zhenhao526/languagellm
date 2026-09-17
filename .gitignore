@@ -4,6 +4,7 @@
 
 # Python and editor caches
 .venv/
+.venv
 **/.venv/
 **/*_venv/
 **/.analysis_deps/
