@@ -2,7 +2,7 @@
   "schema": "heterogeneous_grounding_diagnostic_manifest_v1",
   "study": "heterogeneous_grounding_study",
   "date": "2026-09-18",
-  "source_commit": "pending synchronization commit",
+  "source_commit": "fc026e6504d3d78fb213604899c229dafa3a4e00",
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
   "formal_estimate": false,
   "files": [
@@ -48,8 +48,8 @@
     },
     {
       "path": "source_commit.txt",
-      "bytes": 8,
-      "sha256": "57b14c1cd76a0017d406b38bcc0c1b7c3c457e751a84eb859878f0cf017778de"
+      "bytes": 41,
+      "sha256": "f8cfd45e858a783d1bb43a0c81ca2764ddba1f04be606083b7db173ca0fe47b0"
     },
     {
       "path": "validity.md",
@@ -58,6 +58,6 @@
     }
   ],
   "file_count": 10,
-  "archive_bytes": 493874,
+  "archive_bytes": 493907,
   "manifest_excludes_self": true
 }

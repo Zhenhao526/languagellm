@@ -98,5 +98,7 @@
     }
   ],
   "total_bytes_removed": 2455071926,
-  "retained_local": "current source packages, .exp_venv runtime, frozen plans, compact results and audit receipts"
+  "retained_local": "current source packages, .exp_venv runtime, frozen plans, compact results and audit receipts",
+  "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+  "remote_commit": "fc026e6504d3d78fb213604899c229dafa3a4e00"
 }

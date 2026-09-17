@@ -3,7 +3,7 @@
   "created_utc": "2026-09-17T20:32:45Z",
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "archive": "research_program/heterogeneous_grounding_study/results/diagnostic_20260918",
-  "archive_manifest_sha256": "4c918023f28d409e5a4749464d97c4e3ee7f5831839e0f74c5e325fee0df8ead",
+  "archive_manifest_sha256": "0eb08e92f02557d4d24922774cb4c6ab11b3a868dccf0d1a2f38a5c6e1267f53",
   "audit": "passed",
   "formal_estimate": false,
   "raw_paths_absent": true,
@@ -47,5 +47,5 @@
   ],
   "total_bytes_removed": 186359818,
   "retained_local": "source package and compact one-seed diagnostic archive",
-  "source_commit": "pending synchronization commit"
+  "source_commit": "fc026e6504d3d78fb213604899c229dafa3a4e00"
 }

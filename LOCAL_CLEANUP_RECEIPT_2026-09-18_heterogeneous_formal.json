@@ -3,7 +3,7 @@
   "created_utc": "2026-09-17T21:50:15Z",
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "archive": "research_program/heterogeneous_grounding_study/results/formal_20260918",
-  "archive_manifest_sha256": "c5076791e38359d964d29a4a67aab22d159fd58012c14e20a79627dd8f152a7a",
+  "archive_manifest_sha256": "7d2e8c54f84aa760837458a39962f3f0ebf53713f835071107638303affac5f9",
   "audit": "three independent shards passed; combined max_abs_replay_error=0.0",
   "formal_estimate": false,
   "raw_execution_trees_absent": true,
@@ -166,5 +166,6 @@
     }
   ],
   "total_bytes_removed": 871777,
-  "retained_local": "source package, frozen plans, compact diagnostic archive and compact formal archive"
+  "retained_local": "source package, frozen plans, compact diagnostic archive and compact formal archive",
+  "source_commit": "fc026e6504d3d78fb213604899c229dafa3a4e00"
 }

@@ -2,8 +2,8 @@
   "generated_at_local": "2026-09-18",
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
-  "remote_commit": "pending synchronization commit",
-  "remote_main_verified": false,
+  "remote_commit": "fc026e6504d3d78fb213604899c229dafa3a4e00",
+  "remote_main_verified": true,
   "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix, ecological-factorization formal matrix, compact archive, replay audit and new-combination analysis, object-surface remapping corrected formal matrix, parent surface-shift analysis, replay audit and cleanup receipt, incumbent-worker surface transfer formal matrix, repair curves, replay audit and cleanup receipt, population-level perceptual heterogeneity formal matrix, three-shard replay audit, exploratory pilot curves, identifiability diagnosis and cleanup receipt",
   "retained_paths": {
     "research_program/action_dependent_signaling_study": {
@@ -120,19 +120,19 @@
     },
     "SYNC_2026-09-18_heterogeneous_grounding.md": {
       "files": 1,
-      "bytes": 1685
+      "bytes": 1799
     },
     "LOCAL_CLEANUP_RECEIPT_2026-09-18_heterogeneous_formal.json": {
       "files": 1,
-      "bytes": 4360
+      "bytes": 4423
     },
     "LOCAL_CLEANUP_RECEIPT_2026-09-18_heterogeneous_diagnostic.json": {
       "files": 1,
-      "bytes": 1355
+      "bytes": 1418
     },
     "LOCAL_CLEANUP_RECEIPT_2026-09-18_storage_sweep.json": {
       "files": 1,
-      "bytes": 2836
+      "bytes": 2967
     }
   },
   "compact_archives": {
@@ -214,11 +214,11 @@
     },
     "research_program/heterogeneous_grounding_study/results/diagnostic_20260918": {
       "files": 11,
-      "bytes": 495720
+      "bytes": 495764
     },
     "research_program/heterogeneous_grounding_study/results/formal_20260918": {
       "files": 16,
-      "bytes": 3583274
+      "bytes": 3583294
     }
   },
   "raw_execution_trees": {
@@ -1482,7 +1482,7 @@
         "kind": "tree"
       }
     ],
-    "verified_after_remote_commit": "pending synchronization commit",
+    "verified_after_remote_commit": "fc026e6504d3d78fb213604899c229dafa3a4e00",
     "current_batch": {
       "removed_file_or_tree_count": 25,
       "removed_bytes": 4987434931,

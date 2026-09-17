@@ -2,7 +2,7 @@
   "schema": "heterogeneous_grounding_archive_manifest_v1",
   "study": "heterogeneous_grounding_study",
   "formal_date": "2026-09-18",
-  "source_commit": "pending synchronization commit",
+  "source_commit": "fc026e6504d3d78fb213604899c229dafa3a4e00",
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
   "raw_logs_retained": false,
   "full_results_retained_in_archive": true,
@@ -74,8 +74,8 @@
     },
     {
       "path": "source_commit.txt",
-      "bytes": 31,
-      "sha256": "998326d5beb5e5c945f278f14a4305e8f7bdbb6d60604c29b5bd278e40430f0f"
+      "bytes": 41,
+      "sha256": "f8cfd45e858a783d1bb43a0c81ca2764ddba1f04be606083b7db173ca0fe47b0"
     },
     {
       "path": "validity.md",
@@ -84,6 +84,6 @@
     }
   ],
   "file_count": 15,
-  "payload_bytes": 3580617,
+  "payload_bytes": 3580627,
   "manifest_excludes_self": true
 }
