@@ -1,9 +1,0 @@
-# Shared-parity redundancy study
-
-This package tests whether a repeated action meaning creates pressure for learned redundancy, and whether sender–receiver repair differs from faithful protocol transmission. The formal archive keeps only compact results, the frozen design, source hashes and the independent replay audit; raw logs and checkpoints are temporary audit inputs.
-
-The task is the follow-up to `error_correcting_signaling_study`: both local resource subtasks require the same hidden parity of two private binary factors. The message forms and capacity-matched noise controls are unchanged, so the intervention is the repeated meaning and its repeated action consequences. The corrected formal matrix contains 27 clean parent runs and 243 child runs (9 seeds × 3 forms × 3 adaptations × 3 noise levels). The independent audit passed with 81000 parent training rows, 729000 child training rows, 486000 paired noise-trajectory rows and maximum replay error 0.
-
-The repeated meaning produces a clear redundancy boundary. `triple2` reaches the preregistered error-correcting candidate criterion in 9/9 seeds at zero noise and 7–8/9 at 10% noise, with cross-parity Hamming distance around 2.78–3.00 and within-parity distance 0. At 25% noise no form reaches the 0.60 functional threshold, but `triple2` still outperforms the capacity-matched `atomic8` by paired seed differences of +0.137 to +0.188. The result is evidence that repeated consequences can select a shared parity code in this finite task; it is not evidence that natural language emerges.
-
-The compact formal results are in `results/formal_20260917/`. `aggregate.md` is the human-readable summary; `aggregate.json` contains seed-level rows and paired effects; `compact_results.json` retains sparse trajectories and endpoint metrics; `audit.json` and `receipt.json` record the independent replay check and hashes. No LLM, visual model, external API or teacher-provided codebook is used.

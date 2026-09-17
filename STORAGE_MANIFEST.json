@@ -2,7 +2,7 @@
   "generated_at_local": "2026-09-17",
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
-  "remote_commit": "9bad5b78a7c2fb6a96061b4d637dd9089251a736",
+  "remote_commit": "e690a23",
   "remote_main_verified": true,
   "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts",
   "retained_paths": {
@@ -585,7 +585,7 @@
         "kind": "tree"
       }
     ],
-    "verified_after_remote_commit": "9bad5b78a7c2fb6a96061b4d637dd9089251a736",
+    "verified_after_remote_commit": "e690a23",
     "current_batch": {
       "removed_file_count": 1944,
       "removed_bytes": 2332736190,
@@ -717,7 +717,7 @@
           "kind": "tree"
         }
       ],
-      "verified_after_remote_commit": "9bad5b78a7c2fb6a96061b4d637dd9089251a736"
+      "verified_after_remote_commit": "e690a23"
     }
   },
   "pending_designs": {},
