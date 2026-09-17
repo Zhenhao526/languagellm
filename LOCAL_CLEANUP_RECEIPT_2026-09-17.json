@@ -1,9 +1,9 @@
 {
-  "schema": "local_cleanup_receipt_20260917_v6",
+  "schema": "local_cleanup_receipt_20260917_v7",
   "timestamp_local": "2026-09-17",
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
-  "remote_commit_verified_after_sync": "f9347f1e05b152566b2e9847884e8098a058a1f5",
+  "remote_commit_verified_after_sync": "7fdfa67cdd0e4f7e590633ed60848b2d095de4ce",
   "remote_main_verified": true,
   "compact_archives_verified": {
     "research_program/tabular_signaling_study/results/formal_20260917": {
@@ -147,7 +147,7 @@
   },
   "local_environment": {
     "files": 1089,
-    "bytes": 104250127
+    "bytes": 104249635
   },
   "retention_policy": "source code, frozen plans, compact results, audit receipts, final report and local runtime only; raw process trees and literature caches are not kept in the working tree"
 }
