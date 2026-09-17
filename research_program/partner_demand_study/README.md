@@ -5,6 +5,13 @@ when each agent privately requests a resource that only its partner's action
 can satisfy. See [plan.md](plan.md) for the frozen factors and interpretation
 rules.
 
+The `partner_005` two-seed pilot is summarized in
+[partner_005_结果与下一步.md](partner_005_结果与下一步.md). Its raw outputs are
+local only; the independent checks are implemented in `audit.py`.
+
+The four-cell `partner_006` credit-assignment longprobe is summarized in
+[partner_006_longprobe_结果与下一步.md](partner_006_longprobe_结果与下一步.md).
+
 Run the low-cost invariants from the repository root:
 
 ```bash

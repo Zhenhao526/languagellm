@@ -17,7 +17,7 @@ B sees patch 1. Each patch has one of two material types and a persistent
 inventory. A request is binary (material 0 or 1), private to its owner. At a
 round, agent `a` may wait, take patch 0, or take patch 1. Its reward is +1 if
 the selected patch matches the **partner's** current request and has inventory;
-an incorrect or depleted take is −1 and waiting is 0. Same-patch requests
+an incorrect or depleted take is −0.25 and waiting is 0. Same-patch requests
 share inventory, with the lower-index agent winning the last unit. Team return
 is the mean reward over both agents and all six rounds.
 
@@ -45,6 +45,9 @@ enabled. Scarcity arms share sites, requests, and score uniforms because
 capacity is excluded from the episode RNG key. Live/silent arms share all
 exogenous streams. No token meanings, language model, teacher, pretrained
 language knowledge, or researcher-only state enters a policy observation.
+The baseline masks reward correctness from the policy; otherwise a successful
+or failed collection would itself disclose the partner's private request and
+would confound communication with an outcome-feedback channel.
 
 ## Evaluation and claims
 

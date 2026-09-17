@@ -75,9 +75,14 @@ def save_checkpoint(path,nets,opt,update):
 
 def _backward(nets,trace,memory,information,channel,update):
     B,H=trace['rewards'].shape[0],design.HORIZON
-    step_reward=trace['rewards'].mean(axis=2)
-    returns=np.flip(np.cumsum(np.flip(step_reward,axis=1),axis=1),axis=1)
-    adv=returns-returns.mean(axis=0,keepdims=True)
+    # In this task a's token changes the partner's future action, and that
+    # action's reward is scored against a's request.  Use the partner's return
+    # for the message score and the acting agent's return for the action score;
+    # a team-average target would add unrelated variance from the other
+    # private request.  The reported objective remains the team mean.
+    agent_returns=np.flip(np.cumsum(np.flip(trace['rewards'],axis=1),axis=1),axis=1)
+    episodes=trace['episodes']
+    returns=agent_returns.mean(axis=2)
     grads=model.zero_grads(nets); carry=[np.zeros((B,design.HIDDEN)) for _ in design.AGENTS]
     beta=design.entropy_coefficient(max(1,min(update,design.UPDATES)))
     for t in range(H-1,-1,-1):
@@ -89,11 +94,19 @@ def _backward(nets,trace,memory,information,channel,update):
         dml=np.zeros_like(ml)
         if channel=='live' and t in design.MESSAGE_ROUNDS:
             one=np.zeros_like(pm); one[np.arange(B),trace['messages'][:,t,a]]=1.
-            dml += -(adv[:,t,None]*(one-pm))/B
+            # Condition the score baseline on the sender's private state.  A
+            # global batch mean would mix the two request values and leaves a
+            # very noisy message credit signal in the partner-demand game.
+            msg_key=2*episodes['goal'][:,a,t]+episodes['site_type'][:,a]
+            msg_values=agent_returns[:,t,1-a]-trace['rewards'][:,t,1-a]
+            msg_adv=_group_center(msg_values,msg_key)
+            dml += -(msg_adv[:,None]*(one-pm))/B
         if channel=='live' and t in design.MESSAGE_ROUNDS:
             dml += -beta*model.entropy_grad(pm)/len(design.AGENTS)
         onea=np.zeros_like(pa); onea[np.arange(B),trace['actions'][:,t,a]]=1.
-        dal=-(adv[:,t,None]*(onea-pa))/B
+        act_key=2*episodes['goal'][:,a,t]+episodes['site_type'][:,a]
+        act_adv=_group_center(agent_returns[:,t,a],act_key)
+        dal=-(act_adv[:,None]*(onea-pa))/B
         dal += -beta*model.entropy_grad(pa)/len(design.AGENTS)
         g=grads[a]
         g['W_msg'] += np.einsum('bi,bj->ij',h,dml); g['b_msg'] += dml.sum(0)
@@ -110,6 +123,19 @@ def _backward(nets,trace,memory,information,channel,update):
                   if memory=='recurrent' else np.zeros_like(carry[a]))
     return grads,{'return_mean':float(trace['team_return'].mean()),'return_sd':float(trace['team_return'].std()),
                   'future_return_mean':returns.mean(axis=0).tolist(),'message_entropy_mean':float(np.mean([-(p*np.log(np.maximum(p,1e-300))).sum(-1).mean() for row in trace['probs_msg'] for p in row]))}
+
+
+def _group_center(values, keys):
+    """Subtract a leave-one-out mean within small observable state groups."""
+    values=np.asarray(values,dtype=np.float64); keys=np.asarray(keys)
+    out=values.copy()
+    for key in np.unique(keys):
+        idx=np.flatnonzero(keys==key)
+        if len(idx)>1:
+            out[idx]-=(values[idx].sum()-values[idx])/(len(idx)-1)
+        else:
+            out[idx]=0.
+    return out
 
 def episode(seed,scarcity,task,update,B):
     return design.episode_stream(seed,scarcity,task,B,update=update)

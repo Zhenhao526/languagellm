@@ -45,7 +45,8 @@ def run_episode_batch(nets, episodes, memory, information, channel, *,
           partner_goal=int(episodes['goal'][i,1-a,t])
           x[i]=design.encode_observation(
             own_goal=int(episodes['goal'][i,a,t]), local_type=int(site_types[i,local_site]),
-            local_inventory=int(remain[i,local_site]), last_result=int(last[i,a]), time=t,
+            local_inventory=int(remain[i,local_site]),
+            last_result=int(last[i,a]) if design.EXPOSE_OUTCOME else 0, time=t,
             partner_goal=partner_goal, remote_type=int(site_types[i,remote_site]),
             remote_inventory=int(remain[i,remote_site]), information=information)
         hh,ml,al,cache=model.forward(nets[a],x,prev_recv[a],h[a],memory)

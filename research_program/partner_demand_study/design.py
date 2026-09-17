@@ -37,7 +37,8 @@ ENTROPY_INITIAL = 0.01
 ENTROPY_ZERO_AFTER = 750
 EVAL_SEED_OFFSET = 900000
 CORRECT_REWARD = 1.0
-WRONG_REWARD = -1.0
+WRONG_REWARD = -0.25
+EXPOSE_OUTCOME = False
 
 # own request, local patch type, local inventory, last result, time, partner
 # request, remote patch type, remote inventory, information flag
@@ -174,10 +175,11 @@ def prepare() -> dict:
                                    [0, 1, 1, 1, 0, 0], [1, 0, 0, 0, 1, 1]],
         "resource_regimes": {"scarce": 2, "abundant": HORIZON},
         "private_information": "own request, local patch and inventory; partner request and remote patch are masked in PI",
+        "outcome_feedback": "masked in the baseline so reward correctness cannot reveal the partner's private request; execution traces remain researcher-side",
         "full_information": "both requests and both patch states are visible in FI",
         "task_pressure": "agent a privately requests a material; agent 1-a is rewarded for collecting it",
         "channel": "one eight-way token at rounds 0 and 1; token arrives before the next action and then the channel is blacked out",
-        "reward": "+1 when an action satisfies the partner's current request and available inventory; -1 for a wrong/depleted take; wait 0",
+        "reward": "+1 when an action satisfies the partner's current request and available inventory; -0.25 for a wrong/depleted take; wait 0",
         "simultaneous_resolution": "same-site requests share capacity; if one unit remains, lower-index agent receives it",
         "network": "agent-specific 32-unit tanh recurrent core (or no recurrent edge), message 8-way head and action 3-way head",
         "no_teacher_or_language_prior": True,
