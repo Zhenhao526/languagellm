@@ -2,8 +2,8 @@
   "generated_at_local": "2026-09-17",
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
-  "remote_commit": "281611ab61921e1da81b8848fb6d6edf94145555",
-  "scope": "current signaling source, temporal analysis, frozen plans, compact results, audit receipts and final report",
+  "remote_commit": "329b9fa24a0570e8105b0207c19c0ee9b3f3d02b",
+  "scope": "current signaling source, action-dependent timing, transmission analysis, frozen plans, compact results, audit receipts and final report",
   "retained_paths": {
     "research_program/tabular_signaling_study": {
       "files": 23,
@@ -15,7 +15,15 @@
     },
     "research_program/compositional_signaling_study": {
       "files": 20,
-      "bytes": 1039182
+      "bytes": 3406709
+    },
+    "research_program/action_dependent_signaling_study": {
+      "files": 23,
+      "bytes": 3816158
+    },
+    "research_program/generation_transmission_study": {
+      "files": 19,
+      "bytes": 1549912
     },
     "research_program/population_signaling_study": {
       "files": 22,
@@ -23,19 +31,19 @@
     },
     "研究报告_共同符号形成机制_2026-09-17.md": {
       "files": 1,
-      "bytes": 13904
+      "bytes": 19829
     },
     "README.md": {
       "files": 1,
-      "bytes": 668
+      "bytes": 764
     },
     "research_program/README.md": {
       "files": 1,
-      "bytes": 968
+      "bytes": 1201
     },
     "SYNC_2026-09-17.md": {
       "files": 1,
-      "bytes": 3428
+      "bytes": 4255
     },
     "STORAGE_POLICY.md": {
       "files": 1,
@@ -49,7 +57,15 @@
     },
     "research_program/compositional_signaling_study/results/formal_20260917": {
       "files": 8,
-      "bytes": 991975
+      "bytes": 3359008
+    },
+    "research_program/action_dependent_signaling_study/results/formal_20260917": {
+      "files": 10,
+      "bytes": 3764110
+    },
+    "research_program/generation_transmission_study/results/formal_20260917": {
+      "files": 8,
+      "bytes": 1500468
     },
     "research_program/population_signaling_study/results/formal_20260917": {
       "files": 11,
@@ -74,13 +90,19 @@
     },
     "research_program/compositional_signaling_study/results/compositional_formal_exec": {
       "present": false
+    },
+    "research_program/action_dependent_signaling_study/results/action_dep_formal_exec": {
+      "present": false
+    },
+    "research_program/generation_transmission_study/results/generation_formal_exec": {
+      "present": false
     }
   },
   "tracked_paths_pruned_in_commit": 8338,
   "historical_cleanup_estimate_bytes": 3687981411,
   "local_environment": {
-    "files": 980,
-    "bytes": 81786630
+    "files": 1022,
+    "bytes": 89529470
   },
   "policy": "raw training logs, checkpoints, model assets, literature caches and historical generated trees are not kept locally; Git history retains prior source snapshots"
 }
