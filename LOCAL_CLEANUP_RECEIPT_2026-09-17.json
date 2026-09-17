@@ -1,0 +1,73 @@
+{
+  "schema": "local_cleanup_receipt_20260917_v2",
+  "timestamp_local": "2026-09-17",
+  "root": "/Users/xia/Documents/ChatGPT/语言",
+  "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+  "remote_commit_verified_before_raw_cleanup": "dc1b52b04a2a0ef8a2f6e74cfdba460176c8d46b",
+  "remote_main_verified": true,
+  "compact_archives_verified": {
+    "research_program/tabular_signaling_study/results/formal_20260917": {
+      "files": 12,
+      "bytes": 3199452
+    },
+    "research_program/population_signaling_study/results/formal_20260917": {
+      "files": 11,
+      "bytes": 4219273
+    }
+  },
+  "raw_execution_trees_removed": {
+    "research_program/tabular_signaling_study/results/tabular_002_confirmatory_exec": {
+      "present": false
+    },
+    "research_program/tabular_signaling_study/results/tabular_003_switching_confirmatory_exec": {
+      "present": false
+    },
+    "research_program/temporal_scarcity_study/results/temporal_003_formal_exec": {
+      "present": false
+    },
+    "research_program/population_signaling_study/results/population_001_exec": {
+      "present": false
+    },
+    "research_program/population_signaling_study/results/population_formal_final": {
+      "present": false
+    }
+  },
+  "tracked_paths_pruned_in_commit": 8338,
+  "git_history_preserved": true,
+  "historical_cleanup_estimate_bytes": 3687981411,
+  "retained_paths": {
+    "research_program/tabular_signaling_study": {
+      "files": 32,
+      "bytes": 3316441
+    },
+    "research_program/temporal_scarcity_study": {
+      "files": 18,
+      "bytes": 117528
+    },
+    "research_program/population_signaling_study": {
+      "files": 31,
+      "bytes": 4344992
+    },
+    "研究报告_共同符号形成机制_2026-09-17.md": {
+      "files": 0,
+      "bytes": 0
+    },
+    "README.md": {
+      "files": 0,
+      "bytes": 0
+    },
+    "research_program/README.md": {
+      "files": 0,
+      "bytes": 0
+    },
+    "SYNC_2026-09-17.md": {
+      "files": 0,
+      "bytes": 0
+    },
+    "STORAGE_POLICY.md": {
+      "files": 0,
+      "bytes": 0
+    }
+  },
+  "retention_policy": "source code, frozen plans, compact results, audit receipts, final report and local runtime only; raw process trees and literature caches are not kept in the working tree"
+}

@@ -1,497 +1,75 @@
 {
-  "generated_at_local": "2026-09-17 15:28:33 +0800",
+  "generated_at_local": "2026-09-17",
   "root": "/Users/xia/Documents/ChatGPT/语言",
-  "scope": "source snapshots, research notes, experiment code, reports and small reproducibility metadata",
-  "scanned_files": 559110,
-  "tracked_candidate": {
-    "files": 8281,
-    "bytes": 323758912,
-    "max_single_file_bytes": 30496005,
-    "max_single_files": [
-      "research_program/codebook_factor_coverage_v06_20260915/factor_coverage.json",
-      "research_program/codebook_audit_v06_20260915/codebook_audit.json",
-      "research_program/triadic_action_dependency_study/dataset_static_001/train_semantic_pairs.json",
-      "research_program/triadic_action_dependency_study/dataset_static_001/new_layouts_semantic_pairs.json",
-      "research_program/visual_confirmation_frame/curation/ranking_001/source_snapshot/03_records.json",
-      "research_program/visual_confirmation_frame/details_002/execution/records.json",
-      "research_program/triadic_semantic_probe_study/dataset_001/cases.json",
-      "paper_program/visual_confirmation_v1/manifest.json",
-      "paper_program/visual_confirmation_v1/pixel_workflow_002/input_snapshots/97fe2ffe5557_manifest.json",
-      "paper_program/visual_confirmation_v1/pixel_workflow_003/input_snapshots/97fe2ffe5557_manifest.json",
-      "paper_program/visual_confirmation_v2_water/input_snapshots/97fe2ffe5557_manifest.json",
-      "research_program/triadic_partner_ecology_study/next_semantic_static_001/demand_pairs.json",
-      "research_program/triadic_semantic_probe_study/dataset_001/source_demand_pairs.json",
-      "redesign_v0.9/发送可区分性诊断.json",
-      "research_program/v08_formation_trajectory_001/execution/results.json",
-      "research_program/v08_receiver_coverage_001.json",
-      "research_program/triadic_action_dependency_study/dataset_static_001/new_needs_semantic_pairs.json",
-      "research_program/triadic_action_dependency_study/dataset_static_001/new_needs_and_layouts_semantic_pairs.json",
-      "research_program/visual_confirmation_frame/details_001/records.json",
-      "research_program/triadic_context_transfer_study/dataset_001/train.json"
-    ]
-  },
-  "excluded_before_cleanup": {
-    "files": 550829,
-    "bytes": 642294271190,
-    "by_category": {
-      "binary_assets": {
-        "files": 728,
-        "bytes": 1146156277
-      },
-      "environment_or_vendor": {
-        "files": 99079,
-        "bytes": 18949976391
-      },
-      "generated_results": {
-        "files": 450405,
-        "bytes": 621726349820
-      },
-      "literature_cache": {
-        "files": 65,
-        "bytes": 9139909
-      },
-      "other_generated_or_binary": {
-        "files": 355,
-        "bytes": 141604540
-      },
-      "raw_numeric_or_model": {
-        "files": 197,
-        "bytes": 321044253
-      }
-    }
-  },
-  "top_level_breakdown": {
-    "research_program": {
-      "files": 75211,
-      "bytes": 534286598251,
-      "tracked_files": 4318,
-      "tracked_bytes": 234239714
+  "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+  "remote_commit": "dc1b52b04a2a0ef8a2f6e74cfdba460176c8d46b",
+  "scope": "current signaling source, temporal analysis, frozen plans, compact results, audit receipts and final report",
+  "retained_paths": {
+    "research_program/tabular_signaling_study": {
+      "files": 32,
+      "bytes": 3316441
     },
-    "qwen_collect_pilot": {
-      "files": 5909,
-      "bytes": 10783246775,
-      "tracked_files": 33,
-      "tracked_bytes": 210104
+    "research_program/temporal_scarcity_study": {
+      "files": 18,
+      "bytes": 117528
     },
-    "redesign_v0.48": {
-      "files": 109102,
-      "bytes": 10733467773,
-      "tracked_files": 65,
-      "tracked_bytes": 906034
+    "research_program/population_signaling_study": {
+      "files": 31,
+      "bytes": 4344992
     },
-    "redesign_v0.4": {
-      "files": 6713,
-      "bytes": 9208326780,
-      "tracked_files": 221,
-      "tracked_bytes": 3985809
-    },
-    "redesign_v0.3": {
-      "files": 62353,
-      "bytes": 6010559506,
-      "tracked_files": 33,
-      "tracked_bytes": 960330
-    },
-    "redesign_v0.40": {
-      "files": 11640,
-      "bytes": 3678951913,
-      "tracked_files": 29,
-      "tracked_bytes": 336465
-    },
-    "redesign_v0.32": {
-      "files": 4251,
-      "bytes": 3366190861,
-      "tracked_files": 83,
-      "tracked_bytes": 816809
-    },
-    "redesign_v0.43": {
-      "files": 26000,
-      "bytes": 3325247988,
-      "tracked_files": 31,
-      "tracked_bytes": 366471
-    },
-    "redesign_v0.11": {
-      "files": 2163,
-      "bytes": 3224682430,
-      "tracked_files": 63,
-      "tracked_bytes": 652767
-    },
-    "redesign_v0.46": {
-      "files": 62263,
-      "bytes": 3078685485,
-      "tracked_files": 32,
-      "tracked_bytes": 385247
-    },
-    "redesign_v0.47": {
-      "files": 62263,
-      "bytes": 3071309019,
-      "tracked_files": 32,
-      "tracked_bytes": 379231
-    },
-    "redesign_v0.34": {
-      "files": 3637,
-      "bytes": 3026756642,
-      "tracked_files": 81,
-      "tracked_bytes": 759036
-    },
-    "redesign_v0.13": {
-      "files": 2548,
-      "bytes": 3023443364,
-      "tracked_files": 86,
-      "tracked_bytes": 1162818
-    },
-    "redesign_v0.23": {
-      "files": 3114,
-      "bytes": 3018518895,
-      "tracked_files": 60,
-      "tracked_bytes": 695375
-    },
-    "redesign_v0.38": {
-      "files": 9037,
-      "bytes": 2972013614,
-      "tracked_files": 41,
-      "tracked_bytes": 384783
-    },
-    "redesign_v0.33": {
-      "files": 2524,
-      "bytes": 2309902892,
-      "tracked_files": 58,
-      "tracked_bytes": 524563
-    },
-    "redesign_v0.28": {
-      "files": 3113,
-      "bytes": 2271824438,
-      "tracked_files": 64,
-      "tracked_bytes": 763198
-    },
-    "redesign_v0.16": {
-      "files": 1835,
-      "bytes": 2204176719,
-      "tracked_files": 166,
-      "tracked_bytes": 2160456
-    },
-    "redesign_v0.21": {
-      "files": 1596,
-      "bytes": 2122753439,
-      "tracked_files": 69,
-      "tracked_bytes": 791076
-    },
-    "redesign_v0.8": {
-      "files": 1458,
-      "bytes": 2113665036,
-      "tracked_files": 36,
-      "tracked_bytes": 572906
-    },
-    "redesign_v0.12": {
-      "files": 3703,
-      "bytes": 1850490552,
-      "tracked_files": 75,
-      "tracked_bytes": 981896
-    },
-    "redesign_v0.7": {
-      "files": 1334,
-      "bytes": 1846710749,
-      "tracked_files": 33,
-      "tracked_bytes": 519793
-    },
-    "redesign_v0.6": {
-      "files": 1305,
-      "bytes": 1818385227,
-      "tracked_files": 29,
-      "tracked_bytes": 429264
-    },
-    "redesign_v0.36": {
-      "files": 5508,
-      "bytes": 1807804542,
-      "tracked_files": 39,
-      "tracked_bytes": 356663
-    },
-    "redesign_v0.30": {
-      "files": 2325,
-      "bytes": 1771434679,
-      "tracked_files": 129,
-      "tracked_bytes": 1355286
-    },
-    "redesign_v0.10": {
-      "files": 1533,
-      "bytes": 1728331779,
-      "tracked_files": 47,
-      "tracked_bytes": 431784
-    },
-    "redesign_v0.31": {
-      "files": 2157,
-      "bytes": 1693762938,
-      "tracked_files": 78,
-      "tracked_bytes": 740415
-    },
-    "redesign_v0.20": {
-      "files": 2631,
-      "bytes": 1654551766,
-      "tracked_files": 61,
-      "tracked_bytes": 626009
-    },
-    "redesign_v0.5": {
-      "files": 1467,
-      "bytes": 1559996919,
-      "tracked_files": 56,
-      "tracked_bytes": 771045
-    },
-    "redesign_v0.17": {
-      "files": 984,
-      "bytes": 1212741642,
-      "tracked_files": 172,
-      "tracked_bytes": 2346949
-    },
-    "redesign_v0.9": {
-      "files": 3085,
-      "bytes": 1172020719,
-      "tracked_files": 50,
-      "tracked_bytes": 4509394
-    },
-    "redesign_v0.15": {
-      "files": 960,
-      "bytes": 1133737851,
-      "tracked_files": 215,
-      "tracked_bytes": 3282560
-    },
-    "redesign_v0.14": {
-      "files": 1062,
-      "bytes": 1080387764,
-      "tracked_files": 153,
-      "tracked_bytes": 1995524
-    },
-    "redesign_v0.24": {
-      "files": 1021,
-      "bytes": 1062928376,
-      "tracked_files": 73,
-      "tracked_bytes": 767906
-    },
-    "redesign_v0.45": {
-      "files": 20790,
-      "bytes": 1023857807,
-      "tracked_files": 31,
-      "tracked_bytes": 372179
-    },
-    "paper_program": {
-      "files": 582,
-      "bytes": 947183956,
-      "tracked_files": 485,
-      "tracked_bytes": 41739933
-    },
-    "redesign_v0.29": {
-      "files": 1088,
-      "bytes": 839943884,
-      "tracked_files": 56,
-      "tracked_bytes": 598259
-    },
-    "redesign_v0.19": {
-      "files": 4178,
-      "bytes": 829621030,
-      "tracked_files": 134,
-      "tracked_bytes": 1422821
-    },
-    ".venv": {
-      "files": 17904,
-      "bytes": 641157808,
-      "tracked_files": 0,
-      "tracked_bytes": 0
-    },
-    "redesign_v0.41": {
-      "files": 4637,
-      "bytes": 513044129,
-      "tracked_files": 57,
-      "tracked_bytes": 757953
-    },
-    "redesign_v0.25": {
-      "files": 492,
-      "bytes": 512388118,
-      "tracked_files": 76,
-      "tracked_bytes": 756211
-    },
-    "redesign_v0.39": {
-      "files": 2219,
-      "bytes": 484166036,
-      "tracked_files": 27,
-      "tracked_bytes": 261574
-    },
-    "redesign_v0.37": {
-      "files": 1997,
-      "bytes": 280624167,
-      "tracked_files": 39,
-      "tracked_bytes": 338211
-    },
-    "redesign_v0.35": {
-      "files": 3566,
-      "bytes": 229730086,
-      "tracked_files": 53,
-      "tracked_bytes": 511537
-    },
-    "文献调研_2026-09-14": {
-      "files": 115,
-      "bytes": 184390645,
-      "tracked_files": 15,
-      "tracked_bytes": 281605
-    },
-    "redesign_v0.26": {
-      "files": 217,
-      "bytes": 92610315,
-      "tracked_files": 12,
-      "tracked_bytes": 185531
-    },
-    "qwen_language_v2": {
-      "files": 135,
-      "bytes": 84281948,
-      "tracked_files": 105,
-      "tracked_bytes": 1939278
-    },
-    "redesign_v0.27": {
-      "files": 304,
-      "bytes": 80302915,
-      "tracked_files": 14,
-      "tracked_bytes": 329035
-    },
-    "redesign_v0.44": {
-      "files": 84,
-      "bytes": 78134453,
-      "tracked_files": 23,
-      "tracked_bytes": 223214
-    },
-    "pilot_round1": {
-      "files": 127,
-      "bytes": 76802995,
-      "tracked_files": 20,
-      "tracked_bytes": 243464
-    },
-    "redesign_v0.42": {
-      "files": 157,
-      "bytes": 58631138,
-      "tracked_files": 13,
-      "tracked_bytes": 88096
-    },
-    ".git": {
-      "files": 4672,
-      "bytes": 36434792,
-      "tracked_files": 0,
-      "tracked_bytes": 0
-    },
-    "redesign_v0.18": {
-      "files": 1535,
-      "bytes": 25569465,
-      "tracked_files": 110,
-      "tracked_bytes": 1397224
-    },
-    "redesign_v0.22": {
-      "files": 109,
-      "bytes": 20087022,
-      "tracked_files": 45,
-      "tracked_bytes": 567113
-    },
-    "qwen_language_v3": {
-      "files": 51,
-      "bytes": 17076842,
-      "tracked_files": 50,
-      "tracked_bytes": 587338
-    },
-    "qwen_language_diagnostics": {
-      "files": 43,
-      "bytes": 13829732,
-      "tracked_files": 83,
-      "tracked_bytes": 862729
-    },
-    "logs": {
-      "files": 22,
-      "bytes": 794584,
-      "tracked_files": 0,
-      "tracked_bytes": 0
+    "研究报告_共同符号形成机制_2026-09-17.md": {
+      "files": 1,
+      "bytes": 11600
     },
     "README.md": {
-      "files": 0,
-      "bytes": 0,
-      "tracked_files": 1,
-      "tracked_bytes": 68942
+      "files": 1,
+      "bytes": 566
     },
-    "项目定位与本地先导方案_v0.2.md": {
-      "files": 0,
-      "bytes": 0,
-      "tracked_files": 1,
-      "tracked_bytes": 16048
+    "research_program/README.md": {
+      "files": 1,
+      "bytes": 755
     },
-    "语言涌现研究讨论记录_2026-09-14.md": {
-      "files": 0,
-      "bytes": 0,
-      "tracked_files": 1,
-      "tracked_bytes": 11084
+    "SYNC_2026-09-17.md": {
+      "files": 1,
+      "bytes": 2649
     },
-    "合作任务情景比较_v0.1.md": {
-      "files": 0,
-      "bytes": 0,
-      "tracked_files": 1,
-      "tracked_bytes": 8288
-    },
-    "v3_能力检查_设计审查建议.md": {
-      "files": 0,
-      "bytes": 0,
-      "tracked_files": 1,
-      "tracked_bytes": 5463
-    },
-    "audit_corrected_004": {
-      "files": 0,
-      "bytes": 0,
-      "tracked_files": 2,
-      "tracked_bytes": 4722
-    },
-    "audit_corrected_003": {
-      "files": 0,
-      "bytes": 0,
-      "tracked_files": 2,
-      "tracked_bytes": 2982
-    },
-    "audit_corrected_scope_001": {
-      "files": 0,
-      "bytes": 0,
-      "tracked_files": 2,
-      "tracked_bytes": 2611
-    },
-    "audit_corrected_005": {
-      "files": 0,
-      "bytes": 0,
-      "tracked_files": 2,
-      "tracked_bytes": 2143
-    },
-    "audit_corrected_002": {
-      "files": 0,
-      "bytes": 0,
-      "tracked_files": 2,
-      "tracked_bytes": 1629
-    },
-    "audit_corrected_006": {
-      "files": 0,
-      "bytes": 0,
-      "tracked_files": 2,
-      "tracked_bytes": 1393
-    },
-    ".gitignore": {
-      "files": 0,
-      "bytes": 0,
-      "tracked_files": 1,
-      "tracked_bytes": 1047
-    },
-    "audit_execution_001": {
-      "files": 0,
-      "bytes": 0,
-      "tracked_files": 2,
-      "tracked_bytes": 861
-    },
-    "audit_corrected_001": {
-      "files": 0,
-      "bytes": 0,
-      "tracked_files": 2,
-      "tracked_bytes": 714
+    "STORAGE_POLICY.md": {
+      "files": 1,
+      "bytes": 1436
     }
   },
-  "rules": [
-    "Track text/source files up to 50 MiB; include Markdown and Python reports under results when small.",
-    "Exclude generated results JSON/JSONL/arrays and model weights; GitHub regular blobs are limited to 100 MiB.",
-    "Exclude virtual environments, third-party vendor/runtime trees, downloaded model assets, caches, logs, run folders and literature full-text cache.",
-    "Delete excluded local artifacts only after the remote commit is pushed and independently verified."
-  ]
+  "compact_archives": {
+    "research_program/tabular_signaling_study/results/formal_20260917": {
+      "files": 12,
+      "bytes": 3199452
+    },
+    "research_program/population_signaling_study/results/formal_20260917": {
+      "files": 11,
+      "bytes": 4219273
+    }
+  },
+  "raw_execution_trees": {
+    "research_program/tabular_signaling_study/results/tabular_002_confirmatory_exec": {
+      "present": false
+    },
+    "research_program/tabular_signaling_study/results/tabular_003_switching_confirmatory_exec": {
+      "present": false
+    },
+    "research_program/temporal_scarcity_study/results/temporal_003_formal_exec": {
+      "present": false
+    },
+    "research_program/population_signaling_study/results/population_001_exec": {
+      "present": false
+    },
+    "research_program/population_signaling_study/results/population_formal_final": {
+      "present": false
+    }
+  },
+  "tracked_paths_pruned_in_commit": 8338,
+  "historical_cleanup_estimate_bytes": 3687981411,
+  "local_environment": {
+    "files": 987,
+    "bytes": 75392891
+  },
+  "policy": "raw training logs, checkpoints, model assets, literature caches and historical generated trees are not kept locally; Git history retains prior source snapshots"
 }
