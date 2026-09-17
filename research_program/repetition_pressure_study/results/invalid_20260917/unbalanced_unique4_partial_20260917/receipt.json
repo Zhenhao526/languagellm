@@ -1,0 +1,16 @@
+{
+  "schema": "invalid_partial_experiment_receipt_v1",
+  "status": "stopped_before_analysis",
+  "date": "2026-09-17",
+  "study": "repetition_pressure_study",
+  "label": "unbalanced_unique4_partial_20260917",
+  "reason": "The first scaffold used a&b as the fourth unique4 meaning. That stage had target-one rate 25%, while the other three stages were balanced at 50%; repetition effects would therefore be confounded with target prevalence.",
+  "replacement": "Use the balanced fourth meaning 1-(a xor b), yielding four stages with 50% target-one rate.",
+  "parent_runs_completed": 81,
+  "child_runs_completed": 77,
+  "child_runs_planned": 729,
+  "raw_execution_retained": false,
+  "raw_execution_path": "/tmp/repetition_formal_out",
+  "statistics_reported": false,
+  "retained_for_audit": "This compact receipt only; no raw logs, checkpoints or analysis are retained."
+}

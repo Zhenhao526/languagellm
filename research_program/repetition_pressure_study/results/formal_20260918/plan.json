@@ -1,0 +1,205 @@
+{
+  "schema": "repetition_pressure_study_v1",
+  "prepared_sha256": "c7ae117d4cd878d25e6d8fc0cc2b44cfc778a307ecd6300d0bb2914b164277da",
+  "sources": {
+    "research_program/repetition_pressure_study/__init__.py": "8396e5942b71cb12d0479f6e78bb31ea1ab08445aae71181058e3d232e5c086d",
+    "research_program/repetition_pressure_study/design.py": "5f845c180ee82b479b4b9c4f27b9e679ebca5796a754915a1d3c39537f4f291a",
+    "research_program/repetition_pressure_study/policy.py": "4ef9f62a40caf9e943d4899b90c574e90e0ccc2df147f7d010085b1a60192f5b",
+    "research_program/repetition_pressure_study/environment.py": "70801a800eb7728ef53c5283fe61f2aafad4ac2168f1c439746b423f480bc036",
+    "research_program/repetition_pressure_study/runner.py": "4f3e32d285589607e0c0df60156bfe5bdc605c10fd25e33eca425669832fba09",
+    "research_program/repetition_pressure_study/aggregate.py": "242452a85520d0b6d0b503bb6bdccd6ddeca5b8d875c1f40faa9ce9495633b01",
+    "research_program/repetition_pressure_study/audit.py": "64c40e4f217da952bdbccde9dfafd9d671b0a6a24f31d7c7c9914aa943594a7c",
+    "research_program/repetition_pressure_study/plan.md": "69a4a2f8f8e90bab7f49c0e88cfd7674bb558502a1f37d7844acea16c5cf93cc",
+    "research_program/repetition_pressure_study/tests/test_game.py": "e8aff040f8357a853fd82bdcbaa0c18f972ffed9205afc3f0d47e29e3df3a5a5"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.2.6"
+  },
+  "config": {
+    "schema": "repetition_pressure_study_v1",
+    "horizon": 6,
+    "action_start": 2,
+    "subtasks": 4,
+    "steps_per_subtask": 1,
+    "tasks": [
+      "unique4",
+      "repeat2",
+      "shared4"
+    ],
+    "partner_mode": "rotating",
+    "partner_visibility": "hidden",
+    "forms": {
+      "dual2": {
+        "alphabet_size": 2,
+        "length": 2,
+        "state_count": 5,
+        "arrival_times": [
+          2,
+          2
+        ]
+      },
+      "triple2": {
+        "alphabet_size": 2,
+        "length": 3,
+        "state_count": 9,
+        "arrival_times": [
+          2,
+          2,
+          2
+        ]
+      },
+      "atomic8": {
+        "alphabet_size": 8,
+        "length": 1,
+        "state_count": 9,
+        "arrival_times": [
+          2
+        ]
+      }
+    },
+    "adaptations": [
+      "scratch",
+      "worker_only",
+      "coadapt"
+    ],
+    "noise_levels": [
+      0.0,
+      0.1,
+      0.25
+    ],
+    "noise_keys": {
+      "p00": 0.0,
+      "p10": 0.1,
+      "p25": 0.25
+    },
+    "atomic_corruption_probability": {
+      "p00": 0.0,
+      "p10": 0.2709999999999999,
+      "p25": 0.578125
+    },
+    "workers": 4,
+    "capacity": 2,
+    "actions": [
+      "wait",
+      "take_site0",
+      "take_site1"
+    ],
+    "seeds": [
+      80101,
+      80102,
+      80103,
+      80104,
+      80105,
+      80106,
+      80107,
+      80108,
+      80109
+    ],
+    "conditions": [
+      "unique4_dual2_scratch_p00",
+      "unique4_dual2_scratch_p10",
+      "unique4_dual2_scratch_p25",
+      "unique4_dual2_worker_only_p00",
+      "unique4_dual2_worker_only_p10",
+      "unique4_dual2_worker_only_p25",
+      "unique4_dual2_coadapt_p00",
+      "unique4_dual2_coadapt_p10",
+      "unique4_dual2_coadapt_p25",
+      "unique4_triple2_scratch_p00",
+      "unique4_triple2_scratch_p10",
+      "unique4_triple2_scratch_p25",
+      "unique4_triple2_worker_only_p00",
+      "unique4_triple2_worker_only_p10",
+      "unique4_triple2_worker_only_p25",
+      "unique4_triple2_coadapt_p00",
+      "unique4_triple2_coadapt_p10",
+      "unique4_triple2_coadapt_p25",
+      "unique4_atomic8_scratch_p00",
+      "unique4_atomic8_scratch_p10",
+      "unique4_atomic8_scratch_p25",
+      "unique4_atomic8_worker_only_p00",
+      "unique4_atomic8_worker_only_p10",
+      "unique4_atomic8_worker_only_p25",
+      "unique4_atomic8_coadapt_p00",
+      "unique4_atomic8_coadapt_p10",
+      "unique4_atomic8_coadapt_p25",
+      "repeat2_dual2_scratch_p00",
+      "repeat2_dual2_scratch_p10",
+      "repeat2_dual2_scratch_p25",
+      "repeat2_dual2_worker_only_p00",
+      "repeat2_dual2_worker_only_p10",
+      "repeat2_dual2_worker_only_p25",
+      "repeat2_dual2_coadapt_p00",
+      "repeat2_dual2_coadapt_p10",
+      "repeat2_dual2_coadapt_p25",
+      "repeat2_triple2_scratch_p00",
+      "repeat2_triple2_scratch_p10",
+      "repeat2_triple2_scratch_p25",
+      "repeat2_triple2_worker_only_p00",
+      "repeat2_triple2_worker_only_p10",
+      "repeat2_triple2_worker_only_p25",
+      "repeat2_triple2_coadapt_p00",
+      "repeat2_triple2_coadapt_p10",
+      "repeat2_triple2_coadapt_p25",
+      "repeat2_atomic8_scratch_p00",
+      "repeat2_atomic8_scratch_p10",
+      "repeat2_atomic8_scratch_p25",
+      "repeat2_atomic8_worker_only_p00",
+      "repeat2_atomic8_worker_only_p10",
+      "repeat2_atomic8_worker_only_p25",
+      "repeat2_atomic8_coadapt_p00",
+      "repeat2_atomic8_coadapt_p10",
+      "repeat2_atomic8_coadapt_p25",
+      "shared4_dual2_scratch_p00",
+      "shared4_dual2_scratch_p10",
+      "shared4_dual2_scratch_p25",
+      "shared4_dual2_worker_only_p00",
+      "shared4_dual2_worker_only_p10",
+      "shared4_dual2_worker_only_p25",
+      "shared4_dual2_coadapt_p00",
+      "shared4_dual2_coadapt_p10",
+      "shared4_dual2_coadapt_p25",
+      "shared4_triple2_scratch_p00",
+      "shared4_triple2_scratch_p10",
+      "shared4_triple2_scratch_p25",
+      "shared4_triple2_worker_only_p00",
+      "shared4_triple2_worker_only_p10",
+      "shared4_triple2_worker_only_p25",
+      "shared4_triple2_coadapt_p00",
+      "shared4_triple2_coadapt_p10",
+      "shared4_triple2_coadapt_p25",
+      "shared4_atomic8_scratch_p00",
+      "shared4_atomic8_scratch_p10",
+      "shared4_atomic8_scratch_p25",
+      "shared4_atomic8_worker_only_p00",
+      "shared4_atomic8_worker_only_p10",
+      "shared4_atomic8_worker_only_p25",
+      "shared4_atomic8_coadapt_p00",
+      "shared4_atomic8_coadapt_p10",
+      "shared4_atomic8_coadapt_p25"
+    ],
+    "updates": 3000,
+    "parent_updates": 3000,
+    "batch_size": 512,
+    "learning_rate": 0.08,
+    "checkpoints": [
+      0,
+      500,
+      1000,
+      2000,
+      3000
+    ],
+    "pairing": "within each seed/form/adaptation, noise arms share worlds, goals, partners, message uniforms, action uniforms and noise uniforms",
+    "meaning": {
+      "unique4": "four distinct balanced Boolean functions, one per stage",
+      "repeat2": "two independent Boolean meanings each recur in two stages",
+      "shared4": "the same hidden parity of two private binary factors recurs in all four stages"
+    },
+    "capacity_control": "triple2 and atomic8 have eight raw message states; dual2 has four",
+    "no_teacher_or_language_prior": true,
+    "runs": 729,
+    "parent_runs": 81,
+    "evaluation_episodes_per_worker": 4096
+  }
+}

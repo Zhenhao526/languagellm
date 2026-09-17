@@ -1,0 +1,65 @@
+{
+  "schema": "repetition_pressure_audit_v1",
+  "status": "passed",
+  "parent_runs": 81,
+  "runs": 729,
+  "parent_training_log_rows": 243000,
+  "training_log_rows": 2187000,
+  "parent_final_checkpoints": 81,
+  "final_checkpoints": 729,
+  "paired_noise_trajectory_rows": 1458000,
+  "max_abs_replay_error": 0.0,
+  "parts": [
+    {
+      "part": 1,
+      "path": "/tmp/rps_part1_audit.json",
+      "sha256": "9611751ef7bcc59272e7dd3e200792c240ace5f23c4ffe7703dceff6b98745db",
+      "audit": {
+        "schema": "repetition_pressure_audit_v1",
+        "status": "passed",
+        "parent_runs": 27,
+        "runs": 243,
+        "parent_training_log_rows": 81000,
+        "training_log_rows": 729000,
+        "parent_final_checkpoints": 27,
+        "final_checkpoints": 243,
+        "paired_noise_trajectory_rows": 486000,
+        "max_abs_replay_error": 0.0
+      }
+    },
+    {
+      "part": 2,
+      "path": "/tmp/rps_part2_audit.json",
+      "sha256": "9611751ef7bcc59272e7dd3e200792c240ace5f23c4ffe7703dceff6b98745db",
+      "audit": {
+        "schema": "repetition_pressure_audit_v1",
+        "status": "passed",
+        "parent_runs": 27,
+        "runs": 243,
+        "parent_training_log_rows": 81000,
+        "training_log_rows": 729000,
+        "parent_final_checkpoints": 27,
+        "final_checkpoints": 243,
+        "paired_noise_trajectory_rows": 486000,
+        "max_abs_replay_error": 0.0
+      }
+    },
+    {
+      "part": 3,
+      "path": "/tmp/rps_part3_audit.json",
+      "sha256": "9611751ef7bcc59272e7dd3e200792c240ace5f23c4ffe7703dceff6b98745db",
+      "audit": {
+        "schema": "repetition_pressure_audit_v1",
+        "status": "passed",
+        "parent_runs": 27,
+        "runs": 243,
+        "parent_training_log_rows": 81000,
+        "training_log_rows": 729000,
+        "parent_final_checkpoints": 27,
+        "final_checkpoints": 243,
+        "paired_noise_trajectory_rows": 486000,
+        "max_abs_replay_error": 0.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "repetition_pressure_receipt_v1",
+  "status": "compact_archive_created_after_passed_sharded_audit",
+  "archive": "research_program/repetition_pressure_study/results/formal_20260918",
+  "prepared_sha256": "c7ae117d4cd878d25e6d8fc0cc2b44cfc778a307ecd6300d0bb2914b164277da",
+  "plan_sha256": "0c091d10850f4116504b2d9451a01580e578d024cfbed3ff4ef78efe37acb2d6",
+  "freeze_sha256": "dc58ed8157e74494f83cf143b6efb3a716abc3714d38df252256ceaa5a70e763",
+  "audit_sha256": "c5e13e42bb68d511fa0f20baa5dab41dd2c1636825a945576f7323eb618f8127",
+  "aggregate_sha256": "9e9178138fbc5b1ff895dc7f5c51c723b4afc4f4abd31816698f797546aba290",
+  "aggregate_markdown_sha256": "21e67f80ebd62ff7b12f5b5bb73ad81b49444777d5b9b1dbc7fc44d078964295",
+  "compact_results_sha256": "4b062ab8a5e5e1503a5220918ccecfe237b5bdc8aa0ac5043478454a53e5def6",
+  "parent_runs": 81,
+  "runs": 729,
+  "parent_training_log_rows": 243000,
+  "training_log_rows": 2187000,
+  "parent_final_checkpoints": 81,
+  "final_checkpoints": 729,
+  "paired_noise_trajectory_rows": 1458000,
+  "max_abs_replay_error": 0.0,
+  "source_hashes_match_prepared_plan": true,
+  "raw_execution_retained": false,
+  "invalid_pilot_record": "research_program/repetition_pressure_study/results/invalid_20260917/unbalanced_unique4_partial_20260917/receipt.json",
+  "shard_audit_paths": [
+    "/tmp/rps_part1_audit.json",
+    "/tmp/rps_part2_audit.json",
+    "/tmp/rps_part3_audit.json"
+  ],
+  "shard_audit_sha256": [
+    "9611751ef7bcc59272e7dd3e200792c240ace5f23c4ffe7703dceff6b98745db",
+    "9611751ef7bcc59272e7dd3e200792c240ace5f23c4ffe7703dceff6b98745db",
+    "9611751ef7bcc59272e7dd3e200792c240ace5f23c4ffe7703dceff6b98745db"
+  ]
+}
