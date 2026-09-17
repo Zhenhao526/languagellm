@@ -1,14 +1,18 @@
 {
-  "schema": "local_cleanup_receipt_20260917_v2",
+  "schema": "local_cleanup_receipt_20260917_v3",
   "timestamp_local": "2026-09-17",
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
-  "remote_commit_verified_before_raw_cleanup": "dc1b52b04a2a0ef8a2f6e74cfdba460176c8d46b",
+  "remote_commit_verified_after_sync": "281611ab61921e1da81b8848fb6d6edf94145555",
   "remote_main_verified": true,
   "compact_archives_verified": {
     "research_program/tabular_signaling_study/results/formal_20260917": {
       "files": 12,
       "bytes": 3199452
+    },
+    "research_program/compositional_signaling_study/results/formal_20260917": {
+      "files": 8,
+      "bytes": 991975
     },
     "research_program/population_signaling_study/results/formal_20260917": {
       "files": 11,
@@ -30,6 +34,9 @@
     },
     "research_program/population_signaling_study/results/population_formal_final": {
       "present": false
+    },
+    "research_program/compositional_signaling_study/results/compositional_formal_exec": {
+      "present": false
     }
   },
   "tracked_paths_pruned_in_commit": 8338,
@@ -37,36 +44,40 @@
   "historical_cleanup_estimate_bytes": 3687981411,
   "retained_paths": {
     "research_program/tabular_signaling_study": {
-      "files": 32,
-      "bytes": 3316441
+      "files": 23,
+      "bytes": 3243758
     },
     "research_program/temporal_scarcity_study": {
-      "files": 18,
-      "bytes": 117528
+      "files": 11,
+      "bytes": 51394
+    },
+    "research_program/compositional_signaling_study": {
+      "files": 20,
+      "bytes": 1039182
     },
     "research_program/population_signaling_study": {
-      "files": 31,
-      "bytes": 4344992
+      "files": 22,
+      "bytes": 4266351
     },
     "研究报告_共同符号形成机制_2026-09-17.md": {
-      "files": 0,
-      "bytes": 0
+      "files": 1,
+      "bytes": 13904
     },
     "README.md": {
-      "files": 0,
-      "bytes": 0
+      "files": 1,
+      "bytes": 668
     },
     "research_program/README.md": {
-      "files": 0,
-      "bytes": 0
+      "files": 1,
+      "bytes": 968
     },
     "SYNC_2026-09-17.md": {
-      "files": 0,
-      "bytes": 0
+      "files": 1,
+      "bytes": 3428
     },
     "STORAGE_POLICY.md": {
-      "files": 0,
-      "bytes": 0
+      "files": 1,
+      "bytes": 1436
     }
   },
   "retention_policy": "source code, frozen plans, compact results, audit receipts, final report and local runtime only; raw process trees and literature caches are not kept in the working tree"
