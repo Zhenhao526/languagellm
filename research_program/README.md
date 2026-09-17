@@ -8,6 +8,8 @@
 
 - **私有需求 PI＋scarce 确认批次：**[结果与下一步](partner_demand_study/partner_007_confirmatory_结果与下一步.md)完成 4 个 seed × `recurrent_scarce_PI_{persistent,switching}_{live,silent}`、16 个 run、2,000 更新。所有 held-out live 条件的 natural、closed、permuted 回报逐行相同；persistent token 互信息约 **0.077–0.125 bit**，switching 为 0。独立审计 16 个 run、32,000 条日志、96 个评价块通过。当前任务没有形成可操作的伙伴信号；下一步先做显式共同计划的能力对照，再决定是否继续符号实验。
 
+- **固定分工 signaling 确认批次：**[结果与下一步](fixed_role_signaling_study/fixed_002_confirmatory_结果与下一步.md)把 agent 0 固定为 scout、agent 1 固定为唯一 worker，完成 4 个 seed × 4 个 PI＋scarce 条件、16 个 run、2,000 更新。live held-out natural−closed 为 **+0.387 pp**，但 natural−permuted 仅 **+0.0006 pp**；PI＋switching 四个 live cell 两个差值均为 0。消息互信息约 **0.332 bit**，没有置换损失。独立审计 16 个 run、32,000 条日志、96 个评价块通过；下一步先做显式需求标签的能力对照。
+
 - **训练期公共／私有码本 pilot（最新）：**[完整报告](triadic_public_codebook_study/结果与下一步.md)在 8 个配对初始化上比较 `silent`、`identity_live`、共享公共八符号双射和三套发送者私有双射，共 32 个训练 run、192 个 checkpoint、288 个紧凑评价文件；独立逐文件回放 `max_abs_error=0`。实时通信相对静默的目标 Q 终点增益为 identity **+5.33 pp**、public **+6.41 pp**、private **+4.71 pp**；public−private **+1.70 pp**（t(7) 区间 [−0.50,+3.90]）。跨发送者四选一内容替换中，public−private margin 为跨 listener **−0.38 pp**、跨 third **−1.56 pp**，区间均跨零。当前结果支持任务协调依赖通信机会，但不支持公共码本已经形成；下一步屏蔽／随机置换发送者身份线索并测试新发送者迁移，仍不能称词义、组合语法或语言起源。
 
 - **接收者角色 C−A 单槽与符号重编码确认探针（最新）：**[完整报告](triadic_receiver_role_crossover_confirmatory_slot_recode_probe/单槽重编码_结果与下一步.md)在独立确认终点的 A/C、8 个种子、64 个策略块中，整包 aligned−placebo 计划转移为 A **+8.221/+6.891 pp**、C **+3.329/+1.984 pp**；四个单槽仅约 **+0.30–+1.86 pp**，固定 `add1/xor4` 重编码的 A/C 点估计均为负。C−A 整包 **−4.899 pp**，单槽缩小，重编码约 **+0.81 pp** 且区间跨零。独立审计4,866,048行、`max_abs_error=0`；这是冻结接口机制探针，不是词义、组合语法或语言起源证据。
