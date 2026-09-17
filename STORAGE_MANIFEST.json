@@ -2,9 +2,9 @@
   "generated_at_local": "2026-09-17",
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
-  "remote_commit": "c654af648429e2c6fd24682cbc760e8876fd6391",
+  "remote_commit": "f9347f1e05b152566b2e9847884e8098a058a1f5",
   "remote_main_verified": true,
-  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, frozen plans, compact results, audit receipts and final report",
+  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, frozen plans, compact results, audit receipts and final report",
   "retained_paths": {
     "research_program/tabular_signaling_study": {
       "files": 23,
@@ -34,25 +34,29 @@
       "files": 22,
       "bytes": 1706609
     },
+    "research_program/receiver_representation_study": {
+      "files": 22,
+      "bytes": 3589982
+    },
     "research_program/population_signaling_study": {
       "files": 22,
       "bytes": 4266351
     },
     "研究报告_共同符号形成机制_2026-09-17.md": {
       "files": 1,
-      "bytes": 23195
+      "bytes": 26619
     },
     "README.md": {
       "files": 1,
-      "bytes": 979
+      "bytes": 1076
     },
     "research_program/README.md": {
       "files": 1,
-      "bytes": 1619
+      "bytes": 1826
     },
     "SYNC_2026-09-17.md": {
       "files": 1,
-      "bytes": 5372
+      "bytes": 5981
     },
     "STORAGE_POLICY.md": {
       "files": 1,
@@ -83,6 +87,10 @@
     "research_program/heldout_composition_study/results/formal_20260917": {
       "files": 10,
       "bytes": 1667649
+    },
+    "research_program/receiver_representation_study/results/formal_20260917": {
+      "files": 10,
+      "bytes": 3546655
     },
     "research_program/population_signaling_study/results/formal_20260917": {
       "files": 11,
@@ -119,20 +127,26 @@
     },
     "research_program/heldout_composition_study/results/heldout_formal_exec": {
       "present": false
+    },
+    "research_program/receiver_representation_study/results/receiver_formal_exec": {
+      "present": false
     }
   },
   "temporary_raw_trees_removed": [
     "/tmp/action_dep_rebuilt",
     "/tmp/gct_formal_full",
     "/tmp/heldout_formal_full",
+    "/tmp/rr_formal_full",
+    "/tmp/action_dep_parent_repr",
     "/tmp/heldout_prepared_full_v3",
-    "/tmp/action_dep_rebuilt_prepared"
+    "/tmp/action_dep_rebuilt_prepared",
+    "/tmp/rr_prepared_full"
   ],
   "tracked_paths_pruned_in_commit": 8338,
   "historical_cleanup_estimate_bytes": 3687981411,
   "local_environment": {
-    "files": 1067,
-    "bytes": 100652398
+    "files": 1089,
+    "bytes": 104250127
   },
   "policy": "raw training logs, checkpoints, model assets, literature caches and historical generated trees are not kept locally; Git history retains prior source snapshots"
 }
