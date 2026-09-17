@@ -69,7 +69,7 @@ def write_md(path,data):
     for x in data['contrasts']:
         if x['protocol']!='staged_minus_simultaneous': continue
         lines.append(f"| `{x['task']}` | {x['natural_difference_mean']:.3f} [{x['natural_difference_ci95_t'][0]:.3f},{x['natural_difference_ci95_t'][1]:.3f}] | {x['recombined_gap_difference_mean']:.3f} | {x['mcnemar_staged_only']} / {x['mcnemar_simultaneous_only']} | {x['mcnemar_exact_p']:.4f} |")
-    lines += ['','','The equilibrium rule was fixed before the additional 16 seeds. These counts describe convergence into a high-performing, recombination-preserving basin; they are not a claim that every staged run develops a language.']
+    lines += ['','','The equilibrium rule was fixed before the formal 32-seed matrix. These counts describe convergence into a high-performing, recombination-preserving basin; they are not a claim that every staged run develops a language.']
     Path(path).write_text('\n'.join(lines)+'\n')
 
 if __name__=='__main__':

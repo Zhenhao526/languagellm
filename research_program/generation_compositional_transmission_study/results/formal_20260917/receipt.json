@@ -1,0 +1,33 @@
+{
+  "schema": "generation_compositional_transmission_receipt_v1",
+  "status": "compact_archive_created_after_passed_audit",
+  "archive": "research_program/generation_compositional_transmission_study/results/formal_20260917",
+  "prepared_sha256": "5395302d3481bf63c82a671e0579dfc39ad4eb6d77284449e31fbda6836f056a",
+  "plan_sha256": "342d262463a5f4c14e2613e230d895cafaf2b7bceb37f5e097ac2a3b6a049f4c",
+  "freeze_sha256": "ceb4e748ce62cc77afb44168df3b015c79edf0eac4eec87d1e66113341724a45",
+  "audit_sha256": "03df24f81629a5de665eec994af36e7ff3d7a9d04fd97c21e1e0b16982447a65",
+  "aggregate_sha256": "3dff9cdc98173a76866f6a14df24a6e3baa12edaf4d3928028594f0e2c48e818",
+  "transmission_analysis_sha256": "b6c5169c19f69e59bd348a51b2b83231036f07131ee1b03dfe8fdc389e865e50",
+  "compact_results_sha256": "035b63cd71e7d9a56ff11072c9c85975e8d32648cc7805af20cc519e53d8c073",
+  "parent_runs": 32,
+  "child_runs": 192,
+  "seeds": 32,
+  "conditions": 6,
+  "updates": 3000,
+  "raw_execution_retained": false,
+  "raw_results_sha256": "dbe15a7dccb900c190ecb99d13d21e2bdeaa64b67df501bd1f462e2b75fadaf4",
+  "audit_status": "passed",
+  "max_abs_replay_error": 0.0,
+  "parent_composable_count": 9,
+  "retained_files": [
+    "aggregate.json",
+    "aggregate.md",
+    "audit.json",
+    "compact_results.json",
+    "freeze.json",
+    "plan.json",
+    "prepared.json",
+    "transmission_analysis.json",
+    "transmission_analysis.md"
+  ]
+}

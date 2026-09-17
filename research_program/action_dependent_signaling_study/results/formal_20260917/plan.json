@@ -1,5 +1,5 @@
 {
-  "schema": "compositional_signaling_v1",
+  "schema": "action_dependent_signaling_v1",
   "prepared_sha256": "aecfdc5d09c5f4b3cf51f98ee682b1f8aed93df46d823e9a38e67cf52cedcb1c",
   "sources": {
     "research_program/action_dependent_signaling_study/__init__.py": "64fe0f95e75b066929067c56585b64ca8ebe41f5834c424fbbeb5adbeb8ac691",
@@ -7,8 +7,8 @@
     "research_program/action_dependent_signaling_study/design.py": "35daeabf190dc3f02f8addb77273d9d2b7190bf81cb59b2552cc335952cd16c4",
     "research_program/action_dependent_signaling_study/policy.py": "379c35bff921f71f18df4a87f51b10957902f78f3c003b5d9502448772bb0b91",
     "research_program/action_dependent_signaling_study/environment.py": "bc64b0c4bdfc23d4c69566ebd1919dd4c470a91aeefb479f8aba855eb2bff688",
-    "research_program/action_dependent_signaling_study/runner.py": "ab34b782a05bd318b40337b10c1678f9a18906f6acc856769ba55fe6e44efbb5",
-    "research_program/action_dependent_signaling_study/aggregate.py": "b4fe99570f358ddece69d0dcf7674fe06efe1df64aed14975530299c85fc6cd5",
+    "research_program/action_dependent_signaling_study/runner.py": "ffd25ae3e999265278de642e6f791a2be9f6148cb841f20110d797390fd80315",
+    "research_program/action_dependent_signaling_study/aggregate.py": "47a05aa49de6180de8ab102000ec6a3cd57582aad7276c40cab1ba5333bf3af3",
     "research_program/action_dependent_signaling_study/audit.py": "337c99d1b022b25696b1f6b14ad35c0ce04c8e49a2fad26fa171fd401f9028f4",
     "research_program/action_dependent_signaling_study/plan.md": "87827522f16c62d2e00337bcfe6ab97e60cf792e1be1ebeb192e3420d752f782",
     "research_program/action_dependent_signaling_study/tests/test_game.py": "f3c5d8865e44e7e61399a5490b2d171e8ae90af426505b24f1d2d115433e5179"

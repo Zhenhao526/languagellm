@@ -1,4 +1,4 @@
-# Compositional signaling compact aggregation
+# Action-dependent signaling compact aggregation
 
 - runs: 256
 - split: heldout

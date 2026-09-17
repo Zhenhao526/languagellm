@@ -1,0 +1,23 @@
+{
+  "schema": "heldout_composition_receipt_v1",
+  "status": "compact_archive_created_after_passed_audit",
+  "archive": "research_program/heldout_composition_study/results/formal_20260917",
+  "prepared_sha256": "a3709d71e15a2037421fa6f50e8de52277a06843d854d7c2600df673ab8739d2",
+  "plan_sha256": "96ce41a5cc37cb02ba2aa0a3eb065325fad3acf3cc455c3a0b74981a960afc8b",
+  "freeze_sha256": "d962e580245ae428716eff437517df9a45faf9f5070b36aed31ab2da9c32548c",
+  "aggregate_sha256": "a996051641ee7ad19e1cc54577aecbc3afe74b60fc99689e9222f9372d3047e2",
+  "compact_results_sha256": "1b298df41b705026bbe45bc44baca2a05ca81d5bf7fe0029ab3f88c0436b7c2a",
+  "audit_sha256": "314cfac73037ec6dea6eaa1cae85939e358a2ccdff19a7518f17a1cdb086da52",
+  "parent_rebuild_verification_sha256": "66f637d65f1df28e9661a944ea7501189d353ab11022967daff25ff62f4f4799",
+  "raw_results_sha256": "515a0d6429ba693397188e6cbbea4c5f7c4e94a66dd0dd967d3bdf5919c4b41a",
+  "runs": 128,
+  "conditions": [
+    "full_live",
+    "full_silent",
+    "leave_one_out_live",
+    "leave_one_out_silent"
+  ],
+  "seeds": 32,
+  "updates_per_run": 3000,
+  "raw_process_files_omitted": true
+}

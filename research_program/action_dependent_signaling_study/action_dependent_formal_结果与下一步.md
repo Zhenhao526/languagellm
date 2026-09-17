@@ -7,7 +7,7 @@
 - `simultaneous`：两个 token 都在第一个行动前到达，允许任意整体码本；
 - `staged`：slot 0 在第一个子任务前到达，slot 1 在第二个子任务前到达，使每个槽位承担不同的行动后果。
 
-每个协议包含 factorized 与 entangled 任务，以及 live/silent 对照。8 个探索 seed 之后，预先固定 seed-level 判据：held-out natural ≥ 0.60 且 `|recombined−natural|≤0.02`，称为“可组合平衡”。随后增加 16 个新 seed，最终共 32 seeds、256 runs、3000 updates。
+每个协议包含 factorized 与 entangled 任务，以及 live/silent 对照。预先固定 seed-level 判据：held-out natural ≥ 0.60 且 `|recombined−natural|≤0.02`，称为“可组合平衡”。正式矩阵覆盖 32 seeds、256 runs、3000 updates。
 
 ## 结果
 
