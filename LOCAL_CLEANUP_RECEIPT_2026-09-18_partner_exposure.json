@@ -1,0 +1,113 @@
+{
+  "schema": "partner_exposure_storage_cleanup_receipt_v1",
+  "created_local": "2026-09-18",
+  "root": "/Users/xia/Documents/ChatGPT/语言",
+  "reason": "retain compact partner-exposure archives after full replay audit and remove raw execution trees, logs, checkpoints and temporary analyses",
+  "archives_verified": [
+    "research_program/partner_exposure_study/results/formal_20260918",
+    "research_program/partner_exposure_study/results/diagnostic_20260918"
+  ],
+  "deleted": [
+    {
+      "path": "/private/tmp/partner_exposure_formal_execution",
+      "existed": true,
+      "bytes_removed": 503099960,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/partner_exposure_formal_prepared",
+      "existed": true,
+      "bytes_removed": 77207,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/partner_exposure_pilot_execution",
+      "existed": true,
+      "bytes_removed": 5724523,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/partner_exposure_pilot_prepared",
+      "existed": true,
+      "bytes_removed": 77045,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/partner_exposure_pilot_prepared2",
+      "existed": true,
+      "bytes_removed": 77207,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/partner_exposure_pilot_audit.json",
+      "existed": true,
+      "bytes_removed": 392,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/partner_exposure_pilot_analysis.json",
+      "existed": true,
+      "bytes_removed": 27092,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/partner_exposure_pilot_analysis.md",
+      "existed": true,
+      "bytes_removed": 4396,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/partner_exposure_long_execution",
+      "existed": true,
+      "bytes_removed": 21456232,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/partner_exposure_long_prepared",
+      "existed": true,
+      "bytes_removed": 77207,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/partner_exposure_long_audit.json",
+      "existed": true,
+      "bytes_removed": 393,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/partner_exposure_long_analysis.json",
+      "existed": true,
+      "bytes_removed": 17113,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/partner_exposure_long_analysis.md",
+      "existed": true,
+      "bytes_removed": 4286,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/partner_exposure_formal_analysis.json",
+      "existed": true,
+      "bytes_removed": 272171,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/partner_exposure_formal_audit.json",
+      "existed": true,
+      "bytes_removed": 410,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/partner_exposure_formal_analysis.md",
+      "existed": true,
+      "bytes_removed": 14032,
+      "removed": true
+    }
+  ],
+  "total_bytes_removed": 530929666,
+  "retained_local": "partner_exposure source package, compact formal and diagnostic archives, frozen plans, report and receipts",
+  "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+  "source_commit": "11582a826ce829d7fc30c8c0d7856340a0f0f971",
+  "raw_execution_retained": false
+}

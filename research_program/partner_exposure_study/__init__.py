@@ -1,1 +1,1 @@
-"""Binary object-surface remapping study."""
+"""Multi-partner sender alignment study."""

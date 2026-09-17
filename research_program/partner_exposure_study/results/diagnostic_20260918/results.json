@@ -1,0 +1,4202 @@
+{
+  "parents": [
+    {
+      "kind": "parent",
+      "seed": 78401,
+      "population_mode": "heterogeneous",
+      "visibility": "hidden",
+      "form": "dual2",
+      "task": "factorized",
+      "updates": 300,
+      "initial_parameter_sha256": "ef6928310409459fd422b8e4b7654afc4030482eef0fe6f5e52002f4967fc4d1",
+      "final_parameter_sha256": "6cf6cd2e1fdcf5fcc03f885d653826addc2ebd719723a0ad7b5e68b2ced6cbc1",
+      "final": {
+        "sender_codebook": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "sender_consistency": 1.0,
+        "pairwise_min_hamming": 0,
+        "visibility": "hidden",
+        "all": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.3614527384440104,
+            "team_return_sd": 0.19797956831152874,
+            "positive_episode_rate": 0.96844482421875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.21845245361328125,
+            "team_return_sd": 0.23676637915038048,
+            "positive_episode_rate": 0.9227294921875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.1852289835611979,
+            "team_return_sd": 0.21873482002405015,
+            "positive_episode_rate": 0.77593994140625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.39443715413411456,
+            "team_return_sd": 0.21084746119765374,
+            "positive_episode_rate": 0.953369140625,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "seen": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.3701502482096354,
+            "team_return_sd": 0.2044024699263394,
+            "positive_episode_rate": 0.95623779296875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.21463775634765622,
+            "team_return_sd": 0.23498995027817474,
+            "positive_episode_rate": 0.935546875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.23204803466796875,
+            "team_return_sd": 0.21428857449345434,
+            "positive_episode_rate": 0.83502197265625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.41434987386067706,
+            "team_return_sd": 0.21709295192749906,
+            "positive_episode_rate": 0.93768310546875,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "heldout": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.32668813069661456,
+            "team_return_sd": 0.177289137398921,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.32668813069661456,
+            "team_return_sd": 0.177289137398921,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.0550079345703125,
+            "team_return_sd": 0.17373430853773314,
+            "positive_episode_rate": 0.61956787109375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.32668813069661456,
+            "team_return_sd": 0.177289137398921,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "all_by_partner": [
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.4081827799479166,
+            "team_return_sd": 0.13557649466528757,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.32944742838541663,
+            "team_return_sd": 0.22049885883592252,
+            "positive_episode_rate": 0.935791015625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.4053853352864583,
+            "team_return_sd": 0.20130850109111656,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.30279541015625,
+            "team_return_sd": 0.2016903585498611,
+            "positive_episode_rate": 0.93798828125,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        ]
+      },
+      "heldout_goal": 0,
+      "checkpoints": [
+        0,
+        300
+      ],
+      "training_log_sha256": "6f71bdcb88ccc97bb2f4e542b87cf383b1c119266ea8856708ece14454cc088f",
+      "final_checkpoint": "/private/tmp/partner_exposure_pilot_execution/execution/parents/seed_78401_heterogeneous/checkpoint_0300.npz",
+      "final_checkpoint_sha256": "de344973f951b71b28a0a06a56cacacf45edb25d9e3a6b15cbf59b0e4f640006"
+    },
+    {
+      "kind": "parent",
+      "seed": 78401,
+      "population_mode": "homogeneous",
+      "visibility": "hidden",
+      "form": "dual2",
+      "task": "factorized",
+      "updates": 300,
+      "initial_parameter_sha256": "ef6928310409459fd422b8e4b7654afc4030482eef0fe6f5e52002f4967fc4d1",
+      "final_parameter_sha256": "aece9d91bddd662050b57dc6ba9eeebb7d8f91075529498b041b09e09e77dc40",
+      "final": {
+        "sender_codebook": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "sender_consistency": 1.0,
+        "pairwise_min_hamming": 0,
+        "visibility": "hidden",
+        "all": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.340649922688802,
+            "team_return_sd": 0.18254603606207512,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.25132242838541663,
+            "team_return_sd": 0.21233429677420054,
+            "positive_episode_rate": 0.96868896484375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.18541971842447916,
+            "team_return_sd": 0.21928102976383304,
+            "positive_episode_rate": 0.77593994140625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.4008076985677083,
+            "team_return_sd": 0.19634613732997036,
+            "positive_episode_rate": 0.9847412109375,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "seen": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.3517634073893229,
+            "team_return_sd": 0.17546312542376055,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.28475189208984375,
+            "team_return_sd": 0.21957044257659786,
+            "positive_episode_rate": 0.9549560546875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.19756317138671875,
+            "team_return_sd": 0.20852507877839654,
+            "positive_episode_rate": 0.83502197265625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.43224080403645826,
+            "team_return_sd": 0.18420711009565263,
+            "positive_episode_rate": 0.97833251953125,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "heldout": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.2999979654947917,
+            "team_return_sd": 0.20093073970771436,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.2999979654947917,
+            "team_return_sd": 0.20093073970771436,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.15936533610026038,
+            "team_return_sd": 0.24488166812869203,
+            "positive_episode_rate": 0.61956787109375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.2999979654947917,
+            "team_return_sd": 0.20093073970771436,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "all_by_partner": [
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.4081827799479166,
+            "team_return_sd": 0.13557649466528757,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.35523478190104163,
+            "team_return_sd": 0.18053622347981313,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.2741597493489583,
+            "team_return_sd": 0.2171962177404612,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.32502237955729163,
+            "team_return_sd": 0.16032823223048923,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        ]
+      },
+      "heldout_goal": 0,
+      "checkpoints": [
+        0,
+        300
+      ],
+      "training_log_sha256": "37603b0b6e095df41a53d5171e010eeb7322c3994333c216a9c4f65249982e03",
+      "final_checkpoint": "/private/tmp/partner_exposure_pilot_execution/execution/parents/seed_78401_homogeneous/checkpoint_0300.npz",
+      "final_checkpoint_sha256": "e4ffc980f5af0b6b2d0a125ea353a5720a8db73f1bd499e7947908210996afdb"
+    },
+    {
+      "kind": "parent",
+      "seed": 78402,
+      "population_mode": "heterogeneous",
+      "visibility": "hidden",
+      "form": "dual2",
+      "task": "factorized",
+      "updates": 300,
+      "initial_parameter_sha256": "b313e8b60ee70dc284ac351ef3aabc5872cb1a9da42509c6d8e3d7c09ed57d5e",
+      "final_parameter_sha256": "a3fa554d7a750071530df0039d594b839421d319912585a15194d0372d65eccf",
+      "final": {
+        "sender_codebook": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "sender_consistency": 1.0,
+        "pairwise_min_hamming": 0,
+        "visibility": "hidden",
+        "all": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.29423777262369794,
+            "team_return_sd": 0.2302140350982193,
+            "positive_episode_rate": 0.92327880859375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.243438720703125,
+            "team_return_sd": 0.22344906308524967,
+            "positive_episode_rate": 0.89276123046875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.16500091552734375,
+            "team_return_sd": 0.20213947745635877,
+            "positive_episode_rate": 0.7537841796875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.28871917724609375,
+            "team_return_sd": 0.23424543687970742,
+            "positive_episode_rate": 0.892822265625,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "seen": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.2682342529296875,
+            "team_return_sd": 0.24366539027480724,
+            "positive_episode_rate": 0.89898681640625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.19909922281901044,
+            "team_return_sd": 0.2220410754150862,
+            "positive_episode_rate": 0.85797119140625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.1690826416015625,
+            "team_return_sd": 0.20105303948512618,
+            "positive_episode_rate": 0.7530517578125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.2602996826171875,
+            "team_return_sd": 0.24831476616832515,
+            "positive_episode_rate": 0.85675048828125,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "heldout": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.3802337646484375,
+            "team_return_sd": 0.16311403444621467,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.3802337646484375,
+            "team_return_sd": 0.16311403444621467,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.15065765380859375,
+            "team_return_sd": 0.20836495689385742,
+            "positive_episode_rate": 0.7484130859375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.3802337646484375,
+            "team_return_sd": 0.16311403444621467,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "all_by_partner": [
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.22563680013020831,
+            "team_return_sd": 0.2839128463867919,
+            "positive_episode_rate": 0.75390625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.322784423828125,
+            "team_return_sd": 0.2431851605118827,
+            "positive_episode_rate": 0.939208984375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.30315144856770837,
+            "team_return_sd": 0.17059255655560362,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.32537841796875,
+            "team_return_sd": 0.19124973909163565,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        ]
+      },
+      "heldout_goal": 1,
+      "checkpoints": [
+        0,
+        300
+      ],
+      "training_log_sha256": "9c50c3747f6d51fd7aa3ba535075a0004a56bb13e06dfb866d9ac2e7dfd28ee3",
+      "final_checkpoint": "/private/tmp/partner_exposure_pilot_execution/execution/parents/seed_78402_heterogeneous/checkpoint_0300.npz",
+      "final_checkpoint_sha256": "5b70df4727cf765cf428d86e0d3cf17783f74020e9d95c29d364ffd22bd85333"
+    },
+    {
+      "kind": "parent",
+      "seed": 78402,
+      "population_mode": "homogeneous",
+      "visibility": "hidden",
+      "form": "dual2",
+      "task": "factorized",
+      "updates": 300,
+      "initial_parameter_sha256": "b313e8b60ee70dc284ac351ef3aabc5872cb1a9da42509c6d8e3d7c09ed57d5e",
+      "final_parameter_sha256": "0a28b8e2eae71e383e661498044ce9cf4014a65492f1d0092a419a9ab912aee7",
+      "final": {
+        "sender_codebook": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "sender_consistency": 1.0,
+        "pairwise_min_hamming": 0,
+        "visibility": "hidden",
+        "all": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.32771809895833337,
+            "team_return_sd": 0.22400669196801049,
+            "positive_episode_rate": 0.9537353515625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.17116292317708331,
+            "team_return_sd": 0.2253500616712387,
+            "positive_episode_rate": 0.84228515625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.16500091552734375,
+            "team_return_sd": 0.20349786282314297,
+            "positive_episode_rate": 0.7508544921875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.24834696451822919,
+            "team_return_sd": 0.25487973866815783,
+            "positive_episode_rate": 0.87298583984375,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "seen": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.3550821940104167,
+            "team_return_sd": 0.23201029886659977,
+            "positive_episode_rate": 0.95819091796875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.14715576171875,
+            "team_return_sd": 0.23286311956201683,
+            "positive_episode_rate": 0.81427001953125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.11699930826822917,
+            "team_return_sd": 0.1887509796845523,
+            "positive_episode_rate": 0.6915283203125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.2507375081380208,
+            "team_return_sd": 0.2741331651124301,
+            "positive_episode_rate": 0.85760498046875,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "heldout": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.2503560384114583,
+            "team_return_sd": 0.18127121014516226,
+            "positive_episode_rate": 0.93597412109375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.2503560384114583,
+            "team_return_sd": 0.18127121014516226,
+            "positive_episode_rate": 0.93597412109375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.30690765380859375,
+            "team_return_sd": 0.17413899931638596,
+            "positive_episode_rate": 0.9375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.2503560384114583,
+            "team_return_sd": 0.18127121014516226,
+            "positive_episode_rate": 0.93597412109375,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "all_by_partner": [
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.303253173828125,
+            "team_return_sd": 0.22724457244698976,
+            "positive_episode_rate": 0.9365234375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.325225830078125,
+            "team_return_sd": 0.24217867899284304,
+            "positive_episode_rate": 0.93310546875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.30462646484375,
+            "team_return_sd": 0.22193717380184474,
+            "positive_episode_rate": 0.9453125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.3777669270833333,
+            "team_return_sd": 0.19371737680640602,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        ]
+      },
+      "heldout_goal": 1,
+      "checkpoints": [
+        0,
+        300
+      ],
+      "training_log_sha256": "6740339e1fca0f96fe30ca64e6e296fc9ae517dcbd53a855661adc8cd181df57",
+      "final_checkpoint": "/private/tmp/partner_exposure_pilot_execution/execution/parents/seed_78402_homogeneous/checkpoint_0300.npz",
+      "final_checkpoint_sha256": "3a9e6b3030409afa7de9a06acb502485d53de2e818100ff9502dd352a436f8bb"
+    }
+  ],
+  "children": [
+    {
+      "kind": "child",
+      "seed": 78401,
+      "condition": "homogeneous_hidden_sender_only_leave_one_out",
+      "population_mode": "homogeneous",
+      "visibility": "hidden",
+      "adaptation": "sender_only",
+      "support": "leave_one_out",
+      "form": "dual2",
+      "task": "factorized",
+      "heldout_goal": 0,
+      "parent_checkpoint": "/private/tmp/partner_exposure_pilot_execution/execution/parents/seed_78401_homogeneous/checkpoint_0300.npz",
+      "parent_parameter_sha256": "aece9d91bddd662050b57dc6ba9eeebb7d8f91075529498b041b09e09e77dc40",
+      "initial_parameter_sha256": "03110916576fbf114f0c36f5f6bed579a575544a4aab8f93647830435414479e",
+      "updates": 300,
+      "initial": {
+        "sender_codebook": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "sender_consistency": 1.0,
+        "pairwise_min_hamming": 1,
+        "visibility": "hidden",
+        "all": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.30808512369791663,
+            "team_return_sd": 0.20500320499099986,
+            "positive_episode_rate": 0.95196533203125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.10211690266927083,
+            "team_return_sd": 0.1963309895768012,
+            "positive_episode_rate": 0.80010986328125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.18541971842447916,
+            "team_return_sd": 0.21928102976383304,
+            "positive_episode_rate": 0.77593994140625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.21819814046223956,
+            "team_return_sd": 0.19580845936351965,
+            "positive_episode_rate": 0.93841552734375,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "seen": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.30853017171223956,
+            "team_return_sd": 0.215162936221146,
+            "positive_episode_rate": 0.9351806640625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.13658905029296875,
+            "team_return_sd": 0.18077210567527008,
+            "positive_episode_rate": 0.893798828125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.19756317138671875,
+            "team_return_sd": 0.20852507877839654,
+            "positive_episode_rate": 0.83502197265625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.18625640869140625,
+            "team_return_sd": 0.19532047651149198,
+            "positive_episode_rate": 0.91510009765625,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "heldout": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.30505879720052087,
+            "team_return_sd": 0.17336588314741194,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.30505879720052087,
+            "team_return_sd": 0.17336588314741194,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.15936533610026038,
+            "team_return_sd": 0.24488166812869203,
+            "positive_episode_rate": 0.61956787109375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.30505879720052087,
+            "team_return_sd": 0.17336588314741194,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "all_by_partner": [
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.35223388671874994,
+            "team_return_sd": 0.1486617494169604,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.30533854166666663,
+            "team_return_sd": 0.24011436986862011,
+            "positive_episode_rate": 0.93896484375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.32822672526041663,
+            "team_return_sd": 0.2462473991811259,
+            "positive_episode_rate": 0.868896484375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.24654134114583331,
+            "team_return_sd": 0.1468409683715636,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        ]
+      },
+      "final_parameter_sha256": "a04e99341d541684b4b5eeaff3350849aa94e03e22bcde877d6f8570021ea40c",
+      "final": {
+        "sender_codebook": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "sender_consistency": 1.0,
+        "pairwise_min_hamming": 0,
+        "visibility": "hidden",
+        "all": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.4013671875,
+            "team_return_sd": 0.189802653570086,
+            "positive_episode_rate": 0.9847412109375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.10162099202473959,
+            "team_return_sd": 0.18955904143715765,
+            "positive_episode_rate": 0.79925537109375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.18541971842447916,
+            "team_return_sd": 0.21928102976383304,
+            "positive_episode_rate": 0.77593994140625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.3312657674153646,
+            "team_return_sd": 0.23059208793408392,
+            "positive_episode_rate": 0.9559326171875,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "seen": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.43224080403645826,
+            "team_return_sd": 0.18420711009565263,
+            "positive_episode_rate": 0.97833251953125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.13642374674479166,
+            "team_return_sd": 0.17089516015921785,
+            "positive_episode_rate": 0.89202880859375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.19756317138671875,
+            "team_return_sd": 0.20852507877839654,
+            "positive_episode_rate": 0.83502197265625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.33635203043619794,
+            "team_return_sd": 0.2481346482861573,
+            "positive_episode_rate": 0.93658447265625,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "heldout": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.30505879720052087,
+            "team_return_sd": 0.17336588314741194,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.30505879720052087,
+            "team_return_sd": 0.17336588314741194,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.15936533610026038,
+            "team_return_sd": 0.24488166812869203,
+            "positive_episode_rate": 0.61956787109375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.30505879720052087,
+            "team_return_sd": 0.17336588314741194,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "all_by_partner": [
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.45833333333333326,
+            "team_return_sd": 0.1473139127471974,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.38336181640625,
+            "team_return_sd": 0.24310896443725852,
+            "positive_episode_rate": 0.93896484375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.43666585286458326,
+            "team_return_sd": 0.1624245993918993,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.32710774739583337,
+            "team_return_sd": 0.16304994897971262,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        ]
+      },
+      "checkpoints": [
+        0,
+        300
+      ],
+      "training_log_sha256": "35a295fc1c7f487cc0e9d64c604bbc57c6e8ee2cdc14d37706902c7459ec450c",
+      "final_checkpoint": "/private/tmp/partner_exposure_pilot_execution/execution/children/seed_78401_homogeneous_hidden_sender_only_leave_one_out/checkpoint_0300.npz",
+      "final_checkpoint_sha256": "421ec3e7d91910298cc83d0aa730652a496047f9543543b825c83d281e32a7f5"
+    },
+    {
+      "kind": "child",
+      "seed": 78401,
+      "condition": "homogeneous_visible_sender_only_leave_one_out",
+      "population_mode": "homogeneous",
+      "visibility": "visible",
+      "adaptation": "sender_only",
+      "support": "leave_one_out",
+      "form": "dual2",
+      "task": "factorized",
+      "heldout_goal": 0,
+      "parent_checkpoint": "/private/tmp/partner_exposure_pilot_execution/execution/parents/seed_78401_homogeneous/checkpoint_0300.npz",
+      "parent_parameter_sha256": "aece9d91bddd662050b57dc6ba9eeebb7d8f91075529498b041b09e09e77dc40",
+      "initial_parameter_sha256": "03110916576fbf114f0c36f5f6bed579a575544a4aab8f93647830435414479e",
+      "updates": 300,
+      "initial": {
+        "sender_codebook": [
+          [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        ],
+        "sender_consistency": 0.3333333333333333,
+        "pairwise_min_hamming": 0,
+        "visibility": "visible",
+        "all": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.15952809651692706,
+            "team_return_sd": 0.1943280552665192,
+            "positive_episode_rate": 0.8912353515625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.30266825358072913,
+            "team_return_sd": 0.21503398972578858,
+            "positive_episode_rate": 0.968505859375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.18541971842447916,
+            "team_return_sd": 0.21928102976383304,
+            "positive_episode_rate": 0.77593994140625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.18609110514322916,
+            "team_return_sd": 0.21161489903292044,
+            "positive_episode_rate": 0.8916015625,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "seen": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.1447270711263021,
+            "team_return_sd": 0.20526881496502447,
+            "positive_episode_rate": 0.85015869140625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.2845611572265625,
+            "team_return_sd": 0.2558969630532918,
+            "positive_episode_rate": 0.89593505859375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.19756317138671875,
+            "team_return_sd": 0.20852507877839654,
+            "positive_episode_rate": 0.83502197265625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.17890675862630206,
+            "team_return_sd": 0.22764989944791075,
+            "positive_episode_rate": 0.8505859375,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "heldout": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.19996388753255206,
+            "team_return_sd": 0.15674020721711976,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.19996388753255206,
+            "team_return_sd": 0.15674020721711976,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.15936533610026038,
+            "team_return_sd": 0.24488166812869203,
+            "positive_episode_rate": 0.61956787109375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.19996388753255206,
+            "team_return_sd": 0.15674020721711976,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "all_by_partner": [
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.041666666666666664,
+            "team_return_sd": 0.1473139127471974,
+            "positive_episode_rate": 0.75,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.17406209309895831,
+            "team_return_sd": 0.19238249810457225,
+            "positive_episode_rate": 0.876708984375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.094970703125,
+            "team_return_sd": 0.13909529871866297,
+            "positive_episode_rate": 0.938232421875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.3274129231770833,
+            "team_return_sd": 0.16290527890748513,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        ]
+      },
+      "final_parameter_sha256": "e41512e1356c45d421812023f2cf6c8f2be7645782179173e886597de4c34223",
+      "final": {
+        "sender_codebook": [
+          [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        "sender_consistency": 0.2916666666666667,
+        "pairwise_min_hamming": 0,
+        "visibility": "visible",
+        "all": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.3085428873697917,
+            "team_return_sd": 0.20013740523921605,
+            "positive_episode_rate": 0.98394775390625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.1781183878580729,
+            "team_return_sd": 0.20321298362094237,
+            "positive_episode_rate": 0.88897705078125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.18541971842447916,
+            "team_return_sd": 0.21928102976383304,
+            "positive_episode_rate": 0.77593994140625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.2380218505859375,
+            "team_return_sd": 0.22073000763634587,
+            "positive_episode_rate": 0.8916015625,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "seen": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.34504954020182294,
+            "team_return_sd": 0.2012881341030732,
+            "positive_episode_rate": 0.97662353515625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.1883672078450521,
+            "team_return_sd": 0.22175517606637468,
+            "positive_episode_rate": 0.85015869140625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.19756317138671875,
+            "team_return_sd": 0.20852507877839654,
+            "positive_episode_rate": 0.83502197265625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.24863942464192712,
+            "team_return_sd": 0.23848873038858204,
+            "positive_episode_rate": 0.8505859375,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "heldout": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.19996388753255206,
+            "team_return_sd": 0.15674020721711976,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.19996388753255206,
+            "team_return_sd": 0.15674020721711976,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.15936533610026038,
+            "team_return_sd": 0.24488166812869203,
+            "positive_episode_rate": 0.61956787109375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.19996388753255206,
+            "team_return_sd": 0.15674020721711976,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "all_by_partner": [
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.30208333333333326,
+            "team_return_sd": 0.17274087449767703,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.25035603841145837,
+            "team_return_sd": 0.2099795604302917,
+            "positive_episode_rate": 0.935791015625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.3315836588541667,
+            "team_return_sd": 0.24368166699292965,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.3501485188802083,
+            "team_return_sd": 0.14566743836679952,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        ]
+      },
+      "checkpoints": [
+        0,
+        300
+      ],
+      "training_log_sha256": "c9b10261518aa17611192b40de9705f04418c667ca560e4b985be3bc3051bc4c",
+      "final_checkpoint": "/private/tmp/partner_exposure_pilot_execution/execution/children/seed_78401_homogeneous_visible_sender_only_leave_one_out/checkpoint_0300.npz",
+      "final_checkpoint_sha256": "1e08cb69d01d1c6fccb54f3fce7b8f65186b7090352edd2db9202c32e623baf7"
+    },
+    {
+      "kind": "child",
+      "seed": 78401,
+      "condition": "heterogeneous_hidden_sender_only_leave_one_out",
+      "population_mode": "heterogeneous",
+      "visibility": "hidden",
+      "adaptation": "sender_only",
+      "support": "leave_one_out",
+      "form": "dual2",
+      "task": "factorized",
+      "heldout_goal": 0,
+      "parent_checkpoint": "/private/tmp/partner_exposure_pilot_execution/execution/parents/seed_78401_heterogeneous/checkpoint_0300.npz",
+      "parent_parameter_sha256": "6cf6cd2e1fdcf5fcc03f885d653826addc2ebd719723a0ad7b5e68b2ced6cbc1",
+      "initial_parameter_sha256": "02d034e05b4d2a01a26e81cb8792ef39d0962f3ad007061fe94ed635eb5720de",
+      "updates": 300,
+      "initial": {
+        "sender_codebook": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "sender_consistency": 1.0,
+        "pairwise_min_hamming": 1,
+        "visibility": "hidden",
+        "all": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.3149897257486979,
+            "team_return_sd": 0.217993381775957,
+            "positive_episode_rate": 0.92120361328125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.10782623291015625,
+            "team_return_sd": 0.21102881023570497,
+            "positive_episode_rate": 0.79937744140625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.1852289835611979,
+            "team_return_sd": 0.21873482002405015,
+            "positive_episode_rate": 0.77593994140625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.2370173136393229,
+            "team_return_sd": 0.20815125742823495,
+            "positive_episode_rate": 0.920654296875,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "seen": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.33480072021484375,
+            "team_return_sd": 0.2134857550209528,
+            "positive_episode_rate": 0.93646240234375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.14501953125,
+            "team_return_sd": 0.18600140496547124,
+            "positive_episode_rate": 0.914794921875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.23204803466796875,
+            "team_return_sd": 0.21428857449345434,
+            "positive_episode_rate": 0.83502197265625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.23119354248046875,
+            "team_return_sd": 0.20418155899215026,
+            "positive_episode_rate": 0.9361572265625,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "heldout": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.25339508056640625,
+            "team_return_sd": 0.22013398319953975,
+            "positive_episode_rate": 0.87939453125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.25339508056640625,
+            "team_return_sd": 0.22013398319953975,
+            "positive_episode_rate": 0.87939453125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.0550079345703125,
+            "team_return_sd": 0.17373430853773314,
+            "positive_episode_rate": 0.61956787109375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.25339508056640625,
+            "team_return_sd": 0.22013398319953975,
+            "positive_episode_rate": 0.87939453125,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "all_by_partner": [
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.35223388671874994,
+            "team_return_sd": 0.1486617494169604,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.3037109375,
+            "team_return_sd": 0.23746850769768657,
+            "positive_episode_rate": 0.93994140625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.32822672526041663,
+            "team_return_sd": 0.2462473991811259,
+            "positive_episode_rate": 0.868896484375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.275787353515625,
+            "team_return_sd": 0.2184689583570871,
+            "positive_episode_rate": 0.8759765625,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        ]
+      },
+      "final_parameter_sha256": "1131fc05296330e9c4df950bf271e622c564d3bd39c4e8d52ab6d6978bc9f1a9",
+      "final": {
+        "sender_codebook": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "sender_consistency": 1.0,
+        "pairwise_min_hamming": 0,
+        "visibility": "hidden",
+        "all": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.3750839233398437,
+            "team_return_sd": 0.22862385904943047,
+            "positive_episode_rate": 0.9228515625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.12672170003255206,
+            "team_return_sd": 0.22894392478293826,
+            "positive_episode_rate": 0.7987060546875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.1852289835611979,
+            "team_return_sd": 0.21873482002405015,
+            "positive_episode_rate": 0.77593994140625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.31702423095703125,
+            "team_return_sd": 0.2518594958516627,
+            "positive_episode_rate": 0.90679931640625,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "seen": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.41434987386067706,
+            "team_return_sd": 0.21709295192749906,
+            "positive_episode_rate": 0.93768310546875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.1710357666015625,
+            "team_return_sd": 0.2071872603577239,
+            "positive_episode_rate": 0.91387939453125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.23204803466796875,
+            "team_return_sd": 0.21428857449345434,
+            "positive_episode_rate": 0.83502197265625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.33670806884765625,
+            "team_return_sd": 0.2582559123822334,
+            "positive_episode_rate": 0.9169921875,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "heldout": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.25339508056640625,
+            "team_return_sd": 0.22013398319953975,
+            "positive_episode_rate": 0.87939453125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.25339508056640625,
+            "team_return_sd": 0.22013398319953975,
+            "positive_episode_rate": 0.87939453125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.0550079345703125,
+            "team_return_sd": 0.17373430853773314,
+            "positive_episode_rate": 0.61956787109375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.25339508056640625,
+            "team_return_sd": 0.22013398319953975,
+            "positive_episode_rate": 0.87939453125,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "all_by_partner": [
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.45833333333333326,
+            "team_return_sd": 0.1473139127471974,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.3276163736979167,
+            "team_return_sd": 0.26299737677773793,
+            "positive_episode_rate": 0.875732421875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.43666585286458326,
+            "team_return_sd": 0.1624245993918993,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.27772013346354163,
+            "team_return_sd": 0.2633800333772407,
+            "positive_episode_rate": 0.815673828125,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        ]
+      },
+      "checkpoints": [
+        0,
+        300
+      ],
+      "training_log_sha256": "6b2ba027c0898908ed8168c9f6e9c8c83c06931fff8f2be75b273491b8ef83b0",
+      "final_checkpoint": "/private/tmp/partner_exposure_pilot_execution/execution/children/seed_78401_heterogeneous_hidden_sender_only_leave_one_out/checkpoint_0300.npz",
+      "final_checkpoint_sha256": "32dd3c90685ec1254d0a612c7ca904ccb726084223607de6b9d9c72e48402d42"
+    },
+    {
+      "kind": "child",
+      "seed": 78401,
+      "condition": "heterogeneous_visible_sender_only_leave_one_out",
+      "population_mode": "heterogeneous",
+      "visibility": "visible",
+      "adaptation": "sender_only",
+      "support": "leave_one_out",
+      "form": "dual2",
+      "task": "factorized",
+      "heldout_goal": 0,
+      "parent_checkpoint": "/private/tmp/partner_exposure_pilot_execution/execution/parents/seed_78401_heterogeneous/checkpoint_0300.npz",
+      "parent_parameter_sha256": "6cf6cd2e1fdcf5fcc03f885d653826addc2ebd719723a0ad7b5e68b2ced6cbc1",
+      "initial_parameter_sha256": "02d034e05b4d2a01a26e81cb8792ef39d0962f3ad007061fe94ed635eb5720de",
+      "updates": 300,
+      "initial": {
+        "sender_codebook": [
+          [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        ],
+        "sender_consistency": 0.3333333333333333,
+        "pairwise_min_hamming": 0,
+        "visibility": "visible",
+        "all": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.1666742960611979,
+            "team_return_sd": 0.22388900735419573,
+            "positive_episode_rate": 0.85992431640625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.2956110636393229,
+            "team_return_sd": 0.24053152093748356,
+            "positive_episode_rate": 0.92144775390625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.1852289835611979,
+            "team_return_sd": 0.21873482002405015,
+            "positive_episode_rate": 0.77593994140625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.17276509602864581,
+            "team_return_sd": 0.22610345823702735,
+            "positive_episode_rate": 0.843505859375,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "seen": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.15352630615234375,
+            "team_return_sd": 0.22828075141648393,
+            "positive_episode_rate": 0.832763671875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.2754567464192708,
+            "team_return_sd": 0.2755960711471657,
+            "positive_episode_rate": 0.8521728515625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.23204803466796875,
+            "team_return_sd": 0.21428857449345434,
+            "positive_episode_rate": 0.83502197265625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.16240183512369794,
+            "team_return_sd": 0.23243631533490033,
+            "positive_episode_rate": 0.8111572265625,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "heldout": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.20099385579427081,
+            "team_return_sd": 0.20213392703948566,
+            "positive_episode_rate": 0.9403076171875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.20099385579427081,
+            "team_return_sd": 0.20213392703948566,
+            "positive_episode_rate": 0.9403076171875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.0550079345703125,
+            "team_return_sd": 0.17373430853773314,
+            "positive_episode_rate": 0.61956787109375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.20099385579427081,
+            "team_return_sd": 0.20213392703948566,
+            "positive_episode_rate": 0.9403076171875,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "all_by_partner": [
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.041666666666666664,
+            "team_return_sd": 0.1473139127471974,
+            "positive_episode_rate": 0.75,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.22614542643229166,
+            "team_return_sd": 0.20882354496583705,
+            "positive_episode_rate": 0.935791015625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.094970703125,
+            "team_return_sd": 0.13909529871866297,
+            "positive_episode_rate": 0.938232421875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.30391438802083326,
+            "team_return_sd": 0.2696460933780819,
+            "positive_episode_rate": 0.815673828125,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        ]
+      },
+      "final_parameter_sha256": "d448523cd780b1ec33be1de24c9e6c3055311f20c54ff780b9e5bfef7e7f101a",
+      "final": {
+        "sender_codebook": [
+          [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        "sender_consistency": 0.2916666666666667,
+        "pairwise_min_hamming": 0,
+        "visibility": "visible",
+        "all": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.3030242919921875,
+            "team_return_sd": 0.21213037701979548,
+            "positive_episode_rate": 0.96844482421875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.18409474690755206,
+            "team_return_sd": 0.21496321469107613,
+            "positive_episode_rate": 0.87347412109375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.1852289835611979,
+            "team_return_sd": 0.21873482002405015,
+            "positive_episode_rate": 0.77593994140625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.22469584147135419,
+            "team_return_sd": 0.23758725508613596,
+            "positive_episode_rate": 0.843505859375,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "seen": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.33716583251953125,
+            "team_return_sd": 0.20499346853707043,
+            "positive_episode_rate": 0.97662353515625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.1615753173828125,
+            "team_return_sd": 0.22091364590116971,
+            "positive_episode_rate": 0.82977294921875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.23204803466796875,
+            "team_return_sd": 0.21428857449345434,
+            "positive_episode_rate": 0.83502197265625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.23213450113932294,
+            "team_return_sd": 0.2477516965161292,
+            "positive_episode_rate": 0.8111572265625,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "heldout": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.20099385579427081,
+            "team_return_sd": 0.20213392703948566,
+            "positive_episode_rate": 0.9403076171875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.20099385579427081,
+            "team_return_sd": 0.20213392703948566,
+            "positive_episode_rate": 0.9403076171875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.0550079345703125,
+            "team_return_sd": 0.17373430853773314,
+            "positive_episode_rate": 0.61956787109375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.20099385579427081,
+            "team_return_sd": 0.20213392703948566,
+            "positive_episode_rate": 0.9403076171875,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "all_by_partner": [
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.30208333333333326,
+            "team_return_sd": 0.17274087449767703,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.25035603841145837,
+            "team_return_sd": 0.2099795604302917,
+            "positive_episode_rate": 0.935791015625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.3315836588541667,
+            "team_return_sd": 0.24368166699292965,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.32807413736979163,
+            "team_return_sd": 0.20607679282643113,
+            "positive_episode_rate": 0.93798828125,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        ]
+      },
+      "checkpoints": [
+        0,
+        300
+      ],
+      "training_log_sha256": "a5ea8dfb2ad14a11f7847f44fe9419790409361bde2820e3e5948ec3585d6cf5",
+      "final_checkpoint": "/private/tmp/partner_exposure_pilot_execution/execution/children/seed_78401_heterogeneous_visible_sender_only_leave_one_out/checkpoint_0300.npz",
+      "final_checkpoint_sha256": "e1f1df164f106782495a96fec822da3de7914a882d32339b5513824434eefbb2"
+    },
+    {
+      "kind": "child",
+      "seed": 78401,
+      "condition": "heterogeneous_hidden_coadapt_leave_one_out",
+      "population_mode": "heterogeneous",
+      "visibility": "hidden",
+      "adaptation": "coadapt",
+      "support": "leave_one_out",
+      "form": "dual2",
+      "task": "factorized",
+      "heldout_goal": 0,
+      "parent_checkpoint": "/private/tmp/partner_exposure_pilot_execution/execution/parents/seed_78401_heterogeneous/checkpoint_0300.npz",
+      "parent_parameter_sha256": "6cf6cd2e1fdcf5fcc03f885d653826addc2ebd719723a0ad7b5e68b2ced6cbc1",
+      "initial_parameter_sha256": "02d034e05b4d2a01a26e81cb8792ef39d0962f3ad007061fe94ed635eb5720de",
+      "updates": 300,
+      "initial": {
+        "sender_codebook": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "sender_consistency": 1.0,
+        "pairwise_min_hamming": 1,
+        "visibility": "hidden",
+        "all": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.3149897257486979,
+            "team_return_sd": 0.217993381775957,
+            "positive_episode_rate": 0.92120361328125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.10782623291015625,
+            "team_return_sd": 0.21102881023570497,
+            "positive_episode_rate": 0.79937744140625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.1852289835611979,
+            "team_return_sd": 0.21873482002405015,
+            "positive_episode_rate": 0.77593994140625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.2370173136393229,
+            "team_return_sd": 0.20815125742823495,
+            "positive_episode_rate": 0.920654296875,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "seen": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.33480072021484375,
+            "team_return_sd": 0.2134857550209528,
+            "positive_episode_rate": 0.93646240234375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.14501953125,
+            "team_return_sd": 0.18600140496547124,
+            "positive_episode_rate": 0.914794921875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.23204803466796875,
+            "team_return_sd": 0.21428857449345434,
+            "positive_episode_rate": 0.83502197265625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.23119354248046875,
+            "team_return_sd": 0.20418155899215026,
+            "positive_episode_rate": 0.9361572265625,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "heldout": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.25339508056640625,
+            "team_return_sd": 0.22013398319953975,
+            "positive_episode_rate": 0.87939453125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.25339508056640625,
+            "team_return_sd": 0.22013398319953975,
+            "positive_episode_rate": 0.87939453125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.0550079345703125,
+            "team_return_sd": 0.17373430853773314,
+            "positive_episode_rate": 0.61956787109375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.25339508056640625,
+            "team_return_sd": 0.22013398319953975,
+            "positive_episode_rate": 0.87939453125,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "all_by_partner": [
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.35223388671874994,
+            "team_return_sd": 0.1486617494169604,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.3037109375,
+            "team_return_sd": 0.23746850769768657,
+            "positive_episode_rate": 0.93994140625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.32822672526041663,
+            "team_return_sd": 0.2462473991811259,
+            "positive_episode_rate": 0.868896484375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.275787353515625,
+            "team_return_sd": 0.2184689583570871,
+            "positive_episode_rate": 0.8759765625,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        ]
+      },
+      "final_parameter_sha256": "45ac7e717115af50f0a1f5cd4095ce6e9aa6431bc7d8dc12f13294d7ab553bd1",
+      "final": {
+        "sender_codebook": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "sender_consistency": 1.0,
+        "pairwise_min_hamming": 0,
+        "visibility": "hidden",
+        "all": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.3346099853515625,
+            "team_return_sd": 0.3284520724407682,
+            "positive_episode_rate": 0.7822265625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.16616566975911456,
+            "team_return_sd": 0.3289691431052981,
+            "positive_episode_rate": 0.5950927734375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.1852289835611979,
+            "team_return_sd": 0.21873482002405015,
+            "positive_episode_rate": 0.77593994140625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.25069936116536456,
+            "team_return_sd": 0.2852945227373117,
+            "positive_episode_rate": 0.7822265625,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "seen": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.4921696980794271,
+            "team_return_sd": 0.20615272463145373,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.26763661702473956,
+            "team_return_sd": 0.3168171644569033,
+            "positive_episode_rate": 0.75311279296875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.23204803466796875,
+            "team_return_sd": 0.21428857449345434,
+            "positive_episode_rate": 0.83502197265625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.37928009033203125,
+            "team_return_sd": 0.19813983277175404,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "heldout": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": -0.14000193277994788,
+            "team_return_sd": 0.06959989123423167,
+            "positive_episode_rate": 0.12799072265625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": -0.14000193277994788,
+            "team_return_sd": 0.06959989123423167,
+            "positive_episode_rate": 0.12799072265625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.0550079345703125,
+            "team_return_sd": 0.17373430853773314,
+            "positive_episode_rate": 0.61956787109375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": -0.14000193277994788,
+            "team_return_sd": 0.06959989123423167,
+            "positive_episode_rate": 0.12799072265625,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "all_by_partner": [
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.3280232747395833,
+            "team_return_sd": 0.32830029238155994,
+            "positive_episode_rate": 0.75,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.32909138997395826,
+            "team_return_sd": 0.3106407272624019,
+            "positive_episode_rate": 0.87890625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.35416666666666663,
+            "team_return_sd": 0.34548174899535417,
+            "positive_episode_rate": 0.75,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.32715861002604163,
+            "team_return_sd": 0.32768101384088755,
+            "positive_episode_rate": 0.75,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        ]
+      },
+      "checkpoints": [
+        0,
+        300
+      ],
+      "training_log_sha256": "6bf8bdc1e12afb21e25e8181720c18cd2345493056a96427f2ea8269a622d7a3",
+      "final_checkpoint": "/private/tmp/partner_exposure_pilot_execution/execution/children/seed_78401_heterogeneous_hidden_coadapt_leave_one_out/checkpoint_0300.npz",
+      "final_checkpoint_sha256": "8b6eecc24333ac199c915ae2c8522a24ca994383206ce1394b1576da0bb659a6"
+    },
+    {
+      "kind": "child",
+      "seed": 78402,
+      "condition": "homogeneous_hidden_sender_only_leave_one_out",
+      "population_mode": "homogeneous",
+      "visibility": "hidden",
+      "adaptation": "sender_only",
+      "support": "leave_one_out",
+      "form": "dual2",
+      "task": "factorized",
+      "heldout_goal": 1,
+      "parent_checkpoint": "/private/tmp/partner_exposure_pilot_execution/execution/parents/seed_78402_homogeneous/checkpoint_0300.npz",
+      "parent_parameter_sha256": "0a28b8e2eae71e383e661498044ce9cf4014a65492f1d0092a419a9ab912aee7",
+      "initial_parameter_sha256": "f976f655f4965fa128f0830c69535a3a86feb84613a467ec2b5e21fe82c2f95e",
+      "updates": 300,
+      "initial": {
+        "sender_codebook": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "sender_consistency": 1.0,
+        "pairwise_min_hamming": 0,
+        "visibility": "hidden",
+        "all": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.2697601318359375,
+            "team_return_sd": 0.2404704888666824,
+            "positive_episode_rate": 0.90728759765625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.1521148681640625,
+            "team_return_sd": 0.22174340361492795,
+            "positive_episode_rate": 0.8414306640625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.16500091552734375,
+            "team_return_sd": 0.20349786282314297,
+            "positive_episode_rate": 0.7508544921875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.17083231608072916,
+            "team_return_sd": 0.22697982995506555,
+            "positive_episode_rate": 0.85516357421875,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "seen": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.26094818115234375,
+            "team_return_sd": 0.2446162541264413,
+            "positive_episode_rate": 0.89691162109375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.1894098917643229,
+            "team_return_sd": 0.23822689607660785,
+            "positive_episode_rate": 0.8497314453125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.11699930826822917,
+            "team_return_sd": 0.1887509796845523,
+            "positive_episode_rate": 0.6915283203125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.1727015177408854,
+            "team_return_sd": 0.24075061841977966,
+            "positive_episode_rate": 0.8319091796875,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "heldout": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.30175272623697913,
+            "team_return_sd": 0.2261078975716967,
+            "positive_episode_rate": 0.938720703125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.30175272623697913,
+            "team_return_sd": 0.2261078975716967,
+            "positive_episode_rate": 0.938720703125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.30690765380859375,
+            "team_return_sd": 0.17413899931638596,
+            "positive_episode_rate": 0.9375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.1719512939453125,
+            "team_return_sd": 0.1785957066114355,
+            "positive_episode_rate": 0.93701171875,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "all_by_partner": [
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.3020833333333333,
+            "team_return_sd": 0.226839210809692,
+            "positive_episode_rate": 0.9365234375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.2762451171875,
+            "team_return_sd": 0.2310738495488881,
+            "positive_episode_rate": 0.940185546875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.22965494791666669,
+            "team_return_sd": 0.2832019557417194,
+            "positive_episode_rate": 0.8203125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.27105712890625,
+            "team_return_sd": 0.20869301007085478,
+            "positive_episode_rate": 0.93212890625,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        ]
+      },
+      "final_parameter_sha256": "e6f46b0ebc890792f82cdbbadbf9a42297b1ba69557fa43eb52da43e77ecbe68",
+      "final": {
+        "sender_codebook": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "sender_consistency": 1.0,
+        "pairwise_min_hamming": 0,
+        "visibility": "hidden",
+        "all": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.34096781412760413,
+            "team_return_sd": 0.2306047920229219,
+            "positive_episode_rate": 0.95550537109375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.15842183430989581,
+            "team_return_sd": 0.23303847212692877,
+            "positive_episode_rate": 0.81103515625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.16500091552734375,
+            "team_return_sd": 0.20349786282314297,
+            "positive_episode_rate": 0.7508544921875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.2744394938151042,
+            "team_return_sd": 0.253898586611967,
+            "positive_episode_rate": 0.9046630859375,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "seen": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.3550821940104167,
+            "team_return_sd": 0.23201029886659977,
+            "positive_episode_rate": 0.95819091796875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.14715576171875,
+            "team_return_sd": 0.23286311956201683,
+            "positive_episode_rate": 0.81427001953125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.11699930826822917,
+            "team_return_sd": 0.1887509796845523,
+            "positive_episode_rate": 0.6915283203125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.2668355305989583,
+            "team_return_sd": 0.2618521574540414,
+            "positive_episode_rate": 0.8931884765625,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "heldout": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.30175272623697913,
+            "team_return_sd": 0.2261078975716967,
+            "positive_episode_rate": 0.938720703125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.30175272623697913,
+            "team_return_sd": 0.2261078975716967,
+            "positive_episode_rate": 0.938720703125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.30690765380859375,
+            "team_return_sd": 0.17413899931638596,
+            "positive_episode_rate": 0.9375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.30175272623697913,
+            "team_return_sd": 0.2261078975716967,
+            "positive_episode_rate": 0.938720703125,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "all_by_partner": [
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.3022359212239583,
+            "team_return_sd": 0.22701426637416433,
+            "positive_episode_rate": 0.9365234375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.325836181640625,
+            "team_return_sd": 0.23970041295191313,
+            "positive_episode_rate": 0.940185546875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.3580322265625,
+            "team_return_sd": 0.2506423717502094,
+            "positive_episode_rate": 0.9453125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.3777669270833333,
+            "team_return_sd": 0.19371737680640602,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        ]
+      },
+      "checkpoints": [
+        0,
+        300
+      ],
+      "training_log_sha256": "6699711833466645908c915e37f42cede81a89594affa4f6b41c3d9a457d4777",
+      "final_checkpoint": "/private/tmp/partner_exposure_pilot_execution/execution/children/seed_78402_homogeneous_hidden_sender_only_leave_one_out/checkpoint_0300.npz",
+      "final_checkpoint_sha256": "45e9bd6a2088ca7f25b2129fb8bf9c560c2b39d238a8c92296786ebf1562fada"
+    },
+    {
+      "kind": "child",
+      "seed": 78402,
+      "condition": "homogeneous_visible_sender_only_leave_one_out",
+      "population_mode": "homogeneous",
+      "visibility": "visible",
+      "adaptation": "sender_only",
+      "support": "leave_one_out",
+      "form": "dual2",
+      "task": "factorized",
+      "heldout_goal": 1,
+      "parent_checkpoint": "/private/tmp/partner_exposure_pilot_execution/execution/parents/seed_78402_homogeneous/checkpoint_0300.npz",
+      "parent_parameter_sha256": "0a28b8e2eae71e383e661498044ce9cf4014a65492f1d0092a419a9ab912aee7",
+      "initial_parameter_sha256": "f976f655f4965fa128f0830c69535a3a86feb84613a467ec2b5e21fe82c2f95e",
+      "updates": 300,
+      "initial": {
+        "sender_codebook": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        ],
+        "sender_consistency": 0.375,
+        "pairwise_min_hamming": 0,
+        "visibility": "visible",
+        "all": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.24987284342447916,
+            "team_return_sd": 0.25123162421430734,
+            "positive_episode_rate": 0.8746337890625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.24791463216145831,
+            "team_return_sd": 0.24205028734304085,
+            "positive_episode_rate": 0.88519287109375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.16500091552734375,
+            "team_return_sd": 0.20349786282314297,
+            "positive_episode_rate": 0.7508544921875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.26247406005859375,
+            "team_return_sd": 0.2370624445990843,
+            "positive_episode_rate": 0.88995361328125,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "seen": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.25052134195963544,
+            "team_return_sd": 0.26621603142591216,
+            "positive_episode_rate": 0.850830078125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.21562957763671875,
+            "team_return_sd": 0.24973550364021024,
+            "positive_episode_rate": 0.87445068359375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.11699930826822917,
+            "team_return_sd": 0.1887509796845523,
+            "positive_episode_rate": 0.6915283203125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.2513605753580729,
+            "team_return_sd": 0.26295909198983436,
+            "positive_episode_rate": 0.8525390625,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "heldout": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.25108083089192706,
+            "team_return_sd": 0.20851482764239573,
+            "positive_episode_rate": 0.9375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.25108083089192706,
+            "team_return_sd": 0.20851482764239573,
+            "positive_episode_rate": 0.9375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.30690765380859375,
+            "team_return_sd": 0.17413899931638596,
+            "positive_episode_rate": 0.9375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.3027699788411458,
+            "team_return_sd": 0.13755732046183733,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "all_by_partner": [
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.30152384440104163,
+            "team_return_sd": 0.27072044287041747,
+            "positive_episode_rate": 0.87109375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.27543131510416663,
+            "team_return_sd": 0.22969329535452832,
+            "positive_episode_rate": 0.93505859375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.27777099609375,
+            "team_return_sd": 0.2605228009112141,
+            "positive_episode_rate": 0.882080078125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.14476521809895831,
+            "team_return_sd": 0.20833059522697064,
+            "positive_episode_rate": 0.810302734375,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        ]
+      },
+      "final_parameter_sha256": "7b5313393aaa8944fa0ae7c9c82ecd43d9a8f07311799791874198032187d04c",
+      "final": {
+        "sender_codebook": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ],
+        "sender_consistency": 0.625,
+        "pairwise_min_hamming": 0,
+        "visibility": "visible",
+        "all": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.3141632080078125,
+            "team_return_sd": 0.23925181006127197,
+            "positive_episode_rate": 0.9381103515625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.1828486124674479,
+            "team_return_sd": 0.24048253865273647,
+            "positive_episode_rate": 0.82635498046875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.16500091552734375,
+            "team_return_sd": 0.20349786282314297,
+            "positive_episode_rate": 0.7508544921875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.2481689453125,
+            "team_return_sd": 0.25466016363970845,
+            "positive_episode_rate": 0.87298583984375,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "seen": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.3378651936848958,
+            "team_return_sd": 0.24597664258276541,
+            "positive_episode_rate": 0.93878173828125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.16396586100260416,
+            "team_return_sd": 0.24674117609686524,
+            "positive_episode_rate": 0.81427001953125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.11699930826822917,
+            "team_return_sd": 0.1887509796845523,
+            "positive_episode_rate": 0.6915283203125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.2505467732747396,
+            "team_return_sd": 0.2741674321269067,
+            "positive_episode_rate": 0.85760498046875,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "heldout": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.25108083089192706,
+            "team_return_sd": 0.20851482764239573,
+            "positive_episode_rate": 0.9375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.25108083089192706,
+            "team_return_sd": 0.20851482764239573,
+            "positive_episode_rate": 0.9375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.30690765380859375,
+            "team_return_sd": 0.17413899931638596,
+            "positive_episode_rate": 0.9375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.2503560384114583,
+            "team_return_sd": 0.18127121014516226,
+            "positive_episode_rate": 0.93597412109375,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "all_by_partner": [
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.302947998046875,
+            "team_return_sd": 0.24847347536697842,
+            "positive_episode_rate": 0.9365234375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.35233561197916663,
+            "team_return_sd": 0.20504411284148977,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.19740804036458334,
+            "team_return_sd": 0.2682136720978188,
+            "positive_episode_rate": 0.81591796875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.403961181640625,
+            "team_return_sd": 0.17310871092728852,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        ]
+      },
+      "checkpoints": [
+        0,
+        300
+      ],
+      "training_log_sha256": "9c1cfe1e9164490d5e37aa31ad3fccd2531c63809f30c8ad3daec5c66c72a859",
+      "final_checkpoint": "/private/tmp/partner_exposure_pilot_execution/execution/children/seed_78402_homogeneous_visible_sender_only_leave_one_out/checkpoint_0300.npz",
+      "final_checkpoint_sha256": "04e39d911e56aa9afc713c819e691ebce1c9bfa8ce09495834163c5016597071"
+    },
+    {
+      "kind": "child",
+      "seed": 78402,
+      "condition": "heterogeneous_hidden_sender_only_leave_one_out",
+      "population_mode": "heterogeneous",
+      "visibility": "hidden",
+      "adaptation": "sender_only",
+      "support": "leave_one_out",
+      "form": "dual2",
+      "task": "factorized",
+      "heldout_goal": 1,
+      "parent_checkpoint": "/private/tmp/partner_exposure_pilot_execution/execution/parents/seed_78402_heterogeneous/checkpoint_0300.npz",
+      "parent_parameter_sha256": "a3fa554d7a750071530df0039d594b839421d319912585a15194d0372d65eccf",
+      "initial_parameter_sha256": "e39781357cd3d40e9c49e1c49e26bfc7ebcc771c29014538334381f0df110af3",
+      "updates": 300,
+      "initial": {
+        "sender_codebook": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "sender_consistency": 1.0,
+        "pairwise_min_hamming": 0,
+        "visibility": "hidden",
+        "all": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.24978383382161462,
+            "team_return_sd": 0.2920494399893717,
+            "positive_episode_rate": 0.796630859375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.21042887369791666,
+            "team_return_sd": 0.24957547883802547,
+            "positive_episode_rate": 0.8106689453125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.16500091552734375,
+            "team_return_sd": 0.20213947745635877,
+            "positive_episode_rate": 0.7537841796875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.20989481608072919,
+            "team_return_sd": 0.2632537897889655,
+            "positive_episode_rate": 0.793701171875,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "seen": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.1656951904296875,
+            "team_return_sd": 0.2718200498481255,
+            "positive_episode_rate": 0.7335205078125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.31922403971354163,
+            "team_return_sd": 0.21914765543510648,
+            "positive_episode_rate": 0.93548583984375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.1690826416015625,
+            "team_return_sd": 0.20105303948512618,
+            "positive_episode_rate": 0.7530517578125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.21622721354166666,
+            "team_return_sd": 0.2798506101894733,
+            "positive_episode_rate": 0.77252197265625,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "heldout": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.5098063151041666,
+            "team_return_sd": 0.1729237273509705,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.5098063151041666,
+            "team_return_sd": 0.1729237273509705,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.15065765380859375,
+            "team_return_sd": 0.20836495689385742,
+            "positive_episode_rate": 0.7484130859375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.19736989339192706,
+            "team_return_sd": 0.20208124602767735,
+            "positive_episode_rate": 0.87384033203125,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "all_by_partner": [
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.3026936848958333,
+            "team_return_sd": 0.3234629752568741,
+            "positive_episode_rate": 0.75390625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.223297119140625,
+            "team_return_sd": 0.2302633398799199,
+            "positive_episode_rate": 0.875732421875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.2557474772135417,
+            "team_return_sd": 0.29448181633976717,
+            "positive_episode_rate": 0.8173828125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.21739705403645831,
+            "team_return_sd": 0.30367250853563127,
+            "positive_episode_rate": 0.739501953125,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        ]
+      },
+      "final_parameter_sha256": "b935d4ebc578048c4ab2c012254eb9322bc7019da6a4d5cc9c956b64e5f8009f",
+      "final": {
+        "sender_codebook": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "sender_consistency": 1.0,
+        "pairwise_min_hamming": 0,
+        "visibility": "hidden",
+        "all": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.326446533203125,
+            "team_return_sd": 0.24972952157655925,
+            "positive_episode_rate": 0.92327880859375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.21143341064453125,
+            "team_return_sd": 0.249121989991543,
+            "positive_episode_rate": 0.79840087890625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.16500091552734375,
+            "team_return_sd": 0.20213947745635877,
+            "positive_episode_rate": 0.7537841796875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.32038116455078125,
+            "team_return_sd": 0.2675174949259593,
+            "positive_episode_rate": 0.859375,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "seen": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.2682342529296875,
+            "team_return_sd": 0.24366539027480724,
+            "positive_episode_rate": 0.89898681640625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.19909922281901044,
+            "team_return_sd": 0.2220410754150862,
+            "positive_episode_rate": 0.85797119140625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.1690826416015625,
+            "team_return_sd": 0.20105303948512618,
+            "positive_episode_rate": 0.7530517578125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.25946044921875,
+            "team_return_sd": 0.2660135399165184,
+            "positive_episode_rate": 0.81390380859375,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "heldout": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.5098063151041666,
+            "team_return_sd": 0.1729237273509705,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.5098063151041666,
+            "team_return_sd": 0.1729237273509705,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.15065765380859375,
+            "team_return_sd": 0.20836495689385742,
+            "positive_episode_rate": 0.7484130859375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.5098063151041666,
+            "team_return_sd": 0.1729237273509705,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "all_by_partner": [
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.250152587890625,
+            "team_return_sd": 0.31136195845073567,
+            "positive_episode_rate": 0.75390625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.3491312662760417,
+            "team_return_sd": 0.24384980894819105,
+            "positive_episode_rate": 0.939208984375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.3552347819010417,
+            "team_return_sd": 0.20649139801574998,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.35126749674479163,
+            "team_return_sd": 0.20647380739071208,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        ]
+      },
+      "checkpoints": [
+        0,
+        300
+      ],
+      "training_log_sha256": "510ab7ee47e77f0161b864be504f585515d61a999ca3d9ca54a69ef11fbfa973",
+      "final_checkpoint": "/private/tmp/partner_exposure_pilot_execution/execution/children/seed_78402_heterogeneous_hidden_sender_only_leave_one_out/checkpoint_0300.npz",
+      "final_checkpoint_sha256": "cffa1feebc440c781035a7685fd316f2924913df2328701ebc29f1f8b84142c8"
+    },
+    {
+      "kind": "child",
+      "seed": 78402,
+      "condition": "heterogeneous_visible_sender_only_leave_one_out",
+      "population_mode": "heterogeneous",
+      "visibility": "visible",
+      "adaptation": "sender_only",
+      "support": "leave_one_out",
+      "form": "dual2",
+      "task": "factorized",
+      "heldout_goal": 1,
+      "parent_checkpoint": "/private/tmp/partner_exposure_pilot_execution/execution/parents/seed_78402_heterogeneous/checkpoint_0300.npz",
+      "parent_parameter_sha256": "a3fa554d7a750071530df0039d594b839421d319912585a15194d0372d65eccf",
+      "initial_parameter_sha256": "e39781357cd3d40e9c49e1c49e26bfc7ebcc771c29014538334381f0df110af3",
+      "updates": 300,
+      "initial": {
+        "sender_codebook": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        ],
+        "sender_consistency": 0.375,
+        "pairwise_min_hamming": 0,
+        "visibility": "visible",
+        "all": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.22378031412760416,
+            "team_return_sd": 0.23697429295434577,
+            "positive_episode_rate": 0.86077880859375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.2612152099609375,
+            "team_return_sd": 0.2533135656913254,
+            "positive_episode_rate": 0.85986328125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.16500091552734375,
+            "team_return_sd": 0.20213947745635877,
+            "positive_episode_rate": 0.7537841796875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.2432098388671875,
+            "team_return_sd": 0.22255126059623956,
+            "positive_episode_rate": 0.89385986328125,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "seen": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.2329864501953125,
+            "team_return_sd": 0.22893588946642274,
+            "positive_episode_rate": 0.8748779296875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.2498346964518229,
+            "team_return_sd": 0.2520369604509689,
+            "positive_episode_rate": 0.85308837890625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.1690826416015625,
+            "team_return_sd": 0.20105303948512618,
+            "positive_episode_rate": 0.7530517578125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.2517293294270833,
+            "team_return_sd": 0.22871673280558671,
+            "positive_episode_rate": 0.89923095703125,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "heldout": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.19870503743489581,
+            "team_return_sd": 0.2607560318304719,
+            "positive_episode_rate": 0.8140869140625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.19870503743489581,
+            "team_return_sd": 0.2607560318304719,
+            "positive_episode_rate": 0.8140869140625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.15065765380859375,
+            "team_return_sd": 0.20836495689385742,
+            "positive_episode_rate": 0.7484130859375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.22431437174479166,
+            "team_return_sd": 0.2063719427397016,
+            "positive_episode_rate": 0.8765869140625,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "all_by_partner": [
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.30076090494791663,
+            "team_return_sd": 0.2516601322693641,
+            "positive_episode_rate": 0.87109375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.1712646484375,
+            "team_return_sd": 0.19189073053575256,
+            "positive_episode_rate": 0.87939453125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.253204345703125,
+            "team_return_sd": 0.23022473320542464,
+            "positive_episode_rate": 0.882080078125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.169891357421875,
+            "team_return_sd": 0.24293056594642914,
+            "positive_episode_rate": 0.810546875,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        ]
+      },
+      "final_parameter_sha256": "07a27efb5550164cbc6134d5d91b567439fb7e7b6354c356732fdb6176972f79",
+      "final": {
+        "sender_codebook": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ],
+        "sender_consistency": 0.5833333333333334,
+        "pairwise_min_hamming": 0,
+        "visibility": "visible",
+        "all": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.23485565185546875,
+            "team_return_sd": 0.2643863635181288,
+            "positive_episode_rate": 0.82757568359375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.28800710042317706,
+            "team_return_sd": 0.25639650312147294,
+            "positive_episode_rate": 0.8768310546875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.16500091552734375,
+            "team_return_sd": 0.20213947745635877,
+            "positive_episode_rate": 0.7537841796875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.28170013427734375,
+            "team_return_sd": 0.22653340419968515,
+            "positive_episode_rate": 0.9080810546875,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "seen": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.2505340576171875,
+            "team_return_sd": 0.266071678695207,
+            "positive_episode_rate": 0.8341064453125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.23363494873046875,
+            "team_return_sd": 0.2573360227751348,
+            "positive_episode_rate": 0.83642578125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.1690826416015625,
+            "team_return_sd": 0.20105303948512618,
+            "positive_episode_rate": 0.7530517578125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.2775421142578125,
+            "team_return_sd": 0.23580412219004776,
+            "positive_episode_rate": 0.89801025390625,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "heldout": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.19870503743489581,
+            "team_return_sd": 0.2607560318304719,
+            "positive_episode_rate": 0.8140869140625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.19870503743489581,
+            "team_return_sd": 0.2607560318304719,
+            "positive_episode_rate": 0.8140869140625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.15065765380859375,
+            "team_return_sd": 0.20836495689385742,
+            "positive_episode_rate": 0.7484130859375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.3022486368815104,
+            "team_return_sd": 0.20147142667578938,
+            "positive_episode_rate": 0.93865966796875,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "all_by_partner": [
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.19822184244791669,
+            "team_return_sd": 0.32550441382641326,
+            "positive_episode_rate": 0.625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.2457275390625,
+            "team_return_sd": 0.25274082629594347,
+            "positive_episode_rate": 0.879638671875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.2506103515625,
+            "team_return_sd": 0.20669842003743075,
+            "positive_episode_rate": 0.936767578125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.24486287434895831,
+            "team_return_sd": 0.25541480443802217,
+            "positive_episode_rate": 0.868896484375,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        ]
+      },
+      "checkpoints": [
+        0,
+        300
+      ],
+      "training_log_sha256": "a63c847d0e86c49130d09a060755be39e47495363fe555b03325e5f61fd4f9b8",
+      "final_checkpoint": "/private/tmp/partner_exposure_pilot_execution/execution/children/seed_78402_heterogeneous_visible_sender_only_leave_one_out/checkpoint_0300.npz",
+      "final_checkpoint_sha256": "81bd090c2d17032c15a9c03adb47314713ef77efc09c21f677535c9f27dfc68f"
+    },
+    {
+      "kind": "child",
+      "seed": 78402,
+      "condition": "heterogeneous_hidden_coadapt_leave_one_out",
+      "population_mode": "heterogeneous",
+      "visibility": "hidden",
+      "adaptation": "coadapt",
+      "support": "leave_one_out",
+      "form": "dual2",
+      "task": "factorized",
+      "heldout_goal": 1,
+      "parent_checkpoint": "/private/tmp/partner_exposure_pilot_execution/execution/parents/seed_78402_heterogeneous/checkpoint_0300.npz",
+      "parent_parameter_sha256": "a3fa554d7a750071530df0039d594b839421d319912585a15194d0372d65eccf",
+      "initial_parameter_sha256": "e39781357cd3d40e9c49e1c49e26bfc7ebcc771c29014538334381f0df110af3",
+      "updates": 300,
+      "initial": {
+        "sender_codebook": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "sender_consistency": 1.0,
+        "pairwise_min_hamming": 0,
+        "visibility": "hidden",
+        "all": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.24978383382161462,
+            "team_return_sd": 0.2920494399893717,
+            "positive_episode_rate": 0.796630859375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.21042887369791666,
+            "team_return_sd": 0.24957547883802547,
+            "positive_episode_rate": 0.8106689453125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.16500091552734375,
+            "team_return_sd": 0.20213947745635877,
+            "positive_episode_rate": 0.7537841796875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.20989481608072919,
+            "team_return_sd": 0.2632537897889655,
+            "positive_episode_rate": 0.793701171875,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "seen": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.1656951904296875,
+            "team_return_sd": 0.2718200498481255,
+            "positive_episode_rate": 0.7335205078125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.31922403971354163,
+            "team_return_sd": 0.21914765543510648,
+            "positive_episode_rate": 0.93548583984375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.1690826416015625,
+            "team_return_sd": 0.20105303948512618,
+            "positive_episode_rate": 0.7530517578125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.21622721354166666,
+            "team_return_sd": 0.2798506101894733,
+            "positive_episode_rate": 0.77252197265625,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "heldout": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.5098063151041666,
+            "team_return_sd": 0.1729237273509705,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.5098063151041666,
+            "team_return_sd": 0.1729237273509705,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.15065765380859375,
+            "team_return_sd": 0.20836495689385742,
+            "positive_episode_rate": 0.7484130859375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.19736989339192706,
+            "team_return_sd": 0.20208124602767735,
+            "positive_episode_rate": 0.87384033203125,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "all_by_partner": [
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.3026936848958333,
+            "team_return_sd": 0.3234629752568741,
+            "positive_episode_rate": 0.75390625,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.223297119140625,
+            "team_return_sd": 0.2302633398799199,
+            "positive_episode_rate": 0.875732421875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.2557474772135417,
+            "team_return_sd": 0.29448181633976717,
+            "positive_episode_rate": 0.8173828125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.21739705403645831,
+            "team_return_sd": 0.30367250853563127,
+            "positive_episode_rate": 0.739501953125,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        ]
+      },
+      "final_parameter_sha256": "9ede916c20cb4a419563f0f5d88cf6e99dcfcb49001dcc491bf525100e36cf5e",
+      "final": {
+        "sender_codebook": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "sender_consistency": 1.0,
+        "pairwise_min_hamming": 0,
+        "visibility": "hidden",
+        "all": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.25658671061197913,
+            "team_return_sd": 0.2874812631570666,
+            "positive_episode_rate": 0.7816162109375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.24362945556640625,
+            "team_return_sd": 0.2877210132197144,
+            "positive_episode_rate": 0.75,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.16500091552734375,
+            "team_return_sd": 0.20213947745635877,
+            "positive_episode_rate": 0.7537841796875,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.25658671061197913,
+            "team_return_sd": 0.2874812631570666,
+            "positive_episode_rate": 0.7816162109375,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "seen": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": 0.38888041178385413,
+            "team_return_sd": 0.19641555301457078,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": 0.38888041178385413,
+            "team_return_sd": 0.19641555301457078,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.1690826416015625,
+            "team_return_sd": 0.20105303948512618,
+            "positive_episode_rate": 0.7530517578125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": 0.38888041178385413,
+            "team_return_sd": 0.19641555301457078,
+            "positive_episode_rate": 1.0,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "heldout": {
+          "natural": {
+            "episodes": 16384,
+            "team_return_mean": -0.1403961181640625,
+            "team_return_sd": 0.06915843563452587,
+            "positive_episode_rate": 0.1260986328125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "permuted": {
+            "episodes": 16384,
+            "team_return_mean": -0.1403961181640625,
+            "team_return_sd": 0.06915843563452587,
+            "positive_episode_rate": 0.1260986328125,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "silent": {
+            "episodes": 16384,
+            "team_return_mean": 0.15065765380859375,
+            "team_return_sd": 0.20836495689385742,
+            "positive_episode_rate": 0.7484130859375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          "raw_recombined": {
+            "episodes": 16384,
+            "team_return_mean": -0.1403961181640625,
+            "team_return_sd": 0.06915843563452587,
+            "positive_episode_rate": 0.1260986328125,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        },
+        "all_by_partner": [
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.24999999999999997,
+            "team_return_sd": 0.2946278254943948,
+            "positive_episode_rate": 0.75,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.27634684244791663,
+            "team_return_sd": 0.2639026769826943,
+            "positive_episode_rate": 0.87646484375,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.24999999999999997,
+            "team_return_sd": 0.2946278254943948,
+            "positive_episode_rate": 0.75,
+            "oracle_team_return_mean": 0.6666666666666666
+          },
+          {
+            "episodes": 4096,
+            "team_return_mean": 0.24999999999999997,
+            "team_return_sd": 0.2946278254943948,
+            "positive_episode_rate": 0.75,
+            "oracle_team_return_mean": 0.6666666666666666
+          }
+        ]
+      },
+      "checkpoints": [
+        0,
+        300
+      ],
+      "training_log_sha256": "daf202acbf7318041d202f423fc31fcd1c43efb23eb43fc52703f0476e3cf96a",
+      "final_checkpoint": "/private/tmp/partner_exposure_pilot_execution/execution/children/seed_78402_heterogeneous_hidden_coadapt_leave_one_out/checkpoint_0300.npz",
+      "final_checkpoint_sha256": "485c001d1ba19c6d17ac6f0aa2d1ee059f83e6bfc03349625aad1b3927635fc3"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "partner_exposure_execution_plan_v1",
+  "source_commit": "11582a826ce829d7fc30c8c0d7856340a0f0f971",
+  "seeds": [
+    78401,
+    78402,
+    78403,
+    78404,
+    78405,
+    78406,
+    78407,
+    78408,
+    78409
+  ],
+  "parent_runs": 18,
+  "child_runs": 144,
+  "updates_per_run": 3000,
+  "parent_training_log_rows": 54000,
+  "child_training_log_rows": 432000,
+  "parent_checkpoints": 72,
+  "child_checkpoints": 576,
+  "paired_visibility_rows": 216000,
+  "paired_adaptation_rows": 432000,
+  "paired_population_rows": 432000,
+  "paired_support_rows": 216000,
+  "audit_status": "passed",
+  "max_abs_replay_error": 0.0,
+  "raw_execution_root": "/private/tmp/partner_exposure_formal_execution",
+  "raw_execution_retained_in_archive": false
+}

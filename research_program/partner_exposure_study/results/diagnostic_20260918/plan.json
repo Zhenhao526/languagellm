@@ -1,0 +1,155 @@
+{
+  "schema": "partner_exposure_study_v1",
+  "prepared_sha256": "78ee2d677b1121c8b76127d239c258efe6fd445d2a02f78fee2c1a7141b3674f",
+  "sources": {
+    "research_program/partner_exposure_study/__init__.py": "b93fe03e69da20d9503f5aa8985d51ae66dd8c146459bd68ad1ee066cf134366",
+    "research_program/partner_exposure_study/README.md": "f30251ed7b2b2baaaa53104a0ea170f0fc9a8d41b7693566c562306560cc940c",
+    "research_program/partner_exposure_study/design.py": "ec1272f8c542900abdb7ea5cbb3796ac1b24ddb82587d7cac5f33a909b9c200d",
+    "research_program/partner_exposure_study/policy.py": "00b5d485ecd390f43849f2b6c05a5682a54d26f26f09cde27dc6f67410d40d83",
+    "research_program/partner_exposure_study/environment.py": "357004f1f1333027969d02d13f3e94662013d80dfa1c50cb50aee2eba82143fc",
+    "research_program/partner_exposure_study/runner.py": "5f909af4153b80cc7c77b8098735a5dded5ab92662260d37a286cd4525f32f86",
+    "research_program/partner_exposure_study/aggregate.py": "08807babab3824ec8bd3d6117924b36586bddf08460e4b0e8ea47d9141e06f5f",
+    "research_program/partner_exposure_study/audit.py": "541a1f944d1685b59ba2aa15bebb416e025c78495057398edbb06733a7284ab1",
+    "research_program/partner_exposure_study/plan.md": "4abbb79231c4a2720667f65ccd0f6698e90bd6e7e1494ed50f96568a3c1f04f4",
+    "research_program/partner_exposure_study/tests/test_game.py": "4f14f461d01bf3409e03b70c12b02557be8575420940f5b361cf814ef63c801f"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.2.6"
+  },
+  "config": {
+    "schema": "partner_exposure_study_v1",
+    "horizon": 6,
+    "action_start": 2,
+    "subtasks": 2,
+    "steps_per_subtask": 2,
+    "object_types": 2,
+    "form": {
+      "name": "dual2",
+      "alphabet_size": 2,
+      "length": 2,
+      "arrival_times": [
+        1,
+        3
+      ],
+      "joint_state_count": 5
+    },
+    "task": "factorized",
+    "mappings": [
+      "identity",
+      "swap"
+    ],
+    "population_modes": [
+      "homogeneous",
+      "heterogeneous"
+    ],
+    "visibilities": [
+      "hidden",
+      "visible"
+    ],
+    "adaptations": [
+      "sender_only",
+      "coadapt"
+    ],
+    "supports": [
+      "full",
+      "leave_one_out"
+    ],
+    "evaluation_channels": [
+      "live",
+      "silent"
+    ],
+    "partner_mode": "rotating",
+    "workers": 4,
+    "heterogeneous_rule": "worker ids 0 and 2 use identity; ids 1 and 3 use swap",
+    "partner_exposure": "every child batch contains all four partner ids; sender may or may not observe partner id",
+    "capacity": 2,
+    "actions": [
+      "wait",
+      "take_site0",
+      "take_site1"
+    ],
+    "seeds": [
+      78401,
+      78402,
+      78403,
+      78404,
+      78405,
+      78406,
+      78407,
+      78408,
+      78409
+    ],
+    "parent_conditions": [
+      "homogeneous",
+      "heterogeneous"
+    ],
+    "child_conditions": [
+      "homogeneous_hidden_sender_only_full",
+      "homogeneous_hidden_sender_only_leave_one_out",
+      "homogeneous_hidden_coadapt_full",
+      "homogeneous_hidden_coadapt_leave_one_out",
+      "homogeneous_visible_sender_only_full",
+      "homogeneous_visible_sender_only_leave_one_out",
+      "homogeneous_visible_coadapt_full",
+      "homogeneous_visible_coadapt_leave_one_out",
+      "heterogeneous_hidden_sender_only_full",
+      "heterogeneous_hidden_sender_only_leave_one_out",
+      "heterogeneous_hidden_coadapt_full",
+      "heterogeneous_hidden_coadapt_leave_one_out",
+      "heterogeneous_visible_sender_only_full",
+      "heterogeneous_visible_sender_only_leave_one_out",
+      "heterogeneous_visible_coadapt_full",
+      "heterogeneous_visible_coadapt_leave_one_out"
+    ],
+    "updates": 3000,
+    "batch_size": 512,
+    "learning_rate": 0.08,
+    "entropy_initial": 0.01,
+    "entropy_zero_after": 5000,
+    "checkpoints": [
+      0,
+      500,
+      1000,
+      2000,
+      3000
+    ],
+    "goal_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "heldout_assignment": {
+      "78401": 0,
+      "78402": 1,
+      "78403": 2,
+      "78404": 3,
+      "78405": 0,
+      "78406": 1,
+      "78407": 2,
+      "78408": 3,
+      "78409": 0
+    },
+    "pairing": "population modes share semantic worlds, goals, partners, messages and actions; heterogeneity changes only partner-specific surface labels",
+    "primary_readout": "fresh sender leave-one-out live held-out return with hidden versus visible partner identity",
+    "functional_rule": "held-out natural team return >= 0.60",
+    "no_teacher_or_language_prior": true,
+    "parent_runs": 18,
+    "child_runs": 144,
+    "runs": 162,
+    "runtime_policy": "float64 NumPy only"
+  }
+}

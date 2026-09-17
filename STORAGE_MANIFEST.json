@@ -2,9 +2,9 @@
   "generated_at_local": "2026-09-18",
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
-  "remote_commit": "fc026e6504d3d78fb213604899c229dafa3a4e00",
+  "remote_commit": "11582a826ce829d7fc30c8c0d7856340a0f0f971",
   "remote_main_verified": true,
-  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix, ecological-factorization formal matrix, compact archive, replay audit and new-combination analysis, object-surface remapping corrected formal matrix, parent surface-shift analysis, replay audit and cleanup receipt, incumbent-worker surface transfer formal matrix, repair curves, replay audit and cleanup receipt, population-level perceptual heterogeneity formal matrix, three-shard replay audit, exploratory pilot curves, identifiability diagnosis and cleanup receipt",
+  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix, ecological-factorization formal matrix, compact archive, replay audit and new-combination analysis, object-surface remapping corrected formal matrix, parent surface-shift analysis, replay audit and cleanup receipt, incumbent-worker surface transfer formal matrix, repair curves, replay audit and cleanup receipt, population-level perceptual heterogeneity formal matrix, three-shard replay audit, exploratory pilot curves, identifiability diagnosis and cleanup receipt, multi-partner sender alignment formal matrix, diagnostic smoke, replay audit and cleanup receipt",
   "retained_paths": {
     "research_program/action_dependent_signaling_study": {
       "files": 23,
@@ -133,6 +133,18 @@
     "LOCAL_CLEANUP_RECEIPT_2026-09-18_storage_sweep.json": {
       "files": 1,
       "bytes": 4966
+    },
+    "research_program/partner_exposure_study": {
+      "files": 33,
+      "bytes": 2360346
+    },
+    "SYNC_2026-09-18_partner_exposure.md": {
+      "files": 1,
+      "bytes": 1436
+    },
+    "LOCAL_CLEANUP_RECEIPT_2026-09-18_partner_exposure.json": {
+      "files": 1,
+      "bytes": 3259
     }
   },
   "compact_archives": {
@@ -219,6 +231,14 @@
     "research_program/heterogeneous_grounding_study/results/formal_20260918": {
       "files": 16,
       "bytes": 3583294
+    },
+    "research_program/partner_exposure_study/results/formal_20260918": {
+      "files": 12,
+      "bytes": 2107216
+    },
+    "research_program/partner_exposure_study/results/diagnostic_20260918": {
+      "files": 11,
+      "bytes": 183718
     }
   },
   "raw_execution_trees": {
@@ -1075,6 +1095,70 @@
     "/private/tmp/minerl-mac-route-audit": {
       "present": false,
       "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/partner_exposure_formal_execution": {
+      "present": false,
+      "bytes_removed": 503099960
+    },
+    "/private/tmp/partner_exposure_formal_prepared": {
+      "present": false,
+      "bytes_removed": 77207
+    },
+    "/private/tmp/partner_exposure_pilot_execution": {
+      "present": false,
+      "bytes_removed": 5724523
+    },
+    "/private/tmp/partner_exposure_pilot_prepared": {
+      "present": false,
+      "bytes_removed": 77045
+    },
+    "/private/tmp/partner_exposure_pilot_prepared2": {
+      "present": false,
+      "bytes_removed": 77207
+    },
+    "/private/tmp/partner_exposure_pilot_audit.json": {
+      "present": false,
+      "bytes_removed": 392
+    },
+    "/private/tmp/partner_exposure_pilot_analysis.json": {
+      "present": false,
+      "bytes_removed": 27092
+    },
+    "/private/tmp/partner_exposure_pilot_analysis.md": {
+      "present": false,
+      "bytes_removed": 4396
+    },
+    "/private/tmp/partner_exposure_long_execution": {
+      "present": false,
+      "bytes_removed": 21456232
+    },
+    "/private/tmp/partner_exposure_long_prepared": {
+      "present": false,
+      "bytes_removed": 77207
+    },
+    "/private/tmp/partner_exposure_long_audit.json": {
+      "present": false,
+      "bytes_removed": 393
+    },
+    "/private/tmp/partner_exposure_long_analysis.json": {
+      "present": false,
+      "bytes_removed": 17113
+    },
+    "/private/tmp/partner_exposure_long_analysis.md": {
+      "present": false,
+      "bytes_removed": 4286
+    },
+    "/private/tmp/partner_exposure_formal_analysis.json": {
+      "present": false,
+      "bytes_removed": 272171
+    },
+    "/private/tmp/partner_exposure_formal_audit.json": {
+      "present": false,
+      "bytes_removed": 410
+    },
+    "/private/tmp/partner_exposure_formal_analysis.md": {
+      "present": false,
+      "bytes_removed": 14032
     }
   },
   "temporary_raw_trees_removed": [
@@ -1228,8 +1312,8 @@
   },
   "policy": "raw training logs, checkpoints, model assets, literature caches and historical generated trees are not kept locally; Git history retains prior source snapshots",
   "additional_cleanup": {
-    "removed_file_or_tree_count": 108,
-    "removed_bytes": 17956507148,
+    "removed_file_or_tree_count": 124,
+    "removed_bytes": 18487436814,
     "removed_paths": [
       {
         "path": "/private/tmp/tabular_PI_stateless_silent",
@@ -1484,6 +1568,70 @@
       {
         "path": "/private/tmp/language_sync_hgs",
         "bytes": 6110
+      },
+      {
+        "path": "/private/tmp/partner_exposure_formal_execution",
+        "bytes": 503099960
+      },
+      {
+        "path": "/private/tmp/partner_exposure_formal_prepared",
+        "bytes": 77207
+      },
+      {
+        "path": "/private/tmp/partner_exposure_pilot_execution",
+        "bytes": 5724523
+      },
+      {
+        "path": "/private/tmp/partner_exposure_pilot_prepared",
+        "bytes": 77045
+      },
+      {
+        "path": "/private/tmp/partner_exposure_pilot_prepared2",
+        "bytes": 77207
+      },
+      {
+        "path": "/private/tmp/partner_exposure_pilot_audit.json",
+        "bytes": 392
+      },
+      {
+        "path": "/private/tmp/partner_exposure_pilot_analysis.json",
+        "bytes": 27092
+      },
+      {
+        "path": "/private/tmp/partner_exposure_pilot_analysis.md",
+        "bytes": 4396
+      },
+      {
+        "path": "/private/tmp/partner_exposure_long_execution",
+        "bytes": 21456232
+      },
+      {
+        "path": "/private/tmp/partner_exposure_long_prepared",
+        "bytes": 77207
+      },
+      {
+        "path": "/private/tmp/partner_exposure_long_audit.json",
+        "bytes": 393
+      },
+      {
+        "path": "/private/tmp/partner_exposure_long_analysis.json",
+        "bytes": 17113
+      },
+      {
+        "path": "/private/tmp/partner_exposure_long_analysis.md",
+        "bytes": 4286
+      },
+      {
+        "path": "/private/tmp/partner_exposure_formal_analysis.json",
+        "bytes": 272171
+      },
+      {
+        "path": "/private/tmp/partner_exposure_formal_audit.json",
+        "bytes": 410
+      },
+      {
+        "path": "/private/tmp/partner_exposure_formal_analysis.md",
+        "bytes": 14032
       }
     ],
     "verified_after_remote_commit": "fc026e6504d3d78fb213604899c229dafa3a4e00",
@@ -1694,6 +1842,35 @@
           "note": "stale clone fragment created by the archived task after final verification; removed after task stop"
         }
       ]
+    },
+    "partner_exposure_batch_2026-09-18": {
+      "removed_file_or_tree_count": 16,
+      "removed_bytes": 530929666,
+      "paths": [
+        "/private/tmp/partner_exposure_formal_execution",
+        "/private/tmp/partner_exposure_formal_prepared",
+        "/private/tmp/partner_exposure_pilot_execution",
+        "/private/tmp/partner_exposure_pilot_prepared",
+        "/private/tmp/partner_exposure_pilot_prepared2",
+        "/private/tmp/partner_exposure_pilot_audit.json",
+        "/private/tmp/partner_exposure_pilot_analysis.json",
+        "/private/tmp/partner_exposure_pilot_analysis.md",
+        "/private/tmp/partner_exposure_long_execution",
+        "/private/tmp/partner_exposure_long_prepared",
+        "/private/tmp/partner_exposure_long_audit.json",
+        "/private/tmp/partner_exposure_long_analysis.json",
+        "/private/tmp/partner_exposure_long_analysis.md",
+        "/private/tmp/partner_exposure_formal_analysis.json",
+        "/private/tmp/partner_exposure_formal_audit.json",
+        "/private/tmp/partner_exposure_formal_analysis.md"
+      ],
+      "archives_verified": [
+        "research_program/partner_exposure_study/results/formal_20260918",
+        "research_program/partner_exposure_study/results/diagnostic_20260918"
+      ],
+      "audit": "passed; full replay max_abs_replay_error=0.0",
+      "verified_after_remote_commit": "11582a826ce829d7fc30c8c0d7856340a0f0f971",
+      "raw_execution_retained": false
     }
   },
   "pending_designs": {},
@@ -1839,34 +2016,23 @@
     }
   },
   "latest_batch": {
-    "name": "object_surface_transfer_20260918",
-    "remote_commit": "f802038",
-    "archive": "research_program/object_surface_transfer_study/results/formal_20260918",
+    "name": "partner_exposure_20260918",
+    "remote_commit": "11582a826ce829d7fc30c8c0d7856340a0f0f971",
+    "archive": "research_program/partner_exposure_study/results/formal_20260918",
     "archive_stats": {
-      "files": 13,
-      "bytes": 675591
+      "files": 12,
+      "bytes": 2107216
     },
     "audit": "passed",
     "raw_execution_retained": false,
     "raw_paths": [
-      "/private/tmp/ost_transfer_part1",
-      "/private/tmp/ost_transfer_part1.log",
-      "/private/tmp/ost_transfer_part1_audit.log",
-      "/private/tmp/ost_transfer_part2",
-      "/private/tmp/ost_transfer_part2.log",
-      "/private/tmp/ost_transfer_part2_audit.log",
-      "/private/tmp/ost_transfer_part3",
-      "/private/tmp/ost_transfer_part3.log",
-      "/private/tmp/ost_transfer_part3_audit.log",
-      "/private/tmp/ost_transfer_full",
-      "/private/tmp/ost_transfer_prepared",
-      "/private/tmp/ost_transfer_audit.log"
+      "/private/tmp/partner_exposure_formal_execution"
     ],
     "retained_package_stats": {
-      "files": 23,
-      "bytes": 742495
+      "files": 33,
+      "bytes": 2360346
     },
-    "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18_object_surface_transfer.json",
+    "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18_partner_exposure.json",
     "verified_paths_absent": true,
     "remote_repository": "git@github.com:Zhenhao526/languagellm.git"
   }

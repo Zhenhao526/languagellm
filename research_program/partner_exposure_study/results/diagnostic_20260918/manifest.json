@@ -1,0 +1,68 @@
+{
+  "schema": "partner_exposure_diagnostic_archive_manifest_v1",
+  "study": "partner_exposure_diagnostic",
+  "formal_date": "2026-09-18",
+  "source_commit": "11582a826ce829d7fc30c8c0d7856340a0f0f971",
+  "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+  "raw_logs_retained": false,
+  "full_results_retained_in_archive": true,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 307,
+      "sha256": "4cc4dba0c4468a4ae041f96a5c659da357f72aff657ceb8007e6826a3e262f0f"
+    },
+    {
+      "path": "aggregate.json",
+      "bytes": 27092,
+      "sha256": "2a264098f142118e756da9deced47694c417462d56b3b1ddb991e08ef1e7f9df"
+    },
+    {
+      "path": "aggregate.md",
+      "bytes": 4396,
+      "sha256": "ebb80df0997dad03c6998f27a2dc11595c7264aad535b9eecde91cb014c40af2"
+    },
+    {
+      "path": "audit.json",
+      "bytes": 392,
+      "sha256": "65e29a6f76e0be71a2ffc4df4a69784e2d7317f97a30239fe244420fd36fe35c"
+    },
+    {
+      "path": "freeze.json",
+      "bytes": 177,
+      "sha256": "72667cea9b953be44f51a44e4373a31167b19dc44447d4204ab79b2c609e080a"
+    },
+    {
+      "path": "plan.json",
+      "bytes": 4691,
+      "sha256": "6a8e5e78e48f84081fb2e8833a5a518507be81521f351da44fdfe09771146757"
+    },
+    {
+      "path": "prepared.json",
+      "bytes": 2926,
+      "sha256": "78ee2d677b1121c8b76127d239c258efe6fd445d2a02f78fee2c1a7141b3674f"
+    },
+    {
+      "path": "results.json",
+      "bytes": 141403,
+      "sha256": "0be15d3f4158ff881d5ce7e80f19511cda9865d6d858e15015346b2c7c409cc4"
+    },
+    {
+      "path": "source_commit.txt",
+      "bytes": 41,
+      "sha256": "a7e08b43f003c6bbcbc36f0cdc187c1958b6ab2ec18eddd2dc36acb4a5967c9e"
+    },
+    {
+      "path": "validity.md",
+      "bytes": 297,
+      "sha256": "651934a9b3664cb276558256854007db54ad9296698c764596dccce324508b90"
+    }
+  ],
+  "file_count": 10,
+  "payload_bytes": 181722,
+  "manifest_excludes_self": true,
+  "audit": "passed",
+  "parent_runs": 4,
+  "child_runs": 10,
+  "exploratory_only": true
+}

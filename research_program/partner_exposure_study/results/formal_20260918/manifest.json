@@ -1,0 +1,72 @@
+{
+  "schema": "partner_exposure_formal_archive_manifest_v1",
+  "study": "partner_exposure_formal",
+  "formal_date": "2026-09-18",
+  "source_commit": "11582a826ce829d7fc30c8c0d7856340a0f0f971",
+  "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+  "raw_logs_retained": false,
+  "full_results_retained_in_archive": true,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 989,
+      "sha256": "022ea648f79ba60516f7f86de3ee83882b007611a0c1912f61c6604f34a776a5"
+    },
+    {
+      "path": "aggregate.json",
+      "bytes": 272171,
+      "sha256": "300c5e2e9aa0e996879dd6025f9948a4e4c0903d0223df61c0c05a566cfa0bc3"
+    },
+    {
+      "path": "aggregate.md",
+      "bytes": 14032,
+      "sha256": "6733a4a1c2c1d68b155a76912cd3407958e93a0418da190a44020033b4219d0d"
+    },
+    {
+      "path": "audit.json",
+      "bytes": 410,
+      "sha256": "31d0026b876d1021646c7088f19e1c6101d3b7f0cd915b86c2bddd9d5258b24f"
+    },
+    {
+      "path": "execution_plan.json",
+      "bytes": 751,
+      "sha256": "19ae8625debb8c68dca74ebcb663f9925fafde7eb6ffe68d1c9c64ec954398ee"
+    },
+    {
+      "path": "freeze.json",
+      "bytes": 177,
+      "sha256": "72667cea9b953be44f51a44e4373a31167b19dc44447d4204ab79b2c609e080a"
+    },
+    {
+      "path": "plan.json",
+      "bytes": 4691,
+      "sha256": "6a8e5e78e48f84081fb2e8833a5a518507be81521f351da44fdfe09771146757"
+    },
+    {
+      "path": "prepared.json",
+      "bytes": 2926,
+      "sha256": "78ee2d677b1121c8b76127d239c258efe6fd445d2a02f78fee2c1a7141b3674f"
+    },
+    {
+      "path": "results.json",
+      "bytes": 1807618,
+      "sha256": "3dd484f81842ef7106a4fa2af35e73db184d857cf4e941edb3bd8fa8e6583118"
+    },
+    {
+      "path": "source_commit.txt",
+      "bytes": 41,
+      "sha256": "a7e08b43f003c6bbcbc36f0cdc187c1958b6ab2ec18eddd2dc36acb4a5967c9e"
+    },
+    {
+      "path": "validity.md",
+      "bytes": 1290,
+      "sha256": "79c38b6b6e52a105671e031a16180d5a64ed60bb7a6783ca4fa019e3a4f96d64"
+    }
+  ],
+  "file_count": 11,
+  "payload_bytes": 2105096,
+  "manifest_excludes_self": true,
+  "audit": "passed",
+  "parent_runs": 18,
+  "child_runs": 144
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "partner_exposure_audit_v1",
+  "status": "passed",
+  "parent_runs": 4,
+  "child_runs": 10,
+  "parent_training_log_rows": 1200,
+  "child_training_log_rows": 3000,
+  "parent_checkpoints": 4,
+  "child_checkpoints": 10,
+  "paired_visibility_rows": 1200,
+  "paired_adaptation_rows": 1200,
+  "paired_population_rows": 2400,
+  "paired_support_rows": 0,
+  "max_abs_replay_error": 0.0
+}
