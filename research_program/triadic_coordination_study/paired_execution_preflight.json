@@ -1,9 +1,0 @@
-{
-  "status": "syntax_schema_and_six_physical_cases_passed",
-  "created_at": "2026-09-15T15:19:50.324819+00:00",
-  "runner_sha256": "9aad4e8bbcb71f645227908ddb05559d103cd919e264dfa5b4bc4eae9aeaba87",
-  "audit_sha256": "40be9dec68324d6d7e65fe3661723a01edde2176b7cbff3c4998ac6455ce5dfb",
-  "training_or_result_files_read": 0,
-  "model_forward_calls": 0,
-  "initial_manual_check_failure": "Compared in-memory tuples from make_prepared to JSON-normalized lists; first comparison failed before any physics test. This check now compares the serialized prepared representation that audit actually reads. No source, training or result change."
-}

@@ -1,7 +1,0 @@
-{
-  "recorded_at_utc": "2026-09-15T16:05:01.514560+00:00",
-  "status": "source_defined_before_probe_results",
-  "audit_source_sha256": "d9d44a5747675a27fa04633749385957ae437404e91dcceb8be57c71e78d24a8",
-  "scope": "Independent all-saved-world physical accounting and constant action input checks; no policy forwards. Written during main training; terminal completed main was then read. No new probe outcome used.",
-  "new_training": false
-}

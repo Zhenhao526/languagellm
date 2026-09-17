@@ -1,7 +1,0 @@
-{
-  "status": "failed_before_execution",
-  "source_sha256": "e5c641b9d7cec96b38cb5327b889b4e0cf7d28b5122d9456963fd8701700d78f",
-  "error": "SyntaxError: '(' was never closed at final print, line 194",
-  "neural_forward_calls": 0,
-  "policy_output_files_read": 0
-}

@@ -1,0 +1,25 @@
+{
+  "schema": "tabular_20260917_receipt_v2",
+  "runs": 144,
+  "source_results": [
+    {
+      "path": "/tmp/tabular_formal_key/execution/results.json",
+      "sha256": "76a31d305a373bc927cc654fbc952fd65b12c953d640d28da57fc8df811554eb"
+    },
+    {
+      "path": "/tmp/tabular_FI_persistent/execution/results.json",
+      "sha256": "fe531bc4b6ba629b10959ba0d5315552032d158fdc6b51ad10aaf1a37b8064e8"
+    },
+    {
+      "path": "/tmp/tabular_PI_stateless_silent/execution/results.json",
+      "sha256": "face294b438e3656bf2d7fd3321519036aee0086bacdd5c0d6ce526f15b29000"
+    }
+  ],
+  "prepared_sha256": "c3b0ce55fff533a9519eb705640ea1bf72c510e9b6cff9dd2b74aa6ae73ca05c",
+  "plan_sha256": "0850f3b05a7a4b8e1438e3578d6ec02afbfb190fe1fc9111ae61c00eb32764df",
+  "audits": {
+    "audit_stateless_PI_silent.json": "44566cbf6ec242f6a428fbca687a4e3add8479fda212a967a915c3bff23c8cbc",
+    "audit_FI.json": "290902db0afb27178d73d2c8c9009bac47736d288466b147787b1fceac7c2bac",
+    "audit_formal_key.json": "13b4a4f2b01246b359dac399b5b01f5e9dc419b759c30ed85568db79aedecd52"
+  }
+}

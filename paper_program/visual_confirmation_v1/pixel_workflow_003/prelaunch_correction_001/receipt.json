@@ -1,8 +1,0 @@
-{
-  "created_utc": "2026-09-15T17:06:27.592087+00:00",
-  "before_any_batch003_original_request": true,
-  "correction": "Offline auditor retained a19-cluster assertion from batch002; corrected to fixed17 before launching collection. Collector, candidate list, metadata, image algorithms and quotas unchanged.",
-  "old_freeze_sha256": "70e0ae8eb2fb765443779b34dc9c64b2e7a57c6ee574ba481ac2745652bdbc24",
-  "old_auditor_sha256": "2623a9b1e0ce613c53ec93e61718bbf852c3701468f15ef1fb935da39fbe0ca8",
-  "new_auditor_sha256": "f75716b8661bbe98f314cd51a58c6c609e6a74311d26814af35f189f0c3ab21d"
-}

@@ -1,0 +1,172 @@
+{
+  "schema": "tabular_signaling_audit_v1",
+  "status": "passed",
+  "prepared": "/tmp/tabular_prepared_archive",
+  "execution": "/tmp/tabular_PI_stateless_silent/execution",
+  "runs": 16,
+  "training_log_rows": 48000,
+  "final_checkpoints": 16,
+  "max_abs_replay_error": 0.0,
+  "rows": [
+    {
+      "seed": 68101,
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "natural": 0.315093994140625,
+      "closed": 0.315093994140625,
+      "permuted": 0.315093994140625,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "natural": 0.20904541015625,
+      "closed": 0.20904541015625,
+      "permuted": 0.20904541015625,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "natural": 0.3246053059895833,
+      "closed": 0.3246053059895833,
+      "permuted": 0.3246053059895833,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "natural": 0.21514892578125,
+      "closed": 0.21514892578125,
+      "permuted": 0.21514892578125,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "natural": 0.31524658203125,
+      "closed": 0.31524658203125,
+      "permuted": 0.31524658203125,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "natural": 0.21189371744791666,
+      "closed": 0.21189371744791666,
+      "permuted": 0.21189371744791666,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "natural": 0.31707763671875,
+      "closed": 0.31707763671875,
+      "permuted": 0.31707763671875,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "natural": 0.21341959635416669,
+      "closed": 0.21341959635416669,
+      "permuted": 0.21341959635416669,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "natural": 0.3061930338541667,
+      "closed": 0.3061930338541667,
+      "permuted": 0.3061930338541667,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "natural": 0.20273844401041669,
+      "closed": 0.20273844401041669,
+      "permuted": 0.20273844401041669,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "natural": 0.31768798828125,
+      "closed": 0.31768798828125,
+      "permuted": 0.31768798828125,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "natural": 0.21169026692708331,
+      "closed": 0.21169026692708331,
+      "permuted": 0.21169026692708331,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "natural": 0.3011067708333333,
+      "closed": 0.3011067708333333,
+      "permuted": 0.3011067708333333,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "natural": 0.19989013671875,
+      "closed": 0.19989013671875,
+      "permuted": 0.19989013671875,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "natural": 0.3225199381510417,
+      "closed": 0.3225199381510417,
+      "permuted": 0.3225199381510417,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "natural": 0.21708170572916669,
+      "closed": 0.21708170572916669,
+      "permuted": 0.21708170572916669,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    }
+  ]
+}

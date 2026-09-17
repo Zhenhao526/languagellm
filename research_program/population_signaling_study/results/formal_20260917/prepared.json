@@ -1,0 +1,72 @@
+{
+  "schema": "population_signaling_v1",
+  "horizon": 5,
+  "action_start": 1,
+  "alphabet_size": 6,
+  "null_message": 6,
+  "actions": [
+    "wait",
+    "take_site0",
+    "take_site1"
+  ],
+  "workers": 4,
+  "seeds": [
+    74101,
+    74102,
+    74103,
+    74104,
+    74105,
+    74106,
+    74107,
+    74108
+  ],
+  "conditions": [
+    "fixed_hidden_silent_abundant",
+    "fixed_hidden_silent_scarce",
+    "fixed_hidden_live_abundant",
+    "fixed_hidden_live_scarce",
+    "fixed_visible_silent_abundant",
+    "fixed_visible_silent_scarce",
+    "fixed_visible_live_abundant",
+    "fixed_visible_live_scarce",
+    "rotating_hidden_silent_abundant",
+    "rotating_hidden_silent_scarce",
+    "rotating_hidden_live_abundant",
+    "rotating_hidden_live_scarce",
+    "rotating_visible_silent_abundant",
+    "rotating_visible_silent_scarce",
+    "rotating_visible_live_abundant",
+    "rotating_visible_live_scarce"
+  ],
+  "updates": 3000,
+  "batch_size": 512,
+  "learning_rate": 0.08,
+  "entropy_initial": 0.01,
+  "entropy_zero_after": 5000,
+  "capacity": {
+    "scarce": 2,
+    "abundant": 4
+  },
+  "task": "one scout privately observes a persistent resource type and broadcasts one token to a fixed or rotating worker",
+  "worker_observation": "worker sees site 0's local type, which determines the opposite type at site 1, plus inventory; goal remains hidden",
+  "partner_visibility": "hidden keeps worker identity out of the sender state; visible gives sender the partner id",
+  "pairing": "worlds, target bits, partner draws and action/message uniforms are shared across partner, visibility, channel and capacity arms; only the partner assignment interpretation changes",
+  "controls": [
+    "silent channel",
+    "closed evaluation",
+    "within-worker token permutation"
+  ],
+  "no_teacher_or_language_prior": true,
+  "population_test": "a single sender must use one token convention across independent workers when partner is rotating",
+  "automatic_followon_experiment": false,
+  "checkpoints": [
+    0,
+    500,
+    1000,
+    2000,
+    3000
+  ],
+  "runtime_policy": "float64 NumPy only",
+  "runs": 128,
+  "evaluation_episodes_per_worker": 4096
+}

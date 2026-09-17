@@ -1,9 +1,0 @@
-{
-  "status": "schema_coverage_addendum_before_execution_audit",
-  "previous_receipt_sha256": "fc79943b7c91cc0404e615fd3491fe4c6059e8bfadd76b52280db1c0a463d2b6",
-  "previous_audit_sha256": "40be9dec68324d6d7e65fe3661723a01edde2176b7cbff3c4998ac6455ce5dfb",
-  "audit_sha256": "b72ed7a97c0fb5af9bc08b5c6ee194d5074e1fb7ea56c8e281223b149ec9d69f",
-  "runner_sha256": "9aad4e8bbcb71f645227908ddb05559d103cd919e264dfa5b4bc4eae9aeaba87",
-  "change": "Added exact checks for already-saved per-partition/full-domain argmax distributions and four-seed primary paired comparison. No training, result or policy file read.",
-  "syntax_check": "passed"
-}

@@ -1,9 +1,0 @@
-{
-  "packet_sha256": "f39712fdf6bc96ff3dbc6144eb7c4bfbbd9e658a53c2d551f4b13dcb4cc1d278",
-  "image_sha256": {
-    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/review_round1/sheet_01.png": "e8cc6bd9e53d20854bb3a1ebb75266882adbddb5fefb9a8c619fbd111bc73818",
-    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/review_round1/sheet_02.png": "c29999896a0884c836d1d5babd896256655c1906a69275041dc5a5ea020cc82f",
-    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/review_round1/sheet_03.png": "1e2d1fa27717403325d52d054c4445a7d8365843dba5bf1734d6ef558e8361eb"
-  },
-  "note": "Computed after both independent reviews; original packet and sheets unchanged."
-}

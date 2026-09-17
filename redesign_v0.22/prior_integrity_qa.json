@@ -1,8 +1,0 @@
-{
-  "passed": true,
-  "previous_goal_turn": "progress",
-  "evidence": "v21 completed24 social runs and changed next causal question; full frozen manifest verified",
-  "manifest": "redesign_v0.21/results/communication_001/completion_manifest.json",
-  "manifest_sha256": "7c231ca16ddf82bdcf6f6a84e4520ab2426a3ba9a48869059b629ef5d431ceb5",
-  "artifacts": 1664
-}

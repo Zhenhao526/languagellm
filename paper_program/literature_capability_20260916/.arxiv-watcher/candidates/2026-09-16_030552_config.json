@@ -1,9 +1,0 @@
-{
-  "schema_version": 1,
-  "generated_at": "2026-09-15T19:05:52.618116+00:00",
-  "config": "config.toml",
-  "since_hours": 24000,
-  "candidates_count": 0,
-  "pool_count": 0,
-  "papers": []
-}

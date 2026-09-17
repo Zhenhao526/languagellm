@@ -1,7 +1,0 @@
-{
-  "passed": true,
-  "previous_goal_turn": "progress",
-  "reason": "v22 completed new paired frozen-policy evaluation and changes next causal question",
-  "manifest_sha256": "8640ecb956a90791812fe20a8ea67e69b3c4713305ba1b85bdbc88f5336ffb14",
-  "artifacts_checked": 153
-}

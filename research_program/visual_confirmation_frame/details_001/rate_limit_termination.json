@@ -1,9 +1,0 @@
-{
-  "terminated_utc": "2026-09-15T13:23:06.951255+00:00",
-  "pid": 12702,
-  "signals": [
-    "SIGINT",
-    "SIGCONT"
-  ],
-  "reason": "Stop frozen non-throttled collector after HTTP429; parent requested offline partial reconstruction only. No second network round authorized."
-}

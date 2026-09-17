@@ -1,0 +1,30 @@
+{
+  "schema": "population_20260917_receipt_v1",
+  "runs": 128,
+  "source_results": {
+    "path": "/tmp/population_formal_final/execution/results.json",
+    "sha256": "b452b6089f9a835c31aec9938c35d4a720220ee086128fbe2ccf6251ba08343a"
+  },
+  "prepared_sha256": "e05eae8c46007867151e6e2bb0cf5ea529a405ee46f181d95979e351e2d65bb0",
+  "plan_sha256": "f49fb9a816f13318f502c878bb4d5e4736b6a76e1ee6cffdb0adb80565fd7d5d",
+  "audit_sha256": "bb42daaac9a515bd4d92f2c70834241b39fffb234922ac124c07fced707a8049",
+  "aggregate_sha256": "d6201e5b7b2e998240256baae6a90b9d25cd3e7f2244185b9fdee22ca404ea1a",
+  "omitted_from_local_archive": [
+    "per-run seed_* directories",
+    "training.jsonl",
+    "checkpoint_*.npz",
+    "329MB execution/results.json"
+  ],
+  "retained_in_compact": [
+    "six trajectory checkpoints per run",
+    "parameter/training-log hashes",
+    "final training_support and heldout metrics",
+    "aggregate codebook readout"
+  ],
+  "invalidated_runs": [
+    "population_formal_invalid_receipt.json",
+    "population_unpaired_invalid_receipt.json",
+    "population_visible_init_invalid_receipt.json"
+  ],
+  "invalidated_runs_note": "These pilots are excluded from all statistics; only their small failure receipts are retained."
+}

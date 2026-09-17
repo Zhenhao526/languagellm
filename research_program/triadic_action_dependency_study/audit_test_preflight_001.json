@@ -1,1 +1,0 @@
-{"status":"failed_test_fixture","tests_run":9,"errors":1,"message":"The new synthetic macro test passed positional arguments to keyword-only metrics.semantic_metrics. The failure preceded statistical comparison and did not involve any trained outputs or actor forwards.","formal_audit_executions":0,"training_calls":0}

@@ -1,9 +1,0 @@
-{
-  "fixed_utc": "2026-09-15T13:10:30.113620+00:00",
-  "formal_training_started": false,
-  "hashes": {
-    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.10/probe_protocol.py": "6945134c21615356df01805ba8593f4a95f8516d93376bc2fbf713e5e4d2dcd5",
-    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.10/协议探针方案.md": "64b0838bf8f67c7ee5e35abd98df069ecd3ad1f868ff81decc6df75a5ec08183"
-  },
-  "smoke_probe_passed": true
-}

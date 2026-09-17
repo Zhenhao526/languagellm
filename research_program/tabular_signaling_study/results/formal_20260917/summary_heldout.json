@@ -1,0 +1,6773 @@
+{
+  "schema": "tabular_signaling_aggregate_v1",
+  "split": "heldout",
+  "runs": 144,
+  "rows": [
+    {
+      "seed": 68101,
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.5660502115885416,
+      "oracle": 0.6195068359375,
+      "normalized": 1.0,
+      "mi": 0.6705454987646339,
+      "message_entropy": 1.505757250891024
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.25113932291666663,
+      "oracle": 0.6195068359375,
+      "normalized": 0.4745648604269293,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.5610148111979167,
+      "oracle": 0.6195068359375,
+      "normalized": 0.991871921182266,
+      "mi": 0.0005182143890676186,
+      "message_entropy": 1.505757250891024
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.5660502115885416,
+      "oracle": 0.6195068359375,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.5660502115885416,
+      "oracle": 0.6195068359375,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.5660502115885416,
+      "oracle": 0.6195068359375,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.5660502115885416,
+      "oracle": 0.6195068359375,
+      "normalized": 1.0,
+      "mi": 0.999944506000471,
+      "message_entropy": 1.9998557617447794
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.2817891438802083,
+      "oracle": 0.6195068359375,
+      "normalized": 0.5325944170771757,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.31519571940104163,
+      "oracle": 0.6195068359375,
+      "normalized": 0.5950738916256157,
+      "mi": 0.0008453605546714805,
+      "message_entropy": 1.9998557617447794
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.315093994140625,
+      "oracle": 0.6195068359375,
+      "normalized": 0.5949096880131363,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.315093994140625,
+      "oracle": 0.6195068359375,
+      "normalized": 0.5949096880131363,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.315093994140625,
+      "oracle": 0.6195068359375,
+      "normalized": 0.5949096880131363,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.25040690104166663,
+      "oracle": 0.33390299479166663,
+      "normalized": 0.8142036124794746,
+      "mi": 0.33330795532103735,
+      "message_entropy": 0.9999009357256291
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.11790974934895834,
+      "oracle": 0.33390299479166663,
+      "normalized": 0.46340311986863714,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.25040690104166663,
+      "oracle": 0.33390299479166663,
+      "normalized": 0.8142036124794746,
+      "mi": 2.2360567208513434e-05,
+      "message_entropy": 0.9999009357256291
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.271087646484375,
+      "oracle": 0.33390299479166663,
+      "normalized": 0.8545155993431856,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.271087646484375,
+      "oracle": 0.33390299479166663,
+      "normalized": 0.8545155993431856,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.271087646484375,
+      "oracle": 0.33390299479166663,
+      "normalized": 0.8545155993431856,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.20904541015625,
+      "oracle": 0.33390299479166663,
+      "normalized": 0.7335796387520526,
+      "mi": 0.3151278207283092,
+      "message_entropy": 0.8147421700451138
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.092987060546875,
+      "oracle": 0.33390299479166663,
+      "normalized": 0.36282840722495896,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.20904541015625,
+      "oracle": 0.33390299479166663,
+      "normalized": 0.7335796387520526,
+      "mi": 0.00027372349257713963,
+      "message_entropy": 0.8147421700451138
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_scarce_PI_live_switching",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.15696207682291669,
+      "oracle": 0.5433349609375,
+      "normalized": 0.3134409586588542,
+      "mi": 0.914549105907296,
+      "message_entropy": 2.247228667556373
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_scarce_PI_live_switching",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.15675862630208334,
+      "oracle": 0.5433349609375,
+      "normalized": 0.299957275390625,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_scarce_PI_live_switching",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.21291097005208331,
+      "oracle": 0.5433349609375,
+      "normalized": 0.3973642985026042,
+      "mi": 0.00081135997481253,
+      "message_entropy": 2.247228667556373
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.20904541015625,
+      "oracle": 0.33390299479166663,
+      "normalized": 0.7335796387520526,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.20904541015625,
+      "oracle": 0.33390299479166663,
+      "normalized": 0.7335796387520526,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.20904541015625,
+      "oracle": 0.33390299479166663,
+      "normalized": 0.7335796387520526,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.21708170572916666,
+      "oracle": 0.5433349609375,
+      "normalized": 0.4036204020182292,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.21708170572916666,
+      "oracle": 0.5433349609375,
+      "normalized": 0.4036204020182292,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.21708170572916666,
+      "oracle": 0.5433349609375,
+      "normalized": 0.4036204020182292,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "stateless_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.5660502115885416,
+      "oracle": 0.6195068359375,
+      "normalized": 1.0,
+      "mi": 0.999944506000471,
+      "message_entropy": 1.9998557617447794
+    },
+    {
+      "seed": 68101,
+      "condition": "stateless_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.5405171712239584,
+      "oracle": 0.6195068359375,
+      "normalized": 0.9587848932676519,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "stateless_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.5660502115885416,
+      "oracle": 0.6195068359375,
+      "normalized": 1.0,
+      "mi": 0.0008453605546714805,
+      "message_entropy": 1.9998557617447794
+    },
+    {
+      "seed": 68101,
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.5660502115885416,
+      "oracle": 0.6195068359375,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.5660502115885416,
+      "oracle": 0.6195068359375,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.5660502115885416,
+      "oracle": 0.6195068359375,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "stateless_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.315093994140625,
+      "oracle": 0.6195068359375,
+      "normalized": 0.5949096880131363,
+      "mi": 0.6705454987646339,
+      "message_entropy": 1.505757250891024
+    },
+    {
+      "seed": 68101,
+      "condition": "stateless_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.315093994140625,
+      "oracle": 0.6195068359375,
+      "normalized": 0.5949096880131363,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "stateless_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.315093994140625,
+      "oracle": 0.6195068359375,
+      "normalized": 0.5949096880131363,
+      "mi": 0.0005182143890676189,
+      "message_entropy": 1.505757250891024
+    },
+    {
+      "seed": 68101,
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.315093994140625,
+      "oracle": 0.6195068359375,
+      "normalized": 0.5949096880131363,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.315093994140625,
+      "oracle": 0.6195068359375,
+      "normalized": 0.5949096880131363,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.315093994140625,
+      "oracle": 0.6195068359375,
+      "normalized": 0.5949096880131363,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "stateless_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.271087646484375,
+      "oracle": 0.33390299479166663,
+      "normalized": 0.8545155993431856,
+      "mi": 0.999944506000471,
+      "message_entropy": 1.9998557617447794
+    },
+    {
+      "seed": 68101,
+      "condition": "stateless_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.239501953125,
+      "oracle": 0.33390299479166663,
+      "normalized": 0.7912151067323481,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "stateless_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.2670186360677083,
+      "oracle": 0.33390299479166663,
+      "normalized": 0.8328407224958949,
+      "mi": 0.0008453605546714805,
+      "message_entropy": 1.9998557617447794
+    },
+    {
+      "seed": 68101,
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.271087646484375,
+      "oracle": 0.33390299479166663,
+      "normalized": 0.8545155993431856,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.271087646484375,
+      "oracle": 0.33390299479166663,
+      "normalized": 0.8545155993431856,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.271087646484375,
+      "oracle": 0.33390299479166663,
+      "normalized": 0.8545155993431856,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "stateless_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.21443684895833337,
+      "oracle": 0.33390299479166663,
+      "normalized": 0.7335796387520526,
+      "mi": 0.999944506000471,
+      "message_entropy": 1.9998557617447794
+    },
+    {
+      "seed": 68101,
+      "condition": "stateless_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.20904541015625,
+      "oracle": 0.33390299479166663,
+      "normalized": 0.7335796387520526,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "stateless_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.21428426106770831,
+      "oracle": 0.33390299479166663,
+      "normalized": 0.7467159277504105,
+      "mi": 0.0008453605546714805,
+      "message_entropy": 1.9998557617447794
+    },
+    {
+      "seed": 68101,
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.20904541015625,
+      "oracle": 0.33390299479166663,
+      "normalized": 0.7335796387520526,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.20904541015625,
+      "oracle": 0.33390299479166663,
+      "normalized": 0.7335796387520526,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.20904541015625,
+      "oracle": 0.33390299479166663,
+      "normalized": 0.7335796387520526,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.575714111328125,
+      "oracle": 0.6272379557291666,
+      "normalized": 1.0,
+      "mi": 0.999954080143366,
+      "message_entropy": 1.999349955209927
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.23722330729166663,
+      "oracle": 0.6272379557291666,
+      "normalized": 0.41861822899772944,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.569610595703125,
+      "oracle": 0.6272379557291666,
+      "normalized": 0.9902692182938696,
+      "mi": 0.0007405585411761856,
+      "message_entropy": 1.999349955209927
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.575714111328125,
+      "oracle": 0.6272379557291666,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.575714111328125,
+      "oracle": 0.6272379557291666,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.575714111328125,
+      "oracle": 0.6272379557291666,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.575714111328125,
+      "oracle": 0.6272379557291666,
+      "normalized": 1.0,
+      "mi": 0.999954080143366,
+      "message_entropy": 1.999349955209927
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.254425048828125,
+      "oracle": 0.6272379557291666,
+      "normalized": 0.4713428478754459,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.321197509765625,
+      "oracle": 0.6272379557291666,
+      "normalized": 0.5942264028543627,
+      "mi": 0.0007405585411761865,
+      "message_entropy": 1.999349955209927
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.3246053059895833,
+      "oracle": 0.6272379557291666,
+      "normalized": 0.5996594226402855,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.3246053059895833,
+      "oracle": 0.6272379557291666,
+      "normalized": 0.5996594226402855,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.3246053059895833,
+      "oracle": 0.6272379557291666,
+      "normalized": 0.5996594226402855,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.25678507486979163,
+      "oracle": 0.3387858072916667,
+      "normalized": 0.7971942912747324,
+      "mi": 0.3200173069385884,
+      "message_entropy": 0.8158886340238982
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.11219278971354166,
+      "oracle": 0.3387858072916667,
+      "normalized": 0.4728146286084982,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.25896199544270837,
+      "oracle": 0.3387858072916667,
+      "normalized": 0.8220483295491404,
+      "mi": 0.00047022488993399194,
+      "message_entropy": 0.8158886340238982
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.2611185709635417,
+      "oracle": 0.3387858072916667,
+      "normalized": 0.7744891339604282,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.2611185709635417,
+      "oracle": 0.3387858072916667,
+      "normalized": 0.7744891339604282,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.2611185709635417,
+      "oracle": 0.3387858072916667,
+      "normalized": 0.7744891339604282,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.21514892578125,
+      "oracle": 0.3387858072916667,
+      "normalized": 0.734471294193967,
+      "mi": 0.6668227524045558,
+      "message_entropy": 0.9999559719934967
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.06746419270833333,
+      "oracle": 0.3387858072916667,
+      "normalized": 0.27240107038598765,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.21514892578125,
+      "oracle": 0.3387858072916667,
+      "normalized": 0.734471294193967,
+      "mi": 0.0004112144048131177,
+      "message_entropy": 0.9999559719934967
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_scarce_PI_live_switching",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.23488362630208334,
+      "oracle": 0.5391438802083334,
+      "normalized": 0.43088277180989587,
+      "mi": 1.164816811210816,
+      "message_entropy": 2.4941134178313744
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_scarce_PI_live_switching",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.1807861328125,
+      "oracle": 0.5391438802083334,
+      "normalized": 0.3795166015625,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_scarce_PI_live_switching",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.20751953125,
+      "oracle": 0.5391438802083334,
+      "normalized": 0.38983662923177087,
+      "mi": 0.0016596896804163663,
+      "message_entropy": 2.4941134178313744
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.21514892578125,
+      "oracle": 0.3387858072916667,
+      "normalized": 0.734471294193967,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.21514892578125,
+      "oracle": 0.3387858072916667,
+      "normalized": 0.734471294193967,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.21514892578125,
+      "oracle": 0.3387858072916667,
+      "normalized": 0.734471294193967,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.213623046875,
+      "oracle": 0.5391438802083334,
+      "normalized": 0.39899190266927087,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.213623046875,
+      "oracle": 0.5391438802083334,
+      "normalized": 0.39899190266927087,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.213623046875,
+      "oracle": 0.5391438802083334,
+      "normalized": 0.39899190266927087,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "stateless_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.575714111328125,
+      "oracle": 0.6272379557291666,
+      "normalized": 1.0,
+      "mi": 0.999954080143366,
+      "message_entropy": 1.999349955209927
+    },
+    {
+      "seed": 68102,
+      "condition": "stateless_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.5194803873697917,
+      "oracle": 0.6272379557291666,
+      "normalized": 0.9019137204022057,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "stateless_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.575714111328125,
+      "oracle": 0.6272379557291666,
+      "normalized": 1.0,
+      "mi": 0.000740558541176186,
+      "message_entropy": 1.999349955209927
+    },
+    {
+      "seed": 68102,
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.575714111328125,
+      "oracle": 0.6272379557291666,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.575714111328125,
+      "oracle": 0.6272379557291666,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.575714111328125,
+      "oracle": 0.6272379557291666,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "stateless_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.3246053059895833,
+      "oracle": 0.6272379557291666,
+      "normalized": 0.5996594226402855,
+      "mi": 0.834635722954404,
+      "message_entropy": 1.5033948836430415
+    },
+    {
+      "seed": 68102,
+      "condition": "stateless_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.3246053059895833,
+      "oracle": 0.6272379557291666,
+      "normalized": 0.5996594226402855,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "stateless_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.3246053059895833,
+      "oracle": 0.6272379557291666,
+      "normalized": 0.5996594226402855,
+      "mi": 0.0005305219259113293,
+      "message_entropy": 1.5033948836430415
+    },
+    {
+      "seed": 68102,
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.3246053059895833,
+      "oracle": 0.6272379557291666,
+      "normalized": 0.5996594226402855,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.3246053059895833,
+      "oracle": 0.6272379557291666,
+      "normalized": 0.5996594226402855,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.3246053059895833,
+      "oracle": 0.6272379557291666,
+      "normalized": 0.5996594226402855,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "stateless_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.27734375,
+      "oracle": 0.3387858072916667,
+      "normalized": 0.8591469348037626,
+      "mi": 0.8321411095935177,
+      "message_entropy": 1.495911043560382
+    },
+    {
+      "seed": 68102,
+      "condition": "stateless_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.25620524088541663,
+      "oracle": 0.3387858072916667,
+      "normalized": 0.7230173532273759,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "stateless_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.27734375,
+      "oracle": 0.3387858072916667,
+      "normalized": 0.8591469348037626,
+      "mi": 0.000621251020077975,
+      "message_entropy": 1.495911043560382
+    },
+    {
+      "seed": 68102,
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.2611185709635417,
+      "oracle": 0.3387858072916667,
+      "normalized": 0.7744891339604282,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.2611185709635417,
+      "oracle": 0.3387858072916667,
+      "normalized": 0.7744891339604282,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.2611185709635417,
+      "oracle": 0.3387858072916667,
+      "normalized": 0.7744891339604282,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "stateless_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.21514892578125,
+      "oracle": 0.3387858072916667,
+      "normalized": 0.734471294193967,
+      "mi": 0.834635722954404,
+      "message_entropy": 1.5033948836430415
+    },
+    {
+      "seed": 68102,
+      "condition": "stateless_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.23573811848958334,
+      "oracle": 0.3387858072916667,
+      "normalized": 0.7857403503081414,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "stateless_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.21514892578125,
+      "oracle": 0.3387858072916667,
+      "normalized": 0.734471294193967,
+      "mi": 0.0005305219259113298,
+      "message_entropy": 1.5033948836430415
+    },
+    {
+      "seed": 68102,
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.21514892578125,
+      "oracle": 0.3387858072916667,
+      "normalized": 0.734471294193967,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.21514892578125,
+      "oracle": 0.3387858072916667,
+      "normalized": 0.734471294193967,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.21514892578125,
+      "oracle": 0.3387858072916667,
+      "normalized": 0.734471294193967,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.5519612630208334,
+      "oracle": 0.6288655598958333,
+      "normalized": 0.958993853121967,
+      "mi": 0.8324002280836614,
+      "message_entropy": 1.4967866351414747
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.30461629231770837,
+      "oracle": 0.6288655598958333,
+      "normalized": 0.541410546748625,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.5608927408854166,
+      "oracle": 0.6288655598958333,
+      "normalized": 0.9731963765771595,
+      "mi": 0.0004612896278724093,
+      "message_entropy": 1.4967866351414747
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.5777486165364584,
+      "oracle": 0.6288655598958333,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.5777486165364584,
+      "oracle": 0.6288655598958333,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.5777486165364584,
+      "oracle": 0.6288655598958333,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.5828348795572916,
+      "oracle": 0.6288655598958333,
+      "normalized": 1.0,
+      "mi": 0.48767342705301325,
+      "message_entropy": 1.4870371644332383
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.3173828125,
+      "oracle": 0.6288655598958333,
+      "normalized": 0.585975412487868,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.3096720377604167,
+      "oracle": 0.6288655598958333,
+      "normalized": 0.5719022969912649,
+      "mi": 0.0004051754038317303,
+      "message_entropy": 1.4870371644332383
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.31524658203125,
+      "oracle": 0.6288655598958333,
+      "normalized": 0.5825784535748949,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.31524658203125,
+      "oracle": 0.6288655598958333,
+      "normalized": 0.5825784535748949,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.31524658203125,
+      "oracle": 0.6288655598958333,
+      "normalized": 0.5825784535748949,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.26438395182291663,
+      "oracle": 0.336181640625,
+      "normalized": 0.8371077321255257,
+      "mi": 0.6667949946154416,
+      "message_entropy": 0.9999709347368158
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.18609619140625,
+      "oracle": 0.336181640625,
+      "normalized": 0.5593254610158525,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.2590128580729167,
+      "oracle": 0.336181640625,
+      "normalized": 0.8258249757360078,
+      "mi": 0.0002723487389875943,
+      "message_entropy": 0.9999709347368158
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.27488199869791663,
+      "oracle": 0.336181640625,
+      "normalized": 0.8586218052410223,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.27488199869791663,
+      "oracle": 0.336181640625,
+      "normalized": 0.8586218052410223,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.27488199869791663,
+      "oracle": 0.336181640625,
+      "normalized": 0.8586218052410223,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.21189371744791666,
+      "oracle": 0.336181640625,
+      "normalized": 0.7301439663539308,
+      "mi": 0.48767342705301325,
+      "message_entropy": 1.4870371644332383
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.12699381510416669,
+      "oracle": 0.336181640625,
+      "normalized": 0.42158686509220317,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.21189371744791666,
+      "oracle": 0.336181640625,
+      "normalized": 0.7301439663539308,
+      "mi": 0.0004051754038317303,
+      "message_entropy": 1.4870371644332383
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_scarce_PI_live_switching",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.181121826171875,
+      "oracle": 0.5382893880208334,
+      "normalized": 0.3499857584635417,
+      "mi": 0.9082343322467702,
+      "message_entropy": 2.239855423742105
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_scarce_PI_live_switching",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.103607177734375,
+      "oracle": 0.5382893880208334,
+      "normalized": 0.1686859130859375,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_scarce_PI_live_switching",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.20360310872395834,
+      "oracle": 0.5382893880208334,
+      "normalized": 0.38370768229166674,
+      "mi": 0.0005975454204070954,
+      "message_entropy": 2.239855423742105
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.21189371744791666,
+      "oracle": 0.336181640625,
+      "normalized": 0.7301439663539308,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.21189371744791666,
+      "oracle": 0.336181640625,
+      "normalized": 0.7301439663539308,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.21189371744791666,
+      "oracle": 0.336181640625,
+      "normalized": 0.7301439663539308,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.205230712890625,
+      "oracle": 0.5382893880208334,
+      "normalized": 0.3861490885416667,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.205230712890625,
+      "oracle": 0.5382893880208334,
+      "normalized": 0.3861490885416667,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.205230712890625,
+      "oracle": 0.5382893880208334,
+      "normalized": 0.3861490885416667,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "stateless_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.5777486165364584,
+      "oracle": 0.6288655598958333,
+      "normalized": 1.0,
+      "mi": 0.48767342705301325,
+      "message_entropy": 1.4870371644332383
+    },
+    {
+      "seed": 68103,
+      "condition": "stateless_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.49251302083333337,
+      "oracle": 0.6288655598958333,
+      "normalized": 0.8563733419605306,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "stateless_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.5777486165364584,
+      "oracle": 0.6288655598958333,
+      "normalized": 1.0,
+      "mi": 0.00040517540383173007,
+      "message_entropy": 1.4870371644332383
+    },
+    {
+      "seed": 68103,
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.5777486165364584,
+      "oracle": 0.6288655598958333,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.5777486165364584,
+      "oracle": 0.6288655598958333,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.5777486165364584,
+      "oracle": 0.6288655598958333,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "stateless_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.3173828125,
+      "oracle": 0.6288655598958333,
+      "normalized": 0.585975412487868,
+      "mi": 0.48767342705301325,
+      "message_entropy": 1.4870371644332383
+    },
+    {
+      "seed": 68103,
+      "condition": "stateless_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.3173828125,
+      "oracle": 0.6288655598958333,
+      "normalized": 0.585975412487868,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "stateless_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.3173828125,
+      "oracle": 0.6288655598958333,
+      "normalized": 0.585975412487868,
+      "mi": 0.0004051754038317303,
+      "message_entropy": 1.4870371644332383
+    },
+    {
+      "seed": 68103,
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.31524658203125,
+      "oracle": 0.6288655598958333,
+      "normalized": 0.5825784535748949,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.31524658203125,
+      "oracle": 0.6288655598958333,
+      "normalized": 0.5825784535748949,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.31524658203125,
+      "oracle": 0.6288655598958333,
+      "normalized": 0.5825784535748949,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "stateless_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.2800191243489583,
+      "oracle": 0.336181640625,
+      "normalized": 0.8586218052410223,
+      "mi": 0.9998888932448672,
+      "message_entropy": 1.999252630625092
+    },
+    {
+      "seed": 68103,
+      "condition": "stateless_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.258575439453125,
+      "oracle": 0.336181640625,
+      "normalized": 0.77337431252022,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "stateless_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.271148681640625,
+      "oracle": 0.336181640625,
+      "normalized": 0.8380782918149466,
+      "mi": 0.0007150394946956112,
+      "message_entropy": 1.999252630625092
+    },
+    {
+      "seed": 68103,
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.27488199869791663,
+      "oracle": 0.336181640625,
+      "normalized": 0.8586218052410223,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.27488199869791663,
+      "oracle": 0.336181640625,
+      "normalized": 0.8586218052410223,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.27488199869791663,
+      "oracle": 0.336181640625,
+      "normalized": 0.8586218052410223,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "stateless_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.21189371744791666,
+      "oracle": 0.336181640625,
+      "normalized": 0.7301439663539308,
+      "mi": 0.9998888932448672,
+      "message_entropy": 1.999252630625092
+    },
+    {
+      "seed": 68103,
+      "condition": "stateless_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.23285929361979166,
+      "oracle": 0.336181640625,
+      "normalized": 0.7820689097379488,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "stateless_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.21189371744791666,
+      "oracle": 0.336181640625,
+      "normalized": 0.7301439663539308,
+      "mi": 0.0007150394946956112,
+      "message_entropy": 1.999252630625092
+    },
+    {
+      "seed": 68103,
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.21189371744791666,
+      "oracle": 0.336181640625,
+      "normalized": 0.7301439663539308,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.21189371744791666,
+      "oracle": 0.336181640625,
+      "normalized": 0.7301439663539308,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.21189371744791666,
+      "oracle": 0.336181640625,
+      "normalized": 0.7301439663539308,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.5792744954427084,
+      "oracle": 0.6300862630208334,
+      "normalized": 1.0,
+      "mi": 0.5019464836050017,
+      "message_entropy": 1.5018927786859901
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.2159423828125,
+      "oracle": 0.6300862630208334,
+      "normalized": 0.3908298353245076,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.5724589029947917,
+      "oracle": 0.6300862630208334,
+      "normalized": 0.9891830804003875,
+      "mi": 0.000830087464724273,
+      "message_entropy": 1.5018927786859901
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.5792744954427084,
+      "oracle": 0.6300862630208334,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.5792744954427084,
+      "oracle": 0.6300862630208334,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.5792744954427084,
+      "oracle": 0.6300862630208334,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.5520121256510417,
+      "oracle": 0.6300862630208334,
+      "normalized": 0.9567323216015499,
+      "mi": 0.999976438077104,
+      "message_entropy": 1.9999227331580927
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.16017659505208331,
+      "oracle": 0.6300862630208334,
+      "normalized": 0.2943978043267678,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.32094319661458337,
+      "oracle": 0.6300862630208334,
+      "normalized": 0.5900064578624475,
+      "mi": 0.0014736355918006136,
+      "message_entropy": 1.9999227331580927
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.31707763671875,
+      "oracle": 0.6300862630208334,
+      "normalized": 0.5838714885372942,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.31707763671875,
+      "oracle": 0.6300862630208334,
+      "normalized": 0.5838714885372942,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.31707763671875,
+      "oracle": 0.6300862630208334,
+      "normalized": 0.5838714885372942,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.259124755859375,
+      "oracle": 0.33740234375,
+      "normalized": 0.7912294155634485,
+      "mi": 0.999976438077104,
+      "message_entropy": 1.9999227331580927
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.17972819010416666,
+      "oracle": 0.33740234375,
+      "normalized": 0.6529302550855667,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.2567850748697917,
+      "oracle": 0.33740234375,
+      "normalized": 0.8169397804326768,
+      "mi": 0.001473635591800613,
+      "message_entropy": 1.9999227331580927
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.259735107421875,
+      "oracle": 0.33740234375,
+      "normalized": 0.7738335485954149,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.259735107421875,
+      "oracle": 0.33740234375,
+      "normalized": 0.7738335485954149,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.259735107421875,
+      "oracle": 0.33740234375,
+      "normalized": 0.7738335485954149,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.21341959635416669,
+      "oracle": 0.33740234375,
+      "normalized": 0.7308484016790442,
+      "mi": 0.999976438077104,
+      "message_entropy": 1.9999227331580927
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.11678059895833334,
+      "oracle": 0.33740234375,
+      "normalized": 0.4138077171456248,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.21341959635416669,
+      "oracle": 0.33740234375,
+      "normalized": 0.7308484016790442,
+      "mi": 0.001473635591800613,
+      "message_entropy": 1.9999227331580927
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_scarce_PI_live_switching",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.231781005859375,
+      "oracle": 0.5413411458333333,
+      "normalized": 0.4268900553385417,
+      "mi": 0.5113643344405046,
+      "message_entropy": 1.520200378948214
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_scarce_PI_live_switching",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.12459309895833333,
+      "oracle": 0.5413411458333333,
+      "normalized": 0.26288859049479163,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_scarce_PI_live_switching",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.20899454752604169,
+      "oracle": 0.5413411458333333,
+      "normalized": 0.3927103678385417,
+      "mi": 0.0006171737597604464,
+      "message_entropy": 1.520200378948214
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.21341959635416669,
+      "oracle": 0.33740234375,
+      "normalized": 0.7308484016790442,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.21341959635416669,
+      "oracle": 0.33740234375,
+      "normalized": 0.7308484016790442,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.21341959635416669,
+      "oracle": 0.33740234375,
+      "normalized": 0.7308484016790442,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.20563761393229169,
+      "oracle": 0.5413411458333333,
+      "normalized": 0.3876749674479167,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.20563761393229169,
+      "oracle": 0.5413411458333333,
+      "normalized": 0.3876749674479167,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.20563761393229169,
+      "oracle": 0.5413411458333333,
+      "normalized": 0.3876749674479167,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "stateless_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.5792744954427084,
+      "oracle": 0.6300862630208334,
+      "normalized": 1.0,
+      "mi": 0.999976438077104,
+      "message_entropy": 1.9999227331580927
+    },
+    {
+      "seed": 68104,
+      "condition": "stateless_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.536102294921875,
+      "oracle": 0.6300862630208334,
+      "normalized": 0.9232805941233452,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "stateless_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.5792744954427084,
+      "oracle": 0.6300862630208334,
+      "normalized": 1.0,
+      "mi": 0.001473635591800613,
+      "message_entropy": 1.9999227331580927
+    },
+    {
+      "seed": 68104,
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.5792744954427084,
+      "oracle": 0.6300862630208334,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.5792744954427084,
+      "oracle": 0.6300862630208334,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.5792744954427084,
+      "oracle": 0.6300862630208334,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "stateless_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.31707763671875,
+      "oracle": 0.6300862630208334,
+      "normalized": 0.5838714885372942,
+      "mi": 0.6635602561903817,
+      "message_entropy": 1.4952984603280093
+    },
+    {
+      "seed": 68104,
+      "condition": "stateless_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.2851765950520833,
+      "oracle": 0.6300862630208334,
+      "normalized": 0.525040361640297,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "stateless_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.31707763671875,
+      "oracle": 0.6300862630208334,
+      "normalized": 0.5838714885372942,
+      "mi": 0.0008407842458962501,
+      "message_entropy": 1.4952984603280093
+    },
+    {
+      "seed": 68104,
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.31707763671875,
+      "oracle": 0.6300862630208334,
+      "normalized": 0.5838714885372942,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.31707763671875,
+      "oracle": 0.6300862630208334,
+      "normalized": 0.5838714885372942,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.31707763671875,
+      "oracle": 0.6300862630208334,
+      "normalized": 0.5838714885372942,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "stateless_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.2535603841145833,
+      "oracle": 0.33740234375,
+      "normalized": 0.7691515983209558,
+      "mi": 0.999976438077104,
+      "message_entropy": 1.9999227331580927
+    },
+    {
+      "seed": 68104,
+      "condition": "stateless_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.26954142252604163,
+      "oracle": 0.33740234375,
+      "normalized": 0.8014207297384566,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "stateless_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.270050048828125,
+      "oracle": 0.33740234375,
+      "normalized": 0.8293711656441718,
+      "mi": 0.001473635591800613,
+      "message_entropy": 1.9999227331580927
+    },
+    {
+      "seed": 68104,
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.259735107421875,
+      "oracle": 0.33740234375,
+      "normalized": 0.7738335485954149,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.259735107421875,
+      "oracle": 0.33740234375,
+      "normalized": 0.7738335485954149,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.259735107421875,
+      "oracle": 0.33740234375,
+      "normalized": 0.7738335485954149,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "stateless_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.21341959635416669,
+      "oracle": 0.33740234375,
+      "normalized": 0.7308484016790442,
+      "mi": 0.8329237159706736,
+      "message_entropy": 1.498764566838802
+    },
+    {
+      "seed": 68104,
+      "condition": "stateless_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.23467000325520834,
+      "oracle": 0.33740234375,
+      "normalized": 0.7840248627704229,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "stateless_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.21341959635416669,
+      "oracle": 0.33740234375,
+      "normalized": 0.7308484016790442,
+      "mi": 0.0014721841578431072,
+      "message_entropy": 1.498764566838802
+    },
+    {
+      "seed": 68104,
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.21341959635416669,
+      "oracle": 0.33740234375,
+      "normalized": 0.7308484016790442,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.21341959635416669,
+      "oracle": 0.33740234375,
+      "normalized": 0.7308484016790442,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.21341959635416669,
+      "oracle": 0.33740234375,
+      "normalized": 0.7308484016790442,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.57342529296875,
+      "oracle": 0.6254069010416666,
+      "normalized": 1.0,
+      "mi": 0.8355726207188746,
+      "message_entropy": 1.5063535739369722
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.19957478841145831,
+      "oracle": 0.6254069010416666,
+      "normalized": 0.3772446324007807,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.5628865559895834,
+      "oracle": 0.6254069010416666,
+      "normalized": 0.983148991541965,
+      "mi": 0.0001389417216776604,
+      "message_entropy": 1.5063535739369722
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.57342529296875,
+      "oracle": 0.6254069010416666,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.57342529296875,
+      "oracle": 0.6254069010416666,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.57342529296875,
+      "oracle": 0.6254069010416666,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.5786539713541666,
+      "oracle": 0.6254069010416666,
+      "normalized": 1.0,
+      "mi": 0.5131165846665223,
+      "message_entropy": 1.512561046092406
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.18129475911458331,
+      "oracle": 0.6254069010416666,
+      "normalized": 0.3397527651268706,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.29597981770833337,
+      "oracle": 0.6254069010416666,
+      "normalized": 0.5544567338972024,
+      "mi": 0.00014631279800359607,
+      "message_entropy": 1.512561046092406
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.3061930338541667,
+      "oracle": 0.6254069010416666,
+      "normalized": 0.5727065712426805,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.3061930338541667,
+      "oracle": 0.6254069010416666,
+      "normalized": 0.5727065712426805,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.3061930338541667,
+      "oracle": 0.6254069010416666,
+      "normalized": 0.5727065712426805,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.24959309895833331,
+      "oracle": 0.328857421875,
+      "normalized": 0.8068274235523748,
+      "mi": 0.5131165846665223,
+      "message_entropy": 1.512561046092406
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.08551025390625,
+      "oracle": 0.328857421875,
+      "normalized": 0.3309206245933637,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.24454752604166669,
+      "oracle": 0.328857421875,
+      "normalized": 0.8067460962914769,
+      "mi": 0.00014631279800359593,
+      "message_entropy": 1.512561046092406
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.26526896158854163,
+      "oracle": 0.328857421875,
+      "normalized": 0.8485889720234222,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.26526896158854163,
+      "oracle": 0.328857421875,
+      "normalized": 0.8485889720234222,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.26526896158854163,
+      "oracle": 0.328857421875,
+      "normalized": 0.8485889720234222,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.20273844401041669,
+      "oracle": 0.328857421875,
+      "normalized": 0.7233043266102798,
+      "mi": 0.8310749039773985,
+      "message_entropy": 1.4928604237125438
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.11017862955729166,
+      "oracle": 0.328857421875,
+      "normalized": 0.4085881587508133,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.20273844401041669,
+      "oracle": 0.328857421875,
+      "normalized": 0.7233043266102798,
+      "mi": 0.00012615612540430518,
+      "message_entropy": 1.4928604237125438
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_scarce_PI_live_switching",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.20319620768229169,
+      "oracle": 0.5399169921875,
+      "normalized": 0.3841654459635417,
+      "mi": 1.0821988226089272,
+      "message_entropy": 2.2460212147866696
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_scarce_PI_live_switching",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.21898396809895831,
+      "oracle": 0.5399169921875,
+      "normalized": 0.4121246337890625,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_scarce_PI_live_switching",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.20716349283854169,
+      "oracle": 0.5399169921875,
+      "normalized": 0.3901163736979167,
+      "mi": 0.0027360195835552776,
+      "message_entropy": 2.2460212147866696
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.20273844401041669,
+      "oracle": 0.328857421875,
+      "normalized": 0.7233043266102798,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.20273844401041669,
+      "oracle": 0.328857421875,
+      "normalized": 0.7233043266102798,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.20273844401041669,
+      "oracle": 0.328857421875,
+      "normalized": 0.7233043266102798,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.20197550455729169,
+      "oracle": 0.5399169921875,
+      "normalized": 0.3823343912760417,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.20197550455729169,
+      "oracle": 0.5399169921875,
+      "normalized": 0.3823343912760417,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.20197550455729169,
+      "oracle": 0.5399169921875,
+      "normalized": 0.3823343912760417,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "stateless_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.57342529296875,
+      "oracle": 0.6254069010416666,
+      "normalized": 1.0,
+      "mi": 0.6682375902907413,
+      "message_entropy": 1.5018486594506115
+    },
+    {
+      "seed": 68105,
+      "condition": "stateless_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.5470784505208334,
+      "oracle": 0.6254069010416666,
+      "normalized": 0.9578724788549121,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "stateless_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.57342529296875,
+      "oracle": 0.6254069010416666,
+      "normalized": 1.0,
+      "mi": 0.0001578442822261749,
+      "message_entropy": 1.5018486594506115
+    },
+    {
+      "seed": 68105,
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.57342529296875,
+      "oracle": 0.6254069010416666,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.57342529296875,
+      "oracle": 0.6254069010416666,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.57342529296875,
+      "oracle": 0.6254069010416666,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "stateless_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.3061930338541667,
+      "oracle": 0.6254069010416666,
+      "normalized": 0.5727065712426805,
+      "mi": 0.9999043748227675,
+      "message_entropy": 1.9993488362486511
+    },
+    {
+      "seed": 68105,
+      "condition": "stateless_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.3061930338541667,
+      "oracle": 0.6254069010416666,
+      "normalized": 0.5727065712426805,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "stateless_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.3061930338541667,
+      "oracle": 0.6254069010416666,
+      "normalized": 0.5727065712426805,
+      "mi": 0.0002064244147275398,
+      "message_entropy": 1.9993488362486511
+    },
+    {
+      "seed": 68105,
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.3061930338541667,
+      "oracle": 0.6254069010416666,
+      "normalized": 0.5727065712426805,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.3061930338541667,
+      "oracle": 0.6254069010416666,
+      "normalized": 0.5727065712426805,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.3061930338541667,
+      "oracle": 0.6254069010416666,
+      "normalized": 0.5727065712426805,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "stateless_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.26526896158854163,
+      "oracle": 0.328857421875,
+      "normalized": 0.8485889720234222,
+      "mi": 0.9999043748227675,
+      "message_entropy": 1.9993488362486511
+    },
+    {
+      "seed": 68105,
+      "condition": "stateless_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.23386637369791663,
+      "oracle": 0.328857421875,
+      "normalized": 0.8074170461938842,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "stateless_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.26526896158854163,
+      "oracle": 0.328857421875,
+      "normalized": 0.8485889720234222,
+      "mi": 0.0002064244147275396,
+      "message_entropy": 1.9993488362486511
+    },
+    {
+      "seed": 68105,
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.26526896158854163,
+      "oracle": 0.328857421875,
+      "normalized": 0.8485889720234222,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.26526896158854163,
+      "oracle": 0.328857421875,
+      "normalized": 0.8485889720234222,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.26526896158854163,
+      "oracle": 0.328857421875,
+      "normalized": 0.8485889720234222,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "stateless_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.20273844401041669,
+      "oracle": 0.328857421875,
+      "normalized": 0.7233043266102798,
+      "mi": 0.9999043748227675,
+      "message_entropy": 1.9993488362486511
+    },
+    {
+      "seed": 68105,
+      "condition": "stateless_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.223052978515625,
+      "oracle": 0.328857421875,
+      "normalized": 0.7743778464541314,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "stateless_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.20273844401041669,
+      "oracle": 0.328857421875,
+      "normalized": 0.7233043266102798,
+      "mi": 0.0002064244147275396,
+      "message_entropy": 1.9993488362486511
+    },
+    {
+      "seed": 68105,
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.20273844401041669,
+      "oracle": 0.328857421875,
+      "normalized": 0.7233043266102798,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.20273844401041669,
+      "oracle": 0.328857421875,
+      "normalized": 0.7233043266102798,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.20273844401041669,
+      "oracle": 0.328857421875,
+      "normalized": 0.7233043266102798,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.5790201822916667,
+      "oracle": 0.6298828125,
+      "normalized": 1.0,
+      "mi": 0.6756403202771754,
+      "message_entropy": 1.5129704101639039
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.23157755533854169,
+      "oracle": 0.6298828125,
+      "normalized": 0.41610142118863047,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.5733744303385416,
+      "oracle": 0.6298828125,
+      "normalized": 0.9910368217054264,
+      "mi": 0.00012826276337045707,
+      "message_entropy": 1.5129704101639039
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.5790201822916667,
+      "oracle": 0.6298828125,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.5790201822916667,
+      "oracle": 0.6298828125,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.5790201822916667,
+      "oracle": 0.6298828125,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.5790201822916667,
+      "oracle": 0.6298828125,
+      "normalized": 1.0,
+      "mi": 0.9998128604475921,
+      "message_entropy": 1.999229220419529
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.2518310546875,
+      "oracle": 0.6298828125,
+      "normalized": 0.4646640826873385,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.32012939453125,
+      "oracle": 0.6298828125,
+      "normalized": 0.5889857881136951,
+      "mi": 0.00028441685340434937,
+      "message_entropy": 1.999229220419529
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.31768798828125,
+      "oracle": 0.6298828125,
+      "normalized": 0.585109819121447,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.31768798828125,
+      "oracle": 0.6298828125,
+      "normalized": 0.585109819121447,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.31768798828125,
+      "oracle": 0.6298828125,
+      "normalized": 0.585109819121447,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.26381429036458337,
+      "oracle": 0.3360188802083333,
+      "normalized": 0.8355337532299741,
+      "mi": 0.32473672257700065,
+      "message_entropy": 0.8300585837782112
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.117095947265625,
+      "oracle": 0.3360188802083333,
+      "normalized": 0.4158389857881137,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.26381429036458337,
+      "oracle": 0.3360188802083333,
+      "normalized": 0.8355337532299741,
+      "mi": 0.00011990277625032603,
+      "message_entropy": 0.8300585837782112
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.2582499186197917,
+      "oracle": 0.3360188802083333,
+      "normalized": 0.7724281330749354,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.2582499186197917,
+      "oracle": 0.3360188802083333,
+      "normalized": 0.7724281330749354,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.2582499186197917,
+      "oracle": 0.3360188802083333,
+      "normalized": 0.7724281330749354,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.21169026692708331,
+      "oracle": 0.3360188802083333,
+      "normalized": 0.7292676033591732,
+      "mi": 0.833808746104833,
+      "message_entropy": 1.5012168773912518
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.14776611328125,
+      "oracle": 0.3360188802083333,
+      "normalized": 0.5185925387596899,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.21169026692708331,
+      "oracle": 0.3360188802083333,
+      "normalized": 0.7292676033591732,
+      "mi": 0.00021222534078549427,
+      "message_entropy": 1.5012168773912518
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_scarce_PI_live_switching",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.18717447916666669,
+      "oracle": 0.5420328776041667,
+      "normalized": 0.35977681477864587,
+      "mi": 1.077615050484489,
+      "message_entropy": 2.743442287709426
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_scarce_PI_live_switching",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.19983927408854166,
+      "oracle": 0.5420328776041667,
+      "normalized": 0.37250264485677087,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_scarce_PI_live_switching",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.21067301432291669,
+      "oracle": 0.5420328776041667,
+      "normalized": 0.39502461751302087,
+      "mi": 0.001300649027105716,
+      "message_entropy": 2.743442287709426
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.21169026692708331,
+      "oracle": 0.3360188802083333,
+      "normalized": 0.7292676033591732,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.21169026692708331,
+      "oracle": 0.3360188802083333,
+      "normalized": 0.7292676033591732,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.21169026692708331,
+      "oracle": 0.3360188802083333,
+      "normalized": 0.7292676033591732,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.21026611328125,
+      "oracle": 0.5420328776041667,
+      "normalized": 0.39441426595052087,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.21026611328125,
+      "oracle": 0.5420328776041667,
+      "normalized": 0.39441426595052087,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.21026611328125,
+      "oracle": 0.5420328776041667,
+      "normalized": 0.39441426595052087,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "stateless_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.5790201822916667,
+      "oracle": 0.6298828125,
+      "normalized": 1.0,
+      "mi": 0.9998128604475921,
+      "message_entropy": 1.999229220419529
+    },
+    {
+      "seed": 68106,
+      "condition": "stateless_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.5360310872395833,
+      "oracle": 0.6298828125,
+      "normalized": 0.923546511627907,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "stateless_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.5790201822916667,
+      "oracle": 0.6298828125,
+      "normalized": 1.0,
+      "mi": 0.0002844168534043494,
+      "message_entropy": 1.999229220419529
+    },
+    {
+      "seed": 68106,
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.5790201822916667,
+      "oracle": 0.6298828125,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.5790201822916667,
+      "oracle": 0.6298828125,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.5790201822916667,
+      "oracle": 0.6298828125,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "stateless_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.31768798828125,
+      "oracle": 0.6298828125,
+      "normalized": 0.585109819121447,
+      "mi": 0.9998128604475921,
+      "message_entropy": 1.999229220419529
+    },
+    {
+      "seed": 68106,
+      "condition": "stateless_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.31768798828125,
+      "oracle": 0.6298828125,
+      "normalized": 0.585109819121447,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "stateless_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.31768798828125,
+      "oracle": 0.6298828125,
+      "normalized": 0.585109819121447,
+      "mi": 0.0002844168534043491,
+      "message_entropy": 1.999229220419529
+    },
+    {
+      "seed": 68106,
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.31768798828125,
+      "oracle": 0.6298828125,
+      "normalized": 0.585109819121447,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.31768798828125,
+      "oracle": 0.6298828125,
+      "normalized": 0.585109819121447,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.31768798828125,
+      "oracle": 0.6298828125,
+      "normalized": 0.585109819121447,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "stateless_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.26381429036458337,
+      "oracle": 0.3360188802083333,
+      "normalized": 0.8355337532299741,
+      "mi": 0.4913699884220722,
+      "message_entropy": 1.4907863483940091
+    },
+    {
+      "seed": 68106,
+      "condition": "stateless_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.28456624348958337,
+      "oracle": 0.3360188802083333,
+      "normalized": 0.8875161498708011,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "stateless_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.26381429036458337,
+      "oracle": 0.3360188802083333,
+      "normalized": 0.8355337532299741,
+      "mi": 3.101222110333627e-05,
+      "message_entropy": 1.4907863483940091
+    },
+    {
+      "seed": 68106,
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.2582499186197917,
+      "oracle": 0.3360188802083333,
+      "normalized": 0.7724281330749354,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.2582499186197917,
+      "oracle": 0.3360188802083333,
+      "normalized": 0.7724281330749354,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.2582499186197917,
+      "oracle": 0.3360188802083333,
+      "normalized": 0.7724281330749354,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "stateless_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.2166748046875,
+      "oracle": 0.3360188802083333,
+      "normalized": 0.7490511950904393,
+      "mi": 0.9998128604475921,
+      "message_entropy": 1.999229220419529
+    },
+    {
+      "seed": 68106,
+      "condition": "stateless_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.21169026692708331,
+      "oracle": 0.3360188802083333,
+      "normalized": 0.7292676033591732,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "stateless_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.21680704752604166,
+      "oracle": 0.3360188802083333,
+      "normalized": 0.7422884366925064,
+      "mi": 0.0002844168534043494,
+      "message_entropy": 1.999229220419529
+    },
+    {
+      "seed": 68106,
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.21169026692708331,
+      "oracle": 0.3360188802083333,
+      "normalized": 0.7292676033591732,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.21169026692708331,
+      "oracle": 0.3360188802083333,
+      "normalized": 0.7292676033591732,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.21169026692708331,
+      "oracle": 0.3360188802083333,
+      "normalized": 0.7292676033591732,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.5728658040364583,
+      "oracle": 0.6207275390625,
+      "normalized": 1.0,
+      "mi": 0.9994151491822395,
+      "message_entropy": 1.9984952204527602
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.13611857096354166,
+      "oracle": 0.6207275390625,
+      "normalized": 0.27058341527368074,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.5506083170572917,
+      "oracle": 0.6207275390625,
+      "normalized": 0.9703703703703704,
+      "mi": 0.00016556637069427976,
+      "message_entropy": 1.9984952204527602
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.5675760904947917,
+      "oracle": 0.6207275390625,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.5675760904947917,
+      "oracle": 0.6207275390625,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.5675760904947917,
+      "oracle": 0.6207275390625,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.5729166666666667,
+      "oracle": 0.6207275390625,
+      "normalized": 1.0,
+      "mi": 0.5142923806029612,
+      "message_entropy": 1.5133724518734817
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.147308349609375,
+      "oracle": 0.6207275390625,
+      "normalized": 0.28000655522779416,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.29726155598958337,
+      "oracle": 0.6207275390625,
+      "normalized": 0.562372992461488,
+      "mi": 0.0001430913141290188,
+      "message_entropy": 1.5133724518734817
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.3011067708333333,
+      "oracle": 0.6207275390625,
+      "normalized": 0.5707145198295641,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.3011067708333333,
+      "oracle": 0.6207275390625,
+      "normalized": 0.5707145198295641,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.3011067708333333,
+      "oracle": 0.6207275390625,
+      "normalized": 0.5707145198295641,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.25803629557291663,
+      "oracle": 0.32657877604166663,
+      "normalized": 0.8077679449360865,
+      "mi": 0.9994151491822398,
+      "message_entropy": 1.9984952204527602
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.16996256510416666,
+      "oracle": 0.32657877604166663,
+      "normalized": 0.6506678138315306,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.243682861328125,
+      "oracle": 0.32657877604166663,
+      "normalized": 0.7986315961979679,
+      "mi": 0.00016556637069427955,
+      "message_entropy": 1.9984952204527602
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.263153076171875,
+      "oracle": 0.32657877604166663,
+      "normalized": 0.8498852835136022,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.263153076171875,
+      "oracle": 0.32657877604166663,
+      "normalized": 0.8498852835136022,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.263153076171875,
+      "oracle": 0.32657877604166663,
+      "normalized": 0.8498852835136022,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.19989013671875,
+      "oracle": 0.32657877604166663,
+      "normalized": 0.7235332677810554,
+      "mi": 0.000341301730487469,
+      "message_entropy": 0.9994213730010078
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.10178629557291666,
+      "oracle": 0.32657877604166663,
+      "normalized": 0.3711692887577843,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.19989013671875,
+      "oracle": 0.32657877604166663,
+      "normalized": 0.7235332677810554,
+      "mi": 9.090617852793952e-05,
+      "message_entropy": 0.9994213730010078
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_scarce_PI_live_switching",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.18712361653645831,
+      "oracle": 0.5434163411458333,
+      "normalized": 0.35832722981770837,
+      "mi": 0.6887463484132043,
+      "message_entropy": 1.9150670665106504
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_scarce_PI_live_switching",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.10511271158854167,
+      "oracle": 0.5434163411458333,
+      "normalized": 0.20806884765625,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_scarce_PI_live_switching",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.21235148111979166,
+      "oracle": 0.5434163411458333,
+      "normalized": 0.39616902669270837,
+      "mi": 0.0005298514431951729,
+      "message_entropy": 1.9150670665106504
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.19989013671875,
+      "oracle": 0.32657877604166663,
+      "normalized": 0.7235332677810554,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.19989013671875,
+      "oracle": 0.32657877604166663,
+      "normalized": 0.7235332677810554,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.19989013671875,
+      "oracle": 0.32657877604166663,
+      "normalized": 0.7235332677810554,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.21397908528645831,
+      "oracle": 0.5434163411458333,
+      "normalized": 0.39861043294270837,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.21397908528645831,
+      "oracle": 0.5434163411458333,
+      "normalized": 0.39861043294270837,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.21397908528645831,
+      "oracle": 0.5434163411458333,
+      "normalized": 0.39861043294270837,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "stateless_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.5675760904947917,
+      "oracle": 0.6207275390625,
+      "normalized": 1.0,
+      "mi": 0.9994151491822395,
+      "message_entropy": 1.9984952204527602
+    },
+    {
+      "seed": 68107,
+      "condition": "stateless_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.467864990234375,
+      "oracle": 0.6207275390625,
+      "normalized": 0.8222386102917076,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "stateless_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.5675760904947917,
+      "oracle": 0.6207275390625,
+      "normalized": 1.0,
+      "mi": 0.00016556637069427976,
+      "message_entropy": 1.9984952204527602
+    },
+    {
+      "seed": 68107,
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.5675760904947917,
+      "oracle": 0.6207275390625,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.5675760904947917,
+      "oracle": 0.6207275390625,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.5675760904947917,
+      "oracle": 0.6207275390625,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "stateless_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.2953592936197917,
+      "oracle": 0.6207275390625,
+      "normalized": 0.5614552605703048,
+      "mi": 0.6628347828914868,
+      "message_entropy": 1.4936246710166308
+    },
+    {
+      "seed": 68107,
+      "condition": "stateless_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.235809326171875,
+      "oracle": 0.6207275390625,
+      "normalized": 0.4483939691904293,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "stateless_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.2953592936197917,
+      "oracle": 0.6207275390625,
+      "normalized": 0.5614552605703048,
+      "mi": 0.00015935449863453197,
+      "message_entropy": 1.4936246710166308
+    },
+    {
+      "seed": 68107,
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.3011067708333333,
+      "oracle": 0.6207275390625,
+      "normalized": 0.5707145198295641,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.3011067708333333,
+      "oracle": 0.6207275390625,
+      "normalized": 0.5707145198295641,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.3011067708333333,
+      "oracle": 0.6207275390625,
+      "normalized": 0.5707145198295641,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "stateless_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.263153076171875,
+      "oracle": 0.32657877604166663,
+      "normalized": 0.8498852835136022,
+      "mi": 0.3044741865227167,
+      "message_entropy": 0.8174108828059471
+    },
+    {
+      "seed": 68107,
+      "condition": "stateless_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.259490966796875,
+      "oracle": 0.32657877604166663,
+      "normalized": 0.8034455916093084,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "stateless_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.263153076171875,
+      "oracle": 0.32657877604166663,
+      "normalized": 0.8498852835136022,
+      "mi": 5.0177199609294076e-06,
+      "message_entropy": 0.8174108828059471
+    },
+    {
+      "seed": 68107,
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.263153076171875,
+      "oracle": 0.32657877604166663,
+      "normalized": 0.8498852835136022,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.263153076171875,
+      "oracle": 0.32657877604166663,
+      "normalized": 0.8498852835136022,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.263153076171875,
+      "oracle": 0.32657877604166663,
+      "normalized": 0.8498852835136022,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "stateless_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.19989013671875,
+      "oracle": 0.32657877604166663,
+      "normalized": 0.7235332677810554,
+      "mi": 0.6628347828914868,
+      "message_entropy": 1.4936246710166308
+    },
+    {
+      "seed": 68107,
+      "condition": "stateless_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.22089640299479169,
+      "oracle": 0.32657877604166663,
+      "normalized": 0.7764462471320879,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "stateless_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.19989013671875,
+      "oracle": 0.32657877604166663,
+      "normalized": 0.7235332677810554,
+      "mi": 0.00015935449863453197,
+      "message_entropy": 1.4936246710166308
+    },
+    {
+      "seed": 68107,
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.19989013671875,
+      "oracle": 0.32657877604166663,
+      "normalized": 0.7235332677810554,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.19989013671875,
+      "oracle": 0.32657877604166663,
+      "normalized": 0.7235332677810554,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.19989013671875,
+      "oracle": 0.32657877604166663,
+      "normalized": 0.7235332677810554,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.5830891927083334,
+      "oracle": 0.6331380208333333,
+      "normalized": 1.0,
+      "mi": 0.8327543715074017,
+      "message_entropy": 1.4972893848423174
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.18089803059895834,
+      "oracle": 0.6331380208333333,
+      "normalized": 0.3489556555269922,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.5830891927083334,
+      "oracle": 0.6331380208333333,
+      "normalized": 1.0,
+      "mi": 0.0009202783307311271,
+      "message_entropy": 1.4972893848423174
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.5830891927083334,
+      "oracle": 0.6331380208333333,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.5830891927083334,
+      "oracle": 0.6331380208333333,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.5830891927083334,
+      "oracle": 0.6331380208333333,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.588165283203125,
+      "oracle": 0.6331380208333333,
+      "normalized": 1.0,
+      "mi": 0.4814910074578009,
+      "message_entropy": 1.480438852530683
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.19334920247395831,
+      "oracle": 0.6331380208333333,
+      "normalized": 0.35303663239074545,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.31226603190104163,
+      "oracle": 0.6331380208333333,
+      "normalized": 0.570404884318766,
+      "mi": 0.0013102954089460287,
+      "message_entropy": 1.480438852530683
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.3225199381510417,
+      "oracle": 0.6331380208333333,
+      "normalized": 0.5884479434447301,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.3225199381510417,
+      "oracle": 0.6331380208333333,
+      "normalized": 0.5884479434447301,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.3225199381510417,
+      "oracle": 0.6331380208333333,
+      "normalized": 0.5884479434447301,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.258544921875,
+      "oracle": 0.34033203125,
+      "normalized": 0.8171192159383034,
+      "mi": 0.6704606583408567,
+      "message_entropy": 1.5046584388959747
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.19977823893229166,
+      "oracle": 0.34033203125,
+      "normalized": 0.6704691516709511,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.258544921875,
+      "oracle": 0.34033203125,
+      "normalized": 0.8171192159383034,
+      "mi": 0.0012280557873553834,
+      "message_entropy": 1.5046584388959747
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.2792765299479167,
+      "oracle": 0.34033203125,
+      "normalized": 0.8594553341902313,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.2792765299479167,
+      "oracle": 0.34033203125,
+      "normalized": 0.8594553341902313,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.2792765299479167,
+      "oracle": 0.34033203125,
+      "normalized": 0.8594553341902313,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.21708170572916669,
+      "oracle": 0.34033203125,
+      "normalized": 0.7324469794344473,
+      "mi": 0.8327543715074017,
+      "message_entropy": 1.4972893848423174
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.14319864908854166,
+      "oracle": 0.34033203125,
+      "normalized": 0.4792336118251928,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.21708170572916669,
+      "oracle": 0.34033203125,
+      "normalized": 0.7324469794344473,
+      "mi": 0.0009202783307311271,
+      "message_entropy": 1.4972893848423174
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_scarce_PI_live_switching",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.2349853515625,
+      "oracle": 0.5447998046875,
+      "normalized": 0.4274241129557292,
+      "mi": 0.6506990655672948,
+      "message_entropy": 2.1436266263781305
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_scarce_PI_live_switching",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.13465372721354169,
+      "oracle": 0.5447998046875,
+      "normalized": 0.2523752848307292,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_scarce_PI_live_switching",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.20904541015625,
+      "oracle": 0.5447998046875,
+      "normalized": 0.3885142008463542,
+      "mi": 0.001195633803607883,
+      "message_entropy": 2.1436266263781305
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.21708170572916669,
+      "oracle": 0.34033203125,
+      "normalized": 0.7324469794344473,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.21708170572916669,
+      "oracle": 0.34033203125,
+      "normalized": 0.7324469794344473,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.21708170572916669,
+      "oracle": 0.34033203125,
+      "normalized": 0.7324469794344473,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.20731608072916666,
+      "oracle": 0.5447998046875,
+      "normalized": 0.3859202067057292,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.20731608072916666,
+      "oracle": 0.5447998046875,
+      "normalized": 0.3859202067057292,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.20731608072916666,
+      "oracle": 0.5447998046875,
+      "normalized": 0.3859202067057292,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "stateless_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.5830891927083334,
+      "oracle": 0.6331380208333333,
+      "normalized": 1.0,
+      "mi": 0.4814910074578009,
+      "message_entropy": 1.480438852530683
+    },
+    {
+      "seed": 68108,
+      "condition": "stateless_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.5502115885416666,
+      "oracle": 0.6331380208333333,
+      "normalized": 0.9322622107969151,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "stateless_abundant_FI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.5830891927083334,
+      "oracle": 0.6331380208333333,
+      "normalized": 1.0,
+      "mi": 0.0013102954089460287,
+      "message_entropy": 1.480438852530683
+    },
+    {
+      "seed": 68108,
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.5830891927083334,
+      "oracle": 0.6331380208333333,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.5830891927083334,
+      "oracle": 0.6331380208333333,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.5830891927083334,
+      "oracle": 0.6331380208333333,
+      "normalized": 1.0,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "stateless_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.3225199381510417,
+      "oracle": 0.6331380208333333,
+      "normalized": 0.5884479434447301,
+      "mi": 0.999960787376385,
+      "message_entropy": 1.9989086324492673
+    },
+    {
+      "seed": 68108,
+      "condition": "stateless_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.2901509602864583,
+      "oracle": 0.6331380208333333,
+      "normalized": 0.5293059125964009,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "stateless_abundant_PI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.3225199381510417,
+      "oracle": 0.6331380208333333,
+      "normalized": 0.5884479434447301,
+      "mi": 0.0014055020260313417,
+      "message_entropy": 1.9989086324492673
+    },
+    {
+      "seed": 68108,
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.3225199381510417,
+      "oracle": 0.6331380208333333,
+      "normalized": 0.5884479434447301,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.3225199381510417,
+      "oracle": 0.6331380208333333,
+      "normalized": 0.5884479434447301,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.3225199381510417,
+      "oracle": 0.6331380208333333,
+      "normalized": 0.5884479434447301,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "stateless_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.2792765299479167,
+      "oracle": 0.34033203125,
+      "normalized": 0.8594553341902313,
+      "mi": 0.8341919263178036,
+      "message_entropy": 1.5016020492735231
+    },
+    {
+      "seed": 68108,
+      "condition": "stateless_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.24639892578125,
+      "oracle": 0.34033203125,
+      "normalized": 0.6901108611825193,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "stateless_scarce_FI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.2792765299479167,
+      "oracle": 0.34033203125,
+      "normalized": 0.8594553341902313,
+      "mi": 0.0007832862448268951,
+      "message_entropy": 1.5016020492735231
+    },
+    {
+      "seed": 68108,
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.2792765299479167,
+      "oracle": 0.34033203125,
+      "normalized": 0.8594553341902313,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.2792765299479167,
+      "oracle": 0.34033203125,
+      "normalized": 0.8594553341902313,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.2792765299479167,
+      "oracle": 0.34033203125,
+      "normalized": 0.8594553341902313,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "stateless_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.21708170572916669,
+      "oracle": 0.34033203125,
+      "normalized": 0.7324469794344473,
+      "mi": 0.8327543715074017,
+      "message_entropy": 1.4972893848423174
+    },
+    {
+      "seed": 68108,
+      "condition": "stateless_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.23781331380208331,
+      "oracle": 0.34033203125,
+      "normalized": 0.7835395244215938,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "stateless_scarce_PI_live_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.21708170572916669,
+      "oracle": 0.34033203125,
+      "normalized": 0.7324469794344473,
+      "mi": 0.0009202783307311271,
+      "message_entropy": 1.4972893848423174
+    },
+    {
+      "seed": 68108,
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "natural",
+      "team_return": 0.21708170572916669,
+      "oracle": 0.34033203125,
+      "normalized": 0.7324469794344473,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "closed",
+      "team_return": 0.21708170572916669,
+      "oracle": 0.34033203125,
+      "normalized": 0.7324469794344473,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "split": "heldout",
+      "mode": "permuted",
+      "team_return": 0.21708170572916669,
+      "oracle": 0.34033203125,
+      "normalized": 0.7324469794344473,
+      "mi": 0.0,
+      "message_entropy": -0.0
+    }
+  ],
+  "summary": {
+    "recurrent_abundant_FI_live_persistent|closed": {
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "mode": "closed",
+      "n": 8,
+      "mean": 0.2196362813313802,
+      "sd": 0.050082659962934775,
+      "ci95_t": [
+        0.17775947645419266,
+        0.2615130862085677
+      ],
+      "normalized_mean": 0.40478857448598443,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "recurrent_abundant_FI_live_persistent|natural": {
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "mode": "natural",
+      "n": 8,
+      "mean": 0.572675069173177,
+      "sd": 0.009820185862828991,
+      "ci95_t": [
+        0.5644638837541167,
+        0.5808862545922373
+      ],
+      "normalized_mean": 0.9948742316402459,
+      "message_mi_mean": 0.7935285940352943,
+      "message_entropy_mean": 1.6273619011655462
+    },
+    "recurrent_abundant_FI_live_persistent|permuted": {
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "mode": "permuted",
+      "n": 8,
+      "mean": 0.566741943359375,
+      "sd": 0.009959248109533407,
+      "ci95_t": [
+        0.5584144805186415,
+        0.5750694062001085
+      ],
+      "normalized_mean": 0.9861345975089306,
+      "message_mi_mean": 0.0004878999011642514,
+      "message_entropy_mean": 1.6273619011655462
+    },
+    "recurrent_abundant_FI_silent_persistent|closed": {
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "mode": "closed",
+      "n": 8,
+      "mean": 0.5752372741699219,
+      "sd": 0.005918198548375237,
+      "ci95_t": [
+        0.5702887501494689,
+        0.5801857981903749
+      ],
+      "normalized_mean": 1.0,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "recurrent_abundant_FI_silent_persistent|natural": {
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "mode": "natural",
+      "n": 8,
+      "mean": 0.5752372741699219,
+      "sd": 0.005918198548375237,
+      "ci95_t": [
+        0.5702887501494689,
+        0.5801857981903749
+      ],
+      "normalized_mean": 1.0,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "recurrent_abundant_FI_silent_persistent|permuted": {
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "mode": "permuted",
+      "n": 8,
+      "mean": 0.5752372741699219,
+      "sd": 0.005918198548375237,
+      "ci95_t": [
+        0.5702887501494689,
+        0.5801857981903749
+      ],
+      "normalized_mean": 1.0,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "recurrent_abundant_PI_live_persistent|closed": {
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "mode": "closed",
+      "n": 8,
+      "mean": 0.22344462076822913,
+      "sd": 0.061500248199439694,
+      "ci95_t": [
+        0.17202095645701704,
+        0.2748682850794412
+      ],
+      "normalized_mean": 0.4152213146500008,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "recurrent_abundant_PI_live_persistent|natural": {
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "mode": "natural",
+      "n": 8,
+      "mean": 0.5744209289550781,
+      "sd": 0.011179906197348752,
+      "ci95_t": [
+        0.5650728082538589,
+        0.5837690496562974
+      ],
+      "normalized_mean": 0.9945915402001937,
+      "message_mi_mean": 0.7495326605561039,
+      "message_entropy_mean": 1.7489708981827672
+    },
+    "recurrent_abundant_PI_live_persistent|permuted": {
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "mode": "permuted",
+      "n": 8,
+      "mean": 0.3115806579589844,
+      "sd": 0.01013357926612297,
+      "ci95_t": [
+        0.30310742746465746,
+        0.3200538884533113
+      ],
+      "normalized_mean": 0.5784286810156053,
+      "message_mi_mean": 0.0006686058082453754,
+      "message_entropy_mean": 1.7489708981827672
+    },
+    "recurrent_abundant_PI_silent_persistent|closed": {
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "mode": "closed",
+      "n": 8,
+      "mean": 0.31494140625,
+      "sd": 0.00784656311871564,
+      "ci95_t": [
+        0.30838047292652687,
+        0.32150233957347313
+      ],
+      "normalized_mean": 0.5847497383005041,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "recurrent_abundant_PI_silent_persistent|natural": {
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "mode": "natural",
+      "n": 8,
+      "mean": 0.31494140625,
+      "sd": 0.00784656311871564,
+      "ci95_t": [
+        0.30838047292652687,
+        0.32150233957347313
+      ],
+      "normalized_mean": 0.5847497383005041,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "recurrent_abundant_PI_silent_persistent|permuted": {
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "mode": "permuted",
+      "n": 8,
+      "mean": 0.31494140625,
+      "sd": 0.00784656311871564,
+      "ci95_t": [
+        0.30838047292652687,
+        0.32150233957347313
+      ],
+      "normalized_mean": 0.5847497383005041,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "recurrent_scarce_FI_live_persistent|closed": {
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "mode": "closed",
+      "n": 8,
+      "mean": 0.14603424072265625,
+      "sd": 0.042490390171613844,
+      "ci95_t": [
+        0.11050574084487197,
+        0.18156274060044053
+      ],
+      "normalized_mean": 0.5270462550578141,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "recurrent_scarce_FI_live_persistent|natural": {
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "mode": "natural",
+      "n": 8,
+      "mean": 0.25758616129557294,
+      "sd": 0.005405833178598429,
+      "ci95_t": [
+        0.25306605351003736,
+        0.2621062690811085
+      ],
+      "normalized_mean": 0.81337292363749,
+      "message_mi_mean": 0.6034782262148488,
+      "message_entropy_mean": 1.3326820658579734
+    },
+    "recurrent_scarce_FI_live_persistent|permuted": {
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "mode": "permuted",
+      "n": 8,
+      "mean": 0.2544695536295573,
+      "sd": 0.007381661897828954,
+      "ci95_t": [
+        0.24829734921402652,
+        0.2606417580450881
+      ],
+      "normalized_mean": 0.8171309199818777,
+      "message_mi_mean": 0.0004873009400292872,
+      "message_entropy_mean": 1.3326820658579734
+    },
+    "recurrent_scarce_FI_silent_persistent|closed": {
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "mode": "closed",
+      "n": 8,
+      "mean": 0.2665964762369792,
+      "sd": 0.007652958402407876,
+      "ci95_t": [
+        0.26019742622669517,
+        0.2729955262472632
+      ],
+      "normalized_mean": 0.8239772262427802,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "recurrent_scarce_FI_silent_persistent|natural": {
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "mode": "natural",
+      "n": 8,
+      "mean": 0.2665964762369792,
+      "sd": 0.007652958402407876,
+      "ci95_t": [
+        0.26019742622669517,
+        0.2729955262472632
+      ],
+      "normalized_mean": 0.8239772262427802,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "recurrent_scarce_FI_silent_persistent|permuted": {
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "mode": "permuted",
+      "n": 8,
+      "mean": 0.2665964762369792,
+      "sd": 0.007652958402407876,
+      "ci95_t": [
+        0.26019742622669517,
+        0.2729955262472632
+      ],
+      "normalized_mean": 0.8239772262427802,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "recurrent_scarce_PI_live_persistent|closed": {
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "mode": "closed",
+      "n": 8,
+      "mean": 0.11339441935221355,
+      "sd": 0.02655789117466909,
+      "ci95_t": [
+        0.0911879385563795,
+        0.1356009001480476
+      ],
+      "normalized_mean": 0.4060259572427819,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "recurrent_scarce_PI_live_persistent|natural": {
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "mode": "natural",
+      "n": 8,
+      "mean": 0.210113525390625,
+      "sd": 0.005982671030672998,
+      "ci95_t": [
+        0.20511109246111783,
+        0.21511595832013217
+      ],
+      "normalized_mean": 0.7296994347704937,
+      "message_mi_mean": 0.6209474701978879,
+      "message_entropy_mean": 1.3490557623221329
+    },
+    "recurrent_scarce_PI_live_persistent|permuted": {
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "mode": "permuted",
+      "n": 8,
+      "mean": 0.210113525390625,
+      "sd": 0.005982671030672998,
+      "ci95_t": [
+        0.20511109246111783,
+        0.21511595832013217
+      ],
+      "normalized_mean": 0.7296994347704937,
+      "message_mi_mean": 0.0004891643585589334,
+      "message_entropy_mean": 1.3490557623221329
+    },
+    "recurrent_scarce_PI_live_switching|closed": {
+      "condition": "recurrent_scarce_PI_live_switching",
+      "mode": "closed",
+      "n": 8,
+      "mean": 0.15304183959960938,
+      "sd": 0.043441857895473696,
+      "ci95_t": [
+        0.11671776639867276,
+        0.189365912800546
+      ],
+      "normalized_mean": 0.2945149739583333,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "recurrent_scarce_PI_live_switching|natural": {
+      "condition": "recurrent_scarce_PI_live_switching",
+      "mode": "natural",
+      "n": 8,
+      "mean": 0.20215352376302084,
+      "sd": 0.02918642659662632,
+      "ci95_t": [
+        0.17774918316781624,
+        0.22655786435822545
+      ],
+      "normalized_mean": 0.3813616434733073,
+      "message_mi_mean": 0.8747779838599128,
+      "message_entropy_mean": 2.1936943854328677
+    },
+    "recurrent_scarce_PI_live_switching|permuted": {
+      "condition": "recurrent_scarce_PI_live_switching",
+      "mode": "permuted",
+      "n": 8,
+      "mean": 0.2090326944986979,
+      "sd": 0.003023990066554162,
+      "ci95_t": [
+        0.20650417380787672,
+        0.2115612151895191
+      ],
+      "normalized_mean": 0.39168039957682294,
+      "message_mi_mean": 0.0011809903366075609,
+      "message_entropy_mean": 2.1936943854328677
+    },
+    "recurrent_scarce_PI_silent_persistent|closed": {
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "mode": "closed",
+      "n": 8,
+      "mean": 0.210113525390625,
+      "sd": 0.005982671030672998,
+      "ci95_t": [
+        0.20511109246111783,
+        0.21511595832013217
+      ],
+      "normalized_mean": 0.7296994347704937,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "recurrent_scarce_PI_silent_persistent|natural": {
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "mode": "natural",
+      "n": 8,
+      "mean": 0.210113525390625,
+      "sd": 0.005982671030672998,
+      "ci95_t": [
+        0.20511109246111783,
+        0.21511595832013217
+      ],
+      "normalized_mean": 0.7296994347704937,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "recurrent_scarce_PI_silent_persistent|permuted": {
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "mode": "permuted",
+      "n": 8,
+      "mean": 0.210113525390625,
+      "sd": 0.005982671030672998,
+      "ci95_t": [
+        0.20511109246111783,
+        0.21511595832013217
+      ],
+      "normalized_mean": 0.7296994347704937,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "recurrent_scarce_PI_silent_switching|closed": {
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "mode": "closed",
+      "n": 8,
+      "mean": 0.20938873291015625,
+      "sd": 0.005203902965839344,
+      "ci95_t": [
+        0.2050374698330443,
+        0.2137399959872682
+      ],
+      "normalized_mean": 0.39221445719401044,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "recurrent_scarce_PI_silent_switching|natural": {
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "mode": "natural",
+      "n": 8,
+      "mean": 0.20938873291015625,
+      "sd": 0.005203902965839344,
+      "ci95_t": [
+        0.2050374698330443,
+        0.2137399959872682
+      ],
+      "normalized_mean": 0.39221445719401044,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "recurrent_scarce_PI_silent_switching|permuted": {
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "mode": "permuted",
+      "n": 8,
+      "mean": 0.20938873291015625,
+      "sd": 0.005203902965839344,
+      "ci95_t": [
+        0.2050374698330443,
+        0.2137399959872682
+      ],
+      "normalized_mean": 0.39221445719401044,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "stateless_abundant_FI_live_persistent|closed": {
+      "condition": "stateless_abundant_FI_live_persistent",
+      "mode": "closed",
+      "n": 8,
+      "mean": 0.523724873860677,
+      "sd": 0.029145159661156154,
+      "ci95_t": [
+        0.4993550387690907,
+        0.5480947089522633
+      ],
+      "normalized_mean": 0.9095340451656468,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "stateless_abundant_FI_live_persistent|natural": {
+      "condition": "stateless_abundant_FI_live_persistent",
+      "mode": "natural",
+      "n": 8,
+      "mean": 0.5752372741699219,
+      "sd": 0.005918198548375237,
+      "ci95_t": [
+        0.5702887501494689,
+        0.5801857981903749
+      ],
+      "normalized_mean": 1.0,
+      "message_mi_mean": 0.829563132331541,
+      "message_entropy_mean": 1.8082721959249526
+    },
+    "stateless_abundant_FI_live_persistent|permuted": {
+      "condition": "stateless_abundant_FI_live_persistent",
+      "mode": "permuted",
+      "n": 8,
+      "mean": 0.5752372741699219,
+      "sd": 0.005918198548375237,
+      "ci95_t": [
+        0.5702887501494689,
+        0.5801857981903749
+      ],
+      "normalized_mean": 1.0,
+      "message_mi_mean": 0.0006728566258438553,
+      "message_entropy_mean": 1.8082721959249526
+    },
+    "stateless_abundant_FI_silent_persistent|closed": {
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "mode": "closed",
+      "n": 8,
+      "mean": 0.5752372741699219,
+      "sd": 0.005918198548375237,
+      "ci95_t": [
+        0.5702887501494689,
+        0.5801857981903749
+      ],
+      "normalized_mean": 1.0,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "stateless_abundant_FI_silent_persistent|natural": {
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "mode": "natural",
+      "n": 8,
+      "mean": 0.5752372741699219,
+      "sd": 0.005918198548375237,
+      "ci95_t": [
+        0.5702887501494689,
+        0.5801857981903749
+      ],
+      "normalized_mean": 1.0,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "stateless_abundant_FI_silent_persistent|permuted": {
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "mode": "permuted",
+      "n": 8,
+      "mean": 0.5752372741699219,
+      "sd": 0.005918198548375237,
+      "ci95_t": [
+        0.5702887501494689,
+        0.5801857981903749
+      ],
+      "normalized_mean": 1.0,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "stateless_abundant_PI_live_persistent|closed": {
+      "condition": "stateless_abundant_PI_live_persistent",
+      "mode": "closed",
+      "n": 8,
+      "mean": 0.2990125020345052,
+      "sd": 0.02907136248295518,
+      "ci95_t": [
+        0.274704372731595,
+        0.3233206313374154
+      ],
+      "normalized_mean": 0.5551376446165681,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "stateless_abundant_PI_live_persistent|natural": {
+      "condition": "stateless_abundant_PI_live_persistent",
+      "mode": "natural",
+      "n": 8,
+      "mean": 0.314490000406901,
+      "sd": 0.009466324235494714,
+      "ci95_t": [
+        0.30657469772115337,
+        0.32240530309264864
+      ],
+      "normalized_mean": 0.5840169507572183,
+      "message_mi_mean": 0.789865963812583,
+      "message_entropy_mean": 1.685324889928674
+    },
+    "stateless_abundant_PI_live_persistent|permuted": {
+      "condition": "stateless_abundant_PI_live_persistent",
+      "mode": "permuted",
+      "n": 8,
+      "mean": 0.314490000406901,
+      "sd": 0.009466324235494714,
+      "ci95_t": [
+        0.30657469772115337,
+        0.32240530309264864
+      ],
+      "normalized_mean": 0.5840169507572183,
+      "message_mi_mean": 0.0005437992196880863,
+      "message_entropy_mean": 1.685324889928674
+    },
+    "stateless_abundant_PI_silent_persistent|closed": {
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "mode": "closed",
+      "n": 8,
+      "mean": 0.31494140625,
+      "sd": 0.00784656311871564,
+      "ci95_t": [
+        0.30838047292652687,
+        0.32150233957347313
+      ],
+      "normalized_mean": 0.5847497383005041,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "stateless_abundant_PI_silent_persistent|natural": {
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "mode": "natural",
+      "n": 8,
+      "mean": 0.31494140625,
+      "sd": 0.00784656311871564,
+      "ci95_t": [
+        0.30838047292652687,
+        0.32150233957347313
+      ],
+      "normalized_mean": 0.5847497383005041,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "stateless_abundant_PI_silent_persistent|permuted": {
+      "condition": "stateless_abundant_PI_silent_persistent",
+      "mode": "permuted",
+      "n": 8,
+      "mean": 0.31494140625,
+      "sd": 0.00784656311871564,
+      "ci95_t": [
+        0.30838047292652687,
+        0.32150233957347313
+      ],
+      "normalized_mean": 0.5847497383005041,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "stateless_scarce_FI_live_persistent|closed": {
+      "condition": "stateless_scarce_FI_live_persistent",
+      "mode": "closed",
+      "n": 8,
+      "mean": 0.256018320719401,
+      "sd": 0.016355528368298157,
+      "ci95_t": [
+        0.24234258403430037,
+        0.26969405740450164
+      ],
+      "normalized_mean": 0.7846896438843642,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "stateless_scarce_FI_live_persistent|natural": {
+      "condition": "stateless_scarce_FI_live_persistent",
+      "mode": "natural",
+      "n": 8,
+      "mean": 0.26919047037760413,
+      "sd": 0.009366313944650175,
+      "ci95_t": [
+        0.26135879167346027,
+        0.277022149081748
+      ],
+      "normalized_mean": 0.8418624100832695,
+      "message_mi_mean": 0.807736427875165,
+      "message_entropy_mean": 1.6630112857263097
+    },
+    "stateless_scarce_FI_live_persistent|permuted": {
+      "condition": "stateless_scarce_FI_live_persistent",
+      "mode": "permuted",
+      "n": 8,
+      "mean": 0.2696342468261719,
+      "sd": 0.0060551167053725765,
+      "ci95_t": [
+        0.2645712381727348,
+        0.27469725547960894
+      ],
+      "normalized_mean": 0.8441125572145007,
+      "message_mi_mean": 0.0005851284077330475,
+      "message_entropy_mean": 1.6630112857263097
+    },
+    "stateless_scarce_FI_silent_persistent|closed": {
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "mode": "closed",
+      "n": 8,
+      "mean": 0.2665964762369792,
+      "sd": 0.007652958402407876,
+      "ci95_t": [
+        0.26019742622669517,
+        0.2729955262472632
+      ],
+      "normalized_mean": 0.8239772262427802,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "stateless_scarce_FI_silent_persistent|natural": {
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "mode": "natural",
+      "n": 8,
+      "mean": 0.2665964762369792,
+      "sd": 0.007652958402407876,
+      "ci95_t": [
+        0.26019742622669517,
+        0.2729955262472632
+      ],
+      "normalized_mean": 0.8239772262427802,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "stateless_scarce_FI_silent_persistent|permuted": {
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "mode": "permuted",
+      "n": 8,
+      "mean": 0.2665964762369792,
+      "sd": 0.007652958402407876,
+      "ci95_t": [
+        0.26019742622669517,
+        0.2729955262472632
+      ],
+      "normalized_mean": 0.8239772262427802,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "stateless_scarce_PI_live_persistent|closed": {
+      "condition": "stateless_scarce_PI_live_persistent",
+      "mode": "closed",
+      "n": 8,
+      "mean": 0.22572072347005206,
+      "sd": 0.011230942286373152,
+      "ci95_t": [
+        0.21632992875065268,
+        0.23511151818945145
+      ],
+      "normalized_mean": 0.768630622866944,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "stateless_scarce_PI_live_persistent|natural": {
+      "condition": "stateless_scarce_PI_live_persistent",
+      "mode": "natural",
+      "n": 8,
+      "mean": 0.2114105224609375,
+      "sd": 0.006493990475614356,
+      "ci95_t": [
+        0.20598054785050587,
+        0.21684049707136913
+      ],
+      "normalized_mean": 0.732172383736902,
+      "message_mi_mean": 0.8953374034799579,
+      "message_entropy_mean": 1.7488449944223554
+    },
+    "stateless_scarce_PI_live_persistent|permuted": {
+      "condition": "stateless_scarce_PI_live_persistent",
+      "mode": "permuted",
+      "n": 8,
+      "mean": 0.2114079793294271,
+      "sd": 0.006499591979172309,
+      "ci95_t": [
+        0.2059733210006848,
+        0.21684263765816938
+      ],
+      "normalized_mean": 0.7329690750619551,
+      "message_mi_mean": 0.0006416975288273845,
+      "message_entropy_mean": 1.7488449944223554
+    },
+    "stateless_scarce_PI_silent_persistent|closed": {
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "mode": "closed",
+      "n": 8,
+      "mean": 0.210113525390625,
+      "sd": 0.005982671030672998,
+      "ci95_t": [
+        0.20511109246111783,
+        0.21511595832013217
+      ],
+      "normalized_mean": 0.7296994347704937,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "stateless_scarce_PI_silent_persistent|natural": {
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "mode": "natural",
+      "n": 8,
+      "mean": 0.210113525390625,
+      "sd": 0.005982671030672998,
+      "ci95_t": [
+        0.20511109246111783,
+        0.21511595832013217
+      ],
+      "normalized_mean": 0.7296994347704937,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    },
+    "stateless_scarce_PI_silent_persistent|permuted": {
+      "condition": "stateless_scarce_PI_silent_persistent",
+      "mode": "permuted",
+      "n": 8,
+      "mean": 0.210113525390625,
+      "sd": 0.005982671030672998,
+      "ci95_t": [
+        0.20511109246111783,
+        0.21511595832013217
+      ],
+      "normalized_mean": 0.7296994347704937,
+      "message_mi_mean": 0.0,
+      "message_entropy_mean": 0.0
+    }
+  },
+  "effects": {
+    "recurrent_abundant_FI_live_persistent|natural-minus-closed": {
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "values": [
+        0.314910888671875,
+        0.33849080403645837,
+        0.247344970703125,
+        0.36333211263020837,
+        0.3738505045572917,
+        0.34744262695312506,
+        0.43674723307291663,
+        0.402191162109375
+      ],
+      "mean": 0.3530387878417969,
+      "ci95_t": [
+        0.3052869291710028,
+        0.40079064651259094
+      ],
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ]
+    },
+    "recurrent_abundant_FI_live_persistent|natural-minus-permuted": {
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "values": [
+        0.005035400390624889,
+        0.006103515625,
+        -0.00893147786458326,
+        0.00681559244791663,
+        0.01053873697916663,
+        0.005645751953125111,
+        0.02225748697916652,
+        0.0
+      ],
+      "mean": 0.005933125813802065,
+      "ci95_t": [
+        -0.0014485481249777764,
+        0.013314799752581905
+      ],
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ]
+    },
+    "recurrent_abundant_PI_live_persistent|natural-minus-closed": {
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "values": [
+        0.2842610677083333,
+        0.3212890625,
+        0.26545206705729163,
+        0.3918355305989584,
+        0.3973592122395833,
+        0.32718912760416674,
+        0.42560831705729174,
+        0.3948160807291667
+      ],
+      "mean": 0.350976308186849,
+      "ci95_t": [
+        0.3014833563720639,
+        0.4004692600016341
+      ],
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ]
+    },
+    "recurrent_abundant_PI_live_persistent|natural-minus-permuted": {
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "values": [
+        0.2508544921875,
+        0.2545166015625,
+        0.27316284179687494,
+        0.23106892903645837,
+        0.28267415364583326,
+        0.25889078776041674,
+        0.27565511067708337,
+        0.27589925130208337
+      ],
+      "mean": 0.26284027099609375,
+      "ci95_t": [
+        0.24845226604717346,
+        0.27722827594501404
+      ],
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ]
+    },
+    "recurrent_scarce_FI_live_persistent|natural-minus-closed": {
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "values": [
+        0.1324971516927083,
+        0.14459228515624997,
+        0.07828776041666663,
+        0.07939656575520834,
+        0.16408284505208331,
+        0.14671834309895837,
+        0.08807373046874997,
+        0.05876668294270834
+      ],
+      "mean": 0.11155192057291666,
+      "ci95_t": [
+        0.07839892959334677,
+        0.14470491155248655
+      ],
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ]
+    },
+    "recurrent_scarce_FI_live_persistent|natural-minus-permuted": {
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "values": [
+        0.0,
+        -0.0021769205729167407,
+        0.0053710937499999445,
+        0.002339680989583315,
+        0.00504557291666663,
+        0.0,
+        0.01435343424479163,
+        0.0
+      ],
+      "mean": 0.0031166076660155972,
+      "ci95_t": [
+        -0.0012720296713862982,
+        0.007505245003417493
+      ],
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ]
+    },
+    "recurrent_scarce_PI_live_persistent|natural-minus-closed": {
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "values": [
+        0.116058349609375,
+        0.14768473307291669,
+        0.08489990234374997,
+        0.09663899739583334,
+        0.09255981445312503,
+        0.06392415364583331,
+        0.09810384114583334,
+        0.07388305664062503
+      ],
+      "mean": 0.09671910603841147,
+      "ci95_t": [
+        0.07498964814961853,
+        0.1184485639272044
+      ],
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ]
+    },
+    "recurrent_scarce_PI_live_persistent|natural-minus-permuted": {
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ],
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ]
+    },
+    "recurrent_scarce_PI_live_switching|natural-minus-closed": {
+      "condition": "recurrent_scarce_PI_live_switching",
+      "values": [
+        0.00020345052083334259,
+        0.05409749348958334,
+        0.0775146484375,
+        0.10718790690104167,
+        -0.01578776041666663,
+        -0.012664794921874972,
+        0.08201090494791664,
+        0.10033162434895831
+      ],
+      "mean": 0.04911168416341147,
+      "ci95_t": [
+        0.006323385285198435,
+        0.0918999830416245
+      ],
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ]
+    },
+    "recurrent_scarce_PI_live_switching|natural-minus-permuted": {
+      "condition": "recurrent_scarce_PI_live_switching",
+      "values": [
+        -0.05594889322916663,
+        0.027364095052083343,
+        -0.022481282552083343,
+        0.022786458333333315,
+        -0.00396728515625,
+        -0.02349853515625,
+        -0.025227864583333343,
+        0.02593994140625
+      ],
+      "mean": -0.006879170735677082,
+      "ci95_t": [
+        -0.03216675598775342,
+        0.018408414516399255
+      ],
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ]
+    },
+    "stateless_abundant_FI_live_persistent|natural-minus-closed": {
+      "condition": "stateless_abundant_FI_live_persistent",
+      "values": [
+        0.02553304036458326,
+        0.05623372395833326,
+        0.085235595703125,
+        0.04317220052083337,
+        0.02634684244791663,
+        0.04298909505208348,
+        0.09971110026041674,
+        0.03287760416666674
+      ],
+      "mean": 0.05151240030924481,
+      "ci95_t": [
+        0.028547285602411758,
+        0.07447751501607786
+      ],
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ]
+    },
+    "stateless_abundant_FI_live_persistent|natural-minus-permuted": {
+      "condition": "stateless_abundant_FI_live_persistent",
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ],
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ]
+    },
+    "stateless_abundant_PI_live_persistent|natural-minus-closed": {
+      "condition": "stateless_abundant_PI_live_persistent",
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.031901041666666685,
+        0.0,
+        0.0,
+        0.059549967447916685,
+        0.03236897786458337
+      ],
+      "mean": 0.015477498372395843,
+      "ci95_t": [
+        -0.003733778599122127,
+        0.03468877534391381
+      ],
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ]
+    },
+    "stateless_abundant_PI_live_persistent|natural-minus-permuted": {
+      "condition": "stateless_abundant_PI_live_persistent",
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ],
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ]
+    },
+    "stateless_scarce_FI_live_persistent|natural-minus-closed": {
+      "condition": "stateless_scarce_FI_live_persistent",
+      "values": [
+        0.031585693359375,
+        0.02113850911458337,
+        0.021443684895833315,
+        -0.015981038411458315,
+        0.031402587890625,
+        -0.020751953125,
+        0.003662109375,
+        0.032877604166666685
+      ],
+      "mean": 0.013172149658203132,
+      "ci95_t": [
+        -0.0049353515196119205,
+        0.031279650836018184
+      ],
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ]
+    },
+    "stateless_scarce_FI_live_persistent|natural-minus-permuted": {
+      "condition": "stateless_scarce_FI_live_persistent",
+      "values": [
+        0.004069010416666685,
+        0.0,
+        0.008870442708333315,
+        -0.016489664713541685,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": -0.00044377644856771065,
+      "ci95_t": [
+        -0.00648639890117216,
+        0.005598846004036739
+      ],
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ]
+    },
+    "stateless_scarce_PI_live_persistent|natural-minus-closed": {
+      "condition": "stateless_scarce_PI_live_persistent",
+      "values": [
+        0.00539143880208337,
+        -0.020589192708333343,
+        -0.020965576171875,
+        -0.021250406901041657,
+        -0.020314534505208315,
+        0.004984537760416685,
+        -0.021006266276041685,
+        -0.02073160807291663
+      ],
+      "mean": -0.014310201009114572,
+      "ci95_t": [
+        -0.024376105056055194,
+        -0.00424429696217395
+      ],
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ]
+    },
+    "stateless_scarce_PI_live_persistent|natural-minus-permuted": {
+      "condition": "stateless_scarce_PI_live_persistent",
+      "values": [
+        0.0001525878906250555,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.00013224283854165741,
+        0.0,
+        0.0
+      ],
+      "mean": 2.543131510424762e-06,
+      "ci95_t": [
+        -6.123008328485981e-05,
+        6.631634630570934e-05
+      ],
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ]
+    },
+    "recurrent_abundant_FI_live_persistent-minus-stateless_abundant_FI_live_persistent": {
+      "left": "recurrent_abundant_FI_live_persistent",
+      "right": "stateless_abundant_FI_live_persistent",
+      "mode": "natural",
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ],
+      "values": [
+        0.0,
+        0.0,
+        -0.025787353515625,
+        0.0,
+        0.0,
+        0.0,
+        0.005289713541666519,
+        0.0
+      ],
+      "mean": -0.00256220499674481,
+      "ci95_t": [
+        -0.010560171523197846,
+        0.005435761529708226
+      ]
+    },
+    "recurrent_abundant_FI_live_persistent-minus-recurrent_abundant_FI_silent_persistent|natural": {
+      "left": "recurrent_abundant_FI_live_persistent",
+      "right": "recurrent_abundant_FI_silent_persistent",
+      "mode": "natural",
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ],
+      "values": [
+        0.0,
+        0.0,
+        -0.025787353515625,
+        0.0,
+        0.0,
+        0.0,
+        0.005289713541666519,
+        0.0
+      ],
+      "mean": -0.00256220499674481,
+      "ci95_t": [
+        -0.010560171523197846,
+        0.005435761529708226
+      ]
+    },
+    "recurrent_abundant_FI_silent_persistent-minus-stateless_abundant_FI_silent_persistent": {
+      "left": "recurrent_abundant_FI_silent_persistent",
+      "right": "stateless_abundant_FI_silent_persistent",
+      "mode": "natural",
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ],
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    "recurrent_abundant_FI_live_persistent-minus-recurrent_abundant_PI_live_persistent": {
+      "left": "recurrent_abundant_FI_live_persistent",
+      "right": "recurrent_abundant_PI_live_persistent",
+      "mode": "natural",
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ],
+      "values": [
+        0.0,
+        0.0,
+        -0.03087361653645826,
+        0.02726236979166663,
+        -0.00522867838541663,
+        0.0,
+        -5.086263020848136e-05,
+        -0.00507609049479163
+      ],
+      "mean": -0.0017458597819010463,
+      "ci95_t": [
+        -0.014872375086107595,
+        0.011380655522305503
+      ]
+    },
+    "recurrent_abundant_PI_live_persistent-minus-stateless_abundant_PI_live_persistent": {
+      "left": "recurrent_abundant_PI_live_persistent",
+      "right": "stateless_abundant_PI_live_persistent",
+      "mode": "natural",
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ],
+      "values": [
+        0.25095621744791663,
+        0.2511088053385417,
+        0.26545206705729163,
+        0.23493448893229174,
+        0.27246093749999994,
+        0.26133219401041674,
+        0.27755737304687506,
+        0.2656453450520833
+      ],
+      "mean": 0.25993092854817706,
+      "ci95_t": [
+        0.24846620474910364,
+        0.2713956523472505
+      ]
+    },
+    "recurrent_abundant_PI_live_persistent-minus-recurrent_abundant_PI_silent_persistent|natural": {
+      "left": "recurrent_abundant_PI_live_persistent",
+      "right": "recurrent_abundant_PI_silent_persistent",
+      "mode": "natural",
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ],
+      "values": [
+        0.25095621744791663,
+        0.2511088053385417,
+        0.26758829752604163,
+        0.23493448893229174,
+        0.27246093749999994,
+        0.26133219401041674,
+        0.2718098958333334,
+        0.2656453450520833
+      ],
+      "mean": 0.2594795227050781,
+      "ci95_t": [
+        0.24865587958564442,
+        0.2703031658245118
+      ]
+    },
+    "recurrent_abundant_FI_silent_persistent-minus-recurrent_abundant_PI_silent_persistent": {
+      "left": "recurrent_abundant_FI_silent_persistent",
+      "right": "recurrent_abundant_PI_silent_persistent",
+      "mode": "natural",
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ],
+      "values": [
+        0.25095621744791663,
+        0.2511088053385417,
+        0.26250203450520837,
+        0.26219685872395837,
+        0.2672322591145833,
+        0.26133219401041674,
+        0.2664693196614584,
+        0.2605692545572917
+      ],
+      "mean": 0.2602958679199219,
+      "ci95_t": [
+        0.2551270938104523,
+        0.26546464202939146
+      ]
+    },
+    "recurrent_abundant_PI_silent_persistent-minus-stateless_abundant_PI_silent_persistent": {
+      "left": "recurrent_abundant_PI_silent_persistent",
+      "right": "stateless_abundant_PI_silent_persistent",
+      "mode": "natural",
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ],
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    "recurrent_scarce_FI_live_persistent-minus-stateless_scarce_FI_live_persistent": {
+      "left": "recurrent_scarce_FI_live_persistent",
+      "right": "stateless_scarce_FI_live_persistent",
+      "mode": "natural",
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ],
+      "values": [
+        -0.02068074544270837,
+        -0.02055867513020837,
+        -0.015635172526041685,
+        0.005564371744791685,
+        -0.015675862630208315,
+        0.0,
+        -0.00511678059895837,
+        -0.020731608072916685
+      ],
+      "mean": -0.011604309082031264,
+      "ci95_t": [
+        -0.020260517048260658,
+        -0.002948101115801868
+      ]
+    },
+    "recurrent_scarce_FI_live_persistent-minus-recurrent_scarce_FI_silent_persistent|natural": {
+      "left": "recurrent_scarce_FI_live_persistent",
+      "right": "recurrent_scarce_FI_silent_persistent",
+      "mode": "natural",
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ],
+      "values": [
+        -0.02068074544270837,
+        -0.0043334960937500555,
+        -0.010498046875,
+        -0.0006103515625,
+        -0.015675862630208315,
+        0.005564371744791685,
+        -0.00511678059895837,
+        -0.020731608072916685
+      ],
+      "mean": -0.009010314941406264,
+      "ci95_t": [
+        -0.017006995962578115,
+        -0.0010136339202344129
+      ]
+    },
+    "recurrent_scarce_FI_silent_persistent-minus-stateless_scarce_FI_silent_persistent": {
+      "left": "recurrent_scarce_FI_silent_persistent",
+      "right": "stateless_scarce_FI_silent_persistent",
+      "mode": "natural",
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ],
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    "recurrent_scarce_FI_live_persistent-minus-recurrent_scarce_PI_live_persistent": {
+      "left": "recurrent_scarce_FI_live_persistent",
+      "right": "recurrent_scarce_PI_live_persistent",
+      "mode": "natural",
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ],
+      "values": [
+        0.04136149088541663,
+        0.04163614908854163,
+        0.05249023437499997,
+        0.045705159505208315,
+        0.04685465494791663,
+        0.052124023437500056,
+        0.05814615885416663,
+        0.041463216145833315
+      ],
+      "mean": 0.047472635904947894,
+      "ci95_t": [
+        0.04226267740427965,
+        0.05268259440561614
+      ]
+    },
+    "recurrent_scarce_PI_live_persistent-minus-stateless_scarce_PI_live_persistent": {
+      "left": "recurrent_scarce_PI_live_persistent",
+      "right": "stateless_scarce_PI_live_persistent",
+      "mode": "natural",
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ],
+      "values": [
+        -0.00539143880208337,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.004984537760416685,
+        0.0,
+        0.0
+      ],
+      "mean": -0.001296997070312507,
+      "ci95_t": [
+        -0.0033071382037921713,
+        0.0007131440631671575
+      ]
+    },
+    "recurrent_scarce_PI_live_persistent-minus-recurrent_scarce_PI_silent_persistent|natural": {
+      "left": "recurrent_scarce_PI_live_persistent",
+      "right": "recurrent_scarce_PI_silent_persistent",
+      "mode": "natural",
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ],
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    "recurrent_scarce_PI_live_switching-minus-recurrent_scarce_PI_silent_switching|natural": {
+      "left": "recurrent_scarce_PI_live_switching",
+      "right": "recurrent_scarce_PI_silent_switching",
+      "mode": "natural",
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ],
+      "values": [
+        -0.06011962890624997,
+        0.021260579427083343,
+        -0.02410888671875,
+        0.026143391927083315,
+        0.001220703125,
+        -0.023091634114583315,
+        -0.02685546875,
+        0.027669270833333343
+      ],
+      "mean": -0.007235209147135411,
+      "ci95_t": [
+        -0.033551441975957615,
+        0.019081023681686793
+      ]
+    },
+    "recurrent_scarce_FI_silent_persistent-minus-recurrent_scarce_PI_silent_persistent": {
+      "left": "recurrent_scarce_FI_silent_persistent",
+      "right": "recurrent_scarce_PI_silent_persistent",
+      "mode": "natural",
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ],
+      "values": [
+        0.062042236328125,
+        0.045969645182291685,
+        0.06298828124999997,
+        0.046315511067708315,
+        0.06253051757812494,
+        0.04655965169270837,
+        0.063262939453125,
+        0.06219482421875
+      ],
+      "mean": 0.05648295084635416,
+      "ci95_t": [
+        0.049410721803167405,
+        0.06355517988954092
+      ]
+    },
+    "recurrent_scarce_PI_silent_persistent-minus-stateless_scarce_PI_silent_persistent": {
+      "left": "recurrent_scarce_PI_silent_persistent",
+      "right": "stateless_scarce_PI_silent_persistent",
+      "mode": "natural",
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ],
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    "stateless_abundant_FI_live_persistent-minus-stateless_abundant_FI_silent_persistent|natural": {
+      "left": "stateless_abundant_FI_live_persistent",
+      "right": "stateless_abundant_FI_silent_persistent",
+      "mode": "natural",
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ],
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    "stateless_abundant_FI_live_persistent-minus-stateless_abundant_PI_live_persistent": {
+      "left": "stateless_abundant_FI_live_persistent",
+      "right": "stateless_abundant_PI_live_persistent",
+      "mode": "natural",
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ],
+      "values": [
+        0.25095621744791663,
+        0.2511088053385417,
+        0.26036580403645837,
+        0.26219685872395837,
+        0.2672322591145833,
+        0.26133219401041674,
+        0.27221679687500006,
+        0.2605692545572917
+      ],
+      "mean": 0.26074727376302087,
+      "ci95_t": [
+        0.2547094851141125,
+        0.26678506241192923
+      ]
+    },
+    "stateless_abundant_PI_live_persistent-minus-stateless_abundant_PI_silent_persistent|natural": {
+      "left": "stateless_abundant_PI_live_persistent",
+      "right": "stateless_abundant_PI_silent_persistent",
+      "mode": "natural",
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ],
+      "values": [
+        0.0,
+        0.0,
+        0.00213623046875,
+        0.0,
+        0.0,
+        0.0,
+        -0.00574747721354163,
+        0.0
+      ],
+      "mean": -0.0004514058430989537,
+      "ci95_t": [
+        -0.0023467507616860383,
+        0.001443939075488131
+      ]
+    },
+    "stateless_abundant_FI_silent_persistent-minus-stateless_abundant_PI_silent_persistent": {
+      "left": "stateless_abundant_FI_silent_persistent",
+      "right": "stateless_abundant_PI_silent_persistent",
+      "mode": "natural",
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ],
+      "values": [
+        0.25095621744791663,
+        0.2511088053385417,
+        0.26250203450520837,
+        0.26219685872395837,
+        0.2672322591145833,
+        0.26133219401041674,
+        0.2664693196614584,
+        0.2605692545572917
+      ],
+      "mean": 0.2602958679199219,
+      "ci95_t": [
+        0.2551270938104523,
+        0.26546464202939146
+      ]
+    },
+    "stateless_scarce_FI_live_persistent-minus-stateless_scarce_FI_silent_persistent|natural": {
+      "left": "stateless_scarce_FI_live_persistent",
+      "right": "stateless_scarce_FI_silent_persistent",
+      "mode": "natural",
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ],
+      "values": [
+        0.0,
+        0.016225179036458315,
+        0.005137125651041685,
+        -0.006174723307291685,
+        0.0,
+        0.005564371744791685,
+        0.0,
+        0.0
+      ],
+      "mean": 0.002593994140625,
+      "ci95_t": [
+        -0.0029244894332057635,
+        0.008112477714455764
+      ]
+    },
+    "stateless_scarce_FI_live_persistent-minus-stateless_scarce_PI_live_persistent": {
+      "left": "stateless_scarce_FI_live_persistent",
+      "right": "stateless_scarce_PI_live_persistent",
+      "mode": "natural",
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ],
+      "values": [
+        0.05665079752604163,
+        0.06219482421875,
+        0.06812540690104166,
+        0.04014078776041663,
+        0.06253051757812494,
+        0.04713948567708337,
+        0.063262939453125,
+        0.06219482421875
+      ],
+      "mean": 0.05777994791666666,
+      "ci95_t": [
+        0.04988361319168748,
+        0.06567628264164584
+      ]
+    },
+    "stateless_scarce_PI_live_persistent-minus-stateless_scarce_PI_silent_persistent|natural": {
+      "left": "stateless_scarce_PI_live_persistent",
+      "right": "stateless_scarce_PI_silent_persistent",
+      "mode": "natural",
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ],
+      "values": [
+        0.00539143880208337,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.004984537760416685,
+        0.0,
+        0.0
+      ],
+      "mean": 0.001296997070312507,
+      "ci95_t": [
+        -0.0007131440631671575,
+        0.0033071382037921713
+      ]
+    },
+    "stateless_scarce_FI_silent_persistent-minus-stateless_scarce_PI_silent_persistent": {
+      "left": "stateless_scarce_FI_silent_persistent",
+      "right": "stateless_scarce_PI_silent_persistent",
+      "mode": "natural",
+      "seeds": [
+        68101,
+        68102,
+        68103,
+        68104,
+        68105,
+        68106,
+        68107,
+        68108
+      ],
+      "values": [
+        0.062042236328125,
+        0.045969645182291685,
+        0.06298828124999997,
+        0.046315511067708315,
+        0.06253051757812494,
+        0.04655965169270837,
+        0.063262939453125,
+        0.06219482421875
+      ],
+      "mean": 0.05648295084635416,
+      "ci95_t": [
+        0.049410721803167405,
+        0.06355517988954092
+      ]
+    }
+  }
+}

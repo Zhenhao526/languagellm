@@ -1,7 +1,0 @@
-{
-  "at_utc": "2026-09-15T13:50:09.207486+00:00",
-  "before_source_sha256": "9569028a5c94a2a5e276bb903464f87c78aa97db7ef0d6026cc0a09bde04ff5d",
-  "error_response": "raw/0008_metadata_0000_a2.response",
-  "fix": "remove rvlimit=1 from multiple-title revisions query; default latest revision retained; do not change frame or sample order",
-  "metadata_obtained_before_fix": 0
-}

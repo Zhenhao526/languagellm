@@ -24,13 +24,20 @@ and (in FI) the visible request. A state-group baseline and exact paired score
 uniforms reduce gradient variance; all message and action updates remain
 self-play reward updates.
 
-The 32-cell factor grid crosses memory, scarcity, information, channel
-(`silent`/`live`) and task (`persistent`/`switching`) over eight seeds. Every
-cell is evaluated on training-support and held-out switching contexts with
-natural, closed and token-permuted controls. A centralized finite-horizon
-oracle gives the upper bound. A shared code is counted only when natural live
-performance exceeds closed, permutation removes the gain, and token/request
-mutual information is stable across seeds.
+The **planned** 32-cell factor grid crosses memory, scarcity, information,
+channel (`silent`/`live`) and task (`persistent`/`switching`) over eight seeds.
+This round executes a preregistered 18-cell subset (144 runs): all persistent
+PI/FI cells needed for the memory/capacity control, the two stateless PI silent
+cells, and recurrent PI switching at both capacities. Every executed cell is
+evaluated on training-support and held-out switching contexts with natural,
+closed and token-permuted controls. A centralized finite-horizon oracle gives
+the upper bound. The primary channel-necessity contrast is
+natural live against the matched **from-scratch silent** run. The within-run
+closed intervention is reported separately because a closed token can be an
+out-of-distribution input after live training, especially in FI. A shared code
+requires a positive live-versus-silent effect together with a positive
+natural-versus-permuted effect in a private-information arm; token/request
+mutual information is descriptive and cannot replace either intervention.
 
 This is a positive-control stage, not the final claim about human language. If
 the tabular control cannot learn the code, the neural environment should not be

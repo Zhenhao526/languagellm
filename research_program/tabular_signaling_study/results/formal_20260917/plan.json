@@ -1,0 +1,131 @@
+{
+  "schema": "tabular_signaling_v1",
+  "prepared_sha256": "c3b0ce55fff533a9519eb705640ea1bf72c510e9b6cff9dd2b74aa6ae73ca05c",
+  "sources": {
+    "research_program/tabular_signaling_study/__init__.py": "e70f071d9c2875312959168044c30dedfe02fc45b3a7b4d4430670fae00749f1",
+    "research_program/tabular_signaling_study/README.md": "d8692dc2a74f4afd6de947d55909a49c372d183b1bc17df9001beff5cd0d1a7d",
+    "research_program/tabular_signaling_study/design.py": "12f2d28b7622bebc1d8ff09a49afe21a6467547cad7f479add6c860094229f9a",
+    "research_program/tabular_signaling_study/policy.py": "510ea716df4774202868a30d73ad54ebd7b8910b80a17d96d8448a932b4e2d45",
+    "research_program/tabular_signaling_study/environment.py": "098c5d0c91b90d2f697ac3bb78b92bbf1abb2e30af2d9b82f2e62502f6f4f6d5",
+    "research_program/tabular_signaling_study/runner.py": "32fca001afbdc20bcfab985d14525873b38e33091b407b1329b8e189f0fa2e90",
+    "research_program/tabular_signaling_study/plan.md": "54f375398d6817e0af82921b9762f98cc164a2000878f0e83ac78e508523e2df",
+    "research_program/tabular_signaling_study/tests/test_game.py": "b693e546d349126455b58df09eff7b5c793a275b5c306f6622199bf5d2151307"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.2.6"
+  },
+  "no_training_or_model_initialization_by_prepare": true,
+  "config": {
+    "schema": "tabular_signaling_v1",
+    "horizon": 6,
+    "action_start": 1,
+    "message_rounds": [
+      0
+    ],
+    "blackout_rounds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "alphabet_size": 8,
+    "null_message": 8,
+    "actions": [
+      "wait",
+      "take_site0",
+      "take_site1"
+    ],
+    "seeds": [
+      68101,
+      68102,
+      68103,
+      68104,
+      68105,
+      68106,
+      68107,
+      68108
+    ],
+    "conditions": [
+      "stateless_scarce_PI_silent_persistent",
+      "stateless_scarce_PI_silent_switching",
+      "stateless_scarce_PI_live_persistent",
+      "stateless_scarce_PI_live_switching",
+      "stateless_scarce_FI_silent_persistent",
+      "stateless_scarce_FI_silent_switching",
+      "stateless_scarce_FI_live_persistent",
+      "stateless_scarce_FI_live_switching",
+      "stateless_abundant_PI_silent_persistent",
+      "stateless_abundant_PI_silent_switching",
+      "stateless_abundant_PI_live_persistent",
+      "stateless_abundant_PI_live_switching",
+      "stateless_abundant_FI_silent_persistent",
+      "stateless_abundant_FI_silent_switching",
+      "stateless_abundant_FI_live_persistent",
+      "stateless_abundant_FI_live_switching",
+      "recurrent_scarce_PI_silent_persistent",
+      "recurrent_scarce_PI_silent_switching",
+      "recurrent_scarce_PI_live_persistent",
+      "recurrent_scarce_PI_live_switching",
+      "recurrent_scarce_FI_silent_persistent",
+      "recurrent_scarce_FI_silent_switching",
+      "recurrent_scarce_FI_live_persistent",
+      "recurrent_scarce_FI_live_switching",
+      "recurrent_abundant_PI_silent_persistent",
+      "recurrent_abundant_PI_silent_switching",
+      "recurrent_abundant_PI_live_persistent",
+      "recurrent_abundant_PI_live_switching",
+      "recurrent_abundant_FI_silent_persistent",
+      "recurrent_abundant_FI_silent_switching",
+      "recurrent_abundant_FI_live_persistent",
+      "recurrent_abundant_FI_live_switching"
+    ],
+    "tasks": [
+      "persistent",
+      "switching"
+    ],
+    "updates": 3000,
+    "batch_size": 512,
+    "learning_rate": 0.08,
+    "entropy_initial": 0.01,
+    "entropy_zero_after": 5000,
+    "contexts": {
+      "persistent": 2,
+      "switching": 8
+    },
+    "worker_state_shape": [
+      9,
+      6,
+      2,
+      7,
+      2,
+      3
+    ],
+    "resource_capacity": {
+      "scarce": 2,
+      "abundant": 6
+    },
+    "task_pressure": "fixed scout privately observes the target; worker receives one token then must choose a site",
+    "information": "PI hides target; FI exposes target to the worker",
+    "reward": "+1 correct available site; -0.25 wrong/depleted; wait 0",
+    "pairing": "same worlds, requests, fixed role and score uniforms across channel and scarcity controls",
+    "no_teacher_or_language_prior": true,
+    "evaluation": "training-support and held-out switching contexts with natural/closed/permuted controls",
+    "automatic_followon_experiment": false,
+    "checkpoints": [
+      0,
+      500,
+      1000,
+      2000,
+      3000
+    ],
+    "runtime_policy": "float64 NumPy only",
+    "runs": 256,
+    "episode_batches_per_run": 3000,
+    "training_episodes_per_run": 1536000,
+    "training_steps_per_run": 9216000,
+    "message_samples_per_run": 1536000,
+    "evaluation_episodes_per_condition": 4096
+  }
+}

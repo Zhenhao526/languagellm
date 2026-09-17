@@ -1,0 +1,3083 @@
+{
+  "schema": "population_signaling_audit_v1",
+  "status": "passed",
+  "runs": 128,
+  "training_log_rows": 384000,
+  "final_checkpoints": 128,
+  "max_abs_replay_error": 0.0,
+  "live_silent_trajectory_pairs": 960000,
+  "rows": [
+    {
+      "seed": 74101,
+      "condition": "fixed_hidden_live_abundant",
+      "worker": 0,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74101,
+      "condition": "fixed_hidden_live_abundant",
+      "worker": 1,
+      "natural": 0.11208190917968751
+    },
+    {
+      "seed": 74101,
+      "condition": "fixed_hidden_live_abundant",
+      "worker": 2,
+      "natural": 0.350616455078125
+    },
+    {
+      "seed": 74101,
+      "condition": "fixed_hidden_live_abundant",
+      "worker": 3,
+      "natural": 0.14992675781249998
+    },
+    {
+      "seed": 74101,
+      "condition": "fixed_hidden_live_scarce",
+      "worker": 0,
+      "natural": 0.38729553222656254
+    },
+    {
+      "seed": 74101,
+      "condition": "fixed_hidden_live_scarce",
+      "worker": 1,
+      "natural": -0.011190795898437501
+    },
+    {
+      "seed": 74101,
+      "condition": "fixed_hidden_live_scarce",
+      "worker": 2,
+      "natural": 0.2377410888671875
+    },
+    {
+      "seed": 74101,
+      "condition": "fixed_hidden_live_scarce",
+      "worker": 3,
+      "natural": 0.28775329589843746
+    },
+    {
+      "seed": 74101,
+      "condition": "fixed_hidden_silent_abundant",
+      "worker": 0,
+      "natural": 0.30100708007812493
+    },
+    {
+      "seed": 74101,
+      "condition": "fixed_hidden_silent_abundant",
+      "worker": 1,
+      "natural": 0.22398071289062496
+    },
+    {
+      "seed": 74101,
+      "condition": "fixed_hidden_silent_abundant",
+      "worker": 2,
+      "natural": 0.148675537109375
+    },
+    {
+      "seed": 74101,
+      "condition": "fixed_hidden_silent_abundant",
+      "worker": 3,
+      "natural": 0.2612884521484375
+    },
+    {
+      "seed": 74101,
+      "condition": "fixed_hidden_silent_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74101,
+      "condition": "fixed_hidden_silent_scarce",
+      "worker": 1,
+      "natural": 0.1636016845703125
+    },
+    {
+      "seed": 74101,
+      "condition": "fixed_hidden_silent_scarce",
+      "worker": 2,
+      "natural": 0.1636016845703125
+    },
+    {
+      "seed": 74101,
+      "condition": "fixed_hidden_silent_scarce",
+      "worker": 3,
+      "natural": 0.18730773925781247
+    },
+    {
+      "seed": 74101,
+      "condition": "fixed_visible_live_abundant",
+      "worker": 0,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74101,
+      "condition": "fixed_visible_live_abundant",
+      "worker": 1,
+      "natural": 0.1741943359375
+    },
+    {
+      "seed": 74101,
+      "condition": "fixed_visible_live_abundant",
+      "worker": 2,
+      "natural": 0.025958251953124997
+    },
+    {
+      "seed": 74101,
+      "condition": "fixed_visible_live_abundant",
+      "worker": 3,
+      "natural": 0.1361053466796875
+    },
+    {
+      "seed": 74101,
+      "condition": "fixed_visible_live_scarce",
+      "worker": 0,
+      "natural": 0.38729553222656254
+    },
+    {
+      "seed": 74101,
+      "condition": "fixed_visible_live_scarce",
+      "worker": 1,
+      "natural": 0.03909606933593751
+    },
+    {
+      "seed": 74101,
+      "condition": "fixed_visible_live_scarce",
+      "worker": 2,
+      "natural": 0.2753967285156249
+    },
+    {
+      "seed": 74101,
+      "condition": "fixed_visible_live_scarce",
+      "worker": 3,
+      "natural": 0.150128173828125
+    },
+    {
+      "seed": 74101,
+      "condition": "fixed_visible_silent_abundant",
+      "worker": 0,
+      "natural": 0.30100708007812493
+    },
+    {
+      "seed": 74101,
+      "condition": "fixed_visible_silent_abundant",
+      "worker": 1,
+      "natural": 0.22398071289062496
+    },
+    {
+      "seed": 74101,
+      "condition": "fixed_visible_silent_abundant",
+      "worker": 2,
+      "natural": 0.148675537109375
+    },
+    {
+      "seed": 74101,
+      "condition": "fixed_visible_silent_abundant",
+      "worker": 3,
+      "natural": 0.2612884521484375
+    },
+    {
+      "seed": 74101,
+      "condition": "fixed_visible_silent_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74101,
+      "condition": "fixed_visible_silent_scarce",
+      "worker": 1,
+      "natural": 0.1636016845703125
+    },
+    {
+      "seed": 74101,
+      "condition": "fixed_visible_silent_scarce",
+      "worker": 2,
+      "natural": 0.1636016845703125
+    },
+    {
+      "seed": 74101,
+      "condition": "fixed_visible_silent_scarce",
+      "worker": 3,
+      "natural": 0.18730773925781247
+    },
+    {
+      "seed": 74101,
+      "condition": "rotating_hidden_live_abundant",
+      "worker": 0,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74101,
+      "condition": "rotating_hidden_live_abundant",
+      "worker": 1,
+      "natural": 0.8
+    },
+    {
+      "seed": 74101,
+      "condition": "rotating_hidden_live_abundant",
+      "worker": 2,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74101,
+      "condition": "rotating_hidden_live_abundant",
+      "worker": 3,
+      "natural": 0.8
+    },
+    {
+      "seed": 74101,
+      "condition": "rotating_hidden_live_scarce",
+      "worker": 0,
+      "natural": 0.3502813799853193
+    },
+    {
+      "seed": 74101,
+      "condition": "rotating_hidden_live_scarce",
+      "worker": 1,
+      "natural": 0.3491319857312723
+    },
+    {
+      "seed": 74101,
+      "condition": "rotating_hidden_live_scarce",
+      "worker": 2,
+      "natural": 0.3496296296296296
+    },
+    {
+      "seed": 74101,
+      "condition": "rotating_hidden_live_scarce",
+      "worker": 3,
+      "natural": 0.32492577931716965
+    },
+    {
+      "seed": 74101,
+      "condition": "rotating_hidden_silent_abundant",
+      "worker": 0,
+      "natural": 0.29859310007340345
+    },
+    {
+      "seed": 74101,
+      "condition": "rotating_hidden_silent_abundant",
+      "worker": 1,
+      "natural": 0.30434007134363855
+    },
+    {
+      "seed": 74101,
+      "condition": "rotating_hidden_silent_abundant",
+      "worker": 2,
+      "natural": 0.2960493827160493
+    },
+    {
+      "seed": 74101,
+      "condition": "rotating_hidden_silent_abundant",
+      "worker": 3,
+      "natural": 0.3009277585353785
+    },
+    {
+      "seed": 74101,
+      "condition": "rotating_hidden_silent_scarce",
+      "worker": 0,
+      "natural": 0.3
+    },
+    {
+      "seed": 74101,
+      "condition": "rotating_hidden_silent_scarce",
+      "worker": 1,
+      "natural": 0.3
+    },
+    {
+      "seed": 74101,
+      "condition": "rotating_hidden_silent_scarce",
+      "worker": 2,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74101,
+      "condition": "rotating_hidden_silent_scarce",
+      "worker": 3,
+      "natural": 0.3
+    },
+    {
+      "seed": 74101,
+      "condition": "rotating_visible_live_abundant",
+      "worker": 0,
+      "natural": 0.6742965500367017
+    },
+    {
+      "seed": 74101,
+      "condition": "rotating_visible_live_abundant",
+      "worker": 1,
+      "natural": 0.7387039239001189
+    },
+    {
+      "seed": 74101,
+      "condition": "rotating_visible_live_abundant",
+      "worker": 2,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74101,
+      "condition": "rotating_visible_live_abundant",
+      "worker": 3,
+      "natural": 0.8
+    },
+    {
+      "seed": 74101,
+      "condition": "rotating_visible_live_scarce",
+      "worker": 0,
+      "natural": 0.3
+    },
+    {
+      "seed": 74101,
+      "condition": "rotating_visible_live_scarce",
+      "worker": 1,
+      "natural": 0.3
+    },
+    {
+      "seed": 74101,
+      "condition": "rotating_visible_live_scarce",
+      "worker": 2,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74101,
+      "condition": "rotating_visible_live_scarce",
+      "worker": 3,
+      "natural": 0.3
+    },
+    {
+      "seed": 74101,
+      "condition": "rotating_visible_silent_abundant",
+      "worker": 0,
+      "natural": 0.29859310007340345
+    },
+    {
+      "seed": 74101,
+      "condition": "rotating_visible_silent_abundant",
+      "worker": 1,
+      "natural": 0.30434007134363855
+    },
+    {
+      "seed": 74101,
+      "condition": "rotating_visible_silent_abundant",
+      "worker": 2,
+      "natural": 0.2960493827160493
+    },
+    {
+      "seed": 74101,
+      "condition": "rotating_visible_silent_abundant",
+      "worker": 3,
+      "natural": 0.3009277585353785
+    },
+    {
+      "seed": 74101,
+      "condition": "rotating_visible_silent_scarce",
+      "worker": 0,
+      "natural": 0.3
+    },
+    {
+      "seed": 74101,
+      "condition": "rotating_visible_silent_scarce",
+      "worker": 1,
+      "natural": 0.3
+    },
+    {
+      "seed": 74101,
+      "condition": "rotating_visible_silent_scarce",
+      "worker": 2,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74101,
+      "condition": "rotating_visible_silent_scarce",
+      "worker": 3,
+      "natural": 0.3
+    },
+    {
+      "seed": 74102,
+      "condition": "fixed_hidden_live_abundant",
+      "worker": 0,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74102,
+      "condition": "fixed_hidden_live_abundant",
+      "worker": 1,
+      "natural": 0.3983398437499999
+    },
+    {
+      "seed": 74102,
+      "condition": "fixed_hidden_live_abundant",
+      "worker": 2,
+      "natural": 0.38872375488281247
+    },
+    {
+      "seed": 74102,
+      "condition": "fixed_hidden_live_abundant",
+      "worker": 3,
+      "natural": 0.22415161132812494
+    },
+    {
+      "seed": 74102,
+      "condition": "fixed_hidden_live_scarce",
+      "worker": 0,
+      "natural": 0.4000000000000001
+    },
+    {
+      "seed": 74102,
+      "condition": "fixed_hidden_live_scarce",
+      "worker": 1,
+      "natural": 0.09862060546874998
+    },
+    {
+      "seed": 74102,
+      "condition": "fixed_hidden_live_scarce",
+      "worker": 2,
+      "natural": 0.22323608398437494
+    },
+    {
+      "seed": 74102,
+      "condition": "fixed_hidden_live_scarce",
+      "worker": 3,
+      "natural": 0.0626922607421875
+    },
+    {
+      "seed": 74102,
+      "condition": "fixed_hidden_silent_abundant",
+      "worker": 0,
+      "natural": 0.30073242187499993
+    },
+    {
+      "seed": 74102,
+      "condition": "fixed_hidden_silent_abundant",
+      "worker": 1,
+      "natural": 0.22673950195312503
+    },
+    {
+      "seed": 74102,
+      "condition": "fixed_hidden_silent_abundant",
+      "worker": 2,
+      "natural": 0.18686828613281248
+    },
+    {
+      "seed": 74102,
+      "condition": "fixed_hidden_silent_abundant",
+      "worker": 3,
+      "natural": 0.074468994140625
+    },
+    {
+      "seed": 74102,
+      "condition": "fixed_hidden_silent_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74102,
+      "condition": "fixed_hidden_silent_scarce",
+      "worker": 1,
+      "natural": 0.26177673339843743
+    },
+    {
+      "seed": 74102,
+      "condition": "fixed_hidden_silent_scarce",
+      "worker": 2,
+      "natural": 0.19991455078125
+    },
+    {
+      "seed": 74102,
+      "condition": "fixed_hidden_silent_scarce",
+      "worker": 3,
+      "natural": 0.1119598388671875
+    },
+    {
+      "seed": 74102,
+      "condition": "fixed_visible_live_abundant",
+      "worker": 0,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74102,
+      "condition": "fixed_visible_live_abundant",
+      "worker": 1,
+      "natural": 0.22553100585937494
+    },
+    {
+      "seed": 74102,
+      "condition": "fixed_visible_live_abundant",
+      "worker": 2,
+      "natural": 0.2649627685546875
+    },
+    {
+      "seed": 74102,
+      "condition": "fixed_visible_live_abundant",
+      "worker": 3,
+      "natural": 0.1119598388671875
+    },
+    {
+      "seed": 74102,
+      "condition": "fixed_visible_live_scarce",
+      "worker": 0,
+      "natural": 0.4000000000000001
+    },
+    {
+      "seed": 74102,
+      "condition": "fixed_visible_live_scarce",
+      "worker": 1,
+      "natural": 0.16304626464843747
+    },
+    {
+      "seed": 74102,
+      "condition": "fixed_visible_live_scarce",
+      "worker": 2,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74102,
+      "condition": "fixed_visible_live_scarce",
+      "worker": 3,
+      "natural": 0.22582397460937503
+    },
+    {
+      "seed": 74102,
+      "condition": "fixed_visible_silent_abundant",
+      "worker": 0,
+      "natural": 0.30073242187499993
+    },
+    {
+      "seed": 74102,
+      "condition": "fixed_visible_silent_abundant",
+      "worker": 1,
+      "natural": 0.22673950195312503
+    },
+    {
+      "seed": 74102,
+      "condition": "fixed_visible_silent_abundant",
+      "worker": 2,
+      "natural": 0.18686828613281248
+    },
+    {
+      "seed": 74102,
+      "condition": "fixed_visible_silent_abundant",
+      "worker": 3,
+      "natural": 0.074468994140625
+    },
+    {
+      "seed": 74102,
+      "condition": "fixed_visible_silent_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74102,
+      "condition": "fixed_visible_silent_scarce",
+      "worker": 1,
+      "natural": 0.26177673339843743
+    },
+    {
+      "seed": 74102,
+      "condition": "fixed_visible_silent_scarce",
+      "worker": 2,
+      "natural": 0.19991455078125
+    },
+    {
+      "seed": 74102,
+      "condition": "fixed_visible_silent_scarce",
+      "worker": 3,
+      "natural": 0.1119598388671875
+    },
+    {
+      "seed": 74102,
+      "condition": "rotating_hidden_live_abundant",
+      "worker": 0,
+      "natural": 0.8
+    },
+    {
+      "seed": 74102,
+      "condition": "rotating_hidden_live_abundant",
+      "worker": 1,
+      "natural": 0.8
+    },
+    {
+      "seed": 74102,
+      "condition": "rotating_hidden_live_abundant",
+      "worker": 2,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74102,
+      "condition": "rotating_hidden_live_abundant",
+      "worker": 3,
+      "natural": 0.8
+    },
+    {
+      "seed": 74102,
+      "condition": "rotating_hidden_live_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74102,
+      "condition": "rotating_hidden_live_scarce",
+      "worker": 1,
+      "natural": 0.3
+    },
+    {
+      "seed": 74102,
+      "condition": "rotating_hidden_live_scarce",
+      "worker": 2,
+      "natural": 0.3
+    },
+    {
+      "seed": 74102,
+      "condition": "rotating_hidden_live_scarce",
+      "worker": 3,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74102,
+      "condition": "rotating_hidden_silent_abundant",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74102,
+      "condition": "rotating_hidden_silent_abundant",
+      "worker": 1,
+      "natural": 0.3000613195977434
+    },
+    {
+      "seed": 74102,
+      "condition": "rotating_hidden_silent_abundant",
+      "worker": 2,
+      "natural": 0.29909703828557666
+    },
+    {
+      "seed": 74102,
+      "condition": "rotating_hidden_silent_abundant",
+      "worker": 3,
+      "natural": 0.3008470474346563
+    },
+    {
+      "seed": 74102,
+      "condition": "rotating_hidden_silent_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74102,
+      "condition": "rotating_hidden_silent_scarce",
+      "worker": 1,
+      "natural": 0.3
+    },
+    {
+      "seed": 74102,
+      "condition": "rotating_hidden_silent_scarce",
+      "worker": 2,
+      "natural": 0.3
+    },
+    {
+      "seed": 74102,
+      "condition": "rotating_hidden_silent_scarce",
+      "worker": 3,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74102,
+      "condition": "rotating_visible_live_abundant",
+      "worker": 0,
+      "natural": 0.7498259572352064
+    },
+    {
+      "seed": 74102,
+      "condition": "rotating_visible_live_abundant",
+      "worker": 1,
+      "natural": 0.7381898454746137
+    },
+    {
+      "seed": 74102,
+      "condition": "rotating_visible_live_abundant",
+      "worker": 2,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74102,
+      "condition": "rotating_visible_live_abundant",
+      "worker": 3,
+      "natural": 0.7504356243949661
+    },
+    {
+      "seed": 74102,
+      "condition": "rotating_visible_live_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74102,
+      "condition": "rotating_visible_live_scarce",
+      "worker": 1,
+      "natural": 0.3
+    },
+    {
+      "seed": 74102,
+      "condition": "rotating_visible_live_scarce",
+      "worker": 2,
+      "natural": 0.3
+    },
+    {
+      "seed": 74102,
+      "condition": "rotating_visible_live_scarce",
+      "worker": 3,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74102,
+      "condition": "rotating_visible_silent_abundant",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74102,
+      "condition": "rotating_visible_silent_abundant",
+      "worker": 1,
+      "natural": 0.3000613195977434
+    },
+    {
+      "seed": 74102,
+      "condition": "rotating_visible_silent_abundant",
+      "worker": 2,
+      "natural": 0.29909703828557666
+    },
+    {
+      "seed": 74102,
+      "condition": "rotating_visible_silent_abundant",
+      "worker": 3,
+      "natural": 0.3008470474346563
+    },
+    {
+      "seed": 74102,
+      "condition": "rotating_visible_silent_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74102,
+      "condition": "rotating_visible_silent_scarce",
+      "worker": 1,
+      "natural": 0.3
+    },
+    {
+      "seed": 74102,
+      "condition": "rotating_visible_silent_scarce",
+      "worker": 2,
+      "natural": 0.3
+    },
+    {
+      "seed": 74102,
+      "condition": "rotating_visible_silent_scarce",
+      "worker": 3,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74103,
+      "condition": "fixed_hidden_live_abundant",
+      "worker": 0,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74103,
+      "condition": "fixed_hidden_live_abundant",
+      "worker": 1,
+      "natural": 0.3127685546875
+    },
+    {
+      "seed": 74103,
+      "condition": "fixed_hidden_live_abundant",
+      "worker": 2,
+      "natural": 0.4242431640625
+    },
+    {
+      "seed": 74103,
+      "condition": "fixed_hidden_live_abundant",
+      "worker": 3,
+      "natural": 0.137158203125
+    },
+    {
+      "seed": 74103,
+      "condition": "fixed_hidden_live_scarce",
+      "worker": 0,
+      "natural": 0.37496337890625
+    },
+    {
+      "seed": 74103,
+      "condition": "fixed_hidden_live_scarce",
+      "worker": 1,
+      "natural": 0.07423095703124999
+    },
+    {
+      "seed": 74103,
+      "condition": "fixed_hidden_live_scarce",
+      "worker": 2,
+      "natural": 0.17517089843750003
+    },
+    {
+      "seed": 74103,
+      "condition": "fixed_hidden_live_scarce",
+      "worker": 3,
+      "natural": 0.13681640624999997
+    },
+    {
+      "seed": 74103,
+      "condition": "fixed_hidden_silent_abundant",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74103,
+      "condition": "fixed_hidden_silent_abundant",
+      "worker": 1,
+      "natural": 0.22481689453125003
+    },
+    {
+      "seed": 74103,
+      "condition": "fixed_hidden_silent_abundant",
+      "worker": 2,
+      "natural": 0.22518310546875003
+    },
+    {
+      "seed": 74103,
+      "condition": "fixed_hidden_silent_abundant",
+      "worker": 3,
+      "natural": 0.18768310546875003
+    },
+    {
+      "seed": 74103,
+      "condition": "fixed_hidden_silent_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74103,
+      "condition": "fixed_hidden_silent_scarce",
+      "worker": 1,
+      "natural": 0.16237792968749998
+    },
+    {
+      "seed": 74103,
+      "condition": "fixed_hidden_silent_scarce",
+      "worker": 2,
+      "natural": 0.18804931640625
+    },
+    {
+      "seed": 74103,
+      "condition": "fixed_hidden_silent_scarce",
+      "worker": 3,
+      "natural": 0.22536621093749995
+    },
+    {
+      "seed": 74103,
+      "condition": "fixed_visible_live_abundant",
+      "worker": 0,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74103,
+      "condition": "fixed_visible_live_abundant",
+      "worker": 1,
+      "natural": 0.16201171875
+    },
+    {
+      "seed": 74103,
+      "condition": "fixed_visible_live_abundant",
+      "worker": 2,
+      "natural": 0.0005737304687499999
+    },
+    {
+      "seed": 74103,
+      "condition": "fixed_visible_live_abundant",
+      "worker": 3,
+      "natural": 0.13676757812499996
+    },
+    {
+      "seed": 74103,
+      "condition": "fixed_visible_live_scarce",
+      "worker": 0,
+      "natural": 0.37496337890625
+    },
+    {
+      "seed": 74103,
+      "condition": "fixed_visible_live_scarce",
+      "worker": 1,
+      "natural": 0.13731689453125
+    },
+    {
+      "seed": 74103,
+      "condition": "fixed_visible_live_scarce",
+      "worker": 2,
+      "natural": 0.1244140625
+    },
+    {
+      "seed": 74103,
+      "condition": "fixed_visible_live_scarce",
+      "worker": 3,
+      "natural": 0.12496337890625
+    },
+    {
+      "seed": 74103,
+      "condition": "fixed_visible_silent_abundant",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74103,
+      "condition": "fixed_visible_silent_abundant",
+      "worker": 1,
+      "natural": 0.22481689453125003
+    },
+    {
+      "seed": 74103,
+      "condition": "fixed_visible_silent_abundant",
+      "worker": 2,
+      "natural": 0.22518310546875003
+    },
+    {
+      "seed": 74103,
+      "condition": "fixed_visible_silent_abundant",
+      "worker": 3,
+      "natural": 0.18768310546875003
+    },
+    {
+      "seed": 74103,
+      "condition": "fixed_visible_silent_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74103,
+      "condition": "fixed_visible_silent_scarce",
+      "worker": 1,
+      "natural": 0.16237792968749998
+    },
+    {
+      "seed": 74103,
+      "condition": "fixed_visible_silent_scarce",
+      "worker": 2,
+      "natural": 0.18804931640625
+    },
+    {
+      "seed": 74103,
+      "condition": "fixed_visible_silent_scarce",
+      "worker": 3,
+      "natural": 0.22536621093749995
+    },
+    {
+      "seed": 74103,
+      "condition": "rotating_hidden_live_abundant",
+      "worker": 0,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74103,
+      "condition": "rotating_hidden_live_abundant",
+      "worker": 1,
+      "natural": 0.8
+    },
+    {
+      "seed": 74103,
+      "condition": "rotating_hidden_live_abundant",
+      "worker": 2,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74103,
+      "condition": "rotating_hidden_live_abundant",
+      "worker": 3,
+      "natural": 0.8
+    },
+    {
+      "seed": 74103,
+      "condition": "rotating_hidden_live_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74103,
+      "condition": "rotating_hidden_live_scarce",
+      "worker": 1,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74103,
+      "condition": "rotating_hidden_live_scarce",
+      "worker": 2,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74103,
+      "condition": "rotating_hidden_live_scarce",
+      "worker": 3,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74103,
+      "condition": "rotating_hidden_silent_abundant",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74103,
+      "condition": "rotating_hidden_silent_abundant",
+      "worker": 1,
+      "natural": 0.30331805019305014
+    },
+    {
+      "seed": 74103,
+      "condition": "rotating_hidden_silent_abundant",
+      "worker": 2,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74103,
+      "condition": "rotating_hidden_silent_abundant",
+      "worker": 3,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74103,
+      "condition": "rotating_hidden_silent_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74103,
+      "condition": "rotating_hidden_silent_scarce",
+      "worker": 1,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74103,
+      "condition": "rotating_hidden_silent_scarce",
+      "worker": 2,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74103,
+      "condition": "rotating_hidden_silent_scarce",
+      "worker": 3,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74103,
+      "condition": "rotating_visible_live_abundant",
+      "worker": 0,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74103,
+      "condition": "rotating_visible_live_abundant",
+      "worker": 1,
+      "natural": 0.7387065637065637
+    },
+    {
+      "seed": 74103,
+      "condition": "rotating_visible_live_abundant",
+      "worker": 2,
+      "natural": 0.7383768746976296
+    },
+    {
+      "seed": 74103,
+      "condition": "rotating_visible_live_abundant",
+      "worker": 3,
+      "natural": 0.8
+    },
+    {
+      "seed": 74103,
+      "condition": "rotating_visible_live_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74103,
+      "condition": "rotating_visible_live_scarce",
+      "worker": 1,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74103,
+      "condition": "rotating_visible_live_scarce",
+      "worker": 2,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74103,
+      "condition": "rotating_visible_live_scarce",
+      "worker": 3,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74103,
+      "condition": "rotating_visible_silent_abundant",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74103,
+      "condition": "rotating_visible_silent_abundant",
+      "worker": 1,
+      "natural": 0.30331805019305014
+    },
+    {
+      "seed": 74103,
+      "condition": "rotating_visible_silent_abundant",
+      "worker": 2,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74103,
+      "condition": "rotating_visible_silent_abundant",
+      "worker": 3,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74103,
+      "condition": "rotating_visible_silent_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74103,
+      "condition": "rotating_visible_silent_scarce",
+      "worker": 1,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74103,
+      "condition": "rotating_visible_silent_scarce",
+      "worker": 2,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74103,
+      "condition": "rotating_visible_silent_scarce",
+      "worker": 3,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74104,
+      "condition": "fixed_hidden_live_abundant",
+      "worker": 0,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74104,
+      "condition": "fixed_hidden_live_abundant",
+      "worker": 1,
+      "natural": 0.0509521484375
+    },
+    {
+      "seed": 74104,
+      "condition": "fixed_hidden_live_abundant",
+      "worker": 2,
+      "natural": 0.17413330078125
+    },
+    {
+      "seed": 74104,
+      "condition": "fixed_hidden_live_abundant",
+      "worker": 3,
+      "natural": 0.21263427734375
+    },
+    {
+      "seed": 74104,
+      "condition": "fixed_hidden_live_scarce",
+      "worker": 0,
+      "natural": 0.37506713867187497
+    },
+    {
+      "seed": 74104,
+      "condition": "fixed_hidden_live_scarce",
+      "worker": 1,
+      "natural": 0.02467041015624999
+    },
+    {
+      "seed": 74104,
+      "condition": "fixed_hidden_live_scarce",
+      "worker": 2,
+      "natural": 0.22479858398437494
+    },
+    {
+      "seed": 74104,
+      "condition": "fixed_hidden_live_scarce",
+      "worker": 3,
+      "natural": 0.16322021484375
+    },
+    {
+      "seed": 74104,
+      "condition": "fixed_hidden_silent_abundant",
+      "worker": 0,
+      "natural": 0.29990844726562493
+    },
+    {
+      "seed": 74104,
+      "condition": "fixed_hidden_silent_abundant",
+      "worker": 1,
+      "natural": 0.26263427734375
+    },
+    {
+      "seed": 74104,
+      "condition": "fixed_hidden_silent_abundant",
+      "worker": 2,
+      "natural": 0.18676147460937503
+    },
+    {
+      "seed": 74104,
+      "condition": "fixed_hidden_silent_abundant",
+      "worker": 3,
+      "natural": 0.18690185546875
+    },
+    {
+      "seed": 74104,
+      "condition": "fixed_hidden_silent_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74104,
+      "condition": "fixed_hidden_silent_scarce",
+      "worker": 1,
+      "natural": 0.12431640625
+    },
+    {
+      "seed": 74104,
+      "condition": "fixed_hidden_silent_scarce",
+      "worker": 2,
+      "natural": 0.15057983398437497
+    },
+    {
+      "seed": 74104,
+      "condition": "fixed_hidden_silent_scarce",
+      "worker": 3,
+      "natural": 0.15006713867187504
+    },
+    {
+      "seed": 74104,
+      "condition": "fixed_visible_live_abundant",
+      "worker": 0,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74104,
+      "condition": "fixed_visible_live_abundant",
+      "worker": 1,
+      "natural": 0.1504638671875
+    },
+    {
+      "seed": 74104,
+      "condition": "fixed_visible_live_abundant",
+      "worker": 2,
+      "natural": 0.4002563476562499
+    },
+    {
+      "seed": 74104,
+      "condition": "fixed_visible_live_abundant",
+      "worker": 3,
+      "natural": 0.13714599609375003
+    },
+    {
+      "seed": 74104,
+      "condition": "fixed_visible_live_scarce",
+      "worker": 0,
+      "natural": 0.37506713867187497
+    },
+    {
+      "seed": 74104,
+      "condition": "fixed_visible_live_scarce",
+      "worker": 1,
+      "natural": 0.11179199218749998
+    },
+    {
+      "seed": 74104,
+      "condition": "fixed_visible_live_scarce",
+      "worker": 2,
+      "natural": 0.17538452148437503
+    },
+    {
+      "seed": 74104,
+      "condition": "fixed_visible_live_scarce",
+      "worker": 3,
+      "natural": 0.21304931640624997
+    },
+    {
+      "seed": 74104,
+      "condition": "fixed_visible_silent_abundant",
+      "worker": 0,
+      "natural": 0.29990844726562493
+    },
+    {
+      "seed": 74104,
+      "condition": "fixed_visible_silent_abundant",
+      "worker": 1,
+      "natural": 0.26263427734375
+    },
+    {
+      "seed": 74104,
+      "condition": "fixed_visible_silent_abundant",
+      "worker": 2,
+      "natural": 0.18676147460937503
+    },
+    {
+      "seed": 74104,
+      "condition": "fixed_visible_silent_abundant",
+      "worker": 3,
+      "natural": 0.18690185546875
+    },
+    {
+      "seed": 74104,
+      "condition": "fixed_visible_silent_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74104,
+      "condition": "fixed_visible_silent_scarce",
+      "worker": 1,
+      "natural": 0.12431640625
+    },
+    {
+      "seed": 74104,
+      "condition": "fixed_visible_silent_scarce",
+      "worker": 2,
+      "natural": 0.15057983398437497
+    },
+    {
+      "seed": 74104,
+      "condition": "fixed_visible_silent_scarce",
+      "worker": 3,
+      "natural": 0.15006713867187504
+    },
+    {
+      "seed": 74104,
+      "condition": "rotating_hidden_live_abundant",
+      "worker": 0,
+      "natural": 0.8000000000000003
+    },
+    {
+      "seed": 74104,
+      "condition": "rotating_hidden_live_abundant",
+      "worker": 1,
+      "natural": 0.8
+    },
+    {
+      "seed": 74104,
+      "condition": "rotating_hidden_live_abundant",
+      "worker": 2,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74104,
+      "condition": "rotating_hidden_live_abundant",
+      "worker": 3,
+      "natural": 0.8
+    },
+    {
+      "seed": 74104,
+      "condition": "rotating_hidden_live_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74104,
+      "condition": "rotating_hidden_live_scarce",
+      "worker": 1,
+      "natural": 0.3122168674698795
+    },
+    {
+      "seed": 74104,
+      "condition": "rotating_hidden_live_scarce",
+      "worker": 2,
+      "natural": 0.3122277227722771
+    },
+    {
+      "seed": 74104,
+      "condition": "rotating_hidden_live_scarce",
+      "worker": 3,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74104,
+      "condition": "rotating_hidden_silent_abundant",
+      "worker": 0,
+      "natural": 0.29748774509803916
+    },
+    {
+      "seed": 74104,
+      "condition": "rotating_hidden_silent_abundant",
+      "worker": 1,
+      "natural": 0.29969879518072284
+    },
+    {
+      "seed": 74104,
+      "condition": "rotating_hidden_silent_abundant",
+      "worker": 2,
+      "natural": 0.30358910891089097
+    },
+    {
+      "seed": 74104,
+      "condition": "rotating_hidden_silent_abundant",
+      "worker": 3,
+      "natural": 0.29392318911035487
+    },
+    {
+      "seed": 74104,
+      "condition": "rotating_hidden_silent_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74104,
+      "condition": "rotating_hidden_silent_scarce",
+      "worker": 1,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74104,
+      "condition": "rotating_hidden_silent_scarce",
+      "worker": 2,
+      "natural": 0.2999999999999999
+    },
+    {
+      "seed": 74104,
+      "condition": "rotating_hidden_silent_scarce",
+      "worker": 3,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74104,
+      "condition": "rotating_visible_live_abundant",
+      "worker": 0,
+      "natural": 0.7362745098039216
+    },
+    {
+      "seed": 74104,
+      "condition": "rotating_visible_live_abundant",
+      "worker": 1,
+      "natural": 0.7389156626506024
+    },
+    {
+      "seed": 74104,
+      "condition": "rotating_visible_live_abundant",
+      "worker": 2,
+      "natural": 0.7510891089108912
+    },
+    {
+      "seed": 74104,
+      "condition": "rotating_visible_live_abundant",
+      "worker": 3,
+      "natural": 0.8
+    },
+    {
+      "seed": 74104,
+      "condition": "rotating_visible_live_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74104,
+      "condition": "rotating_visible_live_scarce",
+      "worker": 1,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74104,
+      "condition": "rotating_visible_live_scarce",
+      "worker": 2,
+      "natural": 0.2999999999999999
+    },
+    {
+      "seed": 74104,
+      "condition": "rotating_visible_live_scarce",
+      "worker": 3,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74104,
+      "condition": "rotating_visible_silent_abundant",
+      "worker": 0,
+      "natural": 0.29748774509803916
+    },
+    {
+      "seed": 74104,
+      "condition": "rotating_visible_silent_abundant",
+      "worker": 1,
+      "natural": 0.29969879518072284
+    },
+    {
+      "seed": 74104,
+      "condition": "rotating_visible_silent_abundant",
+      "worker": 2,
+      "natural": 0.30358910891089097
+    },
+    {
+      "seed": 74104,
+      "condition": "rotating_visible_silent_abundant",
+      "worker": 3,
+      "natural": 0.29392318911035487
+    },
+    {
+      "seed": 74104,
+      "condition": "rotating_visible_silent_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74104,
+      "condition": "rotating_visible_silent_scarce",
+      "worker": 1,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74104,
+      "condition": "rotating_visible_silent_scarce",
+      "worker": 2,
+      "natural": 0.2999999999999999
+    },
+    {
+      "seed": 74104,
+      "condition": "rotating_visible_silent_scarce",
+      "worker": 3,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74105,
+      "condition": "fixed_hidden_live_abundant",
+      "worker": 0,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74105,
+      "condition": "fixed_hidden_live_abundant",
+      "worker": 1,
+      "natural": 0.3210205078125
+    },
+    {
+      "seed": 74105,
+      "condition": "fixed_hidden_live_abundant",
+      "worker": 2,
+      "natural": 0.19741821289062497
+    },
+    {
+      "seed": 74105,
+      "condition": "fixed_hidden_live_abundant",
+      "worker": 3,
+      "natural": 0.335992431640625
+    },
+    {
+      "seed": 74105,
+      "condition": "fixed_hidden_live_scarce",
+      "worker": 0,
+      "natural": 0.375274658203125
+    },
+    {
+      "seed": 74105,
+      "condition": "fixed_hidden_live_scarce",
+      "worker": 1,
+      "natural": 0.20285949707031253
+    },
+    {
+      "seed": 74105,
+      "condition": "fixed_hidden_live_scarce",
+      "worker": 2,
+      "natural": 0.23619995117187495
+    },
+    {
+      "seed": 74105,
+      "condition": "fixed_hidden_live_scarce",
+      "worker": 3,
+      "natural": 0.28760070800781246
+    },
+    {
+      "seed": 74105,
+      "condition": "fixed_hidden_silent_abundant",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74105,
+      "condition": "fixed_hidden_silent_abundant",
+      "worker": 1,
+      "natural": 0.22016296386718753
+    },
+    {
+      "seed": 74105,
+      "condition": "fixed_hidden_silent_abundant",
+      "worker": 2,
+      "natural": 0.07637329101562498
+    },
+    {
+      "seed": 74105,
+      "condition": "fixed_hidden_silent_abundant",
+      "worker": 3,
+      "natural": 0.22290954589843753
+    },
+    {
+      "seed": 74105,
+      "condition": "fixed_hidden_silent_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74105,
+      "condition": "fixed_hidden_silent_scarce",
+      "worker": 1,
+      "natural": 0.0904754638671875
+    },
+    {
+      "seed": 74105,
+      "condition": "fixed_hidden_silent_scarce",
+      "worker": 2,
+      "natural": 0.121795654296875
+    },
+    {
+      "seed": 74105,
+      "condition": "fixed_hidden_silent_scarce",
+      "worker": 3,
+      "natural": 0.26115722656249996
+    },
+    {
+      "seed": 74105,
+      "condition": "fixed_visible_live_abundant",
+      "worker": 0,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74105,
+      "condition": "fixed_visible_live_abundant",
+      "worker": 1,
+      "natural": 0.0758514404296875
+    },
+    {
+      "seed": 74105,
+      "condition": "fixed_visible_live_abundant",
+      "worker": 2,
+      "natural": 0.20023193359374997
+    },
+    {
+      "seed": 74105,
+      "condition": "fixed_visible_live_abundant",
+      "worker": 3,
+      "natural": 0.2997283935546875
+    },
+    {
+      "seed": 74105,
+      "condition": "fixed_visible_live_scarce",
+      "worker": 0,
+      "natural": 0.375274658203125
+    },
+    {
+      "seed": 74105,
+      "condition": "fixed_visible_live_scarce",
+      "worker": 1,
+      "natural": 0.07340087890625
+    },
+    {
+      "seed": 74105,
+      "condition": "fixed_visible_live_scarce",
+      "worker": 2,
+      "natural": 0.1500579833984375
+    },
+    {
+      "seed": 74105,
+      "condition": "fixed_visible_live_scarce",
+      "worker": 3,
+      "natural": 0.18941650390625003
+    },
+    {
+      "seed": 74105,
+      "condition": "fixed_visible_silent_abundant",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74105,
+      "condition": "fixed_visible_silent_abundant",
+      "worker": 1,
+      "natural": 0.22016296386718753
+    },
+    {
+      "seed": 74105,
+      "condition": "fixed_visible_silent_abundant",
+      "worker": 2,
+      "natural": 0.07637329101562498
+    },
+    {
+      "seed": 74105,
+      "condition": "fixed_visible_silent_abundant",
+      "worker": 3,
+      "natural": 0.22290954589843753
+    },
+    {
+      "seed": 74105,
+      "condition": "fixed_visible_silent_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74105,
+      "condition": "fixed_visible_silent_scarce",
+      "worker": 1,
+      "natural": 0.0904754638671875
+    },
+    {
+      "seed": 74105,
+      "condition": "fixed_visible_silent_scarce",
+      "worker": 2,
+      "natural": 0.121795654296875
+    },
+    {
+      "seed": 74105,
+      "condition": "fixed_visible_silent_scarce",
+      "worker": 3,
+      "natural": 0.26115722656249996
+    },
+    {
+      "seed": 74105,
+      "condition": "rotating_hidden_live_abundant",
+      "worker": 0,
+      "natural": 0.8
+    },
+    {
+      "seed": 74105,
+      "condition": "rotating_hidden_live_abundant",
+      "worker": 1,
+      "natural": 0.8
+    },
+    {
+      "seed": 74105,
+      "condition": "rotating_hidden_live_abundant",
+      "worker": 2,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74105,
+      "condition": "rotating_hidden_live_abundant",
+      "worker": 3,
+      "natural": 0.8
+    },
+    {
+      "seed": 74105,
+      "condition": "rotating_hidden_live_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74105,
+      "condition": "rotating_hidden_live_scarce",
+      "worker": 1,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74105,
+      "condition": "rotating_hidden_live_scarce",
+      "worker": 2,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74105,
+      "condition": "rotating_hidden_live_scarce",
+      "worker": 3,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74105,
+      "condition": "rotating_hidden_silent_abundant",
+      "worker": 0,
+      "natural": 0.2932922407541696
+    },
+    {
+      "seed": 74105,
+      "condition": "rotating_hidden_silent_abundant",
+      "worker": 1,
+      "natural": 0.30179277942631055
+    },
+    {
+      "seed": 74105,
+      "condition": "rotating_hidden_silent_abundant",
+      "worker": 2,
+      "natural": 0.29408909905425573
+    },
+    {
+      "seed": 74105,
+      "condition": "rotating_hidden_silent_abundant",
+      "worker": 3,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74105,
+      "condition": "rotating_hidden_silent_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74105,
+      "condition": "rotating_hidden_silent_scarce",
+      "worker": 1,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74105,
+      "condition": "rotating_hidden_silent_scarce",
+      "worker": 2,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74105,
+      "condition": "rotating_hidden_silent_scarce",
+      "worker": 3,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74105,
+      "condition": "rotating_visible_live_abundant",
+      "worker": 0,
+      "natural": 0.7380589799371526
+    },
+    {
+      "seed": 74105,
+      "condition": "rotating_visible_live_abundant",
+      "worker": 1,
+      "natural": 0.736263600395648
+    },
+    {
+      "seed": 74105,
+      "condition": "rotating_visible_live_abundant",
+      "worker": 2,
+      "natural": 0.6726978596316575
+    },
+    {
+      "seed": 74105,
+      "condition": "rotating_visible_live_abundant",
+      "worker": 3,
+      "natural": 0.8
+    },
+    {
+      "seed": 74105,
+      "condition": "rotating_visible_live_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74105,
+      "condition": "rotating_visible_live_scarce",
+      "worker": 1,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74105,
+      "condition": "rotating_visible_live_scarce",
+      "worker": 2,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74105,
+      "condition": "rotating_visible_live_scarce",
+      "worker": 3,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74105,
+      "condition": "rotating_visible_silent_abundant",
+      "worker": 0,
+      "natural": 0.2932922407541696
+    },
+    {
+      "seed": 74105,
+      "condition": "rotating_visible_silent_abundant",
+      "worker": 1,
+      "natural": 0.30179277942631055
+    },
+    {
+      "seed": 74105,
+      "condition": "rotating_visible_silent_abundant",
+      "worker": 2,
+      "natural": 0.29408909905425573
+    },
+    {
+      "seed": 74105,
+      "condition": "rotating_visible_silent_abundant",
+      "worker": 3,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74105,
+      "condition": "rotating_visible_silent_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74105,
+      "condition": "rotating_visible_silent_scarce",
+      "worker": 1,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74105,
+      "condition": "rotating_visible_silent_scarce",
+      "worker": 2,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74105,
+      "condition": "rotating_visible_silent_scarce",
+      "worker": 3,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74106,
+      "condition": "fixed_hidden_live_abundant",
+      "worker": 0,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74106,
+      "condition": "fixed_hidden_live_abundant",
+      "worker": 1,
+      "natural": 0.2147979736328125
+    },
+    {
+      "seed": 74106,
+      "condition": "fixed_hidden_live_abundant",
+      "worker": 2,
+      "natural": 0.19002990722656254
+    },
+    {
+      "seed": 74106,
+      "condition": "fixed_hidden_live_abundant",
+      "worker": 3,
+      "natural": 0.19886474609375
+    },
+    {
+      "seed": 74106,
+      "condition": "fixed_hidden_live_scarce",
+      "worker": 0,
+      "natural": 0.38758850097656256
+    },
+    {
+      "seed": 74106,
+      "condition": "fixed_hidden_live_scarce",
+      "worker": 1,
+      "natural": 0.123089599609375
+    },
+    {
+      "seed": 74106,
+      "condition": "fixed_hidden_live_scarce",
+      "worker": 2,
+      "natural": 0.114129638671875
+    },
+    {
+      "seed": 74106,
+      "condition": "fixed_hidden_live_scarce",
+      "worker": 3,
+      "natural": 0.12459411621093748
+    },
+    {
+      "seed": 74106,
+      "condition": "fixed_hidden_silent_abundant",
+      "worker": 0,
+      "natural": 0.29992370605468743
+    },
+    {
+      "seed": 74106,
+      "condition": "fixed_hidden_silent_abundant",
+      "worker": 1,
+      "natural": 0.1514007568359375
+    },
+    {
+      "seed": 74106,
+      "condition": "fixed_hidden_silent_abundant",
+      "worker": 2,
+      "natural": 0.14999999999999997
+    },
+    {
+      "seed": 74106,
+      "condition": "fixed_hidden_silent_abundant",
+      "worker": 3,
+      "natural": 0.1886199951171875
+    },
+    {
+      "seed": 74106,
+      "condition": "fixed_hidden_silent_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74106,
+      "condition": "fixed_hidden_silent_scarce",
+      "worker": 1,
+      "natural": 0.1989227294921875
+    },
+    {
+      "seed": 74106,
+      "condition": "fixed_hidden_silent_scarce",
+      "worker": 2,
+      "natural": 0.1886199951171875
+    },
+    {
+      "seed": 74106,
+      "condition": "fixed_hidden_silent_scarce",
+      "worker": 3,
+      "natural": 0.199322509765625
+    },
+    {
+      "seed": 74106,
+      "condition": "fixed_visible_live_abundant",
+      "worker": 0,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74106,
+      "condition": "fixed_visible_live_abundant",
+      "worker": 1,
+      "natural": 0.23854980468749998
+    },
+    {
+      "seed": 74106,
+      "condition": "fixed_visible_live_abundant",
+      "worker": 2,
+      "natural": 0.2476043701171875
+    },
+    {
+      "seed": 74106,
+      "condition": "fixed_visible_live_abundant",
+      "worker": 3,
+      "natural": 0.2134368896484375
+    },
+    {
+      "seed": 74106,
+      "condition": "fixed_visible_live_scarce",
+      "worker": 0,
+      "natural": 0.38758850097656256
+    },
+    {
+      "seed": 74106,
+      "condition": "fixed_visible_live_scarce",
+      "worker": 1,
+      "natural": 0.2630523681640625
+    },
+    {
+      "seed": 74106,
+      "condition": "fixed_visible_live_scarce",
+      "worker": 2,
+      "natural": 0.08823547363281249
+    },
+    {
+      "seed": 74106,
+      "condition": "fixed_visible_live_scarce",
+      "worker": 3,
+      "natural": 0.1378631591796875
+    },
+    {
+      "seed": 74106,
+      "condition": "fixed_visible_silent_abundant",
+      "worker": 0,
+      "natural": 0.29992370605468743
+    },
+    {
+      "seed": 74106,
+      "condition": "fixed_visible_silent_abundant",
+      "worker": 1,
+      "natural": 0.1514007568359375
+    },
+    {
+      "seed": 74106,
+      "condition": "fixed_visible_silent_abundant",
+      "worker": 2,
+      "natural": 0.14999999999999997
+    },
+    {
+      "seed": 74106,
+      "condition": "fixed_visible_silent_abundant",
+      "worker": 3,
+      "natural": 0.1886199951171875
+    },
+    {
+      "seed": 74106,
+      "condition": "fixed_visible_silent_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74106,
+      "condition": "fixed_visible_silent_scarce",
+      "worker": 1,
+      "natural": 0.1989227294921875
+    },
+    {
+      "seed": 74106,
+      "condition": "fixed_visible_silent_scarce",
+      "worker": 2,
+      "natural": 0.1886199951171875
+    },
+    {
+      "seed": 74106,
+      "condition": "fixed_visible_silent_scarce",
+      "worker": 3,
+      "natural": 0.199322509765625
+    },
+    {
+      "seed": 74106,
+      "condition": "rotating_hidden_live_abundant",
+      "worker": 0,
+      "natural": 0.8
+    },
+    {
+      "seed": 74106,
+      "condition": "rotating_hidden_live_abundant",
+      "worker": 1,
+      "natural": 0.8
+    },
+    {
+      "seed": 74106,
+      "condition": "rotating_hidden_live_abundant",
+      "worker": 2,
+      "natural": 0.8
+    },
+    {
+      "seed": 74106,
+      "condition": "rotating_hidden_live_abundant",
+      "worker": 3,
+      "natural": 0.8
+    },
+    {
+      "seed": 74106,
+      "condition": "rotating_hidden_live_scarce",
+      "worker": 0,
+      "natural": 0.3119248943048992
+    },
+    {
+      "seed": 74106,
+      "condition": "rotating_hidden_live_scarce",
+      "worker": 1,
+      "natural": 0.3127420135527589
+    },
+    {
+      "seed": 74106,
+      "condition": "rotating_hidden_live_scarce",
+      "worker": 2,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74106,
+      "condition": "rotating_hidden_live_scarce",
+      "worker": 3,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74106,
+      "condition": "rotating_hidden_silent_abundant",
+      "worker": 0,
+      "natural": 0.3066525739865704
+    },
+    {
+      "seed": 74106,
+      "condition": "rotating_hidden_silent_abundant",
+      "worker": 1,
+      "natural": 0.3001210067763794
+    },
+    {
+      "seed": 74106,
+      "condition": "rotating_hidden_silent_abundant",
+      "worker": 2,
+      "natural": 0.29744959922273495
+    },
+    {
+      "seed": 74106,
+      "condition": "rotating_hidden_silent_abundant",
+      "worker": 3,
+      "natural": 0.29963539134662126
+    },
+    {
+      "seed": 74106,
+      "condition": "rotating_hidden_silent_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74106,
+      "condition": "rotating_hidden_silent_scarce",
+      "worker": 1,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74106,
+      "condition": "rotating_hidden_silent_scarce",
+      "worker": 2,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74106,
+      "condition": "rotating_hidden_silent_scarce",
+      "worker": 3,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74106,
+      "condition": "rotating_visible_live_abundant",
+      "worker": 0,
+      "natural": 0.8
+    },
+    {
+      "seed": 74106,
+      "condition": "rotating_visible_live_abundant",
+      "worker": 1,
+      "natural": 0.7362899322362053
+    },
+    {
+      "seed": 74106,
+      "condition": "rotating_visible_live_abundant",
+      "worker": 2,
+      "natural": 0.8
+    },
+    {
+      "seed": 74106,
+      "condition": "rotating_visible_live_abundant",
+      "worker": 3,
+      "natural": 0.7500243072435586
+    },
+    {
+      "seed": 74106,
+      "condition": "rotating_visible_live_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74106,
+      "condition": "rotating_visible_live_scarce",
+      "worker": 1,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74106,
+      "condition": "rotating_visible_live_scarce",
+      "worker": 2,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74106,
+      "condition": "rotating_visible_live_scarce",
+      "worker": 3,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74106,
+      "condition": "rotating_visible_silent_abundant",
+      "worker": 0,
+      "natural": 0.3066525739865704
+    },
+    {
+      "seed": 74106,
+      "condition": "rotating_visible_silent_abundant",
+      "worker": 1,
+      "natural": 0.3001210067763794
+    },
+    {
+      "seed": 74106,
+      "condition": "rotating_visible_silent_abundant",
+      "worker": 2,
+      "natural": 0.29744959922273495
+    },
+    {
+      "seed": 74106,
+      "condition": "rotating_visible_silent_abundant",
+      "worker": 3,
+      "natural": 0.29963539134662126
+    },
+    {
+      "seed": 74106,
+      "condition": "rotating_visible_silent_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74106,
+      "condition": "rotating_visible_silent_scarce",
+      "worker": 1,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74106,
+      "condition": "rotating_visible_silent_scarce",
+      "worker": 2,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74106,
+      "condition": "rotating_visible_silent_scarce",
+      "worker": 3,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74107,
+      "condition": "fixed_hidden_live_abundant",
+      "worker": 0,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74107,
+      "condition": "fixed_hidden_live_abundant",
+      "worker": 1,
+      "natural": 0.062481689453125
+    },
+    {
+      "seed": 74107,
+      "condition": "fixed_hidden_live_abundant",
+      "worker": 2,
+      "natural": 0.36243896484374993
+    },
+    {
+      "seed": 74107,
+      "condition": "fixed_hidden_live_abundant",
+      "worker": 3,
+      "natural": 0.187652587890625
+    },
+    {
+      "seed": 74107,
+      "condition": "fixed_hidden_live_scarce",
+      "worker": 0,
+      "natural": 0.38750000000000007
+    },
+    {
+      "seed": 74107,
+      "condition": "fixed_hidden_live_scarce",
+      "worker": 1,
+      "natural": 0.17530212402343753
+    },
+    {
+      "seed": 74107,
+      "condition": "fixed_hidden_live_scarce",
+      "worker": 2,
+      "natural": 0.11261291503906251
+    },
+    {
+      "seed": 74107,
+      "condition": "fixed_hidden_live_scarce",
+      "worker": 3,
+      "natural": 0.175152587890625
+    },
+    {
+      "seed": 74107,
+      "condition": "fixed_hidden_silent_abundant",
+      "worker": 0,
+      "natural": 0.29966430664062493
+    },
+    {
+      "seed": 74107,
+      "condition": "fixed_hidden_silent_abundant",
+      "worker": 1,
+      "natural": 0.187591552734375
+    },
+    {
+      "seed": 74107,
+      "condition": "fixed_hidden_silent_abundant",
+      "worker": 2,
+      "natural": 0.22527465820312498
+    },
+    {
+      "seed": 74107,
+      "condition": "fixed_hidden_silent_abundant",
+      "worker": 3,
+      "natural": 0.30025939941406243
+    },
+    {
+      "seed": 74107,
+      "condition": "fixed_hidden_silent_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74107,
+      "condition": "fixed_hidden_silent_scarce",
+      "worker": 1,
+      "natural": 0.1998931884765625
+    },
+    {
+      "seed": 74107,
+      "condition": "fixed_hidden_silent_scarce",
+      "worker": 2,
+      "natural": 0.26243896484374996
+    },
+    {
+      "seed": 74107,
+      "condition": "fixed_hidden_silent_scarce",
+      "worker": 3,
+      "natural": 0.1872711181640625
+    },
+    {
+      "seed": 74107,
+      "condition": "fixed_visible_live_abundant",
+      "worker": 0,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74107,
+      "condition": "fixed_visible_live_abundant",
+      "worker": 1,
+      "natural": 0.3124542236328125
+    },
+    {
+      "seed": 74107,
+      "condition": "fixed_visible_live_abundant",
+      "worker": 2,
+      "natural": 0.06248779296875
+    },
+    {
+      "seed": 74107,
+      "condition": "fixed_visible_live_abundant",
+      "worker": 3,
+      "natural": 0.2751068115234375
+    },
+    {
+      "seed": 74107,
+      "condition": "fixed_visible_live_scarce",
+      "worker": 0,
+      "natural": 0.38750000000000007
+    },
+    {
+      "seed": 74107,
+      "condition": "fixed_visible_live_scarce",
+      "worker": 1,
+      "natural": 0.30006713867187496
+    },
+    {
+      "seed": 74107,
+      "condition": "fixed_visible_live_scarce",
+      "worker": 2,
+      "natural": 0.112579345703125
+    },
+    {
+      "seed": 74107,
+      "condition": "fixed_visible_live_scarce",
+      "worker": 3,
+      "natural": 0.1252288818359375
+    },
+    {
+      "seed": 74107,
+      "condition": "fixed_visible_silent_abundant",
+      "worker": 0,
+      "natural": 0.29966430664062493
+    },
+    {
+      "seed": 74107,
+      "condition": "fixed_visible_silent_abundant",
+      "worker": 1,
+      "natural": 0.187591552734375
+    },
+    {
+      "seed": 74107,
+      "condition": "fixed_visible_silent_abundant",
+      "worker": 2,
+      "natural": 0.22527465820312498
+    },
+    {
+      "seed": 74107,
+      "condition": "fixed_visible_silent_abundant",
+      "worker": 3,
+      "natural": 0.30025939941406243
+    },
+    {
+      "seed": 74107,
+      "condition": "fixed_visible_silent_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74107,
+      "condition": "fixed_visible_silent_scarce",
+      "worker": 1,
+      "natural": 0.1998931884765625
+    },
+    {
+      "seed": 74107,
+      "condition": "fixed_visible_silent_scarce",
+      "worker": 2,
+      "natural": 0.26243896484374996
+    },
+    {
+      "seed": 74107,
+      "condition": "fixed_visible_silent_scarce",
+      "worker": 3,
+      "natural": 0.1872711181640625
+    },
+    {
+      "seed": 74107,
+      "condition": "rotating_hidden_live_abundant",
+      "worker": 0,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74107,
+      "condition": "rotating_hidden_live_abundant",
+      "worker": 1,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74107,
+      "condition": "rotating_hidden_live_abundant",
+      "worker": 2,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74107,
+      "condition": "rotating_hidden_live_abundant",
+      "worker": 3,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74107,
+      "condition": "rotating_hidden_live_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74107,
+      "condition": "rotating_hidden_live_scarce",
+      "worker": 1,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74107,
+      "condition": "rotating_hidden_live_scarce",
+      "worker": 2,
+      "natural": 0.2999999999999999
+    },
+    {
+      "seed": 74107,
+      "condition": "rotating_hidden_live_scarce",
+      "worker": 3,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74107,
+      "condition": "rotating_hidden_silent_abundant",
+      "worker": 0,
+      "natural": 0.2989674441205053
+    },
+    {
+      "seed": 74107,
+      "condition": "rotating_hidden_silent_abundant",
+      "worker": 1,
+      "natural": 0.3018706251508568
+    },
+    {
+      "seed": 74107,
+      "condition": "rotating_hidden_silent_abundant",
+      "worker": 2,
+      "natural": 0.29549271425043216
+    },
+    {
+      "seed": 74107,
+      "condition": "rotating_hidden_silent_abundant",
+      "worker": 3,
+      "natural": 0.3047227674190382
+    },
+    {
+      "seed": 74107,
+      "condition": "rotating_hidden_silent_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74107,
+      "condition": "rotating_hidden_silent_scarce",
+      "worker": 1,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74107,
+      "condition": "rotating_hidden_silent_scarce",
+      "worker": 2,
+      "natural": 0.2999999999999999
+    },
+    {
+      "seed": 74107,
+      "condition": "rotating_hidden_silent_scarce",
+      "worker": 3,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74107,
+      "condition": "rotating_visible_live_abundant",
+      "worker": 0,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74107,
+      "condition": "rotating_visible_live_abundant",
+      "worker": 1,
+      "natural": 0.7375452570601015
+    },
+    {
+      "seed": 74107,
+      "condition": "rotating_visible_live_abundant",
+      "worker": 2,
+      "natural": 0.6859594961718942
+    },
+    {
+      "seed": 74107,
+      "condition": "rotating_visible_live_abundant",
+      "worker": 3,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74107,
+      "condition": "rotating_visible_live_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74107,
+      "condition": "rotating_visible_live_scarce",
+      "worker": 1,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74107,
+      "condition": "rotating_visible_live_scarce",
+      "worker": 2,
+      "natural": 0.2999999999999999
+    },
+    {
+      "seed": 74107,
+      "condition": "rotating_visible_live_scarce",
+      "worker": 3,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74107,
+      "condition": "rotating_visible_silent_abundant",
+      "worker": 0,
+      "natural": 0.2989674441205053
+    },
+    {
+      "seed": 74107,
+      "condition": "rotating_visible_silent_abundant",
+      "worker": 1,
+      "natural": 0.3018706251508568
+    },
+    {
+      "seed": 74107,
+      "condition": "rotating_visible_silent_abundant",
+      "worker": 2,
+      "natural": 0.29549271425043216
+    },
+    {
+      "seed": 74107,
+      "condition": "rotating_visible_silent_abundant",
+      "worker": 3,
+      "natural": 0.3047227674190382
+    },
+    {
+      "seed": 74107,
+      "condition": "rotating_visible_silent_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74107,
+      "condition": "rotating_visible_silent_scarce",
+      "worker": 1,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74107,
+      "condition": "rotating_visible_silent_scarce",
+      "worker": 2,
+      "natural": 0.2999999999999999
+    },
+    {
+      "seed": 74107,
+      "condition": "rotating_visible_silent_scarce",
+      "worker": 3,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74108,
+      "condition": "fixed_hidden_live_abundant",
+      "worker": 0,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74108,
+      "condition": "fixed_hidden_live_abundant",
+      "worker": 1,
+      "natural": 0.099456787109375
+    },
+    {
+      "seed": 74108,
+      "condition": "fixed_hidden_live_abundant",
+      "worker": 2,
+      "natural": 0.2241058349609375
+    },
+    {
+      "seed": 74108,
+      "condition": "fixed_hidden_live_abundant",
+      "worker": 3,
+      "natural": 0.26275634765625
+    },
+    {
+      "seed": 74108,
+      "condition": "fixed_hidden_live_scarce",
+      "worker": 0,
+      "natural": 0.38741760253906254
+    },
+    {
+      "seed": 74108,
+      "condition": "fixed_hidden_live_scarce",
+      "worker": 1,
+      "natural": 0.27517395019531243
+    },
+    {
+      "seed": 74108,
+      "condition": "fixed_hidden_live_scarce",
+      "worker": 2,
+      "natural": 0.22489013671875
+    },
+    {
+      "seed": 74108,
+      "condition": "fixed_hidden_live_scarce",
+      "worker": 3,
+      "natural": 0.2373077392578125
+    },
+    {
+      "seed": 74108,
+      "condition": "fixed_hidden_silent_abundant",
+      "worker": 0,
+      "natural": 0.30091552734374993
+    },
+    {
+      "seed": 74108,
+      "condition": "fixed_hidden_silent_abundant",
+      "worker": 1,
+      "natural": 0.2633819580078125
+    },
+    {
+      "seed": 74108,
+      "condition": "fixed_hidden_silent_abundant",
+      "worker": 2,
+      "natural": 0.1873291015625
+    },
+    {
+      "seed": 74108,
+      "condition": "fixed_hidden_silent_abundant",
+      "worker": 3,
+      "natural": 0.15019226074218753
+    },
+    {
+      "seed": 74108,
+      "condition": "fixed_hidden_silent_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74108,
+      "condition": "fixed_hidden_silent_scarce",
+      "worker": 1,
+      "natural": 0.14999999999999997
+    },
+    {
+      "seed": 74108,
+      "condition": "fixed_hidden_silent_scarce",
+      "worker": 2,
+      "natural": 0.061395263671875006
+    },
+    {
+      "seed": 74108,
+      "condition": "fixed_hidden_silent_scarce",
+      "worker": 3,
+      "natural": 0.186810302734375
+    },
+    {
+      "seed": 74108,
+      "condition": "fixed_visible_live_abundant",
+      "worker": 0,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74108,
+      "condition": "fixed_visible_live_abundant",
+      "worker": 1,
+      "natural": 0.23769531249999998
+    },
+    {
+      "seed": 74108,
+      "condition": "fixed_visible_live_abundant",
+      "worker": 2,
+      "natural": 0.5259155273437499
+    },
+    {
+      "seed": 74108,
+      "condition": "fixed_visible_live_abundant",
+      "worker": 3,
+      "natural": 0.2124267578125
+    },
+    {
+      "seed": 74108,
+      "condition": "fixed_visible_live_scarce",
+      "worker": 0,
+      "natural": 0.38741760253906254
+    },
+    {
+      "seed": 74108,
+      "condition": "fixed_visible_live_scarce",
+      "worker": 1,
+      "natural": 0.27550048828124996
+    },
+    {
+      "seed": 74108,
+      "condition": "fixed_visible_live_scarce",
+      "worker": 2,
+      "natural": 0.312591552734375
+    },
+    {
+      "seed": 74108,
+      "condition": "fixed_visible_live_scarce",
+      "worker": 3,
+      "natural": 0.08757324218749998
+    },
+    {
+      "seed": 74108,
+      "condition": "fixed_visible_silent_abundant",
+      "worker": 0,
+      "natural": 0.30091552734374993
+    },
+    {
+      "seed": 74108,
+      "condition": "fixed_visible_silent_abundant",
+      "worker": 1,
+      "natural": 0.2633819580078125
+    },
+    {
+      "seed": 74108,
+      "condition": "fixed_visible_silent_abundant",
+      "worker": 2,
+      "natural": 0.1873291015625
+    },
+    {
+      "seed": 74108,
+      "condition": "fixed_visible_silent_abundant",
+      "worker": 3,
+      "natural": 0.15019226074218753
+    },
+    {
+      "seed": 74108,
+      "condition": "fixed_visible_silent_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74108,
+      "condition": "fixed_visible_silent_scarce",
+      "worker": 1,
+      "natural": 0.14999999999999997
+    },
+    {
+      "seed": 74108,
+      "condition": "fixed_visible_silent_scarce",
+      "worker": 2,
+      "natural": 0.061395263671875006
+    },
+    {
+      "seed": 74108,
+      "condition": "fixed_visible_silent_scarce",
+      "worker": 3,
+      "natural": 0.186810302734375
+    },
+    {
+      "seed": 74108,
+      "condition": "rotating_hidden_live_abundant",
+      "worker": 0,
+      "natural": 0.8
+    },
+    {
+      "seed": 74108,
+      "condition": "rotating_hidden_live_abundant",
+      "worker": 1,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74108,
+      "condition": "rotating_hidden_live_abundant",
+      "worker": 2,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74108,
+      "condition": "rotating_hidden_live_abundant",
+      "worker": 3,
+      "natural": 0.8
+    },
+    {
+      "seed": 74108,
+      "condition": "rotating_hidden_live_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74108,
+      "condition": "rotating_hidden_live_scarce",
+      "worker": 1,
+      "natural": 0.2999999999999999
+    },
+    {
+      "seed": 74108,
+      "condition": "rotating_hidden_live_scarce",
+      "worker": 2,
+      "natural": 0.31265698103915285
+    },
+    {
+      "seed": 74108,
+      "condition": "rotating_hidden_live_scarce",
+      "worker": 3,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74108,
+      "condition": "rotating_hidden_silent_abundant",
+      "worker": 0,
+      "natural": 0.29807357693263725
+    },
+    {
+      "seed": 74108,
+      "condition": "rotating_hidden_silent_abundant",
+      "worker": 1,
+      "natural": 0.29576271186440667
+    },
+    {
+      "seed": 74108,
+      "condition": "rotating_hidden_silent_abundant",
+      "worker": 2,
+      "natural": 0.3016621521792661
+    },
+    {
+      "seed": 74108,
+      "condition": "rotating_hidden_silent_abundant",
+      "worker": 3,
+      "natural": 0.2951438848920863
+    },
+    {
+      "seed": 74108,
+      "condition": "rotating_hidden_silent_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74108,
+      "condition": "rotating_hidden_silent_scarce",
+      "worker": 1,
+      "natural": 0.2999999999999999
+    },
+    {
+      "seed": 74108,
+      "condition": "rotating_hidden_silent_scarce",
+      "worker": 2,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74108,
+      "condition": "rotating_hidden_silent_scarce",
+      "worker": 3,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74108,
+      "condition": "rotating_visible_live_abundant",
+      "worker": 0,
+      "natural": 0.7493910017399951
+    },
+    {
+      "seed": 74108,
+      "condition": "rotating_visible_live_abundant",
+      "worker": 1,
+      "natural": 0.6789346246973366
+    },
+    {
+      "seed": 74108,
+      "condition": "rotating_visible_live_abundant",
+      "worker": 2,
+      "natural": 0.8000000000000002
+    },
+    {
+      "seed": 74108,
+      "condition": "rotating_visible_live_abundant",
+      "worker": 3,
+      "natural": 0.7354916067146283
+    },
+    {
+      "seed": 74108,
+      "condition": "rotating_visible_live_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74108,
+      "condition": "rotating_visible_live_scarce",
+      "worker": 1,
+      "natural": 0.2999999999999999
+    },
+    {
+      "seed": 74108,
+      "condition": "rotating_visible_live_scarce",
+      "worker": 2,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74108,
+      "condition": "rotating_visible_live_scarce",
+      "worker": 3,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74108,
+      "condition": "rotating_visible_silent_abundant",
+      "worker": 0,
+      "natural": 0.29807357693263725
+    },
+    {
+      "seed": 74108,
+      "condition": "rotating_visible_silent_abundant",
+      "worker": 1,
+      "natural": 0.29576271186440667
+    },
+    {
+      "seed": 74108,
+      "condition": "rotating_visible_silent_abundant",
+      "worker": 2,
+      "natural": 0.3016621521792661
+    },
+    {
+      "seed": 74108,
+      "condition": "rotating_visible_silent_abundant",
+      "worker": 3,
+      "natural": 0.2951438848920863
+    },
+    {
+      "seed": 74108,
+      "condition": "rotating_visible_silent_scarce",
+      "worker": 0,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74108,
+      "condition": "rotating_visible_silent_scarce",
+      "worker": 1,
+      "natural": 0.2999999999999999
+    },
+    {
+      "seed": 74108,
+      "condition": "rotating_visible_silent_scarce",
+      "worker": 2,
+      "natural": 0.29999999999999993
+    },
+    {
+      "seed": 74108,
+      "condition": "rotating_visible_silent_scarce",
+      "worker": 3,
+      "natural": 0.29999999999999993
+    }
+  ]
+}

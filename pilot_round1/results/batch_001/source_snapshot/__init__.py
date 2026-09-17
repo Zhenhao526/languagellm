@@ -1,1 +1,0 @@
-"""Local, nonlinguistic communication pilot."""

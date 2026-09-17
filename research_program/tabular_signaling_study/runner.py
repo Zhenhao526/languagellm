@@ -133,7 +133,7 @@ def train_one(seed,condition,out,updates=None):
     updates=design.UPDATES if updates is None else updates
     run=Path(out)/f'seed_{seed}_{condition}'; run.mkdir(parents=True,exist_ok=False)
     p=policy.make_policy(seed,task,memory); init=policy.parameter_hash(p)
-    checkpoint_updates=[u for u in CHECKPOINTS if u<=updates]
+    checkpoint_updates=sorted(set([u for u in CHECKPOINTS if u<=updates] + [updates]))
     if 0 in checkpoint_updates: save_checkpoint(run/'checkpoint_0000.npz',p,0)
     rows=[]; start=time.perf_counter()
     for update in range(1,updates+1):

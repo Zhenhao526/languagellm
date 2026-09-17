@@ -1,7 +1,0 @@
-{
-  "passed": true,
-  "persons": 24,
-  "scalar_checks": 1248,
-  "result_sha256": "c9d3afa5dc24f67433ba4f0ebd8e0645d1b1449281df10f19d2c76d4e73c2527",
-  "scope": "Independent NumPy masks, selected action/probability/tie metrics, all latent geometry from raw arrays; no model fitting"
-}

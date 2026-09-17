@@ -1,8 +1,0 @@
-{
-  "max_abs_error": 0.0,
-  "optimizer_updates": 0,
-  "policy_blocks": 64,
-  "rows_replayed": 4866048,
-  "status": "passed",
-  "verification_sha256": "4c0be3ace81e6711fc880c9c9a38089dbc032ffca1c348cfca5329caf521a045"
-}

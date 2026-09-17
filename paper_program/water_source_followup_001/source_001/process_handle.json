@@ -1,6 +1,0 @@
-{
-  "pid": 33519,
-  "started_utc": "2026-09-16T04:56:49.734991+00:00",
-  "command": "collect_sources.py",
-  "source_sha256": "1e89ef27b71166f84c4ac357b8e85d23cd6569708c22c595332d2a31d59785ec"
-}

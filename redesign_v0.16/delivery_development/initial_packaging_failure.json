@@ -1,9 +1,0 @@
-{
-  "stage": "local documentation link verification",
-  "status": "failed",
-  "exit_code": 1,
-  "source_sha256": "3f0f8e3f10783615a8f526969cc8d44ccb05f5679c930029ba7813a33a952eba",
-  "link": "</Users/xia/Documents/ChatGPT/语言/redesign_v0.13/run_spatial.py:65>",
-  "reason": "Validator treated supported :line suffix as part of filename. Artifact target exists; fix packaging parser, not report or scientific output.",
-  "training_or_analysis_modified": false
-}

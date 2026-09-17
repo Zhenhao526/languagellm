@@ -1,8 +1,0 @@
-{
-  "status": "failed_before_creating_packet",
-  "operation": "make_review_batch.py early",
-  "assertion": "all first10 have downloaded and ordinary_single_image",
-  "reason": "One of the first10 is already format-quarantined MPO; assumption of10ordinary was incorrect. No image review, network call or packet was created.",
-  "source_sha256": "bc670bb798a4089f32d740e903f2199500f6beba13117e725f0e92cdb3a399f4",
-  "change": "Select ordinary records within fixed first10; do not add another candidate."
-}

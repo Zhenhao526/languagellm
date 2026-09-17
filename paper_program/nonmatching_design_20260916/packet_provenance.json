@@ -1,8 +1,0 @@
-{
-  "method": "Unmodified radar.py single-paper review using isolated copy of earlier metadata database and existing official ACL PDF; no broad collection or default DFT configuration.",
-  "source_database": "/Users/xia/Documents/ChatGPT/语言/paper_program/mechanism_pressure_20260916/data/watcher.sqlite3",
-  "source_pdf": "/Users/xia/Documents/ChatGPT/语言/paper_program/mechanism_pressure_20260916/data/pdfs/2004.09124.pdf",
-  "source_pdf_sha256": "bca212d811fc7ca5028f36d591d68f9b8d94fe5c7ff17e7e8718331d74f06b8a",
-  "version_boundary": "This is the official ACL2020 proceedings PDF; arXiv 2004.09124 is used as the bibliographic record key, not asserted byte-identical to the arXiv version.",
-  "review_context": "Prior full-text review reused, method sections rechecked for v30; no v30 model scores read."
-}

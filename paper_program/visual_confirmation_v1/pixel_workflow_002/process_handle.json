@@ -1,7 +1,0 @@
-{
-  "pid": 40149,
-  "started_utc": "2026-09-15T16:28:38.367332+00:00",
-  "source_sha256": "794d020134d5cf860b947e969ff3e4f8c90e85402eef2e276c0d8b76881d85d3",
-  "status_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/live_status.json",
-  "command": "PYTHONPATH=/Users/xia/.cache/uv/archive-v0/S3z4TeuYuWgwVQ-G .venv/bin/python /Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/collect_pixels.py collect"
-}

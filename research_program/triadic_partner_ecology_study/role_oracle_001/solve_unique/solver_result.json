@@ -1,9 +1,0 @@
-{
-  "status": 0,
-  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
-  "success": true,
-  "fun": -168.0,
-  "mip_node_count": 1,
-  "mip_dual_bound": -168.0,
-  "mip_gap": 0.0
-}

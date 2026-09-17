@@ -1,0 +1,652 @@
+{
+  "schema": "tabular_signaling_audit_v1",
+  "status": "passed",
+  "prepared": "/tmp/tabular_prepared_archive",
+  "execution": "/tmp/tabular_FI_persistent/execution",
+  "runs": 64,
+  "training_log_rows": 192000,
+  "final_checkpoints": 64,
+  "max_abs_replay_error": 0.0,
+  "rows": [
+    {
+      "seed": 68101,
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "natural": 0.5660502115885416,
+      "closed": 0.25113932291666663,
+      "permuted": 0.5610148111979167,
+      "natural_minus_closed": 0.314910888671875,
+      "natural_minus_permuted": 0.005035400390624889,
+      "message_type_mi": 0.6705454987646339
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "natural": 0.5660502115885416,
+      "closed": 0.5660502115885416,
+      "permuted": 0.5660502115885416,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "natural": 0.25040690104166663,
+      "closed": 0.11790974934895834,
+      "permuted": 0.25040690104166663,
+      "natural_minus_closed": 0.1324971516927083,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.33330795532103735
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "natural": 0.271087646484375,
+      "closed": 0.271087646484375,
+      "permuted": 0.271087646484375,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "stateless_abundant_FI_live_persistent",
+      "natural": 0.5660502115885416,
+      "closed": 0.5405171712239584,
+      "permuted": 0.5660502115885416,
+      "natural_minus_closed": 0.02553304036458326,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.999944506000471
+    },
+    {
+      "seed": 68101,
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "natural": 0.5660502115885416,
+      "closed": 0.5660502115885416,
+      "permuted": 0.5660502115885416,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "stateless_scarce_FI_live_persistent",
+      "natural": 0.271087646484375,
+      "closed": 0.239501953125,
+      "permuted": 0.2670186360677083,
+      "natural_minus_closed": 0.031585693359375,
+      "natural_minus_permuted": 0.004069010416666685,
+      "message_type_mi": 0.999944506000471
+    },
+    {
+      "seed": 68101,
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "natural": 0.271087646484375,
+      "closed": 0.271087646484375,
+      "permuted": 0.271087646484375,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "natural": 0.575714111328125,
+      "closed": 0.23722330729166663,
+      "permuted": 0.569610595703125,
+      "natural_minus_closed": 0.33849080403645837,
+      "natural_minus_permuted": 0.006103515625,
+      "message_type_mi": 0.999954080143366
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "natural": 0.575714111328125,
+      "closed": 0.575714111328125,
+      "permuted": 0.575714111328125,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "natural": 0.25678507486979163,
+      "closed": 0.11219278971354166,
+      "permuted": 0.25896199544270837,
+      "natural_minus_closed": 0.14459228515624997,
+      "natural_minus_permuted": -0.0021769205729167407,
+      "message_type_mi": 0.3200173069385884
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "natural": 0.2611185709635417,
+      "closed": 0.2611185709635417,
+      "permuted": 0.2611185709635417,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "stateless_abundant_FI_live_persistent",
+      "natural": 0.575714111328125,
+      "closed": 0.5194803873697917,
+      "permuted": 0.575714111328125,
+      "natural_minus_closed": 0.05623372395833326,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.999954080143366
+    },
+    {
+      "seed": 68102,
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "natural": 0.575714111328125,
+      "closed": 0.575714111328125,
+      "permuted": 0.575714111328125,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "stateless_scarce_FI_live_persistent",
+      "natural": 0.27734375,
+      "closed": 0.25620524088541663,
+      "permuted": 0.27734375,
+      "natural_minus_closed": 0.02113850911458337,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.8321411095935177
+    },
+    {
+      "seed": 68102,
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "natural": 0.2611185709635417,
+      "closed": 0.2611185709635417,
+      "permuted": 0.2611185709635417,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "natural": 0.5519612630208334,
+      "closed": 0.30461629231770837,
+      "permuted": 0.5608927408854166,
+      "natural_minus_closed": 0.247344970703125,
+      "natural_minus_permuted": -0.00893147786458326,
+      "message_type_mi": 0.8324002280836614
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "natural": 0.5777486165364584,
+      "closed": 0.5777486165364584,
+      "permuted": 0.5777486165364584,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "natural": 0.26438395182291663,
+      "closed": 0.18609619140625,
+      "permuted": 0.2590128580729167,
+      "natural_minus_closed": 0.07828776041666663,
+      "natural_minus_permuted": 0.0053710937499999445,
+      "message_type_mi": 0.6667949946154416
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "natural": 0.27488199869791663,
+      "closed": 0.27488199869791663,
+      "permuted": 0.27488199869791663,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "stateless_abundant_FI_live_persistent",
+      "natural": 0.5777486165364584,
+      "closed": 0.49251302083333337,
+      "permuted": 0.5777486165364584,
+      "natural_minus_closed": 0.085235595703125,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.48767342705301325
+    },
+    {
+      "seed": 68103,
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "natural": 0.5777486165364584,
+      "closed": 0.5777486165364584,
+      "permuted": 0.5777486165364584,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "stateless_scarce_FI_live_persistent",
+      "natural": 0.2800191243489583,
+      "closed": 0.258575439453125,
+      "permuted": 0.271148681640625,
+      "natural_minus_closed": 0.021443684895833315,
+      "natural_minus_permuted": 0.008870442708333315,
+      "message_type_mi": 0.9998888932448672
+    },
+    {
+      "seed": 68103,
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "natural": 0.27488199869791663,
+      "closed": 0.27488199869791663,
+      "permuted": 0.27488199869791663,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "natural": 0.5792744954427084,
+      "closed": 0.2159423828125,
+      "permuted": 0.5724589029947917,
+      "natural_minus_closed": 0.36333211263020837,
+      "natural_minus_permuted": 0.00681559244791663,
+      "message_type_mi": 0.5019464836050017
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "natural": 0.5792744954427084,
+      "closed": 0.5792744954427084,
+      "permuted": 0.5792744954427084,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "natural": 0.259124755859375,
+      "closed": 0.17972819010416666,
+      "permuted": 0.2567850748697917,
+      "natural_minus_closed": 0.07939656575520834,
+      "natural_minus_permuted": 0.002339680989583315,
+      "message_type_mi": 0.999976438077104
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "natural": 0.259735107421875,
+      "closed": 0.259735107421875,
+      "permuted": 0.259735107421875,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "stateless_abundant_FI_live_persistent",
+      "natural": 0.5792744954427084,
+      "closed": 0.536102294921875,
+      "permuted": 0.5792744954427084,
+      "natural_minus_closed": 0.04317220052083337,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.999976438077104
+    },
+    {
+      "seed": 68104,
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "natural": 0.5792744954427084,
+      "closed": 0.5792744954427084,
+      "permuted": 0.5792744954427084,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "stateless_scarce_FI_live_persistent",
+      "natural": 0.2535603841145833,
+      "closed": 0.26954142252604163,
+      "permuted": 0.270050048828125,
+      "natural_minus_closed": -0.015981038411458315,
+      "natural_minus_permuted": -0.016489664713541685,
+      "message_type_mi": 0.999976438077104
+    },
+    {
+      "seed": 68104,
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "natural": 0.259735107421875,
+      "closed": 0.259735107421875,
+      "permuted": 0.259735107421875,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "natural": 0.57342529296875,
+      "closed": 0.19957478841145831,
+      "permuted": 0.5628865559895834,
+      "natural_minus_closed": 0.3738505045572917,
+      "natural_minus_permuted": 0.01053873697916663,
+      "message_type_mi": 0.8355726207188746
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "natural": 0.57342529296875,
+      "closed": 0.57342529296875,
+      "permuted": 0.57342529296875,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "natural": 0.24959309895833331,
+      "closed": 0.08551025390625,
+      "permuted": 0.24454752604166669,
+      "natural_minus_closed": 0.16408284505208331,
+      "natural_minus_permuted": 0.00504557291666663,
+      "message_type_mi": 0.5131165846665223
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "natural": 0.26526896158854163,
+      "closed": 0.26526896158854163,
+      "permuted": 0.26526896158854163,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "stateless_abundant_FI_live_persistent",
+      "natural": 0.57342529296875,
+      "closed": 0.5470784505208334,
+      "permuted": 0.57342529296875,
+      "natural_minus_closed": 0.02634684244791663,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.6682375902907413
+    },
+    {
+      "seed": 68105,
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "natural": 0.57342529296875,
+      "closed": 0.57342529296875,
+      "permuted": 0.57342529296875,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "stateless_scarce_FI_live_persistent",
+      "natural": 0.26526896158854163,
+      "closed": 0.23386637369791663,
+      "permuted": 0.26526896158854163,
+      "natural_minus_closed": 0.031402587890625,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.9999043748227675
+    },
+    {
+      "seed": 68105,
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "natural": 0.26526896158854163,
+      "closed": 0.26526896158854163,
+      "permuted": 0.26526896158854163,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "natural": 0.5790201822916667,
+      "closed": 0.23157755533854169,
+      "permuted": 0.5733744303385416,
+      "natural_minus_closed": 0.34744262695312506,
+      "natural_minus_permuted": 0.005645751953125111,
+      "message_type_mi": 0.6756403202771754
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "natural": 0.5790201822916667,
+      "closed": 0.5790201822916667,
+      "permuted": 0.5790201822916667,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "natural": 0.26381429036458337,
+      "closed": 0.117095947265625,
+      "permuted": 0.26381429036458337,
+      "natural_minus_closed": 0.14671834309895837,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.32473672257700065
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "natural": 0.2582499186197917,
+      "closed": 0.2582499186197917,
+      "permuted": 0.2582499186197917,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "stateless_abundant_FI_live_persistent",
+      "natural": 0.5790201822916667,
+      "closed": 0.5360310872395833,
+      "permuted": 0.5790201822916667,
+      "natural_minus_closed": 0.04298909505208348,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.9998128604475921
+    },
+    {
+      "seed": 68106,
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "natural": 0.5790201822916667,
+      "closed": 0.5790201822916667,
+      "permuted": 0.5790201822916667,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "stateless_scarce_FI_live_persistent",
+      "natural": 0.26381429036458337,
+      "closed": 0.28456624348958337,
+      "permuted": 0.26381429036458337,
+      "natural_minus_closed": -0.020751953125,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.4913699884220722
+    },
+    {
+      "seed": 68106,
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "natural": 0.2582499186197917,
+      "closed": 0.2582499186197917,
+      "permuted": 0.2582499186197917,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "natural": 0.5728658040364583,
+      "closed": 0.13611857096354166,
+      "permuted": 0.5506083170572917,
+      "natural_minus_closed": 0.43674723307291663,
+      "natural_minus_permuted": 0.02225748697916652,
+      "message_type_mi": 0.9994151491822395
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "natural": 0.5675760904947917,
+      "closed": 0.5675760904947917,
+      "permuted": 0.5675760904947917,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "natural": 0.25803629557291663,
+      "closed": 0.16996256510416666,
+      "permuted": 0.243682861328125,
+      "natural_minus_closed": 0.08807373046874997,
+      "natural_minus_permuted": 0.01435343424479163,
+      "message_type_mi": 0.9994151491822398
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "natural": 0.263153076171875,
+      "closed": 0.263153076171875,
+      "permuted": 0.263153076171875,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "stateless_abundant_FI_live_persistent",
+      "natural": 0.5675760904947917,
+      "closed": 0.467864990234375,
+      "permuted": 0.5675760904947917,
+      "natural_minus_closed": 0.09971110026041674,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.9994151491822395
+    },
+    {
+      "seed": 68107,
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "natural": 0.5675760904947917,
+      "closed": 0.5675760904947917,
+      "permuted": 0.5675760904947917,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "stateless_scarce_FI_live_persistent",
+      "natural": 0.263153076171875,
+      "closed": 0.259490966796875,
+      "permuted": 0.263153076171875,
+      "natural_minus_closed": 0.003662109375,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.3044741865227167
+    },
+    {
+      "seed": 68107,
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "natural": 0.263153076171875,
+      "closed": 0.263153076171875,
+      "permuted": 0.263153076171875,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_abundant_FI_live_persistent",
+      "natural": 0.5830891927083334,
+      "closed": 0.18089803059895834,
+      "permuted": 0.5830891927083334,
+      "natural_minus_closed": 0.402191162109375,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.8327543715074017
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_abundant_FI_silent_persistent",
+      "natural": 0.5830891927083334,
+      "closed": 0.5830891927083334,
+      "permuted": 0.5830891927083334,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_scarce_FI_live_persistent",
+      "natural": 0.258544921875,
+      "closed": 0.19977823893229166,
+      "permuted": 0.258544921875,
+      "natural_minus_closed": 0.05876668294270834,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.6704606583408567
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_scarce_FI_silent_persistent",
+      "natural": 0.2792765299479167,
+      "closed": 0.2792765299479167,
+      "permuted": 0.2792765299479167,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "stateless_abundant_FI_live_persistent",
+      "natural": 0.5830891927083334,
+      "closed": 0.5502115885416666,
+      "permuted": 0.5830891927083334,
+      "natural_minus_closed": 0.03287760416666674,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.4814910074578009
+    },
+    {
+      "seed": 68108,
+      "condition": "stateless_abundant_FI_silent_persistent",
+      "natural": 0.5830891927083334,
+      "closed": 0.5830891927083334,
+      "permuted": 0.5830891927083334,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "stateless_scarce_FI_live_persistent",
+      "natural": 0.2792765299479167,
+      "closed": 0.24639892578125,
+      "permuted": 0.2792765299479167,
+      "natural_minus_closed": 0.032877604166666685,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.8341919263178036
+    },
+    {
+      "seed": 68108,
+      "condition": "stateless_scarce_FI_silent_persistent",
+      "natural": 0.2792765299479167,
+      "closed": 0.2792765299479167,
+      "permuted": 0.2792765299479167,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    }
+  ]
+}

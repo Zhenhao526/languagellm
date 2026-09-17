@@ -1,0 +1,24 @@
+{
+  "schema": "temporal_scarcity_audit_compact_v1",
+  "status": "passed_before_raw_cleanup",
+  "runs": 128,
+  "training_log_rows": 256000,
+  "checkpoints": 512,
+  "evaluation_splits": ["training_support", "heldout"],
+  "controls": ["natural", "closed", "permuted", "silent_from_scratch"],
+  "max_abs_replay_error": 0.0,
+  "seeds": [68101, 68102, 68103, 68104, 68105, 68106, 68107, 68108],
+  "source_runtime": {"python": "3.12.14", "numpy": "2.2.6", "policy": "float64 NumPy"},
+  "heldout_live_means": [
+    {"memory": "recurrent", "scarcity": "scarce", "information": "PI", "natural_minus_closed_pp": -0.552, "natural_minus_closed_ci_pp": [-2.664, 1.559], "natural_minus_permuted_pp": -0.005, "natural_minus_permuted_ci_pp": [-0.036, 0.027], "token_mi_bits": 0.290},
+    {"memory": "recurrent", "scarcity": "abundant", "information": "PI", "natural_minus_closed_pp": 1.224, "natural_minus_closed_ci_pp": [-0.704, 3.153], "natural_minus_permuted_pp": 0.025, "natural_minus_permuted_ci_pp": [-0.033, 0.083], "token_mi_bits": 0.377},
+    {"memory": "recurrent", "scarcity": "scarce", "information": "FI", "natural_minus_closed_pp": -0.053, "natural_minus_closed_ci_pp": [-0.817, 0.711], "natural_minus_permuted_pp": 0.098, "natural_minus_permuted_ci_pp": [-0.062, 0.257], "token_mi_bits": 0.175},
+    {"memory": "recurrent", "scarcity": "abundant", "information": "FI", "natural_minus_closed_pp": 1.032, "natural_minus_closed_ci_pp": [0.205, 1.860], "natural_minus_permuted_pp": -0.062, "natural_minus_permuted_ci_pp": [-0.395, 0.270], "token_mi_bits": 0.310},
+    {"memory": "stateless", "scarcity": "scarce", "information": "PI", "natural_minus_closed_pp": 0.120, "natural_minus_closed_ci_pp": [-0.164, 0.404], "natural_minus_permuted_pp": 0.0, "natural_minus_permuted_ci_pp": [0.0, 0.0], "token_mi_bits": 0.162},
+    {"memory": "stateless", "scarcity": "abundant", "information": "PI", "natural_minus_closed_pp": 0.0, "natural_minus_closed_ci_pp": [0.0, 0.0], "natural_minus_permuted_pp": 0.0, "natural_minus_permuted_ci_pp": [0.0, 0.0], "token_mi_bits": 0.284},
+    {"memory": "stateless", "scarcity": "scarce", "information": "FI", "natural_minus_closed_pp": 0.390, "natural_minus_closed_ci_pp": [-0.176, 0.956], "natural_minus_permuted_pp": -0.060, "natural_minus_permuted_ci_pp": [-0.157, 0.038], "token_mi_bits": 0.185},
+    {"memory": "stateless", "scarcity": "abundant", "information": "FI", "natural_minus_closed_pp": 0.925, "natural_minus_closed_ci_pp": [0.522, 1.327], "natural_minus_permuted_pp": 0.156, "natural_minus_permuted_ci_pp": [-0.040, 0.352], "token_mi_bits": 0.217}
+  ],
+  "interpretation": "All live natural-minus-permuted effects were near zero with intervals crossing zero; nonzero token mutual information did not imply a causal public code.",
+  "raw_execution": "removed_after_compact_audit_and_remote_sync"
+}

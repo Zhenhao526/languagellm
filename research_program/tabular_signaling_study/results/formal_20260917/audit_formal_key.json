@@ -1,0 +1,652 @@
+{
+  "schema": "tabular_signaling_audit_v1",
+  "status": "passed",
+  "prepared": "/tmp/tabular_prepared_archive",
+  "execution": "/tmp/tabular_formal_key/execution",
+  "runs": 64,
+  "training_log_rows": 192000,
+  "final_checkpoints": 64,
+  "max_abs_replay_error": 0.0,
+  "rows": [
+    {
+      "seed": 68101,
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "natural": 0.5660502115885416,
+      "closed": 0.2817891438802083,
+      "permuted": 0.31519571940104163,
+      "natural_minus_closed": 0.2842610677083333,
+      "natural_minus_permuted": 0.2508544921875,
+      "message_type_mi": 0.999944506000471
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "natural": 0.315093994140625,
+      "closed": 0.315093994140625,
+      "permuted": 0.315093994140625,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "natural": 0.20904541015625,
+      "closed": 0.092987060546875,
+      "permuted": 0.20904541015625,
+      "natural_minus_closed": 0.116058349609375,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.3151278207283092
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_scarce_PI_live_switching",
+      "natural": 0.15696207682291669,
+      "closed": 0.15675862630208334,
+      "permuted": 0.21291097005208331,
+      "natural_minus_closed": 0.00020345052083334259,
+      "natural_minus_permuted": -0.05594889322916663,
+      "message_type_mi": 0.914549105907296
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "natural": 0.20904541015625,
+      "closed": 0.20904541015625,
+      "permuted": 0.20904541015625,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "natural": 0.21708170572916666,
+      "closed": 0.21708170572916666,
+      "permuted": 0.21708170572916666,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68101,
+      "condition": "stateless_abundant_PI_live_persistent",
+      "natural": 0.315093994140625,
+      "closed": 0.315093994140625,
+      "permuted": 0.315093994140625,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.6705454987646339
+    },
+    {
+      "seed": 68101,
+      "condition": "stateless_scarce_PI_live_persistent",
+      "natural": 0.21443684895833337,
+      "closed": 0.20904541015625,
+      "permuted": 0.21428426106770831,
+      "natural_minus_closed": 0.00539143880208337,
+      "natural_minus_permuted": 0.0001525878906250555,
+      "message_type_mi": 0.999944506000471
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "natural": 0.575714111328125,
+      "closed": 0.254425048828125,
+      "permuted": 0.321197509765625,
+      "natural_minus_closed": 0.3212890625,
+      "natural_minus_permuted": 0.2545166015625,
+      "message_type_mi": 0.999954080143366
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "natural": 0.3246053059895833,
+      "closed": 0.3246053059895833,
+      "permuted": 0.3246053059895833,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "natural": 0.21514892578125,
+      "closed": 0.06746419270833333,
+      "permuted": 0.21514892578125,
+      "natural_minus_closed": 0.14768473307291669,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.6668227524045558
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_scarce_PI_live_switching",
+      "natural": 0.23488362630208334,
+      "closed": 0.1807861328125,
+      "permuted": 0.20751953125,
+      "natural_minus_closed": 0.05409749348958334,
+      "natural_minus_permuted": 0.027364095052083343,
+      "message_type_mi": 1.164816811210816
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "natural": 0.21514892578125,
+      "closed": 0.21514892578125,
+      "permuted": 0.21514892578125,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "natural": 0.213623046875,
+      "closed": 0.213623046875,
+      "permuted": 0.213623046875,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68102,
+      "condition": "stateless_abundant_PI_live_persistent",
+      "natural": 0.3246053059895833,
+      "closed": 0.3246053059895833,
+      "permuted": 0.3246053059895833,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.834635722954404
+    },
+    {
+      "seed": 68102,
+      "condition": "stateless_scarce_PI_live_persistent",
+      "natural": 0.21514892578125,
+      "closed": 0.23573811848958334,
+      "permuted": 0.21514892578125,
+      "natural_minus_closed": -0.020589192708333343,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.834635722954404
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "natural": 0.5828348795572916,
+      "closed": 0.3173828125,
+      "permuted": 0.3096720377604167,
+      "natural_minus_closed": 0.26545206705729163,
+      "natural_minus_permuted": 0.27316284179687494,
+      "message_type_mi": 0.48767342705301325
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "natural": 0.31524658203125,
+      "closed": 0.31524658203125,
+      "permuted": 0.31524658203125,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "natural": 0.21189371744791666,
+      "closed": 0.12699381510416669,
+      "permuted": 0.21189371744791666,
+      "natural_minus_closed": 0.08489990234374997,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.48767342705301325
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_scarce_PI_live_switching",
+      "natural": 0.181121826171875,
+      "closed": 0.103607177734375,
+      "permuted": 0.20360310872395834,
+      "natural_minus_closed": 0.0775146484375,
+      "natural_minus_permuted": -0.022481282552083343,
+      "message_type_mi": 0.9082343322467702
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "natural": 0.21189371744791666,
+      "closed": 0.21189371744791666,
+      "permuted": 0.21189371744791666,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "natural": 0.205230712890625,
+      "closed": 0.205230712890625,
+      "permuted": 0.205230712890625,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68103,
+      "condition": "stateless_abundant_PI_live_persistent",
+      "natural": 0.3173828125,
+      "closed": 0.3173828125,
+      "permuted": 0.3173828125,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.48767342705301325
+    },
+    {
+      "seed": 68103,
+      "condition": "stateless_scarce_PI_live_persistent",
+      "natural": 0.21189371744791666,
+      "closed": 0.23285929361979166,
+      "permuted": 0.21189371744791666,
+      "natural_minus_closed": -0.020965576171875,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.9998888932448672
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "natural": 0.5520121256510417,
+      "closed": 0.16017659505208331,
+      "permuted": 0.32094319661458337,
+      "natural_minus_closed": 0.3918355305989584,
+      "natural_minus_permuted": 0.23106892903645837,
+      "message_type_mi": 0.999976438077104
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "natural": 0.31707763671875,
+      "closed": 0.31707763671875,
+      "permuted": 0.31707763671875,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "natural": 0.21341959635416669,
+      "closed": 0.11678059895833334,
+      "permuted": 0.21341959635416669,
+      "natural_minus_closed": 0.09663899739583334,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.999976438077104
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_scarce_PI_live_switching",
+      "natural": 0.231781005859375,
+      "closed": 0.12459309895833333,
+      "permuted": 0.20899454752604169,
+      "natural_minus_closed": 0.10718790690104167,
+      "natural_minus_permuted": 0.022786458333333315,
+      "message_type_mi": 0.5113643344405046
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "natural": 0.21341959635416669,
+      "closed": 0.21341959635416669,
+      "permuted": 0.21341959635416669,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "natural": 0.20563761393229169,
+      "closed": 0.20563761393229169,
+      "permuted": 0.20563761393229169,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68104,
+      "condition": "stateless_abundant_PI_live_persistent",
+      "natural": 0.31707763671875,
+      "closed": 0.2851765950520833,
+      "permuted": 0.31707763671875,
+      "natural_minus_closed": 0.031901041666666685,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.6635602561903817
+    },
+    {
+      "seed": 68104,
+      "condition": "stateless_scarce_PI_live_persistent",
+      "natural": 0.21341959635416669,
+      "closed": 0.23467000325520834,
+      "permuted": 0.21341959635416669,
+      "natural_minus_closed": -0.021250406901041657,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.8329237159706736
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "natural": 0.5786539713541666,
+      "closed": 0.18129475911458331,
+      "permuted": 0.29597981770833337,
+      "natural_minus_closed": 0.3973592122395833,
+      "natural_minus_permuted": 0.28267415364583326,
+      "message_type_mi": 0.5131165846665223
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "natural": 0.3061930338541667,
+      "closed": 0.3061930338541667,
+      "permuted": 0.3061930338541667,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "natural": 0.20273844401041669,
+      "closed": 0.11017862955729166,
+      "permuted": 0.20273844401041669,
+      "natural_minus_closed": 0.09255981445312503,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.8310749039773985
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_scarce_PI_live_switching",
+      "natural": 0.20319620768229169,
+      "closed": 0.21898396809895831,
+      "permuted": 0.20716349283854169,
+      "natural_minus_closed": -0.01578776041666663,
+      "natural_minus_permuted": -0.00396728515625,
+      "message_type_mi": 1.0821988226089272
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "natural": 0.20273844401041669,
+      "closed": 0.20273844401041669,
+      "permuted": 0.20273844401041669,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "natural": 0.20197550455729169,
+      "closed": 0.20197550455729169,
+      "permuted": 0.20197550455729169,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68105,
+      "condition": "stateless_abundant_PI_live_persistent",
+      "natural": 0.3061930338541667,
+      "closed": 0.3061930338541667,
+      "permuted": 0.3061930338541667,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.9999043748227675
+    },
+    {
+      "seed": 68105,
+      "condition": "stateless_scarce_PI_live_persistent",
+      "natural": 0.20273844401041669,
+      "closed": 0.223052978515625,
+      "permuted": 0.20273844401041669,
+      "natural_minus_closed": -0.020314534505208315,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.9999043748227675
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "natural": 0.5790201822916667,
+      "closed": 0.2518310546875,
+      "permuted": 0.32012939453125,
+      "natural_minus_closed": 0.32718912760416674,
+      "natural_minus_permuted": 0.25889078776041674,
+      "message_type_mi": 0.9998128604475921
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "natural": 0.31768798828125,
+      "closed": 0.31768798828125,
+      "permuted": 0.31768798828125,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "natural": 0.21169026692708331,
+      "closed": 0.14776611328125,
+      "permuted": 0.21169026692708331,
+      "natural_minus_closed": 0.06392415364583331,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.833808746104833
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_scarce_PI_live_switching",
+      "natural": 0.18717447916666669,
+      "closed": 0.19983927408854166,
+      "permuted": 0.21067301432291669,
+      "natural_minus_closed": -0.012664794921874972,
+      "natural_minus_permuted": -0.02349853515625,
+      "message_type_mi": 1.077615050484489
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "natural": 0.21169026692708331,
+      "closed": 0.21169026692708331,
+      "permuted": 0.21169026692708331,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "natural": 0.21026611328125,
+      "closed": 0.21026611328125,
+      "permuted": 0.21026611328125,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68106,
+      "condition": "stateless_abundant_PI_live_persistent",
+      "natural": 0.31768798828125,
+      "closed": 0.31768798828125,
+      "permuted": 0.31768798828125,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.9998128604475921
+    },
+    {
+      "seed": 68106,
+      "condition": "stateless_scarce_PI_live_persistent",
+      "natural": 0.2166748046875,
+      "closed": 0.21169026692708331,
+      "permuted": 0.21680704752604166,
+      "natural_minus_closed": 0.004984537760416685,
+      "natural_minus_permuted": -0.00013224283854165741,
+      "message_type_mi": 0.9998128604475921
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "natural": 0.5729166666666667,
+      "closed": 0.147308349609375,
+      "permuted": 0.29726155598958337,
+      "natural_minus_closed": 0.42560831705729174,
+      "natural_minus_permuted": 0.27565511067708337,
+      "message_type_mi": 0.5142923806029612
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "natural": 0.3011067708333333,
+      "closed": 0.3011067708333333,
+      "permuted": 0.3011067708333333,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "natural": 0.19989013671875,
+      "closed": 0.10178629557291666,
+      "permuted": 0.19989013671875,
+      "natural_minus_closed": 0.09810384114583334,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.000341301730487469
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_scarce_PI_live_switching",
+      "natural": 0.18712361653645831,
+      "closed": 0.10511271158854167,
+      "permuted": 0.21235148111979166,
+      "natural_minus_closed": 0.08201090494791664,
+      "natural_minus_permuted": -0.025227864583333343,
+      "message_type_mi": 0.6887463484132043
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "natural": 0.19989013671875,
+      "closed": 0.19989013671875,
+      "permuted": 0.19989013671875,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "natural": 0.21397908528645831,
+      "closed": 0.21397908528645831,
+      "permuted": 0.21397908528645831,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68107,
+      "condition": "stateless_abundant_PI_live_persistent",
+      "natural": 0.2953592936197917,
+      "closed": 0.235809326171875,
+      "permuted": 0.2953592936197917,
+      "natural_minus_closed": 0.059549967447916685,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.6628347828914868
+    },
+    {
+      "seed": 68107,
+      "condition": "stateless_scarce_PI_live_persistent",
+      "natural": 0.19989013671875,
+      "closed": 0.22089640299479169,
+      "permuted": 0.19989013671875,
+      "natural_minus_closed": -0.021006266276041685,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.6628347828914868
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_abundant_PI_live_persistent",
+      "natural": 0.588165283203125,
+      "closed": 0.19334920247395831,
+      "permuted": 0.31226603190104163,
+      "natural_minus_closed": 0.3948160807291667,
+      "natural_minus_permuted": 0.27589925130208337,
+      "message_type_mi": 0.4814910074578009
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_abundant_PI_silent_persistent",
+      "natural": 0.3225199381510417,
+      "closed": 0.3225199381510417,
+      "permuted": 0.3225199381510417,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_scarce_PI_live_persistent",
+      "natural": 0.21708170572916669,
+      "closed": 0.14319864908854166,
+      "permuted": 0.21708170572916669,
+      "natural_minus_closed": 0.07388305664062503,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.8327543715074017
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_scarce_PI_live_switching",
+      "natural": 0.2349853515625,
+      "closed": 0.13465372721354169,
+      "permuted": 0.20904541015625,
+      "natural_minus_closed": 0.10033162434895831,
+      "natural_minus_permuted": 0.02593994140625,
+      "message_type_mi": 0.6506990655672948
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_scarce_PI_silent_persistent",
+      "natural": 0.21708170572916669,
+      "closed": 0.21708170572916669,
+      "permuted": 0.21708170572916669,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "recurrent_scarce_PI_silent_switching",
+      "natural": 0.20731608072916666,
+      "closed": 0.20731608072916666,
+      "permuted": 0.20731608072916666,
+      "natural_minus_closed": 0.0,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.0
+    },
+    {
+      "seed": 68108,
+      "condition": "stateless_abundant_PI_live_persistent",
+      "natural": 0.3225199381510417,
+      "closed": 0.2901509602864583,
+      "permuted": 0.3225199381510417,
+      "natural_minus_closed": 0.03236897786458337,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.999960787376385
+    },
+    {
+      "seed": 68108,
+      "condition": "stateless_scarce_PI_live_persistent",
+      "natural": 0.21708170572916669,
+      "closed": 0.23781331380208331,
+      "permuted": 0.21708170572916669,
+      "natural_minus_closed": -0.02073160807291663,
+      "natural_minus_permuted": 0.0,
+      "message_type_mi": 0.8327543715074017
+    }
+  ]
+}
