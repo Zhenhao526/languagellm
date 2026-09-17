@@ -18,6 +18,7 @@
 - [重复意义压力曲线正式归档](research_program/repetition_pressure_study/)
 - [八意义容量压力正式归档](research_program/meaning_capacity_study/)
 - [生态因子化与新组合传递正式归档](research_program/ecological_factorization_study/)
+- [二元对象表面重映射实验设计](research_program/object_surface_remap_study/)
 - [population signaling 源代码与紧凑结果](research_program/population_signaling_study/)
 - [本轮同步与清理说明](SYNC_2026-09-17.md)
 - [生态因子化实验同步与清理说明](SYNC_2026-09-18.md)
