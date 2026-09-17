@@ -380,6 +380,14 @@
     "/private/tmp/merge_repetition.py": {
       "present": false,
       "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/build_repetition_archive.py": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_archive": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
     }
   },
   "temporary_raw_trees_removed": [
@@ -474,7 +482,9 @@
     "/private/tmp/rps_part1_audit.json",
     "/private/tmp/rps_part2_audit.json",
     "/private/tmp/rps_part3_audit.json",
-    "/private/tmp/merge_repetition.py"
+    "/private/tmp/merge_repetition.py",
+    "/private/tmp/build_repetition_archive.py",
+    "/private/tmp/repetition_archive"
   ],
   "tracked_paths_pruned_in_commit": 8338,
   "historical_cleanup_estimate_bytes": 3687981411,
@@ -484,8 +494,8 @@
   },
   "policy": "raw training logs, checkpoints, model assets, literature caches and historical generated trees are not kept locally; Git history retains prior source snapshots",
   "additional_cleanup": {
-    "removed_file_or_tree_count": 80,
-    "removed_bytes": 12969061357,
+    "removed_file_or_tree_count": 82,
+    "removed_bytes": 12969066107,
     "removed_paths": [
       {
         "path": "/private/tmp/tabular_PI_stateless_silent",
@@ -788,5 +798,13 @@
       "reason": "unbalanced unique4 fourth meaning a&b had 25% target-one rate; replaced by balanced 1-(a xor b)",
       "data_retained": "compact receipt only"
     }
+  },
+  "current_batch": {
+    "removed_file_or_tree_count": 2,
+    "removed_bytes": 4750,
+    "paths": [
+      "/private/tmp/build_repetition_archive.py",
+      "/private/tmp/repetition_archive"
+    ]
   }
 }

@@ -294,6 +294,14 @@
     "/private/tmp/merge_repetition.py": {
       "present": false,
       "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/build_repetition_archive.py": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/repetition_archive": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
     }
   },
   "temporary_raw_trees_removed": [
@@ -372,7 +380,9 @@
     "/private/tmp/rps_part1_audit.json",
     "/private/tmp/rps_part2_audit.json",
     "/private/tmp/rps_part3_audit.json",
-    "/private/tmp/merge_repetition.py"
+    "/private/tmp/merge_repetition.py",
+    "/private/tmp/build_repetition_archive.py",
+    "/private/tmp/repetition_archive"
   ],
   "tracked_paths_pruned_in_commit": 8338,
   "git_history_preserved": true,
@@ -465,8 +475,8 @@
   },
   "retention_policy": "source code, frozen plans, compact results, audit receipts, final report and local runtime only; raw training logs, checkpoints, formal execution trees and temporary compaction scripts are not kept locally",
   "additional_cleanup": {
-    "removed_file_or_tree_count": 51,
-    "removed_bytes": 8263808543,
+    "removed_file_or_tree_count": 53,
+    "removed_bytes": 8263813293,
     "removed_paths": [
       {
         "path": "/private/tmp/tabular_PI_stateless_silent",
@@ -868,8 +878,8 @@
     }
   },
   "current_batch": {
-    "removed_file_or_tree_count": 29,
-    "removed_bytes": 4705252814,
+    "removed_file_or_tree_count": 31,
+    "removed_bytes": 4705257564,
     "paths": [
       "/private/tmp/repetition_formal_part1",
       "/private/tmp/repetition_formal_part2",
@@ -899,7 +909,9 @@
       "/private/tmp/rps_part1_audit.json",
       "/private/tmp/rps_part2_audit.json",
       "/private/tmp/rps_part3_audit.json",
-      "/private/tmp/merge_repetition.py"
+      "/private/tmp/merge_repetition.py",
+      "/private/tmp/build_repetition_archive.py",
+      "/private/tmp/repetition_archive"
     ],
     "verified_after_remote_commit": "3ac403c6896e35ae3b02bc63cdadc2c3f06e125d",
     "archive": "research_program/repetition_pressure_study/results/formal_20260918",
