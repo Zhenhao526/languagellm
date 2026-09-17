@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-09-15T17:37:23.436664+00:00",
+  "note": "Original bytes retained before final README updates; collection-stage JSON files remain unchanged.",
+  "snapshots": [
+    {
+      "original": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/README.md",
+      "snapshot": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/finalization_snapshots/README_before_final_curation.md",
+      "sha256": "117922a5aa57f3f39f4a57ffab84c7022089463e9144f69aad2c68e48d8d57a5"
+    },
+    {
+      "original": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/collection_status.json",
+      "snapshot": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/finalization_snapshots/collection_status_before_final_curation.json",
+      "sha256": "f24555938ba914bd8a5607d76272fd5d3288fdb408b14bd9b7637316532726a4"
+    },
+    {
+      "original": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/collection_delivery_qa.json",
+      "snapshot": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/finalization_snapshots/collection_delivery_qa_before_final_curation.json",
+      "sha256": "88bc3f285e5e05036d06db88ba4e8ea5208de613aa58c87be62717e5a42bbf93"
+    },
+    {
+      "original": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/README.md",
+      "snapshot": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/finalization_snapshots/visual_confirmation_v1_README_before_workflow003.md",
+      "sha256": "bbebcc05686e37798c57685d28636279fcfeb5e5c58a1fb53fd30621f89f898a"
+    }
+  ]
+}

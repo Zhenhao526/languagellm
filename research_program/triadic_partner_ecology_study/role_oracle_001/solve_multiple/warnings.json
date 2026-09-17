@@ -1,0 +1,6 @@
+[
+  {
+    "category": "RuntimeWarning",
+    "message": "Unrecognized options detected: {'mip_abs_gap', 'threads', 'random_seed'}. These will be passed to HiGHS verbatim."
+  }
+]

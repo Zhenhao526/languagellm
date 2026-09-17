@@ -1,0 +1,27 @@
+{
+  "status": "passed_after_required_probability_greedy_fix",
+  "reviewed_utc": "2026-09-15T17:28:19.509237+00:00",
+  "original_review_sha256": "48a78f8ef38fab26e94595f7526b5668d9632ad2a31cc9e13bbc660148693393",
+  "producer_regression_receipt_sha256": "c94d525c494de18f33b946a7044bcbbc769245f48062e127552451709d662fdd",
+  "producer_regression_tests": 7,
+  "source_sha256": {
+    "channel_intervention.py": "84a3be823074837dc7d8fe7fcf529e4ef86b1d72770a03df1146a5c2a1764afa",
+    "runner.py": "69c94365bfaae34e8d5e0726b5fb1525b2d6bf570baf8a5bf712dd8c7c98901c",
+    "plan.md": "c9921daf569726db6e74ef1e78176336c50c8f9ca76597d55d8f84a6d00d3c5b"
+  },
+  "resolved": "W2 now uses official policy_distribution followed by categorical_tokens, including float64 rounding ties. Preserves original message greedy semantics.",
+  "remaining_required_changes": [],
+  "read_only_runner_checks": [
+    "fixed16 unique policies and six checkpoints",
+    "32 endpoint references use original6000 saved bytes",
+    "same/opposite donor sides and remote index spaces",
+    "outgoing-only replacements and self-generated W2 assertion",
+    "silent and sham identities checked separately",
+    "all routing inputs SHA per1024 batch with explicitstart/end",
+    "160new natural+320intervention matrix and50181120 model sample budget",
+    "exclusive execution; exception record; final source/input reverify"
+  ],
+  "actual_new_model_forwards": 0,
+  "training_updates": 0,
+  "new_diagnostic_results_read": false
+}

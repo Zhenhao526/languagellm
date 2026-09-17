@@ -1,0 +1,12 @@
+{
+  "id": "choi2018",
+  "official_url": "https://arxiv.org/pdf/1804.02341v1",
+  "official_landing": "https://arxiv.org/abs/1804.02341v1",
+  "version": "arXiv1804.02341v1; ICLR 2018 paper, alternate official source after OpenReview403",
+  "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/literature/papers/2018_Choi_Compositional_Obverter_Communication_Learning_From_Raw_Visual_Input_arXiv1804.02341v1.pdf",
+  "retrieved_utc": "2026-09-15T17:44:43.919574+00:00",
+  "new_download": true,
+  "prior_attempt_record": "new_download_001.json",
+  "status": "failed",
+  "error": "<HTTPError 406: 'Not Acceptable'>"
+}

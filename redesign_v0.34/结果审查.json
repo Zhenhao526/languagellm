@@ -1,0 +1,139 @@
+{
+  "passed_with_stated_limits": true,
+  "passed": true,
+  "status": "passed_scientific_review",
+  "version": "v0.34-paired",
+  "reviewed_files": {
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/固定执行方案_v0.34.md": "fb54748df1513d428d5e727c83e9f9dc4a36e66d835151098a8538897c30b0c0",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/support_design.json": "fc38f6bdd975a64074f0db133ffc0f7b05bf68bff45027a1ac5d8aa3a312708a",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/implementation_review.json": "56f0338ff528448310eaa357c4f7862d682836cf0c95c259c1f0b614cf1b8bdf",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/run_support.py": "7ad456b316d53db0bff5eda6b4b54568a1cc95b5e3d2a7928cc8f62338f2c1f6",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/support.py": "423cb40d545c1fc53c9f62f3d6ff311e2ed742ecd7d976511290384096c9f3ac",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/views.py": "2d6ca505c01ef8191e0efde96ebd4550105b00c6ab55609820d477d3883ec202",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/dual.py": "9dd857b18a4dea3bf3815c70886031ce2e207d4c3be943b515b161fbbf6b6659",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/metrics.py": "1a8e560d3aed89829b337bdf5b81e3eb779c1ede86a296c530a2c420706bbc72",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/analyze_results.py": "008802d93c7295fd6bed085017ce1a346d6228124f437dd777cfdac83b8674dc",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/audit_results.py": "e2d71a185573fe3b6f7bb986a20439ab84386347eaa98e2f8a5bfaa4f2f8c14c",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/preflight.py": "387df9917679bfaa4ec25d94c8d4d05b18730cb603dbd91ddf73c25cb01b58ad",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/rotation_transfer.py": "7fe7663ef3e84032e2fe8619213ec8da6cea295340fc6ea861e6c5e8b2a60f76",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/cross_topology.py": "cdcb6c78c2a8e385b8a710dfec617dc5b2d084458e429821fd980122ba62c29d",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/plot_rotation.py": "4e6a8372dbb7bfd3728b556038e1c0327f409626f4ab73f73fdf01339d0e54ef",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/message_rotation.py": "0c2ac991e59af63bc160e1ce9e446928c38a39d45a0b4e8563c6300f50c3113d",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/fixed_control_analysis.py": "406c82b3bd3d9f2e61387673ac46c7d5a1706a7973b63c47741aab2d4d86e240",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/fixed_control_cross.py": "0401f970b779e95294c266d98d33ebd846ad6c9d8f77b7432672b280f0dad3d1",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/audit_fixed_control.py": "c209f56cdd77719599e95dd656b31a15bde7149ede40c8203d199b38bd8371f2",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/run_fixed_control.py": "7e479c4203d2b80401a4650c1d43774823ad8bae6b23ea54bca186728e966654",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/build_report.py": "78ef980966f5b850e5aec49668e28a749d0d72f86cc2697bcf4d586191e9247e",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/package_results.py": "54b6c94abdab662080c720d84c1171594106184255fcc7217fc737d4603f9d91",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/README.md": "86123805fb35cbe1135ac8d781845688c3042d005ecf5e538ff75bc9e34d34ad",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/preflight_qa.json": "ab1be40349547c5593635763aaf95a83a4383c39386f2de7e34e4e0ae465d079",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/results/rotation_001/analysis.json": "ce064c3b31c5b52633a166b21f4ae63b91f321a834f72a1203f170c368c72863",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/results/rotation_001/raw_validation.json": "6c78f322bf96a19c383b16889b06104acc91fcb40babb4a9c9bdbe6308d9bec5",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/results/rotation_001/audit_execution.json": "2430cbb0b2adf4502ebf1439f347d4883bf8edc9964225e8afe0dd970b1250ef",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/results/rotation_001/training_complete.json": "24dafab275671f88137d7a55c4594ec7f664dab9eb4995dfd3e09bba9d49abf7",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/results/rotation_001/terminal_receipt.json": "24027e824922d9bdd6a301067d224c3409ce7e47e12f17d30f79ee94072d9fa0",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/results/rotation_001/rotation_transfer.json": "30f6dcd42a953ccd153dd67a0fdf88d83979d0f90d940ea89e19ed289db5231f",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/results/rotation_001/cross_topology.json": "f5b24c8b9ef01b35f428a67b0f9651ea41f5857d5339e8c9eb23fd334fd745c2",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/results/rotation_001/figures/visual_qa.json": "2c789a7da9f3007cb4e07a92087f6f60ccf5b758d82c1076ccc2c2e87b9ba26d",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/results/rotation_001/伙伴拓扑轮换与跨伙伴迁移研究报告.md": "57e6a6eaf0c331b30f6577831cb0a8b02ae3c456f2b13f6defa09dc7b8f4fc49",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/results/rotation_001/实际消息示例.md": "b9d93e0a9634f0559fe7a3a287eb8f1b1d11d3c37a618db8a9fa39aa75e040ae",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/results/rotation_001/message_examples.json": "ac9573e281ffe1b8d3164607b0027fa233f9e56485f08bcfc1f961efd3ab7477",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/results/fixed_001/fixed_control_analysis.json": "12065f40ab7884c4991126b8b86854ba1f8c551da734dae270e7940a2dd88ebf",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/results/fixed_001/fixed_control_raw_validation.json": "e8ef677cefe0ca737e0bc62571d2537c9e4967583e1cffcd2311ff5ad45ebf88",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/results/fixed_001/fixed_control_cross.json": "9b0c665b3ed265f18d399e06760ec7fd92c446d27746be7e6bd041ae4c42656e",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/results/fixed_001/fixed_control_audit.json": "7ab4feee0874cd839278b8e68d6ac94020957097ba1f7ac678a76b5c0b825c69",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/results/fixed_001/training_complete.json": "9f63453d36dfe848c232cb758af751dc6fe78002e7faed1026f5d14379dc9746",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/results/fixed_001/terminal_receipt.json": "4b9fc6a9f3d6bdb6de88d4fe4bc37ab538f56e6f01e121aa6a34ea315888ad1e",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.34/results/fixed_001/wrapper_receipt.json": "06d1b7ea599c6714fbea90bf00bf4ab4e8af2ec4f27c72a30014fd178a23bbf8"
+  },
+  "review_scope": [
+    "Checked the same-namespace rotating A/B batch and fixed-A control with identical source and input bindings.",
+    "Checked native, seen-B and held-out-C grounded scores, target/held-out splits, endpoint curves, agreement and cross-team substitutions.",
+    "Checked paired seed×panel differences, seed-level aggregation, and the distinction between native performance and all-cross compatibility.",
+    "Checked independent NumPy reanalysis, fixed-control trace replay, completion hashes, terminal receipt and raster figure QA.",
+    "Checked every absolute local link in the paired report."
+  ],
+  "findings": [
+    {
+      "type": "same_namespace_topology_tradeoff",
+      "fixed_A_target_J": 0.40624999999999994,
+      "rotating_A_target_J": 0.29108796296296297,
+      "rotating_minus_fixed_seed_panel": -0.11516203703703705,
+      "rotating_minus_fixed_seed_sd": 0.09822973329962387,
+      "interpretation": "Under identical 34034 fixtures, rotating A/B lowers native A grounded success relative to fixed A at this budget; the contrast is a topology-training trade-off rather than a cross-batch artifact."
+    },
+    {
+      "type": "cross_team_compatibility_tradeoff",
+      "fixed_A_all_cross": 0.06036603009259258,
+      "rotating_A_all_cross": 0.20779079861111113,
+      "rotating_minus_fixed_all_cross": 0.14742476851851852,
+      "fixed_A_within": 0.40624999999999994,
+      "rotating_A_within": 0.29108796296296297,
+      "interpretation": "The same-namespace rotating batch raises all-cross token compatibility while reducing native within-team compatibility."
+    },
+    {
+      "type": "form_grounding_dissociation",
+      "fixed_A_full_message_agreement": 0.1270833333333333,
+      "rotating_full_message_agreement": 0.43124999999999997,
+      "interpretation": "Form agreement rises under rotation even as native and held-out grounded scores fall; equality of strings is not sufficient evidence of a shared grounded lexicon."
+    },
+    {
+      "type": "seen_vs_unseen_topology",
+      "rotating_A_J": 0.29108796296296297,
+      "rotating_B_J": 0.29716435185185186,
+      "rotating_C_J": 0.1328125,
+      "interpretation": "A/B training preserves performance on seen B, whereas held-out C remains substantially worse; topology coverage is limited."
+    },
+    {
+      "type": "historical_cross_batch_reference",
+      "v033_fixed_all_cross": 0.050763165509259266,
+      "interpretation": "The v0.33 comparison remains descriptive because its fixture namespace differs; it is not used for the paired causal estimate."
+    }
+  ],
+  "limitations": [
+    "Four population members reuse two frozen private encoders; the topology schedule is not demographic turnover.",
+    "A/B/C schedules and food-only/water-only masks are experimenter-specified symbolic resource-location controls.",
+    "The task has two senders, one receiver and two resources; it does not test vocabulary growth, grammar, intention or cultural transmission.",
+    "Cross-team token substitution is an offline grounded-readout diagnostic rather than an online episode.",
+    "The fixed-A control has 12 social runs and the rotating batch has 36; paired inference uses the common 4 seeds and averages the three panels within each seed.",
+    "The bounded audits replay categorical traces, endpoint tables and agreement files, but not every gradient or Adam transition."
+  ],
+  "next_step": "Hold topology coverage constant while holding out sender or receiver identities, then compare identity-generalization with the held-out C topology before adding a third resource or delayed relay.",
+  "figure_visual_qa": {
+    "status": "passed",
+    "passed": true,
+    "figures": {
+      "01_rotation_design.png": {
+        "sha256": "1b27298c6ea89b2eaccc602f7239726eb04979599f600b8fcee45ab2c8fd72af",
+        "width": 2776,
+        "height": 1521,
+        "nonwhite_fraction": 0.22399779645955661,
+        "readable_dimensions": true
+      },
+      "02_rotation_outcomes.png": {
+        "sha256": "e4ca19dea05d4ddc470cbfde8f8e2d8f251401476a516fffb3f35f6681efdfe8",
+        "width": 3338,
+        "height": 1917,
+        "nonwhite_fraction": 0.11777080162889327,
+        "readable_dimensions": true
+      }
+    },
+    "checks": [
+      {
+        "file": "01_rotation_design.png",
+        "dimensions": true,
+        "nonwhite_range": true
+      },
+      {
+        "file": "02_rotation_outcomes.png",
+        "dimensions": true,
+        "nonwhite_range": true
+      }
+    ]
+  },
+  "link_check": {
+    "local_links": 20,
+    "missing": []
+  },
+  "new_training_reviewed": true
+}

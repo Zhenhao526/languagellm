@@ -1,0 +1,1158 @@
+{
+  "old_available": [
+    {
+      "id": "6edb373eedc6",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/6edb373eedc6.jpg",
+      "sha256": "969e79866f2b3fc295f0219be0106a8a59ca54d74ae0ba90219527b6e520cc18",
+      "original_sha1": "cdf48d9b3c4a70236a6dc27a4ee9bde873c575a5"
+    },
+    {
+      "id": "78f56c024453",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/78f56c024453.jpg",
+      "sha256": "4ecba685bdf929f47eb3d2089f73b4a07cd57046eb05c04a2c5ec416617a82f4",
+      "original_sha1": "413f9ff8b8a5269e23876ccb98e4874583c2ab70"
+    },
+    {
+      "id": "99b303c36959",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/99b303c36959.jpg",
+      "sha256": "863098778271bb9b76108e5268f483c4582618020afd64cbf1f78fccb4c594e1",
+      "original_sha1": "a2aacda01da02a3b09d9a0546598a69dcc2ca093"
+    },
+    {
+      "id": "68c407bbb1a6",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/68c407bbb1a6.jpg",
+      "sha256": "f210b89c97a900da38f082c8bbc42578a7b77e1c95d091b586df45b87937b7b1",
+      "original_sha1": "bf228f95823e8648b352ad8c4570c9b40a1dd72f"
+    },
+    {
+      "id": "b6af09a40e41",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/b6af09a40e41.jpg",
+      "sha256": "b53b151cbebda1a297eecdc53e99b11b03c8573f6f8b376971a3543759d7a19a",
+      "original_sha1": "2a559e8d23a446baeb0f7335ee2d3bd4ede50dfa"
+    },
+    {
+      "id": "aa6b3fac4ae7",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/aa6b3fac4ae7.jpg",
+      "sha256": "3e20555a3e606dcf60d94d2deee4ae3eb75e4f5f9b58070057574dd2b2556ae3",
+      "original_sha1": "75c8937abf7666cffea436b478c95644788e068a"
+    },
+    {
+      "id": "397921848b1f",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/397921848b1f.jpg",
+      "sha256": "7a04a80c78e30e8fc5478f83e6477f98fed3c117d60ac8ede94a8b85deacd3f2",
+      "original_sha1": "17a685d5519020ad9572fab342ae24a420e9fd4e"
+    },
+    {
+      "id": "1d41273a9839",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/1d41273a9839.jpg",
+      "sha256": "fe5388ab3c3a54ef30e2bfef41762d0dcda9399e00ca27073168a37315b620bd",
+      "original_sha1": "618b9aa7bfdffa96c2425bbf36d9ce020192d74c"
+    },
+    {
+      "id": "e614601ad565",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/e614601ad565.jpg",
+      "sha256": "ddb40ce843f210dc714b23bfda84aa57dac42f8d1489a4a7508a3fbf158f005d",
+      "original_sha1": "193f4a71690e603374e82bda96d0ed62e8268965"
+    },
+    {
+      "id": "93ae11be10dd",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/93ae11be10dd.jpg",
+      "sha256": "d4cd76229f3314499e78a9840ec857311ae8570c3aa02185b345da7a211025a1",
+      "original_sha1": "4055082449c254150d34740045ba3a3a00040a10"
+    },
+    {
+      "id": "5e1694f2142c",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/5e1694f2142c.jpg",
+      "sha256": "a0af55068e9c9322376776b7d9737c8e89f9031578dbeba054e677eaf75abf89",
+      "original_sha1": "d9e19e63b33db8a047b4d0fef58385e24f0054c0"
+    },
+    {
+      "id": "94343582bf6a",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/94343582bf6a.jpg",
+      "sha256": "7cb384bf8f85f6bdf034393a44ede12a4bf20e761c7e86b058707a3fd16a1376",
+      "original_sha1": "47b5b9f5dad8d54e45dd6f555c3c7658e9554e06"
+    },
+    {
+      "id": "1afa01fd8607",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/1afa01fd8607.jpg",
+      "sha256": "7a60348052cc7fb4ffff6c3b6ce2c47784492dda63e49a7a54642fcd31f0c660",
+      "original_sha1": "593243a9db2766d2936f2a2d4a215b647c085d71"
+    },
+    {
+      "id": "179e994c154c",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/179e994c154c.jpg",
+      "sha256": "c31ec1c8858993f07f6bd5555e3e4d0912a6995cdfef3ea22af9a5c86f0ed2f3",
+      "original_sha1": "db0c01b9a4f425ed5dd025b75ffd7588dea948b7"
+    },
+    {
+      "id": "184764fa0531",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/184764fa0531.jpg",
+      "sha256": "4899be56081cfda07cc3328b2f815f143223b0858241187ebb86060dbf23cb7c",
+      "original_sha1": "a6200c71aa6ab08a687303f5b1058288a184e525"
+    },
+    {
+      "id": "ed5373f2f0dd",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/ed5373f2f0dd.jpg",
+      "sha256": "c758d4afcd343bf79cf9c80305277960359c6ea8560111baa4bef15d4453400a",
+      "original_sha1": "60f5f70d252ef4ef4c96ebe4a989b359ff3a9499"
+    },
+    {
+      "id": "57a68864db13",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/57a68864db13.jpg",
+      "sha256": "7579967c2a250146bf19c6fe72fd8ca027323cfadadf8d1c7a2bb3289e3636de",
+      "original_sha1": "5f6d0f1872c58ee4b743c8c3efd967f7c1e305ce"
+    },
+    {
+      "id": "c341f0b3ac91",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/c341f0b3ac91.jpg",
+      "sha256": "0099d211bd1ac7c29d5436fe74bf05f82385d4b9c67e21769d07930ef3db9cde",
+      "original_sha1": "6f784bc79dc156a0a9ed5ebbb9c5fa0748164587"
+    },
+    {
+      "id": "6ee17b892346",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/6ee17b892346.jpg",
+      "sha256": "d1b6a0f97c0fe2ebedcef6b65e41d84cca95866e0dd24133483c8bc051cdb004",
+      "original_sha1": "abd17145831ee32503708a3b5d41f7ab9b18e532"
+    },
+    {
+      "id": "208da9d541f2",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/208da9d541f2.jpg",
+      "sha256": "9c4ece7cf41bdd63d3becf11be8ed1efb1ae62f2e2ed99193aa3999880615e18",
+      "original_sha1": "fec1c00226378f2ccda0a5d4a49d331245d34c47"
+    },
+    {
+      "id": "9583d5bc41b5",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/9583d5bc41b5.jpg",
+      "sha256": "957a6d80b24eaf117f3ef5ab304fdcabe089d72268debddd8673b481107e1d51",
+      "original_sha1": "e234dbb3124fe69e4bac88c6d788c93b71b1ef90"
+    },
+    {
+      "id": "091dbbb30c83",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/091dbbb30c83.jpg",
+      "sha256": "5fb2df45f7db13f6112b0e4c94674734ce3446d5223a88d01210f41d5737075f",
+      "original_sha1": "a9255ddf3718cfe0d4ec210ccb548252939f9655"
+    },
+    {
+      "id": "3a34bd75fc3a",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/3a34bd75fc3a.jpg",
+      "sha256": "f8d7268930ceb355500a4570794961e1ad8d11112c8096d77987579713cd525d",
+      "original_sha1": "af70da4dfb439b1c393fa59fe4fd8595308f053d"
+    },
+    {
+      "id": "3d60f9aaa26b",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/3d60f9aaa26b.jpg",
+      "sha256": "b4bd970eee8e1028db3d2cf307945c0ef4b60acfc145389aaba47a368265fc2e",
+      "original_sha1": "a0537fa9219af5bf64421cd3df844ecd4d72b6c6"
+    },
+    {
+      "id": "3eecf2cc350d",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/3eecf2cc350d.jpg",
+      "sha256": "0ddd10c49c9e6a3946853af0e995d2b9ede2e7d0265ac489c60afe13f2f80c62",
+      "original_sha1": "7b90e9078cc1564e4d192f31125f7a5bf19934a9"
+    },
+    {
+      "id": "995115928023",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/995115928023.jpg",
+      "sha256": "b3b2c28369deb781a74ef9ca9161f09b3918320bd4faebe47cb6b4e5722e4051",
+      "original_sha1": "6ca899696460cdbba2f596aecd0e6ebd805e5485"
+    },
+    {
+      "id": "874a04260bb2",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/874a04260bb2.jpg",
+      "sha256": "657e2d4dc9e6f39c897cb773226cabdf2e921e1482b6e11d1a5fed3e53249dec",
+      "original_sha1": "baf145a3dc7f5dff7f8f00a1db08a62c86fad746"
+    },
+    {
+      "id": "fa1c00f25d7b",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/fa1c00f25d7b.jpg",
+      "sha256": "ffb55709550d7f8c02ce40a0d7f032133b11782dd5d2e954a02aa0dc794b03d4",
+      "original_sha1": "d94b95992ec5840a84b58b44b522a63cf78ff25c"
+    },
+    {
+      "id": "3f02f9f99f5f",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/3f02f9f99f5f.jpg",
+      "sha256": "cbc96252eb0cc6151f25187891a7f8c1afc57756b3d39e3187eb4c968d1ccb9d",
+      "original_sha1": "2c6978150dd05cff450fa99f9910b534c888bb94"
+    },
+    {
+      "id": "a7507e43c7e9",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/a7507e43c7e9.jpg",
+      "sha256": "8a741a857281277f7d7121632b2a022966888c84dcfce81b3b570dc4e3751723",
+      "original_sha1": "5dfc77e32fa1bd6617f05db4300a262ccff3c02d"
+    },
+    {
+      "id": "c9eeee78e473",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/c9eeee78e473.jpg",
+      "sha256": "b1c1d16764e6ac334e6ea334ee6516e402c725519d0badb6c62aac13246686c6",
+      "original_sha1": "9c9e76906e6372b92602a8d05006453cf9f8d60f"
+    },
+    {
+      "id": "61ba5e5db36e",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/61ba5e5db36e.jpg",
+      "sha256": "f1f228e832882d6eda23ff6afc72a71effd22a910542d2ad6838f43837a4a6dd",
+      "original_sha1": "efa8005ad65f7deeb28abd170a4c3855c7b44300"
+    },
+    {
+      "id": "47372943aaf1",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/47372943aaf1.jpg",
+      "sha256": "9eef5c446d3816531f4d3ed31e3144f9ceab8728805636c99593a21120774e6f",
+      "original_sha1": "348c78b29617ce64595df1a56eba5a6837f66a9d"
+    },
+    {
+      "id": "c5f6d553e09e",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/c5f6d553e09e.jpg",
+      "sha256": "8031adee9f713c8311a00ee9e6ec0d5950f8fed56cb4e8233e1721360879b991",
+      "original_sha1": "4b7f7c2ce047d8f6ea0d0f9841fe31fedc06e001"
+    },
+    {
+      "id": "ae571f250067",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/ae571f250067.jpg",
+      "sha256": "4c3f3882ef5a6f2aa3308d60d9e86eea649ebceaaee221014ccfda5dbe1f4bff",
+      "original_sha1": "11d15ebb252996f5677be89f370241d83eb5d09b"
+    },
+    {
+      "id": "2bdc4c46b706",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/2bdc4c46b706.jpg",
+      "sha256": "dfc3fc0a450c6e9fcb264cb932799c10016aa875b69bff0dcf42b6daa8c0484e",
+      "original_sha1": "88c97b932571fd2d44f37d4462edf75d3a54a431"
+    },
+    {
+      "id": "168efb69ddfb",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/168efb69ddfb.jpg",
+      "sha256": "b450914c783d9e58bb5146f51ac2767ac947b91abe6fa91397fbd0226c3efd57",
+      "original_sha1": "fed6e02a4d0259222634da60d48f08a200b9324c"
+    },
+    {
+      "id": "a75225a95b14",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/a75225a95b14.jpg",
+      "sha256": "3f9424099eb3e98ca66ba63cfee2a86ec4fb8c664d58d638042ea01dd0b762be",
+      "original_sha1": "e87339cb622fe32b9cea0d8d374a27bd157535ed"
+    },
+    {
+      "id": "7b23bceec5f7",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/7b23bceec5f7.jpg",
+      "sha256": "d97acc870ddbf93965881f5a60a4dad97165acc15ef208e56086cd6896c9188f",
+      "original_sha1": "5e9fd09074dd3c73167653f7d4afa3ed0af1fc49"
+    },
+    {
+      "id": "30e6b4759dff",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/30e6b4759dff.jpg",
+      "sha256": "6af768017f4cbfdc4ff777b2ad149c5fd5377a951258d9efff74756db19bacbd",
+      "original_sha1": "2afadf9580c6b5e5b85a512e11465980d74e07cf"
+    },
+    {
+      "id": "c74ea17d5871",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/c74ea17d5871.jpg",
+      "sha256": "de6f6b10af0f927805e88eb35529fdd0ab4ede3c94ff15b525121309b860dee9",
+      "original_sha1": "53cbb08081c377153b9c9f9052804d1b799099e0"
+    },
+    {
+      "id": "404b697fa743",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/404b697fa743.jpg",
+      "sha256": "9f5e797efea76c0b0205ffc7402abda7d64eb2369760c36546d1d6984e56ed61",
+      "original_sha1": "42d93d21f024f5b1407e589009fa3515c7d8f9e5"
+    },
+    {
+      "id": "be4990e11382",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/be4990e11382.jpg",
+      "sha256": "41fa5ed6c190911ba7c8db141cd9cf569a9f40a9fc0d634ea74776e4d88400a2",
+      "original_sha1": "b28016798ed7a4e3d961af15b3ad53a100ccc0d7"
+    },
+    {
+      "id": "494af76551f8",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/494af76551f8.jpg",
+      "sha256": "eaff1e7867520f92467423d5d0d2e3a7a5d0ada650aec737490693966d76f9c7",
+      "original_sha1": "22f75eb5cb85361bb357dfc3c6fc35d4505fe0d3"
+    },
+    {
+      "id": "b4aca7c36d02",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/b4aca7c36d02.jpg",
+      "sha256": "73ba615362ee79a5d42ba547d1406240337a2b118ea6c65cf95b9f765b8677bf",
+      "original_sha1": "7bc3cef826b4ebed63699da5d5cf80893f244890"
+    },
+    {
+      "id": "1a3837a4940b",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/1a3837a4940b.jpg",
+      "sha256": "e487844562dc4bc80bbea7bf158dbedadae56ab1086379fdbe9f369906699193",
+      "original_sha1": "ccd61c6020d0934d07f9be6070cf7b0c75f3679e"
+    },
+    {
+      "id": "3bd2c7acd401",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/3bd2c7acd401.jpg",
+      "sha256": "b756601a24e0cce2273ad990bf02e7f658108edb56634f5529b4e79146849dae",
+      "original_sha1": "f15f0f17ac5a5fcb39e5a2abe1548a71b9aa7039"
+    },
+    {
+      "id": "b0790a4b5d14",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/b0790a4b5d14.jpg",
+      "sha256": "8eafee9be53b119ef7729095a31f36cdbec27a7f17e6b3cf3f7f45f6f8ea4e22",
+      "original_sha1": "dcc9fe3c4b9a1141d6ab5129af200ca870a70522"
+    },
+    {
+      "id": "95462d90cc21",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/95462d90cc21.jpg",
+      "sha256": "603775c94d72d3aaf7df7c326cd26c896540072834c938e1bb5ec350335737c2",
+      "original_sha1": "82abfc26ea225f5cd3db0a0a5491bcf39deb1d07"
+    },
+    {
+      "id": "dc1ab46954a6",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/dc1ab46954a6.jpg",
+      "sha256": "293fa8993c1a1826a633eeaf2850011105882ef96c91d239af39c63896e54901",
+      "original_sha1": "6b128a4c42a332283597b15aa53c74620ed785a6"
+    },
+    {
+      "id": "dc1bfdd76f27",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/dc1bfdd76f27.jpg",
+      "sha256": "0c99a39e65dd6d2d3c3848878b1580b51e5d59c4f48000d4d88c98fcbdfc6afe",
+      "original_sha1": "0609c12c6b2a837a03a6e1261a44c6ce8c8101df"
+    },
+    {
+      "id": "8566d80e8f59",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/8566d80e8f59.jpg",
+      "sha256": "bf16e93c3f3f750e37c179e7eea8c47d6b2bf90a014f2f1462287e6af9ce9871",
+      "original_sha1": "83acef8b30071836c28b8f693555c17c3dc1f166"
+    },
+    {
+      "id": "09f3dae3a86d",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/09f3dae3a86d.jpg",
+      "sha256": "47aeaadfb08b05e22bcedc30da50135deba1720f55a2c73fd3b5cb6b398689c3",
+      "original_sha1": "e8584079a1563444e42c3b26e447a685163c126f"
+    },
+    {
+      "id": "9ff51706ffe2",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/9ff51706ffe2.jpg",
+      "sha256": "81f46d9ae3d674476328578ac70bdc05425b15649d0c7e7dc908c238c9512c27",
+      "original_sha1": "220b94c237134b6c25fafc82995f31817a59bb50"
+    },
+    {
+      "id": "df68ba67c0b8",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/df68ba67c0b8.jpg",
+      "sha256": "6ca700cee8a0bdd8b1cc7db851c63a7255b655d8a8bbc5516cd824bddc77b495",
+      "original_sha1": "a90be1c9dcc2f7dadbc7cda0cdecdddc5e19f9fd"
+    },
+    {
+      "id": "6b9e4703075f",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/6b9e4703075f.jpg",
+      "sha256": "972efbdf964bef7e2a1b32645a5aefeca002ad0bd021760a4e1652bf0d28970f",
+      "original_sha1": "8108fe28597985b1fbd17e27cf691cb81a7517be"
+    },
+    {
+      "id": "f4f91f525e7e",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/f4f91f525e7e.jpg",
+      "sha256": "0d030b155addfdfe64f135bf357f3f0406d4f8ff8d33ad53783c3e1540c0bce9",
+      "original_sha1": "0c1e2a311a0a80cdb5120cd1211ea01333181a52"
+    },
+    {
+      "id": "150a01fedce8",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/150a01fedce8.jpg",
+      "sha256": "8babb3404a8d5cc23281a238e81cc4ff21b3446b22acd0a43caeaea008858e87",
+      "original_sha1": "9e58309af904d5eab878e1abb027cf3d6c7f883e"
+    },
+    {
+      "id": "2cf45ef17711",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/2cf45ef17711.jpg",
+      "sha256": "9c99e7384b6954c06fb3a08760a3143603f33d13ccbfc76c718241a46567aba0",
+      "original_sha1": "dafdb4a46cb2eea794d9d7bca65ba265a09f67b0"
+    },
+    {
+      "id": "e0d65ca105be",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/e0d65ca105be.jpg",
+      "sha256": "9b6cee384951d4b5734958bd266219b31df8f484b11cc88edb02b184c287e13b",
+      "original_sha1": "76b1af2869ce348c44e8170be775d6b468ad10e1"
+    },
+    {
+      "id": "52ede485f627",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/52ede485f627.jpg",
+      "sha256": "097d41c10038f8e6caf6c7716409c30d53a33f563e9b55742f647de8a5c88189",
+      "original_sha1": "db209ea7df79b9c48eb126dfa991a7b5cc089c94"
+    },
+    {
+      "id": "54b5ba031265",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/54b5ba031265.jpg",
+      "sha256": "2c3ef5e29366177a9269c73561843344611fdf8db6268fa1ea16b3026a9dd7f4",
+      "original_sha1": "03a68fe9d896a3152b91006bed19fcd26dfdc88c"
+    },
+    {
+      "id": "b722dfdef214",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/b722dfdef214.jpg",
+      "sha256": "d1c6f70868fb13cf91ed6b82de2010f3bd434272c7ffc2a8fe1e6079d0d191a7",
+      "original_sha1": "53cee6aa1a0105591653f5e494d9b20dae124eee"
+    },
+    {
+      "id": "bad26e3f7a7c",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/bad26e3f7a7c.jpg",
+      "sha256": "915d4ff2799f05baf6cf9bf24a2c1b758f6c27bad20b1542b53e776e7ce1c926",
+      "original_sha1": "9966398f3c6ea08ab3f4f8973b229e2eaca189d9"
+    },
+    {
+      "id": "fb753cacf47f",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/fb753cacf47f.jpg",
+      "sha256": "4b627a0a1f31798af8040ba030d732fcab70950e371c4367908e25add3a31b22",
+      "original_sha1": "355a59c0cf7f1d164d169f01ee3d28d507912c43"
+    },
+    {
+      "id": "5269797f98f0",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/5269797f98f0.jpg",
+      "sha256": "36afce78bebc8a70ef96b125b913d5e69f1066170546b564da3e13869c9b08e9",
+      "original_sha1": "d073c47806f55af090b6416fee1752b77fcd0e8d"
+    },
+    {
+      "id": "47971da21c41",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/47971da21c41.jpg",
+      "sha256": "68c98ad391304e7102ea0430c26b65a12f9096c29348ceb0e3a66b0590d655dc",
+      "original_sha1": "5ec382297c35a9aecb652c9544043e3ec25bd2dd"
+    },
+    {
+      "id": "90c553c959a6",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/90c553c959a6.jpg",
+      "sha256": "6b5875d3892b5f596e5c4daf09dbeb9926a6a9c56ded7483c640349a94bb3012",
+      "original_sha1": "af6e50d9077f9b322c851bf5534b02be5475012c"
+    },
+    {
+      "id": "18a6c209315d",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/18a6c209315d.jpg",
+      "sha256": "17f7cfd019975b5f8084e897c07f576be72a585aad29358e0913460dfc615cef",
+      "original_sha1": "a10f7fb2c642da85b511da393fa975b89092c0c7"
+    },
+    {
+      "id": "864758369ead",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/864758369ead.jpg",
+      "sha256": "508906277d55a6ba51a13f539a783054d683beb640ac2acec21d0220794304d7",
+      "original_sha1": "68bcfaa61b8408f92ad94f34f5dbab73f0bd2341"
+    },
+    {
+      "id": "37b41b25f002",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/37b41b25f002.jpg",
+      "sha256": "27fe253e14b0dda1a8778e0797669f5bf1a70e5310940e265fdbed90699236ed",
+      "original_sha1": "b79a8759a3162ff25e74481298c2ae664a5078d9"
+    },
+    {
+      "id": "be22c0573274",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/be22c0573274.jpg",
+      "sha256": "c74633ca89d70e28fe6dc99bbaee38fcd72627298e151d06fe3285a6d2579543",
+      "original_sha1": "0dfc2d8e1c9fb11c9a0a148d97342acca0b26da3"
+    },
+    {
+      "id": "3ed97498333b",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/3ed97498333b.jpg",
+      "sha256": "92aebd4828324717dd21d9f70e2f1bf132e1a7274aefe12fbfcec070398f4464",
+      "original_sha1": "dfeec8c14ac475d82ae65e328743f91b8c511221"
+    },
+    {
+      "id": "6ae2d754bd22",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/6ae2d754bd22.jpg",
+      "sha256": "e309576d04e8dc49a383e7f94276e59db9607567d285c4362e2eac5568b41532",
+      "original_sha1": "e4651d177a9cb39ac62c99e16607946461830652"
+    },
+    {
+      "id": "041f45edaf05",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/041f45edaf05.jpg",
+      "sha256": "0e944440b448c73e291e4dff12246b77d70c742a858a67e5769d2027818959fe",
+      "original_sha1": "43cf370f7cadb8d6dcbeb9f6193806c033ca6bba"
+    },
+    {
+      "id": "e5c1594e4f3f",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/e5c1594e4f3f.jpg",
+      "sha256": "934df4fe121eee1a304276846704bd04d1ed8256f9bfadf2dfd4d77336950b76",
+      "original_sha1": "88129bfd04d29067d6a3b2cf15092df5dc6ead56"
+    },
+    {
+      "id": "07a2189c7c2f",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/07a2189c7c2f.jpg",
+      "sha256": "ddd8933b3c3b7115a334104a2a0fdc7b4deb5ccb81c22a12e17b70af030fd70f",
+      "original_sha1": "04c18f5e296e67babec416c8b712b2e54d51e463"
+    },
+    {
+      "id": "aebc89c93e18",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/aebc89c93e18.jpg",
+      "sha256": "59a53e6a985f87efe9d134dc0e1a6a73a07ed6b4cf635014362b177a359da5aa",
+      "original_sha1": "4beabc217c3ed542822d1dcec6c78db1a24d284a"
+    },
+    {
+      "id": "706bb81b0f3a",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/706bb81b0f3a.jpg",
+      "sha256": "95d196ba7dc6b85a6f5ca6e0bddb9e5cb11d52d216bca9b2ad31860c2a2deab1",
+      "original_sha1": "fdec52b34ba514e528e11ad44d4521a6529cf0fd"
+    },
+    {
+      "id": "dc8b10e0a760",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/dc8b10e0a760.jpg",
+      "sha256": "75a73be76ffc9649d3ef37a8742237afce27dcff47ac21abd3d633203454da09",
+      "original_sha1": "136f353af0eed2cea3368ea0a11a86d67c44d061"
+    },
+    {
+      "id": "11b7a59feb1a",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/11b7a59feb1a.jpg",
+      "sha256": "01c8f535183d8a3775e5b2ad51d063db1e60d872e22c7ca9ae7bb4b0fed9135b",
+      "original_sha1": "ee6d45b4e4a7a250cbdc6665d66d430466c029da"
+    },
+    {
+      "id": "a5c1af95df21",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/a5c1af95df21.jpg",
+      "sha256": "46d6764a4655f06e11fc3f4db4b189ff7fa0d02adc7e3fc2e1b9a065501201bf",
+      "original_sha1": "09475e8e9b0718e81a64502d5d1fe86fe8256cbf"
+    },
+    {
+      "id": "e11ed115b883",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/e11ed115b883.jpg",
+      "sha256": "144c9bdc962b526e89dd962b6a18d82c4b31eead79d1e07e8b544371a955f3c9",
+      "original_sha1": "0bc85a474aa823f76948e2230bbd24795da25aa6"
+    },
+    {
+      "id": "ed41479e2d9b",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/ed41479e2d9b.jpg",
+      "sha256": "7241d089be52d06945635d3d15ee12391b15337e53381f298ab293fd06d1b9b3",
+      "original_sha1": "1549195a8d51228a940c8a59f2f53c975b4e5585"
+    },
+    {
+      "id": "40431b32beb1",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/40431b32beb1.jpg",
+      "sha256": "e945136ed89db65d06f21ab381b244ce0ef14114cab62ac946cccb74450e5a48",
+      "original_sha1": "820b5c5cdd30204c7065f19cac7fa3d0854da11c"
+    },
+    {
+      "id": "34170339c205",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/34170339c205.jpg",
+      "sha256": "a13bd688a4c8887de4bc2f4ed5ea3f16827c17f20dfb2688972e3b3954224893",
+      "original_sha1": "7f1efe24e920ec21b5d692a1a4cd37f18d956364"
+    },
+    {
+      "id": "473fdf28350c",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/473fdf28350c.jpg",
+      "sha256": "3a874d6d83740873e19b96e544e7190d0afa1111ee21609ff2c56d4737595fb0",
+      "original_sha1": "cd719044d9554b7486fb10f40d9e8e672bf59e45"
+    },
+    {
+      "id": "555aaa0620de",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/555aaa0620de.jpg",
+      "sha256": "8d64eb8cc5c1e780a0962496da558248d79001d8018c72338cc7552a2fddbdcc",
+      "original_sha1": "689f23329ba5f2405db3d164e4081bc2edb09a83"
+    },
+    {
+      "id": "22326541ddc5",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/22326541ddc5.jpg",
+      "sha256": "0c95e72efe831b1e1aa44fe00f01793108b110bf68e2d4dd87dd0c700aeebb9c",
+      "original_sha1": "3b7dbfc08854fdb7f406f2dea72978213890baf3"
+    },
+    {
+      "id": "6f0779719afa",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/6f0779719afa.jpg",
+      "sha256": "0ab103cfa9e3a5dcb4ac648f1ea0511674a3889512d9d23674b4dcbc75d6b70b",
+      "original_sha1": "3645730f4c2848150d70bef827dfe58b1af27bac"
+    }
+  ],
+  "old_unavailable": [
+    {
+      "id": "1e4a24819088",
+      "download_status": "error",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/1e4a24819088.jpg"
+    },
+    {
+      "id": "b520536f6385",
+      "download_status": "excluded_license",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/b520536f6385.jpg"
+    },
+    {
+      "id": "e8f1f4406827",
+      "download_status": "excluded_license",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/e8f1f4406827.jpg"
+    },
+    {
+      "id": "5efb5f5af6fe",
+      "download_status": "error",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/5efb5f5af6fe.jpg"
+    },
+    {
+      "id": "63c46ef435bf",
+      "download_status": "error",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/63c46ef435bf.jpg"
+    },
+    {
+      "id": "647b7d95a4df",
+      "download_status": "error",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/647b7d95a4df.jpg"
+    },
+    {
+      "id": "f0c04799b726",
+      "download_status": "error",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/f0c04799b726.jpg"
+    },
+    {
+      "id": "49c97b7498cc",
+      "download_status": "error",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/49c97b7498cc.jpg"
+    },
+    {
+      "id": "d065bb86a199",
+      "download_status": "error",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/d065bb86a199.jpg"
+    },
+    {
+      "id": "b76c9c5a6578",
+      "download_status": "error",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/b76c9c5a6578.jpg"
+    },
+    {
+      "id": "eec591a32b32",
+      "download_status": "error",
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/images/eec591a32b32.jpg"
+    }
+  ],
+  "previous_batch": [
+    {
+      "candidate_id": "commons:34189794",
+      "blind_id": "b5fd39d45d4e",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/originals/b5fd39d45d4e.jpg",
+      "original_sha256": "20618469ec3b66f0a2e9b76280d0bf70d96c7996cbe02c7f900ce4136c655501",
+      "original_sha1": "68592895f629a3b01793c48eaab912be66493467",
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/processed/b5fd39d45d4e.jpg",
+      "processed_sha256": "970378df6165bbafe5bc35dc8acc2c40bb6482b0f4b3e395a2b56470d3dcb2d4",
+      "crop_sha256": "6006ae28ef87473db11e9ab4e862496c797dbfe4b88c7704ba54047b73f8a24e",
+      "hashes": {
+        "phash": "a5477fdf3a286084",
+        "dhash": "6a6ae6b7fe571618"
+      },
+      "preprocess_matches_legacy": true,
+      "bytes": 2453169,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bananas_on_the_Asphalt_in_2012.jpg",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "artist_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/68978695@N00\">Lisa Risager</a>",
+      "credit_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/risager/7232560252/\">Nødproviant</a>",
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop"
+    },
+    {
+      "candidate_id": "commons:99384605",
+      "blind_id": "524e40e9b612",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/originals/524e40e9b612.jpg",
+      "original_sha256": "15b402761ce191bc02221eeec883a3ddc305fc9b56806085ab4b09ed915e39a6",
+      "original_sha1": "a0714d3831b1e0e4734a25e04a274460deb83a6a",
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/processed/524e40e9b612.jpg",
+      "processed_sha256": "eb3eefd987cfc6a46c24653ee3b4e2e9f7287f5543dd238b2c4d096190d0731f",
+      "crop_sha256": "da1933336178a90eeb3aac6831f84b5f50c5bef401ef5b8241385cadeca05cff",
+      "hashes": {
+        "phash": "b0b34d33193c33d9",
+        "dhash": "98a88c8c8c9cb4b2"
+      },
+      "preprocess_matches_legacy": true,
+      "bytes": 4211341,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Une_bouteille_d%27eau.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:LOUALIRAOUFL3&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:LOUALIRAOUFL3 (page does not exist)\">LOUALIRAOUFL3</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop"
+    },
+    {
+      "candidate_id": "commons:150093648",
+      "blind_id": "cdb454315f5b",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/originals/cdb454315f5b.jpg",
+      "original_sha256": "03e5430179509304ff9886ab314ba1e0ef08e0e1eeaa3337de153e2a87679b36",
+      "original_sha1": "40b6373f2b85bfb28b68b689e9e1d1eb361f1d21",
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/processed/cdb454315f5b.jpg",
+      "processed_sha256": "8073e4feae26a5ff332888ecc25bed76b3b8da29613ae8413bd65d93385a87d1",
+      "crop_sha256": "72d94d47f262e4089b30ab557d239aa9f2a7113cceaa8ea4311b079d721ff685",
+      "hashes": {
+        "phash": "ecb320018e7a6adf",
+        "dhash": "cf160525629b3723"
+      },
+      "preprocess_matches_legacy": true,
+      "bytes": 2312409,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kuzaki_olma.jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Usmonov_Gayrat\" title=\"User:Usmonov Gayrat\">Usmonov Gayrat</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop"
+    },
+    {
+      "candidate_id": "commons:87831960",
+      "blind_id": "75a6d4dea021",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/originals/75a6d4dea021.jpg",
+      "original_sha256": "586ae985ec08005f2e18ec9dea947dc765798256819389be329aa0ef6286b08c",
+      "original_sha1": "e1d3b64b06f5f3706256fa0bbfdeab40ab1b887d",
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/processed/75a6d4dea021.jpg",
+      "processed_sha256": "cca810484ffcce399e8199d71af7f56c9ba7123a4a2f98831224d8d1512ea1d6",
+      "crop_sha256": "4e08fd6a29c96c3fceab5b06340a58848bef9d053b46811088b84e835665467f",
+      "hashes": {
+        "phash": "d684b54bd2266ce5",
+        "dhash": "e4b634ede9332eac"
+      },
+      "preprocess_matches_legacy": true,
+      "bytes": 1081566,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Herbst_7_(94521661).jpeg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist_html": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/zakkinen\">Henrik Zawischa</a></div>",
+      "credit_html": "Imported from <a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/photo/94521661/herbst-7-by-henrik-zawischa\">500px</a> (<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/201807id_/https://drscdn.500px.org/photo/94521661/m%3D2048/v2?webp=true&amp;sig=6a44ecf7dbe6c152d65fcaedf2d0f157d1b1eeb1ffb767e534a14056640f041d\">archived version</a>) by <a rel=\"nofollow\" class=\"external text\" href=\"https://www.archiveteam.org/index.php?title=500px\">the Archive Team</a>. (<a href=\"https://iw.toolforge.org/import-500px/photo/94521661\" class=\"extiw\" title=\"toolforge:import-500px/photo/94521661\">detail page</a>)",
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop"
+    },
+    {
+      "candidate_id": "commons:2031911",
+      "blind_id": "9031e6c442d8",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/originals/9031e6c442d8.jpg",
+      "original_sha256": "81bc9acbb67675b5fd12484a76a4f3552b74d5645196218ccbe34c367e446b67",
+      "original_sha1": "70e21d30a02e2845a3e458fdc8314cf779687f2b",
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/processed/9031e6c442d8.jpg",
+      "processed_sha256": "996848485bdc3293b9c70019ea36b4ec29c563d88d464385b2c66feb4cc2f09b",
+      "crop_sha256": "176581233fd7574174d8db1c969e0d9a8bf7aa147ba4fbd9adee8bd97988b7b5",
+      "hashes": {
+        "phash": "e8958594de9b1bc8",
+        "dhash": "cc8e1b0531978707"
+      },
+      "preprocess_matches_legacy": true,
+      "bytes": 219611,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Apfel_02.jpg",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "artist_html": "janine pohl",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop"
+    },
+    {
+      "candidate_id": "commons:123662472",
+      "blind_id": "dac50308658e",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/originals/dac50308658e.jpg",
+      "original_sha256": "86bf032520486f32d5bc63256562b8714594df850e53b85eb7f31a3a8c4a4fba",
+      "original_sha1": "c16cd7e8abcb00fda582db57c94bec57507c59ac",
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/processed/dac50308658e.jpg",
+      "processed_sha256": "9a83ff8a1b8e2eec7f86eb7c11f5825ec31f0acac6e606a4e8f54ad1d9b41ded",
+      "crop_sha256": "fa932bf4a024a1430137a574763ef520367848df205fe5b426f539ce6ff8d811",
+      "hashes": {
+        "phash": "d5c5c4a4a7a62717",
+        "dhash": "e682c0060e8e3476"
+      },
+      "preprocess_matches_legacy": true,
+      "bytes": 2101461,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Recipiente_port%C3%A1til_de_agua_con_forma_de_tinaco_(Puebla)_03.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Luisalvaz\" title=\"User:Luisalvaz\">Luis Alvaz</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop"
+    },
+    {
+      "candidate_id": "commons:30297918",
+      "blind_id": "867cb98903a2",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/originals/867cb98903a2.jpg",
+      "original_sha256": "d76614c226d254362e5b55214e1d8bd09944e97ab6630677ccdeb1b95c85970e",
+      "original_sha1": "afcf8df6836150abc40f04d38ba37f6a997dafd2",
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/processed/867cb98903a2.jpg",
+      "processed_sha256": "171a2024938f129123db2724623df4062c0976e127436033979d1c70102790f8",
+      "crop_sha256": "18a4e694e427e7a50bc8a74ac374d062ee9fddfc447fcfa1c2fc069913f040c7",
+      "hashes": {
+        "phash": "cbaa889d55d256d2",
+        "dhash": "c9c381080030f0d0"
+      },
+      "preprocess_matches_legacy": true,
+      "bytes": 153201,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Processo_de_lavagem_se_sele%C3%A7%C3%A3o_de_laranjas.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Deivid_21&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Deivid 21 (page does not exist)\">Deivid 21</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop"
+    },
+    {
+      "candidate_id": "commons:92547521",
+      "blind_id": "9bfe113779f7",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/originals/9bfe113779f7.jpg",
+      "original_sha256": "fae825fc68311f962cd363f512242be3eedc7fcd8a0ad9b0e96c9e61bac820f8",
+      "original_sha1": "b05238cf0169f594a57d8f96f38f679335a13931",
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/processed/9bfe113779f7.jpg",
+      "processed_sha256": "53da3bbd6c653fd39ff5ee44ed85c034a114502fe368ab9ffd74e312c1b27b9d",
+      "crop_sha256": "d2642f4f94a9793435757ad46e4bd46916cd2915c3cf221efd7b89444a68d38d",
+      "hashes": {
+        "phash": "f24d39e3926d1998",
+        "dhash": "00000044041c1819"
+      },
+      "preprocess_matches_legacy": true,
+      "bytes": 1464588,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Caos_-_Flickr_-_Giuseppe_Milo_(www.pixael.com).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/87690240@N03\">Giuseppe Milo</a> from Dublin, Ireland",
+      "credit_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/giuseppemilo/12087604836/\">Caos</a>",
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop"
+    },
+    {
+      "candidate_id": "commons:166279779",
+      "blind_id": "a205a4056898",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/originals/a205a4056898.jpg",
+      "original_sha256": "d5cd25c890deefa9f56873f75393313719bc95bdbfc3b9d9795a5d737a44c0cc",
+      "original_sha1": "bd3df7790dae85c7520c480534132d211f0a4035",
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/processed/a205a4056898.jpg",
+      "processed_sha256": "2d3d9f0efb2e5bd5e532937c9184686a1e8f826a917f1352042e5c62c7ca7474",
+      "crop_sha256": "b9b407bd142ddb1ab14e2ee2f155aaa317a1884397f58f25d2d0d2bf81032fd7",
+      "hashes": {
+        "phash": "988767988b53a97a",
+        "dhash": "e3a4127939b2142b"
+      },
+      "preprocess_matches_legacy": true,
+      "bytes": 1076760,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fallobst_M%C3%B6rlenbach_Naturschutzgebiet_In_der_Erbach_WDPA_318598.jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:IgorCalzone1\" title=\"User:IgorCalzone1\">IgorCalzone1</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop"
+    },
+    {
+      "candidate_id": "commons:17474722",
+      "blind_id": "65a93aa20c0a",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/originals/65a93aa20c0a.jpg",
+      "original_sha256": "869eeaee01d98b6d3646964f23a68ff3418197796bb6ff93c836d4adc46bc8e0",
+      "original_sha1": "3753f7bf283475dbdb18b8d54b66da2458b96bf9",
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/processed/65a93aa20c0a.jpg",
+      "processed_sha256": "1e217026469a380a4465b539520cbc2a423e1b472f4d286ef78c7a44bc366c3c",
+      "crop_sha256": "12588673ff741d5fb43025533c46d2ece986c2814a9a108812ae89ae8e103ace",
+      "hashes": {
+        "phash": "b2a694dd6319a699",
+        "dhash": "cdcdcdd951141054"
+      },
+      "preprocess_matches_legacy": true,
+      "bytes": 202528,
+      "source_page": "https://commons.wikimedia.org/wiki/File:What%27s_normal_in_Benghazi_-_Flickr_-_Al_Jazeera_English.jpg",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "artist_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/32834977@N03\">Al Jazeera English</a>",
+      "credit_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/aljazeeraenglish/5630688232/\">What's normal in Benghazi?</a>",
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop"
+    },
+    {
+      "candidate_id": "commons:178690440",
+      "blind_id": "035ac30c9fa6",
+      "status": "downloaded",
+      "error": "HTTPError: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/originals/035ac30c9fa6.jpg",
+      "original_sha256": "b0fa499e92ceeb1fd06bea70dbfcd20e14e33447fe3f6e51738218256850a282",
+      "original_sha1": "08062edd9ccb4b4014295e65a0bf9a857cfd1cb3",
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/processed/035ac30c9fa6.jpg",
+      "processed_sha256": "4964806a035c0d707e790f2ff62a9cd3e5d0a3a7e90a36fa0c388e7d77f68c31",
+      "crop_sha256": "20efb9b1adcdc9abe1e7eba4f276dcc4521d5a7ae5405340ac3ad7972da849ef",
+      "hashes": {
+        "phash": "a66ec5e41f790e06",
+        "dhash": "6dade539cc8f8afc"
+      },
+      "preprocess_matches_legacy": true,
+      "bytes": 1808543,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Vegan_burger_and_fried_sweet_potato._Kyiv,_Ukraine._2025.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Anna_Korcheva\" title=\"User:Anna Korcheva\">Anna Korcheva</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop"
+    },
+    {
+      "candidate_id": "commons:71381786",
+      "blind_id": "e267db35a9c5",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/originals/e267db35a9c5.jpg",
+      "original_sha256": "12eaa69a83993cd7c3a54213c7ee1b32e6413ac3323ba6e2615c3d5bf2e00df8",
+      "original_sha1": "3bc6053942b7b1aa154d1d48f5ae1ca8a5ef7be1",
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/processed/e267db35a9c5.jpg",
+      "processed_sha256": "f2824b31d59601d786d171b57170bdd4ae8fbb95e0eb1b08d979065fa86c9f9c",
+      "crop_sha256": "68b291cdcc38a5fba301408c330c95a520806e7e76d7255f488b4b576db74389",
+      "hashes": {
+        "phash": "d2c46b323cca927d",
+        "dhash": "ece0e0f4fcf8f9d8"
+      },
+      "preprocess_matches_legacy": true,
+      "bytes": 4372883,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Waterfall_(2914716743).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/72139255@N00\">veggiefrog</a> from Toronto, Canada",
+      "credit_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/veggiefrog/2914716743/\">Waterfall</a>",
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop"
+    },
+    {
+      "candidate_id": "commons:44409528",
+      "blind_id": "81487bb81e0a",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/originals/81487bb81e0a.jpg",
+      "original_sha256": "09d0b2c1beeb77117958f9e5d2ce416f5fe2e977c7b8d595f39a4824b46dacce",
+      "original_sha1": "8e2180f2d1f7a1ddfc07c2d17d81cfc57eba846f",
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/processed/81487bb81e0a.jpg",
+      "processed_sha256": "87a9bf02efdbaa758035ccb9e4f0178a6692cea31637d446d3929c7e83abd2a4",
+      "crop_sha256": "bbb80e53730ff185f448c0056f48ede09012df5d5d3843bec5fffdc3d8468a40",
+      "hashes": {
+        "phash": "f1f5eed08068ca0f",
+        "dhash": "020e0a8a9a8a03cf"
+      },
+      "preprocess_matches_legacy": true,
+      "bytes": 2599873,
+      "source_page": "https://commons.wikimedia.org/wiki/File:NARANJAS_DE_PALMA_DEL_RIO.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Villario1951&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Villario1951 (page does not exist)\">Villario1951</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop"
+    },
+    {
+      "candidate_id": "commons:20225514",
+      "blind_id": "7d2000906c2e",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/originals/7d2000906c2e.jpg",
+      "original_sha256": "ce8a61ea0238b259e8d2e60a5f7774c91f67c295630e2d0a6644fa40f7a21ce7",
+      "original_sha1": "3a15a3fddfa7aeb12bafedce566af5f9254d3dcf",
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/processed/7d2000906c2e.jpg",
+      "processed_sha256": "17fbf68ac5f235c483d3721cac281e152825578dbe2c6774cca86191b17c28a8",
+      "crop_sha256": "1683a9945548a6d9bd1c679c7a87f41288198d56f4a8c2674187df0709cd3c00",
+      "hashes": {
+        "phash": "ac98c3678f387839",
+        "dhash": "608e972b2f070f0f"
+      },
+      "preprocess_matches_legacy": true,
+      "bytes": 263385,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Da%C3%B1otrip.JPG",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:HeberM&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:HeberM (page does not exist)\">HeberM</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop"
+    },
+    {
+      "candidate_id": "commons:84931667",
+      "blind_id": "0ff272ea63a8",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/originals/0ff272ea63a8.jpg",
+      "original_sha256": "d99dbdab2d80bc89fd45363e975bf7535fe9d1a44aa89a924c0aedd02aebc64e",
+      "original_sha1": "9694e0c3631fadd4df21c7d9362db190b7f131bf",
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/processed/0ff272ea63a8.jpg",
+      "processed_sha256": "16eb3d640d7f747f18d15963ec918eda941f7e494acd3303d760118683be9144",
+      "crop_sha256": "8c725efdc5f6d38dafb51645326e039611fd864b2e22fc663aace8ccfbb6ce41",
+      "hashes": {
+        "phash": "8d8b17a789ad11b9",
+        "dhash": "766db173f3e47630"
+      },
+      "preprocess_matches_legacy": true,
+      "bytes": 128310,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Estrazione_DNA.jpg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mariano_Avagliano&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mariano Avagliano (page does not exist)\">Mariano Avagliano</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop"
+    },
+    {
+      "candidate_id": "commons:61453248",
+      "blind_id": "54c81b71c5ad",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/originals/54c81b71c5ad.jpg",
+      "original_sha256": "5d235d4191d119eedaa86b8c0c6d80f1595f311bc53a7959fbc3a0e578fe00db",
+      "original_sha1": "d74ea889383ec591a6e0191a309fe2cbe7697b10",
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/processed/54c81b71c5ad.jpg",
+      "processed_sha256": "4c3608fc88cd296f39fde2e53bed1b180b0b8ca3fe67c6e9e006139cc6cc0e1f",
+      "crop_sha256": "ac90aedc49e226d4bb6263a2d5dc9e99ba38f4d17973844e29033152e96fed7a",
+      "hashes": {
+        "phash": "de27780370ca7ccc",
+        "dhash": "c92626e4c96d6131"
+      },
+      "preprocess_matches_legacy": true,
+      "bytes": 3700096,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Glass_Half_Full,_M%26M_Twice_as_Big_(3217129236).jpg",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "artist_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/53326337@N00\">Quinn Dombrowski</a> from Berkeley, USA",
+      "credit_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/quinnanya/3217129236/\">Glass Half Full, M&amp;M Twice as Big</a>",
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop"
+    },
+    {
+      "candidate_id": "commons:140997629",
+      "blind_id": "0c5464d54275",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/originals/0c5464d54275.jpg",
+      "original_sha256": "28b9c0897ceecc05c3710a5ba3a4724688a422db5efe27793d0277e95235ef35",
+      "original_sha1": "b608ecdb1a11c8f2b5c77ae61faa8f785025b8e1",
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/processed/0c5464d54275.jpg",
+      "processed_sha256": "3abd29b1265ad803bca5ec5a1b9ceace06d6454a35dd11101d91c3947bfcac04",
+      "crop_sha256": "77b1ca06dcf765c9092c0a5575f43628d0033d5fab7c2c403fc52c25607c994f",
+      "hashes": {
+        "phash": "f086e67959ba9898",
+        "dhash": "c7e6e41999999526"
+      },
+      "preprocess_matches_legacy": true,
+      "bytes": 60945,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Panda_water_bottle.jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Arun_D_cruze&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Arun D cruze (page does not exist)\">Arun D cruze</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop"
+    },
+    {
+      "candidate_id": "commons:47983726",
+      "blind_id": "503c231e059b",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/originals/503c231e059b.jpg",
+      "original_sha256": "bb528ad7809dd3fc5d12b5d9b502bf8c1076b8f285672e9994496ae558025998",
+      "original_sha1": "eb6a5c32fbc12572e2989343c25e44cb1a1cadfd",
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/processed/503c231e059b.jpg",
+      "processed_sha256": "7f2ce58b8259fd3023ae97bca5a253388112c3b29cefd34ccb38db46a3cb7ea1",
+      "crop_sha256": "123cc9b86a3eb4c9809ec636adfebf00a21dd1e5d639c0e4283109a5310c8f57",
+      "hashes": {
+        "phash": "9c08f4c6bf6463cc",
+        "dhash": "b4f0d2f070f8b038"
+      },
+      "preprocess_matches_legacy": true,
+      "bytes": 6411836,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kiwanis_Trail_Adrian_Michigan.JPG",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Threeowls&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Threeowls (page does not exist)\">Threeowls</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop"
+    },
+    {
+      "candidate_id": "commons:64369285",
+      "blind_id": "946a3b801316",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/originals/946a3b801316.jpg",
+      "original_sha256": "a00b3567989e991fd6e3735cda8d47d8c202c69388186c119d9a56e070234bfa",
+      "original_sha1": "bf6739a88f8995d37dc5e98390cd38151a2e0c8f",
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/processed/946a3b801316.jpg",
+      "processed_sha256": "66bb8001dfc1b23301919f1cc10a4d1492a6695f48e9863ee18cb6ec76f5aebe",
+      "crop_sha256": "1eb38b3f8c7c3dbeda9c43d6cfd9ac9dd557eb6f7d86721de4f8067e878162c0",
+      "hashes": {
+        "phash": "cac42d85abb56c59",
+        "dhash": "f0f5e0e989e17979"
+      },
+      "preprocess_matches_legacy": true,
+      "bytes": 87091,
+      "source_page": "https://commons.wikimedia.org/wiki/File:VINABE_(3).jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:VINABE&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:VINABE (page does not exist)\">VINABE</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop"
+    },
+    {
+      "candidate_id": "commons:31859390",
+      "blind_id": "3f03e83ee644",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/originals/3f03e83ee644.jpg",
+      "original_sha256": "8ebd3ee74e3f470f36a2277722aed94897f1e84f6e70c92eea3d84b94673b6fe",
+      "original_sha1": "39c1a537fc70c62988fafb6ad6167cf56a535882",
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/processed/3f03e83ee644.jpg",
+      "processed_sha256": "b64032345b4e024727df3eb0c089d1a220b3265f3e687afbcfb57f9ab365fd37",
+      "crop_sha256": "fc5c82e47df2b2604f60a05741c46554232ca29b74a8df1df2ee917d82551a16",
+      "hashes": {
+        "phash": "a3a3d7455a9c61d2",
+        "dhash": "4ecfcf37dbd6fcd8"
+      },
+      "preprocess_matches_legacy": true,
+      "bytes": 2830674,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bananas_and_other_fruit_at_Kikaijima_-_Takeshi_DSC_0367_(3795282735).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/40802894@N02\">Takeshi Kuboki</a> from Amagasaki, Japan",
+      "credit_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/kuboki/3795282735/\">DSC_0367</a>",
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop"
+    },
+    {
+      "candidate_id": "commons:105203889",
+      "blind_id": "8eb97f4d4722",
+      "status": "downloaded",
+      "error": "HTTPError: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/originals/8eb97f4d4722.jpg",
+      "original_sha256": "9439c8b12808ab9861a6bc7a310c0bc28e14c174414eeac955150866daebde4c",
+      "original_sha1": "0d3bc496825281ec105b94575199eaede614eec2",
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/processed/8eb97f4d4722.jpg",
+      "processed_sha256": "3acd9aa1f48c8682647e6f47c5083f3e2edfbf472843c3920a05ce2886bf320c",
+      "crop_sha256": "6b887a85624df113aea16ff25137366f0cf019f5ba637a34003a40c82a054769",
+      "hashes": {
+        "phash": "91b566c372c66725",
+        "dhash": "8c3ade9998d9f0a6"
+      },
+      "preprocess_matches_legacy": true,
+      "bytes": 3847619,
+      "source_page": "https://commons.wikimedia.org/wiki/File:C150517_(34762372576).jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/46322086@N04\">Jusotil_1943</a>",
+      "credit_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/46322086@N04/34762372576/\">C150517</a>",
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop"
+    },
+    {
+      "candidate_id": "commons:118158779",
+      "blind_id": "b2c10f3d16f0",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/originals/b2c10f3d16f0.jpg",
+      "original_sha256": "c3b5e4577a02f60730113a5e9c60f9e7d179c933eabec3d254a25cf4e4a415e8",
+      "original_sha1": "91c9d490b170913160e5312ba7ae839389780396",
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/processed/b2c10f3d16f0.jpg",
+      "processed_sha256": "08ab2065d71ca66ab04ac3204f654de41901a806c728334b6f5535dc968bbb1f",
+      "crop_sha256": "aa689714c4ebed2062f4c06d07687a02dcfeb2c43626f051dc455322319c2f94",
+      "hashes": {
+        "phash": "a0d4acea58396d9d",
+        "dhash": "e5ccd694994f4be7"
+      },
+      "preprocess_matches_legacy": true,
+      "bytes": 329215,
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%92%D0%BE%D1%80%D0%BE%D0%BD%D0%B5%D0%B6%D1%81%D0%BA%D0%B8%D0%B9_%D0%91%D0%BE%D1%82%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%A1%D0%B0%D0%B4,_%D0%91%D0%B0%D0%BD%D0%B0%D0%BD_%D0%94%D0%B5%D0%BA%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9_%D0%9F%D0%B8%D0%B3%D0%BC%D0%B5%D0%B9.jpg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Tulkar&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Tulkar (page does not exist)\">Tulkar</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop"
+    },
+    {
+      "candidate_id": "commons:23529820",
+      "blind_id": "e7ee8f5285ef",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/originals/e7ee8f5285ef.jpg",
+      "original_sha256": "e7535ab03d2b77cd57368551149abf2835626117eb9dbc16d98d18c3cce996e8",
+      "original_sha1": "17884fe8794ffa66d29a46a15a151bf70eeb9ade",
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/processed/e7ee8f5285ef.jpg",
+      "processed_sha256": "96ccc00694963f305a93e0a7639fa338699418fea48fe8de16739be6b5f0770c",
+      "crop_sha256": "753852e97066b7d51724de1798a9c84646c704df76eb80ec930674b8f063f063",
+      "hashes": {
+        "phash": "e5ed3216f21d9886",
+        "dhash": "8fc3c2c2c2d6d6cc"
+      },
+      "preprocess_matches_legacy": true,
+      "bytes": 607419,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Glasflasche.JPG",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Buchstapler\" title=\"User:Buchstapler\">Buchstapler</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop"
+    },
+    {
+      "candidate_id": "commons:95888996",
+      "blind_id": "7f1c6e28f303",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/originals/7f1c6e28f303.png",
+      "original_sha256": "64c2cb81c1bc27d5ddcb7511b7b17015effafbd0fdce9e4b62592688576ed927",
+      "original_sha1": "45700aeba486c56c4deea4658a9c95a03b3a3993",
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/processed/7f1c6e28f303.jpg",
+      "processed_sha256": "e31643f6e673496b502e2111ef084c13d3ea82b3e2bdd9338110f9d367fcd94f",
+      "crop_sha256": "cc18aac75a73091ed3559b3ca55e2990e41123664dd58e88101e15005950df62",
+      "hashes": {
+        "phash": "cc3333cbcccccc31",
+        "dhash": "0010b4b0b2b2b2b2"
+      },
+      "preprocess_matches_legacy": true,
+      "bytes": 69266,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Water_bottle_without_wrapper.png",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:ILoveCocomelon\" title=\"User:ILoveCocomelon\">ILoveCocomelon</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop"
+    }
+  ],
+  "confirmation_pixels_compared": false
+}

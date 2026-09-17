@@ -1,0 +1,10 @@
+{
+  "at": "2026-09-16T03:16:23.599522+00:00",
+  "plan_sha256": "9cf2995a75acb9cd5d69d36897019299bb9123095b684922345b3ae41ddc9f41",
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_role_decoder_study/audit_execution.py": "18fd928d1dbccb328db80c41e2ef899b6e8db137673d4f1118b075dec0f50a91",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_role_decoder_study/audit_preflight_001.json": "2f26837b9145000478fb8e975871902c175cd9d2d0de278436044b68002b70bc",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_role_decoder_study/tests/test_audit.py": "63a6c2797eea90426814d61251a3aea1c239edb41342e00f24a484691c47d8e7"
+  },
+  "status": "frozen_before_formal_audit"
+}

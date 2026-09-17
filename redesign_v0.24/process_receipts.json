@@ -1,0 +1,41 @@
+{
+  "processes": [
+    {
+      "name": "development_training",
+      "session_id": 95496,
+      "exit_code": 0,
+      "collected_by": "root",
+      "log": "smoke_001.log"
+    },
+    {
+      "name": "development_independent_analysis",
+      "session_id": 11043,
+      "exit_code": 0,
+      "collected_by": "mechanism_design",
+      "source_sha256": "254a131fb6e27b478165b144eba455206c40b51f4e6a6cd23b813fd598b22954"
+    },
+    {
+      "name": "formal_training",
+      "session_id": 33668,
+      "exit_code": 0,
+      "collected_by": "root",
+      "log": "attention_001.log"
+    },
+    {
+      "name": "formal_independent_analysis",
+      "session_id": 65320,
+      "exit_code": 0,
+      "collected_by": "mechanism_design"
+    },
+    {
+      "name": "formal_structure_analysis_and_bounded_audit",
+      "exit_code": 0,
+      "collected_by": "literature_update"
+    },
+    {
+      "name": "scientific_figures",
+      "exit_code": 0,
+      "collected_by": "root"
+    }
+  ]
+}

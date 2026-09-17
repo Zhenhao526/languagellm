@@ -1,0 +1,13 @@
+{
+  "attempts": [
+    {
+      "status": "failed_before_run",
+      "cause": "preflight helper invoked system python3 without NumPy; formal runner then stopped because gate file was absent",
+      "formal_output_created": false,
+      "source_changed": false
+    },
+    {
+      "correction": "Use existing training virtualenv for helper; same fixed source and matrix"
+    }
+  ]
+}

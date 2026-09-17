@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "fixed_need_examples": [
+    [
+      0,
+      1,
+      6
+    ],
+    [
+      2,
+      3,
+      14
+    ],
+    [
+      12,
+      13,
+      18
+    ],
+    [
+      14,
+      17,
+      21
+    ]
+  ],
+  "complete_joint_action_checks": 19652,
+  "neural_forward_calls": 0,
+  "training_updates": 0,
+  "elapsed_seconds": 0.08144998550415039,
+  "script_sha256": "7e7ac8c3cc6e973916fee7a36406812e6c40d642cc1ff80414980ee6e9b537b9"
+}

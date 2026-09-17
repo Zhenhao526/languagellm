@@ -1,0 +1,13 @@
+{
+  "session_id": 97038,
+  "terminal_exit_code": 0,
+  "terminal_collected_by": "root",
+  "recorded_utc": "2026-09-16T05:08:34.529899+00:00",
+  "final_stdout": {
+    "status": "acquisition_finished_visual_review_pending",
+    "downloaded": 4,
+    "ordinary": 4,
+    "near_duplicate_flags": 0
+  },
+  "completion_sha256": "8b63a75009cc0f1a2f1a036e767679ccc0ccd00200220c7fd97de7ccfab576c3"
+}

@@ -1,0 +1,292 @@
+{
+  "status": "completed_static_only",
+  "created_at_utc": "2026-09-15T16:54:46.774103+00:00",
+  "sources_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_ecology_study/next_semantic_static_001/enumerate_pairs.py": "24cd4afc5b9a8b55bbe74385d2bc77a784befc51b95bb6c0f6a98e28860430bb",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/environment.py": "b2d49ab829edc92e77df527f5b470602c289cdf3ad7728d5e71f411c53582ef6",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_ecology_study/design_audit_002/prepared_inspected.json": "727df28b2e7f4b1fd58f092ae452bb85e55485b84bc51a9e16149ace562a7fe4",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_ecology_study/design_audit_002/verification.json": "2ede9370963f1b18feda3d88bcbe43f04ba1d5456b6288cc7b35d1203e446cb7",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_ecology_study/design_static_001/weighted_semantic_support.json": "349c4798bf372a50ed06c182ea11864d3e969fff3f0f2ac39ac37fdb0842e1ea",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_ecology_study/design.py": "b4062590cce29342d44d70f22d0198a57233878656b415a19bbdf40bb9b87a25"
+  },
+  "support_need_counts": {
+    "unique": 324,
+    "multiple": 996
+  },
+  "legal_unordered_demand_pairs": 2244,
+  "candidate_listener_cases": 4488,
+  "excluded_directed_candidates": 1728,
+  "excluded_by_ecology_axis_reason": {
+    "('multiple', 'destination_L_R', 'target_D_not_in_common_21')": 312,
+    "('multiple', 'destination_L_R', 'target_not_in_same_ecology')": 192,
+    "('multiple', 'kind_wood_fiber', 'target_not_in_same_ecology')": 222,
+    "('multiple', 'length_short_long', 'target_not_in_same_ecology')": 222,
+    "('unique', 'destination_L_R', 'target_D_not_in_common_21')": 72,
+    "('unique', 'destination_L_R', 'target_not_in_same_ecology')": 240,
+    "('unique', 'kind_wood_fiber', 'target_not_in_same_ecology')": 234,
+    "('unique', 'length_short_long', 'target_not_in_same_ecology')": 234
+  },
+  "destination_L_or_R_not_applicable_sender_observations": {
+    "unique": 396,
+    "multiple": 1308
+  },
+  "canonical_counts": {
+    "unique:kind_wood_fiber": {
+      "legal_unordered_demand_pairs": 126,
+      "legal_pair_listener_cases": 252,
+      "demand_pairs_with_at_least_one_disjoint_listener": 126,
+      "disjoint_listener_cases": 228,
+      "unique_edge_changed_demand_pairs": 102,
+      "unique_participation_wait_switch_listener_cases": 204,
+      "disjoint_without_participation_wait_switch": 24,
+      "disjoint_by_listener": {
+        "A": 76,
+        "B": 76,
+        "C": 76
+      },
+      "disjoint_by_changed_person": {
+        "A": 76,
+        "B": 76,
+        "C": 76
+      }
+    },
+    "unique:length_short_long": {
+      "legal_unordered_demand_pairs": 126,
+      "legal_pair_listener_cases": 252,
+      "demand_pairs_with_at_least_one_disjoint_listener": 126,
+      "disjoint_listener_cases": 228,
+      "unique_edge_changed_demand_pairs": 102,
+      "unique_participation_wait_switch_listener_cases": 204,
+      "disjoint_without_participation_wait_switch": 24,
+      "disjoint_by_listener": {
+        "A": 76,
+        "B": 76,
+        "C": 76
+      },
+      "disjoint_by_changed_person": {
+        "A": 76,
+        "B": 76,
+        "C": 76
+      }
+    },
+    "unique:destination_L_R": {
+      "legal_unordered_demand_pairs": 132,
+      "legal_pair_listener_cases": 264,
+      "demand_pairs_with_at_least_one_disjoint_listener": 72,
+      "disjoint_listener_cases": 72,
+      "unique_edge_changed_demand_pairs": 0,
+      "unique_participation_wait_switch_listener_cases": 0,
+      "disjoint_without_participation_wait_switch": 72,
+      "disjoint_by_listener": {
+        "A": 24,
+        "B": 24,
+        "C": 24
+      },
+      "disjoint_by_changed_person": {
+        "A": 24,
+        "B": 24,
+        "C": 24
+      }
+    },
+    "multiple:kind_wood_fiber": {
+      "legal_unordered_demand_pairs": 636,
+      "legal_pair_listener_cases": 1272,
+      "demand_pairs_with_at_least_one_disjoint_listener": 0,
+      "disjoint_listener_cases": 0,
+      "unique_edge_changed_demand_pairs": 0,
+      "unique_participation_wait_switch_listener_cases": 0,
+      "disjoint_without_participation_wait_switch": 0,
+      "disjoint_by_listener": {
+        "A": 0,
+        "B": 0,
+        "C": 0
+      },
+      "disjoint_by_changed_person": {
+        "A": 0,
+        "B": 0,
+        "C": 0
+      }
+    },
+    "multiple:length_short_long": {
+      "legal_unordered_demand_pairs": 636,
+      "legal_pair_listener_cases": 1272,
+      "demand_pairs_with_at_least_one_disjoint_listener": 0,
+      "disjoint_listener_cases": 0,
+      "unique_edge_changed_demand_pairs": 0,
+      "unique_participation_wait_switch_listener_cases": 0,
+      "disjoint_without_participation_wait_switch": 0,
+      "disjoint_by_listener": {
+        "A": 0,
+        "B": 0,
+        "C": 0
+      },
+      "disjoint_by_changed_person": {
+        "A": 0,
+        "B": 0,
+        "C": 0
+      }
+    },
+    "multiple:destination_L_R": {
+      "legal_unordered_demand_pairs": 588,
+      "legal_pair_listener_cases": 1176,
+      "demand_pairs_with_at_least_one_disjoint_listener": 0,
+      "disjoint_listener_cases": 0,
+      "unique_edge_changed_demand_pairs": 0,
+      "unique_participation_wait_switch_listener_cases": 0,
+      "disjoint_without_participation_wait_switch": 0,
+      "disjoint_by_listener": {
+        "A": 0,
+        "B": 0,
+        "C": 0
+      },
+      "disjoint_by_changed_person": {
+        "A": 0,
+        "B": 0,
+        "C": 0
+      }
+    }
+  },
+  "world_expansion_multiplier": 144,
+  "world_pair_counts": {
+    "unique:kind_wood_fiber": {
+      "legal_unordered_demand_pairs": 18144,
+      "legal_pair_listener_cases": 36288,
+      "demand_pairs_with_at_least_one_disjoint_listener": 18144,
+      "disjoint_listener_cases": 32832,
+      "unique_edge_changed_demand_pairs": 14688,
+      "unique_participation_wait_switch_listener_cases": 29376,
+      "disjoint_without_participation_wait_switch": 3456,
+      "disjoint_by_listener": {
+        "A": 10944,
+        "B": 10944,
+        "C": 10944
+      },
+      "disjoint_by_changed_person": {
+        "A": 10944,
+        "B": 10944,
+        "C": 10944
+      }
+    },
+    "unique:length_short_long": {
+      "legal_unordered_demand_pairs": 18144,
+      "legal_pair_listener_cases": 36288,
+      "demand_pairs_with_at_least_one_disjoint_listener": 18144,
+      "disjoint_listener_cases": 32832,
+      "unique_edge_changed_demand_pairs": 14688,
+      "unique_participation_wait_switch_listener_cases": 29376,
+      "disjoint_without_participation_wait_switch": 3456,
+      "disjoint_by_listener": {
+        "A": 10944,
+        "B": 10944,
+        "C": 10944
+      },
+      "disjoint_by_changed_person": {
+        "A": 10944,
+        "B": 10944,
+        "C": 10944
+      }
+    },
+    "unique:destination_L_R": {
+      "legal_unordered_demand_pairs": 19008,
+      "legal_pair_listener_cases": 38016,
+      "demand_pairs_with_at_least_one_disjoint_listener": 10368,
+      "disjoint_listener_cases": 10368,
+      "unique_edge_changed_demand_pairs": 0,
+      "unique_participation_wait_switch_listener_cases": 0,
+      "disjoint_without_participation_wait_switch": 10368,
+      "disjoint_by_listener": {
+        "A": 3456,
+        "B": 3456,
+        "C": 3456
+      },
+      "disjoint_by_changed_person": {
+        "A": 3456,
+        "B": 3456,
+        "C": 3456
+      }
+    },
+    "multiple:kind_wood_fiber": {
+      "legal_unordered_demand_pairs": 91584,
+      "legal_pair_listener_cases": 183168,
+      "demand_pairs_with_at_least_one_disjoint_listener": 0,
+      "disjoint_listener_cases": 0,
+      "unique_edge_changed_demand_pairs": 0,
+      "unique_participation_wait_switch_listener_cases": 0,
+      "disjoint_without_participation_wait_switch": 0,
+      "disjoint_by_listener": {
+        "A": 0,
+        "B": 0,
+        "C": 0
+      },
+      "disjoint_by_changed_person": {
+        "A": 0,
+        "B": 0,
+        "C": 0
+      }
+    },
+    "multiple:length_short_long": {
+      "legal_unordered_demand_pairs": 91584,
+      "legal_pair_listener_cases": 183168,
+      "demand_pairs_with_at_least_one_disjoint_listener": 0,
+      "disjoint_listener_cases": 0,
+      "unique_edge_changed_demand_pairs": 0,
+      "unique_participation_wait_switch_listener_cases": 0,
+      "disjoint_without_participation_wait_switch": 0,
+      "disjoint_by_listener": {
+        "A": 0,
+        "B": 0,
+        "C": 0
+      },
+      "disjoint_by_changed_person": {
+        "A": 0,
+        "B": 0,
+        "C": 0
+      }
+    },
+    "multiple:destination_L_R": {
+      "legal_unordered_demand_pairs": 84672,
+      "legal_pair_listener_cases": 169344,
+      "demand_pairs_with_at_least_one_disjoint_listener": 0,
+      "disjoint_listener_cases": 0,
+      "unique_edge_changed_demand_pairs": 0,
+      "unique_participation_wait_switch_listener_cases": 0,
+      "disjoint_without_participation_wait_switch": 0,
+      "disjoint_by_listener": {
+        "A": 0,
+        "B": 0,
+        "C": 0
+      },
+      "disjoint_by_changed_person": {
+        "A": 0,
+        "B": 0,
+        "C": 0
+      }
+    }
+  },
+  "partition_multipliers": {
+    "train": 108,
+    "heldout_layouts": 36
+  },
+  "checks": {
+    "native_canonical_settlements": 31680,
+    "all_24_physical_plans_per_need": true,
+    "canonical_listener_observation_equal_checks": 4488,
+    "layout_action_bijection_checks": 107712,
+    "owner_count": 6,
+    "owner_invariance": "Physical success ignores owner; listener own need and full layout/owner remain fixed.",
+    "multiple_disjoint_listener_count_is_zero": true
+  },
+  "pair_weighting": "No intervention weighting chosen; both endpoints original target weights retained. Uniform pair counts are not claimed to follow the original state distribution.",
+  "unit": "Unordered legal demand pair; listener cases separate; all24 layouts and6 owners expansion. Reverse-directed probes are not executed.",
+  "model_forward_calls": 0,
+  "training_updates": 0,
+  "solver_calls": 0,
+  "trained_actions_read": false,
+  "outputs_sha256": {
+    "demand_pairs.json": "9eceae7b931f46b4da70fc0c0a1546e373d574e2ff1a537a73d58e20952e9e80",
+    "excluded_directed_candidates.json": "baab91e8355acc4db9e9e5263be7a5990cca2d3113d240aa7767bd05bdda6ee0",
+    "layout_owner_counts.json": "345bfaaccb026e31569e2024f0d2778f27a6aaa24b5d5836038c2b1042e4c9c4",
+    "lexicographic_examples.json": "486fc4db28f09ce57537b942d72f5ec279b355c06f2f5df1f2f111b4d6e90294",
+    "structural_plans_and_action_index.json": "20cf7ca1a175ad897ccfe0a3cddf0733efe5fdbd9be9cd8c6a62d4f551d90554"
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "role_indices": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  ],
+  "role_labels": [
+    [
+      "wait",
+      "B",
+      "C"
+    ],
+    [
+      "wait",
+      "A",
+      "C"
+    ],
+    [
+      "wait",
+      "A",
+      "B"
+    ]
+  ],
+  "maps": {
+    "A": [
+      {
+        "need_id": 0,
+        "resource_requirement": "wood",
+        "destination_requirement": "L",
+        "role": "wait"
+      },
+      {
+        "need_id": 1,
+        "resource_requirement": "wood",
+        "destination_requirement": "R",
+        "role": "wait"
+      },
+      {
+        "need_id": 2,
+        "resource_requirement": "wood",
+        "destination_requirement": "L_or_R",
+        "role": "wait"
+      },
+      {
+        "need_id": 3,
+        "resource_requirement": "fiber",
+        "destination_requirement": "L",
+        "role": "wait"
+      },
+      {
+        "need_id": 4,
+        "resource_requirement": "fiber",
+        "destination_requirement": "R",
+        "role": "wait"
+      },
+      {
+        "need_id": 5,
+        "resource_requirement": "fiber",
+        "destination_requirement": "L_or_R",
+        "role": "wait"
+      },
+      {
+        "need_id": 6,
+        "resource_requirement": "short",
+        "destination_requirement": "L",
+        "role": "wait"
+      },
+      {
+        "need_id": 7,
+        "resource_requirement": "short",
+        "destination_requirement": "R",
+        "role": "wait"
+      },
+      {
+        "need_id": 8,
+        "resource_requirement": "short",
+        "destination_requirement": "L_or_R",
+        "role": "wait"
+      },
+      {
+        "need_id": 9,
+        "resource_requirement": "long",
+        "destination_requirement": "L",
+        "role": "wait"
+      },
+      {
+        "need_id": 10,
+        "resource_requirement": "long",
+        "destination_requirement": "R",
+        "role": "wait"
+      },
+      {
+        "need_id": 11,
+        "resource_requirement": "long",
+        "destination_requirement": "L_or_R",
+        "role": "wait"
+      }
+    ],
+    "B": [
+      {
+        "need_id": 0,
+        "resource_requirement": "wood",
+        "destination_requirement": "L",
+        "role": "C"
+      },
+      {
+        "need_id": 1,
+        "resource_requirement": "wood",
+        "destination_requirement": "R",
+        "role": "C"
+      },
+      {
+        "need_id": 2,
+        "resource_requirement": "wood",
+        "destination_requirement": "L_or_R",
+        "role": "C"
+      },
+      {
+        "need_id": 3,
+        "resource_requirement": "fiber",
+        "destination_requirement": "L",
+        "role": "C"
+      },
+      {
+        "need_id": 4,
+        "resource_requirement": "fiber",
+        "destination_requirement": "R",
+        "role": "C"
+      },
+      {
+        "need_id": 5,
+        "resource_requirement": "fiber",
+        "destination_requirement": "L_or_R",
+        "role": "C"
+      },
+      {
+        "need_id": 6,
+        "resource_requirement": "short",
+        "destination_requirement": "L",
+        "role": "C"
+      },
+      {
+        "need_id": 7,
+        "resource_requirement": "short",
+        "destination_requirement": "R",
+        "role": "C"
+      },
+      {
+        "need_id": 8,
+        "resource_requirement": "short",
+        "destination_requirement": "L_or_R",
+        "role": "C"
+      },
+      {
+        "need_id": 9,
+        "resource_requirement": "long",
+        "destination_requirement": "L",
+        "role": "C"
+      },
+      {
+        "need_id": 10,
+        "resource_requirement": "long",
+        "destination_requirement": "R",
+        "role": "C"
+      },
+      {
+        "need_id": 11,
+        "resource_requirement": "long",
+        "destination_requirement": "L_or_R",
+        "role": "C"
+      }
+    ],
+    "C": [
+      {
+        "need_id": 0,
+        "resource_requirement": "wood",
+        "destination_requirement": "L",
+        "role": "B"
+      },
+      {
+        "need_id": 1,
+        "resource_requirement": "wood",
+        "destination_requirement": "R",
+        "role": "B"
+      },
+      {
+        "need_id": 2,
+        "resource_requirement": "wood",
+        "destination_requirement": "L_or_R",
+        "role": "B"
+      },
+      {
+        "need_id": 3,
+        "resource_requirement": "fiber",
+        "destination_requirement": "L",
+        "role": "B"
+      },
+      {
+        "need_id": 4,
+        "resource_requirement": "fiber",
+        "destination_requirement": "R",
+        "role": "B"
+      },
+      {
+        "need_id": 5,
+        "resource_requirement": "fiber",
+        "destination_requirement": "L_or_R",
+        "role": "B"
+      },
+      {
+        "need_id": 6,
+        "resource_requirement": "short",
+        "destination_requirement": "L",
+        "role": "B"
+      },
+      {
+        "need_id": 7,
+        "resource_requirement": "short",
+        "destination_requirement": "R",
+        "role": "B"
+      },
+      {
+        "need_id": 8,
+        "resource_requirement": "short",
+        "destination_requirement": "L_or_R",
+        "role": "B"
+      },
+      {
+        "need_id": 9,
+        "resource_requirement": "long",
+        "destination_requirement": "L",
+        "role": "B"
+      },
+      {
+        "need_id": 10,
+        "resource_requirement": "long",
+        "destination_requirement": "R",
+        "role": "B"
+      },
+      {
+        "need_id": 11,
+        "resource_requirement": "long",
+        "destination_requirement": "L_or_R",
+        "role": "B"
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+[run]
+since_hours = 23731
+top_n = 3
+max_results_per_category = 2000
+exclude_previously_reported = false
+data_dir = "radar_data"
+report_dir = "radar_reports"
+timezone = "Asia/Shanghai"
+
+[openalex]
+mailto = ""
+cache_ttl_days = 30
+request_delay_seconds = 0.15
+
+[semantic_scholar]
+enabled = false
+api_key_env = "S2_API_KEY"
+request_delay_seconds = 1.0
+
+[summary]
+max_pdf_chars = 140000
+
+[[topics]]
+name = "contextual_emergent_communication"
+enabled = true
+categories = ["cs.MA", "cs.CL", "cs.AI", "cs.LG"]
+include_keywords = ["emergent communication", "emergent language", "language emergence", "communication emergence", "language evolution", "compositional communication"]
+exclude_keywords = []
+min_keyword_matches = 1

@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-09-15T18:17:16.875935+00:00",
+  "artifact_hashes": {
+    "README.md": "916c28dc0ab14329c3754ee6a7ed90b6ff2ee6bb5022a25172e1b1c094aafbeb",
+    "元数据可行性报告.md": "b5778665480cb8cd827f75aa5887fe353cb6c12cf6bcf5492e77ebce38d0034f",
+    "status.json": "d8c2ffda36c60160892ad0af5d0875e01cee965000ececd6e98dc4e5b3226e39",
+    "manifest.json": "96c7270a8346f3900e7decd16b5bddfb1366ef153eccd128128f657429e7a263",
+    "author_groups.json": "d5b4c42dadc765b6ffd7a1f49953c420cda3c99352a7363286c236b3b577266f",
+    "metadata_qa.json": "f69d9471e5f1dd318359f18a668bf6e6ee4757a5a2c970f3e28ec3d9fd4d618c",
+    "feasibility_summary.json": "136e02b3d067e977b4db3b8eb17d277c5eeee1319f3c7a31def838fdc05e2084",
+    "freeze.json": "eff41d18837ee97911e494b27c1168b3e1197e0a31f7d0dbdf3a6a7f87d2b457",
+    "analyze_metadata.py": "499a4a0bb77bb05f3a55428af9cb2db415e0455d6e46cbec0d303e80d7a8f019"
+  },
+  "pixel_stage_authorized_by_this_receipt": false
+}

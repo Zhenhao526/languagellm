@@ -1,0 +1,199 @@
+{
+  "status": "reproduced_different_domains_same_fixed8_nonintersection",
+  "created_utc": "2026-09-16T05:08:06.080666+00:00",
+  "input_hashes": {
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/input_snapshots/5e202b44dbb0_old_exclusion_registry.json": "5e202b44dbb0c27436cb08396889ff91727bed976041f4e9d4851f31c7b0ea57",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/input_snapshots/97fe2ffe5557_manifest.json": "97fe2ffe555738dd0259926019d56bf743e7b7adf71f518058adbdeffe259f8c",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/manifest.json": "96c7270a8346f3900e7decd16b5bddfb1366ef153eccd128128f657429e7a263",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/author_groups.json": "d5b4c42dadc765b6ffd7a1f49953c420cda3c99352a7363286c236b3b577266f",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/exclusion_registry.json": "2b58f8550f928f6edc167524882bb7a8e0b8281a786c4684bf19780cacbfafca",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/metadata_helpers.py": "3060dda932828fd49d9aa0c4db575f03edcf80363293599f83b57a9d696749f2",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/prepare_initial_source_review.py": "bdc15579911fca6ea06336b79fb07c2983cda6058961ebfa27c3d624a41c9c1a",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/prepare_final_source_review.py": "1a2f5a663219a1db3c6a8f59d363a7d1d89a86c3167e2ca90d34be88d95d2ef0",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/八项来源复核.json": "c2b392262c7cb2358ce9b978f69e06a414bed46b92eb71b3fd89eeb0964beb3a",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/八项来源复核.md": "6c4df9026407d35d02e763d3a58c4bd7d766888ac30fb41af68cae2255fbe300",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/source_001/技术核查.json": "6839cf142e2344fe1913cdb024787b979e2269eedcbf9346681c8d0d474344aa"
+  },
+  "purpose": "Explain, not replace, the two sealed closure counts.",
+  "technical1206": {
+    "parser": "v2 metadata_helpers.all_keys: recompute Artist author keys; preserve original_source_keys; no additional extraction of author account names from Credit links.",
+    "nodes": {
+      "v1_records": 800,
+      "v2_records": 300,
+      "v2_stored_cluster_edges": 234
+    },
+    "old101": "Already represented in old1180 seed; not re-expanded as raw metadata nodes.",
+    "before_new_aliases": 1206,
+    "after_new_aliases": 1206,
+    "alias_sets": [
+      [
+        "flickr-author:8068581@n02",
+        "flickr-author:dmatos",
+        "flickr-author:thrasherdave",
+        "flickr-photo:1081916080",
+        "text:dave matos",
+        "text:dmatos",
+        "text:thrasherdave"
+      ],
+      [
+        "commons-user:programmatically",
+        "commons-user:walkingradiance",
+        "text:programmatically",
+        "text:walkingradiance"
+      ]
+    ],
+    "implementation_provenance": "Mechanism agent confirmed inline read-only implementation; reproduced here with exact stated parser and node sets."
+  },
+  "source1255": {
+    "parser": "prepare_initial_source_review.keys: preserve original keys; additionally parse Commons User/Creator and Flickr account/work paths from both Artist and Credit links; credit account associations are conservative exclusion links, not verified photographer declarations.",
+    "nodes": {
+      "old101_raw_records": 101,
+      "v1_records": 800,
+      "v2_records": 300
+    },
+    "before_new_aliases": 1255,
+    "after_new_aliases": 1255,
+    "alias_sets": [
+      [
+        "flickr-author:8068581@n02",
+        "flickr-author:dmatos",
+        "flickr-photo:1081916080",
+        "text:dave matos",
+        "text:thrasherdave"
+      ],
+      [
+        "commons-user:programmatically",
+        "commons-user:walkingradiance",
+        "text:programmatically",
+        "text:walkingradiance"
+      ]
+    ]
+  },
+  "decomposition": {
+    "old_seed": 1180,
+    "standard_parser_with_old101_still": 1206,
+    "broader_parser_without_old101": 1254,
+    "broader_parser_with_old101": 1255,
+    "technical1206_is_subset_of_source1255": true,
+    "source_minus_technical_count": 49,
+    "source_minus_technical_keys": [
+      "commons-title:ukraine accountability conference the hague 2022 (52215803949).jpg",
+      "commons-user:elitre",
+      "commons-user:faep",
+      "commons-user:jay8g",
+      "commons-user:snowmanradio",
+      "commons-user:tm",
+      "flickr-author:25406965@n02",
+      "flickr-author:78392295@n06",
+      "flickr-author:adavey",
+      "flickr-author:alachuacounty",
+      "flickr-author:aljazeeraenglish",
+      "flickr-author:aucklandmuseum collections",
+      "flickr-author:cgpgrey",
+      "flickr-author:cogdog",
+      "flickr-author:conall",
+      "flickr-author:cyclonebill",
+      "flickr-author:dahlstroms",
+      "flickr-author:dainisgraveris",
+      "flickr-author:davidstanleytravel",
+      "flickr-author:denniswong",
+      "flickr-author:dfataustralianaid",
+      "flickr-author:drb62",
+      "flickr-author:giuseppemilo",
+      "flickr-author:guymoll",
+      "flickr-author:itupictures",
+      "flickr-author:kuboki",
+      "flickr-author:leandrociuffo",
+      "flickr-author:luckypines",
+      "flickr-author:michalo",
+      "flickr-author:ministeriebz",
+      "flickr-author:ndrwfgg",
+      "flickr-author:psyberartist",
+      "flickr-author:quinnanya",
+      "flickr-author:r-z",
+      "flickr-author:risager",
+      "flickr-author:rspeed",
+      "flickr-author:savannahgrandfather",
+      "flickr-author:starcade",
+      "flickr-author:veggiefrog",
+      "flickr-author:vialbost",
+      "flickr-author:x1brett",
+      "flickr-photo:52215803949",
+      "sha1:c59dfe8549b4db77359543f5992fd4da5cf6aba7",
+      "text:elitre",
+      "text:faep",
+      "text:jay8g",
+      "text:ministerie van buitenlandse zaken",
+      "text:snowmanradio",
+      "text:tm"
+    ],
+    "key_prefix_counts": {
+      "flickr-author": 35,
+      "text": 6,
+      "commons-title": 1,
+      "commons-user": 5,
+      "flickr-photo": 1,
+      "sha1": 1
+    },
+    "old101_additional_single_key": [
+      "flickr-author:alachuacounty"
+    ],
+    "technical_minus_source_keys": []
+  },
+  "fixed8_checks": [
+    {
+      "ordinal": 8,
+      "id": "commons:106394148",
+      "technical1206_overlap": [],
+      "source1255_overlap": []
+    },
+    {
+      "ordinal": 19,
+      "id": "commons:11372165",
+      "technical1206_overlap": [],
+      "source1255_overlap": []
+    },
+    {
+      "ordinal": 22,
+      "id": "commons:162912038",
+      "technical1206_overlap": [],
+      "source1255_overlap": []
+    },
+    {
+      "ordinal": 42,
+      "id": "commons:11301183",
+      "technical1206_overlap": [],
+      "source1255_overlap": []
+    },
+    {
+      "ordinal": 46,
+      "id": "commons:119699630",
+      "technical1206_overlap": [],
+      "source1255_overlap": []
+    },
+    {
+      "ordinal": 51,
+      "id": "commons:2471589",
+      "technical1206_overlap": [],
+      "source1255_overlap": []
+    },
+    {
+      "ordinal": 62,
+      "id": "commons:140228367",
+      "technical1206_overlap": [],
+      "source1255_overlap": []
+    },
+    {
+      "ordinal": 70,
+      "id": "commons:117539172",
+      "technical1206_overlap": [],
+      "source1255_overlap": []
+    }
+  ],
+  "interpretation_zh": "两计数的主要差异来自Credit账号链接的扩展提取与关联传播；同800+300域给1254，显式旧101额外贡献1键，合为1255。1206是1255的子集。49是关系键数差，不是新增49图片或独立作者；新核实两组别名没有改变任一旧排除闭包。固定八项在两种计算域都无已知交集，较广的1255复核也未发现冲突。有限键不证明绝对独立，较广Credit关联用于保守排除，不能当作者身份证明。",
+  "alias_encoding_note": "Technical QA additionally used text:dmatos and flickr-author:thrasherdave conservatively; source review retains ThrasherDave as text rather than asserting it is a URL path. These disconnected alias keys do not account for the old-closure count difference or alter fixed8 decisions.",
+  "sealed_files_changed": false,
+  "network_requests": 0,
+  "pixel_reads": 0,
+  "model_calls": 0
+}

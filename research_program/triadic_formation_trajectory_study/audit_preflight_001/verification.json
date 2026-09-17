@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "recorded_at_utc": "2026-09-16T02:12:54.425569+00:00",
+  "phase": "synthetic preflight; after producer completion, before formal independent audit",
+  "audit_source_before_sha256": "df4a9ca18ce262f492e380cc11c95a72ab72236f6df299351be171bd39ddd1af",
+  "audit_source_after_sha256": "496a416d29ad67b8f0a454396f82d71d945ccbfad401856a2fc33826b9ba0be2",
+  "test_source_sha256": "e11658b4ddaacb840e06987a24754d38fc58997f4d1a8fb636e56192003e07cc",
+  "changed_top_level_definitions": [
+    "numeric_tree"
+  ],
+  "fix": "numeric_tree compares bool/np.bool_ by exact type and value before numeric branch; prevents NumPy boolean subtraction TypeError",
+  "tests": {
+    "command": "qwen_collect_pilot/.venv/bin/python -m pytest research_program/triadic_formation_trajectory_study/tests/test_audit.py -q",
+    "passed": 13,
+    "subtests_passed": 15,
+    "elapsed_seconds_reported_by_pytest": 0.26,
+    "earlier_run": {
+      "passed": 11,
+      "subtests_passed": 11,
+      "elapsed_seconds_reported_by_pytest": 0.25
+    }
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.3"
+  },
+  "scope": {
+    "real_checkpoint_loads": 0,
+    "real_neural_forwards": 0,
+    "training_updates": 0,
+    "formal_audit_executions": 0,
+    "new_formal_result_files_read": 0,
+    "synthetic_callbacks": "Handwritten logits/probabilities and synthetic NPZ only; integer IDs in place of networks",
+    "legacy_cell": "All routing/packet/input hashes, saved-field schemas, native settlement and module counts exercised; content aggregation mocked for synthetic non-case worlds",
+    "legacy_6000": "Live: unchanged old keys except three zeroed forward counts, global indices and source packets. Silent: recomputed routes with local pool indices, 0 neural callbacks."
+  },
+  "observed_frozen_source_sha256": {
+    "research_program/triadic_formation_trajectory_study/runner.py": "8788eaedc58154c864d7379ac17ab1437614528e1ec15ea2b168001f968505ac",
+    "research_program/triadic_formation_trajectory_study/dataset.py": "05ce3a2e474c0ce4ae71bf5bdf1fa6d84dac12d1fdcf0b8e23c34e5299058fc5",
+    "research_program/triadic_formation_trajectory_study/channel.py": "64ac1509935b6642d35d282d684dc8dbc48c4df779038278cb32d5f0adfe09b3",
+    "research_program/triadic_formation_trajectory_study/metrics.py": "dab7653a25223f898cb343d9e08f560a806af0ea4f073793f3efe1958a955607"
+  },
+  "not_modified": [
+    "runner.py",
+    "dataset.py",
+    "channel.py",
+    "metrics.py",
+    "all old frozen sources and result files"
+  ]
+}

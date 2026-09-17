@@ -1,0 +1,10 @@
+{
+  "earlier_synthetic_receipt": "redesign_v0.24/synthetic_replay_check.json",
+  "earlier_source": "redesign_v0.24/analysis_history/synthetic_650e04d46f4e/analyze_attention.py",
+  "earlier_source_sha256": "650e04d46f4e42789ccb6d53a9a5346c0bdb365c4fae82d83e538b74ef6099b9",
+  "recovery": "Exact earlier prefix recovered from append-only development additions; SHA matches pre-existing synthetic receipt. No retest or production modification.",
+  "current_analysis_source_sha256": "254a131fb6e27b478165b144eba455206c40b51f4e6a6cd23b813fd598b22954",
+  "current_development_audit": "redesign_v0.24/results/smoke_001/audit_execution.json",
+  "current_development_audit_sha256": "00eae68ebf35d38a927f38e266a2b86f4481e2b5c8dd3892feea8d2a88b151ef",
+  "scope": "Synthetic check applies to the saved early implementation; complete development audit binds the current extended analyzer."
+}

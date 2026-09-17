@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "source_hashes": {
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.22/run_probe.py": "aabf7b747d9e2d5cf087cbb33de6f8e851330c97218977065f4a4f6dbe9ad3ee",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.22/固定执行方案.md": "020a4b21fa8124405503ef0911368dce14d70a748ab4fb4dbe1dec1b5617144f",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.22/前置审查.md": "13a0c1754b2228044459a1fc425f560797db9920897365b31b522ea3140d33a2",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.20/temporal_model.py": "13fdfdfb88dce205c71b3b573e13d126fabfc79775fe9dd1ddee37065d78664b",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.20/temporal_world.py": "2c6ed2dbd7fffe61244a427b46e86c2951f6f5e551683bad2131f0e69a9e989d",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.21/social_model.py": "646f8170004358061f235996458cafd349801f9bd54d40bd587b4dfc6a4f4e40",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/camp.py": "21ad5ff2eecf871ff2e8e17e5623875f55d701e66302b741a46658c0cec81854",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/run_pilot.py": "0045c0789884d95e480c79b1827c5caf56e6820036e6ed64c2a0f0da35231134",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/agents.py": "e370825812d7ea81f53d43e13197d44593aacdbbe7048cdcb5307650709e3f40",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/resource_env.py": "8b522678c723f0f89812691487142d0f5292c73acfde569dc9da4a9f0e4a5211"
+  },
+  "scope": "Two analytic policies on all480 worlds across three partitions, no trained model execution",
+  "checks": [
+    {
+      "partition": 1,
+      "perfect_memory_D0_J1": true,
+      "shown_site_both_goals_D1_J0": true
+    },
+    {
+      "partition": 2,
+      "perfect_memory_D0_J1": true,
+      "shown_site_both_goals_D1_J0": true
+    },
+    {
+      "partition": 3,
+      "perfect_memory_D0_J1": true,
+      "shown_site_both_goals_D1_J0": true
+    }
+  ]
+}

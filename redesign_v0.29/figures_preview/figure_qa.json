@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "scope": "diagram only; no result data loaded",
+  "reviewer": "literature_update, AI visual inspection via view_image",
+  "png_sha256": "8077070bca0eefe421d88bed89f52c91a2144bcc89bfc99c56a6392b7889d288",
+  "png_dimensions": [
+    1639,
+    1085
+  ],
+  "source_sha256": "682fbe942805ac20b25d8710f08bb678c65374d8a0aeff15b93ec5b768c747fc",
+  "checks": {
+    "both_6x6_matrices_clear": true,
+    "fixed_p1_all_cells": true,
+    "blue_path3_orange_path2": true,
+    "P_and_Q_and_excluded_diagonal_labeled": true,
+    "no_clipping_or_overlapping_text": true,
+    "not_an_action_route_explicit": true
+  },
+  "formal_result_figure": "not generated; waiting complete analysis"
+}

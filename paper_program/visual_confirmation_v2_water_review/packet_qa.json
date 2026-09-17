@@ -1,0 +1,6083 @@
+{
+  "status": "passed",
+  "scope": "join, raw-field, unchanged-source and packet integrity only; not semantic/image acceptance",
+  "checks": 1517,
+  "failures": 0,
+  "source_file_count": 77,
+  "original_representative_count": 79,
+  "raw_metadata_responses": 15,
+  "new_usable_images": 0,
+  "network_requests": 0,
+  "pixel_reads": 0,
+  "model_calls": 0,
+  "items": [
+    {
+      "check": "exactly_79_unique_representatives",
+      "passed": true
+    },
+    {
+      "check": "order_equals_original_summary",
+      "passed": true
+    },
+    {
+      "check": "original_group_count_unchanged",
+      "passed": true
+    },
+    {
+      "check": "manual_notes_exactly_ordinal_1_to_79",
+      "passed": true
+    },
+    {
+      "check": "original_completion_hash:README.md",
+      "passed": true
+    },
+    {
+      "check": "original_completion_hash:元数据可行性报告.md",
+      "passed": true
+    },
+    {
+      "check": "original_completion_hash:status.json",
+      "passed": true
+    },
+    {
+      "check": "original_completion_hash:manifest.json",
+      "passed": true
+    },
+    {
+      "check": "original_completion_hash:author_groups.json",
+      "passed": true
+    },
+    {
+      "check": "original_completion_hash:metadata_qa.json",
+      "passed": true
+    },
+    {
+      "check": "original_completion_hash:feasibility_summary.json",
+      "passed": true
+    },
+    {
+      "check": "original_completion_hash:freeze.json",
+      "passed": true
+    },
+    {
+      "check": "original_completion_hash:analyze_metadata.py",
+      "passed": true
+    },
+    {
+      "check": "row_01:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_01:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_01:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_01:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_01:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_01:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_01:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_01:url",
+      "passed": true
+    },
+    {
+      "check": "row_01:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_01:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_01:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_01:mime",
+      "passed": true
+    },
+    {
+      "check": "row_01:width",
+      "passed": true
+    },
+    {
+      "check": "row_01:height",
+      "passed": true
+    },
+    {
+      "check": "row_01:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_01:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_01:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_01:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_01:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_02:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_02:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_02:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_02:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_02:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_02:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_02:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_02:url",
+      "passed": true
+    },
+    {
+      "check": "row_02:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_02:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_02:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_02:mime",
+      "passed": true
+    },
+    {
+      "check": "row_02:width",
+      "passed": true
+    },
+    {
+      "check": "row_02:height",
+      "passed": true
+    },
+    {
+      "check": "row_02:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_02:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_02:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_02:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_02:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_03:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_03:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_03:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_03:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_03:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_03:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_03:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_03:url",
+      "passed": true
+    },
+    {
+      "check": "row_03:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_03:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_03:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_03:mime",
+      "passed": true
+    },
+    {
+      "check": "row_03:width",
+      "passed": true
+    },
+    {
+      "check": "row_03:height",
+      "passed": true
+    },
+    {
+      "check": "row_03:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_03:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_03:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_03:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_03:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_04:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_04:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_04:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_04:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_04:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_04:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_04:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_04:url",
+      "passed": true
+    },
+    {
+      "check": "row_04:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_04:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_04:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_04:mime",
+      "passed": true
+    },
+    {
+      "check": "row_04:width",
+      "passed": true
+    },
+    {
+      "check": "row_04:height",
+      "passed": true
+    },
+    {
+      "check": "row_04:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_04:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_04:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_04:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_04:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_05:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_05:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_05:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_05:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_05:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_05:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_05:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_05:url",
+      "passed": true
+    },
+    {
+      "check": "row_05:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_05:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_05:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_05:mime",
+      "passed": true
+    },
+    {
+      "check": "row_05:width",
+      "passed": true
+    },
+    {
+      "check": "row_05:height",
+      "passed": true
+    },
+    {
+      "check": "row_05:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_05:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_05:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_05:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_05:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_06:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_06:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_06:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_06:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_06:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_06:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_06:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_06:url",
+      "passed": true
+    },
+    {
+      "check": "row_06:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_06:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_06:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_06:mime",
+      "passed": true
+    },
+    {
+      "check": "row_06:width",
+      "passed": true
+    },
+    {
+      "check": "row_06:height",
+      "passed": true
+    },
+    {
+      "check": "row_06:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_06:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_06:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_06:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_06:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_07:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_07:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_07:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_07:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_07:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_07:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_07:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_07:url",
+      "passed": true
+    },
+    {
+      "check": "row_07:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_07:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_07:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_07:mime",
+      "passed": true
+    },
+    {
+      "check": "row_07:width",
+      "passed": true
+    },
+    {
+      "check": "row_07:height",
+      "passed": true
+    },
+    {
+      "check": "row_07:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_07:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_07:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_07:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_07:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_08:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_08:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_08:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_08:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_08:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_08:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_08:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_08:url",
+      "passed": true
+    },
+    {
+      "check": "row_08:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_08:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_08:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_08:mime",
+      "passed": true
+    },
+    {
+      "check": "row_08:width",
+      "passed": true
+    },
+    {
+      "check": "row_08:height",
+      "passed": true
+    },
+    {
+      "check": "row_08:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_08:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_08:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_08:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_08:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_09:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_09:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_09:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_09:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_09:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_09:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_09:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_09:url",
+      "passed": true
+    },
+    {
+      "check": "row_09:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_09:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_09:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_09:mime",
+      "passed": true
+    },
+    {
+      "check": "row_09:width",
+      "passed": true
+    },
+    {
+      "check": "row_09:height",
+      "passed": true
+    },
+    {
+      "check": "row_09:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_09:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_09:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_09:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_09:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_10:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_10:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_10:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_10:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_10:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_10:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_10:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_10:url",
+      "passed": true
+    },
+    {
+      "check": "row_10:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_10:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_10:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_10:mime",
+      "passed": true
+    },
+    {
+      "check": "row_10:width",
+      "passed": true
+    },
+    {
+      "check": "row_10:height",
+      "passed": true
+    },
+    {
+      "check": "row_10:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_10:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_10:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_10:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_10:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_11:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_11:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_11:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_11:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_11:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_11:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_11:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_11:url",
+      "passed": true
+    },
+    {
+      "check": "row_11:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_11:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_11:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_11:mime",
+      "passed": true
+    },
+    {
+      "check": "row_11:width",
+      "passed": true
+    },
+    {
+      "check": "row_11:height",
+      "passed": true
+    },
+    {
+      "check": "row_11:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_11:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_11:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_11:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_11:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_12:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_12:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_12:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_12:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_12:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_12:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_12:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_12:url",
+      "passed": true
+    },
+    {
+      "check": "row_12:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_12:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_12:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_12:mime",
+      "passed": true
+    },
+    {
+      "check": "row_12:width",
+      "passed": true
+    },
+    {
+      "check": "row_12:height",
+      "passed": true
+    },
+    {
+      "check": "row_12:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_12:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_12:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_12:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_12:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_13:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_13:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_13:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_13:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_13:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_13:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_13:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_13:url",
+      "passed": true
+    },
+    {
+      "check": "row_13:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_13:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_13:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_13:mime",
+      "passed": true
+    },
+    {
+      "check": "row_13:width",
+      "passed": true
+    },
+    {
+      "check": "row_13:height",
+      "passed": true
+    },
+    {
+      "check": "row_13:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_13:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_13:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_13:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_13:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_14:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_14:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_14:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_14:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_14:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_14:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_14:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_14:url",
+      "passed": true
+    },
+    {
+      "check": "row_14:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_14:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_14:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_14:mime",
+      "passed": true
+    },
+    {
+      "check": "row_14:width",
+      "passed": true
+    },
+    {
+      "check": "row_14:height",
+      "passed": true
+    },
+    {
+      "check": "row_14:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_14:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_14:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_14:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_14:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_15:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_15:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_15:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_15:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_15:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_15:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_15:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_15:url",
+      "passed": true
+    },
+    {
+      "check": "row_15:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_15:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_15:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_15:mime",
+      "passed": true
+    },
+    {
+      "check": "row_15:width",
+      "passed": true
+    },
+    {
+      "check": "row_15:height",
+      "passed": true
+    },
+    {
+      "check": "row_15:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_15:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_15:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_15:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_15:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_16:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_16:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_16:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_16:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_16:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_16:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_16:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_16:url",
+      "passed": true
+    },
+    {
+      "check": "row_16:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_16:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_16:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_16:mime",
+      "passed": true
+    },
+    {
+      "check": "row_16:width",
+      "passed": true
+    },
+    {
+      "check": "row_16:height",
+      "passed": true
+    },
+    {
+      "check": "row_16:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_16:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_16:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_16:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_16:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_17:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_17:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_17:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_17:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_17:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_17:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_17:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_17:url",
+      "passed": true
+    },
+    {
+      "check": "row_17:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_17:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_17:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_17:mime",
+      "passed": true
+    },
+    {
+      "check": "row_17:width",
+      "passed": true
+    },
+    {
+      "check": "row_17:height",
+      "passed": true
+    },
+    {
+      "check": "row_17:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_17:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_17:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_17:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_17:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_18:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_18:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_18:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_18:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_18:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_18:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_18:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_18:url",
+      "passed": true
+    },
+    {
+      "check": "row_18:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_18:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_18:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_18:mime",
+      "passed": true
+    },
+    {
+      "check": "row_18:width",
+      "passed": true
+    },
+    {
+      "check": "row_18:height",
+      "passed": true
+    },
+    {
+      "check": "row_18:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_18:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_18:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_18:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_18:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_19:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_19:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_19:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_19:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_19:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_19:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_19:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_19:url",
+      "passed": true
+    },
+    {
+      "check": "row_19:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_19:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_19:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_19:mime",
+      "passed": true
+    },
+    {
+      "check": "row_19:width",
+      "passed": true
+    },
+    {
+      "check": "row_19:height",
+      "passed": true
+    },
+    {
+      "check": "row_19:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_19:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_19:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_19:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_19:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_20:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_20:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_20:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_20:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_20:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_20:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_20:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_20:url",
+      "passed": true
+    },
+    {
+      "check": "row_20:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_20:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_20:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_20:mime",
+      "passed": true
+    },
+    {
+      "check": "row_20:width",
+      "passed": true
+    },
+    {
+      "check": "row_20:height",
+      "passed": true
+    },
+    {
+      "check": "row_20:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_20:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_20:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_20:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_20:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_21:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_21:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_21:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_21:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_21:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_21:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_21:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_21:url",
+      "passed": true
+    },
+    {
+      "check": "row_21:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_21:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_21:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_21:mime",
+      "passed": true
+    },
+    {
+      "check": "row_21:width",
+      "passed": true
+    },
+    {
+      "check": "row_21:height",
+      "passed": true
+    },
+    {
+      "check": "row_21:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_21:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_21:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_21:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_21:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_22:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_22:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_22:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_22:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_22:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_22:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_22:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_22:url",
+      "passed": true
+    },
+    {
+      "check": "row_22:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_22:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_22:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_22:mime",
+      "passed": true
+    },
+    {
+      "check": "row_22:width",
+      "passed": true
+    },
+    {
+      "check": "row_22:height",
+      "passed": true
+    },
+    {
+      "check": "row_22:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_22:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_22:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_22:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_22:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_23:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_23:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_23:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_23:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_23:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_23:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_23:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_23:url",
+      "passed": true
+    },
+    {
+      "check": "row_23:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_23:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_23:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_23:mime",
+      "passed": true
+    },
+    {
+      "check": "row_23:width",
+      "passed": true
+    },
+    {
+      "check": "row_23:height",
+      "passed": true
+    },
+    {
+      "check": "row_23:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_23:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_23:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_23:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_23:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_24:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_24:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_24:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_24:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_24:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_24:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_24:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_24:url",
+      "passed": true
+    },
+    {
+      "check": "row_24:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_24:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_24:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_24:mime",
+      "passed": true
+    },
+    {
+      "check": "row_24:width",
+      "passed": true
+    },
+    {
+      "check": "row_24:height",
+      "passed": true
+    },
+    {
+      "check": "row_24:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_24:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_24:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_24:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_24:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_25:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_25:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_25:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_25:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_25:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_25:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_25:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_25:url",
+      "passed": true
+    },
+    {
+      "check": "row_25:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_25:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_25:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_25:mime",
+      "passed": true
+    },
+    {
+      "check": "row_25:width",
+      "passed": true
+    },
+    {
+      "check": "row_25:height",
+      "passed": true
+    },
+    {
+      "check": "row_25:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_25:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_25:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_25:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_25:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_26:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_26:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_26:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_26:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_26:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_26:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_26:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_26:url",
+      "passed": true
+    },
+    {
+      "check": "row_26:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_26:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_26:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_26:mime",
+      "passed": true
+    },
+    {
+      "check": "row_26:width",
+      "passed": true
+    },
+    {
+      "check": "row_26:height",
+      "passed": true
+    },
+    {
+      "check": "row_26:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_26:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_26:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_26:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_26:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_27:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_27:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_27:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_27:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_27:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_27:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_27:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_27:url",
+      "passed": true
+    },
+    {
+      "check": "row_27:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_27:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_27:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_27:mime",
+      "passed": true
+    },
+    {
+      "check": "row_27:width",
+      "passed": true
+    },
+    {
+      "check": "row_27:height",
+      "passed": true
+    },
+    {
+      "check": "row_27:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_27:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_27:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_27:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_27:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_28:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_28:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_28:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_28:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_28:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_28:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_28:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_28:url",
+      "passed": true
+    },
+    {
+      "check": "row_28:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_28:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_28:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_28:mime",
+      "passed": true
+    },
+    {
+      "check": "row_28:width",
+      "passed": true
+    },
+    {
+      "check": "row_28:height",
+      "passed": true
+    },
+    {
+      "check": "row_28:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_28:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_28:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_28:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_28:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_29:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_29:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_29:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_29:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_29:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_29:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_29:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_29:url",
+      "passed": true
+    },
+    {
+      "check": "row_29:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_29:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_29:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_29:mime",
+      "passed": true
+    },
+    {
+      "check": "row_29:width",
+      "passed": true
+    },
+    {
+      "check": "row_29:height",
+      "passed": true
+    },
+    {
+      "check": "row_29:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_29:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_29:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_29:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_29:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_30:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_30:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_30:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_30:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_30:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_30:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_30:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_30:url",
+      "passed": true
+    },
+    {
+      "check": "row_30:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_30:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_30:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_30:mime",
+      "passed": true
+    },
+    {
+      "check": "row_30:width",
+      "passed": true
+    },
+    {
+      "check": "row_30:height",
+      "passed": true
+    },
+    {
+      "check": "row_30:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_30:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_30:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_30:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_30:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_31:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_31:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_31:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_31:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_31:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_31:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_31:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_31:url",
+      "passed": true
+    },
+    {
+      "check": "row_31:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_31:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_31:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_31:mime",
+      "passed": true
+    },
+    {
+      "check": "row_31:width",
+      "passed": true
+    },
+    {
+      "check": "row_31:height",
+      "passed": true
+    },
+    {
+      "check": "row_31:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_31:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_31:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_31:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_31:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_32:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_32:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_32:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_32:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_32:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_32:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_32:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_32:url",
+      "passed": true
+    },
+    {
+      "check": "row_32:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_32:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_32:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_32:mime",
+      "passed": true
+    },
+    {
+      "check": "row_32:width",
+      "passed": true
+    },
+    {
+      "check": "row_32:height",
+      "passed": true
+    },
+    {
+      "check": "row_32:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_32:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_32:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_32:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_32:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_33:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_33:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_33:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_33:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_33:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_33:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_33:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_33:url",
+      "passed": true
+    },
+    {
+      "check": "row_33:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_33:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_33:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_33:mime",
+      "passed": true
+    },
+    {
+      "check": "row_33:width",
+      "passed": true
+    },
+    {
+      "check": "row_33:height",
+      "passed": true
+    },
+    {
+      "check": "row_33:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_33:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_33:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_33:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_33:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_34:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_34:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_34:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_34:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_34:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_34:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_34:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_34:url",
+      "passed": true
+    },
+    {
+      "check": "row_34:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_34:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_34:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_34:mime",
+      "passed": true
+    },
+    {
+      "check": "row_34:width",
+      "passed": true
+    },
+    {
+      "check": "row_34:height",
+      "passed": true
+    },
+    {
+      "check": "row_34:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_34:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_34:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_34:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_34:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_35:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_35:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_35:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_35:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_35:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_35:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_35:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_35:url",
+      "passed": true
+    },
+    {
+      "check": "row_35:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_35:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_35:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_35:mime",
+      "passed": true
+    },
+    {
+      "check": "row_35:width",
+      "passed": true
+    },
+    {
+      "check": "row_35:height",
+      "passed": true
+    },
+    {
+      "check": "row_35:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_35:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_35:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_35:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_35:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_36:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_36:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_36:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_36:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_36:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_36:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_36:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_36:url",
+      "passed": true
+    },
+    {
+      "check": "row_36:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_36:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_36:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_36:mime",
+      "passed": true
+    },
+    {
+      "check": "row_36:width",
+      "passed": true
+    },
+    {
+      "check": "row_36:height",
+      "passed": true
+    },
+    {
+      "check": "row_36:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_36:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_36:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_36:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_36:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_37:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_37:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_37:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_37:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_37:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_37:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_37:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_37:url",
+      "passed": true
+    },
+    {
+      "check": "row_37:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_37:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_37:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_37:mime",
+      "passed": true
+    },
+    {
+      "check": "row_37:width",
+      "passed": true
+    },
+    {
+      "check": "row_37:height",
+      "passed": true
+    },
+    {
+      "check": "row_37:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_37:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_37:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_37:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_37:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_38:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_38:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_38:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_38:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_38:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_38:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_38:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_38:url",
+      "passed": true
+    },
+    {
+      "check": "row_38:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_38:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_38:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_38:mime",
+      "passed": true
+    },
+    {
+      "check": "row_38:width",
+      "passed": true
+    },
+    {
+      "check": "row_38:height",
+      "passed": true
+    },
+    {
+      "check": "row_38:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_38:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_38:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_38:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_38:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_39:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_39:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_39:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_39:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_39:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_39:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_39:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_39:url",
+      "passed": true
+    },
+    {
+      "check": "row_39:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_39:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_39:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_39:mime",
+      "passed": true
+    },
+    {
+      "check": "row_39:width",
+      "passed": true
+    },
+    {
+      "check": "row_39:height",
+      "passed": true
+    },
+    {
+      "check": "row_39:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_39:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_39:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_39:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_39:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_40:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_40:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_40:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_40:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_40:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_40:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_40:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_40:url",
+      "passed": true
+    },
+    {
+      "check": "row_40:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_40:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_40:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_40:mime",
+      "passed": true
+    },
+    {
+      "check": "row_40:width",
+      "passed": true
+    },
+    {
+      "check": "row_40:height",
+      "passed": true
+    },
+    {
+      "check": "row_40:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_40:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_40:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_40:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_40:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_41:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_41:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_41:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_41:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_41:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_41:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_41:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_41:url",
+      "passed": true
+    },
+    {
+      "check": "row_41:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_41:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_41:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_41:mime",
+      "passed": true
+    },
+    {
+      "check": "row_41:width",
+      "passed": true
+    },
+    {
+      "check": "row_41:height",
+      "passed": true
+    },
+    {
+      "check": "row_41:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_41:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_41:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_41:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_41:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_42:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_42:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_42:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_42:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_42:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_42:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_42:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_42:url",
+      "passed": true
+    },
+    {
+      "check": "row_42:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_42:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_42:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_42:mime",
+      "passed": true
+    },
+    {
+      "check": "row_42:width",
+      "passed": true
+    },
+    {
+      "check": "row_42:height",
+      "passed": true
+    },
+    {
+      "check": "row_42:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_42:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_42:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_42:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_42:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_43:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_43:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_43:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_43:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_43:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_43:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_43:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_43:url",
+      "passed": true
+    },
+    {
+      "check": "row_43:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_43:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_43:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_43:mime",
+      "passed": true
+    },
+    {
+      "check": "row_43:width",
+      "passed": true
+    },
+    {
+      "check": "row_43:height",
+      "passed": true
+    },
+    {
+      "check": "row_43:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_43:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_43:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_43:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_43:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_44:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_44:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_44:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_44:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_44:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_44:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_44:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_44:url",
+      "passed": true
+    },
+    {
+      "check": "row_44:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_44:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_44:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_44:mime",
+      "passed": true
+    },
+    {
+      "check": "row_44:width",
+      "passed": true
+    },
+    {
+      "check": "row_44:height",
+      "passed": true
+    },
+    {
+      "check": "row_44:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_44:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_44:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_44:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_44:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_45:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_45:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_45:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_45:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_45:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_45:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_45:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_45:url",
+      "passed": true
+    },
+    {
+      "check": "row_45:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_45:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_45:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_45:mime",
+      "passed": true
+    },
+    {
+      "check": "row_45:width",
+      "passed": true
+    },
+    {
+      "check": "row_45:height",
+      "passed": true
+    },
+    {
+      "check": "row_45:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_45:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_45:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_45:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_45:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_46:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_46:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_46:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_46:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_46:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_46:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_46:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_46:url",
+      "passed": true
+    },
+    {
+      "check": "row_46:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_46:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_46:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_46:mime",
+      "passed": true
+    },
+    {
+      "check": "row_46:width",
+      "passed": true
+    },
+    {
+      "check": "row_46:height",
+      "passed": true
+    },
+    {
+      "check": "row_46:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_46:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_46:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_46:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_46:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_47:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_47:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_47:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_47:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_47:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_47:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_47:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_47:url",
+      "passed": true
+    },
+    {
+      "check": "row_47:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_47:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_47:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_47:mime",
+      "passed": true
+    },
+    {
+      "check": "row_47:width",
+      "passed": true
+    },
+    {
+      "check": "row_47:height",
+      "passed": true
+    },
+    {
+      "check": "row_47:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_47:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_47:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_47:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_47:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_48:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_48:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_48:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_48:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_48:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_48:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_48:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_48:url",
+      "passed": true
+    },
+    {
+      "check": "row_48:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_48:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_48:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_48:mime",
+      "passed": true
+    },
+    {
+      "check": "row_48:width",
+      "passed": true
+    },
+    {
+      "check": "row_48:height",
+      "passed": true
+    },
+    {
+      "check": "row_48:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_48:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_48:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_48:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_48:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_49:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_49:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_49:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_49:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_49:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_49:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_49:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_49:url",
+      "passed": true
+    },
+    {
+      "check": "row_49:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_49:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_49:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_49:mime",
+      "passed": true
+    },
+    {
+      "check": "row_49:width",
+      "passed": true
+    },
+    {
+      "check": "row_49:height",
+      "passed": true
+    },
+    {
+      "check": "row_49:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_49:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_49:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_49:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_49:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_50:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_50:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_50:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_50:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_50:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_50:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_50:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_50:url",
+      "passed": true
+    },
+    {
+      "check": "row_50:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_50:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_50:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_50:mime",
+      "passed": true
+    },
+    {
+      "check": "row_50:width",
+      "passed": true
+    },
+    {
+      "check": "row_50:height",
+      "passed": true
+    },
+    {
+      "check": "row_50:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_50:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_50:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_50:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_50:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_51:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_51:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_51:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_51:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_51:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_51:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_51:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_51:url",
+      "passed": true
+    },
+    {
+      "check": "row_51:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_51:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_51:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_51:mime",
+      "passed": true
+    },
+    {
+      "check": "row_51:width",
+      "passed": true
+    },
+    {
+      "check": "row_51:height",
+      "passed": true
+    },
+    {
+      "check": "row_51:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_51:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_51:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_51:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_51:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_52:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_52:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_52:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_52:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_52:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_52:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_52:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_52:url",
+      "passed": true
+    },
+    {
+      "check": "row_52:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_52:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_52:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_52:mime",
+      "passed": true
+    },
+    {
+      "check": "row_52:width",
+      "passed": true
+    },
+    {
+      "check": "row_52:height",
+      "passed": true
+    },
+    {
+      "check": "row_52:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_52:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_52:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_52:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_52:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_53:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_53:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_53:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_53:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_53:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_53:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_53:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_53:url",
+      "passed": true
+    },
+    {
+      "check": "row_53:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_53:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_53:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_53:mime",
+      "passed": true
+    },
+    {
+      "check": "row_53:width",
+      "passed": true
+    },
+    {
+      "check": "row_53:height",
+      "passed": true
+    },
+    {
+      "check": "row_53:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_53:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_53:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_53:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_53:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_54:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_54:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_54:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_54:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_54:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_54:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_54:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_54:url",
+      "passed": true
+    },
+    {
+      "check": "row_54:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_54:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_54:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_54:mime",
+      "passed": true
+    },
+    {
+      "check": "row_54:width",
+      "passed": true
+    },
+    {
+      "check": "row_54:height",
+      "passed": true
+    },
+    {
+      "check": "row_54:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_54:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_54:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_54:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_54:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_55:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_55:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_55:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_55:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_55:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_55:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_55:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_55:url",
+      "passed": true
+    },
+    {
+      "check": "row_55:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_55:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_55:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_55:mime",
+      "passed": true
+    },
+    {
+      "check": "row_55:width",
+      "passed": true
+    },
+    {
+      "check": "row_55:height",
+      "passed": true
+    },
+    {
+      "check": "row_55:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_55:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_55:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_55:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_55:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_56:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_56:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_56:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_56:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_56:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_56:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_56:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_56:url",
+      "passed": true
+    },
+    {
+      "check": "row_56:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_56:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_56:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_56:mime",
+      "passed": true
+    },
+    {
+      "check": "row_56:width",
+      "passed": true
+    },
+    {
+      "check": "row_56:height",
+      "passed": true
+    },
+    {
+      "check": "row_56:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_56:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_56:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_56:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_56:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_57:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_57:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_57:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_57:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_57:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_57:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_57:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_57:url",
+      "passed": true
+    },
+    {
+      "check": "row_57:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_57:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_57:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_57:mime",
+      "passed": true
+    },
+    {
+      "check": "row_57:width",
+      "passed": true
+    },
+    {
+      "check": "row_57:height",
+      "passed": true
+    },
+    {
+      "check": "row_57:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_57:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_57:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_57:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_57:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_58:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_58:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_58:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_58:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_58:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_58:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_58:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_58:url",
+      "passed": true
+    },
+    {
+      "check": "row_58:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_58:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_58:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_58:mime",
+      "passed": true
+    },
+    {
+      "check": "row_58:width",
+      "passed": true
+    },
+    {
+      "check": "row_58:height",
+      "passed": true
+    },
+    {
+      "check": "row_58:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_58:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_58:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_58:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_58:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_59:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_59:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_59:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_59:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_59:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_59:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_59:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_59:url",
+      "passed": true
+    },
+    {
+      "check": "row_59:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_59:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_59:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_59:mime",
+      "passed": true
+    },
+    {
+      "check": "row_59:width",
+      "passed": true
+    },
+    {
+      "check": "row_59:height",
+      "passed": true
+    },
+    {
+      "check": "row_59:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_59:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_59:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_59:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_59:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_60:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_60:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_60:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_60:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_60:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_60:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_60:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_60:url",
+      "passed": true
+    },
+    {
+      "check": "row_60:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_60:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_60:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_60:mime",
+      "passed": true
+    },
+    {
+      "check": "row_60:width",
+      "passed": true
+    },
+    {
+      "check": "row_60:height",
+      "passed": true
+    },
+    {
+      "check": "row_60:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_60:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_60:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_60:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_60:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_61:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_61:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_61:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_61:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_61:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_61:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_61:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_61:url",
+      "passed": true
+    },
+    {
+      "check": "row_61:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_61:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_61:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_61:mime",
+      "passed": true
+    },
+    {
+      "check": "row_61:width",
+      "passed": true
+    },
+    {
+      "check": "row_61:height",
+      "passed": true
+    },
+    {
+      "check": "row_61:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_61:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_61:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_61:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_61:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_62:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_62:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_62:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_62:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_62:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_62:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_62:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_62:url",
+      "passed": true
+    },
+    {
+      "check": "row_62:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_62:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_62:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_62:mime",
+      "passed": true
+    },
+    {
+      "check": "row_62:width",
+      "passed": true
+    },
+    {
+      "check": "row_62:height",
+      "passed": true
+    },
+    {
+      "check": "row_62:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_62:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_62:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_62:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_62:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_63:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_63:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_63:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_63:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_63:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_63:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_63:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_63:url",
+      "passed": true
+    },
+    {
+      "check": "row_63:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_63:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_63:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_63:mime",
+      "passed": true
+    },
+    {
+      "check": "row_63:width",
+      "passed": true
+    },
+    {
+      "check": "row_63:height",
+      "passed": true
+    },
+    {
+      "check": "row_63:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_63:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_63:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_63:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_63:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_64:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_64:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_64:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_64:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_64:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_64:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_64:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_64:url",
+      "passed": true
+    },
+    {
+      "check": "row_64:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_64:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_64:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_64:mime",
+      "passed": true
+    },
+    {
+      "check": "row_64:width",
+      "passed": true
+    },
+    {
+      "check": "row_64:height",
+      "passed": true
+    },
+    {
+      "check": "row_64:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_64:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_64:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_64:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_64:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_65:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_65:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_65:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_65:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_65:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_65:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_65:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_65:url",
+      "passed": true
+    },
+    {
+      "check": "row_65:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_65:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_65:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_65:mime",
+      "passed": true
+    },
+    {
+      "check": "row_65:width",
+      "passed": true
+    },
+    {
+      "check": "row_65:height",
+      "passed": true
+    },
+    {
+      "check": "row_65:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_65:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_65:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_65:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_65:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_66:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_66:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_66:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_66:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_66:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_66:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_66:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_66:url",
+      "passed": true
+    },
+    {
+      "check": "row_66:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_66:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_66:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_66:mime",
+      "passed": true
+    },
+    {
+      "check": "row_66:width",
+      "passed": true
+    },
+    {
+      "check": "row_66:height",
+      "passed": true
+    },
+    {
+      "check": "row_66:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_66:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_66:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_66:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_66:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_67:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_67:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_67:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_67:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_67:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_67:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_67:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_67:url",
+      "passed": true
+    },
+    {
+      "check": "row_67:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_67:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_67:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_67:mime",
+      "passed": true
+    },
+    {
+      "check": "row_67:width",
+      "passed": true
+    },
+    {
+      "check": "row_67:height",
+      "passed": true
+    },
+    {
+      "check": "row_67:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_67:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_67:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_67:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_67:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_68:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_68:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_68:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_68:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_68:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_68:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_68:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_68:url",
+      "passed": true
+    },
+    {
+      "check": "row_68:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_68:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_68:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_68:mime",
+      "passed": true
+    },
+    {
+      "check": "row_68:width",
+      "passed": true
+    },
+    {
+      "check": "row_68:height",
+      "passed": true
+    },
+    {
+      "check": "row_68:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_68:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_68:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_68:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_68:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_69:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_69:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_69:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_69:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_69:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_69:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_69:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_69:url",
+      "passed": true
+    },
+    {
+      "check": "row_69:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_69:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_69:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_69:mime",
+      "passed": true
+    },
+    {
+      "check": "row_69:width",
+      "passed": true
+    },
+    {
+      "check": "row_69:height",
+      "passed": true
+    },
+    {
+      "check": "row_69:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_69:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_69:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_69:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_69:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_70:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_70:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_70:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_70:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_70:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_70:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_70:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_70:url",
+      "passed": true
+    },
+    {
+      "check": "row_70:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_70:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_70:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_70:mime",
+      "passed": true
+    },
+    {
+      "check": "row_70:width",
+      "passed": true
+    },
+    {
+      "check": "row_70:height",
+      "passed": true
+    },
+    {
+      "check": "row_70:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_70:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_70:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_70:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_70:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_71:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_71:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_71:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_71:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_71:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_71:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_71:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_71:url",
+      "passed": true
+    },
+    {
+      "check": "row_71:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_71:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_71:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_71:mime",
+      "passed": true
+    },
+    {
+      "check": "row_71:width",
+      "passed": true
+    },
+    {
+      "check": "row_71:height",
+      "passed": true
+    },
+    {
+      "check": "row_71:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_71:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_71:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_71:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_71:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_72:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_72:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_72:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_72:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_72:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_72:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_72:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_72:url",
+      "passed": true
+    },
+    {
+      "check": "row_72:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_72:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_72:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_72:mime",
+      "passed": true
+    },
+    {
+      "check": "row_72:width",
+      "passed": true
+    },
+    {
+      "check": "row_72:height",
+      "passed": true
+    },
+    {
+      "check": "row_72:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_72:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_72:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_72:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_72:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_73:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_73:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_73:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_73:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_73:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_73:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_73:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_73:url",
+      "passed": true
+    },
+    {
+      "check": "row_73:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_73:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_73:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_73:mime",
+      "passed": true
+    },
+    {
+      "check": "row_73:width",
+      "passed": true
+    },
+    {
+      "check": "row_73:height",
+      "passed": true
+    },
+    {
+      "check": "row_73:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_73:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_73:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_73:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_73:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_74:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_74:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_74:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_74:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_74:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_74:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_74:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_74:url",
+      "passed": true
+    },
+    {
+      "check": "row_74:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_74:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_74:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_74:mime",
+      "passed": true
+    },
+    {
+      "check": "row_74:width",
+      "passed": true
+    },
+    {
+      "check": "row_74:height",
+      "passed": true
+    },
+    {
+      "check": "row_74:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_74:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_74:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_74:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_74:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_75:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_75:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_75:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_75:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_75:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_75:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_75:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_75:url",
+      "passed": true
+    },
+    {
+      "check": "row_75:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_75:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_75:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_75:mime",
+      "passed": true
+    },
+    {
+      "check": "row_75:width",
+      "passed": true
+    },
+    {
+      "check": "row_75:height",
+      "passed": true
+    },
+    {
+      "check": "row_75:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_75:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_75:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_75:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_75:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_76:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_76:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_76:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_76:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_76:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_76:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_76:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_76:url",
+      "passed": true
+    },
+    {
+      "check": "row_76:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_76:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_76:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_76:mime",
+      "passed": true
+    },
+    {
+      "check": "row_76:width",
+      "passed": true
+    },
+    {
+      "check": "row_76:height",
+      "passed": true
+    },
+    {
+      "check": "row_76:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_76:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_76:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_76:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_76:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_77:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_77:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_77:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_77:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_77:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_77:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_77:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_77:url",
+      "passed": true
+    },
+    {
+      "check": "row_77:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_77:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_77:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_77:mime",
+      "passed": true
+    },
+    {
+      "check": "row_77:width",
+      "passed": true
+    },
+    {
+      "check": "row_77:height",
+      "passed": true
+    },
+    {
+      "check": "row_77:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_77:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_77:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_77:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_77:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_78:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_78:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_78:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_78:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_78:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_78:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_78:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_78:url",
+      "passed": true
+    },
+    {
+      "check": "row_78:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_78:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_78:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_78:mime",
+      "passed": true
+    },
+    {
+      "check": "row_78:width",
+      "passed": true
+    },
+    {
+      "check": "row_78:height",
+      "passed": true
+    },
+    {
+      "check": "row_78:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_78:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_78:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_78:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_78:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_79:representative_is_member",
+      "passed": true
+    },
+    {
+      "check": "row_79:cluster_matches",
+      "passed": true
+    },
+    {
+      "check": "row_79:original_eligible_not_blocked",
+      "passed": true
+    },
+    {
+      "check": "row_79:raw_sha256",
+      "passed": true
+    },
+    {
+      "check": "row_79:one_raw_page",
+      "passed": true
+    },
+    {
+      "check": "row_79:raw_title_and_revision",
+      "passed": true
+    },
+    {
+      "check": "row_79:raw_all_extmetadata",
+      "passed": true
+    },
+    {
+      "check": "row_79:url",
+      "passed": true
+    },
+    {
+      "check": "row_79:sha1",
+      "passed": true
+    },
+    {
+      "check": "row_79:descriptionurl",
+      "passed": true
+    },
+    {
+      "check": "row_79:timestamp",
+      "passed": true
+    },
+    {
+      "check": "row_79:mime",
+      "passed": true
+    },
+    {
+      "check": "row_79:width",
+      "passed": true
+    },
+    {
+      "check": "row_79:height",
+      "passed": true
+    },
+    {
+      "check": "row_79:Artist",
+      "passed": true
+    },
+    {
+      "check": "row_79:Credit",
+      "passed": true
+    },
+    {
+      "check": "row_79:ImageDescription",
+      "passed": true
+    },
+    {
+      "check": "row_79:fixed_english_phrase_recomputed",
+      "passed": true
+    },
+    {
+      "check": "row_79:fixed_english_negative_recomputed",
+      "passed": true
+    },
+    {
+      "check": "packet_exact_79_numbered_entries",
+      "passed": true
+    },
+    {
+      "check": "source_all_files_unchanged",
+      "passed": true
+    },
+    {
+      "check": "original_root_annotation_not_read_by_builder",
+      "passed": true
+    }
+  ]
+}

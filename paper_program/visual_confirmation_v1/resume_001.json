@@ -1,0 +1,33 @@
+{
+  "resume_id": "resume_001",
+  "recorded_at_utc": "2026-09-15T14:21:47.312325+00:00",
+  "authorized_by": "root task: resume same fixed 800 metadata candidates with conservative documented throttling",
+  "plan_sha256": "cf4de1868c61d2830b07093c806bebdae58f619ec6b812a84c3f5ec3f32866da",
+  "sampling_frame_sha256": "e8be6085a9ba67938d1d8ea53e26d2d039bc3027f46fac0f98bec342283742d7",
+  "prior_manifest_sha256": "4cf859de7e2a5753225b35ebe6cddc5a6508d6ace6fb61835a59589ae5913a2b",
+  "prior_source_sha256": "0128ecdfdcd17d50023fdfea59123a3333a32ae106cf84318ce724c4d1447a7b",
+  "prior_last_429_utc": "2026-09-15T13:51:56.214043+00:00",
+  "elapsed_cooldown_seconds": 1791.098282,
+  "metadata_obtained_before": 200,
+  "remaining": 600,
+  "normal_minimum_interval_seconds": 10,
+  "request_batch_max_files": 10,
+  "endpoint": "https://commons.wikimedia.org/w/api.php",
+  "retry_policy": "at most one retry; normalize header names; parse Retry-After seconds or HTTP-date; wait max(30, requested interval plus 2 seconds); if wait >60 seconds defer without another request; second failure stops whole continuation",
+  "historical_retry_after_timing_defects": [
+    {
+      "response": "raw/0030_metadata_0200_a1.response",
+      "retry_after_seconds": 34,
+      "next_request_elapsed_seconds": 30.768991,
+      "defect": "case-sensitive header lookup used 30-second default"
+    }
+  ],
+  "changes": [
+    "Conservative 10-second response-to-next-request interval, previously 1 second.",
+    "Read Retry-After case-insensitively and support HTTP-date; preserve historical defect logs.",
+    "Load immutable existing sampling_frame.json rather than re-query or rewrite the frame.",
+    "Propagate known old-author/original-source exclusion throughout metadata connected components before provisional allocation, as required by original plan."
+  ],
+  "candidate_or_quota_changes": false,
+  "images_or_models_accessed": false
+}

@@ -1,0 +1,1323 @@
+=== PDF PAGE 1 ===
+1
+ஶ࿦จ Original Paper
+ͭਂ૚ੜ੒ϞσϧΛ༻͍ͯ
+ͷίϛϡχ
+έʔγϣϯ૑ൃ
+Emergent Communication in Agents Generating Messages Using Different Pre-
+trained Deep Generative Models
+Ҫ ᠳଠ
+Shota Imai
+Պ
+Graduate School of Engneering, The University of Tokyo
+imais@weblab.t.u-tokyo.ac.jp
+ᖒ ༗༞
+Y usuke Iwasawa
+ʢಉ ্ʣ
+iwasawa@weblab.t.u-tokyo.ac.jp
+ླ໦ խେ
+Masahiro Suzuki
+ʢಉ ্ʣ
+masa@weblab.t.u-tokyo.ac.jp
+দඌ ๛
+Y utaka Matsuo
+ʢಉ ্ʣ
+matsuo@weblab.t.u-tokyo.ac.jp
+keywords: multi-agent learning, world model, reinforcement learning, generative model, emergent communication, emer-
+gent language.
+Summary
+Compositionality is one of the most important properties of human language. In the study of emergent com-
+munication, methods to induce compositionality in emergent language learned by neural network agents have been
+actively studied. Humans have individually articulated prior knowledge about the environment, and it is said to be im-
+portant for compositional human language by communicating based on this prior knowledge. We implement this idea
+as a Reassembly game, a reconstruction task-based Lewis signaling game in which communicating agents have differ-
+ent pre-trained V AE. Experimental results show that the emergent language learned in the Reassembly game showed
+high compositionality on several metrics than the emergent language learned in the other reconstruction task-based
+Lewis signaling game settings. In addition, compared to other factors inducing compositional emergent language
+such as the length of message and the number of vocabulary, the emergent language learned in the Reassembly game
+achieve a high level of both communication success rate and compositionality.
+1. ͸ ͡ Ί ʹ
+ίϛϡχέʔγϣϯ͕
+͕
+ڀݚ
+͕ίϛϡ
+ಘ͢Δ͜ͱ
+͕ੜͨ͡ཁҼΛ୳ΔΞϓϩʔνͷҰ
+଴Ͱ͖Δ[Havrylov 17, Kirby 02, Lazaridou
+20, Nolﬁ 10]Ͱ͸ɼ
+शͷൃలʹ൐͍ɼಛʹχϡʔϥϧωοτϫʔΫͷ
+ௐλεΫΛղ͘Α͏ίϛϡχ
+ʢEmergent
+languageΛ෼ੳͷର৅ͱ͍ͯ͠Δɽ [Lazaridou
+17, Lazaridou 18, Havrylov 17, Evtimova 18, Mordatch
+18, Kharitonov 21]ݚ
+੒ੑʢCompositionalityʹ༩
+͞Ε͍ͯΔ [Chaabouni 20, Choi
+18, Kottur 17, Lazaridou 18, Ri 23] ɽχϡʔϥϧωοτ
+ߏ
+੒ੑʹΑͬͯಘΒΕΔҎԼͷԸ
+ߦ
+ߟ
+͑ΒΕΔɽ
+ͷҰͭͰ͋Δ
+[Choi 18, Frege 92]ͳͲ
+΍จষͷશମతͳҙ
+ͭ͜ͱʹ
+ड़͢Δ͜ͱ͕Ͱ͖Δ
+[Ren 20]੒ੑͱ͸ɼ ಛఆͷ
+೦͕ɼΤʔδΣϯτͷൃ͢Δϝοηʔ
+
+=== PDF PAGE 2 ===
+2ࢽ39ר2߸Dʢ2024 ೥ʣ
+͞Ε͓ͯΓɼͦΕΛ૊
+͢ɽ
+͕๬·͍͠ཧ༝͸ҎԼͷ௨ΓͰ͋Δɽ·
+৅Λ
+Ͱ͖ɼ
+͢Δ͜ͱ
+͕ՄೳͱͳΔ [Raviv 19]͞ΕΔ
+ʹͱͬͯղऍ͕༰қͰ͋Δ [Havrylov 17]ɽ
+Λௐ΂Δ͜ͱͰɼ
+Λ༩͑Δ
+͜ͱ΋Ͱ͖Δ [Andreas 19, Mordatch 18] ɽ
+Խ͞Εͨχϡʔϥ
+ϧωοτϫʔΫΛΤʔδΣϯτͱͨ͠ίϛϡχέʔγϣ
+͕ίϛϡχέʔ
+ʹӨ
+વͰ͋Δ [Johnson 20, N ¨olle
+20]͕͋Γɼίϛϡχέʔγϣϯ
+ΘΕΔ [Goodman 16, Graesser 19] ɽ
+Λൃ͢ΔҎલͷஈ֊Ͱɼ֎
+ͱͳ͓ͬͯΓ[Baroni
+19]ʹԠͯ͡ί
+ʹ͓͍ͯ
+Ͱ͸ɼ χϡʔ
+ࣝ
+લ஌
+͸
+౼͞Ε͍ͯͳ͍ɽ
+श͢ΔΤʔδΣ
+ࣄ
+ޠݴ
+Ͱ͸ɼ ίϛϡ
+ௐλεΫͱͯ͠ɼ 2 ମͷ
+ௐతίϛϡχέʔ
+͏ Lewis γάφϦϯάήʔϜ [Lewis 69]ʢҎ
+͑Δɽͦ
+ͯ͠෼અ
+ͷίϛϡχ
+έʔγϣϯΛ໛ͨ͠ήʔϜΛఏҊͨ͠ɽ ͜ͷήʔϜʹΑͬ
+੒ੑ΍ίϛϡχέʔγϣϯʹ͓
+ͷઃఆ
+͢Δɽ͜ͷήʔϜͰ͸ɼૹ৴
+͍ͯ͠Δͱ
+૊Έཱ
+ͯ (Reassembly)Ͱ͸ఏҊήʔϜͷ͜
+ͱΛ Reassembly gameͿɽ
+ਤ 1 ʹ Reassembly gameཁΛɼද1ʹ
+͢ɽਤ 1͢Α͏ʹɼRe-
+assembly gameΤʔδΣϯτ͕ҟͳΔ෼અԽ͞Εͨ
+Ͱͷίϛϡχέʔγϣϯ૑
+ͷίϛϡχέʔγϣϯΛ໛ͯ͠
+ࣄ
+Ͱ
+ͬ
+ࣄ
+Λར༻ͯ͠ίϛϡχέʔγϣ
+ͷ෼અԽ͕ਐ
+शͷ෼໺Ͱಋೖ͞Ε
+͍ͯΔ Disenglement[Higgins 17, Kim 18]ج
+४ͱ͢Δɽද 1͢Α͏ʹɼReassembly game ͷ໨త
+਺͸ Reconstruction game ͱҰக͍ͯ͠Δ͕ɼ ΤʔδΣ
+੒Մೳ͔ͭ Disentanglement
+͍ͬͯΔ఺
+ͰҟͳΔɽ
+Reassembly gameը૾͕ઃఆ͞
+ɼ େ͖͞ɼ Ґஔʣ ʹΑͬ
+ͯҰҙʹఆ·ΓɼDisentanglementͰ͋
+Δ dSprites [Higgins 17]੒
+͏ Reassembly game Ͱ͸ɼ·ͣ dSprite
+੒͢ΔΑ͏ʹ V ariational Auto-Encoder
+(V AE) [Kingma 14b]Λૹ৴ऀͱड৴ऀͦΕͧΕʹ͍ͭͯ
+ɼยํ
+ͷ V AEͷΤϯίʔμΛૹ৴ऀଆʹɼ΋͏ยํͷV AEͷ
+σίʔμΛड৴ऀଆͷΤʔδΣϯτͷχϡʔϥϧωοτ
+ʹ dSprite શମͷ
+͏ήʔϜͷஈ֊
+ͨ͠
+͢ΔωοτϫʔΫ΁ͷೖྗͱͯ͠ड
+৴ऀʹૹ৴͢ΔϝοηʔδΛੜ੒͢Δɽ ͜ͷϝοηʔδΛ
+Ͱ͖
+श
+ม਺ͷDisentanglement
+ಘ͞Ε
+੒ੑ΍ίϛϡχέʔγϣϯͷ੒
+ূͨ͠ɽ
+੒ੑͷධՁͷલఏͱͯ͠ɼReassembly game ʹΑͬ
+शͰ͖Δ͔
+͘ͳΔ͔Ͳ͏͔Λ
+͔Βɼ
+Disentanglementࣄ
+཰ʹ
+Λ༩͑Δ͜ͱ͕໌Β͔ʹͳͬͨ.ຯਂ͍͜ͱʹɼද
+͢
+शͨ͠୯ମͷV AE͏ʣ ΑΓ
+͍ίϛϡχέʔγϣ
+͞Εͨɽ ί
+༻͢Δ
+཰
+͕σʔ
+ଐ
+ܭ14ՌɼDisentanglement
+
+=== PDF PAGE 3 ===
+ͷίϛϡχέʔγϣϯ૑ൃ 3
+MessageHuman（Sender） Human（Receiver）Shaped like an apple, the same size as a strawberry, red in color....
+Prior KnowledgeTargetImagined TargetPrior Knowledge
+?Human Communication
+Emergent Communication
+ Pre-Trained Modelʼs Parameter（Prior Knowledge）
+Agent（Sender） Agent(Receiver)
+Agent communication in this study
+TargetImagined Target
+[0, 1, 1, 0, 0],[1, 0, 0, 0, 1],…
+MessageEmergent Communication
+OvalGreen
+Disentangled Representation  （Prior Knowledge）
+[0.22, 0.32, 0.18, …, ]
+ਤ 1ͷίϛϡχέʔγϣϯͱ Reassembly gameʹ͓͚ΔΤʔδΣϯτ
+ʢSender=ૹ৴ऀɼReceiver=ʢPrior Knowledgeश͞Εͨਂ૚ੜ੒Ϟσ
+͸ Disentanglement͞ΕΔɽ
+ද 1 Reassembly gameɽ
+෼
+Referential gameԽ
+Reconstruction gameࠩޡ,Խ
+Reassembly game ɹࠩޡ,഑ Disentanglementश
+෼͕͋ΔήʔϜͷઃఆͰ
+͕ 12ޭ
+͔Β͸ɼήʔϜͰಘΒΕͨ
+Ήϝοηʔ
+Ռ͔Βɼ
+Reassembly game ʹΑͬͯɼ఻͑Δ΂͖શͯͷଐੑͷ৘
+೉Ͱ
+͞ΕΔɽ
+੒ੑͷධՁͰ͸ɼReassembly game ͷઃఆͰಘΒΕ
+ࣔ
+ଘ
+ͰఏҊ͞Εͨ 3ඪ
+Ͱ Reassemly game ͷ Disentanglement͘ɼ
+ͨ͠ɽ·ͨɼ
+΋
+ՌɼReassembly game ͰಘΒΕΔ૑ൃ
+͞ͱ൚Խੑೳʢίϛϡχέʔγϣϯ
+ͨ͠ɽ
+2.ڀݚ 
+2·1 Lewis γάφϦϯάήʔϜʹΑΔίϛϡχέʔγϣ
+ϯ૑ൃ
+Lewisுͨ͠ήʔϜ
+[Lazaridou 17, Lewis 69]ͳ
+ݚ
+༻͞Ε͍ͯΔ [Briscoe 02, Cangelosi
+02, Spike 16, Steels 12] ɽ
+Ͱ͸ Lewis γάφϦϯάήʔϜͷ͏ͪɼ2 ମͷ
+͏ήʔϜʢReconstruc-
+tion gameʣ[Chaabouni 20, Kharitonov 21] ͷઃఆΛओʹ
+͏ 2 ମͷΤʔδΣϯτ͸ͦΕͧΕૹ
+ΤʔδΣϯτ͸ͦΕͧΕը
+੒
+༻͢Δ̍ͭͷը૾ɼ·ͨ͸
+one-hot ϕΫτϧͰද͞ΕΔΧςΰϦ஋Λೖྗ͠ɼग़ྗ
+෦ͰϝοηʔδΛੜ੒ͯ͠ड৴ऀʹૹ৴͢Δɽड৴ऀ͸ɼ
+ૹ৴ऀ͔Βड͚औͬͨϝοηʔδΛೖྗͱ͠ɼૹ৴ऀʹ
+੒͢Δ͜ͱΛ໨తͱ͢Δɽ
+ʹରԠ͢Δ one-hot ϕΫτϧͷ૊Έ
+͞ΕΔɽΤʔδΣϯτ͕
+߹
+ޡ
+഑Λར༻͢ΔREINFORCE[Williams 92] ͳͲ
+शతͳखஈ΍ Gumbel-Softmax[Jang 17]श
+͏ΦʔτΤϯ
+Λϝο
+ηʔδͱͯ͠ଊ͑ͨ΋ͷͱղऍͰ͖ΔɽҎԼͰɼήʔϜ
+Λ༻͍ͯղઆ͢Δɽ
+͏ΤʔδΣϯτͷૹ৴ऀΛfsɼड৴ऀΛfr
+ʹͳ
+ΛಘΔੜ੒ϞσϧͰ͋Δ͜ͱ͸Ծఆ͠ͳ͍
+Ͱ͸ૹ৴ऀfs ͸ V AEͷΤϯίʔμ ɼ ड৴ऀfr
+͸ V AEͷσίʔμͰ͋Δ͜ͱΛલఏͱ͍ͯ͠Δɽ ૹ৴ऀ
+͸ɼ λʔήοτͱͳΔը૾x Λೖྗͱ͠ɼ ͦͷग़ྗfs(x)
+Ͱ͋ΔϝοηϯδϟʔM
+࿦ͷͨΊɼ
+ΤʔδΣϯτͷΤϯίʔμʹΑΔಛ௃நग़෦ͱ RNN ʹ
+ऀΛϝοηϯδϟʔ
+ͿɽM ͸ RNN ΍ LSTMྻॲཧϞσϧΛ
+ࠁ࣌t = 1 Ͱೖྗ fs(x) Λड͚औͬ
+ࠁ֤࣌tޠst Λɼ
+͔Βબ୒͢Δɽϝοηʔ
+େ௕ L ·Ͱग़ྗͨ͠ϝοηʔδ m = (st, st+1, ʜ
+sL) Λड৴ऀ΁ૹΔϝοηʔδͱ͢Δɽ ड৴ऀଆͰ͸ड͚
+Έ zr = embr(m) ͰΤϯίʔ
+
+=== PDF PAGE 4 ===
+4ࢽ39ר2߸Dʢ2024 ೥ʣ
+υ͠ɼzr Λड৴ऀ fr ΁ͷೖྗͱ͢Δɽ ड৴ऀ͸͜ͷೖྗ
+͏ɽ ͜͜Ͱɼ ड৴ऀଆͰ
+ͷλʔήοτͷੜ੒Λ xreconst͸
+Lrecon = || x − xreconst|| ͱͳΔɽ Reconstruction game
+ɼૹ
+͔ΒಘΔ
+഑Λ༻͍ͨ΋ͷʹͳΔ [Kharitonov 21]ֶ
+͑ɼ
+͚ͭ
+దԽͰ͋Δɽ͜͜ͰɼθΊ
+ΘΔશͯͷχϡʔϥϧωοτϫʔΫͷύ
+ϥϝʔλͱΈͳ͠ɼP֬࣌
+཰෼෍ͱ͢ΔͱɼReconstruction game਺͸ҎԼ
+ͷΑ͏ʹͳΔɽ
+Em,xreconst [Lrecon∇θ log P (m, xreconst| θ)] (1)
+2·2੒ੑ
+͢Δ
+ͷ
+͏ɽ
+࿈ੑʹ͍ͭ
+࿦ [Chaabouni 19, Chaabouni 20, Kharitonov
+19]ݴ
+ʹ༩͑Δख๏ʹয఺Λ౰ͯΔɽ
+ʹͯ͠
+ͷίϛϡχέʔγϣϯ
+੒ੑΛ༩͑Δ͜ͱ͸ɼίϛϡ
+χέʔγϣϯ૑ൃͷ෼໺ʹ͓͚Δ໨తͷҰͭͰ͋Δ[Choi
+18, Lazaridou 18, Lazaridou 20, Ri 23] ɽҰํɼ্ड़ͷΑ
+͏ͳ Lewisʹίϛϡ
+ɼίϛϡχέʔγϣϯʹ͸
+श͞Ε
+Δ͜ͱ͕஌ΒΕ͍ͯΔ [Kottur 17]Ͱ
+༻Ͱ
+ՃΤʔδΣϯτ ɼ ϝοηʔδ௕ͳͲͱ͍ͬ
+ͨήʔϜม਺ [Choi 18, Kottur 17] ɼΤʔδΣϯτͷΞʔ
+ΩςΫνϟ[Ri 23]ுͳͲ[Cao 18] ͷଆ໘͔
+ͭ
+߹[Kottur 17]ɼ
+ߦ
+߹[Raviv 19] ͳͲɼຊདྷ͸ίϛϡ
+χέʔγϣϯΛ೉ͤ͘͠͞ΔΑ͏ͳʮѹྗʯʹΑͬͯੜ
+ʹ͓͚ΔɼΤʔ
+ط
+͑Δ͜ͱ͕Ͱ͖Δɽ
+ຯ
+༻͠
+͞
+ඪͱͯ͠ఏҊ͞Ε͍ͯ
+ޠݴ
+ͷ૊
+Ͱ͖Δͱ͍
+ͷϝο
+ࢦ
+Ͱ༻͍ΒΕ͖ͯͨ
+Topographic similarityʢTopsimʣ[Brighton 06, Lazaridou
+18]཭ͱͦΕΒͷσʔλΛೖྗͱͯ͠
+͢Δɽ ·
+ͨɼPositional disentanglementʢPosdisʣ[Chaabouni 20]
+शʹ͓͚ΔDisentangelementࢀ
+ͷҐஔ͕ಛఆͷଐੑ
+ͷมԽͷ૬
+ʹͭ
+ͷઅͰվΊͯ৮ΕΔɽ
+2·3 ਂ૚ੜ੒Ϟσϧͱ Disentanglement
+ਂ૚χϡʔϥϧωοτϫʔΫΛੜ੒ϞσϧͱΈͳ͠ɼ
+श͢Δਂ૚ੜ੒Ϟσϧ
+ͷதͰ΋ɼಛʹ V AE[Kingma 14b]Λ༻͍ΔϞσϧͰ͸
+ΘΕ͍ͯΔɽ
+V AEݩ࣍
+Ͱ͖Δ
+ݩ࣍
+͢Δͷʹඞཁͳ৘ใΛ
+ʹ͍ͭͯɼ
+Disentanglement͕஌ΒΕ͍ͯΔ[Higgins
+17, Kim 18] ɽDisentanglement ͸ɼ ʮ΋ͭΕΛղ͍ͨʯද
+্ͷද
+ଐੑʹରԠ͍ͯ͠ΔΑ͏ͳঢ়
+͢ɽDisentanglementࡏ
+ͷ஋ΛมԽͤ͞ΔͱɼରԠͨ͠σʔλͷ
+ଐੑͷΈ͕มԽ͢Δɽ
+ͷ
+Ͱ
+͸ɼ લड़ͷΑ͏ʹDisentanglementݴ
+ඪʹͳΔͱ͍ͯ͠Δ[Chaabouni
+20]ɽDisentanglement೦
+͞ΕΔ΋ͷͰ͋Γɼ े
+෼ʹ Disentanglementͷ
+Ͱ͖Δͨ
+शϞσ
+ͷDisentangelementલ
+༻͢Δ
+੒ੑΛ Disentanglementʹ
+ͨ͠ PosdisͰ͸ɼͨͩ
+शʹΑͬͯDisentanglement
+ΕΔͷͰ͸ͳ͘ɼίϛϡχέʔγϣϯΛ௨͡
+ݱ
+͢Δͱ͍͏఺ʹ஫໨͍ͯ͠Δɽ
+
+=== PDF PAGE 5 ===
+ͷίϛϡχέʔγϣϯ૑ൃ 5
+3. Reassembly Game
+3·1 Reassembly game ͷઃఆ
+ਤ 2ͰఏҊ͢ΔΤʔδΣϯτΛಋೖͨ͠ Re-
+assembly gameΤʔδΣ
+ͪɼͦͷϞσϧΛ
+शͱͦΕʹΑͬͯ૑ൃ͞ΕΔίϛϡχ
+ͷ෼ੳΛ໨తͱ͢ΔɽͦͷͨΊɼ
+ैདྷͷίϛϡχέʔγϣϯήʔϜͱ͸ɼΤʔδΣϯτͷ
+ͷධՁͳͲͷ఺Ͱੑ
+͕ҟͳΔɽ
+Reassembly game ͸ Reconstruction game ͷखॱΛҰ
+ΤʔδΣϯτ͸ɼ ήʔϜͰ༻͍
+श͞ΕͨV AEͪɼ ήʔ
+ϜͰ͸ૹ৴ऀଆͰV AEͷΤϯίʔμ ɼड৴ऀଆͰσίʔ
+੒ʹΑΔήʔϜ
+ഊͷ 2͏ͨ
+਺Λ༻͍ͨ৽
+ͨͳධՁखॱΛઃఆ͢ΔɽҎԼͰήʔϜͷઃఆͱɼήʔ
+Λઆ໌͢Δɽ
+ήʔϜͰૹ৴ऀͱड৴ऀ͕༻͍Δ 2 ͭͷ V AEΛ Vs
+ͱ Vrश͢Δɽ͜ͷ
+ͱ͖ɼVs ͱ VrԽ͞ΕΔɽV AEɼ ૹ
+৴ऀͱड৴ऀ͸ͦΕͧΕͷV AEͷΤϯίʔμͱσίʔμ
+͏ɽ ૹ৴ऀଆͰ͸ɼ ೖྗͱͳΔը૾Λ
+Vsɼ
+ม਺Λϝοηʔδੜ੒෦Ͱ͋Δϝοηϯδϟʔʹ
+લʹઃఆ͞Εͨϝοηʔδ
+ޠst
+Λཁૉͱ͢Δϕ
+ΫτϧΛϝοηʔδͱͯ͠ड৴ऀʹૹΔɽड৴ऀଆͰ͸ɼ
+ͬͨ͋ͱɼ ͦͷຒΊ
+ΈΛ Vr ͷೖྗͱ͢ΔɽVr੒͞Εͨը૾xreconst
+ͱૹ৴ऀʹೖྗͨ͠ը૾xinput࠶
+੒͞Εͨը૾ xreconst ͱϥϯμϜʹσʔληοτ͔Β
+αϯϓϦϯάͨ͠ը૾ʢσΟετϥΫλʔʣ xdistractor
+਺ fd཭
+ͷείΞΛಘΔɽ Vreceiver ͕λʔήοτ xinputͨ
+੒ը૾ xreconstɼ͜ͷ 2 ͭΛ
+਺ͷ஋fd(xreconst, xinput) ͸େ͖͘ͳ
+Δɽfd(xreconst, xinput) > fd(xreconst, xdistractor) Λຬ
+੒Ͱ͖͍ͯΔͱ͠ɼ
+ͱΈͳ͢ɽ
+3·2श
+ૹ৴ऀ͸ɼೖྗը૾ xม਺ zs ΛಘΔ V AEͷ
+Τϯίʔμ෦V encoder
+s (x)ม਺
+zs཰Λग़
+ͷϝοηϯδϟʔM (zs) ͔Β
+੒͞ΕΔɽ ϝοηϯδϟʔM͏ RNN
+Ͱ͋Γɼt = 1ม
+਺ zs Λड͚औΔɽt = 1Γɼ ೖྗ͸ཁૉ਺ͱಉ
+ͬͨϕΫτϧͱ͢Δɽ ϝο
+ࠁ֤࣌t Ͱɼst Λ
+ੜ੒͢Δɽstͭ
+ϫϯϗοτϕΫτϧͰ͋Δɽt = 2ͷϝοηϯδϟʔ
+ͷ RNNࠁ࣌t − 1 Ͱੜ੒͞
+Έͷ MLP embs(st−1) ͷग़ྗͰ͋Δɽ
+େ௕L఺ɼ ͭ·Γɼt = L
+Ͱϝοηʔδͷੜ੒Λऴྃ͠ɼt = L ·ͰʹಘΒΕͨϝο
+ηϯδϟʔͷग़ྗͷϕΫτϧ m = (st, st+1, ʜ, sL) Λड
+৴ऀʹૹΔϝοηʔδͱ͢Δɽड৴ऀଆͰ͸ɼૹ৴ऀଆ
+͔ΒૹΒΕͨϝοηʔδmཁૉΛɼσίʔμͰॲཧ
+ͷ΍Γํ͸೚ҙੑ͕͋Δ͕ɼ
+తʹMLP ʹΑͬͯ
+͠ɼ ͦΕΛRNNΛ
+ͱΔɽ ຊ࿦จͰ͸ಛʹRNN ෦෼ΛϝοηʔδΤϯίʔμ
+ΈͷMLP embr(m) Ͱ
+͠ɼͦΕΛϝοηʔδΤϯίʔ
+μͷ RNN Emͷ
+ऴ૚ͷ
+ग़ྗ ʢӅΕঢ়ଶʣzr Λड৴ऀͷV AEͷσίʔμV decoder
+r
+੒ͷը૾xreconst = V decoder
+r (zr) ΛಘΔɽ
+शର৅ͱͳΔͷ͸ήʔϜʹ͓͍ͯॲཧ
+͏શͯͷχϡʔϥϧωοτϫʔΫͷύϥϝʔλͰ͋
+श͞Εͨૹ৴ऀͷΤϯίʔμ෦
+V encoder
+s ɼϝοηϯδϟʔM ɼϝοηϯδϟʔͷॲཧத
+Έ embsश͞Εͨσίʔ
+μ V decoder
+rΈembrɼ ϝοηʔδΤϯίʔμRm
+਺͸ɼड৴ऀ
+ࠩޡ|| x–xreconst||഑Ͱ͋
+ࣜ1)রʣ ɽ
+4.ݧ࣮ 
+Ͱ͸ɼ ఏҊͨ͠Reassembly game ʹ͓͚Δ Disen-
+taganlementशʹ͓͚Δσʔληοτͷ
+ଘͷ Reconstruction
+game੒ੑ΍ίϛϡχέʔγϣϯͷ੒
+͢ΔҎԼͷཁ
+͔ΊΔ͜ͱΛૂ͍ͱͨ͠ɽ
+(1) Reassembly gameͷ෼અԽͷ౓
+ͷίϛϡχέʔγϣϯ͕
+༩͢Δ͔Ͳ͏͔ɽ
+(2) Reassembly gameͷ෼અԽͷ౓
+Λଅ͔͢ɽ
+(3) Reassembly gameΛଅ͢
+ʹ
+༩͢Δ͔ɽ
+
+=== PDF PAGE 6 ===
+6ࢽ39ר2߸Dʢ2024 ೥ʣ
+EncoderDecoder
+EncoderDecoder
+Dataset1
+Dataset2
+VAE2
+VAE1
+Disentangled Latent Representation
+Reconstruction Task
+(1) Two VAEs on different datasets are trained with a reconstruction task.(2) Reconstruction game using the encoder of VAE1 and the decoder of VAE2.
+EncoderMessenger(RNN)+Embedding(MLP)Message Decoder
+Message Encoder(RNN)+Embedding(MLP)
+Metric function
+𝑧! 𝑧"
+SenderReceiverSucces rate𝑥!"#$#! 𝑥%#&'()!
+𝑥*+)!%"&!'%
+𝑥!"#$#!
+ਤ 2 Reassembly game͏લʹɼ 2 ͭͷҟͳΔσʔληοτΛ༻ҙ͠ɼͦ
+ΕͧΕͷσʔληοτͰ V AEΛ 2͏ήʔϜͰ͸ɼย
+ํͷ V AEͷΤϯίʔμΛૹ৴ऀʹɼ΋͏ยํͷ V AEֶ
+शͨ͠ V AEͷ Encoder ʹରͯ͠λʔήοτͱͳΔը૾ xtargetΛ
+MessengerࡦRNNେ௕·Ͱ RNNΛ
+ΈͱϝοηʔδΤϯίʔμͰReceiver ͷ
+ͭ V AE͞Εɼσίʔμ΁ͷೖྗͱ͢ΔɽσίʔμͰ
+ग़ྗͨ͠ xreconst ͱɼλʔήοτͷ xtarget ͷϖΞ ɼxreconst ͱσʔληοτ͔ΒϥϯμϜʹαϯϓϧ
+ͨ͠ xdistractor਺ʢMetric function਺ʹೖྗ͢Δɽxtarget
+ͱΈͳ͢ɽ
+4·1ඪ
+ඪͱͯ͠ओʹҎԼͷ΋
+༻͢Δɽ
+i.཰ʢTrain accʣ
+༻ͨ͠σʔλʹର͢Δίϛϡχέʔ
+཰Ͱ͋Δɽίϛϡχέʔγϣϯ૑ൃͷ෼໺
+ඪ [Lazaridou 17, Lazaridou
+18, Ri 23]ݴ
+शͰ͖͍ͯΔ͔Ͳ͏͔ΛධՁ͢Δɽ·ͨɼಛఆͷ
+ͷख͕͔Γͱ͢Δධ
+Ͱಋೖͨ͠ઃఆ͕ಛఆͷଐੑͷ
+༩͍ͯ͠Δ͔΋ධՁ͢Δɽ
+ii.ͷ൚ԽੑೳʢGen accʣ
+༻͠ͳ͔ͬͨσʔλʹର͢Δίϛϡ
+ͱಉ͘͡୯७ʹίϛϡ
+ߏ
+शʹΑͬͯಘ
+ଌ͠
+ޠ
+࢖
+Θ
+͑ΒΕΔɽ
+iii. Topographic similarity ʢTopsimʣ
+ඪͱͯ͠ [Lazaridou 18] Ͱ
+ඪͱͯ͠༻͍ΒΕͯ
+͍Δ [Chaabouni 20, Ri 23]ɽTopsim Ͱ͸ΤʔδΣϯτ͕
+ͷྨ
+ͨΑ͏ͳ
+͍ͯͳ͍σʔ
+͕͋Δ৔
+ߏ
+ମతʹ͸ɼશͯ
+਺ͷείΞͱɼͦΕΒͷσʔ
+਺ͷεί
+Ξͷ 2਺Ͱද͞
+ڀݚߦ[Lazaridou 18, Ren 20] ͱ
+౓Λɼ
+཭
+ʹ͸ɼ σʔ
+λͷଐੑ஋Λ༻͍Δɽ2Λ Dɼม
+਺ͷ਺Λ N਺ ρ
+ʢTopsim͞ΕΔɽ
+T opsim = 1 − 6 ∑D2
+N 3 − N (2)
+iv. Positional Disentanglement ʢPosdisʣ
+ͬͯ
+͍Δ͕ɼTopsimΛ൓өͰ
+͖ͳ͍ɽ[Chaabouni 20]܎ؔ
+ඪͱͯ͠ Positional disentanglement
+ʢPosdisʣΛఏҊ͍ͯ͠ΔɽPosdis ͸ɼਂ૚ੜ੒Ϟσϧ΍
+शʹ͓͚Δ Disentanglement[Higgins 17, Kim 18]
+ʹ͍ͯ͠ΔɽDisentanglement͍͸ɼ
+͕ɼσʔλͷಛఆͷଐੑ஋
+͍ͯ͠Δ͔
+͞ΕΔɽ ಉ༷ʹɼPosdis ͸ɼ ϝοηʔ
+ͷҐஔ͕ಛఆͷଐੑ஋ʹରԠ͠ɼ ଐੑ஋
+ʹେ͖
+͘ͳΔɽTopsim ͱ Posdis੒ੑΛଌ͍ͬͯͳ͕Β
+
+=== PDF PAGE 7 ===
+ͷίϛϡχέʔγϣϯ૑ൃ 7
+ਤ 3༻͢Δ dSprites σʔληοτ ɽσʔλʹ෇༩͞Εͨ
+ͨ໨͕
+ɼେ͖
+͞খɼXɼY͍ͬͯΔɽίϛϡ
+ͨ͠΋
+ͷΛૹ৴ऀɼड৴ऀͷV AEशͷσʔληοτͱͯ͠
+ʹ͸ɼσʔληοτશମ͔Βϥϯ
+μϜʹબ୒ͨ͠ը૾Λૹ৴ऀɼड৴ऀ΁ͷೖྗͱ͢ΔɽධՁ
+ʹ͸ɼσʔληοτશମ͔ΒϥϯμϜʹλʔήοτͱσΟ
+ετϥΫλʔͷϖΞΛબ୒͠ɼૹ৴ऀɼड৴ऀʹೖྗ͢Δɽ
+͞Ε͍ͯΔ[Chaabouni
+19]ɽ·ͨɼPosdisඪͰ
+͋ΓɼPosdis͢͜ͱ͸ɼͦͷଞͷ൚ԽͳͲ
+͕͋
+఺ͰධՁ
+͢ΔͨΊɼ Topsim ʹՃ͑ͯ͜ͷ Posdis༻͢
+Δɽsj Λϝοηʔδ಺ͷ jͱ͠,aj
+1 Λ sj࠷
+৘ใྔI(sj; a)ͭσʔλͷଐੑa ͱ͢Δɽ
+·ͨɼaj
+2 Λ sj ͱ 2ͭσʔλ
+ͷଐੑ a ͱ͢Δɽͦͯ͠ɼH(sj) Λϝοηʔδதͷ j ൛
+ͷΤϯτϩϐʔͱ͢Δͱɼposdis ͸ҎԼͷΑ͏
+͞ΕΔɽ
+posdis = 1
+clen
+clen∑
+j=1
+I(sj; aj1) − I(sj; aj2)
+H(sj) (3)
+4·2ઃ ఆ
+͏ը૾ͷσʔλη ο τͱͯ͠ɼdSprites[Higgins
+17]͠ɼ৭ͷଐੑΛ෇༩ͨ͠σʔληο
+ͬͨɽ ਤ3֤
+ը૾σʔλͷαΠζ͸ x ∈ [0, 255]3×64×64࣮
+ɼ େ͖͞ɼ Ґ
+ଐੑ
+͸ 4 ͭͷ৭ʢനɼ੺ɼ੨ɼ྘ʣ ɼ3ʢପԁɼϋʔτ ɼ
+ʣ ɼ3 ͭͷେ͖͞ʢେɼதɼখʣ ɼXඪͱ Yඪ͕
+ܭ16ܭ
+576Ͱ͋Δɽ V AE߹
+श
+ʹ΋ɼૹ
+৴ऀ΁ͷೖྗͱɼධՁʹ༻͍ΔσΟετϥΫλʔͷଐੑ
+੒λεΫͰ2 ͭͷ V AEֶ
+ɼReassembly game ͷඪ४తͳઃఆͰ͸ɼͦΕ
+ͧΕͷ V AEशσʔλ͸ॏෳ͕ͳ͍Α͏ʹϥϯμϜ
+ʹ 2ޙ
+ͷ൚ԽੑೳʢGen accʣධՁͷͨΊɼશମͷσʔλͷ1ׂ
+͠ɼV AEशɼήʔ
+༻͠ͳ͍Α͏ʹͨ͠ɽ
+ૹ৴ऀɼड৴ऀͰ༻͍ΔV AEڞ
+ʹೖྗαΠζͱग़ྗαΠζ͕ 12288ʢσʔλͱͳΔը૾
+ͷαΠζ 64 × 64 × 3ʣͰ͋ΔɽΤϯίʔμͰ͸ೖྗ૚ͷ
+ग़ྗ஋Ͱ͋Δ 512ͷϕΫτϧΛɼग़ྗαΠζ͕ 256
+ʹग़ྗαΠζ͕ 10૚Ͱॲཧ͠ɼ
+͸10 ͱͳΔɽσίʔμͰ͸ϝοηʔδΤ
+਺10 ͷϕΫτϧΛɼग़
+ྗαΠζ͕ 256ʹग़ྗαΠζ͕512 ͷશ
+ʹ͓͍ͯɼ
+Έͷ MLP ͸ૹ৴ऀɼड৴ऀͷͲͪΒ΋શͯͷઃ
+ఆͰೖྗ͕ϘΩϟϒϥϦαΠζͱಉ͡ʢ͜ͱΘΓ͕ͳ͍
+͔͗Γ 10ʣͰɼग़ྗαΠζ͸10 ͱͨ͠. ૹ৴ऀଆͷϝο
+ηϯδϟʔͱͯ͠͸ɼೖྗαΠζ 10ɼग़ྗαΠζ 10 ͷ
+GRU ηϧͱɼ ೖྗαΠζ10ɼ ग़ྗαΠζ͕ϘΩϟϒϥϦ
+ͭωοτϫʔ
+ΫΛ༻͍ͨɽड৴ऀଆͷϝοηʔδΤϯίʔμ͸ɼೖྗ
+αΠζ͕ 10ɼग़ྗαΠζ͕10 ͷ GRU Λ༻͍ɼϝοηʔ
+఺ʹ͓͚Δग़ྗʢӅΕঢ়
+ʹ͓͍ͯɼ χϡʔ
+਺͸શͯ ReLU Λ༻͍ɼશ
+͢Δɽ·ͨɼV AEࣄ
+शͨ͠Τϯίʔμ
+Խ
+͸ Heͬͨɽ
+ʹ͸ɼ ςετσʔλΛআ͍ͨશͯͷσʔ
+ληοτΛར༻ͨ͠ɽόοναΠζ͸શͯͷήʔϜʹ͓
+͍ͯ 32 ͱ͠ɼλʔήοτ͕1ɼσΟετϥΫλʔ͕1 ͷ
+దԽ͸Adam[Kingma 14a]ͬͨɽ
+ೋ৐
+ʢMSE਺Λ༻͍ͨɽ
+Ͱ͸ɼReassembly gameࣝ
+ΛධՁ
+ͬͯൺ
+ͨ͠ɽ
+• V AEͷ Disentanglement͍Λେ͖ͨ͘͠
+Reassembly game(ours dis=High) : 2 ͭͷ V AEͷ
+ʹɼβ-V AEͷ Disentangalement܎
+਺ βม਺ͷ Disentanglement߹
+͘ͳΔΑ͏ʹͨ͠ Reassembly game ͷઃఆɽ
+βڀݚߦ[Kim 18]΋ Disentanglement
+͞Ε͍ͯΔβ = 4 ͱͨ͠ɽ
+• V AEͷ Disentanglement͍Λখͨ͘͞͠
+
+=== PDF PAGE 8 ===
+8ࢽ39ר2߸Dʢ2024 ೥ʣ
+Reassembly game(ours dis=Low) :शͨ͠ 2 ͭͷ
+V AEม਺ͷ Disentanglementه
+ͯ͠খ͘͞ͳΔΑ͏ʹͨ͠Reassembly
+game ͷઃఆɽβ = 1 Ͱ͋Γɼ௨ৗͷ V AEͱಉ͡ઃ
+ఆͰ͋ΔɽDisentanglement͍ʢ=ͷ
+ʹ༩͑ΔӨ
+ΔͨΊʹಋೖͨ͠ɽ
+• ୯Ұͷ V AEͷΤϯίʔμͱσίʔμΛͦΕͧΕૹ৴
+༻͢ΔήʔϜʢSameʣ: σʔληο
+श͠
+ͨ୯Ұͷ V AEͷΤϯίʔμΛૹ৴ऀʹɼ σίʔμΛ
+ड৴ऀʹͨ͠ઃఆɽ ௨ৗͷReconstruction game ͷઃ
+ม਺Ͱσʔ
+शʢV AE࠶
+ʹ૬౰͢Δɽβ ͷ஋͸ɼ
+dis=Low͸ 1ɼdis=Highʹ͸4 ͱͨ͠ɽ
+ૹ৴ऀͱड৴ऀ͕ͦΕͧΕҟͳΔ Disentanglement
+श͞ΕΔ૑ൃ
+ΔͨΊʹಋೖͨ͠ɽ
+•शͨ͠ V AEͷΤϯίʔμͱɼશ
+शͨ͠ V AEͷσίʔλΛήʔϜͰ
+श͢ΔʢTwo V AEsʣɿ2 ͭͷ V AEΛɼͦΕͧΕ
+श
+͠ɼยํͷ V AEͷΤϯίʔμΛήʔϜͷૹ৴ऀʹɼ
+΋͏ยํͷ V AEͷσίʔμΛήʔϜͷड৴ऀͱ͠
+ͯར༻͢ΔɽSame ͱಉ͘͡ɼ Τϯίʔμͱσίʔμ
+ͬͯ
+ͭ V AEश͔Β
+ಘΒΕͨΤϯίʔμͱσίʔμΛར༻͍ͯ͠Δͱ͍
+ͭɽ
+• ैདྷͷઃఆͱಉ༷ͷ Reconstruction game
+(Reconstruction gameɼ Reconstruction game w/o
+V AE):Έͷ V AEΛ༻͍ͳ
+͍ɼ௨ৗͷ Reconstruction gameͰ
+ఏҊͨ͠ Reassembly gameʹ༩͑
+શମΛධՁ͢ΔͨΊʹಋೖͨ͠ɽͳ͓ɼΞʔ
+Λආ͚ΔͨΊɼ
+Reconstruction game ͷૹ৴ऀͱड৴ऀͷೖग़ྗ෦෼
+ͷ Reassemble game ͱಉ͡Α͏ͳ V AE
+લ
+Ҽ͢
+͔ΊΔͨΊɼૹ৴ऀͱड৴ऀͷೖग़ྗ
+෦෼ʹ V AE༻͠ͳ
+͍ઃఆʢReconstruction game w/o V AEʣ΋ɼίϛϡ
+࣮
+Ͱ͸ɼReconstruction gameେϝοηʔ
+͢ΔͳͲ͠ɼ૑ൃ
+ΛReassembly gameֱ
+ͨ͠ɽ
+शʹ༻͍Δσʔληοτͷ
+0 500 1000 1500 2000 2500 3000 3500 4000
+Epochs
+0.50
+0.55
+0.60
+0.65
+0.70
+0.75
+0.80
+0.85
+0.90Train acc
+Ours dis=High
+Ours dis=Low
+Same dis=High
+Same dis=Low
+Two VAEs dis=High
+Two VAEs dis=Low
+Reconstruction game
+Reconstruction game w/o VAE
+ਤ 4֤
+͸ɼReconstruction game Ҏ֎͸ҟͳΔ seedशΛ
+஋ͷV AEͷΤϯίʔμͱσίʔμ
+Θͤ10Λͱ͍ͬͯΔɽReconstruction
+gameशΛͤͣʹseedͬ
+ͨ 10Λऔ͍ͬͯ
+Ռʹ͍ͭͯɼ5Λऔͬ
+͍੾Δ·ͰΛ1 ΤϙοΫͱ͍ͯ͠Δɽ
+Reconstructionशͷઃఆʹ͓͚Δ
+V AEྀ͠ɼ2000श
+ͬͨɽ
+ͨ͠ 56ͷσʔλΛআ͖ɼ
+520ฏ
+͏ V AEशͨ͠σʔλͷ
+शͨ͠
+͕ 520ʹͳΔΑ͏ʹ͍ͯ͠Δɽͭ
+·ΓɼOurs dis=High ͱ Low ͷઃఆͰ͸ɼΤϯίʔμΛ
+͏ V AE1शʹ 260͏V AE2ֶ
+शʹ 260ͷσʔλΛॏෳͳ͠Ͱ༻͍Δ͜ͱΛ΋ͬͯɼ
+͕520ͱ͍ͯ͠Δɽͦͯ͠ɼSame
+ઃఆͰ͸ɼ ୯ҰͷV AEशʹ 520ͬͯ
+ͬ
+͸520ɼTwo V AEsͷઃఆͰ΋ɼ
+V AE1ͱ V AE2शʹ 520ͷσʔλΛ༻͍͍ͯ
+शʹར༻ͨ͠σʔλͷछྨʹ͍ͭͯ͸520ݸ
+Ͱ͋Δɽ
+4·3཰ͷਪҠͷධՁ
+Reassembly gameͰղઆͨ͠σʔλΛ
+͍ɼίϛϡχέʔ
+शͰ͖Δ͔Ͳ͏
+ͬͨɽ
+ਤ 4ࣔ
+Ͱಋೖͨ͠Reassembly game ͷઃఆʹ͍ͭͯ
+ऴతʹ͸ 8
+཰ʹऩଋ͍ͯ͠Δɽ·
+཰͸ Disentanglement߹
+Ͱಋೖ
+ͨ͠ Reassembly gameલ
+͍૑ൃ
+͍ͯ͠Δɽ
+
+=== PDF PAGE 9 ===
+ͷίϛϡχέʔγϣϯ૑ൃ 9
+Easy
+Hard
+Input data pairs
+[shape]
+[shape, scale]
+[color, shape, position]
+Ta r g e tDistractor
+ਤ 5 ೖྗͱ͢Δը૾σʔλͷϖΞͱɼ ͦΕʹΑΔίϛϡχέʔγϣ
+ͷ೉қ౓ͷมԽɽλʔήοτը૾ͱσΟετϥΫλʔ
+೉
+͚ͩҰகͤ͞
+ͷ [Shape]ผ͕༰қͰ͋Δɽෳ਺ͷଐ
+߹
+ͷ [Color, Shape, Position]೉Ͱ͋Γɼίϛϡχ
+Ή
+ඞཁ͕͋Δɽ
+ࡁ
+Έͷ V AE͏ͱ͍͏ઃఆ͸ɼ ୯ʹಛ௃ந
+Έͷಛ௃நग़
+૚Λ༻͍Δ౳[Lazaridou 18]ֶ
+఺͔
+शͨ͠୯Ұͷ
+V AEͱ͠
+ͯ༻͍ΔઃఆʢSame଴
+ຯਂ͍͜ͱʹɼ͜ͷઃఆʹ͍ͭͯ͸ɼ
+Disentanglementशͷॳ
+͍΋ͷͷɼ ௕
+཰ͷ্ঢ͕ఀ଺ɼ ͍ͭͮ
+ڹ
+͢Δཁૉ͕ͳ͍Reconstruction game཰ͱ
+Ռ͸ɼ ୯ͳΔσʔλͷಛ௃நग़ͱ͸ผ
+Ͱಋೖͨ͠Reassembly gameΤʔ
+ͷ Disentanglementࠩ
+͕
+͍ͯ͠Δɽ ͳ͓ɼSameशʹ͓͚
+৅ʹ͍ͭͯ͸ɼReconstruction
+gameΒΕͨɽ Reconstruction game
+ʹ͓͍ͯ V AE༻͠
+ʢReconstruction game w/o V AE৅͸
+ࣝ
+଄ʹΑΔ΋
+͑ΒΕΔɽ
+श͞Εͨೋͭͷ V AE࢖
+ʹ͸Τϯίʔμͱσίʔμͷ૊Έ
+ΘͤΛม͑ͨઃఆʢTwo V AEsʣͰ͸ɼdis=High ͷઃ
+཰͕ Reassembly game
+ͷઃఆͱಉఔ౓ͷ஋ͱͳ͍ͬͯΔɽTwo V AEs͸ɼૹ৴
+शͨ͠σʔληοτ͸ಉ͡Ͱ͋Δ΋ͷͷɼ
+ͱ͸ૹड৴ͷ૬ख͕ҟͳΔͱ͍͏ɼ͋Δछͷ
+ߟ
+ମ͸Reassembly game ͷ
+ͷ
+Ռͱຊ࿦จͷԾઆͷҰͭͰ͋Δɼ ʮຊདྷ͸ίϛϡχέʔ
+Ͱ͸ΤʔδΣ
+ΛՌ
+͍ͯ͠Δɽ
+Reassembly gameͷίϛϡχέʔ
+ήʔ
+༻͢Δը૾ͷϖΞͷଐੑΛҙਤ
+཰ΛධՁ͠
+͕ɼ ίϛϡχέʔγϣ
+ଐੑʹ͍ͭͯίϛϡχέʔγϣ
+͔ΊΔ
+ͷ͕໨తͰ͋Δɽਤ 5Ͱೖྗͱ͢Δը૾σʔ
+ͷ೉қ
+Ͱ͸ɼ ྫ͑͹λʔήοτͱσΟ
+ͪɼ৭
+ʹ΋ ड৴ऀଆͰ
+ਖ਼͍͠ը૾Λબ୒/ΔɽϖΞͱͳΔը૾
+ʹ͸ɼͲͪΒ͕λʔήο
+ผ͸ΑΓ೉͘͠ͳΔͨΊɼૹ৴ऀ
+੒ͷॲཧ͸ɼ
+Λಘ͍ͯΔඞཁ͕͋Δɽྫ
+͑͹ɼϖΞͱͳΔը૾ʹ͍ͭͯɼλʔήοτ͕ʢ৭ɿ੺ɼ
+্ʣ ɼσΟετϥΫλʔ
+ɿପԁɼେ͖͞ɿখɼҐஔɿӈԼʣͱ͍͏
+ࣝ
+ผ͢Δख͕͔Γ͸ 4ผ͸༰қͰ͋ΔɽҰ
+ɼେ͖͞ɿେɼҐ
+ɼେ
+ɼ྆ը૾
+ผ͢Δख͕͔
+͍ྑ
+͸ɼ͜ͷΑ͏ʹҰ෦ͷଐੑ͔͠ίϛϡχέʔ
+͢
+Ή
+΋ͷͰ͋Δɽ
+ήʔϜʹ͍ͭͯɼૹ৴ऀͱड৴ऀΛऩଋ
+शͨ͠΋ͷΛ༻͍Δɽ ද2ݧ࣮
+ʹ͸ϖΞσʔλͰҰகͤͨ͞ଐੑ
+͓ͯ͠Γɼ ʮColorʹ͸ɼ৭͚ͩҰகͤ͞ଞ
+ͷଐੑ͸ϥϯμϜʹબΜͩϖΞσʔλΛɼ ʮColorɼShapeɼ
+Scaleͱେ͖͞ΛҰகͤ͞ɼҐஔͩ
+
+=== PDF PAGE 10 ===
+10ࢽ39ר2߸Dʢ2024 ೥ʣ
+ද 2཰ɽ4. 3ͰͦΕͧΕͷઃఆʹ͍ͭ
+शͨ͠ 10Λ
+ઃఆʹ͍ͭͯɼdis=Highɼdis=Low
+ʹ͍ͭͯ͸ H.ɼL.͠ɼReconstruction game ʹ͍ͭͯ͸ Rec. gameͨ͠ɽ
+Category
+Game Ours H. Ours L. Same H. Same L. Two V AEs H. Two V AEs L. Rec. game
+Color 0.90 0.90 0.73 0.70 0.74 0.74 0.65
+Shape 0.92 0.90 0.71 0.70 0.70 0.62 0.69
+Scale 0.94 0.92 0.75 0.72 0.75 0.72 0.79
+Position 0.71 0.62 0.66 0.64 0.64 0.63 0.58
+Color, Shape 0.90 0.90 0.74 0.71 0.75 0.75 0.69
+Color, Scale 0.93 0.90 0.79 0.75 0.81 0.77 0.74
+Color, Position 0.54 0.54 0.52 0.52 0.53 0.54 0.52
+Shape, Scale 0.92 0.92 0.79 0.79 0.80 0.78 0.75
+Shape, Position 0.66 0.62 0.61 0.60 0.62 0.60 0.59
+Scale, Position 0.64 0.65 0.61 0.62 0.63 0.60 0.60
+Color, Shape, Scale 0.92 0.91 0.80 0.77 0.83 0.83 0.79
+Color, Shape, Position 0.53 0.51 0.52 0.51 0.52 0.52 0.51
+Color, Scale, Position 0.55 0.52 0.53 0.52 0.53 0.51 0.51
+Shape, Scale, Position 0.60 0.57 0.55 0.55 0.55 0.54 0.55
+͚ΛϥϯμϜʹબΜͩϖΞσʔλΛήʔϜͷೖྗͱͯ͠
+༻͍͍ͯΔɽReassembly game ͷΤʔδΣϯτʹ͍ͭͯ
+཰͕ 9͍஋
+͍ͯ͠ΔɽҰํͰɼಛʹҐஔͷଐੑΛλʔήοτͱ
+࣌
+͕શͯͷઃఆͰ
+ೝͰ͖Δɽ͜Ε͸ɼReassembly gameश͞ΕΔ૑
+͕ಛʹҐஔͱ৭ͷଐੑͷ৘ใΛϝοηʔδʹूத
+͍ͤͯ͞Δ͜ͱ
+཰͸શମతʹ
+Reassembly game΋൓өͨ͠ Ours dis=High
+཰͕௿
+্͍ͯ͠ΔͷΈͰɼಛ
+Β
+ΕΔΘ͚Ͱ͸ͳ͍ɽ·ͨɼҐஔͱ΋͏ҰͭͷଐੑΛҰக
+ͷҰ෦ͷϖΞͰ͸ɼOurs dis=High ΑΓ΋ɼ ଞ
+ΒΕΔ ([Color,
+Position],[Scale, Position ]) ΋ͷͷɼҐஔΛՃ͑ͨ 3 ͭ
+ΒΕͳ
+͍ɽ͜Ε͸ɼΑΓ Disentangalement ͕ଅਐ͞Εͨ Ours
+dis=High͢Δ
+ผʹ
+Ε͍ͯΔͨ
+͑ΒΕΔɽ͕ͨͬͯ͠ɼ Reassembly game
+ଐੑͦΕͧΕͷ৘ใΛϝοηʔδதʹ
+༩͢Δͱ͍͑Δɽ
+ิ͕ 4 छɼҐஔ
+ิ͕ 16Ռ͕͜ΕΒͷଐੑ஋
+͑ΒΕΔͨΊɼશͯ
+ิΛ 3 ͭʹͨ͠σʔληοτͰɼද 2
+शε
+ՌΛද3ͨ͠ɽ ͜
+ͷίϛϡχέʔ
+΋௿͍͜ͱ͸มΘΒͳ͍͕ɼશମతͳ
+ΒΕͨɽ͜Ε͸ɼೖྗσʔλ
+ิ͕৭ͱҐஔ৘ใ
+ͬ
+ʹɼ ධՁશମʹ઎ΊΔɼ σΟετϥΫλʔ
+͘ͳͬͯ͠
+͕૿͑ͯ͠·ͬͨ͜
+͑ΒΕΔɽ
+4·4੒ੑͷධՁ
+ޠݴ
+ऴతͳ൚ԽੑೳʢGen accʣͱɼ͞
+ඪͰ͋Δ TopsimɼPosdis Λ
+ͬͯධՁͨ͠ɽ
+ද 4ඪͰධ
+ͷίϛϡ
+཰ʢTrain accՌͱ΄΅Ұக
+ͰఏҊͨ͠ઃఆΛશͯ
+൓өͨ͠ Ours dis=High͍஋ͱͳ͍ͬͯΔɽ͠
+͔͠ɼTrain accඪͰ͋Γɼ
+ຊతͳཁૉ
+ΛධՁ͍ͯ͠Δʹ͗͢ͳ͍ɽ[Chaabouni 19] Ͱ͸ɼ ίϛϡ
+Ͱ༻͍ΒΕΔχϡʔϥϧωοτ
+ͷίϛϡχέʔγϣϯ͸ɼ૑ൃ
+͍
+
+=== PDF PAGE 11 ===
+ͷίϛϡχέʔγϣϯ૑ൃ 11
+ද 3शɼήʔϜʹ͓͚Δσʔλͷ਺ʹ͍ͭͯશͯͷଐੑͷ஋͕औΔ਺Λ3ͷද 2 ͱಉ
+Ռɽ
+Category
+Game Ours H. Ours L. Same H. Same L. Two V AEs H. Two V AEs L. Rec. game
+Color 0.69 0.67 0.56 0.55 0.59 0.59 0.54
+Shape 0.66 0.65 0.57 0.56 0.60 0.61 0.55
+Scale 0.65 0.65 0.57 0.58 0.60 0.59 0.57
+Position 0.64 0.60 0.55 0.55 0.59 0.58 0.53
+Color, Shape 0.65 0.63 0.58 0.61 0.59 0.60 0.58
+Color, Scale 0.65 0.65 0.59 0.58 0.59 0.57 0.57
+Color, Position 0.62 0.61 0.55 0.53 0.58 0.58 0.52
+Shape, Scale 0.64 0.63 0.59 0.61 0.60 0.61 0.59
+Shape, Position 0.61 0.61 0.56 0.54 0.60 0.60 0.52
+Scale, Position 0.61 0.60 0.56 0.55 0.60 0.55 0.51
+Color, Shape, Scale 0.66 0.65 0.64 0.64 0.65 0.63 0.58
+Color, Shape, Position 0.55 0.54 0.53 0.51 0.54 0.53 0.51
+Color, Scale, Position 0.56 0.54 0.53 0.51 0.55 0.51 0.51
+Shape, Scale, Position 0.59 0.56 0.55 0.54 0.55 0.56 0.55
+ද 4ઃఆʹ͓͚Δ൚ԽੑೳʢGen acc੒ੑʢTopsim ͱ Posdisઃఆ͕ऩଋ͢Δ·
+ɽ
+Gen acc ͸ 4. 3शͨ͠ 10ߦ֤
+Λͱͬͨɽ Topsim ͱ Posdis ͸ɼ4. 3ઃఆ
+େ஋ 10஋Ͱ͋Δɽ
+Setting
+metric Gen acc Topsim Posdis
+Ours dis=High 0.90 0.26 0.46
+Ours dis=Low 0.84 0.25 0.36
+Same dis=High 0.75 0.24 0.30
+Same dis=Low 0.73 0.24 0.32
+Two V AEs dis=High 0.73 0.23 0.29
+Two V AEs dis=Low 0.75 0.22 0.28
+Reconstruction game 0.71 0.24 0.35
+͞Ε͍ͯΔɽैͬͯɼ൚Խੑ
+੒ੑʹ͍ͭͯे෼ͳධՁͱ͸͍
+੒ੑΛଌΔ Topsim ͱ Posdis ͷ
+ඪͰ΋ɼOurs dis=High͍஋Ͱ͋Δ͜ͱ͸มΘ
+Γ͸ͳ͍ɽ·ͨɼTwo V AEsʹ͓͚Δ dis=Highश
+཰ͰReassembly game ͱಉ
+ඪͰ͸ɼଞͷ
+ͷ
+෼ͱ͍ͬ
+༩͢Δ
+͍ͯ͠Δɽ
+Posdis ͷධՁʹ͓͍ͯ͸ɼ ಛʹ Ours dis=High ͕ଞͷ
+Λ͚͍ͭͯΔɽPosdis࠷
+͞Ε͍ͯΔ[Chaabouni
+19]Ͱಋೖͨ͠Reassem-
+bly game༩͍ͯ͠Δ͜
+͑ΒΕΔɽ ҰํͰTopsimʹ
+͕େ͖͗͢ΔͨΊɼ ΤʔδΣϯτ͕
+V AEม਺ͷ Disentangalement࣭
+ͱ PosdisੑʹΑͬ
+ՌͰ͋Δ
+͑ΒΕΔɽ
+4·5ֱ
+Ͱ͸ɼ ϝοηʔδΛੜ੒͢ΔϘΩϟϒϥϦͷα
+Πζ΍ɼ ϝοηʔδ௕ͳͲͷήʔϜ಺ͷม਺ΛมԽͤ͞Δ
+͞
+Ε͍ͯΔ [Gupta 20, Kottur 17, Lazaridou 18] ɽͦ͜Ͱຊ
+ͰఏҊͨ͠Reassembly game ͷઃఆ͕ɼ
+༩͢
+Δͷ͔ΛධՁ͢Δɽ·ͨɼ͜͜Ͱ͸൚Խੑೳʹ͍ͭͯ͸ɼ
+࠾
+
+=== PDF PAGE 12 ===
+12ࢽ39ר2߸Dʢ2024 ೥ʣ
+༻͠ɼPosdis ΍ Topsimޠݴ
+΋ཧ૝తͳ΋ͷͱ͢Δɽਤ 6 ʹɼReassembly game
+େ௕ ʢMessage
+lengthʣ ͱɼ ૹ৴ऀ͕ϝοηʔδͷཁૉͱͯ͠બ୒Ͱ͖Δ
+ͷϘΩϟϒϥϦαΠζʢV ocabulary sizeʣΛมԽ͞
+ͷ Topsim ͷ஋ʢਤத (a)ʣ
+ͱɼPosdis ͷ஋ʢਤத (b)ʣ ɼͦͯ͜͠ΕΒͷ஋͕ಘΒΕ
+͢ɽ
+ਤதͷ Original ͸ɼ௨ৗͷ Reconstruction game ͷઃఆ
+ͬ
+େ௕ͱϘ
+ΩϟϒϥϦαΠζͷͦΕͧΕͷઃఆ͸ɼOriginal Λϕʔ
+େ௕ͱϘΩϟϒϥϦαΠζͷ
+Ͱಋ
+ೖͨ͠ Reassembly game͸ɼ
+ݚߦ
+ڀ[Chaabouni 19, Kottur 17, Mordatch 18]͞Εͯ
+ͱɼ ϘΩϟϒϥϦ
+͢
+ΒΕΔɽ͔͠͠ɼ͜ΕΒͷઃఆͰ͸ɼ൚Խੑೳ
+੒ੑͱίϛϡχέʔ
+཰Λཱ྆Ͱ͖͍ͯͳ͍ɽ ैͬͯɼ ͜ΕΒͷཁ
+੒ੑͷൃ
+༻ੑ͕௿͍ɼ
+͕ίϛϡχέʔγϣϯΛ੒ཱͤ͞
+ͱͳͬͯ͠
+Ͱ
+ಋೖͨ͠ Reassembly gameΤʔδΣϯ
+ͭ͜ͱ͸ɼ΄͔ͷ
+͞ͱίϛϡ
+د
+༩͢Δͱ͍͑Δɽ
+5.࿦
+ͷ஌ೳॲཧͱίϛϡχέʔγϣϯͷ
+ɼΤʔδΣϯτಉ
+Λଅ
+͘ίϛϡχέʔγϣϯͷ੒ཱʹ΋༗༻Ͱ
+͠
+ূͷͨΊఏҊͨ͠Reassembly game Ͱ
+͸ɼ·ͣ 2 ͭͷ V AEशͤͯ͞
+Disentanglementલ஌
+ʣΛಘΔΑ͏ʹ͠ɼ͜ͷV AEͷ͏ͪยํͷΤϯίʔμ
+Λૹ৴ऀͷϝοηʔδੜ੒ʹɼ΋͏ยํͷV AEͷσίʔ
+࣋
+Ͱ͸ɼReassem-
+bly gameͷί
+ݧ࣮
+ՌɼReassembly gameͷ
+͕໌Β͔ʹͳͬͨɽ·ͣɼReassem-
+bly gameͭ V AE͕ΑΓ
+Disentangelementʹ͸ɼ
+शͰ͖Δ
+఺͔Β
+༻͢Δશͯͷσʔ
+ͭઃఆΑΓ΋ɼReassembly
+game෼͕͋Δઃఆͷ
+Λ༩͑
+͞Εͨɽ·ͨɼ·ͬͨ͘ಉ͡σʔληοτͰ
+Θͤ
+཰ͷ
+ମ͸ɼ
+ͰఏҊͨ͠Reassembly game ͷཧ૝తͳઃఆͰ͸
+෼ʯͱ͍͏ɼຊདྷ͸
+शʹ
+ΛՌͨ͢ͱ͍͏ɼຊ࿦จͷओுͷҰ෦΍
+Ռ͕ಘΒΕͨɽ
+੒ੑͷධՁͰ͸ɼReassembly game ͷઃఆͰಘΒΕ
+͍஋Λ
+Λଅ͢ͱ͞ΕΔ
+ɼReassembly game Ͱಘ
+͞ͱ൚Խੑೳʢίϛϡχ
+͍ਫ४Ͱཱ྆ͨ͠΋ͷͰ͋Δ͜
+͕΍ΓͱΓ͠ͳ͕ΒԿΒ
+ͷ
+੒ੑ
+ޙࠓ
+ͷ AI͑Δɽྫ͑͹ɼ
+ͷ ChatGPTϞσϧʢLLM,
+Large Language Modelsʣ[Anil 23, OpenAI 23] ͷొ৔ʹ
+΍ LLM͏ස
+౓্͕ঢ͍ͯ͠ΔɽχϡʔϥϧωοτϫʔΫΛϕʔεͱ
+ͨ͜͠ͷ LLMश [Ouyang
+22]·͠
+఺Ͱͷղऍੑ͕ॏཁͰ
+͏͜ͱͰɼ ίϛϡ
+·͘͠ղऍ͕Մೳ
+͏ର࿩ΤʔδΣϯτΛಘΒΕΔՄೳੑ͕͋Δɽ
+͔Β͸ɼReassembly gameݶ
+ք΋໌Β͔ʹͳͬͨɽୈҰʹɼද2ͨ͠Α͏ʹɼRe-
+assembly game͸ɼ ίϛϡχέʔγϣ
+͍ͬͯΔ͜
+͞Ε͍ͯΔɽͭ·ΓɼReassembly gameश
+͍ͯ͠Δ
+Μ
+೉Ͱ͋ΔՄೳੑ
+͕
+͢Δ৘
+ഊ͢Δ
+
+=== PDF PAGE 13 ===
+ͷίϛϡχέʔγϣϯ૑ൃ 13
+○Original●Ours ▲Same■Two VAEsx    Message length★Vocabulary size
+(a) (b)
+Original
+20 205 5 High
+Low
+ਤ 6఺ʹ͓͚Δ൚Խੑೳ
+ඪͰ͋Δ Topsim(a), Posdis(b)͢ɽOriginal੒
+·ͳ͍ήʔϜʢ Reconstruction gameʣͰ͋Γɼਤͷӈ্Ͱ͋Δ΄Ͳ๬·͍͠ੑ
+͍ͬͯΔɽV ocabulary sizeͱ Message length ʹ͍ͭͯ͸ɼϕʔεͷ Original ͔ΒɼͦΕͧΕϘΩϟ
+͍ͯ͠ΔɽਤதͷϚʔΧʔͱઃఆͷରԠ͸ Topsim ͱ Posdis Ͱ
+ಉ༷Ͱ͋Δɽ
+͑ΒΕΔɽୈೋʹɼReassembly game ͰಘΒΕ
+ݴ
+Ͱ͋Δ΋ͷͷɼਤ 6(b)ߏ
+ͱൺ΂ͯಛ
+͍ͯ͠ΔΘ͚Ͱ͸ͳ͍ɽ͕ͨͬͯ͠ɼ୯
+ΛಘΔ͜ͱ͕໨తͰ͋Ε͹ɼRe-
+assembly game Ҏ֎ͷઃఆɼ·ͨ͸Reassembly game ͱ
+Ͱ͋Δ
+Մೳੑ͕͋Δɽ
+੒ੑʹ஫໨͕ͨ͠ɼ ਓ
+͢Δɽྫ͑
+ͷฒͼʹΑͬͯ
+೦
+ྀ͞
+఺Ͱ͸͜ͷΑ͏ͳ
+Λఆྔత
+Λ
+౼՝୊Ͱ͋Δɽ
+♢ݙ♢
+[Andreas 19] Andreas, J.: Measuring compositionality in representa-
+tion learning, V ol. abs/1902.07181 (2019)
+[Anil 23] Anil, R., Dai, A. M., Firat, O., Johnson, M., Lep-
+ikhin, D., Passos, A., Shakeri, S., Taropa, E., Bailey, P ., Chen, Z.,
+Chu, E., Clark, J. H., Shafey, L. E., Huang, Y ., Meier-Hellstern, K.,
+Mishra, G., Moreira, E., Omernick, M., Robinson, K., Ruder, S.,
+Tay, Y ., Xiao, K., Xu, Y ., Zhang, Y ., Abrego, G. H., Ahn, J.,
+Austin, J., Barham, P ., Botha, J., Bradbury, J., Brahma, S.,
+Brooks, K., Catasta, M., Cheng, Y ., Cherry, C., Choquette-
+Choo, C. A., Chowdhery, A., Crepy, C., Dave, S., Dehghani, M.,
+Dev, S., Devlin, J., D´ıaz, M., Du, N., Dyer, E., Feinberg, V ., Feng, F.,
+Fienber, V ., Freitag, M., Garcia, X., Gehrmann, S., Gonzalez, L.,
+Gur-Ari, G., Hand, S., Hashemi, H., Hou, L., Howland, J., Hu, A.,
+Hui, J., Hurwitz, J., Isard, M., Ittycheriah, A., Jagielski, M., Jia, W.,
+Kenealy, K., Krikun, M., Kudugunta, S., Lan, C., Lee, K., Lee, B.,
+Li, E., Li, M., Li, W., Li, Y ., Li, J., Lim, H., Lin, H., Liu, Z., Liu, F.,
+Maggioni, M., Mahendru, A., Maynez, J., Misra, V ., Moussalem, M.,
+Nado, Z., Nham, J., Ni, E., Nystrom, A., Parrish, A., Pellat, M.,
+Polacek, M., Polozov, A., Pope, R., Qiao, S., Reif, E., Richter, B.,
+Riley, P ., Ros, A. C., Roy, A., Saeta, B., Samuel, R., Shelby, R.,
+Slone, A., Smilkov, D., So, D. R., Sohn, D., Tokumine, S., V al-
+ter, D., V asudevan, V ., V odrahalli, K., Wang, X., Wang, P ., Wang, Z.,
+Wang, T., Wieting, J., Wu, Y ., Xu, K., Xu, Y ., Xue, L., Yin, P ., Y u, J.,
+Zhang, Q., Zheng, S., Zheng, C., Zhou, W., Zhou, D., Petrov, S., and
+Wu, Y .: PaLM 2 Technical Report (2023)
+[Baroni 19] Baroni, M.: Linguistic generalization and compositional-
+ity in modern artiﬁcial neural networks, CoRR, V ol. abs/1904.00157,
+(2019)
+[Brighton 06] Brighton, H. and Kirby, S.: Understanding linguistic
+evolution by visualizing the emergence of topographic mappings,
+V ol. 12, pp. 229–242 (2006)
+[Briscoe 02] Briscoe, T.: Linguistic Evolution through Language Ac-
+quisition, Cambridge University Press (2002)
+[Cangelosi 02] Cangelosi, A. and Parisi, D. eds.: Simulating the Evo-
+lution of Language, Springer, New Y ork (2002)
+[Cao 18] Cao, K., Lazaridou, A., Lanctot, M., Leibo, J. Z., Tuyls, K.,
+and Clark, S.: Emergent communication through negotiation, V ol.
+abs/1804.03980 (2018)
+[Chaabouni 19] Chaabouni, R., Kharitonov, E., Dupoux, E., and Ba-
+roni, M.: Anti-efﬁcient encoding in emergent communication, V ol.
+abs/1905.12561 (2019)
+[Chaabouni 20] Chaabouni, R., Kharitonov, E., Bouchacourt, D.,
+Dupoux, E., and Baroni, M.: Compositionality and generalization
+in emergent languages, in Proceedings of the 58th Annual Meeting of
+the Association for Computational Linguistics, Association for Com-
+putational Linguistics, pp. 4427–4442 (2020)
+[Choi 18] Choi, E., Lazaridou, A., and Freitas, de N.: Composi-
+tional obverter communication learning from raw visual input, V ol.
+abs/1804.02341 (2018)
+[Evtimova 18] Evtimova, K., Drozdov, A., Kiela, D., and Cho, K.:
+Emergent communication in a multi-modal, multi-step referential
+game, in International Conference on Learning Representations
+(2018)
+[Frege 92] Frege, G.: Zeitschrift f ¨ur philosophie und philosophische
+kritik, Zeitschrift f ¨ur Philosophie und philosophische Kritik (NF) ,
+V ol. 100, pp. 25–50 (1892)
+[Goodman 16] Goodman, N. D. and Frank, M. C.: Pragmatic lan-
+guage interpretation as probabilistic inference, Trends in Cognitive
+Sciences, V ol. 20, No. 11, pp. 818–829 (2016)
+[Graesser 19] Graesser, L., Cho, K., and Kiela, D.: Emergent linguis-
+tic phenomena in multi-agent communication games, in Proceedings
+of the 2019 Conference on Empirical Methods in Natural Language
+Processing and the 9th International Joint Conference on Natural
+Language Processing (EMNLP-IJCNLP), Association for Computa-
+tional Linguistics, pp. 3700–3710, Hong Kong, China (2019)
+[Gupta 20] Gupta, A., Resnick, C., Foerster, J., Dai, A., and Cho, K.:
+
+=== PDF PAGE 14 ===
+14ࢽ39ר2߸Dʢ2024 ೥ʣ
+Compositionality and capacity in emergent languages, in Proceed-
+ings of the 5th Workshop on Representation Learning for NLP , Asso-
+ciation for Computational Linguistics , pp. 34–38, Online (2020)
+[Havrylov 17] Havrylov, S. and Titov, I.: Emergence of Language
+with Multi-agent Games: Learning to Communicate with Sequences
+of Symbols, in Guyon, I., Luxburg, U. V ., Bengio, S., Wallach, H.,
+Fergus, R., Vishwanathan, S., and Garnett, R. eds., Advances in Neu-
+ral Information Processing Systems, V ol. 30, Curran Associates, Inc.
+(2017)
+[Higgins 17] Higgins, I., Matthey, L., Pal, A., Burgess, C., Glorot, X.,
+Botvinick, M., Mohamed, S., and Lerchner, A.: beta-V AE: Learning
+basic visual concepts with a constrained variational framework, in
+International Conference on Learning Representations (2017)
+[Jang 17] Jang, E., Gu, S., and Poole, B.: Categorical Reparameteri-
+zation with Gumbel-Softmax, V ol. abs/1611.01144 (2017)
+[Johnson 20] Johnson, T., Siegelman, N., and Arnon, I.: Individ-
+ual differences in learning abilities impact structure addition: bet-
+ter learners create more structured languages, Cognitive Science ,
+V ol. 44, No. 8, p. e12877 (2020)
+[Kharitonov 19] Kharitonov, E., Chaabouni, R., Bouchacourt, D., and
+Baroni, M.: Information minimization in emergent languages, V ol.
+abs/1905.13687 (2019)
+[Kharitonov 21] Kharitonov, E., Dess `ı, R., Chaabouni, R., Boucha-
+court, D., and Baroni, M.: EGG: a toolkit for research on Emergence
+of lanGuage in Games, https://github.com/facebookresearch/EGG
+(2021)
+[Kim 18] Kim, H. and Mnih, A.: Disentangling by factorising, in
+Dy, J. and Krause, A. eds., Proceedings of the 35th International
+Conference on Machine Learning, V ol. 80 ofProceedings of Machine
+Learning Research, pp. 2649–2658, PMLR (2018)
+[Kingma 14a] Kingma, D. P . and Ba, J.: Adam: A method for stochas-
+tic optimization, V ol. abs/1412.6980 (2014)
+[Kingma 14b] Kingma, D. P . and Welling, M.: Auto-Encoding V ari-
+ational Bayes, in Bengio, Y . and LeCun, Y . eds., 2nd International
+Conference on Learning Representations, ICLR 2014, Banff, AB,
+Canada, April 14-16, 2014, Conference Track Proceedings (2014)
+[Kirby 02] Kirby, S. and Hurford, J. R.: The emergence of linguistic
+structure: An overview of the iterated learning model , pp. 121–147,
+Springer London, London (2002)
+[Kottur 17] Kottur, S., Moura, J. M. F., Lee, S., and Batra, D.: Natural
+language does not emerge ’Naturally’ in multi-agent dialog, CoRR,
+V ol. abs/1706.08502, (2017)
+[Lazaridou 17] Lazaridou, A., Peysakhovich, A., and Baroni, M.:
+Multi-agent cooperation and the emergence of (natural) language, in
+International Conference on Learning Representations (2017)
+[Lazaridou 18] Lazaridou, A., Hermann, K. M., Tuyls, K., and
+Clark, S.: Emergence of linguistic communication from referential
+games with symbolic and pixel input, in International Conference on
+Learning Representations (2018)
+[Lazaridou 20] Lazaridou, A. and Baroni, M.: Emergent Multi-
+Agent Communication in the Deep Learning Era, CoRR, V ol.
+abs/2006.02419, (2020)
+[Lewis 69] Lewis, D. K.: Convention: A philosophical study, Harvard
+University Press Cambridge (1969)
+[Mordatch 18] Mordatch, I. and Abbeel, P .: Emergence of grounded
+compositional language in multi-agent populations, in Proceedings
+of the 32nd AAAI Conference on Artiﬁcial Intelligence and Thirti-
+eth Innovative Applications of Artiﬁcial Intelligence Conference and
+Eighth AAAI Symposium on Educational Advances in Artiﬁcial Intel-
+ligence, AAAI’18/IAAI’18/EAAI’18, AAAI Press (2018)
+[Nolﬁ 10] Nolﬁ, S. and Mirolli, M.: Evolution of Communication and
+Language in Embodied Agents , Springer (2010)
+[N¨olle 20] N¨olle, J., Fusaroli, R., Mills, G. J., and Tyl ´en, K.: Lan-
+guage as shaped by the environment: linguistic construal in a collab-
+orative spatial task, Palgrave Communications, V ol. 6, No. 1, p. 27
+(2020)
+[OpenAI 23] OpenAI, : GPT-4 Technical Report (2023)
+[Ouyang 22] Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wain-
+wright, C., Mishkin, P ., Zhang, C., Agarwal, S., Slama, K., Ray, A.,
+Schulman, J., Hilton, J., Kelton, F., Miller, L., Simens, M., Askell, A.,
+Welinder, P ., Christiano, P . F., Leike, J., and Lowe, R.: Training
+language models to follow instructions with human feedback, in
+Koyejo, S., Mohamed, S., Agarwal, A., Belgrave, D., Cho, K., and
+Oh, A. eds., Advances in Neural Information Processing Systems ,
+V ol. 35, pp. 27730–27744, Curran Associates, Inc. (2022)
+[Raviv 19] Raviv, L., Meyer, A., and Lev-Ari, S.: Compositional
+structure can emerge without generational transmission, Cognition,
+V ol. 182, pp. 151–164 (2019)
+[Ren 20] Ren, Y ., Guo, S., Labeau, M., Cohen, S. B., and Kirby, S.:
+Compositional languages emerge in a neural iterated learning model,
+V ol. abs/2002.01365 (2020)
+[Ri 23] Ri, R., Ueda, R., and Naradowsky, J.: Emergent communica-
+tion with attention, V ol. abs/2305.10920 (2023)
+[Spike 16] Spike, M., Stadler, K., Kirby, S., and Smith, K.: Minimal
+requirements for the emergence of learned signaling, Cognitive Sci-
+ence, V ol. 28, No. 6, pp. 937–962 (2016)
+[Steels 12] Steels, L. and Loetzsch, M.: The grounded naming game,
+in Experiments in Cultural Language Evolution , pp. 41–59, John
+Benjamins (2012)
+[Williams 92] Williams, R. J.: Simple statistical gradient-following
+algorithms for connectionist reinforcement learning, Machine Learn-
+ing, V ol. 8, pp. 229–256 (1992)
+ঢฏʥ
+2023 ೥ 7݄7 ೔ डཧ
+ஶ ऀ ঺ հ
+Ҫ ᠳଠ
+2018ɽ2020ֶ
+ݚܥֶ޻
+தɽ
+ᖒ ༗༞ ʢਖ਼ձһʣ
+2012ɼ2014޻
+՝ఔɼ2017ݚܥֶ޻
+޻
+ͯɼ
+2024ֶ
+৬ʣ ɽઐ໳͸΢ΣΞϥϒϧηϯγϯά ɼਂ
+शԠ༻ɽ
+ླ໦ խେ ʢਖ਼ձһʣ
+2013ɽ2015࢜
+՝ఔमྃɽ2018՝ఔमྃɽത
+ʣ ɽ2020ज़
+ɽਓ
+ɽ
+দඌɹ๛ʢਖ਼ձһʣ
+1997ɽ2002՝ఔम
+ʣ ɽ2019޻
+तɽ2014 ೥ΑΓ
+2018ձྙཧҕһ௕ɽ 2017 ೥ΑΓ೔ຊ
+ձ࿦จ৆ɼ৘
+೦ಛผ৆ɼυίϞϞόΠϧαΠΤϯε
+शɼWebɽ

@@ -1,0 +1,9 @@
+{
+  "status": "collector_failed_http429; targeted_fallback_prepared",
+  "collector_log": "collect.log",
+  "initial_packet_log": "packet_2209.15342.log",
+  "database_preparation_script": "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_20260915/prepare_targeted_candidates.py",
+  "plugin_modified": false,
+  "packet_review_finalize": "original radar.py",
+  "systematic_search": false
+}

@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "type": "wrapper_only_consistency_fixture",
+  "v25_raw_protocols_read": 0,
+  "model_calls": 0,
+  "training_updates": 0,
+  "checks": [
+    {
+      "development_baseline": true,
+      "mock_row_count": 2,
+      "source_cells": 1,
+      "identical_mean_fixture_reproduces_all_macro_cells": true,
+      "joint_minus_mean_all_source_differences_exactly_zero": true,
+      "reference_count": 200,
+      "baseline_summary_sha256": "daba5d9c2fe8ae827f71562544fd0afa6889f7ae801c074debe62e220bd5f460"
+    },
+    {
+      "development_baseline": false,
+      "mock_row_count": 24,
+      "source_cells": 4,
+      "identical_mean_fixture_reproduces_all_macro_cells": true,
+      "joint_minus_mean_all_source_differences_exactly_zero": true,
+      "reference_count": 200,
+      "baseline_summary_sha256": "fec2d85100cfbb7428fdd3199ed5982ad9a26a01f9b7bce1471dcafec9719fbb"
+    }
+  ],
+  "wrapper_sha256": "4a3192a1885e2239f621bbb68d766507a2b72eaa4bc252811009acfa937acbd8",
+  "plan_sha256": "1903f34240cf3dd5238089caaaace1a56a18280dc151665263c96ca5a02a466d",
+  "note": "Copies old mean score rows in memory solely to verify nesting and comparison. This is not a v25 experimental result or a new baseline evaluation."
+}

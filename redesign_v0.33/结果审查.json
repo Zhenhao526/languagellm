@@ -1,0 +1,132 @@
+{
+  "passed_with_stated_limits": true,
+  "passed": true,
+  "status": "passed_scientific_review",
+  "version": "v0.33",
+  "reviewed_files": {
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.33/固定执行方案.md": "11963f6d9b256c8041925f04f4009e6656a7e254ee91a72875682ae57fe93c4d",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.33/support_design.json": "00758a782127cbda10a48e7e4a1d5a2fd4e39616ee8c25f8d03500c9c8b3db8c",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.33/implementation_review.json": "6c7fbb802ecfab22d854bbda0bb6d6ade632d2f32947e5c6c5c9696b9c549191",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.33/build_report.py": "872e8dddc68da66a549c606d8dacd826def4d3d260cdaf59a34bfe7ec731b19d",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.33/plot_results.py": "1cfce29586a364d6b653248eba980dc85129f90bbe471d8fe277f10e7d043946",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.33/message_examples.py": "cdc4a94914a5bf307667be7d77b7d18a864a9263f5c43633bafc04dc62f9e15e",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.33/cross_team.py": "4dbbb532a0dd880513225817153e7d8cd4038d8efe7876a053816d87572bc8bf",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.33/support.py": "c645743a6ea1d7f1e9072b55a3506f237b3dc65a566aab40721a4f91a61a1740",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.33/views.py": "2d6ca505c01ef8191e0efde96ebd4550105b00c6ab55609820d477d3883ec202",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.33/dual.py": "9dd857b18a4dea3bf3815c70886031ce2e207d4c3be943b515b161fbbf6b6659",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.33/metrics.py": "1a8e560d3aed89829b337bdf5b81e3eb779c1ede86a296c530a2c420706bbc72",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.33/preflight_qa.json": "83ea92f4f5bb38812335608ded6f55662281cfdad0b7e453a81bd3213e246509",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.33/results/team_001/analysis.json": "370baedc361c55ffa87c9cbefcd3b3eec689cb835dccc9a90c52cc438ab91ee3",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.33/results/team_001/raw_validation.json": "2502fd4df25c31a5159a9d78f52ec939bf259176270ec0457bc801af0a66f5c6",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.33/results/team_001/audit_execution.json": "3c15c13a62a7d3c479cb00209058640eae367e88640e971f61b912dc68128fdc",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.33/results/team_001/training_complete.json": "260d6f8e6af428f55cc160cdf640f48f1bde774032963c8428b87df28772bb14",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.33/results/team_001/terminal_receipt.json": "59598c43b70d27b0131e47163d2303df88ad5c8bd8eaddbdb199876e002d42f2",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.33/results/team_001/cross_team.json": "a16aa661502eb8a6ab98c9f410d65c1b268df0383514c2a9996c4fef7374f5a8",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.33/results/team_001/figures/visual_qa.json": "43118953e65cbd0e7a60256080105b12b9ccb8cb68a04f62da6d8f19bb22b1ec",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.33/results/team_001/互补观察下的双发送者共同符号形成研究报告.md": "597883356b0d2370a1bd6eb158473d71e953f889601d03e41718e1888060524b",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.33/results/team_001/实际消息示例.md": "54260ea919105708f45fc95e4351130e95e8ce0bebd75df18223125a68aa8f8c",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.33/results/team_001/message_examples.json": "1bb3475b4282633563d3b8b40af3a088f459190586e6c3b2977a47fd7a4f1046"
+  },
+  "review_scope": [
+    "Checked the predeclared single-sender, redundant dual-sender and complementary dual-sender conditions, same-world fixtures and fixed role schedule.",
+    "Checked the four-seed endpoint primary metric, target AUC, held-out transfer, component exchange and role-ordered FW/WF diagnostics.",
+    "Checked independent cross-team token substitution for within-team, same-private-type, one-token swap and all-cross compatibility.",
+    "Checked independent raw statistics, bounded endpoint/joint-trace replay, formal input/source hash binding and raster figure QA.",
+    "Checked every absolute local link in the v0.33 report."
+  ],
+  "findings": [
+    {
+      "type": "complementary_observation_grounded_gain",
+      "redundant_target12_J": 0.12355324074074073,
+      "complementary_target12_J": 0.3993055555555556,
+      "difference": 0.2757523148148149,
+      "auc_difference": 0.22445867091049385,
+      "four_source_differences": [
+        0.27777777777777785,
+        0.28009259259259256,
+        0.35416666666666674,
+        0.1909722222222223
+      ],
+      "source_signs": {
+        "positive": 4,
+        "negative": 0
+      },
+      "interpretation": "Complementary private observations produce a large and directionally consistent descriptive improvement in held-out grounded joint decoding relative to redundant full views. The four seeds are the independent units; no inferential p-value is claimed."
+    },
+    {
+      "type": "held_out_transfer",
+      "complementary_train12_J": 0.9739583333333333,
+      "complementary_target12_J": 0.3993055555555556,
+      "complementary_held18_J": 0.363233024691358,
+      "interpretation": "The complementary condition retains substantial target and held-out performance, so the endpoint effect is not confined to the 12 training edges."
+    },
+    {
+      "type": "cross_team_incompatibility",
+      "complementary_within": 0.3993055555555556,
+      "complementary_same_type_food": 0.0625,
+      "complementary_same_type_water": 0.048611111111111105,
+      "complementary_all_cross": 0.050763165509259266,
+      "within_to_all_cross_difference": -0.34854239004629634,
+      "interpretation": "High endpoint performance is tied to trained sender-receiver teams; replacing sender tokens across teams sharply reduces J, so a population-wide shared lexicon has not emerged."
+    },
+    {
+      "type": "ordered_role_asymmetry",
+      "complementary_FW_J": 0.3993055555555556,
+      "complementary_WF_J": 0.0,
+      "interpretation": "The saved protocol is ordered food-token then water-token. FW/WF is an offline structural diagnostic and cannot establish autonomous lexical composition."
+    },
+    {
+      "type": "form_grounding_dissociation",
+      "single_full_message_agreement": 0.02962962962962963,
+      "redundant_dual_message_agreement": 0.13541666666666666,
+      "complementary_dual_message_agreement": 0.10208333333333335,
+      "interpretation": "Full-message agreement remains low and does not track grounded task success; form agreement is not a sufficient semantic criterion."
+    }
+  ],
+  "limitations": [
+    "Four population members reuse two frozen private encoders; this tests controlled private variation rather than natural demographic or generational change.",
+    "Team roles and four-agent schedules are fixed, with no birth, death, migration, cultural transmission or generation turnover.",
+    "Food-only and water-only masks are experimenter-specified and the task is a symbolic resource-location protocol, not a model of complete human ecology.",
+    "The bounded audit replays endpoint sender worlds, receiver tables, agreement files and sampled traces, but not every gradient or Adam transition.",
+    "Cross-team token substitution is a diagnostic intervention performed after training; it is not an online communication episode.",
+    "The four seeds are independent units; panels, team slots, masks, photos and world rows are nested repeats."
+  ],
+  "next_step": "Keep complementary views and the two-resource payoff, rotate sender-receiver pairings during training and explicitly measure original-team, seen-role/new-partner and unseen-team transfer before adding a third resource or delayed relay.",
+  "figure_visual_qa": {
+    "status": "passed",
+    "passed": true,
+    "figures": {
+      "01_complementary_design.png": {
+        "sha256": "3b26c8d1ec2d59333e0a6bf88cd2abec4d67630e0d42f7367f8422eaebe97a29",
+        "width": 2732,
+        "height": 1500,
+        "nonwhite_fraction": 0.2557840409956076,
+        "readable_dimensions": true
+      },
+      "02_complementary_outcomes.png": {
+        "sha256": "8f4ecee21b800a70474478d8218c095eb5d65e14c9a4965e1dde5b1707ac27b0",
+        "width": 3338,
+        "height": 1919,
+        "nonwhite_fraction": 0.13418899835176037,
+        "readable_dimensions": true
+      }
+    },
+    "checks": [
+      {
+        "file": "01_complementary_design.png",
+        "dimensions": true,
+        "nonwhite_range": true
+      },
+      {
+        "file": "02_complementary_outcomes.png",
+        "dimensions": true,
+        "nonwhite_range": true
+      }
+    ]
+  },
+  "no_training_or_new_probes": true,
+  "link_check": {
+    "local_links": 14,
+    "missing": []
+  }
+}

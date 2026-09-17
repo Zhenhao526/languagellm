@@ -1,0 +1,29 @@
+{
+  "review_mode": "full_text",
+  "confidence": "medium",
+  "verdict": "must-read",
+  "paper_type": "method",
+  "scores": {
+    "relevance": 95,
+    "evidence": 83,
+    "novelty": 72,
+    "impact": 77,
+    "reproducibility": 82,
+    "author_prior": 50,
+    "early_signal": 50
+  },
+  "contribution": "冻结DINOv2，在通信中加表征对齐，区分表示几何与严格视觉组合辨别。",
+  "evidence_summary": "新GRU/视觉接口，15种子及验证选择；RSA/TopSim改善未带来Winoground严格图对表现改善。",
+  "novelty_comparison": "冻结DINO以及表示规整不保证功能泛化均有直接先例；本项目的私人行动准备发生在通信前，仍需能力与一般正则对照。",
+  "recommendation_reasons": [
+    "直接使用相同类型自监督视觉主体",
+    "结构分数和自然功能泛化分离的重要负结果"
+  ],
+  "concerns": [
+    "对齐损失读取双方内部表征，不是完全独立的私人准备",
+    "接收者交叉熵与本项目独立标量后果不同",
+    "几何对齐不是世界知识的移除"
+  ],
+  "summary": "冻结DINOv2，在通信中加表征对齐，区分表示几何与严格视觉组合辨别。 新GRU/视觉接口，15种子及验证选择；RSA/TopSim改善未带来Winoground严格图对表现改善。",
+  "arxiv_id": "2407.17960"
+}

@@ -1,0 +1,67 @@
+{
+  "actors_created": 0,
+  "audit_source_sha256": "486ce3b978e4dd3f7cde8a8283da3afd3b31527d5719935fc7a729f0c14c1bee",
+  "baseline_source_sha256": "1f3cae631bc15e8f2004e27187370fcc8f9448ac6f99495e867c6ac40e2e0d6a",
+  "cases": [
+    {
+      "J": [
+        0.01378682804983556,
+        3.4698802240466656e-05
+      ],
+      "case": "ordinary",
+      "coordinates": 102,
+      "dense_gradient_max_abs_error": 1.1102230246251565e-16,
+      "finite_difference_step": 1e-05,
+      "log_J": [
+        -4.284041631776161,
+        -10.268805389173007
+      ],
+      "logit_gradient_max_abs_error": 8.693856398678257e-11,
+      "states": 2
+    },
+    {
+      "J": [
+        0.0
+      ],
+      "case": "tiny_J",
+      "coordinates": 51,
+      "dense_gradient_max_abs_error": 0.0,
+      "finite_difference_step": 0.001,
+      "log_J": [
+        -1000.0
+      ],
+      "logit_gradient_max_abs_error": 2.3646862246096134e-11,
+      "states": 1
+    },
+    {
+      "J": [
+        0.0
+      ],
+      "case": "tiny_multiple",
+      "coordinates": 51,
+      "dense_gradient_max_abs_error": 0.0,
+      "finite_difference_step": 0.001,
+      "log_J": [
+        -20000.0
+      ],
+      "logit_gradient_max_abs_error": 2.0372681319713593e-10,
+      "states": 1
+    }
+  ],
+  "checked_at": "2026-09-15T15:16:52.015428+00:00",
+  "control_loss_and_derivative_exact_at_updates": [
+    1,
+    501,
+    1001,
+    6000
+  ],
+  "dense_joint_terms_per_state": 4913,
+  "finite_difference_absolute_tolerance": 2e-07,
+  "finite_difference_logit_coordinates": 204,
+  "interpretation": "Mean log native expectation changes weighting across states; not pure exploration and not the logarithm of a batch-mean reward",
+  "network_forward_calls": 0,
+  "optimizer_updates": 0,
+  "runner_sha256": "9aad4e8bbcb71f645227908ddb05559d103cd919e264dfa5b4bc4eae9aeaba87",
+  "status": "passed",
+  "training_updates": 0
+}

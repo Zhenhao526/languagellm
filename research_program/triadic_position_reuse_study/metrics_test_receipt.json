@@ -1,0 +1,38 @@
+{
+  "status": "passed_pure_tests",
+  "created_at": "2026-09-15T20:04:06.526953+00:00",
+  "command": "qwen_collect_pilot/.venv/bin/python -m unittest research_program.triadic_position_reuse_study.tests.test_metrics -v",
+  "tests": 14,
+  "reported_test_seconds": 0.297,
+  "exit_code": 0,
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_position_reuse_study/metrics.py": "6346a86984f138940265831198511e79b30b1772d58ebe3ea1b5af87d7c0e038",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_position_reuse_study/tests/test_metrics.py": "ac79ecac960636c68b5983e02a646ba22231907b2c086b9cff9aba8a93937559"
+  },
+  "api": {
+    "row_values": "row_values(spec, direction, recipient_states, natural, data, code_sets, *, counterfactual_states)",
+    "counterfactual_states": "Integer N x 10 original counterpart endpoint states; require identical recipient layout/owner, only sender need differs; copy first three needs only for settlement.",
+    "contrast": "Equal one-dimensional row vectors or stacked (2,N) directional arrays; fixed denominator.",
+    "selection_summary": "Retains all eight positions, 144 rows and both directions; per sender training selection applied to every test axis."
+  },
+  "changes_before_freeze": [
+    "Replace unavailable env.KINDS/LENGTHS with mappings derived from env.MATERIALS.",
+    "Remove nonexistent spec.counterpart_states dependency; require explicit counterpart states.",
+    "Validate integer actions, layouts/owners, greedy probabilities and saved settlements.",
+    "Accept runner stacked (2,144) contrast arrays as well as one-direction vectors.",
+    "Evaluate balanced specificity with equivalent within-column differences: identical selected rows give exact zero without clamping."
+  ],
+  "coverage": [
+    "24 layouts x 3 listeners x 17 actions independently decoded, waits all -1",
+    "Both directions of all 144 static validation cases and explicit need-only counterfactual",
+    "Current/counterfactual action appropriateness and unchanged requirement conjunction",
+    "No source mutation, no missing-row or changed-sample aggregation",
+    "All eight-position arithmetic reference, row/column additive cancellation, shared position exact S=0",
+    "Negative and outside-packet effects retain original denominator"
+  ],
+  "no_neural_forward": true,
+  "no_training": true,
+  "no_saved_policy_outputs_read": true,
+  "no_formal_prepare": true,
+  "previous_failed_test_runs": 0
+}

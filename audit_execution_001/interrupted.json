@@ -1,0 +1,9 @@
+{
+  "status": "interrupted_before_scientific_validation",
+  "reason": "The production factor-response statistic was found to use an unintended NumPy broadcast. The audit process was stopped before completion so it could not certify the invalid statistic.",
+  "original_results_sha256": "10f2879e0f41eb73c69c1f4fe1bced9759d69f7f84554057a31f557fb4620d74",
+  "production_expression": "np.all(actual[:, None] == targets, axis=1)",
+  "intended_expression": "np.all(actual == targets, axis=1)",
+  "model_forwards_completed": "unknown; process stopped during replay",
+  "training_or_result_files_modified": false
+}

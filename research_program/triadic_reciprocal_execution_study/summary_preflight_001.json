@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "created_at": "2026-09-16T03:47:25.632823+00:00",
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/summarize_results.py": "e58d87bb23988309c2d91feea1310a0e67910a2551e64d88a5234df1e8c2d3f5",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/tests/test_summary.py": "1d928bd3d8327649518b196f541d09969fbbf54f647c19c15efb09bd3c06f093"
+  },
+  "command": "qwen_collect_pilot/.venv/bin/python -m unittest research_program.triadic_reciprocal_execution_study.tests.test_summary -v",
+  "invocations": [
+    {
+      "chunk_id": "4b74de",
+      "tests": 4,
+      "unittest_elapsed_seconds": 0.286,
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "00585d",
+      "tests": 4,
+      "unittest_elapsed_seconds": 0.281,
+      "exit_code": 0,
+      "reason": "Align conditional-probability roundoff tolerance to frozen kernel; added one-ULP fixture without modifying stored values."
+    }
+  ],
+  "fixture_coverage": [
+    "All8 runs,224 records,448 cross-settlement references; original metadata retained unchanged",
+    "Positive,negative,zero seed differences; both algebraic decompositions; same frozen primary reduction order",
+    "Six monitor points separate from full endpoints; allfour partitions",
+    "Native executed pair counts separate none and active fixedness; mixed pairs and all-failed cases",
+    "Complete27 joint proposal/execution role count distributions",
+    "Missing runs/checkpoints and primary/count/proposal tampering rejected",
+    "TemporaryJSON-only workflow succeeds with nonexistent NPZ paths;5 bound inputJSONs and hashed output receipt",
+    "Overwrite,activeexecution,and changedprepared hash rejected",
+    "Finite conditional probabilities tolerate2e-12 roundoff without clipping"
+  ],
+  "scope": {
+    "real_results_read": false,
+    "real_results_summarized": false,
+    "npz_files_opened": 0,
+    "model_imports": 0,
+    "model_loads": 0,
+    "neural_forward_calls": 0,
+    "training_updates": 0
+  },
+  "default_output": "results/rules_001/summary_001",
+  "execution_authority": "Root only; this preflight has not read active or complete formal experiment results."
+}

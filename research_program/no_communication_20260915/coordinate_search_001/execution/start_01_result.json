@@ -1,0 +1,165 @@
+{
+  "start_id": 1,
+  "name": "uniform_table_seed_2026091501",
+  "rng_seed": 2026091501,
+  "initial": {
+    "success_units": 79,
+    "score_denominator": 47808,
+    "score_fraction": "79/47808",
+    "score": 0.0016524431057563587,
+    "reward_histogram_success_units": {
+      "0": 23840,
+      "1": 49,
+      "2": 15
+    },
+    "local_observation_consistency": true,
+    "at_or_below_75_over_83": true
+  },
+  "final": {
+    "round": 8,
+    "success_units": 14432,
+    "score_denominator": 47808,
+    "score_fraction": "451/1494",
+    "score": 0.30187416331994643,
+    "reward_histogram_success_units": {
+      "0": 13331,
+      "1": 6714,
+      "2": 3859
+    },
+    "local_observation_consistency": true,
+    "at_or_below_75_over_83": true
+  },
+  "full_rounds": 8,
+  "stop_reason": "no_strict_improvement_over_full_round",
+  "trajectory": [
+    {
+      "round": 0,
+      "success_units": 79,
+      "score_denominator": 47808,
+      "score_fraction": "79/47808",
+      "score": 0.0016524431057563587,
+      "reward_histogram_success_units": {
+        "0": 23840,
+        "1": 49,
+        "2": 15
+      },
+      "local_observation_consistency": true,
+      "at_or_below_75_over_83": true
+    },
+    {
+      "round": 1,
+      "success_units": 9015,
+      "score_denominator": 47808,
+      "score_fraction": "3005/15936",
+      "score": 0.1885667670682731,
+      "reward_histogram_success_units": {
+        "0": 18027,
+        "1": 2739,
+        "2": 3138
+      },
+      "local_observation_consistency": true,
+      "at_or_below_75_over_83": true
+    },
+    {
+      "round": 2,
+      "success_units": 11617,
+      "score_denominator": 47808,
+      "score_fraction": "11617/47808",
+      "score": 0.2429928045515395,
+      "reward_histogram_success_units": {
+        "0": 16305,
+        "1": 3581,
+        "2": 4018
+      },
+      "local_observation_consistency": true,
+      "at_or_below_75_over_83": true
+    },
+    {
+      "round": 3,
+      "success_units": 12337,
+      "score_denominator": 47808,
+      "score_fraction": "12337/47808",
+      "score": 0.25805304551539493,
+      "reward_histogram_success_units": {
+        "0": 15686,
+        "1": 4099,
+        "2": 4119
+      },
+      "local_observation_consistency": true,
+      "at_or_below_75_over_83": true
+    },
+    {
+      "round": 4,
+      "success_units": 13023,
+      "score_denominator": 47808,
+      "score_fraction": "1447/5312",
+      "score": 0.2724021084337349,
+      "reward_histogram_success_units": {
+        "0": 15110,
+        "1": 4565,
+        "2": 4229
+      },
+      "local_observation_consistency": true,
+      "at_or_below_75_over_83": true
+    },
+    {
+      "round": 5,
+      "success_units": 13435,
+      "score_denominator": 47808,
+      "score_fraction": "13435/47808",
+      "score": 0.28101991298527446,
+      "reward_histogram_success_units": {
+        "0": 14558,
+        "1": 5257,
+        "2": 4089
+      },
+      "local_observation_consistency": true,
+      "at_or_below_75_over_83": true
+    },
+    {
+      "round": 6,
+      "success_units": 14017,
+      "score_denominator": 47808,
+      "score_fraction": "14017/47808",
+      "score": 0.2931936077643909,
+      "reward_histogram_success_units": {
+        "0": 13788,
+        "1": 6215,
+        "2": 3901
+      },
+      "local_observation_consistency": true,
+      "at_or_below_75_over_83": true
+    },
+    {
+      "round": 7,
+      "success_units": 14432,
+      "score_denominator": 47808,
+      "score_fraction": "451/1494",
+      "score": 0.30187416331994643,
+      "reward_histogram_success_units": {
+        "0": 13331,
+        "1": 6714,
+        "2": 3859
+      },
+      "local_observation_consistency": true,
+      "at_or_below_75_over_83": true
+    },
+    {
+      "round": 8,
+      "success_units": 14432,
+      "score_denominator": 47808,
+      "score_fraction": "451/1494",
+      "score": 0.30187416331994643,
+      "reward_histogram_success_units": {
+        "0": 13331,
+        "1": 6714,
+        "2": 3859
+      },
+      "local_observation_consistency": true,
+      "at_or_below_75_over_83": true
+    }
+  ],
+  "final_policy_file": "start_01_final_policy.json",
+  "final_policy_sha256": "70b03bd0a09b64d3df7affce8e994e0034c6b1c7b7838569bba0b7d4d50d529e",
+  "coordinate_updates": 24
+}

@@ -1,0 +1,63 @@
+{
+  "status": "redirect_resolved_old_author_alias_overlap_still_unresolved",
+  "created_utc": "2026-09-15T17:03:47.506132+00:00",
+  "blind_id": "1e0495e5e2cf",
+  "official_redirect": {
+    "from": "User:GTSPACE",
+    "to": "User:SarKaLay"
+  },
+  "official_target_page": {
+    "pageid": 145637534,
+    "ns": 2,
+    "title": "User:SarKaLay",
+    "contentmodel": "wikitext",
+    "pagelanguage": "en",
+    "pagelanguagehtmlcode": "en",
+    "pagelanguagedir": "ltr",
+    "touched": "2026-06-11T04:18:43Z",
+    "lastrevid": 1229254541,
+    "length": 730
+  },
+  "html_and_api_agree": true,
+  "official_requests": 2,
+  "request_outcomes": [
+    200,
+    200
+  ],
+  "more_requests_authorized_in_this_lookup": false,
+  "old101_potential_alias_record": {
+    "title": "File:Banana 10.jpg",
+    "title_key": "banana 10.jpg",
+    "original_sha1": "6ca899696460cdbba2f596aecd0e6ebd805e5485",
+    "downloaded_sha256": "de233885dd520ecfbaad2cef9f7ece65cddae325ad9bece4c9ac216504465912",
+    "processed_sha256": "b3b2c28369deb781a74ef9ca9161f09b3918320bd4faebe47cb6b4e5722e4051",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Banana_10.jpg",
+    "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:SarKaLay_%E1%80%85%E1%80%AC%E1%80%80%E1%80%9C%E1%80%B1%E1%80%B8\" title=\"User:SarKaLay စာကလေး\">SarKaLay စာကလေး</a>",
+    "author_keys": [
+      "commons-user:sarkalay စာကလေး",
+      "text:sarkalay စာကလေး"
+    ],
+    "author_resolved": true,
+    "original_source_keys": []
+  },
+  "old_author_overlap_confirmed": false,
+  "old_author_overlap_ruled_out": false,
+  "disposition": "Continue pending; do not count as usable. Different exact account strings with shared distinctive name cannot establish or exclude alias identity without further evidence. Bounded lookup ends here.",
+  "prior_visual_and_license_findings_unchanged": true,
+  "frozen002_status_unchanged": true,
+  "usable_increment": 0,
+  "source_hashes": {
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/author_resolution_001/resolve_author.py": "f806d209f4aad8a7d5bb06d5d7031962eaf07a8611b58a6ba419338aecc82f0f",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/author_resolution_001/requests.json": "9c84990ccdd9ee8ea64041edb682564232acd89d0479339278401130c60f1192",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/author_resolution_001/user_page.response": "943e706e51b0e0026f8a31d4d1819abc1e0d977ba8be7fc343e1586b4d24888f",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/author_resolution_001/redirects_api.response": "0538e150d049be471a677112a6b3e9950bd37909213f5dd3bc3c5f92b901fb03",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/author_resolution_001/execution_receipt.json": "b8727f52db49fff02d890d3699e49b17dcc1f082e22494c40e7e92fe1fd010bb",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/old_exclusion_registry.json": "5e202b44dbb0c27436cb08396889ff91727bed976041f4e9d4851f31c7b0ea57",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/manifest.json": "97fe2ffe555738dd0259926019d56bf743e7b7adf71f518058adbdeffe259f8c",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/identity_license_early_round1.json": "0739064787d9bf174bb9a8ebaba47d34ddb24c25f9b0aabf666f557d0ef55605",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/curation_status_20260916.json": "d4854d56a98c33f68e2130b34b5d630987b9304dd4c192d95e29edbc6b31e07a"
+  },
+  "image_requests": 0,
+  "image_views": 0,
+  "model_calls": 0
+}

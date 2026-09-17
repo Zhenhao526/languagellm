@@ -1,0 +1,63 @@
+{
+  "reviewed_utc": "2026-09-15T17:15:26.374193+00:00",
+  "status": "one_required_pre_freeze_fix_reported",
+  "files_sha256": {
+    "channel_intervention.py": "84a3be823074837dc7d8fe7fcf529e4ef86b1d72770a03df1146a5c2a1764afa",
+    "plan.md": "c9921daf569726db6e74ef1e78176336c50c8f9ca76597d55d8f84a6d00d3c5b",
+    "channel_test_receipt_001.json": "3d973c71a517a71270f5c25e730d44ea03147b14e2b4cdbc528da9854b46fa35"
+  },
+  "passed_read_only_checks": [
+    "replace_outward replaces the designated sender payload for both other viewers only",
+    "sender own payload retained; all visibility bits unchanged",
+    "all window2 senders use the fully assembled window1 routes before actions",
+    "all three actions use regenerated window2 and unchanged private observations",
+    "returned messages are actually self-generated tokens, not replaced outward packet contents",
+    "W2-only does not alter window1 or self-generated window2",
+    "silent routing ignores all attempted outward interventions",
+    "native reward formula retains full17 legal action indices and original D1 matching requirements",
+    "plan labels local_both as structural identity, recipient-only heldout status, and no compositionality claim"
+  ],
+  "required_fix": {
+    "location": "channel_intervention.intervene window2 selection",
+    "issue": "raw-logit argmax differs from frozen original probability argmax on floating-point near ties",
+    "pure_numpy_counterexample": {
+      "each_head_logits": [
+        0.0,
+        5.551115123125783e-17,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_argmax": 1,
+      "float64_softmax_argmax": 0,
+      "softmax": [
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125
+      ]
+    },
+    "reported_to_root": true,
+    "production_source_modified_by_reviewer": false
+  },
+  "budget": {
+    "new_natural_worlds": 3732480,
+    "new_intervention_worlds": 2764800,
+    "new_forward_worlds": 6497280,
+    "new_network_samples": 50181120,
+    "new_natural_npz": 160,
+    "new_intervention_npz": 320,
+    "old_natural_npz_references": 32,
+    "old_natural_worlds": 746496
+  },
+  "new_model_forwards": 0,
+  "training_calls": 0,
+  "new_diagnostic_results_read": false
+}

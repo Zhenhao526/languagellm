@@ -1,0 +1,12 @@
+{
+  "planned": 4,
+  "processed": 3,
+  "model_calls": 0,
+  "confirmation_requests": 0,
+  "status": "waiting_serial_interval",
+  "earliest_retry_utc": "2026-09-16T05:07:45.242068+00:00",
+  "wait_started": {
+    "utc": "2026-09-16T05:07:35.352860+00:00",
+    "monotonic": 621199.216034666
+  }
+}

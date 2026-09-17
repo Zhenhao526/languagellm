@@ -1,0 +1,487 @@
+{
+  "unique:kind_wood_fiber": {
+    "first_legal_pair_id": "need_pair_01992",
+    "first_disjoint_listener_example": {
+      "pair_id": "need_pair_01992",
+      "changed_person": "B",
+      "listener": "A",
+      "needs_before": [
+        0,
+        0,
+        3
+      ],
+      "needs_after": [
+        0,
+        3,
+        3
+      ],
+      "layout": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "private_sites": [
+        1,
+        2,
+        3
+      ],
+      "successful_actions_before": [
+        {
+          "kind": "transport",
+          "site": "S0",
+          "destination": "L",
+          "partner": "B",
+          "material": [
+            "wood",
+            "short"
+          ]
+        },
+        {
+          "kind": "transport",
+          "site": "S1",
+          "destination": "L",
+          "partner": "B",
+          "material": [
+            "wood",
+            "long"
+          ]
+        }
+      ],
+      "successful_actions_after": [
+        {
+          "kind": "wait"
+        }
+      ],
+      "unique_participation_wait_switch": true
+    },
+    "first_disjoint_without_role_switch": {
+      "pair_id": "need_pair_02010",
+      "changed_person": "A",
+      "listener": "C",
+      "needs_before": [
+        0,
+        7,
+        11
+      ],
+      "needs_after": [
+        3,
+        7,
+        11
+      ],
+      "layout": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "private_sites": [
+        1,
+        2,
+        3
+      ],
+      "successful_actions_before": [
+        {
+          "kind": "transport",
+          "site": "S1",
+          "destination": "L",
+          "partner": "A",
+          "material": [
+            "wood",
+            "long"
+          ]
+        }
+      ],
+      "successful_actions_after": [
+        {
+          "kind": "transport",
+          "site": "S3",
+          "destination": "L",
+          "partner": "A",
+          "material": [
+            "fiber",
+            "long"
+          ]
+        }
+      ],
+      "unique_participation_wait_switch": false
+    },
+    "first_role_switch": {
+      "pair_id": "need_pair_01992",
+      "changed_person": "B",
+      "listener": "A",
+      "needs_before": [
+        0,
+        0,
+        3
+      ],
+      "needs_after": [
+        0,
+        3,
+        3
+      ],
+      "layout": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "private_sites": [
+        1,
+        2,
+        3
+      ],
+      "successful_actions_before": [
+        {
+          "kind": "transport",
+          "site": "S0",
+          "destination": "L",
+          "partner": "B",
+          "material": [
+            "wood",
+            "short"
+          ]
+        },
+        {
+          "kind": "transport",
+          "site": "S1",
+          "destination": "L",
+          "partner": "B",
+          "material": [
+            "wood",
+            "long"
+          ]
+        }
+      ],
+      "successful_actions_after": [
+        {
+          "kind": "wait"
+        }
+      ],
+      "unique_participation_wait_switch": true
+    }
+  },
+  "unique:length_short_long": {
+    "first_legal_pair_id": "need_pair_02118",
+    "first_disjoint_listener_example": {
+      "pair_id": "need_pair_02118",
+      "changed_person": "C",
+      "listener": "B",
+      "needs_before": [
+        0,
+        5,
+        7
+      ],
+      "needs_after": [
+        0,
+        5,
+        10
+      ],
+      "layout": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "private_sites": [
+        1,
+        2,
+        3
+      ],
+      "successful_actions_before": [
+        {
+          "kind": "transport",
+          "site": "S2",
+          "destination": "R",
+          "partner": "C",
+          "material": [
+            "fiber",
+            "short"
+          ]
+        }
+      ],
+      "successful_actions_after": [
+        {
+          "kind": "transport",
+          "site": "S3",
+          "destination": "R",
+          "partner": "C",
+          "material": [
+            "fiber",
+            "long"
+          ]
+        }
+      ],
+      "unique_participation_wait_switch": false
+    },
+    "first_disjoint_without_role_switch": {
+      "pair_id": "need_pair_02118",
+      "changed_person": "C",
+      "listener": "B",
+      "needs_before": [
+        0,
+        5,
+        7
+      ],
+      "needs_after": [
+        0,
+        5,
+        10
+      ],
+      "layout": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "private_sites": [
+        1,
+        2,
+        3
+      ],
+      "successful_actions_before": [
+        {
+          "kind": "transport",
+          "site": "S2",
+          "destination": "R",
+          "partner": "C",
+          "material": [
+            "fiber",
+            "short"
+          ]
+        }
+      ],
+      "successful_actions_after": [
+        {
+          "kind": "transport",
+          "site": "S3",
+          "destination": "R",
+          "partner": "C",
+          "material": [
+            "fiber",
+            "long"
+          ]
+        }
+      ],
+      "unique_participation_wait_switch": false
+    },
+    "first_role_switch": {
+      "pair_id": "need_pair_02138",
+      "changed_person": "B",
+      "listener": "A",
+      "needs_before": [
+        6,
+        6,
+        9
+      ],
+      "needs_after": [
+        6,
+        9,
+        9
+      ],
+      "layout": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "private_sites": [
+        1,
+        2,
+        3
+      ],
+      "successful_actions_before": [
+        {
+          "kind": "transport",
+          "site": "S0",
+          "destination": "L",
+          "partner": "B",
+          "material": [
+            "wood",
+            "short"
+          ]
+        },
+        {
+          "kind": "transport",
+          "site": "S2",
+          "destination": "L",
+          "partner": "B",
+          "material": [
+            "fiber",
+            "short"
+          ]
+        }
+      ],
+      "successful_actions_after": [
+        {
+          "kind": "wait"
+        }
+      ],
+      "unique_participation_wait_switch": true
+    }
+  },
+  "unique:destination_L_R": {
+    "first_legal_pair_id": "need_pair_01860",
+    "first_disjoint_listener_example": {
+      "pair_id": "need_pair_01861",
+      "changed_person": "A",
+      "listener": "B",
+      "needs_before": [
+        0,
+        2,
+        3
+      ],
+      "needs_after": [
+        1,
+        2,
+        3
+      ],
+      "layout": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "private_sites": [
+        1,
+        2,
+        3
+      ],
+      "successful_actions_before": [
+        {
+          "kind": "transport",
+          "site": "S0",
+          "destination": "L",
+          "partner": "A",
+          "material": [
+            "wood",
+            "short"
+          ]
+        },
+        {
+          "kind": "transport",
+          "site": "S1",
+          "destination": "L",
+          "partner": "A",
+          "material": [
+            "wood",
+            "long"
+          ]
+        }
+      ],
+      "successful_actions_after": [
+        {
+          "kind": "transport",
+          "site": "S0",
+          "destination": "R",
+          "partner": "A",
+          "material": [
+            "wood",
+            "short"
+          ]
+        },
+        {
+          "kind": "transport",
+          "site": "S1",
+          "destination": "R",
+          "partner": "A",
+          "material": [
+            "wood",
+            "long"
+          ]
+        }
+      ],
+      "unique_participation_wait_switch": false
+    },
+    "first_disjoint_without_role_switch": {
+      "pair_id": "need_pair_01861",
+      "changed_person": "A",
+      "listener": "B",
+      "needs_before": [
+        0,
+        2,
+        3
+      ],
+      "needs_after": [
+        1,
+        2,
+        3
+      ],
+      "layout": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "private_sites": [
+        1,
+        2,
+        3
+      ],
+      "successful_actions_before": [
+        {
+          "kind": "transport",
+          "site": "S0",
+          "destination": "L",
+          "partner": "A",
+          "material": [
+            "wood",
+            "short"
+          ]
+        },
+        {
+          "kind": "transport",
+          "site": "S1",
+          "destination": "L",
+          "partner": "A",
+          "material": [
+            "wood",
+            "long"
+          ]
+        }
+      ],
+      "successful_actions_after": [
+        {
+          "kind": "transport",
+          "site": "S0",
+          "destination": "R",
+          "partner": "A",
+          "material": [
+            "wood",
+            "short"
+          ]
+        },
+        {
+          "kind": "transport",
+          "site": "S1",
+          "destination": "R",
+          "partner": "A",
+          "material": [
+            "wood",
+            "long"
+          ]
+        }
+      ],
+      "unique_participation_wait_switch": false
+    },
+    "first_role_switch": null
+  },
+  "multiple:kind_wood_fiber": {
+    "first_legal_pair_id": "need_pair_00588",
+    "first_disjoint_listener_example": null,
+    "first_disjoint_without_role_switch": null,
+    "first_role_switch": null
+  },
+  "multiple:length_short_long": {
+    "first_legal_pair_id": "need_pair_01224",
+    "first_disjoint_listener_example": null,
+    "first_disjoint_without_role_switch": null,
+    "first_role_switch": null
+  },
+  "multiple:destination_L_R": {
+    "first_legal_pair_id": "need_pair_00000",
+    "first_disjoint_listener_example": null,
+    "first_disjoint_without_role_switch": null,
+    "first_role_switch": null
+  }
+}

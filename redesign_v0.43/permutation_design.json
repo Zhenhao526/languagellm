@@ -1,0 +1,47 @@
+{
+  "version": "v0.43-permutation-formation",
+  "description": "形成阶段的全资源排列与角色顺序随机化",
+  "research_question": "共同符号的公共性和资源块等变性是否必须在形成阶段经历资源身份与角色顺序的对称化；这种训练压力是否改变双 token 协议的功能和序列结构？",
+  "factorial": {
+    "resource_assignments": "all six permutations of the three resource image columns",
+    "role_modes": ["static_role", "random_role"],
+    "topology_conditions": ["fixed_A", "rotating_AB", "random_ABC"],
+    "seeds": [34101, 34102, 34103, 34104],
+    "partitions": [1, 2, 3],
+    "chains": 432,
+    "primary_unit": "seed×partition×resource_assignment×role_mode×topology_condition"
+  },
+  "protocol": {
+    "resources": 3,
+    "tokens_per_resource_sender": 2,
+    "message_length": 6,
+    "vocabulary": 7,
+    "role_permutations": 6,
+    "role_randomization": "one deterministic resource-role permutation per team and update in random_role mode",
+    "receiver_evaluation": "each saved protocol table contains six role-permutation token/action evaluations",
+    "payoff": "(1/6)*sum(correct_resource_slots)+0.5*all_three_correct_slots",
+    "baseline": 0.1
+  },
+  "training": {
+    "updates": 600,
+    "checkpoints": [0, 100, 300, 600],
+    "new_communication_heads": "fresh random sender and receiver modules",
+    "private_visual_frontends": "inherited from v0.28 and frozen",
+    "schedule_namespace": 43040,
+    "fixture_namespace": 43041,
+    "role_namespace": 43042
+  },
+  "measurements": {
+    "function": ["target60_joint_J", "all120_joint_J", "resource_slot_accuracy"],
+    "role": ["literal_target_J", "equivariant_target_J", "role_permutation_sensitivity"],
+    "sequence": ["token0/token1/pair agreement", "token position NMI", "prefix sensitivity"],
+    "formation": ["learning curve", "role mode × topology interaction", "all-six assignment effect"]
+  },
+  "controls_and_limits": [
+    "all six resource permutations move resource identity across architectural input columns while world geometry stays fixed",
+    "static_role preserves the v0.41 message ordering; random_role samples all six role orderings during formation",
+    "role-permutation evaluation reports literal and target-axis-synchronized scores separately",
+    "the six-site, three-resource task remains a bounded grounded protocol and not open-ended language",
+    "training uses centralized shared reward and frozen private visual frontends"
+  ]
+}

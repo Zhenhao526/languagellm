@@ -1,0 +1,14 @@
+{
+  "checkpoint_hashes_checked": 64,
+  "independent_replay": "Producer implementation not imported; natural bank, aligned/placebo routing, legal plan mass, partner transfer, strict settlement and group summaries recomputed independently",
+  "live_rows_replayed": 2433024,
+  "max_abs_error": 0.0,
+  "model_forward_samples": 61839360,
+  "optimizer_updates": 0,
+  "placebo_mapping_checks": 76032,
+  "policy_blocks": 64,
+  "probe": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_semantic_transfer_probe/results/semantic_transfer_002",
+  "rows_replayed": 4866048,
+  "status": "passed",
+  "worlds_per_policy": 56160
+}

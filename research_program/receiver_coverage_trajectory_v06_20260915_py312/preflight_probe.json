@@ -1,0 +1,93 @@
+{
+  "status": "passed",
+  "written_and_rerun_after_execution": true,
+  "timing_note": "The initial interactive review/probes preceded execute. This script and JSON were first saved after execute completed; their actual rerun time is recorded and is not a preregistration timestamp.",
+  "rerun_at": "2026-09-15T18:07:05.122218+08:00",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "1.26.4"
+  },
+  "source_sha256": "386e5e2defb51fdf8e2e1ad8bb14d6264b5c029925d3c319d94d73d0b06f8eeb",
+  "script_sha256": "84fae4844ec07129a3c02b3761f23efd69ce408c9e3dd8245905901c7a6ca8e7",
+  "plan_sha256": "ee6fb87cf628f769fbfce78fff34984df016e5b9a7e7ef69be3e3b80345e9e61",
+  "reconstructed_pre_execution_checks": {
+    "frozen_sources_and_snapshots_verified": 686,
+    "policy_files": 448,
+    "receiver_checkpoints": 896,
+    "classification_uniform_goal_oracles": {
+      "same_code_both_correct": 1.0,
+      "both_marginals_but_no_joint_code": 0.5,
+      "exactly_one_marginal_reachable": 0.5,
+      "neither_marginal_reachable": 0.0
+    },
+    "train_oracle_denominator": 48,
+    "heldout_oracle_denominator": 12,
+    "menu_gather_counterexample": {
+      "same_code_joint": {
+        "numerator": 480,
+        "denominator": 720,
+        "rate": 0.6666666666666666
+      },
+      "both_marginals_no_joint": {
+        "numerator": 240,
+        "denominator": 720,
+        "rate": 0.3333333333333333
+      },
+      "mean_menu_max_code": {
+        "numerator": 1200,
+        "denominator": 1440,
+        "rate": 0.8333333333333334
+      },
+      "max_code_mean_menu": 0.75,
+      "blocked_zero_code": {
+        "numerator": 1080,
+        "denominator": 1440,
+        "rate": 0.75
+      }
+    },
+    "old_endpoint_tables_reconstructed_and_hashed": 112,
+    "synthetic_summary_by_seed_rows": 320,
+    "synthetic_summary_by_family_rows": 80,
+    "directions_per_split_family_seed": 6,
+    "directions_per_full_control_seed": 2,
+    "four_independent_seeds_retained": true
+  },
+  "ast_runtime_incident": {
+    "legacy_python": "3.9.6",
+    "replacement_python": "3.12.14",
+    "legacy_ast_sha256": "ff724b77342bbb53afa41d83c8dc7eb95985b6729be847c07a18096ede92ac6d",
+    "replacement_ast_sha256": "39f88d4d705a0d44219f00d4fb1039384836517afe794517403a442cf97b42b6",
+    "current_functiondef_fields": [
+      "name",
+      "args",
+      "body",
+      "decorator_list",
+      "returns",
+      "type_comment",
+      "type_params"
+    ],
+    "same_source_hashes_and_run_selection": true,
+    "legacy_package_unexecuted": true,
+    "repair": "Re-prepare a separate package with the execution Python; retain original package and all SHA/AST validation."
+  },
+  "post_execution_read_only_checks": {
+    "status": "completed",
+    "receiver_records": 896,
+    "endpoint_exact_match_records": 112,
+    "ties": 0,
+    "receiver_forward_calls_reported_by_execution": 896,
+    "evaluated_rows_reported_by_execution": 87808,
+    "records_sha256": "9e8ec46a0b8f3231c2a92d72a4a93a5746d50d46694b5d1e0d725d297eeaeb9d",
+    "minimum_recorded_argmax_margin": 7.569789886474609e-06,
+    "note": "Reads execution records; does not independently reload tensors or rerun receive."
+  },
+  "torch_imported": false,
+  "camp_imported": false,
+  "weights_deserialized": 0,
+  "policy_forward_calls": 0,
+  "limitations": [
+    "The ties counterexample limits metric interpretation; actual execution recorded no ties.",
+    "NumPy/JSON checks are not an independent weight-level reproduction.",
+    "No new scientific outcome selection, model inference or training is performed."
+  ]
+}

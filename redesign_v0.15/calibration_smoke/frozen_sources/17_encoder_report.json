@@ -1,0 +1,24 @@
+{
+  "model": "official DINOv2 ViT-L/14, backbone only",
+  "parameters": 304368640,
+  "trainable_parameters": 0,
+  "repository": "https://github.com/facebookresearch/dinov2",
+  "commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+  "weight_url": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vitl14/dinov2_vitl14_pretrain.pth",
+  "weight_sha256": "d5383ea8f4877b2472eb973e0fd72d557c7da5d3611bd527ceeb1d7162cbf428",
+  "weight_bytes": 1217586395,
+  "weight_hash_status": "locally computed fingerprint; no publisher SHA256 comparison",
+  "strict_load": true,
+  "device": "mps",
+  "torch": "2.14.0",
+  "images": 60,
+  "features_shape": [
+    60,
+    1024
+  ],
+  "manifest_sha256": "921503bd6e559124aaa85f6c61bf19207c7e6c2dcae37bc0101548eb5b439de6",
+  "features_sha256": "32e32795c9c5b2ea22e396e36e03c925c2598a77e85e57e06b15e3bc59b66c54",
+  "seconds": 1.712316750024911,
+  "preprocess": "RGB; resize short side 256 bicubic; center crop 224; ImageNet RGB normalization",
+  "input": "pixels only, no file names, category IDs, image descriptions, or text prompt"
+}

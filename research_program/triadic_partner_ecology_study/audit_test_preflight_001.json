@@ -1,0 +1,11 @@
+{
+  "status": "test_failed",
+  "created_at": "2026-09-15T16:46:32.929621+00:00",
+  "tests_run": 8,
+  "failures": 1,
+  "audit_source_sha256": "219ef7bb650e4ffa2e10681937cb3217e4869ec7aaa28665aae91797115cc2d4",
+  "test_source_sha256": "0b09719d1eaf76bf61365360359439d51e9a421a394572d2cbfb4d4dbd943f83",
+  "failure": "test_independent_support_and_monitor_match_frozen_design: in-memory official design uses tuple layouts while independent JSON-schema specs use lists; actual audit reads frozen prepared.json. Test will JSON-normalize the official pure design output.",
+  "model_forward_calls": 0,
+  "formal_results_read": false
+}

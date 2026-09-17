@@ -1,0 +1,66 @@
+{
+  "at": "2026-09-16T03:46:41.394723+00:00",
+  "attempts": [
+    {
+      "correction": "Fixed a colon used in a dict keyword argument in synthetic test only.",
+      "exit_code": 1,
+      "status": "test_import_syntax_error_before_execution",
+      "tests_executed": 0,
+      "tool_chunk_id": "db0289"
+    },
+    {
+      "exit_code": 0,
+      "status": "passed",
+      "suite_elapsed_seconds": 0.218,
+      "tests": 7,
+      "tool_chunk_id": "704b62"
+    },
+    {
+      "exit_code": 0,
+      "status": "passed",
+      "suite_elapsed_seconds": 0.177,
+      "tests": 8,
+      "tool_chunk_id": "8bd902"
+    }
+  ],
+  "audit_scope": {
+    "all_monitor_and_final_conditional_statistics": true,
+    "both_settlements_for_every_monitor_and_final": true,
+    "checkpoints": 48,
+    "final_files": 32,
+    "independent_final_module_samples": 55738368,
+    "independent_final_worlds": 6193152,
+    "intermediate_forward_replay": false,
+    "monitor_files": 192,
+    "optimizer_replay": false,
+    "training_gradient_replay": false,
+    "training_random_stream_rows": 48000,
+    "training_sampled_message_replay": false
+  },
+  "checks": [
+    "Four fixture worlds x all4913 joint proposals x both execution rules checked against a separate dictionary reference; signed/unsigned inputs preserve -1 sentinels.",
+    "Conditional native reward, full success, execution and reward posterior checked against all4913 independent product-policy actions for three fixtures.",
+    "Uniform rule support ratio17 and1/17^3 versus1/17^2 full probabilities.",
+    "Stable log probabilities handle underflow; monitor posterior fails explicitly if saved probabilities lost necessary information.",
+    "Content axes do not impose an unintended correct-partner gate; third ignored proposals, all failed proposals and missing true-pair strata remain distinct.",
+    "Synthetic saved NPZ and cross-settlement corruption detection.",
+    "Unique four-pair primary and both algebraic decompositions.",
+    "Original decaying entropy at1/1000/1001/6000, reward/posterior algebra and gradient clipping log checks."
+  ],
+  "command": "qwen_collect_pilot/.venv/bin/python -m unittest research_program.triadic_reciprocal_execution_study.tests.test_audit -v",
+  "final_metadata_change_after_last_suite": "Added the audit-freeze/main-plan SHA equality guard only; all numerical code unchanged.",
+  "formal_audit_status": "Not started by this agent; root dispatches after receiving freeze.",
+  "formal_parameter_loads": 0,
+  "formal_policy_outputs_read": 0,
+  "helper_policy": "Only SHA-pinned older independent auditors are imported; no new production runner/environment/kernel numerical function is called.",
+  "neural_forward_samples": 0,
+  "plan_sha256": "59e9f8d3b2056538b339072867fde4c58b1478274d982e3158d1b4268edd0e53",
+  "schema": "triadic_reciprocal_execution_audit_preflight_v1",
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/audit_execution.py": "ee995a50d32ee44018a1f1fb63bfab743f84a81fb78045cd4d40d62dd389faa1",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/tests/test_audit.py": "cd9b7978b55cf581aa9cef2476d471ea9d3d5a81ee4495d6956d124c95ce7ef6"
+  },
+  "status": "passed",
+  "synthetic_neural_forward_calls": 0,
+  "training_updates": 0
+}

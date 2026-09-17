@@ -1,0 +1,16 @@
+{
+  "status": "failed_fixture",
+  "at": "2026-09-16T06:06:16.902082+00:00",
+  "tool_chunk": "9965de",
+  "tests_run": 3,
+  "passed": 2,
+  "errors": 1,
+  "cause": "TemporaryDirectory macOS /var path was not resolved; fixture audit artifact key differed from production resolved absolute path. No formal results read.",
+  "planned_fix": "Resolve synthetic fixture temp root; production absolute hash binding remains unchanged.",
+  "sources_sha256": {
+    "/Users/xia/Documents/ChatGPT/\u8bed\u8a00/research_program/triadic_rule_formation_study/summarize.py": "410207746a88ac0bec5946783285d32615b4ca5911d424c60aa836b1326300b5",
+    "/Users/xia/Documents/ChatGPT/\u8bed\u8a00/research_program/triadic_rule_formation_study/test_summarize.py": "0776eadde078017d1027610900f45e1dd8f0fc485297fa138c54bdc8af876827"
+  },
+  "model_forwards": 0,
+  "npz_reads": 0
+}

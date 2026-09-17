@@ -1,0 +1,28 @@
+{
+  "status": "passed_pure_preflight",
+  "created_at": "2026-09-15T20:07:52.262141+00:00",
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_position_reuse_study/audit_execution.py": "54da7fbf694ceb3499d846aa3a489a88a4f928944029f225fb835c2cb5035717",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_position_reuse_study/tests/test_audit_kernels.py": "d0a38034df0303859043f0a44b345f07f049b16f41d046660e13be1e16d2c967",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_position_reuse_study/设计与估计量独立审查.md": "4cda5cd940adba063325fdd1abc843045264c47bd45af8dad32dcf11d3fc01bd"
+  },
+  "test_count": 11,
+  "test_terminal_session": 35810,
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.3"
+  },
+  "formal_forward_worlds": 0,
+  "parameter_loads": 0,
+  "training_updates": 0,
+  "actual_execution_outputs_read": false,
+  "scope": [
+    "independent all static arrays/hash ranking",
+    "exact Fraction selection and packet encoding",
+    "96 outward-only replacements and all8 synthetic shams",
+    "W1/W2 mixed scheduling and silent actual schema",
+    "native metric vectors and full synthetic scalar aggregates",
+    "nonpositive/shared selection and additive matrix null"
+  ],
+  "authorized_main_plan_sha256": "87bf3b412c10fc7a27539b90542e2ec67165e1b2ad4b19476748f2cac2a81eaa"
+}

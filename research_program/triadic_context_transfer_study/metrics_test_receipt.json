@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "recorded_at": "2026-09-15T18:54:55.361925+00:00",
+  "command": "qwen_collect_pilot/.venv/bin/python -m pytest research_program/triadic_context_transfer_study/tests/test_metrics.py -q",
+  "tests_passed": 10,
+  "pytest_reported_seconds": 0.04,
+  "source_sha256": {
+    "metrics.py": "9f157f298c57e2892bfd6adc616e30650820c0818a09d61182b82586a9a06d8d",
+    "tests/test_metrics.py": "06d785ea999c2a1cf96c3bdbd3ef6edda8104b250841cd4b8cf63575f5010574"
+  },
+  "scope": "pure fixtures; zero trained-checkpoint loads, neural-model forwards, training updates",
+  "receipt_is_after_actual_test": "This receipt records the actual prior tool output; no repeated test was run merely to produce a receipt.",
+  "earlier_fixture_failure": {
+    "passed": 8,
+    "failed": 1,
+    "reason": "Fixture donor_indices was a view into spec; intended corruption changed both mappings. Corrected fixture copy, not production formula.",
+    "later_changes": "Added two requested generated-message change vectors; slice selection then optimized to allocate only the requested batch. Final ten tests rerun after that code change passed."
+  }
+}

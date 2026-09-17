@@ -1,0 +1,35 @@
+{
+  "at": "2026-09-16T04:13:10.915495+00:00",
+  "earlier_root_tests": {
+    "chunk": "490d2a",
+    "exit_code": 0,
+    "tests": 2
+  },
+  "manifest_check": {
+    "bound_inputs": 36,
+    "chunk": "1427f1",
+    "endpoint_files": 32,
+    "exit_code": 0
+  },
+  "new_network_forwards": 0,
+  "new_training_updates": 0,
+  "old_npz_arrays_read": 0,
+  "root_tests": {
+    "chunk": "0b11cd",
+    "elapsed_seconds": 0.009,
+    "exit_code": 0,
+    "tests": 7
+  },
+  "source_sha256": {
+    "cases.py": "b4ba2f23144ba7ca8c2849c608fea91ad971e673112ae8c164824d487f52daed",
+    "cases_preflight_001.json": "abb331e17afd8ddf6a818f8fa4c1d1d2587e983448544829dbf312d3ac46668f",
+    "design_review.md": "7fcf4f657a6f4ec1b85df3ca4e38375b1d51cb29c8142b21e866b95f0bf4f9c7",
+    "plan.md": "e819824a9f316009fc17697d4bbebce41d6b710ad7a2159b59d29ae9b733dd04",
+    "runner.py": "6dc16b5d864f7a6a2f3337cf2303ab09f5a2b0fcc580b8df21b542e7fc145b32",
+    "static_availability.json": "5268d4c33bf925f812c77035eca6f44c2441478bd2370352bbc0abe9a3900060",
+    "test_cases.py": "e482fcd831e41bebcba3901ecd323b68f377b21e6afed0330f0bc13f336e1df7",
+    "test_runner.py": "5d161e1db63b629ca7ddd3fa60630284d37e91f6c70be2ae46af27034d549c57"
+  },
+  "static_review_correction": "Old result path corrected to execution/results.json before any prepare/run; no execution failure.",
+  "status": "passed"
+}

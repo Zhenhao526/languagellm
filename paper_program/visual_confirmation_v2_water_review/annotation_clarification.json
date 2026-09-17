@@ -1,0 +1,10 @@
+{
+  "reason": "Collector review identified two wording overstatements; root accepted clarification before final package. Counts and class assignments unchanged.",
+  "changed_rows": [
+    61,
+    79
+  ],
+  "old_json_sha256": "aa0fa4e3cefd03f3e0185020cd1856edc733bfc4071b2bb6f42949debd37f6c3",
+  "old_code_sha256": "3bd034feaafa0e13c1dac81eac25ad643c69d14a5ad8d767d7e5fa3f5c8a415c",
+  "no_new_inputs": true
+}

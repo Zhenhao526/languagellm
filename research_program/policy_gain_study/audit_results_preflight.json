@@ -1,0 +1,23 @@
+{
+  "status": "audit_prepared_not_run_on_new_results",
+  "created_at": "2026-09-15T12:38:32.481917+00:00",
+  "audit_script_sha256": "9d8c990749f3ab495bca6a486e790a8063bd636c97a64c4285f39962b260bc14",
+  "synthetic_checks": "passed",
+  "complete_v08_single_record_fixture": "passed",
+  "fixture_sha256": "8aa859223a164e1591b8b54a8b7b7018a21d5fbddb69e70edbbd9b88d140d195",
+  "new_policy_gain_results_read": false,
+  "weights_loaded": 0,
+  "neural_forward_calls": 0,
+  "planned_scope": [
+    "1024 saved receiver logits and natural-message records",
+    "independent per-map U/N and marginals",
+    "four-seed means, six factorial contrasts and fixed early AUC",
+    "all five endpoint NPZ mode J/native outcomes",
+    "128 normal decoder and overlapping-photo emission anchors"
+  ],
+  "limitations": [
+    "No independent regeneration of logits from weights",
+    "No optimizer or entire training replay",
+    "No checkpoint raw evaluation arrays exist to replay"
+  ]
+}

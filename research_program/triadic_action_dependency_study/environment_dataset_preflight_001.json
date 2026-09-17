@@ -1,0 +1,29 @@
+{
+  "status": "passed_13_static_unit_tests",
+  "command": "qwen_collect_pilot/.venv/bin/python -m unittest research_program.triadic_action_dependency_study.tests.test_environment research_program.triadic_action_dependency_study.tests.test_dataset -v",
+  "exit_code": 0,
+  "tests": 13,
+  "unittest_reported_seconds": 0.414,
+  "coverage": [
+    "all24 semantic needs and inherited12 acceptance truth tables",
+    "5376 full-support witnesses with varied layouts and owners",
+    "one complete4913 joint-action native settlement grid",
+    "all96 transform orbit split and fixed SHA",
+    "all per-actor24 need presence in both splits",
+    "four partition world counts and two complete-needs monitor backgrounds",
+    "all content metadata same-listener PL/LL observation and weight sums",
+    "54 official-only feature masks and invalid-field rejection",
+    "native Bx24 reward checks and sample/index boundaries"
+  ],
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/environment.py": "4e6250f5d7603dfca7736458b90b70910a5d057e253c96ab9b1e16a82635911e",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/dataset.py": "fff75edc398fd589e0d55fc5fd47f6075e4edd6fa3e7b4793e02875f8bab6a10",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/tests/test_environment.py": "222650b19b72c58e12283a68d87b8b2a02c0671fe0035c3635dacf5d6b4d5437",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/tests/test_dataset.py": "3a475f017b6c833bba92b2d296224577012290802bfacce4fb85b2024c763585",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/__init__.py": "fd98c9caf0e1366380bb205f451ee1226d2640c45d8583e2d40113c3d7345058"
+  },
+  "neural_forward_calls": 0,
+  "training_calls": 0,
+  "old_study_modified": false,
+  "full_world_observation_array_construction_executed": false
+}

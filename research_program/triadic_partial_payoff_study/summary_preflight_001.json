@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "recorded_at": "2026-09-16T02:44:47.529211+00:00",
+  "command": "qwen_collect_pilot/.venv/bin/python -m unittest research_program.triadic_partial_payoff_study.tests.test_summarize_results -v",
+  "tests_run": 9,
+  "reported_test_elapsed_seconds": 0.367,
+  "process_exit_code": 0,
+  "tool_chunk": "c65f7c",
+  "scope": "Synthetic native task fixtures only; no actual experimental NPZ/checkpoint/result reads. Complete static one-layout support oracle checks content and role all-axis/sender-listener summaries.",
+  "actual_network_calls": 0,
+  "parameter_loads": 0,
+  "training_updates": 0,
+  "formal_summary_executions": 0,
+  "sources_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/summarize_results.py": "14c9555e95db7fca929fd73fa337bc816e0a43afacf6d23cae18b9c24a89f2c5",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/tests/test_summarize_results.py": "f3419d47c17ee6708d3dfbce82b43ba96c4ae2f18503a834acb591044ee16647"
+  },
+  "coverage": [
+    "actual material layout truth",
+    "AB/AC/BC all truth strata",
+    "all 27 role configurations",
+    "role versus physical execution",
+    "native reward versus partial utility",
+    "fixed AB to fixed AC is not adaptation",
+    "rowwise per-state posterior ratios",
+    "saved NPZ and exact role frequencies",
+    "unfinished run refusal before NPZ read",
+    "content/role endpoint three-axis six-stratum summaries"
+  ]
+}

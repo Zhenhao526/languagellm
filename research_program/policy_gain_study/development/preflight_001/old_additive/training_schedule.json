@@ -1,0 +1,11 @@
+{
+  "levels": [
+    6,
+    6
+  ],
+  "batch_identities": [
+    0,
+    1
+  ],
+  "sampling": "access subset weighted by its number of legal training maps, then uniform map; independent access RNG"
+}

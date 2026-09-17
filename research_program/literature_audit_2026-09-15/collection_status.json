@@ -1,0 +1,11 @@
+{
+  "date": "2026-09-15",
+  "method": "arxiv-paper-radar collect",
+  "requested_pool_size": 20,
+  "since_hours": 8760,
+  "max_results_per_category": 350,
+  "status": "failed",
+  "error": "HTTP 429 Too Many Requests from arXiv category API; no candidate pool produced",
+  "fallback": "Targeted official arXiv HTML, ACL Anthology, ICLR/NeurIPS proceedings and publisher primary papers; bounded novelty audit, not systematic exhaustive review",
+  "model_inference_run": false
+}

@@ -1,0 +1,16 @@
+{
+  "recorded_at": "2026-09-15T11:27:03.307246+00:00",
+  "purpose": "Independent pre-execution fingerprints for old gate/history immutability. Does not alter execution inputs.",
+  "planned_execution": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_EXEC_01",
+  "execution_started_exists": false,
+  "execution_status_exists": false,
+  "sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/results/20260915_152343/capability_gates.json": "183b128704651b94cbe14e52284ca6bacb06360880154f2ad55716b8fa57f4ba",
+    "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/results/20260915_152343/pipeline_status.json": "fcd9b00903d0cadd91ce25d11e6bb8287dad7f1ea3a6470ec958b470de879d1f",
+    "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/results/20260915_152343/capability_full_information/status.json": "025ca1e96fcc5bb83048a9835e7a07c82fb68c01581068d9c714ac60fd11938f",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/execution/status.json": "86945389ca2e651da7f9840a5e218248ccac16463ae6a2a1e5469bf2ab813ff2",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/execution/results.json": "f7749c25770eb4e7e1e4fe301017f803dee0c1cb8763b4f2fdbcf2ce11e2cc48",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/execution/histories_after.json": "5c7c5197e5240378f1fc9c786dddd139177058c1886019a3075ceb0521312828"
+  },
+  "new_model_calls": 0
+}

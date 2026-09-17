@@ -1,0 +1,52 @@
+{
+  "status": "solver_returned",
+  "ecology": "unique",
+  "solver_calls": 1,
+  "elapsed_seconds": 0.012691708048805594,
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "highs": "1.12.0",
+    "executable": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_ecology_study/.oracle_venv/bin/python",
+    "platform": "macOS-26.6.2-arm64-arm-64bit"
+  },
+  "options": {
+    "presolve": true,
+    "time_limit": 60.0,
+    "mip_rel_gap": 0.0,
+    "mip_abs_gap": 0.0,
+    "threads": 1,
+    "random_seed": 20260916
+  },
+  "raw": {
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "success": true,
+    "fun": -168.0,
+    "mip_node_count": 1,
+    "mip_dual_bound": -168.0,
+    "mip_gap": 0.0
+  },
+  "feasible_map_returned": true,
+  "certified_optimal_by_solver": true,
+  "integer_lattice_gap_closed_with_safety_margin": true,
+  "model_forward_calls": 0,
+  "training_updates": 0,
+  "exact_score": {
+    "fraction": "1/3",
+    "numerator": 1,
+    "denominator": 3,
+    "float": 0.3333333333333333
+  },
+  "integer_objective": 168,
+  "solver_maximization_upper_integer_objective": 168.0,
+  "solver_upper_rate": 0.3333333333333333,
+  "conservative_integer_upper": {
+    "fraction": "1/3",
+    "numerator": 1,
+    "denominator": 3,
+    "float": 0.3333333333333333
+  },
+  "completed_at_utc": "2026-09-15T16:35:36.462194+00:00"
+}

@@ -1,0 +1,31 @@
+{
+  "status": "passed_pre_execution_independent_review",
+  "reviewed_at": "2026-09-15T12:07:34.421817+00:00",
+  "audited_script": "/Users/xia/Documents/ChatGPT/语言/research_program/v08_formation_trajectory.py",
+  "audited_script_sha256": "76b9b72d3cb921a4b71552f8f898aa33220c217b2b88d1d75909a4a4e5714a3c",
+  "independent_test_script": "/Users/xia/Documents/ChatGPT/语言/research_program/v08_形成轨迹独立核验.py",
+  "independent_test_script_sha256": "dd86aa83e362d73a128fba823210ea89c0fcdbe7a78c661796043aac1f08b731",
+  "tests_passed": 11,
+  "parameterized_subcases_passed": 12,
+  "synthetic_menu_permutations_checked": 720,
+  "new_neural_forward_calls": 0,
+  "probe_prepare_called": false,
+  "real_probe_executed": false,
+  "findings": {
+    "checkpoint_restore": "Each frozen checkpoint uses strict state load; source final equals checkpoint2400 elementwise. Cached projected features remain valid only after per-checkpoint projection and input_transform equality checks.",
+    "run_resume": "No output-record cache reuse or resume. Existing execution/ rejects before importing Torch; failure evidence is preserved. This is distinct from restoring historical checkpoint weights.",
+    "unique_argmax": "Shape49x2x6, finite logits, exactly one maximum per code/goal. Exact tie raises TieError with raw logits; no dropping problematic directions or menu fallback.",
+    "menu_equivariance": "Read-only AST proof checks menu appears only as final gather. Independent synthetic evaluation verifies every one of720 permutations retains physical argmax when unique.",
+    "photo_indexing": "Execute uses repeat(map,16) and tile(photo,30), with fixed16 validation pairs. Independent index test reproduces480 messages, heldout96 per direction, and detects a single-photo change.",
+    "endpoint_anchor": "Source final table49 rows plus physical720-menu digest and60 compatible codebook rows are matched. Each source row is reconstructed from raw emitted/delivered histograms and goal correctness. Individual photo-to-message correspondence is not available in old source codebooks.",
+    "update0": "Compares full receiver record, emitted messages and photo pairs within seed/direction across15 conditions. Delivered messages deliberately excluded for blocked. Expected112 comparisons from120 initial direction records minus8 references.",
+    "aggregation": "60runs x8checkpoints x2directions=960; each emits480 messages. Splits/directions average within seed; all4 seed values retained; zero-failure conditional fractions remain undefined.",
+    "freeze": "Plan, all source hashes and source snapshots are checked before execution and again before completion. Synthetic source/snapshot mutations are rejected."
+  },
+  "limitations": [
+    "This is a post-hoc exploratory checkpoint probe, not a preregistered language-formation experiment.",
+    "Synthetic verification does not establish actual network outputs, absence of real ties, or successful final anchors; those require the root-run probe.",
+    "The8 saved checkpoints do not identify the exact first appearance of language or a unique causal learning mechanism.",
+    "No previous trained agent source was edited and no original-task analysis was invoked."
+  ]
+}

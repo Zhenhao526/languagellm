@@ -1,0 +1,27 @@
+{
+  "status": "prepared_tests_passed_not_run_on_real_results",
+  "created_at": "2026-09-15T17:26:17.201679+00:00",
+  "unit_tests": 7,
+  "unit_failures": 0,
+  "unit_elapsed_seconds": 0.025,
+  "synthetic_plot_outputs": 6,
+  "synthetic_plot_outputs_temporary_and_deleted": true,
+  "font_fix": "Missing PingFang path replaced with previously used existing Arial Unicode.ttf; fail explicitly if missing. Synthetic rendering then had no missing glyph warnings. Normal title weight avoids its absent bold face fallback.",
+  "source_sha256": {
+    "research_program/triadic_semantic_probe_study/summarize_results.py": "ae403f909a29f748d074c2338f371b44352c69f61779d21656f5f9f2a5dc8265",
+    "research_program/triadic_semantic_probe_study/plot_results.py": "b445873bd02e87a2ea7ace52b0b5d55d3a83fc5d38eb7ef5607a7246dbfc4f8a",
+    "research_program/triadic_semantic_probe_study/tests/test_summary_plot.py": "5fe248a1a351261e41412e27ccc5b6b37bff232e1c01c35bba53adb1359435a1",
+    "research_program/triadic_semantic_probe_study/metrics.py": "460428eea956bc6ac58fe1cfd92d94ef9a5d0a90d585b86d2ca960577299e22e"
+  },
+  "previous_receipt": {
+    "path": "research_program/triadic_semantic_probe_study/summary_plot_preflight_001.json",
+    "sha256": "77869fd589c7f15018e401f3faab68e1430968e197bb5fadc866575e47859cf5"
+  },
+  "actual_new_results_read": false,
+  "neural_forwards": 0,
+  "training": 0,
+  "summary_entrypoint": "qwen_collect_pilot/.venv/bin/python -m research_program.triadic_semantic_probe_study.summarize_results --results RUN/execution/results.json --dataset research_program/triadic_semantic_probe_study/dataset_001 --out RUN/summary_001",
+  "plot_entrypoint": "research_program/.plotting_venv/bin/python -m research_program.triadic_semantic_probe_study.plot_results --summary RUN/summary_001/summary.json --out RUN/figures_001",
+  "requires_parent_allcompleted_before_real_execution": true,
+  "real_figures_require_visual_review": true
+}

@@ -1,0 +1,6 @@
+{
+  "scope": "Report display only; 254.97302083333338/256*100 rounds to 99.59884%, not 99.59882%. Underlying model, results and analysis unchanged.",
+  "old_report_sha256": "f192f0a250c195661d345c088a7ef0f0361b20d269f13830f827de837a6ff050",
+  "old_display": "99.59882%",
+  "correct_display": "99.59884%"
+}

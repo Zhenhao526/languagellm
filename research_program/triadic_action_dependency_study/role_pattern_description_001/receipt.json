@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "source_results_sha256": "021cef0cbbf18a1532100d3c6058f04520ffa66a83a18aa10b8b9c53e2e6d2b0",
+  "output_sha256": {
+    "role_patterns.json": "dfec0f29ff804915c6e1946b0b7c698dc9bc872f31a51d5aa7c64c9dff50cd18",
+    "说明.md": "de386b55df63091d3576010171274a6ad921efc0b84665ff828982310d4c6c41"
+  },
+  "model_forwards": 0,
+  "training_updates": 0
+}

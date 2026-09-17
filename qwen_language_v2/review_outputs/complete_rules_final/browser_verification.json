@@ -1,0 +1,73 @@
+{
+  "browser": "Installed Google Chrome; fresh headless browser and context; no user profile",
+  "playwright_version": "1.62.1",
+  "checks": [
+    {
+      "width": 736,
+      "condition": "natural",
+      "steps": 12,
+      "states_checked": 24,
+      "local_observation_checks": 24,
+      "exact_message_comparisons": 12,
+      "navigation_passed": true,
+      "chinese_label": "自然语言 · 局部观察",
+      "overflow": false
+    },
+    {
+      "width": 736,
+      "condition": "full_information",
+      "steps": 12,
+      "states_checked": 24,
+      "local_observation_checks": 24,
+      "exact_message_comparisons": 12,
+      "navigation_passed": true,
+      "chinese_label": "完整信息控制",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "condition": "natural",
+      "steps": 12,
+      "states_checked": 24,
+      "local_observation_checks": 24,
+      "exact_message_comparisons": 12,
+      "navigation_passed": true,
+      "chinese_label": "自然语言 · 局部观察",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "condition": "full_information",
+      "steps": 12,
+      "states_checked": 24,
+      "local_observation_checks": 24,
+      "exact_message_comparisons": 12,
+      "navigation_passed": true,
+      "chinese_label": "完整信息控制",
+      "overflow": false
+    }
+  ],
+  "screenshots": [
+    "browser-final-736-top.png",
+    "browser-final-736-messages.png",
+    "browser-final-736-agents.png",
+    "browser-final-320-top.png",
+    "browser-final-320-messages.png",
+    "browser-final-320-agents.png"
+  ],
+  "errors": [],
+  "completed": true,
+  "html_sha256": "f6d2d9b8e7cbf474d06f3ecdaf3fc25a1c483d45a6792a71b153a5e2e8adf698",
+  "visual_review": {
+    "screenshots_reviewed": [
+      "browser-final-736-top.png",
+      "browser-final-736-messages.png",
+      "browser-final-736-agents.png",
+      "browser-final-320-top.png",
+      "browser-final-320-messages.png",
+      "browser-final-320-agents.png"
+    ],
+    "readability": "All six screenshots visually reviewed: Chinese controls and wrapped messages/observations are readable at 320px and 736px.",
+    "review_completed": true
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "review": "packet_identity_control_001 final artifact consistency review",
+  "review_date": "2026-09-16",
+  "checks": {
+    "static_preflight": "passed",
+    "unit_tests": "2 passed",
+    "execution_status": "completed",
+    "audit_status": "passed",
+    "summary_status": "passed",
+    "figures_status": "passed",
+    "report_status": "passed_independent_audit_and_visual_review",
+    "record_grid": "64 policy trajectories × 2 controls × 6 checkpoints = 768 records",
+    "audit_scope_exact": {
+      "live_files": 384,
+      "silent_aliases": 384,
+      "live_rows": 10616832,
+      "silent_rows": 10616832,
+      "independent_module_samples": 63700992
+    },
+    "visual_png_review": "passed actual inspection of all three control figures",
+    "summary_checkpoint_reads": 0,
+    "summary_model_forwards": 0,
+    "endpoint_selectivity_mean_percentage_points": 23.128421799588234,
+    "endpoint_selectivity_ci95_percentage_points": [18.74949710426658, 27.50734649490989],
+    "endpoint_selectivity_positive_seed_blocks": 16,
+    "cross_group_selectivity_mean_percentage_points": -0.20594154359709635,
+    "cross_group_selectivity_ci95_percentage_points": [-0.7433773528127478, 0.33149426561855507],
+    "endpoint_minus_cross_mean_percentage_points": 23.334363343185333,
+    "endpoint_minus_cross_positive_seed_blocks": 16
+  },
+  "artifact_sha256": {
+    "candidate_plan": "73583dc793de3c06ad635251b028a59eb82c77a228146e2bb053a93363f4606d",
+    "candidate_prepared": "e07ffe8ffd644605971657a253c476ad430c12da7828f05d1c7f06e0ea7ec8cb",
+    "maps": "5a902e42dfbebab17e2973b7c8e9a6f4304699a9318603a56dd85dabb1c05092",
+    "execution_results": "bc4c189335f286cde813b6f0bd8aec7558403d328531435999769a4e201c3008",
+    "audit_verification": "efc851f6dcb423b185934255cdd8e77110e839be3eb8a1a81eb2272a61676b45",
+    "summary": "3cc98a8ca236934acd181c6ccf82636d513e8357620f031c8051516eaccbebd9",
+    "summary_receipt": "9ebb130e91b4fea866bc326c4ee43ba83d4496696e240d4c962f83a92911fa38",
+    "figures_receipt": "98c834a555219101ecb5919ea9bf7b628eaa2ecc5117305bad8d115e9a0395d7",
+    "report": "ffb8897fa90c1ba75215440d9beb831c927b54c9f6983f668bb448c63fa1e1e3",
+    "report_generation_receipt": "3ea02b558a16c075bd0747898d1bf36304a4cd9027c13230a832a2971be25b35",
+    "preflight": "484677f6177eae16d377f2ae2c98fa716eb1191f848bd57f9d86c6de4bfa0539",
+    "control_readme": "d05a421b21d87ed576fc2bc2e0bb05e7b59684699400ccce54616a06b76eceb4",
+    "top_readme": "5b1113adc5f1c947da2fb6637393beee1195fa5e5bc17ef2dc5564808fd5a26f",
+    "ledger": "2d708ef73dd026aa3aa72d34068d41018978dda3321931ca0475cd994c1e2490"
+  },
+  "interpretation": "The within-group endpoint cycle caused a reproducible drop in the four-choice margin while the same-layer cross-group cycle stayed near the natural live baseline. This supports endpoint-specific packet response in the frozen task; it does not establish a public lexicon, compositionality, or language origin."
+}

@@ -1,0 +1,540 @@
+{
+  "status": "sealed",
+  "reviewer": "B",
+  "reviewer_agent": "/root/plan_scope",
+  "created_utc": "2026-09-15T17:22:10.588113+00:00",
+  "packet_sha256": "a754f76bea4fd4d118b101de82d9b8ab8f5dbb931a2d59986ba4dbc3b5d4507a",
+  "criteria": [
+    "real photograph",
+    "food or visible water in transparent container identifiable",
+    "crop retains resource",
+    "no prominent text or watermark",
+    "no mixed foods or ambiguous liquid"
+  ],
+  "reviews": [
+    {
+      "id": "090abae4640d",
+      "criteria": [
+        {
+          "criterion": "real photograph",
+          "value": true,
+          "reason": "摊位、水果、人物与光影符合实景摄影。"
+        },
+        {
+          "criterion": "food or visible water in transparent container identifiable",
+          "value": true,
+          "reason": "苹果、柑橘、葡萄等水果清楚可辨。"
+        },
+        {
+          "criterion": "crop retains resource",
+          "value": true,
+          "reason": "裁剪保留了多种水果。"
+        },
+        {
+          "criterion": "no prominent text or watermark",
+          "value": false,
+          "reason": "价签和包装箱文字醒目，裁剪后仍可见。"
+        },
+        {
+          "criterion": "no mixed foods or ambiguous liquid",
+          "value": false,
+          "reason": "多种不同水果同时出现，明确是混合食物。"
+        }
+      ]
+    },
+    {
+      "id": "0a437c5afb2b",
+      "criteria": [
+        {
+          "criterion": "real photograph",
+          "value": true,
+          "reason": "枝叶、果实与自然光影符合照片特征。"
+        },
+        {
+          "criterion": "food or visible water in transparent container identifiable",
+          "value": true,
+          "reason": "枝头苹果状果实清楚可辨。"
+        },
+        {
+          "criterion": "crop retains resource",
+          "value": true,
+          "reason": "裁剪完整保留主要果实。"
+        },
+        {
+          "criterion": "no prominent text or watermark",
+          "value": true,
+          "reason": "未见明显文字或水印。"
+        },
+        {
+          "criterion": "no mixed foods or ambiguous liquid",
+          "value": true,
+          "reason": "只见同类果实与枝叶，没有混合食物或液体。"
+        }
+      ]
+    },
+    {
+      "id": "1874a6676621",
+      "criteria": [
+        {
+          "criterion": "real photograph",
+          "value": true,
+          "reason": "人物、衣物和背景具有自然摄影细节。"
+        },
+        {
+          "criterion": "food or visible water in transparent container identifiable",
+          "value": true,
+          "reason": "完整图中手持玻璃杯及杯内无色水体可辨。"
+        },
+        {
+          "criterion": "crop retains resource",
+          "value": "uncertain",
+          "reason": "裁剪仅在下缘保留很小的杯口和水体条带，难以单独辨识资源，故不确定。"
+        },
+        {
+          "criterion": "no prominent text or watermark",
+          "value": true,
+          "reason": "未见显著文字或水印。"
+        },
+        {
+          "criterion": "no mixed foods or ambiguous liquid",
+          "value": true,
+          "reason": "未见混合食物或明显有色饮料，完整图为玻璃杯内无色水体。"
+        }
+      ]
+    },
+    {
+      "id": "1ab210b90590",
+      "criteria": [
+        {
+          "criterion": "real photograph",
+          "value": true,
+          "reason": "香蕉、投影及测量尺呈实物摄影细节。"
+        },
+        {
+          "criterion": "food or visible water in transparent container identifiable",
+          "value": true,
+          "reason": "一把黄色香蕉清楚可辨，表皮斑痕不影响识别。"
+        },
+        {
+          "criterion": "crop retains resource",
+          "value": true,
+          "reason": "裁剪保留主要香蕉果体。"
+        },
+        {
+          "criterion": "no prominent text or watermark",
+          "value": true,
+          "reason": "边缘测量尺有小号数字，但没有突出的文字主体或水印。"
+        },
+        {
+          "criterion": "no mixed foods or ambiguous liquid",
+          "value": true,
+          "reason": "只见香蕉与测量尺，没有混合食物或液体。"
+        }
+      ]
+    },
+    {
+      "id": "1e7c50ebf1a5",
+      "criteria": [
+        {
+          "criterion": "real photograph",
+          "value": true,
+          "reason": "植株、土壤和花盆呈真实摄影细节。"
+        },
+        {
+          "criterion": "food or visible water in transparent container identifiable",
+          "value": false,
+          "reason": "仅见盆栽叶片，没有可辨食物果实或透明容器中的可见水。"
+        },
+        {
+          "criterion": "crop retains resource",
+          "value": false,
+          "reason": "裁剪仍只有叶片和花盆，没有保留符合定义的资源。"
+        },
+        {
+          "criterion": "no prominent text or watermark",
+          "value": true,
+          "reason": "未见显著文字或水印。"
+        },
+        {
+          "criterion": "no mixed foods or ambiguous liquid",
+          "value": true,
+          "reason": "未见混合食物或液体，此项不补偿资源缺失。"
+        }
+      ]
+    },
+    {
+      "id": "21e86a035853",
+      "criteria": [
+        {
+          "criterion": "real photograph",
+          "value": true,
+          "reason": "塑料瓶、包装及反射符合实景照片。"
+        },
+        {
+          "criterion": "food or visible water in transparent container identifiable",
+          "value": true,
+          "reason": "透明饮水瓶内无色水体可辨。"
+        },
+        {
+          "criterion": "crop retains resource",
+          "value": true,
+          "reason": "裁剪保留多瓶可见水体。"
+        },
+        {
+          "criterion": "no prominent text or watermark",
+          "value": false,
+          "reason": "包装和瓶身品牌、说明文字显著。"
+        },
+        {
+          "criterion": "no mixed foods or ambiguous liquid",
+          "value": true,
+          "reason": "未见混合食物或有色浑浊饮料；可见的液体形态为无色水体。"
+        }
+      ]
+    },
+    {
+      "id": "3aac61acf3ed",
+      "criteria": [
+        {
+          "criterion": "real photograph",
+          "value": true,
+          "reason": "果皮纹理、光照和遮挡符合实物照片。"
+        },
+        {
+          "criterion": "food or visible water in transparent container identifiable",
+          "value": true,
+          "reason": "前景柑橘状水果清楚可辨。"
+        },
+        {
+          "criterion": "crop retains resource",
+          "value": true,
+          "reason": "裁剪保留主要果实。"
+        },
+        {
+          "criterion": "no prominent text or watermark",
+          "value": true,
+          "reason": "未见显著文字或水印。"
+        },
+        {
+          "criterion": "no mixed foods or ambiguous liquid",
+          "value": false,
+          "reason": "完整图右缘另有表面光滑的红色果实，与前景柑橘不同，存在混合食物。"
+        }
+      ]
+    },
+    {
+      "id": "54426026c4f0",
+      "criteria": [
+        {
+          "criterion": "real photograph",
+          "value": true,
+          "reason": "手、透明瓶和室内环境符合摄影细节。"
+        },
+        {
+          "criterion": "food or visible water in transparent container identifiable",
+          "value": true,
+          "reason": "透明瓶内无色水体及液面可辨。"
+        },
+        {
+          "criterion": "crop retains resource",
+          "value": true,
+          "reason": "裁剪保留瓶中水体。"
+        },
+        {
+          "criterion": "no prominent text or watermark",
+          "value": false,
+          "reason": "瓶身大号100%及品牌标签占据显著区域。"
+        },
+        {
+          "criterion": "no mixed foods or ambiguous liquid",
+          "value": true,
+          "reason": "未见混合食物或其他不明液体，可见无色水体。"
+        }
+      ]
+    },
+    {
+      "id": "5bac50bfe1bd",
+      "criteria": [
+        {
+          "criterion": "real photograph",
+          "value": true,
+          "reason": "人物、乐器和支架呈真实演出照片。"
+        },
+        {
+          "criterion": "food or visible water in transparent container identifiable",
+          "value": "uncertain",
+          "reason": "能辨认透明塑料瓶，但支架和背景遮挡瓶体，未见可靠水面，无法确认存在可见水。"
+        },
+        {
+          "criterion": "crop retains resource",
+          "value": "uncertain",
+          "reason": "裁剪保留被支架遮挡的瓶体，水的存在性仍不清楚。"
+        },
+        {
+          "criterion": "no prominent text or watermark",
+          "value": false,
+          "reason": "瓶身蓝白品牌文字可辨，位于前景资源候选上。"
+        },
+        {
+          "criterion": "no mixed foods or ambiguous liquid",
+          "value": "uncertain",
+          "reason": "瓶壁、支架和深色背景难以分开，不能仅依据饮水瓶外观认定内容物。"
+        }
+      ]
+    },
+    {
+      "id": "627397eb8f81",
+      "criteria": [
+        {
+          "criterion": "real photograph",
+          "value": true,
+          "reason": "织物容器与墙面纹理符合实物照片。"
+        },
+        {
+          "criterion": "food or visible water in transparent container identifiable",
+          "value": false,
+          "reason": "只见不透明包覆容器，无法看见水，也没有食物。"
+        },
+        {
+          "criterion": "crop retains resource",
+          "value": false,
+          "reason": "裁剪仍只见不透明容器，没有保留可见资源。"
+        },
+        {
+          "criterion": "no prominent text or watermark",
+          "value": true,
+          "reason": "未见显著文字或水印。"
+        },
+        {
+          "criterion": "no mixed foods or ambiguous liquid",
+          "value": true,
+          "reason": "未见混合食物或可见液体；不透明容器本身不作为水。"
+        }
+      ]
+    },
+    {
+      "id": "730e4374d66b",
+      "criteria": [
+        {
+          "criterion": "real photograph",
+          "value": true,
+          "reason": "彩色透明瓶和桌面反射符合实景摄影。"
+        },
+        {
+          "criterion": "food or visible water in transparent container identifiable",
+          "value": "uncertain",
+          "reason": "三只彩色透明瓶可辨，但缺少明确液面，不能确认有水而非空瓶。"
+        },
+        {
+          "criterion": "crop retains resource",
+          "value": "uncertain",
+          "reason": "裁剪保留瓶体，水的存在性仍无法确认。"
+        },
+        {
+          "criterion": "no prominent text or watermark",
+          "value": true,
+          "reason": "瓶身有装饰图案及小刻度，没有醒目的文字主体或水印。"
+        },
+        {
+          "criterion": "no mixed foods or ambiguous liquid",
+          "value": "uncertain",
+          "reason": "瓶色与可能的液体颜色不可分，无法确认内容物是水。"
+        }
+      ]
+    },
+    {
+      "id": "8a3020fc290d",
+      "criteria": [
+        {
+          "criterion": "real photograph",
+          "value": true,
+          "reason": "果皮与自然光影符合实物摄影。"
+        },
+        {
+          "criterion": "food or visible water in transparent container identifiable",
+          "value": true,
+          "reason": "容器内多枚柑橘状果实清楚可辨。"
+        },
+        {
+          "criterion": "crop retains resource",
+          "value": true,
+          "reason": "裁剪保留主要果实。"
+        },
+        {
+          "criterion": "no prominent text or watermark",
+          "value": true,
+          "reason": "未见显著文字或水印。"
+        },
+        {
+          "criterion": "no mixed foods or ambiguous liquid",
+          "value": true,
+          "reason": "可辨食物为同类果实，没有混合食物或液体。"
+        }
+      ]
+    },
+    {
+      "id": "8cb62548ce7a",
+      "criteria": [
+        {
+          "criterion": "real photograph",
+          "value": true,
+          "reason": "玻璃底部的纹理、光影符合实物照片。"
+        },
+        {
+          "criterion": "food or visible water in transparent container identifiable",
+          "value": "uncertain",
+          "reason": "只能看到玻璃瓶底，无法区分玻璃本身与瓶内水，未见可靠液面。"
+        },
+        {
+          "criterion": "crop retains resource",
+          "value": "uncertain",
+          "reason": "裁剪仍为瓶底局部，不能确认保留水体。"
+        },
+        {
+          "criterion": "no prominent text or watermark",
+          "value": false,
+          "reason": "瓶底中央浮雕字母和容量样数字构成主要视觉细节。"
+        },
+        {
+          "criterion": "no mixed foods or ambiguous liquid",
+          "value": "uncertain",
+          "reason": "无法判断液体是否存在，不将透明玻璃直接当作水。"
+        }
+      ]
+    },
+    {
+      "id": "a5ea21b8b789",
+      "criteria": [
+        {
+          "criterion": "real photograph",
+          "value": true,
+          "reason": "三枚果实、透明包装和背景具有自然摄影特征。"
+        },
+        {
+          "criterion": "food or visible water in transparent container identifiable",
+          "value": true,
+          "reason": "三枚红色苹果状果实清楚可辨。"
+        },
+        {
+          "criterion": "crop retains resource",
+          "value": true,
+          "reason": "裁剪保留全部主要果实。"
+        },
+        {
+          "criterion": "no prominent text or watermark",
+          "value": true,
+          "reason": "包装为图案背景，未见明显文字或水印。"
+        },
+        {
+          "criterion": "no mixed foods or ambiguous liquid",
+          "value": true,
+          "reason": "只见同类红色果实，没有混合食物或液体。"
+        }
+      ]
+    },
+    {
+      "id": "a87199fb4e01",
+      "criteria": [
+        {
+          "criterion": "real photograph",
+          "value": true,
+          "reason": "车内座椅、金属装饰与反射符合实景照片。"
+        },
+        {
+          "criterion": "food or visible water in transparent container identifiable",
+          "value": false,
+          "reason": "画面是装饰物和车内物品，没有可辨食物或透明容器中的水。"
+        },
+        {
+          "criterion": "crop retains resource",
+          "value": false,
+          "reason": "裁剪仍保留装饰物，没有符合定义的资源。"
+        },
+        {
+          "criterion": "no prominent text or watermark",
+          "value": true,
+          "reason": "未见显著文字或水印。"
+        },
+        {
+          "criterion": "no mixed foods or ambiguous liquid",
+          "value": true,
+          "reason": "未见混合食物或液体，此项不补偿资源缺失。"
+        }
+      ]
+    },
+    {
+      "id": "ad74fc351ebf",
+      "criteria": [
+        {
+          "criterion": "real photograph",
+          "value": true,
+          "reason": "玻璃、红色棒和折射光影符合实物照片。"
+        },
+        {
+          "criterion": "food or visible water in transparent container identifiable",
+          "value": true,
+          "reason": "透明玻璃杯内水面和无色水体清楚可辨。"
+        },
+        {
+          "criterion": "crop retains resource",
+          "value": true,
+          "reason": "裁剪保留水面及大部分水体。"
+        },
+        {
+          "criterion": "no prominent text or watermark",
+          "value": true,
+          "reason": "红棒上只有很小标记，未见显著文字或水印。"
+        },
+        {
+          "criterion": "no mixed foods or ambiguous liquid",
+          "value": true,
+          "reason": "无色水体可辨，红色棒为固体道具，未见另一种液体或混合食物。"
+        }
+      ]
+    },
+    {
+      "id": "c07d0806c053",
+      "criteria": [
+        {
+          "criterion": "real photograph",
+          "value": true,
+          "reason": "玻璃烧杯、液面、气泡和凝结细节符合实物照片。"
+        },
+        {
+          "criterion": "food or visible water in transparent container identifiable",
+          "value": "uncertain",
+          "reason": "液体确实可见，但底部呈淡黄色和浑浊感，无法仅凭图像确认其为水。"
+        },
+        {
+          "criterion": "crop retains resource",
+          "value": "uncertain",
+          "reason": "裁剪保留液体，然而资源是否属于水仍不确定。"
+        },
+        {
+          "criterion": "no prominent text or watermark",
+          "value": true,
+          "reason": "未见显著文字或水印。"
+        },
+        {
+          "criterion": "no mixed foods or ambiguous liquid",
+          "value": "uncertain",
+          "reason": "可见液体带气泡和底部色泽变化，无法排除其他溶液；不把所有透明液体都直接判为水。"
+        }
+      ]
+    }
+  ],
+  "viewed_files": [
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/review_round1/sheet_01.png",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/review_round1/sheet_02.png",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/review_round1/sheet_03.png",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/review_round1/sheet_04.png",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/review_round1/sheet_05.png",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/1874a6676621_crop.png",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/3aac61acf3ed_full.png",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/5bac50bfe1bd_full.png",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/c07d0806c053_full.png"
+  ],
+  "packet_image_hashes_verified": true,
+  "blind_scope": "Only the supplied anonymous packet, its five sheets and listed individual images were read. No source/category mapping, selection, requests, download manifest, reviewer A, or model scores were consulted.",
+  "notes": "Same five visual criteria as prior packets. Uncertain is not an affirmative pass. These are visual judgments, not confirmation of chemical composition or food safety; no extra freshness exclusion was introduced."
+}

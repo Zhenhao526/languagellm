@@ -1,0 +1,676 @@
+{
+  "status": "download_phase_complete_review_pending",
+  "records": [
+    {
+      "candidate_id": "commons:125161533",
+      "blind_id": "a5ea21b8b789",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/originals/a5ea21b8b789.jpg",
+      "original_sha256": "a3db428bd4f9cf1234d492db039b681cb694826306172336421ee8f2f6564c90",
+      "original_sha1": "303459ddc88aa4a4aba932ceea0b8c9d426dfec6",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Small_red_apple.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Zenyrgarden\" title=\"User:Zenyrgarden\">Zenyrgarden</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "decoded_format": "JPEG",
+      "frames": 1,
+      "raw_size": [
+        3264,
+        2448
+      ],
+      "oriented_size": [
+        2448,
+        3264
+      ],
+      "orientation": 6,
+      "bytes": 1259031,
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop",
+      "ordinary_single_image": true,
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/processed/a5ea21b8b789.jpg",
+      "processed_sha256": "18cd6d2b8048a9910eeed8cb11e3f8981cc0925ce7b8d9635d98b58c4b42f08b",
+      "crop_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/a5ea21b8b789_crop.png",
+      "crop_sha256": "b72ba72750203a1cc9831098134849f64de15f3958d224ba0d6eb5b8566a343e",
+      "full_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/a5ea21b8b789_full.png",
+      "full_sha256": "ca5e679d9cbd5fb8a811a82a2d8d3c19c39dae1a5ae7b52ad5d499613e1c5144",
+      "hashes": {
+        "phash": "ecf5c60a30af38f0",
+        "dhash": "e4cc160f9533638f"
+      },
+      "preprocess_matches_legacy": true,
+      "visual_review": "pending"
+    },
+    {
+      "candidate_id": "commons:85783646",
+      "blind_id": "090abae4640d",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/originals/090abae4640d.jpg",
+      "original_sha256": "3ed7d5e113535153a0e6d666e5e7625e681c013354052f65de0c9e987cec3231",
+      "original_sha1": "b88af4a449655e36a200183a6107c4401b42180b",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fruits_in_Market.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Calvin_West_Productions&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Calvin West Productions (page does not exist)\">www.calvinwest.com</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "decoded_format": "JPEG",
+      "frames": 1,
+      "raw_size": [
+        4000,
+        3000
+      ],
+      "oriented_size": [
+        4000,
+        3000
+      ],
+      "orientation": null,
+      "bytes": 7976302,
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop",
+      "ordinary_single_image": true,
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/processed/090abae4640d.jpg",
+      "processed_sha256": "cead07828332946f52a7903ce898365f040f3c79d49038feceeeabfe77553418",
+      "crop_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/090abae4640d_crop.png",
+      "crop_sha256": "fd99e857a67f9962c679a272a65e9cf447b27bd10b1f3cb12665c0c4329ce51a",
+      "full_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/090abae4640d_full.png",
+      "full_sha256": "0b53f629a84241488958cdfb09581b357939458aaedaa469f729d54b2b5868d7",
+      "hashes": {
+        "phash": "90b868cb3fe6c90b",
+        "dhash": "1d9cdc8c78c0c4ce"
+      },
+      "preprocess_matches_legacy": true,
+      "visual_review": "pending"
+    },
+    {
+      "candidate_id": "commons:75411570",
+      "blind_id": "3aac61acf3ed",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/originals/3aac61acf3ed.jpg",
+      "original_sha256": "edcb15cf305ad92617cdb6161ad9247bc431db84bd90e074b4dd562696098f3a",
+      "original_sha1": "11b537bfbbf5f04c489b8067c9d2c41373db4bc5",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Oranges_of_of_Kallidaikurichi.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Thamizhpparithi_Maari\" title=\"User:Thamizhpparithi Maari\">Thamizhpparithi Maari</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "decoded_format": "JPEG",
+      "frames": 1,
+      "raw_size": [
+        4160,
+        3120
+      ],
+      "oriented_size": [
+        4160,
+        3120
+      ],
+      "orientation": 1,
+      "bytes": 3446610,
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop",
+      "ordinary_single_image": true,
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/processed/3aac61acf3ed.jpg",
+      "processed_sha256": "25e37956c5f00c75c42636b61921e5d4b95738cc75059cf36ce2781abfe34a4c",
+      "crop_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/3aac61acf3ed_crop.png",
+      "crop_sha256": "366665ac8350562b7dc4d27296b5b193e070b88c6d85e6dbad8446f1a8326bb4",
+      "full_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/3aac61acf3ed_full.png",
+      "full_sha256": "dac60b725cc174c018e33e41ef68c716a8c3894a360db5b2ea7710c07b3791d4",
+      "hashes": {
+        "phash": "f292f0404f7c13e7",
+        "dhash": "8c8c4c2466c11513"
+      },
+      "preprocess_matches_legacy": true,
+      "visual_review": "pending"
+    },
+    {
+      "candidate_id": "commons:25817457",
+      "blind_id": "8a3020fc290d",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/originals/8a3020fc290d.jpg",
+      "original_sha256": "422521134b6996a4d9f24d4042ff62924aa539b7d7b0547fc21aa1b4c6ce52cc",
+      "original_sha1": "9b0628558b25ef181cf9ea12e8acab13d9b99ee9",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lots_of_oranges1_(8553378192).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/10175246@N08\">psyberartist</a>",
+      "credit_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/psyberartist/8553378192/\">lots of oranges1</a>",
+      "decoded_format": "JPEG",
+      "frames": 1,
+      "raw_size": [
+        3168,
+        1349
+      ],
+      "oriented_size": [
+        3168,
+        1349
+      ],
+      "orientation": 1,
+      "bytes": 269054,
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop",
+      "ordinary_single_image": true,
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/processed/8a3020fc290d.jpg",
+      "processed_sha256": "335df87190fd252bffc0db30cd33a37011eb24b36c1f167745145660bdb669da",
+      "crop_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/8a3020fc290d_crop.png",
+      "crop_sha256": "c4c1ab0e560bb76979582e54acff01892596c73f92a9dbb7fe55a4d249e276e0",
+      "full_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/8a3020fc290d_full.png",
+      "full_sha256": "1b5572dd17bcb58132db37175c335bccab4538852f8b2c1bf28bacc85ed78ae8",
+      "hashes": {
+        "phash": "96e77a10455b3a4d",
+        "dhash": "a6ad6946d655f57c"
+      },
+      "preprocess_matches_legacy": true,
+      "visual_review": "pending"
+    },
+    {
+      "candidate_id": "commons:7570965",
+      "blind_id": "0a437c5afb2b",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/originals/0a437c5afb2b.jpg",
+      "original_sha256": "cfdd40299b4bc135a342325cc097237d6da62977c8ebffdd06aaada1e2b1bf7f",
+      "original_sha1": "4a1590db5a2bdbd78a0bdb353d0c6495a59f661f",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Malus_domestica_unriped_fruit.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist_html": "Dinnye",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "decoded_format": "JPEG",
+      "frames": 1,
+      "raw_size": [
+        2000,
+        1339
+      ],
+      "oriented_size": [
+        2000,
+        1339
+      ],
+      "orientation": 1,
+      "bytes": 591791,
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop",
+      "ordinary_single_image": true,
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/processed/0a437c5afb2b.jpg",
+      "processed_sha256": "ab9f5d16920b36c6be2762678ffeb90762839acc86ddeec44f8d6c561c660f67",
+      "crop_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/0a437c5afb2b_crop.png",
+      "crop_sha256": "cdb5388310408026cb97d8081a4515e9a9610609b3202530f38360be4eed2d69",
+      "full_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/0a437c5afb2b_full.png",
+      "full_sha256": "6bf69edfd5386b85126846a20a998f947e64e271edd6f90faaca144cca3156ed",
+      "hashes": {
+        "phash": "d7b92c63199065e6",
+        "dhash": "93272c38ca494c24"
+      },
+      "preprocess_matches_legacy": true,
+      "visual_review": "pending"
+    },
+    {
+      "candidate_id": "commons:3683438",
+      "blind_id": "1ab210b90590",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/originals/1ab210b90590.jpg",
+      "original_sha256": "5c53d0e59aaee788f35a40a3b2186e06b3ffd643ddd4aaf8151662c2af60019c",
+      "original_sha1": "6346665bf7b84e6bfc2754246b7365a7c661c45b",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pisang.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Hariadhi\" title=\"User:Hariadhi\">Hariadhi</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "decoded_format": "JPEG",
+      "frames": 1,
+      "raw_size": [
+        3008,
+        2000
+      ],
+      "oriented_size": [
+        3008,
+        2000
+      ],
+      "orientation": 1,
+      "bytes": 2693243,
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop",
+      "ordinary_single_image": true,
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/processed/1ab210b90590.jpg",
+      "processed_sha256": "385408d3ad4902d7ed7649abf98ff650d376c842c9590639cbb0e4e1241475bd",
+      "crop_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/1ab210b90590_crop.png",
+      "crop_sha256": "7702e1a90461985a0d008351b5cac904f993380314587f32a85a2c49b12a1cd0",
+      "full_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/1ab210b90590_full.png",
+      "full_sha256": "6f89959d48c069e72492d0ca75a6ffa1c2b5312c74db2bc42bea72b3b3fb1228",
+      "hashes": {
+        "phash": "ae9895699b4f8664",
+        "dhash": "b33c2779150f0726"
+      },
+      "preprocess_matches_legacy": true,
+      "visual_review": "pending"
+    },
+    {
+      "candidate_id": "commons:125647329",
+      "blind_id": "1e7c50ebf1a5",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/originals/1e7c50ebf1a5.jpg",
+      "original_sha256": "36c56a103ab62c7e5113c3c73407c24ac1d61fd0a9a93e7d36941fd09f661e99",
+      "original_sha1": "5ecc46ae68ed3f0a619c89497b2a1537f82a8f00",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%8A%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B8%B0%E0%B8%A7%E0%B8%B1%E0%B8%99_(Shontawan).jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Jinoof13&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Jinoof13 (page does not exist)\">Jinoof13</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "decoded_format": "JPEG",
+      "frames": 1,
+      "raw_size": [
+        6720,
+        4480
+      ],
+      "oriented_size": [
+        6720,
+        4480
+      ],
+      "orientation": null,
+      "bytes": 19773854,
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop",
+      "ordinary_single_image": true,
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/processed/1e7c50ebf1a5.jpg",
+      "processed_sha256": "fd623f111193e6b640b68a2792a6ae13dd4a4f7bc695549241cc2457a2f14cf6",
+      "crop_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/1e7c50ebf1a5_crop.png",
+      "crop_sha256": "3cf7542cf3f282dab5ba873bd896f181bb9424551e536c253f7fb450a6c0606b",
+      "full_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/1e7c50ebf1a5_full.png",
+      "full_sha256": "3c484df37406256d17835a265bd24a197bd040788d595ac88912cb8b6b4b9214",
+      "hashes": {
+        "phash": "a5930767fb0c434b",
+        "dhash": "cadcf3ac4b4fc7c7"
+      },
+      "preprocess_matches_legacy": true,
+      "visual_review": "pending"
+    },
+    {
+      "candidate_id": "commons:12521461",
+      "blind_id": "5bac50bfe1bd",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/originals/5bac50bfe1bd.jpg",
+      "original_sha256": "dc1973294be36976d9cbc57e3cf20782d0209a67bdc7d8f6813ac37c3cc26b11",
+      "original_sha1": "7eceba8ff84e3ab85f8b70d70bacf322659d8ff9",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kate_and_the_Bubbatones_Friday_Night_Jamboree_Floyd_Country_Store_Floyd_VA_October_2010.jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/95158573@N00\">Bruce Tuten</a> from Savannah, Georgia, United States",
+      "credit_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/savannahgrandfather/5089990331/\">\"Katy &amp; the Bubbatones\" - seen at the Friday Night Jamboree, Floyd, Virginia.</a>",
+      "decoded_format": "JPEG",
+      "frames": 1,
+      "raw_size": [
+        1024,
+        683
+      ],
+      "oriented_size": [
+        1024,
+        683
+      ],
+      "orientation": 1,
+      "bytes": 123115,
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop",
+      "ordinary_single_image": true,
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/processed/5bac50bfe1bd.jpg",
+      "processed_sha256": "fbb9ccd692878ad2534edd990abcdf4f32e521f69bd483999ce61fd35074b32a",
+      "crop_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/5bac50bfe1bd_crop.png",
+      "crop_sha256": "7aa568d33e15b68a28d07920f6ae9076e0a9e42ae5c8223849a55a223fb1405c",
+      "full_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/5bac50bfe1bd_full.png",
+      "full_sha256": "43b05c122cd1adbfa66dcaf05c3ff6a9a29f69279a267f5bac3f80b78f52a9ae",
+      "hashes": {
+        "phash": "b3c138c68f3e1ce8",
+        "dhash": "bb9397e9e56c1d3b"
+      },
+      "preprocess_matches_legacy": true,
+      "visual_review": "pending"
+    },
+    {
+      "candidate_id": "commons:9436377",
+      "blind_id": "1874a6676621",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/originals/1874a6676621.jpg",
+      "original_sha256": "cdae2f0b387779e3b8931fce47baf29f410e198758bba3f67680e850c96ea465",
+      "original_sha1": "0956882d37a777e4a80c93ca6da4c88a6e2520be",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Stephenfrynightingale.JPG",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Londonpixels\" title=\"User:Londonpixels\">Brian Minkoff-London Pixels</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "decoded_format": "JPEG",
+      "frames": 1,
+      "raw_size": [
+        1166,
+        1674
+      ],
+      "oriented_size": [
+        1166,
+        1674
+      ],
+      "orientation": 1,
+      "bytes": 547802,
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop",
+      "ordinary_single_image": true,
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/processed/1874a6676621.jpg",
+      "processed_sha256": "1f0090043d98404b3ff70f64dfe08eeab496929fe10bdfe02a7cef492b64ac50",
+      "crop_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/1874a6676621_crop.png",
+      "crop_sha256": "681a937f9da794149759c837de4bb9758f10b55debe5dcaa59dcd62534393ee8",
+      "full_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/1874a6676621_full.png",
+      "full_sha256": "4655e257b256161b0ede472e24d424da26dd9f558ac7cae711f0bcee04e5e1a8",
+      "hashes": {
+        "phash": "fce086317663d386",
+        "dhash": "0416111935193171"
+      },
+      "preprocess_matches_legacy": true,
+      "visual_review": "pending"
+    },
+    {
+      "candidate_id": "commons:15248602",
+      "blind_id": "ad74fc351ebf",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/originals/ad74fc351ebf.jpg",
+      "original_sha256": "c942ebb41660312e86ec690860a606cbb10f4b443d27ea3c485b286cae2658df",
+      "original_sha1": "efff1480f0752ccf01ba66227a78c8c23f5d177d",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Red-Tornado_2007_Sylvain-Breton.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sylvain_Breton&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sylvain Breton (page does not exist)\">Sylvain Breton</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "decoded_format": "JPEG",
+      "frames": 1,
+      "raw_size": [
+        337,
+        363
+      ],
+      "oriented_size": [
+        337,
+        363
+      ],
+      "orientation": 1,
+      "bytes": 66313,
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop",
+      "ordinary_single_image": true,
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/processed/ad74fc351ebf.jpg",
+      "processed_sha256": "916b56f349d4a671311587109f6306d09ad9a746df43eb49e9428d97b6aac466",
+      "crop_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/ad74fc351ebf_crop.png",
+      "crop_sha256": "6268d4eb71e6494ee3a7e05c99a8c53d7cfd4e4b02175ae071910e3f24221f15",
+      "full_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/ad74fc351ebf_full.png",
+      "full_sha256": "62980626e1035a5dca9fd92ab0ea6e92fd3b155597064282543648726b341418",
+      "hashes": {
+        "phash": "bc8ec31966f1c09e",
+        "dhash": "5060203733931b0f"
+      },
+      "preprocess_matches_legacy": true,
+      "visual_review": "pending"
+    },
+    {
+      "candidate_id": "commons:68683487",
+      "blind_id": "21e86a035853",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/originals/21e86a035853.png",
+      "original_sha256": "9d5ba4b4a74d820d63c15fc587639be68c2ac1ce035093e52068cf0115a2f453",
+      "original_sha1": "2721d1615dd375f340fbd6adc6b3f96212544bb0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Water_bottles_with_tape_handle.png",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Rlsheehan&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Rlsheehan (page does not exist)\">Rlsheehan</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "decoded_format": "PNG",
+      "frames": 1,
+      "raw_size": [
+        2938,
+        3024
+      ],
+      "oriented_size": [
+        2938,
+        3024
+      ],
+      "orientation": null,
+      "bytes": 16461391,
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop",
+      "ordinary_single_image": true,
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/processed/21e86a035853.jpg",
+      "processed_sha256": "cb63ea11194d5308516f144736d2345741f2913a5d61dfd4db52a72d56afdd8a",
+      "crop_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/21e86a035853_crop.png",
+      "crop_sha256": "70d64d5d194887f26075b87ab2711fd167fa39eb3887b119ceb3d905f1f5f1ad",
+      "full_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/21e86a035853_full.png",
+      "full_sha256": "05701c4b1c5033609f70f0268d2c707b81a887442eba5c3ece365750eea0a51c",
+      "hashes": {
+        "phash": "8ed1a1226729ce5f",
+        "dhash": "cd9c305264b5b367"
+      },
+      "preprocess_matches_legacy": true,
+      "visual_review": "pending"
+    },
+    {
+      "candidate_id": "commons:71015784",
+      "blind_id": "8cb62548ce7a",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/originals/8cb62548ce7a.jpg",
+      "original_sha256": "71b8b08b658416f04671ac8807415c3cb4cff229d405280449e9ef776bb57744",
+      "original_sha1": "1168a2caa07d5386998c7f3077d7ba9c90ae8d89",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Wasserflasche_August_Staude_Hannover_Flaschenboden.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:AxelHH\" title=\"User:AxelHH\">Axel Hindemith</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "decoded_format": "JPEG",
+      "frames": 1,
+      "raw_size": [
+        837,
+        777
+      ],
+      "oriented_size": [
+        837,
+        777
+      ],
+      "orientation": null,
+      "bytes": 706889,
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop",
+      "ordinary_single_image": true,
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/processed/8cb62548ce7a.jpg",
+      "processed_sha256": "80eeaad393df65560a191d165d395231ec85099072e60b5ed4e6567246cc7658",
+      "crop_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/8cb62548ce7a_crop.png",
+      "crop_sha256": "5dc431feaa666fee329f994f2c9df66f383abb4e9d0ee06ef12b63323d670d5d",
+      "full_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/8cb62548ce7a_full.png",
+      "full_sha256": "bad44e23cdd396a2cff9d97a471289b1d84fb33925e1465bc69e2571ac0310d1",
+      "hashes": {
+        "phash": "961a3a4b656d74b4",
+        "dhash": "33f8eccccce0e8ae"
+      },
+      "preprocess_matches_legacy": true,
+      "visual_review": "pending"
+    },
+    {
+      "candidate_id": "commons:110780719",
+      "blind_id": "627397eb8f81",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/originals/627397eb8f81.jpg",
+      "original_sha256": "b81e3a3ccfe1a413d91a37e60e2fab8a0502aef45df49d2e7acc8dce9bb47565",
+      "original_sha1": "01aa666a0094489873130a61f79f185e19849044",
+      "source_page": "https://commons.wikimedia.org/wiki/File:German_Occupation_of_Norway_during_WW2_1940-45_Military_equipment_British_water_bottle_webbing_cradle_Feltflaske_Bergenhus_Festningsmuseum_Fortress_Military_Museum_Bergen_2021_6117.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Wolfmann\" title=\"User:Wolfmann\">Wolfmann</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "decoded_format": "JPEG",
+      "frames": 1,
+      "raw_size": [
+        2893,
+        3858
+      ],
+      "oriented_size": [
+        2893,
+        3858
+      ],
+      "orientation": null,
+      "bytes": 3057568,
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop",
+      "ordinary_single_image": true,
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/processed/627397eb8f81.jpg",
+      "processed_sha256": "9a428e86005b84fcbf470ce7e9ca2c04432d2073542a9962574297a938026b19",
+      "crop_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/627397eb8f81_crop.png",
+      "crop_sha256": "a5f77bdd9bfd9534d0890e0b2fe3e6f39d726d717e1a460403b9589dcca8d32d",
+      "full_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/627397eb8f81_full.png",
+      "full_sha256": "8bddde268afa4fb422e8f03c12f1111c5d769ad685cbda256f5566e59a4874f6",
+      "hashes": {
+        "phash": "bf03e42f51346371",
+        "dhash": "4f4f48786b2b2e1c"
+      },
+      "preprocess_matches_legacy": true,
+      "visual_review": "pending"
+    },
+    {
+      "candidate_id": "commons:39884000",
+      "blind_id": "c07d0806c053",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/originals/c07d0806c053.jpg",
+      "original_sha256": "d1de674290b5bed3218cfb7f7c77c5c5214905b9ca71b3b5b2677c9b50d2c073",
+      "original_sha1": "e962839ba56d356048577c60b4d3cccaa384277f",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bagare-med-varmt-vatten.jpeg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Mehinger\" title=\"User:Mehinger\">Mehinger</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "decoded_format": "JPEG",
+      "frames": 1,
+      "raw_size": [
+        3264,
+        2448
+      ],
+      "oriented_size": [
+        2448,
+        3264
+      ],
+      "orientation": 6,
+      "bytes": 1442785,
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop",
+      "ordinary_single_image": true,
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/processed/c07d0806c053.jpg",
+      "processed_sha256": "0ea8d8861ade6f972254848af7f980e0c27f93c5cd4b23f499899f2fe04a1856",
+      "crop_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/c07d0806c053_crop.png",
+      "crop_sha256": "b3b33de1d3121209db9920e0f64402fb434db938cf16b889a21c33547ea1e065",
+      "full_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/c07d0806c053_full.png",
+      "full_sha256": "bf2e914b4c3900bafe921a518a11f3c7c7132b3af47e14d460270583477aa3a6",
+      "hashes": {
+        "phash": "8bb542a27dc22dd5",
+        "dhash": "5f4d794f0fd9c970"
+      },
+      "preprocess_matches_legacy": true,
+      "visual_review": "pending"
+    },
+    {
+      "candidate_id": "commons:119255117",
+      "blind_id": "a87199fb4e01",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/originals/a87199fb4e01.jpg",
+      "original_sha256": "d3610470dc1c90b0d57e73df351c749bcc05c714490b341f1cf4acff74624c1e",
+      "original_sha1": "c4e59e8346126fea2475cd292a77516aeb26a544",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Carnival-in-Venice-mask_on_car_backseat_with_stuff.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Pittigrilli\" title=\"User:Pittigrilli\">Pittigrilli</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "decoded_format": "JPEG",
+      "frames": 1,
+      "raw_size": [
+        3024,
+        2500
+      ],
+      "oriented_size": [
+        3024,
+        2500
+      ],
+      "orientation": 1,
+      "bytes": 2981339,
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop",
+      "ordinary_single_image": true,
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/processed/a87199fb4e01.jpg",
+      "processed_sha256": "5ca75c5ca7e6d885358cba94060b38ae66926b42495000d8fea63d9c07d1a53d",
+      "crop_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/a87199fb4e01_crop.png",
+      "crop_sha256": "5dc4a7e8888e0742f13efcc25f220b3ef41c7c3bbf1bb5e457598e77969e43e4",
+      "full_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/a87199fb4e01_full.png",
+      "full_sha256": "39ac694d4f06f28b36ed84037a532d16783ae0e794a053ea20e7ef0cf7543fc6",
+      "hashes": {
+        "phash": "8cdfaf6c4520e50d",
+        "dhash": "6363d2e5f797b7e6"
+      },
+      "preprocess_matches_legacy": true,
+      "visual_review": "pending"
+    },
+    {
+      "candidate_id": "commons:19133754",
+      "blind_id": "730e4374d66b",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/originals/730e4374d66b.jpg",
+      "original_sha256": "bf3bb51c334816a7b2d70b23e8e877b4e21bad9456ba7c5c8acb7319632a847d",
+      "original_sha1": "d4aa4ed55a6f8f8af16cee199a8b3654b8b97ced",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Multi-use_water_bottle.JPG",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Amraepowell&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Amraepowell (page does not exist)\">Amraepowell</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "decoded_format": "JPEG",
+      "frames": 1,
+      "raw_size": [
+        1024,
+        768
+      ],
+      "oriented_size": [
+        1024,
+        768
+      ],
+      "orientation": null,
+      "bytes": 287617,
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop",
+      "ordinary_single_image": true,
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/processed/730e4374d66b.jpg",
+      "processed_sha256": "76b42563a03ac9c793151e4e849af7ead1f303f96f8d625f0a2b50194374d2d7",
+      "crop_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/730e4374d66b_crop.png",
+      "crop_sha256": "0e5498a14a2a564936aae72c0accd3a30122d674d0a8953ff27f36ca445e69a0",
+      "full_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/730e4374d66b_full.png",
+      "full_sha256": "ec047910eeb7918f89912ae913c64c19ac94d4206c77350e10e6fb3d085c0db6",
+      "hashes": {
+        "phash": "be76c128c929cd36",
+        "dhash": "1e2c2e3f2f3b2f2a"
+      },
+      "preprocess_matches_legacy": true,
+      "visual_review": "pending"
+    },
+    {
+      "candidate_id": "commons:126182436",
+      "blind_id": "54426026c4f0",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/originals/54426026c4f0.jpg",
+      "original_sha256": "e5d18b8819ae130e4ed0b07b4f9e74be17fac79b59c397c40c8f3f29b05c9471",
+      "original_sha1": "6a99b9cb54e42c933d3c5b5db09b7f4d8d4da853",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dasani_Water_Bottle.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ameliaelizabeth123&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ameliaelizabeth123 (page does not exist)\">Ameliaelizabeth123</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "decoded_format": "JPEG",
+      "frames": 1,
+      "raw_size": [
+        4032,
+        3024
+      ],
+      "oriented_size": [
+        3024,
+        4032
+      ],
+      "orientation": 6,
+      "bytes": 2451647,
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop",
+      "ordinary_single_image": true,
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/processed/54426026c4f0.jpg",
+      "processed_sha256": "8435488369572155706a84d2ae29fdf46f661886cef330d656fdc17e595cfc31",
+      "crop_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/54426026c4f0_crop.png",
+      "crop_sha256": "b4fad1d7be897af855b1a0a3e8363090a8cbd110190363079996863f66b8734d",
+      "full_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/blind/54426026c4f0_full.png",
+      "full_sha256": "45e837f11ec591c5dce0ba5523155f95efb97bf500f92495c2e35ad4764df221",
+      "hashes": {
+        "phash": "a2b6d2e181defc09",
+        "dhash": "cf8f27e6d79721d9"
+      },
+      "preprocess_matches_legacy": true,
+      "visual_review": "pending"
+    }
+  ],
+  "planned": 17,
+  "downloaded_and_integrity_checked": 17,
+  "ordinary_review_candidates": 17,
+  "format_quarantined": 0,
+  "finished_utc": "2026-09-15T17:10:34.314017+00:00",
+  "model_calls": 0,
+  "confirmation_requests": 0,
+  "freeze_sha256": "beb97fe6f6babb306162ef340224409f491bf2008368e91ccb5afe317b7585b8"
+}

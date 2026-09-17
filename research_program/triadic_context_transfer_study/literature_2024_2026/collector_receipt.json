@@ -1,0 +1,24 @@
+{
+  "command": [
+    "python3",
+    "/Users/xia/.codex/plugins/cache/zhenhao-arxiv-tools/arxiv-watcher/0.2.0/skills/arxiv-paper-radar/scripts/radar.py",
+    "collect",
+    "--config",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/literature_2024_2026/radar.toml",
+    "--since-hours",
+    "23731",
+    "--top-n",
+    "20",
+    "--output",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/literature_2024_2026/collector_candidates.json"
+  ],
+  "window_start_inclusive": "2024-01-01T00:00:00Z",
+  "cutoff_calendar": "2026-09-16 Asia/Shanghai; reject future official versions",
+  "started_at": "2026-09-15T18:58:52.190376+00:00",
+  "bounded_per_category_limit": 2000,
+  "collector_limitation": "Native collector reads latest N per category without full historical pagination; a date window is not completeness guarantee.",
+  "exit_code": 0,
+  "stdout": "Wrote candidate set: /Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/literature_2024_2026/collector_candidates.json\nCandidates: 8; review pool: 8\n",
+  "stderr": "",
+  "elapsed_seconds": 65.38898086547852
+}

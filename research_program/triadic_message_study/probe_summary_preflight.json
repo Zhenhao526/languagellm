@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "created_at": "2026-09-15T16:08:12.673093+00:00",
+  "tests": 7,
+  "initial_test_suite_count": 6,
+  "test_seconds": 0.001,
+  "source_hashes": {
+    "probe_summary.py": "d12dea0c39e2da56eb85c79c7b5ddf3a00cde7a8c166c5e7e8a9a976627ee424",
+    "tests/test_probe_summary.py": "846259f127bcfb8d9757de128cf4ecd1703868e89748f5214380700140e044ff"
+  },
+  "actual_summary_not_executed": true,
+  "actual_probe_results_not_read": true,
+  "no_policy_import_forward_or_training": true,
+  "scope": "192 intervention cells, all4 seeds and32 PI seed/condition/partition strata; root owns independent physical and constant-input audit; this script recounts saved reward/action effects and pair local suitability"
+}

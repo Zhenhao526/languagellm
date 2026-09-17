@@ -1,0 +1,33 @@
+{
+  "batch": 50,
+  "pageids": [
+    151032904,
+    151033956,
+    151033958,
+    151033959,
+    151033960,
+    151054794,
+    151125256,
+    151125262,
+    151286817,
+    151487195,
+    151487196,
+    151512463,
+    151765868,
+    151766588,
+    151833699,
+    152210247,
+    152233073,
+    152335345,
+    152529286,
+    152538868,
+    152538869,
+    152538870,
+    152538872,
+    152538873,
+    152578804
+  ],
+  "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&prop=imageinfo&pageids=151032904%7C151033956%7C151033958%7C151033959%7C151033960%7C151054794%7C151125256%7C151125262%7C151286817%7C151487195%7C151487196%7C151512463%7C151765868%7C151766588%7C151833699%7C152210247%7C152233073%7C152335345%7C152529286%7C152538868%7C152538869%7C152538870%7C152538872%7C152538873%7C152578804&iilimit=1&iiprop=url%7Csize%7Cmime%7Csha1%7Cextmetadata%7Cuser%7Ctimestamp%7Ccanonicaltitle&iiextmetadatalanguage=en&iiextmetadatafilter=Artist%7CCredit%7CSource%7CLicenseShortName%7CLicenseUrl%7CUsageTerms%7CAttributionRequired%7CCopyrighted%7CRestrictions%7CImageDescription%7CDateTimeOriginal%7CObjectName%7CCategories",
+  "requested_utc": "2026-09-15T13:35:55.121921+00:00",
+  "gap_after_previous_completion_seconds": 5.002422000048682
+}

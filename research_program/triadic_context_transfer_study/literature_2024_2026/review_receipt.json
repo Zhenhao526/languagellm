@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-15T19:15:03.307512+00:00",
+  "model_calls": 0,
+  "current_experiment_results_read": false,
+  "commands": [
+    {
+      "command": [
+        "python3",
+        "/Users/xia/.codex/plugins/cache/zhenhao-arxiv-tools/arxiv-watcher/0.2.0/skills/arxiv-paper-radar/scripts/radar.py",
+        "record-review",
+        "2604.03266",
+        "--config",
+        "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/literature_2024_2026/radar.toml",
+        "--input",
+        "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/literature_2024_2026/reviews/2604.03266.json"
+      ],
+      "exit_code": 0,
+      "stdout": "Saved review: /Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/literature_2024_2026/.arxiv-watcher/reviews/2604.03266.json\nOverall: 74.7; verdict: must-read; confidence: medium\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "/Users/xia/.codex/plugins/cache/zhenhao-arxiv-tools/arxiv-watcher/0.2.0/skills/arxiv-paper-radar/scripts/radar.py",
+        "record-review",
+        "2508.06659",
+        "--config",
+        "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/literature_2024_2026/radar.toml",
+        "--input",
+        "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/literature_2024_2026/reviews/2508.06659.json"
+      ],
+      "exit_code": 0,
+      "stdout": "Saved review: /Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/literature_2024_2026/.arxiv-watcher/reviews/2508.06659.json\nOverall: 77.0; verdict: read; confidence: high\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "/Users/xia/.codex/plugins/cache/zhenhao-arxiv-tools/arxiv-watcher/0.2.0/skills/arxiv-paper-radar/scripts/radar.py",
+        "finalize",
+        "--candidates",
+        "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/literature_2024_2026/finalize_same_pool.json",
+        "--config",
+        "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/literature_2024_2026/radar.toml",
+        "--top-n",
+        "3",
+        "--output",
+        "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/literature_2024_2026/native_arxiv_reviews_only.md"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/Users/xia/.codex/plugins/cache/zhenhao-arxiv-tools/arxiv-watcher/0.2.0/arxiv_watcher.py\", line 1605, in <module>\n    main()\n  File \"/Users/xia/.codex/plugins/cache/zhenhao-arxiv-tools/arxiv-watcher/0.2.0/arxiv_watcher.py\", line 1601, in main\n    args.func(args)\n  File \"/Users/xia/.codex/plugins/cache/zhenhao-arxiv-tools/arxiv-watcher/0.2.0/arxiv_watcher.py\", line 1320, in finalize_command\n    review = load_review(base_dir, arxiv_id)\n  File \"/Users/xia/.codex/plugins/cache/zhenhao-arxiv-tools/arxiv-watcher/0.2.0/arxiv_watcher.py\", line 237, in load_review\n    path = review_path(base_dir, arxiv_id)\n  File \"/Users/xia/.codex/plugins/cache/zhenhao-arxiv-tools/arxiv-watcher/0.2.0/arxiv_watcher.py\", line 233, in review_path\n    return state_dir(base_dir) / \"reviews\" / f\"{safe_arxiv_filename(arxiv_id)}.json\"\n  File \"/Users/xia/.codex/plugins/cache/zhenhao-arxiv-tools/arxiv-watcher/0.2.0/arxiv_watcher.py\", line 228, in safe_arxiv_filename\n    raise ValueError(\"Invalid arXiv ID\")\nValueError: Invalid arXiv ID\n"
+    }
+  ],
+  "native_limit": "NeurIPS formal paper has no verified arXiv ID; its review uses a transparent local schema extension with null ID.",
+  "native_final_report_contains": 0,
+  "mixed_review_count": 3,
+  "source_sha256": "33ced1d74fd1f8b8715c3c0b320f7deed03c27b9a0b1e2645290166301b3663d",
+  "native_final_report_status": "failed_mixed_pool_has_non_arxiv_id",
+  "post_receipt_correction": {
+    "time": "2026-09-15T19:19:21.652496+00:00",
+    "reason": "Raw receipt prematurely contained expected count 2. Actual finalizer failed and produced no report; count corrected to 0. Two record-review commands did succeed. No command rerun.",
+    "raw_receipt_sha256": "5b2e0fb19e56f164087bcb6cc2a7a6b541c8a97601504e2a240c3f43b45a79b8"
+  }
+}

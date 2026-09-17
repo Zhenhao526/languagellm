@@ -1,0 +1,65 @@
+{
+  "schema": "v24_finite_manual_code_review_v1",
+  "passed": true,
+  "blocking_findings": [],
+  "created_at": "2026-09-16T03:37:46.253011+00:00",
+  "source_hashes": {
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.24/固定执行方案.md": "a91ff8286ef40531e30f87a58d5d0a5afe5d74f19985a2647156b97bb67ba1ac",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.24/focus_model.py": "9d031908f7be3ad6b0a013ab2d47979bc3d1810972896bc887e8d4c0975146a3",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.24/run_attention.py": "d6138c9d3427be869326a44d608b1ed5c0ebb7bb06203446c039b5d5a71a7a5a",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.24/structural_assay.py": "1cfb2a28fd85088eb82e29de0468db0f6ec85e338b16b2bfb9b2acdc08cd2fbf",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.24/符号重组评估方法.md": "fcfa39f69236aab9e240d5dcb3937df477cb588c4d54dd9630a19adfd67f75f4",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.24/前置科学审查.md": "73c694d48b0b01830390781a33723879c8946fc2e28f350bdf187ddabf8ffa6b"
+  },
+  "review_type": "Independent finite manual scientific and production-path read-through; no production edits, model execution, new training, or outcome selection",
+  "scope": [
+    {
+      "area": "old_only_training_and_exposure",
+      "finding": "update_social explicitly requests world.fixture(..., scope=old, phase=social). It indexes the shared all30 concept cache only with those old18 indices; all30 cached predictions are frozen, not additional social updates. Formal matrix retains all four inherited sources and three partitions without capability selection."
+    },
+    {
+      "area": "paired_initialization_and_rng",
+      "finding": "FocusSender constructs identical parameter modules in both modes; its seed omits mode. Receiver reset uses the same source/partition/person seed, and fixture world/action streams omit mode. Private cache is shared between conditions. Equality is a design property here; numerical evidence is provided separately by the execution auditor."
+    },
+    {
+      "area": "frozen_private_source_and_information",
+      "finding": "Private all endpoint agents are restored, source heads are loaded independently and frozen, and concept construction is under no_grad. Sender input consists only of frozen private-head probabilities plus identical role bits. Positions enter sampled-action reward calculation, not concept inputs. Receiver receives only detached two-token messages and the original zero local context; it does not receive private predictions or scenes."
+    },
+    {
+      "area": "sender_architecture",
+      "finding": "Shared Linear(8,96)+GELU precedes optional mean pooling. SOS7 is internal; only 0..6 are communicated. Each world starts with zero LSTM h/c. Query follows the previous token; no context input feeding is added. PyTorch Linear matrix convention gives h^T W^T key, explicitly matching the fixed plan. Two-prefix generation and full 49-code enumeration use the corresponding same first-token recurrent state."
+    },
+    {
+      "area": "loss_gradient_and_budget",
+      "finding": "Reward is .25*(food_correct+water_correct)+.5*both, with constant baseline .5. Sender log probabilities/entropies sum two tokens; receiver terms sum two independently sampled actions. Each person averages its sender and receiver role losses by 1/2. Detached discrete messages and NumPy reward isolate agent gradients. Fresh Adam, .0007 learning rate, separate role norm-2 clipping, 2100 entropy-on then 300 off and the 2400-update paired budget agree with the plan."
+    },
+    {
+      "area": "stored_parameter_vs_effective_capacity",
+      "finding": "Mean mode retains a one-key softmax whose bilinear task gradient is zero; equal stored parameter counts do not imply equal effective capacity. Its exported two-element effective attention is an attribution convention [.5,.5], not a learned two-key distribution. The planned contrast is multiple-key retention plus dynamic reading versus mean compression, not a pure-attention effect."
+    },
+    {
+      "area": "natural_primary_metric",
+      "finding": "The planned primary is sequential-token greedy, same-message both-resource J on equally weighted new12 worlds, attention minus mean at update2400. Four inherited sources are the outer paired statistical unit; directions and partitions are nested, not independent replications. Native stochastic 49-code integration is a distinct auxiliary quantity."
+    },
+    {
+      "area": "donor_recombination",
+      "finding": "Donors are selected from old18 only and matched on mask/photo pair. Both slot-resource assignments are retained without success filtering. Each target is averaged across its 4 old-target or 9 new-target donor pairs before equal target averaging. The 200 shared full-code bijections rename complete donor codes, splice digits, then apply the inverse before decoding. Reference rates are aggregated by matching permutation index before quantiles."
+    },
+    {
+      "area": "structural_interpretation",
+      "finding": "The donor assay uses experimenter-known resource identities and imposed token splicing. Its full-code-relabeling reference preserves whole-code behavior while changing fragment geometry. Its range is not a source confidence interval or a chance baseline. A high score can support useful fragment reuse under this assay, but does not demonstrate autonomous composition, syntax, or an algorithmic novelty claim."
+    }
+  ],
+  "not_covered": [
+    "Full trajectory forward/backward replay and artifact integrity belong to the separately recorded execution audit.",
+    "No formal outcome or structural score has been interpreted in this review.",
+    "No claim that the local architecture exactly reproduces Ri et al. author code."
+  ],
+  "report_review_checklist": [
+    "Primary new12 terminal J versus auxiliary Q/AUC and old/mask groups; four source-level paired differences.",
+    "Task-head predicted inputs and role bits as additional readable support; historical v23B not a matched pure-attention control.",
+    "NoAT zero bilinear gradient and multi-key retention/dynamic-reading combined effect.",
+    "Both donor assignments, target weighting, reference-index aggregation, and no autonomous-language-structure claim.",
+    "Inherited image/source development status; no independent material confirmation or acceptance promise."
+  ]
+}

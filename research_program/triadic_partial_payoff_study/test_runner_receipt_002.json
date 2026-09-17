@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "command": [
+    "qwen_collect_pilot/.venv/bin/python",
+    "-m",
+    "unittest",
+    "research_program.triadic_partial_payoff_study.tests.test_runner",
+    "-v"
+  ],
+  "exit_code": 0,
+  "test_cases_run": 9,
+  "elapsed_seconds_reported_by_unittest": 0.158,
+  "subprocess_wall_seconds": 0.2452716827392578,
+  "sources_stable_during_test": true,
+  "source_sha256": {
+    "runner.py": "57df85a8e905239b15d31f2c2e7d8e11e578ca8f1da5e7627db57924f9c41882",
+    "utility.py": "67040e814d92a100729a9904f366709a3372872bf22d197c554343dbd91258f8",
+    "tests/test_runner.py": "c689e16248f098fb127455da8da03c0282f4dd04d6ff71cc77714c6035047689"
+  },
+  "output_path": "research_program/triadic_partial_payoff_study/test_runner_output_002.txt",
+  "output_sha256": "b8b3a6789d6d9da3d7ccbe223e1e021ed09509309aebe60478c1e84a881e493a",
+  "real_parameter_loads": 0,
+  "real_network_initializations": 0,
+  "real_neural_forward_calls": 0,
+  "real_neural_backward_calls": 0,
+  "real_training_updates": 0,
+  "mock_training_scope": "Two mock updates (1 and 6000), six cells, all networks/optimizer/checkpoint content/evaluation stubbed. Native data and exogenous RNG functions are real.",
+  "static_scope": "4 states times all4913 joint actions independently settle conditional evaluation probabilities; FI-to-PL official observation equivalence; exact prepared artifact budget.",
+  "earlier_failed_receipt": "test_runner_receipt_001.json",
+  "fix": "Root added raw one-dimensional integer index validation and valid unique bounds before rollout/output."
+}

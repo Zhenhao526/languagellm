@@ -1,0 +1,124 @@
+{
+  "reviewer": "A: root AI visual reviewer",
+  "independent": true,
+  "images_viewed": [
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/review_round1/sheet_01.png",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/review_round1/sheet_02.png",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/review_round1/sheet_03.png"
+  ],
+  "rows": [
+    {
+      "blind_id": "524e40e9b612",
+      "identified_resource": "water",
+      "real_photo": true,
+      "resource_identifiable": true,
+      "crop_retains": true,
+      "no_prominent_text": false,
+      "no_mixed_or_ambiguous_resource": true,
+      "decision": "fail",
+      "reason": "瓶内透明液体可见；大面积品牌标签与时间戳明显。"
+    },
+    {
+      "blind_id": "65a93aa20c0a",
+      "identified_resource": "bottled liquid",
+      "real_photo": true,
+      "resource_identifiable": "uncertain",
+      "crop_retains": true,
+      "no_prominent_text": false,
+      "no_mixed_or_ambiguous_resource": "uncertain",
+      "decision": "fail",
+      "reason": "主体为人物与成包瓶子；衣服及包装文字明显，液体细节不足。"
+    },
+    {
+      "blind_id": "75a6d4dea021",
+      "identified_resource": "decayed fruit",
+      "real_photo": true,
+      "resource_identifiable": "uncertain",
+      "crop_retains": true,
+      "no_prominent_text": true,
+      "no_mixed_or_ambiguous_resource": "uncertain",
+      "decision": "uncertain",
+      "reason": "腐败空壳状果实与落叶混杂，不能可靠确定食物类别。"
+    },
+    {
+      "blind_id": "867cb98903a2",
+      "identified_resource": "citrus fruit",
+      "real_photo": true,
+      "resource_identifiable": true,
+      "crop_retains": true,
+      "no_prominent_text": false,
+      "no_mixed_or_ambiguous_resource": true,
+      "decision": "fail",
+      "reason": "成批柑橘可辨，但右下日期时间戳在全图及裁剪中可见。"
+    },
+    {
+      "blind_id": "9031e6c442d8",
+      "identified_resource": "dried fruit",
+      "real_photo": true,
+      "resource_identifiable": "uncertain",
+      "crop_retains": true,
+      "no_prominent_text": true,
+      "no_mixed_or_ambiguous_resource": true,
+      "decision": "uncertain",
+      "reason": "干缩剖面果实清楚，但仅凭图不能可靠确认是目标水果。"
+    },
+    {
+      "blind_id": "9bfe113779f7",
+      "identified_resource": "water",
+      "real_photo": true,
+      "resource_identifiable": true,
+      "crop_retains": true,
+      "no_prominent_text": true,
+      "no_mixed_or_ambiguous_resource": true,
+      "decision": "pass",
+      "reason": "透明玻璃杯中的液面与溅水清楚，裁剪保留，无可见文字。"
+    },
+    {
+      "blind_id": "a205a4056898",
+      "identified_resource": "apple",
+      "real_photo": true,
+      "resource_identifiable": true,
+      "crop_retains": true,
+      "no_prominent_text": true,
+      "no_mixed_or_ambiguous_resource": true,
+      "decision": "pass",
+      "reason": "草中苹果主体清楚，裁剪保留其外形与果柄区域，无明显文字。"
+    },
+    {
+      "blind_id": "b5fd39d45d4e",
+      "identified_resource": "banana peel",
+      "real_photo": true,
+      "resource_identifiable": false,
+      "crop_retains": true,
+      "no_prominent_text": true,
+      "no_mixed_or_ambiguous_resource": true,
+      "decision": "fail",
+      "reason": "路面主要是香蕉皮，缺少可辨的香蕉果肉资源，不能仅凭外皮算食物。"
+    },
+    {
+      "blind_id": "cdb454315f5b",
+      "identified_resource": "green round fruit",
+      "real_photo": true,
+      "resource_identifiable": "uncertain",
+      "crop_retains": true,
+      "no_prominent_text": true,
+      "no_mixed_or_ambiguous_resource": true,
+      "decision": "uncertain",
+      "reason": "枝叶中的绿色圆形水果清楚，但苹果与梨样水果难以可靠区分。"
+    },
+    {
+      "blind_id": "dac50308658e",
+      "identified_resource": "opaque bottles",
+      "real_photo": true,
+      "resource_identifiable": false,
+      "crop_retains": true,
+      "no_prominent_text": false,
+      "no_mixed_or_ambiguous_resource": "uncertain",
+      "decision": "fail",
+      "reason": "不透明彩色瓶子且有文字，无法看到瓶内水。"
+    }
+  ],
+  "not_human_review": true,
+  "read_other_reviewer": false,
+  "model_scores_used": false
+}

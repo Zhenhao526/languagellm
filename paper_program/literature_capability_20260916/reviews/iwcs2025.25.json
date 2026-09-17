@@ -1,0 +1,32 @@
+{
+  "review_mode": "full_text",
+  "confidence": "medium",
+  "verdict": "read",
+  "paper_type": "method",
+  "scores": {
+    "relevance": 88,
+    "evidence": 74,
+    "novelty": 70,
+    "impact": 71,
+    "reproducibility": 73,
+    "author_prior": 50,
+    "early_signal": 50
+  },
+  "contribution": "比较复杂视觉场景、消息容量与消歧，并用独立有监督任务诊断发送/接收模型。",
+  "evidence_summary": "冻结ResNet-101，发送者获物体框且目标首位，接收者预测14×14区域目标；图像裁剪可能丢目标；消息组合分析列为未来工作。",
+  "novelty_comparison": "任务复杂度以及个体读出训练均已有前例；边界是目标框/区域真值与人工语言监督，不是私人标量奖励能力准备。",
+  "recommendation_reasons": [
+    "最新正式场景复杂度方法近邻",
+    "揭示评价目标和像素预处理对解释的影响"
+  ],
+  "concerns": [
+    "区域概率质量不可当本项目双目标成功率",
+    "目标框/顺序及区域监督提供额外结构",
+    "未报告本项目这样的自然sealed组合；官方页无DOI不补造"
+  ],
+  "summary": "比较复杂视觉场景、消息容量与消歧，并用独立有监督任务诊断发送/接收模型。 冻结ResNet-101，发送者获物体框且目标首位，接收者预测14×14区域目标；图像裁剪可能丢目标；消息组合分析列为未来工作。",
+  "publisher_id": "iwcs2025.25",
+  "official_url": "https://aclanthology.org/2025.iwcs-main.25/",
+  "arxiv_id_status": "not verified; no artificial ID supplied",
+  "schema_status": "publisher-only parallel review, not submitted to arXiv-ID validator"
+}

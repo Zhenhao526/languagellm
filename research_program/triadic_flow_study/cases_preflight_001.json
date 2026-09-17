@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "at": "2026-09-16T05:18:42.901205+00:00",
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/__init__.py": "00e2b94da44dc6e964cbbc29754ba916219f99ee6b207b131d0cffb5ce07abe2",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/cases.py": "7d57710cac12e75ffc8e69563756f510fd73e7ffe9d8711ebc967b0a40c2ed0e",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/test_cases.py": "be24792ae00823bd0600569f6f1816ca8ce09e2d510f3468159b6080f4182297",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/support_review.md": "ad277f08544e5052253513337899ab32f10dfc49565f8e3c5cd85e5346de19d5",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/static_availability.json": "7da821696cdf9704a88fa94853aecb7721d4f2f308559b2bc2eb16cdbbe21b3d"
+  },
+  "test_runs": [
+    {
+      "stage": "metadata_only",
+      "tool_chunk_id": "3cb1e7",
+      "tests": 3,
+      "elapsed_seconds": 0.013,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "stage": "accepted_generic_paired_response_arithmetic",
+      "tool_chunk_id": "2a52a7",
+      "tests": 4,
+      "elapsed_seconds": 0.015,
+      "failures": 0,
+      "errors": 0
+    }
+  ],
+  "static": {
+    "tool_chunk_id": "4df0a7",
+    "receipt": "static_availability.json",
+    "native_states_validated": 774144,
+    "expanded_flow_rows": 2018304,
+    "official_PL_equalities_at_canonical_background": 21024
+  },
+  "coverage": [
+    "Complete16-cell canonical order and candidate/effective same-background donor indices",
+    "Original partition state/index contract, every00 sham and truth-pair reversal",
+    "Official observation encoding fixture: I focus unchanged, O others unchanged",
+    "Full source supports retained with nine strata and generic empty-stratum handling",
+    "Scalar and trailing-vector arm effects, interactions, within-world pairing and equal-nine-stratum rather than pooled means",
+    "Invalid values and malformed packing rejected"
+  ],
+  "interface": {
+    "build_cases": "Pure JSON compact native groups/support and flow/arm/sham budgets",
+    "expand": "All arrays in group/background/context/self_endpoint/incoming/outgoing order",
+    "metrics": "Input[N,*response_shape], top S00/S01/S10/S11/I_given_O0/I_given_O1/O_given_I0/O_given_I1/interaction plus9 strata; parallel per_group_background arrays[G,B,*response_shape]"
+  },
+  "scientific_response": "Root-approved unique primary is supplied original-world exact full-success probability response, I_given_O0 on complete double holdout, then equal four societies. Generic cases.metrics neither constructs S nor chooses alternate endpoints.",
+  "policy_output_reads": 0,
+  "checkpoint_loads": 0,
+  "model_forwards": 0,
+  "training_updates": 0,
+  "state": "Static implementation complete and held unchanged for source freeze; no formal execution started by this subtask."
+}

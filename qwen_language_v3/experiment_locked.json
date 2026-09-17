@@ -1,0 +1,96 @@
+{
+  "locked_at": "2026-09-15T15:20:50.362824+08:00",
+  "scope": "capability-gated ecological simplification; conditional single-group convention-formation pilot",
+  "model": "Qwen3.5-9B-8bit",
+  "model_commit": "16daa4818c54ce5f5436f929d52542eb65bbed9d",
+  "changes": [
+    "all wood initially processed",
+    "processing actions and axe removed together",
+    "roads permanently open"
+  ],
+  "preserved": [
+    "three independent agents",
+    "local observations and private item handles",
+    "exact object/attribute/destination matching",
+    "reciprocal partner and destination matching for long wood",
+    "single ordinary cargo slot",
+    "four synchronous windows",
+    "same message decoding and raw-history policy"
+  ],
+  "capability_order": [
+    "full_information",
+    "natural"
+  ],
+  "capability_scenarios": [
+    {
+      "seed": 92015,
+      "variant": 0
+    },
+    {
+      "seed": 92038,
+      "variant": 22
+    }
+  ],
+  "capability_history_mode": "independent_episodes",
+  "capability_gate": "Complete both planned scenarios in each tier. Advance only if both finish all actual goal deliveries within 12 steps with verified fresh histories and complete consistent records. If either fails, stop later tiers without prompt edits or added retries.",
+  "group_seeds": [
+    17
+  ],
+  "symbolic_condition": "immediate",
+  "symbolic_scenarios": [
+    {
+      "seed": 93101,
+      "variant": 0
+    },
+    {
+      "seed": 93123,
+      "variant": 22
+    },
+    {
+      "seed": 93204,
+      "variant": 0
+    }
+  ],
+  "symbolic_history_mode": "continuous",
+  "frozen_probes": [
+    {
+      "episode": 1,
+      "step": 2
+    },
+    {
+      "episode": 3,
+      "step": 2
+    }
+  ],
+  "probe_arms": [
+    "original",
+    "empty_text"
+  ],
+  "max_physical_steps": 12,
+  "windows": 4,
+  "alphabet": "@#%&*+=~",
+  "max_message_symbols": 32,
+  "per_agent_step_symbols": 64,
+  "private_analysis_max_tokens": 256,
+  "private_analysis_temperature": 0,
+  "natural_message_max_tokens": 96,
+  "message_temperature": 0.7,
+  "action_temperature": 0,
+  "max_backend_calls": {
+    "full_information": 720,
+    "natural": 720,
+    "symbolic": 1080,
+    "frozen_probes": 24,
+    "total_if_all_stages_run_to_deadline": 2544
+  },
+  "seed_selection": "Selected before any v3 model call by deterministic structural coverage. Capability case2 uses first seed >=92037 with a different camp observer from case1. Symbolic case3 uses first seed >=93201 with resource sites swapped and a different camp observer from symbolic case1. No selection used model outcomes.",
+  "interpretation_limits": [
+    "Removal of processing and tools is a package change, not a pure processed-flag effect.",
+    "Two capability scenes change multiple attributes/quantities/destinations, not a factorial contrast.",
+    "A single immediate-interaction group has no independent group replication or delayed comparison.",
+    "Episode1 and episode3 share demand type but change local handles, resource locations and agent starts; this is descriptive recurrence, not a held-out compositional test.",
+    "Current-message ablation retains old history and changes input length; changes between two states do not prove language growth.",
+    "Private analyses are used only inside one decision; no persistent private notes are added.",
+    "Ordered alphabet and shared pretrained linguistic priors remain."
+  ]
+}

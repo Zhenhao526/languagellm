@@ -1,0 +1,47 @@
+{
+  "version": "v0.41-two-token-per-sender",
+  "description": "资源与角色置换控制下的三资源双 token 序列协议形成",
+  "research_question": "当每个资源 sender 连续发送两个 token 时，第二个 token 是否携带可复用的信息；资源槽位置换和伙伴覆盖如何影响序列形成、组合功能与跨主体一致性？",
+  "factorial": {
+    "topology_conditions": ["fixed_A", "rotating_AB", "random_ABC"],
+    "resource_assignments": {
+      "canonical": [0, 1, 2],
+      "cyclic": [1, 2, 0]
+    },
+    "seeds": [34101, 34102, 34103, 34104],
+    "partitions": [1, 2, 3],
+    "chains": 72,
+    "primary_unit": "seed×partition×resource_assignment×topology_condition"
+  },
+  "protocol": {
+    "resources": 3,
+    "tokens_per_resource_sender": 2,
+    "message_order": "resource0_token0, resource0_token1, resource1_token0, resource1_token1, resource2_token0, resource2_token1",
+    "message_length": 6,
+    "vocabulary": 7,
+    "nominal_receiver_codebook_size": 117649,
+    "receiver_evaluation": "unique six-token codes observed on the 120-map test table are materialized exactly; unobserved rows are not needed for the reported behavioral metrics",
+    "payoff": "(1/6)*sum(correct_resources)+0.5*all_three_correct",
+    "baseline": 0.1
+  },
+  "training": {
+    "updates": 1200,
+    "checkpoints": [0, 100, 600, 1200],
+    "new_communication_heads": "fresh random sender and receiver modules",
+    "private_visual_frontends": "inherited from v0.28 and frozen",
+    "schedule_namespace": 41040,
+    "fixture_namespace": 41041
+  },
+  "measurements": {
+    "function": ["target60_joint_J", "all120_joint_J", "resource0_accuracy", "resource1_accuracy", "resource2_accuracy"],
+    "form": ["pair_agreement", "token0_agreement", "token1_agreement", "sequence_joint_agreement", "token_change_prev", "token_change_base"],
+    "information": ["normalized_mutual_information_token0_position", "normalized_mutual_information_token1_position", "normalized_mutual_information_pair_position"],
+    "sequence_test": "token0 and token1 are sampled autoregressively; conditional token1 probabilities are recorded for every possible token0 prefix"
+  },
+  "controls_and_limits": [
+    "canonical and cyclic resource assignments move the resource identity across architectural slots while keeping the world geometry fixed",
+    "the three topology schedules reproduce the v0.39 partner-coverage manipulation",
+    "a six-token tuple tests within-sender sequential structure and multi-resource composition, not open-ended natural language",
+    "the policy-gradient update is shared and centralized"
+  ]
+}

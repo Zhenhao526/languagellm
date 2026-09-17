@@ -1,0 +1,67 @@
+{
+  "status": "passed_independent_two_stage_fake_inference_audit",
+  "checked_at": "2026-09-15T18:42:50.200106+08:00",
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/qwen_capability.py": "86283b901c3a9f6dbcf5250ec753962a0759f8634defb0fa5e845b65be20efd4",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/environment.py": "b2d49ab829edc92e77df527f5b470602c289cdf3ad7728d5e71f411c53582ef6",
+    "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/backend.py": "0aa38e9c5a53c9f3275a8208912bfc356181839e7d338083570dd32c332c7e23",
+    "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/run.py": "eff1e4fa3f8803b43d95c32381646e9c0f39b87a212ed1de110ede45ae4dcd7b",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/tests/test_qwen_capability.py": "6b5baffd8ccd95864b042eeefd99e6b55a03a631b41910b1ef14b548d2cd7ba8"
+  },
+  "reproduction_command": "python3 -m unittest discover -s research_program/triadic_task/tests -v",
+  "tests_run": 11,
+  "failures": 0,
+  "errors": 0,
+  "uses_real_backend_decide_method": true,
+  "replaces_only_infer_with_recording_function": true,
+  "model_initializer_calls": 0,
+  "real_model_calls": 0,
+  "training_updates": 0,
+  "primary_trace": {
+    "trials": 12,
+    "context_groups": 3,
+    "scenes_per_group": 4,
+    "independent_scene_draws": 4,
+    "all_trials_failed_by_fixture": true,
+    "completed_after_failures": 12,
+    "decisions": 108,
+    "simulated_infer_calls": 216,
+    "unique_decision_seeds": 108,
+    "two_stage_shared_seed": true,
+    "private_analysis_calls": 108,
+    "public_message_calls": 72,
+    "action_calls": 36,
+    "trace_file": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/audit_qwen_capability_calls.jsonl",
+    "trace_sha256": "b6cd5f08a1b9cca5a4d1bf4713a92fc2c017aedc6ffe46a4ede4bf43f9090773"
+  },
+  "test_fixture_simulated_infer_calls_total": 864,
+  "other_fixtures": [
+    "Callback/input mutation and researcher metadata exclusion: 216 fake infer calls.",
+    "Researcher-only witness backend: 216 fake infer calls, 12/12 positive gate.",
+    "First trial deliberately fails, other eleven use researcher witnesses: 216 fake infer calls, gate fails after all twelve finish."
+  ],
+  "checks": {
+    "window_inputs_hidden_until_all_three_messages_ready": true,
+    "window2_receives_exactly_three_window1_messages": true,
+    "action_inputs_receive_exactly_six_public_messages": true,
+    "current_others_actions_excluded": true,
+    "private_analysis_in_own_immediate_formal_only": true,
+    "histories_contain_own_observation_action_feedback_and_public_transcript_only": true,
+    "three_groups_and_three_agents_history_isolation": true,
+    "researcher_state_ids_seeds_witnesses_excluded_from_messages": true,
+    "per_agent_menu_all17": true,
+    "menus_unchanged_when_only_drawn_semantics_replaced": true,
+    "menu_seeds_unique36_and_disjoint_from_decision_seeds": true,
+    "prepared_cases_and_core_sources_unmodified": true,
+    "old_v3_gate_not_modified": true
+  },
+  "limitations": [
+    "This is a code audit, not Qwen capability or emergent-language evidence.",
+    "Complete current semantic information is intentionally visible in this capability control; exclusion concerns raw researcher state and provenance fields.",
+    "The 4 scenes are reused across 3 independent context groups, not 12 independent semantic draws.",
+    "108 decision seeds are unique; analysis/formal share each seed under the unchanged v3 backend, so 216 calls do not imply 216 unique seeds.",
+    "Prepared-model files, runtime and actual tokenizer behavior are not exercised by fake infer. Root owns prepare/execute.",
+    "Menu independence is a code-level counterfactual check with fixed scene identities; it is not a statistical test of ideal random independence."
+  ],
+  "unittest_output_sha256": "efe6ef4f658e4fef7ff98307ea4ebe70ffb987c5055091875c42a487b9cc50c1"
+}

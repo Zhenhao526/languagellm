@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "version": "v0.30",
+  "scope": "bounded static implementation review; no model forward or optimizer replay",
+  "checks": {
+    "fresh_communication_only": "restore loads v28 private_all checkpoints, discards private heads, and resets only communication modules",
+    "frozen_visual_inputs": "all inherited train/test caches are detached float32 arrays and are bound by input hashes",
+    "paired_support_fixture": "two arms share seven map/photo/mask worlds per base draw and differ only in the five arm-specific maps",
+    "multi_partner_target": "target12 is a 2-regular graph with two partners per food and water location",
+    "no_training_shortcut": "partner-pair and recombination metrics are computed offline from saved endpoint arrays",
+    "formal_gate": "formal execution binds both source_hashes and input_hashes to preflight_qa",
+    "fixed_budget": "all formal runs use 2400 updates, 240 messages per direction, and no performance-based selection"
+  },
+  "budget_constants": {
+    "messages_per_direction": 240,
+    "messages_per_pair_update": 480,
+    "actions_per_pair_update": 960,
+    "updates_per_run": 2400,
+    "formal_runs": 24
+  },
+  "limitations": [
+    "The inherited DINOv2-L and private checkpoints are verified by hashes rather than retrained in this batch.",
+    "The bounded audit samples fixture and categorical replay points; it does not replay every gradient or Adam state transition.",
+    "The support contrast changes a joint graph topology; it does not by itself identify a unique causal role for path count."
+  ]
+}

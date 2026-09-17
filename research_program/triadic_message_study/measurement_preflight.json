@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "completed_at": "2026-09-15T15:53:57.468376+00:00",
+  "test_command": "qwen_collect_pilot/.venv/bin/python -m unittest research_program.triadic_message_study.tests.test_private_fact_pairs research_program.triadic_message_study.tests.test_endpoint_probes -v",
+  "unit_tests": 14,
+  "test_elapsed_seconds": 0.025,
+  "fake_backend_only": true,
+  "policy_weight_loads": 0,
+  "trained_or_random_policy_forward_calls": 0,
+  "static_pair_count": 4320,
+  "initial_test_pass_count": 13,
+  "pre_freeze_corrections": [
+    "Two regeneration sites now greedily choose stable-softmax probabilities rather than logits; added near-tie rounding regression test.",
+    "Input freeze receipt states before parameter loading/forward; SHA hashing necessarily reads checkpoint bytes first."
+  ],
+  "source_sha256": {
+    "private_fact_pairs.py": "0e98ee7745882aa618569939e8769a802980b487f9e16ce882205ce1883cc88d",
+    "endpoint_probes.py": "72da2a2b68a5ca473eb577dfffd2347775453f7bfe922f561ef93cca55df6cea",
+    "信息与因果测量审查.md": "45881a12d657328a26ad30bda9ba74de30706ab458e574cea48178a2401f5a10",
+    "tests/test_private_fact_pairs.py": "075c26de38c9ea4c4432ab970003a86bf97ce8a91a24bca28c3f1ed3167bee9c",
+    "tests/test_endpoint_probes.py": "9e0a031551b6449f534bcb403a56ffc3b60bc38f95353e1f741ca04a8e9f6a7f"
+  },
+  "pair_manifest_sha256": "e959e37bb2bb7c392f352204ca97eab221e9045e0dd101732d75c6f9269a3a70"
+}

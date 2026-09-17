@@ -1,0 +1,27 @@
+{
+  "review_mode": "full_text",
+  "confidence": "high",
+  "verdict": "must-read",
+  "paper_type": "empirical_method",
+  "scores": {
+    "relevance": 97,
+    "evidence": 82,
+    "novelty": 73,
+    "impact": 81,
+    "reproducibility": 82,
+    "author_prior": 50,
+    "early_signal": 50
+  },
+  "contribution": "冻结DINO加新语言模块已有先例；对齐和TopSim改善未带来严格组合辨别提升。",
+  "evidence_summary": "十五种子、30epochs、验证选超参数；严格Winoground结果未因RSA损失改善。",
+  "novelty_comparison": "通信阶段直接约束双方和原图表示相似性，非无通信私人行动准备与冻结迁移。 阅读优先级评分不认证论文或本项目新颖性。",
+  "recommendation_reasons": [
+    "冻结DINO加新语言模块已有先例；对齐和TopSim改善未带来严格组合辨别提升。",
+    "PDF 4–7; §4, §5.4; appendices"
+  ],
+  "concerns": [
+    "Winoground视觉关系辨别不是本任务地图组合；加入RSA读取双方表征。不能据其负结果断言所有等变训练无用。"
+  ],
+  "summary": "通信阶段直接约束双方和原图表示相似性，非无通信私人行动准备与冻结迁移。",
+  "arxiv_id": "2407.17960"
+}

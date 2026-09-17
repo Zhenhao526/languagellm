@@ -1,0 +1,435 @@
+{
+  "status": "passed_with_disclosed_historical_overlap",
+  "new_prepared_agents": 48,
+  "within_new_cohorts_all_preparations_unique": true,
+  "historical_overlap_agents": 2,
+  "overlaps": [
+    {
+      "batch": "formation_confirm_001",
+      "seed": 1202,
+      "agent": 0,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/formation_confirm_001/prepared_s1202.pt",
+      "sha256": "665c230096b73565e02cd4f8de1a6877a1afc923317abd236bf4360f93e7302a",
+      "historical_matches": [
+        {
+          "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/partners_001/prepared_s202.pt",
+          "agent": 2,
+          "sha256": "665c230096b73565e02cd4f8de1a6877a1afc923317abd236bf4360f93e7302a"
+        }
+      ]
+    },
+    {
+      "batch": "formation_confirm_001",
+      "seed": 1202,
+      "agent": 1,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/formation_confirm_001/prepared_s1202.pt",
+      "sha256": "0a8ffd43b581451de1277277ca6c56f6e46fe862d9460c6ec8a5ad5c6c93fb2c",
+      "historical_matches": [
+        {
+          "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/partners_001/prepared_s202.pt",
+          "agent": 3,
+          "sha256": "0a8ffd43b581451de1277277ca6c56f6e46fe862d9460c6ec8a5ad5c6c93fb2c"
+        }
+      ]
+    }
+  ],
+  "meaning": "Only non-social preparation repeats; no socially learned protocol inherited. Keep planned ten-seed analysis and disclose the supplementary nine-seed sensitivity.",
+  "new_preparations": [
+    {
+      "batch": "formation_confirm_001",
+      "seed": 1201,
+      "agent": 0,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/formation_confirm_001/prepared_s1201.pt",
+      "sha256": "a80e7f85d385d3d550faa60b1e879749e2eb2b8dd2b8aa548f501855df8653c2",
+      "historical_matches": []
+    },
+    {
+      "batch": "formation_confirm_001",
+      "seed": 1201,
+      "agent": 1,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/formation_confirm_001/prepared_s1201.pt",
+      "sha256": "a4fd7d270b160a06b3b53c91ee3a44e2e10e69587d684ba70253405a3eda95f4",
+      "historical_matches": []
+    },
+    {
+      "batch": "formation_confirm_001",
+      "seed": 1202,
+      "agent": 0,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/formation_confirm_001/prepared_s1202.pt",
+      "sha256": "665c230096b73565e02cd4f8de1a6877a1afc923317abd236bf4360f93e7302a",
+      "historical_matches": [
+        {
+          "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/partners_001/prepared_s202.pt",
+          "agent": 2,
+          "sha256": "665c230096b73565e02cd4f8de1a6877a1afc923317abd236bf4360f93e7302a"
+        }
+      ]
+    },
+    {
+      "batch": "formation_confirm_001",
+      "seed": 1202,
+      "agent": 1,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/formation_confirm_001/prepared_s1202.pt",
+      "sha256": "0a8ffd43b581451de1277277ca6c56f6e46fe862d9460c6ec8a5ad5c6c93fb2c",
+      "historical_matches": [
+        {
+          "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/partners_001/prepared_s202.pt",
+          "agent": 3,
+          "sha256": "0a8ffd43b581451de1277277ca6c56f6e46fe862d9460c6ec8a5ad5c6c93fb2c"
+        }
+      ]
+    },
+    {
+      "batch": "formation_confirm_001",
+      "seed": 1203,
+      "agent": 0,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/formation_confirm_001/prepared_s1203.pt",
+      "sha256": "e3c9c7097448a371fa458b6f752bc638bb0d007b3d782fbc46afbc2c8d59682d",
+      "historical_matches": []
+    },
+    {
+      "batch": "formation_confirm_001",
+      "seed": 1203,
+      "agent": 1,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/formation_confirm_001/prepared_s1203.pt",
+      "sha256": "cd8d2a01e68b9ebdf19db40eadfe099e196fad474c707e4289ab6a06291aeb30",
+      "historical_matches": []
+    },
+    {
+      "batch": "formation_confirm_001",
+      "seed": 1204,
+      "agent": 0,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/formation_confirm_001/prepared_s1204.pt",
+      "sha256": "d9a016c0e2dc0e15f20ad92aae59f86bf4419d23e4cb832faca37fbc660c167a",
+      "historical_matches": []
+    },
+    {
+      "batch": "formation_confirm_001",
+      "seed": 1204,
+      "agent": 1,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/formation_confirm_001/prepared_s1204.pt",
+      "sha256": "8461c535c27a12d7b6ddf94da0649f6ef83199af711a9f5c73034a1cbc79056b",
+      "historical_matches": []
+    },
+    {
+      "batch": "formation_confirm_001",
+      "seed": 1205,
+      "agent": 0,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/formation_confirm_001/prepared_s1205.pt",
+      "sha256": "c05dbe9dceb51f0689991bd3a766656150c42b1f7b88cc9fbcf9e012a28860ef",
+      "historical_matches": []
+    },
+    {
+      "batch": "formation_confirm_001",
+      "seed": 1205,
+      "agent": 1,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/formation_confirm_001/prepared_s1205.pt",
+      "sha256": "95de992b28f0b6dca27d3f5e50a08b992053b99cf2c87d1c9875210b5c071187",
+      "historical_matches": []
+    },
+    {
+      "batch": "formation_confirm_001",
+      "seed": 1206,
+      "agent": 0,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/formation_confirm_001/prepared_s1206.pt",
+      "sha256": "35e63b6f3934469bc9cfa3116c3b3bbcd63a39dd2389841f4fb773c9ff0494a7",
+      "historical_matches": []
+    },
+    {
+      "batch": "formation_confirm_001",
+      "seed": 1206,
+      "agent": 1,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/formation_confirm_001/prepared_s1206.pt",
+      "sha256": "ab674084734bbcc6a7ab7ad783e6774b153c46f0eda2372a39cb2407a016dedc",
+      "historical_matches": []
+    },
+    {
+      "batch": "formation_confirm_001",
+      "seed": 1207,
+      "agent": 0,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/formation_confirm_001/prepared_s1207.pt",
+      "sha256": "586fa26d2acb3b5ddb4ac32fb39cfa10e98caa6bcbe731d19f11a752eed4b0f6",
+      "historical_matches": []
+    },
+    {
+      "batch": "formation_confirm_001",
+      "seed": 1207,
+      "agent": 1,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/formation_confirm_001/prepared_s1207.pt",
+      "sha256": "9c4e534c0579fd71c03ab2f7153975f84309f32a245f662db950794fbc5f84b7",
+      "historical_matches": []
+    },
+    {
+      "batch": "formation_confirm_001",
+      "seed": 1208,
+      "agent": 0,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/formation_confirm_001/prepared_s1208.pt",
+      "sha256": "551e9752c5f2946920b548936ccf9ca68f28e01d04233433c12aa2fffb74caff",
+      "historical_matches": []
+    },
+    {
+      "batch": "formation_confirm_001",
+      "seed": 1208,
+      "agent": 1,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/formation_confirm_001/prepared_s1208.pt",
+      "sha256": "8e3d3146d461f0a187f59ffa360a3054586b745862871b9da29b6df22c9e48d5",
+      "historical_matches": []
+    },
+    {
+      "batch": "formation_confirm_001",
+      "seed": 1209,
+      "agent": 0,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/formation_confirm_001/prepared_s1209.pt",
+      "sha256": "fddef4602c0084694cb143b1908ae499f1d1b1590d1fc6f0b003dd3aba5ba54e",
+      "historical_matches": []
+    },
+    {
+      "batch": "formation_confirm_001",
+      "seed": 1209,
+      "agent": 1,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/formation_confirm_001/prepared_s1209.pt",
+      "sha256": "61fded31fc4a67577194771b8d511ac32a0e0932e80dc530963e8883d131fa2f",
+      "historical_matches": []
+    },
+    {
+      "batch": "formation_confirm_001",
+      "seed": 1210,
+      "agent": 0,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/formation_confirm_001/prepared_s1210.pt",
+      "sha256": "319a1757515dbcbba9727c09a725b7a33ef5f201b3e669aafa71c0521df7a287",
+      "historical_matches": []
+    },
+    {
+      "batch": "formation_confirm_001",
+      "seed": 1210,
+      "agent": 1,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/formation_confirm_001/prepared_s1210.pt",
+      "sha256": "ef882d1489fd256bf51774557fa80a9c356845f53bf9162a8d10e1ceb3b0d9b5",
+      "historical_matches": []
+    },
+    {
+      "batch": "mechanism_origins_001",
+      "seed": 1001,
+      "agent": 0,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/mechanism_origins_001/prepared_s1001.pt",
+      "sha256": "0c1de92c3d44d6dd8760544a18080d6ce12afb4b9a0a0e2956d73d6f8ad4c783",
+      "historical_matches": []
+    },
+    {
+      "batch": "mechanism_origins_001",
+      "seed": 1001,
+      "agent": 1,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/mechanism_origins_001/prepared_s1001.pt",
+      "sha256": "913a64b42cdd96e1d4958bb6403badbf8c021130a621311c2df9f6ec5ae8b351",
+      "historical_matches": []
+    },
+    {
+      "batch": "mechanism_origins_001",
+      "seed": 1001,
+      "agent": 2,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/mechanism_origins_001/prepared_s1001.pt",
+      "sha256": "21faff0ef6420d196882c69c6599df90498ff431675815d84b7f2a00fdf0e398",
+      "historical_matches": []
+    },
+    {
+      "batch": "mechanism_origins_001",
+      "seed": 1001,
+      "agent": 3,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/mechanism_origins_001/prepared_s1001.pt",
+      "sha256": "90ab4681c4b67fc6720b6f9b05380e375c71a48949c95ace43c113f9c28348cb",
+      "historical_matches": []
+    },
+    {
+      "batch": "mechanism_origins_001",
+      "seed": 404,
+      "agent": 0,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/mechanism_origins_001/prepared_s404.pt",
+      "sha256": "ec52549b4ac94a6e9c19c6ee92bad65d4d8280140b4e0b0b94c29f3b243ef9cc",
+      "historical_matches": []
+    },
+    {
+      "batch": "mechanism_origins_001",
+      "seed": 404,
+      "agent": 1,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/mechanism_origins_001/prepared_s404.pt",
+      "sha256": "30a2d2756c5c31eb5b5fa371150c525ea95ae29ad327d37f1fd499a4970c6b52",
+      "historical_matches": []
+    },
+    {
+      "batch": "mechanism_origins_001",
+      "seed": 404,
+      "agent": 2,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/mechanism_origins_001/prepared_s404.pt",
+      "sha256": "5b728177fd51676a1975e710fb134af6d9f13f12a932a788b0bfb7a6a540fcca",
+      "historical_matches": []
+    },
+    {
+      "batch": "mechanism_origins_001",
+      "seed": 404,
+      "agent": 3,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/mechanism_origins_001/prepared_s404.pt",
+      "sha256": "5dfa912236051b15fa905d9dcca73d17f6d9e89527278850570c1e92cb0e0ec8",
+      "historical_matches": []
+    },
+    {
+      "batch": "mechanism_origins_001",
+      "seed": 505,
+      "agent": 0,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/mechanism_origins_001/prepared_s505.pt",
+      "sha256": "7547b9d85a523560ea8a9475cce40a40eb1a9ce91c1292ac384654e4cbdfa3b0",
+      "historical_matches": []
+    },
+    {
+      "batch": "mechanism_origins_001",
+      "seed": 505,
+      "agent": 1,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/mechanism_origins_001/prepared_s505.pt",
+      "sha256": "91d9aa1bf530c44c531b790f33fe44f2eb8f339d72c814830b53bbeaad49b551",
+      "historical_matches": []
+    },
+    {
+      "batch": "mechanism_origins_001",
+      "seed": 505,
+      "agent": 2,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/mechanism_origins_001/prepared_s505.pt",
+      "sha256": "20b116d31001bb120b2839025cd13326eee5177c69a8493ea19c219fcf408d38",
+      "historical_matches": []
+    },
+    {
+      "batch": "mechanism_origins_001",
+      "seed": 505,
+      "agent": 3,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/mechanism_origins_001/prepared_s505.pt",
+      "sha256": "bcf0b033ccc0e9914f87820bb6397fe7e804fd32f958fa573e9fca6e197da3a5",
+      "historical_matches": []
+    },
+    {
+      "batch": "mechanism_origins_001",
+      "seed": 606,
+      "agent": 0,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/mechanism_origins_001/prepared_s606.pt",
+      "sha256": "7a81a869b38bc2b722667f7892c8c2d63c6250ae7556480593f8407b67836579",
+      "historical_matches": []
+    },
+    {
+      "batch": "mechanism_origins_001",
+      "seed": 606,
+      "agent": 1,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/mechanism_origins_001/prepared_s606.pt",
+      "sha256": "96f075318588a48a468af373dc49efa557f078021da0655e2d2526397fc411c4",
+      "historical_matches": []
+    },
+    {
+      "batch": "mechanism_origins_001",
+      "seed": 606,
+      "agent": 2,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/mechanism_origins_001/prepared_s606.pt",
+      "sha256": "d1406afa85718eb3be77603509b99ac71de749b735b89bbbb9a903536db3ef4a",
+      "historical_matches": []
+    },
+    {
+      "batch": "mechanism_origins_001",
+      "seed": 606,
+      "agent": 3,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/mechanism_origins_001/prepared_s606.pt",
+      "sha256": "12a122e73a5042d614ba8fb9d8305601d1f524898bc70c0250b68fd6b37607df",
+      "historical_matches": []
+    },
+    {
+      "batch": "mechanism_origins_001",
+      "seed": 707,
+      "agent": 0,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/mechanism_origins_001/prepared_s707.pt",
+      "sha256": "f428c071abed59ff536ef08f5aadf1a36d252945d7c7034cf5c869819c8bbc3f",
+      "historical_matches": []
+    },
+    {
+      "batch": "mechanism_origins_001",
+      "seed": 707,
+      "agent": 1,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/mechanism_origins_001/prepared_s707.pt",
+      "sha256": "b8d4078cd64e753a6cc51d9606fe3dd83660f0c7e4aab1984c7495c24b56d56f",
+      "historical_matches": []
+    },
+    {
+      "batch": "mechanism_origins_001",
+      "seed": 707,
+      "agent": 2,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/mechanism_origins_001/prepared_s707.pt",
+      "sha256": "795a07fd683477084cb055d94b840bb108590de71314f0ea820ef331a2b07e2b",
+      "historical_matches": []
+    },
+    {
+      "batch": "mechanism_origins_001",
+      "seed": 707,
+      "agent": 3,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/mechanism_origins_001/prepared_s707.pt",
+      "sha256": "a5a7e7c263d150a0214d6f181010933cb0f270ba56a7b8794390da54ce804ad6",
+      "historical_matches": []
+    },
+    {
+      "batch": "mechanism_origins_001",
+      "seed": 808,
+      "agent": 0,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/mechanism_origins_001/prepared_s808.pt",
+      "sha256": "8b5d7d6ea0ae4fd810813f1b74230f6cecaad3036915df6ca67dbafe17e6799d",
+      "historical_matches": []
+    },
+    {
+      "batch": "mechanism_origins_001",
+      "seed": 808,
+      "agent": 1,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/mechanism_origins_001/prepared_s808.pt",
+      "sha256": "534d644334e33a4ffa86de50d82b7969bfe0254aa3fc7e5cb3920664196625b0",
+      "historical_matches": []
+    },
+    {
+      "batch": "mechanism_origins_001",
+      "seed": 808,
+      "agent": 2,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/mechanism_origins_001/prepared_s808.pt",
+      "sha256": "34aeffca1d13d11d37573211daa8538d67c3f459f5c817ea64f2ae65e8d6e6b2",
+      "historical_matches": []
+    },
+    {
+      "batch": "mechanism_origins_001",
+      "seed": 808,
+      "agent": 3,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/mechanism_origins_001/prepared_s808.pt",
+      "sha256": "7874d12ce0d744bd27d76365beda2ddb01059323241f7bfcb2c38ac5afe2004a",
+      "historical_matches": []
+    },
+    {
+      "batch": "mechanism_origins_001",
+      "seed": 909,
+      "agent": 0,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/mechanism_origins_001/prepared_s909.pt",
+      "sha256": "05d5410556406c19a9ee7e6a05fd9bb7bc3c87f24f1ee966ea053118b499aa81",
+      "historical_matches": []
+    },
+    {
+      "batch": "mechanism_origins_001",
+      "seed": 909,
+      "agent": 1,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/mechanism_origins_001/prepared_s909.pt",
+      "sha256": "1bb99a4f53da6cdc40d47131498b986cc05d8a82dbcef53631a8aed0f4f7fe6b",
+      "historical_matches": []
+    },
+    {
+      "batch": "mechanism_origins_001",
+      "seed": 909,
+      "agent": 2,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/mechanism_origins_001/prepared_s909.pt",
+      "sha256": "b9b1031de1636688002cf659801fea320b777e09a9b5813255a77706ac53793f",
+      "historical_matches": []
+    },
+    {
+      "batch": "mechanism_origins_001",
+      "seed": 909,
+      "agent": 3,
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/results/mechanism_origins_001/prepared_s909.pt",
+      "sha256": "baafbdcc635eba808ac833126132ac874241c951965f662953dfe6a801ab6382",
+      "historical_matches": []
+    }
+  ]
+}

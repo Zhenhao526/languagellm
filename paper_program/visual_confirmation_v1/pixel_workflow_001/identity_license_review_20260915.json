@@ -1,0 +1,459 @@
+{
+  "review_id": "identity_license_review_20260915",
+  "created_at_utc": "2026-09-15T16:04:00.077531+00:00",
+  "status": "six_candidate_review_complete_with_limits",
+  "scope": "Only six ordinary-format visually accepted workflow candidates. Existing official metadata and corresponding Commons text pages only. No image download, no pixel access or visual re-review, no model calls, no confirmation/reserve pixels.",
+  "candidate_count": 6,
+  "source_license_supported": 6,
+  "workflow_usable_with_recorded_scope_limits": 5,
+  "resource_scope_uncertain": 1,
+  "definite_source_or_license_exclusions": 0,
+  "not_confirmation_dataset_ready": true,
+  "independence_limit": "No match to titles/originalSHA1/sourceIDs/recognizedauthorKeys in all101oldrecords. Three old authors remain unresolved; 11 old pixel files unavailable and cross-confirmation pixels not checked. No universal author independence claim.",
+  "old_registry_source_sha_checks": {
+    "passed": 15,
+    "total": 15,
+    "base": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data"
+  },
+  "old_author_keys_original": 167,
+  "old_author_keys_after_redlink_normalization": 189,
+  "old_unresolved_authors": [
+    {
+      "title": "File:Ambersweet oranges.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ambersweet_oranges.jpg",
+      "artist_html": ""
+    },
+    {
+      "title": "File:Clean water (30313108598).jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Clean_water_(30313108598).jpg",
+      "artist_html": "<a rel=\"nofollow\" class=\"external autonumber\" href=\"https://www.flickr.com/people/alachuacounty/\">[1]</a>"
+    },
+    {
+      "title": "File:Glas halbvoll.JPG",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Glas_halbvoll.JPG",
+      "artist_html": ""
+    }
+  ],
+  "online_review": {
+    "attempted_unique_pages": 6,
+    "requests": 7,
+    "readable_pages": 3,
+    "same_revision_pages": 2,
+    "older_cached_revision_pages": 1,
+    "failed_unique_pages": 3,
+    "no_restriction_bypass": true,
+    "no_media_links_followed": true
+  },
+  "data_collection_timing_limit_retained": "Existing retry_after UTC QA failure remains; this review does not relabel download compliance as passed.",
+  "source_hashes": {
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/pixel_review_status.json": "0e30735d1cb1d43c18d4f3431a1bf2abb6ce2894cbdcd9692fabcd9c6ade4e44",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/manifest.json": "97fe2ffe555738dd0259926019d56bf743e7b7adf71f518058adbdeffe259f8c",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/old_exclusion_registry.json": "5e202b44dbb0c27436cb08396889ff91727bed976041f4e9d4851f31c7b0ea57",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/author_groups.json": "4329b30c2b3e0648a9bb535f6813e97bee9666581e47ae17730e979ddd2e73e3",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/prospective_sampling_plan.md": "cf4de1868c61d2830b07093c806bebdae58f619ec6b812a84c3f5ec3f32866da",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_plan.md": "49c79727f00b9c8406a70da2c96f63add25df07160565e8b279e46122bf17093",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/raw/0076_metadata_0640_a1.response": "644d30d56dc1f7fe101707ad470f64f64772043514f5a64abeb63c8695281052",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/raw/0014_metadata_0050_a1.response": "b8395dcf88b41715caa8a532c6838fc7e13f8a38eb4f4ce9ff4add63e618f82b",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/raw/0054_metadata_0420_a1.response": "6c4098ba41d4153d271eae0989f8ea0c025cc8ad12417407eea1a73373db783d",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/raw/0038_metadata_0260_a1.response": "db02bced27f855fa3f418a8ecf6b6eeb4cdeeaafdb60157175b09c67872d2127",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/raw/0029_metadata_0190_a1.response": "6bc8d8b0c883950bafd18cf69bfb92ae9a06c20e04ccee10b5aba398ff0b93c7"
+  },
+  "records": [
+    {
+      "blind_id": "9bfe113779f7",
+      "candidate_id": "commons:92547521",
+      "stratum": "water",
+      "title": "File:Caos - Flickr - Giuseppe Milo (www.pixael.com).jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Caos_-_Flickr_-_Giuseppe_Milo_(www.pixael.com).jpg",
+      "archived_page_revision": [
+        {
+          "revid": 1113010212,
+          "parentid": 996215252,
+          "timestamp": "2025-11-11T03:40:39Z"
+        }
+      ],
+      "permalink": "https://commons.wikimedia.org/w/index.php?title=File%3ACaos%20-%20Flickr%20-%20Giuseppe%20Milo%20%28www.pixael.com%29.jpg&oldid=1113010212",
+      "original_sha1": "b05238cf0169f594a57d8f96f38f679335a13931",
+      "original_version_timestamp": "2020-07-24T02:18:16Z",
+      "author_name": "Giuseppe Milo",
+      "author_url": "https://www.flickr.com/people/87690240@N03",
+      "uploader": "Red panda bot",
+      "author_identity_level": "declared_public_account_not_natural_person_authentication",
+      "original_source_url": "https://www.flickr.com/photos/giuseppemilo/12087604836/",
+      "source_type": "flickr_original_with_commons_review",
+      "artist_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/87690240@N03\">Giuseppe Milo</a> from Dublin, Ireland",
+      "credit_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/giuseppemilo/12087604836/\">Caos</a>",
+      "description_html": "This is a free picture released under Creative Commons Attribution 2.0 Generic. Feel free to use and share this picture but please give me credit linking my website or my Flickr account. More info about me on <a rel=\"nofollow\" class=\"external text\" href=\"http://www.pixael.com\">www.pixael.com</a>.",
+      "normalized_author_keys": [
+        "flickr-author:87690240@n03",
+        "text:giuseppe milo from dublin, ireland"
+      ],
+      "existing_cluster_id": "5ce769f33fa8f8963c12d03eca7bfd78fd6b33dbc5d82c854a2fe6a6254e89a9",
+      "existing_cluster_members": [
+        {
+          "pageid": 92547521,
+          "stratum": "water",
+          "metadata_status": "eligible_pending_manual_checks",
+          "provisional_assignment": "workflow"
+        }
+      ],
+      "old_comparison": {
+        "records": 101,
+        "known_author_keys_compared": 189,
+        "matches": [],
+        "unresolved_old_author_records": 3,
+        "all_authors_proven_independent": false
+      },
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "attribution_required_metadata": "true",
+      "attribution_ready_text": "Giuseppe Milo. Caos - Flickr - Giuseppe Milo (www.pixael.com).jpg. 来源：https://commons.wikimedia.org/wiki/File:Caos_-_Flickr_-_Giuseppe_Milo_(www.pixael.com).jpg。 原作：https://www.flickr.com/photos/giuseppemilo/12087604836/。 作者链接：https://www.flickr.com/people/87690240@N03。许可：CC BY 2.0（https://creativecommons.org/licenses/by/2.0）。修改：EXIF方向校正；RGB；最长边640像素、LANCZOS且不放大；JPEG质量95；短边256 BICUBIC及中心224裁剪。",
+      "license_source_status": "supported_by_hash_verified_official_metadata",
+      "license_review_scope": "data-usability provenance review; not a legal opinion or verification of every underlying authorship claim",
+      "live_page_review": {
+        "status": "official_page_verified_same_revision",
+        "revision": 1113010212,
+        "detail": "Summary author Giuseppe Milo; Flickr photo12087604836 / user87690240@N03; CC BY2.0; FlickreviewR2 confirmed2020-07-24."
+      },
+      "metadata_response": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/raw/0076_metadata_0640_a1.response",
+      "metadata_response_sha256": "644d30d56dc1f7fe101707ad470f64f64772043514f5a64abeb63c8695281052",
+      "metadata_checks_passed": true,
+      "notes_zh": "原作者是Giuseppe Milo，上传者Red panda bot不作为作者。署名采用作者Flickr链接，满足页面所述链接作者网站或Flickr账户的要求。",
+      "visual_review_unchanged": true,
+      "decision": "workflow_usable_with_recorded_scope_limits",
+      "decision_scope": "workflow only; not final independent confirmation dataset",
+      "resource_scope_status": "existing_two_AI_visual_pass_retained"
+    },
+    {
+      "blind_id": "a205a4056898",
+      "candidate_id": "commons:166279779",
+      "stratum": "apple",
+      "title": "File:Fallobst Mörlenbach Naturschutzgebiet In der Erbach WDPA 318598.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fallobst_M%C3%B6rlenbach_Naturschutzgebiet_In_der_Erbach_WDPA_318598.jpg",
+      "archived_page_revision": [
+        {
+          "revid": 1171187729,
+          "parentid": 1141099947,
+          "timestamp": "2026-02-24T09:12:13Z"
+        }
+      ],
+      "permalink": "https://commons.wikimedia.org/w/index.php?title=File%3AFallobst%20M%C3%B6rlenbach%20Naturschutzgebiet%20In%20der%20Erbach%20WDPA%20318598.jpg&oldid=1171187729",
+      "original_sha1": "bd3df7790dae85c7520c480534132d211f0a4035",
+      "original_version_timestamp": "2025-05-29T13:06:33Z",
+      "author_name": "IgorCalzone1",
+      "author_url": "https://commons.wikimedia.org/wiki/User:IgorCalzone1",
+      "uploader": "IgorCalzone1",
+      "author_identity_level": "declared_public_account_not_natural_person_authentication",
+      "original_source_url": "https://commons.wikimedia.org/wiki/File:Fallobst_M%C3%B6rlenbach_Naturschutzgebiet_In_der_Erbach_WDPA_318598.jpg",
+      "source_type": "commons_own_work_declaration",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:IgorCalzone1\" title=\"User:IgorCalzone1\">IgorCalzone1</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "description_html": "Fallobst, Mörlenbach Naturschutzgebiet In der Erbach",
+      "normalized_author_keys": [
+        "commons-user:igorcalzone1",
+        "text:igorcalzone1"
+      ],
+      "existing_cluster_id": "b0d6453fbf3d381e1f78a7e34fc1709f474adb6df2ab9066075bec8768fcd068",
+      "existing_cluster_members": [
+        {
+          "pageid": 166279779,
+          "stratum": "apple",
+          "metadata_status": "eligible_pending_manual_checks",
+          "provisional_assignment": "workflow"
+        },
+        {
+          "pageid": 119782992,
+          "stratum": "banana",
+          "metadata_status": "eligible_pending_manual_checks",
+          "provisional_assignment": null
+        }
+      ],
+      "old_comparison": {
+        "records": 101,
+        "known_author_keys_compared": 189,
+        "matches": [],
+        "unresolved_old_author_records": 3,
+        "all_authors_proven_independent": false
+      },
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "attribution_required_metadata": "false",
+      "attribution_ready_text": "IgorCalzone1. Fallobst Mörlenbach Naturschutzgebiet In der Erbach WDPA 318598.jpg. 来源：https://commons.wikimedia.org/wiki/File:Fallobst_M%C3%B6rlenbach_Naturschutzgebiet_In_der_Erbach_WDPA_318598.jpg。 作者链接：https://commons.wikimedia.org/wiki/User:IgorCalzone1。许可：CC0（https://creativecommons.org/publicdomain/zero/1.0/deed.en）。修改：EXIF方向校正；RGB；最长边640像素、LANCZOS且不放大；JPEG质量95；短边256 BICUBIC及中心224裁剪。",
+      "license_source_status": "supported_by_hash_verified_official_metadata",
+      "license_review_scope": "data-usability provenance review; not a legal opinion or verification of every underlying authorship claim",
+      "live_page_review": {
+        "status": "official_page_access_failed_archived_api_used",
+        "revision": null,
+        "detail": "Web tool non-retryable safe-open error; no bypass or alternative image access attempted."
+      },
+      "metadata_response": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/raw/0014_metadata_0050_a1.response",
+      "metadata_response_sha256": "b8395dcf88b41715caa8a532c6838fc7e13f8a38eb4f4ce9ff4add63e618f82b",
+      "metadata_checks_passed": true,
+      "notes_zh": "页面声明作者自摄及CC0，API的AttributionRequired为false；仍保留作者、作品和来源以供追溯。相同作者簇还有一个未预约香蕉候选，未占用确认或备用名额。",
+      "visual_review_unchanged": true,
+      "decision": "workflow_usable_with_recorded_scope_limits",
+      "decision_scope": "workflow only; not final independent confirmation dataset",
+      "resource_scope_status": "existing_two_AI_visual_pass_retained"
+    },
+    {
+      "blind_id": "54c81b71c5ad",
+      "candidate_id": "commons:61453248",
+      "stratum": "water",
+      "title": "File:Glass Half Full, M&M Twice as Big (3217129236).jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Glass_Half_Full,_M%26M_Twice_as_Big_(3217129236).jpg",
+      "archived_page_revision": [
+        {
+          "revid": 1274043742,
+          "parentid": 1218804009,
+          "timestamp": "2026-09-08T19:13:34Z"
+        }
+      ],
+      "permalink": "https://commons.wikimedia.org/w/index.php?title=File%3AGlass%20Half%20Full%2C%20M%26M%20Twice%20as%20Big%20%283217129236%29.jpg&oldid=1274043742",
+      "original_sha1": "d74ea889383ec591a6e0191a309fe2cbe7697b10",
+      "original_version_timestamp": "2017-08-02T20:00:55Z",
+      "author_name": "Quinn Dombrowski",
+      "author_url": "https://www.flickr.com/people/53326337@N00",
+      "uploader": "Sealle",
+      "author_identity_level": "declared_public_account_not_natural_person_authentication",
+      "original_source_url": "https://www.flickr.com/photos/quinnanya/3217129236/",
+      "source_type": "flickr_original_with_commons_review",
+      "artist_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/53326337@N00\">Quinn Dombrowski</a> from Berkeley, USA",
+      "credit_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/quinnanya/3217129236/\">Glass Half Full, M&amp;M Twice as Big</a>",
+      "description_html": "Glass Half Full, M&amp;M Twice as Big",
+      "normalized_author_keys": [
+        "flickr-author:53326337@n00",
+        "text:quinn dombrowski from berkeley, usa"
+      ],
+      "existing_cluster_id": "2172c362cc1258997da6708cbf75963561b114a2dcfb0732590e271cd5a4b778",
+      "existing_cluster_members": [
+        {
+          "pageid": 61453248,
+          "stratum": "water",
+          "metadata_status": "eligible_pending_manual_checks",
+          "provisional_assignment": "workflow"
+        }
+      ],
+      "old_comparison": {
+        "records": 101,
+        "known_author_keys_compared": 189,
+        "matches": [],
+        "unresolved_old_author_records": 3,
+        "all_authors_proven_independent": false
+      },
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attribution_required_metadata": "true",
+      "attribution_ready_text": "Quinn Dombrowski. Glass Half Full, M&M Twice as Big (3217129236).jpg. 来源：https://commons.wikimedia.org/wiki/File:Glass_Half_Full,_M%26M_Twice_as_Big_(3217129236).jpg。 原作：https://www.flickr.com/photos/quinnanya/3217129236/。 作者链接：https://www.flickr.com/people/53326337@N00。许可：CC BY-SA 2.0（https://creativecommons.org/licenses/by-sa/2.0）。修改：EXIF方向校正；RGB；最长边640像素、LANCZOS且不放大；JPEG质量95；短边256 BICUBIC及中心224裁剪。本项目发布的图像派生版本保留CC BY-SA 2.0；不将图像许可自动替换为项目代码许可。",
+      "license_source_status": "supported_by_hash_verified_official_metadata",
+      "license_review_scope": "data-usability provenance review; not a legal opinion or verification of every underlying authorship claim",
+      "live_page_review": {
+        "status": "official_page_verified_same_revision",
+        "revision": 1274043742,
+        "detail": "Author Quinn Dombrowski; Flickr photo3217129236 / user53326337@N00; CC BY-SA2.0; reviewer Sealle confirmed2017-08-02. Sealle is uploader/reviewer, not photographer."
+      },
+      "metadata_response": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/raw/0076_metadata_0640_a1.response",
+      "metadata_response_sha256": "644d30d56dc1f7fe101707ad470f64f64772043514f5a64abeb63c8695281052",
+      "metadata_checks_passed": true,
+      "notes_zh": "原作者是Quinn Dombrowski，上传/许可复核者Sealle不是原作者。作品题名含M&M，题名本身不足以判断其位置或推翻已封存视觉结论；本轮不重评视觉。",
+      "visual_review_unchanged": true,
+      "decision": "workflow_usable_with_recorded_scope_limits",
+      "decision_scope": "workflow only; not final independent confirmation dataset",
+      "resource_scope_status": "existing_two_AI_visual_pass_retained"
+    },
+    {
+      "blind_id": "81487bb81e0a",
+      "candidate_id": "commons:44409528",
+      "stratum": "orange",
+      "title": "File:NARANJAS DE PALMA DEL RIO.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:NARANJAS_DE_PALMA_DEL_RIO.jpg",
+      "archived_page_revision": [
+        {
+          "revid": 1118757936,
+          "parentid": 1085882901,
+          "timestamp": "2025-11-20T04:56:23Z"
+        }
+      ],
+      "permalink": "https://commons.wikimedia.org/w/index.php?title=File%3ANARANJAS%20DE%20PALMA%20DEL%20RIO.jpg&oldid=1118757936",
+      "original_sha1": "8e2180f2d1f7a1ddfc07c2d17d81cfc57eba846f",
+      "original_version_timestamp": "2015-10-23T08:14:29Z",
+      "author_name": "Villario1951",
+      "author_url": "https://commons.wikimedia.org/wiki/User:Villario1951",
+      "uploader": "Villario1951",
+      "author_identity_level": "declared_public_account_not_natural_person_authentication",
+      "original_source_url": "https://commons.wikimedia.org/wiki/File:NARANJAS_DE_PALMA_DEL_RIO.jpg",
+      "source_type": "commons_own_work_declaration",
+      "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Villario1951&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Villario1951 (page does not exist)\">Villario1951</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "description_html": "PRESENTACION DE LAS NARANJAS DE PALMA DEL RIO",
+      "normalized_author_keys": [
+        "commons-user:villario1951",
+        "text:villario1951"
+      ],
+      "existing_cluster_id": "0c80772ad3504223d2192c33be469e2ba7c8be634248b2b447609a724f925a0a",
+      "existing_cluster_members": [
+        {
+          "pageid": 44409528,
+          "stratum": "orange",
+          "metadata_status": "eligible_pending_manual_checks",
+          "provisional_assignment": "workflow"
+        }
+      ],
+      "old_comparison": {
+        "records": 101,
+        "known_author_keys_compared": 189,
+        "matches": [],
+        "unresolved_old_author_records": 3,
+        "all_authors_proven_independent": false
+      },
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution_required_metadata": "true",
+      "attribution_ready_text": "Villario1951. NARANJAS DE PALMA DEL RIO.jpg. 来源：https://commons.wikimedia.org/wiki/File:NARANJAS_DE_PALMA_DEL_RIO.jpg。 作者链接：https://commons.wikimedia.org/wiki/User:Villario1951。许可：CC BY-SA 4.0（https://creativecommons.org/licenses/by-sa/4.0）。修改：EXIF方向校正；RGB；最长边640像素、LANCZOS且不放大；JPEG质量95；短边256 BICUBIC及中心224裁剪。本项目发布的图像派生版本保留CC BY-SA 4.0；不将图像许可自动替换为项目代码许可。",
+      "license_source_status": "supported_by_hash_verified_official_metadata",
+      "license_review_scope": "data-usability provenance review; not a legal opinion or verification of every underlying authorship claim",
+      "live_page_review": {
+        "status": "official_page_verified_older_cached_revision",
+        "revision": 571551182,
+        "detail": "Returned Commons revision predates archived API revision1118757936. Own work/Villario1951/CC BY-SA4.0 agree; this is not a verification of the latest page revision."
+      },
+      "metadata_response": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/raw/0054_metadata_0420_a1.response",
+      "metadata_response_sha256": "6c4098ba41d4153d271eae0989f8ea0c025cc8ad12417407eea1a73373db783d",
+      "metadata_checks_passed": true,
+      "notes_zh": "作者自摄账户Villario1951；旧解析仅text键，本轮只在审查中补充Commons账户键，不修改分组。缓存网页较旧，许可和作者与较新API一致。",
+      "visual_review_unchanged": true,
+      "decision": "workflow_usable_with_recorded_scope_limits",
+      "decision_scope": "workflow only; not final independent confirmation dataset",
+      "resource_scope_status": "existing_two_AI_visual_pass_retained"
+    },
+    {
+      "blind_id": "946a3b801316",
+      "candidate_id": "commons:64369285",
+      "stratum": "banana",
+      "title": "File:VINABE (3).jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:VINABE_(3).jpg",
+      "archived_page_revision": [
+        {
+          "revid": 1266855931,
+          "parentid": 1240801111,
+          "timestamp": "2026-08-24T22:09:05Z"
+        }
+      ],
+      "permalink": "https://commons.wikimedia.org/w/index.php?title=File%3AVINABE%20%283%29.jpg&oldid=1266855931",
+      "original_sha1": "bf6739a88f8995d37dc5e98390cd38151a2e0c8f",
+      "original_version_timestamp": "2017-11-26T18:06:52Z",
+      "author_name": "VINABE",
+      "author_url": "https://commons.wikimedia.org/wiki/User:VINABE",
+      "uploader": "VINABE",
+      "author_identity_level": "declared_public_account_not_natural_person_authentication",
+      "original_source_url": "https://commons.wikimedia.org/wiki/File:VINABE_(3).jpg",
+      "source_type": "commons_own_work_declaration",
+      "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:VINABE&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:VINABE (page does not exist)\">VINABE</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "description_html": "This is an image of \"African people at work\" from",
+      "normalized_author_keys": [
+        "commons-user:vinabe",
+        "text:vinabe"
+      ],
+      "existing_cluster_id": "75a6c8e12305a405c60027492f92e998bda1b16bb404c1f6c7d89348d639839c",
+      "existing_cluster_members": [
+        {
+          "pageid": 64369285,
+          "stratum": "banana",
+          "metadata_status": "eligible_pending_manual_checks",
+          "provisional_assignment": "workflow"
+        }
+      ],
+      "old_comparison": {
+        "records": 101,
+        "known_author_keys_compared": 189,
+        "matches": [],
+        "unresolved_old_author_records": 3,
+        "all_authors_proven_independent": false
+      },
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution_required_metadata": "true",
+      "attribution_ready_text": "VINABE. VINABE (3).jpg. 来源：https://commons.wikimedia.org/wiki/File:VINABE_(3).jpg。 作者链接：https://commons.wikimedia.org/wiki/User:VINABE。许可：CC BY-SA 4.0（https://creativecommons.org/licenses/by-sa/4.0）。修改：EXIF方向校正；RGB；最长边640像素、LANCZOS且不放大；JPEG质量95；短边256 BICUBIC及中心224裁剪。本项目发布的图像派生版本保留CC BY-SA 4.0；不将图像许可自动替换为项目代码许可。",
+      "license_source_status": "supported_by_hash_verified_official_metadata",
+      "license_review_scope": "data-usability provenance review; not a legal opinion or verification of every underlying authorship claim",
+      "live_page_review": {
+        "status": "official_page_access_failed_archived_api_used",
+        "revision": null,
+        "detail": "First web open returned internal error; one same-URL retry returned non-retryable safe-open error; then stopped."
+      },
+      "metadata_response": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/raw/0038_metadata_0260_a1.response",
+      "metadata_response_sha256": "db02bced27f855fa3f418a8ecf6b6eeb4cdeeaafdb60157175b09c67872d2127",
+      "metadata_checks_passed": true,
+      "notes_zh": "作者自摄账户VINABE；用户页不存在不等于账户不存在。活动to check分类本身不等于版权争议，API Restrictions为空；没有把活动上传者当独立原作证据。",
+      "visual_review_unchanged": true,
+      "decision": "workflow_usable_with_recorded_scope_limits",
+      "decision_scope": "workflow only; not final independent confirmation dataset",
+      "resource_scope_status": "existing_two_AI_visual_pass_retained"
+    },
+    {
+      "blind_id": "b2c10f3d16f0",
+      "candidate_id": "commons:118158779",
+      "stratum": "banana",
+      "title": "File:Воронежский Ботанический Сад, Банан Декоративный Пигмей.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%92%D0%BE%D1%80%D0%BE%D0%BD%D0%B5%D0%B6%D1%81%D0%BA%D0%B8%D0%B9_%D0%91%D0%BE%D1%82%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%A1%D0%B0%D0%B4,_%D0%91%D0%B0%D0%BD%D0%B0%D0%BD_%D0%94%D0%B5%D0%BA%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9_%D0%9F%D0%B8%D0%B3%D0%BC%D0%B5%D0%B9.jpg",
+      "archived_page_revision": [
+        {
+          "revid": 713468298,
+          "parentid": 657495630,
+          "timestamp": "2022-12-08T17:30:30Z"
+        }
+      ],
+      "permalink": "https://commons.wikimedia.org/w/index.php?title=File%3A%D0%92%D0%BE%D1%80%D0%BE%D0%BD%D0%B5%D0%B6%D1%81%D0%BA%D0%B8%D0%B9%20%D0%91%D0%BE%D1%82%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%B4%2C%20%D0%91%D0%B0%D0%BD%D0%B0%D0%BD%20%D0%94%D0%B5%D0%BA%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%9F%D0%B8%D0%B3%D0%BC%D0%B5%D0%B9.jpg&oldid=713468298",
+      "original_sha1": "91c9d490b170913160e5312ba7ae839389780396",
+      "original_version_timestamp": "2022-05-19T17:57:09Z",
+      "author_name": "Tulkar",
+      "author_url": "https://commons.wikimedia.org/wiki/User:Tulkar",
+      "uploader": "Tulkar",
+      "author_identity_level": "declared_public_account_not_natural_person_authentication",
+      "original_source_url": "https://commons.wikimedia.org/wiki/File:%D0%92%D0%BE%D1%80%D0%BE%D0%BD%D0%B5%D0%B6%D1%81%D0%BA%D0%B8%D0%B9_%D0%91%D0%BE%D1%82%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%A1%D0%B0%D0%B4,_%D0%91%D0%B0%D0%BD%D0%B0%D0%BD_%D0%94%D0%B5%D0%BA%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9_%D0%9F%D0%B8%D0%B3%D0%BC%D0%B5%D0%B9.jpg",
+      "source_type": "commons_own_work_declaration",
+      "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Tulkar&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Tulkar (page does not exist)\">Tulkar</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "description_html": "Voronezh Botanical Garden, decorative Pygmy banana",
+      "normalized_author_keys": [
+        "commons-user:tulkar",
+        "text:tulkar"
+      ],
+      "existing_cluster_id": "8a69b91ca5bfa371fe5a78d9f196e6b5d1ac21bd32fe24976ae64dd342463aa0",
+      "existing_cluster_members": [
+        {
+          "pageid": 118158779,
+          "stratum": "banana",
+          "metadata_status": "eligible_pending_manual_checks",
+          "provisional_assignment": "workflow"
+        }
+      ],
+      "old_comparison": {
+        "records": 101,
+        "known_author_keys_compared": 189,
+        "matches": [],
+        "unresolved_old_author_records": 3,
+        "all_authors_proven_independent": false
+      },
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "attribution_required_metadata": "true",
+      "attribution_ready_text": "Tulkar. Воронежский Ботанический Сад, Банан Декоративный Пигмей.jpg. 来源：https://commons.wikimedia.org/wiki/File:%D0%92%D0%BE%D1%80%D0%BE%D0%BD%D0%B5%D0%B6%D1%81%D0%BA%D0%B8%D0%B9_%D0%91%D0%BE%D1%82%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%A1%D0%B0%D0%B4,_%D0%91%D0%B0%D0%BD%D0%B0%D0%BD_%D0%94%D0%B5%D0%BA%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9_%D0%9F%D0%B8%D0%B3%D0%BC%D0%B5%D0%B9.jpg。 作者链接：https://commons.wikimedia.org/wiki/User:Tulkar。许可：CC BY 4.0（https://creativecommons.org/licenses/by/4.0）。修改：EXIF方向校正；RGB；最长边640像素、LANCZOS且不放大；JPEG质量95；短边256 BICUBIC及中心224裁剪。",
+      "license_source_status": "supported_by_hash_verified_official_metadata",
+      "license_review_scope": "data-usability provenance review; not a legal opinion or verification of every underlying authorship claim",
+      "live_page_review": {
+        "status": "official_page_access_failed_archived_api_used",
+        "revision": null,
+        "detail": "Web tool non-retryable safe-open error; no bypass or alternative image access attempted."
+      },
+      "metadata_response": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/raw/0029_metadata_0190_a1.response",
+      "metadata_response_sha256": "6bc8d8b0c883950bafd18cf69bfb92ae9a06c20e04ccee10b5aba398ff0b93c7",
+      "metadata_checks_passed": true,
+      "notes_zh": "作者自摄账户Tulkar与CC BY4.0来源清楚；原描述明确decorative Pygmy banana。许可通过不证明符合“可获生存食物”的资源语义，本轮不推断品种可食性、不改盲审，将资源适用性留待明确。",
+      "visual_review_unchanged": true,
+      "decision": "uncertain_resource_scope",
+      "decision_scope": "workflow only; not final independent confirmation dataset",
+      "resource_scope_status": "pending_ornamental_banana_interpretation"
+    }
+  ]
+}

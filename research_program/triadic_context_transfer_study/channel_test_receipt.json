@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "recorded_at": "2026-09-15T18:54:55.361559+00:00",
+  "command": "qwen_collect_pilot/.venv/bin/python -m pytest research_program/triadic_context_transfer_study/tests/test_channel_intervention.py -q",
+  "tests_passed": 7,
+  "pytest_reported_seconds": 0.1,
+  "source_sha256": {
+    "channel_intervention.py": "7a0c22cd4439deda17973ef980ae90e78ed10db2c572e884bd840dc804a9c034",
+    "tests/test_channel_intervention.py": "717b6e551023f8fd9a68c336f2b455ba06dad0464d00c9700a8849bcad734472"
+  },
+  "scope": "7 fake-forward routing/token/array tests; no learned parameters or real model inference; explicit fake arithmetic is counted in tests",
+  "receipt_is_after_actual_test": "This receipt records the actual prior tool output; no repeated test was run merely to produce a receipt."
+}

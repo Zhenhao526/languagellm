@@ -1,0 +1,231 @@
+{
+  "run": "pilot_001",
+  "all_checks_passed": true,
+  "budget_joint_steps_per_run": 614400,
+  "checks": {
+    "snapshot_hashes_match": true
+  },
+  "initial_pairs": [
+    {
+      "seed": 101,
+      "communicate_and_silent_tensor_identical": true,
+      "both_match_practiced_pair": true
+    },
+    {
+      "seed": 202,
+      "communicate_and_silent_tensor_identical": true,
+      "both_match_practiced_pair": true
+    },
+    {
+      "seed": 303,
+      "communicate_and_silent_tensor_identical": true,
+      "both_match_practiced_pair": true
+    }
+  ],
+  "runs": [
+    {
+      "seed": 101,
+      "condition": "communicate",
+      "trace_steps": 16,
+      "heldout_joint_choices": 8192,
+      "trace_exact_match": true,
+      "final_checkpoint": 600,
+      "checkpoint_600_reproduces_normal_and_shuffle": true,
+      "normal": 0.717529296875,
+      "shuffle": 0.717529296875,
+      "stochastic_normal": 0.7169189453125,
+      "food_choice_fraction_by_agent": [
+        0.7933349609375,
+        0.2166748046875
+      ],
+      "interventions": [
+        {
+          "sender": 1,
+          "receiver": 0,
+          "used_symbols": 5,
+          "max_choice_flip": 0.02086230876216968,
+          "max_resource_flip": 0.0,
+          "max_mean_action_tv": 0.0036690111737698317
+        },
+        {
+          "sender": 0,
+          "receiver": 1,
+          "used_symbols": 5,
+          "max_choice_flip": 0.0,
+          "max_resource_flip": 0.0,
+          "max_mean_action_tv": 0.002344931708648801
+        }
+      ]
+    },
+    {
+      "seed": 101,
+      "condition": "silent",
+      "trace_steps": 16,
+      "heldout_joint_choices": 8192,
+      "trace_exact_match": true,
+      "final_checkpoint": 600,
+      "checkpoint_600_reproduces_normal_and_shuffle": true,
+      "normal": 0.717529296875,
+      "shuffle": 0.717529296875,
+      "stochastic_normal": 0.716796875,
+      "food_choice_fraction_by_agent": [
+        0.7933349609375,
+        0.2166748046875
+      ],
+      "interventions": [
+        {
+          "sender": 1,
+          "receiver": 0,
+          "used_symbols": 5,
+          "max_choice_flip": 0.0,
+          "max_resource_flip": 0.0,
+          "max_mean_action_tv": 0.003943941090255976
+        },
+        {
+          "sender": 0,
+          "receiver": 1,
+          "used_symbols": 4,
+          "max_choice_flip": 0.0,
+          "max_resource_flip": 0.0,
+          "max_mean_action_tv": 0.0026646845508366823
+        }
+      ]
+    },
+    {
+      "seed": 202,
+      "condition": "communicate",
+      "trace_steps": 16,
+      "heldout_joint_choices": 8192,
+      "trace_exact_match": true,
+      "final_checkpoint": 600,
+      "checkpoint_600_reproduces_normal_and_shuffle": true,
+      "normal": 0.717041015625,
+      "shuffle": 0.717041015625,
+      "stochastic_normal": 0.717041015625,
+      "food_choice_fraction_by_agent": [
+        0.216796875,
+        0.781982421875
+      ],
+      "interventions": [
+        {
+          "sender": 1,
+          "receiver": 0,
+          "used_symbols": 5,
+          "max_choice_flip": 0.0,
+          "max_resource_flip": 0.0,
+          "max_mean_action_tv": 0.002907833317294717
+        },
+        {
+          "sender": 0,
+          "receiver": 1,
+          "used_symbols": 4,
+          "max_choice_flip": 0.009615384615384616,
+          "max_resource_flip": 0.0,
+          "max_mean_action_tv": 0.0024007107131183147
+        }
+      ]
+    },
+    {
+      "seed": 202,
+      "condition": "silent",
+      "trace_steps": 16,
+      "heldout_joint_choices": 8192,
+      "trace_exact_match": true,
+      "final_checkpoint": 600,
+      "checkpoint_600_reproduces_normal_and_shuffle": true,
+      "normal": 0.717041015625,
+      "shuffle": 0.717041015625,
+      "stochastic_normal": 0.717041015625,
+      "food_choice_fraction_by_agent": [
+        0.216796875,
+        0.781982421875
+      ],
+      "interventions": [
+        {
+          "sender": 1,
+          "receiver": 0,
+          "used_symbols": 3,
+          "max_choice_flip": 0.0106951871657754,
+          "max_resource_flip": 0.0,
+          "max_mean_action_tv": 0.0022988179698586464
+        },
+        {
+          "sender": 0,
+          "receiver": 1,
+          "used_symbols": 4,
+          "max_choice_flip": 0.0136986301369863,
+          "max_resource_flip": 0.0,
+          "max_mean_action_tv": 0.001977205043658614
+        }
+      ]
+    },
+    {
+      "seed": 303,
+      "condition": "communicate",
+      "trace_steps": 16,
+      "heldout_joint_choices": 8192,
+      "trace_exact_match": true,
+      "final_checkpoint": 600,
+      "checkpoint_600_reproduces_normal_and_shuffle": true,
+      "normal": 0.7196044921875,
+      "shuffle": 0.7196044921875,
+      "stochastic_normal": 0.71826171875,
+      "food_choice_fraction_by_agent": [
+        0.2093505859375,
+        0.784912109375
+      ],
+      "interventions": [
+        {
+          "sender": 1,
+          "receiver": 0,
+          "used_symbols": 5,
+          "max_choice_flip": 0.008683068017366137,
+          "max_resource_flip": 0.0,
+          "max_mean_action_tv": 0.002294121077284217
+        },
+        {
+          "sender": 0,
+          "receiver": 1,
+          "used_symbols": 5,
+          "max_choice_flip": 0.04390243902439024,
+          "max_resource_flip": 0.0,
+          "max_mean_action_tv": 0.0024274440947920084
+        }
+      ]
+    },
+    {
+      "seed": 303,
+      "condition": "silent",
+      "trace_steps": 16,
+      "heldout_joint_choices": 8192,
+      "trace_exact_match": true,
+      "final_checkpoint": 600,
+      "checkpoint_600_reproduces_normal_and_shuffle": true,
+      "normal": 0.7196044921875,
+      "shuffle": 0.7196044921875,
+      "stochastic_normal": 0.718505859375,
+      "food_choice_fraction_by_agent": [
+        0.2093505859375,
+        0.784912109375
+      ],
+      "interventions": [
+        {
+          "sender": 1,
+          "receiver": 0,
+          "used_symbols": 4,
+          "max_choice_flip": 0.0,
+          "max_resource_flip": 0.0,
+          "max_mean_action_tv": 0.002284971298649907
+        },
+        {
+          "sender": 0,
+          "receiver": 1,
+          "used_symbols": 5,
+          "max_choice_flip": 0.026200873362445413,
+          "max_resource_flip": 0.0,
+          "max_mean_action_tv": 0.003473586868494749
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schema": "v25_finite_manual_code_review_v1",
+  "passed": true,
+  "created_at": "2026-09-16T04:01:58.602945+00:00",
+  "source_hashes": {
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.25/joint_model.py": "40ab1bb4e2413e73b43490f6b32a65d08ee6f6cff73c748c2cb6472305826d2b",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.25/run_joint.py": "74679bc421a94d2a363ccf7c12ed861f95065b77f4d0860de043865a6caaa533",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.25/固定执行方案.md": "df4079035e680c1c1c96bfa2924617911ebd1497f554dcf6da1f375f3ffa676d",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.25/前置科学审查.md": "a9d73dd66bd7f273ff030dade967c57c53898275ec6a4616ba7d65342bbb653e"
+  },
+  "blocking_findings": [],
+  "review_type": "Finite independent code-versus-plan read-through; no production edits or additional model execution",
+  "items": [
+    {
+      "area": "Actual historical initialization",
+      "finding": "restore loads v24 invocation to locate prepared, constructs the full mean interface, then strictly loads the corresponding saved mean initial.pt before converting it. JointSender deep-copies encoder, embedding, LSTM, fusion and output. Receiver and frozen agent weights are retained from that loaded state."
+    },
+    {
+      "area": "Contrast replacement and information",
+      "finding": "The original bilinear module is absent from the new sender. Its position in the parameter enumeration is occupied by a bias-free96x96 zero-initialized contrast matrix, created within a fork_rng. m uses keys.mean; d is half the ordered difference. Contrast is added before the original tanh, consistent with the plan. Both tokens remain learned rather than resource-routed."
+    },
+    {
+      "area": "Old-only exposure and no private inference",
+      "finding": "Every update requests world.fixture(...,old,social,train_worlds), then indexes the frozen concepts with those indices. train/test concepts are loaded directly from the bound v24 .npy caches; no private-head, temporal encoder or DINO forward is invoked by the new fit. All30 cache availability is not social all30 training exposure."
+    },
+    {
+      "area": "Sampling, receiver and independent gradients",
+      "finding": "The same seed/partition/person/step fixture and four independent uniform columns drive token and food/water action sampling. Receiver obtains only detached integer messages through the original receiving interface. Correct positions are used after action sampling to form reward; there is no CE, oracle concept substitution or differentiable cross-agent communication."
+    },
+    {
+      "area": "Loss and fixed budget",
+      "finding": "R=.25*(food+water)+.5*both, baseline.5, two-token/two-action summed policy and entropy terms, per-person role average/2, fresh Adam.0007, sender/receiver clipping2, entropy.02 for2100 then0 match the fixed plan. Formal defaults are four sources x three partitions x one joint arm x2400, with512messages/1024actions per pair update."
+    },
+    {
+      "area": "New process statistic",
+      "finding": "contrast_gradient_norm_before_clip is computed after backward on the role-averaged loss and before either clip call. It is therefore the already role-weighted contrast gradient norm, not the gradient of the unweighted sender loss. All sender and receiver norms are recorded, and frozen parameter gradients are asserted absent."
+    },
+    {
+      "area": "Primary versus auxiliary reporting",
+      "finding": "Invocation explicitly identifies old18 held-out-photo greedy joint-minus-prior-mean as the primary. social_eval preserves complete960-world protocols and the original all-group social metrics, including new12 and both masks, at all fixed checkpoints. Training does not select sources, checkpoints or budget by either primary or auxiliary outcomes. Final source-level contrast aggregation remains the separate analyzer responsibility."
+    },
+    {
+      "area": "Source binding and scope",
+      "finding": "Input manifest binds the v24 mean initial states, concepts, worlds, prior analysis/audit and complete formal manifest, plus consumed prepared files. Source/input hashes are rechecked at completion; frozen agent states are checked against their initial fingerprints. The planned independent execution audit, not this manual review, establishes numerical replay and all-step equivalence."
+    }
+  ],
+  "limitations": [
+    "Initial mathematical equivalence was inspected;1920-world exact equality belongs to the separately recorded production self-test and independent audit.",
+    "No new model calls, training, cache inference or formal outcome analysis were performed in this review.",
+    "Same stored parameter count is not equal effective capacity; the new contrast has a task gradient and can change clipping and subsequent trajectories."
+  ],
+  "new_model_calls": 0,
+  "new_training_updates": 0
+}

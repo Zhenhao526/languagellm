@@ -1,0 +1,25 @@
+{
+  "status": "passed_static_only",
+  "test_count": 30,
+  "test_elapsed_seconds": 0.537,
+  "tool_chunk": "6e29fe",
+  "exit_code": 0,
+  "formal_neural_forward_worlds": 0,
+  "training_updates": 0,
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.3"
+  },
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_formation_trajectory_study/__init__.py": "b02807149acdfa66664f788c472c321f4594128f7b300da6b1f4f81cbe96ddf1",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_formation_trajectory_study/runner.py": "8788eaedc58154c864d7379ac17ab1437614528e1ec15ea2b168001f968505ac",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_formation_trajectory_study/dataset.py": "05ce3a2e474c0ce4ae71bf5bdf1fa6d84dac12d1fdcf0b8e23c34e5299058fc5",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_formation_trajectory_study/channel.py": "64ac1509935b6642d35d282d684dc8dbc48c4df779038278cb32d5f0adfe09b3",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_formation_trajectory_study/metrics.py": "dab7653a25223f898cb343d9e08f560a806af0ea4f073793f3efe1958a955607",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_formation_trajectory_study/plan.md": "5eb90610aba77357ff8cae51558d6ccc5124bd37173e5d48caf2e767261171f7",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_formation_trajectory_study/tests/test_runner.py": "15286cd8f83f3a8e58925c5460675e5ab03760679068822722822b0475c595ea",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_formation_trajectory_study/tests/test_dataset.py": "dfe460d432fd2b30197232f477bf03f9025d1338ff3658f3088ee1103e8218fc",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_formation_trajectory_study/tests/test_channel.py": "390f3b5d4ff98d226cca07386b1717eeaf1ce123cce318aae8dd10f2ee45b392",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_formation_trajectory_study/tests/test_metrics.py": "8aba0bdceef2361d615302724b934a40a7cb00c93e39434439e25edddd813172"
+  }
+}

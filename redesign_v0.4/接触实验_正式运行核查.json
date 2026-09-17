@@ -1,0 +1,1362 @@
+{
+  "batch": "contact_001",
+  "status": "passed",
+  "source_hashes": {
+    "partner_eval.py": {
+      "recorded": "3ef2a1d035afe4de63d9ef2a0e13466b73ac390d0779aa3e3276681cbe0d3891",
+      "archived": "3ef2a1d035afe4de63d9ef2a0e13466b73ac390d0779aa3e3276681cbe0d3891",
+      "current": "3ef2a1d035afe4de63d9ef2a0e13466b73ac390d0779aa3e3276681cbe0d3891"
+    },
+    "run_partners.py": {
+      "recorded": "0b490de229b1fd0527573ae04887ed278c26950b3979204b17083172d84fcb87",
+      "archived": "0b490de229b1fd0527573ae04887ed278c26950b3979204b17083172d84fcb87",
+      "current": "0b490de229b1fd0527573ae04887ed278c26950b3979204b17083172d84fcb87"
+    },
+    "contact_eval.py": {
+      "recorded": "85fec94190b416b84c13f9b3e9b5d650189247b049fcab2b0b41b5a64c829147",
+      "archived": "85fec94190b416b84c13f9b3e9b5d650189247b049fcab2b0b41b5a64c829147",
+      "current": "85fec94190b416b84c13f9b3e9b5d650189247b049fcab2b0b41b5a64c829147"
+    },
+    "resource_env.py": {
+      "recorded": "8b522678c723f0f89812691487142d0f5292c73acfde569dc9da4a9f0e4a5211",
+      "archived": "8b522678c723f0f89812691487142d0f5292c73acfde569dc9da4a9f0e4a5211",
+      "current": "8b522678c723f0f89812691487142d0f5292c73acfde569dc9da4a9f0e4a5211"
+    },
+    "run_curriculum.py": {
+      "recorded": "8cdff8cc1041d61d4ee1fb7bcb894f9468e62b56550d4570952047ee0cc34509",
+      "archived": "8cdff8cc1041d61d4ee1fb7bcb894f9468e62b56550d4570952047ee0cc34509",
+      "current": "8cdff8cc1041d61d4ee1fb7bcb894f9468e62b56550d4570952047ee0cc34509"
+    },
+    "agents.py": {
+      "recorded": "e370825812d7ea81f53d43e13197d44593aacdbbe7048cdcb5307650709e3f40",
+      "archived": "e370825812d7ea81f53d43e13197d44593aacdbbe7048cdcb5307650709e3f40",
+      "current": "e370825812d7ea81f53d43e13197d44593aacdbbe7048cdcb5307650709e3f40"
+    },
+    "run_pilot.py": {
+      "recorded": "0045c0789884d95e480c79b1827c5caf56e6820036e6ed64c2a0f0da35231134",
+      "archived": "0045c0789884d95e480c79b1827c5caf56e6820036e6ed64c2a0f0da35231134",
+      "current": "0045c0789884d95e480c79b1827c5caf56e6820036e6ed64c2a0f0da35231134"
+    },
+    "run_contact.py": {
+      "recorded": "2060a267076c05d9dd7f5391feaa23b615866c43d135af28ab57769200b9e8c6",
+      "archived": "2060a267076c05d9dd7f5391feaa23b615866c43d135af28ab57769200b9e8c6",
+      "current": "2060a267076c05d9dd7f5391feaa23b615866c43d135af28ab57769200b9e8c6"
+    },
+    "curriculum_eval.py": {
+      "recorded": "3b0eb43f57354fa0e526c57f0f9190ad80e6619adae99c98cbb2881122376f39",
+      "archived": "3b0eb43f57354fa0e526c57f0f9190ad80e6619adae99c98cbb2881122376f39",
+      "current": "3b0eb43f57354fa0e526c57f0f9190ad80e6619adae99c98cbb2881122376f39"
+    }
+  },
+  "source_code_config_plan_data_and_scaling_match": true,
+  "data_hashes": {
+    "manifest.json": {
+      "current": "921503bd6e559124aaa85f6c61bf19207c7e6c2dcae37bc0101548eb5b439de6",
+      "archived": "921503bd6e559124aaa85f6c61bf19207c7e6c2dcae37bc0101548eb5b439de6",
+      "origin": "921503bd6e559124aaa85f6c61bf19207c7e6c2dcae37bc0101548eb5b439de6"
+    },
+    "features.npz": {
+      "current": "32e32795c9c5b2ea22e396e36e03c925c2598a77e85e57e06b15e3bc59b66c54",
+      "archived": "32e32795c9c5b2ea22e396e36e03c925c2598a77e85e57e06b15e3bc59b66c54",
+      "origin": "32e32795c9c5b2ea22e396e36e03c925c2598a77e85e57e06b15e3bc59b66c54"
+    },
+    "encoder_report.json": {
+      "current": "277c2d641487422bca26d22538478d3e074997b44ae7294ee54ccaef468d47a1",
+      "archived": "277c2d641487422bca26d22538478d3e074997b44ae7294ee54ccaef468d47a1",
+      "origin": "277c2d641487422bca26d22538478d3e074997b44ae7294ee54ccaef468d47a1"
+    }
+  },
+  "batch_artifacts_verified": 10,
+  "runs": {
+    "fixed_to_fixed_s101": {
+      "updates": 600,
+      "initial_matches_correct_origin": true,
+      "all_same_case_zero_update_results_exact": true,
+      "all_world_layout_matching_and_private_inputs_independently_reconstructed": true,
+      "message_route_and_independent_pair_reward_records_verified": true,
+      "all_600_updates_full_task_without_auxiliaries": true,
+      "mixed_context_counts_reconstructed": true,
+      "all_numbers_and_checkpoints_finite": true,
+      "saved_optimizer_steps": [
+        600,
+        600,
+        600,
+        600
+      ],
+      "final_saved_parameters_equal_final_checkpoint": true,
+      "all_saved_numpy_rng_states_exact": true,
+      "torch_rng_state_present_and_weights_only_loadable": true,
+      "artifact_hashes_verified": 19,
+      "edge_training_updates": [
+        [
+          0,
+          600,
+          0,
+          0
+        ],
+        [
+          600,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          600
+        ],
+        [
+          0,
+          0,
+          600,
+          0
+        ]
+      ],
+      "cumulative_edge_training_updates": [
+        [
+          0,
+          1800,
+          0,
+          0
+        ],
+        [
+          1800,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1800
+        ],
+        [
+          0,
+          0,
+          1800,
+          0
+        ]
+      ],
+      "parameter_l2_changes_by_agent": [
+        {
+          "project": 0.8746522989330942,
+          "sender": 0.9151581136656998,
+          "actor": 1.1103818145219235,
+          "value": 0.21275243335969382
+        },
+        {
+          "project": 0.7970060528251779,
+          "sender": 0.8424099180175522,
+          "actor": 1.028156924034485,
+          "value": 0.3352396767115941
+        },
+        {
+          "project": 0.775771486217545,
+          "sender": 0.936174104791835,
+          "actor": 1.0604387472494863,
+          "value": 0.16027405502107775
+        },
+        {
+          "project": 0.7648098812942986,
+          "sender": 0.938282886093962,
+          "actor": 0.9955889141645292,
+          "value": 0.08920326314205858
+        }
+      ],
+      "zero_gradient_counts_by_agent": [
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        },
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        },
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        },
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        }
+      ],
+      "final_full_by_group": {
+        "all": {
+          "normal": 0.6712646484375,
+          "shuffle": 0.5907796223958334,
+          "stochastic": 0.666259765625
+        },
+        "original": {
+          "normal": 0.9683837890625,
+          "shuffle": 0.5963134765625,
+          "stochastic": 0.9609375
+        },
+        "cross": {
+          "normal": 0.522705078125,
+          "shuffle": 0.5880126953125,
+          "stochastic": 0.5189208984375
+        }
+      }
+    },
+    "fixed_to_rotating_s101": {
+      "updates": 600,
+      "initial_matches_correct_origin": true,
+      "all_same_case_zero_update_results_exact": true,
+      "all_world_layout_matching_and_private_inputs_independently_reconstructed": true,
+      "message_route_and_independent_pair_reward_records_verified": true,
+      "all_600_updates_full_task_without_auxiliaries": true,
+      "mixed_context_counts_reconstructed": true,
+      "all_numbers_and_checkpoints_finite": true,
+      "saved_optimizer_steps": [
+        600,
+        600,
+        600,
+        600
+      ],
+      "final_saved_parameters_equal_final_checkpoint": true,
+      "all_saved_numpy_rng_states_exact": true,
+      "torch_rng_state_present_and_weights_only_loadable": true,
+      "artifact_hashes_verified": 19,
+      "edge_training_updates": [
+        [
+          0,
+          200,
+          200,
+          200
+        ],
+        [
+          200,
+          0,
+          200,
+          200
+        ],
+        [
+          200,
+          200,
+          0,
+          200
+        ],
+        [
+          200,
+          200,
+          200,
+          0
+        ]
+      ],
+      "cumulative_edge_training_updates": [
+        [
+          0,
+          1400,
+          200,
+          200
+        ],
+        [
+          1400,
+          0,
+          200,
+          200
+        ],
+        [
+          200,
+          200,
+          0,
+          1400
+        ],
+        [
+          200,
+          200,
+          1400,
+          0
+        ]
+      ],
+      "parameter_l2_changes_by_agent": [
+        {
+          "project": 1.3076948735035008,
+          "sender": 2.2490219612298943,
+          "actor": 1.1422626204209239,
+          "value": 0.21112562188140696
+        },
+        {
+          "project": 0.7603792033400316,
+          "sender": 0.6244281783013338,
+          "actor": 1.2899462928541903,
+          "value": 0.35487675737215285
+        },
+        {
+          "project": 1.1545568123485148,
+          "sender": 1.5192478919051684,
+          "actor": 1.382391083727306,
+          "value": 0.6422813060253062
+        },
+        {
+          "project": 1.2948885098138987,
+          "sender": 0.88880875373023,
+          "actor": 1.2819896188796316,
+          "value": 0.43266508744167165
+        }
+      ],
+      "zero_gradient_counts_by_agent": [
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        },
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        },
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        },
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        }
+      ],
+      "final_full_by_group": {
+        "all": {
+          "normal": 0.7745768229166666,
+          "shuffle": 0.6466878255208334,
+          "stochastic": 0.756103515625
+        },
+        "original": {
+          "normal": 0.885986328125,
+          "shuffle": 0.6119384765625,
+          "stochastic": 0.86474609375
+        },
+        "cross": {
+          "normal": 0.7188720703125,
+          "shuffle": 0.6640625,
+          "stochastic": 0.7017822265625
+        }
+      }
+    },
+    "rotating_to_rotating_s101": {
+      "updates": 600,
+      "initial_matches_correct_origin": true,
+      "all_same_case_zero_update_results_exact": true,
+      "all_world_layout_matching_and_private_inputs_independently_reconstructed": true,
+      "message_route_and_independent_pair_reward_records_verified": true,
+      "all_600_updates_full_task_without_auxiliaries": true,
+      "mixed_context_counts_reconstructed": true,
+      "all_numbers_and_checkpoints_finite": true,
+      "saved_optimizer_steps": [
+        600,
+        600,
+        600,
+        600
+      ],
+      "final_saved_parameters_equal_final_checkpoint": true,
+      "all_saved_numpy_rng_states_exact": true,
+      "torch_rng_state_present_and_weights_only_loadable": true,
+      "artifact_hashes_verified": 19,
+      "edge_training_updates": [
+        [
+          0,
+          200,
+          200,
+          200
+        ],
+        [
+          200,
+          0,
+          200,
+          200
+        ],
+        [
+          200,
+          200,
+          0,
+          200
+        ],
+        [
+          200,
+          200,
+          200,
+          0
+        ]
+      ],
+      "cumulative_edge_training_updates": [
+        [
+          0,
+          600,
+          600,
+          600
+        ],
+        [
+          600,
+          0,
+          600,
+          600
+        ],
+        [
+          600,
+          600,
+          0,
+          600
+        ],
+        [
+          600,
+          600,
+          600,
+          0
+        ]
+      ],
+      "parameter_l2_changes_by_agent": [
+        {
+          "project": 1.0521803107354522,
+          "sender": 1.8283780146518576,
+          "actor": 1.164987116837605,
+          "value": 0.2603914222555476
+        },
+        {
+          "project": 0.9253132649311923,
+          "sender": 0.9469883146621049,
+          "actor": 1.1782345963407568,
+          "value": 0.3578148171264182
+        },
+        {
+          "project": 0.7702085901506858,
+          "sender": 0.969318033247495,
+          "actor": 1.1925831666259983,
+          "value": 0.15022766813983285
+        },
+        {
+          "project": 0.9105580306709676,
+          "sender": 1.4281469619287528,
+          "actor": 1.2760994863459434,
+          "value": 0.07696802905830508
+        }
+      ],
+      "zero_gradient_counts_by_agent": [
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        },
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        },
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        },
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        }
+      ],
+      "final_full_by_group": {
+        "all": {
+          "normal": 0.9930013020833334,
+          "shuffle": 0.60546875,
+          "stochastic": 0.9753011067708334
+        },
+        "original": {
+          "normal": 0.997802734375,
+          "shuffle": 0.6021728515625,
+          "stochastic": 0.978515625
+        },
+        "cross": {
+          "normal": 0.9906005859375,
+          "shuffle": 0.60711669921875,
+          "stochastic": 0.97369384765625
+        }
+      }
+    },
+    "fixed_to_fixed_s202": {
+      "updates": 600,
+      "initial_matches_correct_origin": true,
+      "all_same_case_zero_update_results_exact": true,
+      "all_world_layout_matching_and_private_inputs_independently_reconstructed": true,
+      "message_route_and_independent_pair_reward_records_verified": true,
+      "all_600_updates_full_task_without_auxiliaries": true,
+      "mixed_context_counts_reconstructed": true,
+      "all_numbers_and_checkpoints_finite": true,
+      "saved_optimizer_steps": [
+        600,
+        600,
+        600,
+        600
+      ],
+      "final_saved_parameters_equal_final_checkpoint": true,
+      "all_saved_numpy_rng_states_exact": true,
+      "torch_rng_state_present_and_weights_only_loadable": true,
+      "artifact_hashes_verified": 19,
+      "edge_training_updates": [
+        [
+          0,
+          600,
+          0,
+          0
+        ],
+        [
+          600,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          600
+        ],
+        [
+          0,
+          0,
+          600,
+          0
+        ]
+      ],
+      "cumulative_edge_training_updates": [
+        [
+          0,
+          1800,
+          0,
+          0
+        ],
+        [
+          1800,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1800
+        ],
+        [
+          0,
+          0,
+          1800,
+          0
+        ]
+      ],
+      "parameter_l2_changes_by_agent": [
+        {
+          "project": 0.8871995052213685,
+          "sender": 0.9515313130517561,
+          "actor": 0.992348459362925,
+          "value": 0.1046745899268785
+        },
+        {
+          "project": 0.8699627227018939,
+          "sender": 0.9141219375259163,
+          "actor": 1.006994201324646,
+          "value": 0.13558145571167868
+        },
+        {
+          "project": 0.8026528882691811,
+          "sender": 0.8931322942938343,
+          "actor": 0.9885678243547439,
+          "value": 0.13752780516152843
+        },
+        {
+          "project": 0.8097148547367502,
+          "sender": 0.9443270119242285,
+          "actor": 0.9807111927762653,
+          "value": 0.08297475876646809
+        }
+      ],
+      "zero_gradient_counts_by_agent": [
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        },
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        },
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        },
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        }
+      ],
+      "final_full_by_group": {
+        "all": {
+          "normal": 0.6695963541666666,
+          "shuffle": 0.5694986979166666,
+          "stochastic": 0.6731770833333334
+        },
+        "original": {
+          "normal": 1.0,
+          "shuffle": 0.6207275390625,
+          "stochastic": 0.996337890625
+        },
+        "cross": {
+          "normal": 0.50439453125,
+          "shuffle": 0.54388427734375,
+          "stochastic": 0.5115966796875
+        }
+      }
+    },
+    "fixed_to_rotating_s202": {
+      "updates": 600,
+      "initial_matches_correct_origin": true,
+      "all_same_case_zero_update_results_exact": true,
+      "all_world_layout_matching_and_private_inputs_independently_reconstructed": true,
+      "message_route_and_independent_pair_reward_records_verified": true,
+      "all_600_updates_full_task_without_auxiliaries": true,
+      "mixed_context_counts_reconstructed": true,
+      "all_numbers_and_checkpoints_finite": true,
+      "saved_optimizer_steps": [
+        600,
+        600,
+        600,
+        600
+      ],
+      "final_saved_parameters_equal_final_checkpoint": true,
+      "all_saved_numpy_rng_states_exact": true,
+      "torch_rng_state_present_and_weights_only_loadable": true,
+      "artifact_hashes_verified": 19,
+      "edge_training_updates": [
+        [
+          0,
+          200,
+          200,
+          200
+        ],
+        [
+          200,
+          0,
+          200,
+          200
+        ],
+        [
+          200,
+          200,
+          0,
+          200
+        ],
+        [
+          200,
+          200,
+          200,
+          0
+        ]
+      ],
+      "cumulative_edge_training_updates": [
+        [
+          0,
+          1400,
+          200,
+          200
+        ],
+        [
+          1400,
+          0,
+          200,
+          200
+        ],
+        [
+          200,
+          200,
+          0,
+          1400
+        ],
+        [
+          200,
+          200,
+          1400,
+          0
+        ]
+      ],
+      "parameter_l2_changes_by_agent": [
+        {
+          "project": 0.7685154332414665,
+          "sender": 0.9676910165849532,
+          "actor": 1.080457274253466,
+          "value": 0.22235040063759115
+        },
+        {
+          "project": 0.9724297014302524,
+          "sender": 2.4655008996740606,
+          "actor": 1.3441118950757378,
+          "value": 0.5290162222548469
+        },
+        {
+          "project": 0.7361189500212453,
+          "sender": 0.8264596706394356,
+          "actor": 1.7058293059274545,
+          "value": 0.17759746605460996
+        },
+        {
+          "project": 0.6828194239428876,
+          "sender": 0.6275764790285981,
+          "actor": 0.8679215324069229,
+          "value": 0.1567622358938963
+        }
+      ],
+      "zero_gradient_counts_by_agent": [
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        },
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        },
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        },
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        }
+      ],
+      "final_full_by_group": {
+        "all": {
+          "normal": 0.8496500651041666,
+          "shuffle": 0.65673828125,
+          "stochastic": 0.8064778645833334
+        },
+        "original": {
+          "normal": 0.999267578125,
+          "shuffle": 0.620849609375,
+          "stochastic": 0.9825439453125
+        },
+        "cross": {
+          "normal": 0.77484130859375,
+          "shuffle": 0.6746826171875,
+          "stochastic": 0.71844482421875
+        }
+      }
+    },
+    "rotating_to_rotating_s202": {
+      "updates": 600,
+      "initial_matches_correct_origin": true,
+      "all_same_case_zero_update_results_exact": true,
+      "all_world_layout_matching_and_private_inputs_independently_reconstructed": true,
+      "message_route_and_independent_pair_reward_records_verified": true,
+      "all_600_updates_full_task_without_auxiliaries": true,
+      "mixed_context_counts_reconstructed": true,
+      "all_numbers_and_checkpoints_finite": true,
+      "saved_optimizer_steps": [
+        600,
+        600,
+        600,
+        600
+      ],
+      "final_saved_parameters_equal_final_checkpoint": true,
+      "all_saved_numpy_rng_states_exact": true,
+      "torch_rng_state_present_and_weights_only_loadable": true,
+      "artifact_hashes_verified": 19,
+      "edge_training_updates": [
+        [
+          0,
+          200,
+          200,
+          200
+        ],
+        [
+          200,
+          0,
+          200,
+          200
+        ],
+        [
+          200,
+          200,
+          0,
+          200
+        ],
+        [
+          200,
+          200,
+          200,
+          0
+        ]
+      ],
+      "cumulative_edge_training_updates": [
+        [
+          0,
+          600,
+          600,
+          600
+        ],
+        [
+          600,
+          0,
+          600,
+          600
+        ],
+        [
+          600,
+          600,
+          0,
+          600
+        ],
+        [
+          600,
+          600,
+          600,
+          0
+        ]
+      ],
+      "parameter_l2_changes_by_agent": [
+        {
+          "project": 0.879962821184893,
+          "sender": 0.924257474301254,
+          "actor": 1.222655494364678,
+          "value": 0.22282517916623953
+        },
+        {
+          "project": 0.8890497394653328,
+          "sender": 0.9805492294715377,
+          "actor": 1.1583852698169388,
+          "value": 0.16197687333985109
+        },
+        {
+          "project": 1.0761784909870582,
+          "sender": 1.5235287030747653,
+          "actor": 1.152761282557501,
+          "value": 0.1503912945672805
+        },
+        {
+          "project": 0.9690816202560117,
+          "sender": 1.4404086669099294,
+          "actor": 1.2230293066020328,
+          "value": 0.12926026057143872
+        }
+      ],
+      "zero_gradient_counts_by_agent": [
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        },
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        },
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        },
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        }
+      ],
+      "final_full_by_group": {
+        "all": {
+          "normal": 1.0,
+          "shuffle": 0.6171875,
+          "stochastic": 0.9942220052083334
+        },
+        "original": {
+          "normal": 1.0,
+          "shuffle": 0.6207275390625,
+          "stochastic": 0.9931640625
+        },
+        "cross": {
+          "normal": 1.0,
+          "shuffle": 0.61541748046875,
+          "stochastic": 0.9947509765625
+        }
+      }
+    },
+    "fixed_to_fixed_s303": {
+      "updates": 600,
+      "initial_matches_correct_origin": true,
+      "all_same_case_zero_update_results_exact": true,
+      "all_world_layout_matching_and_private_inputs_independently_reconstructed": true,
+      "message_route_and_independent_pair_reward_records_verified": true,
+      "all_600_updates_full_task_without_auxiliaries": true,
+      "mixed_context_counts_reconstructed": true,
+      "all_numbers_and_checkpoints_finite": true,
+      "saved_optimizer_steps": [
+        600,
+        600,
+        600,
+        600
+      ],
+      "final_saved_parameters_equal_final_checkpoint": true,
+      "all_saved_numpy_rng_states_exact": true,
+      "torch_rng_state_present_and_weights_only_loadable": true,
+      "artifact_hashes_verified": 19,
+      "edge_training_updates": [
+        [
+          0,
+          600,
+          0,
+          0
+        ],
+        [
+          600,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          600
+        ],
+        [
+          0,
+          0,
+          600,
+          0
+        ]
+      ],
+      "cumulative_edge_training_updates": [
+        [
+          0,
+          1800,
+          0,
+          0
+        ],
+        [
+          1800,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1800
+        ],
+        [
+          0,
+          0,
+          1800,
+          0
+        ]
+      ],
+      "parameter_l2_changes_by_agent": [
+        {
+          "project": 0.8549290639683912,
+          "sender": 0.7688805164840699,
+          "actor": 1.01829306507686,
+          "value": 0.32362172452283067
+        },
+        {
+          "project": 0.8584243067465993,
+          "sender": 1.0016279068066058,
+          "actor": 1.0137175208806688,
+          "value": 0.18749123571006518
+        },
+        {
+          "project": 0.8779294103615635,
+          "sender": 0.9068418849585306,
+          "actor": 0.9624394874541746,
+          "value": 0.16665479530289368
+        },
+        {
+          "project": 0.747062238948804,
+          "sender": 0.9299761880914115,
+          "actor": 0.9529765807625236,
+          "value": 0.09310155804540138
+        }
+      ],
+      "zero_gradient_counts_by_agent": [
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        },
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        },
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        },
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        }
+      ],
+      "final_full_by_group": {
+        "all": {
+          "normal": 0.6951904296875,
+          "shuffle": 0.6040445963541666,
+          "stochastic": 0.6939697265625
+        },
+        "original": {
+          "normal": 0.9613037109375,
+          "shuffle": 0.5970458984375,
+          "stochastic": 0.9627685546875
+        },
+        "cross": {
+          "normal": 0.5621337890625,
+          "shuffle": 0.6075439453125,
+          "stochastic": 0.5595703125
+        }
+      }
+    },
+    "fixed_to_rotating_s303": {
+      "updates": 600,
+      "initial_matches_correct_origin": true,
+      "all_same_case_zero_update_results_exact": true,
+      "all_world_layout_matching_and_private_inputs_independently_reconstructed": true,
+      "message_route_and_independent_pair_reward_records_verified": true,
+      "all_600_updates_full_task_without_auxiliaries": true,
+      "mixed_context_counts_reconstructed": true,
+      "all_numbers_and_checkpoints_finite": true,
+      "saved_optimizer_steps": [
+        600,
+        600,
+        600,
+        600
+      ],
+      "final_saved_parameters_equal_final_checkpoint": true,
+      "all_saved_numpy_rng_states_exact": true,
+      "torch_rng_state_present_and_weights_only_loadable": true,
+      "artifact_hashes_verified": 19,
+      "edge_training_updates": [
+        [
+          0,
+          200,
+          200,
+          200
+        ],
+        [
+          200,
+          0,
+          200,
+          200
+        ],
+        [
+          200,
+          200,
+          0,
+          200
+        ],
+        [
+          200,
+          200,
+          200,
+          0
+        ]
+      ],
+      "cumulative_edge_training_updates": [
+        [
+          0,
+          1400,
+          200,
+          200
+        ],
+        [
+          1400,
+          0,
+          200,
+          200
+        ],
+        [
+          200,
+          200,
+          0,
+          1400
+        ],
+        [
+          200,
+          200,
+          1400,
+          0
+        ]
+      ],
+      "parameter_l2_changes_by_agent": [
+        {
+          "project": 0.7905091319834464,
+          "sender": 1.1995853916290495,
+          "actor": 1.1626583449274,
+          "value": 0.30822641956425834
+        },
+        {
+          "project": 1.3756052109022001,
+          "sender": 2.218631835892084,
+          "actor": 1.3567861869812254,
+          "value": 0.14662286686680384
+        },
+        {
+          "project": 1.9966481011985797,
+          "sender": 2.7874729294301726,
+          "actor": 1.3257471545182584,
+          "value": 0.3237140627486017
+        },
+        {
+          "project": 1.775649135981996,
+          "sender": 2.4911721767489117,
+          "actor": 1.067310469030963,
+          "value": 0.269333926483208
+        }
+      ],
+      "zero_gradient_counts_by_agent": [
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        },
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        },
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        },
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        }
+      ],
+      "final_full_by_group": {
+        "all": {
+          "normal": 0.9074300130208334,
+          "shuffle": 0.63427734375,
+          "stochastic": 0.8805338541666666
+        },
+        "original": {
+          "normal": 0.9630126953125,
+          "shuffle": 0.5960693359375,
+          "stochastic": 0.93017578125
+        },
+        "cross": {
+          "normal": 0.879638671875,
+          "shuffle": 0.65338134765625,
+          "stochastic": 0.855712890625
+        }
+      }
+    },
+    "rotating_to_rotating_s303": {
+      "updates": 600,
+      "initial_matches_correct_origin": true,
+      "all_same_case_zero_update_results_exact": true,
+      "all_world_layout_matching_and_private_inputs_independently_reconstructed": true,
+      "message_route_and_independent_pair_reward_records_verified": true,
+      "all_600_updates_full_task_without_auxiliaries": true,
+      "mixed_context_counts_reconstructed": true,
+      "all_numbers_and_checkpoints_finite": true,
+      "saved_optimizer_steps": [
+        600,
+        600,
+        600,
+        600
+      ],
+      "final_saved_parameters_equal_final_checkpoint": true,
+      "all_saved_numpy_rng_states_exact": true,
+      "torch_rng_state_present_and_weights_only_loadable": true,
+      "artifact_hashes_verified": 19,
+      "edge_training_updates": [
+        [
+          0,
+          200,
+          200,
+          200
+        ],
+        [
+          200,
+          0,
+          200,
+          200
+        ],
+        [
+          200,
+          200,
+          0,
+          200
+        ],
+        [
+          200,
+          200,
+          200,
+          0
+        ]
+      ],
+      "cumulative_edge_training_updates": [
+        [
+          0,
+          600,
+          600,
+          600
+        ],
+        [
+          600,
+          0,
+          600,
+          600
+        ],
+        [
+          600,
+          600,
+          0,
+          600
+        ],
+        [
+          600,
+          600,
+          600,
+          0
+        ]
+      ],
+      "parameter_l2_changes_by_agent": [
+        {
+          "project": 1.3080913378118504,
+          "sender": 2.1807599939188567,
+          "actor": 1.3431306157489724,
+          "value": 0.31844957796173545
+        },
+        {
+          "project": 0.8222771573560523,
+          "sender": 0.9220270507798815,
+          "actor": 1.1704438660495564,
+          "value": 0.2163120006399008
+        },
+        {
+          "project": 0.9811818568731641,
+          "sender": 1.2338682531542027,
+          "actor": 1.3950120185397683,
+          "value": 0.17829805561951811
+        },
+        {
+          "project": 0.8642714256895546,
+          "sender": 1.0811012525316406,
+          "actor": 1.1192496155977454,
+          "value": 0.10462592083709814
+        }
+      ],
+      "zero_gradient_counts_by_agent": [
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        },
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        },
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        },
+        {
+          "project": 0,
+          "sender": 0,
+          "actor": 0,
+          "value": 0
+        }
+      ],
+      "final_full_by_group": {
+        "all": {
+          "normal": 0.9960123697916666,
+          "shuffle": 0.6124267578125,
+          "stochastic": 0.9818522135416666
+        },
+        "original": {
+          "normal": 1.0,
+          "shuffle": 0.622802734375,
+          "stochastic": 0.9881591796875
+        },
+        "cross": {
+          "normal": 0.9940185546875,
+          "shuffle": 0.60723876953125,
+          "stochastic": 0.97869873046875
+        }
+      }
+    }
+  },
+  "paired_checks": {
+    "101": {
+      "FF_and_FR_origin_weights_and_zero_update_record_exact": true,
+      "all_three_conditions_world_layout_evaluation_and_probe_inputs_matched": true,
+      "FR_and_RR_same_matching_schedule": true,
+      "final_training_rngs_reconstructed": true
+    },
+    "202": {
+      "FF_and_FR_origin_weights_and_zero_update_record_exact": true,
+      "all_three_conditions_world_layout_evaluation_and_probe_inputs_matched": true,
+      "FR_and_RR_same_matching_schedule": true,
+      "final_training_rngs_reconstructed": true
+    },
+    "303": {
+      "FF_and_FR_origin_weights_and_zero_update_record_exact": true,
+      "all_three_conditions_world_layout_evaluation_and_probe_inputs_matched": true,
+      "FR_and_RR_same_matching_schedule": true,
+      "final_training_rngs_reconstructed": true
+    }
+  },
+  "scope": "Read-only execution/input/state audit. No retraining, optimizer steps, protocol rescue, altered budget, or model selection."
+}

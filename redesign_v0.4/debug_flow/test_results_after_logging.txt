@@ -1,0 +1,21 @@
+test_actor_rejects_continuous_message_vectors (test_protocol.InformationBoundaryTests.test_actor_rejects_continuous_message_vectors) ... ok
+test_agent_zero_update_cannot_update_partner_or_cached_vision (test_protocol.InformationBoundaryTests.test_agent_zero_update_cannot_update_partner_or_cached_vision) ... ok
+test_partner_feature_changes_do_not_change_local_sender_inputs (test_protocol.InformationBoundaryTests.test_partner_feature_changes_do_not_change_local_sender_inputs) ... ok
+test_shuffle_preserves_counts_separately_within_public_state_and_direction (test_protocol.InformationBoundaryTests.test_shuffle_preserves_counts_separately_within_public_state_and_direction) ... ok
+test_buffered_counterexample_has_no_message_perfect_reward (test_resource_env.ResourceEnvironmentTests.test_buffered_counterexample_has_no_message_perfect_reward) ... ok
+test_choices_have_native_resource_consequences_for_either_agent (test_resource_env.ResourceEnvironmentTests.test_choices_have_native_resource_consequences_for_either_agent) ... ok
+test_default_perishable_resources_make_reward_equal_balanced_collection (test_resource_env.ResourceEnvironmentTests.test_default_perishable_resources_make_reward_equal_balanced_collection) ... ok
+test_each_scene_permits_complementary_collection (test_resource_env.ResourceEnvironmentTests.test_each_scene_permits_complementary_collection) ... ok
+test_exact_resource_accounting_every_inventory_scene_and_action (test_resource_env.ResourceEnvironmentTests.test_exact_resource_accounting_every_inventory_scene_and_action) ... ok
+test_fixed_roles_are_imperfect_and_exact_reference_bounds (test_resource_env.ResourceEnvironmentTests.test_fixed_roles_are_imperfect_and_exact_reference_bounds) ... ok
+test_full_information_keeps_camp_supplied (test_resource_env.ResourceEnvironmentTests.test_full_information_keeps_camp_supplied) ... ok
+test_invalid_actions_and_states_are_rejected (test_resource_env.ResourceEnvironmentTests.test_invalid_actions_and_states_are_rejected) ... ok
+test_observation_copies_and_policy_input_contains_no_category_ids (test_resource_env.ResourceEnvironmentTests.test_observation_copies_and_policy_input_contains_no_category_ids) ... ok
+test_overflow_is_discarded_before_consumption (test_resource_env.ResourceEnvironmentTests.test_overflow_is_discarded_before_consumption) ... ok
+test_reset_and_sampler_reproducibility (test_resource_env.ResourceEnvironmentTests.test_reset_and_sampler_reproducibility) ... ok
+test_shortages_do_not_terminate_and_scene_rng_is_action_independent (test_resource_env.ResourceEnvironmentTests.test_shortages_do_not_terminate_and_scene_rng_is_action_independent) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.396s
+
+OK

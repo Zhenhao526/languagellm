@@ -1,0 +1,85 @@
+Social Inﬂuence as Intrinsic Motivation
+for Multi-Agent Deep Reinforcement Learning
+Natasha Jaques 1 2 Angeliki Lazaridou 2 Edward Hughes 2 Caglar Gulcehre 2 Pedro A. Ortega2 DJ Strouse 3
+Joel Z. Leibo2 Nando de Freitas2
+Abstract
+We propose a uniﬁed mechanism for achieving
+coordination and communication in Multi-Agent
+Reinforcement Learning (MARL), through
+rewarding agents for having causal inﬂuence
+over other agents’ actions. Causal inﬂuence is
+assessed using counterfactual reasoning. At each
+timestep, an agent simulates alternate actions that
+it could have taken, and computes their effect on
+the behavior of other agents. Actions that lead to
+bigger changes in other agents’ behavior are con-
+sidered inﬂuential and are rewarded. We show that
+this is equivalent to rewarding agents for having
+high mutual information between their actions.
+Empirical results demonstrate that inﬂuence leads
+to enhanced coordination and communication
+in challenging social dilemma environments,
+dramatically increasing the learning curves of the
+deep RL agents, and leading to more meaningful
+learned communication protocols. The inﬂuence
+rewards for all agents can be computed in a
+decentralized way by enabling agents to learn a
+model of other agents using deep neural networks.
+In contrast, key previous works on emergent
+communication in the MARL setting were unable
+to learn diverse policies in a decentralized manner
+and had to resort to centralized training. Conse-
+quently, the inﬂuence reward opens up a window
+of new opportunities for research in this area.
+1. Introduction
+Intrinsic Motivation for Reinforcement Learning (RL) refers
+to reward functions that allow agents to learn useful behavior
+1Media Lab, Massachusetts Institute of Technology, Cambridge,
+USA 2Google DeepMind, London, UK 3Institute for Advanced
+Study, Princeton University, Princeton, USA. Correspondence to:
+Natasha Jaques <jaquesn@mit.edu>, Angeliki Lazaridou<ange-
+liki@google.com>.
+Proceedings of the 36 th International Conference on Machine
+Learning, Long Beach, California, PMLR 97, 2019. Copyright
+2019 by the author(s).
+across a variety of tasks and environments, sometimes in
+the absence of environmental reward (Singh et al., 2004).
+Previous approaches to intrinsic motivation often focus on
+curiosity (e.g. Pathak et al. (2017); Schmidhuber (2010)),
+or empowerment (e.g. Klyubin et al. (2005); Mohamed &
+Rezende (2015)). Here, we consider the problem of deriving
+intrinsic social motivation from other agents in multi-agent
+RL (MARL). Social learning is incredibly important for
+humans, and has been linked to our ability to achieve
+unprecedented progress and coordination on a massive scale
+(Henrich, 2015; Harari, 2014; Laland, 2017; van Schaik &
+Burkart, 2011; Herrmann et al., 2007). While some previous
+work has investigated intrinsic social motivation for RL (e.g.
+Sequeira et al. (2011); Hughes et al. (2018); Peysakhovich &
+Lerer (2018)), these approaches rely on hand-crafted rewards
+speciﬁc to the environment, or allowing agents to view the
+rewards obtained by other agents. Such assumptions make it
+impossible to achieve independent training of MARL agents
+across multiple environments.
+Achieving coordination among agents in MARL still remains
+a difﬁcult problem. Prior work in this domain (e.g., Foerster
+et al. (2017; 2016)), often resorts to centralized training to
+ensure that agents learn to coordinate. While communication
+among agents could help with coordination, training emer-
+gent communication protocols also remains a challenging
+problem; recent empirical results underscore the difﬁculty
+of learning meaningful emergent communication protocols,
+even when relying on centralized training (e.g., Lazaridou
+et al. (2018); Cao et al. (2018); Foerster et al. (2016)).
+We propose a uniﬁed method for achieving both coordination
+and communication in MARL by giving agents an intrinsic
+reward for having a causal inﬂuence on other agents’ actions.
+Causal inﬂuence is assessed using counterfactual reasoning;
+at each timestep, an agent simulates alternate, counterfactual
+actions that it could have taken, and assesses their effect
+on another agent’s behavior. Actions that lead to relatively
+higher change in the other agent’s behavior are considered
+to be highly inﬂuential and are rewarded. We show how
+this reward is related to maximizing the mutual information
+between agents’ actions, and hypothesize that this inductive
+bias will drive agents to learn coordinated behavior. Maximiz-

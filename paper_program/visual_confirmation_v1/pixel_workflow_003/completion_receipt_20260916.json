@@ -1,0 +1,19 @@
+{
+  "status": "third_batch_complete_no_automatic_continuation",
+  "created_utc": "2026-09-15T17:40:02.498903+00:00",
+  "artifact_hashes": {
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/curation_status_20260916.json": "809976027cd715b48a380c77ac0be4b48b089306f6305763d49988815a403519",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/curation_delivery_qa.json": "797b128aaffa157763d6aa40325b2018b815bb6848c35136de3002f60f03fdb2",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/freeze.json": "beb97fe6f6babb306162ef340224409f491bf2008368e91ccb5afe317b7585b8",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/identity_license_review_20260916.json": "80500734842cc55e610b4500a7855b6c10b201b235f0139bc67e10cd21cb8960",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/finalize_curation.py": "b3206c223d7e41751e84cf631c7bd2f5fc31c150e0a547fe7962bb86ce81bfe0",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/audit_curation.py": "83f2b5b63f46e1319bf30cfb24edf8ef4acc71a029c79e66c9f8be6b9bd6fe70",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/review_round1/review_a.json": "d3ce14b0cbcb9a965435b9416297b884b39b58c9d4ac43fecc05606373a72370",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/review_round1/review_b.json": "9776eaec23a036c0bb25bdba0a40344f1f9cfb50f52b727832634d0f142d2ec3",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/README.md": "a478e8ac412f52b7a6eeecf4ffe833f518d95438e43f8d993e4235af5743e8ed",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/后续图库可行性审查.md": "e6465e7ab443b7b59ede1297101b2d2996ce588d2e57458ab0ae2572b28194dd",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/identity_license_review_20260916.md": "c6146b731fd7a5cdb5e79eaad0d3bdbdb9f988539ee5318b1d0db5b6f0f71ea1",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/README.md": "ae92c2a5286306b3f0601182437a0d98d01b75f7f0020651cc8edffef6a55ac5"
+  },
+  "note": "No further image collection, visual review, or model work is triggered by this receipt."
+}

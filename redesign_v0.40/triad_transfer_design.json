@@ -1,0 +1,46 @@
+{
+  "version": "v0.40-triad-transfer",
+  "description": "代际替换下三资源三 token 共同通信协议的保真度与漂移",
+  "research_question": "已经形成的三槽位共同协议，在不同伙伴覆盖的代际学习中能否被新主体保留；资源槽位、组合成功率和符号形式如何共同变化？",
+  "factorial": {
+    "formation_conditions": ["origin_fixed_A", "origin_rotating_AB", "origin_random_ABC"],
+    "transmission_conditions": ["fixed_A", "rotating_AB", "random_ABC"],
+    "seeds": [34101, 34102, 34103, 34104],
+    "partitions": [1, 2, 3],
+    "chains": 108,
+    "replacement_order": [0, 1, 2, 3],
+    "generations": 4
+  },
+  "protocol": {
+    "resources": 3,
+    "one_token_per_resource_sender": true,
+    "message_length": 3,
+    "vocabulary": 7,
+    "receiver_codebook_size": 343,
+    "payoff": "(1/6)*sum(correct_resources)+0.5*all_three_correct",
+    "baseline": 0.1
+  },
+  "transmission": {
+    "fixed_A": "A topology on every update",
+    "rotating_AB": "A and B alternate by global update parity",
+    "random_ABC": "A, B and C sampled by a deterministic schedule",
+    "schedule_seed_namespace": 39040,
+    "newcomer_training": "communication modules only; residents and private visual encoders frozen",
+    "updates_per_generation": 300,
+    "evaluation_schedules": ["A", "B", "C"]
+  },
+  "measurement": {
+    "primary": ["target60_joint_J", "all120_joint_J"],
+    "slot_function": ["resource0_accuracy", "resource1_accuracy", "resource2_accuracy"],
+    "form": ["same_type_token_agreement_by_resource", "joint_three_token_agreement", "token_change_prev", "token_change_base"],
+    "generation_zero": "v0.39 formation endpoint before replacement",
+    "generation_one_to_four": "after one newcomer is trained and replaces identity 0, 1, 2, 3 respectively"
+  },
+  "controls_and_limits": [
+    "private visual encoders are inherited from v0.28 and frozen throughout",
+    "formation endpoints are copied from the sealed v0.39 teacher-free experiment",
+    "only the held newcomer's sender and receiver communication heads are reset and optimized",
+    "four agents, six sites, three resources and experimenter-defined topology schedules are a controlled mechanism probe",
+    "a three-token grounded tuple is a compositional communication probe, not open-ended natural language"
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "qa_completed": true,
+  "html": "/Users/xia/Documents/ChatGPT/语言/qwen_language_v2/review_outputs/symbolic_interim_multi_episode/replay.html",
+  "html_sha256": "5d98fcbc36acc8e185cb174595533b674d4a403eaaf013fabe8fc27dc5600708",
+  "browser": "Installed Chrome; fresh headless browser and contexts; no user profile; GPU rendering disabled",
+  "playwright_version": "1.62.1",
+  "require_completed_requested": false,
+  "expected_cases_requested": 4,
+  "checks": [
+    {
+      "width": 736,
+      "condition": "delayed",
+      "group": "17",
+      "episode": "1",
+      "steps": 12,
+      "episode_completed_in_snapshot": true,
+      "states_checked": 24,
+      "exact_observation_checks": 24,
+      "exact_message_comparisons": 12,
+      "navigation_passed": true,
+      "overflow": false
+    },
+    {
+      "width": 736,
+      "condition": "delayed",
+      "group": "17",
+      "episode": "2",
+      "steps": 12,
+      "episode_completed_in_snapshot": true,
+      "states_checked": 24,
+      "exact_observation_checks": 24,
+      "exact_message_comparisons": 12,
+      "navigation_passed": true,
+      "overflow": false
+    },
+    {
+      "width": 736,
+      "condition": "immediate",
+      "group": "17",
+      "episode": "1",
+      "steps": 12,
+      "episode_completed_in_snapshot": true,
+      "states_checked": 24,
+      "exact_observation_checks": 24,
+      "exact_message_comparisons": 12,
+      "navigation_passed": true,
+      "overflow": false
+    },
+    {
+      "width": 736,
+      "condition": "immediate",
+      "group": "17",
+      "episode": "2",
+      "steps": 2,
+      "episode_completed_in_snapshot": false,
+      "states_checked": 4,
+      "exact_observation_checks": 4,
+      "exact_message_comparisons": 2,
+      "navigation_passed": true,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "condition": "delayed",
+      "group": "17",
+      "episode": "1",
+      "steps": 12,
+      "episode_completed_in_snapshot": true,
+      "states_checked": 24,
+      "exact_observation_checks": 24,
+      "exact_message_comparisons": 12,
+      "navigation_passed": true,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "condition": "delayed",
+      "group": "17",
+      "episode": "2",
+      "steps": 12,
+      "episode_completed_in_snapshot": true,
+      "states_checked": 24,
+      "exact_observation_checks": 24,
+      "exact_message_comparisons": 12,
+      "navigation_passed": true,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "condition": "immediate",
+      "group": "17",
+      "episode": "1",
+      "steps": 12,
+      "episode_completed_in_snapshot": true,
+      "states_checked": 24,
+      "exact_observation_checks": 24,
+      "exact_message_comparisons": 12,
+      "navigation_passed": true,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "condition": "immediate",
+      "group": "17",
+      "episode": "2",
+      "steps": 2,
+      "episode_completed_in_snapshot": false,
+      "states_checked": 4,
+      "exact_observation_checks": 4,
+      "exact_message_comparisons": 2,
+      "navigation_passed": true,
+      "overflow": false
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "browser-736-delayed-g17-ep2-top.png",
+      "width": 736,
+      "condition": "delayed",
+      "group": "17",
+      "episode": "2",
+      "step": 12,
+      "part": "top"
+    },
+    {
+      "file": "browser-736-delayed-g17-ep2-messages.png",
+      "width": 736,
+      "condition": "delayed",
+      "group": "17",
+      "episode": "2",
+      "step": 12,
+      "part": "messages"
+    },
+    {
+      "file": "browser-736-delayed-g17-ep2-agents.png",
+      "width": 736,
+      "condition": "delayed",
+      "group": "17",
+      "episode": "2",
+      "step": 12,
+      "part": "agents"
+    },
+    {
+      "file": "browser-736-immediate-g17-ep2-top.png",
+      "width": 736,
+      "condition": "immediate",
+      "group": "17",
+      "episode": "2",
+      "step": 2,
+      "part": "top"
+    },
+    {
+      "file": "browser-736-immediate-g17-ep2-messages.png",
+      "width": 736,
+      "condition": "immediate",
+      "group": "17",
+      "episode": "2",
+      "step": 2,
+      "part": "messages"
+    },
+    {
+      "file": "browser-736-immediate-g17-ep2-agents.png",
+      "width": 736,
+      "condition": "immediate",
+      "group": "17",
+      "episode": "2",
+      "step": 2,
+      "part": "agents"
+    },
+    {
+      "file": "browser-320-delayed-g17-ep2-top.png",
+      "width": 320,
+      "condition": "delayed",
+      "group": "17",
+      "episode": "2",
+      "step": 12,
+      "part": "top"
+    },
+    {
+      "file": "browser-320-delayed-g17-ep2-messages.png",
+      "width": 320,
+      "condition": "delayed",
+      "group": "17",
+      "episode": "2",
+      "step": 12,
+      "part": "messages"
+    },
+    {
+      "file": "browser-320-delayed-g17-ep2-agents.png",
+      "width": 320,
+      "condition": "delayed",
+      "group": "17",
+      "episode": "2",
+      "step": 12,
+      "part": "agents"
+    },
+    {
+      "file": "browser-320-immediate-g17-ep2-top.png",
+      "width": 320,
+      "condition": "immediate",
+      "group": "17",
+      "episode": "2",
+      "step": 2,
+      "part": "top"
+    },
+    {
+      "file": "browser-320-immediate-g17-ep2-messages.png",
+      "width": 320,
+      "condition": "immediate",
+      "group": "17",
+      "episode": "2",
+      "step": 2,
+      "part": "messages"
+    },
+    {
+      "file": "browser-320-immediate-g17-ep2-agents.png",
+      "width": 320,
+      "condition": "immediate",
+      "group": "17",
+      "episode": "2",
+      "step": 2,
+      "part": "agents"
+    }
+  ],
+  "errors": [],
+  "snapshot_run_name": "pilot_immediate_delayed_20260914",
+  "snapshot_generated_at": "2026-09-14T22:12:33.773474+08:00",
+  "snapshot_run_status": "running",
+  "run_completed_at_snapshot": false,
+  "unique_steps_in_snapshot": 38,
+  "unique_cases_in_snapshot": 4
+}

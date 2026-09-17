@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "study": "triadic_local_structure_control_001",
+  "phase": "post_execution_artifact_review",
+  "checks": {
+    "python_compile": "passed",
+    "static_preparation": "passed",
+    "equality_pattern_controls": "15 of 15 patterns preserved in audit",
+    "freeze_before_execution": "passed",
+    "execution_status": "completed",
+    "independent_audit": "passed",
+    "summary": "passed",
+    "figures": "passed and visually inspected",
+    "record_grid": "16 seeds × 4 conditions × 3 controls × 6 checkpoints = 1152",
+    "live_files": 576,
+    "silent_aliases": 576,
+    "live_rows": 15925248,
+    "independent_replay_module_samples": 95551488,
+    "training_updates": 0,
+    "new_qwen_calls": 0,
+    "summary_model_forwards": 0,
+    "primary_exact_match": true
+  },
+  "primary": {
+    "ensemble_mean_percentage_points": 8.415630465646892,
+    "ensemble_ci95_percentage_points": [6.448940925821961, 10.382320005471824],
+    "positive_seed_blocks": 16,
+    "seed_blocks": 16
+  },
+  "artifact_sha256": {
+    "plan": "3ee301d349267248a82b1423d75958fffe0e7ac44288005b8e45149ba43205e6",
+    "prepared": "3992fc126ad50be12ad233d59fd3388039e4c5b5e6979d6c462a51ed553b6bf7",
+    "maps": "fdbbc89014e623e9490c69dbcd48bbc42ee15c1ada5c0c8ea20459596e3e7e89",
+    "execution_results": "e2d6aa783e55da76902bd4d379659f442207b7b0430a67dcbe1050e727bd07d6",
+    "audit_verification": "652e4e1037a4f0474751571ba3b77fb9356eef2fa6101ea36153c4ca3bd1b9e9",
+    "summary": "f4f629e60da82f20faa123693e8093684e6bdfbcc65508606b52293ae6d6003a",
+    "figures_receipt": "0484284e9ad73559ce753352bc56240e45ac75e7a61352f1fedecfe80cbdce9b"
+  },
+  "interpretation": "Equality-pattern-preserving relabelings still change response in this frozen policy set. This narrows the explanation of packet sensitivity but does not establish a public lexicon, compositionality, or language origin."
+}

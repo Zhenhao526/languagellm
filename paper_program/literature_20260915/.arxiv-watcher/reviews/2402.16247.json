@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "arxiv_id": "2402.16247",
+  "reviewed_at": "2026-09-15T13:10:32.907059+00:00",
+  "review_mode": "full_text",
+  "confidence": "high",
+  "verdict": "read",
+  "scores": {
+    "relevance": 88.0,
+    "evidence": 82.0,
+    "novelty": 78.0,
+    "impact": 82.0,
+    "reproducibility": 78.0,
+    "author_prior": 50.0,
+    "early_signal": 50.0,
+    "overall": 79.6
+  },
+  "paper_type": "mechanism_or_method",
+  "contribution": "提出 CLAP 任务，以社区交互记录训练新人，并比较行为克隆与预先掌握环境技能后的双向消息翻译。",
+  "evidence_summary": "§3–5 给出发信/听信/行动分拆；两个合作导航环境，偏置示范覆盖、样本数、消息关闭及人类小型演示；正式版本为 IJCAI 2024 第40–48页。",
+  "novelty_comparison": "相对零样本协调，允许适应前访问社区交互数据。与我们不同，它主要学习加入既有社区，不是旧配对在新增世界区分下共同重组。",
+  "summary": "全文方法、主要实验与正式出版元数据核查。ECTL 更适合社区加入分支，当前新增图实验可借鉴受限适配器基线但须标明改造。",
+  "recommendation_reasons": [
+    "后续新人/旧协议适应应比较直接克隆与翻译适配器。",
+    "揭示先掌握环境技能、再适应通信的分拆已有先例。"
+  ],
+  "concerns": [
+    "监督示范与集中训练不可冒充独立奖励学习。",
+    "大量数据和无 pit 时克隆可优于翻译；人类例子不等于人类语言形成实验。"
+  ]
+}

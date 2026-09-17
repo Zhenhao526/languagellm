@@ -1,0 +1,162 @@
+{
+  "records": [
+    {
+      "candidate_id": "commons:106394148",
+      "blind_id": "cb67ca14f488",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/pixel_001/originals/cb67ca14f488.jpg",
+      "original_sha256": "6e5f88264aa9c04b93235d7a374eb4ca700019958c2e65c06464161b105c4091",
+      "original_sha1": "7b88933f8ce31bda365e12e3d12faee17c055701",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Vaso_con_agua,_Madrid,_Espa%C3%B1a,_2021_03.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Benjam%C3%ADn_N%C3%BA%C3%B1ez_Gonz%C3%A1lez\" title=\"User:Benjamín Núñez González\">Benjamín Núñez González</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "decoded_format": "JPEG",
+      "frames": 1,
+      "raw_size": [
+        4032,
+        3024
+      ],
+      "oriented_size": [
+        4032,
+        3024
+      ],
+      "orientation": 1,
+      "bytes": 2806525,
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop",
+      "ordinary_single_image": true,
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/pixel_001/processed/cb67ca14f488.jpg",
+      "processed_sha256": "f999d693d0e8f17ccb03f89aa6d19082962edaea6cd71bef032073fef0c6b2ad",
+      "crop_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/pixel_001/blind/cb67ca14f488_crop.png",
+      "crop_sha256": "118aec9abb9c6d066c7703ba5587b9044c7b2981502690ed9ba5ddbbdffd2884",
+      "full_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/pixel_001/blind/cb67ca14f488_full.png",
+      "full_sha256": "e0153544a12fcb299a260957b3568271c4fe8de8494f97c58e5ac8dbe3a86706",
+      "hashes": {
+        "phash": "96417b6e6c639c38",
+        "dhash": "f7fcf8ecb46c6c38"
+      },
+      "preprocess_matches_legacy": true,
+      "visual_review": "pending"
+    },
+    {
+      "candidate_id": "commons:11372165",
+      "blind_id": "f34ebacfef06",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/pixel_001/originals/f34ebacfef06.jpg",
+      "original_sha256": "4277611565702f0fa58b9fd79d86da5c5be318aa290943cf8c2571316352da3f",
+      "original_sha1": "08b4b21338549c5f6d70650c728975cab52ddb00",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Water_and_ice.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Victor_Blacus\" title=\"User:Victor Blacus\">Victor Blacus</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "decoded_format": "JPEG",
+      "frames": 1,
+      "raw_size": [
+        600,
+        800
+      ],
+      "oriented_size": [
+        600,
+        800
+      ],
+      "orientation": null,
+      "bytes": 67500,
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop",
+      "ordinary_single_image": true,
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/pixel_001/processed/f34ebacfef06.jpg",
+      "processed_sha256": "025dad39a116a3bc6d865ad4f12b5c716b50dc3ed4df5e5500979dbf8005f865",
+      "crop_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/pixel_001/blind/f34ebacfef06_crop.png",
+      "crop_sha256": "edf178404b1b4bc7e8721b38675d7f895880f32fd69477d1687a4986395563c2",
+      "full_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/pixel_001/blind/f34ebacfef06_full.png",
+      "full_sha256": "eb87a55b97014cf763d3c0d8806ef5f66f239370958e992bea2f30d14bb31654",
+      "hashes": {
+        "phash": "8b947073c9ce7698",
+        "dhash": "79696969716969db"
+      },
+      "preprocess_matches_legacy": true,
+      "visual_review": "pending"
+    },
+    {
+      "candidate_id": "commons:162912038",
+      "blind_id": "f8c6aee83e07",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/pixel_001/originals/f8c6aee83e07.jpg",
+      "original_sha256": "b94e770f39e0a8d610647cc2634b17079e5498419084a7917b9f1649c3ad233b",
+      "original_sha1": "5c6292c2b4a6e45bce0080e794e1d1fed887ce92",
+      "source_page": "https://commons.wikimedia.org/wiki/File:A_cold_glass_of_water_-_GE_Refrigerator_-_August_7,_2007.jpg",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "artist_html": "Dave Matos",
+      "credit_html": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/dmatos/1081916080/\">https://www.flickr.com/photos/dmatos/1081916080/</a>",
+      "decoded_format": "JPEG",
+      "frames": 1,
+      "raw_size": [
+        1600,
+        1200
+      ],
+      "oriented_size": [
+        1600,
+        1200
+      ],
+      "orientation": 1,
+      "bytes": 171038,
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop",
+      "ordinary_single_image": true,
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/pixel_001/processed/f8c6aee83e07.jpg",
+      "processed_sha256": "ce3631aef7e21179d8855a9eeda865512e25f6c7151416eb48fce0d26eb0a735",
+      "crop_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/pixel_001/blind/f8c6aee83e07_crop.png",
+      "crop_sha256": "71c0298a8738afb739ac80dbf77616aa282ca7d2c09e77e167f5a3cd4b8c7ccd",
+      "full_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/pixel_001/blind/f8c6aee83e07_full.png",
+      "full_sha256": "fb77670b2240dbcc336a699b45301b213a1a94ca352c7b0f5f2e01f8f6c849b6",
+      "hashes": {
+        "phash": "81804cfc7787dc67",
+        "dhash": "f0d8ecd81c7872f4"
+      },
+      "preprocess_matches_legacy": true,
+      "visual_review": "pending"
+    },
+    {
+      "candidate_id": "commons:11301183",
+      "blind_id": "1f4faeca1efb",
+      "status": "downloaded",
+      "original_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/pixel_001/originals/1f4faeca1efb.jpg",
+      "original_sha256": "6b76cca0c53a361efd30b2713dd08bb501e65e81bb0a0a322f3a4a880e95251a",
+      "original_sha1": "b6055b3a982d8f2b2b394db515e19c84d2fab1c1",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Vaso_de_agua-Hotel.jpg",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Tamorlan\" title=\"User:Tamorlan\">Tamorlan</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "decoded_format": "JPEG",
+      "frames": 1,
+      "raw_size": [
+        2592,
+        3888
+      ],
+      "oriented_size": [
+        2592,
+        3888
+      ],
+      "orientation": 1,
+      "bytes": 3285147,
+      "modification": "EXIF orientation/RGB; max640 LANCZOS/JPEG95; fixed224crop",
+      "ordinary_single_image": true,
+      "processed_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/pixel_001/processed/1f4faeca1efb.jpg",
+      "processed_sha256": "25e693cc741d54d26682a985184246ae8859f5f89cf8829c58a9019676cddc07",
+      "crop_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/pixel_001/blind/1f4faeca1efb_crop.png",
+      "crop_sha256": "a1f842c65aa96877627e48b5603d903affda118374200b4164acdc74bca52a54",
+      "full_path": "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/pixel_001/blind/1f4faeca1efb_full.png",
+      "full_sha256": "1244c55d8ae006c33886ea629047eff285824eda8c0bf87583dd2452d67975ca",
+      "hashes": {
+        "phash": "c2f0797f68e83886",
+        "dhash": "0bcc8c8eee6949a2"
+      },
+      "preprocess_matches_legacy": true,
+      "visual_review": "pending"
+    }
+  ],
+  "planned": 4,
+  "source_sha256": "b6f52f0ddf3e1356efddef1292d753154967ab7b6773c46b1dd55fa9494d74ed"
+}

@@ -1,0 +1,15 @@
+{
+  "started_at_utc": "2026-09-15T16:35:36.445570+00:00",
+  "pid": 41170,
+  "ecology": "unique",
+  "manifest_sha256": "a5b12b99e844671899053305ca13e7caabb02037c3410e59fdcaf4ccb80f59fd",
+  "options": {
+    "disp": true,
+    "presolve": true,
+    "time_limit": 60.0,
+    "mip_rel_gap": 0.0,
+    "mip_abs_gap": 0.0,
+    "threads": 1,
+    "random_seed": 20260916
+  }
+}

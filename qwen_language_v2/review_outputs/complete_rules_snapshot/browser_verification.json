@@ -1,0 +1,30 @@
+{
+  "browser": "Installed Chrome, fresh headless context; no user browser profile",
+  "checks": [
+    {
+      "width": 736,
+      "condition": "natural",
+      "steps": 12,
+      "overflow": false
+    },
+    {
+      "width": 736,
+      "condition": "full_information",
+      "steps": 4,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "condition": "natural",
+      "steps": 12,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "condition": "full_information",
+      "steps": 4,
+      "overflow": false
+    }
+  ],
+  "errors": []
+}

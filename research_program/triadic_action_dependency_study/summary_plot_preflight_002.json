@@ -1,0 +1,22 @@
+{
+  "status": "passed_synthetic_preflight",
+  "tests": 8,
+  "unittest_reported_seconds": 0.334,
+  "unit_exit_code": 0,
+  "synthetic_plots": 6,
+  "warnings": [],
+  "temporary_synthetic_outputs_deleted": true,
+  "font_path": "/System/Library/Fonts/Supplemental/Arial Unicode.ttf",
+  "font_sha256": "876af2cd4854644e7f3e7feb2f688997fdb3343c6df6693611209c9dfb47ccec",
+  "python": "3.12.14",
+  "numpy": "2.5.3",
+  "matplotlib": "3.11.2",
+  "real_results_read": false,
+  "neural_forward_calls": 0,
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/summarize_results.py": "fbf99ebd4ff68319eb98c6a5fc45ea245665a33b0b5e00b8d759ed434c18e803",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/plot_results.py": "3a1c27acc376c6865d4aebee8c8705f33e56b555dc33876d8ff36fc0ca2f32cc",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/tests/test_summary_plot.py": "d1e2f269f01ad808a459fd7f40404779ee97a85ded5458d2be4b9f0ee36f3d47"
+  },
+  "earlier_test_failure": "summary_plot_preflight_001.json preserves macOS canonical temporary path test mismatch; only test expectation fixed. No actual run/result used."
+}

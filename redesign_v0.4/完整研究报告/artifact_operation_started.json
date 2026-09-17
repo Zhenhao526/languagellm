@@ -1,0 +1,18 @@
+{
+  "timestamp_utc": "2026-09-14T12:45:49.636767+00:00",
+  "command": [
+    "/Users/xia/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+    "/Users/xia/.codex/plugins/cache/openai-primary-runtime/documents/26.909.12148/skills/documents/container_tools/mark_artifact_operation_started.mjs",
+    "--operation-kind",
+    "create",
+    "--expected-output-count",
+    "1",
+    "--output-format",
+    "docx"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "",
+  "expected_output": "预训练视觉主体中符号约定的形成与适应.docx",
+  "successful_mark_count": 1
+}

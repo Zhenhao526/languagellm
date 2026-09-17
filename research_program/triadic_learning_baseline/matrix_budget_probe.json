@@ -1,0 +1,13 @@
+{
+  "scope": "Anonymous Gaussian dense arrays only; no environment input, policy scores, optimizer update, training run, or task-performance pilot.",
+  "python": "3.12.14",
+  "numpy": "2.5.3",
+  "threads": 1,
+  "three_actor_shaped_passes": 50,
+  "elapsed_seconds": 0.023125041974708438,
+  "seconds_per_three_actor_shaped_pass": 0.00046250083949416875,
+  "scaled_24000_updates_dense_algebra_seconds": 11.10002014786005,
+  "not_a_full_training_runtime_estimate": "Excludes probability/reward reduction, Adam, logging, data preparation, all evaluations, compression, other-process contention.",
+  "training_actor_updates": 0,
+  "environment_worlds_read": 0
+}

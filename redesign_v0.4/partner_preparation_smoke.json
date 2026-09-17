@@ -1,0 +1,15 @@
+{
+  "check": "real_population_preparation_in_temporary_directory",
+  "seed": 101,
+  "gate_passed": true,
+  "four_independent_agents_loaded": true,
+  "new_agent_accuracies": [
+    1.0,
+    1.0
+  ],
+  "sender_unchanged": [
+    true,
+    true
+  ],
+  "temporary_artifacts_deleted_after_check": true
+}

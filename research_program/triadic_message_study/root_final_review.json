@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-09-15T16:15:52.130058+00:00",
+  "report_sha256": "cbbbb801319a581c8f13e0824c7ba03893bbd63f98c3b0d9efcf085b43f1fffd",
+  "local_links": 15,
+  "link_targets": [
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/plan.md",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/root_preflight.json",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/results.json",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/完整训练终点.md",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/figures_003/complete_endpoints.png",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/figures_003/paired_primary.png",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/summary_001/汇总.md",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/figures_003/fixed_monitor_curves.png",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/message_behavior_001/消息与伙伴描述.md",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/audit_execution_001/独立核验.md",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/root_record_audit_001/verification.json",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/next_ecology_static_001/静态候选评估.md",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/literature/下载索引.md",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/literature/测量依据与贡献边界.md",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/literature/独立文献核验.json"
+  ],
+  "frozen_main_and_probe_source_verification": true,
+  "root_visual_check": "Viewed full endpoint and monitor PNGs in figures_002; their figures_003 PNG hashes are identical. Viewed corrected figures_003 paired_primary separately; no overlap observed.",
+  "figures_sha256": {
+    "complete_endpoints.png": "f953fb7b05ffde45a060259ac4539dccf0214666df814d92695f17f7ea9d508c",
+    "fixed_monitor_curves.png": "478cc36b59ffb1b38752d58926c28b606e1a9bf4b95dab3260c619513cc36946",
+    "paired_primary.png": "37dfcb1a88f6a54de383ccedd9f1d546a42e99d74bd286e00b13b6ec692da288"
+  },
+  "independent_report_review_note": "Independent agent verified metric tables and interpretation. Subsequent root edits added the static-candidate link and replaced double-heldout-only partner paragraph with independently completed full-domain proposal evidence; final links and source freezes checked here.",
+  "no_added_training": true,
+  "main_and_probe_sessions_exited_zero": true,
+  "main_total_updates": 96000,
+  "next_ecology_training_started": false
+}

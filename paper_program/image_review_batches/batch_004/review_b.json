@@ -1,0 +1,55 @@
+{
+  "reviewer": "AI reviewer B; independent pixel-only review",
+  "packet_sha256": "b731f6f27f794ab9bdc1fe95d887eda2b6ec359369c6b7cc8ed358c7d52fae4e",
+  "method": "仅读取packet.json及其中列出的PNG。先使用view_image查看sheet_01.png，再使用view_image分别查看全部4张full和全部4张224像素crop；full请求original，工具将前两张大图缩小显示。逐图根据可见液面、透明容器、裁剪保留情况、文字显著程度及资源歧义评判。未读取来源、类别、模型特征或其他审阅文件，也未联网。由AI审阅者完成；任何非true条件均拒绝通过。",
+  "decisions": [
+    {
+      "id": "1f4faeca1efb",
+      "criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": true,
+        "crop retains resource": true,
+        "no prominent text or watermark": true,
+        "no mixed foods or ambiguous liquid": true
+      },
+      "reason": "照片中透明杯内清澈液体有明确液面与折射，外观可辨为水；crop保留水体与液面。杯沿少量浅色刻字不显著，无混合食物或其他可见液体成分。",
+      "pass_visual": true
+    },
+    {
+      "id": "cb67ca14f488",
+      "criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": "uncertain",
+        "crop retains resource": "uncertain",
+        "no prominent text or watermark": true,
+        "no mixed foods or ambiguous liquid": "uncertain"
+      },
+      "reason": "实拍透明玻璃杯的俯视图，杯底和侧壁清楚，但不能从full或crop确认独立液面或可见水体，空杯与装水杯存在歧义，因此不能确认资源及其在crop中的保留。底部小型压印文字不显著。",
+      "pass_visual": false
+    },
+    {
+      "id": "f34ebacfef06",
+      "criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": true,
+        "crop retains resource": true,
+        "no prominent text or watermark": true,
+        "no mixed foods or ambiguous liquid": true
+      },
+      "reason": "实拍透明直筒杯，明确可见清水液面及浸在水中的冰块，crop保留液面、水体与冰块；冰和水属于同一资源，无显著文字、水印或其他食品。",
+      "pass_visual": true
+    },
+    {
+      "id": "f8c6aee83e07",
+      "criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": true,
+        "crop retains resource": true,
+        "no prominent text or watermark": true,
+        "no mixed foods or ambiguous liquid": true
+      },
+      "reason": "实拍手持透明杯接水，出水流、杯中液面和清澈水体可辨，crop仍保留这些资源线索。器具上有较小且浅淡的标签，未构成显著文字或水印；未见混合食物或难辨液体。",
+      "pass_visual": true
+    }
+  ]
+}

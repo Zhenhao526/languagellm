@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "version": "v0.34",
+  "scope": "bounded static implementation review; no model forward or optimizer replay",
+  "checks": {
+    "legal_views": "full, food_only and water_only are generated from the inherited two-frame visual input; the masked view erases the hidden resource slot and existence bit in both frames.",
+    "full_view_identity": "The full view is checked against the inherited v0.28 cache before social training.",
+    "dual_sender_roles": "In dual conditions the food sender contributes the first token and the water sender the second; the receiver gets only the ordered two-token message.",
+    "single_baseline": "single_full uses one full-view sender with the original two-token communication API and the same two-resource reward.",
+    "redundant_control": "dual_same_full has two senders and the same receiver structure but gives both senders the full view.",
+    "paired_conditions": "All conditions use the same team-slot world indices and uniform streams; condition and partner schedule are omitted from fixture random seeds.",
+    "balanced_roles": "Schedules A, B and C each make every agent receiver once and sender in each resource role once; rotating training alternates A and B while C is held out.",
+    "no_truth_shortcut": "Positions are passed only to the evaluator/loss after sampled actions; no position or goal enters sender or receiver inputs.",
+    "formal_gate": "Formal execution binds production source hashes and inherited input hashes to preflight_qa.json.",
+    "fixed_budget": "All formal runs use 2400 updates and no performance-based selection.",
+    "topology_probe": "Only dual_complementary changes training topology: fixed uses A every step, rotating uses A on even steps and B on odd steps; endpoint protocols additionally evaluate B and held-out C."
+  },
+  "budget_constants": {
+    "team_slots_per_update": 4,
+    "expanded_worlds_per_team": 240,
+    "single_message_instances_per_update": 960,
+    "dual_message_instances_per_update": 1920,
+    "actions_per_update": 1920,
+    "updates_per_run": 2400,
+    "formal_runs": 36,
+    "conditions": 3,
+    "partner_schedules": 3
+  },
+  "limitations": [
+    "The four population members reuse two frozen private encoders; rotation is a fixed four-agent schedule rather than demographic turnover.",
+    "The complementary views are deterministic masks of the frozen visual input, not learned perceptual development.",
+    "The one-token-per-sender dual protocol tests component exchange in a controlled task, not a full language.",
+    "The bounded audit checks categorical endpoint and selected training traces, but not every gradient or Adam transition.",
+    "Offline token exchange and donor recombination do not establish autonomous online composition."
+  ]
+}

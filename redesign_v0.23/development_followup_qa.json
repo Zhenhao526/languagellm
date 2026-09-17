@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "preflight_record_unchanged": true,
+  "formal_training_was_already_running": true,
+  "scope": "Independent forty-step numerical/replay check completed after formal start; outcome did not change production source, arms, budget or seed selection",
+  "analysis_source_sha256": "b5f984c806d6ea5a2d2991aeed18903557e2dd7ebcc4c76ed89181b836194cb9",
+  "audit_sha256": "b63090a368bcf8d866c081e19b432bf5c9e8c0460216c7c0641c30e3c9b6d354",
+  "comparison_sha256": "d6d5bb88af4eb44bdb37523d64c613bcabc5dc7c2719fc85b9e539ecdfa91ff8",
+  "checks": 7046,
+  "comparisons": 2479,
+  "max_error": 1.1102230246251565e-16
+}

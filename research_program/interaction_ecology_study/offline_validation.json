@@ -1,0 +1,37 @@
+{
+  "status": "passed_offline_preflight",
+  "recorded_at": "2026-09-15T14:08:00.636931+00:00",
+  "command": "qwen_collect_pilot/.venv/bin/python -m unittest discover -s research_program/interaction_ecology_study/tests -p 'test_*.py' -v",
+  "tests": 15,
+  "test_elapsed_seconds": 1.572,
+  "exit_code": 0,
+  "source_sha256": {
+    "action_interface.py": "e9940e42d72f2d8ee3a130ad4516081bdb94dabd41ebf95a0c6a6bb685f4a1a0",
+    "interface_backend.py": "4c4ba8e53fb35ad0abc59166484922bf92af5c3293ea79786c8e9e4dadaecfa2",
+    "plan.md": "67d36e6ce75e9360d9db65b690574164427dc08f77e3da088b5ba4815369d06b",
+    "tests/test_action_interface.py": "59b6fa2e1a28db7bb85b2084be9d4088606a6d003314d51b1997d7c2b8590bfb"
+  },
+  "model_calls": 0,
+  "model_weights_loaded": 0,
+  "tokenizer_only_checked": true,
+  "formal_token_limit": 16,
+  "semantic_output_token_lengths": [
+    1,
+    15
+  ],
+  "eos_token_id": 248046,
+  "checks": [
+    "17 legal choices preserved; raw IID fixed seeds",
+    "full288 two-stage fake call budget without stopping on zero rewards",
+    "all common-window barriers and empty each-trial histories",
+    "same36-pair private analyses; formal-only instructions/grammar difference",
+    "108 unique decision seeds with exact reuse",
+    "canonical tokenizer roundtrip/prefix completeness and EOS boundaries",
+    "shared formal limit includes longest semantic sequence plus EOS",
+    "private callback copies prevent input mutation",
+    "all24 settlements replayed from fake outputs",
+    "prepare/verify and overwrite refusal",
+    "tampered prepared/snapshot rejected before backend initialization"
+  ],
+  "note": "Receipt records tests already run; no extra test run was made for this receipt. Temporary prepare test packs were removed; formal interface_001 has not been prepared here."
+}

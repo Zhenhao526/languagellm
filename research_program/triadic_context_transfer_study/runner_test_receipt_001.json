@@ -1,0 +1,20 @@
+{
+  "status": "passed_pure_tests",
+  "test_count": 5,
+  "observed_exit_code": 0,
+  "command": "qwen_collect_pilot/.venv/bin/python -m unittest research_program.triadic_context_transfer_study.tests.test_runner -v",
+  "runtime_seconds_reported": 0.013,
+  "neural_parameter_loads": 0,
+  "training_updates": 0,
+  "formal_policy_forwards": 0,
+  "test_source_sha256": "cc11587a3c4981f77ace193c0ceffa580d8cbf8facaa5b34e84822432019dddb",
+  "scope": [
+    "donor endpoint orientation",
+    "all modes and complete numeric budget",
+    "silent uses no neural call and writes no NPZ",
+    "existing output refusal before input reads",
+    "exclusive JSON writes"
+  ],
+  "post_test_change": "Added collect_inputs validation of all dataset manifest source hashes; does not change the five tested functions. prepare/verify still to run after final static freeze.",
+  "recorded_at": "2026-09-15T18:46:50.047087+00:00"
+}

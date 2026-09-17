@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checked": {
+    "redesign_v0.18/results/gradient_001/completion_manifest.json": 1644,
+    "paper_program/literature_capability_20260916/completion_manifest.json": 32
+  },
+  "manifest_hashes": {
+    "redesign_v0.18/results/gradient_001/completion_manifest.json": "3d8f4177af790394ac7b1d22f1a980bec25902f28419f520269483535e425df0",
+    "paper_program/literature_capability_20260916/completion_manifest.json": "8b1040740c44d8a2e8ca317b443a5f45a6680c98743cd7712423441f9048e82e"
+  }
+}

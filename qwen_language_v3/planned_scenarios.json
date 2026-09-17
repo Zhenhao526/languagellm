@@ -1,0 +1,1939 @@
+[
+  {
+    "stage": "capability",
+    "episode": 1,
+    "seed": 92015,
+    "variant": 0,
+    "initial_state": {
+      "seed": 92015,
+      "variant": 0,
+      "max_steps": 12,
+      "t": 0,
+      "roles": {
+        "collector": "A",
+        "wood": "C",
+        "partner": "B"
+      },
+      "layout": {
+        "wood_site": "林地",
+        "fiber_site": "河滩"
+      },
+      "positions": {
+        "A": "营地",
+        "C": "林地",
+        "B": "河滩"
+      },
+      "inventory": {
+        "A": {
+          "tool": null,
+          "cargo": null
+        },
+        "B": {
+          "tool": null,
+          "cargo": null
+        },
+        "C": {
+          "tool": null,
+          "cargo": null
+        }
+      },
+      "known_closed": {
+        "A": [],
+        "B": [],
+        "C": []
+      },
+      "event": {
+        "kind": "none",
+        "enabled": false,
+        "at_step": null,
+        "edge": [],
+        "observer_site": null,
+        "occurred": false
+      },
+      "goals": [
+        {
+          "kind": "木材",
+          "length": "长",
+          "condition": "干",
+          "quantity": 1,
+          "destination": "营地",
+          "delivered": 0
+        },
+        {
+          "kind": "纤维",
+          "length": "长",
+          "condition": "干",
+          "quantity": 1,
+          "destination": "营地",
+          "delivered": 0
+        }
+      ],
+      "items": {
+        "o00": {
+          "kind": "木材",
+          "length": "长",
+          "condition": "干",
+          "location": "林地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": true
+        },
+        "o01": {
+          "kind": "木材",
+          "length": "长",
+          "condition": "湿",
+          "location": "林地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o02": {
+          "kind": "木材",
+          "length": "短",
+          "condition": "干",
+          "location": "林地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o03": {
+          "kind": "木材",
+          "length": "短",
+          "condition": "湿",
+          "location": "林地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o04": {
+          "kind": "纤维",
+          "length": "短",
+          "condition": "湿",
+          "location": "河滩",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o05": {
+          "kind": "纤维",
+          "length": "短",
+          "condition": "湿",
+          "location": "河滩",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o06": {
+          "kind": "纤维",
+          "length": "长",
+          "condition": "干",
+          "location": "河滩",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": true
+        },
+        "o07": {
+          "kind": "纤维",
+          "length": "长",
+          "condition": "干",
+          "location": "河滩",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": true
+        }
+      },
+      "scenario_parameters": {
+        "family": "river_valley_v0.3",
+        "wood_attributes": [
+          "长",
+          "干"
+        ],
+        "fiber_attributes": [
+          "长",
+          "干"
+        ],
+        "wood_quantity": 1,
+        "fiber_quantity": 1,
+        "wood_destination": "营地",
+        "fiber_destination": "营地",
+        "wood_site": "林地",
+        "fiber_site": "河滩",
+        "tools_present": false,
+        "processing_required": false,
+        "roads_permanently_open": true,
+        "initial_positions": {
+          "A": "营地",
+          "C": "林地",
+          "B": "河滩"
+        },
+        "local_event": {
+          "kind": "none",
+          "enabled": false,
+          "at_step": null,
+          "edge": [],
+          "observer_site": null,
+          "occurred": false
+        },
+        "simplification_note": "processing prerequisite and its tool actions removed together; eight resources, no axe; not a pure processed-flag causal contrast",
+        "split": "engineering; no confirmatory train/test split assigned",
+        "factorial_note": "variant selects a deterministic family, not a fully crossed factorial design; wood quantity is fixed at 1"
+      },
+      "handles": {
+        "A": {
+          "o00": "物10",
+          "o01": "物12",
+          "o02": "物7",
+          "o03": "物20",
+          "o04": "物77",
+          "o05": "物35",
+          "o06": "物32",
+          "o07": "物14"
+        },
+        "B": {
+          "o00": "物144",
+          "o01": "物153",
+          "o02": "物171",
+          "o03": "物154",
+          "o04": "物108",
+          "o05": "物179",
+          "o06": "物143",
+          "o07": "物155"
+        },
+        "C": {
+          "o00": "物284",
+          "o01": "物202",
+          "o02": "物297",
+          "o03": "物294",
+          "o04": "物268",
+          "o05": "物275",
+          "o06": "物223",
+          "o07": "物231"
+        }
+      },
+      "last_feedback": {
+        "A": null,
+        "B": null,
+        "C": null
+      },
+      "witness": [
+        {
+          "A": {
+            "kind": "move",
+            "destination": "河滩"
+          },
+          "B": {
+            "kind": "move",
+            "destination": "林地"
+          },
+          "C": {
+            "kind": "wait"
+          }
+        },
+        {
+          "A": {
+            "kind": "pickup",
+            "item": "物32"
+          },
+          "B": {
+            "kind": "carry_together",
+            "partner": "C",
+            "destination": "营地",
+            "item": "物144"
+          },
+          "C": {
+            "kind": "carry_together",
+            "partner": "B",
+            "destination": "营地",
+            "item": "物284"
+          }
+        },
+        {
+          "A": {
+            "kind": "move",
+            "destination": "营地"
+          },
+          "B": {
+            "kind": "deliver_together",
+            "partner": "C",
+            "item": "物144"
+          },
+          "C": {
+            "kind": "deliver_together",
+            "partner": "B",
+            "item": "物284"
+          }
+        },
+        {
+          "A": {
+            "kind": "deliver",
+            "item": "物32"
+          },
+          "B": {
+            "kind": "wait"
+          },
+          "C": {
+            "kind": "wait"
+          }
+        }
+      ]
+    },
+    "witness": [
+      {
+        "A": {
+          "kind": "move",
+          "destination": "河滩"
+        },
+        "B": {
+          "kind": "move",
+          "destination": "林地"
+        },
+        "C": {
+          "kind": "wait"
+        }
+      },
+      {
+        "A": {
+          "kind": "pickup",
+          "item": "物32"
+        },
+        "B": {
+          "kind": "carry_together",
+          "partner": "C",
+          "destination": "营地",
+          "item": "物144"
+        },
+        "C": {
+          "kind": "carry_together",
+          "partner": "B",
+          "destination": "营地",
+          "item": "物284"
+        }
+      },
+      {
+        "A": {
+          "kind": "move",
+          "destination": "营地"
+        },
+        "B": {
+          "kind": "deliver_together",
+          "partner": "C",
+          "item": "物144"
+        },
+        "C": {
+          "kind": "deliver_together",
+          "partner": "B",
+          "item": "物284"
+        }
+      },
+      {
+        "A": {
+          "kind": "deliver",
+          "item": "物32"
+        },
+        "B": {
+          "kind": "wait"
+        },
+        "C": {
+          "kind": "wait"
+        }
+      }
+    ],
+    "witness_steps": 4
+  },
+  {
+    "stage": "capability",
+    "episode": 2,
+    "seed": 92038,
+    "variant": 22,
+    "initial_state": {
+      "seed": 92038,
+      "variant": 22,
+      "max_steps": 12,
+      "t": 0,
+      "roles": {
+        "collector": "C",
+        "wood": "A",
+        "partner": "B"
+      },
+      "layout": {
+        "wood_site": "林地",
+        "fiber_site": "河滩"
+      },
+      "positions": {
+        "C": "营地",
+        "A": "林地",
+        "B": "河滩"
+      },
+      "inventory": {
+        "A": {
+          "tool": null,
+          "cargo": null
+        },
+        "B": {
+          "tool": null,
+          "cargo": null
+        },
+        "C": {
+          "tool": null,
+          "cargo": null
+        }
+      },
+      "known_closed": {
+        "A": [],
+        "B": [],
+        "C": []
+      },
+      "event": {
+        "kind": "none",
+        "enabled": false,
+        "at_step": null,
+        "edge": [],
+        "observer_site": null,
+        "occurred": false
+      },
+      "goals": [
+        {
+          "kind": "木材",
+          "length": "长",
+          "condition": "湿",
+          "quantity": 1,
+          "destination": "河滩",
+          "delivered": 0
+        },
+        {
+          "kind": "纤维",
+          "length": "短",
+          "condition": "干",
+          "quantity": 2,
+          "destination": "林地",
+          "delivered": 0
+        }
+      ],
+      "items": {
+        "o00": {
+          "kind": "木材",
+          "length": "长",
+          "condition": "干",
+          "location": "林地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o01": {
+          "kind": "木材",
+          "length": "长",
+          "condition": "湿",
+          "location": "林地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": true
+        },
+        "o02": {
+          "kind": "木材",
+          "length": "短",
+          "condition": "干",
+          "location": "林地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o03": {
+          "kind": "木材",
+          "length": "短",
+          "condition": "湿",
+          "location": "林地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o04": {
+          "kind": "纤维",
+          "length": "短",
+          "condition": "干",
+          "location": "河滩",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": true
+        },
+        "o05": {
+          "kind": "纤维",
+          "length": "短",
+          "condition": "干",
+          "location": "河滩",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": true
+        },
+        "o06": {
+          "kind": "纤维",
+          "length": "长",
+          "condition": "湿",
+          "location": "河滩",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o07": {
+          "kind": "纤维",
+          "length": "长",
+          "condition": "湿",
+          "location": "河滩",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        }
+      },
+      "scenario_parameters": {
+        "family": "river_valley_v0.3",
+        "wood_attributes": [
+          "长",
+          "湿"
+        ],
+        "fiber_attributes": [
+          "短",
+          "干"
+        ],
+        "wood_quantity": 1,
+        "fiber_quantity": 2,
+        "wood_destination": "河滩",
+        "fiber_destination": "林地",
+        "wood_site": "林地",
+        "fiber_site": "河滩",
+        "tools_present": false,
+        "processing_required": false,
+        "roads_permanently_open": true,
+        "initial_positions": {
+          "C": "营地",
+          "A": "林地",
+          "B": "河滩"
+        },
+        "local_event": {
+          "kind": "none",
+          "enabled": false,
+          "at_step": null,
+          "edge": [],
+          "observer_site": null,
+          "occurred": false
+        },
+        "simplification_note": "processing prerequisite and its tool actions removed together; eight resources, no axe; not a pure processed-flag causal contrast",
+        "split": "engineering; no confirmatory train/test split assigned",
+        "factorial_note": "variant selects a deterministic family, not a fully crossed factorial design; wood quantity is fixed at 1"
+      },
+      "handles": {
+        "A": {
+          "o00": "物34",
+          "o01": "物14",
+          "o02": "物77",
+          "o03": "物79",
+          "o04": "物41",
+          "o05": "物68",
+          "o06": "物42",
+          "o07": "物19"
+        },
+        "B": {
+          "o00": "物142",
+          "o01": "物120",
+          "o02": "物110",
+          "o03": "物118",
+          "o04": "物197",
+          "o05": "物193",
+          "o06": "物137",
+          "o07": "物192"
+        },
+        "C": {
+          "o00": "物231",
+          "o01": "物207",
+          "o02": "物233",
+          "o03": "物230",
+          "o04": "物241",
+          "o05": "物250",
+          "o06": "物219",
+          "o07": "物281"
+        }
+      },
+      "last_feedback": {
+        "A": null,
+        "B": null,
+        "C": null
+      },
+      "witness": [
+        {
+          "A": {
+            "kind": "wait"
+          },
+          "B": {
+            "kind": "move",
+            "destination": "林地"
+          },
+          "C": {
+            "kind": "move",
+            "destination": "河滩"
+          }
+        },
+        {
+          "A": {
+            "kind": "carry_together",
+            "partner": "B",
+            "destination": "河滩",
+            "item": "物14"
+          },
+          "B": {
+            "kind": "carry_together",
+            "partner": "A",
+            "destination": "河滩",
+            "item": "物120"
+          },
+          "C": {
+            "kind": "pickup",
+            "item": "物241"
+          }
+        },
+        {
+          "A": {
+            "kind": "deliver_together",
+            "partner": "B",
+            "item": "物14"
+          },
+          "B": {
+            "kind": "deliver_together",
+            "partner": "A",
+            "item": "物120"
+          },
+          "C": {
+            "kind": "move",
+            "destination": "林地"
+          }
+        },
+        {
+          "A": {
+            "kind": "wait"
+          },
+          "B": {
+            "kind": "wait"
+          },
+          "C": {
+            "kind": "deliver",
+            "item": "物241"
+          }
+        },
+        {
+          "A": {
+            "kind": "wait"
+          },
+          "B": {
+            "kind": "wait"
+          },
+          "C": {
+            "kind": "move",
+            "destination": "河滩"
+          }
+        },
+        {
+          "A": {
+            "kind": "wait"
+          },
+          "B": {
+            "kind": "wait"
+          },
+          "C": {
+            "kind": "pickup",
+            "item": "物250"
+          }
+        },
+        {
+          "A": {
+            "kind": "wait"
+          },
+          "B": {
+            "kind": "wait"
+          },
+          "C": {
+            "kind": "move",
+            "destination": "林地"
+          }
+        },
+        {
+          "A": {
+            "kind": "wait"
+          },
+          "B": {
+            "kind": "wait"
+          },
+          "C": {
+            "kind": "deliver",
+            "item": "物250"
+          }
+        }
+      ]
+    },
+    "witness": [
+      {
+        "A": {
+          "kind": "wait"
+        },
+        "B": {
+          "kind": "move",
+          "destination": "林地"
+        },
+        "C": {
+          "kind": "move",
+          "destination": "河滩"
+        }
+      },
+      {
+        "A": {
+          "kind": "carry_together",
+          "partner": "B",
+          "destination": "河滩",
+          "item": "物14"
+        },
+        "B": {
+          "kind": "carry_together",
+          "partner": "A",
+          "destination": "河滩",
+          "item": "物120"
+        },
+        "C": {
+          "kind": "pickup",
+          "item": "物241"
+        }
+      },
+      {
+        "A": {
+          "kind": "deliver_together",
+          "partner": "B",
+          "item": "物14"
+        },
+        "B": {
+          "kind": "deliver_together",
+          "partner": "A",
+          "item": "物120"
+        },
+        "C": {
+          "kind": "move",
+          "destination": "林地"
+        }
+      },
+      {
+        "A": {
+          "kind": "wait"
+        },
+        "B": {
+          "kind": "wait"
+        },
+        "C": {
+          "kind": "deliver",
+          "item": "物241"
+        }
+      },
+      {
+        "A": {
+          "kind": "wait"
+        },
+        "B": {
+          "kind": "wait"
+        },
+        "C": {
+          "kind": "move",
+          "destination": "河滩"
+        }
+      },
+      {
+        "A": {
+          "kind": "wait"
+        },
+        "B": {
+          "kind": "wait"
+        },
+        "C": {
+          "kind": "pickup",
+          "item": "物250"
+        }
+      },
+      {
+        "A": {
+          "kind": "wait"
+        },
+        "B": {
+          "kind": "wait"
+        },
+        "C": {
+          "kind": "move",
+          "destination": "林地"
+        }
+      },
+      {
+        "A": {
+          "kind": "wait"
+        },
+        "B": {
+          "kind": "wait"
+        },
+        "C": {
+          "kind": "deliver",
+          "item": "物250"
+        }
+      }
+    ],
+    "witness_steps": 8
+  },
+  {
+    "stage": "symbolic",
+    "episode": 1,
+    "seed": 93101,
+    "variant": 0,
+    "initial_state": {
+      "seed": 93101,
+      "variant": 0,
+      "max_steps": 12,
+      "t": 0,
+      "roles": {
+        "collector": "A",
+        "wood": "C",
+        "partner": "B"
+      },
+      "layout": {
+        "wood_site": "河滩",
+        "fiber_site": "林地"
+      },
+      "positions": {
+        "A": "营地",
+        "C": "河滩",
+        "B": "林地"
+      },
+      "inventory": {
+        "A": {
+          "tool": null,
+          "cargo": null
+        },
+        "B": {
+          "tool": null,
+          "cargo": null
+        },
+        "C": {
+          "tool": null,
+          "cargo": null
+        }
+      },
+      "known_closed": {
+        "A": [],
+        "B": [],
+        "C": []
+      },
+      "event": {
+        "kind": "none",
+        "enabled": false,
+        "at_step": null,
+        "edge": [],
+        "observer_site": null,
+        "occurred": false
+      },
+      "goals": [
+        {
+          "kind": "木材",
+          "length": "长",
+          "condition": "干",
+          "quantity": 1,
+          "destination": "营地",
+          "delivered": 0
+        },
+        {
+          "kind": "纤维",
+          "length": "长",
+          "condition": "干",
+          "quantity": 1,
+          "destination": "营地",
+          "delivered": 0
+        }
+      ],
+      "items": {
+        "o00": {
+          "kind": "木材",
+          "length": "长",
+          "condition": "干",
+          "location": "河滩",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": true
+        },
+        "o01": {
+          "kind": "木材",
+          "length": "长",
+          "condition": "湿",
+          "location": "河滩",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o02": {
+          "kind": "木材",
+          "length": "短",
+          "condition": "干",
+          "location": "河滩",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o03": {
+          "kind": "木材",
+          "length": "短",
+          "condition": "湿",
+          "location": "河滩",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o04": {
+          "kind": "纤维",
+          "length": "短",
+          "condition": "湿",
+          "location": "林地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o05": {
+          "kind": "纤维",
+          "length": "短",
+          "condition": "湿",
+          "location": "林地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o06": {
+          "kind": "纤维",
+          "length": "长",
+          "condition": "干",
+          "location": "林地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": true
+        },
+        "o07": {
+          "kind": "纤维",
+          "length": "长",
+          "condition": "干",
+          "location": "林地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": true
+        }
+      },
+      "scenario_parameters": {
+        "family": "river_valley_v0.3",
+        "wood_attributes": [
+          "长",
+          "干"
+        ],
+        "fiber_attributes": [
+          "长",
+          "干"
+        ],
+        "wood_quantity": 1,
+        "fiber_quantity": 1,
+        "wood_destination": "营地",
+        "fiber_destination": "营地",
+        "wood_site": "河滩",
+        "fiber_site": "林地",
+        "tools_present": false,
+        "processing_required": false,
+        "roads_permanently_open": true,
+        "initial_positions": {
+          "A": "营地",
+          "C": "河滩",
+          "B": "林地"
+        },
+        "local_event": {
+          "kind": "none",
+          "enabled": false,
+          "at_step": null,
+          "edge": [],
+          "observer_site": null,
+          "occurred": false
+        },
+        "simplification_note": "processing prerequisite and its tool actions removed together; eight resources, no axe; not a pure processed-flag causal contrast",
+        "split": "engineering; no confirmatory train/test split assigned",
+        "factorial_note": "variant selects a deterministic family, not a fully crossed factorial design; wood quantity is fixed at 1"
+      },
+      "handles": {
+        "A": {
+          "o00": "物45",
+          "o01": "物1",
+          "o02": "物70",
+          "o03": "物66",
+          "o04": "物80",
+          "o05": "物22",
+          "o06": "物3",
+          "o07": "物97"
+        },
+        "B": {
+          "o00": "物197",
+          "o01": "物128",
+          "o02": "物155",
+          "o03": "物124",
+          "o04": "物158",
+          "o05": "物126",
+          "o06": "物138",
+          "o07": "物196"
+        },
+        "C": {
+          "o00": "物220",
+          "o01": "物270",
+          "o02": "物278",
+          "o03": "物252",
+          "o04": "物265",
+          "o05": "物256",
+          "o06": "物282",
+          "o07": "物288"
+        }
+      },
+      "last_feedback": {
+        "A": null,
+        "B": null,
+        "C": null
+      },
+      "witness": [
+        {
+          "A": {
+            "kind": "move",
+            "destination": "林地"
+          },
+          "B": {
+            "kind": "move",
+            "destination": "河滩"
+          },
+          "C": {
+            "kind": "wait"
+          }
+        },
+        {
+          "A": {
+            "kind": "pickup",
+            "item": "物3"
+          },
+          "B": {
+            "kind": "carry_together",
+            "partner": "C",
+            "destination": "营地",
+            "item": "物197"
+          },
+          "C": {
+            "kind": "carry_together",
+            "partner": "B",
+            "destination": "营地",
+            "item": "物220"
+          }
+        },
+        {
+          "A": {
+            "kind": "move",
+            "destination": "营地"
+          },
+          "B": {
+            "kind": "deliver_together",
+            "partner": "C",
+            "item": "物197"
+          },
+          "C": {
+            "kind": "deliver_together",
+            "partner": "B",
+            "item": "物220"
+          }
+        },
+        {
+          "A": {
+            "kind": "deliver",
+            "item": "物3"
+          },
+          "B": {
+            "kind": "wait"
+          },
+          "C": {
+            "kind": "wait"
+          }
+        }
+      ]
+    },
+    "witness": [
+      {
+        "A": {
+          "kind": "move",
+          "destination": "林地"
+        },
+        "B": {
+          "kind": "move",
+          "destination": "河滩"
+        },
+        "C": {
+          "kind": "wait"
+        }
+      },
+      {
+        "A": {
+          "kind": "pickup",
+          "item": "物3"
+        },
+        "B": {
+          "kind": "carry_together",
+          "partner": "C",
+          "destination": "营地",
+          "item": "物197"
+        },
+        "C": {
+          "kind": "carry_together",
+          "partner": "B",
+          "destination": "营地",
+          "item": "物220"
+        }
+      },
+      {
+        "A": {
+          "kind": "move",
+          "destination": "营地"
+        },
+        "B": {
+          "kind": "deliver_together",
+          "partner": "C",
+          "item": "物197"
+        },
+        "C": {
+          "kind": "deliver_together",
+          "partner": "B",
+          "item": "物220"
+        }
+      },
+      {
+        "A": {
+          "kind": "deliver",
+          "item": "物3"
+        },
+        "B": {
+          "kind": "wait"
+        },
+        "C": {
+          "kind": "wait"
+        }
+      }
+    ],
+    "witness_steps": 4
+  },
+  {
+    "stage": "symbolic",
+    "episode": 2,
+    "seed": 93123,
+    "variant": 22,
+    "initial_state": {
+      "seed": 93123,
+      "variant": 22,
+      "max_steps": 12,
+      "t": 0,
+      "roles": {
+        "collector": "A",
+        "wood": "C",
+        "partner": "B"
+      },
+      "layout": {
+        "wood_site": "林地",
+        "fiber_site": "河滩"
+      },
+      "positions": {
+        "A": "营地",
+        "C": "林地",
+        "B": "河滩"
+      },
+      "inventory": {
+        "A": {
+          "tool": null,
+          "cargo": null
+        },
+        "B": {
+          "tool": null,
+          "cargo": null
+        },
+        "C": {
+          "tool": null,
+          "cargo": null
+        }
+      },
+      "known_closed": {
+        "A": [],
+        "B": [],
+        "C": []
+      },
+      "event": {
+        "kind": "none",
+        "enabled": false,
+        "at_step": null,
+        "edge": [],
+        "observer_site": null,
+        "occurred": false
+      },
+      "goals": [
+        {
+          "kind": "木材",
+          "length": "长",
+          "condition": "湿",
+          "quantity": 1,
+          "destination": "河滩",
+          "delivered": 0
+        },
+        {
+          "kind": "纤维",
+          "length": "短",
+          "condition": "干",
+          "quantity": 2,
+          "destination": "林地",
+          "delivered": 0
+        }
+      ],
+      "items": {
+        "o00": {
+          "kind": "木材",
+          "length": "长",
+          "condition": "干",
+          "location": "林地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o01": {
+          "kind": "木材",
+          "length": "长",
+          "condition": "湿",
+          "location": "林地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": true
+        },
+        "o02": {
+          "kind": "木材",
+          "length": "短",
+          "condition": "干",
+          "location": "林地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o03": {
+          "kind": "木材",
+          "length": "短",
+          "condition": "湿",
+          "location": "林地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o04": {
+          "kind": "纤维",
+          "length": "短",
+          "condition": "干",
+          "location": "河滩",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": true
+        },
+        "o05": {
+          "kind": "纤维",
+          "length": "短",
+          "condition": "干",
+          "location": "河滩",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": true
+        },
+        "o06": {
+          "kind": "纤维",
+          "length": "长",
+          "condition": "湿",
+          "location": "河滩",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o07": {
+          "kind": "纤维",
+          "length": "长",
+          "condition": "湿",
+          "location": "河滩",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        }
+      },
+      "scenario_parameters": {
+        "family": "river_valley_v0.3",
+        "wood_attributes": [
+          "长",
+          "湿"
+        ],
+        "fiber_attributes": [
+          "短",
+          "干"
+        ],
+        "wood_quantity": 1,
+        "fiber_quantity": 2,
+        "wood_destination": "河滩",
+        "fiber_destination": "林地",
+        "wood_site": "林地",
+        "fiber_site": "河滩",
+        "tools_present": false,
+        "processing_required": false,
+        "roads_permanently_open": true,
+        "initial_positions": {
+          "A": "营地",
+          "C": "林地",
+          "B": "河滩"
+        },
+        "local_event": {
+          "kind": "none",
+          "enabled": false,
+          "at_step": null,
+          "edge": [],
+          "observer_site": null,
+          "occurred": false
+        },
+        "simplification_note": "processing prerequisite and its tool actions removed together; eight resources, no axe; not a pure processed-flag causal contrast",
+        "split": "engineering; no confirmatory train/test split assigned",
+        "factorial_note": "variant selects a deterministic family, not a fully crossed factorial design; wood quantity is fixed at 1"
+      },
+      "handles": {
+        "A": {
+          "o00": "物88",
+          "o01": "物94",
+          "o02": "物62",
+          "o03": "物55",
+          "o04": "物1",
+          "o05": "物27",
+          "o06": "物14",
+          "o07": "物18"
+        },
+        "B": {
+          "o00": "物123",
+          "o01": "物156",
+          "o02": "物142",
+          "o03": "物168",
+          "o04": "物151",
+          "o05": "物133",
+          "o06": "物121",
+          "o07": "物146"
+        },
+        "C": {
+          "o00": "物225",
+          "o01": "物276",
+          "o02": "物214",
+          "o03": "物247",
+          "o04": "物203",
+          "o05": "物229",
+          "o06": "物263",
+          "o07": "物224"
+        }
+      },
+      "last_feedback": {
+        "A": null,
+        "B": null,
+        "C": null
+      },
+      "witness": [
+        {
+          "A": {
+            "kind": "move",
+            "destination": "河滩"
+          },
+          "B": {
+            "kind": "move",
+            "destination": "林地"
+          },
+          "C": {
+            "kind": "wait"
+          }
+        },
+        {
+          "A": {
+            "kind": "pickup",
+            "item": "物1"
+          },
+          "B": {
+            "kind": "carry_together",
+            "partner": "C",
+            "destination": "河滩",
+            "item": "物156"
+          },
+          "C": {
+            "kind": "carry_together",
+            "partner": "B",
+            "destination": "河滩",
+            "item": "物276"
+          }
+        },
+        {
+          "A": {
+            "kind": "move",
+            "destination": "林地"
+          },
+          "B": {
+            "kind": "deliver_together",
+            "partner": "C",
+            "item": "物156"
+          },
+          "C": {
+            "kind": "deliver_together",
+            "partner": "B",
+            "item": "物276"
+          }
+        },
+        {
+          "A": {
+            "kind": "deliver",
+            "item": "物1"
+          },
+          "B": {
+            "kind": "wait"
+          },
+          "C": {
+            "kind": "wait"
+          }
+        },
+        {
+          "A": {
+            "kind": "move",
+            "destination": "河滩"
+          },
+          "B": {
+            "kind": "wait"
+          },
+          "C": {
+            "kind": "wait"
+          }
+        },
+        {
+          "A": {
+            "kind": "pickup",
+            "item": "物27"
+          },
+          "B": {
+            "kind": "wait"
+          },
+          "C": {
+            "kind": "wait"
+          }
+        },
+        {
+          "A": {
+            "kind": "move",
+            "destination": "林地"
+          },
+          "B": {
+            "kind": "wait"
+          },
+          "C": {
+            "kind": "wait"
+          }
+        },
+        {
+          "A": {
+            "kind": "deliver",
+            "item": "物27"
+          },
+          "B": {
+            "kind": "wait"
+          },
+          "C": {
+            "kind": "wait"
+          }
+        }
+      ]
+    },
+    "witness": [
+      {
+        "A": {
+          "kind": "move",
+          "destination": "河滩"
+        },
+        "B": {
+          "kind": "move",
+          "destination": "林地"
+        },
+        "C": {
+          "kind": "wait"
+        }
+      },
+      {
+        "A": {
+          "kind": "pickup",
+          "item": "物1"
+        },
+        "B": {
+          "kind": "carry_together",
+          "partner": "C",
+          "destination": "河滩",
+          "item": "物156"
+        },
+        "C": {
+          "kind": "carry_together",
+          "partner": "B",
+          "destination": "河滩",
+          "item": "物276"
+        }
+      },
+      {
+        "A": {
+          "kind": "move",
+          "destination": "林地"
+        },
+        "B": {
+          "kind": "deliver_together",
+          "partner": "C",
+          "item": "物156"
+        },
+        "C": {
+          "kind": "deliver_together",
+          "partner": "B",
+          "item": "物276"
+        }
+      },
+      {
+        "A": {
+          "kind": "deliver",
+          "item": "物1"
+        },
+        "B": {
+          "kind": "wait"
+        },
+        "C": {
+          "kind": "wait"
+        }
+      },
+      {
+        "A": {
+          "kind": "move",
+          "destination": "河滩"
+        },
+        "B": {
+          "kind": "wait"
+        },
+        "C": {
+          "kind": "wait"
+        }
+      },
+      {
+        "A": {
+          "kind": "pickup",
+          "item": "物27"
+        },
+        "B": {
+          "kind": "wait"
+        },
+        "C": {
+          "kind": "wait"
+        }
+      },
+      {
+        "A": {
+          "kind": "move",
+          "destination": "林地"
+        },
+        "B": {
+          "kind": "wait"
+        },
+        "C": {
+          "kind": "wait"
+        }
+      },
+      {
+        "A": {
+          "kind": "deliver",
+          "item": "物27"
+        },
+        "B": {
+          "kind": "wait"
+        },
+        "C": {
+          "kind": "wait"
+        }
+      }
+    ],
+    "witness_steps": 8
+  },
+  {
+    "stage": "symbolic",
+    "episode": 3,
+    "seed": 93204,
+    "variant": 0,
+    "initial_state": {
+      "seed": 93204,
+      "variant": 0,
+      "max_steps": 12,
+      "t": 0,
+      "roles": {
+        "collector": "C",
+        "wood": "B",
+        "partner": "A"
+      },
+      "layout": {
+        "wood_site": "林地",
+        "fiber_site": "河滩"
+      },
+      "positions": {
+        "C": "营地",
+        "B": "林地",
+        "A": "河滩"
+      },
+      "inventory": {
+        "A": {
+          "tool": null,
+          "cargo": null
+        },
+        "B": {
+          "tool": null,
+          "cargo": null
+        },
+        "C": {
+          "tool": null,
+          "cargo": null
+        }
+      },
+      "known_closed": {
+        "A": [],
+        "B": [],
+        "C": []
+      },
+      "event": {
+        "kind": "none",
+        "enabled": false,
+        "at_step": null,
+        "edge": [],
+        "observer_site": null,
+        "occurred": false
+      },
+      "goals": [
+        {
+          "kind": "木材",
+          "length": "长",
+          "condition": "干",
+          "quantity": 1,
+          "destination": "营地",
+          "delivered": 0
+        },
+        {
+          "kind": "纤维",
+          "length": "长",
+          "condition": "干",
+          "quantity": 1,
+          "destination": "营地",
+          "delivered": 0
+        }
+      ],
+      "items": {
+        "o00": {
+          "kind": "木材",
+          "length": "长",
+          "condition": "干",
+          "location": "林地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": true
+        },
+        "o01": {
+          "kind": "木材",
+          "length": "长",
+          "condition": "湿",
+          "location": "林地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o02": {
+          "kind": "木材",
+          "length": "短",
+          "condition": "干",
+          "location": "林地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o03": {
+          "kind": "木材",
+          "length": "短",
+          "condition": "湿",
+          "location": "林地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o04": {
+          "kind": "纤维",
+          "length": "短",
+          "condition": "湿",
+          "location": "河滩",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o05": {
+          "kind": "纤维",
+          "length": "短",
+          "condition": "湿",
+          "location": "河滩",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o06": {
+          "kind": "纤维",
+          "length": "长",
+          "condition": "干",
+          "location": "河滩",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": true
+        },
+        "o07": {
+          "kind": "纤维",
+          "length": "长",
+          "condition": "干",
+          "location": "河滩",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": true
+        }
+      },
+      "scenario_parameters": {
+        "family": "river_valley_v0.3",
+        "wood_attributes": [
+          "长",
+          "干"
+        ],
+        "fiber_attributes": [
+          "长",
+          "干"
+        ],
+        "wood_quantity": 1,
+        "fiber_quantity": 1,
+        "wood_destination": "营地",
+        "fiber_destination": "营地",
+        "wood_site": "林地",
+        "fiber_site": "河滩",
+        "tools_present": false,
+        "processing_required": false,
+        "roads_permanently_open": true,
+        "initial_positions": {
+          "C": "营地",
+          "B": "林地",
+          "A": "河滩"
+        },
+        "local_event": {
+          "kind": "none",
+          "enabled": false,
+          "at_step": null,
+          "edge": [],
+          "observer_site": null,
+          "occurred": false
+        },
+        "simplification_note": "processing prerequisite and its tool actions removed together; eight resources, no axe; not a pure processed-flag causal contrast",
+        "split": "engineering; no confirmatory train/test split assigned",
+        "factorial_note": "variant selects a deterministic family, not a fully crossed factorial design; wood quantity is fixed at 1"
+      },
+      "handles": {
+        "A": {
+          "o00": "物21",
+          "o01": "物19",
+          "o02": "物1",
+          "o03": "物96",
+          "o04": "物20",
+          "o05": "物42",
+          "o06": "物16",
+          "o07": "物49"
+        },
+        "B": {
+          "o00": "物186",
+          "o01": "物184",
+          "o02": "物138",
+          "o03": "物181",
+          "o04": "物172",
+          "o05": "物130",
+          "o06": "物151",
+          "o07": "物114"
+        },
+        "C": {
+          "o00": "物288",
+          "o01": "物244",
+          "o02": "物202",
+          "o03": "物275",
+          "o04": "物270",
+          "o05": "物276",
+          "o06": "物203",
+          "o07": "物219"
+        }
+      },
+      "last_feedback": {
+        "A": null,
+        "B": null,
+        "C": null
+      },
+      "witness": [
+        {
+          "A": {
+            "kind": "move",
+            "destination": "林地"
+          },
+          "B": {
+            "kind": "wait"
+          },
+          "C": {
+            "kind": "move",
+            "destination": "河滩"
+          }
+        },
+        {
+          "A": {
+            "kind": "carry_together",
+            "partner": "B",
+            "destination": "营地",
+            "item": "物21"
+          },
+          "B": {
+            "kind": "carry_together",
+            "partner": "A",
+            "destination": "营地",
+            "item": "物186"
+          },
+          "C": {
+            "kind": "pickup",
+            "item": "物203"
+          }
+        },
+        {
+          "A": {
+            "kind": "deliver_together",
+            "partner": "B",
+            "item": "物21"
+          },
+          "B": {
+            "kind": "deliver_together",
+            "partner": "A",
+            "item": "物186"
+          },
+          "C": {
+            "kind": "move",
+            "destination": "营地"
+          }
+        },
+        {
+          "A": {
+            "kind": "wait"
+          },
+          "B": {
+            "kind": "wait"
+          },
+          "C": {
+            "kind": "deliver",
+            "item": "物203"
+          }
+        }
+      ]
+    },
+    "witness": [
+      {
+        "A": {
+          "kind": "move",
+          "destination": "林地"
+        },
+        "B": {
+          "kind": "wait"
+        },
+        "C": {
+          "kind": "move",
+          "destination": "河滩"
+        }
+      },
+      {
+        "A": {
+          "kind": "carry_together",
+          "partner": "B",
+          "destination": "营地",
+          "item": "物21"
+        },
+        "B": {
+          "kind": "carry_together",
+          "partner": "A",
+          "destination": "营地",
+          "item": "物186"
+        },
+        "C": {
+          "kind": "pickup",
+          "item": "物203"
+        }
+      },
+      {
+        "A": {
+          "kind": "deliver_together",
+          "partner": "B",
+          "item": "物21"
+        },
+        "B": {
+          "kind": "deliver_together",
+          "partner": "A",
+          "item": "物186"
+        },
+        "C": {
+          "kind": "move",
+          "destination": "营地"
+        }
+      },
+      {
+        "A": {
+          "kind": "wait"
+        },
+        "B": {
+          "kind": "wait"
+        },
+        "C": {
+          "kind": "deliver",
+          "item": "物203"
+        }
+      }
+    ],
+    "witness_steps": 4
+  }
+]

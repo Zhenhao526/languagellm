@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "recorded_at": "2026-09-15T16:33:48.517140+00:00",
+  "command": "qwen_collect_pilot/.venv/bin/python -m unittest research_program.triadic_partner_ecology_study.tests.test_runner -v",
+  "actual_test_run": {
+    "tests": 8,
+    "parameterized_pairing_cases": 2,
+    "reported_seconds": 0.244,
+    "failures": 0,
+    "errors": 0
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.3"
+  },
+  "sources": {
+    "research_program/triadic_partner_ecology_study/runner.py": "e343f9844c614d3ceaa5c8e958fe056e2cf6b29efbc06e8ffd943ec4df3e4430",
+    "research_program/triadic_partner_ecology_study/tests/test_runner.py": "767c4cd118e651135f885c59db42ad47b183350847d2e4bcb2e7dca5d95e23d1",
+    "research_program/triadic_partner_ecology_study/运行说明.md": "05c5aca7da66dd476f203616586fe68eadedfa9415db5aeec3f8a4eb514782ff",
+    "research_program/triadic_partner_ecology_study/design.py": "b4062590cce29342d44d70f22d0198a57233878656b415a19bbdf40bb9b87a25",
+    "research_program/triadic_partner_ecology_study/metrics.py": "499d46c94a9a4b75482c785db3ce08062601ac2449f14f9e8d2637b9fecb2d48"
+  },
+  "scope": {
+    "model_initializations": 0,
+    "neural_forwards": 0,
+    "gradient_calls": 0,
+    "optimizer_steps": 0,
+    "training": false,
+    "formal_preparation": false,
+    "temporary_prepare_and_fake_execute_only": true
+  },
+  "actual_weight_container_test": "two independently saved NPZ byte SHA equal on this runtime; numerical arrays and monitor indices verified",
+  "post_test_documentation_only": "运行说明明确monitor gamma只对672样本成立；修正测试范围表述。Runner/tests/metrics/design未因该文字修订改变。",
+  "formal_execution_owner": "root; not started by this agent"
+}

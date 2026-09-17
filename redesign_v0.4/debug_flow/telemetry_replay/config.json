@@ -1,0 +1,39 @@
+{
+  "seeds": [
+    101,
+    202,
+    303
+  ],
+  "updates": 100,
+  "practice_updates": 200,
+  "batch_episodes": 64,
+  "horizon": 16,
+  "capacity": 1,
+  "initial_inventory": [
+    0,
+    0
+  ],
+  "learning_rate": 0.0003,
+  "gamma": 0.0,
+  "entropy": 0.01,
+  "checkpoint_every": 10,
+  "evaluation_episodes": 128,
+  "practice_threshold": 0.8,
+  "conditions": [
+    "communicate",
+    "silent"
+  ],
+  "torch": "2.14.0",
+  "python": "3.12.14",
+  "training_device": "cpu",
+  "no_success_based_stopping": true,
+  "one_step_reference": {
+    "number_of_scenes": 14,
+    "uniform_random_balanced_probability": 0.5714285714285714,
+    "best_decentralized_balanced_scenes": 10,
+    "best_decentralized_balanced_probability": 0.7142857142857143,
+    "full_information_balanced_probability": 1.0,
+    "default_no_message_expected_reward_upper_bound": 0.7142857142857143,
+    "default_full_information_expected_reward": 1.0
+  }
+}

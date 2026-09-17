@@ -1,0 +1,14 @@
+{
+  "status": "failed_synthetic_environment",
+  "command": "qwen_collect_pilot/.venv/bin/python -m unittest research_program.triadic_context_transfer_study.tests.test_summary_plot -v",
+  "tests_run": 7,
+  "passed": 6,
+  "errors": 1,
+  "error": "ModuleNotFoundError: No module named matplotlib",
+  "scope": "Synthetic plotting test only; six numeric/grid tests passed; no model or new experiment result read. Reuse existing research_program/.plotting_venv for plotting and its pure tests, do not install or change environment.",
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/summarize_results.py": "f7b911212513d7cc12eb4bb88bb542ed7d4c21f5419886ff47042d363f58a5bf",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/plot_results.py": "2eeda0af20d545f65da42622f5534ccd58c25b97a98e3750e44f8987227f6308",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/tests/test_summary_plot.py": "cbfed736f716192a3444fd0bf75b6140d7798f6be45c3a4df031270a347c1845"
+  }
+}

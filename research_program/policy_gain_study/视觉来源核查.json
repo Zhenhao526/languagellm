@@ -1,0 +1,595 @@
+{
+  "created_at": "2026-09-15T12:35:22.874313+00:00",
+  "scope": "Existing selected-data bytes, cached metadata JSON and source code only; no image display, new candidates, downloads, feature extraction or model inference.",
+  "image_count": 60,
+  "selected_bytes": 6035904,
+  "local_image_hashes_verified": 60,
+  "cached_original_sha1_license_author_triples_verified": 60,
+  "unique_original_sha1": 60,
+  "split_counts": {
+    "food_train": 22,
+    "food_test": 8,
+    "water_test": 8,
+    "water_train": 22
+  },
+  "train_test_recorded_author_overlap": [],
+  "selection_matches_manifest": true,
+  "license_counts": {
+    "CC BY-SA 4.0": 21,
+    "CC0": 5,
+    "CC BY-SA 2.0": 7,
+    "CC BY 2.0": 11,
+    "CC BY 4.0": 1,
+    "Public domain": 7,
+    "CC BY-SA 3.0": 7,
+    "CC BY 3.0": 1
+  },
+  "empty_author_ids": [
+    "30e6b4759dff",
+    "b722dfdef214"
+  ],
+  "empty_license_url_ids": [
+    "c9eeee78e473",
+    "30e6b4759dff",
+    "dc1ab46954a6",
+    "8566d80e8f59",
+    "b722dfdef214",
+    "864758369ead",
+    "be22c0573274"
+  ],
+  "public_domain_records": [
+    {
+      "id": "c9eeee78e473",
+      "title": "File:Banana caturra.JPG",
+      "author": "Deyvid Aleksandr Raffo Setti e Eloy Olindo Setti",
+      "license_url": ""
+    },
+    {
+      "id": "30e6b4759dff",
+      "title": "File:Ambersweet oranges.jpg",
+      "author": "",
+      "license_url": ""
+    },
+    {
+      "id": "dc1ab46954a6",
+      "title": "File:Bubbles in glass of water.jpg",
+      "author": "Paolo Neo",
+      "license_url": ""
+    },
+    {
+      "id": "8566d80e8f59",
+      "title": "File:Clean water (30313108598).jpg",
+      "author": "[1]",
+      "license_url": ""
+    },
+    {
+      "id": "b722dfdef214",
+      "title": "File:Glas halbvoll.JPG",
+      "author": "",
+      "license_url": ""
+    },
+    {
+      "id": "864758369ead",
+      "title": "File:Glass of Water.JPG",
+      "author": "Jorge Barrios",
+      "license_url": ""
+    },
+    {
+      "id": "be22c0573274",
+      "title": "File:Glass-of-water.jpg",
+      "author": "Derek Jensen (Tysto)",
+      "license_url": ""
+    }
+  ],
+  "features": {
+    "keys": [
+      "features"
+    ],
+    "shape": [
+      60,
+      1024
+    ],
+    "dtype": "float32",
+    "finite": true,
+    "rows_equal_image_count": true
+  },
+  "encoder_manifest_sha_matches": true,
+  "encoder_feature_sha_matches": true,
+  "encoder_repo_commit_actual": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+  "encoder_weight_bytes_actual": 1217586395,
+  "encoder_weight_hash_recomputed": false,
+  "sources_sha256": {
+    "redesign_v0.4/data/manifest.json": "921503bd6e559124aaa85f6c61bf19207c7e6c2dcae37bc0101548eb5b439de6",
+    "redesign_v0.4/data/encoder_report.json": "277c2d641487422bca26d22538478d3e074997b44ae7294ee54ccaef468d47a1",
+    "redesign_v0.4/data/verification.json": "d24d288f7d77eb2aadb4b9d2967701a135543b88818a6fe9df61e7cd6f3b38aa",
+    "redesign_v0.4/data/selection.json": "4218702170f668b5df52c3d0ac901b8971c35f5f93e7be9b633ad4795992fe42",
+    "redesign_v0.4/data/ATTRIBUTION.md": "033e7fa856f8927530d47249f3fbf427b944ad676cdca17c9dcaebf8dd3b846d",
+    "redesign_v0.4/data/features.npz": "32e32795c9c5b2ea22e396e36e03c925c2598a77e85e57e06b15e3bc59b66c54",
+    "redesign_v0.4/prepare_images.py": "d2266f2350a1b66115108dc68272c44e45e97b9b842dd815047a545fbf6096b3",
+    "redesign_v0.4/encode_images.py": "fb3b47164839b461b9e18993c99756eee2ccc2224abc4768b4e147eb36e93fcf",
+    "redesign_v0.4/run_pilot.py": "0045c0789884d95e480c79b1827c5caf56e6820036e6ed64c2a0f0da35231134",
+    "redesign_v0.4/requirements.lock.txt": "8c8482a6284a447f23c12a624f111b989e43bc61031bd71d0c8fd84656dbcca1"
+  },
+  "checks": [
+    {
+      "id": "78f56c024453",
+      "local_image_sha_match": true,
+      "bytes": 238885,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_000.json"
+      ]
+    },
+    {
+      "id": "99b303c36959",
+      "local_image_sha_match": true,
+      "bytes": 122853,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_000.json"
+      ]
+    },
+    {
+      "id": "68c407bbb1a6",
+      "local_image_sha_match": true,
+      "bytes": 71293,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_000.json"
+      ]
+    },
+    {
+      "id": "b6af09a40e41",
+      "local_image_sha_match": true,
+      "bytes": 91315,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_000.json"
+      ]
+    },
+    {
+      "id": "aa6b3fac4ae7",
+      "local_image_sha_match": true,
+      "bytes": 153545,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_000.json"
+      ]
+    },
+    {
+      "id": "397921848b1f",
+      "local_image_sha_match": true,
+      "bytes": 149675,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_000.json"
+      ]
+    },
+    {
+      "id": "1d41273a9839",
+      "local_image_sha_match": true,
+      "bytes": 141865,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_000.json"
+      ]
+    },
+    {
+      "id": "93ae11be10dd",
+      "local_image_sha_match": true,
+      "bytes": 101482,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_000.json"
+      ]
+    },
+    {
+      "id": "5e1694f2142c",
+      "local_image_sha_match": true,
+      "bytes": 75266,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_010.json"
+      ]
+    },
+    {
+      "id": "184764fa0531",
+      "local_image_sha_match": true,
+      "bytes": 85035,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_010.json"
+      ]
+    },
+    {
+      "id": "6ee17b892346",
+      "local_image_sha_match": true,
+      "bytes": 65939,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_010.json"
+      ]
+    },
+    {
+      "id": "208da9d541f2",
+      "local_image_sha_match": true,
+      "bytes": 64475,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_010.json"
+      ]
+    },
+    {
+      "id": "9583d5bc41b5",
+      "local_image_sha_match": true,
+      "bytes": 74608,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_020.json"
+      ]
+    },
+    {
+      "id": "091dbbb30c83",
+      "local_image_sha_match": true,
+      "bytes": 114428,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_020.json"
+      ]
+    },
+    {
+      "id": "3eecf2cc350d",
+      "local_image_sha_match": true,
+      "bytes": 106991,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_020.json"
+      ]
+    },
+    {
+      "id": "874a04260bb2",
+      "local_image_sha_match": true,
+      "bytes": 105696,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_020.json"
+      ]
+    },
+    {
+      "id": "fa1c00f25d7b",
+      "local_image_sha_match": true,
+      "bytes": 87300,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_020.json"
+      ]
+    },
+    {
+      "id": "a7507e43c7e9",
+      "local_image_sha_match": true,
+      "bytes": 143728,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_030.json"
+      ]
+    },
+    {
+      "id": "c9eeee78e473",
+      "local_image_sha_match": true,
+      "bytes": 159271,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_030.json"
+      ]
+    },
+    {
+      "id": "47372943aaf1",
+      "local_image_sha_match": true,
+      "bytes": 63023,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_030.json"
+      ]
+    },
+    {
+      "id": "ae571f250067",
+      "local_image_sha_match": true,
+      "bytes": 98195,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_030.json"
+      ]
+    },
+    {
+      "id": "2bdc4c46b706",
+      "local_image_sha_match": true,
+      "bytes": 143207,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_030.json"
+      ]
+    },
+    {
+      "id": "168efb69ddfb",
+      "local_image_sha_match": true,
+      "bytes": 119996,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_040.json"
+      ]
+    },
+    {
+      "id": "a75225a95b14",
+      "local_image_sha_match": true,
+      "bytes": 101308,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_040.json"
+      ]
+    },
+    {
+      "id": "7b23bceec5f7",
+      "local_image_sha_match": true,
+      "bytes": 131854,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_040.json"
+      ]
+    },
+    {
+      "id": "30e6b4759dff",
+      "local_image_sha_match": true,
+      "bytes": 171861,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_040.json"
+      ]
+    },
+    {
+      "id": "c74ea17d5871",
+      "local_image_sha_match": true,
+      "bytes": 153842,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_040.json"
+      ]
+    },
+    {
+      "id": "be4990e11382",
+      "local_image_sha_match": true,
+      "bytes": 91187,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_040.json"
+      ]
+    },
+    {
+      "id": "494af76551f8",
+      "local_image_sha_match": true,
+      "bytes": 105170,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_040.json"
+      ]
+    },
+    {
+      "id": "b4aca7c36d02",
+      "local_image_sha_match": true,
+      "bytes": 103604,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_040.json"
+      ]
+    },
+    {
+      "id": "3bd2c7acd401",
+      "local_image_sha_match": true,
+      "bytes": 80672,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_050.json"
+      ]
+    },
+    {
+      "id": "b0790a4b5d14",
+      "local_image_sha_match": true,
+      "bytes": 100836,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_050.json"
+      ]
+    },
+    {
+      "id": "dc1ab46954a6",
+      "local_image_sha_match": true,
+      "bytes": 141138,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_050.json"
+      ]
+    },
+    {
+      "id": "8566d80e8f59",
+      "local_image_sha_match": true,
+      "bytes": 97504,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_050.json"
+      ]
+    },
+    {
+      "id": "9ff51706ffe2",
+      "local_image_sha_match": true,
+      "bytes": 73725,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_050.json"
+      ]
+    },
+    {
+      "id": "df68ba67c0b8",
+      "local_image_sha_match": true,
+      "bytes": 137504,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_050.json"
+      ]
+    },
+    {
+      "id": "f4f91f525e7e",
+      "local_image_sha_match": true,
+      "bytes": 87432,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_060.json"
+      ]
+    },
+    {
+      "id": "150a01fedce8",
+      "local_image_sha_match": true,
+      "bytes": 60651,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_060.json"
+      ]
+    },
+    {
+      "id": "2cf45ef17711",
+      "local_image_sha_match": true,
+      "bytes": 111707,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_060.json"
+      ]
+    },
+    {
+      "id": "52ede485f627",
+      "local_image_sha_match": true,
+      "bytes": 199533,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_060.json"
+      ]
+    },
+    {
+      "id": "54b5ba031265",
+      "local_image_sha_match": true,
+      "bytes": 87941,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_060.json"
+      ]
+    },
+    {
+      "id": "b722dfdef214",
+      "local_image_sha_match": true,
+      "bytes": 87320,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_060.json"
+      ]
+    },
+    {
+      "id": "bad26e3f7a7c",
+      "local_image_sha_match": true,
+      "bytes": 42724,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_060.json"
+      ]
+    },
+    {
+      "id": "fb753cacf47f",
+      "local_image_sha_match": true,
+      "bytes": 70254,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_070.json"
+      ]
+    },
+    {
+      "id": "47971da21c41",
+      "local_image_sha_match": true,
+      "bytes": 93996,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_070.json"
+      ]
+    },
+    {
+      "id": "90c553c959a6",
+      "local_image_sha_match": true,
+      "bytes": 114423,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_070.json"
+      ]
+    },
+    {
+      "id": "18a6c209315d",
+      "local_image_sha_match": true,
+      "bytes": 18603,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_070.json"
+      ]
+    },
+    {
+      "id": "864758369ead",
+      "local_image_sha_match": true,
+      "bytes": 77115,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_070.json"
+      ]
+    },
+    {
+      "id": "37b41b25f002",
+      "local_image_sha_match": true,
+      "bytes": 104467,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_070.json"
+      ]
+    },
+    {
+      "id": "be22c0573274",
+      "local_image_sha_match": true,
+      "bytes": 69447,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_080.json"
+      ]
+    },
+    {
+      "id": "041f45edaf05",
+      "local_image_sha_match": true,
+      "bytes": 54473,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_080.json"
+      ]
+    },
+    {
+      "id": "e5c1594e4f3f",
+      "local_image_sha_match": true,
+      "bytes": 71012,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_080.json"
+      ]
+    },
+    {
+      "id": "aebc89c93e18",
+      "local_image_sha_match": true,
+      "bytes": 77996,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_080.json"
+      ]
+    },
+    {
+      "id": "dc8b10e0a760",
+      "local_image_sha_match": true,
+      "bytes": 50312,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/batch_080.json"
+      ]
+    },
+    {
+      "id": "e11ed115b883",
+      "local_image_sha_match": true,
+      "bytes": 100835,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/additional_000.json"
+      ]
+    },
+    {
+      "id": "ed41479e2d9b",
+      "local_image_sha_match": true,
+      "bytes": 86298,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/additional_000.json"
+      ]
+    },
+    {
+      "id": "34170339c205",
+      "local_image_sha_match": true,
+      "bytes": 88757,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/additional_000.json"
+      ]
+    },
+    {
+      "id": "555aaa0620de",
+      "local_image_sha_match": true,
+      "bytes": 70942,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/additional_000.json"
+      ]
+    },
+    {
+      "id": "22326541ddc5",
+      "local_image_sha_match": true,
+      "bytes": 95704,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/additional_000.json"
+      ]
+    },
+    {
+      "id": "6f0779719afa",
+      "local_image_sha_match": true,
+      "bytes": 45686,
+      "metadata_matches": [
+        "redesign_v0.4/data/metadata/additional_000.json"
+      ]
+    }
+  ]
+}

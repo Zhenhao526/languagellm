@@ -1,0 +1,36 @@
+{
+  "status": "verified_combinatorial_draft_only",
+  "checked_at": "2026-09-15T18:11:29.513899+08:00",
+  "script_sha256": "0ff70e9b7fc70c2da5a475281d89eee8c7b0e2e4608dcd972897e534979c6edd",
+  "raw_demand_tables": 1728,
+  "tables_by_compatible_pair_count": {
+    "0": 120,
+    "1": 612,
+    "2": 576,
+    "3": 420
+  },
+  "two_edge_centers": {
+    "0": 192,
+    "1": 192,
+    "2": 192
+  },
+  "selected_demand_tables": 996,
+  "semantic_states": 143424,
+  "four_cell_full_information_witness_checks": 573696,
+  "full_information_optimum": 1.0,
+  "upper_bound_reason": "At most two agents execute transport, each binary success is at most one, team score is successes/2; overload scores zero.",
+  "local_actions": 17,
+  "joint_actions": 4913,
+  "overloaded_joint_actions": 4096,
+  "nonoverloaded_joint_actions": 817,
+  "model_calls": 0,
+  "training_updates": 0,
+  "no_communication_optimum_computed": false,
+  "limits": [
+    "The task remains an unfrozen proposal; this is not the implemented training environment.",
+    "A full-state witness does not obey local observation constraints and proves no communication necessity.",
+    "No image/attribute recognition, dialogue sufficiency, symbol budget or learned policy is tested.",
+    "D0 retains the common two-person capacity constraint; the switch adds matching dependence, not all dependence.",
+    "Information filtering correlations, public-object and fixed-participant shortcuts remain untested."
+  ]
+}

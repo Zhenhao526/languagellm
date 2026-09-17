@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-09-16T04:56:49.734660+00:00",
+  "before_first_request": true,
+  "input_hashes": {
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/collect_sources.py": "1e89ef27b71166f84c4ac357b8e85d23cd6569708c22c595332d2a31d59785ec",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/来源核查固定方案.md": "2c6991040b8175cbdfcb43b5bbde2efb1f03f70fa26b95b023878a1bf4fb69b8",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/manifest.json": "96c7270a8346f3900e7decd16b5bddfb1366ef153eccd128128f657429e7a263",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/author_groups.json": "d5b4c42dadc765b6ffd7a1f49953c420cda3c99352a7363286c236b3b577266f",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/exclusion_registry.json": "2b58f8550f928f6edc167524882bb7a8e0b8281a786c4684bf19780cacbfafca",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/confirmation_readiness_20260916/水来源核查简表.json": "1755ada23f54e31f0ef5cf91a941060c04e83249f52363b5d58ca384c01ed91f"
+  },
+  "selection_sha256": "86ba596f24c8e439a8dbe3af86f834bc22eeb438e0bef929de05acf21262caf3",
+  "logical_requests": 3,
+  "http_cap": 6,
+  "pixel_requests": 0,
+  "model_calls": 0
+}

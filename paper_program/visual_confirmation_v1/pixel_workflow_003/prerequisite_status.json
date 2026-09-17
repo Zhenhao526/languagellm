@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-09-15T17:03:47.509392+00:00",
+  "usable_total": 7,
+  "counts": {
+    "apple": 1,
+    "banana": 2,
+    "orange": 2,
+    "water": 2
+  },
+  "gaps": {
+    "apple": 3,
+    "banana": 2,
+    "orange": 2,
+    "water": 10
+  },
+  "planned": 17,
+  "author_lookup_usable_increment": 0,
+  "author_resolution_supplement_sha256": "5618d08cff9cfcf6e96b1c344805f257388b8834244e63b51298787bc0a28618",
+  "prior_status_sha256": "d4854d56a98c33f68e2130b34b5d630987b9304dd4c192d95e29edbc6b31e07a",
+  "consumed_reserve_manifest_sha256": "98f29f3f3e122c4e1ecae5697c6910dc0b91fd767160eab2848b784ca6ad7df0"
+}

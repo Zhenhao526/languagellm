@@ -1,0 +1,96 @@
+{
+  "passed_with_stated_limits": true,
+  "passed": true,
+  "status": "passed_scientific_review",
+  "version": "v0.30",
+  "reviewed_files": {
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.30/results/support_001/多伙伴共同目标与支持结构研究报告.md": "5fbcc4b4a72f48f74be48e08ba01c679e54dc607a8139b083872a1d1e4aac79a",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.30/results/support_001/analysis.json": "38d11b4d07777e79e18971d977d647188f8867abdadb7268c169cc6423e5b844",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.30/固定执行方案.md": "f4efa0f956be1906e485df42dea364d10d044c4ebb4c2be757b3df738687b665",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.30/support_design.json": "4f641601f5cea1fd5261285416252f9e74339e90ffc7e24eea8d76e4accfa4f6",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.30/build_report.py": "2addde6f345edb5865a2136e0efacd4635fce6a84a9a85b1a830626d487e68a8",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.30/metrics.py": "c04dc321419604c8803399480bdc4c2d67bf915d17ddad4e26f1ad34dbf68651",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.30/plot_results.py": "df8f7a2948362aceaa217072ea37310bbf5231b9c11fa5dabbfb9b7556ddb780",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.30/message_examples.py": "002e6eca4941112eba7e8a155f66d32a462d1f3bd277f6b939755d8a5515a16d",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.30/preflight_qa.json": "3cd9cdcd71782f4236dbbee16e91335a5d881bfb6887165c69c634951ff2b5e6",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.30/results/support_001/raw_validation.json": "119e00b2d80588cdc1879bb0537f5c6e4259230665f968172c72476967f2c6c7",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.30/results/support_001/audit_execution.json": "eacfae8e7393e3832058e8e0212f8dc40d2f31aec793023e8db4739518326b6b",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.30/results/support_001/training_complete.json": "75034b5750652c7814a8c40dc10d5432ca2e5a6c51c6ec3400ff6dc9c353069c",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.30/results/support_001/terminal_receipt.json": "ca947e97340341e86049b461ff5236108605c1b9ae86dbf1c83504ab22baf53f",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.30/results/support_001/figures/visual_qa.json": "f966eabb8f3ec914e1a2d87f21c0be4dac613ce8ed7933e29aaf98109290b4b0"
+  },
+  "review_scope": [
+    "Checked the prespecified multi-partner target, support graph invariants, all four source-level primary differences and fixed-checkpoint AUC.",
+    "Checked both fixed FW/WF donor assignments and all 199 complete-code relabeling references.",
+    "Checked independent raw-statistic and bounded execution audit outputs, terminal accounting and figure visual QA.",
+    "Checked every absolute local link in the final report."
+  ],
+  "findings": [
+    {
+      "type": "primary_prediction_not_stably_supported",
+      "aligned_target12_J": 0.02777777777777778,
+      "sparse_target12_J": 0.06481481481481481,
+      "difference": 0.037037037037037035,
+      "four_source_differences": [
+        0.018518518518518524,
+        -0.0787037037037037,
+        -0.08333333333333331,
+        -0.004629629629629628
+      ],
+      "source_signs": {
+        "positive": 1,
+        "negative": 3
+      },
+      "interpretation": "The multi-partner target removes the one-to-one shortcut, but the path-alignment contrast is not directionally stable across sources."
+    },
+    {
+      "type": "multi_partner_discrimination_remains_low",
+      "aligned_partner_mean": 0.0023148148148148147,
+      "sparse_partner_mean": 0.016203703703703703,
+      "interpretation": "Single-resource accuracy is much higher than the requirement to get both partners of a fixed resource correct."
+    },
+    {
+      "type": "truth_conditioned_fragment_signal",
+      "all_four_recombination_orientations_above_reference": true,
+      "interpretation": "Offline donor recombination exceeds the complete-code relabel reference, but this is not autonomous composition."
+    }
+  ],
+  "limitations": [
+    "Four inherited initialization sources; panels, directions, masks and photo rows are nested repeats.",
+    "The two arms differ in five concrete edges as well as target path distribution; path count is not isolated.",
+    "The target is a controlled symbolic location task, not a reconstruction of human ecology; private visual/world knowledge is inherited.",
+    "Full-code relabeling preserves full-message behavior and is a post-training descriptive reference.",
+    "The bounded audit does not replay every gradient and Adam state transition.",
+    "The finite 199-reference tail resolution is descriptive, not a four-source significance test."
+  ],
+  "next_step": "Add a task-level multi-partner payoff and an equal-information whole-code control; then compare fixed and rotating partners under the same target graph.",
+  "link_check": {
+    "local_links": 13,
+    "missing": []
+  },
+  "figure_visual_qa": {
+    "passed": true,
+    "method": "PIL raster dimension/finite/nonwhite checks plus direct visual inspection with view_image",
+    "figures": {
+      "01_support_design.png": {
+        "sha256": "26472c000dfa8db93c3bf984aa67be07bbf8f287802cba7d0d8f3bc28cb65911",
+        "bytes": 145845,
+        "width": 1783,
+        "height": 1185,
+        "nonwhite_fraction": 0.3417333418526117,
+        "finite": true
+      },
+      "02_support_outcomes.png": {
+        "sha256": "66b4cbf6ed9bce7993bb11cbfe1acb5870d98edc702311b8023a3552dbecf58b",
+        "bytes": 315406,
+        "width": 2386,
+        "height": 1952,
+        "nonwhite_fraction": 0.07219367072952881,
+        "finite": true
+      }
+    },
+    "fonts": "PingFang SC fallback DejaVu Sans",
+    "source": "plot_results.py"
+  },
+  "no_training_or_new_probes": true
+}

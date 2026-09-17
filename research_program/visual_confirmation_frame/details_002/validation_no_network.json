@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "synthetic_only": true,
+  "actual_network_calls": 0,
+  "test_urlopen_invocations": 1,
+  "checks": [
+    "HTTP429 immediately stops after one request",
+    "no remaining batch issued",
+    "old325 preserved",
+    "all1551 remain unknown",
+    "repeat execute refuses overwrite"
+  ],
+  "source_sha256": "ac9c6f7ffcf43dc7e1429f0fa71e1c2d46c5cea87c6fced702f0b7c0a336b7ab"
+}

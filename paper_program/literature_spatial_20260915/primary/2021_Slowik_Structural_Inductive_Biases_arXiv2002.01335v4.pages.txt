@@ -1,0 +1,643 @@
+=== PDF PAGE 1 ===
+Structural Inductive Biases in Emergent Communication
+Agnieszka Słowik*
+Department of Computer Science and Technology,
+University of Cambridge
+agnieszka.slowik@cl.cam.ac.uk
+Abhinav Gupta*
+MILA
+abhinavg@nyu.edu
+William L. Hamilton
+School of Computer Science,
+McGill University
+Mateja Jamnik
+Department of Computer Science and Technology,
+University of Cambridge
+Sean B. Holden
+Department of Computer Science and Technology,
+University of Cambridge
+Christopher Pal
+Polytechnique Montr´eal
+ServiceNow
+Abstract
+In order to communicate, humans ﬂatten a complex represen-
+tation of ideas and their attributes into a single word or a sen-
+tence. We investigate the impact of representation learning in
+artiﬁcial agents by developing graph referential games. We
+empirically show that agents parametrized by graph neural net-
+works develop a more compositional language compared to
+bag-of-words and sequence models, which allows them to sys-
+tematically generalize to new combinations of familiar features.
+Keywords: emergent communication; graph neural networks;
+language compositionality
+Introduction
+Human language is characterized by the ability to generate a
+potentially inﬁnite number of sentences from a ﬁnite set of
+words. In principle, humans can use this ability to express and
+understand complex hierarchical and relational concepts, such
+as kinship relations and logical deduction chains. Existing
+multi-agent communication systems fail to compositionally
+generalize even on constrained symbolic data [Kottur et al.,
+2017]. For instance, if a person knows the meaning of utter-
+ances such as ‘red circle’ and ‘blue square’, she can easily
+understand the utterance ‘red square’ even if she has not en-
+countered this particular combination of shape and color in
+the past. This type of generalization capacity is referred to as
+compositionality [Smith et al., 2003, Andreas, 2019, Baroni,
+2020] or systematic generalization [Bahdanau et al., 2019].
+The ability to represent complex concepts and the relation-
+ships between them in the manner of a mental graph was found
+to be one of the key factors behind knowledge generalization
+and prolonged learning in humans [Bellmund et al., 2018].
+Through communication, humans ﬂatten the non-Euclidean
+representation of ideas into a sequence of words. Advances
+in graph representation learning [Kipf and Welling, 2017] and
+sequence decoding [Sutskever et al., 2014, Cho et al., 2014]
+provide the means for simulating this graph linearization pro-
+cess in the artiﬁcial agents.
+In emergent communicationstudies, learning agents develop
+a communication protocol from scratch through solving a
+*Equal Contribution.
+shared task, most commonly a referential game [Lazaridou
+et al., 2018, Guo et al., 2020]. Modelling communication as an
+interactive, goal-driven problem mitigates some of the issues
+observed in supervised training, such as sample inefﬁciency
+and memorizing superﬁcial signals rather than discovering the
+real factors of variation in the data [Lake et al., 2017, Baroni,
+2020].
+In this work, we analyze the effect of varying the input
+representation and the corresponding representation learning
+method on compositional generalization in referential games.
+Given the recent resurgence of strong structural bias in neural
+networks, we evaluate the hypothesis that graph representa-
+tions encourage compositional generalization [Battaglia et al.,
+2018] in emergent communication.
+Related work
+In prior work using referential games, input data is repre-
+sented as sequences and bags-of-words [Lazaridou et al., 2018,
+Bouchacourt and Baroni, 2018] with few instances of using
+images as input [Lazaridou et al., 2018, Evtimova et al., 2018]
+and one instance of using graph encoders without a sequence
+decoder [Słowik et al., 2020, Gupta et al., 2020]. Notably,
+more information in the input does not necessarily lead to
+a more compositional language or higher generalization as
+shown in [Lazaridou et al., 2018]. Battaglia et al. [2018] claim
+that graph representations induce stronger compositional gen-
+eralization across a variety of reasoning and classiﬁcation
+tasks. Recent work in relational reasoning [Sinha et al., 2019]
+supports this claim.
+Environment
+Referential games
+A referential game involves two agents of ﬁxed roles: the
+speaker and the listener. The speaker has access to the input
+data (target), which the listener cannot directly observe. The
+speaker sends a message describing the target and the listener
+learns to recognize the target based on the message. In the
+referential games studied in this work, the listener receives
+the message and a set consisting of the target and distractors,
+arXiv:2002.01335v4  [cs.CL]  27 Jul 2021
+
+=== PDF PAGE 2 ===
+Graph Sequence Bag-of-words
+Game-1
+Game-2
+A2 B7 C3
+A2 B7 C3
+A2
+B7
+C3
+2 3
+4
+2 3
+2 4 3 2 3
+2
+4
+3
+2
+3
+Figure 1: Structural biases in the input. Baselines of sequences
+and bags-of-words are constructed similarly as in the exist-
+ing work on emergent communication [Kottur et al., 2017,
+Lazaridou et al., 2018].
+new objects sampled without replacement from the target data
+distribution. The agents are rewarded if and only if the receiver
+recognizes the target, and not for the messages sent. In the
+existing work, target and distractors are represented as bags-
+of-words, sequences or images. See the Training section for
+details on training.
+Graph referential games
+We extend existing referential games by developing graph
+referential games: Game-1 and Game-2. We include corre-
+sponding representations of a lower degree of structure in
+order to study the effect of varying the input representation
+(Figure 1).
+Game-1: hierarchy of concepts and properties In this
+game, we construct a tree from a vector of [p1, p2, . . . ,pn]
+(which we will refer to as perceptual dimensions) where n
+corresponds to the number of properties and p1, p2, . . . ,pn
+denote the number of possible types per property. Each tree
+has the same number of properties n and they only differ
+in the property values. Formally, each tree is an undirected
+graph G(V ,E) where V is the set of all nodes representing
+unique properties along with a ‘central’ node, and E is the
+set of edges. The central node corresponds to a conceptually
+more abstract representation of the input, which is initially
+empty and then learned by a graph agent based on the object
+properties. The node features consist of a concatenation of
+the property encoding and the type encoding (represented as
+one-hot vectors).
+Game-2: relational concepts In this game, we evaluate
+the graph agents using arbitrary undirected graphs of varying
+edges. Such graphs can be used to represent relations between
+arbitrary entities, e.g. connections between users of a social
+media platform. In Game-2, each undirected graph G(V ,E)
+is deﬁned over the set of nodesV and the set of edges E. In
+a given instance of the game,|V| is ﬁxed for all targets and
+distractors. The number of edges varies across the graphs. We
+add a self-loop to each node to include its own features in the
+node representation aggregated through message passing. We
+use node degrees converted to one-hot vectors as the initial
+node features.
+Baseline agents In each instance of the game, the speaker
+is parametrized by an encoder-decoder architecture and
+the listener is implemented as a classiﬁer over the set
+consisting of the target and distractors. We use generic
+Bag-of-Words2Sequence and Sequence2Sequence (Seq2Seq)
+[Sutskever et al., 2014] models over the node features as base-
+line speakers, and corresponding classiﬁers as listeners.
+Graph agents In order to handle graph input, the speaker
+and the listener are parametrized using a graph encoder. The
+speaker additionally uses a sequence decoder to generate a
+message. The graph encoder ﬁrst generates node embeddings
+for each node, and then it uses them to construct an embed-
+ding of the entire graph. The sequence decoder takes the
+graph embedding as input and generates a message. A graph
+encoder consists of a node representation learning method
+and a graph pooling method. Node representations are com-
+puted for each node vi through neighborhood aggregation that
+follows the general formula h(l+1)
+vi = ReLU
+(
+∑ j∈Ni h(l)
+v j W (l)
+)
+,
+where l corresponds to the layer index, hvi are the features
+of the node vi, W refers to the weight matrix, and Ni denotes
+the neighborhood of the node vi. We compare a Graph Con-
+volutional Network (GCN) [Kipf and Welling, 2017]) with
+GraphSAGE [Hamilton et al., 2017], an extension of GCN
+which allows modifying the trainable aggregation function
+beyond a simple convolution. A graph embedding is obtained
+through a linear transformation of the node features. A graph
+embedding vector in our graph-to-sequence implementation of
+the speaker corresponds to the context vector in the Seq2Seq
+implementation. Similarly as in Seq2Seq architectures, the
+sequence decoder in graph-to-sequence outputs a probability
+distribution over the whole vocabulary for a ﬁxed message
+length which is then discretized to produce the message.
+Training
+The speaker produces a softmax distribution over the vocabu-
+lary V , where V refers to the ﬁnite set of all distinct words that
+can be used in the sequence generated by the speaker. Similar
+to [Sukhbaatar et al., 2016, Mordatch and Abbeel, 2018], we
+use the ‘straight through’ version of Gumbel-Softmax [Jang
+et al., 2017, Maddison et al., 2017] during training to make
+the message discrete and propagate the gradients through the
+non-differentiable communication channel. At test time, we
+take the argmax over the whole vocabulary.
+In our graph referential games, the listener receives the
+discretized message m sent by the speaker along with the set
+of distractors K and the target graph d∗. The listener then
+outputs a softmax distribution over the|K| + 1 embeddings
+representing each graph. The speaker fθ and the listener gφ
+are parametrized using graph neural networks. We formally
+
+=== PDF PAGE 3 ===
+Graph Seq BoW70
+80
+90
+100
+96.3 95 94
+90.5
+89 88.9
+Accuracy (%)
+Test OOD generalization
+(a) 9 distractors
+Graph Seq BoW70
+80
+90
+100
+95.1
+93 93.2
+90.6
+85 84.3
+Accuracy (%)
+Test OOD generalization (b) 19 distractors
+Graph Seq BoW70
+80
+90
+100
+95.1
+90.1
+87.788.6
+82.3
+75.5
+Accuracy (%)
+Test OOD generalization (c) 49 distractors
+Figure 2: Standard test accuracy (Test) and out-of-domain (OOD) generalization in Game-2. Number of nodes, message length
+and vocabulary size are equal to 25. We report mean and standard deviation of three runs.
+deﬁne it as follows:
+m(d∗) = Gumbel-Softmax( fθ(d∗))
+o(m,{K,d∗}) = gφ(m,{K,d∗})
+We used Deep Graph Library [Wang et al., 2019], EGG
+[Kharitonov et al., 2019] and PyTorch [Paszke et al., 2019]
+to build graph referential games. We generate 40000 train
+samples, 5000 validation samples and 5000 test samples in
+each game.
+Experiments & Analysis
+We investigate three questions:
+• What is the effect of data representation and the correspond-
+ing representation learning models on the compositionality
+of the emerged language (Topographic similarity)?
+• What is the effect of structural biases on the ability to gener-
+alize to previously unseen combinations of familiar features
+(Out-of-domain generalization)?
+• Can the listener identify the target if it receives a distorted
+message? ( Do agents rely on the communication chan-
+nel in solving the game?).
+Qualitative analysis
+Sample input data Data representation
+Bag-of-words Sequence Graph
+A2 B4 C6 [1 4 4] [5 1 3] [7 1 4]
+A2 B4 C5 [1 0 0] [8 3 2] [4 7 2]
+A2 B2 C6 [6 4 1] [9 9 1] [9 4 1]
+A5 B4 C6 [8 8 9] [3 5 2] [6 6 1]
+Table 1: Qualitative samples of messages.
+In Table 1, we show sample messages generated in Game-1.
+Similarly as in Figure 1, we represent input properties using
+capital letters and property types using numbers. We see that
+in the messages generated by a Graph2Seq model varying one
+input property (e.g. replacing C6 with C5) changes only one
+symbol in the message (the speaker replaces the word 1 with
+2 in the utterance). In Seq2Seq, changing one symbol leads to
+a change of two symbols on average in the transmitted mes-
+sages. In the example, the vocabulary size is 10 with message
+of ﬁxed length3 and the perceptual dimensions being [10,6,8].
+When using larger input in Game-1, we experimented with the
+message length-to-vocabulary size trade-off (details in the Hy-
+perparameters section) and we found that longer messages
+are less compositional. In Game-2 (Figure 2), the speaker
+learns to describe 25 properties in 25 words. We found that
+for messages of the length 25, sample messages are difﬁcult to
+interpret qualitatively, as all representations lead to languages
+that are order invariant with respect to words (see Table 1).
+Topographic similarity
+We use topographic similarity as a measure of language com-
+positionality, following a common practice in the domain of
+referential games [Lazaridou et al., 2018, Li and Bowling,
+2019]. We compute a negative Spearman correlation between
+all the possible pairs of target objects and the corresponding
+pairs of emerged messages. We use cosine similarity in the
+input space and Levenshtein distance in the message space.
+For graph representations we concatenate the node features in
+the same order as in sequences and bags-of-words for a fair
+comparison.
+Figure 3 shows topographic similarity (TS) of all three data
+representations in Game-1. All representations lead to positive
+values of TS, which implies that there is a positive correla-
+tion between the input features and the messages emerging
+in the game. On average, graph representations lead to a
+more compositional language (measured by greater TS) than
+bag-of-words and sequence representations. This effect is
+observed for instances of Game-1 with different numbers of
+distractors (19, 29, 49). We hypothesize that in more difﬁcult
+communication scenarios (e.g., if the number of distractors in-
+creases), structured representations are needed for emergence
+of a compositional language.
+
+=== PDF PAGE 4 ===
+19 29 49
+0.08
+0.10
+0.12
+0.14
+0.16
+0.18
+Number of distractors
+Topographic similarity
+Graph Seq BoW
+Figure 3: Topographic similarity in Game-1 with perceptual
+dimensions [10, 6, 8, 9, 10], a message length of size 3, and a
+vocabulary size of 50. We report mean and standard deviation
+across ﬁve random seeds.
+Out-of-domain generalization
+In Game-2, we compare sequences, bag-of-words and graph
+representations in terms of test accuracy (using a 60% / 20%
+/ 20% train/valid/test split) and compositional generalization
+(OOD generalization). In evaluating OOD generalization, the
+agent sees an unseen graph/sequence/bag-of-words with a new
+combination of seen features. Intuitively, the agents only learn
+a “red dotted circle”, “blue dotted square”,“yellow dashed star”
+during training, and at test time we check if they can correctly
+identify the target: “red dashed square”. Since both the target
+and distractors are new to the agents, both agents are tested
+for their ability to disentangle input properties.
+We investigated test accuracy and OOD generalization for
+an increasing number of distractors (9, 19, 49). Accuracy of
+a random guess in these games is, respectively, 10%, 5% and
+2%. Consequently, the game becomes signiﬁcantly more com-
+plex as the number of distractors increases. Figure 2 shows
+the effect of structural priors on test accuracy and composi-
+tional generalization. Graph representations consistently lead
+to a better generalization to new combinations of familiar
+features, and this effect increases with the complexity of the
+game. Since for each representation we use generic agents of a
+comparable expression power, we hypothesize that graph rep-
+resentations lead to a more compositional language, especially
+in more difﬁcult communication scenarios.
+Do agents rely on the communication channel in
+solving the game?
+We analyzed whether the communication channel is crucial in
+learning to recognize the target among distractors. Figure 4
+shows the results of this analysis over the entire set of targets
+and messages developed by graph learning agents. We show
+the results for messages in the form of{m1,m2,m3} (message
+length ml = 3, mi corresponds to individual symbols in the
+message, i = 1,2,3) and vocabulary size vs = 10. In each
+subplot, the title corresponds to the symbol m1 in the original
+message developed through playing the game. The dark bar
+corresponds to the number of correctly classiﬁed samples
+given the original message (also included in the subplot title,
+e.g. Symbol 0: 39.2%). We generate the remaining results by
+replacing the ﬁrst symbol m1 in the messages with each of
+the remaining symbols from the vocabulary. The rest of the
+message (symbols m2 and m3) remains ﬁxed.
+We observe that in all emerged messages distorting1/3 of
+the symbols leads to a decrease in test accuracy. In all cases,
+the highest test accuracy is dependent on the target encoding
+produced by the graph speaker through playing the game.
+Ablation studies on Graph Neural Networks
+GraphSAGE learns aggregator functions that can induce the
+embedding of a new node given its features and the neigbor-
+hood, without re-training on the entire graph. The GraphSAGE
+encoders are thus able to learn dynamic graphs. In this paper,
+we experiment with commonly used ‘mean’, ‘pool’ and ‘gcn’
+aggregator types.
+Pooling methods: In order to compute the graph embedding,
+we experimented with the standard graph pooling methods:
+mean, sum and max functions. We found that the sum pooling
+gave a signiﬁcant boost in performance, and thus we use sum
+pooling throughout the experiments presented in this paper.
+Encoder networks: We also experimented with two popular
+graph neural networks to compute the graph encoding, namely
+GraphConv and SAGEConv. We did not ﬁnd a signiﬁcant
+difference in performance between the two models.
+Aggregator types: Another axis of variation is the aggre-
+gator type used in GraphSAGE and we found that the effect
+of all types- ‘mean’, ‘pool’ and ‘gcn’ is the same across both
+games.
+Hyperparameters
+In this work, we studied generic architectures and the main
+axis of variation was the degree of structure in the input
+representation and the corresponding representation learning
+method. In the experiments reported in this paper, we used
+the a range of hyperparameters listed below (bold indicates
+the ones used for the charts above) that were manually tuned
+using accuracy as the selection criterion:
+• Number of distractors: 1, 2, 4, 9, 19, 29, 49
+• V ocab Size of the message: 10, 25, 50, 100
+• Max length of the message: 3, 4, 5, 10, 25
+• Number of layers in Graph NN: 1, 2, 3
+• Size of the hidden layer: 100, 200
+• Size of the message embedding: 50, 100
+• Learning Rate: 0.01, 0.001
+• Gumbel-Softmax temperature: 1.0
+
+=== PDF PAGE 5 ===
+0
+10
+20
+30
+40
+50
+60
+70
+80% Correct test samples
+Symbol 0 - 39.2% Symbol 1 - 66.7% Symbol 2 - 43.5% Symbol 3 - 64.5% Symbol 4 - 40.0% Symbol 5 - 25.6% Symbol 6 - 60.6% Symbol 7 - 30.8% Symbol 8 - 71.4% Symbol 9 - 64.5%
+Figure 4: Robustness of the communication protocol. We use trained agents and emerged messages from Game-1 with perceptual
+dimensions [10, 6, 8], a message length of size 3, and a vocabulary size of 10.
+Max PoolingAvg PoolingSum Pooling
+70
+75
+80
+85
+90
+95
+100% Accuracy
+mean aggrpool aggr gcn aggr
+90
+91
+92
+93
+94% Accuracy
+SAGEConv GraphConv
+85
+90
+95% Accuracy
+Figure 5: Ablation studies on different parameters of Graph
+Neural Network. The y-axis represent the test accuracy. All
+the runs are averaged across three different random seeds and
+standard error bars are shown.
+For more details, please refer to the codebase. We used Nvidia
+V100 and Titan RTX GPUs for running our experiments. On
+average, the models were trained for 3-5 days depending on
+the #distractors and the type of data representation used with
+Graph2Sequence models taking the longest and Bag2Sequence
+models the shortest time.
+Conclusion and future work
+We analyzed the effect of structural inductive biases (bags-of-
+words, sequences, graphs) on compositional generalization in
+referential games. We found that graph representations induce
+a stronger compositional prior measured by topographic simi-
+larity and out-of-domain generalization. Graph agents learn
+messages that lead to the highest accuracy in solving the task.
+Given the advancements in using graphs in natural language
+processing [Vaswani et al., 2017], a future direction could be
+to train graph speakers to generate sentences closer to natural
+language [Lowe et al., 2020].
+References
+Jacob Andreas. Measuring compositionality in representa-
+tion learning. In International Conference on Learning
+Represenations, 2019. URL https://openreview.net/
+forum?id=HJz05o0qK7.
+Dzmitry Bahdanau, Shikhar Murty, Michael Noukhovitch,
+Thien Huu Nguyen, Harm de Vries, and Aaron Courville.
+Systematic generalization: What is required and can it
+be learned? In International Conference on Learning
+Represenations, 2019. URL https://openreview.net/
+forum?id=HkezXnA9YX.
+Marco Baroni. Linguistic generalization and compositionality
+in modern artiﬁcial neural networks. Philosophical Trans-
+actions of the Royal Society B: Biological Sciences , 375:
+20190307, 02 2020. doi: 10 .1098/rstb.2019.0307.
+Peter W. Battaglia, Jessica B. Hamrick, Victor Bapst, Alvaro
+Sanchez-Gonzalez, Vin´ıcius Flores Zambaldi, Mateusz Ma-
+linowski, Andrea Tacchetti, David Raposo, Adam Santoro,
+Ryan Faulkner, C ¸aglar G ¨ulc ¸ehre, H. Francis Song, An-
+drew J. Ballard, Justin Gilmer, George E. Dahl, Ashish
+Vaswani, Kelsey R. Allen, Charles Nash, Victoria Langston,
+Chris Dyer, Nicolas Heess, Daan Wierstra, Pushmeet Kohli,
+Matthew Botvinick, Oriol Vinyals, Yujia Li, and Razvan
+Pascanu. Relational inductive biases, deep learning, and
+graph networks. CoRR, abs/1806.01261, 2018. URL
+http://arxiv.org/abs/1806.01261.
+Jacob L. S. Bellmund, Peter G ¨ardenfors, Edvard I. Moser,
+and Christian F. Doeller. Navigating cognition: Spatial
+codes for human thinking. Science, 362(6415), 2018.
+ISSN 0036-8075. doi: 10 .1126/science.aat6766. URL
+https://science.sciencemag.org/content/362/
+6415/eaat6766.
+Diane Bouchacourt and Marco Baroni. How agents see
+things: On visual representations in an emergent language
+game. arXiv:1808.10696 [cs], August 2018. URL http:
+//arxiv.org/abs/1808.10696. arXiv: 1808.10696.
+Kyunghyun Cho, Bart van Merri ¨enboer, Caglar Gulcehre,
+Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk, and
+Yoshua Bengio. Learning phrase representations using RNN
+encoder–decoder for statistical machine translation. In Pro-
+ceedings of the 2014 Conference on Empirical Methods
+in Natural Language Processing (EMNLP) , pages 1724–
+1734, Doha, Qatar, October 2014. Association for Com-
+
+=== PDF PAGE 6 ===
+putational Linguistics. doi: 10 .3115/v1/D14-1179. URL
+https://www.aclweb.org/anthology/D14-1179.
+Katrina Evtimova, Andrew Drozdov, Douwe Kiela, and
+Kyunghyun Cho. Emergent communication in a multi-
+modal, multi-step referential game. In ICLR, 2018.
+Shangmin Guo, Yi Ren, Agnieszka Słowik, and Kory Mathew-
+son. Inductive bias and language expressivity in emergent
+communication. arXiv preprint arXiv:2012.02875, 2020.
+Abhinav Gupta, Agnieszka Słowik, William L Hamilton,
+Mateja Jamnik, Sean B Holden, and Christopher Pal. An-
+alyzing structural priors in multi-agent communication.
+2020.
+Will Hamilton, Zhitao Ying, and Jure Leskovec. In-
+ductive representation learning on large graphs. In
+I. Guyon, U. V . Luxburg, S. Bengio, H. Wallach, R. Fer-
+gus, S. Vishwanathan, and R. Garnett, editors, NIPS,
+pages 1024–1034. Curran Associates, Inc., 2017. URL
+http://papers.nips.cc/paper/6703-inductive-
+representation-learning-on-large-graphs .pdf.
+Eric Jang, Shixiang Gu, and Ben Poole. Categorical Repa-
+rameterization with Gumbel-Softmax. In International
+Conference on Learning Represenations , 2017. URL
+https://openreview.net/forum?id=rkE3y85ee.
+Eugene Kharitonov, Rahma Chaabouni, Diane Bouchacourt,
+and Marco Baroni. EGG: a toolkit for research on emer-
+gence of lanGuage in games. In Proceedings of the 2019
+Conference on Empirical Methods in Natural Language
+Processing and the 9th International Joint Conference on
+Natural Language Processing (EMNLP-IJCNLP), pages 55–
+60, Hong Kong, China, November 2019. Association for
+Computational Linguistics. doi: 10 .18653/v1/D19-3010.
+URL https://www.aclweb.org/anthology/D19-3010.
+Thomas N. Kipf and Max Welling. Semi-supervised clas-
+siﬁcation with graph convolutional networks. In Interna-
+tional Conference on Learning Represenations, 2017. URL
+https://openreview.net/forum?id=SJU4ayYgl.
+Satwik Kottur, Jos ´e Moura, Stefan Lee, and Dhruv Ba-
+tra. Natural language does not emerge ‘naturally’ in
+multi-agent dialog. In Proceedings of the 2017 Confer-
+ence on Empirical Methods in Natural Language Pro-
+cessing (EMNLP), pages 2962–2967, Copenhagen, Den-
+mark, September 2017. Association for Computational
+Linguistics. doi: 10 .18653/v1/D17-1321. URL https:
+//www.aclweb.org/anthology/D17-1321.
+Brenden M. Lake, Tomer D. Ullman, Joshua B. Tenenbaum,
+and Samuel J. Gershman. Building machines that learn and
+think like people. Behavioral and Brain Sciences, 40:e253,
+2017. doi: 10 .1017/S0140525X16001837.
+Angeliki Lazaridou, Karl Moritz Hermann, Karl Tuyls, and
+Stephen Clark. Emergence of linguistic communication
+from referential games with symbolic and pixel input. In
+ICLR, 2018.
+Fushan Li and Michael Bowling. Ease-of-teaching and
+language structure from emergent communication. In
+H. Wallach, H. Larochelle, A. Beygelzimer, F. d Alch´e-Buc,
+E. Fox, and R. Garnett, editors, Advances in Neural Infor-
+mation Processing Systems, pages 15825–15835. Curran
+Associates, Inc., 2019. URL http://papers.nips.cc/
+paper/9714-ease-of-teaching-and-language-
+structure-from-emergent-communication .pdf.
+Ryan Lowe, Abhinav Gupta, Jakob Foerster, Douwe Kiela,
+and Joelle Pineau. On the interaction between supervi-
+sion and self-play in emergent communication. In Interna-
+tional Conference on Learning Represenations, 2020. URL
+https://openreview.net/forum?id=rJxGLlBtwH.
+Chris J. Maddison, Andriy Mnih, and Yee Whye Teh.
+The Concrete Distribution: A Continuous Relaxation of
+Discrete Random Variables. In International Confer-
+ence on Learning Represenations , 2017. URL https:
+//openreview.net/forum?id=S1jE5L5gl.
+Igor Mordatch and Pieter Abbeel. Emergence of
+grounded compositional language in multi-agent popu-
+lations. In AAAI Conference on Artiﬁcial Intelligence ,
+2018. URL https://aaai.org/ocs/index.php/AAAI/
+AAAI18/paper/view/17007.
+Adam Paszke, Sam Gross, Francisco Massa, et al. Pytorch:
+An imperative style, high-performance deep learning library.
+In H. Wallach, H. Larochelle, A. Beygelzimer, F. d’Alch´e
+Buc, E. Fox, and R. Garnett, editors, Advances in Neural
+Information Processing Systems, pages 8024–8035. Curran
+Associates, Inc., 2019. URL http://papers.nips.cc/
+paper/9015-pytorch-an-imperative-style-high-
+performance-deep-learning-library .pdf.
+Koustuv Sinha, Shagun Sodhani, Jin Dong, Joelle Pineau,
+and William L. Hamilton. CLUTRR: A diagnostic bench-
+mark for inductive reasoning from text. In Proceedings
+of the 2019 Conference on Empirical Methods in Natu-
+ral Language Processing and the 9th International Joint
+Conference on Natural Language Processing (EMNLP-
+IJCNLP), pages 4506–4515, Hong Kong, China, Novem-
+ber 2019. Association for Computational Linguistics. doi:
+10.18653/v1/D19-1458. URL https://www.aclweb.org/
+anthology/D19-1458.
+Agnieszka Słowik, Abhinav Gupta, William L Hamilton,
+Mateja Jamnik, and Sean B Holden. Towards graph repre-
+sentation learning in emergent communication. 2020.
+Kenny Smith, Simon Kirby, and Henry Brighton. Iterated
+learning: A framework for the emergence of language.
+Artif. Life, 9(4):371–386, September 2003. ISSN 1064-
+5462. doi: 10 .1162/106454603322694825. URL http:
+//dx.doi.org/10.1162/106454603322694825.
+Sainbayar Sukhbaatar, Arthur Szlam, and Rob Fergus.
+Learning multiagent communication with backpropagation.
+In D. D. Lee, M. Sugiyama, U. V . Luxburg, I. Guyon,
+and R. Garnett, editors, Advances in Neural Information
+Processing Systems, pages 2244–2252. Curran Associates,
+Inc., 2016. URL http://papers.nips.cc/paper/
+6398-learning-multiagent-communication-with-
+backpropagation.pdf.
+
+=== PDF PAGE 7 ===
+Ilya Sutskever, Oriol Vinyals, and Quoc V Le. Sequence to Se-
+quence Learning with Neural Networks. In Z. Ghahramani,
+M. Welling, C. Cortes, N. D. Lawrence, and K. Q. Wein-
+berger, editors, Advances in Neural Information Processing
+Systems, pages 3104–3112. Curran Associates, Inc., 2014.
+URL http://papers.nips.cc/paper/5346-sequence-
+to-sequence-learning-with-neural-networks .pdf.
+Ashish Vaswani, Noam Shazeer, Niki Parmar, et al. At-
+tention is all you need. In I. Guyon, U. V . Luxburg,
+S. Bengio, H. Wallach, R. Fergus, S. Vishwanathan, and
+R. Garnett, editors, Advances in Neural Information Pro-
+cessing Systems , pages 5998–6008. Curran Associates,
+Inc., 2017. URL http://papers.nips.cc/paper/7181-
+attention-is-all-you-need .pdf.
+Minjie Wang, Lingfan Yu, Da Zheng, et al. Deep graph library:
+Towards efﬁcient and scalable deep learning on graphs.In-
+ternational Conference on Learning Represenations Work-
+shop on Representation Learning on Graphs and Manifolds,
+2019. URL https://arxiv.org/abs/1909.01315.

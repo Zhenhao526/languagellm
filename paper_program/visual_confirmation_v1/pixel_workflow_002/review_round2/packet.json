@@ -1,0 +1,89 @@
+{
+  "ids": [
+    "4373d710d1f3",
+    "484b15faaf3c",
+    "5c91eb155abf",
+    "949105893fe9",
+    "b23dd22cb310",
+    "b3c1d78c441c",
+    "db6438ca4ea1",
+    "e85b4d8ede33"
+  ],
+  "sheets": [
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/review_round2/sheet_01.png",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/review_round2/sheet_02.png"
+  ],
+  "images": [
+    {
+      "id": "4373d710d1f3",
+      "full": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/blind/4373d710d1f3_full.png",
+      "crop": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/blind/4373d710d1f3_crop.png"
+    },
+    {
+      "id": "484b15faaf3c",
+      "full": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/blind/484b15faaf3c_full.png",
+      "crop": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/blind/484b15faaf3c_crop.png"
+    },
+    {
+      "id": "5c91eb155abf",
+      "full": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/blind/5c91eb155abf_full.png",
+      "crop": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/blind/5c91eb155abf_crop.png"
+    },
+    {
+      "id": "949105893fe9",
+      "full": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/blind/949105893fe9_full.png",
+      "crop": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/blind/949105893fe9_crop.png"
+    },
+    {
+      "id": "b23dd22cb310",
+      "full": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/blind/b23dd22cb310_full.png",
+      "crop": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/blind/b23dd22cb310_crop.png"
+    },
+    {
+      "id": "b3c1d78c441c",
+      "full": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/blind/b3c1d78c441c_full.png",
+      "crop": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/blind/b3c1d78c441c_crop.png"
+    },
+    {
+      "id": "db6438ca4ea1",
+      "full": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/blind/db6438ca4ea1_full.png",
+      "crop": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/blind/db6438ca4ea1_crop.png"
+    },
+    {
+      "id": "e85b4d8ede33",
+      "full": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/blind/e85b4d8ede33_full.png",
+      "crop": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/blind/e85b4d8ede33_crop.png"
+    }
+  ],
+  "image_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/review_round2/sheet_01.png": "39aed4bdb6a036085123b5239bf0146135acd098e851f35f2c83f4044ad7fa2b",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/review_round2/sheet_02.png": "34779f954b7b94190af007cddca6355a256d80e7e60547445563162c5313465a"
+  },
+  "individual_image_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/blind/4373d710d1f3_full.png": "15d2589db6df0e9ab46536c2f1d96b398526b7e1ac9272acad712785d11e1a18",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/blind/4373d710d1f3_crop.png": "8cc747032067b8ed96aeebd779803908b94d7da8f554cf39912270351a348608",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/blind/484b15faaf3c_full.png": "0b6c6edb4336ba9aace24b839b91c66268ab6d5ca8d6429819e8dea3e3e4ef11",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/blind/484b15faaf3c_crop.png": "bc84cbfd2c20a84a179a0462ab19c70a61820272cb3f1228f2b939da3a9e9518",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/blind/5c91eb155abf_full.png": "464b7fbfe459ac5472605de52cc5e9d3036aeac905b6e371ada7ae1031fb2593",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/blind/5c91eb155abf_crop.png": "47890f3b62a3c07a6130dae7c587765a004e7d72c9f8ceac04508f540a6b0e1e",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/blind/949105893fe9_full.png": "fe6a24ca7609d6d409d94bf9feb36aa5f7f6ced19097fb9bc3d4f67e54edb5c4",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/blind/949105893fe9_crop.png": "e675b0287df64856833ceefa85aaf6152d9eac64ce5c5205c0ddc8ee2554f22e",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/blind/b23dd22cb310_full.png": "72dd089e9b58ec0e35c16ba8364e526c4d18096c14b6790497a70c7eb231772f",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/blind/b23dd22cb310_crop.png": "0cf0d6945fe4f68f6a92b4a9529212529a52de85bf0b290be1bdc0953cdccf8f",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/blind/b3c1d78c441c_full.png": "f1865cd3a7175dcb83cc57e34a71a192a266358784f9d022acb93f4b424acd06",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/blind/b3c1d78c441c_crop.png": "9dcf7b1e72e77320fa60c1827a2e4761d23890c30e41769dc5db09478303ae87",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/blind/db6438ca4ea1_full.png": "272001bfc4d4df8845df71c00f21e57530042ded424b90a9598a5b42e960bc87",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/blind/db6438ca4ea1_crop.png": "adc79c8643705c12a69506cb09cf973f807db534f0815e6a3298dd3f3f9d545c",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/blind/e85b4d8ede33_full.png": "da1891362f58193a4022e8e343980618adf374f6e9daf476ba915f70214d044e",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/blind/e85b4d8ede33_crop.png": "cffa6ec799ac9dafe09ffd479c228e7d5be00d2a216890c5a7af597ece49c059"
+  },
+  "criteria": [
+    "real photograph",
+    "food or visible water in transparent container identifiable",
+    "crop retains resource",
+    "no prominent text or watermark",
+    "no mixed foods or ambiguous liquid"
+  ],
+  "scope": "Remaining successfully downloaded ordinary images not present in early round1. Same criteria; failed or quarantined formats are not silently substituted.",
+  "model_scores_available": false
+}

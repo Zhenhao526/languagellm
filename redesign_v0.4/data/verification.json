@@ -1,0 +1,24 @@
+{
+  "image_count": 60,
+  "counts": {
+    "food_train": 22,
+    "food_test": 8,
+    "water_test": 8,
+    "water_train": 22
+  },
+  "image_hash_failures": [],
+  "unique_original_sha1": 60,
+  "train_test_original_overlap": [],
+  "train_test_recorded_author_overlap": [],
+  "total_selected_bytes": 6035904,
+  "licenses": {
+    "CC BY-SA 4.0": 21,
+    "CC0": 5,
+    "CC BY-SA 2.0": 7,
+    "CC BY 2.0": 11,
+    "CC BY 4.0": 1,
+    "Public domain": 7,
+    "CC BY-SA 3.0": 7,
+    "CC BY 3.0": 1
+  }
+}

@@ -1,0 +1,3712 @@
+{
+  "source_files_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/additional_000.json": "078b9ce3c60325ae00299cb580ec514b5c4fdec321b50222aa2a3afe39c28234",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_000.json": "894c92f1fc2e6ccb236664547680decdf7b0f4da448237570c47c7faac4c60ba",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_010.json": "4ad77cf3ee5010a3f381fc92096c8cbdcf6795f1561131bb7ea8634f6afbd72e",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_020.json": "70d5ac90390da30b7decd01eff841817d26360a4a6085e0492084703a76d205f",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_030.json": "6c3aeab8fc7ba3634a6098c05eac260fa94bbb57a35a0050f2724bb3d2fb2eab",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_040.json": "098b17b78c7c958530e87dbecd024297f8cf6c45545a352c1d2b859b47346285",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_050.json": "011cb662dc9c041adba5e7bc2fe40ef4620fbe6f88951a1642b4a7c708f0822e",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_060.json": "6474b662b286affd2c97759095ab19aef646b304e74c42b87704b92173b8afc7",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_070.json": "2a291ed1c9ed4b57e5fa93ec8eea25050e17a8bb16b27d0eabe49d38c65a7aec",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_080.json": "df2cb4cd96c27cb85e5e31559d7b277336134fefd077d3e95d2b23cc8548c53a",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_090.json": "2abc73006b3a3d3afa08239f40b4ba34e78d070ab96f38445a3c91c83af0e98b",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json": "43e7afe64d320735ac989eb0af470b5b6c57019dac5255405dae80501dd501a8",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json": "921503bd6e559124aaa85f6c61bf19207c7e6c2dcae37bc0101548eb5b439de6"
+  },
+  "records": [
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/additional_000.json",
+      "json_pointer": "/query/pages/-1",
+      "title": "File:Vaso de agua.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "0bc85a474aa823f76948e2230bbd24795da25aa6"
+      ],
+      "author_keys": [
+        "artist_text:giovanakitty"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/additional_000.json",
+      "json_pointer": "/query/pages/-2",
+      "title": "File:Water 2.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "1549195a8d51228a940c8a59f2f53c975b4e5585"
+      ],
+      "author_keys": [
+        "artist_text:jins a jacob"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/additional_000.json",
+      "json_pointer": "/query/pages/-3",
+      "title": "File:Water 20211205 115735.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "820b5c5cdd30204c7065f19cac7fa3d0854da11c"
+      ],
+      "author_keys": [
+        "artist_text:ka23 13",
+        "creator_url:commons.wikimedia.org/wiki/user:ka23 13"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/additional_000.json",
+      "json_pointer": "/query/pages/-4",
+      "title": "File:Water at glass2.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "7f1efe24e920ec21b5d692a1a4cd37f18d956364"
+      ],
+      "author_keys": [
+        "artist_text:श्रेष्ठ भूपेन्द्र",
+        "creator_url:commons.wikimedia.org/wiki/user:श्रेष्ठ भूपेन्द्र"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/additional_000.json",
+      "json_pointer": "/query/pages/-5",
+      "title": "File:Water glass9.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "cd719044d9554b7486fb10f40d9e8e672bf59e45"
+      ],
+      "author_keys": [
+        "artist_text:zuhairali",
+        "creator_url:commons.wikimedia.org/wiki/user:zuhairali"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/additional_000.json",
+      "json_pointer": "/query/pages/-6",
+      "title": "File:Water pour 2 (59785756).jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "689f23329ba5f2405db3d164e4081bc2edb09a83"
+      ],
+      "author_keys": [
+        "artist_text:kenny louie from vancouver, canada",
+        "creator_flickr:99472898@n00"
+      ],
+      "source_keys": [
+        "source_flickr_photo:59785756"
+      ]
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/additional_000.json",
+      "json_pointer": "/query/pages/-7",
+      "title": "File:Water with bokeh (3654022771).jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "3b7dbfc08854fdb7f406f2dea72978213890baf3"
+      ],
+      "author_keys": [
+        "artist_text:dennis wong from hong kong, hong kong",
+        "creator_flickr:97247234@n00"
+      ],
+      "source_keys": [
+        "source_flickr_photo:3654022771"
+      ]
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/additional_000.json",
+      "json_pointer": "/query/pages/-8",
+      "title": "File:Water7.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "3645730f4c2848150d70bef827dfe58b1af27bac"
+      ],
+      "author_keys": [
+        "artist_text:gerwin sturm"
+      ],
+      "source_keys": [
+        "source_flickr_photo:5513663160"
+      ]
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/additional_000.json",
+      "json_pointer": "/query/pages/-9",
+      "title": "File:飲水 (4820799273).jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "a832a14af7623a3d6e3c6993425e941898cc88ae"
+      ],
+      "author_keys": [
+        "artist_text:akihito nakanishi",
+        "creator_flickr:30615035@n07"
+      ],
+      "source_keys": [
+        "source_flickr_photo:4820799273"
+      ]
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_000.json",
+      "json_pointer": "/query/pages/-1",
+      "title": "File:Apfel 01.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "cdf48d9b3c4a70236a6dc27a4ee9bde873c575a5"
+      ],
+      "author_keys": [
+        "artist_text:janine pohl ( jacoon )"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_000.json",
+      "json_pointer": "/query/pages/-2",
+      "title": "File:Apfel 6.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "413f9ff8b8a5269e23876ccb98e4874583c2ab70"
+      ],
+      "author_keys": [
+        "artist_text:chris.urs-o",
+        "creator_url:commons.wikimedia.org/wiki/user:chris.urs-o"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_000.json",
+      "json_pointer": "/query/pages/-3",
+      "title": "File:Apole.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "a2aacda01da02a3b09d9a0546598a69dcc2ca093"
+      ],
+      "author_keys": [
+        "artist_text:nakengtsapoho",
+        "creator_url:commons.wikimedia.org/wiki/user:nakengtsapoho"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_000.json",
+      "json_pointer": "/query/pages/-4",
+      "title": "File:Apple (2020-12-11).jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "bf228f95823e8648b352ad8c4570c9b40a1dd72f"
+      ],
+      "author_keys": [
+        "artist_text:baoothersks"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_000.json",
+      "json_pointer": "/query/pages/-5",
+      "title": "File:Apple (511354151).jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "2a559e8d23a446baeb0f7335ee2d3bd4ede50dfa"
+      ],
+      "author_keys": [
+        "artist_text:daniel r. blume from toledo, ohio, usa",
+        "creator_flickr:61926883@n00"
+      ],
+      "source_keys": [
+        "source_flickr_photo:511354151"
+      ]
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_000.json",
+      "json_pointer": "/query/pages/-6",
+      "title": "File:Apple (Malus domestica) (19719834878).jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "75c8937abf7666cffea436b478c95644788e068a"
+      ],
+      "author_keys": [
+        "artist_text:anemoneprojectors ( talk )",
+        "creator_url:commons.wikimedia.org/wiki/user:anemoneprojectors"
+      ],
+      "source_keys": [
+        "source_flickr_photo:19719834878"
+      ]
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_000.json",
+      "json_pointer": "/query/pages/-7",
+      "title": "File:Apple basket (25963669243).jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "17a685d5519020ad9572fab342ae24a420e9fd4e"
+      ],
+      "author_keys": [
+        "artist_text:carlos ebert from são paulo, brazilgru",
+        "creator_flickr:42042512@n00"
+      ],
+      "source_keys": [
+        "source_flickr_photo:25963669243"
+      ]
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_000.json",
+      "json_pointer": "/query/pages/-8",
+      "title": "File:Apple cluster on a tree branch in Vermont, US.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "618b9aa7bfdffa96c2425bbf36d9ce020192d74c"
+      ],
+      "author_keys": [
+        "artist_text:ironmaidenfun",
+        "creator_url:commons.wikimedia.org/wiki/user:ironmaidenfun"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_000.json",
+      "json_pointer": "/query/pages/-9",
+      "title": "File:Apple Elstar - Flickr - conall...jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "193f4a71690e603374e82bda96d0ed62e8268965"
+      ],
+      "author_keys": [
+        "artist_text:conall from downpatrick, northern ireland",
+        "creator_flickr:16176711@n02"
+      ],
+      "source_keys": [
+        "source_flickr_photo:54584020787"
+      ]
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_000.json",
+      "json_pointer": "/query/pages/-10",
+      "title": "File:Apple on desk.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "4055082449c254150d34740045ba3a3a00040a10"
+      ],
+      "author_keys": [
+        "artist_text:bapple4747"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_010.json",
+      "json_pointer": "/query/pages/-1",
+      "title": "File:Apple on red background.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "d9e19e63b33db8a047b4d0fef58385e24f0054c0"
+      ],
+      "author_keys": [
+        "artist_text:ftkelle"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_010.json",
+      "json_pointer": "/query/pages/-2",
+      "title": "File:Apple plate.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "47b5b9f5dad8d54e45dd6f555c3c7658e9554e06"
+      ],
+      "author_keys": [
+        "artist_text:peachyeung316",
+        "creator_url:commons.wikimedia.org/wiki/user:peachyeung316"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_010.json",
+      "json_pointer": "/query/pages/-3",
+      "title": "File:Apple Slice - Flickr - places lost.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "593243a9db2766d2936f2a2d4a215b647c085d71"
+      ],
+      "author_keys": [
+        "artist_text:lost places from deutschland",
+        "creator_flickr:138895397@n03"
+      ],
+      "source_keys": [
+        "source_flickr_photo:29747736653"
+      ]
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_010.json",
+      "json_pointer": "/query/pages/-4",
+      "title": "File:Apples (2837340315).jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "db0c01b9a4f425ed5dd025b75ffd7588dea948b7"
+      ],
+      "author_keys": [
+        "artist_text:rhett maxwell",
+        "creator_flickr:97479012@n00"
+      ],
+      "source_keys": [
+        "source_flickr_photo:2837340315"
+      ]
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_010.json",
+      "json_pointer": "/query/pages/-5",
+      "title": "File:Apples (4362331143).jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "a6200c71aa6ab08a687303f5b1058288a184e525"
+      ],
+      "author_keys": [
+        "artist_text:katrin gilger",
+        "creator_flickr:26242865@n04"
+      ],
+      "source_keys": [
+        "source_flickr_photo:4362331143"
+      ]
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_010.json",
+      "json_pointer": "/query/pages/-6",
+      "title": "File:Apples (6494047159).jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "60f5f70d252ef4ef4c96ebe4a989b359ff3a9499"
+      ],
+      "author_keys": [
+        "artist_text:nacho",
+        "creator_flickr:44048553@n03"
+      ],
+      "source_keys": [
+        "source_flickr_photo:6494047159"
+      ]
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_010.json",
+      "json_pointer": "/query/pages/-7",
+      "title": "File:Apples - Flickr - munchflemming.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "5f6d0f1872c58ee4b743c8c3efd967f7c1e305ce"
+      ],
+      "author_keys": [
+        "artist_text:flemming munch",
+        "creator_flickr:138221136@n04"
+      ],
+      "source_keys": [
+        "source_flickr_photo:53967686631"
+      ]
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_010.json",
+      "json_pointer": "/query/pages/-8",
+      "title": "File:Apples - Flickr - Southernpixel - Alby Headrick.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "6f784bc79dc156a0a9ed5ebbb9c5fa0748164587"
+      ],
+      "author_keys": [
+        "artist_text:alby headrick from birmingham, alabama, usa",
+        "creator_flickr:99067767@n00"
+      ],
+      "source_keys": [
+        "source_flickr_photo:344694745"
+      ]
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_010.json",
+      "json_pointer": "/query/pages/-9",
+      "title": "File:181 365+1 Banana (7623220032).jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "abd17145831ee32503708a3b5d41f7ab9b18e532"
+      ],
+      "author_keys": [
+        "artist_text:dave crosby from devon, england",
+        "creator_flickr:87316606@n00"
+      ],
+      "source_keys": [
+        "source_flickr_photo:7623220032"
+      ]
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_010.json",
+      "json_pointer": "/query/pages/-10",
+      "title": "File:4 Bananes.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "fec1c00226378f2ccda0a5d4a49d331245d34c47"
+      ],
+      "author_keys": [
+        "artist_text:jeanled11"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_020.json",
+      "json_pointer": "/query/pages/-1",
+      "title": "File:A bunch of bananas.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "28f6d506804509e5b1fffafc63332b2ca880abc4"
+      ],
+      "author_keys": [
+        "artist_text:user carioca"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_020.json",
+      "json_pointer": "/query/pages/-2",
+      "title": "File:Baby bananas.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "e234dbb3124fe69e4bac88c6d788c93b71b1ef90"
+      ],
+      "author_keys": [
+        "artist_text:gowrirajamanickam01"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_020.json",
+      "json_pointer": "/query/pages/-3",
+      "title": "File:Banana (2).jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "a9255ddf3718cfe0d4ec210ccb548252939f9655"
+      ],
+      "author_keys": [
+        "artist_text:ferdous",
+        "creator_url:commons.wikimedia.org/wiki/user:ferdous"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_020.json",
+      "json_pointer": "/query/pages/-4",
+      "title": "File:Banana (2516487176).jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "af70da4dfb439b1c393fa59fe4fd8595308f053d"
+      ],
+      "author_keys": [
+        "artist_text:anthony easton from montreal, canada",
+        "creator_flickr:82072056@n00"
+      ],
+      "source_keys": [
+        "source_flickr_photo:2516487176"
+      ]
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_020.json",
+      "json_pointer": "/query/pages/-5",
+      "title": "File:Banana - Q503.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "a0537fa9219af5bf64421cd3df844ecd4d72b6c6"
+      ],
+      "author_keys": [
+        "artist_text:sandra fauconnier",
+        "creator_url:commons.wikimedia.org/wiki/user:spinster"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_020.json",
+      "json_pointer": "/query/pages/-6",
+      "title": "File:Banana 0757.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "7b90e9078cc1564e4d192f31125f7a5bf19934a9"
+      ],
+      "author_keys": [
+        "artist_text:assianir",
+        "creator_url:commons.wikimedia.org/wiki/user:assianir"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_020.json",
+      "json_pointer": "/query/pages/-7",
+      "title": "File:Banana 10.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "6ca899696460cdbba2f596aecd0e6ebd805e5485"
+      ],
+      "author_keys": [
+        "artist_text:sarkalay စာကလေး",
+        "creator_url:commons.wikimedia.org/wiki/user:sarkalay စာကလေး"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_020.json",
+      "json_pointer": "/query/pages/-8",
+      "title": "File:Banana 5.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "baf145a3dc7f5dff7f8f00a1db08a62c86fad746"
+      ],
+      "author_keys": [
+        "artist_text:gokulraj andiyappan"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_020.json",
+      "json_pointer": "/query/pages/-9",
+      "title": "File:Banana bonita.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "d94b95992ec5840a84b58b44b522a63cf78ff25c"
+      ],
+      "author_keys": [
+        "artist_text:mayrlla duarte"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_020.json",
+      "json_pointer": "/query/pages/-10",
+      "title": "File:Banana bunch on wall.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "2c6978150dd05cff450fa99f9910b534c888bb94"
+      ],
+      "author_keys": [
+        "artist_text:rangbaz",
+        "creator_url:commons.wikimedia.org/wiki/user:rangbaz"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_030.json",
+      "json_pointer": "/query/pages/-1",
+      "title": "File:Banana Bunch.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "5dfc77e32fa1bd6617f05db4300a262ccff3c02d"
+      ],
+      "author_keys": [
+        "artist_text:anish sheela",
+        "creator_url:commons.wikimedia.org/wiki/user:aneeshnl"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_030.json",
+      "json_pointer": "/query/pages/-2",
+      "title": "File:Banana caturra.JPG",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "9c9e76906e6372b92602a8d05006453cf9f8d60f"
+      ],
+      "author_keys": [
+        "artist_text:deyvid aleksandr raffo setti e eloy olindo setti"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_030.json",
+      "json_pointer": "/query/pages/-3",
+      "title": "File:Banana fruit (musa).jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "efa8005ad65f7deeb28abd170a4c3855c7b44300"
+      ],
+      "author_keys": [
+        "artist_text:deepan raja .m"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_030.json",
+      "json_pointer": "/query/pages/-4",
+      "title": "File:Banana nanica.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "348c78b29617ce64595df1a56eba5a6837f66a9d"
+      ],
+      "author_keys": [
+        "artist_text:giancarlos gabriel",
+        "creator_url:commons.wikimedia.org/wiki/user:giancarlos gabriel"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_030.json",
+      "json_pointer": "/query/pages/-5",
+      "title": "File:Banana part.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "4b7f7c2ce047d8f6ea0d0f9841fe31fedc06e001"
+      ],
+      "author_keys": [
+        "artist_text:racconish",
+        "creator_url:commons.wikimedia.org/wiki/user:racconish"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_030.json",
+      "json_pointer": "/query/pages/-6",
+      "title": "File:Banana sadež.JPG",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "05e0c6ebc637bf439517a183bc05d3778256f7e3"
+      ],
+      "author_keys": [
+        "artist_text:nisko at slovenian wikipedia"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_030.json",
+      "json_pointer": "/query/pages/-7",
+      "title": "File:16-09-17-WikiLovesCocktails-Zutaten-Img0158.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "0cec7415a7a535012dce074ccda7437964937fa3"
+      ],
+      "author_keys": [
+        "artist_text:ralf roletschek"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_030.json",
+      "json_pointer": "/query/pages/-8",
+      "title": "File:164 - oranges.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "131d5dfbb65003b8887d914349e7d772c2154df5"
+      ],
+      "author_keys": [
+        "artist_text:susan slater",
+        "creator_url:commons.wikimedia.org/wiki/user:susan slater"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_030.json",
+      "json_pointer": "/query/pages/-9",
+      "title": "File:2010-365-124 Still Life (4579895727).jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "11d15ebb252996f5677be89f370241d83eb5d09b"
+      ],
+      "author_keys": [
+        "artist_text:cogdogblog",
+        "creator_flickr:37996646802@n01"
+      ],
+      "source_keys": [
+        "source_flickr_photo:4579895727"
+      ]
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_030.json",
+      "json_pointer": "/query/pages/-10",
+      "title": "File:2014-365-111 Orange Space (13942821996).jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "88c97b932571fd2d44f37d4462edf75d3a54a431"
+      ],
+      "author_keys": [
+        "artist_text:cogdogblog",
+        "creator_flickr:37996646802@n01"
+      ],
+      "source_keys": [
+        "source_flickr_photo:13942821996"
+      ]
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_040.json",
+      "json_pointer": "/query/pages/-1",
+      "title": "File:A Citrus fruit on a Table.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "fed6e02a4d0259222634da60d48f08a200b9324c"
+      ],
+      "author_keys": [
+        "artist_text:im3847",
+        "creator_url:commons.wikimedia.org/wiki/user:im3847"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_040.json",
+      "json_pointer": "/query/pages/-2",
+      "title": "File:A Green yellow Orange.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "e87339cb622fe32b9cea0d8d374a27bd157535ed"
+      ],
+      "author_keys": [
+        "artist_text:v.thamaraiselvi"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_040.json",
+      "json_pointer": "/query/pages/-3",
+      "title": "File:A zoomed up picture of an orange.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "5e9fd09074dd3c73167653f7d4afa3ed0af1fc49"
+      ],
+      "author_keys": [
+        "artist_text:pxhere"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_040.json",
+      "json_pointer": "/query/pages/-4",
+      "title": "File:Ambersweet oranges.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "2afadf9580c6b5e5b85a512e11465980d74e07cf"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_040.json",
+      "json_pointer": "/query/pages/-5",
+      "title": "File:An Orange.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "53cbb08081c377153b9c9f9052804d1b799099e0"
+      ],
+      "author_keys": [
+        "artist_text:ines diva"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_040.json",
+      "json_pointer": "/query/pages/-6",
+      "title": "File:An orange.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "42d93d21f024f5b1407e589009fa3515c7d8f9e5"
+      ],
+      "author_keys": [
+        "artist_text:mati10justin",
+        "creator_url:commons.wikimedia.org/wiki/user:mati10justin"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_040.json",
+      "json_pointer": "/query/pages/-7",
+      "title": "File:Apelsinas.JPG",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "b28016798ed7a4e3d961af15b3ad53a100ccc0d7"
+      ],
+      "author_keys": [
+        "artist_text:bearas",
+        "creator_url:commons.wikimedia.org/wiki/user:bearas"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_040.json",
+      "json_pointer": "/query/pages/-8",
+      "title": "File:Apelsiner - Flickr - nilsw.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "22f75eb5cb85361bb357dfc3c6fc35d4505fe0d3"
+      ],
+      "author_keys": [
+        "artist_text:nils weinander from stockholm, sweden",
+        "creator_flickr:42159086@n08"
+      ],
+      "source_keys": [
+        "source_flickr_photo:21169307336"
+      ]
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_040.json",
+      "json_pointer": "/query/pages/-9",
+      "title": "File:Arancia.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "7bc3cef826b4ebed63699da5d5cf80893f244890"
+      ],
+      "author_keys": [
+        "artist_text:eleonoram2007b",
+        "creator_url:commons.wikimedia.org/wiki/user:eleonoram2007b"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_040.json",
+      "json_pointer": "/query/pages/-10",
+      "title": "File:Arunachali Orange.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "ccd61c6020d0934d07f9be6070cf7b0c75f3679e"
+      ],
+      "author_keys": [
+        "artist_text:nayan j nath",
+        "creator_url:commons.wikimedia.org/wiki/user:nayan j nath"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_050.json",
+      "json_pointer": "/query/pages/-1",
+      "title": "File:A Glass Full of Water.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "f15f0f17ac5a5fcb39e5a2abe1548a71b9aa7039"
+      ],
+      "author_keys": [
+        "artist_text:jnanaranjan sahu",
+        "creator_url:commons.wikimedia.org/wiki/user:jnanaranjan sahu"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_050.json",
+      "json_pointer": "/query/pages/-2",
+      "title": "File:AGUA (33456041042).jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "dcc9fe3c4b9a1141d6ab5129af200ca870a70522"
+      ],
+      "author_keys": [
+        "artist_text:agencia de noticias andes",
+        "creator_flickr:75116651@n03"
+      ],
+      "source_keys": [
+        "source_flickr_photo:33456041042"
+      ]
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_050.json",
+      "json_pointer": "/query/pages/-3",
+      "title": "File:Bengali ek glas pani.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "2e88d352c3cb9dadd0b95c75105e979c8fb9f613"
+      ],
+      "author_keys": [
+        "artist_text:babunayem"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_050.json",
+      "json_pointer": "/query/pages/-4",
+      "title": "File:Blue tumbler.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "82abfc26ea225f5cd3db0a0a5491bcf39deb1d07"
+      ],
+      "author_keys": [
+        "artist_text:corn cheese",
+        "creator_url:commons.wikimedia.org/wiki/user:corn cheese"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_050.json",
+      "json_pointer": "/query/pages/-5",
+      "title": "File:Bubbles in glass of water.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "6b128a4c42a332283597b15aa53c74620ed785a6"
+      ],
+      "author_keys": [
+        "artist_text:paolo neo"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_050.json",
+      "json_pointer": "/query/pages/-6",
+      "title": "File:Carafe d'eau.jpeg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "0609c12c6b2a837a03a6e1261a44c6ce8c8101df"
+      ],
+      "author_keys": [
+        "artist_text:user:libreerre"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_050.json",
+      "json_pointer": "/query/pages/-7",
+      "title": "File:Clean water (30313108598).jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "83acef8b30071836c28b8f693555c17c3dc1f166"
+      ],
+      "author_keys": [
+        "artist_text:[1]",
+        "creator_flickr:alachuacounty"
+      ],
+      "source_keys": [
+        "source_commons_file:file:clean water (30313108598).jpg"
+      ]
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_050.json",
+      "json_pointer": "/query/pages/-8",
+      "title": "File:CoCo Ichibanya Drinking water.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "e8584079a1563444e42c3b26e447a685163c126f"
+      ],
+      "author_keys": [
+        "artist_text:corpse reviver"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_050.json",
+      "json_pointer": "/query/pages/-9",
+      "title": "File:Cold Water (117688999).jpeg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "220b94c237134b6c25fafc82995f31817a59bb50"
+      ],
+      "author_keys": [
+        "artist_text:faldrian"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_050.json",
+      "json_pointer": "/query/pages/-10",
+      "title": "File:Cold water (1733066814).jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "a90be1c9dcc2f7dadbc7cda0cdecdddc5e19f9fd"
+      ],
+      "author_keys": [
+        "artist_text:くーさん",
+        "creator_flickr:71738064@n00"
+      ],
+      "source_keys": [
+        "source_flickr_photo:1733066814"
+      ]
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_060.json",
+      "json_pointer": "/query/pages/-1",
+      "title": "File:Cup With Water.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "8108fe28597985b1fbd17e27cf691cb81a7517be"
+      ],
+      "author_keys": [
+        "artist_text:renato20303",
+        "creator_url:commons.wikimedia.org/wiki/user:renato20303"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_060.json",
+      "json_pointer": "/query/pages/-2",
+      "title": "File:DicWater.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "0c1e2a311a0a80cdb5120cd1211ea01333181a52"
+      ],
+      "author_keys": [
+        "artist_text:pakixa"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_060.json",
+      "json_pointer": "/query/pages/-3",
+      "title": "File:Drei Gläser.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "9e58309af904d5eab878e1abb027cf3d6c7f883e"
+      ],
+      "author_keys": [
+        "artist_text:franziska ruloff"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_060.json",
+      "json_pointer": "/query/pages/-4",
+      "title": "File:Drinkwater.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "dafdb4a46cb2eea794d9d7bca65ba265a09f67b0"
+      ],
+      "author_keys": [
+        "artist_text:adam smith from corona, ca, usa",
+        "creator_flickr:39308428@n00"
+      ],
+      "source_keys": [
+        "source_flickr_photo:13649025"
+      ]
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_060.json",
+      "json_pointer": "/query/pages/-5",
+      "title": "File:Duritky.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "76b1af2869ce348c44e8170be775d6b468ad10e1"
+      ],
+      "author_keys": [
+        "artist_text:zákupák",
+        "creator_url:commons.wikimedia.org/wiki/user:zákupák"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_060.json",
+      "json_pointer": "/query/pages/-6",
+      "title": "File:Edalontzia.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "c3663d3848be95738d58488bcecded7256560508"
+      ],
+      "author_keys": [
+        "artist_text:mirentxu.sasieta"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_060.json",
+      "json_pointer": "/query/pages/-7",
+      "title": "File:Fasting 4-Fasting-a-glass-of-water-on-an-empty-plate.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "db209ea7df79b9c48eb126dfa991a7b5cc089c94"
+      ],
+      "author_keys": [
+        "artist_text:dr jean fortunet",
+        "creator_url:commons.wikimedia.org/wiki/user:jdontfight"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_060.json",
+      "json_pointer": "/query/pages/-8",
+      "title": "File:Flickr - cyclonebill - Vand (6).jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "03a68fe9d896a3152b91006bed19fcd26dfdc88c"
+      ],
+      "author_keys": [
+        "artist_text:cyclonebill",
+        "creator_flickr:23178876@n03"
+      ],
+      "source_keys": [
+        "source_flickr_photo:2222298179"
+      ]
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_060.json",
+      "json_pointer": "/query/pages/-9",
+      "title": "File:Glas halbvoll.JPG",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "53cee6aa1a0105591653f5e494d9b20dae124eee"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_060.json",
+      "json_pointer": "/query/pages/-10",
+      "title": "File:Glass Half Full bw 1.JPG",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "9966398f3c6ea08ab3f4f8973b229e2eaca189d9"
+      ],
+      "author_keys": [
+        "artist_text:s nova",
+        "creator_url:commons.wikimedia.org/wiki/user:s nova"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_070.json",
+      "json_pointer": "/query/pages/-1",
+      "title": "File:Glass half full or half empty.png",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "189d3547b9b90ccf281ce5dd17a6b5f98e900337"
+      ],
+      "author_keys": [
+        "artist_text:sealle",
+        "creator_url:commons.wikimedia.org/wiki/user:sealle"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_070.json",
+      "json_pointer": "/query/pages/-2",
+      "title": "File:Glass Half Full.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "355a59c0cf7f1d164d169f01ee3d28d507912c43"
+      ],
+      "author_keys": [
+        "artist_text:leijurv",
+        "creator_url:commons.wikimedia.org/wiki/user:leijurv"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_070.json",
+      "json_pointer": "/query/pages/-3",
+      "title": "File:Glass of cold mineral water.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "d073c47806f55af090b6416fee1752b77fcd0e8d"
+      ],
+      "author_keys": [
+        "artist_text:arria belli ( arria belli )",
+        "creator_flickr:24363893@n00",
+        "creator_url:commons.wikimedia.org/wiki/user:arria belli"
+      ],
+      "source_keys": [
+        "source_flickr_photo:2745928379"
+      ]
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_070.json",
+      "json_pointer": "/query/pages/-4",
+      "title": "File:Glass of Water (50838445027).jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "5ec382297c35a9aecb652c9544043e3ec25bd2dd"
+      ],
+      "author_keys": [
+        "artist_text:alabama extension",
+        "creator_flickr:184594136@n08"
+      ],
+      "source_keys": [
+        "source_flickr_photo:50838445027"
+      ]
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_070.json",
+      "json_pointer": "/query/pages/-5",
+      "title": "File:Glass of Water - Flickr - Greg Riegler Photography.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "572f2534546e75052d1811493c5de981ed954030"
+      ],
+      "author_keys": [
+        "artist_text:greg riegler from pensacola, fl, usa",
+        "creator_flickr:31846994@n00"
+      ],
+      "source_keys": [
+        "source_flickr_photo:1695650382"
+      ]
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_070.json",
+      "json_pointer": "/query/pages/-6",
+      "title": "File:Glass of water on vintage sheet.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "af6e50d9077f9b322c851bf5534b02be5475012c"
+      ],
+      "author_keys": [
+        "artist_text:zmrob25"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_070.json",
+      "json_pointer": "/query/pages/-7",
+      "title": "File:Glass of water with ice cubes.JPG",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "a10f7fb2c642da85b511da393fa975b89092c0c7"
+      ],
+      "author_keys": [
+        "artist_text:adriannanicole"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_070.json",
+      "json_pointer": "/query/pages/-8",
+      "title": "File:Glass of water, detail.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "84fcba9f299ca5caa22442e3ade0e17b6349125b"
+      ],
+      "author_keys": [
+        "artist_text:mia gaitanidis"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_070.json",
+      "json_pointer": "/query/pages/-9",
+      "title": "File:Glass of Water.JPG",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "68bcfaa61b8408f92ad94f34f5dbab73f0bd2341"
+      ],
+      "author_keys": [
+        "artist_text:jorge barrios"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_070.json",
+      "json_pointer": "/query/pages/-10",
+      "title": "File:Glass-half-full.jpeg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "b79a8759a3162ff25e74481298c2ae664a5078d9"
+      ],
+      "author_keys": [
+        "artist_text:jenny downing",
+        "creator_flickr:7941044@n06"
+      ],
+      "source_keys": [
+        "source_flickr_photo:3527749814"
+      ]
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_080.json",
+      "json_pointer": "/query/pages/-1",
+      "title": "File:Glass-of-water.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "0dfc2d8e1c9fb11c9a0a148d97342acca0b26da3"
+      ],
+      "author_keys": [
+        "artist_text:derek jensen ( tysto )",
+        "creator_url:commons.wikimedia.org/wiki/user:tysto"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_080.json",
+      "json_pointer": "/query/pages/-2",
+      "title": "File:Glasses of water -- Candolim.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "dfeec8c14ac475d82ae65e328743f91b8c511221"
+      ],
+      "author_keys": [
+        "artist_text:fredericknoronha",
+        "creator_url:commons.wikimedia.org/wiki/user:fredericknoronha"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_080.json",
+      "json_pointer": "/query/pages/-3",
+      "title": "File:Glasses of water.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "e4651d177a9cb39ac62c99e16607946461830652"
+      ],
+      "author_keys": [
+        "artist_text:pohled 111",
+        "creator_url:commons.wikimedia.org/wiki/user:pohled 111"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_080.json",
+      "json_pointer": "/query/pages/-4",
+      "title": "File:Ice water (11462178684).jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "43cf370f7cadb8d6dcbeb9f6193806c033ca6bba"
+      ],
+      "author_keys": [
+        "artist_text:kirt cathey from shibuya, tokyo, japan",
+        "creator_flickr:93775337@n00"
+      ],
+      "source_keys": [
+        "source_flickr_photo:11462178684"
+      ]
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_080.json",
+      "json_pointer": "/query/pages/-5",
+      "title": "File:Ice Water (5685106294).jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "88129bfd04d29067d6a3b2cf15092df5dc6ead56"
+      ],
+      "author_keys": [
+        "artist_text:pink sherbet photography from utah, usa",
+        "creator_flickr:40645538@n00"
+      ],
+      "source_keys": [
+        "source_flickr_photo:5685106294"
+      ]
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_080.json",
+      "json_pointer": "/query/pages/-6",
+      "title": "File:Jamie Street 2016-06-13 (Unsplash).jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "04c18f5e296e67babec416c8b712b2e54d51e463"
+      ],
+      "author_keys": [
+        "artist_text:jamie street jamie452"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_080.json",
+      "json_pointer": "/query/pages/-7",
+      "title": "File:Kitchenware Glass Rezowan (4).JPG",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "4beabc217c3ed542822d1dcec6c78db1a24d284a"
+      ],
+      "author_keys": [
+        "artist_text:rezowan",
+        "creator_url:commons.wikimedia.org/wiki/user:rezowan"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_080.json",
+      "json_pointer": "/query/pages/-8",
+      "title": "File:Potiri.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "fdec52b34ba514e528e11ad44d4521a6529cf0fd"
+      ],
+      "author_keys": [
+        "artist_text:avacalop",
+        "creator_url:commons.wikimedia.org/wiki/user:avacalop"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_080.json",
+      "json_pointer": "/query/pages/-9",
+      "title": "File:Punti di vista.png",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "ee018740fbbb27345b301e787132c831a0924b60"
+      ],
+      "author_keys": [
+        "artist_text:puntosvista.svg : es:usuario:house derivative work: ranzag ( talk )",
+        "creator_url:commons.wikimedia.org/wiki/user:ranzag"
+      ],
+      "source_keys": [
+        "source_commons_file:file:puntosvista.svg"
+      ]
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_080.json",
+      "json_pointer": "/query/pages/19401273",
+      "title": "File:Stilles Mineralwasser.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "136f353af0eed2cea3368ea0a11a86d67c44d061"
+      ],
+      "author_keys": [
+        "artist_text:walter j. pilsak , waldsassen, germany"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_090.json",
+      "json_pointer": "/query/pages/-1",
+      "title": "File:Su bardağı Water Glass.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "ee6d45b4e4a7a250cbdc6665d66d430466c029da"
+      ],
+      "author_keys": [
+        "artist_text:satirdan kahraman",
+        "creator_url:commons.wikimedia.org/wiki/user:satirdan kahraman"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_090.json",
+      "json_pointer": "/query/pages/-2",
+      "title": "File:Svatoanenská voda (H2O) 01.jpg",
+      "source_kind": "api_metadata",
+      "sha1s": [
+        "09475e8e9b0718e81a64502d5d1fe86fe8256cbf"
+      ],
+      "author_keys": [
+        "artist_text:pohled 111",
+        "creator_url:commons.wikimedia.org/wiki/user:pohled 111"
+      ],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/0",
+      "title": "File:Apfel 01.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "cdf48d9b3c4a70236a6dc27a4ee9bde873c575a5"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/1",
+      "title": "File:Apfel 6.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "413f9ff8b8a5269e23876ccb98e4874583c2ab70"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/2",
+      "title": "File:Apole.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "a2aacda01da02a3b09d9a0546598a69dcc2ca093"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/3",
+      "title": "File:Apple (2020-12-11).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "bf228f95823e8648b352ad8c4570c9b40a1dd72f"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/4",
+      "title": "File:Apple (511354151).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "2a559e8d23a446baeb0f7335ee2d3bd4ede50dfa"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/5",
+      "title": "File:Apple (Malus domestica) (19719834878).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "75c8937abf7666cffea436b478c95644788e068a"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/6",
+      "title": "File:Apple basket (25963669243).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "17a685d5519020ad9572fab342ae24a420e9fd4e"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/7",
+      "title": "File:Apple cluster on a tree branch in Vermont, US.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "618b9aa7bfdffa96c2425bbf36d9ce020192d74c"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/8",
+      "title": "File:Apple Elstar - Flickr - conall...jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "193f4a71690e603374e82bda96d0ed62e8268965"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/9",
+      "title": "File:Apple on desk.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "4055082449c254150d34740045ba3a3a00040a10"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/10",
+      "title": "File:Apple on red background.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "d9e19e63b33db8a047b4d0fef58385e24f0054c0"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/11",
+      "title": "File:Apple plate.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "47b5b9f5dad8d54e45dd6f555c3c7658e9554e06"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/12",
+      "title": "File:Apple Slice - Flickr - places lost.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "593243a9db2766d2936f2a2d4a215b647c085d71"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/13",
+      "title": "File:Apples (2837340315).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "db0c01b9a4f425ed5dd025b75ffd7588dea948b7"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/14",
+      "title": "File:Apples (4362331143).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "a6200c71aa6ab08a687303f5b1058288a184e525"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/15",
+      "title": "File:Apples (6494047159).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "60f5f70d252ef4ef4c96ebe4a989b359ff3a9499"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/16",
+      "title": "File:Apples - Flickr - munchflemming.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "5f6d0f1872c58ee4b743c8c3efd967f7c1e305ce"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/17",
+      "title": "File:Apples - Flickr - Southernpixel - Alby Headrick.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "6f784bc79dc156a0a9ed5ebbb9c5fa0748164587"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/18",
+      "title": "File:181 365+1 Banana (7623220032).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "abd17145831ee32503708a3b5d41f7ab9b18e532"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/19",
+      "title": "File:4 Bananes.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "fec1c00226378f2ccda0a5d4a49d331245d34c47"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/20",
+      "title": "File:A bunch of bananas.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "28f6d506804509e5b1fffafc63332b2ca880abc4"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/21",
+      "title": "File:Baby bananas.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "e234dbb3124fe69e4bac88c6d788c93b71b1ef90"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/22",
+      "title": "File:Banana (2).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "a9255ddf3718cfe0d4ec210ccb548252939f9655"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/23",
+      "title": "File:Banana (2516487176).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "af70da4dfb439b1c393fa59fe4fd8595308f053d"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/24",
+      "title": "File:Banana - Q503.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "a0537fa9219af5bf64421cd3df844ecd4d72b6c6"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/25",
+      "title": "File:Banana 0757.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "7b90e9078cc1564e4d192f31125f7a5bf19934a9"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/26",
+      "title": "File:Banana 10.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "6ca899696460cdbba2f596aecd0e6ebd805e5485"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/27",
+      "title": "File:Banana 5.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "baf145a3dc7f5dff7f8f00a1db08a62c86fad746"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/28",
+      "title": "File:Banana bonita.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "d94b95992ec5840a84b58b44b522a63cf78ff25c"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/29",
+      "title": "File:Banana bunch on wall.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "2c6978150dd05cff450fa99f9910b534c888bb94"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/30",
+      "title": "File:Banana Bunch.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "5dfc77e32fa1bd6617f05db4300a262ccff3c02d"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/31",
+      "title": "File:Banana caturra.JPG",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "9c9e76906e6372b92602a8d05006453cf9f8d60f"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/32",
+      "title": "File:Banana fruit (musa).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "efa8005ad65f7deeb28abd170a4c3855c7b44300"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/33",
+      "title": "File:Banana nanica.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "348c78b29617ce64595df1a56eba5a6837f66a9d"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/34",
+      "title": "File:Banana part.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "4b7f7c2ce047d8f6ea0d0f9841fe31fedc06e001"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/35",
+      "title": "File:Banana sadež.JPG",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "05e0c6ebc637bf439517a183bc05d3778256f7e3"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/36",
+      "title": "File:16-09-17-WikiLovesCocktails-Zutaten-Img0158.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "0cec7415a7a535012dce074ccda7437964937fa3"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/37",
+      "title": "File:164 - oranges.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "131d5dfbb65003b8887d914349e7d772c2154df5"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/38",
+      "title": "File:2010-365-124 Still Life (4579895727).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "11d15ebb252996f5677be89f370241d83eb5d09b"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/39",
+      "title": "File:2014-365-111 Orange Space (13942821996).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "88c97b932571fd2d44f37d4462edf75d3a54a431"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/40",
+      "title": "File:A Citrus fruit on a Table.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "fed6e02a4d0259222634da60d48f08a200b9324c"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/41",
+      "title": "File:A Green yellow Orange.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "e87339cb622fe32b9cea0d8d374a27bd157535ed"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/42",
+      "title": "File:A zoomed up picture of an orange.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "5e9fd09074dd3c73167653f7d4afa3ed0af1fc49"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/43",
+      "title": "File:Ambersweet oranges.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "2afadf9580c6b5e5b85a512e11465980d74e07cf"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/44",
+      "title": "File:An Orange.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "53cbb08081c377153b9c9f9052804d1b799099e0"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/45",
+      "title": "File:An orange.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "42d93d21f024f5b1407e589009fa3515c7d8f9e5"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/46",
+      "title": "File:Apelsinas.JPG",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "b28016798ed7a4e3d961af15b3ad53a100ccc0d7"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/47",
+      "title": "File:Apelsiner - Flickr - nilsw.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "22f75eb5cb85361bb357dfc3c6fc35d4505fe0d3"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/48",
+      "title": "File:Arancia.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "7bc3cef826b4ebed63699da5d5cf80893f244890"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/49",
+      "title": "File:Arunachali Orange.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "ccd61c6020d0934d07f9be6070cf7b0c75f3679e"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/50",
+      "title": "File:A Glass Full of Water.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "f15f0f17ac5a5fcb39e5a2abe1548a71b9aa7039"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/51",
+      "title": "File:AGUA (33456041042).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "dcc9fe3c4b9a1141d6ab5129af200ca870a70522"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/52",
+      "title": "File:Bengali ek glas pani.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "2e88d352c3cb9dadd0b95c75105e979c8fb9f613"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/53",
+      "title": "File:Blue tumbler.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "82abfc26ea225f5cd3db0a0a5491bcf39deb1d07"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/54",
+      "title": "File:Bubbles in glass of water.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "6b128a4c42a332283597b15aa53c74620ed785a6"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/55",
+      "title": "File:Carafe d'eau.jpeg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "0609c12c6b2a837a03a6e1261a44c6ce8c8101df"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/56",
+      "title": "File:Clean water (30313108598).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "83acef8b30071836c28b8f693555c17c3dc1f166"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/57",
+      "title": "File:CoCo Ichibanya Drinking water.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "e8584079a1563444e42c3b26e447a685163c126f"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/58",
+      "title": "File:Cold Water (117688999).jpeg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "220b94c237134b6c25fafc82995f31817a59bb50"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/59",
+      "title": "File:Cold water (1733066814).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "a90be1c9dcc2f7dadbc7cda0cdecdddc5e19f9fd"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/60",
+      "title": "File:Cup With Water.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "8108fe28597985b1fbd17e27cf691cb81a7517be"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/61",
+      "title": "File:DicWater.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "0c1e2a311a0a80cdb5120cd1211ea01333181a52"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/62",
+      "title": "File:Drei Gläser.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "9e58309af904d5eab878e1abb027cf3d6c7f883e"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/63",
+      "title": "File:Drinkwater.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "dafdb4a46cb2eea794d9d7bca65ba265a09f67b0"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/64",
+      "title": "File:Duritky.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "76b1af2869ce348c44e8170be775d6b468ad10e1"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/65",
+      "title": "File:Edalontzia.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "c3663d3848be95738d58488bcecded7256560508"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/66",
+      "title": "File:Fasting 4-Fasting-a-glass-of-water-on-an-empty-plate.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "db209ea7df79b9c48eb126dfa991a7b5cc089c94"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/67",
+      "title": "File:Flickr - cyclonebill - Vand (6).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "03a68fe9d896a3152b91006bed19fcd26dfdc88c"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/68",
+      "title": "File:Glas halbvoll.JPG",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "53cee6aa1a0105591653f5e494d9b20dae124eee"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/69",
+      "title": "File:Glass Half Full bw 1.JPG",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "9966398f3c6ea08ab3f4f8973b229e2eaca189d9"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/70",
+      "title": "File:Glass half full or half empty.png",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "189d3547b9b90ccf281ce5dd17a6b5f98e900337"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/71",
+      "title": "File:Glass Half Full.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "355a59c0cf7f1d164d169f01ee3d28d507912c43"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/72",
+      "title": "File:Glass of cold mineral water.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "d073c47806f55af090b6416fee1752b77fcd0e8d"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/73",
+      "title": "File:Glass of Water (50838445027).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "5ec382297c35a9aecb652c9544043e3ec25bd2dd"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/74",
+      "title": "File:Glass of Water - Flickr - Greg Riegler Photography.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "572f2534546e75052d1811493c5de981ed954030"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/75",
+      "title": "File:Glass of water on vintage sheet.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "af6e50d9077f9b322c851bf5534b02be5475012c"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/76",
+      "title": "File:Glass of water with ice cubes.JPG",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "a10f7fb2c642da85b511da393fa975b89092c0c7"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/77",
+      "title": "File:Glass of water, detail.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "84fcba9f299ca5caa22442e3ade0e17b6349125b"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/78",
+      "title": "File:Glass of Water.JPG",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "68bcfaa61b8408f92ad94f34f5dbab73f0bd2341"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/79",
+      "title": "File:Glass-half-full.jpeg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "b79a8759a3162ff25e74481298c2ae664a5078d9"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/80",
+      "title": "File:Glass-of-water.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "0dfc2d8e1c9fb11c9a0a148d97342acca0b26da3"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/81",
+      "title": "File:Glasses of water -- Candolim.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "dfeec8c14ac475d82ae65e328743f91b8c511221"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/82",
+      "title": "File:Glasses of water.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "e4651d177a9cb39ac62c99e16607946461830652"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/83",
+      "title": "File:Ice water (11462178684).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "43cf370f7cadb8d6dcbeb9f6193806c033ca6bba"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/84",
+      "title": "File:Ice Water (5685106294).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "88129bfd04d29067d6a3b2cf15092df5dc6ead56"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/85",
+      "title": "File:Jamie Street 2016-06-13 (Unsplash).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "04c18f5e296e67babec416c8b712b2e54d51e463"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/86",
+      "title": "File:Kitchenware Glass Rezowan (4).JPG",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "4beabc217c3ed542822d1dcec6c78db1a24d284a"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/87",
+      "title": "File:Potiri.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "fdec52b34ba514e528e11ad44d4521a6529cf0fd"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/88",
+      "title": "File:Punti di vista.png",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "ee018740fbbb27345b301e787132c831a0924b60"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/89",
+      "title": "File:Stilles Mineralwasser.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "136f353af0eed2cea3368ea0a11a86d67c44d061"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/90",
+      "title": "File:Su bardağı Water Glass.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "ee6d45b4e4a7a250cbdc6665d66d430466c029da"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+      "json_pointer": "/images/91",
+      "title": "File:Svatoanenská voda (H2O) 01.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "09475e8e9b0718e81a64502d5d1fe86fe8256cbf"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/0",
+      "title": "File:Apfel 6.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "413f9ff8b8a5269e23876ccb98e4874583c2ab70"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/1",
+      "title": "File:Apole.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "a2aacda01da02a3b09d9a0546598a69dcc2ca093"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/2",
+      "title": "File:Apple (2020-12-11).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "bf228f95823e8648b352ad8c4570c9b40a1dd72f"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/3",
+      "title": "File:Apple (511354151).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "2a559e8d23a446baeb0f7335ee2d3bd4ede50dfa"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/4",
+      "title": "File:Apple (Malus domestica) (19719834878).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "75c8937abf7666cffea436b478c95644788e068a"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/5",
+      "title": "File:Apple basket (25963669243).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "17a685d5519020ad9572fab342ae24a420e9fd4e"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/6",
+      "title": "File:Apple cluster on a tree branch in Vermont, US.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "618b9aa7bfdffa96c2425bbf36d9ce020192d74c"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/7",
+      "title": "File:Apple on desk.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "4055082449c254150d34740045ba3a3a00040a10"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/8",
+      "title": "File:Apple on red background.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "d9e19e63b33db8a047b4d0fef58385e24f0054c0"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/9",
+      "title": "File:Apples (4362331143).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "a6200c71aa6ab08a687303f5b1058288a184e525"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/10",
+      "title": "File:181 365+1 Banana (7623220032).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "abd17145831ee32503708a3b5d41f7ab9b18e532"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/11",
+      "title": "File:4 Bananes.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "fec1c00226378f2ccda0a5d4a49d331245d34c47"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/12",
+      "title": "File:Baby bananas.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "e234dbb3124fe69e4bac88c6d788c93b71b1ef90"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/13",
+      "title": "File:Banana (2).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "a9255ddf3718cfe0d4ec210ccb548252939f9655"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/14",
+      "title": "File:Banana 0757.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "7b90e9078cc1564e4d192f31125f7a5bf19934a9"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/15",
+      "title": "File:Banana 5.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "baf145a3dc7f5dff7f8f00a1db08a62c86fad746"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/16",
+      "title": "File:Banana bonita.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "d94b95992ec5840a84b58b44b522a63cf78ff25c"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/17",
+      "title": "File:Banana Bunch.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "5dfc77e32fa1bd6617f05db4300a262ccff3c02d"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/18",
+      "title": "File:Banana caturra.JPG",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "9c9e76906e6372b92602a8d05006453cf9f8d60f"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/19",
+      "title": "File:Banana nanica.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "348c78b29617ce64595df1a56eba5a6837f66a9d"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/20",
+      "title": "File:2010-365-124 Still Life (4579895727).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "11d15ebb252996f5677be89f370241d83eb5d09b"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/21",
+      "title": "File:2014-365-111 Orange Space (13942821996).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "88c97b932571fd2d44f37d4462edf75d3a54a431"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/22",
+      "title": "File:A Citrus fruit on a Table.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "fed6e02a4d0259222634da60d48f08a200b9324c"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/23",
+      "title": "File:A Green yellow Orange.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "e87339cb622fe32b9cea0d8d374a27bd157535ed"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/24",
+      "title": "File:A zoomed up picture of an orange.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "5e9fd09074dd3c73167653f7d4afa3ed0af1fc49"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/25",
+      "title": "File:Ambersweet oranges.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "2afadf9580c6b5e5b85a512e11465980d74e07cf"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/26",
+      "title": "File:An Orange.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "53cbb08081c377153b9c9f9052804d1b799099e0"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/27",
+      "title": "File:Apelsinas.JPG",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "b28016798ed7a4e3d961af15b3ad53a100ccc0d7"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/28",
+      "title": "File:Apelsiner - Flickr - nilsw.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "22f75eb5cb85361bb357dfc3c6fc35d4505fe0d3"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/29",
+      "title": "File:Arancia.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "7bc3cef826b4ebed63699da5d5cf80893f244890"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/30",
+      "title": "File:A Glass Full of Water.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "f15f0f17ac5a5fcb39e5a2abe1548a71b9aa7039"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/31",
+      "title": "File:AGUA (33456041042).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "dcc9fe3c4b9a1141d6ab5129af200ca870a70522"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/32",
+      "title": "File:Bubbles in glass of water.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "6b128a4c42a332283597b15aa53c74620ed785a6"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/33",
+      "title": "File:Clean water (30313108598).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "83acef8b30071836c28b8f693555c17c3dc1f166"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/34",
+      "title": "File:Cold Water (117688999).jpeg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "220b94c237134b6c25fafc82995f31817a59bb50"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/35",
+      "title": "File:Cold water (1733066814).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "a90be1c9dcc2f7dadbc7cda0cdecdddc5e19f9fd"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/36",
+      "title": "File:DicWater.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "0c1e2a311a0a80cdb5120cd1211ea01333181a52"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/37",
+      "title": "File:Drei Gläser.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "9e58309af904d5eab878e1abb027cf3d6c7f883e"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/38",
+      "title": "File:Drinkwater.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "dafdb4a46cb2eea794d9d7bca65ba265a09f67b0"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/39",
+      "title": "File:Fasting 4-Fasting-a-glass-of-water-on-an-empty-plate.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "db209ea7df79b9c48eb126dfa991a7b5cc089c94"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/40",
+      "title": "File:Flickr - cyclonebill - Vand (6).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "03a68fe9d896a3152b91006bed19fcd26dfdc88c"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/41",
+      "title": "File:Glas halbvoll.JPG",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "53cee6aa1a0105591653f5e494d9b20dae124eee"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/42",
+      "title": "File:Glass Half Full bw 1.JPG",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "9966398f3c6ea08ab3f4f8973b229e2eaca189d9"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/43",
+      "title": "File:Glass Half Full.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "355a59c0cf7f1d164d169f01ee3d28d507912c43"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/44",
+      "title": "File:Glass of Water (50838445027).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "5ec382297c35a9aecb652c9544043e3ec25bd2dd"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/45",
+      "title": "File:Glass of water on vintage sheet.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "af6e50d9077f9b322c851bf5534b02be5475012c"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/46",
+      "title": "File:Glass of water with ice cubes.JPG",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "a10f7fb2c642da85b511da393fa975b89092c0c7"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/47",
+      "title": "File:Glass of Water.JPG",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "68bcfaa61b8408f92ad94f34f5dbab73f0bd2341"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/48",
+      "title": "File:Glass-half-full.jpeg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "b79a8759a3162ff25e74481298c2ae664a5078d9"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/49",
+      "title": "File:Glass-of-water.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "0dfc2d8e1c9fb11c9a0a148d97342acca0b26da3"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/50",
+      "title": "File:Ice water (11462178684).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "43cf370f7cadb8d6dcbeb9f6193806c033ca6bba"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/51",
+      "title": "File:Ice Water (5685106294).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "88129bfd04d29067d6a3b2cf15092df5dc6ead56"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/52",
+      "title": "File:Kitchenware Glass Rezowan (4).JPG",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "4beabc217c3ed542822d1dcec6c78db1a24d284a"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/53",
+      "title": "File:Stilles Mineralwasser.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "136f353af0eed2cea3368ea0a11a86d67c44d061"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/54",
+      "title": "File:Vaso de agua.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "0bc85a474aa823f76948e2230bbd24795da25aa6"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/55",
+      "title": "File:Water 2.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "1549195a8d51228a940c8a59f2f53c975b4e5585"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/56",
+      "title": "File:Water at glass2.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "7f1efe24e920ec21b5d692a1a4cd37f18d956364"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/57",
+      "title": "File:Water pour 2 (59785756).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "689f23329ba5f2405db3d164e4081bc2edb09a83"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/58",
+      "title": "File:Water with bokeh (3654022771).jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "3b7dbfc08854fdb7f406f2dea72978213890baf3"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    },
+    {
+      "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+      "json_pointer": "/images/59",
+      "title": "File:Water7.jpg",
+      "source_kind": "candidate_or_manifest",
+      "sha1s": [
+        "3645730f4c2848150d70bef827dfe58b1af27bac"
+      ],
+      "author_keys": [],
+      "source_keys": []
+    }
+  ],
+  "exact_titles": [
+    "File:16-09-17-WikiLovesCocktails-Zutaten-Img0158.jpg",
+    "File:164 - oranges.jpg",
+    "File:181 365+1 Banana (7623220032).jpg",
+    "File:2010-365-124 Still Life (4579895727).jpg",
+    "File:2014-365-111 Orange Space (13942821996).jpg",
+    "File:4 Bananes.jpg",
+    "File:A Citrus fruit on a Table.jpg",
+    "File:A Glass Full of Water.jpg",
+    "File:A Green yellow Orange.jpg",
+    "File:A bunch of bananas.jpg",
+    "File:A zoomed up picture of an orange.jpg",
+    "File:AGUA (33456041042).jpg",
+    "File:Ambersweet oranges.jpg",
+    "File:An Orange.jpg",
+    "File:An orange.jpg",
+    "File:Apelsinas.JPG",
+    "File:Apelsiner - Flickr - nilsw.jpg",
+    "File:Apfel 01.jpg",
+    "File:Apfel 6.jpg",
+    "File:Apole.jpg",
+    "File:Apple (2020-12-11).jpg",
+    "File:Apple (511354151).jpg",
+    "File:Apple (Malus domestica) (19719834878).jpg",
+    "File:Apple Elstar - Flickr - conall...jpg",
+    "File:Apple Slice - Flickr - places lost.jpg",
+    "File:Apple basket (25963669243).jpg",
+    "File:Apple cluster on a tree branch in Vermont, US.jpg",
+    "File:Apple on desk.jpg",
+    "File:Apple on red background.jpg",
+    "File:Apple plate.jpg",
+    "File:Apples (2837340315).jpg",
+    "File:Apples (4362331143).jpg",
+    "File:Apples (6494047159).jpg",
+    "File:Apples - Flickr - Southernpixel - Alby Headrick.jpg",
+    "File:Apples - Flickr - munchflemming.jpg",
+    "File:Arancia.jpg",
+    "File:Arunachali Orange.jpg",
+    "File:Baby bananas.jpg",
+    "File:Banana (2).jpg",
+    "File:Banana (2516487176).jpg",
+    "File:Banana - Q503.jpg",
+    "File:Banana 0757.jpg",
+    "File:Banana 10.jpg",
+    "File:Banana 5.jpg",
+    "File:Banana Bunch.jpg",
+    "File:Banana bonita.jpg",
+    "File:Banana bunch on wall.jpg",
+    "File:Banana caturra.JPG",
+    "File:Banana fruit (musa).jpg",
+    "File:Banana nanica.jpg",
+    "File:Banana part.jpg",
+    "File:Banana sadež.JPG",
+    "File:Bengali ek glas pani.jpg",
+    "File:Blue tumbler.jpg",
+    "File:Bubbles in glass of water.jpg",
+    "File:Carafe d'eau.jpeg",
+    "File:Clean water (30313108598).jpg",
+    "File:CoCo Ichibanya Drinking water.jpg",
+    "File:Cold Water (117688999).jpeg",
+    "File:Cold water (1733066814).jpg",
+    "File:Cup With Water.jpg",
+    "File:DicWater.jpg",
+    "File:Drei Gläser.jpg",
+    "File:Drinkwater.jpg",
+    "File:Duritky.jpg",
+    "File:Edalontzia.jpg",
+    "File:Fasting 4-Fasting-a-glass-of-water-on-an-empty-plate.jpg",
+    "File:Flickr - cyclonebill - Vand (6).jpg",
+    "File:Glas halbvoll.JPG",
+    "File:Glass Half Full bw 1.JPG",
+    "File:Glass Half Full.jpg",
+    "File:Glass half full or half empty.png",
+    "File:Glass of Water (50838445027).jpg",
+    "File:Glass of Water - Flickr - Greg Riegler Photography.jpg",
+    "File:Glass of Water.JPG",
+    "File:Glass of cold mineral water.jpg",
+    "File:Glass of water on vintage sheet.jpg",
+    "File:Glass of water with ice cubes.JPG",
+    "File:Glass of water, detail.jpg",
+    "File:Glass-half-full.jpeg",
+    "File:Glass-of-water.jpg",
+    "File:Glasses of water -- Candolim.jpg",
+    "File:Glasses of water.jpg",
+    "File:Ice Water (5685106294).jpg",
+    "File:Ice water (11462178684).jpg",
+    "File:Jamie Street 2016-06-13 (Unsplash).jpg",
+    "File:Kitchenware Glass Rezowan (4).JPG",
+    "File:Potiri.jpg",
+    "File:Punti di vista.png",
+    "File:Stilles Mineralwasser.jpg",
+    "File:Su bardağı Water Glass.jpg",
+    "File:Svatoanenská voda (H2O) 01.jpg",
+    "File:Vaso de agua.jpg",
+    "File:Water 2.jpg",
+    "File:Water 20211205 115735.jpg",
+    "File:Water at glass2.jpg",
+    "File:Water glass9.jpg",
+    "File:Water pour 2 (59785756).jpg",
+    "File:Water with bokeh (3654022771).jpg",
+    "File:Water7.jpg",
+    "File:飲水 (4820799273).jpg"
+  ],
+  "normalized_titles": [
+    "file:16-09-17-wikilovescocktails-zutaten-img0158.jpg",
+    "file:164 - oranges.jpg",
+    "file:181 365+1 banana (7623220032).jpg",
+    "file:2010-365-124 still life (4579895727).jpg",
+    "file:2014-365-111 orange space (13942821996).jpg",
+    "file:4 bananes.jpg",
+    "file:a bunch of bananas.jpg",
+    "file:a citrus fruit on a table.jpg",
+    "file:a glass full of water.jpg",
+    "file:a green yellow orange.jpg",
+    "file:a zoomed up picture of an orange.jpg",
+    "file:agua (33456041042).jpg",
+    "file:ambersweet oranges.jpg",
+    "file:an orange.jpg",
+    "file:apelsinas.jpg",
+    "file:apelsiner - flickr - nilsw.jpg",
+    "file:apfel 01.jpg",
+    "file:apfel 6.jpg",
+    "file:apole.jpg",
+    "file:apple (2020-12-11).jpg",
+    "file:apple (511354151).jpg",
+    "file:apple (malus domestica) (19719834878).jpg",
+    "file:apple basket (25963669243).jpg",
+    "file:apple cluster on a tree branch in vermont, us.jpg",
+    "file:apple elstar - flickr - conall...jpg",
+    "file:apple on desk.jpg",
+    "file:apple on red background.jpg",
+    "file:apple plate.jpg",
+    "file:apple slice - flickr - places lost.jpg",
+    "file:apples (2837340315).jpg",
+    "file:apples (4362331143).jpg",
+    "file:apples (6494047159).jpg",
+    "file:apples - flickr - munchflemming.jpg",
+    "file:apples - flickr - southernpixel - alby headrick.jpg",
+    "file:arancia.jpg",
+    "file:arunachali orange.jpg",
+    "file:baby bananas.jpg",
+    "file:banana (2).jpg",
+    "file:banana (2516487176).jpg",
+    "file:banana - q503.jpg",
+    "file:banana 0757.jpg",
+    "file:banana 10.jpg",
+    "file:banana 5.jpg",
+    "file:banana bonita.jpg",
+    "file:banana bunch on wall.jpg",
+    "file:banana bunch.jpg",
+    "file:banana caturra.jpg",
+    "file:banana fruit (musa).jpg",
+    "file:banana nanica.jpg",
+    "file:banana part.jpg",
+    "file:banana sadež.jpg",
+    "file:bengali ek glas pani.jpg",
+    "file:blue tumbler.jpg",
+    "file:bubbles in glass of water.jpg",
+    "file:carafe d'eau.jpeg",
+    "file:clean water (30313108598).jpg",
+    "file:coco ichibanya drinking water.jpg",
+    "file:cold water (117688999).jpeg",
+    "file:cold water (1733066814).jpg",
+    "file:cup with water.jpg",
+    "file:dicwater.jpg",
+    "file:drei gläser.jpg",
+    "file:drinkwater.jpg",
+    "file:duritky.jpg",
+    "file:edalontzia.jpg",
+    "file:fasting 4-fasting-a-glass-of-water-on-an-empty-plate.jpg",
+    "file:flickr - cyclonebill - vand (6).jpg",
+    "file:glas halbvoll.jpg",
+    "file:glass half full bw 1.jpg",
+    "file:glass half full or half empty.png",
+    "file:glass half full.jpg",
+    "file:glass of cold mineral water.jpg",
+    "file:glass of water (50838445027).jpg",
+    "file:glass of water - flickr - greg riegler photography.jpg",
+    "file:glass of water on vintage sheet.jpg",
+    "file:glass of water with ice cubes.jpg",
+    "file:glass of water, detail.jpg",
+    "file:glass of water.jpg",
+    "file:glass-half-full.jpeg",
+    "file:glass-of-water.jpg",
+    "file:glasses of water -- candolim.jpg",
+    "file:glasses of water.jpg",
+    "file:ice water (11462178684).jpg",
+    "file:ice water (5685106294).jpg",
+    "file:jamie street 2016-06-13 (unsplash).jpg",
+    "file:kitchenware glass rezowan (4).jpg",
+    "file:potiri.jpg",
+    "file:punti di vista.png",
+    "file:stilles mineralwasser.jpg",
+    "file:su bardağı water glass.jpg",
+    "file:svatoanenská voda (h2o) 01.jpg",
+    "file:vaso de agua.jpg",
+    "file:water 2.jpg",
+    "file:water 20211205 115735.jpg",
+    "file:water at glass2.jpg",
+    "file:water glass9.jpg",
+    "file:water pour 2 (59785756).jpg",
+    "file:water with bokeh (3654022771).jpg",
+    "file:water7.jpg",
+    "file:飲水 (4820799273).jpg"
+  ],
+  "original_file_sha1s": [
+    "03a68fe9d896a3152b91006bed19fcd26dfdc88c",
+    "04c18f5e296e67babec416c8b712b2e54d51e463",
+    "05e0c6ebc637bf439517a183bc05d3778256f7e3",
+    "0609c12c6b2a837a03a6e1261a44c6ce8c8101df",
+    "09475e8e9b0718e81a64502d5d1fe86fe8256cbf",
+    "0bc85a474aa823f76948e2230bbd24795da25aa6",
+    "0c1e2a311a0a80cdb5120cd1211ea01333181a52",
+    "0cec7415a7a535012dce074ccda7437964937fa3",
+    "0dfc2d8e1c9fb11c9a0a148d97342acca0b26da3",
+    "11d15ebb252996f5677be89f370241d83eb5d09b",
+    "131d5dfbb65003b8887d914349e7d772c2154df5",
+    "136f353af0eed2cea3368ea0a11a86d67c44d061",
+    "1549195a8d51228a940c8a59f2f53c975b4e5585",
+    "17a685d5519020ad9572fab342ae24a420e9fd4e",
+    "189d3547b9b90ccf281ce5dd17a6b5f98e900337",
+    "193f4a71690e603374e82bda96d0ed62e8268965",
+    "220b94c237134b6c25fafc82995f31817a59bb50",
+    "22f75eb5cb85361bb357dfc3c6fc35d4505fe0d3",
+    "28f6d506804509e5b1fffafc63332b2ca880abc4",
+    "2a559e8d23a446baeb0f7335ee2d3bd4ede50dfa",
+    "2afadf9580c6b5e5b85a512e11465980d74e07cf",
+    "2c6978150dd05cff450fa99f9910b534c888bb94",
+    "2e88d352c3cb9dadd0b95c75105e979c8fb9f613",
+    "348c78b29617ce64595df1a56eba5a6837f66a9d",
+    "355a59c0cf7f1d164d169f01ee3d28d507912c43",
+    "3645730f4c2848150d70bef827dfe58b1af27bac",
+    "3b7dbfc08854fdb7f406f2dea72978213890baf3",
+    "4055082449c254150d34740045ba3a3a00040a10",
+    "413f9ff8b8a5269e23876ccb98e4874583c2ab70",
+    "42d93d21f024f5b1407e589009fa3515c7d8f9e5",
+    "43cf370f7cadb8d6dcbeb9f6193806c033ca6bba",
+    "47b5b9f5dad8d54e45dd6f555c3c7658e9554e06",
+    "4b7f7c2ce047d8f6ea0d0f9841fe31fedc06e001",
+    "4beabc217c3ed542822d1dcec6c78db1a24d284a",
+    "53cbb08081c377153b9c9f9052804d1b799099e0",
+    "53cee6aa1a0105591653f5e494d9b20dae124eee",
+    "572f2534546e75052d1811493c5de981ed954030",
+    "593243a9db2766d2936f2a2d4a215b647c085d71",
+    "5dfc77e32fa1bd6617f05db4300a262ccff3c02d",
+    "5e9fd09074dd3c73167653f7d4afa3ed0af1fc49",
+    "5ec382297c35a9aecb652c9544043e3ec25bd2dd",
+    "5f6d0f1872c58ee4b743c8c3efd967f7c1e305ce",
+    "60f5f70d252ef4ef4c96ebe4a989b359ff3a9499",
+    "618b9aa7bfdffa96c2425bbf36d9ce020192d74c",
+    "689f23329ba5f2405db3d164e4081bc2edb09a83",
+    "68bcfaa61b8408f92ad94f34f5dbab73f0bd2341",
+    "6b128a4c42a332283597b15aa53c74620ed785a6",
+    "6ca899696460cdbba2f596aecd0e6ebd805e5485",
+    "6f784bc79dc156a0a9ed5ebbb9c5fa0748164587",
+    "75c8937abf7666cffea436b478c95644788e068a",
+    "76b1af2869ce348c44e8170be775d6b468ad10e1",
+    "7b90e9078cc1564e4d192f31125f7a5bf19934a9",
+    "7bc3cef826b4ebed63699da5d5cf80893f244890",
+    "7f1efe24e920ec21b5d692a1a4cd37f18d956364",
+    "8108fe28597985b1fbd17e27cf691cb81a7517be",
+    "820b5c5cdd30204c7065f19cac7fa3d0854da11c",
+    "82abfc26ea225f5cd3db0a0a5491bcf39deb1d07",
+    "83acef8b30071836c28b8f693555c17c3dc1f166",
+    "84fcba9f299ca5caa22442e3ade0e17b6349125b",
+    "88129bfd04d29067d6a3b2cf15092df5dc6ead56",
+    "88c97b932571fd2d44f37d4462edf75d3a54a431",
+    "9966398f3c6ea08ab3f4f8973b229e2eaca189d9",
+    "9c9e76906e6372b92602a8d05006453cf9f8d60f",
+    "9e58309af904d5eab878e1abb027cf3d6c7f883e",
+    "a0537fa9219af5bf64421cd3df844ecd4d72b6c6",
+    "a10f7fb2c642da85b511da393fa975b89092c0c7",
+    "a2aacda01da02a3b09d9a0546598a69dcc2ca093",
+    "a6200c71aa6ab08a687303f5b1058288a184e525",
+    "a832a14af7623a3d6e3c6993425e941898cc88ae",
+    "a90be1c9dcc2f7dadbc7cda0cdecdddc5e19f9fd",
+    "a9255ddf3718cfe0d4ec210ccb548252939f9655",
+    "abd17145831ee32503708a3b5d41f7ab9b18e532",
+    "af6e50d9077f9b322c851bf5534b02be5475012c",
+    "af70da4dfb439b1c393fa59fe4fd8595308f053d",
+    "b28016798ed7a4e3d961af15b3ad53a100ccc0d7",
+    "b79a8759a3162ff25e74481298c2ae664a5078d9",
+    "baf145a3dc7f5dff7f8f00a1db08a62c86fad746",
+    "bf228f95823e8648b352ad8c4570c9b40a1dd72f",
+    "c3663d3848be95738d58488bcecded7256560508",
+    "ccd61c6020d0934d07f9be6070cf7b0c75f3679e",
+    "cd719044d9554b7486fb10f40d9e8e672bf59e45",
+    "cdf48d9b3c4a70236a6dc27a4ee9bde873c575a5",
+    "d073c47806f55af090b6416fee1752b77fcd0e8d",
+    "d94b95992ec5840a84b58b44b522a63cf78ff25c",
+    "d9e19e63b33db8a047b4d0fef58385e24f0054c0",
+    "dafdb4a46cb2eea794d9d7bca65ba265a09f67b0",
+    "db0c01b9a4f425ed5dd025b75ffd7588dea948b7",
+    "db209ea7df79b9c48eb126dfa991a7b5cc089c94",
+    "dcc9fe3c4b9a1141d6ab5129af200ca870a70522",
+    "dfeec8c14ac475d82ae65e328743f91b8c511221",
+    "e234dbb3124fe69e4bac88c6d788c93b71b1ef90",
+    "e4651d177a9cb39ac62c99e16607946461830652",
+    "e8584079a1563444e42c3b26e447a685163c126f",
+    "e87339cb622fe32b9cea0d8d374a27bd157535ed",
+    "ee018740fbbb27345b301e787132c831a0924b60",
+    "ee6d45b4e4a7a250cbdc6665d66d430466c029da",
+    "efa8005ad65f7deeb28abd170a4c3855c7b44300",
+    "f15f0f17ac5a5fcb39e5a2abe1548a71b9aa7039",
+    "fdec52b34ba514e528e11ad44d4521a6529cf0fd",
+    "fec1c00226378f2ccda0a5d4a49d331245d34c47",
+    "fed6e02a4d0259222634da60d48f08a200b9324c"
+  ],
+  "author_keys": [
+    "artist_text:[1]",
+    "artist_text:adam smith from corona, ca, usa",
+    "artist_text:adriannanicole",
+    "artist_text:agencia de noticias andes",
+    "artist_text:akihito nakanishi",
+    "artist_text:alabama extension",
+    "artist_text:alby headrick from birmingham, alabama, usa",
+    "artist_text:anemoneprojectors ( talk )",
+    "artist_text:anish sheela",
+    "artist_text:anthony easton from montreal, canada",
+    "artist_text:arria belli ( arria belli )",
+    "artist_text:assianir",
+    "artist_text:avacalop",
+    "artist_text:babunayem",
+    "artist_text:baoothersks",
+    "artist_text:bapple4747",
+    "artist_text:bearas",
+    "artist_text:carlos ebert from são paulo, brazilgru",
+    "artist_text:chris.urs-o",
+    "artist_text:cogdogblog",
+    "artist_text:conall from downpatrick, northern ireland",
+    "artist_text:corn cheese",
+    "artist_text:corpse reviver",
+    "artist_text:cyclonebill",
+    "artist_text:daniel r. blume from toledo, ohio, usa",
+    "artist_text:dave crosby from devon, england",
+    "artist_text:deepan raja .m",
+    "artist_text:dennis wong from hong kong, hong kong",
+    "artist_text:derek jensen ( tysto )",
+    "artist_text:deyvid aleksandr raffo setti e eloy olindo setti",
+    "artist_text:dr jean fortunet",
+    "artist_text:eleonoram2007b",
+    "artist_text:faldrian",
+    "artist_text:ferdous",
+    "artist_text:flemming munch",
+    "artist_text:franziska ruloff",
+    "artist_text:fredericknoronha",
+    "artist_text:ftkelle",
+    "artist_text:gerwin sturm",
+    "artist_text:giancarlos gabriel",
+    "artist_text:giovanakitty",
+    "artist_text:gokulraj andiyappan",
+    "artist_text:gowrirajamanickam01",
+    "artist_text:greg riegler from pensacola, fl, usa",
+    "artist_text:im3847",
+    "artist_text:ines diva",
+    "artist_text:ironmaidenfun",
+    "artist_text:jamie street jamie452",
+    "artist_text:janine pohl ( jacoon )",
+    "artist_text:jeanled11",
+    "artist_text:jenny downing",
+    "artist_text:jins a jacob",
+    "artist_text:jnanaranjan sahu",
+    "artist_text:jorge barrios",
+    "artist_text:ka23 13",
+    "artist_text:katrin gilger",
+    "artist_text:kenny louie from vancouver, canada",
+    "artist_text:kirt cathey from shibuya, tokyo, japan",
+    "artist_text:leijurv",
+    "artist_text:lost places from deutschland",
+    "artist_text:mati10justin",
+    "artist_text:mayrlla duarte",
+    "artist_text:mia gaitanidis",
+    "artist_text:mirentxu.sasieta",
+    "artist_text:nacho",
+    "artist_text:nakengtsapoho",
+    "artist_text:nayan j nath",
+    "artist_text:nils weinander from stockholm, sweden",
+    "artist_text:nisko at slovenian wikipedia",
+    "artist_text:pakixa",
+    "artist_text:paolo neo",
+    "artist_text:peachyeung316",
+    "artist_text:pink sherbet photography from utah, usa",
+    "artist_text:pohled 111",
+    "artist_text:puntosvista.svg : es:usuario:house derivative work: ranzag ( talk )",
+    "artist_text:pxhere",
+    "artist_text:racconish",
+    "artist_text:ralf roletschek",
+    "artist_text:rangbaz",
+    "artist_text:renato20303",
+    "artist_text:rezowan",
+    "artist_text:rhett maxwell",
+    "artist_text:s nova",
+    "artist_text:sandra fauconnier",
+    "artist_text:sarkalay စာကလေး",
+    "artist_text:satirdan kahraman",
+    "artist_text:sealle",
+    "artist_text:susan slater",
+    "artist_text:user carioca",
+    "artist_text:user:libreerre",
+    "artist_text:v.thamaraiselvi",
+    "artist_text:walter j. pilsak , waldsassen, germany",
+    "artist_text:zmrob25",
+    "artist_text:zuhairali",
+    "artist_text:zákupák",
+    "artist_text:श्रेष्ठ भूपेन्द्र",
+    "artist_text:くーさん",
+    "creator_flickr:138221136@n04",
+    "creator_flickr:138895397@n03",
+    "creator_flickr:16176711@n02",
+    "creator_flickr:184594136@n08",
+    "creator_flickr:23178876@n03",
+    "creator_flickr:24363893@n00",
+    "creator_flickr:26242865@n04",
+    "creator_flickr:30615035@n07",
+    "creator_flickr:31846994@n00",
+    "creator_flickr:37996646802@n01",
+    "creator_flickr:39308428@n00",
+    "creator_flickr:40645538@n00",
+    "creator_flickr:42042512@n00",
+    "creator_flickr:42159086@n08",
+    "creator_flickr:44048553@n03",
+    "creator_flickr:61926883@n00",
+    "creator_flickr:71738064@n00",
+    "creator_flickr:75116651@n03",
+    "creator_flickr:7941044@n06",
+    "creator_flickr:82072056@n00",
+    "creator_flickr:87316606@n00",
+    "creator_flickr:93775337@n00",
+    "creator_flickr:97247234@n00",
+    "creator_flickr:97479012@n00",
+    "creator_flickr:99067767@n00",
+    "creator_flickr:99472898@n00",
+    "creator_flickr:alachuacounty",
+    "creator_url:commons.wikimedia.org/wiki/user:aneeshnl",
+    "creator_url:commons.wikimedia.org/wiki/user:anemoneprojectors",
+    "creator_url:commons.wikimedia.org/wiki/user:arria belli",
+    "creator_url:commons.wikimedia.org/wiki/user:assianir",
+    "creator_url:commons.wikimedia.org/wiki/user:avacalop",
+    "creator_url:commons.wikimedia.org/wiki/user:bearas",
+    "creator_url:commons.wikimedia.org/wiki/user:chris.urs-o",
+    "creator_url:commons.wikimedia.org/wiki/user:corn cheese",
+    "creator_url:commons.wikimedia.org/wiki/user:eleonoram2007b",
+    "creator_url:commons.wikimedia.org/wiki/user:ferdous",
+    "creator_url:commons.wikimedia.org/wiki/user:fredericknoronha",
+    "creator_url:commons.wikimedia.org/wiki/user:giancarlos gabriel",
+    "creator_url:commons.wikimedia.org/wiki/user:im3847",
+    "creator_url:commons.wikimedia.org/wiki/user:ironmaidenfun",
+    "creator_url:commons.wikimedia.org/wiki/user:jdontfight",
+    "creator_url:commons.wikimedia.org/wiki/user:jnanaranjan sahu",
+    "creator_url:commons.wikimedia.org/wiki/user:ka23 13",
+    "creator_url:commons.wikimedia.org/wiki/user:leijurv",
+    "creator_url:commons.wikimedia.org/wiki/user:mati10justin",
+    "creator_url:commons.wikimedia.org/wiki/user:nakengtsapoho",
+    "creator_url:commons.wikimedia.org/wiki/user:nayan j nath",
+    "creator_url:commons.wikimedia.org/wiki/user:peachyeung316",
+    "creator_url:commons.wikimedia.org/wiki/user:pohled 111",
+    "creator_url:commons.wikimedia.org/wiki/user:racconish",
+    "creator_url:commons.wikimedia.org/wiki/user:rangbaz",
+    "creator_url:commons.wikimedia.org/wiki/user:ranzag",
+    "creator_url:commons.wikimedia.org/wiki/user:renato20303",
+    "creator_url:commons.wikimedia.org/wiki/user:rezowan",
+    "creator_url:commons.wikimedia.org/wiki/user:s nova",
+    "creator_url:commons.wikimedia.org/wiki/user:sarkalay စာကလေး",
+    "creator_url:commons.wikimedia.org/wiki/user:satirdan kahraman",
+    "creator_url:commons.wikimedia.org/wiki/user:sealle",
+    "creator_url:commons.wikimedia.org/wiki/user:spinster",
+    "creator_url:commons.wikimedia.org/wiki/user:susan slater",
+    "creator_url:commons.wikimedia.org/wiki/user:tysto",
+    "creator_url:commons.wikimedia.org/wiki/user:zuhairali",
+    "creator_url:commons.wikimedia.org/wiki/user:zákupák",
+    "creator_url:commons.wikimedia.org/wiki/user:श्रेष्ठ भूपेन्द्र"
+  ],
+  "source_keys": [
+    "source_commons_file:file:clean water (30313108598).jpg",
+    "source_commons_file:file:puntosvista.svg",
+    "source_flickr_photo:11462178684",
+    "source_flickr_photo:13649025",
+    "source_flickr_photo:13942821996",
+    "source_flickr_photo:1695650382",
+    "source_flickr_photo:1733066814",
+    "source_flickr_photo:19719834878",
+    "source_flickr_photo:21169307336",
+    "source_flickr_photo:2222298179",
+    "source_flickr_photo:2516487176",
+    "source_flickr_photo:25963669243",
+    "source_flickr_photo:2745928379",
+    "source_flickr_photo:2837340315",
+    "source_flickr_photo:29747736653",
+    "source_flickr_photo:33456041042",
+    "source_flickr_photo:344694745",
+    "source_flickr_photo:3527749814",
+    "source_flickr_photo:3654022771",
+    "source_flickr_photo:4362331143",
+    "source_flickr_photo:4579895727",
+    "source_flickr_photo:4820799273",
+    "source_flickr_photo:50838445027",
+    "source_flickr_photo:511354151",
+    "source_flickr_photo:53967686631",
+    "source_flickr_photo:54584020787",
+    "source_flickr_photo:5513663160",
+    "source_flickr_photo:5685106294",
+    "source_flickr_photo:59785756",
+    "source_flickr_photo:6494047159",
+    "source_flickr_photo:7623220032"
+  ],
+  "counts": {
+    "api_page_records": 101,
+    "api_exact_titles": 101,
+    "exact_titles": 101,
+    "normalized_titles": 100
+  },
+  "collisions": [
+    {
+      "normalized": "file:an orange.jpg",
+      "exact_titles": [
+        "File:An Orange.jpg",
+        "File:An orange.jpg"
+      ],
+      "records": [
+        {
+          "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_040.json",
+          "json_pointer": "/query/pages/-5",
+          "title": "File:An Orange.jpg",
+          "source_kind": "api_metadata",
+          "sha1s": [
+            "53cbb08081c377153b9c9f9052804d1b799099e0"
+          ],
+          "author_keys": [
+            "artist_text:ines diva"
+          ],
+          "source_keys": []
+        },
+        {
+          "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/metadata/batch_040.json",
+          "json_pointer": "/query/pages/-6",
+          "title": "File:An orange.jpg",
+          "source_kind": "api_metadata",
+          "sha1s": [
+            "42d93d21f024f5b1407e589009fa3515c7d8f9e5"
+          ],
+          "author_keys": [
+            "artist_text:mati10justin",
+            "creator_url:commons.wikimedia.org/wiki/user:mati10justin"
+          ],
+          "source_keys": []
+        },
+        {
+          "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+          "json_pointer": "/images/44",
+          "title": "File:An Orange.jpg",
+          "source_kind": "candidate_or_manifest",
+          "sha1s": [
+            "53cbb08081c377153b9c9f9052804d1b799099e0"
+          ],
+          "author_keys": [],
+          "source_keys": []
+        },
+        {
+          "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/candidates.json",
+          "json_pointer": "/images/45",
+          "title": "File:An orange.jpg",
+          "source_kind": "candidate_or_manifest",
+          "sha1s": [
+            "42d93d21f024f5b1407e589009fa3515c7d8f9e5"
+          ],
+          "author_keys": [],
+          "source_keys": []
+        },
+        {
+          "source": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json",
+          "json_pointer": "/images/26",
+          "title": "File:An Orange.jpg",
+          "source_kind": "candidate_or_manifest",
+          "sha1s": [
+            "53cbb08081c377153b9c9f9052804d1b799099e0"
+          ],
+          "author_keys": [],
+          "source_keys": []
+        }
+      ]
+    }
+  ],
+  "omitted_normalized_titles": []
+}

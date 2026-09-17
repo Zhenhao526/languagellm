@@ -1,0 +1,27 @@
+{
+  "created_utc": "2026-09-15T12:34:57.936582+00:00",
+  "batch_status_at_design": {
+    "status": "running",
+    "completed_runs": 8,
+    "expected_runs": 64,
+    "context": {
+      "phase": "social",
+      "seed": 28101,
+      "condition": "split2_joint_gain3"
+    }
+  },
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/\u8bed\u8a00/research_program/policy_gain_study/plot_results.py": "9997fb22e8c777521ba5f73dbc8cf9cd860744bd32feebe5f54001145ebf4e57",
+    "/Users/xia/Documents/ChatGPT/\u8bed\u8a00/research_program/policy_gain_study/extract_example.py": "fd08422cc15e583161982b0f384dc6cf630f405ba9987cca3c0b878175993310"
+  },
+  "example_selection": {
+    "seed": 28101,
+    "split": 1,
+    "scout": 0,
+    "map": "first held-out ID",
+    "photo_pair": "first fixed validation pair",
+    "conditions": "all four",
+    "checkpoints": "all eight"
+  },
+  "scope": "Presentation only, no new neural inference or selected successful case."
+}

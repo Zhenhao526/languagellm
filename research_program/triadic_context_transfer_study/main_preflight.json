@@ -1,0 +1,60 @@
+{
+  "status": "passed_before_any_new_policy_forward",
+  "at": "2026-09-15T18:55:51.050631+00:00",
+  "main_pure_tests": 30,
+  "main_test_counts": {
+    "runner": 5,
+    "dataset": 8,
+    "channel": 7,
+    "metrics": 10
+  },
+  "independent_pure_tests": 5,
+  "new_policy_forward_worlds": 0,
+  "training_updates": 0,
+  "new_parameter_initializations": 0,
+  "parameter_loads": 0,
+  "input_files_hash_checked": 97,
+  "support": "All four parts and all other layouts; every case-recipient retains eligible donor support; no outcome-selected cases.",
+  "receipts": {
+    "runner_test_receipt_001.json": {
+      "sha256": "8d1e23d596aa827d283070ad85fe9808cfd4dfdc98cb183322680557cc3c2c7e",
+      "status": "passed_pure_tests"
+    },
+    "dataset_preflight_001.json": {
+      "sha256": "01777cc276cd6b737eda8759265433dad3cadce2d5626776b116795a7c6103fd",
+      "status": "passed"
+    },
+    "channel_test_receipt.json": {
+      "sha256": "90c0def1471938aab6afa39096c4946f601a8390ca1781ec949feb23b9cfa6f5",
+      "status": "passed"
+    },
+    "metrics_test_receipt.json": {
+      "sha256": "3784d1ff11c17dbcaf87ea7b8ebe68a542466581bb85e6c9be081ef9a488f6f8",
+      "status": "passed"
+    },
+    "independent_preflight_001.json": {
+      "sha256": "f52cd6723fbf594fc8449e1cc55e73e802901ea0252bda4168135514a6ca9996",
+      "status": "passed_pure_preflight"
+    },
+    "input_preflight_001.json": {
+      "sha256": "e01842b6c408f3a42da1cbd9d283c8116a77ed39fa1d5f53c88fd0e1d4fbd956",
+      "status": "passed_input_binding_without_parameter_loading"
+    }
+  },
+  "source_sha256_before_freeze": {
+    "runner.py": "e9190878584632a77a6547720779b64c5a086b415e95b92f9657f474e2867436",
+    "dataset.py": "8cd8a87e362e110b3964afdb857b850a781de927d86fdf48fb94cc91ca55290c",
+    "channel_intervention.py": "7a0c22cd4439deda17973ef980ae90e78ed10db2c572e884bd840dc804a9c034",
+    "metrics.py": "9f157f298c57e2892bfd6adc616e30650820c0818a09d61182b82586a9a06d8d",
+    "plan.md": "5f1aa580410544ab39c9c4a7487ac34650b745c22fb72d0a8d5fda40f0b7438d",
+    "tests/test_runner.py": "cc11587a3c4981f77ace193c0ceffa580d8cbf8facaa5b34e84822432019dddb",
+    "tests/test_dataset.py": "672aaf00685710cf13940aa95b916a52f10b294fae954345f9abe6a0506bfbe0",
+    "tests/test_channel_intervention.py": "717b6e551023f8fd9a68c336f2b455ba06dad0464d00c9700a8849bcad734472",
+    "tests/test_metrics.py": "06d785ea999c2a1cf96c3bdbd3ef6edda8104b250841cd4b8cf63575f5010574"
+  },
+  "failures_retained": [
+    "static_preflight_syntax_failure_001.json",
+    "metrics_test_receipt.json: fixture alias correction before successful final pure test run"
+  ],
+  "scope": "Main preparation and execution still to run exactly once; this receipt is not a model or outcome result."
+}

@@ -1,0 +1,86 @@
+{
+  "4": {
+    "initial_stock": [
+      2,
+      2
+    ],
+    "episodes": 10000,
+    "steps": 100,
+    "mean_reward": 1.0,
+    "first_step_reward": 1.0,
+    "last_step_reward": 1.0,
+    "balanced_probability": 0.427639,
+    "remaining_states": [
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        1
+      ]
+    ]
+  },
+  "3": {
+    "initial_stock": [
+      2,
+      2
+    ],
+    "episodes": 10000,
+    "steps": 100,
+    "mean_reward": 0.995,
+    "first_step_reward": 0.7146,
+    "last_step_reward": 1.0,
+    "balanced_probability": 0.4291090000000001,
+    "remaining_states": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        1
+      ]
+    ]
+  },
+  "2": {
+    "initial_stock": [
+      1,
+      1
+    ],
+    "episodes": 10000,
+    "steps": 100,
+    "mean_reward": 0.995,
+    "first_step_reward": 0.71195,
+    "last_step_reward": 1.0,
+    "balanced_probability": 0.42849899999999996,
+    "remaining_states": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ]
+  },
+  "1": {
+    "initial_stock": [
+      0,
+      0
+    ],
+    "episodes": 10000,
+    "steps": 100,
+    "mean_reward": 0.4290509999999999,
+    "first_step_reward": 0.4245,
+    "last_step_reward": 0.4323,
+    "balanced_probability": 0.4290509999999999,
+    "remaining_states": [
+      [
+        0,
+        0
+      ]
+    ]
+  }
+}

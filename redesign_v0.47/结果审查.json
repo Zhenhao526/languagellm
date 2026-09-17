@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "passed_with_stated_limits": true,
+  "status": "passed_scientific_review",
+  "version": "v0.47-reset-granularity",
+  "reviewed_files": [
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.47/reset_granularity_design.json",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.47/reset_granularity_train.py",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.47/reset_granularity_analysis.py",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.47/reset_granularity_statistics.py",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.47/reset_granularity_audit.py",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.47/plot_reset_granularity.py",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.47/visual_qa.py",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.47/build_reset_granularity_report.py",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.47/build_review.py",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.47/package_results.py",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.47/README.md",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.47/results/reset_granularity_001/invocation.json",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.47/results/reset_granularity_001/training_complete.json",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.47/results/reset_granularity_001/reset_granularity_analysis.json",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.47/results/reset_granularity_001/reset_granularity_statistics.json",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.47/results/reset_granularity_001/reset_granularity_audit.json",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.47/results/reset_granularity_001/plot_metadata.json",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.47/results/reset_granularity_001/figures/01_reset_granularity.png",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.47/results/reset_granularity_001/visual_qa.json",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.47/results/reset_granularity_001/通信模块重置粒度与陌生主体恢复研究报告.md"
+  ],
+  "review_scope": [
+    "Checked all 1,296 formal chains across six resident cultures and three reset modes.",
+    "Checked three checkpoints, 46,656 endpoint protocol files and 10,368 training trace files.",
+    "Checked identity-012 target-60 J, role spread, newcomer-resident token agreement and position NMI.",
+    "Checked paired reset effects with 72 matched visual groups per resident culture and 20,000 bootstrap repetitions.",
+    "Checked source/input binding, deterministic replays, raster QA and every absolute local report link."
+  ],
+  "findings": [
+    {
+      "type": "reset_side",
+      "interpretation": "只重置发送端、只重置接收端和两端都重置在相同 resident endpoint 与随机 A/B/C 适应下形成可配对的恢复比较；端点和曲线差异定位通信侧恢复压力。"
+    },
+    {
+      "type": "role_symmetry",
+      "interpretation": "若随机角色 resident 在三种重置模式下保持较低 role spread，说明角色随机化的稳定性来自形成阶段，而不是某一侧恢复训练。"
+    },
+    {
+      "type": "form_function_gap",
+      "interpretation": "pair agreement、J 和 position NMI 是不同构念；有限任务中的功能恢复不能单独证明开放语义或自然语言。"
+    },
+    {
+      "type": "auditability",
+      "interpretation": "独立 NumPy 分析覆盖 279,936 行，独立审计重放 10,368 条轨迹和 46,656 个协议文件，未导入生产模块，model_calls 为 0。"
+    }
+  ],
+  "limitations": [
+    "newcomer 继承同一 resident endpoint 的视觉前端和未重置通信模块，尚非全新主体。",
+    "resident 冻结，没有双向协商、repair、冲突或群体共同改码。",
+    "任务为六站点、三资源、双 token 的有限 grounded protocol，没有开放词汇、延迟库存、互补分工或代际传递。",
+    "72 个视觉组的 bootstrap 区间是描述性不确定性，正式论文仍需预注册层级模型、多重比较和更长时间点。",
+    "NMI 和 pair agreement 需要独立置换、熵校正和未见组合基线。"
+  ],
+  "next_step": "Add 600-update checkpoints and bounded resident adaptation, then introduce delayed resource consequences and generational transmission.",
+  "link_check": {
+    "local_links": 10,
+    "missing": []
+  },
+  "new_training_reviewed": true
+}

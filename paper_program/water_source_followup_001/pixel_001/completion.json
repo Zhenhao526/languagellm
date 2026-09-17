@@ -1,0 +1,20 @@
+{
+  "status": "acquisition_finished_visual_review_pending",
+  "ended_utc": "2026-09-16T05:07:49.346638+00:00",
+  "planned": 4,
+  "processed": 4,
+  "unattempted": 0,
+  "stopped": false,
+  "downloaded": 4,
+  "ordinary": 4,
+  "errors": [],
+  "requests": 4,
+  "near_duplicate_comparisons": 606,
+  "near_duplicate_flags": 0,
+  "review_packet": "/Users/xia/Documents/ChatGPT/语言/paper_program/image_review_batches/batch_004/packet.json",
+  "review_packet_sha256": "b731f6f27f794ab9bdc1fe95d887eda2b6ec359369c6b7cc8ed358c7d52fae4e",
+  "source_inputs_unchanged": true,
+  "model_calls": 0,
+  "confirmation_pixels": 0,
+  "reserved_pixel_reads": 0
+}

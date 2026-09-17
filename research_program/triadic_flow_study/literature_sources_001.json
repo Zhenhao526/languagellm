@@ -1,0 +1,53 @@
+{
+  "at": "2026-09-16T05:20:22.067559+00:00",
+  "search_scope": "Bounded primary-source review of role asymmetry, directed communication and conventionality; not exhaustive",
+  "download_receipt_path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/literature/download_001/receipt.json",
+  "download_receipt_sha256": "607c71833d2cf0aeb3ee4191555cf2e590c6a2fc1efa60ff0acf5fbd7344e743",
+  "successful_new_PDFs": 1,
+  "failed_downloads": 2,
+  "download_retries": 0,
+  "pdfinfo": {
+    "tool_chunk": "4db99b",
+    "pages": 7,
+    "encrypted": false,
+    "javascript": false
+  },
+  "sources": [
+    {
+      "title": "Role Asymmetry and Code Transmission in Signaling Games",
+      "year": 2015,
+      "online_first": "2014-10-29",
+      "url": "https://doi.org/10.1111/cogs.12191",
+      "read_scope": "Publisher HTML: experiment design, code-change analysis, simulation and discussion; PDF view available via web, local PDF download403"
+    },
+    {
+      "title": "Networked Multi-Agent Reinforcement Learning with Emergent Communication",
+      "year": 2020,
+      "url": "https://arxiv.org/abs/2004.02780",
+      "read_scope": "Seven-page arXiv v2 setting and communication/network analysis; official AAMAS3-page extended abstract also read online",
+      "local_file": {
+        "filename": "2020_Gupta_Networked_Multi_Agent_Reinforcement_Learning_with_Emergent_Communication_arXiv.pdf",
+        "requested_url": "https://arxiv.org/pdf/2004.02780",
+        "final_url": "https://arxiv.org/pdf/2004.02780",
+        "content_type": "application/pdf",
+        "status": "downloaded",
+        "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/literature/download_001/2020_Gupta_Networked_Multi_Agent_Reinforcement_Learning_with_Emergent_Communication_arXiv.pdf",
+        "bytes": 491172,
+        "sha256": "f7ee81d042b2adfbd57106ad4ab12c5e5a7359db67cc0b56603e279f169279f6"
+      }
+    },
+    {
+      "title": "Population-level linguistic conventionality benefits the robustness, learnability, and cognitive efficiency of emergent languages",
+      "year": 2026,
+      "url": "https://researchportal.unamur.be/en/publications/population-level-linguistic-conventionality-benefits-the-robustne/",
+      "read_scope": "Author institution abstract and publication metadata only; no full-text review or download"
+    },
+    {
+      "title": "The Five Ws of Multi-Agent Communication",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2602.11583",
+      "read_scope": "Survey as discovery index only; methods and role/interaction sections; stated main literature scope before2025, not a2026 exhaustive update"
+    }
+  ],
+  "notes_sha256": "fb9842390cbd2ef1c816d8f033e4e6cb9e80eab8b11b183fbb8159ed0e971e0a"
+}

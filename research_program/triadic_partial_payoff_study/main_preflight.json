@@ -1,0 +1,21 @@
+{
+  "status": "passed_before_formal_prepare",
+  "at": "2026-09-16T10:35:22.825498",
+  "command": "qwen_collect_pilot/.venv/bin/python -m unittest research_program.triadic_partial_payoff_study.tests.test_utility research_program.triadic_partial_payoff_study.tests.test_runner -v",
+  "tool_chunk_id": "75d19b",
+  "exit_code": 0,
+  "tests": 20,
+  "unittest_seconds": 0.206,
+  "formal_parameter_loads": 0,
+  "formal_training_updates": 0,
+  "scratch_forward_module_samples_this_invocation": 72,
+  "scratch_forward_module_samples_including_prior_utility_preflight": 144,
+  "notes": "11 utility tests + 9 stub runner tests; scratch initialization only in one compatibility test. Earlier negative-index runner test failure retained; fixed before formal run.",
+  "source_sha256": {
+    "runner.py": "57df85a8e905239b15d31f2c2e7d8e11e578ca8f1da5e7627db57924f9c41882",
+    "utility.py": "67040e814d92a100729a9904f366709a3372872bf22d197c554343dbd91258f8",
+    "tests/test_runner.py": "c689e16248f098fb127455da8da03c0282f4dd04d6ff71cc77714c6035047689",
+    "tests/test_utility.py": "d45afd12dd7cc1f8b78f669eb72c95030f1f6e06079873535568ca37b9fad108",
+    "plan.md": "c82fca2428a4d25f94ad836857d73f0cb77a15b50b6322295dc985c5d0c9b92e"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "alias_rows_checked": 164352,
+  "axis_case_counts": {
+    "destination": 552,
+    "kind": 1008,
+    "length": 1008
+  },
+  "backgrounds_per_case": 36,
+  "checkpoint_hashes_checked": 128,
+  "evaluations": 1536,
+  "independent_replay": "Duplicate edge-case filtering, cyclic same-stratum placebo mapping, message route, W2/action rollout, settlement and source/target pair metrics; producer implementation not imported",
+  "live_rows_replayed": 164352,
+  "max_abs_error": 0.0,
+  "model_forward_samples": 71000064,
+  "natural_data_hashes_checked": 128,
+  "optimizer_updates": 0,
+  "placebo_mapping_checks": 2568,
+  "policy_blocks": 128,
+  "probe": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorial_formation_study/results/semantic_transfer_heldout_001",
+  "rows_replayed": 328704,
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorial_formation_study/results/factorial_001_corrected",
+  "source_result_hashes_checked": 128,
+  "status": "passed",
+  "worlds": 11833344
+}

@@ -1,0 +1,30 @@
+{
+  "status": "passed_static_arithmetic",
+  "at": "2026-09-16T05:51:38.327338+00:00",
+  "source_sha256": "e555037fa8a9d72a2ef150a0d99d46e5a893139b2efa02314dffa3e2a001a299",
+  "world_counts": {
+    "new_layouts": 139968,
+    "new_needs": 160704,
+    "new_needs_and_layouts": 53568,
+    "train": 419904
+  },
+  "seed_blocks": 16,
+  "policies": 64,
+  "updates": 384000,
+  "training_world_samples": 98304000,
+  "training_trajectories": 196608000,
+  "symbol_draws": 4718592000,
+  "training_module_samples": 1769472000,
+  "evaluation_worlds": 66686976,
+  "evaluation_module_samples": 600182784,
+  "total_main_module_samples": 2369654784,
+  "expected_independent_evaluation_replay_module_samples": 600182784,
+  "checkpoint_files": 384,
+  "unique_evaluation_files": 576,
+  "target_final_aliases": 64,
+  "new_model_calls_in_this_static_check": 0,
+  "previous_turn_classification": "progress",
+  "previous_output_hash_revalidation": "16/16 passed in4c376f",
+  "seed_prior_exact_integer_search": "No old plan/runner matches in669818",
+  "free_disk_GiB_at_start": 774.4010696411133
+}

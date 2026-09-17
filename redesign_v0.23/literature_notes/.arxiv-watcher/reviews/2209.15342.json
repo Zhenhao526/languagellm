@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "arxiv_id": "2209.15342",
+  "reviewed_at": "2026-09-16T02:46:04.552643+00:00",
+  "review_mode": "full_text",
+  "confidence": "medium",
+  "verdict": "read",
+  "scores": {
+    "relevance": 87.0,
+    "evidence": 85.0,
+    "novelty": 75.0,
+    "impact": 78.0,
+    "reproducibility": 80.0,
+    "author_prior": 50.0,
+    "early_signal": 50.0,
+    "overall": 79.0
+  },
+  "paper_type": "mechanism_or_method",
+  "contribution": "把 Lewis 游戏目标分成信息损失与共同适应损失，并诊断听者过拟合如何影响说者形成的协议。",
+  "evidence_summary": "本轮复用已有完整 packet 与正式论文，复核第 3.1 节、图 1 和脚注 2：冻结原说者与听者，用原说者随机消息训练新探针听者；测试信息损失探针在全分布 p 训练，而非只在 p_test。该诊断不等于原搭档自然成功。",
+  "novelty_comparison": "与 v23 的差异是操纵时点与经验对象：Rita 诊断既定通信发送策略的信息及共同适应缺口；v23 在通信产生之前改变私人视觉行动的组合支持，再冻结接口。仅凭此差异不能认证领域新颖性；也不能将一般信息/共同适应分解或新接收器训练称为本项目创新。",
+  "summary": "v23 的边界参照。私人任务熟练度、自然通信成功与辅助解码可达性必须分别报告。论文重建目标的分解不能未经推导直接搬到本项目混合收益和贪心双目标指标。",
+  "recommendation_reasons": [
+    "解释私人可行动与共同表达不是同一能力。",
+    "防止把新增听者诊断或单独支持 oracle 当作原生通信迁移。"
+  ],
+  "concerns": [
+    "本次只复核相关方法和已有全文记录，没有独立复现实验；领域首次性未确定。",
+    "目标、消息采样和训练支持不同，不能未经证明移用其损失分解。"
+  ]
+}

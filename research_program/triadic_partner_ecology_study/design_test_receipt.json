@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "tests": 4,
+  "elapsed_seconds_reported": 0.088,
+  "command": "qwen_collect_pilot/.venv/bin/python -m unittest research_program.triadic_partner_ecology_study.tests.test_design -v",
+  "new_policy_networks": 0,
+  "neural_forward_calls": 0,
+  "training_updates": 0,
+  "source_sha256": {
+    "research_program/triadic_partner_ecology_study/design.py": "b4062590cce29342d44d70f22d0198a57233878656b415a19bbdf40bb9b87a25",
+    "research_program/triadic_partner_ecology_study/tests/test_design.py": "cfffdb0c29e4a256810d396a9b2a762ad99078dee9d887939069159b593ad79f",
+    "research_program/triadic_partner_ecology_study/plan.md": "194456dc69feb6fa52e8d2a99f6ed98cd15d91e03912286924e8f35ed8a91d30"
+  }
+}

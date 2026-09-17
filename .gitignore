@@ -1,0 +1,59 @@
+# Reproducible source and research notes are tracked. Generated environments,
+# model files and high-volume numerical outputs stay local and are catalogued
+# in STORAGE_MANIFEST.json.
+
+# Python and editor caches
+.venv/
+**/.venv/
+**/*_venv/
+**/.analysis_deps/
+**/__pycache__/
+**/*.pyc
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.ipynb_checkpoints/
+.DS_Store
+
+# Third-party/runtime trees and downloaded model assets
+**/vendor/
+**/runtime/
+**/weights/
+**/models/
+**/deployment/Video-Pre-Training/
+**/runs/
+
+# High-volume generated experiment artifacts
+**/results/**/*.npz
+**/results/**/*.npy
+**/results/**/*.pt
+**/results/**/*.jsonl
+**/results/**/*.csv
+**/results/**/*.png
+**/results/**/*.pdf
+**/results/**/*.log
+**/results/**/*.json
+*.npz
+*.npy
+*.pt
+*.jsonl
+*.safetensors
+*.pth
+*.weights
+*.onnx
+*.h5
+*.parquet
+
+# Local logs and temporary exports
+logs/
+**/tmp/
+**/temp/
+**/*.bak
+**/*.tmp
+
+# Literature cache and downloaded full texts
+文献调研_2026-09-14/数据/
+**/*_fulltext.txt
+
+# Local synchronization helper files
+.sync_stage_paths

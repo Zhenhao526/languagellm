@@ -1,0 +1,31 @@
+{
+  "ids": [
+    "035ac30c9fa6",
+    "0c5464d54275",
+    "0ff272ea63a8",
+    "3f03e83ee644",
+    "503c231e059b",
+    "54c81b71c5ad",
+    "7d2000906c2e",
+    "7f1c6e28f303",
+    "81487bb81e0a",
+    "8eb97f4d4722",
+    "946a3b801316",
+    "b2c10f3d16f0",
+    "e267db35a9c5",
+    "e7ee8f5285ef"
+  ],
+  "sheets": [
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/review_round2/sheet_01.png",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/review_round2/sheet_02.png",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/review_round2/sheet_03.png",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/review_round2/sheet_04.png"
+  ],
+  "image_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/review_round2/sheet_01.png": "62c2efb8cf3e0787564d9f63622ecd4705473f3bdc2bd630895193cb42fb7ae8",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/review_round2/sheet_02.png": "7fcb4bbf846ca003846ed9735e7f78ef19e1306cb05fac081fc1a4b2291c7fdd",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/review_round2/sheet_03.png": "684b1f33943ac514557d1dba0e525536b75b62e81f47c5d67175652e82fc7e09",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/review_round2/sheet_04.png": "850939eaf01a81e20b829612364551632cbde6294540a6b64a1f5ffce79052f5"
+  },
+  "scope": "Remaining14 workflow photos; same frozen criteria; no source title/metadata/model scores"
+}

@@ -1,0 +1,183 @@
+{
+  "status": "passed_readonly_review",
+  "created_at_utc": "2026-09-15T16:21:13.057714+00:00",
+  "input_sha256": {
+    "research_program/triadic_message_study/results/messages_001/execution/results.json": "0e8fb8035e8b84337cc1f9298d2ced94ea61f65bb175b0feedabcab0f8ab587d",
+    "research_program/triadic_message_study/runner.py": "5299c99bb92f3e18f8fae969347084c631a66f78e635d2abc4609c476cb9ae60",
+    "research_program/triadic_coordination_study/runner.py": "9aad4e8bbcb71f645227908ddb05559d103cd919e264dfa5b4bc4eae9aeaba87",
+    "research_program/triadic_task/environment.py": "b2d49ab829edc92e77df527f5b470602c289cdf3ad7728d5e71f411c53582ef6",
+    "research_program/triadic_message_study/gradient_audit_001/verification.json": "eaa7d4c82aac0afb0f05ad246a13d27adeb4d1e3b3f8e62715dabaa95de34153",
+    "research_program/triadic_message_study/results/messages_001/audit_execution_001/verification.json": "bb6a24542663f47d26e46e2d446ef39d9cf4783b9e46733df0e84ff3f1d7ba28",
+    "research_program/triadic_message_study/next_ecology_static_001/results.json": "98e9bc16dbe1739021112bfc155303ec47756a6a867f70a217c418c9d8436b6c"
+  },
+  "independent_decoding_of_all_saved_joint_argmax_count_types": [
+    {
+      "seed": 47101,
+      "condition": "FI_silent",
+      "fixed_mutual_partner": "AC",
+      "always_waiting": "B",
+      "worlds": 143424,
+      "distinct_joint_actions": 25,
+      "executed_worlds": 138885
+    },
+    {
+      "seed": 47101,
+      "condition": "FI_live",
+      "fixed_mutual_partner": "BC",
+      "always_waiting": "A",
+      "worlds": 143424,
+      "distinct_joint_actions": 33,
+      "executed_worlds": 138040
+    },
+    {
+      "seed": 47101,
+      "condition": "PI_silent",
+      "fixed_mutual_partner": "AC",
+      "always_waiting": "B",
+      "worlds": 143424,
+      "distinct_joint_actions": 15,
+      "executed_worlds": 65882
+    },
+    {
+      "seed": 47101,
+      "condition": "PI_live",
+      "fixed_mutual_partner": "BC",
+      "always_waiting": "A",
+      "worlds": 143424,
+      "distinct_joint_actions": 24,
+      "executed_worlds": 133780
+    },
+    {
+      "seed": 47102,
+      "condition": "FI_silent",
+      "fixed_mutual_partner": "AB",
+      "always_waiting": "C",
+      "worlds": 143424,
+      "distinct_joint_actions": 30,
+      "executed_worlds": 136638
+    },
+    {
+      "seed": 47102,
+      "condition": "FI_live",
+      "fixed_mutual_partner": "AB",
+      "always_waiting": "C",
+      "worlds": 143424,
+      "distinct_joint_actions": 30,
+      "executed_worlds": 136296
+    },
+    {
+      "seed": 47102,
+      "condition": "PI_silent",
+      "fixed_mutual_partner": "AB",
+      "always_waiting": "C",
+      "worlds": 143424,
+      "distinct_joint_actions": 12,
+      "executed_worlds": 65211
+    },
+    {
+      "seed": 47102,
+      "condition": "PI_live",
+      "fixed_mutual_partner": "AB",
+      "always_waiting": "C",
+      "worlds": 143424,
+      "distinct_joint_actions": 14,
+      "executed_worlds": 136949
+    },
+    {
+      "seed": 47103,
+      "condition": "FI_silent",
+      "fixed_mutual_partner": "AB",
+      "always_waiting": "C",
+      "worlds": 143424,
+      "distinct_joint_actions": 31,
+      "executed_worlds": 136763
+    },
+    {
+      "seed": 47103,
+      "condition": "FI_live",
+      "fixed_mutual_partner": "BC",
+      "always_waiting": "A",
+      "worlds": 143424,
+      "distinct_joint_actions": 26,
+      "executed_worlds": 141242
+    },
+    {
+      "seed": 47103,
+      "condition": "PI_silent",
+      "fixed_mutual_partner": "AB",
+      "always_waiting": "C",
+      "worlds": 143424,
+      "distinct_joint_actions": 9,
+      "executed_worlds": 64536
+    },
+    {
+      "seed": 47103,
+      "condition": "PI_live",
+      "fixed_mutual_partner": "AB",
+      "always_waiting": "C",
+      "worlds": 143424,
+      "distinct_joint_actions": 16,
+      "executed_worlds": 137986
+    },
+    {
+      "seed": 47104,
+      "condition": "FI_silent",
+      "fixed_mutual_partner": "AC",
+      "always_waiting": "B",
+      "worlds": 143424,
+      "distinct_joint_actions": 34,
+      "executed_worlds": 137604
+    },
+    {
+      "seed": 47104,
+      "condition": "FI_live",
+      "fixed_mutual_partner": "AC",
+      "always_waiting": "B",
+      "worlds": 143424,
+      "distinct_joint_actions": 37,
+      "executed_worlds": 137733
+    },
+    {
+      "seed": 47104,
+      "condition": "PI_silent",
+      "fixed_mutual_partner": "AC",
+      "always_waiting": "B",
+      "worlds": 143424,
+      "distinct_joint_actions": 22,
+      "executed_worlds": 59805
+    },
+    {
+      "seed": 47104,
+      "condition": "PI_live",
+      "fixed_mutual_partner": "AC",
+      "always_waiting": "B",
+      "worlds": 143424,
+      "distinct_joint_actions": 18,
+      "executed_worlds": 135114
+    }
+  ],
+  "counts": {
+    "runs": 16,
+    "worlds_covered": 2294784,
+    "new_model_forward_calls": 0,
+    "new_training_updates": 0
+  },
+  "fixed_pair_idealized_reference": {
+    "assumption": "Given complete state, the fixed pair chooses a jointly satisfying material/destination when compatible, otherwise satisfies one member. These are deterministic policy limits; no trained policy evaluated at these values.",
+    "formula_mean_R": "(1+gamma)/2",
+    "formula_mean_log_J": "-(1-gamma)*log(2)",
+    "original_uniform_ge2": {
+      "gamma": "67/83",
+      "mean_R": "75/83",
+      "mean_log_J": -0.13361873360191717
+    },
+    "symmetric_exactly1": {
+      "gamma": "1/3",
+      "mean_R": "2/3",
+      "mean_log_J": -0.46209812037329684
+    },
+    "new_D_balanced_support": "No numerical bound assumed before final distribution and partition are fixed."
+  },
+  "causal_mechanism_identified": false,
+  "old_source_modified": false
+}

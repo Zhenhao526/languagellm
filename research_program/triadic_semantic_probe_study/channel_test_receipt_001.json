@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "at_utc": "2026-09-15T17:10:20.118468+00:00",
+  "tests": 6,
+  "log": "test_local_both_reproduces_other_agents_inputs_by_construction (research_program.triadic_semantic_probe_study.tests.test_channel_intervention.InterventionTests.test_local_both_reproduces_other_agents_inputs_by_construction) ... ok\ntest_native_settlement_all_4913_actions (research_program.triadic_semantic_probe_study.tests.test_channel_intervention.InterventionTests.test_native_settlement_all_4913_actions) ... ok\ntest_only_outward_payloads_change_and_visibility_is_preserved (research_program.triadic_semantic_probe_study.tests.test_channel_intervention.InterventionTests.test_only_outward_payloads_change_and_visibility_is_preserved) ... ok\ntest_same_fact_same_background_sham_is_exact (research_program.triadic_semantic_probe_study.tests.test_channel_intervention.InterventionTests.test_same_fact_same_background_sham_is_exact) ... ok\ntest_second_window_intervention_preserves_generated_second_messages (research_program.triadic_semantic_probe_study.tests.test_channel_intervention.InterventionTests.test_second_window_intervention_preserves_generated_second_messages) ... ok\ntest_silent_all_interventions_leave_outputs_unchanged (research_program.triadic_semantic_probe_study.tests.test_channel_intervention.InterventionTests.test_silent_all_interventions_leave_outputs_unchanged) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.070s\n\nOK\n",
+  "model_initializations": 0,
+  "actual_neural_forward_calls": 0,
+  "note": "Synthetic actor_forward stub is used for routing and temporal logic; official environment used for 9826 native settlements.",
+  "source_sha256": {
+    "channel_intervention.py": "dec1c449531819db0f2f7362dcf56c8a7cce64baaf160d97b78e213d829f0670",
+    "tests/test_channel_intervention.py": "8c12a460002b26218061841fdee855925de079aa510fb46f84c8e004f1ad8865"
+  }
+}

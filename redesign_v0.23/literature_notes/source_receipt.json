@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-16",
+  "search_queries_used": 4,
+  "new_pdf_downloads": 0,
+  "new_model_calls": 0,
+  "current_results_read": false,
+  "skill_path": "/Users/xia/.codex/plugins/cache/zhenhao-arxiv-tools/arxiv-watcher/0.2.0/skills/arxiv-paper-radar/SKILL.md",
+  "workflow": "Bounded original-method review. Reuse an existing successfully generated radar packet and its associated final PDF; no new collection or packet network requests. Validate an updated question-specific review using radar.py record-review.",
+  "reused_packet": "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_20260915/packets/2209.15342.md",
+  "packet_sha256": "186966af6b8e2ee89eb97140a241b108fd1b8b9a1be1561dbc6be6783f179cb6",
+  "prior_packet_command_log": "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_20260915/packet_2209.15342.log",
+  "searches": [
+    "\"emergent communication\" \"perceptual\" \"generalization\" \"pretrained\"",
+    "\"emergent communication\" \"pretraining\" \"unseen combinations\"",
+    "\"emergent communication\" \"pretraining\" \"all combinations\"",
+    "\"emergent communication\" \"perception\" \"held-out\" \"pretrained\""
+  ],
+  "official_pages_checked": [
+    "https://ojs.aaai.org/index.php/AAAI/article/view/29685",
+    "https://aclanthology.org/2022.naacl-main.335/",
+    "https://arxiv.org/abs/2209.15342"
+  ],
+  "inaccessible_candidate": {
+    "url": "https://openreview.net/pdf?id=yf8suFtNZ5v",
+    "result": "Browser verification challenge. Search snippet only; no full-method assessment or publication-status claim."
+  },
+  "primary_texts": [
+    {
+      "path": "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_capability_20260916/primary/2024_Feng_An_Lu_Multi_Object_Positional_Relationships_AAAI.pages.txt",
+      "sha256": "32161c037e4ca051d2909669d8d3042507349a0813b81b7418e0e6c50f97b703"
+    },
+    {
+      "path": "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_spatial_20260915/primary/2022_Garcia_Disentangling_Categorization_NAACL.pages.txt",
+      "sha256": "880ecd5f65a6f4bac63b600382c495a5b038b9fd41487378be15a4026ad23bc9"
+    },
+    {
+      "path": "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_20260915/primary/2022_Rita_Generalization_and_Overfitting_in_Lewis_Games_NeurIPS2022.pages.txt",
+      "sha256": "1348434e09a9e73d93ab2f1f75fbab7be8cec5a875ab5878ae8e73158c65a63c"
+    }
+  ],
+  "radar_record_review": {
+    "status": "passed",
+    "review_path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.23/literature_notes/.arxiv-watcher/reviews/2209.15342.json",
+    "overall_reading_priority": 79.0,
+    "verdict": "read",
+    "confidence": "medium"
+  },
+  "output_note": {
+    "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.23/近邻与可证伪预测.md",
+    "sha256": "a131aaec7832cc15482a7d432d8dd1ca28de691f8358f6fe60633e308f5da009"
+  },
+  "local_link_check": [
+    {
+      "link": "literature_notes/source_receipt.json",
+      "exists": true
+    },
+    {
+      "link": "../paper_program/literature_capability_20260916/primary/2024_Feng_An_Lu_Multi_Object_Positional_Relationships_AAAI.pdf",
+      "exists": true
+    },
+    {
+      "link": "../paper_program/literature_spatial_20260915/primary/2022_Garcia_Disentangling_Categorization_NAACL.pdf",
+      "exists": true
+    },
+    {
+      "link": "../paper_program/literature_20260915/primary/2022_Rita_Generalization_and_Overfitting_in_Lewis_Games_NeurIPS2022.pdf",
+      "exists": true
+    }
+  ]
+}

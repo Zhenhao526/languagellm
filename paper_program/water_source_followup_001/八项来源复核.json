@@ -1,0 +1,789 @@
+{
+  "schema": "water_eight_official_text_source_review_v1",
+  "created_utc": "2026-09-16T05:03:27.486715+00:00",
+  "reviewer": "literature_update; current official requests collected by root; historical v2 metadata collector role disclosed",
+  "scope": "Independent reading of saved official text; no new network/pixels/models; limited data-source support, not legal audit.",
+  "input_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/八项来源初审.json": "cace8a56661d017c1a94ebe4ca63002b14b49d37c1e3e2bbf62d61f9df4ef1f3",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/八项来源初审.md": "f9bf5e0219e65189fa78e87b1878e7503f44c64a79a84fec299620c521d19c0d",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/prepare_initial_source_review.py": "bdc15579911fca6ea06336b79fb07c2983cda6058961ebfa27c3d624a41c9c1a",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/来源核查固定方案.md": "2c6991040b8175cbdfcb43b5bbde2efb1f03f70fa26b95b023878a1bf4fb69b8",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/source_001/selection.json": "86ba596f24c8e439a8dbe3af86f834bc22eeb438e0bef929de05acf21262caf3",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/source_001/freeze.json": "203b4d735463804394299bb1a038f3315a2f64465ed53f255a6c076effefd34d",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/source_001/completion.json": "e604d9cff811737a75590f49d76734e39ebb95eaca66c42df16198ae22649ce6",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/source_001/raw/commons_files_a1.response": "d438dea30365a78a1a0c2bd0c310fd9e3403e3147697c33c62c073d2935db5ae",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/source_001/raw/commons_authors_a1.response": "d5c6087d8bc13a204b7473b8b8d1c31e74e468d659f33ab264c064fbe1197ee3",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/source_001/raw/flickr_original_a1.response": "7f74c845cbb5843ac06da0e5e6bdc83b68933e1df485e161cb6bf4da4aacd252",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/exclusion_registry.json": "2b58f8550f928f6edc167524882bb7a8e0b8281a786c4684bf19780cacbfafca",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/manifest.json": "96c7270a8346f3900e7decd16b5bddfb1366ef153eccd128128f657429e7a263",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water_review/review_input.json": "f43033b8df66d1211545cbaf74ef26484db79d5f5139265758eefeabb43cdfa4",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/input_snapshots/5e202b44dbb0_old_exclusion_registry.json": "5e202b44dbb0c27436cb08396889ff91727bed976041f4e9d4851f31c7b0ea57",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/input_snapshots/97fe2ffe5557_manifest.json": "97fe2ffe555738dd0259926019d56bf743e7b7adf71f518058adbdeffe259f8c"
+  },
+  "initial_review_preserved": true,
+  "initial_wording_correction": {
+    "location": "八项来源初审.md / 旧排除与关联传播",
+    "original": "第8项还有同作者的另一幅 v2 作品",
+    "corrected": "第8项的同作者另一幅106394147来自 v1 metadata800；未据此替换代表或访问像素。",
+    "reason": "Collection label prose error; initial JSON already records v1_metadata800 correctly. Initial files retained unchanged."
+  },
+  "rows": [
+    {
+      "ordinal": 8,
+      "id": "commons:106394148",
+      "title": "File:Vaso con agua, Madrid, España, 2021 03.jpg",
+      "source_status": "source-supported",
+      "source_gate_eligible": true,
+      "creator_as_credited": "Benjamín Núñez González",
+      "source_basis": "Official file text, recorded attribution, license declaration, exact original file identity, and known-cluster exclusion are consistent.",
+      "source_notes": "未发现具体署名冲突；若后续刷新官方文本，保留作者页/文件修订及许可模板即可。",
+      "scope": "limited_documented_source_support_not_absolute_ownership_or_real_person_proof",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution_required": "true",
+        "attribution_as_recorded": "",
+        "selected_license_only": true
+      },
+      "official_file_evidence": {
+        "path": "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/source_001/raw/commons_files_a1.response",
+        "sha256": "d438dea30365a78a1a0c2bd0c310fd9e3403e3147697c33c62c073d2935db5ae",
+        "pageid": 106394148,
+        "revision_id": 707400671,
+        "revision_timestamp": "2022-11-18T02:07:01Z",
+        "original_sha1": "7b88933f8ce31bda365e12e3d12faee17c055701",
+        "original_version_timestamp": "2021-06-08T17:26:57Z",
+        "wikitext_relevant_lines": [
+          "|source={{own}}",
+          "|author=[[User:Benjamín Núñez González|Benjamín Núñez González]]",
+          "|permission=",
+          "{{self|cc-by-sa-4.0}}"
+        ],
+        "old_revision_and_original_file_identity_match": true
+      },
+      "resolved_aliases": [],
+      "original_source_page": "https://commons.wikimedia.org/wiki/File:Vaso_con_agua,_Madrid,_Espa%C3%B1a,_2021_03.jpg",
+      "attribution_draft": {
+        "title": "Vaso con agua, Madrid, España, 2021 03.jpg",
+        "creator": "Benjamín Núñez González",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Vaso_con_agua,_Madrid,_Espa%C3%B1a,_2021_03.jpg",
+        "license_name": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "modifications": "尚无图像处理；后续若实际裁剪/缩放须按真实处理另记"
+      },
+      "exclusion": {
+        "direct_old1180_overlap": [],
+        "propagated_overlap": [],
+        "connected_keys": [
+          "commons-title:vaso con agua, madrid, españa, 2021 01.jpg",
+          "commons-title:vaso con agua, madrid, españa, 2021 03.jpg",
+          "commons-user:benjamín núñez gonzález",
+          "sha1:74ed4e61ee7172b67d08dbe26b12b12d615a16d0",
+          "sha1:7b88933f8ce31bda365e12e3d12faee17c055701",
+          "text:benjamín núñez gonzález"
+        ],
+        "connected_records": [
+          {
+            "collection": "v1_metadata800",
+            "id": "commons:106394147",
+            "title": "File:Vaso con agua, Madrid, España, 2021 01.jpg"
+          },
+          {
+            "collection": "v2_metadata300",
+            "id": "commons:106394148",
+            "title": "File:Vaso con agua, Madrid, España, 2021 03.jpg"
+          }
+        ]
+      },
+      "previously_fixed_pixel_role": "workflow_candidate",
+      "pixel_status": "not_reviewed",
+      "model_use_approved": false,
+      "new_usable_sample": false
+    },
+    {
+      "ordinal": 19,
+      "id": "commons:11372165",
+      "title": "File:Water and ice.jpg",
+      "source_status": "source-supported",
+      "source_gate_eligible": true,
+      "creator_as_credited": "Victor Blacus",
+      "source_basis": "Official file text, recorded attribution, license declaration, exact original file identity, and known-cluster exclusion are consistent.",
+      "source_notes": "水与冰是同一化学物料的不同相态，不按添加食物排除。透明容器、液态部分及裁剪后辨识度仍须像素评审。",
+      "scope": "limited_documented_source_support_not_absolute_ownership_or_real_person_proof",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution_required": "true",
+        "attribution_as_recorded": "",
+        "selected_license_only": true
+      },
+      "official_file_evidence": {
+        "path": "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/source_001/raw/commons_files_a1.response",
+        "sha256": "d438dea30365a78a1a0c2bd0c310fd9e3403e3147697c33c62c073d2935db5ae",
+        "pageid": 11372165,
+        "revision_id": 1014361048,
+        "revision_timestamp": "2025-03-27T22:29:59Z",
+        "original_sha1": "08b4b21338549c5f6d70650c728975cab52ddb00",
+        "original_version_timestamp": "2010-09-03T12:57:25Z",
+        "wikitext_relevant_lines": [
+          "|Source={{own}}",
+          "|Author=[[User:Victor Blacus|Victor Blacus]]",
+          "|Permission=Permission granted by [[User:Victor Blacus|Victor Blacus]]",
+          "{{self|GFDL|cc-by-sa-all|migration=redundant}}"
+        ],
+        "old_revision_and_original_file_identity_match": true
+      },
+      "resolved_aliases": [],
+      "original_source_page": "https://commons.wikimedia.org/wiki/File:Water_and_ice.jpg",
+      "attribution_draft": {
+        "title": "Water and ice.jpg",
+        "creator": "Victor Blacus",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Water_and_ice.jpg",
+        "license_name": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "modifications": "尚无图像处理；后续若实际裁剪/缩放须按真实处理另记"
+      },
+      "exclusion": {
+        "direct_old1180_overlap": [],
+        "propagated_overlap": [],
+        "connected_keys": [
+          "commons-title:water and ice.jpg",
+          "commons-user:victor blacus",
+          "sha1:08b4b21338549c5f6d70650c728975cab52ddb00",
+          "text:victor blacus"
+        ],
+        "connected_records": [
+          {
+            "collection": "v2_metadata300",
+            "id": "commons:11372165",
+            "title": "File:Water and ice.jpg"
+          }
+        ]
+      },
+      "previously_fixed_pixel_role": "workflow_candidate",
+      "pixel_status": "not_reviewed",
+      "model_use_approved": false,
+      "new_usable_sample": false
+    },
+    {
+      "ordinal": 22,
+      "id": "commons:162912038",
+      "title": "File:A cold glass of water - GE Refrigerator - August 7, 2007.jpg",
+      "source_status": "source-supported",
+      "source_gate_eligible": true,
+      "creator_as_credited": "Dave Matos",
+      "source_basis": "Official file text, recorded attribution, license declaration, exact original file identity, and known-cluster exclusion are consistent.",
+      "source_notes": "Flickr 原作 HTML 与 Commons 审核模板一致支持 Dave Matos／dmatos／ThrasherDave／8068581@N02；旧排除传播无交集，具体 alias 待核已解除。",
+      "scope": "limited_documented_source_support_not_absolute_ownership_or_real_person_proof",
+      "license": {
+        "name": "CC BY-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "attribution_required": "true",
+        "attribution_as_recorded": "",
+        "selected_license_only": true
+      },
+      "official_file_evidence": {
+        "path": "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/source_001/raw/commons_files_a1.response",
+        "sha256": "d438dea30365a78a1a0c2bd0c310fd9e3403e3147697c33c62c073d2935db5ae",
+        "pageid": 162912038,
+        "revision_id": 1118048319,
+        "revision_timestamp": "2025-11-18T18:33:28Z",
+        "original_sha1": "5c6292c2b4a6e45bce0080e794e1d1fed887ce92",
+        "original_version_timestamp": "2025-03-28T16:35:52Z",
+        "wikitext_relevant_lines": [
+          "|source=https://www.flickr.com/photos/dmatos/1081916080/",
+          "|author=Dave Matos",
+          "|permission=",
+          "{{cc-by-sa-2.0}}{{FlickreviewR|status=passed|author=ThrasherDave|sourceurl=https://flickr.com/photos/8068581@N02/1081916080|archive=|reviewdate=2025-03-28 16:36:44|reviewlicense=cc-by-sa-2.0|reviewer=FlickreviewR 2}}"
+        ],
+        "old_revision_and_original_file_identity_match": true
+      },
+      "resolved_aliases": [
+        {
+          "kind": "official_work_and_account_attribution",
+          "target_ordinal": 22,
+          "keys": [
+            "text:dave matos",
+            "text:thrasherdave",
+            "flickr-author:dmatos",
+            "flickr-author:8068581@n02",
+            "flickr-photo:1081916080"
+          ],
+          "evidence": [
+            {
+              "path": "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/source_001/raw/commons_files_a1.response",
+              "sha256": "d438dea30365a78a1a0c2bd0c310fd9e3403e3147697c33c62c073d2935db5ae",
+              "excerpt": "{{FlickreviewR|status=passed|author=ThrasherDave|sourceurl=https://flickr.com/photos/8068581@N02/1081916080|archive=|reviewdate=2025-03-28 16:36:44|reviewlicense=cc-by-sa-2.0|reviewer=FlickreviewR 2}}"
+            },
+            {
+              "path": "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/source_001/raw/flickr_original_a1.response",
+              "sha256": "7f74c845cbb5843ac06da0e5e6bdc83b68933e1df485e161cb6bf4da4aacd252",
+              "excerpt": "JSON-LD: author.name=creator.name=Dave Matos; author.url=/photos/dmatos; acquireLicensePage=/photos/dmatos/1081916080; license=CC BY-SA 2.0. HTML attribution username=ThrasherDave; photostreamId_8068581%40N02."
+            }
+          ],
+          "limit": "Stable account/work linkage supported, not absolute civil identity or unseen-repost independence."
+        }
+      ],
+      "original_source_page": "https://commons.wikimedia.org/wiki/File:A_cold_glass_of_water_-_GE_Refrigerator_-_August_7,_2007.jpg",
+      "attribution_draft": {
+        "title": "A cold glass of water - GE Refrigerator - August 7, 2007.jpg",
+        "creator": "Dave Matos",
+        "source_page": "https://commons.wikimedia.org/wiki/File:A_cold_glass_of_water_-_GE_Refrigerator_-_August_7,_2007.jpg",
+        "license_name": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "modifications": "尚无图像处理；后续若实际裁剪/缩放须按真实处理另记"
+      },
+      "exclusion": {
+        "direct_old1180_overlap": [],
+        "propagated_overlap": [],
+        "connected_keys": [
+          "commons-title:a cold glass of water - ge refrigerator - august 7, 2007.jpg",
+          "flickr-author:8068581@n02",
+          "flickr-author:dmatos",
+          "flickr-photo:1081916080",
+          "sha1:5c6292c2b4a6e45bce0080e794e1d1fed887ce92",
+          "text:dave matos",
+          "text:thrasherdave"
+        ],
+        "connected_records": [
+          {
+            "collection": "v1_metadata800",
+            "id": "commons:162912038",
+            "title": "File:A cold glass of water - GE Refrigerator - August 7, 2007.jpg"
+          },
+          {
+            "collection": "v2_metadata300",
+            "id": "commons:162912038",
+            "title": "File:A cold glass of water - GE Refrigerator - August 7, 2007.jpg"
+          }
+        ]
+      },
+      "previously_fixed_pixel_role": "workflow_candidate",
+      "pixel_status": "not_reviewed",
+      "model_use_approved": false,
+      "new_usable_sample": false
+    },
+    {
+      "ordinal": 42,
+      "id": "commons:11301183",
+      "title": "File:Vaso de agua-Hotel.jpg",
+      "source_status": "source-supported",
+      "source_gate_eligible": true,
+      "creator_as_credited": "Tamorlan",
+      "source_basis": "Official file text, recorded attribution, license declaration, exact original file identity, and known-cluster exclusion are consistent.",
+      "source_notes": "无具体来源冲突；元数据支持进入另行冻结的像素阶段，尚未通过视觉。",
+      "scope": "limited_documented_source_support_not_absolute_ownership_or_real_person_proof",
+      "license": {
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0",
+        "attribution_required": "true",
+        "attribution_as_recorded": "",
+        "selected_license_only": true
+      },
+      "official_file_evidence": {
+        "path": "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/source_001/raw/commons_files_a1.response",
+        "sha256": "d438dea30365a78a1a0c2bd0c310fd9e3403e3147697c33c62c073d2935db5ae",
+        "pageid": 11301183,
+        "revision_id": 1266820267,
+        "revision_timestamp": "2026-08-24T20:42:23Z",
+        "original_sha1": "b6055b3a982d8f2b2b394db515e19c84d2fab1c1",
+        "original_version_timestamp": "2010-08-26T19:10:09Z",
+        "wikitext_relevant_lines": [
+          "|Source={{own}}",
+          "|Author=[[User:Tamorlan|Tamorlan]]",
+          "|Permission=",
+          "{{self|cc-by-3.0}}"
+        ],
+        "old_revision_and_original_file_identity_match": true
+      },
+      "resolved_aliases": [],
+      "original_source_page": "https://commons.wikimedia.org/wiki/File:Vaso_de_agua-Hotel.jpg",
+      "attribution_draft": {
+        "title": "Vaso de agua-Hotel.jpg",
+        "creator": "Tamorlan",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Vaso_de_agua-Hotel.jpg",
+        "license_name": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "modifications": "尚无图像处理；后续若实际裁剪/缩放须按真实处理另记"
+      },
+      "exclusion": {
+        "direct_old1180_overlap": [],
+        "propagated_overlap": [],
+        "connected_keys": [
+          "commons-title:vaso de agua-hotel.jpg",
+          "commons-user:tamorlan",
+          "sha1:b6055b3a982d8f2b2b394db515e19c84d2fab1c1",
+          "text:tamorlan"
+        ],
+        "connected_records": [
+          {
+            "collection": "v1_metadata800",
+            "id": "commons:11301183",
+            "title": "File:Vaso de agua-Hotel.jpg"
+          },
+          {
+            "collection": "v2_metadata300",
+            "id": "commons:11301183",
+            "title": "File:Vaso de agua-Hotel.jpg"
+          }
+        ]
+      },
+      "previously_fixed_pixel_role": "workflow_candidate",
+      "pixel_status": "not_reviewed",
+      "model_use_approved": false,
+      "new_usable_sample": false
+    },
+    {
+      "ordinal": 46,
+      "id": "commons:119699630",
+      "title": "File:PXL 20220624 183020837.jpg",
+      "source_status": "source-supported",
+      "source_gate_eligible": true,
+      "creator_as_credited": "WalkingRadiance",
+      "source_basis": "Official file text, recorded attribution, license declaration, exact original file identity, and known-cluster exclusion are consistent.",
+      "source_notes": "官方 API 明确 User:WalkingRadiance → User:Programmatically；来源署名与上传者的账户差异有文本解释，旧排除传播无交集，具体待核已解除。",
+      "scope": "limited_documented_source_support_not_absolute_ownership_or_real_person_proof",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution_required": "true",
+        "attribution_as_recorded": "",
+        "selected_license_only": true
+      },
+      "official_file_evidence": {
+        "path": "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/source_001/raw/commons_files_a1.response",
+        "sha256": "d438dea30365a78a1a0c2bd0c310fd9e3403e3147697c33c62c073d2935db5ae",
+        "pageid": 119699630,
+        "revision_id": 1010081363,
+        "revision_timestamp": "2025-03-15T21:17:25Z",
+        "original_sha1": "6589227ea3feb16f65b3c1f156b34ce976dd194e",
+        "original_version_timestamp": "2022-06-24T18:46:05Z",
+        "wikitext_relevant_lines": [
+          "|source={{own}}",
+          "|author=[[User:WalkingRadiance|WalkingRadiance]]",
+          "|permission=",
+          "{{self|cc-by-sa-4.0}}"
+        ],
+        "old_revision_and_original_file_identity_match": true
+      },
+      "resolved_aliases": [
+        {
+          "kind": "official_commons_user_redirect",
+          "target_ordinal": 46,
+          "keys": [
+            "commons-user:walkingradiance",
+            "text:walkingradiance",
+            "commons-user:programmatically",
+            "text:programmatically"
+          ],
+          "evidence": [
+            {
+              "path": "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/source_001/raw/commons_authors_a1.response",
+              "sha256": "d5c6087d8bc13a204b7473b8b8d1c31e74e468d659f33ab264c064fbe1197ee3",
+              "excerpt": {
+                "from": "User:WalkingRadiance",
+                "to": "User:Programmatically"
+              }
+            }
+          ],
+          "limit": "Public account-page redirect explains recorded names; not a real-person identity audit."
+        }
+      ],
+      "original_source_page": "https://commons.wikimedia.org/wiki/File:PXL_20220624_183020837.jpg",
+      "attribution_draft": {
+        "title": "PXL 20220624 183020837.jpg",
+        "creator": "WalkingRadiance",
+        "source_page": "https://commons.wikimedia.org/wiki/File:PXL_20220624_183020837.jpg",
+        "license_name": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "modifications": "尚无图像处理；后续若实际裁剪/缩放须按真实处理另记"
+      },
+      "exclusion": {
+        "direct_old1180_overlap": [],
+        "propagated_overlap": [],
+        "connected_keys": [
+          "commons-title:pxl 20220624 183020837.jpg",
+          "commons-user:programmatically",
+          "commons-user:walkingradiance",
+          "sha1:6589227ea3feb16f65b3c1f156b34ce976dd194e",
+          "text:programmatically",
+          "text:walkingradiance"
+        ],
+        "connected_records": [
+          {
+            "collection": "v1_metadata800",
+            "id": "commons:119699630",
+            "title": "File:PXL 20220624 183020837.jpg"
+          },
+          {
+            "collection": "v2_metadata300",
+            "id": "commons:119699630",
+            "title": "File:PXL 20220624 183020837.jpg"
+          }
+        ]
+      },
+      "previously_fixed_pixel_role": "reserved_no_pixel",
+      "pixel_status": "not_reviewed",
+      "model_use_approved": false,
+      "new_usable_sample": false
+    },
+    {
+      "ordinal": 51,
+      "id": "commons:2471589",
+      "title": "File:Kupu bee.jpg",
+      "source_status": "source-supported",
+      "source_gate_eligible": true,
+      "creator_as_credited": "MF-Warburg",
+      "source_basis": "Official file text, recorded attribution, license declaration, exact original file identity, and known-cluster exclusion are consistent.",
+      "source_notes": "署名草案采用 Attribution 指定的 MF-Warburg，不照抄 User: 前缀为姓名；标题不直观但描述明确一杯水，是否可辨另看像素。",
+      "scope": "limited_documented_source_support_not_absolute_ownership_or_real_person_proof",
+      "license": {
+        "name": "CC BY-SA 2.5",
+        "url": "https://creativecommons.org/licenses/by-sa/2.5",
+        "attribution_required": "true",
+        "attribution_as_recorded": "<a href=\"//commons.wikimedia.org/wiki/User:MF-Warburg\" title=\"User:MF-Warburg\">MF-Warburg</a>",
+        "selected_license_only": true
+      },
+      "official_file_evidence": {
+        "path": "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/source_001/raw/commons_files_a1.response",
+        "sha256": "d438dea30365a78a1a0c2bd0c310fd9e3403e3147697c33c62c073d2935db5ae",
+        "pageid": 2471589,
+        "revision_id": 1264924291,
+        "revision_timestamp": "2026-08-21T18:30:02Z",
+        "original_sha1": "75bc8ad0c2d8f6f0d79ad2e89ea91e3c299e2dfb",
+        "original_version_timestamp": "2007-07-28T09:57:08Z",
+        "wikitext_relevant_lines": [
+          "|Source={{Own}}",
+          "|Author=[[User:MF-Warburg]]",
+          "|Permission=",
+          "{{self|cc-by-sa-2.5|author=[[User:MF-Warburg|MF-Warburg]]}}"
+        ],
+        "old_revision_and_original_file_identity_match": true
+      },
+      "resolved_aliases": [],
+      "original_source_page": "https://commons.wikimedia.org/wiki/File:Kupu_bee.jpg",
+      "attribution_draft": {
+        "title": "Kupu bee.jpg",
+        "creator": "MF-Warburg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Kupu_bee.jpg",
+        "license_name": "CC BY-SA 2.5",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+        "modifications": "尚无图像处理；后续若实际裁剪/缩放须按真实处理另记"
+      },
+      "exclusion": {
+        "direct_old1180_overlap": [],
+        "propagated_overlap": [],
+        "connected_keys": [
+          "commons-title:kupu bee.jpg",
+          "commons-user:mf-warburg",
+          "sha1:75bc8ad0c2d8f6f0d79ad2e89ea91e3c299e2dfb",
+          "text:mf-warburg",
+          "text:user:mf-warburg"
+        ],
+        "connected_records": [
+          {
+            "collection": "v2_metadata300",
+            "id": "commons:2471589",
+            "title": "File:Kupu bee.jpg"
+          }
+        ]
+      },
+      "previously_fixed_pixel_role": "reserved_no_pixel",
+      "pixel_status": "not_reviewed",
+      "model_use_approved": false,
+      "new_usable_sample": false
+    },
+    {
+      "ordinal": 62,
+      "id": "commons:140228367",
+      "title": "File:Зајдисонце.jpg",
+      "source_status": "source-supported",
+      "source_gate_eligible": true,
+      "creator_as_credited": "Јана Смилеска",
+      "source_basis": "Official file text, recorded attribution, license declaration, exact original file identity, and known-cluster exclusion are consistent.",
+      "source_notes": "官方 API 确认用户介绍页 missing；文件原作者、自作和许可模板仍明确，上传署名一致。未查询 civil 身份，不因介绍页缺失否定有限来源支持。",
+      "scope": "limited_documented_source_support_not_absolute_ownership_or_real_person_proof",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution_required": "true",
+        "attribution_as_recorded": "",
+        "selected_license_only": true
+      },
+      "official_file_evidence": {
+        "path": "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/source_001/raw/commons_files_a1.response",
+        "sha256": "d438dea30365a78a1a0c2bd0c310fd9e3403e3147697c33c62c073d2935db5ae",
+        "pageid": 140228367,
+        "revision_id": 1013928272,
+        "revision_timestamp": "2025-03-26T17:36:19Z",
+        "original_sha1": "3db37db6fd24236a8209b356f080b4f10c492688",
+        "original_version_timestamp": "2023-11-06T17:08:43Z",
+        "wikitext_relevant_lines": [
+          "|source={{own}}",
+          "|author=[[User:Јана Смилеска|Јана Смилеска]]",
+          "|permission=",
+          "{{self|cc-by-sa-4.0}}"
+        ],
+        "old_revision_and_original_file_identity_match": true
+      },
+      "resolved_aliases": [],
+      "original_source_page": "https://commons.wikimedia.org/wiki/File:%D0%97%D0%B0%D1%98%D0%B4%D0%B8%D1%81%D0%BE%D0%BD%D1%86%D0%B5.jpg",
+      "attribution_draft": {
+        "title": "Зајдисонце.jpg",
+        "creator": "Јана Смилеска",
+        "source_page": "https://commons.wikimedia.org/wiki/File:%D0%97%D0%B0%D1%98%D0%B4%D0%B8%D1%81%D0%BE%D0%BD%D1%86%D0%B5.jpg",
+        "license_name": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "modifications": "尚无图像处理；后续若实际裁剪/缩放须按真实处理另记"
+      },
+      "exclusion": {
+        "direct_old1180_overlap": [],
+        "propagated_overlap": [],
+        "connected_keys": [
+          "commons-title:зајдисонце.jpg",
+          "commons-user:јана смилеска",
+          "sha1:3db37db6fd24236a8209b356f080b4f10c492688",
+          "text:јана смилеска"
+        ],
+        "connected_records": [
+          {
+            "collection": "v1_metadata800",
+            "id": "commons:140228367",
+            "title": "File:Зајдисонце.jpg"
+          },
+          {
+            "collection": "v2_metadata300",
+            "id": "commons:140228367",
+            "title": "File:Зајдисонце.jpg"
+          }
+        ]
+      },
+      "previously_fixed_pixel_role": "reserved_no_pixel",
+      "pixel_status": "not_reviewed",
+      "model_use_approved": false,
+      "new_usable_sample": false
+    },
+    {
+      "ordinal": 70,
+      "id": "commons:117539172",
+      "title": "File:Glass of water with sunlight reflection - 2021 - 001.jpg",
+      "source_status": "source-supported",
+      "source_gate_eligible": true,
+      "creator_as_credited": "Adam S. Keck",
+      "source_basis": "Official file text, recorded attribution, license declaration, exact original file identity, and known-cluster exclusion are consistent.",
+      "source_notes": "保留 Adam S. Keck ↔ Ghostis 两层身份键；不因署名与账号不同自动待核，仍不声称排尽所有未知别名。",
+      "scope": "limited_documented_source_support_not_absolute_ownership_or_real_person_proof",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution_required": "true",
+        "attribution_as_recorded": "",
+        "selected_license_only": true
+      },
+      "official_file_evidence": {
+        "path": "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/source_001/raw/commons_files_a1.response",
+        "sha256": "d438dea30365a78a1a0c2bd0c310fd9e3403e3147697c33c62c073d2935db5ae",
+        "pageid": 117539172,
+        "revision_id": 1274062547,
+        "revision_timestamp": "2026-09-08T20:12:59Z",
+        "original_sha1": "fc29238caba0ce971985321f6928a165c50c7506",
+        "original_version_timestamp": "2022-04-30T01:59:57Z",
+        "wikitext_relevant_lines": [
+          "|source={{own}}",
+          "|author=[[User:Ghostis|Adam S. Keck]]",
+          "|permission=",
+          "{{self|cc-by-sa-4.0}}"
+        ],
+        "old_revision_and_original_file_identity_match": true
+      },
+      "resolved_aliases": [],
+      "original_source_page": "https://commons.wikimedia.org/wiki/File:Glass_of_water_with_sunlight_reflection_-_2021_-_001.jpg",
+      "attribution_draft": {
+        "title": "Glass of water with sunlight reflection - 2021 - 001.jpg",
+        "creator": "Adam S. Keck",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Glass_of_water_with_sunlight_reflection_-_2021_-_001.jpg",
+        "license_name": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "modifications": "尚无图像处理；后续若实际裁剪/缩放须按真实处理另记"
+      },
+      "exclusion": {
+        "direct_old1180_overlap": [],
+        "propagated_overlap": [],
+        "connected_keys": [
+          "commons-title:glass of water with sunlight reflection - 2021 - 001.jpg",
+          "commons-user:ghostis",
+          "sha1:fc29238caba0ce971985321f6928a165c50c7506",
+          "text:adam s. keck",
+          "text:ghostis"
+        ],
+        "connected_records": [
+          {
+            "collection": "v2_metadata300",
+            "id": "commons:117539172",
+            "title": "File:Glass of water with sunlight reflection - 2021 - 001.jpg"
+          }
+        ]
+      },
+      "previously_fixed_pixel_role": "reserved_no_pixel",
+      "pixel_status": "not_reviewed",
+      "model_use_approved": false,
+      "new_usable_sample": false
+    }
+  ],
+  "aliases": [
+    {
+      "kind": "official_work_and_account_attribution",
+      "target_ordinal": 22,
+      "keys": [
+        "text:dave matos",
+        "text:thrasherdave",
+        "flickr-author:dmatos",
+        "flickr-author:8068581@n02",
+        "flickr-photo:1081916080"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/source_001/raw/commons_files_a1.response",
+          "sha256": "d438dea30365a78a1a0c2bd0c310fd9e3403e3147697c33c62c073d2935db5ae",
+          "excerpt": "{{FlickreviewR|status=passed|author=ThrasherDave|sourceurl=https://flickr.com/photos/8068581@N02/1081916080|archive=|reviewdate=2025-03-28 16:36:44|reviewlicense=cc-by-sa-2.0|reviewer=FlickreviewR 2}}"
+        },
+        {
+          "path": "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/source_001/raw/flickr_original_a1.response",
+          "sha256": "7f74c845cbb5843ac06da0e5e6bdc83b68933e1df485e161cb6bf4da4aacd252",
+          "excerpt": "JSON-LD: author.name=creator.name=Dave Matos; author.url=/photos/dmatos; acquireLicensePage=/photos/dmatos/1081916080; license=CC BY-SA 2.0. HTML attribution username=ThrasherDave; photostreamId_8068581%40N02."
+        }
+      ],
+      "limit": "Stable account/work linkage supported, not absolute civil identity or unseen-repost independence."
+    },
+    {
+      "kind": "official_commons_user_redirect",
+      "target_ordinal": 46,
+      "keys": [
+        "commons-user:walkingradiance",
+        "text:walkingradiance",
+        "commons-user:programmatically",
+        "text:programmatically"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/xia/Documents/ChatGPT/语言/paper_program/water_source_followup_001/source_001/raw/commons_authors_a1.response",
+          "sha256": "d5c6087d8bc13a204b7473b8b8d1c31e74e468d659f33ab264c064fbe1197ee3",
+          "excerpt": {
+            "from": "User:WalkingRadiance",
+            "to": "User:Programmatically"
+          }
+        }
+      ],
+      "limit": "Public account-page redirect explains recorded names; not a real-person identity audit."
+    }
+  ],
+  "summary": {
+    "source_supported": 8,
+    "pending": 0,
+    "contradicted": 0,
+    "workflow_candidates_source_eligible": [
+      8,
+      19,
+      22,
+      42
+    ],
+    "reserved_pixel_ordinals": [
+      46,
+      51,
+      62,
+      70
+    ],
+    "new_usable_images": 0
+  },
+  "exclusion_propagation": {
+    "old1180_count": 1180,
+    "closed_count": 1255,
+    "passes": 2,
+    "added_exclusion_keys": [
+      "commons-title:a glass of beer on a wooden table (2).jpg",
+      "commons-title:blødkogt æg, brød, cheddar og havregrød med slåensnaps og kaffe (6088553240).jpg",
+      "commons-title:coffee-cup-water-glass (23696519554).jpg",
+      "commons-title:cutlery at a sittning in november 2025.jpg",
+      "commons-title:flickr - cyclonebill - kaffe og vand.jpg",
+      "commons-title:lime tonic water.jpg",
+      "commons-title:octava imagen.jpg",
+      "commons-title:persona limpiando vaso.jpg",
+      "commons-title:svatoanenská voda (h2o) 02.jpg",
+      "commons-title:svatoanenská voda (h2o) 03.jpg",
+      "commons-title:ukraine accountability conference the hague 2022 (52215803949).jpg",
+      "commons-title:water surface glass.jpg",
+      "commons-user:elitre",
+      "commons-user:faep",
+      "commons-user:jay8g",
+      "commons-user:snowmanradio",
+      "commons-user:tm",
+      "flickr-author:25406965@n02",
+      "flickr-author:78392295@n06",
+      "flickr-author:adavey",
+      "flickr-author:alachuacounty",
+      "flickr-author:aljazeeraenglish",
+      "flickr-author:aucklandmuseum collections",
+      "flickr-author:cgpgrey",
+      "flickr-author:cogdog",
+      "flickr-author:conall",
+      "flickr-author:cyclonebill",
+      "flickr-author:dahlstroms",
+      "flickr-author:dainisgraveris",
+      "flickr-author:davidstanleytravel",
+      "flickr-author:denniswong",
+      "flickr-author:dfataustralianaid",
+      "flickr-author:drb62",
+      "flickr-author:giuseppemilo",
+      "flickr-author:guymoll",
+      "flickr-author:itupictures",
+      "flickr-author:kuboki",
+      "flickr-author:leandrociuffo",
+      "flickr-author:luckypines",
+      "flickr-author:michalo",
+      "flickr-author:ministeriebz",
+      "flickr-author:ndrwfgg",
+      "flickr-author:psyberartist",
+      "flickr-author:quinnanya",
+      "flickr-author:r-z",
+      "flickr-author:risager",
+      "flickr-author:rspeed",
+      "flickr-author:savannahgrandfather",
+      "flickr-author:starcade",
+      "flickr-author:veggiefrog",
+      "flickr-author:vialbost",
+      "flickr-author:x1brett",
+      "flickr-photo:23696519554",
+      "flickr-photo:3309231393",
+      "flickr-photo:52215803949",
+      "flickr-photo:6088553240",
+      "sha1:08ee10713524c0e64c0d482aebc756b141519cb2",
+      "sha1:1bac6f5a2c53772c6971ffea5cb2da17bc7cacc0",
+      "sha1:1e14c4fa8e1fe1ff0cb1d4d853ebd64dd6016da6",
+      "sha1:4eb133c148fc8e53a2bf519f3f9945308b5647c4",
+      "sha1:5a09dc6eae074de717aa714665489b225b48dd4e",
+      "sha1:a83c93e5bf11d0c5a87df1cc2ecf0b682c2864cf",
+      "sha1:a936f6da2b525ad0be16da63ad7f66d96fc46e35",
+      "sha1:b2bf97a3eedced418185fee1698a8f6c16b71f40",
+      "sha1:c59dfe8549b4db77359543f5992fd4da5cf6aba7",
+      "sha1:ed6bce46f2966c10283b14fd7140a82e8b8ef804",
+      "sha1:efcb86b71e7cd1df37fee3c12e3d158536ec92bb",
+      "sha1:fe790b7b61319d720db36839059b2ce1fa68de3c",
+      "text:cyclonebill from copenhagen, denmark",
+      "text:elitre",
+      "text:faep",
+      "text:jay8g",
+      "text:ministerie van buitenlandse zaken",
+      "text:snowmanradio",
+      "text:tm"
+    ],
+    "all79_checked": 79,
+    "affected_representatives": [],
+    "original_registry_modified": false,
+    "method": "Initial read-only link-key extraction over old101+v1metadata800+v2metadata300; add two official account/work co-association sets, close on metadata components. Username ThrasherDave is a text key, not asserted to be a Flickr path alias."
+  },
+  "all8_original_sha1_timestamp_and_revision_match": true,
+  "input_hashes_unchanged": true,
+  "new_network_requests": 0,
+  "pixel_reads": 0,
+  "model_calls": 0
+}

@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "date": "2026-09-16",
+  "static_case_checks": {
+    "groups": 48,
+    "backgrounds": 36,
+    "endpoints_per_group": 4,
+    "host_donor_cells_per_group_background": 16,
+    "off_diagonal_cells": 12,
+    "semantic_layers": 12,
+    "endpoint_cycle_within_group": true,
+    "cross_group_cycle_same_sender_listener_attribute_layer": true,
+    "deterministic_maps": true
+  },
+  "formal_policy_output_files_read": 0,
+  "neural_forward_samples": 0,
+  "training_updates": 0,
+  "candidate_plan_sha256": "73583dc793de3c06ad635251b028a59eb82c77a228146e2bb053a93363f4606d",
+  "candidate_prepared_sha256": "e07ffe8ffd644605971657a253c476ad430c12da7828f05d1c7f06e0ea7ec8cb",
+  "maps_sha256": "5a902e42dfbebab17e2973b7c8e9a6f4304699a9318603a56dd85dabb1c05092",
+  "test_command": "qwen_collect_pilot/.venv/bin/python -m pytest -q research_program/triadic_packet_identity_control_study/tests",
+  "tests_passed": 2,
+  "tests_failed": 0,
+  "compile_check": "qwen_collect_pilot/.venv/bin/python -m py_compile research_program/triadic_packet_identity_control_study/*.py"
+}

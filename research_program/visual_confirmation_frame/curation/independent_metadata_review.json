@@ -1,0 +1,131 @@
+{
+  "status": "passed_metadata_reconstruction_only",
+  "completed_at_utc": "2026-09-15T14:01:12.225456+00:00",
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/visual_confirmation_frame/details_002/execution/records.json": "05b100ca038cb199c974ade0457203547c2767d3be3f31ec65b94241dd7aef5c",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/visual_confirmation_frame/details_001/old_index_evidence.json": "fef9585c99b5f119db0d7ff16acc033e954c639775f5d6482175e287ad7dedb8",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/visual_confirmation_frame/curation/plan.md": "704e91200a71d1b6b663f147543a69b5932d031620e7a4965e1331875b8defdb",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/visual_confirmation_frame/curation/prepare_candidates.py": "65a38d757fd0ba4b6a1ac6dd6ba1134c8ac3b44db1ffb92602645195b86ece5f",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/visual_confirmation_frame/curation/independent_metadata_review.py": "2c8f8dbdab7aa2aade111cc91b29275f90bf393dfc7c13cf49a65935049c7c47",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/visual_confirmation_frame/curation/ranking_001/result.json": "ad8bd1f3e6b16f8ff5db17dc6f2546d82df126ae8b9093691f45a53263583624"
+  },
+  "ranking": "/Users/xia/Documents/ChatGPT/语言/research_program/visual_confirmation_frame/curation/ranking_001",
+  "counts": {
+    "metadata_records": 1876,
+    "components_before_source_title_edges": 1217,
+    "components_after_source_title_edges": 1215,
+    "old_blocked_components": 99,
+    "old_blocked_files": 147,
+    "ambiguous_source_components": 0,
+    "explicit_source_status": {
+      "unresolved_outside_frame": 16,
+      "unique_target": 6
+    },
+    "water_reserved_components": 106,
+    "labels": {
+      "apple": {
+        "metadata_eligible_files": 379,
+        "metadata_eligible_global_components": 272,
+        "pool_files_after_water_priority": 360,
+        "pool_global_components_after_water_priority": 265,
+        "nominated": 42,
+        "primary": 28,
+        "reserve": 14,
+        "minimum_shortfall_before_visual_review": 0
+      },
+      "banana": {
+        "metadata_eligible_files": 407,
+        "metadata_eligible_global_components": 303,
+        "pool_files_after_water_priority": 392,
+        "pool_global_components_after_water_priority": 297,
+        "nominated": 42,
+        "primary": 28,
+        "reserve": 14,
+        "minimum_shortfall_before_visual_review": 0
+      },
+      "orange": {
+        "metadata_eligible_files": 502,
+        "metadata_eligible_global_components": 335,
+        "pool_files_after_water_priority": 491,
+        "pool_global_components_after_water_priority": 328,
+        "nominated": 42,
+        "primary": 28,
+        "reserve": 14,
+        "minimum_shortfall_before_visual_review": 0
+      },
+      "water": {
+        "metadata_eligible_files": 164,
+        "metadata_eligible_global_components": 106,
+        "pool_files_after_water_priority": 164,
+        "pool_global_components_after_water_priority": 106,
+        "nominated": 106,
+        "primary": 84,
+        "reserve": 22,
+        "minimum_shortfall_before_visual_review": 0
+      }
+    },
+    "nominated_total": 232,
+    "declared_original_bytes": 618432302,
+    "exclusions_nonexclusive": {
+      "author_keys_missing": 17,
+      "short_side_below_512": 145,
+      "global_component_old_material_or_author_or_source": 147,
+      "license_pattern_not_supported": 64,
+      "mime_not_static_raster_candidate": 36,
+      "category_overlap": 18,
+      "explicit_generated_or_nonphoto_marker": 2,
+      "file_size_missing_or_outside_1_to_16MiB": 44
+    }
+  },
+  "new_normalized_source_title_relationships": [
+    {
+      "from_pageid": 5948709,
+      "to_pageid": 45067683,
+      "raw_source_links": [
+        {
+          "field": "Credit",
+          "url": "//commons.wikimedia.org/wiki/File:Bananas.JPG",
+          "raw_title": "File:Bananas.JPG"
+        }
+      ],
+      "frame_title": "File:BANANAS.jpg",
+      "exact_raw_title_match": false
+    },
+    {
+      "from_pageid": 9367965,
+      "to_pageid": 8945613,
+      "raw_source_links": [
+        {
+          "field": "Credit",
+          "url": "//commons.wikimedia.org/wiki/File:Petrina.orangepiano.jpg",
+          "raw_title": "File:Petrina.orangepiano.jpg"
+        }
+      ],
+      "frame_title": "File:Petrina.orangepiano.jpg",
+      "exact_raw_title_match": true
+    }
+  ],
+  "checks": {
+    "all_raw_artist_source_keys_reextracted": true,
+    "all_old_exclusion_flags_recomputed": true,
+    "full_graph_before_exclusions": true,
+    "all_1876_decisions_exact": true,
+    "all_nomination_orders_exact": true,
+    "globally_unique_component_per_nomination": true,
+    "anonymous_review_manifest_exact": true,
+    "source_and_result_hashes_checked": true,
+    "no_pixels_no_network_no_models": true
+  },
+  "not_executed": [
+    "pixel review",
+    "photographer/series identity verification",
+    "license chain verification",
+    "acceptance/reserve replacement",
+    "final 48/12/24 material allocation"
+  ],
+  "limitations": [
+    "metadata component is not proven independent photographer",
+    "normalization-only title matches can conservatively merge different originals",
+    "fixed marker list only screens disclosed generation/non-photo metadata"
+  ]
+}

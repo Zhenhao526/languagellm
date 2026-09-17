@@ -1,0 +1,194 @@
+{
+  "passed": true,
+  "created_utc": "2026-09-16T05:21:32.659357+00:00",
+  "reviewer": "plan_scope independent finite static review",
+  "scope": "AST/bytes, deterministic metadata allocation and image bytes hashing only; no imports of model/runner, no image decoding/viewing, no network, no tensor forward or optimizer calls",
+  "source_hashes": {
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.23/run_experience.py": "5c810d71886004f73284e7936d629646b3647496c5421f992285ce4fedf6afe1",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.28/run_formation.py": "599c44318ccd07bebd3274ad57dd49e712d7440504cd8502fa454b60d108df9e",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.28/metrics.py": "87d76b65b0c49ad2dce1ca981bb3e2818bfd53243920e305e1ce93582abbfa81",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.23/metrics.py": "87d76b65b0c49ad2dce1ca981bb3e2818bfd53243920e305e1ce93582abbfa81",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.28/world.py": "42f6bbfac3d1beb4ec676a12104440e6ad18a0c69dc653cd2677f930c0359c4e",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.23/world.py": "940ed0a0d30417207e8ec065d320ea1e7fb1a0bc6c429ef9dca646ae3fb2dc7c",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/run_pilot.py": "0045c0789884d95e480c79b1827c5caf56e6820036e6ed64c2a0f0da35231134",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/camp.py": "21ad5ff2eecf871ff2e8e17e5623875f55d701e66302b741a46658c0cec81854",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.28/prepare_data.py": "2d926462017552d828225d4c423cb35754ada8a712652d32fafdb7bfdc5eeaca",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.28/固定执行方案.md": "5315ffadf4e0ff805d593390a1393a76c1568ea0982a84b0e17b7815ee24334f",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.28/前置科学审查.md": "4421c375749da5806d75dd9ca5c224f7ec807490d23e76e6a989cfc7ce2694ba",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.28/data/selection.json": "857a120ba0e10612822ffc54cc4957f33ec5d70bb1f13f3ac2c457b92eb08baa",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.28/data/freeze.json": "a4c7882b0c2f362eda23bb12508e7a065d2cfb4435f50a5d83d84c051baa0ff2"
+  },
+  "checks": {
+    "core_prepare": true,
+    "core_fit_private": true,
+    "core_restore": true,
+    "core_make_cache": true,
+    "core_update_social": true,
+    "core_fit_social": true,
+    "core_encode": true,
+    "core_private_eval": true,
+    "core_social_eval": true,
+    "only_main_and_source_hashes_changed": true,
+    "metrics_byte_identical": true,
+    "only_SEEDS_assignment_changed": true,
+    "selection_bound_before_inference": true,
+    "twelve_unique_images_and_known_clusters": true,
+    "deterministic_split_apple": true,
+    "deterministic_split_banana": true,
+    "deterministic_split_orange": true,
+    "deterministic_split_water": true,
+    "split_counts_8_4": true,
+    "train_test_file_hash_disjoint": true,
+    "all_selected_file_hashes_bound_and_match": true,
+    "source_manifest_data_producer_plan_bound": true,
+    "all_and_only_nine_accepted_fruit_three_accepted_water": true
+  },
+  "core_functions": [
+    {
+      "name": "prepare",
+      "identical_ast": true,
+      "old_line": 37,
+      "new_line": 38,
+      "ast_sha256": "fb45093454e664bd67af663dadc3080bb74599e44f7ee49edddefe4e1a76458a"
+    },
+    {
+      "name": "fit_private",
+      "identical_ast": true,
+      "old_line": 60,
+      "new_line": 61,
+      "ast_sha256": "16891dc25ba5ef3037785d970b760d64c03143b8b424e90a39e96858ace82c12"
+    },
+    {
+      "name": "restore",
+      "identical_ast": true,
+      "old_line": 95,
+      "new_line": 96,
+      "ast_sha256": "d6d4ac05ab66e3528954f6ce54712849862034e7b2243aebfcbaf60ff9893739"
+    },
+    {
+      "name": "make_cache",
+      "identical_ast": true,
+      "old_line": 103,
+      "new_line": 104,
+      "ast_sha256": "e31c8decd92397df6e725e556a5729329a843a25cd7a7881f5c669043b097aa7"
+    },
+    {
+      "name": "update_social",
+      "identical_ast": true,
+      "old_line": 127,
+      "new_line": 128,
+      "ast_sha256": "03a4982cb5a433ef7b52b81547f57d4c38d4fa1580757db60beb7077b1a161b7"
+    },
+    {
+      "name": "fit_social",
+      "identical_ast": true,
+      "old_line": 144,
+      "new_line": 145,
+      "ast_sha256": "6d425f845176ce4fce942c6ba73f0ae52b953407ae37caad792ae3ae51774cd4"
+    },
+    {
+      "name": "encode",
+      "identical_ast": true,
+      "old_line": 45,
+      "new_line": 46,
+      "ast_sha256": "8b6940c428edeeb57c9c4557a13b7c36cbcd56743cef7cecb8e0e93302c775b9"
+    },
+    {
+      "name": "private_eval",
+      "identical_ast": true,
+      "old_line": 54,
+      "new_line": 55,
+      "ast_sha256": "851fb4d8a93cd758983fe636e5f9351abb1cd386f6a9b38e69afab009a09e8f1"
+    },
+    {
+      "name": "social_eval",
+      "identical_ast": true,
+      "old_line": 116,
+      "new_line": 117,
+      "ast_sha256": "7378f41e25f2d83664ea15a586763da0ceb5ee353a9cd2b43438d6b2fa393a2a"
+    }
+  ],
+  "all_function_names_equal": true,
+  "changed_functions": [
+    "main",
+    "source_hashes"
+  ],
+  "unchanged_function_count": 16,
+  "changed_top_level_assignments": [
+    "SEEDS"
+  ],
+  "expected_import_changes": [
+    "ImageBank now aliases world.NonSquareImageBank; original camp make_agents/individual_practice/remake_agents still imported",
+    "same frozen temporal_model and social_model, local rectangular world and byte-identical metrics"
+  ],
+  "image_splits": [
+    {
+      "stratum": "apple",
+      "train": [
+        "a5ea21b8b789",
+        "a205a4056898"
+      ],
+      "test": [
+        "0a437c5afb2b"
+      ]
+    },
+    {
+      "stratum": "banana",
+      "train": [
+        "1ab210b90590",
+        "946a3b801316"
+      ],
+      "test": [
+        "d341ecdb75be"
+      ]
+    },
+    {
+      "stratum": "orange",
+      "train": [
+        "81487bb81e0a",
+        "8a3020fc290d"
+      ],
+      "test": [
+        "6d8e0ea1ad49"
+      ]
+    },
+    {
+      "stratum": "water",
+      "train": [
+        "1f4faeca1efb",
+        "f8c6aee83e07"
+      ],
+      "test": [
+        "f34ebacfef06"
+      ]
+    }
+  ],
+  "image_hashes": {
+    "0a437c5afb2b": "ab9f5d16920b36c6be2762678ffeb90762839acc86ddeec44f8d6c561c660f67",
+    "1ab210b90590": "385408d3ad4902d7ed7649abf98ff650d376c842c9590639cbb0e4e1241475bd",
+    "1f4faeca1efb": "25e693cc741d54d26682a985184246ae8859f5f89cf8829c58a9019676cddc07",
+    "6d8e0ea1ad49": "340dffcd0cfd30cba241ff91794d0bc2c6e6420dc9d7251327547abd94ece15b",
+    "81487bb81e0a": "87a9bf02efdbaa758035ccb9e4f0178a6692cea31637d446d3929c7e83abd2a4",
+    "8a3020fc290d": "335df87190fd252bffc0db30cd33a37011eb24b36c1f167745145660bdb669da",
+    "946a3b801316": "66bb8001dfc1b23301919f1cc10a4d1492a6695f48e9863ee18cb6ec76f5aebe",
+    "a205a4056898": "2d3d9f0efb2e5bd5e532937c9184686a1e8f826a917f1352042e5c62c7ca7474",
+    "a5ea21b8b789": "18cd6d2b8048a9910eeed8cb11e3f8981cc0925ce7b8d9635d98b58c4b42f08b",
+    "d341ecdb75be": "26f0e75bd28dc2929476f26186ef5f669f2f578c69edec3c76c69d5bb2419694",
+    "f34ebacfef06": "025dad39a116a3bc6d865ad4f12b5c716b50dc3ed4df5e5500979dbf8005f865",
+    "f8c6aee83e07": "ce3631aef7e21179d8855a9eeda865512e25f6c7151416eb48fce0d26eb0a735"
+  },
+  "preparation_test_boundary": {
+    "implementation": "redesign_v0.4/run_pilot.py:individual_practice, statically re-exported by redesign_v0.8/camp.py",
+    "updates": "per person200 updates, batch64, bank.sample(train), loss.backward and optimizer.step inside training loop",
+    "post_training_evaluation": "after each person training loop, with torch.no_grad: bank.sample(test),1024 greedy resource-choice evaluations with separate test_rng; no backward/optimizer step in this block",
+    "effect": "Test images are read for post-training evaluation; this is not test participation in parameter updates. Do not claim no test access during preparation. Report is saved only; run_formation.prepare sets source_filter=False. No capability-based exclusion in main.",
+    "validation_type": "source read, not gradient/model replay"
+  },
+  "scientific_boundary": "Same core AST preserves v23 learning logic given its inputs; new bank/material support and normalization input set differ, so this is not proof of numerical equality across datasets. Twelve known source clusters do not establish unknown-alias independence. Single held-out water is reused across seeds.",
+  "limits": [
+    "No model forward, no optimizer replay, no generated-training artifact analysis.",
+    "Did not independently repeat DINO or inspect pixels; selected image bytes were only hashed.",
+    "World helper is an intended rectangular-pool adaptation, not asserted identical to v23; model formulas remain delegated to formal execution QA."
+  ],
+  "findings": []
+}

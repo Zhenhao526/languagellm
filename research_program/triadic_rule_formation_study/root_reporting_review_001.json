@@ -1,0 +1,16 @@
+{
+  "at": "2026-09-16T06:12:21.177048+00:00",
+  "status": "reviewed_before_formal_result_read",
+  "summary_tests_reported": 3,
+  "summary_test_chunk": "9e6f28",
+  "production_preflight_tests": 13,
+  "independent_preflight_tests": 11,
+  "scope": "Root read final JSON-only summarizer and two-figure renderer. Verified native primary, independent arithmetic, alias handling, all16 points and society-level interval; six actor/window entropy panels stay separate. No formal outputs,NPZ or model calls read by this review.",
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rule_formation_study/summarize.py": "410207746a88ac0bec5946783285d32615b4ca5911d424c60aa836b1326300b5",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rule_formation_study/test_summarize.py": "cd2842c98a3f7d51c47e25ffb509d55700aa3e427d45bc861ffa5114494b93d5",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rule_formation_study/plot_results.py": "3fd4e2a2b632a43f3ef988e2527fa307dcbcadf4b02cbea3c1afe50b4164d7a3",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rule_formation_study/summary_preflight_001.json": "89e09932cefe72198f76387a66323a22f9d0bacb0b637f2952382d13bd2115f8",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rule_formation_study/claim_boundaries.md": "26d208df461becc4371a892f18285cc5c392a6ed013b9da09b3cb056dcb2b3bc"
+  }
+}

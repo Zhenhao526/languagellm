@@ -1,0 +1,267 @@
+{
+  "H": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      5,
+      4
+    ]
+  ],
+  "supports": {
+    "conn": {
+      "train": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "degree": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      ],
+      "four_cycles": 0,
+      "H_distances": [
+        5,
+        3,
+        3,
+        5,
+        3,
+        5,
+        3,
+        5,
+        3,
+        5,
+        5,
+        3
+      ],
+      "H_F_bits": 2.584962500721156,
+      "H_joint_bits": 3.584962500721156,
+      "I_FW_bits": 1.584962500721156
+    },
+    "block": {
+      "train": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "degree": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "components": [
+        [
+          0,
+          1,
+          9,
+          10
+        ],
+        [
+          2,
+          3,
+          6,
+          11
+        ],
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ],
+      "four_cycles": 3,
+      "H_distances": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "H_F_bits": 2.584962500721156,
+      "H_joint_bits": 3.584962500721156,
+      "I_FW_bits": 1.584962500721156
+    }
+  },
+  "derivation_scope": "Design arithmetic only; no model scores or model execution.",
+  "shared_train_edges": 9,
+  "H_uniform_oracle_bounds": {
+    "constant_message_fixed_actions_J": 0.08333333333333333,
+    "only_one_true_resource_position_J": 0.5,
+    "only_one_true_resource_position_mean_single": 0.75,
+    "independent_uniform_six_site_actions_J": 0.027777777777777776,
+    "note": "Assumes balanced H and no additional resource-dependent side information reaching the receiver; these are different policy restrictions."
+  }
+}

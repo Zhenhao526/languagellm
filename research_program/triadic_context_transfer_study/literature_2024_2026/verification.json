@@ -1,0 +1,134 @@
+{
+  "created_at": "2026-09-15T19:19:21.659775+00:00",
+  "status": "verified_bounded_package_with_recorded_tool_limits",
+  "original_pool_count": 20,
+  "native_candidates": 8,
+  "official_supplements": 12,
+  "full_text_packets": 3,
+  "full_text_reviews": 3,
+  "new_pdf_downloads": 2,
+  "existing_pdf_reuses": 1,
+  "pdf_pages": [
+    24,
+    20,
+    22
+  ],
+  "all_pdf_and_packet_sha_exact": true,
+  "all_pages_extractable": true,
+  "same20_ids_and_order_preserved": true,
+  "native_review_successes": 2,
+  "native_finalize": "failed_invalid_arxiv_id_for_official_non_arxiv_paper",
+  "new_model_calls": 0,
+  "current_experiment_outcomes_read": false,
+  "limitations": [
+    "Bounded20-item mixed pool, not exhaustive historical coverage.",
+    "No independent replication of paper results.",
+    "Not a first-in-literature finding."
+  ],
+  "files": {
+    ".arxiv-watcher/reviews/2508.06659.json": {
+      "sha256": "24c72af8412b38d30813a8d36a99917a893377f658808770ea030150f4566d43",
+      "bytes": 2078
+    },
+    ".arxiv-watcher/reviews/2604.03266.json": {
+      "sha256": "731a47c4b391083523ab18b8f52b3a1ab97cd570d4b4b35642abfc8126bce358",
+      "bytes": 2264
+    },
+    "build_pool.py": {
+      "sha256": "fde27258bb879e2b004d6ad756a9471c5043143a3d8f21cdd61aab76ffcaa41d",
+      "bytes": 9211
+    },
+    "candidate_pool20.json": {
+      "sha256": "7ae27452d8efa4968e25639d1a1ab85d98a9e2afea33e2ab66854490c857e03d",
+      "bytes": 44794
+    },
+    "collector_candidates.json": {
+      "sha256": "2e0a18f5515d852b549b5dc560588c8f4db2f8c39010392b9b4a4fe2ca80c7f6",
+      "bytes": 29849
+    },
+    "collector_receipt.json": {
+      "sha256": "012209a874f7e7f3336ed23a997f9eb5f7b51eb7ac359b985dbcb113cc22907a",
+      "bytes": 1178
+    },
+    "download_packet_index.json": {
+      "sha256": "52ae50e655e7b949408b259d043ffba4d189267880a19ce41d3e9577bd6871dd",
+      "bytes": 8585
+    },
+    "finalize_package.py": {
+      "sha256": "fcb6aa4e6dbba4571d76e8f59f3fca7f5c4cd96019345a23239f4700012a14ab",
+      "bytes": 7105
+    },
+    "finalize_same_pool.json": {
+      "sha256": "52fd98b20459b5eea7a694214beb60e65c1651d0b50f54ff8339eed3ce91414e",
+      "bytes": 46924
+    },
+    "mixed_top3.json": {
+      "sha256": "e9d46626f9a62c818b66177318a94498787c90749eb3eb962843d462409b4672",
+      "bytes": 7785
+    },
+    "packets/2508.06659.md": {
+      "sha256": "6d99d204c9dac55f71db944e430f6f334cc4d283cd5ef3f56f5dabd64d7182c7",
+      "bytes": 86438
+    },
+    "packets/2604.03266.md": {
+      "sha256": "f751e288104a3d0709e575e9828896620efb966e45258a497eb0a93b107d3a0b",
+      "bytes": 83790
+    },
+    "packets/gualdoni_neurips2024.md": {
+      "sha256": "9ea105ad2fe6409bddc3826d3efb1cbdbbe6a855c8a69a702f7c576baa558cf7",
+      "bytes": 72036
+    },
+    "papers/2024_Gualdoni_Bridging_Semantics_and_Pragmatics_NeurIPS.pdf": {
+      "sha256": "b37d908da0adddaadf0c6f097a7a002ad96d3dbc64388227cde6a780bd650608",
+      "bytes": 1568192
+    },
+    "papers/2025_MartinezLopez_CORAL_In_Context_Reinforcement_Learning_v2_2026.pdf": {
+      "sha256": "4f672e08f8ab588e3ec13b55a1af46a3b1ac0968d3830f215464243f5db611f6",
+      "bytes": 6093365
+    },
+    "prepare_packets.py": {
+      "sha256": "44e056d39dd76a8a697f5048b407b95e851819c398b016c1e09225741b598cff",
+      "bytes": 4382
+    },
+    "radar.toml": {
+      "sha256": "fe1d4858ee9dda9e945d966b56ae291e1733630aa537269ae7d5ecf7edf00817",
+      "bytes": 717
+    },
+    "record_full_reviews.py": {
+      "sha256": "e71c2250025150d321acc9d662af4c020fab3f59c404f865226b9d2f62c304d8",
+      "bytes": 10072
+    },
+    "review_receipt.json": {
+      "sha256": "a3bf67443469171f16e369030d7e0eb8ac0ac9c38d7421ecce8054567d683cd5",
+      "bytes": 4350
+    },
+    "review_receipt_raw_before_status_correction.json": {
+      "sha256": "5b2e0fb19e56f164087bcb6cc2a7a6b541c8a97601504e2a240c3f43b45a79b8",
+      "bytes": 3906
+    },
+    "reviews/2508.06659.json": {
+      "sha256": "190add5836249a88fc8cbcfc8d2cddd5a781171e060b23512aee768ab1e81841",
+      "bytes": 2325
+    },
+    "reviews/2604.03266.json": {
+      "sha256": "d4a54ca5f34001fdb382095773ee7aa07a6ed103117ef84b26d7a36d7a549fde",
+      "bytes": 2466
+    },
+    "reviews/official_supplement_2.json": {
+      "sha256": "fe7f05a993f2b0b2f02770f0096b10eb3a280e8280b319352cc28e0698992691",
+      "bytes": 2209
+    },
+    "下载与版本记录.md": {
+      "sha256": "2b7fb47f56d68a03bb9476b3ac06c36882dc06b30c94c5c6f957f40e852176c1",
+      "bytes": 2978
+    },
+    "候选逐一分流.md": {
+      "sha256": "7f91271a8db653815664fb3c71201ef5bc9f550c76b5fceee64755ea781c14ab",
+      "bytes": 5620
+    },
+    "直接近邻与主张范围.md": {
+      "sha256": "09c9d4c44619d4d486461218b09cefede65fd248258c8a7bec84e00b1e2bd6f9",
+      "bytes": 9711
+    }
+  }
+}

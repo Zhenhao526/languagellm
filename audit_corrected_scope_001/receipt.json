@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "recovery": "scope_assertion_only",
+  "inputs_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/audit_corrected_006/failure.json": "15fa6a1957d69ee5133c207cdc2a3ba5fe54cc8ba459ea57c4e83079604ecff1",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorial_formation_study/results/factorial_001_corrected/execution/results.json": "2c1cae9bed48a7c4c17beb773e81732aabee362c930ad12923563f4d4bf9f861"
+  },
+  "outputs_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/audit_corrected_scope_001/verification.json": "e7c5bee3513469eecf4c5584cf5a31fbf6fbbcfcd69919031ad8e9211d30b246"
+  },
+  "neural_forwards": 0,
+  "at": "2026-09-16T13:25:24.416174+00:00"
+}

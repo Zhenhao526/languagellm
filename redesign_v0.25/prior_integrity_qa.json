@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "previous_goal_turn": "progress: completed v24 matched baseline, independent audits, structure assay and report; evidence changes next step to familiar-support learnability diagnostic",
+  "manifest": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.24/results/attention_001/completion_manifest.json",
+  "manifest_sha256": "cd73b0ef54097af5c9cb89944212892e2fc11308247bf56814ed35934914f356",
+  "checked_artifacts": 1093,
+  "mismatches": [],
+  "seconds": 0.6099426250000001,
+  "prior_modified": false
+}

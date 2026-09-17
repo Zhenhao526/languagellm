@@ -1,0 +1,2430 @@
+{
+  "created_utc": "2026-09-15T17:05:25.172826+00:00",
+  "quotas": {
+    "apple": 3,
+    "banana": 2,
+    "orange": 2,
+    "water": 10
+  },
+  "planned": 17,
+  "selection_rule": "First unused reserve entries per frozen same-stratum queue; global cluster_rank request order",
+  "original_reservation_unchanged": true,
+  "rows": [
+    {
+      "blind_id": "a5ea21b8b789",
+      "same_stratum_reserve_ordinal": 4,
+      "batch_purpose": "workflow_replacement",
+      "metadata": {
+        "id": "commons:125161533",
+        "title": "File:Small red apple.jpg",
+        "title_key": "small red apple.jpg",
+        "pageid": 125161533,
+        "stratum": "apple",
+        "frame_rank_hash": "4b122aaf7f60a06bb665d9b8c9a9c284a1f6006eb95b1fc147eca298d7eb0cde",
+        "frame_categories": [
+          "Category:Apples"
+        ],
+        "source_page": "https://commons.wikimedia.org/wiki/File:Small_red_apple.jpg",
+        "page_revision": [
+          {
+            "revid": 822938346,
+            "parentid": 736156101,
+            "timestamp": "2023-11-18T07:21:48Z"
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Small_red_apple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "original_sha1": "303459ddc88aa4a4aba932ceea0b8c9d426dfec6",
+        "original_version_timestamp": "2022-11-08T15:34:05Z",
+        "mime": "image/jpeg",
+        "width": 2448,
+        "height": 3264,
+        "uploader": "Zenyrgarden",
+        "uploader_id": 9309287,
+        "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Zenyrgarden\" title=\"User:Zenyrgarden\">Zenyrgarden</a>",
+        "artist_text": "Zenyrgarden",
+        "artist_links": [
+          "https://commons.wikimedia.org/wiki/User:Zenyrgarden"
+        ],
+        "author_keys": [
+          "commons-user:zenyrgarden",
+          "text:zenyrgarden"
+        ],
+        "author_identity_status": "metadata_resolved_provisionally",
+        "original_source_keys": [],
+        "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "description_html": "Small red apple",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution_required": "true",
+        "license_metadata_allowlist_passed": true,
+        "extmetadata": {
+          "DateTime": {
+            "value": "2022-11-08 15:34:05",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Small red apple",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Apples|Self-published work",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Small red apple",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2022-11-08 22:29:48",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Zenyrgarden\" title=\"User:Zenyrgarden\">Zenyrgarden</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "metadata_request_url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&prop=imageinfo%7Cinfo%7Crevisions&titles=File%3AT%C3%A1o+Tam+Thu%E1%BA%A5n.jpg%7CFile%3ARotten+Apple+02.jpg%7CFile%3AStarr-210107-8958-Malus+pumila-Nittany+fruit-Hawea+Pl+Olinda-Maui+%2850860414531%29.jpg%7CFile%3AKuzaki+olma.jpg%7CFile%3ADixap+reclame+speldje.JPG%7CFile%3ARHS+Garden+Bridgewater+2022+037.jpg%7CFile%3AD.I.Y.+High+Cross+%288650532617%29.jpg%7CFile%3AFruit+%282%29.JPG%7CFile%3ASmall+red+apple.jpg%7CFile%3AInsektenatlas+2020-+MENSCH+STATT+BIENE+Pestizideinsatz+und+Best%C3%A4ubung+von+Apfelb%C3%A4umen+von+Hand+in+drei+D%C3%B6rfern+im+Bergland+von+Sichuan%2C+China.jpg&iiprop=timestamp%7Cuser%7Cuserid%7Curl%7Csize%7Csha1%7Cmime%7Cextmetadata&rvprop=ids%7Ctimestamp&iiextmetadatalanguage=en&maxlag=5",
+        "metadata_response": "raw/0023_metadata_0130_a1.response",
+        "metadata_response_sha256": "55618ff46df6f10e11ee1a60b6502f24dc6c8a7f0d568c4b1596ee916b42fa23",
+        "frame_responses": [
+          "raw/0000_commons_apples.response"
+        ],
+        "exclusion_reasons": [],
+        "metadata_status": "eligible_pending_manual_checks",
+        "pixel_review": "not_performed",
+        "near_duplicate_review": "not_performed",
+        "attribution_review": "not_performed",
+        "model_exposure": "none",
+        "cluster_id": "f2a9a8d6ffa08437622408bb41124334d47d186a661d7ed61472228febeca290",
+        "cluster_rank": "2734b213d58c8bc7fed3c4a8ce38771260f3d7a162249e29b2f105ccc6137939",
+        "provisional_assignment": "reserve"
+      }
+    },
+    {
+      "blind_id": "090abae4640d",
+      "same_stratum_reserve_ordinal": 5,
+      "batch_purpose": "workflow_replacement",
+      "metadata": {
+        "id": "commons:85783646",
+        "title": "File:Fruits in Market.jpg",
+        "title_key": "fruits in market.jpg",
+        "pageid": 85783646,
+        "stratum": "apple",
+        "frame_rank_hash": "02ab757ced185827ec8d125d49356fdcd38c0203562fb2e064aa755f00856573",
+        "frame_categories": [
+          "Category:Apples"
+        ],
+        "source_page": "https://commons.wikimedia.org/wiki/File:Fruits_in_Market.jpg",
+        "page_revision": [
+          {
+            "revid": 1262423139,
+            "parentid": 784461516,
+            "timestamp": "2026-08-16T23:17:34Z"
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Fruits_in_Market.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "original_sha1": "b88af4a449655e36a200183a6107c4401b42180b",
+        "original_version_timestamp": "2020-01-10T14:04:52Z",
+        "mime": "image/jpeg",
+        "width": 4000,
+        "height": 3000,
+        "uploader": "Calvin West Productions",
+        "uploader_id": 8692649,
+        "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Calvin_West_Productions&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Calvin West Productions (page does not exist)\">www.calvinwest.com</a>",
+        "artist_text": "www.calvinwest.com",
+        "artist_links": [
+          "https://commons.wikimedia.org/w/index.php?title=User:Calvin_West_Productions&action=edit&redlink=1"
+        ],
+        "author_keys": [
+          "text:www.calvinwest.com"
+        ],
+        "author_identity_status": "metadata_resolved_provisionally",
+        "original_source_keys": [],
+        "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "description_html": "Fruits for sale in a Spanish market. Valencia, Spain.",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution_required": "true",
+        "license_metadata_allowlist_passed": true,
+        "extmetadata": {
+          "DateTime": {
+            "value": "2020-01-10 14:04:52",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Fruits in Market",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Apples|Spain in the 2010s|Self-published work|Markets in Valencia",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Fruits for sale in a Spanish market. Valencia, Spain.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2014-07-26 08:05:00",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Calvin_West_Productions&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Calvin West Productions (page does not exist)\">www.calvinwest.com</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "metadata_request_url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&prop=imageinfo%7Cinfo%7Crevisions&titles=File%3A2015%2C+Fair+Smaki+Regionow%2C+Poznan+%28apples%2C+UEP+Poznan%29.JPG%7CFile%3AApple+picking+2+%28282363150%29.jpg%7CFile%3ABad+apple-+Gala+apple+showing+liquefying+rot+04.jpg%7CFile%3A%C3%89rett+alma.png%7CFile%3AWanfrieder+Weihnachtsmarkt+2016+IMG+3066+edit.jpg%7CFile%3AP9152145+%287286283942%29.jpg%7CFile%3AFruits+in+Market.jpg%7CFile%3AHerbst+7+%2894521661%29.jpeg%7CFile%3ADevelopment+of+apple+fruit.jpg%7CFile%3AMelo+Nano.JPG&iiprop=timestamp%7Cuser%7Cuserid%7Curl%7Csize%7Csha1%7Cmime%7Cextmetadata&rvprop=ids%7Ctimestamp&iiextmetadatalanguage=en&maxlag=5",
+        "metadata_response": "raw/0009_metadata_0000_a1.response",
+        "metadata_response_sha256": "5289f117fcc4659da596828f3a7a1b782f3f652d86bffe82adaef5c34323712e",
+        "frame_responses": [
+          "raw/0000_commons_apples.response"
+        ],
+        "exclusion_reasons": [],
+        "metadata_status": "eligible_pending_manual_checks",
+        "pixel_review": "not_performed",
+        "near_duplicate_review": "not_performed",
+        "attribution_review": "not_performed",
+        "model_exposure": "none",
+        "cluster_id": "3cd4a910bdf8cb47826d2b0f50a468b42eefb98fb68694fac4f511965341ecca",
+        "cluster_rank": "28b123d8d83c5c3fc77d09fa34ef6f9d7cb766f73f2a6cad6d6c61dde8ba8ee4",
+        "provisional_assignment": "reserve"
+      }
+    },
+    {
+      "blind_id": "3aac61acf3ed",
+      "same_stratum_reserve_ordinal": 4,
+      "batch_purpose": "workflow_replacement",
+      "metadata": {
+        "id": "commons:75411570",
+        "title": "File:Oranges of of Kallidaikurichi.jpg",
+        "title_key": "oranges of of kallidaikurichi.jpg",
+        "pageid": 75411570,
+        "stratum": "orange",
+        "frame_rank_hash": "059a8d0d86886b0c9388f9728114dd8c174d2920e86fdd3af24738055c216779",
+        "frame_categories": [
+          "Category:Oranges"
+        ],
+        "source_page": "https://commons.wikimedia.org/wiki/File:Oranges_of_of_Kallidaikurichi.jpg",
+        "page_revision": [
+          {
+            "revid": 1119179387,
+            "parentid": 1119179381,
+            "timestamp": "2025-11-21T01:49:52Z"
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Oranges_of_of_Kallidaikurichi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "original_sha1": "11b537bfbbf5f04c489b8067c9d2c41373db4bc5",
+        "original_version_timestamp": "2018-12-29T16:28:58Z",
+        "mime": "image/jpeg",
+        "width": 4160,
+        "height": 3120,
+        "uploader": "Thamizhpparithi Maari",
+        "uploader_id": 1743437,
+        "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Thamizhpparithi_Maari\" title=\"User:Thamizhpparithi Maari\">Thamizhpparithi Maari</a>",
+        "artist_text": "Thamizhpparithi Maari",
+        "artist_links": [
+          "https://commons.wikimedia.org/wiki/User:Thamizhpparithi_Maari"
+        ],
+        "author_keys": [
+          "commons-user:thamizhpparithi maari",
+          "text:thamizhpparithi maari"
+        ],
+        "author_identity_status": "metadata_resolved_provisionally",
+        "original_source_keys": [],
+        "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "description_html": "Oranges of of Kallidaikurichi",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution_required": "true",
+        "license_metadata_allowlist_passed": true,
+        "extmetadata": {
+          "DateTime": {
+            "value": "2018-12-29 16:28:58",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Oranges of of Kallidaikurichi",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Oranges|Self-published work|Files with coordinates missing SDC location of creation",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "GPSLatitude": {
+            "value": "8.687729",
+            "source": "commons-desc-page"
+          },
+          "GPSLongitude": {
+            "value": "77.461553",
+            "source": "commons-desc-page"
+          },
+          "GPSMapDatum": {
+            "value": "WGS-84",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Oranges of of Kallidaikurichi",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2018-12-11 11:52:08",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Thamizhpparithi_Maari\" title=\"User:Thamizhpparithi Maari\">Thamizhpparithi Maari</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "metadata_request_url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&prop=imageinfo%7Cinfo%7Crevisions&titles=File%3AOpen+refrigerator+with+food+at+night.jpg%7CFile%3APelosi+helps+the+WC+Kitchen+during+2019+shutdown.jpg%7CFile%3AMokotra+ou+orange+de+singe.jpg%7CFile%3AOranges5.jpg%7CFile%3AOranges+Valencialate+Cl+J+Weber+%2823047131114%29.jpg%7CFile%3AOrange+production%2C+OWID.svg%7CFile%3APostre+de+naranja+con+canela.jpg%7CFile%3AOranges+of+of+Kallidaikurichi.jpg%7CFile%3A%D0%9D%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%D0%B4%D0%BD%D0%B5%D0%B5+%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B8%D0%B5.jpg%7CFile%3ATropical+fruit+seller.jpg&iiprop=timestamp%7Cuser%7Cuserid%7Curl%7Csize%7Csha1%7Cmime%7Cextmetadata&rvprop=ids%7Ctimestamp&iiextmetadatalanguage=en&maxlag=5",
+        "metadata_response": "raw/0045_metadata_0330_a1.response",
+        "metadata_response_sha256": "5cf5ed2adefed46320d50219c4f358a2b68e72dcd5d88db6ae0629cee6f21e4e",
+        "frame_responses": [
+          "raw/0003_orange_category_0_a1.response"
+        ],
+        "exclusion_reasons": [],
+        "metadata_status": "eligible_pending_manual_checks",
+        "pixel_review": "not_performed",
+        "near_duplicate_review": "not_performed",
+        "attribution_review": "not_performed",
+        "model_exposure": "none",
+        "cluster_id": "4997fec8c3d1f7e0ddb054502f49dc88cf95ef490769d6172b4451bb4a8a8ad4",
+        "cluster_rank": "2bf7b9b0bd5db6c4ef82d7d9d0c8e8f07d79a0b84ed583f4431557ed9839647d",
+        "provisional_assignment": "reserve"
+      }
+    },
+    {
+      "blind_id": "8a3020fc290d",
+      "same_stratum_reserve_ordinal": 5,
+      "batch_purpose": "workflow_replacement",
+      "metadata": {
+        "id": "commons:25817457",
+        "title": "File:Lots of oranges1 (8553378192).jpg",
+        "title_key": "lots of oranges1 (8553378192).jpg",
+        "pageid": 25817457,
+        "stratum": "orange",
+        "frame_rank_hash": "20a5d1641848a1f707b775540eb2fdcc9e6389260e73b5b3a2c149efd78cc8c3",
+        "frame_categories": [
+          "Category:Oranges"
+        ],
+        "source_page": "https://commons.wikimedia.org/wiki/File:Lots_of_oranges1_(8553378192).jpg",
+        "page_revision": [
+          {
+            "revid": 1159080174,
+            "parentid": 1121898585,
+            "timestamp": "2026-02-04T00:16:33Z"
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Lots_of_oranges1_%288553378192%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "original_sha1": "9b0628558b25ef181cf9ea12e8acab13d9b99ee9",
+        "original_version_timestamp": "2013-04-29T14:58:06Z",
+        "mime": "image/jpeg",
+        "width": 3168,
+        "height": 1349,
+        "uploader": "File Upload Bot (Magnus Manske)",
+        "uploader_id": 40038,
+        "artist_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/10175246@N08\">psyberartist</a>",
+        "artist_text": "psyberartist",
+        "artist_links": [
+          "https://www.flickr.com/people/10175246@N08"
+        ],
+        "author_keys": [
+          "flickr-author:10175246@n08",
+          "text:psyberartist"
+        ],
+        "author_identity_status": "metadata_resolved_provisionally",
+        "original_source_keys": [
+          "flickr-photo:8553378192"
+        ],
+        "credit_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/psyberartist/8553378192/\">lots of oranges1</a>",
+        "description_html": "lots of oranges1",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "attribution_required": "true",
+        "license_metadata_allowlist_passed": true,
+        "extmetadata": {
+          "DateTime": {
+            "value": "2013-04-29 14:58:06",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Lots of oranges1 (8553378192)",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Taken with Canon EOS 500D|Oranges|Flickr images reviewed by File Upload Bot (Magnus Manske)|Photographs by psyberartist|Files with coordinates missing SDC location of creation|Close-up photographs of fruit",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "GPSLatitude": {
+            "value": "27.583002",
+            "source": "commons-desc-page"
+          },
+          "GPSLongitude": {
+            "value": "-82.426600",
+            "source": "commons-desc-page"
+          },
+          "GPSMapDatum": {
+            "value": "WGS-84",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "lots of oranges1",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2013-02-08 17:16",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/psyberartist/8553378192/\">lots of oranges1</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/10175246@N08\">psyberartist</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY 2.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution 2.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by/2.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-2.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "metadata_request_url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&prop=imageinfo%7Cinfo%7Crevisions&titles=File%3AOranges%2C+S%C3%A3o+Paulo+%28123123+24%29.jpg%7CFile%3AP1010162+%284545109418%29.jpg%7CFile%3AApelsin+spreadthesign.ogv%7CFile%3AAgricultural+Marketing+Service+%28AMS%29+Specialty+Crops+Market+News+%28SCMN%29+reporters+on+site+at+the+Los+Angeles%2C+California+Wholesale+Produce+Market+on+20+October+2023+-+18.jpg%7CFile%3ASweetspring+%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%88%E3%82%B9%E3%83%97%E3%83%AA%E3%83%B3%E3%82%B0.jpg%7CFile%3AOrange+in+Hand+5.jpg%7CFile%3ANavelina.jpg%7CFile%3AIvrea+Carnevale+Munizioni+Battaglia.JPG%7CFile%3ALots+of+oranges1+%288553378192%29.jpg%7CFile%3AOrange+Blossom+Flower.jpg&iiprop=timestamp%7Cuser%7Cuserid%7Curl%7Csize%7Csha1%7Cmime%7Cextmetadata&rvprop=ids%7Ctimestamp&iiextmetadatalanguage=en&maxlag=5",
+        "metadata_response": "raw/0053_metadata_0410_a1.response",
+        "metadata_response_sha256": "81b27924b155afc75e843fe74ab003642408ae1939bad3910e8b9978d4f60a2f",
+        "frame_responses": [
+          "raw/0003_orange_category_0_a1.response"
+        ],
+        "exclusion_reasons": [],
+        "metadata_status": "eligible_pending_manual_checks",
+        "pixel_review": "not_performed",
+        "near_duplicate_review": "not_performed",
+        "attribution_review": "not_performed",
+        "model_exposure": "none",
+        "cluster_id": "c4dc4890e563972df0f65d80608c64baf8ffe73c627fef24c46f0a451a464725",
+        "cluster_rank": "2c03b62de44ab8447aba4c83a7e323e5d27b4081213c119c62a127a19f258c0d",
+        "provisional_assignment": "reserve"
+      }
+    },
+    {
+      "blind_id": "0a437c5afb2b",
+      "same_stratum_reserve_ordinal": 6,
+      "batch_purpose": "workflow_replacement",
+      "metadata": {
+        "id": "commons:7570965",
+        "title": "File:Malus domestica unriped fruit.jpg",
+        "title_key": "malus domestica unriped fruit.jpg",
+        "pageid": 7570965,
+        "stratum": "apple",
+        "frame_rank_hash": "3eb69c7edf406bab7f53b6dfe575ff56a0f99bb3eb5cde7de0da32ea5a843155",
+        "frame_categories": [
+          "Category:Apples"
+        ],
+        "source_page": "https://commons.wikimedia.org/wiki/File:Malus_domestica_unriped_fruit.jpg",
+        "page_revision": [
+          {
+            "revid": 1171188591,
+            "parentid": 1103081998,
+            "timestamp": "2026-02-24T09:15:52Z"
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Malus_domestica_unriped_fruit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "original_sha1": "4a1590db5a2bdbd78a0bdb353d0c6495a59f661f",
+        "original_version_timestamp": "2009-08-15T22:41:25Z",
+        "mime": "image/jpeg",
+        "width": 2000,
+        "height": 1339,
+        "uploader": "Dinnye",
+        "uploader_id": 796765,
+        "artist_html": "Dinnye",
+        "artist_text": "Dinnye",
+        "artist_links": [],
+        "author_keys": [
+          "text:dinnye"
+        ],
+        "author_identity_status": "metadata_resolved_provisionally",
+        "original_source_keys": [],
+        "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "description_html": "Unriped crop of <i>Malus domestica</i>",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution_required": "true",
+        "license_metadata_allowlist_passed": true,
+        "extmetadata": {
+          "DateTime": {
+            "value": "2009-08-15 22:41:25",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Malus domestica unriped fruit",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Apples|GFDL|Taken with Pentax K200D|License migration redundant|Self-published work|Unripe fruit",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Unriped crop of <i>Malus domestica</i>",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2009-06-30",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Dinnye",
+            "source": "commons-desc-page"
+          },
+          "Permission": {
+            "value": "cc-by-sa-3.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 3.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 3.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/3.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-3.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "metadata_request_url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&prop=imageinfo%7Cinfo%7Crevisions&titles=File%3A%D8%AA%D9%81%D8%A7%D8%AC+%D8%A5%D9%86%D8%AA%D8%A7%D8%AC+%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1%D9%8A.jpg%7CFile%3ABananes+expos%C3%A9s+dans+un+march%C3%A9+%C3%A0+Yamoussoukro+11.jpg%7CFile%3ALetzte+%C3%84pfel+November+2011.JPG%7CFile%3AStarr-210116-8964-Malus+pumila-assorted+fall+varieties+Anna+Granny+Smith+and+King+David+with+neneleau+sumac+leaf+turning+colors+and+pear-Hawea+Pl+Olinda-Maui+%2851089480088%29.jpg%7CFile%3AFruta+de+un+manzano.jpg%7CFile%3AWIS%C5%81A%2C+AB.+158.JPG%7CFile%3AMalus+domestica+unriped+fruit.jpg%7CFile%3AIce+apple.jpg%7CFile%3AMontag+19.+September+2022+%281%29.JPG%7CFile%3AMalus+domestica+%27Huvitus%27+2024.jpg&iiprop=timestamp%7Cuser%7Cuserid%7Curl%7Csize%7Csha1%7Cmime%7Cextmetadata&rvprop=ids%7Ctimestamp&iiextmetadatalanguage=en&maxlag=5",
+        "metadata_response": "raw/0021_metadata_0110_a1.response",
+        "metadata_response_sha256": "3437a19ef2ad3eccb0c4c9e054df5cd5fbe72f900151d43bd7e16b252d640045",
+        "frame_responses": [
+          "raw/0000_commons_apples.response"
+        ],
+        "exclusion_reasons": [],
+        "metadata_status": "eligible_pending_manual_checks",
+        "pixel_review": "not_performed",
+        "near_duplicate_review": "not_performed",
+        "attribution_review": "not_performed",
+        "model_exposure": "none",
+        "cluster_id": "3f89b4acd96642c9b5f2fbf424cde07d881521281f64ad655b7cdc5d2d42d797",
+        "cluster_rank": "2e28942eff6ad291f10b3cb9bab3f0dda2a87903954d59ba936f076545209c63",
+        "provisional_assignment": "reserve"
+      }
+    },
+    {
+      "blind_id": "1ab210b90590",
+      "same_stratum_reserve_ordinal": 4,
+      "batch_purpose": "workflow_replacement",
+      "metadata": {
+        "id": "commons:3683438",
+        "title": "File:Pisang.jpg",
+        "title_key": "pisang.jpg",
+        "pageid": 3683438,
+        "stratum": "banana",
+        "frame_rank_hash": "0731cc6a2a824d19a40fa71a10e9990903ce7214c552996d89f0c420de37ae89",
+        "frame_categories": [
+          "Category:Bananas"
+        ],
+        "source_page": "https://commons.wikimedia.org/wiki/File:Pisang.jpg",
+        "page_revision": [
+          {
+            "revid": 1273951920,
+            "parentid": 1249571242,
+            "timestamp": "2026-09-08T14:32:45Z"
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Pisang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "original_sha1": "6346665bf7b84e6bfc2754246b7365a7c661c45b",
+        "original_version_timestamp": "2008-03-09T14:24:39Z",
+        "mime": "image/jpeg",
+        "width": 3008,
+        "height": 2000,
+        "uploader": "Hariadhi",
+        "uploader_id": 148134,
+        "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Hariadhi\" title=\"User:Hariadhi\">Hariadhi</a>",
+        "artist_text": "Hariadhi",
+        "artist_links": [
+          "https://commons.wikimedia.org/wiki/User:Hariadhi"
+        ],
+        "author_keys": [
+          "commons-user:hariadhi",
+          "text:hariadhi"
+        ],
+        "author_identity_status": "metadata_resolved_provisionally",
+        "original_source_keys": [],
+        "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "description_html": "Pisang, belum diidentifikasi jenisnya",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution_required": "true",
+        "license_metadata_allowlist_passed": true,
+        "extmetadata": {
+          "DateTime": {
+            "value": "2008-03-09 14:24:39",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Pisang",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Bananas in Indonesia|GFDL|Taken with Nikon D40|Bananas|License migration redundant|CC-BY-SA-4.0,3.0,2.5,2.0,1.0|Self-published work",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Pisang, belum diidentifikasi jenisnya",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Hariadhi\" title=\"User:Hariadhi\">Hariadhi</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "metadata_request_url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&prop=imageinfo%7Cinfo%7Crevisions&titles=File%3ATransporting+matooke%28banana%29.jpg%7CFile%3AUnloading+Bananas%2C+Galveston%2C+Texas.+%286690040469%29.jpg%7CFile%3AKleuser+as+a+child.jpg%7CFile%3ABananas+Bananen+Protein.jpg%7CFile%3APisang.jpg%7CFile%3A%E0%B4%B5%E0%B4%BE%E0%B4%B4%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B5%81%E0%B4%B2+01.JPG%7CFile%3AYelakki+banana+peel%2C+bangalore%2C+karnataka+peel.jpg%7CFile%3AGoverno+fortalece+a+agricultura+familiar+no+Acre+%2825868897761%29.jpg%7CFile%3AHeltzea.png%7CFile%3ADaiso+Japan+Brasil+%288315726664%29.jpg&iiprop=timestamp%7Cuser%7Cuserid%7Curl%7Csize%7Csha1%7Cmime%7Cextmetadata&rvprop=ids%7Ctimestamp&iiextmetadatalanguage=en&maxlag=5",
+        "metadata_response": "raw/0027_metadata_0170_a1.response",
+        "metadata_response_sha256": "02d7112161ed65c4058836c6158c3fb601d81be88437fe838764c0032fbc0595",
+        "frame_responses": [
+          "raw/0001_banana_category_0_a1.response"
+        ],
+        "exclusion_reasons": [],
+        "metadata_status": "eligible_pending_manual_checks",
+        "pixel_review": "not_performed",
+        "near_duplicate_review": "not_performed",
+        "attribution_review": "not_performed",
+        "model_exposure": "none",
+        "cluster_id": "8c9084bdfe9d2be879e961cf7fcc5a3d61cd1651c6e4893146bf93ac7e6a1f28",
+        "cluster_rank": "2f9fd7a24a4be8a445844f6f908f92bbed160ea9030c5841fcd9dd3956c6ee5a",
+        "provisional_assignment": "reserve"
+      }
+    },
+    {
+      "blind_id": "1e7c50ebf1a5",
+      "same_stratum_reserve_ordinal": 5,
+      "batch_purpose": "workflow_replacement",
+      "metadata": {
+        "id": "commons:125647329",
+        "title": "File:ลายชอนตะวัน (Shontawan).jpg",
+        "title_key": "ลายชอนตะวัน (shontawan).jpg",
+        "pageid": 125647329,
+        "stratum": "banana",
+        "frame_rank_hash": "15bda968bc7ce4ad0c34b35e7ba46d56702468733faeef3dde3ea3b75da0531a",
+        "frame_categories": [
+          "Category:Bananas"
+        ],
+        "source_page": "https://commons.wikimedia.org/wiki/File:%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%8A%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B8%B0%E0%B8%A7%E0%B8%B1%E0%B8%99_(Shontawan).jpg",
+        "page_revision": [
+          {
+            "revid": 771130856,
+            "parentid": 770621109,
+            "timestamp": "2023-06-05T07:28:44Z"
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%8A%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B8%B0%E0%B8%A7%E0%B8%B1%E0%B8%99_%28Shontawan%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "original_sha1": "5ecc46ae68ed3f0a619c89497b2a1537f82a8f00",
+        "original_version_timestamp": "2022-11-18T07:44:21Z",
+        "mime": "image/jpeg",
+        "width": 6720,
+        "height": 4480,
+        "uploader": "Jinoof13",
+        "uploader_id": 2898406,
+        "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Jinoof13&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Jinoof13 (page does not exist)\">Jinoof13</a>",
+        "artist_text": "Jinoof13",
+        "artist_links": [
+          "https://commons.wikimedia.org/w/index.php?title=User:Jinoof13&action=edit&redlink=1"
+        ],
+        "author_keys": [
+          "text:jinoof13"
+        ],
+        "author_identity_status": "metadata_resolved_provisionally",
+        "original_source_keys": [],
+        "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "description_html": "ลายชอนตะวัน (Shontawan) สายพันธุ์เฉพาะ",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution_required": "true",
+        "license_metadata_allowlist_passed": true,
+        "extmetadata": {
+          "DateTime": {
+            "value": "2022-11-18 07:44:21",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "ลายชอนตะวัน (Shontawan)",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Bananas|Self-published work",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "ลายชอนตะวัน (Shontawan) สายพันธุ์เฉพาะ",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2022-10-30",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Jinoof13&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Jinoof13 (page does not exist)\">Jinoof13</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "metadata_request_url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&prop=imageinfo%7Cinfo%7Crevisions&titles=File%3AMinibanana.jpg%7CFile%3A%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%8A%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B8%B0%E0%B8%A7%E0%B8%B1%E0%B8%99+%28Shontawan%29.jpg%7CFile%3AEen+tros+Fyffes-bananen+op+een+schaal%2C+Bestanddeelnr+252-0519.jpg%7CFile%3ABanana+plant+1.jpg%7CFile%3ABananas+being+brought+by+Children+into+Banzyville%2C+1906.png%7CFile%3APixella15422+%2823697321224%29.jpg%7CFile%3ABanana-fluorescence-081108.jpg%7CFile%3AMonths+long+uncut+banana.jpg%7CFile%3ANaturalis+Biodiversity+Center+-+L.2096518+-+Bernecker%2C+A.+-+Unidentified+plants+-+Artwork.jpeg%7CFile%3ABakove+%28titel+op+object%29%2C+NG-1994-32-6-2.jpg&iiprop=timestamp%7Cuser%7Cuserid%7Curl%7Csize%7Csha1%7Cmime%7Cextmetadata&rvprop=ids%7Ctimestamp&iiextmetadatalanguage=en&maxlag=5",
+        "metadata_response": "raw/0032_metadata_0200_a1.response",
+        "metadata_response_sha256": "d4685b794c8f094efb634ab903b05db7d425fbb62124b81bd1ddd7f82b76321e",
+        "frame_responses": [
+          "raw/0002_banana_category_1_a1.response"
+        ],
+        "exclusion_reasons": [],
+        "metadata_status": "eligible_pending_manual_checks",
+        "pixel_review": "not_performed",
+        "near_duplicate_review": "not_performed",
+        "attribution_review": "not_performed",
+        "model_exposure": "none",
+        "cluster_id": "809bd6be6cd6d6fea3c792edd73b18323ae102a96f1fcd8c05e7261be58a00d6",
+        "cluster_rank": "3352352a1297f6129c38d4d8fe63e5110efc7851e53d30f7eb3aa11529150d28",
+        "provisional_assignment": "reserve"
+      }
+    },
+    {
+      "blind_id": "5bac50bfe1bd",
+      "same_stratum_reserve_ordinal": 11,
+      "batch_purpose": "workflow_replacement",
+      "metadata": {
+        "id": "commons:12521461",
+        "title": "File:Kate and the Bubbatones Friday Night Jamboree Floyd Country Store Floyd VA October 2010.jpg",
+        "title_key": "kate and the bubbatones friday night jamboree floyd country store floyd va october 2010.jpg",
+        "pageid": 12521461,
+        "stratum": "water",
+        "frame_rank_hash": "112db842a8bf0bf67445dbfe9140a00489fd96d66764735c604ccfc4b3d5613d",
+        "frame_categories": [
+          "Category:Water bottles"
+        ],
+        "source_page": "https://commons.wikimedia.org/wiki/File:Kate_and_the_Bubbatones_Friday_Night_Jamboree_Floyd_Country_Store_Floyd_VA_October_2010.jpg",
+        "page_revision": [
+          {
+            "revid": 1274353522,
+            "parentid": 1122962224,
+            "timestamp": "2026-09-09T11:19:50Z"
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Kate_and_the_Bubbatones_Friday_Night_Jamboree_Floyd_Country_Store_Floyd_VA_October_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "original_sha1": "7eceba8ff84e3ab85f8b70d70bacf322659d8ff9",
+        "original_version_timestamp": "2010-12-31T19:21:29Z",
+        "mime": "image/jpeg",
+        "width": 1024,
+        "height": 683,
+        "uploader": "Artaxerxes",
+        "uploader_id": 258115,
+        "artist_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/95158573@N00\">Bruce Tuten</a> from Savannah, Georgia, United States",
+        "artist_text": "Bruce Tuten from Savannah, Georgia, United States",
+        "artist_links": [
+          "https://www.flickr.com/photos/95158573@N00"
+        ],
+        "author_keys": [
+          "flickr-author:95158573@n00",
+          "text:bruce tuten from savannah, georgia, united states"
+        ],
+        "author_identity_status": "metadata_resolved_provisionally",
+        "original_source_keys": [
+          "flickr-photo:5089990331"
+        ],
+        "credit_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/savannahgrandfather/5089990331/\">\"Katy &amp; the Bubbatones\" - seen at the Friday Night Jamboree, Floyd, Virginia.</a>",
+        "description_html": "Katy and her group the Bubbatones perform for the mountain dancers at the Friday Night Jamboree in Floyd, Virginia. The Floyd Country Store is part of \"The Crooked Road\", a group of Virginia's heritage of music.",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "attribution_required": "true",
+        "license_metadata_allowlist_passed": true,
+        "extmetadata": {
+          "DateTime": {
+            "value": "2010-12-31 19:21:29",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Kate and the Bubbatones Friday Night Jamboree Floyd Country Store Floyd VA October 2010",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Water bottles|Taken with Canon EOS 40D|Guitar tuning|Flickr images reviewed by FlickreviewR|Music performances in Virginia|October 2010 in Virginia|Files with coordinates missing SDC location of creation|United States photographs taken on 2010-10-15|Musicians from the United States in 2010|Bluegrass music groups from Virginia|People with microphones in the United States|The Floyd Country Store|Men playing banjos|Wooden panelings in the United States|Country stores in the United States|Photographs of music production and performance in 2010|Musicians on stage in Virginia",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "GPSLatitude": {
+            "value": "36.910569",
+            "source": "commons-desc-page"
+          },
+          "GPSLongitude": {
+            "value": "-80.319832",
+            "source": "commons-desc-page"
+          },
+          "GPSMapDatum": {
+            "value": "WGS-84",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Katy and her group the Bubbatones perform for the mountain dancers at the Friday Night Jamboree in Floyd, Virginia. The Floyd Country Store is part of \"The Crooked Road\", a group of Virginia's heritage of music.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2010-10-15 21:01",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/savannahgrandfather/5089990331/\">\"Katy &amp; the Bubbatones\" - seen at the Friday Night Jamboree, Floyd, Virginia.</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/95158573@N00\">Bruce Tuten</a> from Savannah, Georgia, United States",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY 2.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution 2.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by/2.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-2.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "metadata_request_url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&prop=imageinfo%7Cinfo%7Crevisions&titles=File%3A2nd+Marine+Aircraft+Wing+Junior+Leader+Recognition+Dinner+140912-M-OB177-074.jpg%7CFile%3ATantan-men+%40+Genman+%40+Ningyocho+%2813911567054%29.jpg%7CFile%3AEmpty+Shabbat+table+installation+in+Hostages+and+Missing+Square%2C+March+2024+16.jpg%7CFile%3ABouteille+50cl.png%7CFile%3AFromAQUA+Tanigawa+2022S.jpeg%7CFile%3AWater+bottles+with+tape+handle.png%7CFile%3ASunset+water+bottle+%2810997554865%29.jpg%7CFile%3AA+sun+inside+a+bottle.jpg%7CFile%3AKate+and+the+Bubbatones+Friday+Night+Jamboree+Floyd+Country+Store+Floyd+VA+October+2010.jpg%7CFile%3AShabbat+Dinner+table+7+representing+the+hostages+and+missing+people%2C+The+October+7+attack.jpg&iiprop=timestamp%7Cuser%7Cuserid%7Curl%7Csize%7Csha1%7Cmime%7Cextmetadata&rvprop=ids%7Ctimestamp&iiextmetadatalanguage=en&maxlag=5",
+        "metadata_response": "raw/0064_metadata_0520_a1.response",
+        "metadata_response_sha256": "8ebba284295eec00bcf575bb5d64ebcb3828bcc768e0e228050ef012a34046aa",
+        "frame_responses": [
+          "raw/0006_water_category_0_a1.response"
+        ],
+        "exclusion_reasons": [],
+        "metadata_status": "eligible_pending_manual_checks",
+        "pixel_review": "not_performed",
+        "near_duplicate_review": "not_performed",
+        "attribution_review": "not_performed",
+        "model_exposure": "none",
+        "cluster_id": "5b622915d73b144b0fdd34dcf71ad570db615a959ce208bca97e7b1c38402102",
+        "cluster_rank": "44ff1ec9fb90f7ce28c3f7dac7162945fd14ff4cedc1cd8efe79a804de976c75",
+        "provisional_assignment": "reserve"
+      }
+    },
+    {
+      "blind_id": "1874a6676621",
+      "same_stratum_reserve_ordinal": 12,
+      "batch_purpose": "workflow_replacement",
+      "metadata": {
+        "id": "commons:9436377",
+        "title": "File:Stephenfrynightingale.JPG",
+        "title_key": "stephenfrynightingale.jpg",
+        "pageid": 9436377,
+        "stratum": "water",
+        "frame_rank_hash": "385f28d61927ab11fe9064662d6ca95879a2675b2862d597c3abbd5f8e736f1a",
+        "frame_categories": [
+          "Category:Glasses of water"
+        ],
+        "source_page": "https://commons.wikimedia.org/wiki/File:Stephenfrynightingale.JPG",
+        "page_revision": [
+          {
+            "revid": 1204290571,
+            "parentid": 1204285911,
+            "timestamp": "2026-04-27T01:59:11Z"
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Stephenfrynightingale.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "original_sha1": "0956882d37a777e4a80c93ca6da4c88a6e2520be",
+        "original_version_timestamp": "2010-02-09T11:56:12Z",
+        "mime": "image/jpeg",
+        "width": 1166,
+        "height": 1674,
+        "uploader": "Londonpixels",
+        "uploader_id": 718052,
+        "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Londonpixels\" title=\"User:Londonpixels\">Brian Minkoff-London Pixels</a>",
+        "artist_text": "Brian Minkoff-London Pixels",
+        "artist_links": [
+          "https://commons.wikimedia.org/wiki/User:Londonpixels"
+        ],
+        "author_keys": [
+          "commons-user:londonpixels",
+          "text:brian minkoff-london pixels",
+          "text:londonpixels"
+        ],
+        "author_identity_status": "metadata_resolved_provisionally",
+        "original_source_keys": [],
+        "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "description_html": "Stephen Fry at Nightingale House,December 2009",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "attribution_required": "true",
+        "license_metadata_allowlist_passed": true,
+        "extmetadata": {
+          "DateTime": {
+            "value": "2010-02-09 11:56:12",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Stephenfrynightingale",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Taken with Canon EOS 400D|Self-published work|Glasses of water|Men holding cups|Stephen Fry in 2009|Portraits of Stephen Fry",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Stephen Fry at Nightingale House,December 2009",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Londonpixels\" title=\"User:Londonpixels\">Brian Minkoff-London Pixels</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY 3.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution 3.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by/3.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-3.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "metadata_request_url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&prop=imageinfo%7Cinfo%7Crevisions&titles=File%3ATokyo+Underground+Ramen+%40+Ikebukuro+%2811869609633%29.jpg%7CFile%3AGto+wasabc+bonn+2015-05+-19+%2817345387563%29.jpg%7CFile%3AThe+61st+Macau+Grand+Prix+-+16215762290.jpg%7CFile%3AXin+Le+Guan+Yin+Shan+water+bottle.jpg%7CFile%3AStephenfrynightingale.JPG%7CFile%3ALifeSaver+bottle.jpg%7CFile%3AThe+Water.JPG%7CFile%3AYoshi+Sushi+%40+Aix-les-Bains+%2850285256926%29.jpg%7CFile%3AGto+wasabc+bonn+2015-05+-41+%2817939493516%29.jpg%7CFile%3ADanny+Knicely+James+Leva+Franklin+Park+Arts+Center+Round+Hill+VA+February+2012.jpg&iiprop=timestamp%7Cuser%7Cuserid%7Curl%7Csize%7Csha1%7Cmime%7Cextmetadata&rvprop=ids%7Ctimestamp&iiextmetadatalanguage=en&maxlag=5",
+        "metadata_response": "raw/0074_metadata_0620_a1.response",
+        "metadata_response_sha256": "f6894f86e3a9e03eadff09fe99b5fe1e88de0840a4582a5ef2c07bdfca4dfc74",
+        "frame_responses": [
+          "raw/0005_water_category_0_a1.response"
+        ],
+        "exclusion_reasons": [],
+        "metadata_status": "eligible_pending_manual_checks",
+        "pixel_review": "not_performed",
+        "near_duplicate_review": "not_performed",
+        "attribution_review": "not_performed",
+        "model_exposure": "none",
+        "cluster_id": "52d584d6721ade2830e7fb6586b1ef5319f7d8efaf86e4210a6a860b595f0168",
+        "cluster_rank": "4524c1c8b7aeb18b66d1000895e35bbc241f7466df961e0929feb93780472f30",
+        "provisional_assignment": "reserve"
+      }
+    },
+    {
+      "blind_id": "ad74fc351ebf",
+      "same_stratum_reserve_ordinal": 13,
+      "batch_purpose": "workflow_replacement",
+      "metadata": {
+        "id": "commons:15248602",
+        "title": "File:Red-Tornado 2007 Sylvain-Breton.jpg",
+        "title_key": "red-tornado 2007 sylvain-breton.jpg",
+        "pageid": 15248602,
+        "stratum": "water",
+        "frame_rank_hash": "5d73bd8201a42e7ca5aca081e6c1caa964e1603ed9b19f6b10d506b73d8f2729",
+        "frame_categories": [
+          "Category:Glasses of water"
+        ],
+        "source_page": "https://commons.wikimedia.org/wiki/File:Red-Tornado_2007_Sylvain-Breton.jpg",
+        "page_revision": [
+          {
+            "revid": 1224339365,
+            "parentid": 468228536,
+            "timestamp": "2026-06-01T22:53:38Z"
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Red-Tornado_2007_Sylvain-Breton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "original_sha1": "efff1480f0752ccf01ba66227a78c8c23f5d177d",
+        "original_version_timestamp": "2011-05-19T15:17:27Z",
+        "mime": "image/jpeg",
+        "width": 337,
+        "height": 363,
+        "uploader": "Brownhairblond",
+        "uploader_id": 1555898,
+        "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sylvain_Breton&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sylvain Breton (page does not exist)\">Sylvain Breton</a>",
+        "artist_text": "Sylvain Breton",
+        "artist_links": [
+          "https://commons.wikimedia.org/w/index.php?title=User:Sylvain_Breton&action=edit&redlink=1"
+        ],
+        "author_keys": [
+          "text:sylvain breton"
+        ],
+        "author_identity_status": "metadata_resolved_provisionally",
+        "original_source_keys": [],
+        "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "description_html": "Sylvain Breton, Red Tornado, 2007, Performativity Concept, Pencil in a glass of water, 201cm x 152cm.  Physic laws facing the rational mind for an easthetics of possibilities and impossibilities.",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution_required": "true",
+        "license_metadata_allowlist_passed": true,
+        "extmetadata": {
+          "DateTime": {
+            "value": "2011-05-19 15:17:27",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Red-Tornado 2007 Sylvain-Breton",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "GFDL|License migration redundant|Self-published work|Glasses of water|Refraction by water",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Sylvain Breton, Red Tornado, 2007, Performativity Concept, Pencil in a glass of water, 201cm x 152cm.  Physic laws facing the rational mind for an easthetics of possibilities and impossibilities.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2007",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sylvain_Breton&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sylvain Breton (page does not exist)\">Sylvain Breton</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 3.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 3.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/3.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-3.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "metadata_request_url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&prop=imageinfo%7Cinfo%7Crevisions&titles=File%3ATruc+simple.jpg%7CFile%3AShoyu+Ramen+%40+Aoshima+%40+%2815264727121%29.jpg%7CFile%3A%D0%9F%D1%83%D1%81%D1%82%D1%8B%D0%B5+%D0%B1%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B8+%D0%B1%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B9+%D0%B2%D0%BE%D0%B4%D1%8B.+%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3+22.05.2015.jpg%7CFile%3AArmy+uniforms+of+Norway.+Field+uniform+%28feltuniform%29+M1951+Jacket+Webbing+Ammunition+belt+Straps+Bag+Water+bottle+canteen+etc.+Armed+Forces+Museum+%28Forsvarsmuseet%29+Oslo+2020-02-3088.jpg%7CFile%3AWasserflasche+August+Staude+Hannover+rechts.jpg%7CFile%3AWater+Drop+Glass.jpg%7CFile%3ARed-Tornado+2007+Sylvain-Breton.jpg%7CFile%3ACrystal+Geyser+Water+Company+Orland+California+-+CGWC.jpg%7CFile%3ABlue+Waters+bottle+no+label.jpg%7CFile%3ATechCrunch+Disrupt+NY+2015+-+Day+3+%2817240631509%29.jpg&iiprop=timestamp%7Cuser%7Cuserid%7Curl%7Csize%7Csha1%7Cmime%7Cextmetadata&rvprop=ids%7Ctimestamp&iiextmetadatalanguage=en&maxlag=5",
+        "metadata_response": "raw/0082_metadata_0700_a1.response",
+        "metadata_response_sha256": "73bea85ac5d6945f88946dfbac81f8dd652c7c5e9a341769b1c0ae98ef4ba0bd",
+        "frame_responses": [
+          "raw/0005_water_category_0_a1.response"
+        ],
+        "exclusion_reasons": [],
+        "metadata_status": "eligible_pending_manual_checks",
+        "pixel_review": "not_performed",
+        "near_duplicate_review": "not_performed",
+        "attribution_review": "not_performed",
+        "model_exposure": "none",
+        "cluster_id": "a525ab7f0f822eee41bb90417e8d469a52b3a660ebd3f73882c902633f336a40",
+        "cluster_rank": "458fe4fda9d5ca7b9576ce8c12087605276ac6bfc7b350da72a5e45f24c40da9",
+        "provisional_assignment": "reserve"
+      }
+    },
+    {
+      "blind_id": "21e86a035853",
+      "same_stratum_reserve_ordinal": 14,
+      "batch_purpose": "workflow_replacement",
+      "metadata": {
+        "id": "commons:68683487",
+        "title": "File:Water bottles with tape handle.png",
+        "title_key": "water bottles with tape handle.png",
+        "pageid": 68683487,
+        "stratum": "water",
+        "frame_rank_hash": "0fac8dbfdaf0c15072ccfc2d1e20b813236336b4fa8cbf0e44c1b67e20ec8788",
+        "frame_categories": [
+          "Category:Water bottles"
+        ],
+        "source_page": "https://commons.wikimedia.org/wiki/File:Water_bottles_with_tape_handle.png",
+        "page_revision": [
+          {
+            "revid": 1196212022,
+            "parentid": 452799633,
+            "timestamp": "2026-04-12T15:18:07Z"
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Water_bottles_with_tape_handle.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "original_sha1": "2721d1615dd375f340fbd6adc6b3f96212544bb0",
+        "original_version_timestamp": "2018-04-30T23:20:30Z",
+        "mime": "image/png",
+        "width": 2938,
+        "height": 3024,
+        "uploader": "Rlsheehan",
+        "uploader_id": 1519294,
+        "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Rlsheehan&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Rlsheehan (page does not exist)\">Rlsheehan</a>",
+        "artist_text": "Rlsheehan",
+        "artist_links": [
+          "https://commons.wikimedia.org/w/index.php?title=User:Rlsheehan&action=edit&redlink=1"
+        ],
+        "author_keys": [
+          "text:rlsheehan"
+        ],
+        "author_identity_status": "metadata_resolved_provisionally",
+        "original_source_keys": [],
+        "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "description_html": "Six pack of plastic water bottles in Spain.  Shrink film with a tape handle, red foam",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution_required": "true",
+        "license_metadata_allowlist_passed": true,
+        "extmetadata": {
+          "DateTime": {
+            "value": "2018-04-30 23:20:30",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Water bottles with tape handle",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Water bottles|Self-published work",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Six pack of plastic water bottles in Spain.  Shrink film with a tape handle, red foam",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2018-04-30",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Rlsheehan&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Rlsheehan (page does not exist)\">Rlsheehan</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "metadata_request_url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&prop=imageinfo%7Cinfo%7Crevisions&titles=File%3A2nd+Marine+Aircraft+Wing+Junior+Leader+Recognition+Dinner+140912-M-OB177-074.jpg%7CFile%3ATantan-men+%40+Genman+%40+Ningyocho+%2813911567054%29.jpg%7CFile%3AEmpty+Shabbat+table+installation+in+Hostages+and+Missing+Square%2C+March+2024+16.jpg%7CFile%3ABouteille+50cl.png%7CFile%3AFromAQUA+Tanigawa+2022S.jpeg%7CFile%3AWater+bottles+with+tape+handle.png%7CFile%3ASunset+water+bottle+%2810997554865%29.jpg%7CFile%3AA+sun+inside+a+bottle.jpg%7CFile%3AKate+and+the+Bubbatones+Friday+Night+Jamboree+Floyd+Country+Store+Floyd+VA+October+2010.jpg%7CFile%3AShabbat+Dinner+table+7+representing+the+hostages+and+missing+people%2C+The+October+7+attack.jpg&iiprop=timestamp%7Cuser%7Cuserid%7Curl%7Csize%7Csha1%7Cmime%7Cextmetadata&rvprop=ids%7Ctimestamp&iiextmetadatalanguage=en&maxlag=5",
+        "metadata_response": "raw/0064_metadata_0520_a1.response",
+        "metadata_response_sha256": "8ebba284295eec00bcf575bb5d64ebcb3828bcc768e0e228050ef012a34046aa",
+        "frame_responses": [
+          "raw/0006_water_category_0_a1.response"
+        ],
+        "exclusion_reasons": [],
+        "metadata_status": "eligible_pending_manual_checks",
+        "pixel_review": "not_performed",
+        "near_duplicate_review": "not_performed",
+        "attribution_review": "not_performed",
+        "model_exposure": "none",
+        "cluster_id": "e1b4c56f7305e44316a58e0f5f3a60f30951891a7533042af5f2cb84b08e5228",
+        "cluster_rank": "4666f51f3a1b2a75139a79068a06be8f7916e0ce9a303dc927307c97836d8d41",
+        "provisional_assignment": "reserve"
+      }
+    },
+    {
+      "blind_id": "8cb62548ce7a",
+      "same_stratum_reserve_ordinal": 15,
+      "batch_purpose": "workflow_replacement",
+      "metadata": {
+        "id": "commons:71015784",
+        "title": "File:Wasserflasche August Staude Hannover Flaschenboden.jpg",
+        "title_key": "wasserflasche august staude hannover flaschenboden.jpg",
+        "pageid": 71015784,
+        "stratum": "water",
+        "frame_rank_hash": "09c6b8c058b712fb2fc00800159592ef2482e552475bbec6d89658d1b79cb643",
+        "frame_categories": [
+          "Category:Water bottles"
+        ],
+        "source_page": "https://commons.wikimedia.org/wiki/File:Wasserflasche_August_Staude_Hannover_Flaschenboden.jpg",
+        "page_revision": [
+          {
+            "revid": 1175572475,
+            "parentid": 943423172,
+            "timestamp": "2026-03-04T03:33:15Z"
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Wasserflasche_August_Staude_Hannover_Flaschenboden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "original_sha1": "1168a2caa07d5386998c7f3077d7ba9c90ae8d89",
+        "original_version_timestamp": "2018-07-20T22:03:20Z",
+        "mime": "image/jpeg",
+        "width": 837,
+        "height": 777,
+        "uploader": "AxelHH",
+        "uploader_id": 33847,
+        "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:AxelHH\" title=\"User:AxelHH\">Axel Hindemith</a>",
+        "artist_text": "Axel Hindemith",
+        "artist_links": [
+          "https://commons.wikimedia.org/wiki/User:AxelHH"
+        ],
+        "author_keys": [
+          "commons-user:axelhh",
+          "text:axel hindemith",
+          "text:axelhh"
+        ],
+        "author_identity_status": "metadata_resolved_provisionally",
+        "original_source_keys": [],
+        "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "description_html": "Flaschenboden einer Wasserflasche von August Staude Hannover, gefunden in Hannover",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution_required": "true",
+        "license_metadata_allowlist_passed": true,
+        "extmetadata": {
+          "DateTime": {
+            "value": "2018-07-20 22:03:20",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Wasserflasche August Staude Hannover Flaschenboden",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Water bottles|Getränke Staude|Self-published work|Information field template with formatting|Clear glass bottles",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Flaschenboden einer Wasserflasche von August Staude Hannover, gefunden in Hannover",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2018-07",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:AxelHH\" title=\"User:AxelHH\">Axel Hindemith</a>",
+            "source": "commons-desc-page"
+          },
+          "Attribution": {
+            "value": "Foto: <a href=\"https://de.wikipedia.org/wiki/User:AxelHH\" class=\"extiw\" title=\"de:User:AxelHH\">Axel Hindemith</a>",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 3.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 3.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/3.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-3.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "metadata_request_url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&prop=imageinfo%7Cinfo%7Crevisions&titles=File%3ABottle%2C+Aerated+Water+%28Wai+Wai+Mineral+Water+Co.+Hamilton+Patent+Torpedo+Bottle%29+%2848708584778%29.jpg%7CFile%3ABottle%2C+originally+for+Evian+water%2C+containing+water+from+th+Wellcome+L0057365.jpg%7CFile%3APaperclips+in+a+glass+of+water.JPG%7CFile%3ATrinkwasser-Wasserhahn.jpg%7CFile%3AFood+And+Water+%2852089686%29.jpeg%7CFile%3ABottle%2C+mineral+water+%28AM+629708%29.jpg%7CFile%3ALe+boutiquier+au+travail+03.jpg%7CFile%3AWasserflasche+August+Staude+Hannover+Flaschenboden.jpg%7CFile%3AWater+%283353212496%29.jpg%7CFile%3AA+whirlpool+in+a+glass+of+water.jpg&iiprop=timestamp%7Cuser%7Cuserid%7Curl%7Csize%7Csha1%7Cmime%7Cextmetadata&rvprop=ids%7Ctimestamp&iiextmetadatalanguage=en&maxlag=5",
+        "metadata_response": "raw/0062_metadata_0500_a1.response",
+        "metadata_response_sha256": "9060e58f74d8e6df664031891d56230c40a40ea67a6099282c6707a068817cca",
+        "frame_responses": [
+          "raw/0006_water_category_0_a1.response"
+        ],
+        "exclusion_reasons": [],
+        "metadata_status": "eligible_pending_manual_checks",
+        "pixel_review": "not_performed",
+        "near_duplicate_review": "not_performed",
+        "attribution_review": "not_performed",
+        "model_exposure": "none",
+        "cluster_id": "887c9fafd7078279ac923e095588e7e0053ce592c3bf29168810249d608ede77",
+        "cluster_rank": "47facb3b4576a7a68ecdf4b6ebc835c70343e7a7f03facee85fa9f114b3fbcff",
+        "provisional_assignment": "reserve"
+      }
+    },
+    {
+      "blind_id": "627397eb8f81",
+      "same_stratum_reserve_ordinal": 16,
+      "batch_purpose": "workflow_replacement",
+      "metadata": {
+        "id": "commons:110780719",
+        "title": "File:German Occupation of Norway during WW2 1940-45 Military equipment British water bottle webbing cradle Feltflaske Bergenhus Festningsmuseum Fortress Military Museum Bergen 2021 6117.jpg",
+        "title_key": "german occupation of norway during ww2 1940-45 military equipment british water bottle webbing cradle feltflaske bergenhus festningsmuseum fortress military museum bergen 2021 6117.jpg",
+        "pageid": 110780719,
+        "stratum": "water",
+        "frame_rank_hash": "06321b1946454d72d4c2593dff7705e33df2dd8297695d187f9a568a266e8603",
+        "frame_categories": [
+          "Category:Water bottles"
+        ],
+        "source_page": "https://commons.wikimedia.org/wiki/File:German_Occupation_of_Norway_during_WW2_1940-45_Military_equipment_British_water_bottle_webbing_cradle_Feltflaske_Bergenhus_Festningsmuseum_Fortress_Military_Museum_Bergen_2021_6117.jpg",
+        "page_revision": [
+          {
+            "revid": 1231079182,
+            "parentid": 1122616424,
+            "timestamp": "2026-06-14T07:01:50Z"
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/German_Occupation_of_Norway_during_WW2_1940-45_Military_equipment_British_water_bottle_webbing_cradle_Feltflaske_Bergenhus_Festningsmuseum_Fortress_Military_Museum_Bergen_2021_6117.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "original_sha1": "01aa666a0094489873130a61f79f185e19849044",
+        "original_version_timestamp": "2021-10-06T15:31:05Z",
+        "mime": "image/jpeg",
+        "width": 2893,
+        "height": 3858,
+        "uploader": "Wolfmann",
+        "uploader_id": 18700,
+        "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Wolfmann\" title=\"User:Wolfmann\">Wolfmann</a>",
+        "artist_text": "Wolfmann",
+        "artist_links": [
+          "https://commons.wikimedia.org/wiki/User:Wolfmann"
+        ],
+        "author_keys": [
+          "commons-user:wolfmann",
+          "text:wolfmann"
+        ],
+        "author_identity_status": "metadata_resolved_provisionally",
+        "original_source_keys": [],
+        "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "description_html": "Exhibits from <a href=\"https://en.wikipedia.org/wiki/German_occupation_of_Norway\" class=\"extiw\" title=\"en:German occupation of Norway\">Nazi Germany's occupation of Norway</a> 1940 – 1945 during World War II on display at the <a rel=\"nofollow\" class=\"external text\" href=\"https://www.fjordnorway.com/things-to-do/bergenhus-fortress-museum-p783573\">Bergenhus Fortress Museum</a> in <a href=\"https://en.wikipedia.org/wiki/Bergen\" class=\"extiw\" title=\"en:Bergen\">Bergen</a>, Norway:\n<ul><li>Military equipment etc.:\n<ul><li>British water bottle in webbing cradle</li></ul></li></ul>",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution_required": "true",
+        "license_metadata_allowlist_passed": true,
+        "extmetadata": {
+          "DateTime": {
+            "value": "2021-10-06 15:31:05",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "German Occupation of Norway during WW2 1940-45 Military equipment British water bottle webbing cradle Feltflaske Bergenhus Festningsmuseum Fortress Military Museum Bergen 2021 6117",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Water bottles|1937 Pattern Web Equipment|Self-published work|Norway photographs taken on 2021-10-02|World war II resistance display in Bergenhus Fortress Museum",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Exhibits from <a href=\"https://en.wikipedia.org/wiki/German_occupation_of_Norway\" class=\"extiw\" title=\"en:German occupation of Norway\">Nazi Germany's occupation of Norway</a> 1940 – 1945 during World War II on display at the <a rel=\"nofollow\" class=\"external text\" href=\"https://www.fjordnorway.com/things-to-do/bergenhus-fortress-museum-p783573\">Bergenhus Fortress Museum</a> in <a href=\"https://en.wikipedia.org/wiki/Bergen\" class=\"extiw\" title=\"en:Bergen\">Bergen</a>, Norway:\n<ul><li>Military equipment etc.:\n<ul><li>British water bottle in webbing cradle</li></ul></li></ul>",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2021-10-02 14:58:08",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Wolfmann\" title=\"User:Wolfmann\">Wolfmann</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "metadata_request_url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&prop=imageinfo%7Cinfo%7Crevisions&titles=File%3AHCL+052+Water+Bottle+%28%27Gugglet%27%29.jpg%7CFile%3AAn+Oak+Tree+%28conceptual+art+installation%29+-+detail.jpg%7CFile%3AReused+Photos+%285642368330%29.jpg%7CFile%3A201012-F-RF516-1360+-+JSSD-K+range+day+builds+relationships%2C+promotes+readiness+%28Image+4+of+10%29.jpg%7CFile%3AMineralwasserkruege.JPG%7CFile%3APuerto+Rico+and+South+Dakota+National+Guard+%2837608781906%29.jpg%7CFile%3AStirring+in+a+glass+of+Water.jpg%7CFile%3AThere+actually+water+on+Mars+%28my+own+version+of+the+picture%29.jpg%7CFile%3AGerman+Occupation+of+Norway+during+WW2+1940-45+Military+equipment+British+water+bottle+webbing+cradle+Feltflaske+Bergenhus+Festningsmuseum+Fortress+Military+Museum+Bergen+2021+6117.jpg%7CFile%3AEmpty+Shabbat+table+installation+in+Hostages+and+Missing+Square%2C+March+2024+28.jpg&iiprop=timestamp%7Cuser%7Cuserid%7Curl%7Csize%7Csha1%7Cmime%7Cextmetadata&rvprop=ids%7Ctimestamp&iiextmetadatalanguage=en&maxlag=5",
+        "metadata_response": "raw/0061_metadata_0490_a1.response",
+        "metadata_response_sha256": "60a95c6033010cfa0c9232429b4455c586f9e40998a91636aca5d61aa42486a4",
+        "frame_responses": [
+          "raw/0006_water_category_0_a1.response"
+        ],
+        "exclusion_reasons": [],
+        "metadata_status": "eligible_pending_manual_checks",
+        "pixel_review": "not_performed",
+        "near_duplicate_review": "not_performed",
+        "attribution_review": "not_performed",
+        "model_exposure": "none",
+        "cluster_id": "a5388578f5e90fa6fe337add55435db600fb0beea488172bcc0bdd08c546d23b",
+        "cluster_rank": "4c1f1d381b23999d402597bcd551902e36b5f587a9cf12e666f7ab5a65cb3cd8",
+        "provisional_assignment": "reserve"
+      }
+    },
+    {
+      "blind_id": "c07d0806c053",
+      "same_stratum_reserve_ordinal": 17,
+      "batch_purpose": "workflow_replacement",
+      "metadata": {
+        "id": "commons:39884000",
+        "title": "File:Bagare-med-varmt-vatten.jpeg",
+        "title_key": "bagare-med-varmt-vatten.jpeg",
+        "pageid": 39884000,
+        "stratum": "water",
+        "frame_rank_hash": "41f0b1855fdaaa51cf70256166c6bdb52da2165815c1d067bd33ffef76ea0677",
+        "frame_categories": [
+          "Category:Glasses of water"
+        ],
+        "source_page": "https://commons.wikimedia.org/wiki/File:Bagare-med-varmt-vatten.jpeg",
+        "page_revision": [
+          {
+            "revid": 1075437150,
+            "parentid": 815132275,
+            "timestamp": "2025-08-20T12:36:22Z"
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Bagare-med-varmt-vatten.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "original_sha1": "e962839ba56d356048577c60b4d3cccaa384277f",
+        "original_version_timestamp": "2015-04-30T19:48:04Z",
+        "mime": "image/jpeg",
+        "width": 2448,
+        "height": 3264,
+        "uploader": "Mehinger",
+        "uploader_id": 510968,
+        "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Mehinger\" title=\"User:Mehinger\">Mehinger</a>",
+        "artist_text": "Mehinger",
+        "artist_links": [
+          "https://commons.wikimedia.org/wiki/User:Mehinger"
+        ],
+        "author_keys": [
+          "commons-user:mehinger",
+          "text:mehinger"
+        ],
+        "author_identity_status": "metadata_resolved_provisionally",
+        "original_source_keys": [],
+        "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "description_html": "A beaker with hot water. The high temperature decreases the solubility of the gases. This leads to small bubbles forming on the inside of the glass walls.",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution_required": "true",
+        "license_metadata_allowlist_passed": true,
+        "extmetadata": {
+          "DateTime": {
+            "value": "2015-04-30 19:48:04",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Bagare-med-varmt-vatten",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Self-published work|Beakers (laboratory equipment)|Files with coordinates missing SDC location of creation|Glasses of water|Hot water",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "GPSLatitude": {
+            "value": "55.702269",
+            "source": "commons-desc-page"
+          },
+          "GPSLongitude": {
+            "value": "13.177908",
+            "source": "commons-desc-page"
+          },
+          "GPSMapDatum": {
+            "value": "WGS-84",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "A beaker with hot water. The high temperature decreases the solubility of the gases. This leads to small bubbles forming on the inside of the glass walls.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2015-04-28 17:19:49",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Mehinger\" title=\"User:Mehinger\">Mehinger</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "metadata_request_url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&prop=imageinfo%7Cinfo%7Crevisions&titles=File%3AWalking+man.jpg%7CFile%3AChange+of+Watch+2016+%2825389231716%29.jpg%7CFile%3ABagare-med-varmt-vatten.jpeg%7CFile%3AWasserflasche+August+Staude+Hannover+links.jpg%7CFile%3ABottle+of+Zephyrhills.jpg%7CFile%3A100116-F-2082O-0106+%284279954020%29.jpg%7CFile%3AFiltered+water+bottle.JPG%7CFile%3AFastenspeise.jpg%7CFile%3AEau+gallie+yc+1-9-16+%282%29+%2824423326845%29.jpg%7CFile%3ANew+York+National+Guard+%2836967942473%29.jpg&iiprop=timestamp%7Cuser%7Cuserid%7Curl%7Csize%7Csha1%7Cmime%7Cextmetadata&rvprop=ids%7Ctimestamp&iiextmetadatalanguage=en&maxlag=5",
+        "metadata_response": "raw/0077_metadata_0650_a1.response",
+        "metadata_response_sha256": "a5d7c1f3c82cfb7fb00145f5b57c5616ad8e014aa2117d5501808b1fca80de36",
+        "frame_responses": [
+          "raw/0005_water_category_0_a1.response"
+        ],
+        "exclusion_reasons": [],
+        "metadata_status": "eligible_pending_manual_checks",
+        "pixel_review": "not_performed",
+        "near_duplicate_review": "not_performed",
+        "attribution_review": "not_performed",
+        "model_exposure": "none",
+        "cluster_id": "d3c3783460177d2126c30b1ec4123845cd5f88bb665cb92a23fe175e061619b5",
+        "cluster_rank": "4cba7785442ad60b43ee915a21944a9662cc7071a241cbb5a7d3a4b513b00100",
+        "provisional_assignment": "reserve"
+      }
+    },
+    {
+      "blind_id": "a87199fb4e01",
+      "same_stratum_reserve_ordinal": 18,
+      "batch_purpose": "workflow_replacement",
+      "metadata": {
+        "id": "commons:119255117",
+        "title": "File:Carnival-in-Venice-mask on car backseat with stuff.jpg",
+        "title_key": "carnival-in-venice-mask on car backseat with stuff.jpg",
+        "pageid": 119255117,
+        "stratum": "water",
+        "frame_rank_hash": "6e72fe6bdfd540e961b6d9eb1694121a72020d5ec87ef22dc71b8c9e69f15f5d",
+        "frame_categories": [
+          "Category:Water bottles"
+        ],
+        "source_page": "https://commons.wikimedia.org/wiki/File:Carnival-in-Venice-mask_on_car_backseat_with_stuff.jpg",
+        "page_revision": [
+          {
+            "revid": 848849408,
+            "parentid": 666553380,
+            "timestamp": "2024-02-04T08:28:45Z"
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Carnival-in-Venice-mask_on_car_backseat_with_stuff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "original_sha1": "c4e59e8346126fea2475cd292a77516aeb26a544",
+        "original_version_timestamp": "2022-06-13T18:31:51Z",
+        "mime": "image/jpeg",
+        "width": 3024,
+        "height": 2500,
+        "uploader": "Pittigrilli",
+        "uploader_id": 18795,
+        "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Pittigrilli\" title=\"User:Pittigrilli\">Pittigrilli</a>",
+        "artist_text": "Pittigrilli",
+        "artist_links": [
+          "https://commons.wikimedia.org/wiki/User:Pittigrilli"
+        ],
+        "author_keys": [
+          "commons-user:pittigrilli",
+          "text:pittigrilli"
+        ],
+        "author_identity_status": "metadata_resolved_provisionally",
+        "original_source_keys": [],
+        "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "description_html": "A Carnival-in-Venice-mask on the backseat of a parked car, together with various items like a Amazon Fire TV stick, a motorcycle helmet, a McDonalds softdrink container, an empty fruit gum plastic bag, and the like.",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution_required": "true",
+        "license_metadata_allowlist_passed": true,
+        "extmetadata": {
+          "DateTime": {
+            "value": "2022-06-13 18:31:51",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Carnival-in-Venice-mask on car backseat with stuff",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Water bottles|Taken with iPhone 6S|Amazon Fire TV Stick|Self-published work|Paper cups with drinking straws|Carnival masks of Venice|Backseats of automobiles|Fanatic motorcycle helmets",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "A Carnival-in-Venice-mask on the backseat of a parked car, together with various items like a Amazon Fire TV stick, a motorcycle helmet, a McDonalds softdrink container, an empty fruit gum plastic bag, and the like.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2022-06-12 12:42:34",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Pittigrilli\" title=\"User:Pittigrilli\">Pittigrilli</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "metadata_request_url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&prop=imageinfo%7Cinfo%7Crevisions&titles=File%3AWhat%27s+normal+in+Benghazi+-+Flickr+-+Al+Jazeera+English.jpg%7CFile%3AHungary+Fortepan+89887.jpg%7CFile%3ACarnival-in-Venice-mask+on+car+backseat+with+stuff.jpg%7CFile%3ASpecial+Curry+%40+Minoringo+%40+Harajuku+%2814270017611%29.jpg%7CFile%3AWater+%26+light+%2817863980610%29.jpg%7CFile%3A%E5%BA%B7%E5%B8%88%E5%82%85%E5%96%9D%E5%BC%80%E6%B0%B4%EF%BC%882024%E5%B9%B410%E6%9C%8828%E6%97%A5%EF%BC%89.jpg%7CFile%3AKatsu+Curry+%40+Curry+House+CoCo+Ichibanya+%40+Komagome+%2810862820516%29.jpg%7CFile%3ASmart+Water+Bottles+for+Backpacking+%2849051419833%29.jpg%7CFile%3AEmpty+Shabbat+table+installation+in+Hostages+and+Missing+Square%2C+March+2024+30.jpg%7CFile%3AEmpty+Shabbat+table+installation+in+Hostages+and+Missing+Square%2C+March+2024+31.jpg&iiprop=timestamp%7Cuser%7Cuserid%7Curl%7Csize%7Csha1%7Cmime%7Cextmetadata&rvprop=ids%7Ctimestamp&iiextmetadatalanguage=en&maxlag=5",
+        "metadata_response": "raw/0086_metadata_0740_a1.response",
+        "metadata_response_sha256": "5184cc870b58119f6813c32b6d08dbca41cca3a38c5f9daf1006b70f9c23c81b",
+        "frame_responses": [
+          "raw/0006_water_category_0_a1.response"
+        ],
+        "exclusion_reasons": [],
+        "metadata_status": "eligible_pending_manual_checks",
+        "pixel_review": "not_performed",
+        "near_duplicate_review": "not_performed",
+        "attribution_review": "not_performed",
+        "model_exposure": "none",
+        "cluster_id": "507b2e02efce97c85fe8a9da87eeb45ecb781a3c991e95ed8b9a8efa5f5dc432",
+        "cluster_rank": "4e3e440545d4910ecb498cf72cf084d5a8dc1d287a38713225942e45bb419912",
+        "provisional_assignment": "reserve"
+      }
+    },
+    {
+      "blind_id": "730e4374d66b",
+      "same_stratum_reserve_ordinal": 19,
+      "batch_purpose": "workflow_replacement",
+      "metadata": {
+        "id": "commons:19133754",
+        "title": "File:Multi-use water bottle.JPG",
+        "title_key": "multi-use water bottle.jpg",
+        "pageid": 19133754,
+        "stratum": "water",
+        "frame_rank_hash": "32e1e14ff3acd58c249ff5d1ceb450542394aa4f23bf34bc9787f62c76b670aa",
+        "frame_categories": [
+          "Category:Water bottles"
+        ],
+        "source_page": "https://commons.wikimedia.org/wiki/File:Multi-use_water_bottle.JPG",
+        "page_revision": [
+          {
+            "revid": 1144057027,
+            "parentid": 1121372533,
+            "timestamp": "2026-01-08T03:34:42Z"
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Multi-use_water_bottle.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "original_sha1": "d4aa4ed55a6f8f8af16cee199a8b3654b8b97ced",
+        "original_version_timestamp": "2012-04-18T14:21:57Z",
+        "mime": "image/jpeg",
+        "width": 1024,
+        "height": 768,
+        "uploader": "Amraepowell",
+        "uploader_id": 1966367,
+        "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Amraepowell&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Amraepowell (page does not exist)\">Amraepowell</a>",
+        "artist_text": "Amraepowell",
+        "artist_links": [
+          "https://commons.wikimedia.org/w/index.php?title=User:Amraepowell&action=edit&redlink=1"
+        ],
+        "author_keys": [
+          "text:amraepowell"
+        ],
+        "author_identity_status": "metadata_resolved_provisionally",
+        "original_source_keys": [],
+        "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "description_html": "Examples of multi-use copolyester water bottles.",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution_required": "true",
+        "license_metadata_allowlist_passed": true,
+        "extmetadata": {
+          "DateTime": {
+            "value": "2012-04-18 14:21:57",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Multi-use water bottle",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Water bottles|Taken with Sony DSC-W80|Self-published work|Blue, orange, yellow|Semi-transparent|Black lids|Yellow lids|Polyester objects",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Examples of multi-use copolyester water bottles.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2012-04-16",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Amraepowell&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Amraepowell (page does not exist)\">Amraepowell</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 3.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 3.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/3.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-3.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "metadata_request_url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&prop=imageinfo%7Cinfo%7Crevisions&titles=File%3A%22Happoen%22%40Fujimi-Nagano-JPN+May-04-2012+-+panoramio+%283%29.jpg%7CFile%3ATorpedaVlada.jpg%7CFile%3AKiwanis+Trail+Adrian+Michigan.JPG%7CFile%3AClear+water+bottle.jpg%7CFile%3AALICE+THOMPSON%2C+BESOCO%2C+WEST+VIRGINIA%2C+IS+SHOWN+WITH+MILK+BOTTLES+HER+NEIGHBORS+FURNISH+HER+WATER+WITH+AFTER+HER...+-+NARA+-+556498.jpg%7CFile%3AH%C3%A9nin-Beaumont+-+%C3%89lection+officielle+de+Steeve+Briois+comme+maire+de+la+commune+le+dimanche+30+mars+2014+%28057%29.JPG%7CFile%3A106159+square+of+the+abductees+-+the+abductees%27+dinin+PikiWiki+Israel.jpg%7CFile%3AMulti-use+water+bottle.JPG%7CFile%3AA+glass+of+water.jpg%7CFile%3A%22Water+Glass+2%2C+2004+%28Variant%29%22+by+Amanda+Means.jpg&iiprop=timestamp%7Cuser%7Cuserid%7Curl%7Csize%7Csha1%7Cmime%7Cextmetadata&rvprop=ids%7Ctimestamp&iiextmetadatalanguage=en&maxlag=5",
+        "metadata_response": "raw/0072_metadata_0600_a1.response",
+        "metadata_response_sha256": "9fed5a44ebe845b7902a8b00b06dfd39d0045ea6dc22b54ce38854425a0f4bc7",
+        "frame_responses": [
+          "raw/0006_water_category_0_a1.response"
+        ],
+        "exclusion_reasons": [],
+        "metadata_status": "eligible_pending_manual_checks",
+        "pixel_review": "not_performed",
+        "near_duplicate_review": "not_performed",
+        "attribution_review": "not_performed",
+        "model_exposure": "none",
+        "cluster_id": "44cd9f922144915b877a6e7b134a54110dddfdfa159e2ae7da3176ffc4ed5fb2",
+        "cluster_rank": "4f204d68d65cf7b92227bbbef2f5081a5eba96f69ec77bd45b9085d9c1c8fe7e",
+        "provisional_assignment": "reserve"
+      }
+    },
+    {
+      "blind_id": "54426026c4f0",
+      "same_stratum_reserve_ordinal": 20,
+      "batch_purpose": "workflow_replacement",
+      "metadata": {
+        "id": "commons:126182436",
+        "title": "File:Dasani Water Bottle.jpg",
+        "title_key": "dasani water bottle.jpg",
+        "pageid": 126182436,
+        "stratum": "water",
+        "frame_rank_hash": "4adc9d32b8ab8411cca15edf252df72803d466c7f63ab331bac4327607fba01d",
+        "frame_categories": [
+          "Category:Water bottles"
+        ],
+        "source_page": "https://commons.wikimedia.org/wiki/File:Dasani_Water_Bottle.jpg",
+        "page_revision": [
+          {
+            "revid": 886089182,
+            "parentid": 793812155,
+            "timestamp": "2024-06-21T04:50:14Z"
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Dasani_Water_Bottle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "original_sha1": "6a99b9cb54e42c933d3c5b5db09b7f4d8d4da853",
+        "original_version_timestamp": "2022-12-01T15:38:40Z",
+        "mime": "image/jpeg",
+        "width": 3024,
+        "height": 4032,
+        "uploader": "Ameliaelizabeth123",
+        "uploader_id": 11763590,
+        "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ameliaelizabeth123&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ameliaelizabeth123 (page does not exist)\">Ameliaelizabeth123</a>",
+        "artist_text": "Ameliaelizabeth123",
+        "artist_links": [
+          "https://commons.wikimedia.org/w/index.php?title=User:Ameliaelizabeth123&action=edit&redlink=1"
+        ],
+        "author_keys": [
+          "text:ameliaelizabeth123"
+        ],
+        "author_identity_status": "metadata_resolved_provisionally",
+        "original_source_keys": [],
+        "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "description_html": "Dasani water bottles are plastic and are known for its classic logo. It is a 100% received bottle and the water is purified.",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution_required": "true",
+        "license_metadata_allowlist_passed": true,
+        "extmetadata": {
+          "DateTime": {
+            "value": "2022-12-01 15:38:40",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Dasani Water Bottle",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Water bottles|Self-published work",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Dasani water bottles are plastic and are known for its classic logo. It is a 100% received bottle and the water is purified.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2022-12-01 10:35:02",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ameliaelizabeth123&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ameliaelizabeth123 (page does not exist)\">Ameliaelizabeth123</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "metadata_request_url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&prop=imageinfo%7Cinfo%7Crevisions&titles=File%3ALyriste+-+fire+and+water.JPG%7CFile%3AThe+Oldest+City+Jericho.jpg%7CFile%3AEmpty+Shabbat+table+installation+in+Hostages+and+Missing+Square%2C+March+2024+22.jpg%7CFile%3APouring+water+into+a+jar+to+prepare+a+drink+during+a+gathering.jpg%7CFile%3ACondensation+%284758649264%29.jpg%7CFile%3ATake-06+%2812047182073%29.jpg%7CFile%3AA+bottle+of+Table+water.jpg%7CFile%3ADasani+Water+Bottle.jpg%7CFile%3ASpicy+Chicken+Ramen+%40+Toriana+%40+Ikebukuro+%2811547318034%29.jpg%7CFile%3AGto+wasabc+bonn+2015-05+-49+%2817778090038%29.jpg&iiprop=timestamp%7Cuser%7Cuserid%7Curl%7Csize%7Csha1%7Cmime%7Cextmetadata&rvprop=ids%7Ctimestamp&iiextmetadatalanguage=en&maxlag=5",
+        "metadata_response": "raw/0078_metadata_0660_a1.response",
+        "metadata_response_sha256": "9d5a780566edcccb039c201b49053292aa6fcb95b79c87f682c21af0d2d2e801",
+        "frame_responses": [
+          "raw/0006_water_category_0_a1.response"
+        ],
+        "exclusion_reasons": [],
+        "metadata_status": "eligible_pending_manual_checks",
+        "pixel_review": "not_performed",
+        "near_duplicate_review": "not_performed",
+        "attribution_review": "not_performed",
+        "model_exposure": "none",
+        "cluster_id": "78a598ec2faa8ddca3d04cb88d7eb46001decf31182c98df29e3cc44eee63085",
+        "cluster_rank": "4f551636374008f146cffe3c8b79ab9c372c4a86734ed4e45b4a045b600954b8",
+        "provisional_assignment": "reserve"
+      }
+    }
+  ],
+  "confirmation_pixel_access": 0,
+  "unallocated_candidate_access": 0
+}

@@ -1,0 +1,71 @@
+{
+  "status": "passed_independent_environment_audit",
+  "checked_at": "2026-09-15T18:35:54.860761+08:00",
+  "elapsed_seconds": 20.305,
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/environment.py": "b2d49ab829edc92e77df527f5b470602c289cdf3ad7728d5e71f411c53582ef6",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/test_environment.py": "519a0cb23b7b6486be648bf4c52b4d2e29ef35764a23ee83c0df97a3c662a683",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/ecology_draft_counts.py": "0ff70e9b7fc70c2da5a475281d89eee8c7b0e2e4608dcd972897e534979c6edd",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/audit_environment.py": "d1aea853afb506247e80c59a51305fd437435e09baeac501a899e4787601cee2"
+  },
+  "demand_table_counts_by_compatible_edges": {
+    "0": 120,
+    "1": 612,
+    "2": 576,
+    "3": 420
+  },
+  "selected_demand_tables": 996,
+  "canonical_states": 23904,
+  "semantic_states_all_private_assignments": 143424,
+  "local_action_count": 17,
+  "joint_action_structures": 4913,
+  "matching_action_structures": 24,
+  "d1_identically_zero_structures_checked_without_state_reads": 4889,
+  "overload_structures_checked_in_both_modes_without_state_reads": 4096,
+  "d1_complete_canonical_state_matching_action_checks": 573696,
+  "d0_complete_canonical_state_matching_action_checks": 573696,
+  "prior_independent_score_agreements": 573696,
+  "d1_matching_cases_by_team_reward": {
+    "0.0": 247680,
+    "0.5": 239616,
+    "1.0": 86400
+  },
+  "d0_additional_all_nonoverloaded_action_checks": 235296,
+  "d0_additional_scope": "12 diagonal need triples, all within the 996 support, x 24 layouts x 817 nonoverloaded structures; not all heterogeneous triples x all actions",
+  "d0_additional_cases_by_team_reward": {
+    "0.0": 110880,
+    "0.5": 96768,
+    "1.0": 27648
+  },
+  "local_observation_checks": 860544,
+  "full_information_observation_checks": 430272,
+  "canonical_i1_observation_equivalence_classes_all_three_agents": 432,
+  "canonical_i0_observation_equivalence_classes_all_three_agents": 35856,
+  "complete_menu_permutations_checked": 354,
+  "action_input_order_checks": 288,
+  "input_nonmutation_and_returned_view_isolation": "passed",
+  "mutable_state_input_copy_and_invalid_id_regressions": "passed",
+  "reproducible_state_draws": 5000,
+  "private_allocation_sample_counts": {
+    "(1, 2, 3)": 817,
+    "(1, 3, 2)": 857,
+    "(2, 1, 3)": 817,
+    "(2, 3, 1)": 832,
+    "(3, 1, 2)": 852,
+    "(3, 2, 1)": 825
+  },
+  "iid_source_review": "With fixed uniform 996 support, shuffle(layout), shuffle(private_sites), choice(support) are fresh draws from the supplied RNG. Under the ideal uniform independent RNG interpretation each world has probability 1/(996*24*6). The finite reproducibility sample is not a statistical proof of IID.",
+  "model_calls": 0,
+  "training_updates": 0,
+  "limits": [
+    "No agent, conversation, learned convention, visual perception, or language formation was evaluated.",
+    "Complete D1 verification is factored: all state-dependent matching cases plus all state-independent physical-zero structures, not a scalar loop over all 23904*4913 combinations.",
+    "D0 unmatched cases are exhaustively checked over all own-need values in diagonal triples and all layouts/actions, but not the complete heterogeneous need-table Cartesian product.",
+    "The public owner map and common team reward are declared information channels. Exact schema tests rule out extra raw hidden fields, not inference through these declared channels.",
+    "Full settle results and sufficient-information witnesses are researcher objects; a future runner must pass only own individual_feedback and permitted observations to policies.",
+    "draw_state accepts caller-provided support. A future runner must freeze the 996 support, keep RNG state/seed private, and avoid sharing raw State objects.",
+    "The menu permutation generator is caller-owned. This audit checks complete menus for supplied orders, not future independent menu randomization.",
+    "Kind and length are currently explicit symbolic observations. No visual recognition transfer has been established.",
+    "D0 retains a shared two-person capacity constraint; it removes matching dependence, not all action dependence."
+  ]
+}

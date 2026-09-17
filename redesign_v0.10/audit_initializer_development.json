@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "checks": {
+    "preparation_seed_count": 1,
+    "preparation_recorded_budget_and_gate": 1,
+    "prepared_untouched_parameters_match_new_seed": 2,
+    "individual_practice_changed_project_actor": 2,
+    "preparations_and_projections_within_batch_unique": 1,
+    "no_historical_preparation_projection_overlap": 1,
+    "smoke_fresh_model_full_initial_exact": 1
+  },
+  "total_checks": 9,
+  "failures": [],
+  "training_world_hashes_verified": 0,
+  "unique_training_batches": 0,
+  "evaluation_world_rows": 0,
+  "evaluation_primitive_decisions": 0,
+  "audit_script_sha256": "2096323be72290add478000eec8d0677408c7a58b2b5729878095082d984d540",
+  "shared_independent_helper_sha256": "fb02fd1f38b2f2a05f416e2200e64d0e2d628c3ec4314d06e80390c8bbe99680",
+  "control_helper_sha256": "50f783536f4fc0d689349d5d43a1cbde93a4980061be3b4fa04e6dfe96a7a5d3",
+  "completed_utc": "2026-09-15T13:15:32.168733+00:00",
+  "preparations": {
+    "people": [
+      {
+        "seed": 99510,
+        "agent": 0,
+        "personal_torch_seed": 99510000,
+        "state_sha256": "d67507db0cdd0ccc3f0a9d3d76abbcbad9aaad67e4419f257a58be8ef1ea8ace",
+        "project_sha256": "de2af07498179f8390721957551720812ad8f01f2ec5c0a769a148a9a6f0cfb5"
+      },
+      {
+        "seed": 99510,
+        "agent": 1,
+        "personal_torch_seed": 99510137,
+        "state_sha256": "e7e5cfed7e6e1663f0b31d65fcc67e397ce882b246372c8240769f0ce31b51a9",
+        "project_sha256": "3d31cd5781630931469ec991c533c95e74d2580a51bb131d3a0ec15e70185954"
+      }
+    ],
+    "historical_people_compared": 138,
+    "historical_overlap": [],
+    "scope": "Recorded 200x64 preparation budget, exact untouched random fingerprints and distinct fitted projections; preparation optimization was not replayed."
+  },
+  "scope": "Supplementary initializer-only smoke audit after formal gate; no forward inference or training, no gate modification."
+}

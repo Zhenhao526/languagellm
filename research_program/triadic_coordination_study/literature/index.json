@@ -1,0 +1,48 @@
+{
+  "created_at_utc": "2026-09-15T15:19:57.123905+00:00",
+  "scope": "Primary method neighbours for triadic mean J versus mean log J; not a comprehensive language origins survey",
+  "rows": [
+    {
+      "title_filename": "2016_Wei_Luke_Lenient_Learning_in_Independent_Learner_Stochastic_Cooperative_Games_JMLR.pdf",
+      "official_pdf_url": "https://www.jmlr.org/papers/volume17/15-417/15-417.pdf",
+      "pdf": "download_001/2016_Wei_Luke_Lenient_Learning_in_Independent_Learner_Stochastic_Cooperative_Games_JMLR.pdf",
+      "pages": 42,
+      "bytes": 1586179,
+      "sha256": "c9677f5d1d20001ab2d8e29dd873076d1becf85a9ba5b57fdf884d986a2553a8",
+      "extracted_text": "download_001/2016_Wei_Luke_Lenient_Learning_in_Independent_Learner_Stochastic_Cooperative_Games_JMLR.pages.txt",
+      "identity_receipt": "download_001/receipt.json"
+    },
+    {
+      "title_filename": "2019_Mahajan_MAVEN_Multi_Agent_Variational_Exploration_NeurIPS.pdf",
+      "official_pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2019/file/f816dc0acface7498e10496222e9db10-Paper.pdf",
+      "pdf": "maven_recovery_002/2019_Mahajan_MAVEN_Multi_Agent_Variational_Exploration_NeurIPS.pdf",
+      "pages": 12,
+      "bytes": 4187522,
+      "sha256": "754655e095eb48968603158a3f800ce79a9bb68db941f1678177bf97593a5fbc",
+      "extracted_text": "maven_recovery_002/2019_Mahajan_MAVEN_Multi_Agent_Variational_Exploration_NeurIPS.pages.txt",
+      "identity_receipt": "maven_recovery_002/identity_acceptance.json"
+    },
+    {
+      "title_filename": "2022_Strupl_Reward_Weighted_Regression_Converges_to_a_Global_Optimum_AAAI.pdf",
+      "official_pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/20811/20570",
+      "pdf": "download_001/2022_Strupl_Reward_Weighted_Regression_Converges_to_a_Global_Optimum_AAAI.pdf",
+      "pages": 9,
+      "bytes": 234899,
+      "sha256": "983a923ff2eb12514565fa4140a81b3e44e4fe58a62d8ccb612ace8c82d6605e",
+      "extracted_text": "download_001/2022_Strupl_Reward_Weighted_Regression_Converges_to_a_Global_Optimum_AAAI.pages.txt",
+      "identity_receipt": "download_001/receipt.json"
+    },
+    {
+      "title_filename": "2023_Zhao_Local_Optimization_Achieves_Global_Optimality_in_Multi_Agent_Reinforcement_Learning_ICML.pdf",
+      "official_pdf_url": "https://proceedings.mlr.press/v202/zhao23j/zhao23j.pdf",
+      "pdf": "download_001/2023_Zhao_Local_Optimization_Achieves_Global_Optimality_in_Multi_Agent_Reinforcement_Learning_ICML.pdf",
+      "pages": 27,
+      "bytes": 912575,
+      "sha256": "2b138992ecf5b92a6d8bd142b646ea7c08f4237ea1f1c8151fb7e4bc1969a5b1",
+      "extracted_text": "download_001/2023_Zhao_Local_Optimization_Achieves_Global_Optimality_in_Multi_Agent_Reinforcement_Learning_ICML.pages.txt",
+      "identity_receipt": "download_001/receipt.json"
+    }
+  ],
+  "pdf_http_requests_total": 5,
+  "preserved_initial_download_failure": true
+}

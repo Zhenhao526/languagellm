@@ -1,0 +1,473 @@
+{
+  "status": "passed_no_unresolved_substantive_errors",
+  "at": "2026-09-16T05:41:23.743192+00:00",
+  "report_path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/结果与下一步.md",
+  "report_sha256": "60bac4f35c8581ef26bd43ae73dcb80f248d2d31c515b7b2bf57da8526c75566",
+  "reviewer": "/root/payoff_gradient_kernel",
+  "reviewer_scope": "Report-independent arithmetic/checking using JSON and document text only. This reviewer authored the production runner and intervention, not the separately authored independent model replay; this receipt does not substitute for that audit.",
+  "input_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/结果与下一步.md": "60bac4f35c8581ef26bd43ae73dcb80f248d2d31c515b7b2bf57da8526c75566",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/results/flow_001/execution/results.json": "e9b5f078c185948126ba446d5d04eaaf71d293544216ce3a9a54929d5d943cc1",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/results/flow_001/summary_001/summary.json": "99e45d8baebc0d80e7ac66e4510b9d7287cd2a0bd96b19f50e5b0e2f7fa0014f",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/results/flow_001/summary_001/receipt.json": "8bf728be9ce28ec5b7056e2bb9a34255a7739270686756d6ce48be4de2522d60",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/results/flow_001/audit_execution_001/verification.json": "3562cf004a6b03494b9ad9a1a547c0499ffa25d3706c8cd1a6ddc37237af50dc",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/main_preflight.json": "f9cff01a209fcf529ad14dc04e5623a70abecc1ba5d431942a9e988f45e8b0e7",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/audit_preflight_001.json": "3cfabe07330f9c33381739dd4a441a894ae0b27f0c05d2c53403e6597c947882",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/audit_freeze_001.json": "8dfa8784801f35e9f148c02d1258397bf77b61eb9d6ed1f91d519d668ba2ec9b",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/summary_preflight_001.json": "8ed5df4126a070457f80d6848e0e7222872f327a3f6bfb6307df55e24f77bf53",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/summary_preflight_failure_001.json": "39489cf2043e284194eb269c6faa3e6b32fa9d20196a6aafa872ab794ffd7ed8",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/literature_sources_001.json": "466e2fb6cce151e688fb24df0d9f0d17f4a0bebeba5e247c8a6753eff065abb9",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/next_environment_review.md": "6fe489130437e593492529e40d8d66f75a699a302452661ad1e859208a26d522",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/results/flow_001/execution/started.json": "f51f3e8e0ce5e54fdb300d1b85bbbb9aacdd6a42a6421fbe1ca50786d59c07a6",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/results/flow_001/execution/status.json": "dbb762a7f14edd56d52452e95c4c85ad3d9d01968bc2781de32ae890825c6066"
+  },
+  "table_checks": {
+    "tables": 3,
+    "numeric_cells": 55,
+    "all_rounded_values_match": true,
+    "rows": [
+      {
+        "row": "59101",
+        "reported": [
+          "17.1377",
+          "13.1158",
+          "14.3384",
+          "10.6852",
+          "-4.0219",
+          "-2.7994",
+          "0.3687"
+        ],
+        "computed_full_precision": [
+          17.137729912218898,
+          13.115836137224695,
+          14.338358814910102,
+          10.685169241392659,
+          -4.021893774994202,
+          -2.7993710973087933,
+          0.36870420147675775
+        ],
+        "rounding_match": true
+      },
+      {
+        "row": "59102",
+        "reported": [
+          "18.9697",
+          "15.9062",
+          "12.7197",
+          "10.1439",
+          "-3.0635",
+          "-6.2501",
+          "0.4877"
+        ],
+        "computed_full_precision": [
+          18.96971530952799,
+          15.906197129913618,
+          12.71965940594844,
+          10.143888891601375,
+          -3.0635181796143702,
+          -6.250055903579551,
+          0.4877476652673065
+        ],
+        "rounding_match": true
+      },
+      {
+        "row": "59103",
+        "reported": [
+          "16.7623",
+          "12.5864",
+          "14.0941",
+          "10.1510",
+          "-4.1758",
+          "-2.6682",
+          "0.2328"
+        ],
+        "computed_full_precision": [
+          16.76226848613613,
+          12.586439944210257,
+          14.094065387193721,
+          10.150996385454448,
+          -4.175828541925878,
+          -2.6682030989424144,
+          0.23275954018660824
+        ],
+        "rounding_match": true
+      },
+      {
+        "row": "59104",
+        "reported": [
+          "20.7788",
+          "12.2920",
+          "11.6718",
+          "7.1863",
+          "-8.4868",
+          "-9.1070",
+          "4.0013"
+        ],
+        "computed_full_precision": [
+          20.77881291143799,
+          12.291989489344015,
+          11.671838663417173,
+          7.1863130399981765,
+          -8.486823422093973,
+          -9.10697424802082,
+          4.001297798674979
+        ],
+        "rounding_match": true
+      },
+      {
+        "row": "四社会均值",
+        "reported": [
+          "18.4121",
+          "13.4751",
+          "13.2060",
+          "9.5416",
+          "-4.9370",
+          "-5.2062",
+          "1.2726"
+        ],
+        "computed_full_precision": [
+          18.41213165483025,
+          13.475115675173146,
+          13.205980567867359,
+          9.541591889611665,
+          -4.937015979657105,
+          -5.206151086962894,
+          1.272627301401413
+        ],
+        "rounding_match": true
+      },
+      {
+        "row": "训练",
+        "reported": [
+          "-5.5730",
+          "-7.6297",
+          "0.8581"
+        ],
+        "computed_full_precision": [
+          -5.573002170143802,
+          -7.629659865467114,
+          0.8580512153578983
+        ],
+        "rounding_match": true
+      },
+      {
+        "row": "新需求关系",
+        "reported": [
+          "-5.8130",
+          "-6.9917",
+          "1.4027"
+        ],
+        "computed_full_precision": [
+          -5.813047975702789,
+          -6.9917265893765155,
+          1.402686927480292
+        ],
+        "rounding_match": true
+      },
+      {
+        "row": "新布局",
+        "reported": [
+          "-4.6246",
+          "-5.6969",
+          "0.9430"
+        ],
+        "computed_full_precision": [
+          -4.624641479608745,
+          -5.696940509783472,
+          0.9429732530418518
+        ],
+        "rounding_match": true
+      },
+      {
+        "row": "双留出",
+        "reported": [
+          "-4.9370",
+          "-5.2062",
+          "1.2726"
+        ],
+        "computed_full_precision": [
+          -4.937015979657105,
+          -5.206151086962894,
+          1.272627301401413
+        ],
+        "rounding_match": true
+      },
+      {
+        "row": "期望收益（0–1）",
+        "reported": [
+          "0.5085",
+          "0.4037",
+          "0.3929",
+          "0.3072"
+        ],
+        "computed_full_precision": [
+          0.5085263034697907,
+          0.40366596880489763,
+          0.3929251834244458,
+          0.3071970225424169
+        ],
+        "rounding_match": true
+      },
+      {
+        "row": "发生有效互选执行的概率（%）",
+        "reported": [
+          "86.9558",
+          "71.3511",
+          "69.1182",
+          "56.4402"
+        ],
+        "computed_full_precision": [
+          86.95577437235661,
+          71.35106880624666,
+          69.11819921352944,
+          56.440163581259114
+        ],
+        "rounding_match": true
+      }
+    ]
+  },
+  "summary_vs_main": {
+    "response_field_checks": 1800,
+    "max_absolute_error": 0.0
+  },
+  "primary": {
+    "exact_probability_difference": -0.049370159796571056,
+    "percentage_points": -4.937015979657105,
+    "all_four_societies_negative": true,
+    "mean_conditional_incoming_given_outgoing_pp": -3.6643886782556923,
+    "mean_conditional_outgoing_given_incoming_pp": -3.9335237855614817,
+    "all_four_society_interactions_positive": true
+  },
+  "strata_sign_counts": {
+    "new_layouts": {
+      "I_given_O0": {
+        "negative": 36,
+        "zero": 0,
+        "positive": 0
+      },
+      "O_given_I0": {
+        "negative": 30,
+        "zero": 3,
+        "positive": 3
+      },
+      "interaction": {
+        "negative": 4,
+        "zero": 7,
+        "positive": 25
+      }
+    },
+    "new_needs": {
+      "I_given_O0": {
+        "negative": 36,
+        "zero": 0,
+        "positive": 0
+      },
+      "O_given_I0": {
+        "negative": 32,
+        "zero": 3,
+        "positive": 1
+      },
+      "interaction": {
+        "negative": 5,
+        "zero": 4,
+        "positive": 27
+      }
+    },
+    "new_needs_and_layouts": {
+      "I_given_O0": {
+        "negative": 36,
+        "zero": 0,
+        "positive": 0
+      },
+      "O_given_I0": {
+        "negative": 31,
+        "zero": 3,
+        "positive": 2
+      },
+      "interaction": {
+        "negative": 6,
+        "zero": 7,
+        "positive": 23
+      }
+    },
+    "train": {
+      "I_given_O0": {
+        "negative": 36,
+        "zero": 0,
+        "positive": 0
+      },
+      "O_given_I0": {
+        "negative": 33,
+        "zero": 3,
+        "positive": 0
+      },
+      "interaction": {
+        "negative": 6,
+        "zero": 4,
+        "positive": 26
+      }
+    }
+  },
+  "axis_incoming_effect_percentage_points": {
+    "kind": -3.4266477339117674,
+    "length": -4.374983851854404,
+    "destination": -7.009416353205146
+  },
+  "waiting_scope": {
+    "partition": "new_needs_and_layouts",
+    "weights": "case-weighted within role, then equal mean of four societies",
+    "arms": {
+      "S00": {
+        "role_mean_percent": [
+          0.0005247160646438721,
+          0.000491533043962873,
+          0.00030897084989844155
+        ],
+        "mean_any_wait_probability_upper_bound_percent": 0.0013252199585051863,
+        "max_seed_role_mean_percent": 0.0011114191818024249
+      },
+      "S10": {
+        "role_mean_percent": [
+          0.005033417735494278,
+          0.0004771201807587495,
+          0.0003933866997216333
+        ],
+        "mean_any_wait_probability_upper_bound_percent": 0.005903924615974661,
+        "max_seed_role_mean_percent": 0.018576708526419978
+      },
+      "S01": {
+        "role_mean_percent": [
+          0.0006007870678520069,
+          0.0036166377865182175,
+          0.00040927907446015773
+        ],
+        "mean_any_wait_probability_upper_bound_percent": 0.004626703928830383,
+        "max_seed_role_mean_percent": 0.013441597106669576
+      },
+      "S11": {
+        "role_mean_percent": [
+          0.0051187921747291205,
+          0.003739975061191153,
+          0.00044794985464429
+        ],
+        "mean_any_wait_probability_upper_bound_percent": 0.009306717090564564,
+        "max_seed_role_mean_percent": 0.018917280189997863
+      }
+    },
+    "threshold_percent": 0.006,
+    "not_per_seed_bound": true,
+    "execution_loss_percentage_points": 15.604705566109962,
+    "interpretation": "By the union bound, the mean probability of any wait is no larger than the sum of three role means. Small mean wait mass supports the descriptive statement that the large increase in nonexecution occurs mostly with unmatched proposals. It does not identify which partner/site/destination mismatch caused the loss or establish semantics."
+  },
+  "changed_W1_symbols": {
+    "incoming_mean": 5.186728395061729,
+    "outgoing_mean": 3.9142746913580244,
+    "per_arm_upper_bound": 8
+  },
+  "execution": {
+    "main_elapsed_seconds": 75.18682141695172,
+    "audit_elapsed_seconds": 114.96195870894007,
+    "budget": {
+      "checkpoint_files_read": 4,
+      "flow_files": 16,
+      "flow_rows": 8073216,
+      "formal_random_draws": 0,
+      "generated_data_files": 32,
+      "group_metric_files": 16,
+      "intervention_module_samples": 48439296,
+      "intervention_rows": 8073216,
+      "new_natural_bank_files": 0,
+      "new_natural_module_samples": 0,
+      "new_natural_worlds": 0,
+      "policy_states": 4,
+      "reused_final_natural_bank_files": 16,
+      "reused_final_natural_worlds": 3096576,
+      "sham_rows": 2018304,
+      "total_new_module_samples": 48439296,
+      "trained_policies": 4,
+      "training_updates": 0
+    },
+    "audit_max_errors": {
+      "exact_full_success_probability": 0.0,
+      "execution_probabilities": 0.0,
+      "expected_native_reward": 0.0,
+      "metrics": 4.440892098500626e-16,
+      "probability": 0.0,
+      "sham": 0.0
+    },
+    "audit_frozen_before_main": true,
+    "no_recorded_main_or_audit_failure_files": true,
+    "failed_summary_fixture_preserved": true
+  },
+  "scientific_reading": {
+    "S": "Conditional on greedily generated messages; all17 action distributions integrated, spectator marginalized; not greedy success and not integration over messages.",
+    "weights": "Paired contrasts within case before equal context/endpoint, background, within-stratum group, nine-stratum and four-society means; S00 need not equal uniform old native-world success.",
+    "limits": "Report distinguishes specific message-path dependence from need meaning, compositional structure, centralized control, conventionalization and language formation. Interactions are descriptive for these perturbations. Future sixteen-block design is proposed, not performed."
+  },
+  "linked_artifacts": [
+    {
+      "label": "四格满分概率与条件效应",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/results/flow_001/figures_001/01_full_success_flow.png",
+      "exists": true
+    },
+    {
+      "label": "完整汇总",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/results/flow_001/summary_001/summary.json",
+      "exists": true
+    },
+    {
+      "label": "冻结方案",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/plan.md",
+      "exists": true
+    },
+    {
+      "label": "机器计划",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/results/flow_001/plan.json",
+      "exists": true
+    },
+    {
+      "label": "独立审计",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/results/flow_001/audit_execution_001/verification.json",
+      "exists": true
+    },
+    {
+      "label": "JSON汇总",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/results/flow_001/summary_001/receipt.json",
+      "exists": true
+    },
+    {
+      "label": "逐篇阅读范围与创新性限制",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/literature/近邻与创新性约束.md",
+      "exists": true
+    },
+    {
+      "label": "下一阶段环境设计审查",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/next_environment_review.md",
+      "exists": true
+    }
+  ],
+  "links_checked": 8,
+  "image_files_exist": true,
+  "pixel_visual_review": "Not repeated here; root performed actual PNG review.",
+  "resolved_wording": [
+    {
+      "issue": "Own-message invariance could include W2",
+      "resolution": "Root clarified own first-window messages; all W2 regenerated."
+    },
+    {
+      "issue": "0.006% average could be read as every-seed bound",
+      "resolution": "Root clarified double-holdout case weighting and four-society average; individual seed-role can reach0.01891728019%."
+    },
+    {
+      "issue": "Original plot caption referred to lines",
+      "resolution": "Root visual review corrected circles for societies and diamonds for means."
+    }
+  ],
+  "cost": {
+    "npz_reads": 0,
+    "checkpoint_loads": 0,
+    "neural_forward_samples": 0,
+    "training_updates": 0
+  },
+  "unresolved_findings": []
+}

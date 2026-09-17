@@ -1,0 +1,44 @@
+{
+  "cause": "Auditor strip_scale constructed dict while inherited strict same compares container type with saved OrderedDict; all state tensors exactly equal.",
+  "failed_source_sha256": "7ca5bad85dc520b816f158dbade61463c471345e0337a3e2bd6c6104ffabb61f",
+  "failed_source_path": "/Users/xia/Documents/ChatGPT/\u8bed\u8a00/redesign_v0.15/audit_scaled_failed_container_type_7ca5bad85dc5.py",
+  "failed_qa_sha256": "e408612cb9a260dd0ead242344abdd4fe9163a40db52e3f7a76c4a2829a8b06f",
+  "affected": [
+    {
+      "file": "initial.pt",
+      "max_abs": 0.0,
+      "actual_container": "OrderedDict",
+      "stripped_container": "dict",
+      "reference_container": "OrderedDict"
+    },
+    {
+      "file": "after_first_update.pt",
+      "max_abs": 0.0,
+      "actual_container": "OrderedDict",
+      "stripped_container": "dict",
+      "reference_container": "OrderedDict"
+    },
+    {
+      "file": "final.pt",
+      "max_abs": 0.0,
+      "actual_container": "OrderedDict",
+      "stripped_container": "dict",
+      "reference_container": "OrderedDict"
+    },
+    {
+      "file": "checkpoint_0000.pt",
+      "max_abs": 0.0,
+      "actual_container": "OrderedDict",
+      "stripped_container": "dict",
+      "reference_container": "OrderedDict"
+    },
+    {
+      "file": "checkpoint_0002.pt",
+      "max_abs": 0.0,
+      "actual_container": "OrderedDict",
+      "stripped_container": "dict",
+      "reference_container": "OrderedDict"
+    }
+  ],
+  "correction": "Preserve the original mapping class when removing only visual_scale. No numeric tolerance, source model, calibration, or training changes."
+}

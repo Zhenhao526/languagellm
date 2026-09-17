@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "checks": 245,
+  "local_links_checked": 48,
+  "failures": 0,
+  "frozen_source_and_input_hashes_unchanged": true,
+  "four_sealed_reviews_unchanged": true,
+  "all_curation_source_hashes_match": true,
+  "old_total_readme_byte_snapshot_verified": true,
+  "workflow_usable": 7,
+  "workflow_gap": 17,
+  "new_image_views": 0,
+  "model_calls": 0,
+  "new_network_requests": 0,
+  "finished_utc": "2026-09-15T16:55:29.509396+00:00",
+  "status_sha256": "d4854d56a98c33f68e2130b34b5d630987b9304dd4c192d95e29edbc6b31e07a",
+  "readme_sha256": "2906be63cc4bebcdc0c7a7652286d9dcb101bf5aed5b4354977145afb8aff462",
+  "wording_fix_verified": true
+}

@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "source_sha256": "7a28ac4f1a8c02736c38d0a8183f3ced9d4bd6cfa2eae32f8e690a81a8c8abe2",
+  "formal_inference": false,
+  "head_parameters": 10476,
+  "head_tensors": 4,
+  "formal_initialization_seeds": [
+    5891812417000136919,
+    5563230621319938586,
+    1828922590629748618,
+    1144521186710232760,
+    4985773007601912233,
+    2138216049494340799,
+    8441646635727474679,
+    5969360576233057849,
+    7004487486808199501,
+    989187894087480461,
+    8507362807308226592,
+    3652218125145555317,
+    3571561665928705020,
+    2741870484034273539,
+    6621594637676784851,
+    7573919237427931635,
+    4093785321913243321,
+    4941082893108726533,
+    8222573977038696484,
+    5824982097337614596,
+    9079464402515473261,
+    2081392615233526629,
+    4688741151601512928,
+    7596025627260585139
+  ],
+  "checks": [
+    "Four arms same fresh head, no global RNG mutation",
+    "24 formal head seed bridges unique and full63bit",
+    "Fixture deterministic and old support only; paired goal/photos; direct SeedSequence namespaces",
+    "Single selected goal reward/CE and entropy boundary2099/2100",
+    "CE loss and gradients unchanged by action-uniform intervention",
+    "Finite gradients, no optimizer/encoder/parameter/grad-slot mutation"
+  ]
+}

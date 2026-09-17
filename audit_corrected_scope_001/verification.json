@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "recovery": "scope_assertion_only_after_complete_replay",
+  "at": "2026-09-16T13:25:24.416174+00:00",
+  "plan_sha256": "a406ff75070d1d724d19a06b85950e122724ff8113e5f7adb4e43abacc160777",
+  "corrected_results_sha256": "2c1cae9bed48a7c4c17beb773e81732aabee362c930ad12923563f4d4bf9f861",
+  "source_failed_audit": "/Users/xia/Documents/ChatGPT/语言/audit_corrected_006/failure.json",
+  "source_failed_audit_sha256": "15fa6a1957d69ee5133c207cdc2a3ba5fe54cc8ba459ea57c4e83079604ecff1",
+  "source_failed_audit_elapsed_seconds": 5167.535540333018,
+  "counts": {
+    "run_directories": 128,
+    "trajectory_files": 768,
+    "final_files": 384,
+    "training_logs": 128,
+    "trajectory_logs": 128,
+    "paired_training_rows": 192000,
+    "all_condition_training_rows": 768000,
+    "evaluation_worlds": 356659200
+  },
+  "assertion_correction": {
+    "failed_assertion_expected_total": 768000,
+    "actual_counted_paired_rows": 192000,
+    "corrected_condition": "The replay checks four condition logs per regime/seed pair; each paired row is counted once.",
+    "scientific_checks": "The failed audit reached this assertion only after its per-file forward, settlement, hash and log checks. No neural forward is repeated by this recovery."
+  },
+  "max_errors": "Not serialized by the failed audit; no earlier failure was raised.",
+  "artifacts_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorial_formation_study/results/factorial_001_corrected/execution/results.json": "2c1cae9bed48a7c4c17beb773e81732aabee362c930ad12923563f4d4bf9f861"
+  },
+  "scope": [
+    "Complete corrected replay reached the known final scope assertion.",
+    "Recovery independently recounts all evaluation files and all 768000 training-log rows.",
+    "This recovery does not claim a second neural replay; the original replay evidence is the failed audit traceback and elapsed run."
+  ]
+}

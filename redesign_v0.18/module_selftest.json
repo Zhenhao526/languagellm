@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "policy_parameters": 43319,
+  "score_float32_vs_double_max_abs": 1.0020813334676859e-07,
+  "finite_difference_max_abs": 5.274356906087574e-11,
+  "checks": [
+    "All49 messages and36 receiver actions with ET2 distinct from squared ET",
+    "Full9-tensor score includes both-token cross term",
+    "Float32-score/double accumulation compared to double network and finite differences",
+    "Expected score gate; no model state/grad/RNG mutation",
+    "Optional score output leaves summary unchanged",
+    "All six synthetic baseline permutations match analytic expectation",
+    "Weighted-optimal identity and zero-A case"
+  ],
+  "formal_inference_run": false,
+  "source_sha256": "aac8a94a780fa6d3a4a322e2f56b4d01c4bb51abe2767f4f8d043c02ebc2bf85"
+}

@@ -1,0 +1,6 @@
+{
+  "status": "interrupted_before_scientific_validation",
+  "reason": "The corrected run tree still contained source-tree path strings in its copied evaluation records. The replay was stopped before any completion claim so paths could be canonicalized and the result/status hash rebound.",
+  "corrected_results_sha256_before_path_rebind": "5b704fa20d68b75c9d907495441804ddf452e5e5fe16b7fa72aa8b75c7a8d548",
+  "training_or_npz_files_modified": false
+}

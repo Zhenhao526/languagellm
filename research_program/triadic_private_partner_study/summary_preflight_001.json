@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "at": "2026-09-16T04:18:30.619251+00:00",
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_private_partner_study/summarize_results.py": "9da12e4a7de7d9c9ee967b5dbe3e24ea674c3a6a4607b85bdf2ef885b86c72bf",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_private_partner_study/tests/test_summary.py": "ef0af4a9d1df1cc4e07a44038a7446e8b17a161140270a3afbbe55e36d6087fa"
+  },
+  "command": "qwen_collect_pilot/.venv/bin/python -m unittest research_program.triadic_private_partner_study.tests.test_summary -v",
+  "invocation": {
+    "chunk_id": "6ccb43",
+    "tests": 2,
+    "unittest_elapsed_seconds": 0.141,
+    "exit_code": 0
+  },
+  "coverage": [
+    "All8 paired conditions and240 actual records retained:192natural monitor,32natural full endpoints,16actual live-policy closed endpoints",
+    "All48 Q records retain9strata andrawbackground/count records in original runs",
+    "Direct primary fixture paired differences0.25,-0.25,0.5,0;mean0.125;negativeandzero kept",
+    "Live-minus-closed auxiliary mean0.1875;not substituted for from-scratch silent condition",
+    "Four domains andsixmonitor points kept separate;monitor hasnoQ",
+    "Exact main-primary match,missingclosedandmodifiedprimary rejected",
+    "TemporaryJSON-only workflow succeeds despite nonexistentNPZ paths;outputhashreceipt andfiveboundJSON inputs",
+    "Completed-statusandresult hash validation;activeexecutionoroverwrite rejected"
+  ],
+  "scope": {
+    "formal_results_read": false,
+    "formal_results_summarized": false,
+    "npz_files_opened": 0,
+    "model_loads": 0,
+    "neural_forward_calls": 0,
+    "training_updates": 0
+  },
+  "default_output": "results/private_001/summary_001/summary.json",
+  "receipt_output": "results/private_001/summary_001/receipt.json",
+  "frozen_after_preflight": true,
+  "execution_authority": "Root dispatch after formal completion;this agent has not opened active results."
+}

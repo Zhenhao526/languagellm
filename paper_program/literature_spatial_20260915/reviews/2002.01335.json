@@ -1,0 +1,27 @@
+{
+  "review_mode": "full_text",
+  "confidence": "high",
+  "verdict": "read",
+  "paper_type": "empirical_method",
+  "scores": {
+    "relevance": 90,
+    "evidence": 73,
+    "novelty": 70,
+    "impact": 78,
+    "reproducibility": 77,
+    "author_prior": 50,
+    "early_signal": 50
+  },
+  "contribution": "结构输入和关系归纳偏置促进组合通信已有直接实验。",
+  "evidence_summary": "图属性新组合、TopSim和符号替换测试，图模型具有更好的OOD表现。",
+  "novelty_comparison": "同时改变图/序列/词袋输入组织和编码架构；社会游戏联合训练，无私人行动后冻结的阶段比较。 阅读优先级评分不认证论文或本项目新颖性。",
+  "recommendation_reasons": [
+    "结构输入和关系归纳偏置促进组合通信已有直接实验。",
+    "PDF 1–5; games, training, OOD, ablations"
+  ],
+  "concerns": [
+    "全文是arXivv4，另有CogSci海报摘要；预算随架构变化，超参数按准确率人工选择。"
+  ],
+  "summary": "同时改变图/序列/词袋输入组织和编码架构；社会游戏联合训练，无私人行动后冻结的阶段比较。",
+  "arxiv_id": "2002.01335"
+}

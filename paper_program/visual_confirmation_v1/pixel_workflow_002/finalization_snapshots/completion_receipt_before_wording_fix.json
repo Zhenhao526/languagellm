@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-09-15T16:54:06.904088+00:00",
+  "collector_exit_code": 0,
+  "source_frozen_unchanged": true,
+  "batch_curation_status_sha256": "d4854d56a98c33f68e2130b34b5d630987b9304dd4c192d95e29edbc6b31e07a",
+  "base_README_before_sha256": "e9f784af4086dcc91432cedc2b7f941739194123524f7e10751a166d3035ff3a",
+  "base_README_after_sha256": "bbebcc05686e37798c57685d28636279fcfeb5e5c58a1fb53fd30621f89f898a",
+  "batch_README_sha256": "0ccb6fea4795eecf038ec10effdd048a68142a30d38a84f70ea180d3e4ffafa5",
+  "snapshot_note": "Saved old totalREADME and previous batchREADME original bytes before update; no older completed experiment report or completion manifest modified.",
+  "scope": "No new candidate or model execution; all review decisions retained byte-exact."
+}

@@ -1,0 +1,820 @@
+=== PDF PAGE 1 ===
+Emergent Communication:
+Generalization and Overfitting in Lewis Games
+Mathieu Rita
+INRIA, Paris
+mathieu.rita@inria.fr
+Corentin Tallec Paul Michel ∗ Jean-Bastien Grill
+DeepMind
+[corentint,paulmiche,jbgrill]@deepmind.com
+Olivier Pietquin
+Google Research, Brain Team
+pietquin@google.com
+Emmanuel Dupoux
+EHESS,ENS-PSL,CNRS,INRIA
+Meta AI Research
+emmanuel.dupoux@gmail.com
+Florian Strub
+DeepMind
+fstrub@deepmind.com
+Abstract
+Lewis signaling games are a class of simple communication games for simulating
+the emergence of language. In these games, two agents must agree on a commu-
+nication protocol in order to solve a cooperative task. Previous work has shown
+that agents trained to play this game with reinforcement learning tend to develop
+languages that display undesirable properties from a linguistic point of view (lack
+of generalization, lack of compositionality, etc). In this paper, we aim to provide
+better understanding of this phenomenon by analytically studying the learning
+problem in Lewis games. As a core contribution, we demonstrate that the standard
+objective in Lewis games can be decomposed in two components: a co-adaptation
+loss and an information loss. This decomposition enables us to surface two po-
+tential sources of overfitting, which we show may undermine the emergence of a
+structured communication protocol. In particular, when we control for overfitting
+on the co-adaptation loss, we recover desired properties in the emergent languages:
+they are more compositional and generalize better.
+1 Introduction
+Understanding the dynamics of language evolution has been a challenging if not controversial research
+topic in the language sciences [ 32, 13]. Given that the very first human language cannot be unearthed
+from fossils [5], computational models have been designed to simulate the emergence of a structured
+language within a controlled environment. In this line of work, Lewis signaling games [55] are among
+the most widespread playground environments to model language emergence: they are inherently
+simple, yet they exhibit a rich set of communication behaviors [17, 70]. Therefore, understanding
+Lewis games dynamics may shed light on the prerequisites of language emergence.
+In their original form, Lewis signaling games involve two agents: a speaker and a listener. The speaker
+observes a random state from its environment, e.g. an image, and sends a signal to the listener. The
+listener then undertakes an action based on this signal. Finally, both agents are equally rewarded based
+on the outcome of the listener’s action. The resolution of this cooperative two-player game requires
+the emergence of a shared protocol between the agents [55, 17]. One way to model the emergence of
+such protocol is to give the agents the capacity to learn. The agents, and therefore, the communication
+protocol, are shaped by a sequence of trials and errors over multiple games [ 81, 44, 75, 70]. This
+learning-centric approach allows for a fine analysis of the language emergence dynamics [70, 36]. It
+∗This work was performed when Paul Michel was affiliated with Ecole Normale Supérieure PSL.
+36th Conference on Neural Information Processing Systems (NeurIPS 2022).
+
+=== PDF PAGE 2 ===
+also raises challenging learning-specific questions: What are the inductive biases present in the agent
+architecture and loss function that shape the emergent language [43]? How do agents generalize from
+their training set? Is the resulting language compositional [8]? What is the impact of overfitting [53]?
+Recently, there has been a resurgence of interest for such learning-based approaches following
+advances in machine learning [51]. In these approaches, the speakers and listeners are modeled as deep
+reinforcement learning agents optimized to solve instances of the Lewis games [53, 33, 65, 56, 28].
+The vast majority of these works explore Lewis games from an empirical perspective. However,
+some of the recent experimental results are at odds with experimental findings from the linguistics
+literature. For instance, the emergent protocols lack interpretability [ 48], generalization does not
+always correlate with language compositionality [10], successful strategies are not naturally adopted
+in populations [68, 12], and anti-efficient communication may even emerge [9]. It is unclear whether
+those empirical observations result from a learning failure, e.g. optimization problems, overfitting,
+or whether they are symptomatic of more fundamental limitations of Lewis games for modeling
+language emergence, e.g. lack of embodiment [31, 4, 63, 37]. Overall, it is crucial to establish new
+analytical insight to analyze Lewis games in the learning setting.
+In this paper, we introduce such an analytical framework to diagnose the learning dynamics of deep
+reinforcement learning agents in Lewis signaling games. As a core contribution, we demonstrate under
+mild assumptions that the loss of the speaker and listener can be decomposed into two components
+when resolving Lewis signaling games: (i) an information loss that maximizes the mutual information
+between the observed states and speaker messages; (ii) a co-adaptation loss that aligns the speaker
+and listener’s interpretation of the messages (Section 2). Based on this decomposition, we empirically
+examine the evolution of these two losses during the learning process (Section 5). In particular,
+we identify an overfitting problem in the co-adaptation loss between the agents which undermines
+the emergence of structured language. We then show that the standard setup used in the deep
+language emergence literature consistently suffers from this overfitting issue (Section 5.1). This
+realization explains some of the contradictory observations [ 10] and experimental choices from
+past works [ 65, 56, 68]. Finally, we explore regularization methods to tackle this co-adaptation
+overfitting. We observe that reducing the co-adaptation overfitting allows for developing a more
+structured communication protocol (Section 5.2).
+All in all, our contributions are three-fold: (i) we provide a formal description of Lewis games from a
+learning standpoint (Section 2.3); (ii) we apply this framework in experiments to show that degenerate
+results are primarily due to overfitting in the co-adaptation component of the game (Section 5.1) ;
+(iii) we propose natural ways of tackling this overfitting issue and show that, when we control the
+receiver’s level of convergence, we obtain a well-structured emergent protocol (Section 5.2).
+2 Analyzing Lewis Games
+We show that Lewis games’ objective decomposes into two terms: (i) an information loss that
+measures whether each message refers to a unique input; (ii) a co-adaptation loss that quantifies the
+alignment of the speaker’s and listener’s interpretation of the messages.
+For simplicity and to ease the reader’s intuition, we focus on the reconstruction variant of Lewis
+games with agents optimizing the reconstruction log-likelihood in the main paper. In Appendix A,
+we show that our analysis extends to a broader of Lewis signaling games, e.g. discrimination
+games [12, 60, 21, 30, 65, 53, 52, 33, 56, 58], and to a general form of reward that covers the rewards
+commonly used in emergent communication, e.g. log-likelihood [ 9, 10, 40, 68, 67, 11], accuracy
+reward [65, 53, 52, 48, 56, 28, 23].
+2.1 Background: Lewis Reconstruction Games
+Game formalism In reconstruction Lewis games, a speaker observes a random object of its envi-
+ronment. The speaker then sends a descriptive message, which a second agent, the listener, uses
+to reconstruct the object. The success of the game is quantified by how well the original object
+is reconstructed [ 40, 9, 67, 68]. Formally, the speaker is parameterized by θ and the listener is
+parameterized by ϕ. The observed object denoted by x is selected from a set of objects denoted by X .
+We denote by X the random variable characterizing x, sampled from distribution p. The intermediate
+message sent by the speaker m belongs to the set of all potential messages M. The speaker follows
+2
+
+=== PDF PAGE 3 ===
+a policy πθ which samples a message m with probability πθ(m|x) conditioned on object x. We
+denote by Mθ the random variable characterizing the message m, sampled from πθ(·|X). We denote
+by πθ(m) = P
+x πθ(m|x)p(x) the marginal probability of a message given policy πθ. Given a
+message m, the listener outputs a probability distribution over inputs ρϕ(·|m), and the probability of
+reconstructing the entire object x given m is thus ρϕ(x|m).
+Game objectives In reconstruction games, the speaker and listener minimize the negative log
+likelihood of the reconstructed object. Both agents thus optimize the objective:
+Lθ,ϕ = −Ex∼p,m∼πθ(·|x)[log ρϕ(x|m)], (1)
+where optimizing the speaker is a reinforcement learning problem whose parameters θ are optimized
+using policy gradient [ 76] and optimizing the listener is a supervised learning problem whose
+parameters ϕ are optimized with gradient descent. In our theoretical analysis, we consider that agents
+are not regularized. In practice, regularizations, e.g. entropy regularization [59], may be added to the
+game objective but it does not alter our main conclusions.
+2.2 Building Intuition on the Lewis Reconstruction Game Learning Dynamics
+To get a better intuition of the dynamic of Lewis reconstruction games, we can analyze the form
+taken by the optimal listener, given speaker πθ. In what follows, we use sub-script θ to denote an
+explicit dependency of the policy on parameters θ, e.g. a policy parameterized with a neural network.
+Conversely, the use of super-script ∗(θ) corresponds to an implicit dependency of the policy on
+parameters θ. As shown in Appendix A.1.1, given a message m, the optimal listener’s distribution
+ρ∗(θ)(·|m) can be written in closed-form:
+ρ∗(θ)(x|m):= p(x)πθ(m|x)P
+x′∈X p(x′)πθ(m|x′) · (2)
+Here, ρ∗(θ) does not depend on ϕ, but implicitly depends on θ, as it is the optimal listener given a
+policy parameterized by θ. At each update, the listener ρϕ gets closer to its optimum ρ∗(θ)(·|m) . If
+we suppose that the listener perfectly fits ρ∗(θ)(·|m) at any moment, the loss becomes:
+Lθ,ϕ = −Ex∼p,m∼πθ(·|x)[log ρ∗(θ)(x|m)] = H(X|Mθ) = −I(X; Mθ) + H(X) (3)
+where H(X|Mθ) is the conditional entropy of X conditioned on Mθ and I(X; Mθ) is the mutual
+information between X and Mθ. Thus, if the listener is optimal at every point in time, the speaker’s
+task merely becomes the construction of a message protocol that maximizes the mutual information
+between objects and messages, i.e. the construction of an unambiguous message protocol.
+In practice, the listener never perfectly fits the optimum. In the following, we elucidate the effect of
+this gap between the listener and its optimum on the dynamics of the game.
+2.3 Analytical Result: The Lewis Games Loss Decomposition
+In cooperative Lewis games, the agents’ loss can be decomposed into two terms:
+Lθ,ϕ = Linfo + Ladapt, (4)
+• An information term Linfo quantifies the degree of ambiguity of the language protocol. It
+is minimal when each message refers to a unique object;
+• A co-adaptation term Ladapt quantifies the gap between the listener and its optimum: the
+speaker’s posterior distribution. This co-adaptive term is optimized both by the speaker
+and the listener. When the listener is optimal, this co-adaptation objective is zeroed.
+In particular, the decomposition takes the following form in the Lewis reconstruction game:
+Lθ,ϕ = H(X|Mθ)| {z }
+Linfo
++ Em∼πθ DKL(ρ∗(θ)(·|m)||ρϕ(·|m))| {z }
+Ladapt
+, (5)
+3
+
+=== PDF PAGE 4 ===
+The proof of the decomposition is provided in Appendix A. Appendix A provides the proof for the
+reconstruction log-likelihood reward and extends to a broader class of Lewis signaling games, e.g.
+discrimination games, and general cooperative rewards covering usual emergent communication
+rewards, e.g. the accuracy reward. This decomposition gives us insights on the game dynamics and
+the constraints that shape languages in the game with neural agents:
+The information loss Linfo captures the speaker’s intrinsic objective: to develop an unambiguous
+protocol. Linfo is minimal, equals to 0, when the communication protocol is unambiguous, i.e. every
+message from the speaker’s policyπθ refers to a unique object. Conversely, Linfo is maximal, equal
+to H(X), when the message protocol is fully ambiguous, and X and Mθ are independent variables.
+The co-adaptation loss Ladapt is specific to learning agents. This loss measures how far the listener
+ρϕ is from its optimum ρ∗(θ). If Ladapt = 0, the listener and its optimum coincide. Ladapt has the
+particularity to be optimized by the two agents. From the listener’s side, it merely corresponds to the
+optimization of its supervised task. From the speaker’s side, it brings out that the speaker must adapt
+its language to the listener in addition to build an unambiguous message protocol. In other words, the
+co-adaptation loss pushes the speaker to develop a language that can be easily recognized by listeners.
+This pressure diminishes as the listener approaches its optimum.
+From a practical perspective, Equation (5) yields the following individual gradients:
+
+∇θLθ = −∇θI(X, Mθ) + ∇θEm∼πθ DKL(ρ∗(θ)(·|m)||ρϕ(·|m))
+∇ϕLϕ = ∇ϕEm∼πθ DKL(ρ∗(θ)(·|m)||ρϕ(·|m)), (6)
+where the listener only receives gradients from the co-adaptation term, and the speaker receives
+gradients from both terms.
+This loss decomposition also finds echoes in the cognitive science literature in the form of an
+expressivity vs. learnability trade-off [72]; see Section 6 for a detailed discussion.
+2.4 Generalization Gaps in Lewis Reconstruction Games
+We explore another facet of the loss decomposition that arises from learning. As agents are trained
+on partial views of their environment, it opens questions of overfitting and generalization to unseen
+objects. As is customary in machine learning, we consider agents trained on a fixed, finite sample
+from the data distribution: the training set. Let us denote by ptrain the empirical object distribution
+over the training set and Xtrain an object sampled from ptrain. Similarly let M train
+θ denote a
+message sampled from πθ(.|Xtrain), πtrain
+θ (m) = P
+x πθ(m|x)ptrain(x) the marginal probability
+of a message on the training set, and ρ∗(θ)
+train(x|m) = ptrain(x)πθ(m|x)P
+x∈X ptrain(x)πθ(m|x) the speaker’s posterior
+distribution with respect to the prior distribution ptrain. The training loss can be written as follow:
+Ltrain
+θ,ϕ = −Ex∼ptrain,m∼πθ(·|x)[log ρϕ(x|m)]
+= H(Xtrain|Mtrain
+θ )| {z }
+Ltrain
+info
++ Em∼πtrain
+θ
+DKL(ρ∗(θ)
+train(·|m)||ρϕ(·|m))·
+| {z }
+Ltrain
+adapt
+Decomposing the gap between Ltrain
+θ,ϕ and Lθ,ϕ uncovers two sources of overfitting:
+Ltrain
+θ,ϕ = Lθ,ϕ + Ltrain
+info − Linfo| {z }
+information overfitting
++ Ltrain
+adapt − Ladapt
+| {z }
+co-adaptation overfitting
+· (7)
+Intuitively, information overfitting occurs when the speaker only develops an unambiguous language
+on the training set, but ambiguities remain on the total dataset. Co-adaptation overfitting occurs when
+the two agents agree on a common communication protocol on the training data, but not on all data.
+3 Method
+This section gathers the methodological tools required to empirically study the loss decomposition.
+4
+
+=== PDF PAGE 5 ===
+Figure 1: Probing method: (1) the speaker and listener are frozen and the probe listener is initialized.
+(2) the probe listener is trained on ptrain (resp. p) with the speaker’s messages until convergence; (3)
+The speaker takes inputs from ptrain (resp. ptest) and messages the probe listener and the listener.
+The resulting loss of the probe listener is ˆLinfo, and the loss of the listener is used to estimate ˆLadapt.
+3.1 Probing the Information and Co-adaptation Losses
+Computing Linfo and Ladapt directly necessitates estimating the posterior distribution of the speaker,
+ρ∗(θ)(. | m). Doing so requires summing over all X which is intractable. Fortunately, deep models
+are large enough so that they can perfectly solve their task on their train set. We can leverage this
+fact to compute empirical estimates ˆLinfo and ˆLadapt of Linfo and Ladapt respectively by using an
+auxiliary listener trained to optimality.
+We here detail an empirical probing mechanism to obtain estimates ˆLinfo and ˆLadapt given speaker
+πθ and listener ρϕ. As noted in Equation 2, the posterior ρ∗(θ) also corresponds to the optimal listener.
+Therefore, we obtain an estimate of the posterior by training a listener to optimality, and use this
+optimal listener to decompose the loss. In practice, to obtain this optimal listener, we freeze speaker
+πθ and listener ρϕ and initialize a new, auxiliary listener from scratch, which we refer to as the probe
+listener. As illustrated in Figure 1, the probe listener is trained to reconstruct object x from message
+m, with x drawn from distribution p or ptrain and m sampled according to the frozen speaker policy
+πθ(.|x), until a stopping criterion is met. We then distinguish between the train and test estimates:
+ˆLtrain
+info = −Ex∼ptrain,m∼πθ(·|x)[log ρtrain
+ω∗ (x|m)]
+ˆLtrain
+adapt = −Ex∼ptrain,m∼πθ(·|x)[log ρϕ(x|m)] − ˆLtrain
+info
+(8)
+and,
+ˆLtest
+info = −Ex∼ptest,m∼πθ(·|x)[log ρω∗(x|m)]
+ˆLtest
+adapt = −Ex∼ptest,m∼πθ(·|x)[log ρϕ(x|m)] − ˆLtest
+info
+(9)
+where ρtrain
+ω∗ and ρω∗ are the probe listeners trained over distributions ptrain and p respectively.2 Note
+that this probing mechanism, while tractable, is computationally costly as it necessitates training a
+new probe listener to convergence, and so we only use it as a valuable diagnosis tool.
+3.2 Balancing the Information and Co-adaptation Terms
+As explained in Section 2.3, the information loss alone is sufficient for the speaker to develop an
+unambiguous language. This begets the question: does the co-adaptation loss have any bearing on
+the emergent language at all? We elucidate this question by balancing the weight of the co-adaptation
+term in the decomposition. By using the probing method described above, we build the following
+training loss:
+Lθ(α) = (1 − α) × ˆLtrain
+info + α × ˆLtrain
+adapt where α ∈ [0; 0.5] (10)
+2The estimate is trained on p, the full distribution of objects, and not ptest. Training on ptest would result in
+an optimal listener overfitting on the test set, which would results in bad estimates of the mutual information.
+5
+
+=== PDF PAGE 6 ===
+Hence, α balances the two speaker objectives (up to an approximation error). When α = 0.5, the
+loss falls back to the classic setting. When α = 0, the co-adaptation term is removed on the speaker
+side; note that the Lewis game can still be solved since the listener still optimizes the co-adaptation
+term. We experimentally analyse the effect of α on resulting languages in Section 5.1. In Appendix
+B, we describe how we build the balanced loss and explain why α should be bounded by 0.5.
+3.3 Controlling the Listener’s Co-adaptation Loss Level of Convergence
+As mentioned in 2.2, the influence of Ladapt on the co-adaptation term in the speaker’s loss is
+modulated by the listener’s level of convergence to its optimum. To understand the effect of this
+co-adaptation, we decouple the speaker and listener training and train the listener via three procedures:
+Continuous listener The listener is continuously trained, jointly with the speaker. This is the standard
+setting in the emergent communication literature, and serves to report the baseline behavior.
+Partial listener The listener is re-initialized after each of the speaker’s update and trained on the
+training set for Nstep before updating the speaker again. This baseline enables fine-grained analysis
+of the influence of under-training (low Nstep) and over-training (large Nstep) the listener.
+Early stopping listener The listener is also re-initialized after each of the speaker’s update but is
+now trained until an early stopping criterion is met on the validation set. This allows us to get the
+best estimate of the posterior ρ∗(θ)(.|m) at each update. This can be seen as a variant of the partial
+listener with an adaptive number of steps Nstep.
+4 Experimental settings
+4.1 Game description
+Unless specified, all our experiments are run on the reconstruction game defined in Section 2.1.
+Experiments are run over 6 seeds and reach > 99% training reconstruction scores unless otherwise
+stated. Our implementation is based on the EGG toolkit [ 39] and the code is available at https:
+//github.com/MathieuRita/Population.
+Environment We consider objects x =: (x1, ..., xK) ∈ X =: X1 × ... × XK characterized by K
+attributes where attributei may take |Xi| different values. By design, this synthetic environment allows
+us to test the ability of agents to refer to unseen objects by communicating their attributes [ 3, 48].
+Each object is the concatenation of one-hot representations of the attributes (xi)1≤i≤K. Objects have
+K = 6 attributes, each taking 10 different values, for a total of 1 million objects. Training, validation
+and test sets are randomly drawn from this pool of objects (uniformly and without overlap), and are
+respectively composed of 4000, 1000 and 1000 elements. Thus, the agents only have access to a
+small fraction (< 1%) of the environment, making the generalization problem challenging.
+Communication channel Messages m =: (mj)T
+j=1 ∈ M =: V T are sequences of T tokens where
+each token is taken from a finite vocabulary V, finishing by a hard-coded end-of-sentence token
+EoS. In our experiments, messages have maximum length T = 10 and symbols are taken from a
+vocabulary of size |V| = 10 to prevent a bottleneck in the communication channel.
+Speaker model The speaker follows a recurrent policy: given an input object x, it samples for all
+t ∈ [1, T] a token mt with probability πθ(mt|m<t, x). The speaker takes in the object x as a vector
+of size K × |X.| and passes it through a linear layer of size 128 to obtain an object embedding, used
+to initialize a LSTM [35] of size 128 with layer normalization [2]. At each time step, the LSTM’s
+output is fed into a linear layer of size |V|, followed by a softmax, to produce πθ(mt|m<t, x)
+Listener model Given a message m = ( m1, ..., mT ), the listener outputs for each attribute k a
+probability distribution over the |Xk| values: ρk
+ϕ(·|m). The probability of reconstructing the entire
+object x given m is then ρϕ(x|m) :=Q
+k ρk
+ϕ(xk|m). The listener passes each message mt through
+an embedding layer of dimension 128 followed by a LSTM with layernorm of size 128. The final
+recurrent state hl
+T is passed through K linear projections of size |X.|, each followed by a softmax,
+providing K independent probability distributions of sizes |X.| to predict each attribute of x.
+Optimization The agents are optimized using Adam [42] with a learning rate of 5 · 10−4, β1 = 0.9
+and β2 = 0.999 and a batch size of 1024. For the speaker we use policy gradient [76], with a baseline
+6
+
+=== PDF PAGE 7 ===
+computed as the average reward within the minibatch, and an entropy regularization of0.01 to the
+speaker’s loss [82]. In all experiments, we select the best models by early stopping.
+4.2 Evaluating emergent languages properties
+Generalization We measure generalization by computing the average test reconstruction score over
+all the attributes of a probe listener trained on the training set using an early stopping criterion on
+the validation set. Indeed, the trained listener ρϕ may overfit to the training set, and so using it may
+under-estimate. Using a separate listener removes this bias.
+Compositionality Compositionality is a fundamental feature of natural language often seen as a
+precondition to generalize [6, 77, 79]. We assess the compositionality by computing the topographic
+similarity [8, 53]. It is defined as the Spearman correlation [ 47, 80] between the distance in input
+space, i.e. the average number of common attributes, and the distance in message space, i.e. the
+edit-distance between the corresponding messages [54]. As we here deal with large object space and
+stochastic policies, we use a bootstrapped estimate of topographic similarity as in [46] to get reliable
+numbers. We sub-sample 1000 elements x from the object space X , and sample the corresponding
+message m from the speaker’s policyπθ(·|x). We compute the topographic similarity for this batch of
+1000 pairs (x, m). We repeat this protocol 100 times and take the mean to measure compositionality.
+5 Empirical results
+5.1 Visualizing the loss decomposition dynamics
+0 2000 4000 6000
+Iteration
+0
+5
+10Losses ( = 1)
+Info. (train)
+Co-adapt. (train)
+Info. (test)
+Co-adapt. (test)
+0.0 0.1 0.2 0.3 0.4 0.5
+Co-adaptation weight 
+0.0
+2.0
+4.0
+6.0Losses (at convergence)
+Information (test)
+Co-adaptation (test)
+0.0 0.1 0.2 0.3 0.4 0.5
+Co-adaptation weight 
+0.45
+0.50
+0.55
+0.60T est accuracy
+Figure 2: (a)Training dynamics (α = 0.5). (b,c)Agents score as a function of co-adaptation weight α.
+We here visualize the loss decomposition dynamics. Following the protocol of 3.2, we control Ltrain
+adapt
+in speaker’s loss with weightα to understand the influence of the co-adaptation term on the language.
+The co-adaptation task overfits rapidly We plot information and co-adaptation training dynamics
+in the standard setting (α = 0.5). Note that both train and test information losses quickly converge
+to 0, in other words the speaker succeeds in developing a protocol that is unambiguous on both the
+training set and the overall distribution. On the other hand, the test co-adaptation loss diverges while
+the train co-adaptation keeps disminishing, highlighting a clear overfitting problem.
+The co-adaptation task promotes generalization We then display in Figure 2 the evolution of
+the information and co-adaptation losses for different co-adaptation weight α. We observe that
+down-weighting Ltrain
+adapt tends to enforce both information and co-adaptation overfitting. Thus, even
+though the co-adaptation loss is not inherently necessary for the speaker to develop an unambiguous
+language, it is important to encourage the speaker to build a better language. This is confirmed
+when looking at generalization accuracies. From α = 0 to α = 0.5, there is a gain of 15 points of
+generalization. In conclusion, we note that (i) balancing the loss in favor of Ltrain
+info has a negative
+impact on generalization, (ii) the co-adaptation loss Ltrain
+adapt pushes the speaker to develop a language
+that generalizes better.
+These experiments highlight two key findings: (i) co-adaptation is crucial for generalization ; (ii) in
+standard settings, the co-adaptation loss overfits substantially, whereas the information loss does not.
+5.2 Countering co-adaptation overfitting
+We here investigate whether limiting overfitting in the co-adaptation loss may push towards languages
+that generalize better and are more stuctured. As described in 3.3, we compare three control baselines:
+Continuous listener, Partial listener with varying levels of convergence, andEarly stopping listener.
+7
+
+=== PDF PAGE 8 ===
+5 700
+Figure 3: (a,b) Evolution of generalization and top.sim with Partial listener’s number of learning
+steps Nstep ; (c) Top. sim VS. generalization. The color level of orange dots increases with Nstep.
+Blue (resp. green) lines and points refer to the Continuous listener (resp. Early stopping listener).
+Countering co-adaptation overfitting improves generalizationIn Figure 3, we observe that the
+level of convergence of the Partial listener between each speaker’s update (controlled by Nstep)
+has a strong impact on the generalization of the emergent protocol. Overall, we recover classic
+machine learning trends when varying Nstep: when Nstep < 50, both train and test accuracy are low
+— the agents underfit. When 50 < N step < 250, the train and test accuracy are almost optimal —
+the agents are in good training regime. Finally, when Nstep > 250, the train accuracy is maximal
+while the test accuracy collapses — the agents overfit. These observations reveal that the level
+of convergence of the listener has a substantial impact on the final emergent language capacity to
+generalize. Recall that, in these experiments, the direct effect of the listener’s overfitting is mitigated,
+as we measure generalization using an auxiliary listener that is early stopped, and should therefore
+not overfit as noted in Section 4. The listener’s overfitting impacts the speaker’s update through the
+co-adaptation loss, which, by inducing a poorer final language leads to a degradation in generalization.
+Additionally, Figure 3 shows that the continuous listener, standard in the Lewis games literature,
+provides generalization performance similar to the worst overfitting listeners.
+Controlling the listener’s co-adaptation level appears crucial to let the speaker develop a language that
+generalizes well; this effect may have been underestimated in the standard Lewis learning dynamic.
+Countering co-adaptation overfitting improves compositionality Figure 3 reveals that composi-
+tionality follows the same pattern. In the underfitting regime, the topographic similarity is low but still
+outperforms the Continuous listener. Similarly, it is also low in the overfitting regime. In-between
+the two — which corresponds to high generalization in Figure 3 — the topographic similarity reaches
+high values, which suggests that more compositional languages emerge. This indicates that the
+listener’s lack of co-adaptation overfitting promotes structured languages.
+Compositionality correlates with generalization In Figure 3, we plot the correlation between
+generalization and compositionality. As opposed to [10], we observe a strong correlation between
+generalization and topographic similarity when varying the Partial listener’s level of convergence.
+In particular, we identify two correlation branches: one belonging to the underfitting regime and
+the second to the overfitting regime. Together, they retrace the evolution of generalization and
+compositionality with respect to Nstep. We see that Continuous listeners belong to the end of this
+trajectory, in the overfitting regime. Note that the blue rectangle — which delineates the range of
+values reached with the Continuous listener — corresponds to the classic learning setting in the
+literature. As this range is tight, it may explain the initial negative results reported by [10].
+In conclusion, the listener exerts a necessary pressure on the speaker to develop a structured language
+that generalizes better. This pressure can be controlled by limiting the listener’s level of overfitting,
+which is inevitably too high when the listener is trained continuously as is usually done.
+Comparison with standard regularization methods In practice, re-initializing the listener as done
+with the Partial or Early stopping listener is costly. We thus test whether performances comparable to
+Figure 3 can be obtained by controlling the listener’s level of overfitting with standard regularization
+methods. In Table 1, we report the influence of applying common regularization methods to the
+listener on various metrics of the language. We find that regularization consistently results in
+noticeable improvements. Moreover, once again, gains of generalization correlate with gains of
+8
+
+=== PDF PAGE 9 ===
+Gen. ↑ Compo. ↑ ˆLtest
+adapt ↓
+Continuous 0.58±0.05 0.22±0.02 4.64±1.22
+Dropout 0.64±0.03 0.24±0.01 4.86±0.52
+No LN. 0.70±0.03 0.24±0.02 4.68±0.38
+Weight decay 0.72±0.03 0.25±0.03 4.29±0.56
+No LN. + WD 0.87±0.07 0.30±0.03 2.12±0.67
+Early stopping 0.95±0.04 0.39±0.04 1.10±0.69
+Top Partial 0.95±0.03 0.42±0.02 0.97±0.55
+Generalization ↑
+CelebA 1/1 1/20 1 /100
+Continuous 0.94±0.01 0.67±0.02 0.39±0.07
+Early stopping 0.97±0.01 0.80±0.03 0.69±0.04
+ImageNet 1/1 1/20 1 /100
+Continuous 0.96±0.01 0.77±0.01 0.51±0.03
+Early stopping 0.98±0.01 0.81±0.01 0.64±0.01
+Table 1: (left) Performance comparisons between Continuous listener, Partial listener, Early stopping
+listener and classic listener regularization, e.g. weight decay [34, 49], Dropout [74] and layernorm [2].
+Regularization parameters were tuned and are detailed in Appendix C.1 ; (right) Generalization scores
+for continuous baselines and Early stopping listener on visual Lewis Games. 1/1, 1/20 and 1/100
+refer to the subset ratios of the dataset.
+compositionality. These trends corroborate our hypothesis that controlling the listener’s learning is
+key to encourage the speaker to develop more structured languages. However, those methods remain
+under the upper bound reached by the Early stopping listener, which suggests that further research
+on regularization in cooperative games is warranted.
+We complement this analysis in Appendix C.2 by studying the impact of regularization on the
+speaker’s side, and show that such regularization does not result in similar improvements. This
+indicates that the listener is the main contributor to the co-adaptation overfitting.
+5.3 Scaling to the Image Discrimination Games
+To validate our empirical findings beyond synthetic games, we scale our approach to complex games
+with natural images as advocated by [12]. We thus train our agents on a discriminative game on top
+of the CelebA [57] and ImageNet [69, 19] datasets while applying previous protocol. We work on
+3 sizes of training set with increasing generalization difficulty. We provide all the training details
+and game settings in Appendix D.1 and report our results in Table 1. While agents generalize well
+when trained on the entire training set, generalization issues occur on smaller training sets and
+performances can indeed be improved by controlling the listener’s level of convergence. However,
+Appendix D.2 shows that gain of generalization does not correlate with gain of topographic similarity,
+supporting that agents’ language structure is not captured by the topographic similarity in image
+based settings [12, 1].
+6 Related work
+The decomposition of the loss function in the Lewis Game that we introduced finds echos in the
+cognitive science literature. According to Skyrms [ 70], communicative organisms or systems are
+confronted with two types of information: about the environmental states shared by the agents
+(called objective information), and about how an agent would react to a signal (called subjective
+information). Communication protocols emerge as a trade-off between constraints related to those
+two types of information [ 44, 45]: the sender should be expressive [ 25, 24] and transcribe the
+information available in the world with as little ambiguity as possible, which has been described as a
+bias against ambiguity [73] ; sender and receiver should agree on the same referring system, which
+has been described as a conceptual pact [7]. The latter has been shown to impose compressibility
+and learnability pressures promoting structure [78, 72, 84]. This analysis resonates well with our
+analytical decomposition of the loss function in the Lewis game.
+The first term of the decomposition, which we called the information loss, has been addressed by
+previous work that assumed that linguistic structure and generalization emerge from the requirement
+of creating an unambiguous language. In this line of work, studies have either manipulated the
+complexity of the environment [ 12, 30, 71, 60], restricted the bandwidth of the communication
+channel [48, 66], or added noise to the message [ 50, 85]. In our main experiment, we do not
+apply such information constraints to better focus on the second term of the decomposition, the
+co-adaptation constraint, less studied within a machine learning approach. Previous work have
+assumed that the co-adaptive dynamics encourage speakers to develop a more structured language for
+9
+
+=== PDF PAGE 10 ===
+learnability reasons [56]. Support for this hypothesis can be found directly via the implementation of
+a neural variant of Iterated Learning [65] or the introduction of learning speed heterogeneities [68]
+and indirectly via the restriction of agents capacity [66], the variation of the communication-graph in
+populations [28, 41] or the addition of newborn agents [15]. In our paper, we demonstrate that a co-
+adaptation term is always present in standard agents optimization protocols and show that controlling
+co-adaptation overfitting enhances language properties. The existence of an overfitting regime found
+under the default setting (continuous training) may explain the counter-intuitive lack of relationship
+between compositionality and generalization previously reported with neural agents [51, 10, 38, 20].
+7 Conclusion
+In this paper, we propose a methodological approach to better understand the dynamics in Lewis
+signaling games for language emergence. It allows us to surface two components of the training:
+(i) an information loss, (ii) a co-adaptation loss. We shed light that the agents tend to overfit this
+co-adaptation term during training, which hinders the learning dynamic and degrades the resulting
+language. As soon as this overfitting is controlled, agents develop compositional languages that better
+generalize. Remarkably, this emergent compositionality does not result from environmental factors,
+e.g. communication bottleneck [43], under-parametrization [48, 26], population dynamics [12, 68],
+memory restriction [ 15, 16] or inductive biases [ 67], but only through a trial-and-error process.
+Therefore, we advocate for a better comprehension of the optimization and machine learning issues.
+As illustrated in this paper, such understanding may unveil contradictions between computational
+models and language empirical observations and better expose the existing synergies between learning
+dynamics and environmental factors [27, 83, 64, 14, 18, 22].
+Acknowledgments
+Authors would like to thank Rahma Chaabouni, Marco Baroni, Paul Smolensky, Bilal Piot and Karl
+Tuyls for helpful discussions and the anonymous reviewers to their relevant comments. M.R would
+also like to thank Michael Sander and Maureen de Seyssel for last minute feedbacks. M.R. was
+supported by the MSR-Inria joint lab and granted access to the HPC resources of IDRIS under the
+allocation 2021-AD011012278 made by GENCI. P.M. was supported by the ENS-CFM Data Science
+Chair. E.D. was funded in his EHESS role by the European Research Council (ERC-2011-AdG-
+295810 BOOTPHON), the Agence Nationale pour la Recherche (ANR-17-EURE-0017 Frontcog,
+ANR-10-IDEX0001-02 PSL*, ANR-19-P3IA-0001 PRAIRIE 3IA Institute) and grants from CIFAR
+(Learning in Machines and Brains) and Meta AI Research (Research Grant).
+10
+
+=== PDF PAGE 11 ===
+References
+[1] Jacob Andreas. Measuring compositionality in representation learning. InProc. of International Conference
+on Learning Representations (ICLR), 2019.
+[2] Jimmy Lei Ba, Jamie Ryan Kiros, and Geoffrey E. Hinton. Layer normalization. arXiv preprint
+arXiv:1607.06450, 2016.
+[3] Marco Baroni. Linguistic generalization and compositionality in modern artificial neural networks.
+Philosophical Transactions of the Royal Society B: Biological Sciences, 375(1791):20190307, 2020. doi:
+10.1098/rstb.2019.0307.
+[4] Lawrence W Barsalou. Grounded cognition. Annu. Rev. Psychol., 59:617–645, 2008.
+[5] Derek Bickerton. Language evolution: A brief guide for linguists. Lingua, 117(3):510–526, 2007.
+[6] Derek Bickerton. More than nature needs. In More than Nature Needs. Harvard University Press, 2014.
+[7] Susan E Brennan and Herbert H Clark. Conceptual pacts and lexical choice in conversation. Journal of
+experimental psychology: Learning, memory, and cognition, 22(6):1482, 1996.
+[8] Henry Brighton and Simon Kirby. Understanding Linguistic Evolution by Visualizing the Emergence of
+Topographic Mappings. Artificial Life, 12(2):229–242, 04 2006. ISSN 1064-5462. doi: 10.1162/artl.2006.
+12.2.229.
+[9] Rahma Chaabouni, Eugene Kharitonov, Emmanuel Dupoux, and Marco Baroni. Anti-efficient encoding
+in emergent communication. In Proc. of Advances in Neural Information Processing Systems (NeurIPS),
+2019.
+[10] Rahma Chaabouni, Eugene Kharitonov, Diane Bouchacourt, Emmanuel Dupoux, and Marco Baroni.
+Compositionality and generalization in emergent languages. In Proc. of the Association for Computational
+Linguistics (ACL), 2020.
+[11] Rahma Chaabouni, Eugene Kharitonov, Emmanuel Dupoux, and Marco Baroni. Communicating artificial
+neural networks develop efficient color-naming systems. Proceedings of the National Academy of Sciences,
+118(12), 2021.
+[12] Rahma Chaabouni, Florian Strub, Florent Altché, Eugene Tarassov, Corentin Tallec, Elnaz Davoodi,
+Kory Wallace Mathewson, Olivier Tieleman, Angeliki Lazaridou, and Bilal Piot. Emergent communication
+at scale. In Proc. of International Conference on Learning Representations (ICLR), 2022.
+[13] Morten H Christiansen and Simon Kirby. Language evolution: Consensus and controversies. Trends in
+cognitive sciences, 7(7):300–307, 2003.
+[14] Michael Clyne. Linguistic and sociolinguistic aspects of language contact, maintenance and loss. Mainte-
+nance and loss of minority languages, 1:17, 1992.
+[15] Michael Cogswell, Jiasen Lu, Stefan Lee, Devi Parikh, and Dhruv Batra. Emergence of compositional
+language with deep generational transmission. arXiv preprint arXiv:1904.09067, 2019.
+[16] Hannah Cornish, Rick Dale, Simon Kirby, and Morten H Christiansen. Sequence memory constraints give
+rise to language-like structure through iterated learning. PloS one, 12(1):e0168532, 2017.
+[17] Vincent P Crawford and Joel Sobel. Strategic information transmission. Econometrica: Journal of the
+Econometric Society, pages 1431–1451, 1982.
+[18] General Cultural Intelligence Team, Avishkar Bhoopchand, Bethanie Brownfield, Adrian Collister, Agustin
+Dal Lago, Ashley Edwards, Richard Everett, Alexandre Frechette, Yanko Gitahy Oliveira, Edward Hughes,
+et al. Learning robust real-time cultural transmission without human data.arXiv preprint arXiv:2203.00715,
+2022.
+[19] Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li Fei-Fei. Imagenet: A large-scale hierarchical
+image database. In Proc. of Conference on Computer Vision and Pattern Recognition (CVPR), 2009.
+[20] Roberto Dessì and Marco Baroni. Cnns found to jump around more skillfully than rnns: Compositional
+generalization in seq2seq convolutional networks. arXiv preprint arXiv:1905.08527, 2019.
+[21] Roberto Dessì, Eugene Kharitonov, and Baroni Marco. Interpretable agent communication from scratch
+(with a generic visual processor emerging on the side).Advances in Neural Information Processing Systems,
+34, 2021.
+11
+
+=== PDF PAGE 12 ===
+[22] Nick C Ellis. The dynamics of second language emergence: Cycles of language use, language change, and
+language acquisition. The modern language journal, 92(2):232–249, 2008.
+[23] Katrina Evtimova, Andrew Drozdov, Douwe Kiela, and Kyunghyun Cho. Emergent communication in a
+multi-modal, multi-step referential game. InProc. of International Conference on Learning Representations
+(ICLR), 2018.
+[24] Nicolas Fay and T Mark Ellison. The cultural evolution of human communication systems in different
+sized populations: usability trumps learnability. PloS one, 8(8):e71781, 2013.
+[25] Bruno Galantucci and Simon Garrod. Experimental semiotics: a review. Frontiers in human neuroscience,
+5:11, 2011.
+[26] Lukas Galke, Yoav Ram, and Limor Raviv. Emergent communication for understanding human language
+evolution: What’s missing? In Emergent Communication Workshop at ICLR, 2022.
+[27] Rick Dale Gary Lupyan. Language structure is partly determined by social structure. PLoS ONE 5, 1,
+2010.
+[28] Laura Graesser, Kyunghyun Cho, and Douwe Kiela. Emergent linguistic phenomena in multi-agent
+communication games. In Proc. of Empirical Methods in Natural Language Processing (EMNLP), 2019.
+[29] Jean-Bastien Grill, Florian Strub, Florent Altché, Corentin Tallec, Pierre Richemond, Elena Buchatskaya,
+Carl Doersch, Bernardo Avila Pires, Zhaohan Guo, Mohammad Gheshlaghi Azar, et al. Bootstrap your own
+latent-a new approach to self-supervised learning. Advances in Neural Information Processing Systems,
+33:21271–21284, 2020.
+[30] Shangmin Guo, Yi Ren, Kory Mathewson, Simon Kirby, Stefano V Albrecht, and Kenny Smith. Expressiv-
+ity of emergent language is a trade-off between contextual complexity and unpredictability. In Proc. of
+International Conference on Learning Representations (ICLR), 2021.
+[31] Stevan Harnad. The symbol grounding problem. Physica D: Nonlinear Phenomena, 42(1-3):335–346,
+1990.
+[32] Steven R Harnad, Horst D Steklis, and Jane Ed Lancaster. Origins and evolution of language and speech.
+Annals of the New York Academy of Sciences, 1976.
+[33] Serhii Havrylov and Ivan Titov. Emergence of language with multi-agent games: Learning to communicate
+with sequences of symbols. In Proc. of Advances in Neural Information Processing Systems (NeurIPS),
+2017.
+[34] Geoffrey E Hinton. Learning translation invariant recognition in a massively parallel networks. In
+International Conference on Parallel Architectures and Languages Europe, pages 1–13. Springer, 1987.
+[35] Sepp Hochreiter and Jürgen Schmidhuber. Long short-term memory. Neural computation, 9(8):1735–1780,
+1997.
+[36] Simon Huttegger, Brian Skyrms, Pierre Tarres, and Elliott Wagner. Some dynamics of signaling games.
+Proceedings of the National Academy of Sciences, 111(Supplement 3):10873–10880, 2014.
+[37] Aleksandra Kalinowska, Elnaz Davoodi, Florian Strub, Kory Mathewson, Todd Murphey, and Patrick
+Pilarski. Situated communication: A solution to over-communication between artificial agents. InEmergent
+Communication Workshop at ICLR 2022, 2022.
+[38] Eugene Kharitonov and Marco Baroni. Emergent language generalization and acquisition speed are not
+tied to compositionality. In Proc. of the BlackboxNLP Workshop on Analyzing and Interpreting Neural
+Networks for NLP, 2020.
+[39] Eugene Kharitonov, Rahma Chaabouni, Diane Bouchacourt, and Marco Baroni. Egg: a toolkit for research
+on emergence of language in games. In Proc. of Empirical Methods in Natural Language Processing
+(EMNLP), 2019.
+[40] Eugene Kharitonov, Rahma Chaabouni, Diane Bouchacourt, and Marco Baroni. Entropy minimization in
+emergent languages. In Proc. of International Conference on Machine Learning (ICML), 2020.
+[41] Jooyeon Kim and Alice Oh. Emergent communication under varying sizes and connectivities. Proc. of
+Advances in Neural Information Processing Systems (NeurIPS), 2021.
+[42] Diederik P Kingma and Jimmy Ba. Adam: A method for stochastic optimization. In Proc. of International
+Conference on Learning Representations (ICLR), 2015.
+12
+
+=== PDF PAGE 13 ===
+[43] Simon Kirby. Spontaneous evolution of linguistic structure-an iterated learning model of the emergence of
+regularity and irregularity. IEEE Transactions on Evolutionary Computation, 5(2):102–110, 2001.
+[44] Simon Kirby and James R Hurford. The emergence of linguistic structure: An overview of the iterated
+learning model. Simulating the evolution of language, pages 121–147, 2002.
+[45] Simon Kirby, Monica Tamariz, Hannah Cornish, and Kenny Smith. Compression and communication in
+the cultural evolution of linguistic structure. Cognition, 141:87–102, 2015.
+[46] Philipp Koehn. Statistical significance tests for machine translation evaluation. In Proc. of Empirical
+Methods in natural Language Processing (EMNLP), 2004.
+[47] Stephen Kokoska and Daniel Zwillinger. CRC standard probability and statistics tables and formulae. Crc
+Press, 2000.
+[48] Satwik Kottur, José Moura, Stefan Lee, and Dhruv Batra. Natural language does not emerge ‘naturally’ in
+multi-agent dialog. In Proc. of Empirical Methods in Natural Language Processing (EMNLP), 2017.
+[49] Anders Krogh and John Hertz. A simple weight decay can improve generalization. Advances in neural
+information processing systems, 4, 1991.
+[50] Łukasz Kuci ´nski, Tomasz Korbak, Paweł Kołodziej, and Piotr Miło´s. Catalytic role of noise and necessity
+of inductive biases in the emergence of compositional communication. Proc. of Advances in Neural
+Information Processing Systems (NeurIPS), 2021.
+[51] Angeliki Lazaridou and Marco Baroni. Emergent multi-agent communication in the deep learning era.
+arXiv preprint arXiv:2006.02419, 2020.
+[52] Angeliki Lazaridou, Alexander Peysakhovich, and Marco Baroni. Multi-agent cooperation and the
+emergence of (natural) language. arXiv preprint arXiv:1612.07182, 2016.
+[53] Angeliki Lazaridou, Karl Moritz Hermann, Karl Tuyls, and Stephen Clark. Emergence of linguistic
+communication from referential games with symbolic and pixel input. In Proc. of International Conference
+on Learning Representations (ICLR), 2018.
+[54] Vladimir I Levenshtein et al. Binary codes capable of correcting deletions, insertions, and reversals. In
+Soviet physics doklady, volume 10:8, pages 707–710. Soviet Union, 1966.
+[55] David Kellogg Lewis. Convention: A Philosophical Study. Cambridge, MA, USA: Wiley-Blackwell, 1969.
+[56] Fushan Li and Michael Bowling. Ease-of-teaching and language structure from emergent communication.
+In Proc. of Advances in Neural Information Processing Systems (NeurIPS), 2019.
+[57] Ziwei Liu, Ping Luo, Xiaogang Wang, and Xiaoou Tang. Deep learning face attributes in the wild. In Proc.
+of the International Conference on Computer Vision (ICCV), 2015.
+[58] Ryan Lowe, Abhinav Gupta, Jakob Foerster, Douwe Kiela, and Joelle Pineau. On the interaction between
+supervision and self-play in emergent communication. In Proc. of International Conference on Learning
+Representations (ICLR), 2020.
+[59] V olodymyr Mnih, Adria Puigdomenech Badia, Mehdi Mirza, Alex Graves, Timothy Lillicrap, Tim Harley,
+David Silver, and Koray Kavukcuoglu. Asynchronous methods for deep reinforcement learning. In
+Maria Florina Balcan and Kilian Q. Weinberger, editors,Proceedings of The 33rd International Conference
+on Machine Learning , volume 48 of Proceedings of Machine Learning Research , pages 1928–1937,
+New York, New York, USA, 20–22 Jun 2016. PMLR. URLhttps://proceedings.mlr.press/v48/
+mniha16.html.
+[60] Jesse Mu and Noah Goodman. Emergent communication of generalizations. Proc. of Advances in Neural
+Information Processing Systems (NeurIPS), 2021.
+[61] Michael Noukhovitch, Travis LaCroix, Angeliki Lazaridou, and Aaron Courville. Emergent communication
+under competition. In Proc. of International Conference on Autonomous Agents and MultiAgent Systems
+(AAMAS), 2021.
+[62] Aaron van den Oord, Yazhe Li, and Oriol Vinyals. Representation learning with contrastive predictive
+coding. arXiv preprint arXiv:1807.03748, 2018.
+[63] Marie Ossenkopf, Kevin Sebastian Luck, and Kory Wallace Mathewson. Which language evolves between
+heterogeneous agents? - communicating movement instructions with widely different time scopes. In
+Emergent Communication Workshop at ICLR 2022, 2022.
+13
+
+=== PDF PAGE 14 ===
+[64] Limor Raviv, Antje Meyer, and Shiri Lev-Ari. Compositional structure can emerge without gen-
+erational transmission. Cognition, 182:151–164, 2019. ISSN 0010-0277. doi: https://doi.org/10.
+1016/j.cognition.2018.09.010. URL https://www.sciencedirect.com/science/article/pii/
+S0010027718302464.
+[65] Yi Ren, Shangmin Guo, Matthieu Labeau, Shay B. Cohen, and Simon Kirby. Compositional languages
+emerge in a neural iterated learning model. In Proc. of International Conference on Learning Representa-
+tions (ICLR), 2020.
+[66] Cinjon Resnick, Abhinav Gupta, Jakob Foerster, Andrew M. Dai, and Kyunghyun Cho. Capacity, band-
+width, and compositionality in emergent language learning. In Proc. of Autonomous Agents and Multiagent
+Systems (AAMAS), 2020.
+[67] Mathieu Rita, Rahma Chaabouni, and Emmanuel Dupoux. “LazImpa”: Lazy and impatient neural agents
+learn to communicate efficiently. InProc. of the Conference on Computational Natural Language Learning
+(CoNLL), 2020.
+[68] Mathieu Rita, Florian Strub, Jean-Bastien Grill, Olivier Pietquin, and Emmanuel Dupoux. On the role of
+population heterogeneity in emergent communication. In Proc. of International Conference on Learning
+Representations (ICLR), 2022.
+[69] Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, Sanjeev Satheesh, Sean Ma, Zhiheng Huang,
+Andrej Karpathy, Aditya Khosla, Michael Bernstein, et al. Imagenet large scale visual recognition challenge.
+International journal of computer vision (IJCV), 115(3):211–252, 2015.
+[70] Brian Skyrms. Signals: Evolution, learning, and information. OUP Oxford, 2010.
+[71] Agnieszka Słowik, Abhinav Gupta, William L Hamilton, Mateja Jamnik, Sean B Holden, and Christopher
+Pal. Exploring structural inductive biases in emergent communication. arXiv preprint arXiv:2002.01335,
+2002.
+[72] Kenny Smith, Simon Kirby, and Henry Brighton. Iterated learning: A framework for the emergence of
+language. Artificial life, 9(4):371–386, 2003.
+[73] Matthew Spike, Kevin Stadler, Simon Kirby, and Kenny Smith. Minimal requirements for the emergence
+of learned signaling. Cognitive science, 41(3):623–658, 2017.
+[74] Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan Salakhutdinov. Dropout:
+A simple way to prevent neural networks from overfitting. Journal of Machine Learning Research, 15(56):
+1929–1958, 2014. URL http://jmlr.org/papers/v15/srivastava14a.html.
+[75] Luc Steels. The synthetic modeling of language origins. Evolution of communication, 1(1):1–34, 1997.
+[76] Richard S Sutton, David A McAllester, Satinder P Singh, and Yishay Mansour. Policy gradient methods
+for reinforcement learning with function approximation. In Proc. of Advances in Neural Information
+Processing Systems (NIPS), 2000.
+[77] Zoltán Gendler Szabó. Compositionality. In Edward N. Zalta, editor, The Stanford Encyclopedia of
+Philosophy. Metaphysics Research Lab, Stanford University, Fall 2020 edition, 2020.
+[78] Mónica Tamariz and Simon Kirby. Culture: copying, compression, and conventionality. Cognitive science,
+39(1):171–183, 2015.
+[79] Simon W Townsend, Sabrina Engesser, Sabine Stoll, Klaus Zuberbühler, and Balthasar Bickel. Composi-
+tionality in animals and humans. PLoS Biology, 16(8):e2006425, 2018.
+[80] Pauli Virtanen, Ralf Gommers, Travis E. Oliphant, Matt Haberland, Tyler Reddy, David Cournapeau,
+Evgeni Burovski, Pearu Peterson, Warren Weckesser, Jonathan Bright, Stéfan J. van der Walt, Matthew
+Brett, Joshua Wilson, K. Jarrod Millman, Nikolay Mayorov, Andrew R. J. Nelson, Eric Jones, Robert
+Kern, Eric Larson, C J Carey, ˙Ilhan Polat, Yu Feng, Eric W. Moore, Jake VanderPlas, Denis Laxalde,
+Josef Perktold, Robert Cimrman, Ian Henriksen, E. A. Quintero, Charles R. Harris, Anne M. Archibald,
+Antônio H. Ribeiro, Fabian Pedregosa, Paul van Mulbregt, and SciPy 1.0 Contributors. SciPy 1.0:
+Fundamental Algorithms for Scientific Computing in Python. Nature Methods, 17:261–272, 2020. doi:
+10.1038/s41592-019-0686-2.
+[81] Kyle Wagner, James A Reggia, Juan Uriagereka, and Gerald S Wilkinson. Progress in the simulation of
+emergent communication and language. Adaptive Behavior, 11(1):37–69, 2003.
+14
+
+=== PDF PAGE 15 ===
+[82] Ronald J Williams and Jing Peng. Function optimization using connectionist reinforcement learning
+algorithms. Connection Science, 3(3):241–268, 1991.
+[83] Alison Wray and George W. Grace. The consequences of talking to strangers: Evolutionary corollaries
+of socio-cultural influences on linguistic form. Lingua, 117(3):543–578, 2007. ISSN 0024-3841. The
+Evolution of Language.
+[84] Noga Zaslavsky, Charles Kemp, Terry Regier, and Naftali Tishby. Efficient compression in color naming
+and its evolution. Proc. of the National Academy of Sciences, 115(31):7937–7942, 2018. doi: 10.1073/
+pnas.1800521115. URL https://www.pnas.org/doi/abs/10.1073/pnas.1800521115.
+[85] Łukasz Kuci ´nski, P. Kołodziej, and Piotr Milos. Emergence of compositional language in communication
+through noisy channel. In Language in Reinforcement Learning (LaReL), ICML Workshop, 2020.
+15
+
+=== PDF PAGE 16 ===
+Checklist
+1. For all authors...
+(a) Do the main claims made in the abstract and introduction accurately reflect the paper’s
+contributions and scope? [Yes]
+(b) Did you describe the limitations of your work? [Yes] We mentioned the Partial and
+Early Stopping listener training are costly opening a discussion on regularization
+methods (Section 5.2)
+(c) Did you discuss any potential negative societal impacts of your work? [No] We run
+experiments that have no negative societal impacts
+(d) Have you read the ethics review guidelines and ensured that your paper conforms to
+them? [Yes]
+2. If you are including theoretical results...
+(a) Did you state the full set of assumptions of all theoretical results? [Yes] We took a
+large part of our analytical part to detail the set of assumptions. Further discussions to
+more general cases are discussed in Appendix A
+(b) Did you include complete proofs of all theoretical results? [Yes] If not in the main
+paper, all derivations are brought in the Appendices
+3. If you ran experiments...
+(a) Did you include the code, data, and instructions needed to reproduce the main experi-
+mental results (either in the supplemental material or as a URL)? [No] Code will be
+released upon deanonymization.
+(b) Did you specify all the training details (e.g., data splits, hyperparameters, how they
+were chosen)? [Yes]
+(c) Did you report error bars (e.g., with respect to the random seed after running experi-
+ments multiple times)? [Yes]
+(d) Did you include the total amount of compute and the type of resources used (e.g.,
+type of GPUs, internal cluster, or cloud provider)? [No] Our work was carried out on
+GPUs on an institutional cluster. It is will be mentionned upon deanonymization. Each
+experiment runs on a single V100-32G GPU
+4. If you are using existing assets (e.g., code, data, models) or curating/releasing new assets...
+(a) If your work uses existing assets, did you cite the creators? [Yes] The ImageNet and
+CelebA papers were cited
+(b) Did you mention the license of the assets? [No]
+(c) Did you include any new assets either in the supplemental material or as a URL? [N/A]
+(d) Did you discuss whether and how consent was obtained from people whose data you’re
+using/curating? [N/A]
+(e) Did you discuss whether the data you are using/curating contains personally identifiable
+information or offensive content? [N/A]
+5. If you used crowdsourcing or conducted research with human subjects...
+(a) Did you include the full text of instructions given to participants and screenshots, if
+applicable? [N/A]
+(b) Did you describe any potential participant risks, with links to Institutional Review
+Board (IRB) approvals, if applicable? [N/A]
+(c) Did you include the estimated hourly wage paid to participants and the total amount
+spent on participant compensation? [N/A]
+16

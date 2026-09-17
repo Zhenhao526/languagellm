@@ -1,0 +1,59 @@
+{
+  "processes": [
+    {
+      "name": "self_test",
+      "session_id": 56902,
+      "exit_code": 0,
+      "collected_by": "root"
+    },
+    {
+      "name": "development_training",
+      "session_id": 50592,
+      "exit_code": 0,
+      "collected_by": "root"
+    },
+    {
+      "name": "development_independent_analysis",
+      "session_id": 66778,
+      "exit_code": 0,
+      "collected_by": "mechanism_design"
+    },
+    {
+      "name": "development_structure_and_naive_check",
+      "exit_code": 0,
+      "collected_by": "literature_update"
+    },
+    {
+      "name": "formal_training",
+      "session_id": 8995,
+      "exit_code": 0,
+      "collected_by": "root"
+    },
+    {
+      "name": "formal_process_description",
+      "exit_code": 0,
+      "collected_by": "root"
+    },
+    {
+      "name": "formal_independent_analysis",
+      "session_id": 81166,
+      "exit_code": 0,
+      "collected_by": "mechanism_design"
+    },
+    {
+      "name": "formal_structure_and_naive_check",
+      "exit_code": 0,
+      "collected_by": "literature_update"
+    },
+    {
+      "name": "formal_process_summary_independent_check",
+      "exit_code": 0,
+      "collected_by": "mechanism_design"
+    },
+    {
+      "name": "scientific_figures",
+      "exit_code": 0,
+      "collected_by": "root"
+    }
+  ]
+}

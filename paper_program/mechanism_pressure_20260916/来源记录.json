@@ -1,0 +1,134 @@
+{
+  "status": "bounded_review_complete",
+  "created_utc": "2026-09-16T05:57:26.920671+00:00",
+  "queries": [
+    "emergent communication correlated attributes input distribution compositionality training meaning correlations",
+    "emergent communication compositional generalization co-occurrence graph training split systematic",
+    "\"emergent communication\" \"correlated\" attributes (official domains)",
+    "\"emergent communication\" \"graph\" \"compositional\" \"training\" (official domains)"
+  ],
+  "queries_count": 4,
+  "sources_used_for_claims": "primary official papers only",
+  "reviewed_candidates_count": 3,
+  "all_reviewed_candidates": [
+    {
+      "id": "chaabouni2020",
+      "authors": [
+        "Rahma Chaabouni",
+        "Eugene Kharitonov",
+        "Diane Bouchacourt",
+        "Emmanuel Dupoux",
+        "Marco Baroni"
+      ],
+      "year": 2020,
+      "title": "Compositionality and Generalization In Emergent Languages",
+      "venue_status": "ACL2020 main conference, formal proceedings",
+      "pages": "4427–4442",
+      "doi": "10.18653/v1/2020.acl-main.407",
+      "official_page": "https://aclanthology.org/2020.acl-main.407/",
+      "official_pdf": "https://aclanthology.org/2020.acl-main.407.pdf",
+      "local_pdf": "/Users/xia/Documents/ChatGPT/语言/文献调研_2026-09-14/论文/02_神经多智能体/2020_Chaabouni_Compositionality and Generalization In Emergent Languages.pdf",
+      "read_sections": [
+        "2–6",
+        "Appendix8.4",
+        "Appendix8.7"
+      ],
+      "most_relevant_pdf_pages": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "short_evidence_excerpt": "keep the absolute number of distinct input samples constant",
+      "triage": "direct support-density prior; fulltext reviewed",
+      "local_pdf_sha256": "bca212d811fc7ca5028f36d591d68f9b8d94fe5c7ff17e7e8718331d74f06b8a"
+    },
+    {
+      "id": "denamganai2020",
+      "authors": [
+        "Kevin Denamganaï",
+        "James Alfred Walker"
+      ],
+      "year": 2020,
+      "title": "On (Emergent) Systematic Generalisation and Compositionality in Visual Referential Games with Straight-Through Gumbel-Softmax Estimator",
+      "venue_status": "arXiv2012.10776v1; official comment says accepted4thNeurIPSWorkshopEmeCom2020, not main-conference acceptance",
+      "doi": "10.48550/arXiv.2012.10776",
+      "official_page": "https://arxiv.org/abs/2012.10776",
+      "official_pdf": "https://arxiv.org/pdf/2012.10776",
+      "local_pdf": null,
+      "read_sections": [
+        "2",
+        "3.1–3.3",
+        "4.1–4.2.3",
+        "5",
+        "AppendixB/C contextual methods"
+      ],
+      "most_relevant_pdf_pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "short_evidence_excerpt": "testing-purpose (and not test-only)",
+      "triage": "direct visual split prior; official PDF methods/results read viaweb after native download failure"
+    },
+    {
+      "id": "sevestre2025",
+      "authors": [
+        "Jean-Baptiste Sevestre",
+        "Emmanuel Dupoux"
+      ],
+      "year": 2025,
+      "title": "Frequency & Compositionality in Emergent Communication",
+      "venue_status": "EMNLP2025 main conference, formal proceedings",
+      "pages": "27262–27274",
+      "doi": "10.18653/v1/2025.emnlp-main.1387",
+      "official_page": "https://aclanthology.org/2025.emnlp-main.1387/",
+      "official_pdf": "https://aclanthology.org/2025.emnlp-main.1387.pdf",
+      "local_pdf": "/Users/xia/Documents/ChatGPT/语言/文献调研_2026-09-14/论文/02_神经多智能体/2025_Sevestre_Frequency & Compositionality in Emergent Communication.pdf",
+      "read_sections": [
+        "2–6",
+        "AppendixE"
+      ],
+      "most_relevant_pdf_pages": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        13
+      ],
+      "short_evidence_excerpt": "uses independent attributes",
+      "triage": "direct frequency/exposure prior; fulltext methods reviewed, independent-attributes limitation checked",
+      "local_pdf_sha256": "0340f22751968f568a34be830dc438e41da1a97c87288f5f930874a257bda270"
+    }
+  ],
+  "not_a_systematic_or_exhaustive_search": true,
+  "new_experiment_result_reads": 0,
+  "model_training": 0,
+  "new_pixel_reads": 0,
+  "new_complete_pdf_downloads": 0,
+  "known_retrieval_failures": [
+    {
+      "attempt": "arxiv/html/2012.10776v3",
+      "result": "404; version guessed during discovery; officialpage later confirmsv1only"
+    },
+    {
+      "attempt": "native radar packet2012.10776 before local metadata",
+      "result": "missinglocaldatabase,exit1"
+    },
+    {
+      "attempt": "native radar packet2012.10776 after officialmetadataseed",
+      "result": "IncompleteRead2097152bytes,96994missing;exit1;noPDFsaved;noautomaticretry"
+    },
+    {
+      "attempt": "venv localpypdf extraction",
+      "result": "ModuleNotFoundError; switched to already-installed bundledPython, no package installation"
+    }
+  ],
+  "skill_workflow": "Unmodified radar.py singlepaper packet and record-review for2004.09124 using existing formalACL PDF. Official-targeted metadata seed disclosed, not a successful broadcollect. Threecandidate methodological triage recorded here.",
+  "author_metrics": "Native packet mechanically invoked enrichment; automated score and citation counts were not used for scientific assessment. Manual review uses neutral50 authorprior."
+}

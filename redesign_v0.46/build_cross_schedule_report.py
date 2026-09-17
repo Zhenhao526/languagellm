@@ -1,0 +1,195 @@
+"""Build the Chinese v0.46 crossed-schedule report."""
+from __future__ import annotations
+
+import argparse
+import json
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parent
+CULTURES = (
+    "static_role__fixed_A",
+    "static_role__rotating_AB",
+    "static_role__random_ABC",
+    "random_role__fixed_A",
+    "random_role__rotating_AB",
+    "random_role__random_ABC",
+)
+SCHEDULES = ("fixed_A", "rotating_AB", "random_ABC")
+LABELS = {
+    "static_role__fixed_A": "静态/A",
+    "static_role__rotating_AB": "静态/A-B",
+    "static_role__random_ABC": "静态/A-B-C",
+    "random_role__fixed_A": "随机/A",
+    "random_role__rotating_AB": "随机/A-B",
+    "random_role__random_ABC": "随机/A-B-C",
+}
+SCHEDULE_LABELS = {"fixed_A": "固定 A", "rotating_AB": "轮换 A/B", "random_ABC": "随机 A/B/C"}
+UPDATES = (0, 100, 300)
+
+
+def read(path: Path):
+    return json.loads(path.read_text())
+
+
+def pct(value):
+    return 100.0 * float(value)
+
+
+def cell(summary, culture, adaptation, update, metric):
+    return summary[culture][adaptation][str(update)][metric]
+
+
+def fmt(summary, culture, adaptation, update, metric, digits=2):
+    value = cell(summary, culture, adaptation, update, metric)
+    return f"{pct(value['mean']):.{digits}f}%（SD {pct(value['sd']):.{digits}f}%）"
+
+
+def progression(summary, culture, adaptation, metric="identity_equivariant_target60_J"):
+    return " → ".join(f"{pct(cell(summary, culture, adaptation, update, metric)['mean']):.2f}%" for update in UPDATES)
+
+
+def delta_text(item):
+    return f"{pct(item['mean']):+.2f} pp（95% CI {pct(item['ci95'][0]):+.2f}, {pct(item['ci95'][1]):+.2f}）"
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--out", type=Path, required=True)
+    args = parser.parse_args()
+    out = args.out.resolve()
+    data = read(out / "cross_schedule_analysis.json")
+    stats = read(out / "cross_schedule_statistics.json")
+    audit = read(out / "cross_schedule_audit.json")
+    complete = read(out / "training_complete.json")
+    summary = data["summary"]
+    report = out / "交叉适应日程与陌生主体恢复研究报告.md"
+    lines = [
+        "# v0.46 交叉适应日程与陌生主体恢复：伙伴覆盖和角色对称性的交互",
+        "",
+        "## 摘要",
+        "",
+        "v0.45 在统一的随机 A/B/C 适应日程下发现，随机角色形成的 resident 文化更容易让 newcomer 恢复协议功能，但该结果无法区分 resident 文化效应与适应阶段伙伴覆盖效应。本轮把 resident 形成文化与 newcomer 适应日程完整交叉：4 个 seed × 3 个视觉 partition × 6 个资源列排列 × 6 类 resident 文化 × 3 种适应日程，共 1,296 条链，每条训练 300 次更新。",
+        "",
+        "结果显示，适应伙伴覆盖确实改变恢复，但作用依赖 resident 形成文化。随机角色/固定 A resident 在固定、轮换、随机适应下的 update-300 identity-012 等变 target-60 J 分别为 35.18%、41.51%、43.69%，随机适应相对固定适应提高 8.51 个百分点（配对 95% CI 7.87–9.13）。随机角色/A-B-C resident 的三种适应日程只有 39.38%–39.78%，差异接近零。静态角色/A resident 反而在固定适应下最高（11.64%），扩展到随机适应降至 9.29%。",
+        "",
+        "因此，伙伴覆盖不是一个普遍的单调增益；它与 resident 形成时的角色对称性和既有协议结构发生交互。随机角色 resident 在全部适应日程下仍保持较低角色 spread，静态 resident 则出现较大的排列敏感性。",
+        "",
+        "## 研究问题",
+        "",
+        "本轮检验三个问题：",
+        "",
+        "1. newcomer 的恢复是否随适应阶段伙伴覆盖从固定 A、轮换 A/B 到随机 A/B/C 而提高？",
+        "2. resident 形成阶段的随机角色顺序是否在不同适应日程下都保持较低的角色 spread？",
+        "3. resident 形成文化与适应伙伴覆盖是否存在交互，而不是两个独立的主效应？",
+        "",
+        "## 实验设计",
+        "",
+        "每条链从 v0.43 已封存的 resident endpoint 开始。三个 resident agent 的通信模块和视觉前端冻结；identity 0 被替换为 newcomer。newcomer 使用同一视觉组的基础主体，只重置 sender/receiver 通信模块；因此三种适应日程在同一 seed、partition、资源列排列和 resident culture 内共享 newcomer 初始化。只有 newcomer 通信参数更新，resident 不对 newcomer 反向适应。",
+        "",
+        "resident 形成文化为静态或随机角色顺序 × 固定 A、轮换 A/B、随机 A/B/C 伙伴拓扑。适应日程独立设置为固定 A、轮换 A/B 或随机 A/B/C，并完整交叉这六类 resident 文化。每条链训练 300 次，检查点为 0、100、300；每个检查点保存 A/B/C 评估拓扑、4 个 team 和 6 种角色排列。",
+        "",
+        "每个 sender 看到一个资源图片并输出 2 个离散 token（词表 7），receiver 根据 3 组 token 预测 3 个资源的站点（6 个站点）。联合回报为 `(1/6)×正确资源数 + 0.5×三个资源全对`。主要指标是 identity 角色排列 `012` 的 equivariant target-60 joint J；辅助指标包括六种角色排列的 spread、新人—resident token pair agreement 和 pair-position NMI。",
+        "",
+        f"正式输出为 {complete['runs']} 条链、{complete['updates_per_run']} 次更新/链、{complete['trace_files_expected']} 条训练轨迹和 {complete['protocol_files_expected']} 个端点协议文件。设计：[cross_schedule_design.json]({(ROOT / 'cross_schedule_design.json').resolve()})；训练绑定：[invocation.json]({(out / 'invocation.json').resolve()})。",
+        "",
+        "## 结果一：恢复曲线取决于 resident 文化和适应日程",
+        "",
+        "表中每格为 update 0 → 100 → 300 的 identity-012 等变 target-60 J；完整的 SD、角色排列和资源级指标见分析 JSON。",
+        "",
+        "| resident 形成文化 | 固定 A 适应 | 轮换 A/B 适应 | 随机 A/B/C 适应 |",
+        "|---|---:|---:|---:|",
+    ]
+    for culture in CULTURES:
+        lines.append(f"| {LABELS[culture]} | {progression(summary, culture, 'fixed_A')} | {progression(summary, culture, 'rotating_AB')} | {progression(summary, culture, 'random_ABC')} |")
+    lines += [
+        "",
+        "随机角色/固定 A resident 的适应日程效应最大：固定、轮换、随机适应的端点 J 为 35.18%、41.51%、43.69%。随机角色/A-B resident 也有小幅递增（40.89%、41.80%、42.79%）。随机角色/A-B-C resident 的 endpoint 几乎不受适应日程影响（39.39%、39.78%、39.38%），说明其 resident endpoint 已经提供了足够的角色和伙伴覆盖结构。",
+        "",
+        "静态角色/固定 A resident 的结果方向相反：固定适应 11.64%，轮换 10.03%，随机 9.29%。静态角色 resident 的协议高度绑定固定角色槽位，适应阶段接触更多拓扑并没有自动把它变成可迁移协议。静态角色/A-B 和静态角色/A-B-C 的三种适应日程差异很小，端点都在 21.6%–27.8% 之间。",
+        "",
+        "## 结果二：日程差异的配对统计",
+        "",
+        "以下是同一 resident 文化内的链级配对差异。每个比较有 72 个配对单位（seed × partition × 资源列排列），每条链先对 3 个评估拓扑和 4 个 team 求均值，再计算适应日程差异；95% 区间用固定 seed 的 20,000 次 bootstrap 描述。",
+        "",
+        "| resident 形成文化 | 轮换 − 固定 | 随机 − 固定 | 随机 − 轮换 |",
+        "|---|---:|---:|---:|",
+    ]
+    for culture in CULTURES:
+        effects = stats["paired_schedule_effects"][culture]
+        lines.append(f"| {LABELS[culture]} | {delta_text(effects['rotating_AB_minus_fixed_A'])} | {delta_text(effects['random_ABC_minus_fixed_A'])} | {delta_text(effects['random_ABC_minus_rotating_AB'])} |")
+    lines += [
+        "",
+        "在随机角色/固定 A resident 中，随机适应相对固定适应的增益为 +8.51 pp，区间不跨 0；轮换适应相对固定为 +6.33 pp。随机角色/A-B resident 的增益较小但仍为正。静态角色/A resident 的日程差异全部为负；这与固定角色协议被拓扑变化扰动的解释一致。静态角色/A-B 和静态角色/A-B-C 的日程差异很小，部分区间接近或跨过 0。",
+        "",
+        "跨 resident 条件汇总的随机角色 − 静态角色 J 差异，在固定、轮换、随机适应下分别为 +18.32、+21.30、+22.26 pp。这个汇总用于描述作用大小，不替代包含 seed、partition 和资源列排列随机效应的层级模型。",
+        "",
+        "## 结果三：角色 spread 显示结构稳定性",
+        "",
+        "下表为 update-300 的六排列 equivariant target-60 J spread。",
+        "",
+        "| resident 形成文化 | 固定 A 适应 | 轮换 A/B 适应 | 随机 A/B/C 适应 |",
+        "|---|---:|---:|---:|",
+    ]
+    for culture in CULTURES:
+        lines.append(f"| {LABELS[culture]} | {fmt(summary, culture, 'fixed_A', 300, 'role_spread_target60_J')} | {fmt(summary, culture, 'rotating_AB', 300, 'role_spread_target60_J')} | {fmt(summary, culture, 'random_ABC', 300, 'role_spread_target60_J')} |")
+    lines += [
+        "",
+        "随机角色 resident 的 spread 在全部适应日程下都较低：随机/A 为 2.28–8.19 个百分点，随机/A-B 为 16.32–16.86 个百分点，随机/A-B-C 为 14.46–15.08 个百分点。静态角色 resident 则为 24.96–37.22、63.70–65.27 和 69.26–70.60 个百分点。",
+        "",
+        "这支持一个限定性的机制结论：形成阶段的角色随机化把协议吸引域变得更接近角色轴对称；适应阶段伙伴覆盖主要决定新人能否观察 resident 约定，不能替代形成期对称性。",
+        "",
+        "## 结果四：表面符号一致性跟随但不等同于功能恢复",
+        "",
+        "下表给出 newcomer—resident 双 token pair agreement 的 update-300 均值。",
+        "",
+        "| resident 形成文化 | 固定 A 适应 | 轮换 A/B 适应 | 随机 A/B/C 适应 |",
+        "|---|---:|---:|---:|",
+    ]
+    for culture in CULTURES:
+        lines.append(f"| {LABELS[culture]} | {fmt(summary, culture, 'fixed_A', 300, 'newcomer_resident_pair_agreement')} | {fmt(summary, culture, 'rotating_AB', 300, 'newcomer_resident_pair_agreement')} | {fmt(summary, culture, 'random_ABC', 300, 'newcomer_resident_pair_agreement')} |")
+    lines += [
+        "",
+        "随机角色/A-B-C resident 的 pair agreement 在三种适应日程下为 39.40%、41.36%、42.16%，和其 J 的稳定性方向一致。随机角色/固定 A resident 的 J 从 35.18% 增加到 43.69%，但 pair agreement 只有 3.19%–5.25%，说明 newcomer 可以通过功能等价或折衷码本恢复任务，而不必逐 token 复刻 resident。",
+        "",
+        "pair-position NMI 在 update 0 已可能偏高，不能把它单独解释为语义获得。有限站点、离散词表和确定性网络都可能制造位置相关性；后续需要熵校正、置换检验和未见资源—位置组合。",
+        "",
+        "## 对核心问题的回答",
+        "",
+        "完整交叉后，上一轮的结论需要改写。随机角色 resident 确实普遍更利于 newcomer 恢复并保持低 spread，但伙伴覆盖的作用取决于 resident endpoint：它对随机角色/固定 A 最重要，对随机角色/A-B-C 几乎没有额外作用，对静态角色/A 甚至可能降低性能。",
+        "",
+        "这说明共同符号的社会学习至少包含两个可分离的过程：resident 形成阶段建立一个对角色变化是否稳定的协议；新人适应阶段通过伙伴观察和共同后果反馈进入该协议的功能吸引域。伙伴拓扑的增加只在 resident 约定尚未覆盖足够结构时提供明显帮助。",
+        "",
+        "本轮仍然研究的是有限 grounded communication protocol。它表明哪些非语言条件支持协议恢复，以及角色对称性和伙伴覆盖如何改变恢复路径；它没有证明 agent 已产生开放语言或人类语言的全部条件。",
+        "",
+        "## 限制",
+        "",
+        "- newcomer 仍只有 identity 0，且视觉前端继承同一视觉组并冻结，未测试新感知系统、视觉噪声或概念学习；",
+        "- resident 在适应阶段完全冻结，没有双向协商、冲突、repair 或群体共同重构；",
+        "- 任务为六站点、三资源、双 token、7 类词表的有限协议，存在查表解，没有开放词汇和生产性组合；",
+        "- reward 是集中式即时联合回报，没有资源库存、延迟后果、生存压力、互补分工或代际 bottleneck；",
+        "- 链级 bootstrap 区间是描述性不确定性，正式论文仍需预注册层级模型和多重比较处理；",
+        "- NMI 在低适应点可能受低熵 token 和有限任务结构影响，需要独立的机会基线。",
+        "",
+        "## 下一轮实验",
+        "",
+        "下一步应沿两个方向推进。第一，保持本轮完整交叉设计，加入单 sender、单 receiver 和全群体替换，并比较 30、100、300、600 更新的恢复曲线；第二，把 resident 从冻结改为可有限适应，观察群体是否会为 newcomer 主动重构约定。",
+        "",
+        "在此基础上再加入延迟资源库存、互补分工和代际 bottleneck，检验功能恢复是否变成跨代公共符号。所有复杂化版本都应保留零适应、随机符号、角色排列和未见组合对照。",
+        "",
+        "## 可复核性",
+        "",
+        f"独立 NumPy 分析：[cross_schedule_analysis.json]({(out / 'cross_schedule_analysis.json').resolve()})，覆盖 {data['runs']} 条链、{data['coverage']['protocol_files']:,} 个协议文件，完成 {data['checks']:,} 项检查和 {data['scalar_comparisons']:,} 个标量比较，保存指标最大绝对差异 {data['maximum_metric_absolute_difference']:.1e}。",
+        f"配对统计：[cross_schedule_statistics.json]({(out / 'cross_schedule_statistics.json').resolve()})，每个 resident 文化的 schedule 比较使用 72 个链级配对单位和 20,000 次 bootstrap。",
+        f"独立轨迹/采样审计：[cross_schedule_audit.json]({(out / 'cross_schedule_audit.json').resolve()})，覆盖 {audit['runs']} 条链、{audit['coverage']['traces']:,} 条轨迹和 {audit['coverage']['protocol_files']:,} 个协议文件，完成 {audit['checks']:,} 项检查，最大重放误差 {audit['maximum_replay_absolute_difference']:.1e}，未导入生产模块。",
+        f"图形：[01_cross_schedule.png]({(out / 'figures' / '01_cross_schedule.png').resolve()})；绘图元数据：[plot_metadata.json]({(out / 'plot_metadata.json').resolve()})；视觉 QA：[visual_qa.json]({(out / 'visual_qa.json').resolve()})。",
+        f"研究审查：[结果审查.md]({(ROOT / '结果审查.md').resolve()})；审查记录：[结果审查.json]({(ROOT / '结果审查.json').resolve()})。",
+        "",
+        "本轮使用本地 PyTorch 受控 agent，继承 v0.28/v0.43 的冻结视觉前端和通信架构，未调用 LLM 或外部 API。结论适用于有限协议的社会学习机制，不能外推为大模型或自然语言能力。",
+    ]
+    report.write_text("\n".join(lines) + "\n")
+    print(json.dumps({"status": "complete", "report": str(report), "bytes": report.stat().st_size}, ensure_ascii=False))
+
+
+if __name__ == "__main__":
+    main()

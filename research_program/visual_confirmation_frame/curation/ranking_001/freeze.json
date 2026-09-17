@@ -1,0 +1,114 @@
+{
+  "created_at": "2026-09-15T14:00:21.361379+00:00",
+  "status": "frozen_before_metadata_ranking",
+  "source_files": [
+    {
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/visual_confirmation_frame/curation/prepare_candidates.py",
+      "sha256": "65a38d757fd0ba4b6a1ac6dd6ba1134c8ac3b44db1ffb92602645195b86ece5f",
+      "snapshot": "source_snapshot/00_prepare_candidates.py",
+      "snapshot_sha256": "65a38d757fd0ba4b6a1ac6dd6ba1134c8ac3b44db1ffb92602645195b86ece5f"
+    },
+    {
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/visual_confirmation_frame/curation/plan.md",
+      "sha256": "704e91200a71d1b6b663f147543a69b5932d031620e7a4965e1331875b8defdb",
+      "snapshot": "source_snapshot/01_plan.md",
+      "snapshot_sha256": "704e91200a71d1b6b663f147543a69b5932d031620e7a4965e1331875b8defdb"
+    },
+    {
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/visual_confirmation_frame/curation/test_prepare_candidates.py",
+      "sha256": "aec7e4bd8168b1f3bd7e913ae309e14ff9663fede9c3284a54d648b402e4400d",
+      "snapshot": "source_snapshot/02_test_prepare_candidates.py",
+      "snapshot_sha256": "aec7e4bd8168b1f3bd7e913ae309e14ff9663fede9c3284a54d648b402e4400d"
+    },
+    {
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/visual_confirmation_frame/details_002/execution/records.json",
+      "sha256": "05b100ca038cb199c974ade0457203547c2767d3be3f31ec65b94241dd7aef5c",
+      "snapshot": "source_snapshot/03_records.json",
+      "snapshot_sha256": "05b100ca038cb199c974ade0457203547c2767d3be3f31ec65b94241dd7aef5c"
+    },
+    {
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/visual_confirmation_frame/details_002/execution/feasibility.json",
+      "sha256": "dd9865ae4df7206c44dd69a93f2db636a1180b53ea6dfd5cd17cf6d70d33f6d8",
+      "snapshot": "source_snapshot/04_feasibility.json",
+      "snapshot_sha256": "dd9865ae4df7206c44dd69a93f2db636a1180b53ea6dfd5cd17cf6d70d33f6d8"
+    },
+    {
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/visual_confirmation_frame/details_002/execution/result.json",
+      "sha256": "28828ed73359acf0dcb7e32402d7c84a310a4489bf190e8433738671ad505d9c",
+      "snapshot": "source_snapshot/05_result.json",
+      "snapshot_sha256": "28828ed73359acf0dcb7e32402d7c84a310a4489bf190e8433738671ad505d9c"
+    },
+    {
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/visual_confirmation_frame/details_002/plan.json",
+      "sha256": "fc1cf2ec608aad4f98c5a14aa5b36efddf70f467140f0307b9521af3c3c9d5b1",
+      "snapshot": "source_snapshot/06_plan.json",
+      "snapshot_sha256": "fc1cf2ec608aad4f98c5a14aa5b36efddf70f467140f0307b9521af3c3c9d5b1"
+    },
+    {
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/visual_confirmation_frame/details_002/独立核验.json",
+      "sha256": "5beef51ac3a14b926955dc7f7ad007ae601785528fa3d187fc9feec973857bae",
+      "snapshot": "source_snapshot/07_独立核验.json",
+      "snapshot_sha256": "5beef51ac3a14b926955dc7f7ad007ae601785528fa3d187fc9feec973857bae"
+    },
+    {
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/visual_confirmation_frame/details_002/audit_metadata.py",
+      "sha256": "962f3a2efae1fb343f88be87a3b5600ff70f802492429ddef20ca8fcce99297e",
+      "snapshot": "source_snapshot/08_audit_metadata.py",
+      "snapshot_sha256": "962f3a2efae1fb343f88be87a3b5600ff70f802492429ddef20ca8fcce99297e"
+    },
+    {
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/visual_confirmation_frame/details_001/old_index_evidence.json",
+      "sha256": "fef9585c99b5f119db0d7ff16acc033e954c639775f5d6482175e287ad7dedb8",
+      "snapshot": "source_snapshot/09_old_index_evidence.json",
+      "snapshot_sha256": "fef9585c99b5f119db0d7ff16acc033e954c639775f5d6482175e287ad7dedb8"
+    }
+  ],
+  "salt": "visual-curation-20260915-v1",
+  "hash_encoding": "compact ensure_ascii=False UTF-8 JSON",
+  "component_id_encoding": "sorted integer pageid array",
+  "rank_encoding": "[salt,kind,value]",
+  "markers": [
+    [
+      "ai_generated",
+      "\\bAI[\\s-]*generated\\b"
+    ],
+    [
+      "artificial_intelligence_generated",
+      "\\bartificial\\s+intelligence[\\s-]+generated\\b"
+    ],
+    [
+      "midjourney",
+      "\\bMidjourney\\b"
+    ],
+    [
+      "stable_diffusion",
+      "\\bStable\\s+Diffusion\\b"
+    ],
+    [
+      "dall_e",
+      "\\bDALL[\\s-]*E\\b"
+    ],
+    [
+      "computer_generated",
+      "\\bcomputer[\\s-]*generated\\b"
+    ],
+    [
+      "3d_render",
+      "\\b3D[\\s-]+render(?:ed|ing|s)?\\b"
+    ],
+    [
+      "digital_illustration",
+      "\\bdigital\\s+illustrations?\\b"
+    ],
+    [
+      "drawings_of",
+      "\\bdrawings?\\s+of\\b"
+    ],
+    [
+      "paintings_of",
+      "\\bpaintings?\\s+of\\b"
+    ]
+  ],
+  "metadata_only": true,
+  "pixel_fetch_authorized_by_this_script": false
+}

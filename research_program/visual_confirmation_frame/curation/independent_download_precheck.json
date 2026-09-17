@@ -1,0 +1,28 @@
+{
+  "status": "passed_no_network_preexecution_review",
+  "completed_at_utc": "2026-09-15T14:03:30.206245+00:00",
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/visual_confirmation_frame/curation/download_originals.py": "9dda34ad2bf01f3c8aada46dda0a8a2b23583d72fe03e7a6e028fed21d03c377",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/visual_confirmation_frame/curation/test_download_originals.py": "e48f3af9a4eddd896a5f292e975edd56da895b468dcdc9164ca13203f8d7e6c1",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/visual_confirmation_frame/curation/plan.md": "704e91200a71d1b6b663f147543a69b5932d031620e7a4965e1331875b8defdb"
+  },
+  "test_command": "python3 -m unittest -v test_download_originals.py",
+  "tests": 8,
+  "tests_failed": 0,
+  "tests_elapsed_seconds": 0.013,
+  "content_length_fix": {
+    "read_limit_min_of_declared_per_file_and_total": true,
+    "early_eof_rejected_and_whole_round_stopped": true
+  },
+  "allowed_next_step": "root may freeze and execute water stage only under the existing plan",
+  "not_approved_by_this_review": [
+    "food execution",
+    "visual acceptance",
+    "license acceptance",
+    "material allocation"
+  ],
+  "network_requests": 0,
+  "pixels_viewed": 0,
+  "models_called": 0,
+  "previous_synthetic_receipt_sha256": "14d6923026d462b57ddf3e11a236e5f09b5cb803cde896833bb41348af236262"
+}

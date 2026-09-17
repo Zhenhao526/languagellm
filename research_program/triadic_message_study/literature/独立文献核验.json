@@ -1,0 +1,99 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-09-15T16:05:27.764729+00:00",
+  "scope": "本地已存三篇PDF原始字节、来源收据、已归档首页/分页文本及备忘录的关键论述。未重新渲染PDF，未重新联网认证来源。",
+  "source_sha256": {
+    "research_program/triadic_message_study/literature/测量依据与贡献边界.md": "98be4e083fd389877a88610bfa236e3c8609b465a8b5c98c90a9c67ffc764ce2",
+    "research_program/triadic_message_study/literature/下载索引.md": "ff7c41a366c0d642c58ba20d69d53574398089ced3cd9ab9229ac0b985a3fa74",
+    "research_program/triadic_message_study/literature/download_001/receipt.json": "19f001580adb4f178d2ef2cfe5072004f5c7ea780006a4f67695b04e1795a49f",
+    "research_program/triadic_message_study/literature/download_001/requests.jsonl": "08c2ef5ebcb25859d1803132d6011566bda01e9a85d244afed45a3beba36d263"
+  },
+  "papers": [
+    {
+      "filename": "2019_Lowe_On_the_Pitfalls_of_Measuring_Emergent_Communication_AAMAS.pdf",
+      "official_url": "https://ifaamas.org/Proceedings/aamas2019/pdfs/p693.pdf",
+      "archived_final_url": "https://ifaamas.org/Proceedings/aamas2019/pdfs/p693.pdf",
+      "pages": 9,
+      "pdf_and_raw_sha256": "2eeb78c2d58524d076cf4bf7d2f4af4a3d4ef078d0b710f700f2e15122b78f6d",
+      "pages_text_sha256": "b4af9a81ab405a80b6e6abd35d54c4caddcbb82cb29fab79187f8015875076d9",
+      "first_page_text_sha256": "fe7ca6a45b82a083957daff272566dfdfd339c4ed369cfe627546654e8498871",
+      "identity_checks": [
+        "On the Pitfalls",
+        "Ryan Lowe",
+        "Joelle Pineau"
+      ],
+      "all_checks_passed": true
+    },
+    {
+      "filename": "2019_Eccles_Biases_for_Emergent_Communication_NeurIPS.pdf",
+      "official_url": "https://papers.neurips.cc/paper/9470-biases-for-emergent-communication-in-multi-agent-reinforcement-learning.pdf",
+      "archived_final_url": "https://proceedings.neurips.cc/paper_files/paper/2019/file/fe5e7cb609bdbe6d62449d61849c38b0-Paper.pdf",
+      "pages": 11,
+      "pdf_and_raw_sha256": "3bc49723065fcac60d254d60564770965ed04ceacbe2d9cd28da2227ebf11a0c",
+      "pages_text_sha256": "f10abd072e39effe693780f2d4334e22c9d02fa8ec7e21055b44ce55af625781",
+      "first_page_text_sha256": "23db98077a9d6a1f9cae9e04d2634165ef5d50b5610baad005399a316d521e29",
+      "identity_checks": [
+        "Biases for Emergent Communication",
+        "Tom Eccles",
+        "Thore Graepel"
+      ],
+      "all_checks_passed": true
+    },
+    {
+      "filename": "2019_Jaques_Social_Influence_as_Intrinsic_Motivation_ICML.pdf",
+      "official_url": "https://proceedings.mlr.press/v97/jaques19a/jaques19a.pdf",
+      "archived_final_url": "https://proceedings.mlr.press/v97/jaques19a/jaques19a.pdf",
+      "pages": 10,
+      "pdf_and_raw_sha256": "c18e987d6ab7d4bd1c80b63a0315e57ad4b8f3d36572b39e22dd93194ba17ef9",
+      "pages_text_sha256": "10eb5defe64724000b5ea6ef2adc194f9ad793f1a17f5ed886cb92d443abcc51",
+      "first_page_text_sha256": "1245c7c6fdcc39c68ddbaa6e0753554d09c56a27f7f6f31c2524e5636de64100",
+      "identity_checks": [
+        "Social Influence as Intrinsic Motivation",
+        "Natasha Jaques",
+        "Angeliki Lazaridou"
+      ],
+      "all_checks_passed": true
+    }
+  ],
+  "claim_checks": [
+    {
+      "paper": "Lowe et al. 2019",
+      "pdf_pages": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "finding": "positive signaling与positive listening的区分、仅信号相关性不足、因果影响测量的概括准确；消息依赖未被等同有用语义。"
+    },
+    {
+      "paper": "Eccles et al. 2019",
+      "pdf_pages": [
+        3,
+        4
+      ],
+      "finding": "说者/听者辅助损失及最大化偏置并不保证高任务回报的边界准确；本轮未加此奖励不是对该方法或语言能力的否定。"
+    },
+    {
+      "paper": "Jaques et al. 2019",
+      "pdf_pages": [
+        3,
+        4,
+        5
+      ],
+      "finding": "反事实动作对另一主体行动分布的影响用作内在奖励，概括准确；本轮评价与训练奖励区分清楚，未把影响行为等同传递私人事实。"
+    },
+    {
+      "paper": "本轮设计边界",
+      "finding": "移植输出恒等性仅作实现检查、4096完整代码可支持整体编码、四格结果不自动证明组合结构或新颖性，均为适当限制。"
+    }
+  ],
+  "required_corrections": [],
+  "memo_modified": false,
+  "audit_execution_modified": false,
+  "new_network_requests": 0,
+  "new_downloads": 0,
+  "model_forward_calls_for_literature_review": 0,
+  "training_records_read_for_literature_review": 0,
+  "request_count_boundary": "三个本地PDF请求均一次成功；不把此计数扩大为此前网页解析器也未尝试。"
+}

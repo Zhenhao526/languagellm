@@ -1,0 +1,20 @@
+{
+  "status": "failed_preflight",
+  "command": "qwen_collect_pilot/.venv/bin/python -m unittest research_program.triadic_partial_payoff_study.tests.test_runner -v",
+  "tool_chunk_id": "504035",
+  "exit_code": 1,
+  "test_cases_run": 9,
+  "failures": 2,
+  "elapsed_seconds_reported_by_unittest": 0.163,
+  "failure_test": "test_evaluate_batch_tail_and_rejects_invalid_indices",
+  "cause": "Runner evaluate accepted negative state index -1, triggering a stub forward and writing output instead of rejecting before evaluation. Second assertion detected this extra stub call.",
+  "other_eight_test_cases_passed": true,
+  "real_neural_calls": 0,
+  "real_parameter_loads": 0,
+  "real_training_updates": 0,
+  "source_sha256": {
+    "runner.py": "494b0ac54eaeaff0463d86415e9ec7675eb8c544fcc0e1f87a24bc8790dae33c",
+    "utility.py": "67040e814d92a100729a9904f366709a3372872bf22d197c554343dbd91258f8",
+    "tests/test_runner.py": "a680a92a1c08a0c2be690e92ae2b37e9f08a04f6c94ea9a6b9e76059981821e1"
+  }
+}

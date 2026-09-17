@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "version": "v0.31",
+  "scope": "bounded static implementation review; no model forward or optimizer replay",
+  "checks": {
+    "fresh_communication_only": "Each population member deep-copies one inherited v28 private-all checkpoint, excludes the private action head, and independently resets the communication modules.",
+    "population_copy_independence": "Four agents use private types [0,1,0,1] but separate parameter objects and independent communication reset seeds.",
+    "matched_partner_schedule": "fixed_partners repeats (0,1),(2,3); rotating_partners alternates (0,1),(2,3) with (0,3),(2,1) on the same four-direction update budget.",
+    "multi_partner_target": "The target and training supports are disjoint 2-regular bipartite graphs with 12 edges; target evaluation requires both resource partners.",
+    "condition_paired_fixtures": "Both partner conditions use the same frozen world/photo/mask and uniform streams; only the partner schedule changes.",
+    "no_training_shortcut": "All eight ordered cross-private-type protocol scores, partner-pair scores, and recombination references are computed from saved endpoint arrays offline.",
+    "formal_gate": "Formal execution binds both production source hashes and inherited input hashes to preflight_qa.json.",
+    "fixed_budget": "All formal runs use 2400 population updates, 960 messages and 1920 resource actions per update, with no performance-based selection."
+  },
+  "budget_constants": {
+    "messages_per_direction": 240,
+    "directions_per_population_update": 4,
+    "messages_per_population_update": 960,
+    "actions_per_population_update": 1920,
+    "updates_per_run": 2400,
+    "formal_runs": 24,
+    "ordered_cross_type_protocols": 8
+  },
+  "limitations": [
+    "The four population members reuse two frozen private encoders; this tests partner scheduling around controlled private variation rather than natural demographic variation.",
+    "The rotating schedule compares reuse and partner turnover in a fixed four-agent population; it does not model birth, death, migration, or cultural transmission.",
+    "The controlled task is a symbolic resource-location protocol with a multi-partner target, not a reconstruction of complete human ecology.",
+    "The bounded audit replays all endpoint sender worlds and receiver code tables and selected fixture traces, but not every gradient or Adam transition.",
+    "The 199 complete-code relabelings are a descriptive structural reference and do not establish autonomous compositionality."
+  ]
+}

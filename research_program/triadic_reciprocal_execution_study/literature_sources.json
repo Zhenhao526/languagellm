@@ -1,0 +1,61 @@
+{
+  "accepted_before_training": "All monitor and final proposals receive both strict and reciprocal settlements; fixed key auxiliaries include RR-SR and SR-SS decompositions; no extra neural inference and no change to primary.",
+  "at": "2026-09-16T03:35:07.008186+00:00",
+  "audit_implementation_status": "Waiting for root runner/environment schema; independent audit must not import new learner/environment/kernels numerics.",
+  "formal_parameter_loads": 0,
+  "neural_forward_calls": 0,
+  "new_downloads": 0,
+  "new_web_queries": 0,
+  "papers": [
+    {
+      "checked_pdf_pages": [
+        6,
+        7,
+        8
+      ],
+      "extracted_text_path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/literature/download_001/2016_Wei_Luke_Lenient_Learning_in_Independent_Learner_Stochastic_Cooperative_Games_JMLR.pages.txt",
+      "extracted_text_sha256": "2c45447aff70138a885be398dfe5dd90d49f4f1e81143738f6cf67e114cc4492",
+      "official_pdf_url": "https://www.jmlr.org/papers/volume17/15-417/15-417.pdf",
+      "pdf_path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/literature/download_001/2016_Wei_Luke_Lenient_Learning_in_Independent_Learner_Stochastic_Cooperative_Games_JMLR.pdf",
+      "pdf_sha256": "c9677f5d1d20001ab2d8e29dd873076d1becf85a9ba5b57fdf884d986a2553a8",
+      "title_filename": "2016_Wei_Luke_Lenient_Learning_in_Independent_Learner_Stochastic_Cooperative_Games_JMLR.pdf"
+    },
+    {
+      "checked_pdf_pages": [
+        4,
+        5,
+        6
+      ],
+      "extracted_text_path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/literature/maven_recovery_002/2019_Mahajan_MAVEN_Multi_Agent_Variational_Exploration_NeurIPS.pages.txt",
+      "extracted_text_sha256": "99e60aff7eaa0bc8581dbe66d5da2c2ecd009b2ef6e176d25ff23bf41d32869c",
+      "official_pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2019/file/f816dc0acface7498e10496222e9db10-Paper.pdf",
+      "pdf_path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/literature/maven_recovery_002/2019_Mahajan_MAVEN_Multi_Agent_Variational_Exploration_NeurIPS.pdf",
+      "pdf_sha256": "754655e095eb48968603158a3f800ce79a9bb68db941f1678177bf97593a5fbc",
+      "title_filename": "2019_Mahajan_MAVEN_Multi_Agent_Variational_Exploration_NeurIPS.pdf"
+    },
+    {
+      "checked_pdf_pages": [
+        4,
+        5
+      ],
+      "extracted_text_path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/literature/download_001/2023_Zhao_Local_Optimization_Achieves_Global_Optimality_in_Multi_Agent_Reinforcement_Learning_ICML.pages.txt",
+      "extracted_text_sha256": "6a374a71348adfcc84b7edf96559009cd7618b62269841f4464f5ba3fce9f0f9",
+      "official_pdf_url": "https://proceedings.mlr.press/v202/zhao23j/zhao23j.pdf",
+      "pdf_path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/literature/download_001/2023_Zhao_Local_Optimization_Achieves_Global_Optimality_in_Multi_Agent_Reinforcement_Learning_ICML.pdf",
+      "pdf_sha256": "2b138992ecf5b92a6d8bd142b646ea7c08f4237ea1f1c8151fb7e4bc1969a5b1",
+      "title_filename": "2023_Zhao_Local_Optimization_Achieves_Global_Optimality_in_Multi_Agent_Reinforcement_Learning_ICML.pdf"
+    }
+  ],
+  "proposed_primary": "4 new paired seeds 57101..57104; complete both-heldout final full-success reciprocal minus strict; average of 4 paired differences",
+  "scope": "Bounded design review and three existing primary-paper mechanism neighbours; no novelty or exhaustive literature claim.",
+  "sources_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/design_audit/independent_bounds_review_001.json": "e4fe6a69434eb20b91143731549fef8429343f0b43502b6ede5e0d437ea79f04",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/design_audit/independent_candidate_crosscheck_001.json": "03abb48954536c5ff9ab21d91570a7152a0020bec718d596897732dab0ef4718",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/design_audit/review.md": "1a43b4b7bd630f17c6d8ba7d5e706fce51cbc4d7abbb9613b2f5b4ff11a54132",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/design_audit/static_execution_history_001.json": "abe148e9ac59f321c1c7fcdad4de69a45815f79a1cd821bbe974c305675709b5",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/design_review.md": "792f31492324a79eba6955f550a89871f3969dc134f035d33fc4e29042215409",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/下一步实验草案.md": "e30695c1a57ab0c674031ec5e2cf67d69f8168a0ee7c701d795d25dc46cd6c7b"
+  },
+  "status": "completed_before_new_training",
+  "training_updates": 0
+}

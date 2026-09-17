@@ -1,0 +1,28 @@
+{
+  "review_mode": "abstract_only",
+  "confidence": "low",
+  "verdict": "monitor",
+  "paper_type": "empirical_method",
+  "scores": {
+    "relevance": 87,
+    "evidence": 40,
+    "novelty": 55,
+    "impact": 65,
+    "reproducibility": 45,
+    "author_prior": 50,
+    "early_signal": 50
+  },
+  "contribution": "不同预训练生成模型接入重建式通信，是预先个体知识方向的近邻。",
+  "evidence_summary": "仅核实官方英文摘要与期刊元数据，PDF下载完整但不计全文方法核查。",
+  "novelty_comparison": "摘要支持VAE先验与组合通信已有工作，具体冻结/训练条件尚未全文核验。 阅读优先级评分不认证论文或本项目新颖性。",
+  "recommendation_reasons": [
+    "不同预训练生成模型接入重建式通信，是预先个体知识方向的近邻。",
+    "官方英文摘要；日文PDF抽取大量乱码"
+  ],
+  "concerns": [
+    "抽取失败，不从摘要推断标签、预算、冻结方式、留出测试或可复现性。"
+  ],
+  "summary": "摘要支持VAE先验与组合通信已有工作，具体冻结/训练条件尚未全文核验。",
+  "primary_doi": "10.1527/tjsai.39-2_D-N71",
+  "primary_url": "https://www.jstage.jst.go.jp/article/tjsai/39/2/39_39-2_D-N71/_article/-char/en"
+}

@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "created_at": "2026-09-15T16:14:07.940986+00:00",
+  "report_sha256": "a9564bbbf142f07f29089d8eadbf037d01cbe8a330865f624845398167ee68f9",
+  "report": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/结果与下一步.md",
+  "required_report_corrections": [],
+  "checks_passed": 26,
+  "local_links_present": 14,
+  "first_receipt": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/结果报告_只读审查.json",
+  "first_receipt_sha256": "2c18ab78dc16621d7ed1ce6e6cd3df278dab9e74c6251cab7611b8e8a3d890bf",
+  "reviewer_check_correction": "First string check expected ASCII minus, but report correctly uses Unicode mathematical minus in −7.4236. Numeric value agrees with original −7.423580786026205 pp. Normalizing only minus typography resolves the false alarm; report and all data unchanged.",
+  "numeric_scope": [
+    "4seed PI/FI differences and mean DiD",
+    "4partition 4condition endpoint means",
+    "3endpoint intervention means and silent invariants",
+    "4partition private-pair denominators and all4seed appropriate counts",
+    "69120 exact donor probability vectors separate from local behavioral suitability"
+  ],
+  "interpretation": "Identity, diagnostic-subset, local-action-not-joint-policy and non-causal-between-partition limits are accurately stated. No mandatory correction.",
+  "no_model_forward_training_or_report_edits": true
+}

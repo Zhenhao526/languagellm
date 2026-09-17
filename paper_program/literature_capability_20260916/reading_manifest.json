@@ -1,0 +1,125 @@
+{
+  "as_of": "2026-09-16",
+  "focus_count": 5,
+  "new_public_pdfs": 2,
+  "reused_pdfs": 3,
+  "reading_definition": "method, relevant results and limitations from full-text source; specified pages only, not exhaustive reproduction",
+  "papers": [
+    {
+      "key": "2302.08084",
+      "title": "Learning Multi-Object Positional Relationships via Emergent Communication",
+      "authors": [
+        "Yicheng Feng",
+        "Boshi An",
+        "Zongqing Lu"
+      ],
+      "published": "2023-02-16",
+      "publication": "AAAI 2024, 38(16):17371–17379",
+      "status": "peer-reviewed conference; final PDF read",
+      "doi": "10.1609/aaai.v38i16.29685",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/29685",
+      "pdfurl": "https://ojs.aaai.org/index.php/AAAI/article/download/29685/31171",
+      "pdf": "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_capability_20260916/primary/2024_Feng_An_Lu_Multi_Object_Positional_Relationships_AAAI.pdf",
+      "pages": "physical PDF 3–7; abstract/related work 1–2",
+      "scope": "SimCLR preparation, frozen representation/readout, new listener and object placement; methods/results reviewed, no reproduction",
+      "pdf_sha256": "673545d0796d0fd0b95b510156099cbd9ea5d1ecf8682256140bebc221cbdac3",
+      "text": "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_capability_20260916/primary/2024_Feng_An_Lu_Multi_Object_Positional_Relationships_AAAI.pages.txt",
+      "text_sha256": "32161c037e4ca051d2909669d8d3042507349a0813b81b7418e0e6c50f97b703",
+      "new_download_this_round": true,
+      "methodological_claims_source": "primary full text; no external reproduction"
+    },
+    {
+      "key": "naacl2022.335",
+      "title": "Disentangling Categorization in Multi-agent Emergent Communication",
+      "authors": [
+        "Washington Garcia",
+        "Hamilton Clouse",
+        "Kevin Butler"
+      ],
+      "published": "2022",
+      "publication": "NAACL 2022:4523–4540",
+      "status": "peer-reviewed conference",
+      "doi": "10.18653/v1/2022.naacl-main.335",
+      "url": "https://aclanthology.org/2022.naacl-main.335/",
+      "pdfurl": "https://aclanthology.org/2022.naacl-main.335.pdf",
+      "pdf": "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_spatial_20260915/primary/2022_Garcia_Disentangling_Categorization_NAACL.pdf",
+      "pages": "physical PDF 2–5; prior local methods review retained",
+      "scope": "pretrained categorization and LSA method/selection caveats",
+      "pdf_sha256": "358ab4820d54cecdf3b2ab3fba865525f05a6017dd6d96dce80198f2e07aef16",
+      "text": "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_spatial_20260915/primary/2022_Garcia_Disentangling_Categorization_NAACL.pages.txt",
+      "text_sha256": "880ecd5f65a6f4bac63b600382c495a5b038b9fd41487378be15a4026ad23bc9",
+      "new_download_this_round": false,
+      "methodological_claims_source": "primary full text; no external reproduction"
+    },
+    {
+      "key": "2407.17960",
+      "title": "The Curious Case of Representational Alignment: Unravelling Visio-Linguistic Tasks in Emergent Communication",
+      "authors": [
+        "Tom Kouwenhoven",
+        "Max Peeperkorn",
+        "Bram van Dijk",
+        "Tessa Verhoef"
+      ],
+      "published": "2024-07-25",
+      "publication": "CMCL 2024:57–71",
+      "status": "peer-reviewed workshop; final ACL PDF read",
+      "doi": "10.18653/v1/2024.cmcl-1.5",
+      "url": "https://aclanthology.org/2024.cmcl-1.5/",
+      "pdfurl": "https://aclanthology.org/2024.cmcl-1.5.pdf",
+      "pdf": "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_spatial_20260915/primary/2024_Kouwenhoven_Representational_Alignment_CMCL.pdf",
+      "pages": "physical PDF 4–7; context 2–3",
+      "scope": "frozen DINOv2, RSA loss, selection and Winoground result",
+      "pdf_sha256": "89d2244e1fea703b9518fbe5e4ba641020a8bea6042047e544217795a61ba6da",
+      "text": "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_spatial_20260915/primary/2024_Kouwenhoven_Representational_Alignment_CMCL.pages.txt",
+      "text_sha256": "7706a400225bd5500733e78ca0b99789ca54e566f6ae33f73ff3b0ae01099fb7",
+      "new_download_this_round": false,
+      "methodological_claims_source": "primary full text; no external reproduction"
+    },
+    {
+      "key": "2508.06659",
+      "title": "In-Context Reinforcement Learning via Communicative World Models",
+      "authors": [
+        "Fernando Martinez-Lopez",
+        "Tao Li",
+        "Yingdong Lu",
+        "Juntao Chen"
+      ],
+      "published": "2025-08-08",
+      "publication": "arXiv:2508.06659v2, revised 2026-06-07",
+      "status": "arXiv preprint; conference acceptance not independently confirmed",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2508.06659v2",
+      "pdfurl": "https://arxiv.org/pdf/2508.06659v2",
+      "pdf": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/literature_2024_2026/papers/2025_MartinezLopez_CORAL_In_Context_Reinforcement_Learning_v2_2026.pdf",
+      "pages": "v2 physical PDF 3–7, 11–12",
+      "scope": "IA/CA concurrent preparation, continuous messages, utility influence, frozen IA adaptation and limitations",
+      "pdf_sha256": "4f672e08f8ab588e3ec13b55a1af46a3b1ac0968d3830f215464243f5db611f6",
+      "text": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/literature_2024_2026/packets/2508.06659.md",
+      "text_sha256": "6d99d204c9dac55f71db944e430f6f334cc4d283cd5ef3f56f5dabd64d7182c7",
+      "new_download_this_round": false,
+      "methodological_claims_source": "primary full text; no external reproduction"
+    },
+    {
+      "key": "iwcs2025.25",
+      "title": "Learning to Refer: How Scene Complexity Affects Emergent Communication in Neural Agents",
+      "authors": [
+        "Dominik Künkele",
+        "Simon Dobnik"
+      ],
+      "published": "2025-09",
+      "publication": "IWCS 2025:289–297",
+      "status": "peer-reviewed conference",
+      "doi": null,
+      "url": "https://aclanthology.org/2025.iwcs-main.25/",
+      "pdfurl": "https://aclanthology.org/2025.iwcs-main.25.pdf",
+      "pdf": "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_capability_20260916/primary/2025_Kuenkele_Dobnik_Learning_to_Refer_Scene_Complexity_IWCS.pdf",
+      "pages": "physical PDF 2–8; abstract 1",
+      "scope": "scene complexity, target bounding boxes, frozen ResNet, region objective, independent supervised diagnostics",
+      "pdf_sha256": "2e7feeac1a12e010f8925b7d056718159ab5ec58eac4504a83cd033b26512aec",
+      "text": "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_capability_20260916/primary/2025_Kuenkele_Dobnik_Learning_to_Refer_Scene_Complexity_IWCS.pages.txt",
+      "text_sha256": "556fc90019baf8ddff680d4d93eacb8c49a5bcdaafa088d1afda4c73b9311a87",
+      "new_download_this_round": true,
+      "methodological_claims_source": "primary full text; no external reproduction"
+    }
+  ]
+}

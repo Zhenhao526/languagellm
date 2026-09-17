@@ -1,0 +1,27 @@
+"""Create a bounded scientific review record for v0.36."""
+from __future__ import annotations
+import argparse, hashlib, json, re
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent
+
+def read(path: Path): return json.loads(path.read_text())
+def sha(path: Path): return hashlib.sha256(path.read_bytes()).hexdigest()
+def linked_paths(report: Path):
+    for match in re.finditer(r"\]\((<?)([^)>]+)>?\)", report.read_text()):
+        p = Path(match.group(2))
+        if p.is_absolute(): yield p
+
+def main():
+    parser = argparse.ArgumentParser(); parser.add_argument("--out", type=Path, required=True); args = parser.parse_args(); root = args.out.resolve(); out = root / "results" / "iterated_001"; report = out / "有限社会学习瓶颈下的代际传递研究报告.md"
+    analysis = read(out / "iterated_analysis.json"); validation = read(out / "iterated_raw_validation.json"); audit = read(out / "iterated_audit.json"); visual = read(out / "figures" / "visual_qa.json"); invocation = read(out / "invocation.json"); complete = read(out / "training_complete.json")
+    links = list(linked_paths(report)); missing = [str(p) for p in links if not p.exists()]
+    files = [ROOT / "iterated_design.json", ROOT / "iterated_replacement.py", ROOT / "iterated_analysis.py", ROOT / "iterated_audit.py", ROOT / "plot_iterated.py", ROOT / "visual_qa.py", ROOT / "build_iterated_report.py", report, out / "iterated_analysis.json", out / "iterated_raw_validation.json", out / "iterated_audit.json", out / "figures" / "visual_qa.json", out / "terminal_receipt.json"]
+    reviewed_files = {str(p.resolve()): sha(p) for p in files if p.is_file()}
+    formal = all([invocation.get("formal") is True, complete.get("formal") is True, complete.get("status") == "complete", complete.get("runs") == 36, analysis.get("formal") is True, analysis.get("status") == "complete", validation.get("passed") is True, audit.get("passed") is True, visual.get("passed") is True, not missing])
+    review = {"passed": formal, "passed_with_stated_limits": formal, "status": "passed_scientific_review" if formal else "failed_scientific_review", "version": "v0.36-iterated-replacement", "reviewed_files": reviewed_files, "review_scope": ["Checked 36 formal chains with a common v0.34 fixed-A generation-0 population and eight serial replacement events per chain.", "Checked fixed-A, rotating-AB and deterministic random-ABC training schedules, A/B/C endpoint evaluation, generation curves and adjacent-generation token drift.", "Checked independent NumPy metric replay, endpoint protocol tables, categorical traces, reward arithmetic, schedule replay, completion hashes and figure QA.", "Checked every absolute local link in the iterated report."], "findings": [{"type": "local_transmission", "fixed_A_generation0_A": analysis["summary"]["fixed_A"]["0"]["A"]["target_J"]["mean"], "fixed_A_generation8_A": analysis["summary"]["fixed_A"]["8"]["A"]["target_J"]["mean"], "interpretation": "Fixed-A serial replacement preserves and strengthens the local A protocol while leaving B/C near chance."}, {"type": "topology_broadening", "rotating_AB_generation8": {s: analysis["summary"]["rotating_AB"]["8"][s]["target_J"]["mean"] for s in ("A", "B", "C")}, "interpretation": "A/B rotation trades A specialization for progressively better B and modest C readout."}, {"type": "random_schedule_convergence", "random_ABC_generation8": {s: analysis["summary"]["random_ABC"]["8"][s]["target_J"]["mean"] for s in ("A", "B", "C")}, "random_ABC_A_drift_generation8": analysis["summary"]["random_ABC"]["8"]["A"]["token_change_prev"]["mean"], "interpretation": "Random topology coverage brings A/B/C endpoints close together but retains larger surface token drift."}], "limitations": ["Generation 0 already contains a v0.34 resident protocol; the batch tests transmission, not origin from random communication modules.", "Newcomers keep frozen private visual encoders and only communication modules are reset/optimized.", "The four-agent population and replacement order are experimenter specified; there is no demographic selection, migration or autonomous teacher choice.", "The two-resource task has two one-token senders and does not test vocabulary growth, compositional grammar, intention or natural-language structure.", "Token change is a surface fingerprint and is not a semantic distance; the audit does not replay every optimizer state transition."], "next_step": "Start from random communication modules and let multiple agents jointly establish a protocol before feeding the resulting populations into the iterated replacement chain.", "link_check": {"local_links": len(links), "missing": missing}, "new_training_reviewed": True}
+    (root / "结果审查.json").write_text(json.dumps(review, ensure_ascii=False, indent=2) + "\n")
+    md = ["# v0.36 结果审查", "", f"- 状态：`{review['status']}`", f"- 形式批次：`{review['passed']}`", f"- 审查文件数：{len(reviewed_files)}", f"- 本地链接：{len(links)}，缺失：{len(missing)}", "", "## 审查范围", ""] + [f"- {x}" for x in review["review_scope"]] + ["", "## 主要发现", ""] + [f"- **{x['type']}**：{x['interpretation']}" for x in review["findings"]] + ["", "## 限制", ""] + [f"- {x}" for x in review["limitations"]] + ["", "## 下一步", "", review["next_step"], ""]
+    (root / "结果审查.md").write_text("\n".join(md)); print(json.dumps({"status": review["status"], "reviewed_files": len(reviewed_files), "links": len(links), "missing": len(missing)}, ensure_ascii=False))
+
+if __name__ == "__main__": main()

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "cases": [
+    "uniform receiver gives exact 1/36 joint and 7/72 mixed reward",
+    "perfect whole-map encoding gives all metrics one",
+    "smoke actual sender greedy agrees with enumerated autoregressive logits"
+  ],
+  "probe_sha256": "6945134c21615356df01805ba8593f4a95f8516d93376bc2fbf713e5e4d2dcd5"
+}

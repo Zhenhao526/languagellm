@@ -1,0 +1,26 @@
+[run]
+since_hours = 24000
+top_n = 5
+max_results_per_category = 100
+exclude_previously_reported = false
+data_dir = "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_capability_20260916/data"
+report_dir = "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_capability_20260916/reports"
+timezone = "Asia/Shanghai"
+[openalex]
+mailto = ""
+cache_ttl_days = 30
+request_delay_seconds = 1.0
+[semantic_scholar]
+enabled = false
+api_key_env = "S2_API_KEY"
+request_delay_seconds = 2.0
+[summary]
+model = "gpt-4.1-mini"
+max_pdf_chars = 160000
+[[topics]]
+name = "capability_to_compositional_communication"
+enabled = true
+categories = ["cs.CL", "cs.AI", "cs.LG"]
+include_keywords = ["emergent communication", "emergent language", "referential game", "symbol emergence"]
+exclude_keywords = []
+min_keyword_matches = 1

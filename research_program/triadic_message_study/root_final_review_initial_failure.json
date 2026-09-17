@@ -1,0 +1,7 @@
+{
+  "recorded_at_utc": "2026-09-15T16:15:52.129772+00:00",
+  "status": "review_script_assumption_error",
+  "stage": "root report link inventory only",
+  "error": "Incorrect guessed minimum20 local links. All actual15 links existed; replaced guessed minimum with explicit required evidence paths. No experiment source or results changed.",
+  "training_restarted": false
+}

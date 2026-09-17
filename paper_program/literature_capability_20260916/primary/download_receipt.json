@@ -1,0 +1,50 @@
+[
+  {
+    "filename": "2024_Feng_An_Lu_Multi_Object_Positional_Relationships_AAAI.pdf",
+    "requested_url": "https://ojs.aaai.org/index.php/AAAI/article/download/29685/31171",
+    "started_utc": "2026-09-15T19:08:36.878509+00:00",
+    "new_pdf_download": true,
+    "http_status": 200,
+    "resolved_url": "https://ojs.aaai.org/index.php/AAAI/article/download/29685/31171",
+    "headers": {
+      "Server": "nginx",
+      "Date": "Tue, 15 Sep 2026 19:08:38 GMT",
+      "Content-Type": "application/pdf",
+      "Transfer-Encoding": "chunked",
+      "Connection": "close",
+      "Accept-Ranges": "none",
+      "Content-Disposition": "attachment;filename=09463-AAAI24.FengY.pdf;filename*=UTF-8''09463-AAAI24.FengY.pdf",
+      "Cache-Control": "private",
+      "Pragma": "public",
+      "Set-Cookie": "OJSSID=ticjo5ejdsl78rk4o5t5sai4h0; path=/; HttpOnly; Secure; domain=ojs.aaai.org; secure; HttpOnly; SameSite=Lax",
+      "X-Content-Type-Options": "nosniff",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1; mode=block",
+      "Referrer-Policy": "strict-origin-when-cross-origin"
+    },
+    "bytes": 1580552,
+    "sha256": "673545d0796d0fd0b95b510156099cbd9ea5d1ecf8682256140bebc221cbdac3",
+    "status": "downloaded"
+  },
+  {
+    "filename": "2025_Kuenkele_Dobnik_Learning_to_Refer_Scene_Complexity_IWCS.pdf",
+    "requested_url": "https://aclanthology.org/2025.iwcs-main.25.pdf",
+    "started_utc": "2026-09-15T19:08:39.421292+00:00",
+    "new_pdf_download": true,
+    "http_status": 200,
+    "resolved_url": "https://aclanthology.org/2025.iwcs-main.25.pdf",
+    "headers": {
+      "Date": "Tue, 15 Sep 2026 19:08:41 GMT",
+      "Server": "Apache/2.4.41 (Ubuntu)",
+      "Last-Modified": "Mon, 03 Nov 2025 23:32:34 GMT",
+      "ETag": "\"16ebbe-642b921388880\"",
+      "Accept-Ranges": "bytes",
+      "Content-Length": "1502142",
+      "Connection": "close",
+      "Content-Type": "application/pdf"
+    },
+    "bytes": 1502142,
+    "sha256": "2e7feeac1a12e010f8925b7d056718159ab5ec58eac4504a83cd033b26512aec",
+    "status": "downloaded"
+  }
+]

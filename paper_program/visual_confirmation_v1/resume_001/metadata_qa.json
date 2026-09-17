@@ -1,0 +1,69 @@
+{
+  "status": "passed_partial_integrity_checks",
+  "collection_complete": false,
+  "plan_before_all_candidate_requests": true,
+  "plan_sha256": "cf4de1868c61d2830b07093c806bebdae58f619ec6b812a84c3f5ec3f32866da",
+  "official_api_only": true,
+  "requests": 32,
+  "retained_api_errors": [
+    {
+      "file": "raw/0007_metadata_0000_a1.response",
+      "http_status": 200,
+      "error": {
+        "code": "invalidparammix",
+        "info": "\"titles\", \"pageids\" or a generator was used to supply multiple pages, but the \"rvlimit\", \"rvstartid\", \"rvendid\", \"rvdir=newer\", \"rvuser\", \"rvexcludeuser\", \"rvstart\", and \"rvend\" parameters may only be used on a single page.",
+        "docref": "See https://commons.wikimedia.org/w/api.php for API usage. Subscribe to the mediawiki-api-announce mailing list at &lt;https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/&gt; for notice of API deprecations and breaking changes."
+      }
+    },
+    {
+      "file": "raw/0008_metadata_0000_a2.response",
+      "http_status": 200,
+      "error": {
+        "code": "invalidparammix",
+        "info": "\"titles\", \"pageids\" or a generator was used to supply multiple pages, but the \"rvlimit\", \"rvstartid\", \"rvendid\", \"rvdir=newer\", \"rvuser\", \"rvexcludeuser\", \"rvstart\", and \"rvend\" parameters may only be used on a single page.",
+        "docref": "See https://commons.wikimedia.org/w/api.php for API usage. Subscribe to the mediawiki-api-announce mailing list at &lt;https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/&gt; for notice of API deprecations and breaking changes."
+      }
+    },
+    {
+      "file": "raw/0019_metadata_0100_a1.response",
+      "http_status": 429,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "file": "raw/0030_metadata_0200_a1.response",
+      "http_status": 429,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "file": "raw/0031_metadata_0200_a2.response",
+      "http_status": 429,
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "original_old_records": 101,
+  "normalized_old_title_keys": 100,
+  "frame_unique_normalized_titles": 2261,
+  "metadata_rows": 200,
+  "metadata_unique_page_ids": 200,
+  "eligible_pending_review": 172,
+  "exclusion_reason_counts": {
+    "unsupported_mime": 7,
+    "dimensions_below_256": 4,
+    "license_not_exactly_verified_allowlist": 20,
+    "unknown_or_unresolved_author": 2,
+    "multiple_resource_strata": 2,
+    "old_author_identity_or_name": 2
+  },
+  "original_sha1_and_author_group_overlap_with_old_among_eligible": 0,
+  "provisional_assignment_counts": {},
+  "author_clusters_across_assignments_disjoint": true,
+  "image_downloads": 0,
+  "image_views": 0,
+  "model_calls": 0,
+  "limitations": [
+    "Pixel and near-duplicate review not performed.",
+    "Author identities are metadata proxies, not fully disambiguated people.",
+    "Reservations are not approved/ready confirmation images.",
+    "No access-control seal is claimed in this shared workspace."
+  ]
+}

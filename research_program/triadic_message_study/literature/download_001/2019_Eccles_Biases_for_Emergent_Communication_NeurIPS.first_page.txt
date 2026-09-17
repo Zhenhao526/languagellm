@@ -1,0 +1,50 @@
+Biases for Emergent Communication in
+Multi-agent Reinforcement Learning
+Tom Eccles
+DeepMind
+London, UK
+eccles@google.com
+Y oram Bachrach
+DeepMind
+London, UK
+yorambac@google.com
+Guy Lever
+DeepMind
+London, UK
+guylever@google.com
+Angeliki Lazaridou
+DeepMind
+London, UK
+angeliki@google.com
+Thore Graepel
+DeepMind
+London, UK
+thore@google.com
+Abstract
+We study the problem of emergent communication, in which language arises
+because speakers and listeners must communicate information in order to solve
+tasks. In temporally extended reinforcement learning domains, it has proved hard
+to learn such communication without centralized training of agents, due in part to
+a difﬁcult joint exploration problem. We introduce inductive biases for positive
+signalling and positive listening, which ease this problem. In a simple one-step
+environment, we demonstrate how these biases ease the learning problem. We
+also apply our methods to a more extended environment, showing that agents
+with these inductive biases achieve better performance, and analyse the resulting
+communication protocols.
+1 Introduction
+Environments where multiple learning agents interact can model important real-world problems,
+ranging from multi-robot or autonomous vehicle control to societal social dilemmas [ 4, 26, 22].
+Further, such systems leverage implicit natural curricula, and can serve as building blocks in the
+route for constructing aritﬁcial general intelligence [21, 1]. Multi-agent games provide longstanding
+grand-challenges for AI [16], with important recent successes such as learning a cooperative and
+competitive multi-player ﬁrst-person video game to human level [14]. An important unsolved problem
+in multi-agent reinforcement learning (MARL) is communication between independent agents. In
+many domains, agents can beneﬁt from sharing information about their beliefs, preferences and
+intents with their peers, allowing them to coordinate joint plans or jointly optimize objectives.
+A natural question that arises when agents inhibiting the same environment are given a communication
+channel without an agreed protocol of communication is that of emergent communication [32, 35, 8]:
+how would the agents learn a “language” over the joint channel, allowing them to maximize their
+utility? The most naturalistic model for emergent communication in MARL is that used in Reinforced
+Inter-Agent Learning (RIAL) [8] where agents optimize a message policy via reinforcement from the
+environment’s reward signal. Unfortunately, straightforward implementations perform poorly [8],
+33rd Conference on Neural Information Processing Systems (NeurIPS 2019), Vancouver, Canada.

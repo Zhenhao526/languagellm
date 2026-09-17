@@ -1,0 +1,12 @@
+{
+  "status": "document_and_source_integrity_passed",
+  "implementation_run": false,
+  "models_loaded": false,
+  "training_runs": 0,
+  "method_document_sha256": "9bd41e87ed347cd6a81483a9ccd288dc0cca69e70d45672eb38639768e5b88dd",
+  "source_commit": "6fb1b6b88a18af45b6cd77a6039836e6ae119f9e",
+  "local_reference_links_resolve": true,
+  "source_files_hash_verified": 4,
+  "planned_fits": 96,
+  "independent_source_pairs": 4
+}

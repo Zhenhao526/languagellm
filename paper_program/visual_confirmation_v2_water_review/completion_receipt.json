@@ -1,0 +1,35 @@
+{
+  "created_utc": "2026-09-15T18:52:52.108798+00:00",
+  "status": "metadata_review_package_complete",
+  "artifact_hashes": {
+    "README.md": "e502bcafc828bf02a13799e75049bdda0dcd191391e32fc6ec1623cf5aec4946",
+    "annotation_clarification.json": "bc4122c348cb0f97db9d6a9d892109150a850d9700be13fdd05b40dc1075d2ba",
+    "annotation_history/review_water_metadata.py": "3bd034feaafa0e13c1dac81eac25ad643c69d14a5ad8d767d7e5fa3f5c8a415c",
+    "annotation_history/root_independent_review.json": "aa0fa4e3cefd03f3e0185020cd1856edc733bfc4071b2bb6f42949debd37f6c3",
+    "collector_note_revision.json": "17af677dd23956cf04472cc1c935ec218b7cf44a5d18b8733a3ceedbf5d5d045",
+    "collector_note_revision_002.json": "ef3381211ac23b47726241f9beeed2a7cc2c9fb248cded655432e0b0404ac0fb",
+    "collector_notes.json": "8358c92622ebcc3b6878d1cc73dbf23c7daca3be72fb10a3e6a257c6619c1f11",
+    "final_review_qa.json": "9dbf7da27de8160ed7fee45cc8a7e7ab74f02ade250c1d15c0ca7435b08d803d",
+    "finalize_review.py": "6406be6a847265e230d209916b05470b7df315011a0298fd9ca41e1a03d5542f",
+    "input_freeze.json": "8bd5201d54a1aeb031db8c245751c7475cd812e00a8ab6516a8e8251a9f1b139",
+    "packet.md": "c0848f4720ad96635c973dc36494470649c14b0bc29e480daf9396e54928f2e0",
+    "packet_qa.json": "6f2e4696ef9dc416168d4fa15a3d5834dcf4665ccde38d7d831cff828a068b6a",
+    "packet_receipt.json": "274579079749944dbf1db27aaed1032057c6e25ef10a5167525d6cecf0aeaa92",
+    "prepare_packet.py": "f71b36b10dc8b78a2cac706f135161d8436154ba1b4f31b8cd1c69de80d358ad",
+    "qa_development_correction.json": "fa3532659e308796764a34e22def500e57ec1852d7cfe45ef854ae5f75ee0390",
+    "qa_development_history/finalize_review_initial.py": "b62087df9b037f0a134937ceb82f1b36c8fef4563c26e5f3e6917821c474765e",
+    "review_input.json": "f43033b8df66d1211545cbaf74ef26484db79d5f5139265758eefeabb43cdfa4",
+    "root_independent_review.json": "3e43e7f61de8f897fdc276bf5b6287273fe633a335d21200a6e2c075af4d8dfe",
+    "snapshots/collector_notes_after_row65.json": "65b1526f9c969353873f525dd28a9981832ba89f480622564ec334dbcf247252",
+    "snapshots/collector_notes_initial.json": "5d2fd32ae46945db2d7578cce72627d9a11be728637f5ababe86d8df713bd79d",
+    "元数据复核报告.md": "6743a7972a840af1d8c89f5151b01023687bb24b904a1ede20acdb7f84cf1bc0"
+  },
+  "external_root_annotation_source": {
+    "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.18/review_water_metadata.py",
+    "sha256": "2b38fbd3bc8e5347e1f982545290369d40adff0b19a5d2c6e57c34926a3897ee"
+  },
+  "original_representatives": 79,
+  "original_v2_source_files_unchanged": 77,
+  "new_usable_images": 0,
+  "pixel_stage_started": false
+}

@@ -1,0 +1,185 @@
+{
+  "status": "read_only_architecture_recommendation_not_an_execution_plan",
+  "created_at": "2026-09-15T12:19:51.241043+00:00",
+  "source_hashes": {
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/camp.py": "21ad5ff2eecf871ff2e8e17e5623875f55d701e66302b741a46658c0cec81854",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/run_experiment.py": "485221ac4c90f69b88047f380edfaf4922973cff986c8bfa5c47e700cab13d62",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/run_controls.py": "38ef2921e9e57342bd79063af8bd33d0ee35db4b7352672937ac710f7b4ded73",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/固定执行方案.md": "cf3d92f5eb9755a83b11dcbd3f1792f5474203ce445624fc7b347ccf499996b4",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/agents.py": "e370825812d7ea81f53d43e13197d44593aacdbbe7048cdcb5307650709e3f40",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/run_pilot.py": "0045c0789884d95e480c79b1827c5caf56e6820036e6ed64c2a0f0da35231134",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/resource_env.py": "8b522678c723f0f89812691487142d0f5292c73acfde569dc9da4a9f0e4a5211",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json": "921503bd6e559124aaa85f6c61bf19207c7e6c2dcae37bc0101548eb5b439de6",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/features.npz": "32e32795c9c5b2ea22e396e36e03c925c2598a77e85e57e06b15e3bc59b66c54"
+  },
+  "private_initial_metadata_checks": [
+    {
+      "seed": 27101,
+      "config_count": 15,
+      "initial_sha256": [
+        "d9d0951a639f9a71f46194da83cb138f7fbb127341c7d7e8759a89e629aab33c"
+      ],
+      "trainable_initial_sha256": [
+        "40317ae166182f9769b592f237a8a843c5552f51a107e3d0985707f16c783b1a"
+      ],
+      "receiver_initial_sha256": [
+        "9ecb3a221ae6326f17a8e4bc35925cac258a57fb44af00391116637a1a6127c2"
+      ],
+      "prepared_path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/results/complementarity_001/prepared_27101.pt",
+      "prepared_sha256": "e57c7b4ca1028d8b59cf5be069207ab04fbd47a13dbe6f191037973ad8bd68ce",
+      "preparation_metadata_path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/results/complementarity_001/preparation_27101.json",
+      "personal_control_path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/results/complementarity_001/individual_controls/s27101_identity",
+      "canonical_initial_path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/results/complementarity_001/s27101_split1_additive/initial.pt"
+    },
+    {
+      "seed": 27102,
+      "config_count": 15,
+      "initial_sha256": [
+        "1b906c8154ec670f69b099dab9c0317ff5cf7d0d320acc1cfceca6446b4c0170"
+      ],
+      "trainable_initial_sha256": [
+        "a5ffcf13a182564d24e6d63ab7506095da9006780ea4e7fc6e3c82931a15d3c4"
+      ],
+      "receiver_initial_sha256": [
+        "914d3d256f7fd3b73193660b559d6109c6c690e2f8424f63ed07b1ca85d9654c"
+      ],
+      "prepared_path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/results/complementarity_001/prepared_27102.pt",
+      "prepared_sha256": "b336e629ae9ef47b2cd2081ca9fbd839cd682de5df45c5c04c9360b50ddf6083",
+      "preparation_metadata_path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/results/complementarity_001/preparation_27102.json",
+      "personal_control_path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/results/complementarity_001/individual_controls/s27102_identity",
+      "canonical_initial_path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/results/complementarity_001/s27102_split1_additive/initial.pt"
+    },
+    {
+      "seed": 27103,
+      "config_count": 15,
+      "initial_sha256": [
+        "260cf6e0ca77a8705645bad12a28187e02b45633625d02ad434e27d0cbd271b5"
+      ],
+      "trainable_initial_sha256": [
+        "ed5409570dbe6c3fa1682317a0261d851713ebeb6911b2865eaff90a437da17f"
+      ],
+      "receiver_initial_sha256": [
+        "b16e2f80af3b18d8af4c90bc138973089b68ab6bfa49708fd51d24b44beef9a3"
+      ],
+      "prepared_path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/results/complementarity_001/prepared_27103.pt",
+      "prepared_sha256": "2c122bae03d6ed9c8212c9c734d09ba5265193b0388da0795195a517ab9f2116",
+      "preparation_metadata_path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/results/complementarity_001/preparation_27103.json",
+      "personal_control_path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/results/complementarity_001/individual_controls/s27103_identity",
+      "canonical_initial_path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/results/complementarity_001/s27103_split1_additive/initial.pt"
+    },
+    {
+      "seed": 27104,
+      "config_count": 15,
+      "initial_sha256": [
+        "edcc373d8a4db4c8576ff3646e852000769b7f5e9ca1db35fec4e05a95bd4ea0"
+      ],
+      "trainable_initial_sha256": [
+        "8b3384961164dcd991843fd9acb98872ecce8de69e0a58ab2407a01624cc4e0c"
+      ],
+      "receiver_initial_sha256": [
+        "7ed4b8c8c2bdf5c0d6103f7c291cd78af98a1eba7a7346e4115a1974c2889126"
+      ],
+      "prepared_path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/results/complementarity_001/prepared_27104.pt",
+      "prepared_sha256": "e30754048eb94fec27f9bb05618f74a116dfc4b3aa7893e15d4de1e250e45ce8",
+      "preparation_metadata_path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/results/complementarity_001/preparation_27104.json",
+      "personal_control_path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/results/complementarity_001/individual_controls/s27104_identity",
+      "canonical_initial_path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/results/complementarity_001/s27104_split1_additive/initial.pt"
+    }
+  ],
+  "no_weights_deserialized": true,
+  "new_model_calls": 0,
+  "new_training_updates": 0,
+  "no_new_seed_selected": true,
+  "preferred_loss_definition": {
+    "policy_loss": "-mean(lp * stop_gradient((R - 1) - value))",
+    "combined_role_loss": "alpha * policy_loss + 0.5*MSE(value,R-1) - beta*mean(entropy)",
+    "role_aggregation": "unchanged mean of this person's sender and receiver roles",
+    "receiver_lp": "unchanged sum of both action log probabilities",
+    "alpha_scope": "the same alpha applies separately to each person's sender and receiver policy term only",
+    "alpha_one_implementation": "literal old combined loss branch, with no added multiply when alpha==1"
+  },
+  "rng_contract": {
+    "social_model_person_seed": "seed*1000+701+who; restore after make_agents resets Torch RNG",
+    "world_seed": "seed*100000+60000000+batch_id+1",
+    "access_seed": "seed+47120000+batch_id",
+    "sender_seed": "world_seed+101+scout*1000",
+    "receiver_seed": "world_seed+102+scout*1000",
+    "intervention_seed": "eval_seed+10001+scout",
+    "checkpoint_eval_seed": "seed+69100000",
+    "final_eval_seed": "seed+69200000",
+    "policy_rng_consumption": "receiver consumes two independent draws sequentially, never reseed per query",
+    "gain_not_in_rng_identity": true,
+    "lambda_not_in_world_or_policy_rng_identity": true
+  },
+  "candidate_designs": [
+    {
+      "name": "fresh_paired_2x2",
+      "independent_pair_seeds": 4,
+      "lambda": [
+        0,
+        1
+      ],
+      "policy_gain": [
+        1,
+        3
+      ],
+      "splits": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "social_runs": 64,
+      "social_updates": 153600,
+      "social_worlds": 78643200,
+      "social_choices": 157286400,
+      "new_personal_control_runs": 4,
+      "personal_control_choices": 9830400,
+      "new_preparation_choices": 102400,
+      "status": "new seed IDs not selected; fixed budget/failure rule must precede execution"
+    },
+    {
+      "name": "old_seed_paired_extension",
+      "independent_pair_seeds": [
+        27101,
+        27102,
+        27103,
+        27104
+      ],
+      "lambda": [
+        0,
+        1
+      ],
+      "new_policy_gain": [
+        3
+      ],
+      "gain_one_reference": "32 pre-existing v0.8 additive/joint split1/2/3/full results",
+      "new_social_runs": 32,
+      "new_social_updates": 76800,
+      "new_social_worlds": 39321600,
+      "new_social_choices": 78643200,
+      "new_personal_control_runs": 0,
+      "initialization": "original prepared states plus original initial state identity; fresh optimizers, full2400 budget",
+      "status": "post-hoc extension of old four seeds; not independent new-seed confirmation"
+    }
+  ],
+  "implementation_boundaries": [
+    "Only add new study-owned runner/plan/results under research_program/policy_gain_study.",
+    "Import frozen v0.8 model/rollout/evaluation helpers from verified paths in a new process; do not mutate ROOT/SEEDS/CONDITIONS or edit original files.",
+    "Keep alpha outside the original environment plan; map new study IDs onto unchanged splitX_additive/joint/full original task plans.",
+    "Do not call original top-level main or controls CLI for the new grid, since these encode60-run seeds/conditions/gates.",
+    "Do not use trained personal diagnostic heads/encoders or social final weights to initialize new social branches."
+  ],
+  "equivalence_scope": [
+    "Source/loss algebra atalpha1 is necessary but alone does not prove a complete new stochastic replay.",
+    "Future validation should compare old frozen and new gain1 loss, gradients, Adam state updates on identical tensors, and a separately budgeted fixed replay to a saved checkpoint.",
+    "Only a complete same-runtime same-seed same-input replay can support exact full-run behavioral identity; partial sentinels must state their scope.",
+    "If old32 references are reused, label them archived original alpha1 baselines rather than newly executed gain1 runs."
+  ],
+  "interpretation": [
+    "Alpha scales policy advantages relative to unscaled entropy/value losses and changes total gradient clipping; Adam means it is not a parameter-step multiplier.",
+    "Value target/coefficient remain fixed, but actual predictions and training trajectories may change through behavior and shared local encoders.",
+    "The2x2 evaluates reward-shape by policy-gain interaction; it does not isolate reward sparsity or distinguish exploration, credit assignment, and optimization mechanisms.",
+    "Old photos and4seeds remain an exploratory system. All within-seed splits/conditions/directions/checkpoints are repeated measurements."
+  ]
+}

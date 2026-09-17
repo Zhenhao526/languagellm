@@ -1,0 +1,5199 @@
+{
+  "applicability": "Uniform Cartesian needs x layout x ownership; each silent actor observes only own need plus independent public background and actor identity; randomness independent of current private needs.",
+  "at": "2026-09-16T03:22:37.404496+00:00",
+  "bounds": {
+    "full": {
+      "active_full_numerators": [
+        1156,
+        1156,
+        1156
+      ],
+      "active_partner_numerators": [
+        1792,
+        1792,
+        1792
+      ],
+      "executed_pair_correct_upper": "1/2",
+      "full_success_upper": "289/896",
+      "layout_checks": [
+        {
+          "active_full_numerators": [
+            1156,
+            1156,
+            1156
+          ],
+          "active_partner_numerators": [
+            1792,
+            1792,
+            1792
+          ],
+          "layout": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "proposal_role_numerators": [
+            1984,
+            1984,
+            1984
+          ]
+        },
+        {
+          "active_full_numerators": [
+            1156,
+            1156,
+            1156
+          ],
+          "active_partner_numerators": [
+            1792,
+            1792,
+            1792
+          ],
+          "layout": [
+            0,
+            1,
+            3,
+            2
+          ],
+          "proposal_role_numerators": [
+            1984,
+            1984,
+            1984
+          ]
+        },
+        {
+          "active_full_numerators": [
+            1156,
+            1156,
+            1156
+          ],
+          "active_partner_numerators": [
+            1792,
+            1792,
+            1792
+          ],
+          "layout": [
+            0,
+            2,
+            1,
+            3
+          ],
+          "proposal_role_numerators": [
+            1984,
+            1984,
+            1984
+          ]
+        },
+        {
+          "active_full_numerators": [
+            1156,
+            1156,
+            1156
+          ],
+          "active_partner_numerators": [
+            1792,
+            1792,
+            1792
+          ],
+          "layout": [
+            0,
+            2,
+            3,
+            1
+          ],
+          "proposal_role_numerators": [
+            1984,
+            1984,
+            1984
+          ]
+        },
+        {
+          "active_full_numerators": [
+            1156,
+            1156,
+            1156
+          ],
+          "active_partner_numerators": [
+            1792,
+            1792,
+            1792
+          ],
+          "layout": [
+            0,
+            3,
+            1,
+            2
+          ],
+          "proposal_role_numerators": [
+            1984,
+            1984,
+            1984
+          ]
+        },
+        {
+          "active_full_numerators": [
+            1156,
+            1156,
+            1156
+          ],
+          "active_partner_numerators": [
+            1792,
+            1792,
+            1792
+          ],
+          "layout": [
+            0,
+            3,
+            2,
+            1
+          ],
+          "proposal_role_numerators": [
+            1984,
+            1984,
+            1984
+          ]
+        },
+        {
+          "active_full_numerators": [
+            1156,
+            1156,
+            1156
+          ],
+          "active_partner_numerators": [
+            1792,
+            1792,
+            1792
+          ],
+          "layout": [
+            1,
+            0,
+            2,
+            3
+          ],
+          "proposal_role_numerators": [
+            1984,
+            1984,
+            1984
+          ]
+        },
+        {
+          "active_full_numerators": [
+            1156,
+            1156,
+            1156
+          ],
+          "active_partner_numerators": [
+            1792,
+            1792,
+            1792
+          ],
+          "layout": [
+            1,
+            0,
+            3,
+            2
+          ],
+          "proposal_role_numerators": [
+            1984,
+            1984,
+            1984
+          ]
+        },
+        {
+          "active_full_numerators": [
+            1156,
+            1156,
+            1156
+          ],
+          "active_partner_numerators": [
+            1792,
+            1792,
+            1792
+          ],
+          "layout": [
+            1,
+            2,
+            0,
+            3
+          ],
+          "proposal_role_numerators": [
+            1984,
+            1984,
+            1984
+          ]
+        },
+        {
+          "active_full_numerators": [
+            1156,
+            1156,
+            1156
+          ],
+          "active_partner_numerators": [
+            1792,
+            1792,
+            1792
+          ],
+          "layout": [
+            1,
+            2,
+            3,
+            0
+          ],
+          "proposal_role_numerators": [
+            1984,
+            1984,
+            1984
+          ]
+        },
+        {
+          "active_full_numerators": [
+            1156,
+            1156,
+            1156
+          ],
+          "active_partner_numerators": [
+            1792,
+            1792,
+            1792
+          ],
+          "layout": [
+            1,
+            3,
+            0,
+            2
+          ],
+          "proposal_role_numerators": [
+            1984,
+            1984,
+            1984
+          ]
+        },
+        {
+          "active_full_numerators": [
+            1156,
+            1156,
+            1156
+          ],
+          "active_partner_numerators": [
+            1792,
+            1792,
+            1792
+          ],
+          "layout": [
+            1,
+            3,
+            2,
+            0
+          ],
+          "proposal_role_numerators": [
+            1984,
+            1984,
+            1984
+          ]
+        },
+        {
+          "active_full_numerators": [
+            1156,
+            1156,
+            1156
+          ],
+          "active_partner_numerators": [
+            1792,
+            1792,
+            1792
+          ],
+          "layout": [
+            2,
+            0,
+            1,
+            3
+          ],
+          "proposal_role_numerators": [
+            1984,
+            1984,
+            1984
+          ]
+        },
+        {
+          "active_full_numerators": [
+            1156,
+            1156,
+            1156
+          ],
+          "active_partner_numerators": [
+            1792,
+            1792,
+            1792
+          ],
+          "layout": [
+            2,
+            0,
+            3,
+            1
+          ],
+          "proposal_role_numerators": [
+            1984,
+            1984,
+            1984
+          ]
+        },
+        {
+          "active_full_numerators": [
+            1156,
+            1156,
+            1156
+          ],
+          "active_partner_numerators": [
+            1792,
+            1792,
+            1792
+          ],
+          "layout": [
+            2,
+            1,
+            0,
+            3
+          ],
+          "proposal_role_numerators": [
+            1984,
+            1984,
+            1984
+          ]
+        },
+        {
+          "active_full_numerators": [
+            1156,
+            1156,
+            1156
+          ],
+          "active_partner_numerators": [
+            1792,
+            1792,
+            1792
+          ],
+          "layout": [
+            2,
+            1,
+            3,
+            0
+          ],
+          "proposal_role_numerators": [
+            1984,
+            1984,
+            1984
+          ]
+        },
+        {
+          "active_full_numerators": [
+            1156,
+            1156,
+            1156
+          ],
+          "active_partner_numerators": [
+            1792,
+            1792,
+            1792
+          ],
+          "layout": [
+            2,
+            3,
+            0,
+            1
+          ],
+          "proposal_role_numerators": [
+            1984,
+            1984,
+            1984
+          ]
+        },
+        {
+          "active_full_numerators": [
+            1156,
+            1156,
+            1156
+          ],
+          "active_partner_numerators": [
+            1792,
+            1792,
+            1792
+          ],
+          "layout": [
+            2,
+            3,
+            1,
+            0
+          ],
+          "proposal_role_numerators": [
+            1984,
+            1984,
+            1984
+          ]
+        },
+        {
+          "active_full_numerators": [
+            1156,
+            1156,
+            1156
+          ],
+          "active_partner_numerators": [
+            1792,
+            1792,
+            1792
+          ],
+          "layout": [
+            3,
+            0,
+            1,
+            2
+          ],
+          "proposal_role_numerators": [
+            1984,
+            1984,
+            1984
+          ]
+        },
+        {
+          "active_full_numerators": [
+            1156,
+            1156,
+            1156
+          ],
+          "active_partner_numerators": [
+            1792,
+            1792,
+            1792
+          ],
+          "layout": [
+            3,
+            0,
+            2,
+            1
+          ],
+          "proposal_role_numerators": [
+            1984,
+            1984,
+            1984
+          ]
+        },
+        {
+          "active_full_numerators": [
+            1156,
+            1156,
+            1156
+          ],
+          "active_partner_numerators": [
+            1792,
+            1792,
+            1792
+          ],
+          "layout": [
+            3,
+            1,
+            0,
+            2
+          ],
+          "proposal_role_numerators": [
+            1984,
+            1984,
+            1984
+          ]
+        },
+        {
+          "active_full_numerators": [
+            1156,
+            1156,
+            1156
+          ],
+          "active_partner_numerators": [
+            1792,
+            1792,
+            1792
+          ],
+          "layout": [
+            3,
+            1,
+            2,
+            0
+          ],
+          "proposal_role_numerators": [
+            1984,
+            1984,
+            1984
+          ]
+        },
+        {
+          "active_full_numerators": [
+            1156,
+            1156,
+            1156
+          ],
+          "active_partner_numerators": [
+            1792,
+            1792,
+            1792
+          ],
+          "layout": [
+            3,
+            2,
+            0,
+            1
+          ],
+          "proposal_role_numerators": [
+            1984,
+            1984,
+            1984
+          ]
+        },
+        {
+          "active_full_numerators": [
+            1156,
+            1156,
+            1156
+          ],
+          "active_partner_numerators": [
+            1792,
+            1792,
+            1792
+          ],
+          "layout": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "proposal_role_numerators": [
+            1984,
+            1984,
+            1984
+          ]
+        }
+      ],
+      "local_count_tables": [
+        {
+          "actor": 0,
+          "by_own_need": [
+            {
+              "active_partner_counts": {
+                "1": 80,
+                "2": 80
+              },
+              "full_action_counts": {
+                "1": 40,
+                "2": 40,
+                "5": 40,
+                "6": 40
+              },
+              "max_full_count": 40,
+              "max_partner_count": 80,
+              "own_need": 0
+            },
+            {
+              "active_partner_counts": {
+                "1": 80,
+                "2": 80
+              },
+              "full_action_counts": {
+                "3": 40,
+                "4": 40,
+                "7": 40,
+                "8": 40
+              },
+              "max_full_count": 40,
+              "max_partner_count": 80,
+              "own_need": 1
+            },
+            {
+              "active_partner_counts": {
+                "1": 56,
+                "2": 56
+              },
+              "full_action_counts": {
+                "1": 14,
+                "2": 14,
+                "3": 14,
+                "4": 14,
+                "5": 14,
+                "6": 14,
+                "7": 14,
+                "8": 14
+              },
+              "max_full_count": 14,
+              "max_partner_count": 56,
+              "own_need": 2
+            },
+            {
+              "active_partner_counts": {
+                "1": 80,
+                "2": 80
+              },
+              "full_action_counts": {
+                "10": 40,
+                "13": 40,
+                "14": 40,
+                "9": 40
+              },
+              "max_full_count": 40,
+              "max_partner_count": 80,
+              "own_need": 3
+            },
+            {
+              "active_partner_counts": {
+                "1": 80,
+                "2": 80
+              },
+              "full_action_counts": {
+                "11": 40,
+                "12": 40,
+                "15": 40,
+                "16": 40
+              },
+              "max_full_count": 40,
+              "max_partner_count": 80,
+              "own_need": 4
+            },
+            {
+              "active_partner_counts": {
+                "1": 56,
+                "2": 56
+              },
+              "full_action_counts": {
+                "10": 14,
+                "11": 14,
+                "12": 14,
+                "13": 14,
+                "14": 14,
+                "15": 14,
+                "16": 14,
+                "9": 14
+              },
+              "max_full_count": 14,
+              "max_partner_count": 56,
+              "own_need": 5
+            },
+            {
+              "active_partner_counts": {
+                "1": 80,
+                "2": 80
+              },
+              "full_action_counts": {
+                "1": 40,
+                "10": 40,
+                "2": 40,
+                "9": 40
+              },
+              "max_full_count": 40,
+              "max_partner_count": 80,
+              "own_need": 6
+            },
+            {
+              "active_partner_counts": {
+                "1": 80,
+                "2": 80
+              },
+              "full_action_counts": {
+                "11": 40,
+                "12": 40,
+                "3": 40,
+                "4": 40
+              },
+              "max_full_count": 40,
+              "max_partner_count": 80,
+              "own_need": 7
+            },
+            {
+              "active_partner_counts": {
+                "1": 56,
+                "2": 56
+              },
+              "full_action_counts": {
+                "1": 14,
+                "10": 14,
+                "11": 14,
+                "12": 14,
+                "2": 14,
+                "3": 14,
+                "4": 14,
+                "9": 14
+              },
+              "max_full_count": 14,
+              "max_partner_count": 56,
+              "own_need": 8
+            },
+            {
+              "active_partner_counts": {
+                "1": 80,
+                "2": 80
+              },
+              "full_action_counts": {
+                "13": 40,
+                "14": 40,
+                "5": 40,
+                "6": 40
+              },
+              "max_full_count": 40,
+              "max_partner_count": 80,
+              "own_need": 9
+            },
+            {
+              "active_partner_counts": {
+                "1": 80,
+                "2": 80
+              },
+              "full_action_counts": {
+                "15": 40,
+                "16": 40,
+                "7": 40,
+                "8": 40
+              },
+              "max_full_count": 40,
+              "max_partner_count": 80,
+              "own_need": 10
+            },
+            {
+              "active_partner_counts": {
+                "1": 56,
+                "2": 56
+              },
+              "full_action_counts": {
+                "13": 14,
+                "14": 14,
+                "15": 14,
+                "16": 14,
+                "5": 14,
+                "6": 14,
+                "7": 14,
+                "8": 14
+              },
+              "max_full_count": 14,
+              "max_partner_count": 56,
+              "own_need": 11
+            },
+            {
+              "active_partner_counts": {
+                "1": 79,
+                "2": 79
+              },
+              "full_action_counts": {
+                "1": 79,
+                "2": 79
+              },
+              "max_full_count": 79,
+              "max_partner_count": 79,
+              "own_need": 12
+            },
+            {
+              "active_partner_counts": {
+                "1": 79,
+                "2": 79
+              },
+              "full_action_counts": {
+                "3": 79,
+                "4": 79
+              },
+              "max_full_count": 79,
+              "max_partner_count": 79,
+              "own_need": 13
+            },
+            {
+              "active_partner_counts": {
+                "1": 74,
+                "2": 74
+              },
+              "full_action_counts": {
+                "1": 37,
+                "2": 37,
+                "3": 37,
+                "4": 37
+              },
+              "max_full_count": 37,
+              "max_partner_count": 74,
+              "own_need": 14
+            },
+            {
+              "active_partner_counts": {
+                "1": 79,
+                "2": 79
+              },
+              "full_action_counts": {
+                "5": 79,
+                "6": 79
+              },
+              "max_full_count": 79,
+              "max_partner_count": 79,
+              "own_need": 15
+            },
+            {
+              "active_partner_counts": {
+                "1": 79,
+                "2": 79
+              },
+              "full_action_counts": {
+                "7": 79,
+                "8": 79
+              },
+              "max_full_count": 79,
+              "max_partner_count": 79,
+              "own_need": 16
+            },
+            {
+              "active_partner_counts": {
+                "1": 74,
+                "2": 74
+              },
+              "full_action_counts": {
+                "5": 37,
+                "6": 37,
+                "7": 37,
+                "8": 37
+              },
+              "max_full_count": 37,
+              "max_partner_count": 74,
+              "own_need": 17
+            },
+            {
+              "active_partner_counts": {
+                "1": 79,
+                "2": 79
+              },
+              "full_action_counts": {
+                "10": 79,
+                "9": 79
+              },
+              "max_full_count": 79,
+              "max_partner_count": 79,
+              "own_need": 18
+            },
+            {
+              "active_partner_counts": {
+                "1": 79,
+                "2": 79
+              },
+              "full_action_counts": {
+                "11": 79,
+                "12": 79
+              },
+              "max_full_count": 79,
+              "max_partner_count": 79,
+              "own_need": 19
+            },
+            {
+              "active_partner_counts": {
+                "1": 74,
+                "2": 74
+              },
+              "full_action_counts": {
+                "10": 37,
+                "11": 37,
+                "12": 37,
+                "9": 37
+              },
+              "max_full_count": 37,
+              "max_partner_count": 74,
+              "own_need": 20
+            },
+            {
+              "active_partner_counts": {
+                "1": 79,
+                "2": 79
+              },
+              "full_action_counts": {
+                "13": 79,
+                "14": 79
+              },
+              "max_full_count": 79,
+              "max_partner_count": 79,
+              "own_need": 21
+            },
+            {
+              "active_partner_counts": {
+                "1": 79,
+                "2": 79
+              },
+              "full_action_counts": {
+                "15": 79,
+                "16": 79
+              },
+              "max_full_count": 79,
+              "max_partner_count": 79,
+              "own_need": 22
+            },
+            {
+              "active_partner_counts": {
+                "1": 74,
+                "2": 74
+              },
+              "full_action_counts": {
+                "13": 37,
+                "14": 37,
+                "15": 37,
+                "16": 37
+              },
+              "max_full_count": 37,
+              "max_partner_count": 74,
+              "own_need": 23
+            }
+          ]
+        },
+        {
+          "actor": 1,
+          "by_own_need": [
+            {
+              "active_partner_counts": {
+                "0": 80,
+                "2": 80
+              },
+              "full_action_counts": {
+                "1": 40,
+                "2": 40,
+                "5": 40,
+                "6": 40
+              },
+              "max_full_count": 40,
+              "max_partner_count": 80,
+              "own_need": 0
+            },
+            {
+              "active_partner_counts": {
+                "0": 80,
+                "2": 80
+              },
+              "full_action_counts": {
+                "3": 40,
+                "4": 40,
+                "7": 40,
+                "8": 40
+              },
+              "max_full_count": 40,
+              "max_partner_count": 80,
+              "own_need": 1
+            },
+            {
+              "active_partner_counts": {
+                "0": 56,
+                "2": 56
+              },
+              "full_action_counts": {
+                "1": 14,
+                "2": 14,
+                "3": 14,
+                "4": 14,
+                "5": 14,
+                "6": 14,
+                "7": 14,
+                "8": 14
+              },
+              "max_full_count": 14,
+              "max_partner_count": 56,
+              "own_need": 2
+            },
+            {
+              "active_partner_counts": {
+                "0": 80,
+                "2": 80
+              },
+              "full_action_counts": {
+                "10": 40,
+                "13": 40,
+                "14": 40,
+                "9": 40
+              },
+              "max_full_count": 40,
+              "max_partner_count": 80,
+              "own_need": 3
+            },
+            {
+              "active_partner_counts": {
+                "0": 80,
+                "2": 80
+              },
+              "full_action_counts": {
+                "11": 40,
+                "12": 40,
+                "15": 40,
+                "16": 40
+              },
+              "max_full_count": 40,
+              "max_partner_count": 80,
+              "own_need": 4
+            },
+            {
+              "active_partner_counts": {
+                "0": 56,
+                "2": 56
+              },
+              "full_action_counts": {
+                "10": 14,
+                "11": 14,
+                "12": 14,
+                "13": 14,
+                "14": 14,
+                "15": 14,
+                "16": 14,
+                "9": 14
+              },
+              "max_full_count": 14,
+              "max_partner_count": 56,
+              "own_need": 5
+            },
+            {
+              "active_partner_counts": {
+                "0": 80,
+                "2": 80
+              },
+              "full_action_counts": {
+                "1": 40,
+                "10": 40,
+                "2": 40,
+                "9": 40
+              },
+              "max_full_count": 40,
+              "max_partner_count": 80,
+              "own_need": 6
+            },
+            {
+              "active_partner_counts": {
+                "0": 80,
+                "2": 80
+              },
+              "full_action_counts": {
+                "11": 40,
+                "12": 40,
+                "3": 40,
+                "4": 40
+              },
+              "max_full_count": 40,
+              "max_partner_count": 80,
+              "own_need": 7
+            },
+            {
+              "active_partner_counts": {
+                "0": 56,
+                "2": 56
+              },
+              "full_action_counts": {
+                "1": 14,
+                "10": 14,
+                "11": 14,
+                "12": 14,
+                "2": 14,
+                "3": 14,
+                "4": 14,
+                "9": 14
+              },
+              "max_full_count": 14,
+              "max_partner_count": 56,
+              "own_need": 8
+            },
+            {
+              "active_partner_counts": {
+                "0": 80,
+                "2": 80
+              },
+              "full_action_counts": {
+                "13": 40,
+                "14": 40,
+                "5": 40,
+                "6": 40
+              },
+              "max_full_count": 40,
+              "max_partner_count": 80,
+              "own_need": 9
+            },
+            {
+              "active_partner_counts": {
+                "0": 80,
+                "2": 80
+              },
+              "full_action_counts": {
+                "15": 40,
+                "16": 40,
+                "7": 40,
+                "8": 40
+              },
+              "max_full_count": 40,
+              "max_partner_count": 80,
+              "own_need": 10
+            },
+            {
+              "active_partner_counts": {
+                "0": 56,
+                "2": 56
+              },
+              "full_action_counts": {
+                "13": 14,
+                "14": 14,
+                "15": 14,
+                "16": 14,
+                "5": 14,
+                "6": 14,
+                "7": 14,
+                "8": 14
+              },
+              "max_full_count": 14,
+              "max_partner_count": 56,
+              "own_need": 11
+            },
+            {
+              "active_partner_counts": {
+                "0": 79,
+                "2": 79
+              },
+              "full_action_counts": {
+                "1": 79,
+                "2": 79
+              },
+              "max_full_count": 79,
+              "max_partner_count": 79,
+              "own_need": 12
+            },
+            {
+              "active_partner_counts": {
+                "0": 79,
+                "2": 79
+              },
+              "full_action_counts": {
+                "3": 79,
+                "4": 79
+              },
+              "max_full_count": 79,
+              "max_partner_count": 79,
+              "own_need": 13
+            },
+            {
+              "active_partner_counts": {
+                "0": 74,
+                "2": 74
+              },
+              "full_action_counts": {
+                "1": 37,
+                "2": 37,
+                "3": 37,
+                "4": 37
+              },
+              "max_full_count": 37,
+              "max_partner_count": 74,
+              "own_need": 14
+            },
+            {
+              "active_partner_counts": {
+                "0": 79,
+                "2": 79
+              },
+              "full_action_counts": {
+                "5": 79,
+                "6": 79
+              },
+              "max_full_count": 79,
+              "max_partner_count": 79,
+              "own_need": 15
+            },
+            {
+              "active_partner_counts": {
+                "0": 79,
+                "2": 79
+              },
+              "full_action_counts": {
+                "7": 79,
+                "8": 79
+              },
+              "max_full_count": 79,
+              "max_partner_count": 79,
+              "own_need": 16
+            },
+            {
+              "active_partner_counts": {
+                "0": 74,
+                "2": 74
+              },
+              "full_action_counts": {
+                "5": 37,
+                "6": 37,
+                "7": 37,
+                "8": 37
+              },
+              "max_full_count": 37,
+              "max_partner_count": 74,
+              "own_need": 17
+            },
+            {
+              "active_partner_counts": {
+                "0": 79,
+                "2": 79
+              },
+              "full_action_counts": {
+                "10": 79,
+                "9": 79
+              },
+              "max_full_count": 79,
+              "max_partner_count": 79,
+              "own_need": 18
+            },
+            {
+              "active_partner_counts": {
+                "0": 79,
+                "2": 79
+              },
+              "full_action_counts": {
+                "11": 79,
+                "12": 79
+              },
+              "max_full_count": 79,
+              "max_partner_count": 79,
+              "own_need": 19
+            },
+            {
+              "active_partner_counts": {
+                "0": 74,
+                "2": 74
+              },
+              "full_action_counts": {
+                "10": 37,
+                "11": 37,
+                "12": 37,
+                "9": 37
+              },
+              "max_full_count": 37,
+              "max_partner_count": 74,
+              "own_need": 20
+            },
+            {
+              "active_partner_counts": {
+                "0": 79,
+                "2": 79
+              },
+              "full_action_counts": {
+                "13": 79,
+                "14": 79
+              },
+              "max_full_count": 79,
+              "max_partner_count": 79,
+              "own_need": 21
+            },
+            {
+              "active_partner_counts": {
+                "0": 79,
+                "2": 79
+              },
+              "full_action_counts": {
+                "15": 79,
+                "16": 79
+              },
+              "max_full_count": 79,
+              "max_partner_count": 79,
+              "own_need": 22
+            },
+            {
+              "active_partner_counts": {
+                "0": 74,
+                "2": 74
+              },
+              "full_action_counts": {
+                "13": 37,
+                "14": 37,
+                "15": 37,
+                "16": 37
+              },
+              "max_full_count": 37,
+              "max_partner_count": 74,
+              "own_need": 23
+            }
+          ]
+        },
+        {
+          "actor": 2,
+          "by_own_need": [
+            {
+              "active_partner_counts": {
+                "0": 80,
+                "1": 80
+              },
+              "full_action_counts": {
+                "1": 40,
+                "2": 40,
+                "5": 40,
+                "6": 40
+              },
+              "max_full_count": 40,
+              "max_partner_count": 80,
+              "own_need": 0
+            },
+            {
+              "active_partner_counts": {
+                "0": 80,
+                "1": 80
+              },
+              "full_action_counts": {
+                "3": 40,
+                "4": 40,
+                "7": 40,
+                "8": 40
+              },
+              "max_full_count": 40,
+              "max_partner_count": 80,
+              "own_need": 1
+            },
+            {
+              "active_partner_counts": {
+                "0": 56,
+                "1": 56
+              },
+              "full_action_counts": {
+                "1": 14,
+                "2": 14,
+                "3": 14,
+                "4": 14,
+                "5": 14,
+                "6": 14,
+                "7": 14,
+                "8": 14
+              },
+              "max_full_count": 14,
+              "max_partner_count": 56,
+              "own_need": 2
+            },
+            {
+              "active_partner_counts": {
+                "0": 80,
+                "1": 80
+              },
+              "full_action_counts": {
+                "10": 40,
+                "13": 40,
+                "14": 40,
+                "9": 40
+              },
+              "max_full_count": 40,
+              "max_partner_count": 80,
+              "own_need": 3
+            },
+            {
+              "active_partner_counts": {
+                "0": 80,
+                "1": 80
+              },
+              "full_action_counts": {
+                "11": 40,
+                "12": 40,
+                "15": 40,
+                "16": 40
+              },
+              "max_full_count": 40,
+              "max_partner_count": 80,
+              "own_need": 4
+            },
+            {
+              "active_partner_counts": {
+                "0": 56,
+                "1": 56
+              },
+              "full_action_counts": {
+                "10": 14,
+                "11": 14,
+                "12": 14,
+                "13": 14,
+                "14": 14,
+                "15": 14,
+                "16": 14,
+                "9": 14
+              },
+              "max_full_count": 14,
+              "max_partner_count": 56,
+              "own_need": 5
+            },
+            {
+              "active_partner_counts": {
+                "0": 80,
+                "1": 80
+              },
+              "full_action_counts": {
+                "1": 40,
+                "10": 40,
+                "2": 40,
+                "9": 40
+              },
+              "max_full_count": 40,
+              "max_partner_count": 80,
+              "own_need": 6
+            },
+            {
+              "active_partner_counts": {
+                "0": 80,
+                "1": 80
+              },
+              "full_action_counts": {
+                "11": 40,
+                "12": 40,
+                "3": 40,
+                "4": 40
+              },
+              "max_full_count": 40,
+              "max_partner_count": 80,
+              "own_need": 7
+            },
+            {
+              "active_partner_counts": {
+                "0": 56,
+                "1": 56
+              },
+              "full_action_counts": {
+                "1": 14,
+                "10": 14,
+                "11": 14,
+                "12": 14,
+                "2": 14,
+                "3": 14,
+                "4": 14,
+                "9": 14
+              },
+              "max_full_count": 14,
+              "max_partner_count": 56,
+              "own_need": 8
+            },
+            {
+              "active_partner_counts": {
+                "0": 80,
+                "1": 80
+              },
+              "full_action_counts": {
+                "13": 40,
+                "14": 40,
+                "5": 40,
+                "6": 40
+              },
+              "max_full_count": 40,
+              "max_partner_count": 80,
+              "own_need": 9
+            },
+            {
+              "active_partner_counts": {
+                "0": 80,
+                "1": 80
+              },
+              "full_action_counts": {
+                "15": 40,
+                "16": 40,
+                "7": 40,
+                "8": 40
+              },
+              "max_full_count": 40,
+              "max_partner_count": 80,
+              "own_need": 10
+            },
+            {
+              "active_partner_counts": {
+                "0": 56,
+                "1": 56
+              },
+              "full_action_counts": {
+                "13": 14,
+                "14": 14,
+                "15": 14,
+                "16": 14,
+                "5": 14,
+                "6": 14,
+                "7": 14,
+                "8": 14
+              },
+              "max_full_count": 14,
+              "max_partner_count": 56,
+              "own_need": 11
+            },
+            {
+              "active_partner_counts": {
+                "0": 79,
+                "1": 79
+              },
+              "full_action_counts": {
+                "1": 79,
+                "2": 79
+              },
+              "max_full_count": 79,
+              "max_partner_count": 79,
+              "own_need": 12
+            },
+            {
+              "active_partner_counts": {
+                "0": 79,
+                "1": 79
+              },
+              "full_action_counts": {
+                "3": 79,
+                "4": 79
+              },
+              "max_full_count": 79,
+              "max_partner_count": 79,
+              "own_need": 13
+            },
+            {
+              "active_partner_counts": {
+                "0": 74,
+                "1": 74
+              },
+              "full_action_counts": {
+                "1": 37,
+                "2": 37,
+                "3": 37,
+                "4": 37
+              },
+              "max_full_count": 37,
+              "max_partner_count": 74,
+              "own_need": 14
+            },
+            {
+              "active_partner_counts": {
+                "0": 79,
+                "1": 79
+              },
+              "full_action_counts": {
+                "5": 79,
+                "6": 79
+              },
+              "max_full_count": 79,
+              "max_partner_count": 79,
+              "own_need": 15
+            },
+            {
+              "active_partner_counts": {
+                "0": 79,
+                "1": 79
+              },
+              "full_action_counts": {
+                "7": 79,
+                "8": 79
+              },
+              "max_full_count": 79,
+              "max_partner_count": 79,
+              "own_need": 16
+            },
+            {
+              "active_partner_counts": {
+                "0": 74,
+                "1": 74
+              },
+              "full_action_counts": {
+                "5": 37,
+                "6": 37,
+                "7": 37,
+                "8": 37
+              },
+              "max_full_count": 37,
+              "max_partner_count": 74,
+              "own_need": 17
+            },
+            {
+              "active_partner_counts": {
+                "0": 79,
+                "1": 79
+              },
+              "full_action_counts": {
+                "10": 79,
+                "9": 79
+              },
+              "max_full_count": 79,
+              "max_partner_count": 79,
+              "own_need": 18
+            },
+            {
+              "active_partner_counts": {
+                "0": 79,
+                "1": 79
+              },
+              "full_action_counts": {
+                "11": 79,
+                "12": 79
+              },
+              "max_full_count": 79,
+              "max_partner_count": 79,
+              "own_need": 19
+            },
+            {
+              "active_partner_counts": {
+                "0": 74,
+                "1": 74
+              },
+              "full_action_counts": {
+                "10": 37,
+                "11": 37,
+                "12": 37,
+                "9": 37
+              },
+              "max_full_count": 37,
+              "max_partner_count": 74,
+              "own_need": 20
+            },
+            {
+              "active_partner_counts": {
+                "0": 79,
+                "1": 79
+              },
+              "full_action_counts": {
+                "13": 79,
+                "14": 79
+              },
+              "max_full_count": 79,
+              "max_partner_count": 79,
+              "own_need": 21
+            },
+            {
+              "active_partner_counts": {
+                "0": 79,
+                "1": 79
+              },
+              "full_action_counts": {
+                "15": 79,
+                "16": 79
+              },
+              "max_full_count": 79,
+              "max_partner_count": 79,
+              "own_need": 22
+            },
+            {
+              "active_partner_counts": {
+                "0": 74,
+                "1": 74
+              },
+              "full_action_counts": {
+                "13": 37,
+                "14": 37,
+                "15": 37,
+                "16": 37
+              },
+              "max_full_count": 37,
+              "max_partner_count": 74,
+              "own_need": 23
+            }
+          ]
+        }
+      ],
+      "need_count": 5376,
+      "old_all_proposal_roles_correct_upper": "31/84",
+      "proposal_role_numerators": [
+        1984,
+        1984,
+        1984
+      ],
+      "truth_pair_counts": {
+        "AB": 1792,
+        "AC": 1792,
+        "BC": 1792
+      }
+    },
+    "heldout": {
+      "active_full_numerators": [
+        304,
+        304,
+        304
+      ],
+      "active_partner_numerators": [
+        496,
+        496,
+        496
+      ],
+      "executed_pair_correct_upper": "1/2",
+      "full_success_upper": "19/62",
+      "layout_checks": [
+        {
+          "active_full_numerators": [
+            304,
+            304,
+            304
+          ],
+          "active_partner_numerators": [
+            496,
+            496,
+            496
+          ],
+          "layout": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "proposal_role_numerators": [
+            552,
+            552,
+            552
+          ]
+        },
+        {
+          "active_full_numerators": [
+            304,
+            304,
+            304
+          ],
+          "active_partner_numerators": [
+            496,
+            496,
+            496
+          ],
+          "layout": [
+            0,
+            1,
+            3,
+            2
+          ],
+          "proposal_role_numerators": [
+            552,
+            552,
+            552
+          ]
+        },
+        {
+          "active_full_numerators": [
+            304,
+            304,
+            304
+          ],
+          "active_partner_numerators": [
+            496,
+            496,
+            496
+          ],
+          "layout": [
+            0,
+            2,
+            1,
+            3
+          ],
+          "proposal_role_numerators": [
+            552,
+            552,
+            552
+          ]
+        },
+        {
+          "active_full_numerators": [
+            304,
+            304,
+            304
+          ],
+          "active_partner_numerators": [
+            496,
+            496,
+            496
+          ],
+          "layout": [
+            0,
+            2,
+            3,
+            1
+          ],
+          "proposal_role_numerators": [
+            552,
+            552,
+            552
+          ]
+        },
+        {
+          "active_full_numerators": [
+            304,
+            304,
+            304
+          ],
+          "active_partner_numerators": [
+            496,
+            496,
+            496
+          ],
+          "layout": [
+            0,
+            3,
+            1,
+            2
+          ],
+          "proposal_role_numerators": [
+            552,
+            552,
+            552
+          ]
+        },
+        {
+          "active_full_numerators": [
+            304,
+            304,
+            304
+          ],
+          "active_partner_numerators": [
+            496,
+            496,
+            496
+          ],
+          "layout": [
+            0,
+            3,
+            2,
+            1
+          ],
+          "proposal_role_numerators": [
+            552,
+            552,
+            552
+          ]
+        },
+        {
+          "active_full_numerators": [
+            304,
+            304,
+            304
+          ],
+          "active_partner_numerators": [
+            496,
+            496,
+            496
+          ],
+          "layout": [
+            1,
+            0,
+            2,
+            3
+          ],
+          "proposal_role_numerators": [
+            552,
+            552,
+            552
+          ]
+        },
+        {
+          "active_full_numerators": [
+            304,
+            304,
+            304
+          ],
+          "active_partner_numerators": [
+            496,
+            496,
+            496
+          ],
+          "layout": [
+            1,
+            0,
+            3,
+            2
+          ],
+          "proposal_role_numerators": [
+            552,
+            552,
+            552
+          ]
+        },
+        {
+          "active_full_numerators": [
+            304,
+            304,
+            304
+          ],
+          "active_partner_numerators": [
+            496,
+            496,
+            496
+          ],
+          "layout": [
+            1,
+            2,
+            0,
+            3
+          ],
+          "proposal_role_numerators": [
+            552,
+            552,
+            552
+          ]
+        },
+        {
+          "active_full_numerators": [
+            304,
+            304,
+            304
+          ],
+          "active_partner_numerators": [
+            496,
+            496,
+            496
+          ],
+          "layout": [
+            1,
+            2,
+            3,
+            0
+          ],
+          "proposal_role_numerators": [
+            552,
+            552,
+            552
+          ]
+        },
+        {
+          "active_full_numerators": [
+            304,
+            304,
+            304
+          ],
+          "active_partner_numerators": [
+            496,
+            496,
+            496
+          ],
+          "layout": [
+            1,
+            3,
+            0,
+            2
+          ],
+          "proposal_role_numerators": [
+            552,
+            552,
+            552
+          ]
+        },
+        {
+          "active_full_numerators": [
+            304,
+            304,
+            304
+          ],
+          "active_partner_numerators": [
+            496,
+            496,
+            496
+          ],
+          "layout": [
+            1,
+            3,
+            2,
+            0
+          ],
+          "proposal_role_numerators": [
+            552,
+            552,
+            552
+          ]
+        },
+        {
+          "active_full_numerators": [
+            304,
+            304,
+            304
+          ],
+          "active_partner_numerators": [
+            496,
+            496,
+            496
+          ],
+          "layout": [
+            2,
+            0,
+            1,
+            3
+          ],
+          "proposal_role_numerators": [
+            552,
+            552,
+            552
+          ]
+        },
+        {
+          "active_full_numerators": [
+            304,
+            304,
+            304
+          ],
+          "active_partner_numerators": [
+            496,
+            496,
+            496
+          ],
+          "layout": [
+            2,
+            0,
+            3,
+            1
+          ],
+          "proposal_role_numerators": [
+            552,
+            552,
+            552
+          ]
+        },
+        {
+          "active_full_numerators": [
+            304,
+            304,
+            304
+          ],
+          "active_partner_numerators": [
+            496,
+            496,
+            496
+          ],
+          "layout": [
+            2,
+            1,
+            0,
+            3
+          ],
+          "proposal_role_numerators": [
+            552,
+            552,
+            552
+          ]
+        },
+        {
+          "active_full_numerators": [
+            304,
+            304,
+            304
+          ],
+          "active_partner_numerators": [
+            496,
+            496,
+            496
+          ],
+          "layout": [
+            2,
+            1,
+            3,
+            0
+          ],
+          "proposal_role_numerators": [
+            552,
+            552,
+            552
+          ]
+        },
+        {
+          "active_full_numerators": [
+            304,
+            304,
+            304
+          ],
+          "active_partner_numerators": [
+            496,
+            496,
+            496
+          ],
+          "layout": [
+            2,
+            3,
+            0,
+            1
+          ],
+          "proposal_role_numerators": [
+            552,
+            552,
+            552
+          ]
+        },
+        {
+          "active_full_numerators": [
+            304,
+            304,
+            304
+          ],
+          "active_partner_numerators": [
+            496,
+            496,
+            496
+          ],
+          "layout": [
+            2,
+            3,
+            1,
+            0
+          ],
+          "proposal_role_numerators": [
+            552,
+            552,
+            552
+          ]
+        },
+        {
+          "active_full_numerators": [
+            304,
+            304,
+            304
+          ],
+          "active_partner_numerators": [
+            496,
+            496,
+            496
+          ],
+          "layout": [
+            3,
+            0,
+            1,
+            2
+          ],
+          "proposal_role_numerators": [
+            552,
+            552,
+            552
+          ]
+        },
+        {
+          "active_full_numerators": [
+            304,
+            304,
+            304
+          ],
+          "active_partner_numerators": [
+            496,
+            496,
+            496
+          ],
+          "layout": [
+            3,
+            0,
+            2,
+            1
+          ],
+          "proposal_role_numerators": [
+            552,
+            552,
+            552
+          ]
+        },
+        {
+          "active_full_numerators": [
+            304,
+            304,
+            304
+          ],
+          "active_partner_numerators": [
+            496,
+            496,
+            496
+          ],
+          "layout": [
+            3,
+            1,
+            0,
+            2
+          ],
+          "proposal_role_numerators": [
+            552,
+            552,
+            552
+          ]
+        },
+        {
+          "active_full_numerators": [
+            304,
+            304,
+            304
+          ],
+          "active_partner_numerators": [
+            496,
+            496,
+            496
+          ],
+          "layout": [
+            3,
+            1,
+            2,
+            0
+          ],
+          "proposal_role_numerators": [
+            552,
+            552,
+            552
+          ]
+        },
+        {
+          "active_full_numerators": [
+            304,
+            304,
+            304
+          ],
+          "active_partner_numerators": [
+            496,
+            496,
+            496
+          ],
+          "layout": [
+            3,
+            2,
+            0,
+            1
+          ],
+          "proposal_role_numerators": [
+            552,
+            552,
+            552
+          ]
+        },
+        {
+          "active_full_numerators": [
+            304,
+            304,
+            304
+          ],
+          "active_partner_numerators": [
+            496,
+            496,
+            496
+          ],
+          "layout": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "proposal_role_numerators": [
+            552,
+            552,
+            552
+          ]
+        }
+      ],
+      "local_count_tables": [
+        {
+          "actor": 0,
+          "by_own_need": [
+            {
+              "active_partner_counts": {
+                "1": 22,
+                "2": 22
+              },
+              "full_action_counts": {
+                "1": 11,
+                "2": 11,
+                "5": 11,
+                "6": 11
+              },
+              "max_full_count": 11,
+              "max_partner_count": 22,
+              "own_need": 0
+            },
+            {
+              "active_partner_counts": {
+                "1": 22,
+                "2": 22
+              },
+              "full_action_counts": {
+                "3": 11,
+                "4": 11,
+                "7": 11,
+                "8": 11
+              },
+              "max_full_count": 11,
+              "max_partner_count": 22,
+              "own_need": 1
+            },
+            {
+              "active_partner_counts": {
+                "1": 16,
+                "2": 16
+              },
+              "full_action_counts": {
+                "1": 4,
+                "2": 4,
+                "3": 4,
+                "4": 4,
+                "5": 4,
+                "6": 4,
+                "7": 4,
+                "8": 4
+              },
+              "max_full_count": 4,
+              "max_partner_count": 16,
+              "own_need": 2
+            },
+            {
+              "active_partner_counts": {
+                "1": 22,
+                "2": 22
+              },
+              "full_action_counts": {
+                "10": 11,
+                "13": 11,
+                "14": 11,
+                "9": 11
+              },
+              "max_full_count": 11,
+              "max_partner_count": 22,
+              "own_need": 3
+            },
+            {
+              "active_partner_counts": {
+                "1": 22,
+                "2": 22
+              },
+              "full_action_counts": {
+                "11": 11,
+                "12": 11,
+                "15": 11,
+                "16": 11
+              },
+              "max_full_count": 11,
+              "max_partner_count": 22,
+              "own_need": 4
+            },
+            {
+              "active_partner_counts": {
+                "1": 16,
+                "2": 16
+              },
+              "full_action_counts": {
+                "10": 4,
+                "11": 4,
+                "12": 4,
+                "13": 4,
+                "14": 4,
+                "15": 4,
+                "16": 4,
+                "9": 4
+              },
+              "max_full_count": 4,
+              "max_partner_count": 16,
+              "own_need": 5
+            },
+            {
+              "active_partner_counts": {
+                "1": 22,
+                "2": 22
+              },
+              "full_action_counts": {
+                "1": 11,
+                "10": 11,
+                "2": 11,
+                "9": 11
+              },
+              "max_full_count": 11,
+              "max_partner_count": 22,
+              "own_need": 6
+            },
+            {
+              "active_partner_counts": {
+                "1": 22,
+                "2": 22
+              },
+              "full_action_counts": {
+                "11": 11,
+                "12": 11,
+                "3": 11,
+                "4": 11
+              },
+              "max_full_count": 11,
+              "max_partner_count": 22,
+              "own_need": 7
+            },
+            {
+              "active_partner_counts": {
+                "1": 16,
+                "2": 16
+              },
+              "full_action_counts": {
+                "1": 4,
+                "10": 4,
+                "11": 4,
+                "12": 4,
+                "2": 4,
+                "3": 4,
+                "4": 4,
+                "9": 4
+              },
+              "max_full_count": 4,
+              "max_partner_count": 16,
+              "own_need": 8
+            },
+            {
+              "active_partner_counts": {
+                "1": 22,
+                "2": 22
+              },
+              "full_action_counts": {
+                "13": 11,
+                "14": 11,
+                "5": 11,
+                "6": 11
+              },
+              "max_full_count": 11,
+              "max_partner_count": 22,
+              "own_need": 9
+            },
+            {
+              "active_partner_counts": {
+                "1": 22,
+                "2": 22
+              },
+              "full_action_counts": {
+                "15": 11,
+                "16": 11,
+                "7": 11,
+                "8": 11
+              },
+              "max_full_count": 11,
+              "max_partner_count": 22,
+              "own_need": 10
+            },
+            {
+              "active_partner_counts": {
+                "1": 16,
+                "2": 16
+              },
+              "full_action_counts": {
+                "13": 4,
+                "14": 4,
+                "15": 4,
+                "16": 4,
+                "5": 4,
+                "6": 4,
+                "7": 4,
+                "8": 4
+              },
+              "max_full_count": 4,
+              "max_partner_count": 16,
+              "own_need": 11
+            },
+            {
+              "active_partner_counts": {
+                "1": 18,
+                "2": 18
+              },
+              "full_action_counts": {
+                "1": 18,
+                "2": 18
+              },
+              "max_full_count": 18,
+              "max_partner_count": 18,
+              "own_need": 12
+            },
+            {
+              "active_partner_counts": {
+                "1": 18,
+                "2": 18
+              },
+              "full_action_counts": {
+                "3": 18,
+                "4": 18
+              },
+              "max_full_count": 18,
+              "max_partner_count": 18,
+              "own_need": 13
+            },
+            {
+              "active_partner_counts": {
+                "1": 28,
+                "2": 28
+              },
+              "full_action_counts": {
+                "1": 14,
+                "2": 14,
+                "3": 14,
+                "4": 14
+              },
+              "max_full_count": 14,
+              "max_partner_count": 28,
+              "own_need": 14
+            },
+            {
+              "active_partner_counts": {
+                "1": 18,
+                "2": 18
+              },
+              "full_action_counts": {
+                "5": 18,
+                "6": 18
+              },
+              "max_full_count": 18,
+              "max_partner_count": 18,
+              "own_need": 15
+            },
+            {
+              "active_partner_counts": {
+                "1": 18,
+                "2": 18
+              },
+              "full_action_counts": {
+                "7": 18,
+                "8": 18
+              },
+              "max_full_count": 18,
+              "max_partner_count": 18,
+              "own_need": 16
+            },
+            {
+              "active_partner_counts": {
+                "1": 28,
+                "2": 28
+              },
+              "full_action_counts": {
+                "5": 14,
+                "6": 14,
+                "7": 14,
+                "8": 14
+              },
+              "max_full_count": 14,
+              "max_partner_count": 28,
+              "own_need": 17
+            },
+            {
+              "active_partner_counts": {
+                "1": 18,
+                "2": 18
+              },
+              "full_action_counts": {
+                "10": 18,
+                "9": 18
+              },
+              "max_full_count": 18,
+              "max_partner_count": 18,
+              "own_need": 18
+            },
+            {
+              "active_partner_counts": {
+                "1": 18,
+                "2": 18
+              },
+              "full_action_counts": {
+                "11": 18,
+                "12": 18
+              },
+              "max_full_count": 18,
+              "max_partner_count": 18,
+              "own_need": 19
+            },
+            {
+              "active_partner_counts": {
+                "1": 28,
+                "2": 28
+              },
+              "full_action_counts": {
+                "10": 14,
+                "11": 14,
+                "12": 14,
+                "9": 14
+              },
+              "max_full_count": 14,
+              "max_partner_count": 28,
+              "own_need": 20
+            },
+            {
+              "active_partner_counts": {
+                "1": 18,
+                "2": 18
+              },
+              "full_action_counts": {
+                "13": 18,
+                "14": 18
+              },
+              "max_full_count": 18,
+              "max_partner_count": 18,
+              "own_need": 21
+            },
+            {
+              "active_partner_counts": {
+                "1": 18,
+                "2": 18
+              },
+              "full_action_counts": {
+                "15": 18,
+                "16": 18
+              },
+              "max_full_count": 18,
+              "max_partner_count": 18,
+              "own_need": 22
+            },
+            {
+              "active_partner_counts": {
+                "1": 28,
+                "2": 28
+              },
+              "full_action_counts": {
+                "13": 14,
+                "14": 14,
+                "15": 14,
+                "16": 14
+              },
+              "max_full_count": 14,
+              "max_partner_count": 28,
+              "own_need": 23
+            }
+          ]
+        },
+        {
+          "actor": 1,
+          "by_own_need": [
+            {
+              "active_partner_counts": {
+                "0": 22,
+                "2": 22
+              },
+              "full_action_counts": {
+                "1": 11,
+                "2": 11,
+                "5": 11,
+                "6": 11
+              },
+              "max_full_count": 11,
+              "max_partner_count": 22,
+              "own_need": 0
+            },
+            {
+              "active_partner_counts": {
+                "0": 22,
+                "2": 22
+              },
+              "full_action_counts": {
+                "3": 11,
+                "4": 11,
+                "7": 11,
+                "8": 11
+              },
+              "max_full_count": 11,
+              "max_partner_count": 22,
+              "own_need": 1
+            },
+            {
+              "active_partner_counts": {
+                "0": 16,
+                "2": 16
+              },
+              "full_action_counts": {
+                "1": 4,
+                "2": 4,
+                "3": 4,
+                "4": 4,
+                "5": 4,
+                "6": 4,
+                "7": 4,
+                "8": 4
+              },
+              "max_full_count": 4,
+              "max_partner_count": 16,
+              "own_need": 2
+            },
+            {
+              "active_partner_counts": {
+                "0": 22,
+                "2": 22
+              },
+              "full_action_counts": {
+                "10": 11,
+                "13": 11,
+                "14": 11,
+                "9": 11
+              },
+              "max_full_count": 11,
+              "max_partner_count": 22,
+              "own_need": 3
+            },
+            {
+              "active_partner_counts": {
+                "0": 22,
+                "2": 22
+              },
+              "full_action_counts": {
+                "11": 11,
+                "12": 11,
+                "15": 11,
+                "16": 11
+              },
+              "max_full_count": 11,
+              "max_partner_count": 22,
+              "own_need": 4
+            },
+            {
+              "active_partner_counts": {
+                "0": 16,
+                "2": 16
+              },
+              "full_action_counts": {
+                "10": 4,
+                "11": 4,
+                "12": 4,
+                "13": 4,
+                "14": 4,
+                "15": 4,
+                "16": 4,
+                "9": 4
+              },
+              "max_full_count": 4,
+              "max_partner_count": 16,
+              "own_need": 5
+            },
+            {
+              "active_partner_counts": {
+                "0": 22,
+                "2": 22
+              },
+              "full_action_counts": {
+                "1": 11,
+                "10": 11,
+                "2": 11,
+                "9": 11
+              },
+              "max_full_count": 11,
+              "max_partner_count": 22,
+              "own_need": 6
+            },
+            {
+              "active_partner_counts": {
+                "0": 22,
+                "2": 22
+              },
+              "full_action_counts": {
+                "11": 11,
+                "12": 11,
+                "3": 11,
+                "4": 11
+              },
+              "max_full_count": 11,
+              "max_partner_count": 22,
+              "own_need": 7
+            },
+            {
+              "active_partner_counts": {
+                "0": 16,
+                "2": 16
+              },
+              "full_action_counts": {
+                "1": 4,
+                "10": 4,
+                "11": 4,
+                "12": 4,
+                "2": 4,
+                "3": 4,
+                "4": 4,
+                "9": 4
+              },
+              "max_full_count": 4,
+              "max_partner_count": 16,
+              "own_need": 8
+            },
+            {
+              "active_partner_counts": {
+                "0": 22,
+                "2": 22
+              },
+              "full_action_counts": {
+                "13": 11,
+                "14": 11,
+                "5": 11,
+                "6": 11
+              },
+              "max_full_count": 11,
+              "max_partner_count": 22,
+              "own_need": 9
+            },
+            {
+              "active_partner_counts": {
+                "0": 22,
+                "2": 22
+              },
+              "full_action_counts": {
+                "15": 11,
+                "16": 11,
+                "7": 11,
+                "8": 11
+              },
+              "max_full_count": 11,
+              "max_partner_count": 22,
+              "own_need": 10
+            },
+            {
+              "active_partner_counts": {
+                "0": 16,
+                "2": 16
+              },
+              "full_action_counts": {
+                "13": 4,
+                "14": 4,
+                "15": 4,
+                "16": 4,
+                "5": 4,
+                "6": 4,
+                "7": 4,
+                "8": 4
+              },
+              "max_full_count": 4,
+              "max_partner_count": 16,
+              "own_need": 11
+            },
+            {
+              "active_partner_counts": {
+                "0": 18,
+                "2": 18
+              },
+              "full_action_counts": {
+                "1": 18,
+                "2": 18
+              },
+              "max_full_count": 18,
+              "max_partner_count": 18,
+              "own_need": 12
+            },
+            {
+              "active_partner_counts": {
+                "0": 18,
+                "2": 18
+              },
+              "full_action_counts": {
+                "3": 18,
+                "4": 18
+              },
+              "max_full_count": 18,
+              "max_partner_count": 18,
+              "own_need": 13
+            },
+            {
+              "active_partner_counts": {
+                "0": 28,
+                "2": 28
+              },
+              "full_action_counts": {
+                "1": 14,
+                "2": 14,
+                "3": 14,
+                "4": 14
+              },
+              "max_full_count": 14,
+              "max_partner_count": 28,
+              "own_need": 14
+            },
+            {
+              "active_partner_counts": {
+                "0": 18,
+                "2": 18
+              },
+              "full_action_counts": {
+                "5": 18,
+                "6": 18
+              },
+              "max_full_count": 18,
+              "max_partner_count": 18,
+              "own_need": 15
+            },
+            {
+              "active_partner_counts": {
+                "0": 18,
+                "2": 18
+              },
+              "full_action_counts": {
+                "7": 18,
+                "8": 18
+              },
+              "max_full_count": 18,
+              "max_partner_count": 18,
+              "own_need": 16
+            },
+            {
+              "active_partner_counts": {
+                "0": 28,
+                "2": 28
+              },
+              "full_action_counts": {
+                "5": 14,
+                "6": 14,
+                "7": 14,
+                "8": 14
+              },
+              "max_full_count": 14,
+              "max_partner_count": 28,
+              "own_need": 17
+            },
+            {
+              "active_partner_counts": {
+                "0": 18,
+                "2": 18
+              },
+              "full_action_counts": {
+                "10": 18,
+                "9": 18
+              },
+              "max_full_count": 18,
+              "max_partner_count": 18,
+              "own_need": 18
+            },
+            {
+              "active_partner_counts": {
+                "0": 18,
+                "2": 18
+              },
+              "full_action_counts": {
+                "11": 18,
+                "12": 18
+              },
+              "max_full_count": 18,
+              "max_partner_count": 18,
+              "own_need": 19
+            },
+            {
+              "active_partner_counts": {
+                "0": 28,
+                "2": 28
+              },
+              "full_action_counts": {
+                "10": 14,
+                "11": 14,
+                "12": 14,
+                "9": 14
+              },
+              "max_full_count": 14,
+              "max_partner_count": 28,
+              "own_need": 20
+            },
+            {
+              "active_partner_counts": {
+                "0": 18,
+                "2": 18
+              },
+              "full_action_counts": {
+                "13": 18,
+                "14": 18
+              },
+              "max_full_count": 18,
+              "max_partner_count": 18,
+              "own_need": 21
+            },
+            {
+              "active_partner_counts": {
+                "0": 18,
+                "2": 18
+              },
+              "full_action_counts": {
+                "15": 18,
+                "16": 18
+              },
+              "max_full_count": 18,
+              "max_partner_count": 18,
+              "own_need": 22
+            },
+            {
+              "active_partner_counts": {
+                "0": 28,
+                "2": 28
+              },
+              "full_action_counts": {
+                "13": 14,
+                "14": 14,
+                "15": 14,
+                "16": 14
+              },
+              "max_full_count": 14,
+              "max_partner_count": 28,
+              "own_need": 23
+            }
+          ]
+        },
+        {
+          "actor": 2,
+          "by_own_need": [
+            {
+              "active_partner_counts": {
+                "0": 22,
+                "1": 22
+              },
+              "full_action_counts": {
+                "1": 11,
+                "2": 11,
+                "5": 11,
+                "6": 11
+              },
+              "max_full_count": 11,
+              "max_partner_count": 22,
+              "own_need": 0
+            },
+            {
+              "active_partner_counts": {
+                "0": 22,
+                "1": 22
+              },
+              "full_action_counts": {
+                "3": 11,
+                "4": 11,
+                "7": 11,
+                "8": 11
+              },
+              "max_full_count": 11,
+              "max_partner_count": 22,
+              "own_need": 1
+            },
+            {
+              "active_partner_counts": {
+                "0": 16,
+                "1": 16
+              },
+              "full_action_counts": {
+                "1": 4,
+                "2": 4,
+                "3": 4,
+                "4": 4,
+                "5": 4,
+                "6": 4,
+                "7": 4,
+                "8": 4
+              },
+              "max_full_count": 4,
+              "max_partner_count": 16,
+              "own_need": 2
+            },
+            {
+              "active_partner_counts": {
+                "0": 22,
+                "1": 22
+              },
+              "full_action_counts": {
+                "10": 11,
+                "13": 11,
+                "14": 11,
+                "9": 11
+              },
+              "max_full_count": 11,
+              "max_partner_count": 22,
+              "own_need": 3
+            },
+            {
+              "active_partner_counts": {
+                "0": 22,
+                "1": 22
+              },
+              "full_action_counts": {
+                "11": 11,
+                "12": 11,
+                "15": 11,
+                "16": 11
+              },
+              "max_full_count": 11,
+              "max_partner_count": 22,
+              "own_need": 4
+            },
+            {
+              "active_partner_counts": {
+                "0": 16,
+                "1": 16
+              },
+              "full_action_counts": {
+                "10": 4,
+                "11": 4,
+                "12": 4,
+                "13": 4,
+                "14": 4,
+                "15": 4,
+                "16": 4,
+                "9": 4
+              },
+              "max_full_count": 4,
+              "max_partner_count": 16,
+              "own_need": 5
+            },
+            {
+              "active_partner_counts": {
+                "0": 22,
+                "1": 22
+              },
+              "full_action_counts": {
+                "1": 11,
+                "10": 11,
+                "2": 11,
+                "9": 11
+              },
+              "max_full_count": 11,
+              "max_partner_count": 22,
+              "own_need": 6
+            },
+            {
+              "active_partner_counts": {
+                "0": 22,
+                "1": 22
+              },
+              "full_action_counts": {
+                "11": 11,
+                "12": 11,
+                "3": 11,
+                "4": 11
+              },
+              "max_full_count": 11,
+              "max_partner_count": 22,
+              "own_need": 7
+            },
+            {
+              "active_partner_counts": {
+                "0": 16,
+                "1": 16
+              },
+              "full_action_counts": {
+                "1": 4,
+                "10": 4,
+                "11": 4,
+                "12": 4,
+                "2": 4,
+                "3": 4,
+                "4": 4,
+                "9": 4
+              },
+              "max_full_count": 4,
+              "max_partner_count": 16,
+              "own_need": 8
+            },
+            {
+              "active_partner_counts": {
+                "0": 22,
+                "1": 22
+              },
+              "full_action_counts": {
+                "13": 11,
+                "14": 11,
+                "5": 11,
+                "6": 11
+              },
+              "max_full_count": 11,
+              "max_partner_count": 22,
+              "own_need": 9
+            },
+            {
+              "active_partner_counts": {
+                "0": 22,
+                "1": 22
+              },
+              "full_action_counts": {
+                "15": 11,
+                "16": 11,
+                "7": 11,
+                "8": 11
+              },
+              "max_full_count": 11,
+              "max_partner_count": 22,
+              "own_need": 10
+            },
+            {
+              "active_partner_counts": {
+                "0": 16,
+                "1": 16
+              },
+              "full_action_counts": {
+                "13": 4,
+                "14": 4,
+                "15": 4,
+                "16": 4,
+                "5": 4,
+                "6": 4,
+                "7": 4,
+                "8": 4
+              },
+              "max_full_count": 4,
+              "max_partner_count": 16,
+              "own_need": 11
+            },
+            {
+              "active_partner_counts": {
+                "0": 18,
+                "1": 18
+              },
+              "full_action_counts": {
+                "1": 18,
+                "2": 18
+              },
+              "max_full_count": 18,
+              "max_partner_count": 18,
+              "own_need": 12
+            },
+            {
+              "active_partner_counts": {
+                "0": 18,
+                "1": 18
+              },
+              "full_action_counts": {
+                "3": 18,
+                "4": 18
+              },
+              "max_full_count": 18,
+              "max_partner_count": 18,
+              "own_need": 13
+            },
+            {
+              "active_partner_counts": {
+                "0": 28,
+                "1": 28
+              },
+              "full_action_counts": {
+                "1": 14,
+                "2": 14,
+                "3": 14,
+                "4": 14
+              },
+              "max_full_count": 14,
+              "max_partner_count": 28,
+              "own_need": 14
+            },
+            {
+              "active_partner_counts": {
+                "0": 18,
+                "1": 18
+              },
+              "full_action_counts": {
+                "5": 18,
+                "6": 18
+              },
+              "max_full_count": 18,
+              "max_partner_count": 18,
+              "own_need": 15
+            },
+            {
+              "active_partner_counts": {
+                "0": 18,
+                "1": 18
+              },
+              "full_action_counts": {
+                "7": 18,
+                "8": 18
+              },
+              "max_full_count": 18,
+              "max_partner_count": 18,
+              "own_need": 16
+            },
+            {
+              "active_partner_counts": {
+                "0": 28,
+                "1": 28
+              },
+              "full_action_counts": {
+                "5": 14,
+                "6": 14,
+                "7": 14,
+                "8": 14
+              },
+              "max_full_count": 14,
+              "max_partner_count": 28,
+              "own_need": 17
+            },
+            {
+              "active_partner_counts": {
+                "0": 18,
+                "1": 18
+              },
+              "full_action_counts": {
+                "10": 18,
+                "9": 18
+              },
+              "max_full_count": 18,
+              "max_partner_count": 18,
+              "own_need": 18
+            },
+            {
+              "active_partner_counts": {
+                "0": 18,
+                "1": 18
+              },
+              "full_action_counts": {
+                "11": 18,
+                "12": 18
+              },
+              "max_full_count": 18,
+              "max_partner_count": 18,
+              "own_need": 19
+            },
+            {
+              "active_partner_counts": {
+                "0": 28,
+                "1": 28
+              },
+              "full_action_counts": {
+                "10": 14,
+                "11": 14,
+                "12": 14,
+                "9": 14
+              },
+              "max_full_count": 14,
+              "max_partner_count": 28,
+              "own_need": 20
+            },
+            {
+              "active_partner_counts": {
+                "0": 18,
+                "1": 18
+              },
+              "full_action_counts": {
+                "13": 18,
+                "14": 18
+              },
+              "max_full_count": 18,
+              "max_partner_count": 18,
+              "own_need": 21
+            },
+            {
+              "active_partner_counts": {
+                "0": 18,
+                "1": 18
+              },
+              "full_action_counts": {
+                "15": 18,
+                "16": 18
+              },
+              "max_full_count": 18,
+              "max_partner_count": 18,
+              "own_need": 22
+            },
+            {
+              "active_partner_counts": {
+                "0": 28,
+                "1": 28
+              },
+              "full_action_counts": {
+                "13": 14,
+                "14": 14,
+                "15": 14,
+                "16": 14
+              },
+              "max_full_count": 14,
+              "max_partner_count": 28,
+              "own_need": 23
+            }
+          ]
+        }
+      ],
+      "need_count": 1488,
+      "old_all_proposal_roles_correct_upper": "23/62",
+      "proposal_role_numerators": [
+        552,
+        552,
+        552
+      ],
+      "truth_pair_counts": {
+        "AB": 496,
+        "AC": 496,
+        "BC": 496
+      }
+    },
+    "train": {
+      "active_full_numerators": [
+        852,
+        852,
+        852
+      ],
+      "active_partner_numerators": [
+        1296,
+        1296,
+        1296
+      ],
+      "executed_pair_correct_upper": "1/2",
+      "full_success_upper": "71/216",
+      "layout_checks": [
+        {
+          "active_full_numerators": [
+            852,
+            852,
+            852
+          ],
+          "active_partner_numerators": [
+            1296,
+            1296,
+            1296
+          ],
+          "layout": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "proposal_role_numerators": [
+            1480,
+            1480,
+            1480
+          ]
+        },
+        {
+          "active_full_numerators": [
+            852,
+            852,
+            852
+          ],
+          "active_partner_numerators": [
+            1296,
+            1296,
+            1296
+          ],
+          "layout": [
+            0,
+            1,
+            3,
+            2
+          ],
+          "proposal_role_numerators": [
+            1480,
+            1480,
+            1480
+          ]
+        },
+        {
+          "active_full_numerators": [
+            852,
+            852,
+            852
+          ],
+          "active_partner_numerators": [
+            1296,
+            1296,
+            1296
+          ],
+          "layout": [
+            0,
+            2,
+            1,
+            3
+          ],
+          "proposal_role_numerators": [
+            1480,
+            1480,
+            1480
+          ]
+        },
+        {
+          "active_full_numerators": [
+            852,
+            852,
+            852
+          ],
+          "active_partner_numerators": [
+            1296,
+            1296,
+            1296
+          ],
+          "layout": [
+            0,
+            2,
+            3,
+            1
+          ],
+          "proposal_role_numerators": [
+            1480,
+            1480,
+            1480
+          ]
+        },
+        {
+          "active_full_numerators": [
+            852,
+            852,
+            852
+          ],
+          "active_partner_numerators": [
+            1296,
+            1296,
+            1296
+          ],
+          "layout": [
+            0,
+            3,
+            1,
+            2
+          ],
+          "proposal_role_numerators": [
+            1480,
+            1480,
+            1480
+          ]
+        },
+        {
+          "active_full_numerators": [
+            852,
+            852,
+            852
+          ],
+          "active_partner_numerators": [
+            1296,
+            1296,
+            1296
+          ],
+          "layout": [
+            0,
+            3,
+            2,
+            1
+          ],
+          "proposal_role_numerators": [
+            1480,
+            1480,
+            1480
+          ]
+        },
+        {
+          "active_full_numerators": [
+            852,
+            852,
+            852
+          ],
+          "active_partner_numerators": [
+            1296,
+            1296,
+            1296
+          ],
+          "layout": [
+            1,
+            0,
+            2,
+            3
+          ],
+          "proposal_role_numerators": [
+            1480,
+            1480,
+            1480
+          ]
+        },
+        {
+          "active_full_numerators": [
+            852,
+            852,
+            852
+          ],
+          "active_partner_numerators": [
+            1296,
+            1296,
+            1296
+          ],
+          "layout": [
+            1,
+            0,
+            3,
+            2
+          ],
+          "proposal_role_numerators": [
+            1480,
+            1480,
+            1480
+          ]
+        },
+        {
+          "active_full_numerators": [
+            852,
+            852,
+            852
+          ],
+          "active_partner_numerators": [
+            1296,
+            1296,
+            1296
+          ],
+          "layout": [
+            1,
+            2,
+            0,
+            3
+          ],
+          "proposal_role_numerators": [
+            1480,
+            1480,
+            1480
+          ]
+        },
+        {
+          "active_full_numerators": [
+            852,
+            852,
+            852
+          ],
+          "active_partner_numerators": [
+            1296,
+            1296,
+            1296
+          ],
+          "layout": [
+            1,
+            2,
+            3,
+            0
+          ],
+          "proposal_role_numerators": [
+            1480,
+            1480,
+            1480
+          ]
+        },
+        {
+          "active_full_numerators": [
+            852,
+            852,
+            852
+          ],
+          "active_partner_numerators": [
+            1296,
+            1296,
+            1296
+          ],
+          "layout": [
+            1,
+            3,
+            0,
+            2
+          ],
+          "proposal_role_numerators": [
+            1480,
+            1480,
+            1480
+          ]
+        },
+        {
+          "active_full_numerators": [
+            852,
+            852,
+            852
+          ],
+          "active_partner_numerators": [
+            1296,
+            1296,
+            1296
+          ],
+          "layout": [
+            1,
+            3,
+            2,
+            0
+          ],
+          "proposal_role_numerators": [
+            1480,
+            1480,
+            1480
+          ]
+        },
+        {
+          "active_full_numerators": [
+            852,
+            852,
+            852
+          ],
+          "active_partner_numerators": [
+            1296,
+            1296,
+            1296
+          ],
+          "layout": [
+            2,
+            0,
+            1,
+            3
+          ],
+          "proposal_role_numerators": [
+            1480,
+            1480,
+            1480
+          ]
+        },
+        {
+          "active_full_numerators": [
+            852,
+            852,
+            852
+          ],
+          "active_partner_numerators": [
+            1296,
+            1296,
+            1296
+          ],
+          "layout": [
+            2,
+            0,
+            3,
+            1
+          ],
+          "proposal_role_numerators": [
+            1480,
+            1480,
+            1480
+          ]
+        },
+        {
+          "active_full_numerators": [
+            852,
+            852,
+            852
+          ],
+          "active_partner_numerators": [
+            1296,
+            1296,
+            1296
+          ],
+          "layout": [
+            2,
+            1,
+            0,
+            3
+          ],
+          "proposal_role_numerators": [
+            1480,
+            1480,
+            1480
+          ]
+        },
+        {
+          "active_full_numerators": [
+            852,
+            852,
+            852
+          ],
+          "active_partner_numerators": [
+            1296,
+            1296,
+            1296
+          ],
+          "layout": [
+            2,
+            1,
+            3,
+            0
+          ],
+          "proposal_role_numerators": [
+            1480,
+            1480,
+            1480
+          ]
+        },
+        {
+          "active_full_numerators": [
+            852,
+            852,
+            852
+          ],
+          "active_partner_numerators": [
+            1296,
+            1296,
+            1296
+          ],
+          "layout": [
+            2,
+            3,
+            0,
+            1
+          ],
+          "proposal_role_numerators": [
+            1480,
+            1480,
+            1480
+          ]
+        },
+        {
+          "active_full_numerators": [
+            852,
+            852,
+            852
+          ],
+          "active_partner_numerators": [
+            1296,
+            1296,
+            1296
+          ],
+          "layout": [
+            2,
+            3,
+            1,
+            0
+          ],
+          "proposal_role_numerators": [
+            1480,
+            1480,
+            1480
+          ]
+        },
+        {
+          "active_full_numerators": [
+            852,
+            852,
+            852
+          ],
+          "active_partner_numerators": [
+            1296,
+            1296,
+            1296
+          ],
+          "layout": [
+            3,
+            0,
+            1,
+            2
+          ],
+          "proposal_role_numerators": [
+            1480,
+            1480,
+            1480
+          ]
+        },
+        {
+          "active_full_numerators": [
+            852,
+            852,
+            852
+          ],
+          "active_partner_numerators": [
+            1296,
+            1296,
+            1296
+          ],
+          "layout": [
+            3,
+            0,
+            2,
+            1
+          ],
+          "proposal_role_numerators": [
+            1480,
+            1480,
+            1480
+          ]
+        },
+        {
+          "active_full_numerators": [
+            852,
+            852,
+            852
+          ],
+          "active_partner_numerators": [
+            1296,
+            1296,
+            1296
+          ],
+          "layout": [
+            3,
+            1,
+            0,
+            2
+          ],
+          "proposal_role_numerators": [
+            1480,
+            1480,
+            1480
+          ]
+        },
+        {
+          "active_full_numerators": [
+            852,
+            852,
+            852
+          ],
+          "active_partner_numerators": [
+            1296,
+            1296,
+            1296
+          ],
+          "layout": [
+            3,
+            1,
+            2,
+            0
+          ],
+          "proposal_role_numerators": [
+            1480,
+            1480,
+            1480
+          ]
+        },
+        {
+          "active_full_numerators": [
+            852,
+            852,
+            852
+          ],
+          "active_partner_numerators": [
+            1296,
+            1296,
+            1296
+          ],
+          "layout": [
+            3,
+            2,
+            0,
+            1
+          ],
+          "proposal_role_numerators": [
+            1480,
+            1480,
+            1480
+          ]
+        },
+        {
+          "active_full_numerators": [
+            852,
+            852,
+            852
+          ],
+          "active_partner_numerators": [
+            1296,
+            1296,
+            1296
+          ],
+          "layout": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "proposal_role_numerators": [
+            1480,
+            1480,
+            1480
+          ]
+        }
+      ],
+      "local_count_tables": [
+        {
+          "actor": 0,
+          "by_own_need": [
+            {
+              "active_partner_counts": {
+                "1": 58,
+                "2": 58
+              },
+              "full_action_counts": {
+                "1": 29,
+                "2": 29,
+                "5": 29,
+                "6": 29
+              },
+              "max_full_count": 29,
+              "max_partner_count": 58,
+              "own_need": 0
+            },
+            {
+              "active_partner_counts": {
+                "1": 58,
+                "2": 58
+              },
+              "full_action_counts": {
+                "3": 29,
+                "4": 29,
+                "7": 29,
+                "8": 29
+              },
+              "max_full_count": 29,
+              "max_partner_count": 58,
+              "own_need": 1
+            },
+            {
+              "active_partner_counts": {
+                "1": 40,
+                "2": 40
+              },
+              "full_action_counts": {
+                "1": 10,
+                "2": 10,
+                "3": 10,
+                "4": 10,
+                "5": 10,
+                "6": 10,
+                "7": 10,
+                "8": 10
+              },
+              "max_full_count": 10,
+              "max_partner_count": 40,
+              "own_need": 2
+            },
+            {
+              "active_partner_counts": {
+                "1": 58,
+                "2": 58
+              },
+              "full_action_counts": {
+                "10": 29,
+                "13": 29,
+                "14": 29,
+                "9": 29
+              },
+              "max_full_count": 29,
+              "max_partner_count": 58,
+              "own_need": 3
+            },
+            {
+              "active_partner_counts": {
+                "1": 58,
+                "2": 58
+              },
+              "full_action_counts": {
+                "11": 29,
+                "12": 29,
+                "15": 29,
+                "16": 29
+              },
+              "max_full_count": 29,
+              "max_partner_count": 58,
+              "own_need": 4
+            },
+            {
+              "active_partner_counts": {
+                "1": 40,
+                "2": 40
+              },
+              "full_action_counts": {
+                "10": 10,
+                "11": 10,
+                "12": 10,
+                "13": 10,
+                "14": 10,
+                "15": 10,
+                "16": 10,
+                "9": 10
+              },
+              "max_full_count": 10,
+              "max_partner_count": 40,
+              "own_need": 5
+            },
+            {
+              "active_partner_counts": {
+                "1": 58,
+                "2": 58
+              },
+              "full_action_counts": {
+                "1": 29,
+                "10": 29,
+                "2": 29,
+                "9": 29
+              },
+              "max_full_count": 29,
+              "max_partner_count": 58,
+              "own_need": 6
+            },
+            {
+              "active_partner_counts": {
+                "1": 58,
+                "2": 58
+              },
+              "full_action_counts": {
+                "11": 29,
+                "12": 29,
+                "3": 29,
+                "4": 29
+              },
+              "max_full_count": 29,
+              "max_partner_count": 58,
+              "own_need": 7
+            },
+            {
+              "active_partner_counts": {
+                "1": 40,
+                "2": 40
+              },
+              "full_action_counts": {
+                "1": 10,
+                "10": 10,
+                "11": 10,
+                "12": 10,
+                "2": 10,
+                "3": 10,
+                "4": 10,
+                "9": 10
+              },
+              "max_full_count": 10,
+              "max_partner_count": 40,
+              "own_need": 8
+            },
+            {
+              "active_partner_counts": {
+                "1": 58,
+                "2": 58
+              },
+              "full_action_counts": {
+                "13": 29,
+                "14": 29,
+                "5": 29,
+                "6": 29
+              },
+              "max_full_count": 29,
+              "max_partner_count": 58,
+              "own_need": 9
+            },
+            {
+              "active_partner_counts": {
+                "1": 58,
+                "2": 58
+              },
+              "full_action_counts": {
+                "15": 29,
+                "16": 29,
+                "7": 29,
+                "8": 29
+              },
+              "max_full_count": 29,
+              "max_partner_count": 58,
+              "own_need": 10
+            },
+            {
+              "active_partner_counts": {
+                "1": 40,
+                "2": 40
+              },
+              "full_action_counts": {
+                "13": 10,
+                "14": 10,
+                "15": 10,
+                "16": 10,
+                "5": 10,
+                "6": 10,
+                "7": 10,
+                "8": 10
+              },
+              "max_full_count": 10,
+              "max_partner_count": 40,
+              "own_need": 11
+            },
+            {
+              "active_partner_counts": {
+                "1": 61,
+                "2": 61
+              },
+              "full_action_counts": {
+                "1": 61,
+                "2": 61
+              },
+              "max_full_count": 61,
+              "max_partner_count": 61,
+              "own_need": 12
+            },
+            {
+              "active_partner_counts": {
+                "1": 61,
+                "2": 61
+              },
+              "full_action_counts": {
+                "3": 61,
+                "4": 61
+              },
+              "max_full_count": 61,
+              "max_partner_count": 61,
+              "own_need": 13
+            },
+            {
+              "active_partner_counts": {
+                "1": 46,
+                "2": 46
+              },
+              "full_action_counts": {
+                "1": 23,
+                "2": 23,
+                "3": 23,
+                "4": 23
+              },
+              "max_full_count": 23,
+              "max_partner_count": 46,
+              "own_need": 14
+            },
+            {
+              "active_partner_counts": {
+                "1": 61,
+                "2": 61
+              },
+              "full_action_counts": {
+                "5": 61,
+                "6": 61
+              },
+              "max_full_count": 61,
+              "max_partner_count": 61,
+              "own_need": 15
+            },
+            {
+              "active_partner_counts": {
+                "1": 61,
+                "2": 61
+              },
+              "full_action_counts": {
+                "7": 61,
+                "8": 61
+              },
+              "max_full_count": 61,
+              "max_partner_count": 61,
+              "own_need": 16
+            },
+            {
+              "active_partner_counts": {
+                "1": 46,
+                "2": 46
+              },
+              "full_action_counts": {
+                "5": 23,
+                "6": 23,
+                "7": 23,
+                "8": 23
+              },
+              "max_full_count": 23,
+              "max_partner_count": 46,
+              "own_need": 17
+            },
+            {
+              "active_partner_counts": {
+                "1": 61,
+                "2": 61
+              },
+              "full_action_counts": {
+                "10": 61,
+                "9": 61
+              },
+              "max_full_count": 61,
+              "max_partner_count": 61,
+              "own_need": 18
+            },
+            {
+              "active_partner_counts": {
+                "1": 61,
+                "2": 61
+              },
+              "full_action_counts": {
+                "11": 61,
+                "12": 61
+              },
+              "max_full_count": 61,
+              "max_partner_count": 61,
+              "own_need": 19
+            },
+            {
+              "active_partner_counts": {
+                "1": 46,
+                "2": 46
+              },
+              "full_action_counts": {
+                "10": 23,
+                "11": 23,
+                "12": 23,
+                "9": 23
+              },
+              "max_full_count": 23,
+              "max_partner_count": 46,
+              "own_need": 20
+            },
+            {
+              "active_partner_counts": {
+                "1": 61,
+                "2": 61
+              },
+              "full_action_counts": {
+                "13": 61,
+                "14": 61
+              },
+              "max_full_count": 61,
+              "max_partner_count": 61,
+              "own_need": 21
+            },
+            {
+              "active_partner_counts": {
+                "1": 61,
+                "2": 61
+              },
+              "full_action_counts": {
+                "15": 61,
+                "16": 61
+              },
+              "max_full_count": 61,
+              "max_partner_count": 61,
+              "own_need": 22
+            },
+            {
+              "active_partner_counts": {
+                "1": 46,
+                "2": 46
+              },
+              "full_action_counts": {
+                "13": 23,
+                "14": 23,
+                "15": 23,
+                "16": 23
+              },
+              "max_full_count": 23,
+              "max_partner_count": 46,
+              "own_need": 23
+            }
+          ]
+        },
+        {
+          "actor": 1,
+          "by_own_need": [
+            {
+              "active_partner_counts": {
+                "0": 58,
+                "2": 58
+              },
+              "full_action_counts": {
+                "1": 29,
+                "2": 29,
+                "5": 29,
+                "6": 29
+              },
+              "max_full_count": 29,
+              "max_partner_count": 58,
+              "own_need": 0
+            },
+            {
+              "active_partner_counts": {
+                "0": 58,
+                "2": 58
+              },
+              "full_action_counts": {
+                "3": 29,
+                "4": 29,
+                "7": 29,
+                "8": 29
+              },
+              "max_full_count": 29,
+              "max_partner_count": 58,
+              "own_need": 1
+            },
+            {
+              "active_partner_counts": {
+                "0": 40,
+                "2": 40
+              },
+              "full_action_counts": {
+                "1": 10,
+                "2": 10,
+                "3": 10,
+                "4": 10,
+                "5": 10,
+                "6": 10,
+                "7": 10,
+                "8": 10
+              },
+              "max_full_count": 10,
+              "max_partner_count": 40,
+              "own_need": 2
+            },
+            {
+              "active_partner_counts": {
+                "0": 58,
+                "2": 58
+              },
+              "full_action_counts": {
+                "10": 29,
+                "13": 29,
+                "14": 29,
+                "9": 29
+              },
+              "max_full_count": 29,
+              "max_partner_count": 58,
+              "own_need": 3
+            },
+            {
+              "active_partner_counts": {
+                "0": 58,
+                "2": 58
+              },
+              "full_action_counts": {
+                "11": 29,
+                "12": 29,
+                "15": 29,
+                "16": 29
+              },
+              "max_full_count": 29,
+              "max_partner_count": 58,
+              "own_need": 4
+            },
+            {
+              "active_partner_counts": {
+                "0": 40,
+                "2": 40
+              },
+              "full_action_counts": {
+                "10": 10,
+                "11": 10,
+                "12": 10,
+                "13": 10,
+                "14": 10,
+                "15": 10,
+                "16": 10,
+                "9": 10
+              },
+              "max_full_count": 10,
+              "max_partner_count": 40,
+              "own_need": 5
+            },
+            {
+              "active_partner_counts": {
+                "0": 58,
+                "2": 58
+              },
+              "full_action_counts": {
+                "1": 29,
+                "10": 29,
+                "2": 29,
+                "9": 29
+              },
+              "max_full_count": 29,
+              "max_partner_count": 58,
+              "own_need": 6
+            },
+            {
+              "active_partner_counts": {
+                "0": 58,
+                "2": 58
+              },
+              "full_action_counts": {
+                "11": 29,
+                "12": 29,
+                "3": 29,
+                "4": 29
+              },
+              "max_full_count": 29,
+              "max_partner_count": 58,
+              "own_need": 7
+            },
+            {
+              "active_partner_counts": {
+                "0": 40,
+                "2": 40
+              },
+              "full_action_counts": {
+                "1": 10,
+                "10": 10,
+                "11": 10,
+                "12": 10,
+                "2": 10,
+                "3": 10,
+                "4": 10,
+                "9": 10
+              },
+              "max_full_count": 10,
+              "max_partner_count": 40,
+              "own_need": 8
+            },
+            {
+              "active_partner_counts": {
+                "0": 58,
+                "2": 58
+              },
+              "full_action_counts": {
+                "13": 29,
+                "14": 29,
+                "5": 29,
+                "6": 29
+              },
+              "max_full_count": 29,
+              "max_partner_count": 58,
+              "own_need": 9
+            },
+            {
+              "active_partner_counts": {
+                "0": 58,
+                "2": 58
+              },
+              "full_action_counts": {
+                "15": 29,
+                "16": 29,
+                "7": 29,
+                "8": 29
+              },
+              "max_full_count": 29,
+              "max_partner_count": 58,
+              "own_need": 10
+            },
+            {
+              "active_partner_counts": {
+                "0": 40,
+                "2": 40
+              },
+              "full_action_counts": {
+                "13": 10,
+                "14": 10,
+                "15": 10,
+                "16": 10,
+                "5": 10,
+                "6": 10,
+                "7": 10,
+                "8": 10
+              },
+              "max_full_count": 10,
+              "max_partner_count": 40,
+              "own_need": 11
+            },
+            {
+              "active_partner_counts": {
+                "0": 61,
+                "2": 61
+              },
+              "full_action_counts": {
+                "1": 61,
+                "2": 61
+              },
+              "max_full_count": 61,
+              "max_partner_count": 61,
+              "own_need": 12
+            },
+            {
+              "active_partner_counts": {
+                "0": 61,
+                "2": 61
+              },
+              "full_action_counts": {
+                "3": 61,
+                "4": 61
+              },
+              "max_full_count": 61,
+              "max_partner_count": 61,
+              "own_need": 13
+            },
+            {
+              "active_partner_counts": {
+                "0": 46,
+                "2": 46
+              },
+              "full_action_counts": {
+                "1": 23,
+                "2": 23,
+                "3": 23,
+                "4": 23
+              },
+              "max_full_count": 23,
+              "max_partner_count": 46,
+              "own_need": 14
+            },
+            {
+              "active_partner_counts": {
+                "0": 61,
+                "2": 61
+              },
+              "full_action_counts": {
+                "5": 61,
+                "6": 61
+              },
+              "max_full_count": 61,
+              "max_partner_count": 61,
+              "own_need": 15
+            },
+            {
+              "active_partner_counts": {
+                "0": 61,
+                "2": 61
+              },
+              "full_action_counts": {
+                "7": 61,
+                "8": 61
+              },
+              "max_full_count": 61,
+              "max_partner_count": 61,
+              "own_need": 16
+            },
+            {
+              "active_partner_counts": {
+                "0": 46,
+                "2": 46
+              },
+              "full_action_counts": {
+                "5": 23,
+                "6": 23,
+                "7": 23,
+                "8": 23
+              },
+              "max_full_count": 23,
+              "max_partner_count": 46,
+              "own_need": 17
+            },
+            {
+              "active_partner_counts": {
+                "0": 61,
+                "2": 61
+              },
+              "full_action_counts": {
+                "10": 61,
+                "9": 61
+              },
+              "max_full_count": 61,
+              "max_partner_count": 61,
+              "own_need": 18
+            },
+            {
+              "active_partner_counts": {
+                "0": 61,
+                "2": 61
+              },
+              "full_action_counts": {
+                "11": 61,
+                "12": 61
+              },
+              "max_full_count": 61,
+              "max_partner_count": 61,
+              "own_need": 19
+            },
+            {
+              "active_partner_counts": {
+                "0": 46,
+                "2": 46
+              },
+              "full_action_counts": {
+                "10": 23,
+                "11": 23,
+                "12": 23,
+                "9": 23
+              },
+              "max_full_count": 23,
+              "max_partner_count": 46,
+              "own_need": 20
+            },
+            {
+              "active_partner_counts": {
+                "0": 61,
+                "2": 61
+              },
+              "full_action_counts": {
+                "13": 61,
+                "14": 61
+              },
+              "max_full_count": 61,
+              "max_partner_count": 61,
+              "own_need": 21
+            },
+            {
+              "active_partner_counts": {
+                "0": 61,
+                "2": 61
+              },
+              "full_action_counts": {
+                "15": 61,
+                "16": 61
+              },
+              "max_full_count": 61,
+              "max_partner_count": 61,
+              "own_need": 22
+            },
+            {
+              "active_partner_counts": {
+                "0": 46,
+                "2": 46
+              },
+              "full_action_counts": {
+                "13": 23,
+                "14": 23,
+                "15": 23,
+                "16": 23
+              },
+              "max_full_count": 23,
+              "max_partner_count": 46,
+              "own_need": 23
+            }
+          ]
+        },
+        {
+          "actor": 2,
+          "by_own_need": [
+            {
+              "active_partner_counts": {
+                "0": 58,
+                "1": 58
+              },
+              "full_action_counts": {
+                "1": 29,
+                "2": 29,
+                "5": 29,
+                "6": 29
+              },
+              "max_full_count": 29,
+              "max_partner_count": 58,
+              "own_need": 0
+            },
+            {
+              "active_partner_counts": {
+                "0": 58,
+                "1": 58
+              },
+              "full_action_counts": {
+                "3": 29,
+                "4": 29,
+                "7": 29,
+                "8": 29
+              },
+              "max_full_count": 29,
+              "max_partner_count": 58,
+              "own_need": 1
+            },
+            {
+              "active_partner_counts": {
+                "0": 40,
+                "1": 40
+              },
+              "full_action_counts": {
+                "1": 10,
+                "2": 10,
+                "3": 10,
+                "4": 10,
+                "5": 10,
+                "6": 10,
+                "7": 10,
+                "8": 10
+              },
+              "max_full_count": 10,
+              "max_partner_count": 40,
+              "own_need": 2
+            },
+            {
+              "active_partner_counts": {
+                "0": 58,
+                "1": 58
+              },
+              "full_action_counts": {
+                "10": 29,
+                "13": 29,
+                "14": 29,
+                "9": 29
+              },
+              "max_full_count": 29,
+              "max_partner_count": 58,
+              "own_need": 3
+            },
+            {
+              "active_partner_counts": {
+                "0": 58,
+                "1": 58
+              },
+              "full_action_counts": {
+                "11": 29,
+                "12": 29,
+                "15": 29,
+                "16": 29
+              },
+              "max_full_count": 29,
+              "max_partner_count": 58,
+              "own_need": 4
+            },
+            {
+              "active_partner_counts": {
+                "0": 40,
+                "1": 40
+              },
+              "full_action_counts": {
+                "10": 10,
+                "11": 10,
+                "12": 10,
+                "13": 10,
+                "14": 10,
+                "15": 10,
+                "16": 10,
+                "9": 10
+              },
+              "max_full_count": 10,
+              "max_partner_count": 40,
+              "own_need": 5
+            },
+            {
+              "active_partner_counts": {
+                "0": 58,
+                "1": 58
+              },
+              "full_action_counts": {
+                "1": 29,
+                "10": 29,
+                "2": 29,
+                "9": 29
+              },
+              "max_full_count": 29,
+              "max_partner_count": 58,
+              "own_need": 6
+            },
+            {
+              "active_partner_counts": {
+                "0": 58,
+                "1": 58
+              },
+              "full_action_counts": {
+                "11": 29,
+                "12": 29,
+                "3": 29,
+                "4": 29
+              },
+              "max_full_count": 29,
+              "max_partner_count": 58,
+              "own_need": 7
+            },
+            {
+              "active_partner_counts": {
+                "0": 40,
+                "1": 40
+              },
+              "full_action_counts": {
+                "1": 10,
+                "10": 10,
+                "11": 10,
+                "12": 10,
+                "2": 10,
+                "3": 10,
+                "4": 10,
+                "9": 10
+              },
+              "max_full_count": 10,
+              "max_partner_count": 40,
+              "own_need": 8
+            },
+            {
+              "active_partner_counts": {
+                "0": 58,
+                "1": 58
+              },
+              "full_action_counts": {
+                "13": 29,
+                "14": 29,
+                "5": 29,
+                "6": 29
+              },
+              "max_full_count": 29,
+              "max_partner_count": 58,
+              "own_need": 9
+            },
+            {
+              "active_partner_counts": {
+                "0": 58,
+                "1": 58
+              },
+              "full_action_counts": {
+                "15": 29,
+                "16": 29,
+                "7": 29,
+                "8": 29
+              },
+              "max_full_count": 29,
+              "max_partner_count": 58,
+              "own_need": 10
+            },
+            {
+              "active_partner_counts": {
+                "0": 40,
+                "1": 40
+              },
+              "full_action_counts": {
+                "13": 10,
+                "14": 10,
+                "15": 10,
+                "16": 10,
+                "5": 10,
+                "6": 10,
+                "7": 10,
+                "8": 10
+              },
+              "max_full_count": 10,
+              "max_partner_count": 40,
+              "own_need": 11
+            },
+            {
+              "active_partner_counts": {
+                "0": 61,
+                "1": 61
+              },
+              "full_action_counts": {
+                "1": 61,
+                "2": 61
+              },
+              "max_full_count": 61,
+              "max_partner_count": 61,
+              "own_need": 12
+            },
+            {
+              "active_partner_counts": {
+                "0": 61,
+                "1": 61
+              },
+              "full_action_counts": {
+                "3": 61,
+                "4": 61
+              },
+              "max_full_count": 61,
+              "max_partner_count": 61,
+              "own_need": 13
+            },
+            {
+              "active_partner_counts": {
+                "0": 46,
+                "1": 46
+              },
+              "full_action_counts": {
+                "1": 23,
+                "2": 23,
+                "3": 23,
+                "4": 23
+              },
+              "max_full_count": 23,
+              "max_partner_count": 46,
+              "own_need": 14
+            },
+            {
+              "active_partner_counts": {
+                "0": 61,
+                "1": 61
+              },
+              "full_action_counts": {
+                "5": 61,
+                "6": 61
+              },
+              "max_full_count": 61,
+              "max_partner_count": 61,
+              "own_need": 15
+            },
+            {
+              "active_partner_counts": {
+                "0": 61,
+                "1": 61
+              },
+              "full_action_counts": {
+                "7": 61,
+                "8": 61
+              },
+              "max_full_count": 61,
+              "max_partner_count": 61,
+              "own_need": 16
+            },
+            {
+              "active_partner_counts": {
+                "0": 46,
+                "1": 46
+              },
+              "full_action_counts": {
+                "5": 23,
+                "6": 23,
+                "7": 23,
+                "8": 23
+              },
+              "max_full_count": 23,
+              "max_partner_count": 46,
+              "own_need": 17
+            },
+            {
+              "active_partner_counts": {
+                "0": 61,
+                "1": 61
+              },
+              "full_action_counts": {
+                "10": 61,
+                "9": 61
+              },
+              "max_full_count": 61,
+              "max_partner_count": 61,
+              "own_need": 18
+            },
+            {
+              "active_partner_counts": {
+                "0": 61,
+                "1": 61
+              },
+              "full_action_counts": {
+                "11": 61,
+                "12": 61
+              },
+              "max_full_count": 61,
+              "max_partner_count": 61,
+              "own_need": 19
+            },
+            {
+              "active_partner_counts": {
+                "0": 46,
+                "1": 46
+              },
+              "full_action_counts": {
+                "10": 23,
+                "11": 23,
+                "12": 23,
+                "9": 23
+              },
+              "max_full_count": 23,
+              "max_partner_count": 46,
+              "own_need": 20
+            },
+            {
+              "active_partner_counts": {
+                "0": 61,
+                "1": 61
+              },
+              "full_action_counts": {
+                "13": 61,
+                "14": 61
+              },
+              "max_full_count": 61,
+              "max_partner_count": 61,
+              "own_need": 21
+            },
+            {
+              "active_partner_counts": {
+                "0": 61,
+                "1": 61
+              },
+              "full_action_counts": {
+                "15": 61,
+                "16": 61
+              },
+              "max_full_count": 61,
+              "max_partner_count": 61,
+              "own_need": 22
+            },
+            {
+              "active_partner_counts": {
+                "0": 46,
+                "1": 46
+              },
+              "full_action_counts": {
+                "13": 23,
+                "14": 23,
+                "15": 23,
+                "16": 23
+              },
+              "max_full_count": 23,
+              "max_partner_count": 46,
+              "own_need": 23
+            }
+          ]
+        }
+      ],
+      "need_count": 3888,
+      "old_all_proposal_roles_correct_upper": "185/486",
+      "proposal_role_numerators": [
+        1480,
+        1480,
+        1480
+      ],
+      "truth_pair_counts": {
+        "AB": 1296,
+        "AC": 1296,
+        "BC": 1296
+      }
+    }
+  },
+  "elapsed_seconds": 0.24546229094266891,
+  "enumeration": {
+    "candidate_need_triples": 13824,
+    "executable_joint_actions_per_world": 408,
+    "joint_action_fixtures": 3,
+    "joint_actions_checked": 14739,
+    "need_partition_layout_combinations_checked": 258048,
+    "unique_full_plan_need_triples": 5376
+  },
+  "exact_optimum_claimed": false,
+  "independence": "Only standard library; candidate kernel and all environment/learner numerical implementations are not imported.",
+  "metric_counterexamples": [
+    {
+      "actions": [
+        1,
+        1,
+        1
+      ],
+      "correct_executed_pair": true,
+      "executed_pair": [
+        0,
+        1
+      ],
+      "full_success": true,
+      "layout": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "needs": [
+        12,
+        12,
+        15
+      ],
+      "old_all_proposal_roles_correct": false
+    },
+    {
+      "actions": [
+        5,
+        5,
+        1
+      ],
+      "correct_executed_pair": true,
+      "executed_pair": [
+        0,
+        1
+      ],
+      "full_success": false,
+      "layout": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "needs": [
+        12,
+        12,
+        15
+      ],
+      "old_all_proposal_roles_correct": false
+    },
+    {
+      "actions": [
+        1,
+        2,
+        1
+      ],
+      "correct_executed_pair": false,
+      "executed_pair": null,
+      "full_success": false,
+      "layout": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "needs": [
+        12,
+        12,
+        15
+      ],
+      "old_all_proposal_roles_correct": false
+    }
+  ],
+  "model_parameter_loads": 0,
+  "neural_forward_calls": 0,
+  "partition_cartesian_checks": [
+    {
+      "independent_public_backgrounds_per_need": 36,
+      "layouts": 6,
+      "needs": 3888,
+      "owners": 6,
+      "partition": "new_layouts",
+      "worlds": 139968
+    },
+    {
+      "independent_public_backgrounds_per_need": 108,
+      "layouts": 18,
+      "needs": 1488,
+      "owners": 6,
+      "partition": "new_needs",
+      "worlds": 160704
+    },
+    {
+      "independent_public_backgrounds_per_need": 36,
+      "layouts": 6,
+      "needs": 1488,
+      "owners": 6,
+      "partition": "new_needs_and_layouts",
+      "worlds": 53568
+    },
+    {
+      "independent_public_backgrounds_per_need": 108,
+      "layouts": 18,
+      "needs": 3888,
+      "owners": 6,
+      "partition": "train",
+      "worlds": 419904
+    }
+  ],
+  "settlement_fixtures": [
+    {
+      "all_joint_actions_checked": 4913,
+      "all_proposal_roles_correct_joint_actions": 64,
+      "correct_executed_pair_joint_actions": 136,
+      "full_success_joint_actions": 17,
+      "needs": [
+        12,
+        12,
+        15
+      ]
+    },
+    {
+      "all_joint_actions_checked": 4913,
+      "all_proposal_roles_correct_joint_actions": 64,
+      "correct_executed_pair_joint_actions": 136,
+      "full_success_joint_actions": 17,
+      "needs": [
+        12,
+        15,
+        12
+      ]
+    },
+    {
+      "all_joint_actions_checked": 4913,
+      "all_proposal_roles_correct_joint_actions": 64,
+      "correct_executed_pair_joint_actions": 136,
+      "full_success_joint_actions": 17,
+      "needs": [
+        15,
+        12,
+        12
+      ]
+    }
+  ],
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/results/context_001/prepared.json": "e555037fa8a9d72a2ef150a0d99d46e5a893139b2efa02314dffa3e2a001a299",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/design_audit/independent_bounds_review.py": "0d61b8d07b2c6b1921fed2754a0fb78016e086528407dac9aeeb5c18983258a2"
+  },
+  "status": "passed",
+  "training_updates": 0
+}

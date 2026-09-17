@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "review": "symbol_recode_001 final artifact consistency review",
+  "review_date": "2026-09-16",
+  "checks": {
+    "static_preflight": "passed",
+    "execution_status": "completed",
+    "audit_status": "passed",
+    "summary_status": "passed",
+    "figures_status": "passed",
+    "report_status": "passed_independent_audit_and_visual_review",
+    "record_grid": "64 policy trajectories × 3 recodings × 6 checkpoints = 1152 records",
+    "audit_scope_exact": {
+      "live_files": 576,
+      "silent_aliases": 576,
+      "live_rows": 15925248,
+      "silent_rows": 15925248,
+      "independent_module_samples": 95551488
+    },
+    "visual_png_review": "passed actual inspection of all three recoding figures",
+    "summary_checkpoint_reads": 0,
+    "summary_model_forwards": 0,
+    "global_symbol_selectivity_mean_percentage_points": 14.424691893714453,
+    "global_symbol_selectivity_ci95_percentage_points": [11.30335326421513, 17.546030523213776],
+    "position_rotation_selectivity_mean_percentage_points": 12.076882070227364,
+    "position_rotation_selectivity_ci95_percentage_points": [9.338439247174468, 14.815324893280263],
+    "position_reverse_selectivity_mean_percentage_points": 13.025544247944884,
+    "position_reverse_selectivity_ci95_percentage_points": [9.585156308435306, 16.465932187454463],
+    "all_modes_positive_seed_blocks": 16
+  },
+  "artifact_sha256": {
+    "candidate_plan": "0cc41ef6e34ba526a376189de534c08b896e33ee0c941ac46cc8b1947e9ab9b4",
+    "candidate_prepared": "9f8bb3c69fa85bf3807ed1ea22399f0b13a73489a5d17b48974ab31ecff18010",
+    "maps": "eae58181367e2639286d3f617a053bc3b2b6a236248971be7b211133d11793f8",
+    "execution_results": "09f450841e48c5b671239130beeceecbf9ffc6261fcced56bdbdade2e0acd056",
+    "audit_verification": "8d1cc1490dcdef63b1c19476eae5690759f2557e9f3cef7d78bf5afb22f21cdc",
+    "summary": "c04058340345d179e104a495c422436277904cd08ed960a5de4c012705efc4b3",
+    "summary_receipt": "d8a355dd43b28d5d3dfd7bb302b015936431e75a1e057deddb99341650ea9618",
+    "figures_receipt": "2dea67d02099def0ddda9fc9ce2ba5b259df1f474d19169c13a7514531742202",
+    "report": "f4823ce68811f980c3b94ad3e625d91b436efff7568629d9ae194fcae9557684",
+    "report_generation_receipt": "beae42c21befc2ec6759747aece59918645243db9b06ef508a2c140b263a80da",
+    "preflight": "4bd363235177d5b35c993651987f72d43ac917dafd401cebdcb09903a235d2d0",
+    "recoding_readme": "0dc5f7342488368f175e37f722ec262d4e5370be4609f2f5e3c9ef173b94475b",
+    "top_readme": "ab86823260bc8ba2be50e32de87eb6b976317f5eed83766cbf4d7810d37f98cd",
+    "ledger": "2b635c2e379e5adcbb9f15ea73215ede44db2b6ee9a2d4dec68cfd82640679c1"
+  },
+  "interpretation": "All three fixed recodings reduced the same-group four-choice response, with similar magnitude. The result supports sensitivity to a fixed packet code and position structure; it does not establish a public lexicon, compositionality, or language origin."
+}

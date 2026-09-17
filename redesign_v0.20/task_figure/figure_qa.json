@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "reviewer": "root",
+  "direct_visual_inspection": true,
+  "files": {
+    "00_temporal_task.pdf": "562f5194c1e4e8de85cb08d47e4989140651bd617d9c403007b9b544a38d7973",
+    "00_temporal_task.png": "63eb98c42645fda2b8ded5dd98bc40e959a902e955a39efad0c826f911c16b26"
+  },
+  "checks": [
+    "Six consistent site labels",
+    "Initial and final food location preserved;watermoves4to5",
+    "Delayed final marks unobserved sites as unknown",
+    "Human-facing schematic not used as agent input"
+  ]
+}

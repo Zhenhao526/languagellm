@@ -1,0 +1,34 @@
+{
+  "status": "passed_offline_only",
+  "created_at": "2026-09-15T16:47:27.686095+00:00",
+  "tests_run": 8,
+  "failures": 0,
+  "test_elapsed_seconds": 0.039,
+  "command": "qwen_collect_pilot/.venv/bin/python -m unittest research_program.triadic_partner_ecology_study.tests.test_audit_execution -v",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.3"
+  },
+  "source_sha256": {
+    "research_program/triadic_partner_ecology_study/audit_execution.py": "219ef7bb650e4ffa2e10681937cb3217e4869ec7aaa28665aae91797115cc2d4",
+    "research_program/triadic_partner_ecology_study/tests/test_audit_execution.py": "65cc9a53125f8d828cd16bb79d003bc082bfb4b048edbdbdb866177736ef6e5e",
+    "research_program/triadic_partner_ecology_study/runner.py": "e343f9844c614d3ceaa5c8e958fe056e2cf6b29efbc06e8ffd943ec4df3e4430",
+    "research_program/triadic_partner_ecology_study/design.py": "b4062590cce29342d44d70f22d0198a57233878656b415a19bbdf40bb9b87a25",
+    "research_program/triadic_partner_ecology_study/metrics.py": "499d46c94a9a4b75482c785db3ce08062601ac2449f14f9e8d2637b9fecb2d48",
+    "research_program/triadic_partner_ecology_study/design_audit_002/verification.json": "2ede9370963f1b18feda3d88bcbe43f04ba1d5456b6288cc7b35d1203e446cb7"
+  },
+  "retained_previous_receipt": {
+    "path": "research_program/triadic_partner_ecology_study/audit_test_preflight_001.json",
+    "sha256": "3c3fa325462e152f8a2578e253188d385ff807f919c3df3863818d39b4360211"
+  },
+  "test_only_correction": "Official make_prepared in-memory tuples are JSON-normalized in the test; actual audit consumes prepared.json. Audit mathematics unchanged by this test correction.",
+  "audit_source_changes_before_tests": [
+    "Bind previous.pure helper to the completed baseline audit receipt SHA.",
+    "Require each evaluation weight path to its own seed/ecology/partition worker."
+  ],
+  "neural_forward_calls": 0,
+  "training_calls": 0,
+  "current_execution_results_read": false,
+  "formal_audit_executed": false,
+  "execution_entrypoint": "qwen_collect_pilot/.venv/bin/python -m research_program.triadic_partner_ecology_study.audit_execution --run RUN --out RUN/audit_execution_001"
+}

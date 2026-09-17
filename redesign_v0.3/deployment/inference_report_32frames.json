@@ -1,0 +1,5170 @@
+{
+  "model": "OpenAI VPT foundation-model-2x",
+  "parameters": 248495294,
+  "strict_state_dict_load": true,
+  "load_seconds": 0.6107468340196647,
+  "weights_sha256": "5b20bd5af5cf1efd322dad727264bbca8fa77c13f51fa5baf2c4e73b13baee43",
+  "video_sha256": "c3dfede32353f7c19a297284ba671382bfbe32ac654077f1d37fe5bd26a41cfe",
+  "input": "Published contractor Minecraft replay, source frames 100 onward, RGB128x128",
+  "source_video": "https://openaipublic.blob.core.windows.net/minecraft-rl/data/10.0/cheeky-cornflower-setter-02e496ce4abb-20220421-092639.mp4",
+  "torch": "2.14.0",
+  "numpy": "1.26.4",
+  "python": "3.12.14",
+  "dtype": "float32",
+  "cpu_threads": 4,
+  "mps_available": true,
+  "scope": "Recorded-image action inference only; not a live Minecraft task, no training, no communication experiment.",
+  "measurements": [
+    {
+      "device": "cpu",
+      "frames": 32,
+      "seconds": 0.7520254170522094,
+      "median_ms": 22.70154151483439,
+      "p95_ms": 24.624803641927425,
+      "frames_per_second": 42.55175327109775,
+      "finite_log_prob_and_distribution": true,
+      "policy_actions": [
+        {
+          "buttons": [
+            [
+              1
+            ]
+          ],
+          "camera": [
+            [
+              55
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              50
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              71
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              323
+            ]
+          ],
+          "camera": [
+            [
+              33
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              1
+            ]
+          ],
+          "camera": [
+            [
+              33
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              323
+            ]
+          ],
+          "camera": [
+            [
+              58
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              323
+            ]
+          ],
+          "camera": [
+            [
+              69
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              289
+            ]
+          ],
+          "camera": [
+            [
+              69
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              323
+            ]
+          ],
+          "camera": [
+            [
+              69
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              323
+            ]
+          ],
+          "camera": [
+            [
+              69
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              59
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              59
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              59
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              59
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              59
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              59
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              59
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              288
+            ]
+          ],
+          "camera": [
+            [
+              55
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              288
+            ]
+          ],
+          "camera": [
+            [
+              55
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              59
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              59
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              70
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              70
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              70
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              59
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              323
+            ]
+          ],
+          "camera": [
+            [
+              48
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              323
+            ]
+          ],
+          "camera": [
+            [
+              46
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              323
+            ]
+          ],
+          "camera": [
+            [
+              48
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              322
+            ]
+          ],
+          "camera": [
+            [
+              59
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              59
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              59
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              323
+            ]
+          ],
+          "camera": [
+            [
+              57
+            ]
+          ]
+        }
+      ],
+      "decoded_actions": [
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            0
+          ],
+          "jump": [
+            0
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              -10.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            1
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              -1.6094986352788734,
+              -10.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            0
+          ],
+          "jump": [
+            0
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              -1.6094986352788734,
+              -10.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            1
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              -1.6094986352788734
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            1
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.6153942662021781,
+              -1.6094986352788734
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            0
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.6153942662021781,
+              -1.6094986352788734
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            1
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.6153942662021781,
+              -1.6094986352788734
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            1
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.6153942662021781,
+              -1.6094986352788734
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            0
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            0
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            1
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              -0.6153942662021781,
+              -0.6153942662021781
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            1
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              -0.6153942662021781,
+              -3.2153691330919005
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            1
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              -0.6153942662021781,
+              -0.6153942662021781
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            1
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            1
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              -3.2153691330919005
+            ]
+          ]
+        }
+      ],
+      "process_peak_rss_bytes": 3502964736
+    },
+    {
+      "device": "mps",
+      "frames": 32,
+      "seconds": 0.3215202928404324,
+      "median_ms": 10.052208497654647,
+      "p95_ms": 10.548187355743721,
+      "frames_per_second": 99.5271549341407,
+      "finite_log_prob_and_distribution": true,
+      "policy_actions": [
+        {
+          "buttons": [
+            [
+              1
+            ]
+          ],
+          "camera": [
+            [
+              55
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              50
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              71
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              323
+            ]
+          ],
+          "camera": [
+            [
+              33
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              1
+            ]
+          ],
+          "camera": [
+            [
+              33
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              323
+            ]
+          ],
+          "camera": [
+            [
+              58
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              323
+            ]
+          ],
+          "camera": [
+            [
+              69
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              289
+            ]
+          ],
+          "camera": [
+            [
+              69
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              323
+            ]
+          ],
+          "camera": [
+            [
+              69
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              323
+            ]
+          ],
+          "camera": [
+            [
+              69
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              59
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              59
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              59
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              59
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              59
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              59
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              59
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              288
+            ]
+          ],
+          "camera": [
+            [
+              55
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              288
+            ]
+          ],
+          "camera": [
+            [
+              55
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              59
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              59
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              70
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              70
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              70
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              59
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              323
+            ]
+          ],
+          "camera": [
+            [
+              48
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              323
+            ]
+          ],
+          "camera": [
+            [
+              46
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              323
+            ]
+          ],
+          "camera": [
+            [
+              48
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              322
+            ]
+          ],
+          "camera": [
+            [
+              59
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              59
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              290
+            ]
+          ],
+          "camera": [
+            [
+              59
+            ]
+          ]
+        },
+        {
+          "buttons": [
+            [
+              323
+            ]
+          ],
+          "camera": [
+            [
+              57
+            ]
+          ]
+        }
+      ],
+      "decoded_actions": [
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            0
+          ],
+          "jump": [
+            0
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              -10.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            1
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              -1.6094986352788734,
+              -10.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            0
+          ],
+          "jump": [
+            0
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              -1.6094986352788734,
+              -10.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            1
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              -1.6094986352788734
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            1
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.6153942662021781,
+              -1.6094986352788734
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            0
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.6153942662021781,
+              -1.6094986352788734
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            1
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.6153942662021781,
+              -1.6094986352788734
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            1
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.6153942662021781,
+              -1.6094986352788734
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            0
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            0
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            1
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              -0.6153942662021781,
+              -0.6153942662021781
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            1
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              -0.6153942662021781,
+              -3.2153691330919005
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            1
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              -0.6153942662021781,
+              -0.6153942662021781
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            1
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            0
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "attack": [
+            0
+          ],
+          "back": [
+            0
+          ],
+          "forward": [
+            1
+          ],
+          "jump": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0
+          ],
+          "sneak": [
+            0
+          ],
+          "sprint": [
+            1
+          ],
+          "use": [
+            0
+          ],
+          "drop": [
+            0
+          ],
+          "inventory": [
+            0
+          ],
+          "hotbar.1": [
+            0
+          ],
+          "hotbar.2": [
+            0
+          ],
+          "hotbar.3": [
+            0
+          ],
+          "hotbar.4": [
+            0
+          ],
+          "hotbar.5": [
+            0
+          ],
+          "hotbar.6": [
+            0
+          ],
+          "hotbar.7": [
+            0
+          ],
+          "hotbar.8": [
+            0
+          ],
+          "hotbar.9": [
+            0
+          ],
+          "camera": [
+            [
+              0.0,
+              -3.2153691330919005
+            ]
+          ]
+        }
+      ],
+      "process_peak_rss_bytes": 3505618944,
+      "mps_driver_allocated_bytes_at_end": 1135280128,
+      "mps_tensor_allocated_bytes_at_end": 1012896512
+    }
+  ],
+  "cpu_mps_identical_greedy_action_fraction": 1.0
+}

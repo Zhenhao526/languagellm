@@ -1,0 +1,7 @@
+{
+  "created_utc": "2026-09-15T18:49:49.563537+00:00",
+  "reason": "Row 65 distinguish title action from description of powder spoon above water; no claim powder already mixed. No source or independent root annotation changed.",
+  "original_sha256": "5d2fd32ae46945db2d7578cce72627d9a11be728637f5ababe86d8df713bd79d",
+  "revised_sha256": "65b1526f9c969353873f525dd28a9981832ba89f480622564ec334dbcf247252",
+  "original_preserved": "snapshots/collector_notes_initial.json"
+}

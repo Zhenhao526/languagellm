@@ -1,0 +1,14 @@
+[
+  {
+    "seed": 101,
+    "checkpoint_100_bitwise_equal_to_original": true
+  },
+  {
+    "seed": 202,
+    "checkpoint_100_bitwise_equal_to_original": true
+  },
+  {
+    "seed": 303,
+    "checkpoint_100_bitwise_equal_to_original": true
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "source_sha256": "d5cd6b27c1bbf4f4381ba1e4f691e13ee92d8d0a672dbd952107167a9bfd1d22",
+  "checks": [
+    "Independent144-event enumeration and360weighted support",
+    "All16photo pairs, equal terminal/mover marginals",
+    "Perfect predictions and null matching-only history pairs",
+    "Last-frame policy reaches1/5 common and1/3 old with0history pairs",
+    "Closed-form unordered pair count independently enumerated"
+  ]
+}

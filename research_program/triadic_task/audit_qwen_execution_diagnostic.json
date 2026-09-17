@@ -1,0 +1,116 @@
+{
+  "status": "passed_independent_execution_diagnostic_fake_audit",
+  "audited_at": "2026-09-15T19:27:38.413594+08:00",
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/qwen_execution_diagnostic.py": "b9507d06125a3da8864b2dba463e217aebeff494aa06c6036db56dee00069d68",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/environment.py": "b2d49ab829edc92e77df527f5b470602c289cdf3ad7728d5e71f411c53582ef6",
+    "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/backend.py": "0aa38e9c5a53c9f3275a8208912bfc356181839e7d338083570dd32c332c7e23",
+    "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/run.py": "eff1e4fa3f8803b43d95c32381646e9c0f39b87a212ed1de110ede45ae4dcd7b",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/tests/test_qwen_execution_diagnostic.py": "eb78afc02a1f388a2d9c73e8d638bda86e845cf2792246fc53cab63622431c99",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/plan.json": "ac0dfac541c27070a60ed6f616e5366957b65b2e6f401f2aa68d637415d2a2b8",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/prepared_cases.json": "c17cd72fc85a35fe4fddd6b08b3008bb4cf3c49e5ede3fa23d33b75df8d12fac",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/独立核验.json": "2c01a09de1f70edcde94be8928db29376782f3c79bf29e5a600e18fa82f274a5",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/execution/inference.jsonl": "713d0138c16229566747440fee810b3657fbca1232c405e295126d197f0efd26",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/execution/trials.jsonl": "fe80857da870414e3659e16c80c14ca9257142d12326eb68929a51dc825a7348",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/execution/results.json": "f7749c25770eb4e7e1e4fe301017f803dee0c1cb8763b4f2fdbcf2ce11e2cc48",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/共享计划执行诊断_方案.md": "743390fb65edbc8350193230ac38d0ec76472a3e4eb1132c3459e1c184a55802"
+  },
+  "python_runtime_for_fake_audit": "3.9.6 (default, May 22 2026, 11:13:45) \n[Clang 21.0.0 (clang-2100.1.1.101)]",
+  "reproduction_command": "python3 -m unittest research_program.triadic_task.tests.test_qwen_execution_diagnostic -v",
+  "tests_run": 11,
+  "failures": 0,
+  "errors": 0,
+  "model_initializer_calls": 0,
+  "real_model_calls": 0,
+  "training_updates": 0,
+  "uses_actual_frozen_backend_decide": true,
+  "replaces_only_infer": true,
+  "primary_trace": {
+    "source_context_trials": 12,
+    "source_semantic_draws": 4,
+    "source_action_decisions": 36,
+    "arms": [
+      "original_replay",
+      "shared_plan_added"
+    ],
+    "simulated_infer_calls": 144,
+    "simulated_calls_per_arm": 72,
+    "source_decision_seeds": 36,
+    "seed_reuse": "Each source seed shared across both arms and both stages: four calls per seed.",
+    "source_replay_fixture_exact": true,
+    "source_replay_compared_fields": [
+      "messages",
+      "output",
+      "prompt_sha256",
+      "seed",
+      "temperature",
+      "mode",
+      "valid",
+      "fresh_cache",
+      "native_thinking",
+      "finish_reason",
+      "prompt_tokens",
+      "generation_tokens"
+    ],
+    "source_replay_fixture_full_success": 4,
+    "researcher_plan_fixture_full_success": 12,
+    "trace_file": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/audit_qwen_execution_diagnostic_calls.jsonl",
+    "trace_sha256": "5cb3dd7c081276e34d1e9979f860f28c5100e4993e4b5b8a940af994f329eb2b"
+  },
+  "test_fixture_simulated_infer_calls_total": 288,
+  "negative_tests": {
+    "each_reproduction_field_mutated_separately": 12,
+    "all_mutations_marked_effect_uninterpretable": true,
+    "first_original_analysis_output_changed_but_all144_calls_still_completed": true,
+    "incomplete_log_rejected": true
+  },
+  "checks": {
+    "all12_source_snapshots_including_successes_retained": true,
+    "all36_original_base_messages_verbatim": true,
+    "plan_arm_adds_exactly_one_researcher_user_message": true,
+    "same_semantic_plan_message_for_all_three_agents": true,
+    "plan_no_private_correct_action_id": true,
+    "source6_broadcasts_and_own_history_observation_menu_unchanged": true,
+    "all12_plans_independently_lexically_enumerated_and_physics_verified": true,
+    "probe_histories_not_updated": true,
+    "other_probe_actions_and_private_analysis_hidden": true,
+    "reference_plan_match_and_actual_success_recorded_separately": true,
+    "import_module_alone_does_not_import_backend_or_model_runtime": true,
+    "sources_and_prepared_data_unchanged": true
+  },
+  "plan_distribution": {
+    "context_trials": {
+      "trials": 12,
+      "active_pairs": {
+        "AB": 9,
+        "AC": 3
+      },
+      "waiting_agents": {
+        "C": 9,
+        "B": 3
+      }
+    },
+    "unique_semantic_draws": {
+      "trials": 4,
+      "active_pairs": {
+        "AB": 3,
+        "AC": 1
+      },
+      "waiting_agents": {
+        "C": 3,
+        "B": 1
+      }
+    },
+    "selection": "Unmodified environment first sufficient_information_witness; not selected by model results."
+  },
+  "limitations": [
+    "This is pre-execution code verification, not a real Qwen reproduction or treatment result.",
+    "The source replay fixture returns saved CAP text; the plan fixture uses researcher witness actions. Their 4/12 and 12/12 figures do not measure new model capability.",
+    "Original rendered prompt hashes are source lookups only when complete messages match, used to test reproduction comparator plumbing. No fresh tokenizer or real generation hash was computed here.",
+    "Real execution must still reproduce all72 original stage records exactly before a paired treatment effect is interpreted.",
+    "The intervention jointly adds an authoritative researcher plan and an instruction to follow it; it does not isolate a single internal cause.",
+    "Plans choose AB in3 of4 semantic scenes and AC in1; A always participates, BC and A waiting are not tested.",
+    "Twelve saved snapshots are four semantic scenes repeated across three context groups. No old gate changes and no symbolic-language experiment follows from this audit."
+  ],
+  "unittest_output_sha256": "eb343b6b46a3a21565bc9443514fb3975285627f0bc3c17d96636e17dbfe481b"
+}

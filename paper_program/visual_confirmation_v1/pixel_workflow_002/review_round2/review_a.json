@@ -1,0 +1,112 @@
+{
+  "reviewer": "root_A",
+  "sealed_utc": "2026-09-15T16:46:30.244711+00:00",
+  "packet_sha256": "abd3ea22cd214527eefe080c0f2395ba1f3e6a62d7c758a7e1ad69528f18466f",
+  "method": "AI visual review of both anonymous sheets, full and crop panels. No source mappings or review B read before sealing.",
+  "criteria_order": [
+    "real photograph",
+    "food or visible water in transparent container identifiable",
+    "crop retains resource",
+    "no prominent text or watermark",
+    "no mixed foods or ambiguous liquid"
+  ],
+  "decisions": [
+    {
+      "id": "4373d710d1f3",
+      "criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": true,
+        "crop retains resource": true,
+        "no prominent text or watermark": false,
+        "no mixed foods or ambiguous liquid": true
+      },
+      "reason": "透明瓶内液体可见，裁剪保留瓶，但瓶身上下均有醒目文字，排除。",
+      "pass_visual": false
+    },
+    {
+      "id": "484b15faaf3c",
+      "criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": true,
+        "crop retains resource": true,
+        "no prominent text or watermark": false,
+        "no mixed foods or ambiguous liquid": true
+      },
+      "reason": "装水透明瓶可辨，裁剪保留瓶；蓝色大标签及品牌文字明显，排除。",
+      "pass_visual": false
+    },
+    {
+      "id": "5c91eb155abf",
+      "criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": false,
+        "crop retains resource": false,
+        "no prominent text or watermark": true,
+        "no mixed foods or ambiguous liquid": true
+      },
+      "reason": "室内座椅与讲台，未见目标资源。",
+      "pass_visual": false
+    },
+    {
+      "id": "949105893fe9",
+      "criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": "uncertain",
+        "crop retains resource": "uncertain",
+        "no prominent text or watermark": true,
+        "no mixed foods or ambiguous liquid": "uncertain"
+      },
+      "reason": "透明玻璃瓶近照，没有可确认的液面或水内容，不能将瓶本身当作水资源。",
+      "pass_visual": false
+    },
+    {
+      "id": "b23dd22cb310",
+      "criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": false,
+        "crop retains resource": false,
+        "no prominent text or watermark": true,
+        "no mixed foods or ambiguous liquid": true
+      },
+      "reason": "透过瓶口拍摄落日，未见瓶内水资源。",
+      "pass_visual": false
+    },
+    {
+      "id": "b3c1d78c441c",
+      "criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": "uncertain",
+        "crop retains resource": "uncertain",
+        "no prominent text or watermark": false,
+        "no mixed foods or ambiguous liquid": "uncertain"
+      },
+      "reason": "水桶瓶口和封盖近照，主体为文字封签，液体不能从图中可靠辨认；排除。",
+      "pass_visual": false
+    },
+    {
+      "id": "db6438ca4ea1",
+      "criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": true,
+        "crop retains resource": true,
+        "no prominent text or watermark": false,
+        "no mixed foods or ambiguous liquid": false
+      },
+      "reason": "店内瓶装液体与其他罐装食品同框，服装/标签文字可见，混合资源场景不合要求。",
+      "pass_visual": false
+    },
+    {
+      "id": "e85b4d8ede33",
+      "criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": false,
+        "crop retains resource": false,
+        "no prominent text or watermark": false,
+        "no mixed foods or ambiguous liquid": true
+      },
+      "reason": "建筑和文字铭牌，未见目标资源，且文字明显。",
+      "pass_visual": false
+    }
+  ],
+  "scope": "Visual workflow eligibility only; not source identity, license or model validity."
+}

@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "at": "2026-09-16T04:12:21.040792+00:00",
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_need_response_study/__init__.py": "6f84bd797c88e33e53d73ee375a2f620b06257674d7f0753e77c6d91f62368a9",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_need_response_study/cases.py": "b4ba2f23144ba7ca8c2849c608fea91ad971e673112ae8c164824d487f52daed",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_need_response_study/test_cases.py": "e482fcd831e41bebcba3901ecd323b68f377b21e6afed0330f0bc13f336e1df7",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/results/context_001/prepared.json": "e555037fa8a9d72a2ef150a0d99d46e5a893139b2efa02314dffa3e2a001a299",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/results/context_001/plan.json": "df5036145a1bea258a40d6e0a65b66a09c6c188b311b732c954429b6eb38fcba",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/results/context_001/freeze.json": "d87be03c52e100b4e8fa4f9b938be955609089fd4b5e961c63f6c00ea8247cbd",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/environment.py": "4e6250f5d7603dfca7736458b90b70910a5d057e253c96ab9b1e16a82635911e",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/dataset.py": "fff75edc398fd589e0d55fc5fd47f6075e4edd6fa3e7b4793e02875f8bab6a10"
+  },
+  "static_availability_sha256": "5268d4c33bf925f812c77035eca6f44c2441478bd2370352bbc0abe9a3900060",
+  "command": "qwen_collect_pilot/.venv/bin/python -m unittest research_program.triadic_need_response_study.test_cases -v",
+  "test_invocations": [
+    {
+      "chunk_id": "c75089",
+      "tests": 5,
+      "elapsed_seconds": 0.01,
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "821939",
+      "tests": 5,
+      "elapsed_seconds": 0.01,
+      "exit_code": 0,
+      "reason": "Added explicit unequal-stratum fixture proving equal9-stratum Q=1/18 differs from pooledQ=1/10;added package marker."
+    }
+  ],
+  "coverage": [
+    "Native24 needs flips match official semantics;unordered support edges checked against independent pairwise fixture enumeration",
+    "OracleQ1;all constant executed pairs andnone Q0;allnone andempty9-strata retained",
+    "Exact6-permutation fixture gives1/6 and includes a non-edge need world in denominator",
+    "Equal9-stratum weights differ from pooled edges on uneven fixture;background equal averaging",
+    "Execution-on/off changes excluded fromboth_executed_pair_change_rate whilepartner_change_rate retains them",
+    "Full native state packing andinteger index order;shuffled/truncated/duplicate/float/altered background inputs rejected",
+    "All four original complete partition order774144rows checked statically;9strata all present;252288state edges",
+    "build_cases andmetrics serialize to JSON withoutNaN orNumPy types"
+  ],
+  "scope": {
+    "formal_policy_files_read": 0,
+    "formal_results_aggregated": false,
+    "model_imports": 0,
+    "model_loads": 0,
+    "neural_forward_calls": 0,
+    "training_updates": 0
+  },
+  "frozen_after_receipt": true
+}

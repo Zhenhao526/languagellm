@@ -1,0 +1,1132 @@
+[
+  {
+    "update": 0,
+    "scores": {
+      "normal": {
+        "n": 1200,
+        "decisions": 2400,
+        "reward_sum": 169.0,
+        "mean_reward": 0.14083333333333334,
+        "reward_variance": 0.062249305555555544,
+        "positive_rewards": 310,
+        "single_correct": 338,
+        "single_accuracy": 0.14083333333333334,
+        "both_correct": 28,
+        "both_accuracy": 0.023333333333333334,
+        "food_correct": 127,
+        "water_correct": 211,
+        "outcome_counts": {
+          "00": 890,
+          "01": 183,
+          "10": 99,
+          "11": 28
+        },
+        "direction_means": [
+          0.11,
+          0.17166666666666666
+        ],
+        "direction_metrics": [
+          {
+            "n": 600,
+            "decisions": 1200,
+            "reward_sum": 66.0,
+            "mean_reward": 0.11,
+            "reward_variance": 0.04956666666666667,
+            "positive_rewards": 124,
+            "single_correct": 132,
+            "single_accuracy": 0.11,
+            "both_correct": 8,
+            "both_accuracy": 0.013333333333333334,
+            "food_correct": 36,
+            "water_correct": 96,
+            "outcome_counts": {
+              "00": 476,
+              "01": 88,
+              "10": 28,
+              "11": 8
+            }
+          },
+          {
+            "n": 600,
+            "decisions": 1200,
+            "reward_sum": 103.0,
+            "mean_reward": 0.17166666666666666,
+            "reward_variance": 0.07303055555555557,
+            "positive_rewards": 186,
+            "single_correct": 206,
+            "single_accuracy": 0.17166666666666666,
+            "both_correct": 20,
+            "both_accuracy": 0.03333333333333333,
+            "food_correct": 91,
+            "water_correct": 115,
+            "outcome_counts": {
+              "00": 414,
+              "01": 95,
+              "10": 71,
+              "11": 20
+            }
+          }
+        ],
+        "episodes": 1200,
+        "horizon": 1,
+        "world_sha256": "a5c353b7d1ebff61bb3b570e5c80122a4700bb88dc194f10bb4dffc2f740387e",
+        "map_groups": {
+          "seen": {
+            "n": 960,
+            "decisions": 1920,
+            "reward_sum": 119.0,
+            "mean_reward": 0.12395833333333334,
+            "reward_variance": 0.05182183159722222,
+            "positive_rewards": 228,
+            "single_correct": 238,
+            "single_accuracy": 0.12395833333333334,
+            "both_correct": 10,
+            "both_accuracy": 0.010416666666666666,
+            "food_correct": 86,
+            "water_correct": 152,
+            "outcome_counts": {
+              "00": 732,
+              "01": 142,
+              "10": 76,
+              "11": 10
+            }
+          },
+          "unseen": {
+            "n": 240,
+            "decisions": 480,
+            "reward_sum": 50.0,
+            "mean_reward": 0.20833333333333334,
+            "reward_variance": 0.09826388888888887,
+            "positive_rewards": 82,
+            "single_correct": 100,
+            "single_accuracy": 0.20833333333333334,
+            "both_correct": 18,
+            "both_accuracy": 0.075,
+            "food_correct": 41,
+            "water_correct": 59,
+            "outcome_counts": {
+              "00": 158,
+              "01": 41,
+              "10": 23,
+              "11": 18
+            }
+          }
+        },
+        "maps_were_withheld": true
+      },
+      "shuffle": {
+        "n": 1200,
+        "decisions": 2400,
+        "reward_sum": 215.0,
+        "mean_reward": 0.17916666666666667,
+        "reward_variance": 0.07456597222222222,
+        "positive_rewards": 389,
+        "single_correct": 430,
+        "single_accuracy": 0.17916666666666667,
+        "both_correct": 41,
+        "both_accuracy": 0.034166666666666665,
+        "food_correct": 212,
+        "water_correct": 218,
+        "outcome_counts": {
+          "00": 811,
+          "01": 177,
+          "10": 171,
+          "11": 41
+        },
+        "direction_means": [
+          0.18,
+          0.17833333333333334
+        ],
+        "direction_metrics": [
+          {
+            "n": 600,
+            "decisions": 1200,
+            "reward_sum": 108.0,
+            "mean_reward": 0.18,
+            "reward_variance": 0.07676666666666666,
+            "positive_rewards": 193,
+            "single_correct": 216,
+            "single_accuracy": 0.18,
+            "both_correct": 23,
+            "both_accuracy": 0.03833333333333333,
+            "food_correct": 109,
+            "water_correct": 107,
+            "outcome_counts": {
+              "00": 407,
+              "01": 84,
+              "10": 86,
+              "11": 23
+            }
+          },
+          {
+            "n": 600,
+            "decisions": 1200,
+            "reward_sum": 107.0,
+            "mean_reward": 0.17833333333333334,
+            "reward_variance": 0.0723638888888889,
+            "positive_rewards": 196,
+            "single_correct": 214,
+            "single_accuracy": 0.17833333333333334,
+            "both_correct": 18,
+            "both_accuracy": 0.03,
+            "food_correct": 103,
+            "water_correct": 111,
+            "outcome_counts": {
+              "00": 404,
+              "01": 93,
+              "10": 85,
+              "11": 18
+            }
+          }
+        ],
+        "episodes": 1200,
+        "horizon": 1,
+        "world_sha256": "a5c353b7d1ebff61bb3b570e5c80122a4700bb88dc194f10bb4dffc2f740387e",
+        "map_groups": {
+          "seen": {
+            "n": 960,
+            "decisions": 1920,
+            "reward_sum": 175.0,
+            "mean_reward": 0.18229166666666666,
+            "reward_variance": 0.0761447482638889,
+            "positive_rewards": 315,
+            "single_correct": 350,
+            "single_accuracy": 0.18229166666666666,
+            "both_correct": 35,
+            "both_accuracy": 0.036458333333333336,
+            "food_correct": 177,
+            "water_correct": 173,
+            "outcome_counts": {
+              "00": 645,
+              "01": 138,
+              "10": 142,
+              "11": 35
+            }
+          },
+          "unseen": {
+            "n": 240,
+            "decisions": 480,
+            "reward_sum": 40.0,
+            "mean_reward": 0.16666666666666666,
+            "reward_variance": 0.06805555555555556,
+            "positive_rewards": 74,
+            "single_correct": 80,
+            "single_accuracy": 0.16666666666666666,
+            "both_correct": 6,
+            "both_accuracy": 0.025,
+            "food_correct": 35,
+            "water_correct": 45,
+            "outcome_counts": {
+              "00": 166,
+              "01": 39,
+              "10": 29,
+              "11": 6
+            }
+          }
+        },
+        "maps_were_withheld": true
+      },
+      "blank": {
+        "n": 1200,
+        "decisions": 2400,
+        "reward_sum": 200.0,
+        "mean_reward": 0.16666666666666666,
+        "reward_variance": 0.07222222222222224,
+        "positive_rewards": 360,
+        "single_correct": 400,
+        "single_accuracy": 0.16666666666666666,
+        "both_correct": 40,
+        "both_accuracy": 0.03333333333333333,
+        "food_correct": 200,
+        "water_correct": 200,
+        "outcome_counts": {
+          "00": 840,
+          "01": 160,
+          "10": 160,
+          "11": 40
+        },
+        "direction_means": [
+          0.16666666666666666,
+          0.16666666666666666
+        ],
+        "direction_metrics": [
+          {
+            "n": 600,
+            "decisions": 1200,
+            "reward_sum": 100.0,
+            "mean_reward": 0.16666666666666666,
+            "reward_variance": 0.07222222222222224,
+            "positive_rewards": 180,
+            "single_correct": 200,
+            "single_accuracy": 0.16666666666666666,
+            "both_correct": 20,
+            "both_accuracy": 0.03333333333333333,
+            "food_correct": 100,
+            "water_correct": 100,
+            "outcome_counts": {
+              "00": 420,
+              "01": 80,
+              "10": 80,
+              "11": 20
+            }
+          },
+          {
+            "n": 600,
+            "decisions": 1200,
+            "reward_sum": 100.0,
+            "mean_reward": 0.16666666666666666,
+            "reward_variance": 0.07222222222222224,
+            "positive_rewards": 180,
+            "single_correct": 200,
+            "single_accuracy": 0.16666666666666666,
+            "both_correct": 20,
+            "both_accuracy": 0.03333333333333333,
+            "food_correct": 100,
+            "water_correct": 100,
+            "outcome_counts": {
+              "00": 420,
+              "01": 80,
+              "10": 80,
+              "11": 20
+            }
+          }
+        ],
+        "episodes": 1200,
+        "horizon": 1,
+        "world_sha256": "a5c353b7d1ebff61bb3b570e5c80122a4700bb88dc194f10bb4dffc2f740387e",
+        "map_groups": {
+          "seen": {
+            "n": 960,
+            "decisions": 1920,
+            "reward_sum": 160.0,
+            "mean_reward": 0.16666666666666666,
+            "reward_variance": 0.0763888888888889,
+            "positive_rewards": 280,
+            "single_correct": 320,
+            "single_accuracy": 0.16666666666666666,
+            "both_correct": 40,
+            "both_accuracy": 0.041666666666666664,
+            "food_correct": 160,
+            "water_correct": 160,
+            "outcome_counts": {
+              "00": 680,
+              "01": 120,
+              "10": 120,
+              "11": 40
+            }
+          },
+          "unseen": {
+            "n": 240,
+            "decisions": 480,
+            "reward_sum": 40.0,
+            "mean_reward": 0.16666666666666666,
+            "reward_variance": 0.05555555555555557,
+            "positive_rewards": 80,
+            "single_correct": 80,
+            "single_accuracy": 0.16666666666666666,
+            "both_correct": 0,
+            "both_accuracy": 0.0,
+            "food_correct": 40,
+            "water_correct": 40,
+            "outcome_counts": {
+              "00": 160,
+              "01": 40,
+              "10": 40,
+              "11": 0
+            }
+          }
+        },
+        "maps_were_withheld": true
+      },
+      "stochastic": {
+        "n": 1200,
+        "decisions": 2400,
+        "reward_sum": 177.0,
+        "mean_reward": 0.1475,
+        "reward_variance": 0.06407708333333334,
+        "positive_rewards": 325,
+        "single_correct": 354,
+        "single_accuracy": 0.1475,
+        "both_correct": 29,
+        "both_accuracy": 0.024166666666666666,
+        "food_correct": 180,
+        "water_correct": 174,
+        "outcome_counts": {
+          "00": 875,
+          "01": 145,
+          "10": 151,
+          "11": 29
+        },
+        "direction_means": [
+          0.14583333333333334,
+          0.14916666666666667
+        ],
+        "direction_metrics": [
+          {
+            "n": 600,
+            "decisions": 1200,
+            "reward_sum": 87.5,
+            "mean_reward": 0.14583333333333334,
+            "reward_variance": 0.06164930555555556,
+            "positive_rewards": 163,
+            "single_correct": 175,
+            "single_accuracy": 0.14583333333333334,
+            "both_correct": 12,
+            "both_accuracy": 0.02,
+            "food_correct": 91,
+            "water_correct": 84,
+            "outcome_counts": {
+              "00": 437,
+              "01": 72,
+              "10": 79,
+              "11": 12
+            }
+          },
+          {
+            "n": 600,
+            "decisions": 1200,
+            "reward_sum": 89.5,
+            "mean_reward": 0.14916666666666667,
+            "reward_variance": 0.06649930555555557,
+            "positive_rewards": 162,
+            "single_correct": 179,
+            "single_accuracy": 0.14916666666666667,
+            "both_correct": 17,
+            "both_accuracy": 0.028333333333333332,
+            "food_correct": 89,
+            "water_correct": 90,
+            "outcome_counts": {
+              "00": 438,
+              "01": 73,
+              "10": 72,
+              "11": 17
+            }
+          }
+        ],
+        "episodes": 1200,
+        "horizon": 1,
+        "world_sha256": "a5c353b7d1ebff61bb3b570e5c80122a4700bb88dc194f10bb4dffc2f740387e",
+        "map_groups": {
+          "seen": {
+            "n": 960,
+            "decisions": 1920,
+            "reward_sum": 145.0,
+            "mean_reward": 0.15104166666666666,
+            "reward_variance": 0.06416558159722223,
+            "positive_rewards": 268,
+            "single_correct": 290,
+            "single_accuracy": 0.15104166666666666,
+            "both_correct": 22,
+            "both_accuracy": 0.022916666666666665,
+            "food_correct": 140,
+            "water_correct": 150,
+            "outcome_counts": {
+              "00": 692,
+              "01": 128,
+              "10": 118,
+              "11": 22
+            }
+          },
+          "unseen": {
+            "n": 240,
+            "decisions": 480,
+            "reward_sum": 32.0,
+            "mean_reward": 0.13333333333333333,
+            "reward_variance": 0.06347222222222222,
+            "positive_rewards": 57,
+            "single_correct": 64,
+            "single_accuracy": 0.13333333333333333,
+            "both_correct": 7,
+            "both_accuracy": 0.029166666666666667,
+            "food_correct": 40,
+            "water_correct": 24,
+            "outcome_counts": {
+              "00": 183,
+              "01": 17,
+              "10": 33,
+              "11": 7
+            }
+          }
+        },
+        "maps_were_withheld": true
+      },
+      "erase_memory": {
+        "n": 1200,
+        "decisions": 2400,
+        "reward_sum": 200.0,
+        "mean_reward": 0.16666666666666666,
+        "reward_variance": 0.07222222222222223,
+        "positive_rewards": 360,
+        "single_correct": 400,
+        "single_accuracy": 0.16666666666666666,
+        "both_correct": 40,
+        "both_accuracy": 0.03333333333333333,
+        "food_correct": 200,
+        "water_correct": 200,
+        "outcome_counts": {
+          "00": 840,
+          "01": 160,
+          "10": 160,
+          "11": 40
+        },
+        "direction_means": [
+          0.16666666666666666,
+          0.16666666666666666
+        ],
+        "direction_metrics": [
+          {
+            "n": 600,
+            "decisions": 1200,
+            "reward_sum": 100.0,
+            "mean_reward": 0.16666666666666666,
+            "reward_variance": 0.07222222222222223,
+            "positive_rewards": 180,
+            "single_correct": 200,
+            "single_accuracy": 0.16666666666666666,
+            "both_correct": 20,
+            "both_accuracy": 0.03333333333333333,
+            "food_correct": 100,
+            "water_correct": 100,
+            "outcome_counts": {
+              "00": 420,
+              "01": 80,
+              "10": 80,
+              "11": 20
+            }
+          },
+          {
+            "n": 600,
+            "decisions": 1200,
+            "reward_sum": 100.0,
+            "mean_reward": 0.16666666666666666,
+            "reward_variance": 0.07222222222222223,
+            "positive_rewards": 180,
+            "single_correct": 200,
+            "single_accuracy": 0.16666666666666666,
+            "both_correct": 20,
+            "both_accuracy": 0.03333333333333333,
+            "food_correct": 100,
+            "water_correct": 100,
+            "outcome_counts": {
+              "00": 420,
+              "01": 80,
+              "10": 80,
+              "11": 20
+            }
+          }
+        ],
+        "episodes": 1200,
+        "horizon": 1,
+        "world_sha256": "a5c353b7d1ebff61bb3b570e5c80122a4700bb88dc194f10bb4dffc2f740387e",
+        "map_groups": {
+          "seen": {
+            "n": 960,
+            "decisions": 1920,
+            "reward_sum": 160.0,
+            "mean_reward": 0.16666666666666666,
+            "reward_variance": 0.06597222222222224,
+            "positive_rewards": 300,
+            "single_correct": 320,
+            "single_accuracy": 0.16666666666666666,
+            "both_correct": 20,
+            "both_accuracy": 0.020833333333333332,
+            "food_correct": 160,
+            "water_correct": 160,
+            "outcome_counts": {
+              "00": 660,
+              "01": 140,
+              "10": 140,
+              "11": 20
+            }
+          },
+          "unseen": {
+            "n": 240,
+            "decisions": 480,
+            "reward_sum": 40.0,
+            "mean_reward": 0.16666666666666666,
+            "reward_variance": 0.09722222222222222,
+            "positive_rewards": 60,
+            "single_correct": 80,
+            "single_accuracy": 0.16666666666666666,
+            "both_correct": 20,
+            "both_accuracy": 0.08333333333333333,
+            "food_correct": 40,
+            "water_correct": 40,
+            "outcome_counts": {
+              "00": 180,
+              "01": 20,
+              "10": 20,
+              "11": 20
+            }
+          }
+        },
+        "maps_were_withheld": true
+      }
+    }
+  },
+  {
+    "update": 2,
+    "scores": {
+      "normal": {
+        "n": 1200,
+        "decisions": 2400,
+        "reward_sum": 203.5,
+        "mean_reward": 0.16958333333333334,
+        "reward_variance": 0.07353315972222223,
+        "positive_rewards": 365,
+        "single_correct": 407,
+        "single_accuracy": 0.16958333333333334,
+        "both_correct": 42,
+        "both_accuracy": 0.035,
+        "food_correct": 182,
+        "water_correct": 225,
+        "outcome_counts": {
+          "00": 835,
+          "01": 183,
+          "10": 140,
+          "11": 42
+        },
+        "direction_means": [
+          0.1675,
+          0.17166666666666666
+        ],
+        "direction_metrics": [
+          {
+            "n": 600,
+            "decisions": 1200,
+            "reward_sum": 100.5,
+            "mean_reward": 0.1675,
+            "reward_variance": 0.07236041666666668,
+            "positive_rewards": 181,
+            "single_correct": 201,
+            "single_accuracy": 0.1675,
+            "both_correct": 20,
+            "both_accuracy": 0.03333333333333333,
+            "food_correct": 100,
+            "water_correct": 101,
+            "outcome_counts": {
+              "00": 419,
+              "01": 81,
+              "10": 80,
+              "11": 20
+            }
+          },
+          {
+            "n": 600,
+            "decisions": 1200,
+            "reward_sum": 103.0,
+            "mean_reward": 0.17166666666666666,
+            "reward_variance": 0.07469722222222223,
+            "positive_rewards": 184,
+            "single_correct": 206,
+            "single_accuracy": 0.17166666666666666,
+            "both_correct": 22,
+            "both_accuracy": 0.03666666666666667,
+            "food_correct": 82,
+            "water_correct": 124,
+            "outcome_counts": {
+              "00": 416,
+              "01": 102,
+              "10": 60,
+              "11": 22
+            }
+          }
+        ],
+        "episodes": 1200,
+        "horizon": 1,
+        "world_sha256": "a5c353b7d1ebff61bb3b570e5c80122a4700bb88dc194f10bb4dffc2f740387e",
+        "map_groups": {
+          "seen": {
+            "n": 960,
+            "decisions": 1920,
+            "reward_sum": 155.0,
+            "mean_reward": 0.16145833333333334,
+            "reward_variance": 0.06716037326388886,
+            "positive_rewards": 286,
+            "single_correct": 310,
+            "single_accuracy": 0.16145833333333334,
+            "both_correct": 24,
+            "both_accuracy": 0.025,
+            "food_correct": 143,
+            "water_correct": 167,
+            "outcome_counts": {
+              "00": 674,
+              "01": 143,
+              "10": 119,
+              "11": 24
+            }
+          },
+          "unseen": {
+            "n": 240,
+            "decisions": 480,
+            "reward_sum": 48.5,
+            "mean_reward": 0.20208333333333334,
+            "reward_variance": 0.09770399305555554,
+            "positive_rewards": 79,
+            "single_correct": 97,
+            "single_accuracy": 0.20208333333333334,
+            "both_correct": 18,
+            "both_accuracy": 0.075,
+            "food_correct": 39,
+            "water_correct": 58,
+            "outcome_counts": {
+              "00": 161,
+              "01": 40,
+              "10": 21,
+              "11": 18
+            }
+          }
+        },
+        "maps_were_withheld": true
+      },
+      "shuffle": {
+        "n": 1200,
+        "decisions": 2400,
+        "reward_sum": 208.0,
+        "mean_reward": 0.17333333333333334,
+        "reward_variance": 0.07370555555555557,
+        "positive_rewards": 375,
+        "single_correct": 416,
+        "single_accuracy": 0.17333333333333334,
+        "both_correct": 41,
+        "both_accuracy": 0.034166666666666665,
+        "food_correct": 198,
+        "water_correct": 218,
+        "outcome_counts": {
+          "00": 825,
+          "01": 177,
+          "10": 157,
+          "11": 41
+        },
+        "direction_means": [
+          0.16916666666666666,
+          0.1775
+        ],
+        "direction_metrics": [
+          {
+            "n": 600,
+            "decisions": 1200,
+            "reward_sum": 101.5,
+            "mean_reward": 0.16916666666666666,
+            "reward_variance": 0.07263263888888889,
+            "positive_rewards": 183,
+            "single_correct": 203,
+            "single_accuracy": 0.16916666666666666,
+            "both_correct": 20,
+            "both_accuracy": 0.03333333333333333,
+            "food_correct": 100,
+            "water_correct": 103,
+            "outcome_counts": {
+              "00": 417,
+              "01": 83,
+              "10": 80,
+              "11": 20
+            }
+          },
+          {
+            "n": 600,
+            "decisions": 1200,
+            "reward_sum": 106.5,
+            "mean_reward": 0.1775,
+            "reward_variance": 0.07474375000000001,
+            "positive_rewards": 192,
+            "single_correct": 213,
+            "single_accuracy": 0.1775,
+            "both_correct": 21,
+            "both_accuracy": 0.035,
+            "food_correct": 98,
+            "water_correct": 115,
+            "outcome_counts": {
+              "00": 408,
+              "01": 94,
+              "10": 77,
+              "11": 21
+            }
+          }
+        ],
+        "episodes": 1200,
+        "horizon": 1,
+        "world_sha256": "a5c353b7d1ebff61bb3b570e5c80122a4700bb88dc194f10bb4dffc2f740387e",
+        "map_groups": {
+          "seen": {
+            "n": 960,
+            "decisions": 1920,
+            "reward_sum": 165.5,
+            "mean_reward": 0.17239583333333333,
+            "reward_variance": 0.07262342664930554,
+            "positive_rewards": 300,
+            "single_correct": 331,
+            "single_accuracy": 0.17239583333333333,
+            "both_correct": 31,
+            "both_accuracy": 0.03229166666666667,
+            "food_correct": 157,
+            "water_correct": 174,
+            "outcome_counts": {
+              "00": 660,
+              "01": 143,
+              "10": 126,
+              "11": 31
+            }
+          },
+          "unseen": {
+            "n": 240,
+            "decisions": 480,
+            "reward_sum": 42.5,
+            "mean_reward": 0.17708333333333334,
+            "reward_variance": 0.07801649305555554,
+            "positive_rewards": 75,
+            "single_correct": 85,
+            "single_accuracy": 0.17708333333333334,
+            "both_correct": 10,
+            "both_accuracy": 0.041666666666666664,
+            "food_correct": 41,
+            "water_correct": 44,
+            "outcome_counts": {
+              "00": 165,
+              "01": 34,
+              "10": 31,
+              "11": 10
+            }
+          }
+        },
+        "maps_were_withheld": true
+      },
+      "blank": {
+        "n": 1200,
+        "decisions": 2400,
+        "reward_sum": 200.0,
+        "mean_reward": 0.16666666666666666,
+        "reward_variance": 0.07222222222222224,
+        "positive_rewards": 360,
+        "single_correct": 400,
+        "single_accuracy": 0.16666666666666666,
+        "both_correct": 40,
+        "both_accuracy": 0.03333333333333333,
+        "food_correct": 200,
+        "water_correct": 200,
+        "outcome_counts": {
+          "00": 840,
+          "01": 160,
+          "10": 160,
+          "11": 40
+        },
+        "direction_means": [
+          0.16666666666666666,
+          0.16666666666666666
+        ],
+        "direction_metrics": [
+          {
+            "n": 600,
+            "decisions": 1200,
+            "reward_sum": 100.0,
+            "mean_reward": 0.16666666666666666,
+            "reward_variance": 0.07222222222222224,
+            "positive_rewards": 180,
+            "single_correct": 200,
+            "single_accuracy": 0.16666666666666666,
+            "both_correct": 20,
+            "both_accuracy": 0.03333333333333333,
+            "food_correct": 100,
+            "water_correct": 100,
+            "outcome_counts": {
+              "00": 420,
+              "01": 80,
+              "10": 80,
+              "11": 20
+            }
+          },
+          {
+            "n": 600,
+            "decisions": 1200,
+            "reward_sum": 100.0,
+            "mean_reward": 0.16666666666666666,
+            "reward_variance": 0.07222222222222224,
+            "positive_rewards": 180,
+            "single_correct": 200,
+            "single_accuracy": 0.16666666666666666,
+            "both_correct": 20,
+            "both_accuracy": 0.03333333333333333,
+            "food_correct": 100,
+            "water_correct": 100,
+            "outcome_counts": {
+              "00": 420,
+              "01": 80,
+              "10": 80,
+              "11": 20
+            }
+          }
+        ],
+        "episodes": 1200,
+        "horizon": 1,
+        "world_sha256": "a5c353b7d1ebff61bb3b570e5c80122a4700bb88dc194f10bb4dffc2f740387e",
+        "map_groups": {
+          "seen": {
+            "n": 960,
+            "decisions": 1920,
+            "reward_sum": 160.0,
+            "mean_reward": 0.16666666666666666,
+            "reward_variance": 0.0763888888888889,
+            "positive_rewards": 280,
+            "single_correct": 320,
+            "single_accuracy": 0.16666666666666666,
+            "both_correct": 40,
+            "both_accuracy": 0.041666666666666664,
+            "food_correct": 160,
+            "water_correct": 160,
+            "outcome_counts": {
+              "00": 680,
+              "01": 120,
+              "10": 120,
+              "11": 40
+            }
+          },
+          "unseen": {
+            "n": 240,
+            "decisions": 480,
+            "reward_sum": 40.0,
+            "mean_reward": 0.16666666666666666,
+            "reward_variance": 0.05555555555555557,
+            "positive_rewards": 80,
+            "single_correct": 80,
+            "single_accuracy": 0.16666666666666666,
+            "both_correct": 0,
+            "both_accuracy": 0.0,
+            "food_correct": 40,
+            "water_correct": 40,
+            "outcome_counts": {
+              "00": 160,
+              "01": 40,
+              "10": 40,
+              "11": 0
+            }
+          }
+        },
+        "maps_were_withheld": true
+      },
+      "stochastic": {
+        "n": 1200,
+        "decisions": 2400,
+        "reward_sum": 178.5,
+        "mean_reward": 0.14875,
+        "reward_variance": 0.06391510416666667,
+        "positive_rewards": 329,
+        "single_correct": 357,
+        "single_accuracy": 0.14875,
+        "both_correct": 28,
+        "both_accuracy": 0.023333333333333334,
+        "food_correct": 183,
+        "water_correct": 174,
+        "outcome_counts": {
+          "00": 871,
+          "01": 146,
+          "10": 155,
+          "11": 28
+        },
+        "direction_means": [
+          0.1475,
+          0.15
+        ],
+        "direction_metrics": [
+          {
+            "n": 600,
+            "decisions": 1200,
+            "reward_sum": 88.5,
+            "mean_reward": 0.1475,
+            "reward_variance": 0.060327083333333344,
+            "positive_rewards": 167,
+            "single_correct": 177,
+            "single_accuracy": 0.1475,
+            "both_correct": 10,
+            "both_accuracy": 0.016666666666666666,
+            "food_correct": 92,
+            "water_correct": 85,
+            "outcome_counts": {
+              "00": 433,
+              "01": 75,
+              "10": 82,
+              "11": 10
+            }
+          },
+          {
+            "n": 600,
+            "decisions": 1200,
+            "reward_sum": 90.0,
+            "mean_reward": 0.15,
+            "reward_variance": 0.06749999999999999,
+            "positive_rewards": 162,
+            "single_correct": 180,
+            "single_accuracy": 0.15,
+            "both_correct": 18,
+            "both_accuracy": 0.03,
+            "food_correct": 91,
+            "water_correct": 89,
+            "outcome_counts": {
+              "00": 438,
+              "01": 71,
+              "10": 73,
+              "11": 18
+            }
+          }
+        ],
+        "episodes": 1200,
+        "horizon": 1,
+        "world_sha256": "a5c353b7d1ebff61bb3b570e5c80122a4700bb88dc194f10bb4dffc2f740387e",
+        "map_groups": {
+          "seen": {
+            "n": 960,
+            "decisions": 1920,
+            "reward_sum": 145.5,
+            "mean_reward": 0.1515625,
+            "reward_variance": 0.06374755859375,
+            "positive_rewards": 270,
+            "single_correct": 291,
+            "single_accuracy": 0.1515625,
+            "both_correct": 21,
+            "both_accuracy": 0.021875,
+            "food_correct": 143,
+            "water_correct": 148,
+            "outcome_counts": {
+              "00": 690,
+              "01": 127,
+              "10": 122,
+              "11": 21
+            }
+          },
+          "unseen": {
+            "n": 240,
+            "decisions": 480,
+            "reward_sum": 33.0,
+            "mean_reward": 0.1375,
+            "reward_variance": 0.06442708333333333,
+            "positive_rewards": 59,
+            "single_correct": 66,
+            "single_accuracy": 0.1375,
+            "both_correct": 7,
+            "both_accuracy": 0.029166666666666667,
+            "food_correct": 40,
+            "water_correct": 26,
+            "outcome_counts": {
+              "00": 181,
+              "01": 19,
+              "10": 33,
+              "11": 7
+            }
+          }
+        },
+        "maps_were_withheld": true
+      },
+      "erase_memory": {
+        "n": 1200,
+        "decisions": 2400,
+        "reward_sum": 200.0,
+        "mean_reward": 0.16666666666666666,
+        "reward_variance": 0.07222222222222224,
+        "positive_rewards": 360,
+        "single_correct": 400,
+        "single_accuracy": 0.16666666666666666,
+        "both_correct": 40,
+        "both_accuracy": 0.03333333333333333,
+        "food_correct": 200,
+        "water_correct": 200,
+        "outcome_counts": {
+          "00": 840,
+          "01": 160,
+          "10": 160,
+          "11": 40
+        },
+        "direction_means": [
+          0.16666666666666666,
+          0.16666666666666666
+        ],
+        "direction_metrics": [
+          {
+            "n": 600,
+            "decisions": 1200,
+            "reward_sum": 100.0,
+            "mean_reward": 0.16666666666666666,
+            "reward_variance": 0.07222222222222224,
+            "positive_rewards": 180,
+            "single_correct": 200,
+            "single_accuracy": 0.16666666666666666,
+            "both_correct": 20,
+            "both_accuracy": 0.03333333333333333,
+            "food_correct": 100,
+            "water_correct": 100,
+            "outcome_counts": {
+              "00": 420,
+              "01": 80,
+              "10": 80,
+              "11": 20
+            }
+          },
+          {
+            "n": 600,
+            "decisions": 1200,
+            "reward_sum": 100.0,
+            "mean_reward": 0.16666666666666666,
+            "reward_variance": 0.07222222222222223,
+            "positive_rewards": 180,
+            "single_correct": 200,
+            "single_accuracy": 0.16666666666666666,
+            "both_correct": 20,
+            "both_accuracy": 0.03333333333333333,
+            "food_correct": 100,
+            "water_correct": 100,
+            "outcome_counts": {
+              "00": 420,
+              "01": 80,
+              "10": 80,
+              "11": 20
+            }
+          }
+        ],
+        "episodes": 1200,
+        "horizon": 1,
+        "world_sha256": "a5c353b7d1ebff61bb3b570e5c80122a4700bb88dc194f10bb4dffc2f740387e",
+        "map_groups": {
+          "seen": {
+            "n": 960,
+            "decisions": 1920,
+            "reward_sum": 160.0,
+            "mean_reward": 0.16666666666666666,
+            "reward_variance": 0.06597222222222224,
+            "positive_rewards": 300,
+            "single_correct": 320,
+            "single_accuracy": 0.16666666666666666,
+            "both_correct": 20,
+            "both_accuracy": 0.020833333333333332,
+            "food_correct": 160,
+            "water_correct": 160,
+            "outcome_counts": {
+              "00": 660,
+              "01": 140,
+              "10": 140,
+              "11": 20
+            }
+          },
+          "unseen": {
+            "n": 240,
+            "decisions": 480,
+            "reward_sum": 40.0,
+            "mean_reward": 0.16666666666666666,
+            "reward_variance": 0.09722222222222222,
+            "positive_rewards": 60,
+            "single_correct": 80,
+            "single_accuracy": 0.16666666666666666,
+            "both_correct": 20,
+            "both_accuracy": 0.08333333333333333,
+            "food_correct": 40,
+            "water_correct": 40,
+            "outcome_counts": {
+              "00": 180,
+              "01": 20,
+              "10": 20,
+              "11": 20
+            }
+          }
+        },
+        "maps_were_withheld": true
+      }
+    }
+  }
+]

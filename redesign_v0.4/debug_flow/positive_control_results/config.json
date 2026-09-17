@@ -1,0 +1,45 @@
+{
+  "purpose": "engineering receiver-path positive control, not language emergence",
+  "seeds": [
+    101,
+    202,
+    303
+  ],
+  "recipient": 0,
+  "initializations": [
+    "prepared",
+    "random"
+  ],
+  "learning_rates": [
+    0.001,
+    0.0003
+  ],
+  "updates": 500,
+  "batch": 128,
+  "entropy": 0.01,
+  "clip_norm": 2,
+  "evaluation_n": 4096,
+  "test_split_only_for_scoring": true,
+  "symbol_codebook": {
+    "1": "food",
+    "2": "water"
+  },
+  "target_sampling": "exact 50/50 each batch, shuffled",
+  "local_options": "one food plus one water, randomized positions",
+  "public": "[0,0,remaining/16], remaining uniform integer 1..16",
+  "supervision_primary": "scalar reward only, fixed baseline 0.5",
+  "conditional_secondary": "If no primary final accuracy >=0.9, run supervised CE 500x128 at lr1e-3 in all seeds/initializations; capacity control only",
+  "no_success_based_budget_extension": true,
+  "torch": "2.14.0",
+  "python": "3.12.14",
+  "device": "cpu",
+  "source_sha256": {
+    "agents.py": "e370825812d7ea81f53d43e13197d44593aacdbbe7048cdcb5307650709e3f40",
+    "run_pilot.py": "e39e53869767b1d619612f7084b1e64af3fcd42ff7089952b7ac005be9a4f4fb"
+  },
+  "prepared_sha256": {
+    "101": "89bab5115659d86efba9144ff85babf6aa3f2b8e6d591161e6249775ba7029b1",
+    "202": "a99702cd274d63b0e91793412f217a5aa803323a86cd2283202c2dda32b26f8d",
+    "303": "a2bc1796259bb651cbd7689967401b0d7f0295a6f9319a53a9a3976ea539b5fe"
+  }
+}

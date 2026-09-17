@@ -1,0 +1,155 @@
+{
+  "status": "early_round1_source_identity_review_complete_with_one_pending",
+  "created_utc": "2026-09-15T16:49:46.587334+00:00",
+  "scope": "Only3 dual-visual-pass early-round1 candidates; no pixel viewing or visual reconsideration; no unsealed round2 mapping disclosed. Data evidence audit, not legal opinion.",
+  "records": [
+    {
+      "blind_id": "1e0495e5e2cf",
+      "candidate_id": "commons:174280626",
+      "stratum": "banana",
+      "title": "File:ကသဲငှက်ပျောသီး.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%E1%80%80%E1%80%9E%E1%80%B2%E1%80%84%E1%80%BE%E1%80%80%E1%80%BA%E1%80%95%E1%80%BB%E1%80%B1%E1%80%AC%E1%80%9E%E1%80%AE%E1%80%B8.jpg",
+      "page_revision": [
+        {
+          "revid": 1116418814,
+          "parentid": 1114318794,
+          "timestamp": "2025-11-16T00:17:41Z"
+        }
+      ],
+      "original_sha1": "b534152245e6e457b19891bce96289d8c803a1f8",
+      "author": "GTSPACE",
+      "author_url": "https://commons.wikimedia.org/wiki/User:GTSPACE",
+      "author_keys_checked": [
+        "commons-user:gtspace",
+        "text:gtspace"
+      ],
+      "cluster_id": "5d6aab7b083fa157430a2e8c184d86d6edb3c6ab2fdeb70bebd56de46426a20d",
+      "metadata_response": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/raw/0029_metadata_0190_a1.response",
+      "metadata_sha256": "6bc8d8b0c883950bafd18cf69bfb92ae9a06c20e04ccee10b5aba398ff0b93c7",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "attribution_required": "false",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:GTSPACE\" class=\"mw-redirect\" title=\"User:GTSPACE\">GTSPACE</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "original_source_keys": [],
+      "source_license_supported": true,
+      "same_revision_online": null,
+      "online_evidence": "File page and author page both returned non-retryable tool open failures; no alternate media or API route requested. Metadata Artist link is explicitly marked mw-redirect; target alias remains unresolved.",
+      "identity_status": "named_author_supported_redirect_target_unresolved",
+      "source_identity_note": "Commons own-work declaration; current uploader is a processing bot, not the author",
+      "resource_scope_note": "Both AI visual reviews identified banana; archived categories include Bananas as food. No new edibility or cultivar claim.",
+      "provisionally_workflow_usable_with_limits": false,
+      "pending_reason": "Known author redirect target was not resolved, so conservatively pending under identity-disambiguation rule; this is not a copyright or visual rejection.",
+      "old101_known_title_sha1_source_author_matches": 0,
+      "derivation_notice": "EXIF orientation/RGB; max640 LANCZOS JPEG95; short256 BICUBIC and center224 crop. CC BY-SA derivative images retain compatible share-alike terms; no assertion that image licenses apply to source code."
+    },
+    {
+      "blind_id": "6d8e0ea1ad49",
+      "candidate_id": "commons:133604411",
+      "stratum": "orange",
+      "title": "File:Orange Garden in Sittong, Darjeeling.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Orange_Garden_in_Sittong,_Darjeeling.jpg",
+      "page_revision": [
+        {
+          "revid": 1201557782,
+          "parentid": 1201557698,
+          "timestamp": "2026-04-22T06:49:11Z"
+        }
+      ],
+      "original_sha1": "f5812e5bc23e627f25c1f8c103991a7a0eadab78",
+      "author": "Auli Raha (অলি রাহা)",
+      "author_url": "https://commons.wikimedia.org/wiki/User:AuliRaha",
+      "author_keys_checked": [
+        "commons-user:auliraha",
+        "text:auli raha (অলি রাহা)"
+      ],
+      "cluster_id": "56ceb1a65964739918d42edb80dade4c903581e0f929f4d1263b2b428fdc1fc2",
+      "metadata_response": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/raw/0054_metadata_0420_a1.response",
+      "metadata_sha256": "6c4098ba41d4153d271eae0989f8ea0c025cc8ad12417407eea1a73373db783d",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution_required": "true",
+      "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:AuliRaha&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:AuliRaha (page does not exist)\">Auli Raha (অলি রাহা)</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "original_source_keys": [],
+      "source_license_supported": true,
+      "same_revision_online": 1201557782,
+      "online_evidence": "Official Commons text page matched archived revision1201557782 and original SHA1, with creator account AuliRaha and CC BY-SA4.0. Redlink is a missing user page, not missing named author; structured metadata corroborates the account.",
+      "identity_status": "author_original_and_license_supported",
+      "source_identity_note": "Commons own work; displayed creator and named account AuliRaha agree",
+      "resource_scope_note": "Both AI reviews identify citrus fruit; official file labels and description explicitly say oranges. No botanical species or freshness inference.",
+      "provisionally_workflow_usable_with_limits": true,
+      "pending_reason": null,
+      "old101_known_title_sha1_source_author_matches": 0,
+      "derivation_notice": "EXIF orientation/RGB; max640 LANCZOS JPEG95; short256 BICUBIC and center224 crop. CC BY-SA derivative images retain compatible share-alike terms; no assertion that image licenses apply to source code."
+    },
+    {
+      "blind_id": "d341ecdb75be",
+      "candidate_id": "commons:148662990",
+      "stratum": "banana",
+      "title": "File:Bananas (48585009292).jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bananas_(48585009292).jpg",
+      "page_revision": [
+        {
+          "revid": 1096749548,
+          "parentid": 1076455432,
+          "timestamp": "2025-10-08T12:40:32Z"
+        }
+      ],
+      "original_sha1": "533752d6311ce543778b04de1b8f58ceb57e48bc",
+      "author": "Brett Jordan",
+      "author_url": "https://www.flickr.com/people/55497864@N00",
+      "author_keys_checked": [
+        "flickr-author:55497864@n00",
+        "text:brett jordan"
+      ],
+      "cluster_id": "a030ea946b694b806c8fc6925c5129177bac1aa08de8abb9f7559eb24b8b19c2",
+      "metadata_response": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/raw/0035_metadata_0230_a1.response",
+      "metadata_sha256": "5cc63aca1682199879b1e1f01edcf02daca9c9c9cf860465228a8930d9fc2560",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "attribution_required": "true",
+      "artist_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/55497864@N00\">Brett Jordan</a>",
+      "credit_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/x1brett/48585009292/\">Bananas</a>",
+      "original_source_keys": [
+        "flickr-photo:48585009292"
+      ],
+      "source_license_supported": true,
+      "same_revision_online": 1096749548,
+      "online_evidence": "Official Commons text page matched archived revision1096749548 and original SHA1. Flickr license review by FlickreviewR2 on2024-05-23 confirms CC BY2.0.",
+      "identity_status": "author_original_and_license_supported",
+      "source_identity_note": "Flickr original photo48585009292, author55497864@N00; Commons uploader TaurusEmerald is not author",
+      "resource_scope_note": "Both AI reviews identify banana; official file description agrees.",
+      "provisionally_workflow_usable_with_limits": true,
+      "pending_reason": null,
+      "old101_known_title_sha1_source_author_matches": 0,
+      "derivation_notice": "EXIF orientation/RGB; max640 LANCZOS JPEG95; short256 BICUBIC and center224 crop. CC BY-SA derivative images retain compatible share-alike terms; no assertion that image licenses apply to source code."
+    }
+  ],
+  "source_license_supported": 3,
+  "workflow_usable_with_limits": 2,
+  "identity_pending": 1,
+  "checks": 45,
+  "old_author_keys_checked": 189,
+  "old_unresolved_authors": 3,
+  "old_unavailable_pixels": 11,
+  "source_hashes": {
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/review_early_round1/visual_merge.json": "60b0d72016c3ed131bb589d59aaaf4cdb8e86b27bf8908471ff7d23087a9271c",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/selection_manifest.json": "98f29f3f3e122c4e1ecae5697c6910dc0b91fd767160eab2848b784ca6ad7df0",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/old_exclusion_registry.json": "5e202b44dbb0c27436cb08396889ff91727bed976041f4e9d4851f31c7b0ea57",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/author_groups.json": "4329b30c2b3e0648a9bb535f6813e97bee9666581e47ae17730e979ddd2e73e3",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/raw/0029_metadata_0190_a1.response": "6bc8d8b0c883950bafd18cf69bfb92ae9a06c20e04ccee10b5aba398ff0b93c7",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/raw/0054_metadata_0420_a1.response": "6c4098ba41d4153d271eae0989f8ea0c025cc8ad12417407eea1a73373db783d",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/raw/0035_metadata_0230_a1.response": "5cc63aca1682199879b1e1f01edcf02daca9c9c9cf860465228a8930d9fc2560"
+  },
+  "network_text_page_attempts": 4,
+  "network_text_page_successes": 2,
+  "new_original_image_requests": 0,
+  "image_views": 0,
+  "model_calls": 0,
+  "limitations": [
+    "Known metadata identity keys do not establish universal author independence; old3 unresolved authors remain.",
+    "Whole batch pixel comparison flags0 cannot exclude every crop/series relationship.",
+    "GTSPACE redirect alias unresolved remains pending, without changing either AI visual judgment."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "at": "2026-09-16T05:03:31.079622+00:00",
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_directed_message_study/analysis.py": "189215adb5b945aee9a64ba52e2220060e58ee1e58d994f554717117a72e48a1",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_directed_message_study/test_analysis.py": "bdfb1de5de02f005308125b275c7c75b7bf73d515c09fc942afe0cf6abfbc268",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_directed_message_study/analysis_preflight_001.json": "32fd3e771616c438ebfd7b63f44d1fc106e0a0de144c633428506dd699303852",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_directed_message_study/plot_results.py": "645d1d5b9e561aca1eee40a699a5b43b250e455c070decc5ead20c1e739f1e99"
+  },
+  "revision": "Before any formal result read, changed only the redundant positive-count ratio validation to math.isclose(rel_tol=0,abs_tol=2e-15). The production value averages background fractions within group, then groups; direct integer count/total can differ by rounding. No scientific metric or primary equality changed.",
+  "tests": {
+    "tool_chunk_id": "698a0b",
+    "tests": 3,
+    "failures": 0,
+    "errors": 0,
+    "elapsed_seconds": 0.034
+  },
+  "added_fixture": "Mean([1/3,2/3,2/3]) differs from5/9 by one floating rounding step. It passes the tight redundant check; .01 corruption still fails.",
+  "primary_validation": "Full primary JSON dictionary still requires exact equality to main results; top-level stored stratum-mean arithmetic also remains exact.",
+  "plotting_static_check": {
+    "tool_chunk_id": "425289",
+    "command": "python -m py_compile research_program/triadic_directed_message_study/plot_results.py",
+    "status": "passed",
+    "figures_planned": 2,
+    "png_pdf": true,
+    "actual_visual_review": "Pending authorized completed data generation."
+  },
+  "formal_result_reads": 0,
+  "npz_reads": 0,
+  "checkpoint_loads": 0,
+  "model_forwards": 0,
+  "training_updates": 0,
+  "state": "Ready; awaiting audit pass and parent authorization for formal summary/figures."
+}

@@ -1,0 +1,26 @@
+{
+  "completed_utc": "2026-09-15T17:10:42.248732+00:00",
+  "status": "completed_targeted_primary_method_review",
+  "papers": 5,
+  "reused_pdfs": 3,
+  "new_pdfs": 2,
+  "download_failures": 0,
+  "model_calls": 0,
+  "new_semantic_probe_results_read": false,
+  "message_positions_selected": false,
+  "old_frozen_sources_modified": false,
+  "manual_title_author_check": true,
+  "files": {
+    "download_index.json": "7e99d02f45be2a0583fff76425d63d45e41793b7dfa2108d4fe21ba14eaaa45e",
+    "papers/2020_Korbak_Measuring_non-trivial_compositionality_in_emergent_communication_arXiv2010.15058v2.pdf": "3f4781245bc78f2465d37fe7a91cbc23f0a79de0129d2ec6473f72b5d2002859",
+    "papers/2021_Geiger_Causal_Abstractions_of_Neural_Networks_NeurIPS.pdf": "7f9c13b75f7f9fc78db1e35c9adb2d8e9fdd5a4229cb33d3a3fb8b45fd0c051c",
+    "text/geiger2021.pages.txt": "9ea34fa4eba52938f6e959b2684fbbbac08a5046b9de64e036a1dfd9a1056792",
+    "text/kaszynski2026.pages.txt": "cbef284610b5601079826ac3a186bc0d1610b7a6c46e284a22d42a43a33e10f9",
+    "text/kharitonov2020.pages.txt": "bb075c76bac60ebca7e7cbe56f9bde9bbe81309676a6aad31d4cabf3197b959a",
+    "text/korbak2020.pages.txt": "587891679582db3b24760d57e59ad16cb6f71b47aaf57e4368c131c7dfcf80b3",
+    "text/lowe2019.pages.txt": "b4af9a81ab405a80b6e6abd35d54c4caddcbb82cb29fab79187f8015875076d9",
+    "下载记录.md": "7af1b009e9d1ae2d7f2707893578b1ed49cfd73bb96a992e60a589725cb89d1e",
+    "因果消息干预_内容适切性与组合性.md": "c6a6788c0b2c98953832a10891dd3c22bc3cd3d21d97387ff728b766b21e99c4"
+  },
+  "final_text_check_utc": "2026-09-15T17:11:29.796736+00:00"
+}

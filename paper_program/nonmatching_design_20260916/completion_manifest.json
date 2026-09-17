@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "model_results_read": false,
+  "files_sha256": {
+    "近邻审查.md": "1ef88801032ccc97a407cdeb97ff4728e02b8448cfa776af89708dfa1c990646",
+    "来源记录.json": "71010f1b5c97d5b6794fcef61cf8032decb8c4b0ba622e4c4d1268b0c853d3de",
+    "design_arithmetic.json": "5f6141b4dfe595fd9551adb76e7f1cfaa9ae4cf3ca1b9c952c6eded1cd5b4666",
+    "config.toml": "5c9b53bfc1379ce6668e9d657033eb3805a9baa0cf1b7e622f334e547bbdc64c",
+    "packet_provenance.json": "936b92d62dd19417f17810f725fba306c6b8679a1686ea9f377b69672a34231b",
+    "packets/2004.09124.md": "4dc965c4c71c7fcee022749c21cefa2446d80a767a530d4d6f340c2c13d0298c",
+    "reviews/2004.09124.json": "f698170295dac19321208c384cc0187e232f8bd11592ee5c47fb8a531333e010",
+    "logs/packet_2004.09124.txt": "9def958eadbb12d405a28a7ecf5bf2fd35c644e028fd765b6b32593965c3e2fb",
+    "logs/record_review.txt": "9de06e222006546c81b6dd2d29b4c055ae085086b9834ef4847bab265890c0f8"
+  }
+}

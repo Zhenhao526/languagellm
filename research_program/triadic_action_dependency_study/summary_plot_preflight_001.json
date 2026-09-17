@@ -1,0 +1,16 @@
+{
+  "status": "synthetic_test_failed",
+  "command": "qwen_collect_pilot/.venv/bin/python -m unittest research_program.triadic_action_dependency_study.tests.test_summary_plot -v",
+  "tests": 7,
+  "failures": 1,
+  "exit_code": 1,
+  "reason": "Only path assertion: macOS /var temporary directory resolves to /private/var; actual resolver correctly returns resolved path, test compared unresolved target. Planned test-only change is target.resolve().",
+  "summary_implementation_changed": false,
+  "model_outputs_read": false,
+  "neural_forward_calls": 0,
+  "sources": {
+    "research_program/triadic_action_dependency_study/summarize_results.py": "fbf99ebd4ff68319eb98c6a5fc45ea245665a33b0b5e00b8d759ed434c18e803",
+    "research_program/triadic_action_dependency_study/plot_results.py": "3a1c27acc376c6865d4aebee8c8705f33e56b555dc33876d8ff36fc0ca2f32cc",
+    "research_program/triadic_action_dependency_study/tests/test_summary_plot.py": "8b9ec0edc4f31ac7c560200ac6b0850dd6f2a6b1ebda55fd8e6206402d5c1184"
+  }
+}

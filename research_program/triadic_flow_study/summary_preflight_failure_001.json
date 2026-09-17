@@ -1,0 +1,18 @@
+{
+  "status": "fixture_failure",
+  "at": "2026-09-16T05:31:37.519881+00:00",
+  "tool_chunk_id": "34c483",
+  "tests": 2,
+  "failures": 1,
+  "errors": 0,
+  "elapsed_seconds": 0.976,
+  "cause": "Fixture compared a nine-stratum mean of0.4 exactly to decimal0.4; stored mean0.39999999999999997 is valid reduction rounding. Audit-binding/refuse-overwrite fixture passed.",
+  "fix": "Use a1e-15 absolute tolerance only for the hand-written decimal vector expectation; production main-primary exact equality remains unchanged.",
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/summarize.py": "3a0042bb6bd5db60e3e5d988890580dda36b477525a11e14a604c651bde5b09a",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/test_summarize.py": "666af1516a32133a6bba251f7297f1eb0b4b242e957f69f30e3bb62a2fc444db"
+  },
+  "formal_result_reads": 0,
+  "npz_reads": 0,
+  "model_forwards": 0
+}

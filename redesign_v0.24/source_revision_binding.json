@@ -1,0 +1,74 @@
+{
+  "schema": "v24_structural_assay_revision_binding_v1",
+  "created_at": "2026-09-16T03:42:32.987764+00:00",
+  "status": "bound",
+  "original_review": {
+    "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.24/code_review.json",
+    "sha256": "b803f822dafc94119b22c4a0eff6427c9707331c9f3aee5afcd3b1c660ce7aab",
+    "unchanged": true,
+    "reviewed_assay_sha256": "1cfb2a28fd85088eb82e29de0468db0f6ec85e338b16b2bfb9b2acdc08cd2fbf"
+  },
+  "restored_reviewed_source": {
+    "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.24/source_history/structural_assay_reviewed_1cfb2a28fd85.py",
+    "sha256": "1cfb2a28fd85088eb82e29de0468db0f6ec85e338b16b2bfb9b2acdc08cd2fbf",
+    "provenance": "Restored now by reversing the documented optional-diagnostics patch; byte hash exactly matches the prior review binding. This is not claimed to be a contemporaneous earlier snapshot."
+  },
+  "current_source": {
+    "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.24/structural_assay.py",
+    "sha256": "bda5004eed00c66558233658c6ed7bba06443be8853946c53cbf5e647830b4bf",
+    "preserved_copy": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.24/source_history/structural_assay_diagnostic_bda5004eed00.py"
+  },
+  "diff": {
+    "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.24/source_history/structural_assay_return_details.diff",
+    "sha256": "b1b3f5af97f67db74c8c94855ec817f5ce2abbe1984fbb35e26156092dfda327"
+  },
+  "changes": [
+    "Added evaluate_protocol(..., return_details=False).",
+    "Allocated an auxiliary details dictionary; when explicitly requested, expose already computed target rates, reference target rates and donor-pair counts.",
+    "Default return remains the original summary dictionary; the CLI does not request details.",
+    "No donor selection, target weighting, reference bank, composition/inverse lookup, receiver action lookup, aggregation, report or CLI computation changed."
+  ],
+  "purpose": "Enable independent naive enumeration to compare every target rather than only group summaries; added during development review, not based on formal outcomes.",
+  "default_output_equivalence": [
+    {
+      "input": "factorized_toy",
+      "target_worlds": 120,
+      "references": 200,
+      "assignments": 2,
+      "all_default_output_fields_exactly_equal": true,
+      "optional_details_summary_exactly_equal": true,
+      "summary_sha256": "a83d503dc42364bd9867a83aad7e7ba42780e609a0ea461312f989c2d02cee73"
+    },
+    {
+      "input": "development_0040_d0",
+      "target_worlds": 960,
+      "references": 200,
+      "assignments": 2,
+      "all_default_output_fields_exactly_equal": true,
+      "optional_details_summary_exactly_equal": true,
+      "summary_sha256": "6c93c945567a870fddad6548cbe1dfcb4f969f2dd913b1c7aae3cc2e4d247bba"
+    }
+  ],
+  "development_input": {
+    "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.24/results/smoke_001/social/s99523_p1_mean/protocol_0040_d0.npz",
+    "sha256": "38cb71ddb5f3830bcdf913043608407cfc25c774ad965dd70d157a0c9209a07a"
+  },
+  "training_sources": [
+    {
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.24/focus_model.py",
+      "review_sha256": "9d031908f7be3ad6b0a013ab2d47979bc3d1810972896bc887e8d4c0975146a3",
+      "current_sha256": "9d031908f7be3ad6b0a013ab2d47979bc3d1810972896bc887e8d4c0975146a3",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.24/run_attention.py",
+      "review_sha256": "d6138c9d3427be869326a44d608b1ed5c0ebb7bb06203446c039b5d5a71a7a5a",
+      "current_sha256": "d6138c9d3427be869326a44d608b1ed5c0ebb7bb06203446c039b5d5a71a7a5a",
+      "unchanged": true
+    }
+  ],
+  "formal_protocols_evaluated_by_this_task": false,
+  "formal_model_outcomes_read_by_this_task": false,
+  "new_training_or_model_calls": 0,
+  "qualification": "Original code_review.json remains bound to the restored old bytes. This receipt explains the later optional diagnostics interface; it does not retroactively rewrite the independent review."
+}

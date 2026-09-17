@@ -1,0 +1,7 @@
+{
+  "at_utc": "2026-09-15T13:49:13.599597+00:00",
+  "source_sha256": "aa78ee8dcd4c30c9847a49d564dcdeb81dade732f348cc5c715f49962d0f5781",
+  "failure": "old_registry wrongly assumed all 101 records remain unique under casefold title normalization",
+  "before_new_metadata_queries": true,
+  "action": "retain every original record; recover raw extmetadata by original SHA1; allow conservative normalized-title merge only in blacklist"
+}

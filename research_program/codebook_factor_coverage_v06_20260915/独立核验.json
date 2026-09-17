@@ -1,0 +1,147 @@
+{
+  "audited_at": "2026-09-15T17:53:48.597780+08:00",
+  "status": "verified",
+  "errors": [],
+  "scope": "validation unseen, four split families only; split0/full controls excluded",
+  "checks": {
+    "runs": 48,
+    "receiver_tables": 96,
+    "map_direction_cells": 576,
+    "distinct_map_photo_contexts": 9216,
+    "source_hashes": {
+      "/Users/xia/Documents/ChatGPT/语言/redesign_v0.6/results/recombination_001/protocol_analysis.json": true,
+      "/Users/xia/Documents/ChatGPT/语言/research_program/codebook_factor_coverage.py": true,
+      "/Users/xia/Documents/ChatGPT/语言/research_program/codebook_audit.py": true,
+      "/Users/xia/Documents/ChatGPT/语言/redesign_v0.6/analyze_protocols.py": true,
+      "/Users/xia/Documents/ChatGPT/语言/redesign_v0.6/analysis_core.py": true
+    }
+  },
+  "formulas": {
+    "classification": "F={m:D(m,food)=food_location}; W={m:D(m,water)=water_location}; joint F intersect W, otherwise both marginals, exactly one, neither",
+    "native_oracle": "max_m (1[D(m,food)=food_location]+1[D(m,water)=water_location])/2",
+    "native_same_photos": "sum_m count(m)*(food_correct(m)+water_correct(m))/(2*16)",
+    "denominator": "4 trained seeds * 3 splits * 2 directions * 6 held-out maps * 16 saved photo pairs * 2 private goals = 4608 per family"
+  },
+  "families": [
+    {
+      "family": "course",
+      "map_direction_cells": 144,
+      "classes_in_order": {
+        "same_code_both_correct": 16,
+        "both_marginals_but_no_joint_code": 93,
+        "exactly_one_marginal_reachable": 15,
+        "neither_marginal_reachable": 20
+      },
+      "natural_same_photo_native_reward": [
+        1642,
+        4608
+      ],
+      "fixed_greedy_native_oracle_ceiling": [
+        2240,
+        4608
+      ],
+      "gap": [
+        598,
+        4608
+      ],
+      "native_rate": 0.3563368055555556,
+      "ceiling_rate": 0.4861111111111111,
+      "food_marginal_cells": 116,
+      "water_marginal_cells": 117
+    },
+    {
+      "family": "mixed",
+      "map_direction_cells": 144,
+      "classes_in_order": {
+        "same_code_both_correct": 22,
+        "both_marginals_but_no_joint_code": 107,
+        "exactly_one_marginal_reachable": 12,
+        "neither_marginal_reachable": 3
+      },
+      "natural_same_photo_native_reward": [
+        1744,
+        4608
+      ],
+      "fixed_greedy_native_oracle_ceiling": [
+        2608,
+        4608
+      ],
+      "gap": [
+        864,
+        4608
+      ],
+      "native_rate": 0.3784722222222222,
+      "ceiling_rate": 0.5659722222222222,
+      "food_marginal_cells": 135,
+      "water_marginal_cells": 135
+    },
+    {
+      "family": "direct",
+      "map_direction_cells": 144,
+      "classes_in_order": {
+        "same_code_both_correct": 33,
+        "both_marginals_but_no_joint_code": 90,
+        "exactly_one_marginal_reachable": 16,
+        "neither_marginal_reachable": 5
+      },
+      "natural_same_photo_native_reward": [
+        2096,
+        4608
+      ],
+      "fixed_greedy_native_oracle_ceiling": [
+        2752,
+        4608
+      ],
+      "gap": [
+        656,
+        4608
+      ],
+      "native_rate": 0.4548611111111111,
+      "ceiling_rate": 0.5972222222222222,
+      "food_marginal_cells": 129,
+      "water_marginal_cells": 133
+    },
+    {
+      "family": "atomic_direct",
+      "map_direction_cells": 144,
+      "classes_in_order": {
+        "same_code_both_correct": 25,
+        "both_marginals_but_no_joint_code": 85,
+        "exactly_one_marginal_reachable": 25,
+        "neither_marginal_reachable": 9
+      },
+      "natural_same_photo_native_reward": [
+        1922,
+        4608
+      ],
+      "fixed_greedy_native_oracle_ceiling": [
+        2560,
+        4608
+      ],
+      "gap": [
+        638,
+        4608
+      ],
+      "native_rate": 0.4171006944444444,
+      "ceiling_rate": 0.5555555555555556,
+      "food_marginal_cells": 121,
+      "water_marginal_cells": 124
+    }
+  ],
+  "direct_key_comparison": {
+    "native_numerator": 2096,
+    "oracle_numerator": 2752,
+    "denominator": 4608,
+    "gap_numerator": 656,
+    "gap_percentage_points": 14.23611111111111,
+    "old_random_45_39_percent_used": false
+  },
+  "limits": [
+    "The action lookup is the saved frozen logits.argmax policy, not stochastic support or a bound on physical/channel capacity.",
+    "The oracle selects a code knowing the map but not the private goal; it does not establish that a realizable sender can attain the ceiling.",
+    "Only aggregate delivered-message counts are saved; per-photo code identities are not reconstructed.",
+    "Four training seeds are the independent training units; splits, directions, map/photo contexts and duplicate goal axes are not independent trained groups.",
+    "This independent calculation loaded JSON only and made no model/training/inference calls."
+  ],
+  "new_model_calls": 0
+}

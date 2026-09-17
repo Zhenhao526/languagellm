@@ -1,0 +1,98 @@
+{
+  "status": "metadata_ranking_complete_pending_root_review",
+  "completed_at": "2026-09-15T14:00:21.517568+00:00",
+  "summary": {
+    "metadata_records": 1876,
+    "global_components_before_filtering": 1215,
+    "global_components_old_contaminated": 99,
+    "explicit_commons_source_link_status_counts": {
+      "unique_target": 6,
+      "unresolved_outside_frame": 16
+    },
+    "explicit_commons_source_edge_certainty_counts": {
+      "exact_title": 5,
+      "not_linked": 16,
+      "normalized_uncertain": 1
+    },
+    "water_reserved_global_components": 106,
+    "exclusion_counts_nonexclusive": {
+      "author_keys_missing": 17,
+      "short_side_below_512": 145,
+      "global_component_old_material_or_author_or_source": 147,
+      "license_pattern_not_supported": 64,
+      "mime_not_static_raster_candidate": 36,
+      "category_overlap": 18,
+      "explicit_generated_or_nonphoto_marker": 2,
+      "file_size_missing_or_outside_1_to_16MiB": 44
+    },
+    "labels": {
+      "apple": {
+        "target_accepted": 28,
+        "nomination_cap": 42,
+        "metadata_eligible_files": 379,
+        "metadata_eligible_global_components": 272,
+        "pool_files_after_water_priority": 360,
+        "pool_global_components_after_water_priority": 265,
+        "nominated": 42,
+        "primary": 28,
+        "reserve": 14,
+        "minimum_shortfall_before_visual_review": 0
+      },
+      "banana": {
+        "target_accepted": 28,
+        "nomination_cap": 42,
+        "metadata_eligible_files": 407,
+        "metadata_eligible_global_components": 303,
+        "pool_files_after_water_priority": 392,
+        "pool_global_components_after_water_priority": 297,
+        "nominated": 42,
+        "primary": 28,
+        "reserve": 14,
+        "minimum_shortfall_before_visual_review": 0
+      },
+      "orange": {
+        "target_accepted": 28,
+        "nomination_cap": 42,
+        "metadata_eligible_files": 502,
+        "metadata_eligible_global_components": 335,
+        "pool_files_after_water_priority": 491,
+        "pool_global_components_after_water_priority": 328,
+        "nominated": 42,
+        "primary": 28,
+        "reserve": 14,
+        "minimum_shortfall_before_visual_review": 0
+      },
+      "water": {
+        "target_accepted": 84,
+        "nomination_cap": 126,
+        "metadata_eligible_files": 164,
+        "metadata_eligible_global_components": 106,
+        "pool_files_after_water_priority": 164,
+        "pool_global_components_after_water_priority": 106,
+        "nominated": 106,
+        "primary": 84,
+        "reserve": 22,
+        "minimum_shortfall_before_visual_review": 0
+      }
+    },
+    "nominated_files": 232,
+    "declared_original_bytes": 618432302,
+    "max_original_bytes": 2147483648,
+    "max_original_requests": 252,
+    "declared_bytes_within_budget": true,
+    "minimum_metadata_targets_available": true,
+    "pixel_requests": 0,
+    "pixels_viewed": 0,
+    "visual_or_license_acceptance_complete": false,
+    "material_sets_assigned": false
+  },
+  "output_sha256": {
+    "candidate_inventory.json": "a2ebc5ccf314466b93f9390266b5139193ec3f4397894389d31b68342ed0fbdd",
+    "candidate_order.json": "8cadaaef6a7689c8c2d0186018237f932e66ed17694c15c76e2adb63a2a42013",
+    "review_template.jsonl": "e79e8ce3866a4d7ce6146dff041d0e417e6d0d9f6f0df6d2ba6d0066337b9b7f",
+    "reviewer_manifest.json": "689a75c0fde46cfd950e3ffb44934c9200d0ec0f0d162b7ba8ea05f7c9c5d266",
+    "global_components.json": "2fdb01137ae18c623a5eff7b913a3d6a02849e76d1e6a9aca5737690ec556917",
+    "freeze.json": "91ed7cde1bc0bafed57af3f3dec5bb99db4605c9c47d5f3a7118f68bce7214a7"
+  },
+  "interpretation": "metadata components are not verified photographers; no pixels, downloads, models, acceptance, or material allocation occurred"
+}

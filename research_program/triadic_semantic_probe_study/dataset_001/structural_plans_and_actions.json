@@ -1,0 +1,920 @@
+{
+  "agent_action_menus": {
+    "A": [
+      {
+        "kind": "wait"
+      },
+      {
+        "destination": "L",
+        "kind": "transport",
+        "partner": "B",
+        "site": "S0"
+      },
+      {
+        "destination": "L",
+        "kind": "transport",
+        "partner": "C",
+        "site": "S0"
+      },
+      {
+        "destination": "R",
+        "kind": "transport",
+        "partner": "B",
+        "site": "S0"
+      },
+      {
+        "destination": "R",
+        "kind": "transport",
+        "partner": "C",
+        "site": "S0"
+      },
+      {
+        "destination": "L",
+        "kind": "transport",
+        "partner": "B",
+        "site": "S1"
+      },
+      {
+        "destination": "L",
+        "kind": "transport",
+        "partner": "C",
+        "site": "S1"
+      },
+      {
+        "destination": "R",
+        "kind": "transport",
+        "partner": "B",
+        "site": "S1"
+      },
+      {
+        "destination": "R",
+        "kind": "transport",
+        "partner": "C",
+        "site": "S1"
+      },
+      {
+        "destination": "L",
+        "kind": "transport",
+        "partner": "B",
+        "site": "S2"
+      },
+      {
+        "destination": "L",
+        "kind": "transport",
+        "partner": "C",
+        "site": "S2"
+      },
+      {
+        "destination": "R",
+        "kind": "transport",
+        "partner": "B",
+        "site": "S2"
+      },
+      {
+        "destination": "R",
+        "kind": "transport",
+        "partner": "C",
+        "site": "S2"
+      },
+      {
+        "destination": "L",
+        "kind": "transport",
+        "partner": "B",
+        "site": "S3"
+      },
+      {
+        "destination": "L",
+        "kind": "transport",
+        "partner": "C",
+        "site": "S3"
+      },
+      {
+        "destination": "R",
+        "kind": "transport",
+        "partner": "B",
+        "site": "S3"
+      },
+      {
+        "destination": "R",
+        "kind": "transport",
+        "partner": "C",
+        "site": "S3"
+      }
+    ],
+    "B": [
+      {
+        "kind": "wait"
+      },
+      {
+        "destination": "L",
+        "kind": "transport",
+        "partner": "A",
+        "site": "S0"
+      },
+      {
+        "destination": "L",
+        "kind": "transport",
+        "partner": "C",
+        "site": "S0"
+      },
+      {
+        "destination": "R",
+        "kind": "transport",
+        "partner": "A",
+        "site": "S0"
+      },
+      {
+        "destination": "R",
+        "kind": "transport",
+        "partner": "C",
+        "site": "S0"
+      },
+      {
+        "destination": "L",
+        "kind": "transport",
+        "partner": "A",
+        "site": "S1"
+      },
+      {
+        "destination": "L",
+        "kind": "transport",
+        "partner": "C",
+        "site": "S1"
+      },
+      {
+        "destination": "R",
+        "kind": "transport",
+        "partner": "A",
+        "site": "S1"
+      },
+      {
+        "destination": "R",
+        "kind": "transport",
+        "partner": "C",
+        "site": "S1"
+      },
+      {
+        "destination": "L",
+        "kind": "transport",
+        "partner": "A",
+        "site": "S2"
+      },
+      {
+        "destination": "L",
+        "kind": "transport",
+        "partner": "C",
+        "site": "S2"
+      },
+      {
+        "destination": "R",
+        "kind": "transport",
+        "partner": "A",
+        "site": "S2"
+      },
+      {
+        "destination": "R",
+        "kind": "transport",
+        "partner": "C",
+        "site": "S2"
+      },
+      {
+        "destination": "L",
+        "kind": "transport",
+        "partner": "A",
+        "site": "S3"
+      },
+      {
+        "destination": "L",
+        "kind": "transport",
+        "partner": "C",
+        "site": "S3"
+      },
+      {
+        "destination": "R",
+        "kind": "transport",
+        "partner": "A",
+        "site": "S3"
+      },
+      {
+        "destination": "R",
+        "kind": "transport",
+        "partner": "C",
+        "site": "S3"
+      }
+    ],
+    "C": [
+      {
+        "kind": "wait"
+      },
+      {
+        "destination": "L",
+        "kind": "transport",
+        "partner": "A",
+        "site": "S0"
+      },
+      {
+        "destination": "L",
+        "kind": "transport",
+        "partner": "B",
+        "site": "S0"
+      },
+      {
+        "destination": "R",
+        "kind": "transport",
+        "partner": "A",
+        "site": "S0"
+      },
+      {
+        "destination": "R",
+        "kind": "transport",
+        "partner": "B",
+        "site": "S0"
+      },
+      {
+        "destination": "L",
+        "kind": "transport",
+        "partner": "A",
+        "site": "S1"
+      },
+      {
+        "destination": "L",
+        "kind": "transport",
+        "partner": "B",
+        "site": "S1"
+      },
+      {
+        "destination": "R",
+        "kind": "transport",
+        "partner": "A",
+        "site": "S1"
+      },
+      {
+        "destination": "R",
+        "kind": "transport",
+        "partner": "B",
+        "site": "S1"
+      },
+      {
+        "destination": "L",
+        "kind": "transport",
+        "partner": "A",
+        "site": "S2"
+      },
+      {
+        "destination": "L",
+        "kind": "transport",
+        "partner": "B",
+        "site": "S2"
+      },
+      {
+        "destination": "R",
+        "kind": "transport",
+        "partner": "A",
+        "site": "S2"
+      },
+      {
+        "destination": "R",
+        "kind": "transport",
+        "partner": "B",
+        "site": "S2"
+      },
+      {
+        "destination": "L",
+        "kind": "transport",
+        "partner": "A",
+        "site": "S3"
+      },
+      {
+        "destination": "L",
+        "kind": "transport",
+        "partner": "B",
+        "site": "S3"
+      },
+      {
+        "destination": "R",
+        "kind": "transport",
+        "partner": "A",
+        "site": "S3"
+      },
+      {
+        "destination": "R",
+        "kind": "transport",
+        "partner": "B",
+        "site": "S3"
+      }
+    ]
+  },
+  "all_24_plans": [
+    {
+      "actions": {
+        "A": {
+          "destination": "L",
+          "kind": "transport",
+          "partner": "B",
+          "site": "S0"
+        },
+        "B": {
+          "destination": "L",
+          "kind": "transport",
+          "partner": "A",
+          "site": "S0"
+        },
+        "C": {
+          "kind": "wait"
+        }
+      },
+      "indices": [
+        1,
+        1,
+        0
+      ],
+      "pair": "AB"
+    },
+    {
+      "actions": {
+        "A": {
+          "destination": "R",
+          "kind": "transport",
+          "partner": "B",
+          "site": "S0"
+        },
+        "B": {
+          "destination": "R",
+          "kind": "transport",
+          "partner": "A",
+          "site": "S0"
+        },
+        "C": {
+          "kind": "wait"
+        }
+      },
+      "indices": [
+        3,
+        3,
+        0
+      ],
+      "pair": "AB"
+    },
+    {
+      "actions": {
+        "A": {
+          "destination": "L",
+          "kind": "transport",
+          "partner": "B",
+          "site": "S1"
+        },
+        "B": {
+          "destination": "L",
+          "kind": "transport",
+          "partner": "A",
+          "site": "S1"
+        },
+        "C": {
+          "kind": "wait"
+        }
+      },
+      "indices": [
+        5,
+        5,
+        0
+      ],
+      "pair": "AB"
+    },
+    {
+      "actions": {
+        "A": {
+          "destination": "R",
+          "kind": "transport",
+          "partner": "B",
+          "site": "S1"
+        },
+        "B": {
+          "destination": "R",
+          "kind": "transport",
+          "partner": "A",
+          "site": "S1"
+        },
+        "C": {
+          "kind": "wait"
+        }
+      },
+      "indices": [
+        7,
+        7,
+        0
+      ],
+      "pair": "AB"
+    },
+    {
+      "actions": {
+        "A": {
+          "destination": "L",
+          "kind": "transport",
+          "partner": "B",
+          "site": "S2"
+        },
+        "B": {
+          "destination": "L",
+          "kind": "transport",
+          "partner": "A",
+          "site": "S2"
+        },
+        "C": {
+          "kind": "wait"
+        }
+      },
+      "indices": [
+        9,
+        9,
+        0
+      ],
+      "pair": "AB"
+    },
+    {
+      "actions": {
+        "A": {
+          "destination": "R",
+          "kind": "transport",
+          "partner": "B",
+          "site": "S2"
+        },
+        "B": {
+          "destination": "R",
+          "kind": "transport",
+          "partner": "A",
+          "site": "S2"
+        },
+        "C": {
+          "kind": "wait"
+        }
+      },
+      "indices": [
+        11,
+        11,
+        0
+      ],
+      "pair": "AB"
+    },
+    {
+      "actions": {
+        "A": {
+          "destination": "L",
+          "kind": "transport",
+          "partner": "B",
+          "site": "S3"
+        },
+        "B": {
+          "destination": "L",
+          "kind": "transport",
+          "partner": "A",
+          "site": "S3"
+        },
+        "C": {
+          "kind": "wait"
+        }
+      },
+      "indices": [
+        13,
+        13,
+        0
+      ],
+      "pair": "AB"
+    },
+    {
+      "actions": {
+        "A": {
+          "destination": "R",
+          "kind": "transport",
+          "partner": "B",
+          "site": "S3"
+        },
+        "B": {
+          "destination": "R",
+          "kind": "transport",
+          "partner": "A",
+          "site": "S3"
+        },
+        "C": {
+          "kind": "wait"
+        }
+      },
+      "indices": [
+        15,
+        15,
+        0
+      ],
+      "pair": "AB"
+    },
+    {
+      "actions": {
+        "A": {
+          "destination": "L",
+          "kind": "transport",
+          "partner": "C",
+          "site": "S0"
+        },
+        "B": {
+          "kind": "wait"
+        },
+        "C": {
+          "destination": "L",
+          "kind": "transport",
+          "partner": "A",
+          "site": "S0"
+        }
+      },
+      "indices": [
+        2,
+        0,
+        1
+      ],
+      "pair": "AC"
+    },
+    {
+      "actions": {
+        "A": {
+          "destination": "R",
+          "kind": "transport",
+          "partner": "C",
+          "site": "S0"
+        },
+        "B": {
+          "kind": "wait"
+        },
+        "C": {
+          "destination": "R",
+          "kind": "transport",
+          "partner": "A",
+          "site": "S0"
+        }
+      },
+      "indices": [
+        4,
+        0,
+        3
+      ],
+      "pair": "AC"
+    },
+    {
+      "actions": {
+        "A": {
+          "destination": "L",
+          "kind": "transport",
+          "partner": "C",
+          "site": "S1"
+        },
+        "B": {
+          "kind": "wait"
+        },
+        "C": {
+          "destination": "L",
+          "kind": "transport",
+          "partner": "A",
+          "site": "S1"
+        }
+      },
+      "indices": [
+        6,
+        0,
+        5
+      ],
+      "pair": "AC"
+    },
+    {
+      "actions": {
+        "A": {
+          "destination": "R",
+          "kind": "transport",
+          "partner": "C",
+          "site": "S1"
+        },
+        "B": {
+          "kind": "wait"
+        },
+        "C": {
+          "destination": "R",
+          "kind": "transport",
+          "partner": "A",
+          "site": "S1"
+        }
+      },
+      "indices": [
+        8,
+        0,
+        7
+      ],
+      "pair": "AC"
+    },
+    {
+      "actions": {
+        "A": {
+          "destination": "L",
+          "kind": "transport",
+          "partner": "C",
+          "site": "S2"
+        },
+        "B": {
+          "kind": "wait"
+        },
+        "C": {
+          "destination": "L",
+          "kind": "transport",
+          "partner": "A",
+          "site": "S2"
+        }
+      },
+      "indices": [
+        10,
+        0,
+        9
+      ],
+      "pair": "AC"
+    },
+    {
+      "actions": {
+        "A": {
+          "destination": "R",
+          "kind": "transport",
+          "partner": "C",
+          "site": "S2"
+        },
+        "B": {
+          "kind": "wait"
+        },
+        "C": {
+          "destination": "R",
+          "kind": "transport",
+          "partner": "A",
+          "site": "S2"
+        }
+      },
+      "indices": [
+        12,
+        0,
+        11
+      ],
+      "pair": "AC"
+    },
+    {
+      "actions": {
+        "A": {
+          "destination": "L",
+          "kind": "transport",
+          "partner": "C",
+          "site": "S3"
+        },
+        "B": {
+          "kind": "wait"
+        },
+        "C": {
+          "destination": "L",
+          "kind": "transport",
+          "partner": "A",
+          "site": "S3"
+        }
+      },
+      "indices": [
+        14,
+        0,
+        13
+      ],
+      "pair": "AC"
+    },
+    {
+      "actions": {
+        "A": {
+          "destination": "R",
+          "kind": "transport",
+          "partner": "C",
+          "site": "S3"
+        },
+        "B": {
+          "kind": "wait"
+        },
+        "C": {
+          "destination": "R",
+          "kind": "transport",
+          "partner": "A",
+          "site": "S3"
+        }
+      },
+      "indices": [
+        16,
+        0,
+        15
+      ],
+      "pair": "AC"
+    },
+    {
+      "actions": {
+        "A": {
+          "kind": "wait"
+        },
+        "B": {
+          "destination": "L",
+          "kind": "transport",
+          "partner": "C",
+          "site": "S0"
+        },
+        "C": {
+          "destination": "L",
+          "kind": "transport",
+          "partner": "B",
+          "site": "S0"
+        }
+      },
+      "indices": [
+        0,
+        2,
+        2
+      ],
+      "pair": "BC"
+    },
+    {
+      "actions": {
+        "A": {
+          "kind": "wait"
+        },
+        "B": {
+          "destination": "R",
+          "kind": "transport",
+          "partner": "C",
+          "site": "S0"
+        },
+        "C": {
+          "destination": "R",
+          "kind": "transport",
+          "partner": "B",
+          "site": "S0"
+        }
+      },
+      "indices": [
+        0,
+        4,
+        4
+      ],
+      "pair": "BC"
+    },
+    {
+      "actions": {
+        "A": {
+          "kind": "wait"
+        },
+        "B": {
+          "destination": "L",
+          "kind": "transport",
+          "partner": "C",
+          "site": "S1"
+        },
+        "C": {
+          "destination": "L",
+          "kind": "transport",
+          "partner": "B",
+          "site": "S1"
+        }
+      },
+      "indices": [
+        0,
+        6,
+        6
+      ],
+      "pair": "BC"
+    },
+    {
+      "actions": {
+        "A": {
+          "kind": "wait"
+        },
+        "B": {
+          "destination": "R",
+          "kind": "transport",
+          "partner": "C",
+          "site": "S1"
+        },
+        "C": {
+          "destination": "R",
+          "kind": "transport",
+          "partner": "B",
+          "site": "S1"
+        }
+      },
+      "indices": [
+        0,
+        8,
+        8
+      ],
+      "pair": "BC"
+    },
+    {
+      "actions": {
+        "A": {
+          "kind": "wait"
+        },
+        "B": {
+          "destination": "L",
+          "kind": "transport",
+          "partner": "C",
+          "site": "S2"
+        },
+        "C": {
+          "destination": "L",
+          "kind": "transport",
+          "partner": "B",
+          "site": "S2"
+        }
+      },
+      "indices": [
+        0,
+        10,
+        10
+      ],
+      "pair": "BC"
+    },
+    {
+      "actions": {
+        "A": {
+          "kind": "wait"
+        },
+        "B": {
+          "destination": "R",
+          "kind": "transport",
+          "partner": "C",
+          "site": "S2"
+        },
+        "C": {
+          "destination": "R",
+          "kind": "transport",
+          "partner": "B",
+          "site": "S2"
+        }
+      },
+      "indices": [
+        0,
+        12,
+        12
+      ],
+      "pair": "BC"
+    },
+    {
+      "actions": {
+        "A": {
+          "kind": "wait"
+        },
+        "B": {
+          "destination": "L",
+          "kind": "transport",
+          "partner": "C",
+          "site": "S3"
+        },
+        "C": {
+          "destination": "L",
+          "kind": "transport",
+          "partner": "B",
+          "site": "S3"
+        }
+      },
+      "indices": [
+        0,
+        14,
+        14
+      ],
+      "pair": "BC"
+    },
+    {
+      "actions": {
+        "A": {
+          "kind": "wait"
+        },
+        "B": {
+          "destination": "R",
+          "kind": "transport",
+          "partner": "C",
+          "site": "S3"
+        },
+        "C": {
+          "destination": "R",
+          "kind": "transport",
+          "partner": "B",
+          "site": "S3"
+        }
+      },
+      "indices": [
+        0,
+        16,
+        16
+      ],
+      "pair": "BC"
+    }
+  ],
+  "canonical_layout": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "canonical_private_sites": [
+    1,
+    2,
+    3
+  ]
+}

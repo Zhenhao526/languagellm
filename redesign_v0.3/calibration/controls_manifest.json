@@ -1,0 +1,10 @@
+{
+  "name": "controls_v1",
+  "scope": "Script and noop only; no model success is inferred",
+  "cases": [
+    {"id": "script_food_select_s101", "controller": "script", "scenario": "food_select", "seed": 101, "steps": 260},
+    {"id": "noop_wood_s101", "controller": "noop", "scenario": "wood", "seed": 101, "steps": 340},
+    {"id": "noop_food_selected_s101", "controller": "noop", "scenario": "food_selected", "seed": 101, "steps": 260},
+    {"id": "noop_food_select_s101", "controller": "noop", "scenario": "food_select", "seed": 101, "steps": 260}
+  ]
+}

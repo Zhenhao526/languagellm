@@ -1,0 +1,9 @@
+{
+  "created_at_utc": "2026-09-15T15:13:35.610133+00:00",
+  "reason": "Prior HTTP download succeeded but strict identity/page check failed and script did not retain the body. One explicit recovery retrieval now preserves raw bytes before interpretation; prior failure remains.",
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2019/file/f816dc0acface7498e10496222e9db10-Paper.pdf",
+  "prior_sha256": "754655e095eb48968603158a3f800ce79a9bb68db941f1678177bf97593a5fbc",
+  "max_attempts": 1,
+  "max_bytes": 16777216,
+  "timeout_seconds": 30
+}

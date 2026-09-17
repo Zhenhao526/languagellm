@@ -1,0 +1,31 @@
+{
+  "status": "passed_before_formal_prepare",
+  "at": "2026-09-16T11:06:26.875189",
+  "command": "qwen_collect_pilot/.venv/bin/python -m unittest research_program.triadic_role_decoder_study.tests.test_dataset research_program.triadic_role_decoder_study.tests.test_learner research_program.triadic_role_decoder_study.tests.test_runner -v",
+  "session_id": 5186,
+  "tool_chunks": [
+    "2521f7",
+    "f6ff89"
+  ],
+  "exit_code": 0,
+  "tests": 25,
+  "unittest_seconds": 1.242,
+  "formal_parameter_arrays_loaded": 0,
+  "formal_forward_module_samples": 0,
+  "formal_training_updates": 0,
+  "scratch_forward_module_samples_this_invocation": 498,
+  "scratch_optimizer_steps_this_invocation": 1,
+  "scratch_forward_samples_including_prior_learner_preflights": 1488,
+  "scratch_optimizer_steps_including_prior_learner_preflights": 3,
+  "stub_forward_samples_this_invocation": 18,
+  "seed_selection": "Exact numeric-boundary scan of old triadic Python sources before new formal code found no 55101-55103 use; tool chunk f36a59. Probe scores not read.",
+  "source_sha256": {
+    "runner.py": "da10a0d50e2e1b3f70e47dc6137cca78a18ac53e851c96797af9540ce8279eb1",
+    "dataset.py": "dd43cf5cbaff24810e9489bf558aa1da39829580206e5e4c2f933050986d3e2e",
+    "learner.py": "c98ea6b1fcd978a4d29eeda1f6875368e9ede42e7216ad6340ffc0c30bd3c11d",
+    "tests/test_runner.py": "2d079ce6995c80de10d88718e831894cfd5a4aec7ff28a8d2f0bf62f480755ff",
+    "tests/test_dataset.py": "f3346ec4b57cbe32250d3e4033878d133bc22ddb4fe3c868c04d158a913d2973",
+    "tests/test_learner.py": "e013a3e5dcf62b5901354c3e379cf9224d9d4c75e57e0bca5991a2a9bbe39d76",
+    "plan.md": "c7722deaf09a62855fcd9f46c0388ff1625db48bf0d62fa92808deca31bebeab"
+  }
+}

@@ -1,0 +1,872 @@
+{
+  "schema": "bounded_mixed_official_pool_v1",
+  "created_at": "2026-09-15T19:03:53.087423+00:00",
+  "top_n": 3,
+  "pool_count": 20,
+  "native_collector_count": 8,
+  "official_supplement_count": 12,
+  "window": "2024-01-01 through 2026-09-16; formal year and first/revised arXiv dates distinguished",
+  "collector_sha256": "2e0a18f5515d852b549b5dc560588c8f4db2f8c39010392b9b4a4fe2ca80c7f6",
+  "limitations": [
+    "Not a complete historical or systematic review. Native category ceiling misses older papers.",
+    "Official venue papers retain null arxiv_id; no fake arXiv identifiers are inserted.",
+    "Author citation metadata was not used to choose the three full texts.",
+    "No current experiment interim/final metrics read to select papers."
+  ],
+  "papers": [
+    {
+      "arxiv_id": "2609.01491",
+      "versioned_id": "2609.01491v1",
+      "title": "GlossoGen: Emergent Language in Complex Multi-Agent LLM Interactions",
+      "abstract": "The growing rate at which LLM agents interact with one another raises key questions about language evolution in multi-LLM-agent settings, with implications for safety and monitorability as well as for linguistic accounts of LLMs. To address these questions, we introduce GlossoGen, a novel platform for studying multi-agent language evolution in complex scenarios. Within GlossoGen, we build the SaveVeyru scenario, which requires agents with partial information to communicate under pressure. We find that language evolution does occur between LLM agents, that the resulting languages are compositional and morphologically productive, and that they deviate from the LLMs' English prior in ways that render them incomprehensible to humans. Moreover, we identify several qualities essential to this evolution: pressure towards efficiency; the strength of the models backing the agents; and access to a \"postmortem\" stage in which agents can agree on linguistic conventions. Importantly, we observe that different conditions govern the transmission of language to new agents. Specifically, we find that agents learn new languages from usage alone, take an active role in this learning, and that while stronger models are required for novel language emergence, weaker models can learn an existing language once it has emerged. Taken together, our results indicate that current LLMs have the potential for cumulative cultural evolution -- previously attested only in humans -- with mixed populations of agents developing capacities that go beyond their lowest common denominator.",
+      "authors": [
+        "Elias Stengel-Eskin",
+        "Newton Sander",
+        "Carlos Bonetti",
+        "Sasha Boguraev",
+        "James Bowler",
+        "Hale Sirin",
+        "Simon Kirby"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "primary_category": "cs.CL",
+      "published": "2026-09-01T16:22:07+00:00",
+      "updated": "2026-09-01T16:22:07+00:00",
+      "abs_url": "https://arxiv.org/abs/2609.01491",
+      "pdf_url": "https://arxiv.org/pdf/2609.01491v1",
+      "topics": [
+        "contextual_emergent_communication"
+      ],
+      "keyword_matches": [
+        "emergent language",
+        "language emergence",
+        "language evolution"
+      ],
+      "author_citation_sum": 13842,
+      "keyword_relevance_score": 82.0,
+      "author_prior_score": 70.0,
+      "metadata_priority_score": 83.9,
+      "review": null,
+      "author_metrics": [
+        {
+          "original_name": "Elias Stengel-Eskin",
+          "display_name": "Elias Stengel-Eskin",
+          "provider": "openalex",
+          "provider_id": "https://openalex.org/A5038276570",
+          "institution": "",
+          "cited_by_count": 277,
+          "works_count": 141,
+          "cached": false
+        },
+        {
+          "original_name": "Newton Sander",
+          "display_name": "Newton Sander",
+          "provider": "openalex",
+          "provider_id": "https://openalex.org/A5149350198",
+          "institution": "",
+          "cited_by_count": 0,
+          "works_count": 1,
+          "cached": false
+        },
+        {
+          "original_name": "Carlos Bonetti",
+          "display_name": "",
+          "provider": "openalex",
+          "provider_id": "",
+          "institution": "",
+          "cited_by_count": 0,
+          "works_count": 0,
+          "cached": false
+        },
+        {
+          "original_name": "Sasha Boguraev",
+          "display_name": "Sasha Boguraev",
+          "provider": "openalex",
+          "provider_id": "https://openalex.org/A5114414242",
+          "institution": "",
+          "cited_by_count": 2,
+          "works_count": 9,
+          "cached": false
+        },
+        {
+          "original_name": "James Bowler",
+          "display_name": "James Bowler",
+          "provider": "openalex",
+          "provider_id": "https://openalex.org/A5011506136",
+          "institution": "",
+          "cited_by_count": 33,
+          "works_count": 3,
+          "cached": false
+        },
+        {
+          "original_name": "Hale Sirin",
+          "display_name": "",
+          "provider": "openalex",
+          "provider_id": "",
+          "institution": "",
+          "cited_by_count": 0,
+          "works_count": 0,
+          "cached": false
+        },
+        {
+          "original_name": "Simon Kirby",
+          "display_name": "Simon Kirby",
+          "provider": "openalex",
+          "provider_id": "https://openalex.org/A5074565549",
+          "institution": "",
+          "cited_by_count": 13530,
+          "works_count": 482,
+          "cached": false
+        }
+      ],
+      "paper_id": "2609.01491",
+      "retrieval": "native_deterministic_collector",
+      "triage_decision": "retain_LLM_background",
+      "triage_reason": "复杂局部信息合作与协议代际学习相关；LLM英语先验及postmortem讨论与当前随机MLP离散共同学习不同。",
+      "triage_basis": "title and complete collected abstract only",
+      "full_text_reviewed_this_round": false
+    },
+    {
+      "arxiv_id": "2606.06380",
+      "versioned_id": "2606.06380v1",
+      "title": "Emergent Language as an Approach to Conscious AI",
+      "abstract": "The question of whether artificial systems can be conscious remains open, in part because existing approaches either evaluate systems against theory-derived checklists (discriminative) or engineer consciousness-inspired modules directly (architectural); both leave open whether observed structures are artifacts of human language priors. We propose a generative methodology: emergent language (EL) in multi-agent reinforcement learning, where agents start from minimal (no language, no concept of self, minimal exposure to human text) and develop communication under task pressure alone, ensuring causal attributability to task demands rather than inherited human language priors. We position our methodology by discussing how EL serves as a generative tool for studying consciousness-relevant structure, including the role of environment complexity and the interpretation of emergent communication. As a proof of concept, we instantiate this methodology in a minimal environment and show that agents develop self-referential communication, including an echo-mismatch detection circuit that is not predicted by task structure or architecture alone but emerges from a specific environmental affordance.",
+      "authors": [
+        "Zengqing Wu",
+        "Chuan Xiao"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.MA",
+        "cs.NE"
+      ],
+      "primary_category": "cs.CL",
+      "published": "2026-06-04T16:47:41+00:00",
+      "updated": "2026-06-04T16:47:41+00:00",
+      "abs_url": "https://arxiv.org/abs/2606.06380",
+      "pdf_url": "https://arxiv.org/pdf/2606.06380v1",
+      "topics": [
+        "contextual_emergent_communication"
+      ],
+      "keyword_matches": [
+        "emergent communication",
+        "emergent language"
+      ],
+      "author_citation_sum": 3953,
+      "keyword_relevance_score": 76.0,
+      "author_prior_score": 57.1,
+      "metadata_priority_score": 77.1,
+      "review": null,
+      "author_metrics": [
+        {
+          "original_name": "Zengqing Wu",
+          "display_name": "Zengqing Wu",
+          "provider": "openalex",
+          "provider_id": "https://openalex.org/A5114129919",
+          "institution": "",
+          "cited_by_count": 59,
+          "works_count": 5,
+          "cached": false
+        },
+        {
+          "original_name": "Chuan Xiao",
+          "display_name": "Chuan Xiao",
+          "provider": "openalex",
+          "provider_id": "https://openalex.org/A5090377305",
+          "institution": "",
+          "cited_by_count": 3894,
+          "works_count": 205,
+          "cached": false
+        }
+      ],
+      "paper_id": "2606.06380",
+      "retrieval": "native_deterministic_collector",
+      "triage_decision": "skip_current_question",
+      "triage_reason": "意识方法论和自指通信的概念目标较远；摘要未给当前情境迁移的受控比较。",
+      "triage_basis": "title and complete collected abstract only",
+      "full_text_reviewed_this_round": false
+    },
+    {
+      "arxiv_id": "2605.08613",
+      "versioned_id": "2605.08613v1",
+      "title": "Generalization Bounds of Emergent Communications for Agentic AI Networking",
+      "abstract": "The evolution of 6G networking toward agentic AI networking (AgentNet) systems requires a shift from traditional data pipelines to task-aware, agentic AI-native communication solutions. Emergent communication, a novel communication paradigm in which autonomous agents learn their own signaling protocols through interaction, is increasingly viewed as a promising solution to address the challenges posed by existing rigid, predefined protocol-based networking architecture. However, most existing emergent communication frameworks fail to account for physical networking constraints, such as bandwidth and computational complexity, and often lack a rigorous information-theoretical foundation. To address these challenges, this paper introduces a novel emergent communication framework that facilitates collaborative task-solving among heterogeneous agents through an information-theoretic lens. We propose a novel joint loss function that unifies the optimization of decision-making functions and the learning of communication signaling. Our proposed solution is grounded on the multi-agent and multi-task distributed information bottleneck (DIB) theory, which allows the quantification of the fundamental trade-off between task-relevant information representation and computational complexity. We further provide theoretical generalization bounds of the emergent communication protocol during decentralized inference across unseen environmental states. Experimental validation on a real-world hardware prototype confirms that our proposed framework significantly improves generalization performance, compared to the state-of-the-art solutions.",
+      "authors": [
+        "Yong Xiao",
+        "Jingxuan Chai",
+        "Guangming Shi",
+        "Ping Zhang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.IT",
+        "cs.MA"
+      ],
+      "primary_category": "cs.AI",
+      "published": "2026-05-09T02:15:34+00:00",
+      "updated": "2026-05-09T02:15:34+00:00",
+      "abs_url": "https://arxiv.org/abs/2605.08613",
+      "pdf_url": "https://arxiv.org/pdf/2605.08613v1",
+      "topics": [
+        "contextual_emergent_communication"
+      ],
+      "keyword_matches": [
+        "emergent communication"
+      ],
+      "author_citation_sum": 114414,
+      "keyword_relevance_score": 70.0,
+      "author_prior_score": 95.0,
+      "metadata_priority_score": 73.8,
+      "review": null,
+      "author_metrics": [
+        {
+          "original_name": "Yong Xiao",
+          "display_name": "Yong Xiao",
+          "provider": "openalex",
+          "provider_id": "https://openalex.org/A5100738543",
+          "institution": "",
+          "cited_by_count": 10439,
+          "works_count": 387,
+          "cached": false
+        },
+        {
+          "original_name": "Jingxuan Chai",
+          "display_name": "Jingxuan Chai",
+          "provider": "openalex",
+          "provider_id": "https://openalex.org/A5069758394",
+          "institution": "",
+          "cited_by_count": 76,
+          "works_count": 12,
+          "cached": false
+        },
+        {
+          "original_name": "Guangming Shi",
+          "display_name": "Guangming Shi",
+          "provider": "openalex",
+          "provider_id": "https://openalex.org/A5101549504",
+          "institution": "",
+          "cited_by_count": 20820,
+          "works_count": 676,
+          "cached": false
+        },
+        {
+          "original_name": "Ping Zhang",
+          "display_name": "Ping Zhang",
+          "provider": "openalex",
+          "provider_id": "https://openalex.org/A5100405781",
+          "institution": "",
+          "cited_by_count": 83079,
+          "works_count": 4423,
+          "cached": false
+        }
+      ],
+      "paper_id": "2605.08613",
+      "retrieval": "native_deterministic_collector",
+      "triage_decision": "retain_generalization_boundary",
+      "triage_reason": "信息瓶颈和未见网络状态泛化相邻；主要面向物理网络约束，不以内容适切整包干预为主。",
+      "triage_basis": "title and complete collected abstract only",
+      "full_text_reviewed_this_round": false
+    },
+    {
+      "arxiv_id": "2607.03752",
+      "versioned_id": "2607.03752v1",
+      "title": "EmCom-Diffusion: Probing Visual Reflection in Emergent Languages via Image Generation",
+      "abstract": "Measuring the extent to which emergent languages encode the visual content of their inputs is an open problem. We refer to this property as visual reflection: the extent to which emergent messages preserve information about their source images that can be recovered without appeal to the speaker-listener pair that produced them. Existing metrics measure it only indirectly, through proxies such as human-defined concept inventories, natural-language captions, structural distance correlations, or Referential Game accuracy, each of which can either miss visual content the message encodes or credit content it does not. We propose EmCom-Diffusion, an evaluation framework that measures visual reflection directly: it reconstructs each input image from its emergent message and compares the reconstruction with the original image itself, rather than with human-defined targets. Concretely, it finetunes a pretrained text-to-image diffusion model on (image, emergent-message) pairs and scores visual reflection as the perceptual similarity between the reconstructed and original images, operating generatively rather than discriminatively. Instantiating it on MS-COCO with a Referential Game, we validate the metric against random and fixed-token baselines under three pretrained visual encoders, and compare it against four existing metrics (CBM, supervised translation, TopSim, and R@1). EmCom-Diffusion captures visual content the other metrics miss.",
+      "authors": [
+        "Haruumi Omoto",
+        "Tadahiro Taniguchi"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL",
+        "cs.MA"
+      ],
+      "primary_category": "cs.CV",
+      "published": "2026-07-04T07:54:45+00:00",
+      "updated": "2026-07-04T07:54:45+00:00",
+      "abs_url": "https://arxiv.org/abs/2607.03752",
+      "pdf_url": "https://arxiv.org/pdf/2607.03752v1",
+      "topics": [
+        "contextual_emergent_communication"
+      ],
+      "keyword_matches": [
+        "emergent language"
+      ],
+      "author_citation_sum": 2945,
+      "keyword_relevance_score": 70.0,
+      "author_prior_score": 73.8,
+      "metadata_priority_score": 73.6,
+      "review": null,
+      "author_metrics": [
+        {
+          "original_name": "Haruumi Omoto",
+          "display_name": "Haruumi Omoto",
+          "provider": "openalex",
+          "provider_id": "https://openalex.org/A5119982500",
+          "institution": "",
+          "cited_by_count": 0,
+          "works_count": 3,
+          "cached": false
+        },
+        {
+          "original_name": "Tadahiro Taniguchi",
+          "display_name": "Tadahiro Taniguchi",
+          "provider": "openalex",
+          "provider_id": "https://openalex.org/A5023160093",
+          "institution": "",
+          "cited_by_count": 2945,
+          "works_count": 357,
+          "cached": false
+        }
+      ],
+      "paper_id": "2607.03752",
+      "retrieval": "native_deterministic_collector",
+      "triage_decision": "retain_interpretability_boundary",
+      "triage_reason": "从消息训练扩散模型重建原图；外部新解码器可恢复内容不等于原听者利用内容。",
+      "triage_basis": "title and complete collected abstract only",
+      "full_text_reviewed_this_round": false
+    },
+    {
+      "arxiv_id": "2607.00233",
+      "versioned_id": "2607.00233v1",
+      "title": "From Signals to Structure: How Memory Architecture Drives Language Emergence in LLM Agents",
+      "abstract": "How do two agents invent a shared language from scratch? In a Lewis signaling game, a sender and receiver must coordinate on a code using only their interaction history. We study five memory architectures across varying channel configurations with LLM agents and find that memory architecture matters more than channel capacity. Agents with a persistent private notebook benefit from surplus channel capacity and avoid the high-capacity collapse seen in stateless agents, achieving the most reliable coordination ($0.867 \\pm 0.023$ at capacity = 25). Stateless agents peak at moderate capacity and then degrade as the vocabulary grows beyond what a rolling context window can track The notebook externalizes learned conventions, freeing agents from having to re-derive codes each round. An information bottleneck-inspired argument predicts an optimal capacity equal to the number of objects. Instead, the bottleneck (capacity = 8) proves to be a fragility point, and surplus capacity is generally better. We show that channel capacity alone cannot predict coordination; memory architecture determines whether agents turn interaction history into stable conventions, and both dimensions are needed to understand how signals become language.",
+      "authors": [
+        "Yashar Talebirad",
+        "Eden Redman",
+        "Ali Parsaee",
+        "Osmar R. Zaiane"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.IT",
+        "cs.MA"
+      ],
+      "primary_category": "cs.AI",
+      "published": "2026-06-30T22:20:41+00:00",
+      "updated": "2026-06-30T22:20:41+00:00",
+      "abs_url": "https://arxiv.org/abs/2607.00233",
+      "pdf_url": "https://arxiv.org/pdf/2607.00233v1",
+      "topics": [
+        "contextual_emergent_communication"
+      ],
+      "keyword_matches": [
+        "language emergence"
+      ],
+      "author_citation_sum": 17921,
+      "keyword_relevance_score": 70.0,
+      "author_prior_score": 64.4,
+      "metadata_priority_score": 73.1,
+      "review": null,
+      "author_metrics": [
+        {
+          "original_name": "Yashar Talebirad",
+          "display_name": "Yashar Talebirad",
+          "provider": "openalex",
+          "provider_id": "https://openalex.org/A5092118678",
+          "institution": "",
+          "cited_by_count": 63,
+          "works_count": 4,
+          "cached": false
+        },
+        {
+          "original_name": "Eden Redman",
+          "display_name": "Eden Redman",
+          "provider": "openalex",
+          "provider_id": "https://openalex.org/A5120844790",
+          "institution": "",
+          "cited_by_count": 0,
+          "works_count": 8,
+          "cached": false
+        },
+        {
+          "original_name": "Ali Parsaee",
+          "display_name": "Ali Parsaee",
+          "provider": "openalex",
+          "provider_id": "https://openalex.org/A5093295156",
+          "institution": "",
+          "cited_by_count": 50,
+          "works_count": 2,
+          "cached": false
+        },
+        {
+          "original_name": "Osmar R. Zaiane",
+          "display_name": "Osmar R. Zai͏̈ane",
+          "provider": "openalex",
+          "provider_id": "https://openalex.org/A5053745515",
+          "institution": "",
+          "cited_by_count": 17808,
+          "works_count": 547,
+          "cached": false
+        }
+      ],
+      "paper_id": "2607.00233",
+      "retrieval": "native_deterministic_collector",
+      "triage_decision": "retain_LLM_background",
+      "triage_reason": "记忆架构×通道对Lewis协调重要，但不是世界信息可见性×冻结包迁移。",
+      "triage_basis": "title and complete collected abstract only",
+      "full_text_reviewed_this_round": false
+    },
+    {
+      "arxiv_id": "2605.09522",
+      "versioned_id": "2605.09522v1",
+      "title": "Emergent Communication for Co-constructed Emotion Between Embodied Agents via Collective Predictive Coding",
+      "abstract": "According to the theory of constructed emotion, the brain actively forms emotion categories by integrating multimodal bodily signals, and constructs emotional experiences by using these categories to predict and interpret sensory inputs. While research has advanced in modeling individual emotion construction, the social process of co-construction-how a shared understanding of emotions emerges between individuals-remains computationally underexplored. This study investigates this process by modeling emergent communication between two embodied agents using the Metropolis-Hastings Naming Game (MHNG), grounded in the Collective Predictive Coding (CPC) framework. Our experiments, using visual, auditory, and simulated interoceptive inputs, yield two main findings. First, MHNG-based communication significantly improves the alignment, clarity, and inter-agent agreement of the learned emotion categories compared to non-communicative and non-selective baselines, with the alignment effect concentrated at the symbolic layer rather than the perceptual latent representation. Second, even when the two agents have systematically divergent interoceptive dynamics, communication still produces robust categorical alignment, with distinct, category-specific reshaping patterns of each agent's emotion categories-consistent with the constructed-emotion view that interoceptive heterogeneity is constitutive of, rather than an obstacle to, shared emotional meaning. These findings provide computational support for the co-constructionist view of emotion and extend the CPC framework from physical to socially-grounded domains.",
+      "authors": [
+        "Zehang Zhang",
+        "Nguyen Le Hoang",
+        "Tadahiro Taniguchi",
+        "Takato Horii"
+      ],
+      "categories": [
+        "cs.MA"
+      ],
+      "primary_category": "cs.MA",
+      "published": "2026-05-10T13:14:50+00:00",
+      "updated": "2026-05-10T13:14:50+00:00",
+      "abs_url": "https://arxiv.org/abs/2605.09522",
+      "pdf_url": "https://arxiv.org/pdf/2605.09522v1",
+      "topics": [
+        "contextual_emergent_communication"
+      ],
+      "keyword_matches": [
+        "emergent communication"
+      ],
+      "author_citation_sum": 3751,
+      "keyword_relevance_score": 70.0,
+      "author_prior_score": 65.6,
+      "metadata_priority_score": 72.3,
+      "review": null,
+      "author_metrics": [
+        {
+          "original_name": "Zehang Zhang",
+          "display_name": "Zehang Zhang",
+          "provider": "openalex",
+          "provider_id": "https://openalex.org/A5069424024",
+          "institution": "",
+          "cited_by_count": 315,
+          "works_count": 8,
+          "cached": false
+        },
+        {
+          "original_name": "Nguyen Le Hoang",
+          "display_name": "",
+          "provider": "openalex",
+          "provider_id": "",
+          "institution": "",
+          "cited_by_count": 0,
+          "works_count": 0,
+          "cached": false
+        },
+        {
+          "original_name": "Tadahiro Taniguchi",
+          "display_name": "Tadahiro Taniguchi",
+          "provider": "openalex",
+          "provider_id": "https://openalex.org/A5023160093",
+          "institution": "",
+          "cited_by_count": 2945,
+          "works_count": 357,
+          "cached": true
+        },
+        {
+          "original_name": "Takato Horii",
+          "display_name": "Takato Horii",
+          "provider": "openalex",
+          "provider_id": "https://openalex.org/A5031377124",
+          "institution": "",
+          "cited_by_count": 491,
+          "works_count": 113,
+          "cached": false
+        }
+      ],
+      "paper_id": "2605.09522",
+      "retrieval": "native_deterministic_collector",
+      "triage_decision": "skip_current_question",
+      "triage_reason": "具身情绪分类对齐和命名游戏；当前行动与语义反事实问题较远。",
+      "triage_basis": "title and complete collected abstract only",
+      "full_text_reviewed_this_round": false
+    },
+    {
+      "arxiv_id": "2609.06025",
+      "versioned_id": "2609.06025v1",
+      "title": "Factors Influencing the Emergence of Dependency Length Minimization in Neural Agent Simulations",
+      "abstract": "Given various grammatical options, language users prefer the word order choice that reduces the overall length of syntactic dependencies, a principle known as dependency length minimization (DLM). The origins of this preference remain an open question, particularly whether it originates from constraints on efficient information processing. Computational simulations provide a powerful approach to identifying the factors influencing the emergence of linguistic phenomena. However, previous simulations of DLM have not examined realistic interaction contexts and have produced mixed results. The present study investigates the emergence of DLM in artificial languages using a recently proposed language learning and communication framework based on recurrent neural networks (RNNs). In this framework, agents are trained to speak and interpret artificial languages and then use these languages to communicate. Using this framework, we study the impact of several factors related to processing limitations in a communicative setting, such as noise during listening, limited speaker capacity, and incremental sentence processing. Our results reveal a complex interplay among these factors in shaping word order preferences in neural agents. Specifically, in the full meaning space, agents regularize toward a single dominant word order, while in the half meaning space they show a short-before-long preference that only aligns with DLM in verb-initial languages. A consistent DLM preference emerges only when agents are subject to incremental processing pressure. These findings suggest that limitations in human cognitive processing may indeed play a role in shaping DLM. Our findings provide insights into the conditions under which neural models replicate human-like preferences and highlight the challenges of designing emergent communication models that capture human cognitive biases in language processing.",
+      "authors": [
+        "Yuqing Zhang",
+        "Tessa Verhoef",
+        "Gertjan van Noord",
+        "Arianna Bisazza"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "published": "2026-09-05T11:03:54+00:00",
+      "updated": "2026-09-05T11:03:54+00:00",
+      "abs_url": "https://arxiv.org/abs/2609.06025",
+      "pdf_url": "https://arxiv.org/pdf/2609.06025v1",
+      "topics": [
+        "contextual_emergent_communication"
+      ],
+      "keyword_matches": [
+        "emergent communication"
+      ],
+      "author_citation_sum": 55250,
+      "keyword_relevance_score": 60.0,
+      "author_prior_score": 87.1,
+      "metadata_priority_score": 67.2,
+      "review": null,
+      "author_metrics": [
+        {
+          "original_name": "Yuqing Zhang",
+          "display_name": "Yuqing Zhang",
+          "provider": "openalex",
+          "provider_id": "https://openalex.org/A5015051319",
+          "institution": "",
+          "cited_by_count": 49045,
+          "works_count": 711,
+          "cached": false
+        },
+        {
+          "original_name": "Tessa Verhoef",
+          "display_name": "Tessa Verhoef",
+          "provider": "openalex",
+          "provider_id": "https://openalex.org/A5058670993",
+          "institution": "",
+          "cited_by_count": 1567,
+          "works_count": 84,
+          "cached": false
+        },
+        {
+          "original_name": "Gertjan van Noord",
+          "display_name": "Gertjan van Noord",
+          "provider": "openalex",
+          "provider_id": "https://openalex.org/A5047337772",
+          "institution": "",
+          "cited_by_count": 3109,
+          "works_count": 174,
+          "cached": false
+        },
+        {
+          "original_name": "Arianna Bisazza",
+          "display_name": "Arianna Bisazza",
+          "provider": "openalex",
+          "provider_id": "https://openalex.org/A5019968969",
+          "institution": "",
+          "cited_by_count": 1529,
+          "works_count": 109,
+          "cached": false
+        }
+      ],
+      "paper_id": "2609.06025",
+      "retrieval": "native_deterministic_collector",
+      "triage_decision": "skip_current_question",
+      "triage_reason": "研究依存距离与增量处理，起点含人工语言训练；不同于无预置代码的情境材料映射。",
+      "triage_basis": "title and complete collected abstract only",
+      "full_text_reviewed_this_round": false
+    },
+    {
+      "arxiv_id": "2606.19632",
+      "versioned_id": "2606.19632v1",
+      "title": "Formal Verification of Learned Multi-Agent Communication Policies via Decision Tree Distillation",
+      "abstract": "Multi-agent reinforcement learning (MARL) enables agents to develop coordination strategies through emergent communication, but neural policies lack the formal safety guarantees required for safety-critical robotic deployment in drone swarms and autonomous vehicle fleets. We present the first end-to-end framework for safety verification of learned multi-agent communication policies through policy abstraction: neural policies are distilled into interpretable decision trees, then formally verified, with empirical validation confirming that verified safety properties transfer to original networks. Our four-stage pipeline consists of domain-specific feature extraction from agent observations, decision tree distillation achieving 97.9% +/- 1.2% fidelity to neural policies, automated translation to PRISM probabilistic model checker specifications with complete feature-to-state-variable correspondence, and compositional verification of Probabilistic Computation Tree Logic (PCTL) properties via pairwise decomposition with union-bound aggregation and empirical neighbor modeling. Evaluating Vector-Quantized Variational Information Bottleneck (VQ-VIB) policies for multi-drone coordination with 5-7 agents, we verify 18 temporal logic properties across safety, liveness, and cooperation, achieving 88.9% property satisfaction with all five safety thresholds satisfied (0.3% collision probability vs. 1% threshold). Monte Carlo validation of original neural policies confirms that verified safety properties transfer with <=0.6 percentage-point deviation (95% CI). Discrete VQ-VIB messages provide +11.6 to +13.6 percentage-point fidelity advantages over continuous methods, enabling 3-4x faster verification. Our framework provides empirically validated safety verification for distilled policy abstractions, serving as a practical bridge between deep MARL and formal safety workflows for multi-robot deployment.",
+      "authors": [
+        "Ahmad Farooq",
+        "Kamran Iqbal"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG",
+        "cs.LO",
+        "cs.MA"
+      ],
+      "primary_category": "cs.RO",
+      "published": "2026-06-17T22:22:28+00:00",
+      "updated": "2026-06-17T22:22:28+00:00",
+      "abs_url": "https://arxiv.org/abs/2606.19632",
+      "pdf_url": "https://arxiv.org/pdf/2606.19632v1",
+      "topics": [
+        "contextual_emergent_communication"
+      ],
+      "keyword_matches": [
+        "emergent communication"
+      ],
+      "author_citation_sum": 2404,
+      "keyword_relevance_score": 60.0,
+      "author_prior_score": 72.0,
+      "metadata_priority_score": 65.2,
+      "review": null,
+      "author_metrics": [
+        {
+          "original_name": "Ahmad Farooq",
+          "display_name": "",
+          "provider": "openalex",
+          "provider_id": "",
+          "institution": "",
+          "cited_by_count": 0,
+          "works_count": 0,
+          "cached": false
+        },
+        {
+          "original_name": "Kamran Iqbal",
+          "display_name": "Kamran Iqbal",
+          "provider": "openalex",
+          "provider_id": "https://openalex.org/A5068395409",
+          "institution": "",
+          "cited_by_count": 2404,
+          "works_count": 218,
+          "cached": false
+        }
+      ],
+      "paper_id": "2606.19632",
+      "retrieval": "native_deterministic_collector",
+      "triage_decision": "skip_current_question",
+      "triage_reason": "蒸馏策略的安全性质验证；不能替代原协议消息内容与跨背景适切性的因果证据。",
+      "triage_basis": "title and complete collected abstract only",
+      "full_text_reviewed_this_round": false
+    },
+    {
+      "paper_id": "2604.03266",
+      "arxiv_id": "2604.03266",
+      "title": "Emergent Compositional Communication for Latent World Properties",
+      "authors": [
+        "Tomek Kaszyński"
+      ],
+      "date": "2026-03-18",
+      "version": "arXiv v1",
+      "abs_url": "https://arxiv.org/abs/2604.03266v1",
+      "abstract": "以冻结视频表示、四主体消息和迭代学习提取潜在物理性质，报告属性定点干预、留出组合与规划测试。",
+      "abstract_format": "Chinese paraphrase of official abstract checked this round",
+      "retrieval": "bounded_official_source_supplement",
+      "triage_basis": "title and official abstract only",
+      "triage_decision": "full_text_packet",
+      "triage_reason": "直接检验可迁移潜在内容与消息干预；需区分训练目标、代理解码器和部署效应。",
+      "full_text_reviewed_this_round": false
+    },
+    {
+      "paper_id": "official_supplement_2",
+      "arxiv_id": null,
+      "title": "Bridging semantics and pragmatics in information-theoretic emergent communication",
+      "authors": [
+        "Eleonora Gualdoni",
+        "Mycal Tucker",
+        "Roger P. Levy",
+        "Noga Zaslavsky"
+      ],
+      "date": "2024-12",
+      "version": "NeurIPS 2024 formal",
+      "abs_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/2548fbe155ed2405488b7d5373013a64-Abstract-Conference.html",
+      "abstract": "在自然图像指称任务中结合语用效用和信息约束，比较有共享情境训练与脱离情境的词汇语义。",
+      "abstract_format": "Chinese paraphrase of official abstract checked this round",
+      "retrieval": "bounded_official_source_supplement",
+      "triage_basis": "title and official abstract only",
+      "triage_decision": "full_text_packet",
+      "triage_reason": "最直接的情境信息操纵近邻；检查是否采用同任务与供体跨背景消息干预。",
+      "full_text_reviewed_this_round": false
+    },
+    {
+      "paper_id": "2508.06659",
+      "arxiv_id": "2508.06659",
+      "title": "In-Context Reinforcement Learning via Communicative World Models",
+      "authors": [
+        "Fernando Martinez-Lopez",
+        "Tao Li",
+        "Yingdong Lu",
+        "Juntao Chen"
+      ],
+      "date": "2025-08-08",
+      "version": "arXiv v2 revised 2026-06-07",
+      "abs_url": "https://arxiv.org/abs/2508.06659v2",
+      "abstract": "预训世界模型信息主体向新控制主体发送情境，以消息对动作的影响训练表示并报告新任务适应。",
+      "abstract_format": "Chinese paraphrase of official abstract checked this round",
+      "retrieval": "bounded_official_source_supplement",
+      "triage_basis": "title and official abstract only",
+      "triage_decision": "full_text_packet",
+      "triage_reason": "最直接的因果影响与跨任务转移近邻；重点核离散性、信息角色、干预定义及内容适切证据。",
+      "full_text_reviewed_this_round": false
+    },
+    {
+      "paper_id": "2411.10173",
+      "arxiv_id": "2411.10173",
+      "title": "Semantics and Spatiality of Emergent Communication",
+      "authors": [
+        "Rotem Ben Zion",
+        "Boaz Carmeli",
+        "Orr Paradise",
+        "Yonatan Belinkov"
+      ],
+      "date": "2024-11-15",
+      "version": "arXiv v1; NeurIPS 2024 claim on official page",
+      "abs_url": "https://arxiv.org/abs/2411.10173",
+      "abstract": "定义跨实例语义一致性并比较辨别与重建目标的最优协议及距离意义。",
+      "abstract_format": "Chinese paraphrase of official abstract checked this round",
+      "retrieval": "bounded_official_source_supplement",
+      "triage_basis": "title and official abstract only",
+      "triage_decision": "retain_method_neighbor",
+      "triage_reason": "已读旧库，直接限制成功率即语义的主张；非同任务世界可见性操纵。",
+      "full_text_reviewed_this_round": false
+    },
+    {
+      "paper_id": "official_supplement_5",
+      "arxiv_id": null,
+      "title": "Learning to Refer: How Scene Complexity Affects Emergent Communication in Neural Agents",
+      "authors": [
+        "Dominik Künkele",
+        "Simon Dobnik"
+      ],
+      "date": "2025-09",
+      "version": "IWCS 2025 formal",
+      "abs_url": "https://aclanthology.org/2025.iwcs-main.25/",
+      "abstract": "扩展CLEVR场景，研究更复杂的指称环境对神经主体词汇与属性落地的影响。",
+      "abstract_format": "Chinese paraphrase of official abstract checked this round",
+      "retrieval": "bounded_official_source_supplement",
+      "triage_basis": "title and official abstract only",
+      "triage_decision": "retain_ecology_neighbor",
+      "triage_reason": "场景复杂性是直接生态先行，但摘要未显示本轮的同内容消息跨布局配对。",
+      "full_text_reviewed_this_round": false
+    },
+    {
+      "paper_id": "2601.10169",
+      "arxiv_id": "2601.10169",
+      "title": "CtD: Composition through Decomposition in Emergent Communication",
+      "authors": [
+        "Boaz Carmeli",
+        "Ron Meir",
+        "Yonatan Belinkov"
+      ],
+      "date": "2025",
+      "version": "ICLR 2025 formal; arXiv upload 2026 separately",
+      "abs_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/fb9d01fb202e360b2f78510c47e0fa3e-Abstract-Conference.html",
+      "abstract": "多目标游戏先学习基础概念码本，再通过组合码本指称未见图像；部分组合不需再训练。",
+      "abstract_format": "Chinese paraphrase of official abstract checked this round",
+      "retrieval": "bounded_official_source_supplement",
+      "triage_basis": "title and official abstract only",
+      "triage_decision": "retain_composition_boundary",
+      "triage_reason": "局部研究已多次深读；提醒完整包迁移不等于成分重组。",
+      "full_text_reviewed_this_round": false
+    },
+    {
+      "paper_id": "2502.12624",
+      "arxiv_id": "2502.12624",
+      "title": "Implicit Repair with Reinforcement Learning in Emergent Communication",
+      "authors": [
+        "Fábio Vital",
+        "Alberto Sardinha",
+        "Francisco S. Melo"
+      ],
+      "date": "2025-02-18",
+      "version": "arXiv v2 2025-02-24; AAMAS2025 in comments",
+      "abs_url": "https://arxiv.org/abs/2502.12624v2",
+      "abstract": "在输入与通道加噪下研究冗余协议、任务稳健性和泛化。",
+      "abstract_format": "Chinese paraphrase of official abstract checked this round",
+      "retrieval": "bounded_official_source_supplement",
+      "triage_basis": "title and official abstract only",
+      "triage_decision": "retain_secondary",
+      "triage_reason": "噪声稳健性并非需求内容适切的同背景反事实比较。",
+      "full_text_reviewed_this_round": false
+    },
+    {
+      "paper_id": "2601.03254",
+      "arxiv_id": "2601.03254",
+      "title": "Automated Semantic Rules Detection (ASRD) for Emergent Communication Interpretation",
+      "authors": [
+        "Bastien Vanderplaetse",
+        "Xavier Siebert",
+        "Stéphane Dupont"
+      ],
+      "date": "2026-01-06",
+      "version": "arXiv v1",
+      "abs_url": "https://arxiv.org/abs/2601.03254v1",
+      "abstract": "自动找出Lewis游戏消息模式与输入属性的关联规则。",
+      "abstract_format": "Chinese paraphrase of official abstract checked this round",
+      "retrieval": "bounded_official_source_supplement",
+      "triage_basis": "title and official abstract only",
+      "triage_decision": "retain_interpretability_boundary",
+      "triage_reason": "关联式解码不直接检验消息使原听者跨背景正确行动。",
+      "full_text_reviewed_this_round": false
+    },
+    {
+      "paper_id": "2402.16247",
+      "arxiv_id": "2402.16247",
+      "title": "Learning Translations: Emergent Communication Pretraining for Cooperative Language Acquisition",
+      "authors": [
+        "Dylan Cope",
+        "Peter McBurney"
+      ],
+      "date": "2024-02-26",
+      "version": "arXiv v1",
+      "abs_url": "https://arxiv.org/abs/2402.16247v1",
+      "abstract": "新加入者可读社群互动资料；比较模仿与涌现协议预训后翻译学习。",
+      "abstract_format": "Chinese paraphrase of official abstract checked this round",
+      "retrieval": "bounded_official_source_supplement",
+      "triage_basis": "title and official abstract only",
+      "triage_decision": "retain_transfer_boundary",
+      "triage_reason": "跨社群习得需要新的学习；非冻结同政策跨物资布局干预。",
+      "full_text_reviewed_this_round": false
+    },
+    {
+      "paper_id": "official_supplement_10",
+      "arxiv_id": null,
+      "title": "One-to-Many Communication and Compositionality in Emergent Communication",
+      "authors": [
+        "Heeyoung Lee"
+      ],
+      "date": "2024-11",
+      "version": "EMNLP2024 formal",
+      "abs_url": "https://aclanthology.org/2024.emnlp-main.1157/",
+      "abstract": "广播多听者，区分人数、不同属性兴趣和联合成功压力对组合性影响。",
+      "abstract_format": "Chinese paraphrase of official abstract checked this round",
+      "retrieval": "bounded_official_source_supplement",
+      "triage_basis": "title and official abstract only",
+      "triage_decision": "retain_ecology_neighbor",
+      "triage_reason": "需求与合作结构操纵已有直接先行；并非本轮世界信息可见性和整包功能迁移。",
+      "full_text_reviewed_this_round": false
+    },
+    {
+      "paper_id": "official_supplement_11",
+      "arxiv_id": null,
+      "title": "Frequency & Compositionality in Emergent Communication",
+      "authors": [
+        "Jean-Baptiste Sevestre",
+        "Emmanuel Dupoux"
+      ],
+      "date": "2025-11",
+      "version": "EMNLP2025 formal",
+      "abs_url": "https://aclanthology.org/2025.emnlp-main.1387/",
+      "abstract": "操纵Zipf频率，指出有限资料暴露与组合结构形成的关系。",
+      "abstract_format": "Chinese paraphrase of official abstract checked this round",
+      "retrieval": "bounded_official_source_supplement",
+      "triage_basis": "title and official abstract only",
+      "triage_decision": "retain_training_confound",
+      "triage_reason": "经验频率与训练路径是环境比较的混淆；本轮不改变抽样需求/布局。",
+      "full_text_reviewed_this_round": false
+    },
+    {
+      "paper_id": "official_supplement_12",
+      "arxiv_id": null,
+      "title": "Morpheme Induction for Emergent Language",
+      "authors": [
+        "Brendon Boldt",
+        "David R. Mortensen"
+      ],
+      "date": "2025-11",
+      "version": "EMNLP2025 formal",
+      "abs_url": "https://aclanthology.org/2025.emnlp-main.1284/",
+      "abstract": "从涌现协议中无监督诱导词素与分段，用于词义和结构解释。",
+      "abstract_format": "Chinese paraphrase of official abstract checked this round",
+      "retrieval": "bounded_official_source_supplement",
+      "triage_basis": "title and official abstract only",
+      "triage_decision": "retain_component_boundary",
+      "triage_reason": "词素诱导与包级部署迁移是不同证据层；本轮未做成分干预。",
+      "full_text_reviewed_this_round": false
+    }
+  ]
+}

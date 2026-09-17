@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "passed_with_stated_limits": true,
+  "status": "passed_scientific_review",
+  "version": "v0.44-partner-transfer-endpoint",
+  "reviewed_files": [
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.44/results/partner_transfer_001/invocation.json",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.44/results/partner_transfer_001/transfer_complete.json",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.44/results/partner_transfer_001/partner_transfer_analysis.json",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.44/results/partner_transfer_001/partner_transfer_audit.json",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.44/results/partner_transfer_001/plot_metadata.json",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.44/results/partner_transfer_001/figures/01_partner_transfer.png",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.44/results/partner_transfer_001/visual_qa.json",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.44/results/partner_transfer_001/双token伙伴替换端点迁移研究报告.md",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.44/partner_transfer_design.json",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.44/partner_transfer_train.py",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.44/partner_transfer_analysis.py",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.44/partner_transfer_audit.py",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.44/plot_partner_transfer.py",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.44/visual_qa.py",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.44/build_partner_transfer_report.py",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.44/build_review.py",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.44/README.md"
+  ],
+  "review_scope": [
+    "Checked 72 visual groups and six cultures per group.",
+    "Checked none, single-sender and all-sender replacement across A/B/C schedules, six role permutations and four team slots.",
+    "Checked native endpoint provenance against all 432 v0.43 culture endpoints.",
+    "Replayed all 72 stored action tensors into literal/equivariant target scores.",
+    "Checked raster QA and every absolute local report link."
+  ],
+  "findings": [
+    {
+      "type": "cultural_compatibility",
+      "interpretation": "同一视觉环境中的独立通信文化拥有各自的码本；跨文化替换一个 sender 已显著降分，替换全部 sender 几乎归零。"
+    },
+    {
+      "type": "replacement_granularity",
+      "interpretation": "一个 sender 的替换保留少量联合功能，全部替换暴露组合 receiver 对公共码本的强依赖。"
+    },
+    {
+      "type": "role_randomization_boundary",
+      "interpretation": "v0.43 的随机角色压力改善文化内部角色等变性，但没有让独立文化之间自动共享符号。"
+    },
+    {
+      "type": "token_form",
+      "interpretation": "跨文化 pair agreement 仅略高于 1/49 的独立机会水平，与跨文化功能崩溃相符。"
+    },
+    {
+      "type": "scope",
+      "interpretation": "这是零适应 endpoint 兼容性基线，不是从零形成、代际传递或开放式语言实验。"
+    },
+    {
+      "type": "replayability",
+      "interpretation": "独立 NumPy 分析重放 native v0.43 endpoint，独立审计重算全部 action/score cell，未导入生产模型。"
+    }
+  ],
+  "limitations": [
+    "No post-replacement adaptation training; compatibility is an endpoint baseline.",
+    "Donor and recipient share visual frontends within each group, so new perception is not tested.",
+    "Finite two-token, six-site grounded protocol; no open-ended vocabulary or syntax.",
+    "Centralized reward and frozen visual frontends are inherited from v0.43."
+  ],
+  "next_step": "Train controlled newcomer adaptation after single-sender replacement, comparing recovery speed under fixed, rotating and random partner schedules.",
+  "link_check": {
+    "local_links": 7,
+    "missing": []
+  },
+  "new_training_reviewed": false
+}

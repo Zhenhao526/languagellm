@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "source_hashes": {
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.23/run_experience.py": "5c810d71886004f73284e7936d629646b3647496c5421f992285ce4fedf6afe1",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.23/world.py": "940ed0a0d30417207e8ec065d320ea1e7fb1a0bc6c429ef9dca646ae3fb2dc7c",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.23/metrics.py": "87d76b65b0c49ad2dce1ca981bb3e2818bfd53243920e305e1ce93582abbfa81",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.23/固定执行方案.md": "d3d66d36feb32f43e8241ffe46be0af5758728b793e3e11d9c8f6884d91a7d03",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.23/前置科学审查.md": "8fcdb4f4d409cff7022839c83c1f2a070ae4338fab2898ccc9b19ab1912dc6db",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.20/temporal_model.py": "13fdfdfb88dce205c71b3b573e13d126fabfc79775fe9dd1ddee37065d78664b",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.20/temporal_world.py": "2c6ed2dbd7fffe61244a427b46e86c2951f6f5e551683bad2131f0e69a9e989d",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.21/social_model.py": "646f8170004358061f235996458cafd349801f9bd54d40bd587b4dfc6a4f4e40",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/camp.py": "21ad5ff2eecf871ff2e8e17e5623875f55d701e66302b741a46658c0cec81854",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/run_pilot.py": "0045c0789884d95e480c79b1827c5caf56e6820036e6ed64c2a0f0da35231134",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/agents.py": "e370825812d7ea81f53d43e13197d44593aacdbbe7048cdcb5307650709e3f40",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/resource_env.py": "8b522678c723f0f89812691487142d0f5292c73acfde569dc9da4a9f0e4a5211"
+  },
+  "development_path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.23/results/smoke_001",
+  "evaluation_receipt_sha256": "d91a20dae5c300f603deaa41a049a5f2258937d0173a945240cee020bc061819",
+  "world_selftest_sha256": "8bd68588f1929d80aaae4f445ca043a49402a6b1381419ae6fe9548bb6783922",
+  "implementation_review_sha256": "9634d20858c0f2542db6c930a145c6f8207f130e6e2fa1ad01c666e878d8d036",
+  "previous_integrity_sha256": "0be0854b24fd8534e110ab0061e7ff769c2320eb646e77ed345ee9ea8a42a194",
+  "scope": "Analytic finite-world checks, independent code/flow review and complete forty-step smoke execution; full independent optimizer replay/statistical analysis pending and required before final interpretation",
+  "independent_analysis_status_at_formal_start": "pending; not claimed passed",
+  "decision": "Run fixed full matrix without selecting models or adjusting budget from development scores"
+}

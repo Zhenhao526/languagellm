@@ -1,0 +1,1203 @@
+{
+  "status": "passed_readonly_json_integration",
+  "generated_utc": "2026-09-15T11:20:35.626380+00:00",
+  "script_sha256": "a6447b997f8e6a538cb24a0927ef51291a2b5dd6968e3af3d18b6d60ade0195f",
+  "source_sha256": {
+    "redesign_v0.7/results/binding_001/protocol_analysis.json": "6667da666f7cbf786dea5da53c2293116047647ecca8983dcc74f50ada6630c0",
+    "redesign_v0.7/results/binding_001/analysis/summary.json": "5266784a645663adf12fe2262a28e83786b43ecf9b64683bab0fe4cee0d449a2",
+    "redesign_v0.7/results/binding_001/audit_execution.json": "6735532c31e8b64024fe51b2e0d08634badd5f055b0f359af08e80921b8a9fff",
+    "redesign_v0.7/results/binding_001/individual_controls/summary.json": "6c9022d238f3b66fcfb074082832efa25746feb3f0397a6646b2a123b36af731",
+    "redesign_v0.7/README.md": "1046b3db96dc12e1b63edee037b24c0eb1f07e768a684fa3144def596b9dfef4",
+    "redesign_v0.7/固定执行方案.md": "50b7ac2a2ac9de4305b2c19ebd59b96ee0a7b74bd2bad5f091bf5b2b26a58a89",
+    "redesign_v0.7/audit_execution.py": "ce9d41e707d4fb0324ec9ee86b51d770289d9b59bd7b369c1eb98e168f0c4022"
+  },
+  "independent_pair_seeds": [
+    26101,
+    26102,
+    26103,
+    26104
+  ],
+  "social_runs": 52,
+  "personal_control_runs": 12,
+  "direction_tables_checked": 104,
+  "menu_independent_decoder_rows_checked": 5096,
+  "whole_code_bijections_checked": 10400,
+  "natural_codebook_rows_recounted": 6240,
+  "heldout_decoder_coverage_posthoc": {
+    "identity": {
+      "U": 46,
+      "U_denominator": 144,
+      "U_rate": 0.3194444444444444,
+      "N": 130,
+      "N_denominator": 4608,
+      "N_rate": 0.028211805555555556,
+      "no_code_failures": 3136,
+      "natural_failures": 4478,
+      "no_code_share_of_natural_failures": 0.7003126395712371,
+      "per_seed": [
+        {
+          "seed": 26101,
+          "U": 0.2777777777777778,
+          "N": 0.04861111111111111
+        },
+        {
+          "seed": 26102,
+          "U": 0.3888888888888889,
+          "N": 0.027777777777777776
+        },
+        {
+          "seed": 26103,
+          "U": 0.3611111111111111,
+          "N": 0.008680555555555556
+        },
+        {
+          "seed": 26104,
+          "U": 0.25,
+          "N": 0.027777777777777776
+        }
+      ]
+    },
+    "permute": {
+      "U": 33,
+      "U_denominator": 144,
+      "U_rate": 0.22916666666666666,
+      "N": 88,
+      "N_denominator": 4608,
+      "N_rate": 0.019097222222222224,
+      "no_code_failures": 3552,
+      "natural_failures": 4520,
+      "no_code_share_of_natural_failures": 0.7858407079646018,
+      "per_seed": [
+        {
+          "seed": 26101,
+          "U": 0.25,
+          "N": 0.0
+        },
+        {
+          "seed": 26102,
+          "U": 0.16666666666666666,
+          "N": 0.0
+        },
+        {
+          "seed": 26103,
+          "U": 0.2777777777777778,
+          "N": 0.050347222222222224
+        },
+        {
+          "seed": 26104,
+          "U": 0.2222222222222222,
+          "N": 0.026041666666666668
+        }
+      ]
+    },
+    "orthogonal": {
+      "U": 43,
+      "U_denominator": 144,
+      "U_rate": 0.2986111111111111,
+      "N": 76,
+      "N_denominator": 4608,
+      "N_rate": 0.016493055555555556,
+      "no_code_failures": 3232,
+      "natural_failures": 4532,
+      "no_code_share_of_natural_failures": 0.7131509267431597,
+      "per_seed": [
+        {
+          "seed": 26101,
+          "U": 0.3611111111111111,
+          "N": 0.024305555555555556
+        },
+        {
+          "seed": 26102,
+          "U": 0.16666666666666666,
+          "N": 0.0
+        },
+        {
+          "seed": 26103,
+          "U": 0.3611111111111111,
+          "N": 0.024305555555555556
+        },
+        {
+          "seed": 26104,
+          "U": 0.3055555555555556,
+          "N": 0.017361111111111112
+        }
+      ]
+    }
+  },
+  "heldout_direction_records": [
+    {
+      "seed": 26101,
+      "condition": "split1_identity",
+      "split": 1,
+      "scout": 0,
+      "collector": 1,
+      "U": 3,
+      "U_denominator": 6,
+      "N": 26,
+      "N_denominator": 192,
+      "no_code_failures": 96
+    },
+    {
+      "seed": 26101,
+      "condition": "split1_identity",
+      "split": 1,
+      "scout": 1,
+      "collector": 0,
+      "U": 2,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 128
+    },
+    {
+      "seed": 26101,
+      "condition": "split1_permute",
+      "split": 1,
+      "scout": 0,
+      "collector": 1,
+      "U": 2,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 128
+    },
+    {
+      "seed": 26101,
+      "condition": "split1_permute",
+      "split": 1,
+      "scout": 1,
+      "collector": 0,
+      "U": 1,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 160
+    },
+    {
+      "seed": 26101,
+      "condition": "split1_orthogonal",
+      "split": 1,
+      "scout": 0,
+      "collector": 1,
+      "U": 2,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 128
+    },
+    {
+      "seed": 26101,
+      "condition": "split1_orthogonal",
+      "split": 1,
+      "scout": 1,
+      "collector": 0,
+      "U": 1,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 160
+    },
+    {
+      "seed": 26101,
+      "condition": "split2_identity",
+      "split": 2,
+      "scout": 0,
+      "collector": 1,
+      "U": 0,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 192
+    },
+    {
+      "seed": 26101,
+      "condition": "split2_identity",
+      "split": 2,
+      "scout": 1,
+      "collector": 0,
+      "U": 5,
+      "U_denominator": 6,
+      "N": 30,
+      "N_denominator": 192,
+      "no_code_failures": 32
+    },
+    {
+      "seed": 26101,
+      "condition": "split2_permute",
+      "split": 2,
+      "scout": 0,
+      "collector": 1,
+      "U": 0,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 192
+    },
+    {
+      "seed": 26101,
+      "condition": "split2_permute",
+      "split": 2,
+      "scout": 1,
+      "collector": 0,
+      "U": 0,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 192
+    },
+    {
+      "seed": 26101,
+      "condition": "split2_orthogonal",
+      "split": 2,
+      "scout": 0,
+      "collector": 1,
+      "U": 2,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 128
+    },
+    {
+      "seed": 26101,
+      "condition": "split2_orthogonal",
+      "split": 2,
+      "scout": 1,
+      "collector": 0,
+      "U": 2,
+      "U_denominator": 6,
+      "N": 6,
+      "N_denominator": 192,
+      "no_code_failures": 128
+    },
+    {
+      "seed": 26101,
+      "condition": "split3_identity",
+      "split": 3,
+      "scout": 0,
+      "collector": 1,
+      "U": 0,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 192
+    },
+    {
+      "seed": 26101,
+      "condition": "split3_identity",
+      "split": 3,
+      "scout": 1,
+      "collector": 0,
+      "U": 0,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 192
+    },
+    {
+      "seed": 26101,
+      "condition": "split3_permute",
+      "split": 3,
+      "scout": 0,
+      "collector": 1,
+      "U": 3,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 96
+    },
+    {
+      "seed": 26101,
+      "condition": "split3_permute",
+      "split": 3,
+      "scout": 1,
+      "collector": 0,
+      "U": 3,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 96
+    },
+    {
+      "seed": 26101,
+      "condition": "split3_orthogonal",
+      "split": 3,
+      "scout": 0,
+      "collector": 1,
+      "U": 2,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 128
+    },
+    {
+      "seed": 26101,
+      "condition": "split3_orthogonal",
+      "split": 3,
+      "scout": 1,
+      "collector": 0,
+      "U": 4,
+      "U_denominator": 6,
+      "N": 22,
+      "N_denominator": 192,
+      "no_code_failures": 64
+    },
+    {
+      "seed": 26102,
+      "condition": "split1_identity",
+      "split": 1,
+      "scout": 0,
+      "collector": 1,
+      "U": 0,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 192
+    },
+    {
+      "seed": 26102,
+      "condition": "split1_identity",
+      "split": 1,
+      "scout": 1,
+      "collector": 0,
+      "U": 2,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 128
+    },
+    {
+      "seed": 26102,
+      "condition": "split1_permute",
+      "split": 1,
+      "scout": 0,
+      "collector": 1,
+      "U": 1,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 160
+    },
+    {
+      "seed": 26102,
+      "condition": "split1_permute",
+      "split": 1,
+      "scout": 1,
+      "collector": 0,
+      "U": 2,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 128
+    },
+    {
+      "seed": 26102,
+      "condition": "split1_orthogonal",
+      "split": 1,
+      "scout": 0,
+      "collector": 1,
+      "U": 0,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 192
+    },
+    {
+      "seed": 26102,
+      "condition": "split1_orthogonal",
+      "split": 1,
+      "scout": 1,
+      "collector": 0,
+      "U": 1,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 160
+    },
+    {
+      "seed": 26102,
+      "condition": "split2_identity",
+      "split": 2,
+      "scout": 0,
+      "collector": 1,
+      "U": 1,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 160
+    },
+    {
+      "seed": 26102,
+      "condition": "split2_identity",
+      "split": 2,
+      "scout": 1,
+      "collector": 0,
+      "U": 3,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 96
+    },
+    {
+      "seed": 26102,
+      "condition": "split2_permute",
+      "split": 2,
+      "scout": 0,
+      "collector": 1,
+      "U": 1,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 160
+    },
+    {
+      "seed": 26102,
+      "condition": "split2_permute",
+      "split": 2,
+      "scout": 1,
+      "collector": 0,
+      "U": 1,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 160
+    },
+    {
+      "seed": 26102,
+      "condition": "split2_orthogonal",
+      "split": 2,
+      "scout": 0,
+      "collector": 1,
+      "U": 2,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 128
+    },
+    {
+      "seed": 26102,
+      "condition": "split2_orthogonal",
+      "split": 2,
+      "scout": 1,
+      "collector": 0,
+      "U": 1,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 160
+    },
+    {
+      "seed": 26102,
+      "condition": "split3_identity",
+      "split": 3,
+      "scout": 0,
+      "collector": 1,
+      "U": 5,
+      "U_denominator": 6,
+      "N": 32,
+      "N_denominator": 192,
+      "no_code_failures": 32
+    },
+    {
+      "seed": 26102,
+      "condition": "split3_identity",
+      "split": 3,
+      "scout": 1,
+      "collector": 0,
+      "U": 3,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 96
+    },
+    {
+      "seed": 26102,
+      "condition": "split3_permute",
+      "split": 3,
+      "scout": 0,
+      "collector": 1,
+      "U": 0,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 192
+    },
+    {
+      "seed": 26102,
+      "condition": "split3_permute",
+      "split": 3,
+      "scout": 1,
+      "collector": 0,
+      "U": 1,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 160
+    },
+    {
+      "seed": 26102,
+      "condition": "split3_orthogonal",
+      "split": 3,
+      "scout": 0,
+      "collector": 1,
+      "U": 1,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 160
+    },
+    {
+      "seed": 26102,
+      "condition": "split3_orthogonal",
+      "split": 3,
+      "scout": 1,
+      "collector": 0,
+      "U": 1,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 160
+    },
+    {
+      "seed": 26103,
+      "condition": "split1_identity",
+      "split": 1,
+      "scout": 0,
+      "collector": 1,
+      "U": 0,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 192
+    },
+    {
+      "seed": 26103,
+      "condition": "split1_identity",
+      "split": 1,
+      "scout": 1,
+      "collector": 0,
+      "U": 6,
+      "U_denominator": 6,
+      "N": 2,
+      "N_denominator": 192,
+      "no_code_failures": 0
+    },
+    {
+      "seed": 26103,
+      "condition": "split1_permute",
+      "split": 1,
+      "scout": 0,
+      "collector": 1,
+      "U": 4,
+      "U_denominator": 6,
+      "N": 32,
+      "N_denominator": 192,
+      "no_code_failures": 64
+    },
+    {
+      "seed": 26103,
+      "condition": "split1_permute",
+      "split": 1,
+      "scout": 1,
+      "collector": 0,
+      "U": 2,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 128
+    },
+    {
+      "seed": 26103,
+      "condition": "split1_orthogonal",
+      "split": 1,
+      "scout": 0,
+      "collector": 1,
+      "U": 2,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 128
+    },
+    {
+      "seed": 26103,
+      "condition": "split1_orthogonal",
+      "split": 1,
+      "scout": 1,
+      "collector": 0,
+      "U": 5,
+      "U_denominator": 6,
+      "N": 14,
+      "N_denominator": 192,
+      "no_code_failures": 32
+    },
+    {
+      "seed": 26103,
+      "condition": "split2_identity",
+      "split": 2,
+      "scout": 0,
+      "collector": 1,
+      "U": 1,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 160
+    },
+    {
+      "seed": 26103,
+      "condition": "split2_identity",
+      "split": 2,
+      "scout": 1,
+      "collector": 0,
+      "U": 1,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 160
+    },
+    {
+      "seed": 26103,
+      "condition": "split2_permute",
+      "split": 2,
+      "scout": 0,
+      "collector": 1,
+      "U": 0,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 192
+    },
+    {
+      "seed": 26103,
+      "condition": "split2_permute",
+      "split": 2,
+      "scout": 1,
+      "collector": 0,
+      "U": 1,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 160
+    },
+    {
+      "seed": 26103,
+      "condition": "split2_orthogonal",
+      "split": 2,
+      "scout": 0,
+      "collector": 1,
+      "U": 1,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 160
+    },
+    {
+      "seed": 26103,
+      "condition": "split2_orthogonal",
+      "split": 2,
+      "scout": 1,
+      "collector": 0,
+      "U": 1,
+      "U_denominator": 6,
+      "N": 6,
+      "N_denominator": 192,
+      "no_code_failures": 160
+    },
+    {
+      "seed": 26103,
+      "condition": "split3_identity",
+      "split": 3,
+      "scout": 0,
+      "collector": 1,
+      "U": 5,
+      "U_denominator": 6,
+      "N": 8,
+      "N_denominator": 192,
+      "no_code_failures": 32
+    },
+    {
+      "seed": 26103,
+      "condition": "split3_identity",
+      "split": 3,
+      "scout": 1,
+      "collector": 0,
+      "U": 0,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 192
+    },
+    {
+      "seed": 26103,
+      "condition": "split3_permute",
+      "split": 3,
+      "scout": 0,
+      "collector": 1,
+      "U": 3,
+      "U_denominator": 6,
+      "N": 26,
+      "N_denominator": 192,
+      "no_code_failures": 96
+    },
+    {
+      "seed": 26103,
+      "condition": "split3_permute",
+      "split": 3,
+      "scout": 1,
+      "collector": 0,
+      "U": 0,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 192
+    },
+    {
+      "seed": 26103,
+      "condition": "split3_orthogonal",
+      "split": 3,
+      "scout": 0,
+      "collector": 1,
+      "U": 4,
+      "U_denominator": 6,
+      "N": 8,
+      "N_denominator": 192,
+      "no_code_failures": 64
+    },
+    {
+      "seed": 26103,
+      "condition": "split3_orthogonal",
+      "split": 3,
+      "scout": 1,
+      "collector": 0,
+      "U": 0,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 192
+    },
+    {
+      "seed": 26104,
+      "condition": "split1_identity",
+      "split": 1,
+      "scout": 0,
+      "collector": 1,
+      "U": 1,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 160
+    },
+    {
+      "seed": 26104,
+      "condition": "split1_identity",
+      "split": 1,
+      "scout": 1,
+      "collector": 0,
+      "U": 1,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 160
+    },
+    {
+      "seed": 26104,
+      "condition": "split1_permute",
+      "split": 1,
+      "scout": 0,
+      "collector": 1,
+      "U": 2,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 128
+    },
+    {
+      "seed": 26104,
+      "condition": "split1_permute",
+      "split": 1,
+      "scout": 1,
+      "collector": 0,
+      "U": 1,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 160
+    },
+    {
+      "seed": 26104,
+      "condition": "split1_orthogonal",
+      "split": 1,
+      "scout": 0,
+      "collector": 1,
+      "U": 2,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 128
+    },
+    {
+      "seed": 26104,
+      "condition": "split1_orthogonal",
+      "split": 1,
+      "scout": 1,
+      "collector": 0,
+      "U": 2,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 128
+    },
+    {
+      "seed": 26104,
+      "condition": "split2_identity",
+      "split": 2,
+      "scout": 0,
+      "collector": 1,
+      "U": 2,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 128
+    },
+    {
+      "seed": 26104,
+      "condition": "split2_identity",
+      "split": 2,
+      "scout": 1,
+      "collector": 0,
+      "U": 3,
+      "U_denominator": 6,
+      "N": 32,
+      "N_denominator": 192,
+      "no_code_failures": 96
+    },
+    {
+      "seed": 26104,
+      "condition": "split2_permute",
+      "split": 2,
+      "scout": 0,
+      "collector": 1,
+      "U": 1,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 160
+    },
+    {
+      "seed": 26104,
+      "condition": "split2_permute",
+      "split": 2,
+      "scout": 1,
+      "collector": 0,
+      "U": 0,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 192
+    },
+    {
+      "seed": 26104,
+      "condition": "split2_orthogonal",
+      "split": 2,
+      "scout": 0,
+      "collector": 1,
+      "U": 0,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 192
+    },
+    {
+      "seed": 26104,
+      "condition": "split2_orthogonal",
+      "split": 2,
+      "scout": 1,
+      "collector": 0,
+      "U": 4,
+      "U_denominator": 6,
+      "N": 20,
+      "N_denominator": 192,
+      "no_code_failures": 64
+    },
+    {
+      "seed": 26104,
+      "condition": "split3_identity",
+      "split": 3,
+      "scout": 0,
+      "collector": 1,
+      "U": 1,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 160
+    },
+    {
+      "seed": 26104,
+      "condition": "split3_identity",
+      "split": 3,
+      "scout": 1,
+      "collector": 0,
+      "U": 1,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 160
+    },
+    {
+      "seed": 26104,
+      "condition": "split3_permute",
+      "split": 3,
+      "scout": 0,
+      "collector": 1,
+      "U": 1,
+      "U_denominator": 6,
+      "N": 24,
+      "N_denominator": 192,
+      "no_code_failures": 160
+    },
+    {
+      "seed": 26104,
+      "condition": "split3_permute",
+      "split": 3,
+      "scout": 1,
+      "collector": 0,
+      "U": 3,
+      "U_denominator": 6,
+      "N": 6,
+      "N_denominator": 192,
+      "no_code_failures": 96
+    },
+    {
+      "seed": 26104,
+      "condition": "split3_orthogonal",
+      "split": 3,
+      "scout": 0,
+      "collector": 1,
+      "U": 2,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 128
+    },
+    {
+      "seed": 26104,
+      "condition": "split3_orthogonal",
+      "split": 3,
+      "scout": 1,
+      "collector": 0,
+      "U": 1,
+      "U_denominator": 6,
+      "N": 0,
+      "N_denominator": 192,
+      "no_code_failures": 160
+    }
+  ],
+  "personal_counts_from_original_json": [
+    {
+      "seed": 26101,
+      "representation": "identity",
+      "agent": 0,
+      "normal_correct": 9600,
+      "erased_correct": 1600,
+      "n": 9600
+    },
+    {
+      "seed": 26101,
+      "representation": "identity",
+      "agent": 1,
+      "normal_correct": 9600,
+      "erased_correct": 1600,
+      "n": 9600
+    },
+    {
+      "seed": 26101,
+      "representation": "permute",
+      "agent": 0,
+      "normal_correct": 9600,
+      "erased_correct": 1600,
+      "n": 9600
+    },
+    {
+      "seed": 26101,
+      "representation": "permute",
+      "agent": 1,
+      "normal_correct": 9600,
+      "erased_correct": 1600,
+      "n": 9600
+    },
+    {
+      "seed": 26101,
+      "representation": "orthogonal",
+      "agent": 0,
+      "normal_correct": 9600,
+      "erased_correct": 1600,
+      "n": 9600
+    },
+    {
+      "seed": 26101,
+      "representation": "orthogonal",
+      "agent": 1,
+      "normal_correct": 9600,
+      "erased_correct": 1600,
+      "n": 9600
+    },
+    {
+      "seed": 26102,
+      "representation": "identity",
+      "agent": 0,
+      "normal_correct": 9600,
+      "erased_correct": 1600,
+      "n": 9600
+    },
+    {
+      "seed": 26102,
+      "representation": "identity",
+      "agent": 1,
+      "normal_correct": 9600,
+      "erased_correct": 1600,
+      "n": 9600
+    },
+    {
+      "seed": 26102,
+      "representation": "permute",
+      "agent": 0,
+      "normal_correct": 9600,
+      "erased_correct": 1600,
+      "n": 9600
+    },
+    {
+      "seed": 26102,
+      "representation": "permute",
+      "agent": 1,
+      "normal_correct": 9600,
+      "erased_correct": 1600,
+      "n": 9600
+    },
+    {
+      "seed": 26102,
+      "representation": "orthogonal",
+      "agent": 0,
+      "normal_correct": 9600,
+      "erased_correct": 1600,
+      "n": 9600
+    },
+    {
+      "seed": 26102,
+      "representation": "orthogonal",
+      "agent": 1,
+      "normal_correct": 9600,
+      "erased_correct": 1600,
+      "n": 9600
+    },
+    {
+      "seed": 26103,
+      "representation": "identity",
+      "agent": 0,
+      "normal_correct": 9600,
+      "erased_correct": 1600,
+      "n": 9600
+    },
+    {
+      "seed": 26103,
+      "representation": "identity",
+      "agent": 1,
+      "normal_correct": 9600,
+      "erased_correct": 1600,
+      "n": 9600
+    },
+    {
+      "seed": 26103,
+      "representation": "permute",
+      "agent": 0,
+      "normal_correct": 9600,
+      "erased_correct": 1600,
+      "n": 9600
+    },
+    {
+      "seed": 26103,
+      "representation": "permute",
+      "agent": 1,
+      "normal_correct": 9600,
+      "erased_correct": 1600,
+      "n": 9600
+    },
+    {
+      "seed": 26103,
+      "representation": "orthogonal",
+      "agent": 0,
+      "normal_correct": 9600,
+      "erased_correct": 1600,
+      "n": 9600
+    },
+    {
+      "seed": 26103,
+      "representation": "orthogonal",
+      "agent": 1,
+      "normal_correct": 9600,
+      "erased_correct": 1600,
+      "n": 9600
+    },
+    {
+      "seed": 26104,
+      "representation": "identity",
+      "agent": 0,
+      "normal_correct": 9600,
+      "erased_correct": 1600,
+      "n": 9600
+    },
+    {
+      "seed": 26104,
+      "representation": "identity",
+      "agent": 1,
+      "normal_correct": 9600,
+      "erased_correct": 1600,
+      "n": 9600
+    },
+    {
+      "seed": 26104,
+      "representation": "permute",
+      "agent": 0,
+      "normal_correct": 9600,
+      "erased_correct": 1600,
+      "n": 9600
+    },
+    {
+      "seed": 26104,
+      "representation": "permute",
+      "agent": 1,
+      "normal_correct": 9600,
+      "erased_correct": 1600,
+      "n": 9600
+    },
+    {
+      "seed": 26104,
+      "representation": "orthogonal",
+      "agent": 0,
+      "normal_correct": 9600,
+      "erased_correct": 1600,
+      "n": 9600
+    },
+    {
+      "seed": 26104,
+      "representation": "orthogonal",
+      "agent": 1,
+      "normal_correct": 9600,
+      "erased_correct": 1600,
+      "n": 9600
+    }
+  ],
+  "prior_full_audit_record": {
+    "status": "passed",
+    "checks": 874023,
+    "training_updates": 124800,
+    "social_trace_rows": 2496000
+  },
+  "scope": [
+    "Only JSON/Markdown/Python source files read; no .pt, .npz or model loading.",
+    "Prior 874023-check audit is read and source-hash linked, not re-executed here.",
+    "Coverage is a new post-hoc summary of saved greedy 49-code receiver functions; no retraining or new inference.",
+    "Menu invariance checked from all saved 720-menu action counts, not by rerunning neural decisions.",
+    "N retains duplicated hidden sender-goal axis: 4608 records but 2304 distinct photo/map/direction contexts per representation.",
+    "The 52 conditions share four prepared pair seeds; personal controls and directions are not new social replicates."
+  ],
+  "new_model_calls": 0,
+  "new_training_updates": 0
+}

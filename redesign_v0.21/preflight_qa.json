@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "source_hashes": {
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.21/run_social.py": "cc266a8526e21125f39637391a621deb48cf1c53f4ee406fd4738a752e107eb5",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.21/social_world.py": "41d443735619f054e160cc4f2f8dd81b39372eb8b43206b63f27c892d4275a8d",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.21/social_model.py": "646f8170004358061f235996458cafd349801f9bd54d40bd587b4dfc6a4f4e40",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.21/social_metrics.py": "c09b9acde138a9542aa4da329179db473b15ab0f1d7e7282e87ecc0e1cef361e",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.21/固定执行方案.md": "149f640b3da1570f7ef22eb10bec7bceedd61a857aa2692c5d593c36651da513",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.21/前置审查.md": "1a5138c1089e65e2b83a5c33960b7b0ca1977fc7f710ac8d64c8f42b11eb7a71",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.20/temporal_model.py": "13fdfdfb88dce205c71b3b573e13d126fabfc79775fe9dd1ddee37065d78664b",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.20/temporal_world.py": "2c6ed2dbd7fffe61244a427b46e86c2951f6f5e551683bad2131f0e69a9e989d",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/camp.py": "21ad5ff2eecf871ff2e8e17e5623875f55d701e66302b741a46658c0cec81854",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/run_pilot.py": "0045c0789884d95e480c79b1827c5caf56e6820036e6ed64c2a0f0da35231134",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/agents.py": "e370825812d7ea81f53d43e13197d44593aacdbbe7048cdcb5307650709e3f40",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/resource_env.py": "8b522678c723f0f89812691487142d0f5292c73acfde569dc9da4a9f0e4a5211"
+  },
+  "development_path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.21/results/smoke_002",
+  "development_receipt_sha256": "af73fde8244b0f8ee34c471a414478ec65bc47d00480f0ff8ccb26d8ef80d8e4",
+  "audit_sha256": "0cecc936c7027afb15aa32147477c638a4dca6f80f6cc91bd305bff70571c7c3",
+  "audit_source_sha256": "04d4b146e22fb89f3daf4bd49a64bac323413781f224504fa338c57dff8f7ccd",
+  "selftests": {
+    "module_selftest.json": "6f9efe1024328789ced61f330273a11d80eea6a8e40e568d247a83db918b473d",
+    "metrics_selftest.json": "515a51f5d1334166180da78c4eb938875a3a0f87006a31d494911bb1daac66d5"
+  },
+  "decision": "Fixed matrix retained; performance scores not used to choose budget, sources or hyperparameters",
+  "scope": "Full development execution replay and analytic synthetic metric fixtures; formal result interpretation still pending independent analysis"
+}

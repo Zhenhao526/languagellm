@@ -1,0 +1,2486 @@
+{
+  "status": "partial_graph_not_split_assignment",
+  "groups": [
+    {
+      "partial_cluster_id": "ab8997c1d05fe2bb9e33ea6999f3f97836a6ba68f571a55b06c151ad2be88273",
+      "identity_keys": [
+        "commons-user:mos810",
+        "text:mos810"
+      ],
+      "members": [
+        {
+          "pageid": 45082215,
+          "stratum": "apple"
+        },
+        {
+          "pageid": 154916542,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "a7dd5ce0659d3a9badfee8e12e84ca7a5112a650558c0c252944d982d6403db3",
+      "identity_keys": [
+        "flickr-author:69024001@n00",
+        "flickr-photo:282363150",
+        "flickr-photo:4019702676",
+        "text:andy / andrew fogg from near cambridge, uk"
+      ],
+      "members": [
+        {
+          "pageid": 136208521,
+          "stratum": "apple"
+        },
+        {
+          "pageid": 136178632,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "d78229a5e028358b2f112a8ec64f5a9804d45b9f4d39fc87805eb8bb6a5ff2cd",
+      "identity_keys": [
+        "commons-user:the eloquent peasant",
+        "text:the eloquent peasant"
+      ],
+      "members": [
+        {
+          "pageid": 185956472,
+          "stratum": "apple"
+        },
+        {
+          "pageid": 185956473,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "f6267336ca0b1f6677e4f44f133c4c666d6fb33a8452347b6e10744394309ef3",
+      "identity_keys": [
+        "text:kolodkov"
+      ],
+      "members": [
+        {
+          "pageid": 176795732,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "ea056cf45d29a990dc93b4988e9244e0b3f717795b06376cfda9fed377da5ead",
+      "identity_keys": [
+        "text:christoph braun"
+      ],
+      "members": [
+        {
+          "pageid": 53956947,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "6f99114538b3670a5b52eddcb7df4b49c422565ff3b59ec5ded456b8e6e0833a",
+      "identity_keys": [
+        "commons-title:susana-logo.svg",
+        "flickr-author:23116228@n07",
+        "flickr-photo:7286283942",
+        "text:susana secretariat"
+      ],
+      "members": [
+        {
+          "pageid": 36499402,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "3cd4a910bdf8cb47826d2b0f50a468b42eefb98fb68694fac4f511965341ecca",
+      "identity_keys": [
+        "text:www.calvinwest.com"
+      ],
+      "members": [
+        {
+          "pageid": 85783646,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "68a48832eb863db5c26bcc5b74ad3d679d2982d621650fff2f1e2ba07e34b60e",
+      "identity_keys": [
+        "text:henrik zawischa"
+      ],
+      "members": [
+        {
+          "pageid": 87831960,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "5eaadfa060da51916705721ac091e1d141a7a14861f6a45899ba52d2f971d66a",
+      "identity_keys": [
+        "text:bart janssen, kate thodey, robert j schaffer, shayna ward"
+      ],
+      "members": [
+        {
+          "pageid": 164119566,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "55ab240db745091439b1d411f9c8a1c27d8f13d3426f3d415e1e274d66325f80",
+      "identity_keys": [
+        "commons-user:galloramenu",
+        "text:galloramenu"
+      ],
+      "members": [
+        {
+          "pageid": 13300403,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "d18378a4e8b023f2147002f8cebc3d091f4f31f89b8643bbafab6cd08f185b1f",
+      "identity_keys": [
+        "text:kunchok gawa"
+      ],
+      "members": [
+        {
+          "pageid": 186624243,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "22e2621b4d508d6de1d156ffd1f36b9eff64fa2adf68c8137825d9c3018c4c50",
+      "identity_keys": [
+        "flickr-author:127294011@n07",
+        "flickr-photo:14888735409",
+        "text:personal creations"
+      ],
+      "members": [
+        {
+          "pageid": 148029153,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "810671e77981ecc89d290c5c20549618fc32a4d1efca19fbbb19b018dcc07960",
+      "identity_keys": [
+        "commons-user:shixart1985",
+        "text:shixart1985"
+      ],
+      "members": [
+        {
+          "pageid": 194715039,
+          "stratum": "apple"
+        },
+        {
+          "pageid": 190519464,
+          "stratum": "apple"
+        },
+        {
+          "pageid": 189822856,
+          "stratum": "apple"
+        },
+        {
+          "pageid": 195948378,
+          "stratum": "apple"
+        },
+        {
+          "pageid": 196191102,
+          "stratum": "apple"
+        },
+        {
+          "pageid": 197019712,
+          "stratum": "apple"
+        },
+        {
+          "pageid": 196789482,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "a7b5f12faeedba09abf013aac0b5e968b0db2509eb37e7b8582a283a0fba99db",
+      "identity_keys": [
+        "flickr-author:137643065@n06",
+        "flickr-photo:23958292789",
+        "text:www.pixel.la free stock photos"
+      ],
+      "members": [
+        {
+          "pageid": 51440225,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "92fa72235bb5caab75ee7bc0656f07ff91a2020bece0bd12256f4c255e965b4f",
+      "identity_keys": [
+        "commons-user:dendrofil",
+        "text:dendrofil"
+      ],
+      "members": [
+        {
+          "pageid": 20854309,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "89a4cedbcb2f5827f83f4e5083c509ac53853285a7f2e2043fd6d3b81a1dc4ba",
+      "identity_keys": [
+        "commons-user:алёна синичкина",
+        "text:алёна синичкина"
+      ],
+      "members": [
+        {
+          "pageid": 98654920,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "b2f4774271611064d1027e5f741393a10a6ab68cd970a6cf2d919f9164991588",
+      "identity_keys": [
+        "text:maharhar17"
+      ],
+      "members": [
+        {
+          "pageid": 84541058,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "4f665f3a70822695b764debcac508857cc6bb0b8d53ca2e9465aa7bb1521c9ff",
+      "identity_keys": [
+        "text:olaasunbo"
+      ],
+      "members": [
+        {
+          "pageid": 162120171,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "d84ab54df4eb5547ec5dda33919f5fdb52434f2e30ab3bfd7784489a99653e92",
+      "identity_keys": [
+        "text:arosbilder"
+      ],
+      "members": [
+        {
+          "pageid": 198209640,
+          "stratum": "apple"
+        },
+        {
+          "pageid": 198209654,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "b4a46121f72da8b924349ab77677bbcd960d490f8579f904166c20a54d1b211b",
+      "identity_keys": [
+        "text:lesgannes"
+      ],
+      "members": [
+        {
+          "pageid": 50570586,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "55d0cc4d2109df09005aaa2a8545615f0b0339b98c25af22d40101446f5122db",
+      "identity_keys": [
+        "text:cora6060"
+      ],
+      "members": [
+        {
+          "pageid": 167235690,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "802eec5e06718320d9eef725e46701e47fe2a46536921353b236fb85d0dd35b6",
+      "identity_keys": [
+        "flickr-photo:8074168006",
+        "text:carriagehouse2011"
+      ],
+      "members": [
+        {
+          "pageid": 121635987,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "db2887592c1d626d6b81b49d23ad808c5fbc2b125e0e088e2d6c59da41e7f33d",
+      "identity_keys": [
+        "text:pkgx"
+      ],
+      "members": [
+        {
+          "pageid": 176490295,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "a7471dbb3c3a79ec87bb4ff2c403433dac095a425f1ceef61a928800ceffc216",
+      "identity_keys": [
+        "text:chhering palkit negi"
+      ],
+      "members": [
+        {
+          "pageid": 175557969,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "324e5e823300376f71371e87fa53885c035f6f80578d10c1d92ef0ebe8722188",
+      "identity_keys": [
+        "flickr-author:62559061@n06",
+        "flickr-photo:6168519269",
+        "text:joybot"
+      ],
+      "members": [
+        {
+          "pageid": 114549870,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "3cdb1c07e4c337ea7d84e7ec08432dda3ac898b87ef910eb55815202c80f55d5",
+      "identity_keys": [
+        "text:тима миха"
+      ],
+      "members": [
+        {
+          "pageid": 102159716,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "331b7917253be5abb78d4f76334aa6ea0090a068e39723a8c3168962e449b43c",
+      "identity_keys": [
+        "commons-user:wald-burger8",
+        "text:wald-burger8"
+      ],
+      "members": [
+        {
+          "pageid": 123263506,
+          "stratum": "apple"
+        },
+        {
+          "pageid": 124132179,
+          "stratum": "apple"
+        },
+        {
+          "pageid": 123160361,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "73d625fa48ebccafae77ee37b7113a2b3998f4aa9b2e3a752f5ad159bb781fe8",
+      "identity_keys": [
+        "text:jahangeer0094"
+      ],
+      "members": [
+        {
+          "pageid": 101816669,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "410a995ad3147194caeab4d70809c0e2c53fae468828725192aa50bb690f6d6a",
+      "identity_keys": [
+        "commons-user:johann jaritz",
+        "text:johann jaritz"
+      ],
+      "members": [
+        {
+          "pageid": 149412466,
+          "stratum": "apple"
+        },
+        {
+          "pageid": 149529218,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "c4ea61f223221e5d9c5252b94c3adaaeb5a631fc9d85501d32ac8b245f7e932f",
+      "identity_keys": [
+        "text:ttipi-ttapa"
+      ],
+      "members": [
+        {
+          "pageid": 166932522,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "ee42667e130a1d73ae065120b50cb03c2b7e9e84e8dddca4c8be439835621baa",
+      "identity_keys": [
+        "text:webster and stevens"
+      ],
+      "members": [
+        {
+          "pageid": 79163213,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "c2da8ecef61ff464ecfc41356ccf0c21d0f2a4789494517c6a165690cbc0513d",
+      "identity_keys": [
+        "commons-user:agasthyathepirate",
+        "text:agasthyathepirate",
+        "text:agasthyathepirate at english wikipedia"
+      ],
+      "members": [
+        {
+          "pageid": 17360476,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "a43e5ad157cfc7ccf05d002e507f4bee119ae2c4ab73112d74b1195c16de8313",
+      "identity_keys": [
+        "commons-user:bokoba veroly",
+        "text:bokoba veroly"
+      ],
+      "members": [
+        {
+          "pageid": 163535558,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "12ea7f091b8e7028df751876b38cd48a44b4cdea68d17964ecd525bcc33fc8e2",
+      "identity_keys": [
+        "flickr-author:97499887@n06",
+        "flickr-photo:50860414531",
+        "flickr-photo:51088937286",
+        "flickr-photo:51089008509",
+        "flickr-photo:51089480088",
+        "flickr-photo:51089480278",
+        "flickr-photo:51089746845",
+        "text:forest and kim starr"
+      ],
+      "members": [
+        {
+          "pageid": 104636001,
+          "stratum": "apple"
+        },
+        {
+          "pageid": 104636014,
+          "stratum": "apple"
+        },
+        {
+          "pageid": 104635978,
+          "stratum": "apple"
+        },
+        {
+          "pageid": 104635972,
+          "stratum": "apple"
+        },
+        {
+          "pageid": 104635928,
+          "stratum": "apple"
+        },
+        {
+          "pageid": 104635976,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "21af42894209d604c9e00018be1804c4d3a9414d56865b2be1208cfec83fd424",
+      "identity_keys": [
+        "commons-user:alter fritz",
+        "text:alter fritz"
+      ],
+      "members": [
+        {
+          "pageid": 43444338,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "46aac8a4de52c084fe6c23cc8df571afb9dcfbde5bd7567b68b88a1ec003311a",
+      "identity_keys": [
+        "commons-user:rudolphous",
+        "text:rudolphous"
+      ],
+      "members": [
+        {
+          "pageid": 93004714,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "5b9efef248f3f2376b3d9f132affa4fa26ef413327770548a671ded1951a5172",
+      "identity_keys": [
+        "commons-user:thue",
+        "text:thue"
+      ],
+      "members": [
+        {
+          "pageid": 85053657,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "88b508026a40d62413e66547d40188a0b9b9d10435bc71224601a0b0783ee6e7",
+      "identity_keys": [
+        "commons-user:man vyi",
+        "text:man vyi"
+      ],
+      "members": [
+        {
+          "pageid": 2989542,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "0fb56ef51bbcba42bdbac93e6e4bd9892a3b6416e9097f3fcaf1e4c1ff0bf394",
+      "identity_keys": [
+        "commons-user:draceane",
+        "text:draceane"
+      ],
+      "members": [
+        {
+          "pageid": 138627017,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "fa2422f9a255ca189fec5bbb1306941c01f45b75149df18f8b65c1a065169051",
+      "identity_keys": [
+        "text:cheikh cherif"
+      ],
+      "members": [
+        {
+          "pageid": 163679404,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "5be51fa6456706713c3303499e747aebce12403d48c4cfdaddfec5c8d3dc2e0a",
+      "identity_keys": [
+        "commons-user:elduendesuarez",
+        "text:elduendesuarez"
+      ],
+      "members": [
+        {
+          "pageid": 86042179,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "84888bd0cde64a70385098c1851e6b9ce9b06bccf8fd26ba6035480c3802b458",
+      "identity_keys": [
+        "commons-user:juan emilio prades bel",
+        "text:juan emilio prades bel"
+      ],
+      "members": [
+        {
+          "pageid": 187370672,
+          "stratum": "apple"
+        },
+        {
+          "pageid": 176808126,
+          "stratum": "apple"
+        },
+        {
+          "pageid": 179211386,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "a53f96038b0e5db446aaa41c7e45c96dffd36c73ce888b341f3701ab389f13ea",
+      "identity_keys": [
+        "commons-user:mikael häggström",
+        "text:mikael häggström"
+      ],
+      "members": [
+        {
+          "pageid": 6595429,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "64e16e0ddddd4d1e3a49cd7b243fa3ec440f206363d49e2b5f3edcbee3fa9564",
+      "identity_keys": [
+        "commons-user:baimwici gwoux",
+        "text:baimwici gwoux"
+      ],
+      "members": [
+        {
+          "pageid": 112672710,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "7abd9998968d61bc96b7b14cb57f75850796bcf59015645cbd11ed25be70e3f6",
+      "identity_keys": [
+        "commons-user:samurai2593",
+        "text:samurai2593"
+      ],
+      "members": [
+        {
+          "pageid": 162975074,
+          "stratum": "apple"
+        },
+        {
+          "pageid": 162975065,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "a6c4d3534dd62063d0ac90e68f41e11fe6e91ab5e23fb1b917e421217572f8d2",
+      "identity_keys": [
+        "text:oleg melnuk"
+      ],
+      "members": [
+        {
+          "pageid": 138488100,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "687c9d25620f24c111a944a3c33254fb2f7c0c91d90f91f1f6db0b405c716d70",
+      "identity_keys": [
+        "commons-user:atudu",
+        "text:atudu"
+      ],
+      "members": [
+        {
+          "pageid": 41705522,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "b0d6453fbf3d381e1f78a7e34fc1709f474adb6df2ab9066075bec8768fcd068",
+      "identity_keys": [
+        "commons-user:igorcalzone1",
+        "text:igorcalzone1"
+      ],
+      "members": [
+        {
+          "pageid": 166279779,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "b109f80adf5bfd9014ff742210aeb90113c0fc5ad89437b95627811143641e48",
+      "identity_keys": [
+        "commons-title:apple exhibit, canada building, alaska-yukon-pacific-exposition, seattle, washington, 1909 (3382413387).jpg",
+        "commons-title:canada building, alaska yukon pacific exposition, seattle, 1909 (ayp 293).jpeg",
+        "commons-title:frank nowell panorama of apple exhibit, canada building, alaska yukon pacific exposition, seattle, 1909.jpeg",
+        "text:frank h. nowell"
+      ],
+      "members": [
+        {
+          "pageid": 74097924,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "916bf75ed7da73986f3f3ae535b17bcb9841deb1ba3f2308262591b552ddaca3",
+      "identity_keys": [
+        "commons-user:bill kasman",
+        "text:bill kasman"
+      ],
+      "members": [
+        {
+          "pageid": 99129647,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "9d792ef0f5931d8e9709ded82429802b9088f8d0cba9a278ba14f93ab0a5abee",
+      "identity_keys": [
+        "commons-user:bernt fransson",
+        "text:bernt fransson"
+      ],
+      "members": [
+        {
+          "pageid": 81242932,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "cc9dafb2199b6f0bc61a298a539bc6968b272a273d59f82357f546aeaf1094f4",
+      "identity_keys": [
+        "text:veronika daňková, vion nicolas"
+      ],
+      "members": [
+        {
+          "pageid": 3033777,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "identity_keys": [],
+      "members": [
+        {
+          "pageid": 542905,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "8fe620b3d7dcaa9a3c22a40e7cc96d608d70bc12c59fc879943fed2184672c54",
+      "identity_keys": [
+        "text:luis gonzalo molina"
+      ],
+      "members": [
+        {
+          "pageid": 43605036,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "4a66d235ae1aa04afbd7f2cc0edd953fbdd72d15e9367fb653da752e90cca707",
+      "identity_keys": [
+        "commons-user:mariojan photo",
+        "text:mariojan photo"
+      ],
+      "members": [
+        {
+          "pageid": 118440986,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "802ad1de7bba6f1a93cabdc0eadcc4b02116f6962baccd4445dbc10a65aeac91",
+      "identity_keys": [
+        "flickr-author:126377022@n07",
+        "flickr-photo:14596444947",
+        "flickr-photo:14803423413",
+        "text:internet archive book images"
+      ],
+      "members": [
+        {
+          "pageid": 44006615,
+          "stratum": "apple"
+        },
+        {
+          "pageid": 44102298,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "907d913f5d75c1ce6f69dbc7146ab3c4922f19693c078c788bbf543b49f3ae72",
+      "identity_keys": [
+        "flickr-author:15511507@n00",
+        "flickr-photo:3893806090",
+        "text:erik forsberg from helsingborg, sweden"
+      ],
+      "members": [
+        {
+          "pageid": 95108181,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "1778b568f69e2e159a6082ce16d2d3403afb5d0dd04d8cf62b05182d4a0c48ae",
+      "identity_keys": [
+        "text:diego delso"
+      ],
+      "members": [
+        {
+          "pageid": 23128708,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "15c2b7324cc6bdfc95a25be142ae76c7a461537856743f18cb44868697521b9a",
+      "identity_keys": [
+        "text:iooi"
+      ],
+      "members": [
+        {
+          "pageid": 28093164,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "236e145277cbe423bdb3b75db23d1be466a5716776d3268f3b524a126cb475e0",
+      "identity_keys": [
+        "commons-user:olenula",
+        "text:olenula"
+      ],
+      "members": [
+        {
+          "pageid": 129781475,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "9cedfc5e5bc4a958fa045a94e2d97f6eda5f762767335fe2f44aafaf55196527",
+      "identity_keys": [
+        "text:gausanchennai"
+      ],
+      "members": [
+        {
+          "pageid": 75784126,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "d663fbd5f88e438ff6153e6cb3943d847d4ff3576643256ae6aeb54960ec40a1",
+      "identity_keys": [
+        "text:duduhsadarachmat"
+      ],
+      "members": [
+        {
+          "pageid": 107641094,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "3a7d88c8c17d1e2e79d3a462940ab4e36f04c24cb85ff41dc4508c6158d2b990",
+      "identity_keys": [
+        "text:nps staff"
+      ],
+      "members": [
+        {
+          "pageid": 114334005,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "19d7d8a821537698e0c6218283d34f4bb90ea714dd07a25434f7df3b584a2c60",
+      "identity_keys": [
+        "text:xil"
+      ],
+      "members": [
+        {
+          "pageid": 2677659,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "e5295640d2ad8e2c01bf4fec90cea310de1c1d5fa878620bc2b4c95d006bb694",
+      "identity_keys": [
+        "text:3df"
+      ],
+      "members": [
+        {
+          "pageid": 142332695,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "b414f720da103cf7400d7a1ac43d722931fed3e458d578c1614b2dce7436782d",
+      "identity_keys": [
+        "commons-user:shams948",
+        "text:shams948"
+      ],
+      "members": [
+        {
+          "pageid": 152538873,
+          "stratum": "apple"
+        },
+        {
+          "pageid": 152538872,
+          "stratum": "apple"
+        },
+        {
+          "pageid": 152538868,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "5d63dcff4ea14a44718f262675113e1f74edb205ce62eabdc953ba9d5eb569b5",
+      "identity_keys": [
+        "commons-title:wiki-loves-love-logo.svg",
+        "text:satya priya123"
+      ],
+      "members": [
+        {
+          "pageid": 76433427,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "a4a8adfc26dc31ade37c01c491c4475f2bdcef248a2c155edc3d9b36478f6e72",
+      "identity_keys": [
+        "commons-user:4028mdk09",
+        "text:4028mdk09"
+      ],
+      "members": [
+        {
+          "pageid": 18188263,
+          "stratum": "apple"
+        },
+        {
+          "pageid": 18126989,
+          "stratum": "apple"
+        },
+        {
+          "pageid": 11115731,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "df20b9ba30dd835dafa6d2338073f4c93d392748f8a401744b76dc890e313f88",
+      "identity_keys": [
+        "commons-title:apples to come - geograph.org.uk - 8073332.jpg",
+        "text:anthony o'neil"
+      ],
+      "members": [
+        {
+          "pageid": 172867355,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "485342b1892f6100278c36724171a3bcf46e9c802a07bfd47d8dbe0fbe1a6975",
+      "identity_keys": [
+        "commons-title:макс 23.jpg",
+        "commons-user:макс2022",
+        "text:макс2022"
+      ],
+      "members": [
+        {
+          "pageid": 119840418,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "97e08b8f22404bd6d91c21336c7a641afcf487126a1b2926bcf3ea7315844942",
+      "identity_keys": [
+        "flickr-photo:16662563245",
+        "text:consell comarcal del baix empordà. cuina de l'emp"
+      ],
+      "members": [
+        {
+          "pageid": 39549748,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "c7eab2befe190d31ec6a16ed4a53392698a06febe30af9f402f6e90e40406212",
+      "identity_keys": [
+        "text:tn.kuvat"
+      ],
+      "members": [
+        {
+          "pageid": 159885465,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "677b155e7bce6455ffd27e32092a4256ff3e8b0c2a6df2cbdaa6753f2c9a5a74",
+      "identity_keys": [
+        "text:mali maeder"
+      ],
+      "members": [
+        {
+          "pageid": 155198889,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "2d1fc814916589fc942fe56859bee0ee98a086a51f72a5f9394458269adbf64f",
+      "identity_keys": [
+        "text:hamid.ali.anjum"
+      ],
+      "members": [
+        {
+          "pageid": 48384266,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "58f5f5bc8f4a36a7263488385c61c1b8d8a95100e92562f9ec2b9bf3c2cd2150",
+      "identity_keys": [
+        "commons-user:alltheusernamesareinuse",
+        "text:alltheusernamesareinuse"
+      ],
+      "members": [
+        {
+          "pageid": 177192038,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "e787b8ed8fae8911c447a914c83e42ac5621313eab26ceffd30668876eafcd61",
+      "identity_keys": [
+        "text:clément schreiner"
+      ],
+      "members": [
+        {
+          "pageid": 71342034,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "9e54901dfce8884d7bcb4b37812d67e33aa7409d2b23ddf9be1dbc33b7ecd0a0",
+      "identity_keys": [
+        "text:felbify"
+      ],
+      "members": [
+        {
+          "pageid": 115936432,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "a6df296d8204423e76e3bc62352ea00be90cd44d0ea04ca6e2a6cd00f24fa7c0",
+      "identity_keys": [
+        "text:continigio"
+      ],
+      "members": [
+        {
+          "pageid": 152815210,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "a189dd7d3e3e420ec3a69bc092845d44a6ce0014589f2fce4f068b7e7c365787",
+      "identity_keys": [
+        "flickr-author:125167502@n02",
+        "flickr-photo:45180681715",
+        "text:markus spiske from forchheim, bavaria upper franconia"
+      ],
+      "members": [
+        {
+          "pageid": 97404389,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "63df6c845f189313cf4db53a1ba54c1748b893a2bf05fd5e822b3b68d928b24c",
+      "identity_keys": [
+        "commons-user:beko",
+        "text:beko"
+      ],
+      "members": [
+        {
+          "pageid": 164810081,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "0f4873718b9206bb60eb732ee50967a95f955eacb42a70ec4cdacb5df6545bfa",
+      "identity_keys": [
+        "commons-user:yoninah",
+        "text:yoninah"
+      ],
+      "members": [
+        {
+          "pageid": 75534871,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "2b2fd5e0a60843c7681fb7df74e6eac778f461297a3a9b16777af5181fbed5d4",
+      "identity_keys": [
+        "commons-user:valereee",
+        "text:valereee"
+      ],
+      "members": [
+        {
+          "pageid": 81281336,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "e21058b047e734c20adaa14afa9f2fd271e905ec539c37a1aca18b0daabccf98",
+      "identity_keys": [
+        "commons-user:renhour48",
+        "text:renhour48",
+        "text:rené hourdry"
+      ],
+      "members": [
+        {
+          "pageid": 128118838,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "0762b14351692ba66885b0e3af7ccf2bc06da8d683ff7739ec7a6c6ad686798b",
+      "identity_keys": [
+        "text:michal stránský"
+      ],
+      "members": [
+        {
+          "pageid": 19796829,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "129559a1296b83c5fbfe04d90a62036d85b29dd499b2a6cb7d25b9abdaa57d96",
+      "identity_keys": [
+        "text:mario gabinio"
+      ],
+      "members": [
+        {
+          "pageid": 117300654,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "80616d4c1870e42fd2eec34ab92d68752a1b00c522d6ecd083e73070352321b9",
+      "identity_keys": [
+        "flickr-author:45270502@n06",
+        "flickr-photo:5877231972",
+        "text:the royal library, denmark"
+      ],
+      "members": [
+        {
+          "pageid": 26764761,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "10d06b43d651feb97fd70d6f200398c262c78a01bfceefac09e2c3a6f9ed0eed",
+      "identity_keys": [
+        "text:naybear"
+      ],
+      "members": [
+        {
+          "pageid": 86104522,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "2168229996fd76f91540ef06eb7ea4cba84a8d2ed459a6d90f4f5c015dfe1ff0",
+      "identity_keys": [
+        "commons-user:alixsaz",
+        "text:alixsaz"
+      ],
+      "members": [
+        {
+          "pageid": 118390570,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "1bb27ae95437315687df33c295040dade63dbf09391c206f0fc5035054455d62",
+      "identity_keys": [
+        "text:qris789"
+      ],
+      "members": [
+        {
+          "pageid": 85689890,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "04b30288db5028a4d0a9e727071aafed29bb8536867531d0e6a809ef49d4d637",
+      "identity_keys": [
+        "commons-user:lbm1948",
+        "text:lbm1948"
+      ],
+      "members": [
+        {
+          "pageid": 98125521,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "ba9f325ae4923884b532d2a072913ddf7ec6ded8a13464c503e716aaf45fd4cf",
+      "identity_keys": [
+        "flickr-author:69363241@n07",
+        "flickr-photo:53334531732",
+        "text:candi... from sabadell, españa"
+      ],
+      "members": [
+        {
+          "pageid": 141462457,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "a11e47e79f59fcd81c66d5611e671121472e4e7d4f79a9a915740fe574c316d7",
+      "identity_keys": [
+        "commons-user:otunwachinemere",
+        "text:otunwachinemere"
+      ],
+      "members": [
+        {
+          "pageid": 131402909,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "ec0a0bc301f896ad1dfb6c3ab71325540535902c853f17b8c25d67e5cc1a8633",
+      "identity_keys": [
+        "text:erkki voutilainen"
+      ],
+      "members": [
+        {
+          "pageid": 146824943,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "dc8298e0fb5ba26eb7fbd3caad048014fd8cb9a92a3911851a566a0d7bcaf7c0",
+      "identity_keys": [
+        "flickr-author:151294168@n06",
+        "flickr-photo:40986653305",
+        "text:richard royle"
+      ],
+      "members": [
+        {
+          "pageid": 113045611,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "1a048e56510c41eef8c05bb17344065866363ec2422a3de7dcf16e76aa6bf775",
+      "identity_keys": [
+        "text:ramdani mourad"
+      ],
+      "members": [
+        {
+          "pageid": 150672529,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "eb8f3337a6bd35a73d7f43305407c2fe6b380bbb31658cc9b9b6285c6968c0a7",
+      "identity_keys": [
+        "commons-user:borisahonon",
+        "text:borisahonon"
+      ],
+      "members": [
+        {
+          "pageid": 163223254,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "20898a39e7bff06222ae962eedd3b1b63e46a9f58cf6b2e099d9e7e31789939d",
+      "identity_keys": [
+        "commons-user:alixpector",
+        "text:alixpector"
+      ],
+      "members": [
+        {
+          "pageid": 182108802,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "7c09fb61e3cff4d9cf28636d812cd861f48f6027c502c9e762d5c25935d4772c",
+      "identity_keys": [
+        "commons-user:antekbojar",
+        "text:antekbojar"
+      ],
+      "members": [
+        {
+          "pageid": 36357978,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "3f89b4acd96642c9b5f2fbf424cde07d881521281f64ad655b7cdc5d2d42d797",
+      "identity_keys": [
+        "text:dinnye"
+      ],
+      "members": [
+        {
+          "pageid": 7570965,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "c6a2d3103ca9fac4a06f236e916736f7d98aa2e617fe718396c47e816c368b22",
+      "identity_keys": [
+        "text:priyamurugesan2306"
+      ],
+      "members": [
+        {
+          "pageid": 119900183,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "ac10f9424c90f19a4bd41e28ee01c3319018bb5f72c5e912b30eb3f8ce5e9303",
+      "identity_keys": [
+        "text:anna turnajaisissa"
+      ],
+      "members": [
+        {
+          "pageid": 151766588,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "30c15d29c8432e7cf570bbadec80d2457309057de2deada97f6f67677b0f2dd5",
+      "identity_keys": [
+        "text:feel free to use my photos, but please mention me as the author and if you want send me a message. or (rufre@lenz-nenning.at)"
+      ],
+      "members": [
+        {
+          "pageid": 40463035,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "26f47579d96fbd5ea37f9b471b7b051d1e77762f0d80fb84db3ddeda8c4588fe",
+      "identity_keys": [
+        "text:vavaly"
+      ],
+      "members": [
+        {
+          "pageid": 175850921,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "identity_keys": [],
+      "members": [
+        {
+          "pageid": 2362889,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "1970e5775ad9ecb849098b7bfbb92af6aea02673d7555121394e129a91c777c0",
+      "identity_keys": [
+        "text:samuel romero"
+      ],
+      "members": [
+        {
+          "pageid": 71288453,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "9b94d8df8ee13fef0fbf673d058b089e7961595e43a7384a041f10c052fdce02",
+      "identity_keys": [
+        "commons-user:geomel",
+        "text:geomel",
+        "text:georgemel"
+      ],
+      "members": [
+        {
+          "pageid": 31128724,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "4dccaf52056d256b1d12862f7af51e45e37c3ac5f942117ff1248a660b40913f",
+      "identity_keys": [
+        "commons-title:apples.jpg",
+        "commons-title:banana chips.jpg",
+        "commons-title:bananas - morocco.jpg",
+        "commons-title:bananas.jpg",
+        "commons-title:brauner matapfel 1.jpg",
+        "commons-title:idared pomme.jpg",
+        "commons-title:inside a wild-type banana.jpg",
+        "commons-user:nova",
+        "text:agnieszka kwiecień (nova)",
+        "text:agnieszka kwiecień, nova",
+        "text:nova"
+      ],
+      "members": [
+        {
+          "pageid": 6006209,
+          "stratum": "apple"
+        },
+        {
+          "pageid": 5948709,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "429ac904569dc864b5fcc9c7391f62b324862b69ad4a5edee656c64b7eea98d0",
+      "identity_keys": [
+        "flickr-author:38142119@n00",
+        "flickr-photo:61806863",
+        "text:the marmot"
+      ],
+      "members": [
+        {
+          "pageid": 91773990,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "0fcf751d7788aa343b2dd39a6708fbb2835da0a1780fde46081b471f084465bf",
+      "identity_keys": [
+        "text:nt5974"
+      ],
+      "members": [
+        {
+          "pageid": 145763777,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "cebe4cf6d8a6728831fac2d9566f553e1c0ae7fed6653a8ce7cbe13e02e837a5",
+      "identity_keys": [
+        "commons-user:usmonov gayrat",
+        "text:usmonov gayrat"
+      ],
+      "members": [
+        {
+          "pageid": 150093648,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "d5e128fde30d1dd50379c35182666066e422a9c6ff69e5933eca5e20f599aff2",
+      "identity_keys": [
+        "text:alf van beem"
+      ],
+      "members": [
+        {
+          "pageid": 89234846,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "88cf4996bc41eb6146c6277c9cbecc7db3dc00eb235d948466f807a710af643f",
+      "identity_keys": [
+        "commons-user:mike peel",
+        "text:mike peel",
+        "text:photograph by mike peel (www.mikepeel.net)."
+      ],
+      "members": [
+        {
+          "pageid": 123006712,
+          "stratum": "apple"
+        },
+        {
+          "pageid": 84533759,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "18823567e3c1034138e42ddb9423fa7ec2cec1a9844825ed24c89a5cd25f5315",
+      "identity_keys": [
+        "flickr-author:47290943@n03",
+        "flickr-photo:8650532617",
+        "flickr-photo:8651631526",
+        "text:national library of ireland on the commons"
+      ],
+      "members": [
+        {
+          "pageid": 32385885,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "c2487d66569312dadddef7c18c21ed42b78752114a4b7bc49625355a2e6b8b31",
+      "identity_keys": [
+        "text:alina zienowicz ala z"
+      ],
+      "members": [
+        {
+          "pageid": 3431815,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "f2a9a8d6ffa08437622408bb41124334d47d186a661d7ed61472228febeca290",
+      "identity_keys": [
+        "commons-user:zenyrgarden",
+        "text:zenyrgarden"
+      ],
+      "members": [
+        {
+          "pageid": 125161533,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "ef8e5f295bb343b254e62d8b0766496b09628e8e9dee4422d90f5b01014fb43a",
+      "identity_keys": [
+        "flickr-photo:49344902702",
+        "text:boellstiftung"
+      ],
+      "members": [
+        {
+          "pageid": 89009899,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "53eb11eb971a830b755b15d0c9aff3c9b517ab967dc5f6cc9ebd22042bbb67ea",
+      "identity_keys": [
+        "text:shahrohkhanizadeh"
+      ],
+      "members": [
+        {
+          "pageid": 187208280,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "031e9bac7cfea172844569b99426767b70a06666924169ab08a327783e07c8bf",
+      "identity_keys": [
+        "text:janine pohl"
+      ],
+      "members": [
+        {
+          "pageid": 2031911,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "fd4cb1afa45f4c3f96c5beb2dad9d6b3ae6d9aeea7b3e73a598e106bd0416eb4",
+      "identity_keys": [
+        "flickr-author:25936770@n04",
+        "flickr-photo:3666705498",
+        "text:ignacio sanz"
+      ],
+      "members": [
+        {
+          "pageid": 92253606,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "8212e09c96f827904d72abe606662adc3773045fc589c58070e96d78d2c0170d",
+      "identity_keys": [
+        "text:abhay tanta"
+      ],
+      "members": [
+        {
+          "pageid": 49730894,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "50d4fe8a72964923e82cd967df9a46df96592ea8372ab1ef17c807482ba27353",
+      "identity_keys": [
+        "text:rajsp23"
+      ],
+      "members": [
+        {
+          "pageid": 154099132,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "f8bdf28cd9b0ae2a63a4c228239cca96e6a3d270af22dfe37961127431a1ce50",
+      "identity_keys": [
+        "text:laís guerra"
+      ],
+      "members": [
+        {
+          "pageid": 71349117,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "0e72fb2f545d8e5786be366f196e7ae412d0bfb975e5e36020aae67405cf70e2",
+      "identity_keys": [
+        "commons-user:kmtextor",
+        "text:kmtextor"
+      ],
+      "members": [
+        {
+          "pageid": 85874940,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "8bc92500d47a2838353d37e0ef25373d98a857eb739c3451393d19ed0812a1a7",
+      "identity_keys": [
+        "commons-user:sally v",
+        "text:sally v"
+      ],
+      "members": [
+        {
+          "pageid": 86021379,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "1c61bff1ad25fda2008899b5dc005d929bbf881a971ca2a9bb3b0aec1262215d",
+      "identity_keys": [
+        "flickr-author:94006243@n08",
+        "flickr-photo:26007223535",
+        "text:studio alijn"
+      ],
+      "members": [
+        {
+          "pageid": 128563699,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "563106397b8c28aef29f6b675364166a14a331b171386688046e7c320c72a1fd",
+      "identity_keys": [
+        "text:souka kinmei"
+      ],
+      "members": [
+        {
+          "pageid": 156705313,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "a738973f32512174246c32ac0a7fe783b5f311f98837a22d0444dc99d2ca43c2",
+      "identity_keys": [
+        "text:dezidor"
+      ],
+      "members": [
+        {
+          "pageid": 14817959,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "cb7d30a89e070a60b5cdbdb7bb8722d6e7cbfdb2939e4962c45318b2978b88a3",
+      "identity_keys": [
+        "commons-user:kameda, akihiro",
+        "text:kameda, akihiro"
+      ],
+      "members": [
+        {
+          "pageid": 125362784,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "fe1a5e2efe2bf535bc675dfacca97c99ef114288a9f8be5fa7e60d91cdc99eda",
+      "identity_keys": [
+        "flickr-author:66795748@n00",
+        "flickr-photo:1573332373",
+        "text:reza"
+      ],
+      "members": [
+        {
+          "pageid": 97531636,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "11c0c6d8d9891d0d409027db64f95af81f35a4e85e52996952b7ab2e9bb34bfa",
+      "identity_keys": [
+        "commons-user:ириная",
+        "text:ириная"
+      ],
+      "members": [
+        {
+          "pageid": 122539376,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "1d820bc86bd870bfc48478215fa0b998442b439ad299402794f3078fac371d93",
+      "identity_keys": [
+        "commons-user:ardfern",
+        "text:ardfern"
+      ],
+      "members": [
+        {
+          "pageid": 12026774,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "c628df3d119779ecae28a7836bef46f73e80f1c264ad7d7d888870a7476d927b",
+      "identity_keys": [
+        "text:ирина мит"
+      ],
+      "members": [
+        {
+          "pageid": 100977891,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "a560e514e0c630ac160c78c066ca28c8e531352cf0636b680f37aca4ff1ec055",
+      "identity_keys": [
+        "text:nasa johnson space center"
+      ],
+      "members": [
+        {
+          "pageid": 136126658,
+          "stratum": "apple"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "d23e80bdd9c6372b57404b2bb8a9a784c55b48ecb55bd662ff6d59ee11867af6",
+      "identity_keys": [
+        "commons-user:sintegrity",
+        "text:sintegrity"
+      ],
+      "members": [
+        {
+          "pageid": 126741574,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "8efe696833eac11551fe74c653c62270088f21229a7b9d05a9401e34878d7f3e",
+      "identity_keys": [
+        "text:shadeola"
+      ],
+      "members": [
+        {
+          "pageid": 130619395,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "4fb42e760808af3df7e248aa65be03c97ee91ea9f094723323e7b96cb816d57d",
+      "identity_keys": [
+        "flickr-author:192405715@n02",
+        "flickr-photo:51098386624",
+        "text:dainis graveris"
+      ],
+      "members": [
+        {
+          "pageid": 129076804,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "6988bfcacb0106f6693ed9985521af41626215408ee79ab991f5a636e82b99e2",
+      "identity_keys": [
+        "flickr-author:97247234@n00",
+        "flickr-photo:3269806926",
+        "text:dennis wong from hong kong, hong kong"
+      ],
+      "members": [
+        {
+          "pageid": 43748903,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": true
+    },
+    {
+      "partial_cluster_id": "d6b713466e9408e1a843821217fab21cb8b843eb62efc19a5680177851b71dd8",
+      "identity_keys": [
+        "text:chimabee"
+      ],
+      "members": [
+        {
+          "pageid": 129003385,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "8780fe9dbc3b34171f14d2cedef3a22ca56a3b9f218849d0ea967e5f54bd9613",
+      "identity_keys": [
+        "commons-user:ernani zimmermann",
+        "text:ernani zimmermann"
+      ],
+      "members": [
+        {
+          "pageid": 55131690,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "e7a0c379bb8f060678b4486f7022c89162d836ea27d9e32fc233bcd069b8b72e",
+      "identity_keys": [
+        "flickr-author:58414938@n00",
+        "flickr-photo:3878375305",
+        "text:peter o'connor aka anemoneprojectors"
+      ],
+      "members": [
+        {
+          "pageid": 101309980,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "712a22483b53bf8bc519af5c5c8f05cb62d8ee0ab86a2098341642f89a189423",
+      "identity_keys": [
+        "text:oriente52"
+      ],
+      "members": [
+        {
+          "pageid": 93250111,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "60c05654d781bfaeaa696686e31498352616dd4311dc8980554c722d013ec851",
+      "identity_keys": [
+        "flickr-photo:14657312864",
+        "text:icooke"
+      ],
+      "members": [
+        {
+          "pageid": 147340797,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "28e310d86837d272e60cdf93c9ab5a9c7b806d41ea07ff0c02db6dd7bddd9434",
+      "identity_keys": [
+        "text:mstephen247"
+      ],
+      "members": [
+        {
+          "pageid": 63409904,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "53f4798b45589ee4383ef13a7d8625af7a2df6eadb4ee9f76f3cba50c5b9c263",
+      "identity_keys": [
+        "flickr-author:41131493@n06",
+        "flickr-photo:6690040469",
+        "text:smu central university libraries"
+      ],
+      "members": [
+        {
+          "pageid": 53269445,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "0f99b834a859922471bed2b2883f07a5e6134831a5096f5ed3ae4b7f9ec9d0e0",
+      "identity_keys": [
+        "text:artemia1423"
+      ],
+      "members": [
+        {
+          "pageid": 99436847,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "ba8d39601305e828f0875d4b2feba77d1890d666021e63e83bdf2ed93de3dd93",
+      "identity_keys": [
+        "commons-user:serife gerenschier",
+        "text:serife gerenschier"
+      ],
+      "members": [
+        {
+          "pageid": 49635277,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "8c9084bdfe9d2be879e961cf7fcc5a3d61cd1651c6e4893146bf93ac7e6a1f28",
+      "identity_keys": [
+        "commons-user:hariadhi",
+        "text:hariadhi"
+      ],
+      "members": [
+        {
+          "pageid": 3683438,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "7c39a42a76e7c3e6562d09014acf6f936eee2edf9672ee12a6c6e3f920859b45",
+      "identity_keys": [
+        "commons-user:ks.mini",
+        "text:ks.mini"
+      ],
+      "members": [
+        {
+          "pageid": 27647522,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "21c303b647326a5e12b4e574de95f328f04d762da93f0f18bc9ac81eb96ea77d",
+      "identity_keys": [
+        "commons-user:mohanramus",
+        "text:mohanramus"
+      ],
+      "members": [
+        {
+          "pageid": 197341884,
+          "stratum": "banana"
+        },
+        {
+          "pageid": 197341887,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "d2653b5bf2338212df51bc07ed3571f357ce07b2bbc3fbf4b5599252e6bf0856",
+      "identity_keys": [
+        "flickr-author:40981322@n06",
+        "flickr-photo:25868897761",
+        "text:agência de notícias do acre"
+      ],
+      "members": [
+        {
+          "pageid": 50930645,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "f07665dd248f3cda0a537f30acda997fdde8ad90f2b22a330f8de8f960d3ba81",
+      "identity_keys": [
+        "text:agirredort"
+      ],
+      "members": [
+        {
+          "pageid": 145636046,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "7f8f2b6fff826d03b4494509decf847e57c5863360517472c1384169540b2840",
+      "identity_keys": [
+        "flickr-author:11155422@n00",
+        "flickr-photo:8315726664",
+        "text:monica kaneko"
+      ],
+      "members": [
+        {
+          "pageid": 40348957,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "51c62f8017947a243cc625a82d971db9c02958e608b65748adc0ce6f3cc9a10c",
+      "identity_keys": [
+        "flickr-author:40802894@n02",
+        "flickr-photo:3795282735",
+        "text:takeshi kuboki from amagasaki, japan"
+      ],
+      "members": [
+        {
+          "pageid": 31859390,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "c8c2fe19ca0658b9d7d2f2eab4fd58bc6c44f0b48d5ad880feb0956b75ee5c68",
+      "identity_keys": [
+        "text:arayilpdas at ml.wikipedia"
+      ],
+      "members": [
+        {
+          "pageid": 15017574,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "1d58c08b884adb3b4e2d523251acaaac80d111ad4db99b23c96beb422a5827f5",
+      "identity_keys": [
+        "text:dorothea elizabeth smith"
+      ],
+      "members": [
+        {
+          "pageid": 87546851,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "ecbdc392e2d08fafe9f9c6ec4af91fbd337c1a8c57850bb410671a0c04684e7f",
+      "identity_keys": [
+        "commons-user:grey geezer",
+        "text:grey geezer"
+      ],
+      "members": [
+        {
+          "pageid": 31608452,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "bcec7d5dd18764ce353dea70fc3aacc50fc9f2b932b15279bd0db96087f5ee26",
+      "identity_keys": [
+        "flickr-author:32605636@n06",
+        "flickr-photo:7492075368",
+        "flickr-photo:7492076022",
+        "text:state library of queensland, australia"
+      ],
+      "members": [
+        {
+          "pageid": 53521637,
+          "stratum": "banana"
+        },
+        {
+          "pageid": 53521495,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "c52d80f65c1ec5548a51457ba29213f433a4848e461599aae4e58bbbf163bd8d",
+      "identity_keys": [
+        "commons-user:jacoma226",
+        "text:jacoma226"
+      ],
+      "members": [
+        {
+          "pageid": 163971727,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "73e76c7287af1ff139ca1a1bb31fab44dab6ebabaae3e35736065d3c3430d3ee",
+      "identity_keys": [
+        "text:midey pearl"
+      ],
+      "members": [
+        {
+          "pageid": 162427607,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "2ba641a9499fe2214cd26fc1e5933c5aa300132da9df520df532aad7c765ba41",
+      "identity_keys": [
+        "commons-user:trougnouf",
+        "text:trougnouf"
+      ],
+      "members": [
+        {
+          "pageid": 75315847,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "a4fd6ec94cc5cf26ad12ea0dcbdc1fab4273e98c680a6e0715531ddf6b9b6d1e",
+      "identity_keys": [
+        "flickr-author:135897188@n04",
+        "flickr-photo:23566831242",
+        "text:inra dist from france"
+      ],
+      "members": [
+        {
+          "pageid": 46286031,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "8a69b91ca5bfa371fe5a78d9f196e6b5d1ac21bd32fe24976ae64dd342463aa0",
+      "identity_keys": [
+        "text:tulkar"
+      ],
+      "members": [
+        {
+          "pageid": 118158779,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "1c01cd1890ac30d9f4b62ebad9484386bb593f7a7f30d3214a36dcaabd3c707e",
+      "identity_keys": [
+        "text:paola.carrion"
+      ],
+      "members": [
+        {
+          "pageid": 85857985,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "dfee518f8ae5b2096de05188076059f599cfbb048eb01089bcaf168d64afe545",
+      "identity_keys": [
+        "flickr-author:16176711@n02",
+        "flickr-photo:54130040212",
+        "text:conall from downpatrick, northern ireland"
+      ],
+      "members": [
+        {
+          "pageid": 155334589,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": true
+    },
+    {
+      "partial_cluster_id": "115ba39f414fcb4f85fbf82b96e81409a22dcdbe1880e584b5302230793b170a",
+      "identity_keys": [
+        "commons-user:khayri r.r. woulfe",
+        "text:khayri r.r. woulfe"
+      ],
+      "members": [
+        {
+          "pageid": 110315368,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "5d6aab7b083fa157430a2e8c184d86d6edb3c6ab2fdeb70bebd56de46426a20d",
+      "identity_keys": [
+        "commons-user:gtspace",
+        "text:gtspace"
+      ],
+      "members": [
+        {
+          "pageid": 174280626,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "d1070560713779407d7d601660f040430b88ca551f896253e465db790d75758e",
+      "identity_keys": [
+        "commons-user:jolle~commonswiki",
+        "text:jolle~commonswiki",
+        "text:no machine-readable author provided. jolle~commonswiki assumed (based on copyright claims)."
+      ],
+      "members": [
+        {
+          "pageid": 1012433,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "e3b43017ec730a8ee140ba28242fea659e7853acf5fbf474439d738499512101",
+      "identity_keys": [
+        "commons-title:star and ring.svg",
+        "text:mohigan"
+      ],
+      "members": [
+        {
+          "pageid": 60550773,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "f8ac91f4d5f8354b8e9f97e2589d65995cb9fd8a6fb83eeafa9f2a4473bc6df0",
+      "identity_keys": [
+        "commons-title:commonist.svg",
+        "commons-user:computerhotline",
+        "text:computerhotline",
+        "text:thomas bresson"
+      ],
+      "members": [
+        {
+          "pageid": 52595806,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    },
+    {
+      "partial_cluster_id": "76eebf0101df69b27258aa8d579c9a56bbd0af8d4408356f94993c15bfa06b80",
+      "identity_keys": [
+        "text:funnishs"
+      ],
+      "members": [
+        {
+          "pageid": 157759132,
+          "stratum": "banana"
+        }
+      ],
+      "has_known_old_author_exclusion": false
+    }
+  ],
+  "reason": "600 remaining candidates have no metadata; further records may join components. No workflow/confirmation/reserve assignment has been made."
+}

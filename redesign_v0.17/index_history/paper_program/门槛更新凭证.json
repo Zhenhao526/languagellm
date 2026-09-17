@@ -1,0 +1,9 @@
+{
+  "snapshot": "redesign_v0.17/index_history/paper_program/证据与投稿门槛.md",
+  "snapshot_sha256": "244746a23759dca84ae39d512c011345870948ac0d81f509d0a8e8d7420b1459",
+  "updated_path": "paper_program/证据与投稿门槛.md",
+  "updated_sha256": "a14d603d832677409f2a5adb152b7c92d9ba9a0f80afd0530c4e73d474d0632a",
+  "scope": "Only submission-threshold document updated to completed v17 and v2 metadata feasibility. Prior exact bytes retained; no historical frozen sources, experiment results, v1 or v2 files changed.",
+  "initial_draft_sha256": "c2d50f19d6a7ac217411879942adf162c1334b8ac5d2141a947ba25616307f6b",
+  "draft_numeric_correction": "99.59882% -> 99.59884%, from independent exact rate 99.5988362630208%; pre-correction draft preserved."
+}

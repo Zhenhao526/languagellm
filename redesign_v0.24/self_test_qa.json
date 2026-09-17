@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "experimental_training": false,
+  "counts": {
+    "sender": 73191,
+    "receiver": 6364
+  },
+  "max_joint_errors": [
+    1.1920928955078125e-07,
+    2.384185791015625e-07
+  ],
+  "source_hashes": {
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.24/focus_model.py": "9d031908f7be3ad6b0a013ab2d47979bc3d1810972896bc887e8d4c0975146a3",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.24/run_attention.py": "d6138c9d3427be869326a44d608b1ed5c0ebb7bb06203446c039b5d5a71a7a5a",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.24/self_test.py": "8abeaf2394f8c9b09d1d6fbf13bd0ceffe7f0e3826dea451bb4ce9d62832b54d"
+  },
+  "checks": [
+    "paired tensor identity across arms",
+    "only discrete cross-agent link and disjoint role gradients",
+    "gold positions change reward only",
+    "mean bilinear zero gradient",
+    "49 sequence probabilities normalized and sampled prefix matched",
+    "sequential greedy and attention simplex",
+    "receiver full table agrees with direct message forward"
+  ]
+}

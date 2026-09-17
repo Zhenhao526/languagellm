@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "categories": {
+    "sender_baseline": 57600,
+    "training_world": 57600,
+    "training_policy": 115200,
+    "evaluation_world": 24,
+    "evaluation_policy": 72
+  },
+  "total_unique": 230496,
+  "baseline_source_sha256": "9354eeb58d894755807ee3baff5eda8cc6afab15ed70d22f8cde82fd64458631",
+  "runner_sha256": "be3b40e47ad55d5fb22f5adb3e932c01e402fc0147a3dc6fa699e1c4b14569d4",
+  "auditor_sha256": "04ab19265a37e204723a8c1c90aa44d14283de09e81241cb1f25a46ce5a91ba3",
+  "scope": "All formal personal permutation, current training world and sender/receiver policy, and reused evaluation generator states independently reconstructed. Intentional evaluation replay across checkpoints and matched-arm reuse counted once. No production seed helper or model inference."
+}

@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "version": "v0.32",
+  "scope": "bounded static implementation review; no model forward or optimizer replay",
+  "checks": {
+    "fresh_communication_only": "Each population member deep-copies one inherited v28 private-all checkpoint, excludes the private action head, and independently resets communication modules.",
+    "same_world_bidirectional_batch": "Both directions of each matched pair use the same 240-world, two-mask batch; independent token/action uniforms are allocated to the two directions.",
+    "joint_round_payoff": "The detached payoff gives .125 for each of four correct actions and an additional .5 only when all four actions in the pair are correct; the same advantage trains both directions.",
+    "matched_partner_schedule": "fixed_partners repeats (0,1),(2,3); rotating_partners alternates (0,1),(2,3) with (0,3),(2,1) on the same four-direction update budget.",
+    "multi_partner_target": "The target and training supports are disjoint 2-regular bipartite graphs with 12 edges; target evaluation requires both resource partners.",
+    "condition_paired_fixtures": "Both partner conditions use the same frozen world/photo/mask and uniform streams; only partner schedule changes.",
+    "no_training_shortcut": "All eight ordered cross-private-type protocol scores and offline structural references are computed from saved endpoint arrays.",
+    "formal_gate": "Formal execution binds production source hashes and inherited input hashes to preflight_qa.json.",
+    "fixed_budget": "All formal runs use 2400 population updates, 960 messages and 1920 resource actions per update, with no performance-based selection."
+  },
+  "budget_constants": {
+    "messages_per_direction": 240,
+    "directions_per_population_update": 4,
+    "messages_per_population_update": 960,
+    "actions_per_population_update": 1920,
+    "updates_per_run": 2400,
+    "formal_runs": 24,
+    "ordered_cross_type_protocols": 8
+  },
+  "limitations": [
+    "The four population members reuse two frozen private encoders; this tests a controlled partner schedule rather than natural demographic variation.",
+    "The joint payoff binds two directions of one matched pair to the same batch, but it is still a designed cooperation pressure and not a natural ecology.",
+    "The controlled task is a symbolic resource-location protocol, not a reconstruction of complete human ecology.",
+    "The bounded audit checks endpoint sender/receiver tables and selected categorical joint traces, but not every gradient or Adam transition.",
+    "The 199 complete-code relabelings are a descriptive structural reference and do not establish autonomous compositionality."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "scope": "bounded static update/restore/freeze review; no models or training run",
+  "update_ast_equal_after_only_fixture_API_normalization": true,
+  "allowed_changes": [
+    "scope identifier renamed arm",
+    "world.fixture renamed support.fixture",
+    "removed redundant social phase argument"
+  ],
+  "manual_checks": [
+    "restore uses every v28 private_all agent state, discards private head, then freshly resets communication using v29 kind1 seed",
+    "same sender/receiver Adam parameter order, learning rate, role mean/2, entropy cutoff, separate clip and delayed optimizer step",
+    "only frozen cached h and random uniforms reach communication input; target positions reach unchanged direction_loss for reward",
+    "all cached h requires_gradFalse; all noncommunication state frozen and compared at end",
+    "arm excluded from communication initialization identity and all three external fixture RNG streams",
+    "180 test rows fit in unchanged chunk size256, so direct social evaluation is the same single batch shape"
+  ],
+  "tests": {
+    "synthetic_support_tests": 8,
+    "passed": 8,
+    "source_initialization_identities": 24,
+    "distinct_source_identity_count": 24,
+    "v28_v29_initialization_overlap": 0
+  },
+  "source_hashes": {
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.28/run_formation.py": "599c44318ccd07bebd3274ad57dd49e712d7440504cd8502fa454b60d108df9e",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.29/run_support.py": "3815ca1cbf282e66d019d813350b92b292a1276db5c9e7ddf0b63e81aac42c20",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.29/support.py": "d91ce9d93fcf2a0e4c1095813a3a508232ad8a496b1c8e994f1cf65ff85fe3b0",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.29/check_support.py": "138a012bf3f2a04778ddef4450ff14e7d305c878809032cf1c6e2efbc2803679",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.21/social_model.py": "646f8170004358061f235996458cafd349801f9bd54d40bd587b4dfc6a4f4e40"
+  },
+  "limitations": [
+    "Static review does not certify executed tensors or gradients; actual developer run and bounded replay remain separate"
+  ]
+}

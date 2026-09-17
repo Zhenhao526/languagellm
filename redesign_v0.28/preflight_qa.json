@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "source_hashes": {
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.28/run_formation.py": "599c44318ccd07bebd3274ad57dd49e712d7440504cd8502fa454b60d108df9e",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.28/world.py": "42f6bbfac3d1beb4ec676a12104440e6ad18a0c69dc653cd2677f930c0359c4e",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.28/metrics.py": "87d76b65b0c49ad2dce1ca981bb3e2818bfd53243920e305e1ce93582abbfa81",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.28/prepare_data.py": "2d926462017552d828225d4c423cb35754ada8a712652d32fafdb7bfdc5eeaca",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.28/固定执行方案.md": "5315ffadf4e0ff805d593390a1393a76c1568ea0982a84b0e17b7815ee24334f",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.28/前置科学审查.md": "4421c375749da5806d75dd9ca5c224f7ec807490d23e76e6a989cfc7ce2694ba",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.20/temporal_model.py": "13fdfdfb88dce205c71b3b573e13d126fabfc79775fe9dd1ddee37065d78664b",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.20/temporal_world.py": "2c6ed2dbd7fffe61244a427b46e86c2951f6f5e551683bad2131f0e69a9e989d",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.21/social_model.py": "646f8170004358061f235996458cafd349801f9bd54d40bd587b4dfc6a4f4e40",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/camp.py": "21ad5ff2eecf871ff2e8e17e5623875f55d701e66302b741a46658c0cec81854",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/run_pilot.py": "0045c0789884d95e480c79b1827c5caf56e6820036e6ed64c2a0f0da35231134",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/agents.py": "e370825812d7ea81f53d43e13197d44593aacdbbe7048cdcb5307650709e3f40",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/resource_env.py": "8b522678c723f0f89812691487142d0f5292c73acfde569dc9da4a9f0e4a5211"
+  },
+  "smoke_completion_sha256": "738c9e2225a53127c76793b8f5394a099221673a93c261519b3c96747aac99f3",
+  "smoke_tables": 20,
+  "train_worlds": 720,
+  "test_worlds": 180,
+  "initial_states_paired": true,
+  "source_fidelity_record_sha256": "9824fc54ec18d6edad8252e8d20cc4a2cddfb415c181f5be9450320dac1b3dc6",
+  "world_test_log_sha256": "bef48b6c5a9d2db136bc770044466776d755cea466522c3a4dda24140d7ef1ba",
+  "scope": "Development completion, raw finite shapes, exact paired initial states and unchanged inputs; independent statistical and endpoint replay results separately required before final reporting.",
+  "criterion_uses_performance_threshold": false,
+  "development_performance_not_used_for_selection": true
+}

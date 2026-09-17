@@ -1,0 +1,221 @@
+{
+  "status": "passed",
+  "as_of": "2026-09-16",
+  "check_count": 40,
+  "failure_count": 0,
+  "checks": [
+    {
+      "check": "five_focus_sources",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "twelve_candidates_all_triaged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "two_new_pdf_files",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2302.08084_pdf_source_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2302.08084_text_source_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2302.08084_reading_scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "naacl2022.335_pdf_source_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "naacl2022.335_text_source_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "naacl2022.335_reading_scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2407.17960_pdf_source_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2407.17960_text_source_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2407.17960_reading_scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2508.06659_pdf_source_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2508.06659_text_source_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2508.06659_reading_scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "iwcs2025.25_pdf_source_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "iwcs2025.25_text_source_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "iwcs2025.25_reading_scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "local_link_短近邻定位.md_近邻方法与贡献边界.md",
+      "passed": true,
+      "detail": "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_spatial_20260915/近邻方法与贡献边界.md"
+    },
+    {
+      "check": "local_link_短近邻定位.md_研究含义与下一步.md",
+      "passed": true,
+      "detail": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.18/研究含义与下一步.md"
+    },
+    {
+      "check": "local_link_短近邻定位.md_2024_Feng_An_Lu_Multi_Object_Positional_Relationships_AAAI.pdf",
+      "passed": true,
+      "detail": "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_capability_20260916/primary/2024_Feng_An_Lu_Multi_Object_Positional_Relationships_AAAI.pdf"
+    },
+    {
+      "check": "local_link_短近邻定位.md_2022_Garcia_Disentangling_Categorization_NAACL.pdf",
+      "passed": true,
+      "detail": "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_spatial_20260915/primary/2022_Garcia_Disentangling_Categorization_NAACL.pdf"
+    },
+    {
+      "check": "local_link_短近邻定位.md_2024_Kouwenhoven_Representational_Alignment_CMCL.pdf",
+      "passed": true,
+      "detail": "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_spatial_20260915/primary/2024_Kouwenhoven_Representational_Alignment_CMCL.pdf"
+    },
+    {
+      "check": "local_link_短近邻定位.md_2025_MartinezLopez_CORAL_In_Context_Reinforcement_Learning_v2_2026.pdf",
+      "passed": true,
+      "detail": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/literature_2024_2026/papers/2025_MartinezLopez_CORAL_In_Context_Reinforcement_Learning_v2_2026.pdf"
+    },
+    {
+      "check": "local_link_短近邻定位.md_2025_Kuenkele_Dobnik_Learning_to_Refer_Scene_Complexity_IWCS.pdf",
+      "passed": true,
+      "detail": "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_capability_20260916/primary/2025_Kuenkele_Dobnik_Learning_to_Refer_Scene_Complexity_IWCS.pdf"
+    },
+    {
+      "check": "local_link_短近邻定位.md_triage.json",
+      "passed": true,
+      "detail": "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_capability_20260916/triage.json"
+    },
+    {
+      "check": "local_link_短近邻定位.md_reading_manifest.json",
+      "passed": true,
+      "detail": "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_capability_20260916/reading_manifest.json"
+    },
+    {
+      "check": "local_link_短近邻定位.md_download_receipt.json",
+      "passed": true,
+      "detail": "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_capability_20260916/primary/download_receipt.json"
+    },
+    {
+      "check": "local_link_README.md_短近邻定位.md",
+      "passed": true,
+      "detail": "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_capability_20260916/短近邻定位.md"
+    },
+    {
+      "check": "local_link_README.md_reading_manifest.json",
+      "passed": true,
+      "detail": "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_capability_20260916/reading_manifest.json"
+    },
+    {
+      "check": "local_link_README.md_triage.json",
+      "passed": true,
+      "detail": "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_capability_20260916/triage.json"
+    },
+    {
+      "check": "local_link_README.md_download_receipt.json",
+      "passed": true,
+      "detail": "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_capability_20260916/primary/download_receipt.json"
+    },
+    {
+      "check": "local_link_README.md_review_finalize_receipt.json",
+      "passed": true,
+      "detail": "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_capability_20260916/logs/review_finalize_receipt.json"
+    },
+    {
+      "check": "local_link_README.md_radar_ranked_review.md",
+      "passed": true,
+      "detail": "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_capability_20260916/reports/radar_ranked_review.md"
+    },
+    {
+      "check": "validated_2302.08084",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "validated_2407.17960",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "validated_2508.06659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "record_review_finalize_four_exit0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original_collector_zero_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "publisher_only_ids_not_fabricated",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "scope": "local-source integrity, explicit review scope and tool receipts; not independent replication or systematic novelty proof",
+  "new_pdf_count": 2,
+  "triaged_count": 12,
+  "focus_full_text_count": 5,
+  "original_collector_pool": 0,
+  "targeted_arxiv_subset": 3,
+  "network_budget": {
+    "targeted_search_queries_used": 16,
+    "maximum": 16,
+    "new_pdf_limit": 3
+  },
+  "model_calls": 0,
+  "water_data_access": false
+}

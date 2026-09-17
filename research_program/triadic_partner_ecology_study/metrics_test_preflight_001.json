@@ -1,0 +1,11 @@
+{
+  "status": "test_assertion_failed",
+  "tests_run": 9,
+  "passed": 8,
+  "failure": "test_all_4913_joint_actions_original_score_comparison expected topology_consistency_rate24/4913; actual192/4913. The test comment already correctly states3pairs×8×8=192. Physical matching remains24/4913. Correcting test expectation only; metric implementation unchanged.",
+  "source_sha256": {
+    "metrics.py": "499d46c94a9a4b75482c785db3ce08062601ac2449f14f9e8d2637b9fecb2d48",
+    "tests/test_metrics.py": "634b3b7948e0e03a03eb4af378ce7db5815d7cbd7b7b81d9e798069145befdfe"
+  },
+  "models_or_training": 0
+}

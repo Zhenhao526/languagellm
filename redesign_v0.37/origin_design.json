@@ -1,0 +1,37 @@
+{
+  "version": "v0.37-origin",
+  "description": "Teacher-free joint emergence from random communication modules",
+  "input_namespace": "v0.34-34034-fixed-visual-base",
+  "research_question": "Can a group establish a grounded symbol protocol when all communication modules start random, and how does partner-topology coverage affect formation?",
+  "conditions": ["fixed_A", "rotating_AB", "random_ABC"],
+  "training_topologies": {
+    "fixed_A": "A on every update",
+    "rotating_AB": "A on even global updates and B on odd global updates",
+    "random_ABC": "A, B or C sampled from a deterministic per-update schedule"
+  },
+  "evaluation_schedules": ["A", "B", "C"],
+  "population": {
+    "agents": 4,
+    "private_types": [0, 1, 0, 1],
+    "private_visual_encoders": "pretrained frozen type-specific encoders",
+    "communication_initialization": "fresh random reset for all agents",
+    "joint_training": "all communication modules update from grounded reward"
+  },
+  "protocol": {
+    "food_view": "food_only",
+    "water_view": "water_only",
+    "tokens_per_sender": 1,
+    "receiver_input": "ordered_food_then_water_token_pair",
+    "payoff": ".25*(cF+cW)+.5*(cF*cW)"
+  },
+  "updates": 1200,
+  "checkpoints": [0, 100, 600, 1200],
+  "formal_matrix": "4 seeds × 3 panels × 3 topology schedules",
+  "new_dino_inferences": 0,
+  "new_private_fits": 0,
+  "limits": [
+    "Only communication modules are newly initialized; private visual encoders are inherited frozen perceptual interfaces.",
+    "The task has two resources and one token from each of two complementary senders; it does not test natural-language grammar.",
+    "A protocol can be formed by joint policy-gradient coordination here; this is a controlled origin probe, not a reconstruction of human language origins."
+  ]
+}

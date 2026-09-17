@@ -1,0 +1,119 @@
+{
+  "frozen_utc": "2026-09-15T18:08:23.151919+00:00",
+  "before_first_request": true,
+  "source_hashes": {
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/old_exclusion_registry.json": "5e202b44dbb0c27436cb08396889ff91727bed976041f4e9d4851f31c7b0ea57",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/manifest.json": "97fe2ffe555738dd0259926019d56bf743e7b7adf71f518058adbdeffe259f8c",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/author_groups.json": "4329b30c2b3e0648a9bb535f6813e97bee9666581e47ae17730e979ddd2e73e3",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/provisional_allocations.json": "f90f7291f1a75b020acff49ac48611c675b7ae07108a73faca3dba45538515d5",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/candidate_review_order.json": "6266d8a22b1374cfb4a23876f7cc2052d464c656bd39222d7b5f46135ed673b8",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/README.md": "ae92c2a5286306b3f0601182437a0d98d01b75f7f0020651cc8edffef6a55ac5",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/download_manifest.json": "081628a0f8065053e4ee6d29aea50c9a42df1ca520eb6fffdf7daca5494df864",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/download_manifest.json": "9a7960f74f7780aeeb00c2cbe15a5a24018037e09caef75a74a944f267b198d0",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/download_manifest.json": "3cebc2a88eeec43208f82ff023aefcbcad8a54f833a514c3cfc9bd346c6a43ca",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/curation_status_20260916.json": "809976027cd715b48a380c77ac0be4b48b089306f6305763d49988815a403519",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/author_resolution_001/resolution_supplement.json": "5618d08cff9cfcf6e96b1c344805f257388b8834244e63b51298787bc0a28618",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/后续图库可行性审查.md": "e6465e7ab443b7b59ede1297101b2d2996ce588d2e57458ab0ae2572b28194dd",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/exclusion_registry.json": "2b58f8550f928f6edc167524882bb7a8e0b8281a786c4684bf19780cacbfafca",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/config.json": "520257d0e0c0b4728536c59dd07746cf8493fc0716e9df5a87ffa1f9ddee0873",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/固定元数据可行性计划.md": "7eb3a7b53babc49315cb9fdc843df506874d7ba977804f25fbc29e8e554d8ab2",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/metadata_helpers.py": "3060dda932828fd49d9aa0c4db575f03edcf80363293599f83b57a9d696749f2",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/prepare_freeze.py": "3403748c26c57132023cdb66349312e7ccecb3898ea95cd49d6d6592832d875c",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/collect_metadata.py": "ab3914af695e0fab49e6109e013be2a2f9f3c9f39a17e11866ba3424596196df"
+  },
+  "snapshots": [
+    {
+      "original": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/old_exclusion_registry.json",
+      "snapshot": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/input_snapshots/5e202b44dbb0_old_exclusion_registry.json",
+      "sha256": "5e202b44dbb0c27436cb08396889ff91727bed976041f4e9d4851f31c7b0ea57"
+    },
+    {
+      "original": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/manifest.json",
+      "snapshot": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/input_snapshots/97fe2ffe5557_manifest.json",
+      "sha256": "97fe2ffe555738dd0259926019d56bf743e7b7adf71f518058adbdeffe259f8c"
+    },
+    {
+      "original": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/author_groups.json",
+      "snapshot": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/input_snapshots/4329b30c2b3e_author_groups.json",
+      "sha256": "4329b30c2b3e0648a9bb535f6813e97bee9666581e47ae17730e979ddd2e73e3"
+    },
+    {
+      "original": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/provisional_allocations.json",
+      "snapshot": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/input_snapshots/f90f7291f1a7_provisional_allocations.json",
+      "sha256": "f90f7291f1a75b020acff49ac48611c675b7ae07108a73faca3dba45538515d5"
+    },
+    {
+      "original": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/candidate_review_order.json",
+      "snapshot": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/input_snapshots/6266d8a22b13_candidate_review_order.json",
+      "sha256": "6266d8a22b1374cfb4a23876f7cc2052d464c656bd39222d7b5f46135ed673b8"
+    },
+    {
+      "original": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/README.md",
+      "snapshot": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/input_snapshots/ae92c2a52863_README.md",
+      "sha256": "ae92c2a5286306b3f0601182437a0d98d01b75f7f0020651cc8edffef6a55ac5"
+    },
+    {
+      "original": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/download_manifest.json",
+      "snapshot": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/input_snapshots/081628a0f806_download_manifest.json",
+      "sha256": "081628a0f8065053e4ee6d29aea50c9a42df1ca520eb6fffdf7daca5494df864"
+    },
+    {
+      "original": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_002/download_manifest.json",
+      "snapshot": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/input_snapshots/9a7960f74f77_download_manifest.json",
+      "sha256": "9a7960f74f7780aeeb00c2cbe15a5a24018037e09caef75a74a944f267b198d0"
+    },
+    {
+      "original": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/download_manifest.json",
+      "snapshot": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/input_snapshots/3cebc2a88eee_download_manifest.json",
+      "sha256": "3cebc2a88eeec43208f82ff023aefcbcad8a54f833a514c3cfc9bd346c6a43ca"
+    },
+    {
+      "original": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/curation_status_20260916.json",
+      "snapshot": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/input_snapshots/809976027cd7_curation_status_20260916.json",
+      "sha256": "809976027cd715b48a380c77ac0be4b48b089306f6305763d49988815a403519"
+    },
+    {
+      "original": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/author_resolution_001/resolution_supplement.json",
+      "snapshot": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/input_snapshots/5618d08cff9c_resolution_supplement.json",
+      "sha256": "5618d08cff9cfcf6e96b1c344805f257388b8834244e63b51298787bc0a28618"
+    },
+    {
+      "original": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/后续图库可行性审查.md",
+      "snapshot": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/input_snapshots/e6465e7ab443_后续图库可行性审查.md",
+      "sha256": "e6465e7ab443b7b59ede1297101b2d2996ce588d2e57458ab0ae2572b28194dd"
+    },
+    {
+      "original": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/exclusion_registry.json",
+      "snapshot": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/input_snapshots/2b58f8550f92_exclusion_registry.json",
+      "sha256": "2b58f8550f928f6edc167524882bb7a8e0b8281a786c4684bf19780cacbfafca"
+    },
+    {
+      "original": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/config.json",
+      "snapshot": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/input_snapshots/520257d0e0c0_config.json",
+      "sha256": "520257d0e0c0b4728536c59dd07746cf8493fc0716e9df5a87ffa1f9ddee0873"
+    },
+    {
+      "original": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/固定元数据可行性计划.md",
+      "snapshot": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/input_snapshots/7eb3a7b53bab_固定元数据可行性计划.md",
+      "sha256": "7eb3a7b53babc49315cb9fdc843df506874d7ba977804f25fbc29e8e554d8ab2"
+    },
+    {
+      "original": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/metadata_helpers.py",
+      "snapshot": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/input_snapshots/3060dda93282_metadata_helpers.py",
+      "sha256": "3060dda932828fd49d9aa0c4db575f03edcf80363293599f83b57a9d696749f2"
+    },
+    {
+      "original": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/prepare_freeze.py",
+      "snapshot": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/input_snapshots/3403748c26c5_prepare_freeze.py",
+      "sha256": "3403748c26c57132023cdb66349312e7ccecb3898ea95cd49d6d6592832d875c"
+    },
+    {
+      "original": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/collect_metadata.py",
+      "snapshot": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/input_snapshots/ab3914af695e_collect_metadata.py",
+      "sha256": "ab3914af695e0fab49e6109e013be2a2f9f3c9f39a17e11866ba3424596196df"
+    }
+  ],
+  "original_v1_inputs_unchanged": true,
+  "pixel_requests": 0,
+  "model_calls": 0
+}

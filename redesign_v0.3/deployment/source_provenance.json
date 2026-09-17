@@ -1,0 +1,27 @@
+{
+  "upstream": "https://github.com/openai/Video-Pre-Training",
+  "commit": "095519fbd4ee0e9281d19f19601e45629de9ac3f",
+  "purpose": "Pretrained policy inference only; no Minecraft environment is installed by this script.",
+  "adaptations": [
+    "Lazy import for unused MineRL item-name helper",
+    "Replace removed torch.has_cuda with torch.cuda.is_available"
+  ],
+  "runtime_sha256": {
+    "lib/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "lib/action_head.py": "0aeed23e1a477d67c94124328bb73c8c3ef821fd5f6e69ea383cfbb86a7a57d0",
+    "lib/action_mapping.py": "37bcd1a5ebed7468b279192f1ed0e16a58fa03f08dc80a53e4ff7248244ddb2e",
+    "lib/actions.py": "b3e0a22d36c6d2efab27b2de1ab0014ee99099b643e34363fe539433a5d47b4d",
+    "lib/impala_cnn.py": "e7a9daa6bb04a97a523783739577b587283e5153ffe3bcd07c79dcdaefc06867",
+    "lib/masked_attention.py": "bb7ab38148001912cc8f07377e9f0d592c8dcbf36ab34117b9534f3a56ed55b7",
+    "lib/minecraft_util.py": "91d18148ecf6c61d79f5b2cd05a229e9b609a27c3b691f860fb3545bd33ba725",
+    "lib/misc.py": "01422c9edc41680248b83d69cf0da73fd86b0d3bfaad55a76dd7674704dcabdb",
+    "lib/mlp.py": "bd39f322b396d3eacb99ecf9976c0740e6eb376386b343af6e1a38030e66242f",
+    "lib/normalize_ewma.py": "9fab7b5b0a46667d5fa12f11128526d388aa7320c3c1da7155f15a24d57d84ca",
+    "lib/policy.py": "a117315e9100ccb2db0b6f6e0290a012a893c3bd59dea753e414b9104eade00e",
+    "lib/scaled_mse_head.py": "a3ed6cf23b2778bd954938bb8960116919ce55e2711ba3c5ff562e7717f3b8d7",
+    "lib/torch_util.py": "ed1345a10ca8812cdc56ce86e28d3eb70e9a7fe82471e07539fad6aa1d28a7f8",
+    "lib/tree_util.py": "c50ce7035269911a4f5d1dda665286bb15c726bb1304b2707a527c1d85aedc45",
+    "lib/util.py": "4d71290296bf767ceba3c0646357fa6da839dbbb717055da041079dbaf26bbd3",
+    "lib/xf.py": "4fc9be37bee5e13a0b1cf0a1cc4f7bead2d9f20d0544bfc24dff2d7049d190e9"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "name": "vpt_dev_v2",
+  "scope": "Frozen official VPT; tutorial instructions disabled. The initial tutorial-visible movement pilot is excluded. Development seeds 101,102,103; held-out seeds 201,202,203,204,205 remain reserved.",
+  "cases": [
+    {
+      "id": "movement_s101",
+      "controller": "vpt",
+      "scenario": "movement",
+      "seed": 101,
+      "steps": 1200
+    },
+    {
+      "id": "movement_s102",
+      "controller": "vpt",
+      "scenario": "movement",
+      "seed": 102,
+      "steps": 1200
+    },
+    {
+      "id": "movement_s103",
+      "controller": "vpt",
+      "scenario": "movement",
+      "seed": 103,
+      "steps": 1200
+    },
+    {
+      "id": "wood_s101",
+      "controller": "vpt",
+      "scenario": "wood",
+      "seed": 101,
+      "steps": 2400
+    },
+    {
+      "id": "wood_s102",
+      "controller": "vpt",
+      "scenario": "wood",
+      "seed": 102,
+      "steps": 2400
+    },
+    {
+      "id": "wood_s103",
+      "controller": "vpt",
+      "scenario": "wood",
+      "seed": 103,
+      "steps": 2400
+    },
+    {
+      "id": "food_selected_s101",
+      "controller": "vpt",
+      "scenario": "food_selected",
+      "seed": 101,
+      "steps": 800
+    },
+    {
+      "id": "food_selected_s102",
+      "controller": "vpt",
+      "scenario": "food_selected",
+      "seed": 102,
+      "steps": 800
+    },
+    {
+      "id": "food_selected_s103",
+      "controller": "vpt",
+      "scenario": "food_selected",
+      "seed": 103,
+      "steps": 800
+    },
+    {
+      "id": "food_select_s101",
+      "controller": "vpt",
+      "scenario": "food_select",
+      "seed": 101,
+      "steps": 800
+    },
+    {
+      "id": "food_select_s102",
+      "controller": "vpt",
+      "scenario": "food_select",
+      "seed": 102,
+      "steps": 800
+    },
+    {
+      "id": "food_select_s103",
+      "controller": "vpt",
+      "scenario": "food_select",
+      "seed": 103,
+      "steps": 800
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "started_at_utc": "2026-09-15T14:21:47.434578+00:00",
+  "plan_sha256": "cf4de1868c61d2830b07093c806bebdae58f619ec6b812a84c3f5ec3f32866da",
+  "source_code_sha256": "eb0feb32f4b11b9d60663cd10990b935f156ba10df9f1b71f5d4e998b32e3e3e",
+  "images_downloaded": 0,
+  "image_views": 0,
+  "model_calls": 0,
+  "old_candidates_excluded": 101,
+  "resume_record": "resume_001.json",
+  "resume_record_sha256": "e7675e36d36daa083aaa402f618aa837ec3f193cde65b2f07fb7f06f10f99525",
+  "status": "metadata_collection_complete",
+  "metadata_count": 800,
+  "eligible_pending_review": 655,
+  "allocation": {
+    "targets": {
+      "workflow": {
+        "apple": 4,
+        "banana": 4,
+        "orange": 4,
+        "water": 12
+      },
+      "confirmation": {
+        "apple": 8,
+        "banana": 8,
+        "orange": 8,
+        "water": 24
+      },
+      "reserve": {
+        "apple": 12,
+        "banana": 12,
+        "orange": 12,
+        "water": 36
+      }
+    },
+    "counts": {
+      "workflow": {
+        "apple": 4,
+        "banana": 4,
+        "orange": 4,
+        "water": 12
+      },
+      "confirmation": {
+        "apple": 8,
+        "banana": 8,
+        "orange": 8,
+        "water": 24
+      },
+      "reserve": {
+        "apple": 12,
+        "banana": 12,
+        "orange": 12,
+        "water": 36
+      }
+    },
+    "shortfalls": {
+      "workflow": {
+        "apple": 0,
+        "banana": 0,
+        "orange": 0,
+        "water": 0
+      },
+      "confirmation": {
+        "apple": 0,
+        "banana": 0,
+        "orange": 0,
+        "water": 0
+      },
+      "reserve": {
+        "apple": 0,
+        "banana": 0,
+        "orange": 0,
+        "water": 0
+      }
+    },
+    "available_author_clusters": 506,
+    "note": "Reservations only. Pixel, perceptual duplicate, attribution and identity review remain pending; no confirmation image exposure."
+  },
+  "finished_at_utc": "2026-09-15T14:32:54.703765+00:00",
+  "request_count": 92,
+  "successful_response_count": 87,
+  "metadata_author_groups": 603,
+  "sampling_frame_complete_within_fixed_scope": true,
+  "planned_metadata_rows": 800,
+  "pending_metadata_rows": 0,
+  "assignments_made": 144,
+  "metadata_count_by_stratum": {
+    "apple": 160,
+    "banana": 160,
+    "orange": 160,
+    "water": 320
+  },
+  "no_alternate_origin_used": true,
+  "manifest_sha256": "97fe2ffe555738dd0259926019d56bf743e7b7adf71f518058adbdeffe259f8c",
+  "candidate_status_sha256": "f099771c39c194b1523853f34d4b043f0b904dc5c2ec629bd5822cae77d818cc",
+  "historical_retry_after_timing_defects": [
+    {
+      "response": "raw/0030_metadata_0200_a1.response",
+      "retry_after_seconds": 34,
+      "next_request_elapsed_seconds": 30.768991,
+      "defect": "case-sensitive header lookup used 30-second default"
+    }
+  ],
+  "resume_http_status_counts": {
+    "200": 60
+  },
+  "candidate_order": "candidate_review_order.json",
+  "candidate_order_sha256": "6266d8a22b1374cfb4a23876f7cc2052d464c656bd39222d7b5f46135ed673b8",
+  "historical_status_receipt": "historical_status_receipt.json",
+  "historical_status_receipt_sha256": "e140efc8550da16d6fc5f455f3268def207d3cfd345b2a5b4703d3796dcc1941"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "study": "triadic_random_symbol_ensemble_001",
+  "report": "结果与下一步.md",
+  "inputs": {
+    "plan_sha256": "6105a720b0f6ab84af131c4a893c04d42dea284331eda9dd31715d3729ecbfd7",
+    "execution_results_sha256": "10563d75f9f0d248a35e12226938b479d73eeedd2b5edcc8e4b73b6ab6dd4d49",
+    "audit_verification_sha256": "b09605a2d6202de7b3448092be0b2c2e9dd0f387ff1bd36a38e13ec64094ba8f",
+    "summary_sha256": "744a1fa50371c10a69d5f36b6e1db17b82e2f767597e2686e0eb48796555956f",
+    "figures_receipt_sha256": "c4c9f35ee63b8e47ceb76f61257d895370d2f4440710c313233aab3376486455"
+  },
+  "output_sha256": "65b98ca80f65d12ebf41819225a31715a1166c5155947acb76ae2dbeb16d343a",
+  "scope": "Chinese report generated after independent audit and visual review; no model or checkpoint reads."
+}

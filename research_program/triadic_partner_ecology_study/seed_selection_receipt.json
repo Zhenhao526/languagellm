@@ -1,0 +1,1179 @@
+{
+  "status": "passed",
+  "recorded_at_utc": "2026-09-15T16:27:09.964017+00:00",
+  "seeds": [
+    49101,
+    49102,
+    49103,
+    49104
+  ],
+  "scope": "Existing research_program metadata filenames plan/prepared/config/manifest/result/results, integer seed-named fields; excludes current study and duplicated source_snapshot trees. Does not claim absence from unrecorded/external experiments.",
+  "files_checked": 291,
+  "files": [
+    {
+      "path": "research_program/receiver_coverage_trajectory_v06_20260915_py312/plan.json",
+      "sha256": "ee6fb87cf628f769fbfce78fff34984df016e5b9a7e7ef69be3e3b80345e9e61"
+    },
+    {
+      "path": "research_program/v08_formation_trajectory_001/plan.json",
+      "sha256": "e3a7eece2286c5df345565dae33888a904454f33095e5a9518261aa9e22231bc"
+    },
+    {
+      "path": "research_program/receiver_coverage_trajectory_v06_20260915/plan.json",
+      "sha256": "ad43bfdba4ed976cddd2003e49bd538a0170dbe1912313d041c8828484d66eda"
+    },
+    {
+      "path": "research_program/interaction_ecology_study/results/interface_001/plan.json",
+      "sha256": "56e84dca81b7157db0a9ea518959352a6df78a58e9bc60f82a0774fc482f5456"
+    },
+    {
+      "path": "research_program/interaction_ecology_study/results/interface_001/execution/results.json",
+      "sha256": "3192b15d95be405647e6f45846a9971ef9b3b0d1b1b0b9071208ce70c10440bf"
+    },
+    {
+      "path": "research_program/visual_confirmation_frame/details_002/plan.json",
+      "sha256": "fc1cf2ec608aad4f98c5a14aa5b36efddf70f467140f0307b9521af3c3c9d5b1"
+    },
+    {
+      "path": "research_program/visual_confirmation_frame/metadata_001/result.json",
+      "sha256": "0bafe7d4d4e20d10d28addc03ef4acac662c57e195289ef17ffa49c297427450"
+    },
+    {
+      "path": "research_program/visual_confirmation_frame/details_001/result.json",
+      "sha256": "18c022d50b35b8794d05bcc2e92e71b576b45ca35072cc3b66b090aa518d6f41"
+    },
+    {
+      "path": "research_program/visual_confirmation_frame/curation/ranking_001/result.json",
+      "sha256": "ad8bd1f3e6b16f8ff5db17dc6f2546d82df126ae8b9093691f45a53263583624"
+    },
+    {
+      "path": "research_program/visual_confirmation_frame/curation/water_download_001/plan.json",
+      "sha256": "66b000324cbc5d1488ba53848ff735c3f968bb840e1aa573bbb2b0cc6d7414cd"
+    },
+    {
+      "path": "research_program/visual_confirmation_frame/curation/thumbnail_stage/offline_001/manifest.json",
+      "sha256": "9e9a53594fc86215716c10884569dd54e7cf40f0f23bb5d6bcdd4ba773f99754"
+    },
+    {
+      "path": "research_program/visual_confirmation_frame/curation/water_download_001/execution/result.json",
+      "sha256": "26ded518167629ccba11df2d34555e0067b6721e18308a2d97fb878924562f25"
+    },
+    {
+      "path": "research_program/visual_confirmation_frame/details_002/execution/result.json",
+      "sha256": "28828ed73359acf0dcb7e32402d7c84a310a4489bf190e8433738671ad505d9c"
+    },
+    {
+      "path": "research_program/receiver_coverage_trajectory_v06_20260915_py312/execution/results.json",
+      "sha256": "9495b2dfe7c5cf048c01129b10f9bc4d0aa7b96b586956b86c612c624514e1d0"
+    },
+    {
+      "path": "research_program/triadic_coordination_study/literature/maven_recovery_002/plan.json",
+      "sha256": "75ad7962e8b4b027721d67cceffcd18779063f63f8dc92816271abf3f427ef35"
+    },
+    {
+      "path": "research_program/triadic_coordination_study/results/mean_vs_log_001/plan.json",
+      "sha256": "a422521a0a4166e4fed6dfd122337e76ce86f95c988bde3c9df92875feb9b561"
+    },
+    {
+      "path": "research_program/triadic_coordination_study/results/mean_vs_log_001/prepared.json",
+      "sha256": "101e58799e479f7b14f8866c032bb9d89fed9e31013653e79dd425e9f03b8bd1"
+    },
+    {
+      "path": "research_program/triadic_coordination_study/results/mean_vs_log_001/execution/results.json",
+      "sha256": "bb0ffacee9f3bd9a58533393226258c25eb8696d35c730b7d88e02f3a5cc8e87"
+    },
+    {
+      "path": "research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45103_mean_J/result.json",
+      "sha256": "491d7a7f206209fa9a6b3ea8235d7e0d9bf3037424c93d5bb7686bfa00a346cf"
+    },
+    {
+      "path": "research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45101_mean_J/result.json",
+      "sha256": "130da6075606365a4109aed2eaff39f511b04c3afa150967cc0c6df238dc0ff6"
+    },
+    {
+      "path": "research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45102_mean_log_J/result.json",
+      "sha256": "eaaaf8dfa011e4b854b2fc1225df8a240f4af74a47b6c0a2d0b53001f2691097"
+    },
+    {
+      "path": "research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45101_mean_log_J/result.json",
+      "sha256": "5fc6b4db1bb9cde6e74abfcdd38bfbdbc65c02b1da5eeb3caaafbf77ede443cc"
+    },
+    {
+      "path": "research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45102_mean_J/result.json",
+      "sha256": "14bd4c5ae9c4f1d2a9a6b2d30fc912b7e87625a06a9a472b8fc5751f070d7ed3"
+    },
+    {
+      "path": "research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45104_mean_log_J/result.json",
+      "sha256": "4a3d7d9f60fa2c30e6c868e7dd66e5363b59a6757381962cc7dc174527932f55"
+    },
+    {
+      "path": "research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45104_mean_J/result.json",
+      "sha256": "6eebceb0432db3179732434f6a40765144bf7dad3f5b687e98cd5d2264637c45"
+    },
+    {
+      "path": "research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45103_mean_log_J/result.json",
+      "sha256": "6998a35c154e209e7701d01cfb0717662f4cf2a1a0feae10096f13e2a6c1253e"
+    },
+    {
+      "path": "research_program/triadic_coordination_study/endpoint_probability_diagnostic/results/endpoint_001/manifest.json",
+      "sha256": "63a5d3b3d808254bf170679f2bddb47f73bd96900093e1f0f610a035de67d176"
+    },
+    {
+      "path": "research_program/triadic_coordination_study/endpoint_probability_diagnostic/results/endpoint_001/execution/results.json",
+      "sha256": "f34734369bae80531082502d072acb943c4ebd18cc789d08a7c7f0ab8bd95868"
+    },
+    {
+      "path": "research_program/v08_formation_trajectory_001/execution/results.json",
+      "sha256": "934876d51a7a8638e9187665dfdd36b89b61aae98ea4171ed7e23534ec2e17ce"
+    },
+    {
+      "path": "research_program/policy_gain_study/development/preflight_001/plan.json",
+      "sha256": "b7fa0ec99f064a2c088871c25ac4d6e445dfb387cff477dbebdd814cc1136771"
+    },
+    {
+      "path": "research_program/policy_gain_study/development/preflight_001/result.json",
+      "sha256": "0362d05f07c6a18a6c826be383e438196fa90ac3763a20cce1cd6d8f493207e2"
+    },
+    {
+      "path": "research_program/policy_gain_study/development/preflight_001/new_joint/result.json",
+      "sha256": "f33c54ff1859b398b38dba74267cfac7b583348e09e12096e3672806e98ba492"
+    },
+    {
+      "path": "research_program/policy_gain_study/development/preflight_001/new_joint/config.json",
+      "sha256": "d42d1815dc99c37d80256c0a6ed545ea438f8f79ca20f7af68eacd4d11f1333f"
+    },
+    {
+      "path": "research_program/policy_gain_study/development/preflight_001/old_joint/result.json",
+      "sha256": "d1e0e6846bd9abdc1ba52016645c3c5f2bc267251bccabe78724411c90a0f49b"
+    },
+    {
+      "path": "research_program/policy_gain_study/development/preflight_001/old_joint/config.json",
+      "sha256": "fa81d916784bde500404fee74d2b7a3bd666ac7e9b946a56944bc8f26fee402e"
+    },
+    {
+      "path": "research_program/policy_gain_study/development/preflight_001/new_additive/result.json",
+      "sha256": "e9a69be53a229379dc9c7234dcd270af34b925416f58092fe576837b2cb0c6a0"
+    },
+    {
+      "path": "research_program/policy_gain_study/development/preflight_001/new_additive/config.json",
+      "sha256": "16b6e127627a292ee9d73c427cc47f4e9ac74f1901f61a4e93020104fd6c77e9"
+    },
+    {
+      "path": "research_program/policy_gain_study/development/preflight_001/old_additive/result.json",
+      "sha256": "f23cb720777ef9cb451240c8cbd0940a07b7c59606a2991c3d79ffdb6ca8d9c3"
+    },
+    {
+      "path": "research_program/policy_gain_study/development/preflight_001/old_additive/config.json",
+      "sha256": "75c90d15eb3f18e7d52f157470eaa8eb9e4297643d704c2c7a63db1fe005e80a"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/manifest.json",
+      "sha256": "1ee1749adc00713ac059b248f50f26369cbbc2c49cdb6c92a8e093ebeb7dc889"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28104_split1_additive_gain1/result.json",
+      "sha256": "98463eca429c254db7247860ebd862ab2b6adec463de8d8c8e994627e57eba9e"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28104_split1_additive_gain1/config.json",
+      "sha256": "55d12cf65a74acf56513804aafd8d7f837060e0f00795693f68ec75ec57abfff"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28103_split3_additive_gain3/result.json",
+      "sha256": "1912d64c0c8a3d839f41ef63e520e4215cb75ee970b8bbddaee84bf81febd678"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28103_split3_additive_gain3/config.json",
+      "sha256": "3f377b9f862f707cf4da6e2a8bc862de8fe36c6c40dc8d9bf82e0681d6e99fe6"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/analysis_recovery_001/plan.json",
+      "sha256": "fd2ee9022a1f912537e7afe47aa9ab8882ed480340dc92bf718be4ef7a89f813"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/analysis_recovery_001/result.json",
+      "sha256": "fe192dab5122a5fb663c6c9eb7300496cc838af839411a9cfdfaa02c039fbcbc"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28101_split3_joint_gain1/result.json",
+      "sha256": "dc20b70b1aa4c74c96f17bee41d490b006c8afc47b7012a688fdb67f20d052ae"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28101_split3_joint_gain1/config.json",
+      "sha256": "9753ad0aaa440aa3863e4a9db333ad73ae773cb11187f2b1ce1acb850d17069a"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28102_split3_additive_gain1/result.json",
+      "sha256": "293e7d30aeef679a76cc980784ef00f562c62989ca5f3f2d941cb9bdf19aa45f"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28102_split3_additive_gain1/config.json",
+      "sha256": "1307b97514d27b25348a4b0395254ffe187c9e81360b020507a1c5c9451ee8a0"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28104_full_joint_gain1/result.json",
+      "sha256": "f4774cad70573804bf87c154d05a9de81cff8e35f304132c2f5609c21941f11e"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28104_full_joint_gain1/config.json",
+      "sha256": "8294b168f48411f3be776fc2141c66bf80f6041a83de84b7ceab678dc13d83df"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28102_split2_joint_gain3/result.json",
+      "sha256": "06e3cab0b627a8f7517e378f59ab5db7608aa1ed136307330d592b7cb344e747"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28102_split2_joint_gain3/config.json",
+      "sha256": "200c9df88c4f026d16488376e4d8e7cecc20c245ca9f04a3f7971e149e3e1243"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28101_split2_additive_gain3/result.json",
+      "sha256": "e7db6bad9fe73a542c25e5d5d7c2b710e0a3c945a55ec0d753cb33a27695d670"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28101_split2_additive_gain3/config.json",
+      "sha256": "e7458a8367e5f7a2fe7b156fca554ce79d8da7d5c279051785dfa26e6a9b1db4"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28104_split1_joint_gain3/result.json",
+      "sha256": "4a74c21777980878e086fda111912edc8a7742887f619080c2d912e7c49a3110"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28104_split1_joint_gain3/config.json",
+      "sha256": "58c68af0508049724baebd47f5e4cb567631e66ccbc72337ea849145088eea22"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28103_split1_joint_gain1/result.json",
+      "sha256": "e8390d04ae8160de7a84ab66a70f29fad87e3f0eeddbca6086741571061cf1e0"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28103_split1_joint_gain1/config.json",
+      "sha256": "86a69e6bd027875028362cbc5af43cba57f289df47e23219960432e4eeffa29d"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28101_split2_joint_gain3/result.json",
+      "sha256": "c7d65928e4acb52fb26f42a2dd6d2ac8a6dc1850d91f2c176f0b2499fcd22b13"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28101_split2_joint_gain3/config.json",
+      "sha256": "a207e9f10d18ae0214775ae5b4133d8a71839ad8aa5ac7f7ce0c7fa8ed5d73e1"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28102_full_joint_gain3/result.json",
+      "sha256": "cfb5702843cd2d8d3af758efabd8e4d6c211309e26a7f1919a15297c5b3285fe"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28102_full_joint_gain3/config.json",
+      "sha256": "8fd0b7f3c7d5286ac02a3074fc2e82f282743ae605d339b766becd5ee8c97c96"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28101_split3_additive_gain3/result.json",
+      "sha256": "5714eb2f583f265a97d7bd60e08638652930935d35820218361cbfa32adffd7c"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28101_split3_additive_gain3/config.json",
+      "sha256": "d30a9fdefc980d27d0f2db524e1d6f1acfb8aa5112ba7dc08f12ecd6fd87d3d4"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28102_split3_joint_gain1/result.json",
+      "sha256": "1b199ea3ac2574cc75bbdbb373a40e66ef57813f941132313b4feb23dc9fd8bc"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28102_split3_joint_gain1/config.json",
+      "sha256": "3e0d1f423be42e4dc0bed35dc07f9e918956befc26420c5253e0a4a59ed0a121"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28102_split2_additive_gain1/result.json",
+      "sha256": "c35c098352327e7b539dfc416fb8fb3c54682f0980f3cce726068c2f6f2ff42f"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28102_split2_additive_gain1/config.json",
+      "sha256": "deecbef935043f94b9f02ff144452c2bd1a212fe0f73bbef32488be6286a301f"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28103_split2_additive_gain3/result.json",
+      "sha256": "0326be21f62e4f83a5e564b8a03a9e5b49ebd23c489830e3244623a082812561"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28103_split2_additive_gain3/config.json",
+      "sha256": "e30a3aededa822d0b20147c9dcf646d4b57321caac9968082291ec07d6c314d9"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28103_split3_joint_gain3/result.json",
+      "sha256": "983ba6c828c02e612d5b14a8734832e36d2b42650173d223e5a469267e953a6c"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28103_split3_joint_gain3/config.json",
+      "sha256": "66dec3a933e06f9654f69dfd45dc4532bff277dae5c8e1f6b60964a0a5a56e75"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28104_split3_joint_gain1/result.json",
+      "sha256": "ce00f1fae813bf6a0bb08b83bd2d04d3dac46f07e14b65ff895fa39b3eba6c47"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28104_split3_joint_gain1/config.json",
+      "sha256": "3fa4ba000f057fb8561d9f16db80f5cf1c47e75cab2e737355e8ecacd935d94b"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28101_full_additive_gain1/result.json",
+      "sha256": "2056d20a00339f53fa35cb3b1ffd993a6c8b62a9bf44a3b15f6000aa09ee2537"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28101_full_additive_gain1/config.json",
+      "sha256": "44d3ac68c4e476153fdf50c7f4aaf656f1046d765864266e0000d07f88a47f4d"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28104_split2_additive_gain1/result.json",
+      "sha256": "10f021df80179293c96399ca885f9b212399f2679fde6fa9bf156ce500c46bdd"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28104_split2_additive_gain1/config.json",
+      "sha256": "addf47b0cc71ee626c4aee1a04d01c057e6ba807081da547e99a6dda493e651a"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28103_full_additive_gain1/result.json",
+      "sha256": "a01a2a0574de93e9504ecb0fb7631647f0687769905e3fe66df6d486ee3fa7f8"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28103_full_additive_gain1/config.json",
+      "sha256": "0021cb887bbd465e4dfabfcaa033eb37a86a5e6c6990f495151939ca8df3efac"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28101_split1_joint_gain3/result.json",
+      "sha256": "458806bd85d7f921d2538729ff24fbbfc687bfb280a425bb3348aac0f1e09101"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28101_split1_joint_gain3/config.json",
+      "sha256": "673d73958b07318f84de015782cc5bb25fee0f4b0c0e73a051e168c765930379"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28101_split1_additive_gain3/result.json",
+      "sha256": "b44685dd229696452869a1ec6c4ce248945086707b82a9553135f4f9a6d7a4c7"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28101_split1_additive_gain3/config.json",
+      "sha256": "b87caab134930e465283eda824f105c2e9f8a11a8d177375ac9e92c9a97b5132"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28102_full_additive_gain1/result.json",
+      "sha256": "8e664ce927e0a89e67b357a355fd31cb93cedc2fa3321338bfa720fe9cee78f9"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28102_full_additive_gain1/config.json",
+      "sha256": "8d9f564f83dfbaea3fa2f6067157168e67b2ce080283c22b94cb611659a2d179"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28104_full_additive_gain1/result.json",
+      "sha256": "7217da1d6d788b230881ef68917314c355de326be60f5158f83e2fd3c066cbbf"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28104_full_additive_gain1/config.json",
+      "sha256": "2b98f8ed6254ab6c9bec83d96f3722fe1a596650eb0aa0f0fe53ef099b66b4b0"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28101_full_joint_gain1/result.json",
+      "sha256": "ba57567ee2bd17e6e0fbe229a700113dd023f953993ef196ee2080d3a72013cc"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28101_full_joint_gain1/config.json",
+      "sha256": "217abfb44d835371952fbac19594ed7b3e3081663ee44f4bf9e4c72db6aa68ba"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28103_full_joint_gain3/result.json",
+      "sha256": "94e8edefc24dbf3921b6e3fe3cb6c70056ed2587ab0e51132f348d133fc372a1"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28103_full_joint_gain3/config.json",
+      "sha256": "b909c485338488b147802aec1f1bbc263376d911a0a39163800ec2f4bea33c29"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28103_split2_joint_gain1/result.json",
+      "sha256": "c35a0ded653ae9ab0fa540aebe03ac24a228f5e70b459f0c4f184ac724a31fee"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28103_split2_joint_gain1/config.json",
+      "sha256": "2a5231e15f7aa98fbecf5318f5e5c5e8fc0fada35bf8fd7b40d520615866e106"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28104_split2_joint_gain3/result.json",
+      "sha256": "decad32cf09d0ea80be2c474b72e976193000ef7473d8e3a711be63dc4818aec"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28104_split2_joint_gain3/config.json",
+      "sha256": "7039330f246ac537e4dc536d77a733520fe67709298777e915e65124375afc6b"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28102_split1_joint_gain3/result.json",
+      "sha256": "20660166d1ff43143eaaffcb02e16f37217201df26bfc6a3912b933cfbccc4b2"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28102_split1_joint_gain3/config.json",
+      "sha256": "344e689182ea83d1419a3c90403394c52c4d7261d38e9f1b8d13abc7fbc39be2"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28103_split1_additive_gain3/result.json",
+      "sha256": "3187fa34e14a32ebfc4b664697f4a860bb68cbb86c96cc70d381e604f9a4e84a"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28103_split1_additive_gain3/config.json",
+      "sha256": "097cb1ede33d90efd19714c332433e9665c48124f4f01a7f95cf2a023d79a72c"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28104_split3_additive_gain1/result.json",
+      "sha256": "7821cf22b80d11f31fe12056c1cfb631dc01d4bd094989e33e25665a3ac655d6"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28104_split3_additive_gain1/config.json",
+      "sha256": "2f5ed3fffc9df628ed7e920816dd5ed4b1c506498e73107bd41e579770eacf7a"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28102_split1_additive_gain1/result.json",
+      "sha256": "88ca685274a125450004709d0cac7133176a80c48c2b3dbad8c51f9911c3f291"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28102_split1_additive_gain1/config.json",
+      "sha256": "5402796ead79317c01c7316886cb3e9c35a71d76d3bdc3d2e1fbd17c0b778201"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28103_split1_joint_gain3/result.json",
+      "sha256": "c8291ea385d55485cbcc83b446d3b4adfa6a055becac10cc20ea1befce86582c"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28103_split1_joint_gain3/config.json",
+      "sha256": "a1134b25ab3186648519357ab1386aa77f00adb416eb0b366515f7ca670746f4"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28104_split1_joint_gain1/result.json",
+      "sha256": "4d8348a5a012c8cd152776a4945c57b5cfbc30a2aad042e1b44c934691923390"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28104_split1_joint_gain1/config.json",
+      "sha256": "07f2aeeaa394695c946b2da9d06b58c2e6bc26b3bb76db425653d9122ca11578"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28101_split2_additive_gain1/result.json",
+      "sha256": "a2de8bae4b3c1b7b39913fca311541c92f41bb5e06d8a6781d52e0c1ce2fe2f1"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28101_split2_additive_gain1/config.json",
+      "sha256": "07bbaaf52eae7dc8c314744ba855ca99b7f4cdd4f88bab6c164dee16c5ff381a"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28104_full_joint_gain3/result.json",
+      "sha256": "7b5c7d683694c7beb0a540ac8da6cf7c46a612e013dda458697e20cd8bd80956"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28104_full_joint_gain3/config.json",
+      "sha256": "04fea6a32fccad61c2115354211bfba60ca649ee2414d101299d19ce7cc36567"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28102_split2_joint_gain1/result.json",
+      "sha256": "19a45b240bd8b4e1673f188f5ad619a5bafb49114ae18d9bedaceda49885e57e"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28102_split2_joint_gain1/config.json",
+      "sha256": "7f6dbfbefac3f95616973f6b38d35c3e2ba090fb46081d9571755f1cce2acb81"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28101_split3_joint_gain3/result.json",
+      "sha256": "edb21495194b41099fcf85b11be0d1bff244ad15a7bc2ba748970deebae884bf"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28101_split3_joint_gain3/config.json",
+      "sha256": "1a168e1303ebc19127b79ce4f39137f64b9dcb561ab117c32655da410bb68965"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28102_split3_additive_gain3/result.json",
+      "sha256": "36a6a5afec4d3971aa2c6631f3c8826ced12bc7f7b2cb6a230f6d748f93c454d"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28102_split3_additive_gain3/config.json",
+      "sha256": "517316c26810de7843ea996251d56ea1b3b31cd64248c2b343e07a635aac9596"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28103_split3_additive_gain1/result.json",
+      "sha256": "36f61572c5efe74ae1c2a77f9bf9229ed8fc24f077cec225081db156055a9c5e"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28103_split3_additive_gain1/config.json",
+      "sha256": "0c74323e340cb86022554fc8f80684160d54af0dcf5f6979ac85147dd32e11f1"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28104_split1_additive_gain3/result.json",
+      "sha256": "6ce7be865580d8eb9d14256c8a4278ad1ea8c8c69dc4273a65d78bf280f76302"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28104_split1_additive_gain3/config.json",
+      "sha256": "6dd7462ab06b7045686320c6b49b2765b39afddf015b3499f5eb7ef3d1c14b19"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28103_split2_additive_gain1/result.json",
+      "sha256": "2b9a552c0319a1924e251711bf4d6a260b8afb0d21789e54b944899a9bbdf0a6"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28103_split2_additive_gain1/config.json",
+      "sha256": "0df12ae93a59d2499aafd85efe558e3488c9e3a7950d93f1a872e0e86e9651c2"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28102_split2_additive_gain3/result.json",
+      "sha256": "8c599d86940c889ec61ed270deffd77f3b40ee6b88ffe1d1889d70403c4b3765"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28102_split2_additive_gain3/config.json",
+      "sha256": "b8eb5c7593cbd721e0c0a43c21f3e94c302a7e7f8148707543bf0a2d466b553c"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28102_split3_joint_gain3/result.json",
+      "sha256": "f8784ca5333d91d22a9315d75a5cf11cdc20e285fba313031312d258125c1cc1"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28102_split3_joint_gain3/config.json",
+      "sha256": "fc3937a923ccd835ada88b375625c2f22541f565cca38523295b276a4a3f983f"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28101_split3_additive_gain1/result.json",
+      "sha256": "225c6af1dadd0da3f724c91cb698eb2116065f33116a190b6c4d390888ea8d3e"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28101_split3_additive_gain1/config.json",
+      "sha256": "a5d3ba351b232f808fefe302674f3c91ed7b01ee2d6f2862d56e0298a1352388"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28101_split2_joint_gain1/result.json",
+      "sha256": "210e1445a57b0fe22a415bbceb8dfb2239e04bcb7132b3fd1539e79fd8289b30"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28101_split2_joint_gain1/config.json",
+      "sha256": "bec41cf5e905df87483ad0973b7694ab3bf632a8a8b0d29d05dec43376d78930"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28102_full_joint_gain1/result.json",
+      "sha256": "d3924920037245d4ac07166c7d43826c2566e19a94055f9399e5acf51683b939"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28102_full_joint_gain1/config.json",
+      "sha256": "853d165c75081beab665435cd4e9cd4e6a12a0c996b5b2f7374321ec3dbeb7c8"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28102_full_additive_gain3/result.json",
+      "sha256": "187db31605d0761f88171d7e0c9f46dbfc37b0e61b78226bcb5353a0c5a952ea"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28102_full_additive_gain3/config.json",
+      "sha256": "bc9d0fe82c6f2bd6157d344f17050571a9fb13827a526f1864015062b0a38ea0"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28101_split1_additive_gain1/result.json",
+      "sha256": "f26cd1895e748c9a323e0fd247d1986c035a44cf60c2849ef0bec82b6f850c91"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28101_split1_additive_gain1/config.json",
+      "sha256": "a2193814a1dd90531f39f890185ccdf544335fd2d95921f6e922a26269b6ea16"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28101_split1_joint_gain1/result.json",
+      "sha256": "0d5b9707febe7e33ff06edb4523366a6d9443bbbaed5d465aa535d1b6612709f"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28101_split1_joint_gain1/config.json",
+      "sha256": "643fcc6ab42a5ec5a920e02de30c9829eaa375073c0435a76bbf6c80fd1be576"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28103_full_additive_gain3/result.json",
+      "sha256": "8b18f84032503fdeb8c971e2e554134619059a036a5eb325a767801f574c645f"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28103_full_additive_gain3/config.json",
+      "sha256": "1b62a7982728bb1d9c616dda6a5e375da552804f319044dfcf3416ff08a8bf2a"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28104_split2_additive_gain3/result.json",
+      "sha256": "55ba08d43e93d57801e5a434881b6274ca115d0e2df71782192d8d2f37fd3e9e"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28104_split2_additive_gain3/config.json",
+      "sha256": "fc129981907657a71c588d70e5d50ce09b23c661d2970c1bfbf4688e67867134"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28101_full_additive_gain3/result.json",
+      "sha256": "29dff2e93da328a7006fb953b655434f2bad5afacd0b0162da15a83c78a50eef"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28101_full_additive_gain3/config.json",
+      "sha256": "2188b3a454f55a39018b9ba446f0eee9b45b6670717b88b34fc7d57667356040"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28104_split3_joint_gain3/result.json",
+      "sha256": "e429788a4e5c314e5422b6522f8dc0d5a4a1e47f675eeced2a19bcd997c441d1"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28104_split3_joint_gain3/config.json",
+      "sha256": "d8cb1d3ba6856fbb34910ae2fd1767f0ea43a66542b96a9ac629cc8c05937249"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28103_split3_joint_gain1/result.json",
+      "sha256": "b1d08a637c3f34f2e829983faecbf37e2000aeccc1bfb4f57bab92c7d7082a0e"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28103_split3_joint_gain1/config.json",
+      "sha256": "efbce43c06309e3870bf80e5bcc2a1cfde278ae14b022b14373df8707db675aa"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28102_split1_additive_gain3/result.json",
+      "sha256": "cc00c5b26a6c62b64f0e4fdc0e507b60c92191f551169ed4dcb0128c6676404c"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28102_split1_additive_gain3/config.json",
+      "sha256": "e4ab838f0e4fc9cf54d3a09193d3ce4ded3f62680971eb165914ce9003b8515c"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28104_split3_additive_gain3/result.json",
+      "sha256": "b410ace701162c0a80440b4570247e33a6df3caec167b8ae86d05cf88efc3ef2"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28104_split3_additive_gain3/config.json",
+      "sha256": "5e4cfd7ffc52ebf314243d9f4380bdd450d0533ab2cdba982e35681adab30e34"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28103_split1_additive_gain1/result.json",
+      "sha256": "dba543f1c8e2ce4e072479ec7652420119226cfc9328e3bf2480b572c3b337df"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28103_split1_additive_gain1/config.json",
+      "sha256": "afe2d247ce86ef34e17dc95aebcb9f5671a9f9032e7c7e9d23066cf0b18637e3"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/probe/plan.json",
+      "sha256": "ea8ea47608ab29868675eed9abe67592d95d2b6cf61b8634e8bfe98bd0d1f405"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28102_split1_joint_gain1/result.json",
+      "sha256": "8f90981f1c287f90ba9ac51bd932c7db0c252bcf9361b26e5101f91b80a11d6d"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28102_split1_joint_gain1/config.json",
+      "sha256": "839dd05f47d4a1e3da42766f634e0e70b8ff7c955f1a603da6c580ac0d6be382"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28101_full_joint_gain3/result.json",
+      "sha256": "a64eba3955560f1af0155485df89d1f6d3395865789ebd6689f73b170c310811"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28101_full_joint_gain3/config.json",
+      "sha256": "a23b7d8424eb71aad328517f2a08447b4eff19fc4358c8a3947efef5ce232044"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28103_full_joint_gain1/result.json",
+      "sha256": "d045e7f44a17e2d5a185552e6bfd3abcf24c235bf9eecb45c3778da671727aca"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28103_full_joint_gain1/config.json",
+      "sha256": "03b48a49e2d5774b7ed68f5047db0b60791572c955e543073cf82d07578db6ca"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28104_split2_joint_gain1/result.json",
+      "sha256": "6f427ded04cf4dada1b1881a1bab57b4c8bc4e71a093c886baa5dfb461deab58"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28104_split2_joint_gain1/config.json",
+      "sha256": "8ac06dc6a6d000d00f4c9754d9029692f0ecd452651181e1de8308ec7f7674e5"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28103_split2_joint_gain3/result.json",
+      "sha256": "092c17adc1b8cc475c2b68b7c48bdca544954da9a99dbe09dfcad901d8a470fe"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28103_split2_joint_gain3/config.json",
+      "sha256": "e935d515a9c115b009cfb1d03a3352a0e6eae4ab588d11542c9e59d5fe4f2aea"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28104_full_additive_gain3/result.json",
+      "sha256": "86a4635d6f942aa5771de118c7345076a189fa1fc79f59fc2a6dcc341758b7ac"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/s28104_full_additive_gain3/config.json",
+      "sha256": "fdd615d5ac1395ecd4586140bb80a50d5ee497f1921a5bcd1059c8232f43e5b7"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/individual_controls/s28102_identity/result.json",
+      "sha256": "e0426914c7a1335558fb9d1de3fc1518c8ec56c21643226082cf0e32dd8e3af6"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/individual_controls/s28102_identity/config.json",
+      "sha256": "c0a2dee1f7c9945ed62aacd10da7c1788827bc64e875c4c800a5b29de3c9cb2c"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/individual_controls/s28103_identity/result.json",
+      "sha256": "77956e2dde50c21aba6883f4a727f14c1c81f4660784eccd02d02e27a7b20b1d"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/individual_controls/s28103_identity/config.json",
+      "sha256": "8e9e87c38331a3a504aa7937cad7772fb02c3eea96262e88e4a32b51d65b45ad"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/individual_controls/s28104_identity/result.json",
+      "sha256": "8ae16fe4f8fe948a4665cdaa77694e92969f0b5381a09011f8bbb57f1ab11691"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/individual_controls/s28104_identity/config.json",
+      "sha256": "1073578ae447fe14e9f299ef07ebbd188f99245d99fc8c2cde5a74c16fbdebc3"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/individual_controls/s28101_identity/result.json",
+      "sha256": "64db5205f860f41672b319ac90282290029eac5b1b2a574969bfb60352c8d980"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/individual_controls/s28101_identity/config.json",
+      "sha256": "68fcbbc78514a80b3dd69c217bd6d638cb7fce3ff8f56a9af0049a943c99742b"
+    },
+    {
+      "path": "research_program/policy_gain_study/results/gain_001/probe/execution/results.json",
+      "sha256": "bcf829b34290707b1ed7d8df2162f26c0614d45e53efc73407f50b7f215e0587"
+    },
+    {
+      "path": "research_program/triadic_learning_baseline/fixed_pair_bounds/enumeration_001/manifest.json",
+      "sha256": "bec8e63560e685ca9c357087b53f9ac8eb9fbc364e91b9e706ebe2e178eb5974"
+    },
+    {
+      "path": "research_program/triadic_learning_baseline/unilateral_deviation_check/enumeration_001/results.json",
+      "sha256": "776c50eeba9253abc8d565d56b2229b12d818b1a173ace398c3d09a5dce6eadd"
+    },
+    {
+      "path": "research_program/triadic_learning_baseline/unilateral_deviation_check/enumeration_001/manifest.json",
+      "sha256": "386fb3a1b4a797c5fa9c385acf20220798c0a7e3556b9d7017b65bd2ea4c6c0e"
+    },
+    {
+      "path": "research_program/triadic_learning_baseline/results/learning_001/plan.json",
+      "sha256": "d23e34af9c92ddd3dc3eccd8366a4c7ca75efe6ecd13531095aeafdfafc6efa0"
+    },
+    {
+      "path": "research_program/triadic_learning_baseline/results/learning_001/prepared.json",
+      "sha256": "ea0ef693a0f3ab7d150328c2674dd657880cdd3fec2deb6d32cc0cf50f6d6831"
+    },
+    {
+      "path": "research_program/triadic_learning_baseline/results/learning_001/execution/results.json",
+      "sha256": "adccf9c28959382aac3f2f5c332f6ce8fef2641203cd26aac7c0d02a1aaeab4b"
+    },
+    {
+      "path": "research_program/triadic_learning_baseline/results/learning_001/execution/seed_43104/result.json",
+      "sha256": "ff0d1773325883cb80fd2a45786692fbf3648f79d937bec76c61f1ad93c921bd"
+    },
+    {
+      "path": "research_program/triadic_learning_baseline/results/learning_001/execution/seed_43103/result.json",
+      "sha256": "dcf330083fe8ece12ab8dc536a9d3d0bad27c106f57c449d082907b209f7c514"
+    },
+    {
+      "path": "research_program/triadic_learning_baseline/results/learning_001/execution/seed_43102/result.json",
+      "sha256": "c5ccc1652b6a7b7f41470910bc4e9442361c9b3335402958c1192fd93ed5cde0"
+    },
+    {
+      "path": "research_program/triadic_learning_baseline/results/learning_001/execution/seed_43101/result.json",
+      "sha256": "63e6fe39de2cab26b6418a48e6027626e84a59501a74d73406d5f34c9557feaf"
+    },
+    {
+      "path": "research_program/triadic_task/results/20260915_EXEC_01/plan.json",
+      "sha256": "5fdc0374913a70943b4c304bbecdb77542ad8f742a51e49b84dd666a272d9694"
+    },
+    {
+      "path": "research_program/triadic_task/results/20260915_CAP_01/plan.json",
+      "sha256": "ac0dfac541c27070a60ed6f616e5366957b65b2e6f401f2aa68d637415d2a2b8"
+    },
+    {
+      "path": "research_program/triadic_task/results/20260915_EXEC_01/execution/results.json",
+      "sha256": "3b730a6e6694ffd4156e693e6f3931a7d294db77f1913f9ac24331f7a6750604"
+    },
+    {
+      "path": "research_program/triadic_task/results/20260915_CAP_01/execution/results.json",
+      "sha256": "f7749c25770eb4e7e1e4fe301017f803dee0c1cb8763b4f2fdbcf2ce11e2cc48"
+    },
+    {
+      "path": "research_program/triadic_message_study/next_ecology_static_001/results.json",
+      "sha256": "98e9bc16dbe1739021112bfc155303ec47756a6a867f70a217c418c9d8436b6c"
+    },
+    {
+      "path": "research_program/triadic_message_study/private_fact_pairs_001/manifest.json",
+      "sha256": "e959e37bb2bb7c392f352204ca97eab221e9045e0dd101732d75c6f9269a3a70"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/plan.json",
+      "sha256": "f98f79eb87d3de53de77fe795cc92d34dfe8d7ea5c102242730d984de501fc72"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/prepared.json",
+      "sha256": "1f2f6a60f427b98e848d1fa3eeb85e5f04728b2e09736647bd7ba231361dae88"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/execution/results.json",
+      "sha256": "0e8fb8035e8b84337cc1f9298d2ced94ea61f65bb175b0feedabcab0f8ab587d"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/plan.json",
+      "sha256": "898fe05d934e02a9f74b7a4fe29f50daec1d641aba5fb3404d77f0a3ed1ada41"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/execution/worker_seed_47102/results.json",
+      "sha256": "29ea404b39b82441daf586b2c9ff8e96c2faa2c27ad1acaf2319d4a43555229a"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/execution/worker_seed_47104/results.json",
+      "sha256": "1c52db44f4a09379bf95a731fb9cf408a911fc7b34b1035dc66e3e0d049e5f31"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/execution/worker_seed_47103/results.json",
+      "sha256": "0cd44f52fc2f18de9ce7bcf43c5f95ae796ad2e1b19ab05663ce1504b049b8af"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/execution/seed_47101_FI_live/result.json",
+      "sha256": "143793536c470f84568a0aad68c64a8d01a55bc8b4e0fb5d6339accc58cafc26"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/execution/seed_47101_PI_silent/result.json",
+      "sha256": "c2bcd8cf290dd33d8a1e8da59cb63a6a8474408555a273eb4a9d30776013fba7"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/execution/seed_47103_FI_live/result.json",
+      "sha256": "f1ee5efa3b82cc98990546bf2011b9728c51662a4bb024e20b88516adf4fad87"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/execution/seed_47104_PI_live/result.json",
+      "sha256": "fa9d4d309b95f8f20792684754c24ad33f3ca817f6a0ceb554f7f5549ba581e8"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/execution/seed_47101_FI_silent/result.json",
+      "sha256": "dc632f699a1500fe60878ecabc5465c41638fbd443e4e1ce5d99683b52313346"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/execution/seed_47102_FI_live/result.json",
+      "sha256": "515f175e8f28f5c7cd8d1f8e8a8efaa19d98e0e3fb32e9b96a9778cd7607c8a2"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/execution/seed_47101_PI_live/result.json",
+      "sha256": "33f547feaeb29d0045e10112638da76361e3e5169691162a2fad4cd9c739e7ca"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/execution/worker_seed_47101/results.json",
+      "sha256": "d07c7d46e813113d25c570a61af59ba95575b7ca94536f2e5832b37c9289a353"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/execution/seed_47104_FI_silent/result.json",
+      "sha256": "43519f3ae9927f57224c955079a9af98c602aaf42d27cc51caf663b6eebc7acc"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/execution/seed_47103_PI_silent/result.json",
+      "sha256": "d2aaa6eb05994614ff0fedbe5f27fc5a31215baba836a41b1d96467cc86758fe"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/execution/seed_47102_FI_silent/result.json",
+      "sha256": "4cd7fb0843239138fdcd7e5926074a860541a7804d6cc7206d293a75c303fa58"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/execution/seed_47104_PI_silent/result.json",
+      "sha256": "ca717f07ef1d5b713c01acf8c7a4da333a4450a1764b2a405d2e7e7bc8197bd3"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/execution/seed_47104_FI_live/result.json",
+      "sha256": "cb411466319256f1f8a7145614c9acdb2b4cd898cdd1cfce6cfe07f7649c1575"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/execution/seed_47102_PI_live/result.json",
+      "sha256": "59e4fdbc317704da51806b94091363839d79b5662bb13c0dfa499876e99221c7"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/execution/seed_47103_PI_live/result.json",
+      "sha256": "3cd971e0ffdf2cbc7ebb28f4ad38f5ba32fd241779e97cd1f26bb8ae990c3833"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/execution/seed_47102_PI_silent/result.json",
+      "sha256": "04a514a268878c729676bf3ff2d978ecab4a445e06080c559d0d92d700525ff6"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/execution/seed_47103_FI_silent/result.json",
+      "sha256": "c965c63f59cb535308406252e7a9f4d216dd45ab8a2936a974a66791a0308dc4"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/results.json",
+      "sha256": "030784c192ce1ce33f007b1e6471e4c0ad1a12a5eea37339534d47c541c06aa2"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_FI_live/new_needs_and_layouts/result.json",
+      "sha256": "2cabe377d6fbde1c39efd57ae1913252d1561c39dd5ff19c9b6b1e681aab4faa"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_FI_live/train/result.json",
+      "sha256": "1d1df674e75814b91c0f4d2ed0ab4d48d0c5e3aad881780be1624c1e230ea757"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_FI_live/new_needs/result.json",
+      "sha256": "90f6438c0977bf6cb634b713260d0f76a52340f5f93de9e62e63ee2ea8fdc5f2"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_FI_live/new_layouts/result.json",
+      "sha256": "477715873bc7a86bda6d1500b65a2745c1f9aa2a913b5a21a5ae777e96ca3dc6"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_PI_silent/new_needs_and_layouts/result.json",
+      "sha256": "afa71ead93705e57339b71ccc6c668cbbdf6c21a9315af5a9168a03f208b0b87"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_PI_silent/train/result.json",
+      "sha256": "3c8bb2ba9839d1bd1dc1bc159db2609b153256b56fbe352b01aa523270a6db47"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_PI_silent/new_needs/result.json",
+      "sha256": "d80ca7dc33cf29984bb0c3d9b7649558c914a648f8fcca8610996cbfa22959ff"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_PI_silent/new_layouts/result.json",
+      "sha256": "b894e94c086bd983da6501236b52b62c28b0ada529907d9360b0e314adccb352"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_FI_live/new_needs_and_layouts/result.json",
+      "sha256": "21e1b805e759e6cf90cd73f3ee35c2556538345ae14704d21d88cccc08c64033"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_FI_live/train/result.json",
+      "sha256": "d4a976e1cfeaf62c82b6d9e7054d38cc8f00adffcc4207a02fa894a419cfdab8"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_FI_live/new_needs/result.json",
+      "sha256": "90f43b58c6b2eb33afba37cd69f3cd2d8c5d7f2da6afa6e21d62fe92fca9edf9"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_FI_live/new_layouts/result.json",
+      "sha256": "e8b03cd5ac92454e309d83a14ea6457689835922e773450148808febbd9dbd14"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_PI_live/new_needs_and_layouts/result.json",
+      "sha256": "3510a78353e4d5093b4ec7987f69893eb32a917c860ece0de29c45bccdad8d3b"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_PI_live/train/result.json",
+      "sha256": "db7bcdec74fab97dc562ff282edc2f4c741f20630cfc7fcbfd706d7673d42c7d"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_PI_live/new_needs/result.json",
+      "sha256": "ee950b4807e23accb4466de69a2a127ac3c95506571529f2bf263d4266cdedaf"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_PI_live/new_layouts/result.json",
+      "sha256": "d1b64a8f3ca7c51573f756ab6cbf154883e1f1379b60c1cc2f7f4ee7dcb0e04b"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_FI_silent/new_needs_and_layouts/result.json",
+      "sha256": "e473fa328d31cc42309d1539e90edc0c1c449d1db947eb4bb2e4b1c77a335034"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_FI_silent/train/result.json",
+      "sha256": "f7186c1f57124878c674007c0026665460be0390bbca76ab6d793a8482021538"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_FI_silent/new_needs/result.json",
+      "sha256": "63c7e2b523ae1db6eb74dc8eaba13d8b631b20c74574b727a03f266e862f6989"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_FI_silent/new_layouts/result.json",
+      "sha256": "7a6d38b527434450e30a1c072875913520d50aa4b13a1c1f75236832916ce2d2"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_FI_live/new_needs_and_layouts/result.json",
+      "sha256": "53fa5980fddfc0d2799eab95861c9e4483221d0219eee7ab971b2431a8dcf1cf"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_FI_live/train/result.json",
+      "sha256": "9bf2990c0adce474ac7dd6ccf898e5af2a6266844a11c6093b10ef20e905f16c"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_FI_live/new_needs/result.json",
+      "sha256": "e3ad95db7cb365fbc650ff90740cc8da7e7096c3fdfc5a5969974e6f68964042"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_FI_live/new_layouts/result.json",
+      "sha256": "b266990f4405d8d7ce7119a85b9c6301bb622f1d30d6bc7bcc6e58ae718b5b84"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_PI_live/new_needs_and_layouts/result.json",
+      "sha256": "82d7d4373621c040087d5a7e61b3e1002f59f7a09129390d39a042372d1d787c"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_PI_live/train/result.json",
+      "sha256": "d0a26ca22a4d324ea1b34122515158815869540d7cd11d22d4ed5b46bb10d7c6"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_PI_live/new_needs/result.json",
+      "sha256": "53f3089e45e88177c29bc00811bb69d75167c79457aee050c4838e050fbee36f"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_PI_live/new_layouts/result.json",
+      "sha256": "accc2e66db822cb10e419a76c2f304802ae6b7c83746e01c54832a114bd5ffa0"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_FI_silent/new_needs_and_layouts/result.json",
+      "sha256": "4743eac38231153bc098b4bd4f9c8b18577a6069e30b300e40825e67640b0c80"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_FI_silent/train/result.json",
+      "sha256": "1cc5b60285bfc4c5c619fbb161533b8204321ed9f7f2a3b66f89c77a24a37fe8"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_FI_silent/new_needs/result.json",
+      "sha256": "8d930a01e39632775be284ee640679677599c0fd1432564bd82b045e5facf43c"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_FI_silent/new_layouts/result.json",
+      "sha256": "32bb53c17477193b292a83055541572056ac05c5d5d624a3c85a2efbdb2178c1"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_PI_silent/new_needs_and_layouts/result.json",
+      "sha256": "43bad32d733c8a38cd6e44ef98b6998083dd0ff6b68e6ac3a30442797758ca83"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_PI_silent/train/result.json",
+      "sha256": "55401b164acfb49173ce037dc4ec712567b228167b893a8f3b0181267a82f816"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_PI_silent/new_needs/result.json",
+      "sha256": "9d3517627a3f93692c77b074d589238e231952242b4a7d5723a0f98f3fb78429"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_PI_silent/new_layouts/result.json",
+      "sha256": "ba2ee4e38d8414a03167dcc21d605c6b0b1e27b281631fb95a3639d9ac401f5d"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_FI_silent/new_needs_and_layouts/result.json",
+      "sha256": "9ed9f54b0fe95f02f1c6c335a1727a176b91194a07d169d9a2fb8838e817a4f1"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_FI_silent/train/result.json",
+      "sha256": "d568b0e2d34149ecb47d2792857355514da9742aebbed7bce9ab5aa9bde25c1c"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_FI_silent/new_needs/result.json",
+      "sha256": "d0a7e51fa59995a3f34a29bfbb9016f99b518489f7d3463d19e5cdea67395ac4"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_FI_silent/new_layouts/result.json",
+      "sha256": "e2886a2ee697e4ed1ca8057fda4d368fa388dc503c9b40cb9b5ebe16a44196eb"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_PI_silent/new_needs_and_layouts/result.json",
+      "sha256": "918e9bb7ecac5d1c2ee0eddde409cbb58a80d4a6964327c0a4f02451fac3fafd"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_PI_silent/train/result.json",
+      "sha256": "e0d038984220e708d938761b73ab939d67d8d850537a82ba66d3b1fdcbcf4b29"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_PI_silent/new_needs/result.json",
+      "sha256": "0d446208a32ec3ef5f439a71ebf11c2a01b2a33cdcc56fe23769210eed119d12"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_PI_silent/new_layouts/result.json",
+      "sha256": "8046ee333f7a26e815a59e4addea0a888f6c6fa9728d10c31728f87be97ce060"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_FI_live/new_needs_and_layouts/result.json",
+      "sha256": "68de461eb4c06af81e349ad37101e7e6273a0d65679d4b81e9ef07c2eb47bf89"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_FI_live/train/result.json",
+      "sha256": "8a7c4bac9b680b47422cc8989bd02adbae556d2bb9499b19e84d93615307494e"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_FI_live/new_needs/result.json",
+      "sha256": "d673d913a2bc1aef72962d803ba5f72111cdd29857df0e7c6d161cda7776efab"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_FI_live/new_layouts/result.json",
+      "sha256": "f7e333884312bbc8f7e292160b1b41c89b82694f0c5a879270b36e31075e13ea"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_PI_live/new_needs_and_layouts/result.json",
+      "sha256": "189508c71ee9efe3ee57c0d6e8f24ef442e81e690ed7501453058d7f2786370c"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_PI_live/train/result.json",
+      "sha256": "9c288f653c4b92450f9da604516a4d29f3260f077722c11c786dba41c928d1ce"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_PI_live/new_needs/result.json",
+      "sha256": "f9abf47221f5df9f88b22f286b7ca9f63c84d744aa9afa7957450b2ee7748913"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_PI_live/new_layouts/result.json",
+      "sha256": "1345f48bd96aa3141b702b79673aa2cfae3c219c42a95972e81d0265759e76b5"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_PI_live/new_needs_and_layouts/result.json",
+      "sha256": "adfdbe38697222a6defa31be2e02ec79e61cb97a5ca7b15618c24abfddee4a74"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_PI_live/train/result.json",
+      "sha256": "bb02ba8d91c6078fb50aae22abceebba376848a6b9175433a357c1687ee305eb"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_PI_live/new_needs/result.json",
+      "sha256": "587dc5d428b9f6b8df9cb56d6a25992c8e1848c5fc3fd2141eb8d5367912d2bf"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_PI_live/new_layouts/result.json",
+      "sha256": "68b16fce30c8f621a150ecbb66cfcca5e46d9909b2febcbce9c8e0fd90eaab01"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_PI_silent/new_needs_and_layouts/result.json",
+      "sha256": "04c6935974c0ceff6aeacc7ef1e8edd21f13f9bd7b38791dc544c420440c8aee"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_PI_silent/train/result.json",
+      "sha256": "345367bec42e4a529206069d235d31f84aa636fc0c3c9de81c264db6f26679ff"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_PI_silent/new_needs/result.json",
+      "sha256": "7eef06de8d5ec08f282ec83e83e1b087cd8e7566614165b4d92e39bf4195034c"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_PI_silent/new_layouts/result.json",
+      "sha256": "2d2c92b6c04a3747faa1a9bcee74cad34c0b89ce3bacc569e130f381d5176a65"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_FI_silent/new_needs_and_layouts/result.json",
+      "sha256": "7e6300e36820c25e03a94140ba421e720021f89fdeea1820fa8160a8e7142855"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_FI_silent/train/result.json",
+      "sha256": "73bb68f1f62af355ed63986d5e4d20e7daf2349c46c7b0f28c077d468e696d27"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_FI_silent/new_needs/result.json",
+      "sha256": "fb2ec166b32b1dd2be26b4c32a7df9ad306fcb61f9b5105a5b01016166b61113"
+    },
+    {
+      "path": "research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_FI_silent/new_layouts/result.json",
+      "sha256": "ec6b2323f1cf3291282bec2a47d992cf00ca173b2d0c89174aad0537b941324a"
+    },
+    {
+      "path": "research_program/no_communication_20260915/relaxation_001/plan.json",
+      "sha256": "4c31b30cfad03201879eb4edd1436a17121e6bf2f10f7038e11c2b3292c2b7e3"
+    },
+    {
+      "path": "research_program/no_communication_20260915/coordinate_search_001/plan.json",
+      "sha256": "53db6829455480d18dd7d9fe576e1abcd5ea4d77f475de939324ec2449c2c9f9"
+    },
+    {
+      "path": "research_program/no_communication_20260915/relaxation_001/execution/results.json",
+      "sha256": "b3773435f4b9cee2c18f52b69b6ba40218b5c73904f7c48eb0494c3eb96f784c"
+    },
+    {
+      "path": "research_program/no_communication_20260915/coordinate_search_001/execution/results.json",
+      "sha256": "380b21057586a4a2a392488426e6cbd5c64972be28090e57e902e386c47e1419"
+    },
+    {
+      "path": "research_program/probability_coverage_study/results/probability_001/plan.json",
+      "sha256": "d4b3a4f3fd247b04fa2e424043a01b4d9c2e269baefc5e1b4310dfb74b0ece6b"
+    },
+    {
+      "path": "research_program/probability_coverage_study/results/probability_001/execution/results.json",
+      "sha256": "cb392e2287a2656ce6e870c068d1eadb1658429d8948f66f108a805ae5db89cb"
+    }
+  ],
+  "matching_old_seed_fields": []
+}

@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "checks": 505,
+  "failures": 0,
+  "local_links_checked": 56,
+  "scope": "Offline final curation arithmetic, reserve allocation, source/snapshot/review/artifact hashes, and local links; no fresh visual judgment.",
+  "collector_exit_code": 0,
+  "source_hashes_and_frozen_reviews_match": true,
+  "prior002_state_and_003_technical_stage_unchanged": true,
+  "new_usable": 4,
+  "cumulative_usable": 11,
+  "workflow_gap": 13,
+  "new_technical_checks_previously_passed": 737,
+  "identity_checks_previously_passed": 70,
+  "network_requests": 0,
+  "image_views": 0,
+  "model_calls": 0,
+  "source_sha256": "83f2b5b63f46e1319bf30cfb24edf8ef4acc71a029c79e66c9f8be6b9bd6fe70",
+  "source_hashes": {
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/curation_status_20260916.json": "809976027cd715b48a380c77ac0be4b48b089306f6305763d49988815a403519",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/README.md": "a478e8ac412f52b7a6eeecf4ffe833f518d95438e43f8d993e4235af5743e8ed",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/后续图库可行性审查.md": "e6465e7ab443b7b59ede1297101b2d2996ce588d2e57458ab0ae2572b28194dd",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/identity_license_review_20260916.md": "c6146b731fd7a5cdb5e79eaad0d3bdbdb9f988539ee5318b1d0db5b6f0f71ea1",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/README.md": "ae92c2a5286306b3f0601182437a0d98d01b75f7f0020651cc8edffef6a55ac5"
+  },
+  "created_utc": "2026-09-15T17:40:02.498604+00:00"
+}

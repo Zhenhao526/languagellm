@@ -1,0 +1,27 @@
+{
+  "review_mode": "full_text",
+  "confidence": "high",
+  "verdict": "must-read",
+  "paper_type": "empirical_method",
+  "scores": {
+    "relevance": 97,
+    "evidence": 78,
+    "novelty": 70,
+    "impact": 78,
+    "reproducibility": 78,
+    "author_prior": 50,
+    "early_signal": 50
+  },
+  "contribution": "直接操纵对象恒常性，且保留位置不变提高结构指标但未改善组合泛化的负结果。",
+  "evidence_summary": "形状/颜色组合留出；表3位置不变0.33/0.36，对应基线0.60/0.40；表4结构指标方向不同。",
+  "novelty_comparison": "比较对象位置不变性；视觉模块预训练已经玩过通信游戏，不是私人行动等变准备。 阅读优先级评分不认证论文或本项目新颖性。",
+  "recommendation_reasons": [
+    "直接操纵对象恒常性，且保留位置不变提高结构指标但未改善组合泛化的负结果。",
+    "PDF 4–8; §4.2, §5.1, Table3, Table4"
+  ],
+  "concerns": [
+    "仅三种子；同时有长度惩罚等设置，不能把特定位置不变结果推广成所有感知先验的效果。"
+  ],
+  "summary": "比较对象位置不变性；视觉模块预训练已经玩过通信游戏，不是私人行动等变准备。",
+  "arxiv_id": "2004.03868"
+}

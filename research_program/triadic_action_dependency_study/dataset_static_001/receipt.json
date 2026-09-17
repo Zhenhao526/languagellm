@@ -1,0 +1,28 @@
+{
+  "status": "prepared_static_only",
+  "sources": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/dataset.py": "fff75edc398fd589e0d55fc5fd47f6075e4edd6fa3e7b4793e02875f8bab6a10",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/environment.py": "4e6250f5d7603dfca7736458b90b70910a5d057e253c96ab9b1e16a82635911e"
+  },
+  "output_sha256": {
+    "prepared.json": "24321f109ec66b4f022d71c188de8594c0ebc944498b270d199d5d16a9a2e1c1",
+    "train_semantic_pairs.json": "ed53f773c8166000d1bf50f035d74f575ddffe9314c42a777bc40ddc562f15ce",
+    "new_needs_semantic_pairs.json": "a77ab5d7bfa796eec75a7728123af58c5356348b1343766a434d227513053f46",
+    "new_layouts_semantic_pairs.json": "7abcb63a94f3c1c0a5c25e6a1c782a02ec8120e95c5c6c8020a8ccfdd1be5e43",
+    "new_needs_and_layouts_semantic_pairs.json": "06054351a2ed61ac5a12210ae2c719baa70d94245441a3fa5bad57276663654d"
+  },
+  "orbit_count": 66,
+  "need_counts": {
+    "train": 3888,
+    "heldout": 1488
+  },
+  "world_counts": {
+    "train": 419904,
+    "new_needs": 160704,
+    "new_layouts": 139968,
+    "new_needs_and_layouts": 53568
+  },
+  "all_content_strata_available": true,
+  "neural_forward_calls": 0,
+  "training_calls": 0
+}

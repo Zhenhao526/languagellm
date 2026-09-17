@@ -1,0 +1,7 @@
+{
+  "created_utc": "2026-09-15T18:50:52.660117+00:00",
+  "reason": "Row 79 glass may mean window pane: narrow risk from metadata contradiction to target-scene phrase mismatch. No source or root annotation modified.",
+  "original_sha256": "65b1526f9c969353873f525dd28a9981832ba89f480622564ec334dbcf247252",
+  "revised_sha256": "8358c92622ebcc3b6878d1cc73dbf23c7daca3be72fb10a3e6a257c6619c1f11",
+  "original_preserved": "snapshots/collector_notes_after_row65.json"
+}

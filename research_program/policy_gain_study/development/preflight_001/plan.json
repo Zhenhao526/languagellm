@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-15T12:28:29.914970+00:00",
+  "runner_sha256": "c97ac875b9f34000679d567cb97e7af064d643789ba38d1b4c5e78df5f13b8c9",
+  "preflight_sha256": "1df462771579c1eb95dc9b6837bfb72c3ab7a9ca79750742ac121aaab048ab22",
+  "old_prepared_path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/results/complementarity_001/prepared_27101.pt",
+  "old_prepared_sha256": "e57c7b4ca1028d8b59cf5be069207ab04fbd47a13dbe6f191037973ad8bd68ce",
+  "old_base_sources": {
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/camp.py": "21ad5ff2eecf871ff2e8e17e5623875f55d701e66302b741a46658c0cec81854",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/run_experiment.py": "485221ac4c90f69b88047f380edfaf4922973cff986c8bfa5c47e700cab13d62",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/run_controls.py": "38ef2921e9e57342bd79063af8bd33d0ee35db4b7352672937ac710f7b4ded73",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/固定执行方案.md": "cf3d92f5eb9755a83b11dcbd3f1792f5474203ce445624fc7b347ccf499996b4"
+  },
+  "development_seed": 27101,
+  "lambda_values": [
+    0,
+    1
+  ],
+  "functions": [
+    "frozen_v08_train",
+    "new_train_gain1"
+  ],
+  "runs": 4,
+  "updates_per_run": 2,
+  "total_updates": 8,
+  "training_batch": 16,
+  "final_eval_n": 120,
+  "inherited_checkpoint_eval_n": 1200,
+  "checkpoints": [
+    0,
+    2
+  ],
+  "training_worlds": 128,
+  "resource_preparation_updates": 0,
+  "new_personal_control_runs": 0,
+  "part_of_formal_64": false
+}

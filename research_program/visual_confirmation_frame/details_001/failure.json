@@ -1,0 +1,37 @@
+{
+  "status": "failed",
+  "context": {
+    "batch": 43,
+    "pageids": [
+      89372142,
+      89373981,
+      89383014,
+      89383015,
+      89383017,
+      89383388,
+      89383389,
+      89384637,
+      89641812,
+      89861806,
+      89958566,
+      89958567,
+      90022053,
+      90283344,
+      90618716,
+      90740936,
+      90824114,
+      90975576,
+      91012800,
+      91446652,
+      91469147,
+      91509069,
+      91647843,
+      91773990,
+      92014478
+    ],
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&prop=imageinfo&pageids=89372142%7C89373981%7C89383014%7C89383015%7C89383017%7C89383388%7C89383389%7C89384637%7C89641812%7C89861806%7C89958566%7C89958567%7C90022053%7C90283344%7C90618716%7C90740936%7C90824114%7C90975576%7C91012800%7C91446652%7C91469147%7C91509069%7C91647843%7C91773990%7C92014478&iilimit=1&iiprop=url%7Csize%7Cmime%7Csha1%7Cextmetadata%7Cuser%7Ctimestamp%7Ccanonicaltitle&iiextmetadatalanguage=en&iiextmetadatafilter=Artist%7CCredit%7CSource%7CLicenseShortName%7CLicenseUrl%7CUsageTerms%7CAttributionRequired%7CCopyrighted%7CRestrictions%7CImageDescription%7CDateTimeOriginal%7CObjectName%7CCategories"
+  },
+  "error": "KeyboardInterrupt()",
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/xia/Documents/ChatGPT/语言/research_program/visual_confirmation_frame/collect_details.py\", line 229, in main\n    with urlopen(request,timeout=TIMEOUT) as response:\n  File \"/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py\", line 214, in urlopen\n    return opener.open(url, data, timeout)\n  File \"/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py\", line 517, in open\n    response = self._open(req, data)\n  File \"/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py\", line 534, in _open\n    result = self._call_chain(self.handle_open, protocol, protocol +\n  File \"/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py\", line 494, in _call_chain\n    result = func(*args)\n  File \"/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py\", line 1389, in https_open\n    return self.do_open(http.client.HTTPSConnection, req,\n  File \"/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py\", line 1350, in do_open\n    r = h.getresponse()\n  File \"/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py\", line 1349, in getresponse\n    response.begin()\n  File \"/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py\", line 316, in begin\n    version, status, reason = self._read_status()\n  File \"/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py\", line 277, in _read_status\n    line = str(self.fp.readline(_MAXLINE + 1), \"iso-8859-1\")\n  File \"/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py\", line 704, in readinto\n    return self._sock.recv_into(b)\n  File \"/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ssl.py\", line 1241, in recv_into\n    return self.read(nbytes, buffer)\n  File \"/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ssl.py\", line 1099, in read\n    return self._sslobj.read(len, buffer)\nKeyboardInterrupt\n",
+  "automatic_retry": false
+}

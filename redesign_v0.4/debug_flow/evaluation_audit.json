@@ -1,0 +1,696 @@
+{
+  "scope": "Engineering process audit only; no social training or model adaptation.",
+  "source_hash_matches": {
+    "run_pilot.py": true,
+    "resource_env.py": true,
+    "agents.py": true
+  },
+  "exact_bounds": {
+    "number_of_scenes": 14,
+    "uniform_random_balanced_probability": 0.5714285714285714,
+    "best_decentralized_balanced_scenes": 10,
+    "best_decentralized_balanced_probability": 0.7142857142857143,
+    "full_information_balanced_probability": 1.0,
+    "default_no_message_expected_reward_upper_bound": 0.7142857142857143,
+    "default_full_information_expected_reward": 1.0
+  },
+  "feature_archive_equal": true,
+  "handwritten_image_lookup_protocol": {
+    "communicate_normal": {
+      "mean_reward_per_step": 1.0,
+      "balanced_gathering": 1.0,
+      "shortage_per_episode": 0.0,
+      "greedy": true,
+      "partner_delivery_verified": true,
+      "local_only_protocol_send_verified": true
+    },
+    "communicate_shuffle": {
+      "mean_reward_per_step": 0.6121826171875,
+      "balanced_gathering": 0.6121826171875,
+      "shortage_per_episode": 6.205078125,
+      "greedy": true,
+      "partner_delivery_verified": true,
+      "local_only_protocol_send_verified": true
+    },
+    "silent_normal": {
+      "mean_reward_per_step": 0.71337890625,
+      "balanced_gathering": 0.71337890625,
+      "shortage_per_episode": 4.5859375,
+      "greedy": true,
+      "partner_delivery_verified": true,
+      "local_only_protocol_send_verified": true
+    }
+  },
+  "handwritten_image_lookup_protocol_caveat": "Category labels and message meanings explicitly supplied to an engineering oracle; these are not trained model results.",
+  "exhaustive_oracle": {
+    "scenes": 14,
+    "balanced_scenes": 14
+  },
+  "checkpoint_audit": [
+    {
+      "seed": 101,
+      "condition": "communicate",
+      "parameter_changes": [
+        {
+          "agent": 0,
+          "changed_tensors": 14,
+          "total_tensors": 14,
+          "parameter_l2_change": 2.6284382343292236
+        },
+        {
+          "agent": 1,
+          "changed_tensors": 14,
+          "total_tensors": 14,
+          "parameter_l2_change": 2.0797739028930664
+        }
+      ],
+      "separate_agent_storage": true,
+      "checkpoint_sha256": "dd18996b1797dcb1ea275a58ef0453e1901034819776101618b459e57ca147dd",
+      "normal_recomputed": {
+        "mean_reward_per_step": 0.717529296875,
+        "balanced_gathering": 0.717529296875,
+        "shortage_per_episode": 4.51953125,
+        "greedy": true
+      },
+      "normal_matches_saved": true,
+      "shuffle_recomputed": {
+        "mean_reward_per_step": 0.717529296875,
+        "balanced_gathering": 0.717529296875,
+        "shortage_per_episode": 4.51953125,
+        "greedy": true
+      },
+      "shuffle_matches_saved": true,
+      "stochastic_recomputed": {
+        "mean_reward_per_step": 0.7169189453125,
+        "balanced_gathering": 0.7169189453125,
+        "shortage_per_episode": 4.529296875,
+        "greedy": false
+      },
+      "stochastic_matches_saved": true
+    },
+    {
+      "seed": 101,
+      "condition": "silent",
+      "parameter_changes": [
+        {
+          "agent": 0,
+          "changed_tensors": 10,
+          "total_tensors": 14,
+          "parameter_l2_change": 2.608175754547119
+        },
+        {
+          "agent": 1,
+          "changed_tensors": 10,
+          "total_tensors": 14,
+          "parameter_l2_change": 2.053844690322876
+        }
+      ],
+      "separate_agent_storage": true,
+      "checkpoint_sha256": "b791dc3978d0398197d4af79734ef89acf24fc47ee84988f7687b7b261926ad5",
+      "normal_recomputed": {
+        "mean_reward_per_step": 0.717529296875,
+        "balanced_gathering": 0.717529296875,
+        "shortage_per_episode": 4.51953125,
+        "greedy": true
+      },
+      "normal_matches_saved": true,
+      "shuffle_recomputed": {
+        "mean_reward_per_step": 0.717529296875,
+        "balanced_gathering": 0.717529296875,
+        "shortage_per_episode": 4.51953125,
+        "greedy": true
+      },
+      "shuffle_matches_saved": true,
+      "stochastic_recomputed": {
+        "mean_reward_per_step": 0.716796875,
+        "balanced_gathering": 0.716796875,
+        "shortage_per_episode": 4.53125,
+        "greedy": false
+      },
+      "stochastic_matches_saved": true
+    },
+    {
+      "seed": 202,
+      "condition": "communicate",
+      "parameter_changes": [
+        {
+          "agent": 0,
+          "changed_tensors": 14,
+          "total_tensors": 14,
+          "parameter_l2_change": 2.0006518363952637
+        },
+        {
+          "agent": 1,
+          "changed_tensors": 14,
+          "total_tensors": 14,
+          "parameter_l2_change": 2.149338960647583
+        }
+      ],
+      "separate_agent_storage": true,
+      "checkpoint_sha256": "cca4449f9d9cadb5a10dcbd1a4098b0077a910fb1253725f06b6439a1fb152c9",
+      "normal_recomputed": {
+        "mean_reward_per_step": 0.717041015625,
+        "balanced_gathering": 0.717041015625,
+        "shortage_per_episode": 4.52734375,
+        "greedy": true
+      },
+      "normal_matches_saved": true,
+      "shuffle_recomputed": {
+        "mean_reward_per_step": 0.717041015625,
+        "balanced_gathering": 0.717041015625,
+        "shortage_per_episode": 4.52734375,
+        "greedy": true
+      },
+      "shuffle_matches_saved": true,
+      "stochastic_recomputed": {
+        "mean_reward_per_step": 0.717041015625,
+        "balanced_gathering": 0.717041015625,
+        "shortage_per_episode": 4.52734375,
+        "greedy": false
+      },
+      "stochastic_matches_saved": true
+    },
+    {
+      "seed": 202,
+      "condition": "silent",
+      "parameter_changes": [
+        {
+          "agent": 0,
+          "changed_tensors": 10,
+          "total_tensors": 14,
+          "parameter_l2_change": 1.9435124397277832
+        },
+        {
+          "agent": 1,
+          "changed_tensors": 10,
+          "total_tensors": 14,
+          "parameter_l2_change": 2.0326709747314453
+        }
+      ],
+      "separate_agent_storage": true,
+      "checkpoint_sha256": "5b1a880840700053c95fb976c3856c40359688d2252cbe5cb48046eb7ef220ff",
+      "normal_recomputed": {
+        "mean_reward_per_step": 0.717041015625,
+        "balanced_gathering": 0.717041015625,
+        "shortage_per_episode": 4.52734375,
+        "greedy": true
+      },
+      "normal_matches_saved": true,
+      "shuffle_recomputed": {
+        "mean_reward_per_step": 0.717041015625,
+        "balanced_gathering": 0.717041015625,
+        "shortage_per_episode": 4.52734375,
+        "greedy": true
+      },
+      "shuffle_matches_saved": true,
+      "stochastic_recomputed": {
+        "mean_reward_per_step": 0.717041015625,
+        "balanced_gathering": 0.717041015625,
+        "shortage_per_episode": 4.52734375,
+        "greedy": false
+      },
+      "stochastic_matches_saved": true
+    },
+    {
+      "seed": 303,
+      "condition": "communicate",
+      "parameter_changes": [
+        {
+          "agent": 0,
+          "changed_tensors": 14,
+          "total_tensors": 14,
+          "parameter_l2_change": 2.2459065914154053
+        },
+        {
+          "agent": 1,
+          "changed_tensors": 14,
+          "total_tensors": 14,
+          "parameter_l2_change": 2.3499505519866943
+        }
+      ],
+      "separate_agent_storage": true,
+      "checkpoint_sha256": "6c8efd5e62206ba1542330bc854010143d5fb7a518aedcf7b354fcdbcc1c1381",
+      "normal_recomputed": {
+        "mean_reward_per_step": 0.7196044921875,
+        "balanced_gathering": 0.7196044921875,
+        "shortage_per_episode": 4.486328125,
+        "greedy": true
+      },
+      "normal_matches_saved": true,
+      "shuffle_recomputed": {
+        "mean_reward_per_step": 0.7196044921875,
+        "balanced_gathering": 0.7196044921875,
+        "shortage_per_episode": 4.486328125,
+        "greedy": true
+      },
+      "shuffle_matches_saved": true,
+      "stochastic_recomputed": {
+        "mean_reward_per_step": 0.71826171875,
+        "balanced_gathering": 0.71826171875,
+        "shortage_per_episode": 4.5078125,
+        "greedy": false
+      },
+      "stochastic_matches_saved": true
+    },
+    {
+      "seed": 303,
+      "condition": "silent",
+      "parameter_changes": [
+        {
+          "agent": 0,
+          "changed_tensors": 10,
+          "total_tensors": 14,
+          "parameter_l2_change": 2.175877571105957
+        },
+        {
+          "agent": 1,
+          "changed_tensors": 10,
+          "total_tensors": 14,
+          "parameter_l2_change": 2.2948830127716064
+        }
+      ],
+      "separate_agent_storage": true,
+      "checkpoint_sha256": "0011919312b700bfdcc8be9a74a88064df0189167576ee47ffadb41ceec1ca7d",
+      "normal_recomputed": {
+        "mean_reward_per_step": 0.7196044921875,
+        "balanced_gathering": 0.7196044921875,
+        "shortage_per_episode": 4.486328125,
+        "greedy": true
+      },
+      "normal_matches_saved": true,
+      "shuffle_recomputed": {
+        "mean_reward_per_step": 0.7196044921875,
+        "balanced_gathering": 0.7196044921875,
+        "shortage_per_episode": 4.486328125,
+        "greedy": true
+      },
+      "shuffle_matches_saved": true,
+      "stochastic_recomputed": {
+        "mean_reward_per_step": 0.718505859375,
+        "balanced_gathering": 0.718505859375,
+        "shortage_per_episode": 4.50390625,
+        "greedy": false
+      },
+      "stochastic_matches_saved": true
+    }
+  ],
+  "recomputed_learning_curves": [
+    {
+      "seed": 101,
+      "condition": "communicate",
+      "curve": [
+        {
+          "update": 0,
+          "greedy_success": 0.56787109375,
+          "stochastic_success": 0.57470703125,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 100,
+          "greedy_success": 0.71533203125,
+          "stochastic_success": 0.7060546875,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 200,
+          "greedy_success": 0.71533203125,
+          "stochastic_success": 0.7109375,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 300,
+          "greedy_success": 0.71533203125,
+          "stochastic_success": 0.71142578125,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 400,
+          "greedy_success": 0.71533203125,
+          "stochastic_success": 0.71240234375,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 500,
+          "greedy_success": 0.71533203125,
+          "stochastic_success": 0.71435546875,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 600,
+          "greedy_success": 0.71533203125,
+          "stochastic_success": 0.71435546875,
+          "greedy_matches_saved": true
+        }
+      ]
+    },
+    {
+      "seed": 101,
+      "condition": "silent",
+      "curve": [
+        {
+          "update": 0,
+          "greedy_success": 0.5732421875,
+          "stochastic_success": 0.57470703125,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 100,
+          "greedy_success": 0.71533203125,
+          "stochastic_success": 0.705078125,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 200,
+          "greedy_success": 0.71533203125,
+          "stochastic_success": 0.7119140625,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 300,
+          "greedy_success": 0.71533203125,
+          "stochastic_success": 0.71142578125,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 400,
+          "greedy_success": 0.71533203125,
+          "stochastic_success": 0.71337890625,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 500,
+          "greedy_success": 0.71533203125,
+          "stochastic_success": 0.7138671875,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 600,
+          "greedy_success": 0.71533203125,
+          "stochastic_success": 0.71435546875,
+          "greedy_matches_saved": true
+        }
+      ]
+    },
+    {
+      "seed": 202,
+      "condition": "communicate",
+      "curve": [
+        {
+          "update": 0,
+          "greedy_success": 0.5712890625,
+          "stochastic_success": 0.568359375,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 100,
+          "greedy_success": 0.73291015625,
+          "stochastic_success": 0.7255859375,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 200,
+          "greedy_success": 0.73291015625,
+          "stochastic_success": 0.728515625,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 300,
+          "greedy_success": 0.73291015625,
+          "stochastic_success": 0.72998046875,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 400,
+          "greedy_success": 0.73291015625,
+          "stochastic_success": 0.7314453125,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 500,
+          "greedy_success": 0.73291015625,
+          "stochastic_success": 0.73193359375,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 600,
+          "greedy_success": 0.73291015625,
+          "stochastic_success": 0.732421875,
+          "greedy_matches_saved": true
+        }
+      ]
+    },
+    {
+      "seed": 202,
+      "condition": "silent",
+      "curve": [
+        {
+          "update": 0,
+          "greedy_success": 0.568359375,
+          "stochastic_success": 0.5654296875,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 100,
+          "greedy_success": 0.73291015625,
+          "stochastic_success": 0.7255859375,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 200,
+          "greedy_success": 0.73291015625,
+          "stochastic_success": 0.72900390625,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 300,
+          "greedy_success": 0.73291015625,
+          "stochastic_success": 0.73046875,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 400,
+          "greedy_success": 0.73291015625,
+          "stochastic_success": 0.7314453125,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 500,
+          "greedy_success": 0.73291015625,
+          "stochastic_success": 0.73193359375,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 600,
+          "greedy_success": 0.73291015625,
+          "stochastic_success": 0.73193359375,
+          "greedy_matches_saved": true
+        }
+      ]
+    },
+    {
+      "seed": 303,
+      "condition": "communicate",
+      "curve": [
+        {
+          "update": 0,
+          "greedy_success": 0.603515625,
+          "stochastic_success": 0.5712890625,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 100,
+          "greedy_success": 0.71826171875,
+          "stochastic_success": 0.71337890625,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 200,
+          "greedy_success": 0.71826171875,
+          "stochastic_success": 0.71630859375,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 300,
+          "greedy_success": 0.71826171875,
+          "stochastic_success": 0.7177734375,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 400,
+          "greedy_success": 0.71826171875,
+          "stochastic_success": 0.71826171875,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 500,
+          "greedy_success": 0.71826171875,
+          "stochastic_success": 0.71826171875,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 600,
+          "greedy_success": 0.71826171875,
+          "stochastic_success": 0.7177734375,
+          "greedy_matches_saved": true
+        }
+      ]
+    },
+    {
+      "seed": 303,
+      "condition": "silent",
+      "curve": [
+        {
+          "update": 0,
+          "greedy_success": 0.61669921875,
+          "stochastic_success": 0.57275390625,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 100,
+          "greedy_success": 0.71826171875,
+          "stochastic_success": 0.71337890625,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 200,
+          "greedy_success": 0.71826171875,
+          "stochastic_success": 0.71630859375,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 300,
+          "greedy_success": 0.71826171875,
+          "stochastic_success": 0.7177734375,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 400,
+          "greedy_success": 0.71826171875,
+          "stochastic_success": 0.71875,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 500,
+          "greedy_success": 0.71826171875,
+          "stochastic_success": 0.71826171875,
+          "greedy_matches_saved": true
+        },
+        {
+          "update": 600,
+          "greedy_success": 0.71826171875,
+          "stochastic_success": 0.71826171875,
+          "greedy_matches_saved": true
+        }
+      ]
+    }
+  ],
+  "independent_saved_trace_audit": [
+    {
+      "seed": 101,
+      "condition": "communicate",
+      "steps": 8192,
+      "selected_resources_recomputed_success": 0.717529296875,
+      "every_reward_equals_direct_balanced_indicator": true,
+      "fixed_opposite_preference_best_match": 1.0,
+      "agent_0_preferred_resource": 0
+    },
+    {
+      "seed": 101,
+      "condition": "silent",
+      "steps": 8192,
+      "selected_resources_recomputed_success": 0.717529296875,
+      "every_reward_equals_direct_balanced_indicator": true,
+      "fixed_opposite_preference_best_match": 1.0,
+      "agent_0_preferred_resource": 0
+    },
+    {
+      "seed": 202,
+      "condition": "communicate",
+      "steps": 8192,
+      "selected_resources_recomputed_success": 0.717041015625,
+      "every_reward_equals_direct_balanced_indicator": true,
+      "fixed_opposite_preference_best_match": 1.0,
+      "agent_0_preferred_resource": 1
+    },
+    {
+      "seed": 202,
+      "condition": "silent",
+      "steps": 8192,
+      "selected_resources_recomputed_success": 0.717041015625,
+      "every_reward_equals_direct_balanced_indicator": true,
+      "fixed_opposite_preference_best_match": 1.0,
+      "agent_0_preferred_resource": 1
+    },
+    {
+      "seed": 303,
+      "condition": "communicate",
+      "steps": 8192,
+      "selected_resources_recomputed_success": 0.7196044921875,
+      "every_reward_equals_direct_balanced_indicator": true,
+      "fixed_opposite_preference_best_match": 1.0,
+      "agent_0_preferred_resource": 1
+    },
+    {
+      "seed": 303,
+      "condition": "silent",
+      "steps": 8192,
+      "selected_resources_recomputed_success": 0.7196044921875,
+      "every_reward_equals_direct_balanced_indicator": true,
+      "fixed_opposite_preference_best_match": 1.0,
+      "agent_0_preferred_resource": 1
+    }
+  ],
+  "paired_condition_checkpoint_independence": [
+    {
+      "seed": 101,
+      "same_evaluation_scenes": true,
+      "same_selected_resources": true,
+      "agents": [
+        {
+          "agent": 0,
+          "differing_tensors": 14,
+          "parameter_l2_difference": 1.2308764457702637
+        },
+        {
+          "agent": 1,
+          "differing_tensors": 14,
+          "parameter_l2_difference": 0.8203773498535156
+        }
+      ]
+    },
+    {
+      "seed": 202,
+      "same_evaluation_scenes": true,
+      "same_selected_resources": true,
+      "agents": [
+        {
+          "agent": 0,
+          "differing_tensors": 14,
+          "parameter_l2_difference": 0.9451184868812561
+        },
+        {
+          "agent": 1,
+          "differing_tensors": 14,
+          "parameter_l2_difference": 1.1291459798812866
+        }
+      ]
+    },
+    {
+      "seed": 303,
+      "same_evaluation_scenes": true,
+      "same_selected_resources": true,
+      "agents": [
+        {
+          "agent": 0,
+          "differing_tensors": 14,
+          "parameter_l2_difference": 1.1952284574508667
+        },
+        {
+          "agent": 1,
+          "differing_tensors": 14,
+          "parameter_l2_difference": 1.076706886291504
+        }
+      ]
+    }
+  ]
+}

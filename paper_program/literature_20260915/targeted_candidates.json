@@ -1,0 +1,201 @@
+{
+  "config": "radar.toml",
+  "since_hours": 24000,
+  "candidates_count": 8,
+  "papers": [
+    {
+      "arxiv_id": "2209.15342",
+      "versioned_id": "2209.15342v2",
+      "title": "Emergent Communication: Generalization and Overfitting in Lewis Games",
+      "abstract": "Lewis signaling games are a class of simple communication games for simulating the emergence of language. In these games, two agents must agree on a communication protocol in order to solve a cooperative task. Previous work has shown that agents trained to play this game with reinforcement learning tend to develop languages that display undesirable properties from a linguistic point of view (lack of generalization, lack of compositionality, etc). In this paper, we aim to provide better understanding of this phenomenon by analytically studying the learning problem in Lewis games. As a core contribution, we demonstrate that the standard objective in Lewis games can be decomposed in two components: a co-adaptation loss and an information loss. This decomposition enables us to surface two potential sources of overfitting, which we show may undermine the emergence of a structured communication protocol. In particular, when we control for overfitting on the co-adaptation loss, we recover desired properties in the emergent languages: they are more compositional and generalize better.",
+      "authors": [
+        "Rita, Mathieu",
+        "Tallec, Corentin",
+        "Michel, Paul",
+        "Grill, Jean-Bastien",
+        "Pietquin, Olivier",
+        "Dupoux, Emmanuel",
+        "Strub, Florian"
+      ],
+      "categories": [
+        "cs.MA"
+      ],
+      "primary_category": "cs.MA",
+      "published": "2022-09-30T00:00:00+00:00",
+      "updated": "2022-10-15T00:00:00+00:00",
+      "abs_url": "https://arxiv.org/abs/2209.15342",
+      "pdf_url": "https://arxiv.org/pdf/2209.15342v2",
+      "metadata_priority_score": 0,
+      "metadata_priority_score_status": "not_ranked; targeted fallback",
+      "metadata_html_sha256": "3ad110aad51ee0e711f6405414c7ea826494a7ee7536081170c995b81d85e82a",
+      "retrieval": "official arXiv HTML targeted fallback, not successful radar collector"
+    },
+    {
+      "arxiv_id": "2601.10169",
+      "versioned_id": "2601.10169v1",
+      "title": "CtD: Composition through Decomposition in Emergent Communication",
+      "abstract": "Compositionality is a cognitive mechanism that allows humans to systematically combine known concepts in novel ways. This study demonstrates how artificial neural agents acquire and utilize compositional generalization to describe previously unseen images. Our method, termed \"Composition through Decomposition\", involves two sequential training steps. In the 'Decompose' step, the agents learn to decompose an image into basic concepts using a codebook acquired during interaction in a multi-target coordination game. Subsequently, in the 'Compose' step, the agents employ this codebook to describe novel images by composing basic concepts into complex phrases. Remarkably, we observe cases where generalization in the `Compose' step is achieved zero-shot, without the need for additional training.",
+      "authors": [
+        "Carmeli, Boaz",
+        "Meir, Ron",
+        "Belinkov, Yonatan"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "published": "2026-01-15T00:00:00+00:00",
+      "updated": "2026-01-15T00:00:00+00:00",
+      "abs_url": "https://arxiv.org/abs/2601.10169",
+      "pdf_url": "https://arxiv.org/pdf/2601.10169v1",
+      "metadata_priority_score": 0,
+      "metadata_priority_score_status": "not_ranked; targeted fallback",
+      "metadata_html_sha256": "92044ce4ff206fb7b78f6a11a9784734421afdfd69473b63c4a1579c097aad47",
+      "retrieval": "official arXiv HTML targeted fallback, not successful radar collector"
+    },
+    {
+      "arxiv_id": "2604.03266",
+      "versioned_id": "2604.03266v1",
+      "title": "Emergent Compositional Communication for Latent World Properties",
+      "abstract": "Can multi-agent communication pressure extract discrete, compositional representations of invisible physical properties from frozen video features? We show that agents communicating through a Gumbel-Softmax bottleneck with iterated learning develop positionally disentangled protocols for latent properties (elasticity, friction, mass ratio) without property labels or supervision on message structure. With 4 agents, 100% of 80 seeds converge to near-perfect compositionality (PosDis=0.999, holdout 98.3%). Controls confirm multi-agent structure -- not bandwidth or temporal coverage -- drives this effect. Causal intervention shows surgical property disruption (~15% drop on targeted property, <3% on others). A controlled backbone comparison reveals that the perceptual prior determines what is communicable: DINOv2 dominates on spatially-visible ramp physics (98.3% vs 95.1%), while V-JEPA 2 dominates on dynamics-only collision physics (87.4% vs 77.7%, d=2.74). Scale-matched (d=3.37) and frame-matched (d=6.53) controls attribute this gap entirely to video-native pretraining. The frozen protocol supports action-conditioned planning (91.5%) with counterfactual velocity reasoning (r=0.780). Validation on Physics 101 real camera footage confirms 85.6% mass-comparison accuracy on unseen objects, temporal dynamics contributing +11.2% beyond static appearance, agent-scaling compositionality replicating at 90% for 4 agents, and causal intervention extending to real video (d=1.87, p=0.022).",
+      "authors": [
+        "Kaszyński, Tomek"
+      ],
+      "categories": [
+        "cs.MA"
+      ],
+      "primary_category": "cs.MA",
+      "published": "2026-03-18T00:00:00+00:00",
+      "updated": "2026-03-18T00:00:00+00:00",
+      "abs_url": "https://arxiv.org/abs/2604.03266",
+      "pdf_url": "https://arxiv.org/pdf/2604.03266v1",
+      "metadata_priority_score": 0,
+      "metadata_priority_score_status": "not_ranked; targeted fallback",
+      "metadata_html_sha256": "66e7c6e5f8a482d5b85545e811ca85f315317b4e13223c573caca3e8bdee232c",
+      "retrieval": "official arXiv HTML targeted fallback, not successful radar collector"
+    },
+    {
+      "arxiv_id": "2402.16247",
+      "versioned_id": "2402.16247v1",
+      "title": "Learning Translations: Emergent Communication Pretraining for Cooperative Language Acquisition",
+      "abstract": "In Emergent Communication (EC) agents learn to communicate with one another, but the protocols that they develop are specialised to their training community. This observation led to research into Zero-Shot Coordination (ZSC) for learning communication strategies that are robust to agents not encountered during training. However, ZSC typically assumes that no prior data is available about the agents that will be encountered in the zero-shot setting. In many cases, this presents an unnecessarily hard problem and rules out communication via preestablished conventions. We propose a novel AI challenge called a Cooperative Language Acquisition Problem (CLAP) in which the ZSC assumptions are relaxed by allowing a 'joiner' agent to learn from a dataset of interactions between agents in a target community. We propose and compare two methods for solving CLAPs: Imitation Learning (IL), and Emergent Communication pretraining and Translation Learning (ECTL), in which an agent is trained in self-play with EC and then learns from the data to translate between the emergent protocol and the target community's protocol.",
+      "authors": [
+        "Cope, Dylan",
+        "McBurney, Peter"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "published": "2024-02-26T00:00:00+00:00",
+      "updated": "2024-02-26T00:00:00+00:00",
+      "abs_url": "https://arxiv.org/abs/2402.16247",
+      "pdf_url": "https://arxiv.org/pdf/2402.16247v1",
+      "metadata_priority_score": 0,
+      "metadata_priority_score_status": "not_ranked; targeted fallback",
+      "metadata_html_sha256": "34b2a4f21fda268408249acefdf5a76e7834549c82755069c7cc60026d60a193",
+      "retrieval": "official arXiv HTML targeted fallback, not successful radar collector"
+    },
+    {
+      "arxiv_id": "2505.12872",
+      "versioned_id": "2505.12872v2",
+      "title": "From Grunts to Lexicons: Emergent Language from Cooperative Foraging",
+      "abstract": "Language is a powerful communicative and cognitive tool. It enables humans to express thoughts, share intentions, and reason about complex phenomena. Despite our fluency in using and understanding language, the question of how it arises and evolves over time remains unsolved. A leading hypothesis in linguistics and anthropology posits that language evolved to meet the ecological and social demands of early human cooperation. Language did not arise in isolation, but through shared survival goals. Inspired by this view, we investigate the emergence of language in multi-agent Foraging Games. These environments are designed to reflect the cognitive and ecological constraints believed to have influenced the evolution of communication. Agents operate in a shared grid world with only partial knowledge about other agents and the environment, and must coordinate to complete games like picking up high-value targets or executing temporally ordered actions. Using end-to-end deep reinforcement learning, agents learn both actions and communication strategies from scratch. We find that agents develop communication protocols with hallmark features of natural language: arbitrariness, interchangeability, displacement, cultural transmission, and compositionality. We quantify each property and analyze how different factors, such as population size, social dynamics, and temporal dependencies, shape specific aspects of the emergent language. Our framework serves as a platform for studying how language can evolve from partial observability, temporal reasoning, and cooperative goals in embodied multi-agent settings. We will release all data, code, and models publicly.",
+      "authors": [
+        "Piriyajitakonkij, Maytus",
+        "Charakorn, Rujikorn",
+        "Tao, Weicheng",
+        "Pan, Wei",
+        "Sun, Mingfei",
+        "Tan, Cheston",
+        "Zhang, Mengmi"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "published": "2025-05-19T00:00:00+00:00",
+      "updated": "2025-09-26T00:00:00+00:00",
+      "abs_url": "https://arxiv.org/abs/2505.12872",
+      "pdf_url": "https://arxiv.org/pdf/2505.12872v2",
+      "metadata_priority_score": 0,
+      "metadata_priority_score_status": "not_ranked; targeted fallback",
+      "metadata_html_sha256": "d5c8e302691667242df7a094d95205a18fd3cfdd44627d20abb271987e0f5dd0",
+      "retrieval": "official arXiv HTML targeted fallback, not successful radar collector"
+    },
+    {
+      "arxiv_id": "2605.11695",
+      "versioned_id": "2605.11695v1",
+      "title": "Emergent Communication between Heterogeneous Visual Agents through Decentralized Learning",
+      "abstract": "Symbols are shared, but perception is private. We study emergent communication between heterogeneous visual agents through decentralized learning, asking what visual information can become shareable when agents have different visual representations. Instead of optimizing messages through a shared external communicative objective, our agents exchange only discrete token sequences and update their own models using local perceptual evidence. This setting focuses on an underexplored aspect of emergent communication, examining whether common symbols can arise without shared perceptual access, and how the similarity between private visual spaces constrains the content and symmetry of the resulting language. We instantiate this setting in the Metropolis-Hastings Captioning Game (MHCG), where two agents collaboratively form shared captions by exchanging proposed token sequences that a listener accepts or rejects using an MH-style criterion evaluated against its own visual features. We compare three pairings of frozen visual encoders, with agents starting from randomly initialized text modules. Experiments on MS-COCO show that MHCG produces visually informative shared token sequences that outperform a no-communication baseline in cross-agent alignment, visual-feature prediction, and image-text retrieval; all cross-agent metrics decline as encoder mismatch increases. Moderate encoder heterogeneity reduces the number of shared sequences while preserving per-sequence visual specificity, whereas stronger encoder heterogeneity yields fewer, coarser, and more asymmetric sequences. Ablations show that listener-side MH acceptance is critical for avoiding degenerate token formation. These results suggest that shared symbols can arise from local perceptual evaluation alone, with visual representational similarity across encoders shaping both the content and symmetry of the resulting language.",
+      "authors": [
+        "Ochiai, Mikako",
+        "Nagano, Masatoshi",
+        "Taniguchi, Tadahiro"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "published": "2026-05-12T00:00:00+00:00",
+      "updated": "2026-05-12T00:00:00+00:00",
+      "abs_url": "https://arxiv.org/abs/2605.11695",
+      "pdf_url": "https://arxiv.org/pdf/2605.11695v1",
+      "metadata_priority_score": 0,
+      "metadata_priority_score_status": "not_ranked; targeted fallback",
+      "metadata_html_sha256": "5757792410d4b1c0752afe3fb84ccd475d5ab65b428889ad36d01c80a6fbcbf1",
+      "retrieval": "official arXiv HTML targeted fallback, not successful radar collector"
+    },
+    {
+      "arxiv_id": "2601.22041",
+      "versioned_id": "2601.22041v1",
+      "title": "Learning to Communicate Across Modalities: Perceptual Heterogeneity in Multi-Agent Systems",
+      "abstract": "Emergent communication offers insight into how agents develop shared structured representations, yet most research assumes homogeneous modalities or aligned representational spaces, overlooking the perceptual heterogeneity of real-world settings. We study a heterogeneous multi-step binary communication game where agents differ in modality and lack perceptual grounding. Despite perceptual misalignment, multimodal systems converge to class-consistent messages grounded in perceptual input. Unimodal systems communicate more efficiently, using fewer bits and achieving lower classification entropy, while multimodal agents require greater information exchange and exhibit higher uncertainty. Bit perturbation experiments provide strong evidence that meaning is encoded in a distributional rather than compositional manner, as each bit's contribution depends on its surrounding pattern. Finally, interoperability analyses show that systems trained in different perceptual worlds fail to directly communicate, but limited fine-tuning enables successful cross-system communication. This work positions emergent communication as a framework for studying how agents adapt and transfer representations across heterogeneous modalities, opening new directions for both theory and experimentation.",
+      "authors": [
+        "Pitzer, Naomi",
+        "Mihai, Daniela"
+      ],
+      "categories": [
+        "cs.MA"
+      ],
+      "primary_category": "cs.MA",
+      "published": "2026-01-29T00:00:00+00:00",
+      "updated": "2026-01-29T00:00:00+00:00",
+      "abs_url": "https://arxiv.org/abs/2601.22041",
+      "pdf_url": "https://arxiv.org/pdf/2601.22041v1",
+      "metadata_priority_score": 0,
+      "metadata_priority_score_status": "not_ranked; targeted fallback",
+      "metadata_html_sha256": "0f2e5f9b3581ca1d5eb75f9db24a786caac9de5687bf0d0c6ecd711f5a1cb30c",
+      "retrieval": "official arXiv HTML targeted fallback, not successful radar collector"
+    },
+    {
+      "arxiv_id": "2407.17960",
+      "versioned_id": "2407.17960v1",
+      "title": "The Curious Case of Representational Alignment: Unravelling Visio-Linguistic Tasks in Emergent Communication",
+      "abstract": "Natural language has the universal properties of being compositional and grounded in reality. The emergence of linguistic properties is often investigated through simulations of emergent communication in referential games. However, these experiments have yielded mixed results compared to similar experiments addressing linguistic properties of human language. Here we address representational alignment as a potential contributing factor to these results. Specifically, we assess the representational alignment between agent image representations and between agent representations and input images. Doing so, we confirm that the emergent language does not appear to encode human-like conceptual visual features, since agent image representations drift away from inputs whilst inter-agent alignment increases. We moreover identify a strong relationship between inter-agent alignment and topographic similarity, a common metric for compositionality, and address its consequences. To address these issues, we introduce an alignment penalty that prevents representational drift but interestingly does not improve performance on a compositional discrimination task. Together, our findings emphasise the key role representational alignment plays in simulations of language emergence.",
+      "authors": [
+        "Kouwenhoven, Tom",
+        "Peeperkorn, Max",
+        "van Dijk, Bram",
+        "Verhoef, Tessa"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "published": "2024-07-25T00:00:00+00:00",
+      "updated": "2024-07-25T00:00:00+00:00",
+      "abs_url": "https://arxiv.org/abs/2407.17960",
+      "pdf_url": "https://arxiv.org/pdf/2407.17960v1",
+      "metadata_priority_score": 0,
+      "metadata_priority_score_status": "not_ranked; targeted fallback",
+      "metadata_html_sha256": "e585603bbf7189c0a97d49bc4e47d9e9c86f5b8bd2ad20e8dabbb16779572102",
+      "retrieval": "official arXiv HTML targeted fallback, not successful radar collector"
+    }
+  ],
+  "retrieval_status": "targeted_fallback_after_429",
+  "not_exhaustive": true,
+  "requested_collector_pool": 20,
+  "actual_targeted_arxiv_pool": 8,
+  "scope": "2024–2026 nearest neighbours plus necessary 2022 predecessor; eight additional local/official comparisons handled separately"
+}

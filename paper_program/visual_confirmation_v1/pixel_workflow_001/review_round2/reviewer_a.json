@@ -1,0 +1,170 @@
+{
+  "reviewer": "A: root AI visual reviewer",
+  "independent": true,
+  "images_viewed": [
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/review_round2/sheet_01.png",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/review_round2/sheet_02.png",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/review_round2/sheet_03.png",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_001/review_round2/sheet_04.png"
+  ],
+  "rows": [
+    {
+      "blind_id": "035ac30c9fa6",
+      "identified_resource": "mixed meal and drinks",
+      "real_photo": true,
+      "resource_identifiable": true,
+      "crop_retains": false,
+      "no_prominent_text": true,
+      "no_mixed_or_ambiguous_resource": false,
+      "decision": "fail",
+      "reason": "汉堡、薯条和不同饮料混杂；裁剪只保留水杯边缘。"
+    },
+    {
+      "blind_id": "0c5464d54275",
+      "identified_resource": "decorated opaque bottles",
+      "real_photo": true,
+      "resource_identifiable": false,
+      "crop_retains": true,
+      "no_prominent_text": false,
+      "no_mixed_or_ambiguous_resource": false,
+      "decision": "fail",
+      "reason": "熊猫图案及文字明显，瓶内水不可辨。"
+    },
+    {
+      "blind_id": "0ff272ea63a8",
+      "identified_resource": "laboratory liquid",
+      "real_photo": true,
+      "resource_identifiable": false,
+      "crop_retains": true,
+      "no_prominent_text": false,
+      "no_mixed_or_ambiguous_resource": false,
+      "decision": "fail",
+      "reason": "试管中黄色沉淀与气泡，不是可确认的清水；背景另有标签文字。"
+    },
+    {
+      "blind_id": "3f03e83ee644",
+      "identified_resource": "bananas and other fruit",
+      "real_photo": true,
+      "resource_identifiable": true,
+      "crop_retains": true,
+      "no_prominent_text": false,
+      "no_mixed_or_ambiguous_resource": false,
+      "decision": "fail",
+      "reason": "绿色香蕉可辨，但前景还有另一种水果，底部报纸文字保留。"
+    },
+    {
+      "blind_id": "503c231e059b",
+      "identified_resource": "opaque bicycle bottle",
+      "real_photo": true,
+      "resource_identifiable": false,
+      "crop_retains": true,
+      "no_prominent_text": true,
+      "no_mixed_or_ambiguous_resource": false,
+      "decision": "fail",
+      "reason": "自行车上的不透明瓶子，内容物不可见。"
+    },
+    {
+      "blind_id": "54c81b71c5ad",
+      "identified_resource": "water",
+      "real_photo": true,
+      "resource_identifiable": true,
+      "crop_retains": true,
+      "no_prominent_text": true,
+      "no_mixed_or_ambiguous_resource": true,
+      "decision": "pass",
+      "reason": "玻璃杯中透明液面和折射可辨，黑色背景及绿光不遮蔽资源，无文字。"
+    },
+    {
+      "blind_id": "7d2000906c2e",
+      "identified_resource": "citrus fruit",
+      "real_photo": true,
+      "resource_identifiable": true,
+      "crop_retains": true,
+      "no_prominent_text": true,
+      "no_mixed_or_ambiguous_resource": true,
+      "decision": "pass",
+      "reason": "单个柑橘样果实的外形、果蒂和果皮可辨，裁剪保留，无第二类食物或文字。"
+    },
+    {
+      "blind_id": "7f1c6e28f303",
+      "identified_resource": "transparent plastic bottle",
+      "real_photo": true,
+      "resource_identifiable": "uncertain",
+      "crop_retains": true,
+      "no_prominent_text": true,
+      "no_mixed_or_ambiguous_resource": "uncertain",
+      "decision": "uncertain",
+      "reason": "透明塑料瓶可辨，但图像中液面及是否盛水不够清楚。"
+    },
+    {
+      "blind_id": "81487bb81e0a",
+      "identified_resource": "oranges",
+      "real_photo": true,
+      "resource_identifiable": true,
+      "crop_retains": true,
+      "no_prominent_text": true,
+      "no_mixed_or_ambiguous_resource": true,
+      "decision": "pass",
+      "reason": "枝叶间的橙色果实清楚，裁剪保留前景橙子，无明显文字。"
+    },
+    {
+      "blind_id": "8eb97f4d4722",
+      "identified_resource": "water",
+      "real_photo": true,
+      "resource_identifiable": true,
+      "crop_retains": true,
+      "no_prominent_text": true,
+      "no_mixed_or_ambiguous_resource": true,
+      "decision": "pass",
+      "reason": "透明杯中的液面清楚，杯身水汽不影响识别，裁剪保留水杯。"
+    },
+    {
+      "blind_id": "946a3b801316",
+      "identified_resource": "bananas",
+      "real_photo": true,
+      "resource_identifiable": true,
+      "crop_retains": true,
+      "no_prominent_text": true,
+      "no_mixed_or_ambiguous_resource": true,
+      "decision": "pass",
+      "reason": "人物旁成批完整香蕉清楚可辨，裁剪保留香蕉，无明显文字水印。"
+    },
+    {
+      "blind_id": "b2c10f3d16f0",
+      "identified_resource": "bananas",
+      "real_photo": true,
+      "resource_identifiable": true,
+      "crop_retains": true,
+      "no_prominent_text": true,
+      "no_mixed_or_ambiguous_resource": true,
+      "decision": "pass",
+      "reason": "叶片间的绿色香蕉串清楚，裁剪保留，无其他食物或文字。"
+    },
+    {
+      "blind_id": "e267db35a9c5",
+      "identified_resource": "illuminated installation",
+      "real_photo": true,
+      "resource_identifiable": false,
+      "crop_retains": false,
+      "no_prominent_text": true,
+      "no_mixed_or_ambiguous_resource": false,
+      "decision": "fail",
+      "reason": "蓝色灯光装置或大量小容器，不能辨认其中的水。"
+    },
+    {
+      "blind_id": "e7ee8f5285ef",
+      "identified_resource": "glass bottle",
+      "real_photo": true,
+      "resource_identifiable": false,
+      "crop_retains": true,
+      "no_prominent_text": false,
+      "no_mixed_or_ambiguous_resource": false,
+      "decision": "fail",
+      "reason": "玻璃瓶有明显浮雕文字，没有清楚水位，不能确认瓶内清水。"
+    }
+  ],
+  "not_human_review": true,
+  "read_other_reviewer": false,
+  "model_scores_used": false,
+  "blinding_limit": "ReviewerA also ran collection and integrity checks and saw some URL/format metadata during debugging. Display materials hide source fields; no complete source-blinding claim. ReviewerB is separately blinded."
+}

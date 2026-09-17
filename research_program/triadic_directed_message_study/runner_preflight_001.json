@@ -1,0 +1,92 @@
+{
+  "status": "synthetic_runner_fixtures_passed",
+  "at": "2026-09-16T04:55:48.145203+00:00",
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_directed_message_study/runner.py": "6124887bbea6742eb9cd838ebd304299e9f894e3e867b13e478c3921a61f2977",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_directed_message_study/test_runner.py": "548aee76e8ac9a0022617e85ee23538de4b9d5471a56950a1140eb5e68d1cc8e"
+  },
+  "intervention_sha256_observed": "bddc84e2330a37ca63f8e9337d63311c736cae33946f0325a161f40636437785",
+  "intervention_modified": false,
+  "tests": {
+    "final_suite_tests": 6,
+    "final_tool_chunk_id": "dd4889",
+    "elapsed_seconds": 0.1,
+    "failures": 0,
+    "errors": 0,
+    "attempts": [
+      {
+        "tool_chunk_id": "f8fa48",
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "elapsed_seconds": 0.102
+      },
+      {
+        "tool_chunk_id": "dd4889",
+        "tests": 6,
+        "failures": 0,
+        "errors": 0,
+        "elapsed_seconds": 0.1
+      }
+    ],
+    "repeat_reason": "Added the requested probability-tolerance boundary fixture and factored the same sham check into verify_sham; repeated the suite after this edit. Not independent evidence."
+  },
+  "cost": {
+    "real_forward_calls": 0,
+    "optimizer_updates": 0,
+    "formal_checkpoint_loads": 0,
+    "formal_NPZ_reads": 0,
+    "fake_forward_calls_each_suite": 21,
+    "fake_module_samples_each_suite": 216,
+    "total_fake_forward_calls": 42,
+    "total_fake_module_samples": 432,
+    "formal_preparations": 0,
+    "formal_executions": 0
+  },
+  "fixture_scope": "Complete eight-world/two-background mirrored group under deterministic fake forwards; temporary NPZ round trip only; old original prepared JSON used as static task support.",
+  "coverage": [
+    "Fixed full-domain 100528128 module-sample budget and nine nonempty strata.",
+    "All8 partner-directed action probabilities, with waiting excluded and no physical-success filter.",
+    "Native9B bank generation, saved-bank0B contract, complete cross8cell/sham4cell6B generation, W1-only delivery of recomputed W2.",
+    "Same canonical donor packet across receiving contexts; sender W1 identity under swapped other needs.",
+    "Sham exact generated messages/actions and explicit absolute probability tolerance1e-13, including accept/reject boundary examples.",
+    "Per-group/background arrays saved separately and bound by hash; no silent omission.",
+    "Primary uses final L directly with negative values retained; initial L, change and D remain auxiliary.",
+    "Freeze/snapshot verification, malformed bank/contexts, existing files/directories rejected."
+  ],
+  "planned_budget": {
+    "policy_states": 8,
+    "trained_policies": 4,
+    "training_updates": 0,
+    "checkpoint_files_read": 8,
+    "initial_natural_bank_files": 16,
+    "reused_final_natural_bank_files": 16,
+    "new_natural_worlds": 3096576,
+    "reused_final_natural_worlds": 3096576,
+    "new_natural_module_samples": 27869184,
+    "cross_files": 32,
+    "sham_files": 32,
+    "group_metric_files": 32,
+    "cross_rows": 8073216,
+    "sham_rows": 4036608,
+    "intervention_rows": 12109824,
+    "intervention_module_samples": 72658944,
+    "total_new_module_samples": 100528128,
+    "generated_data_files": 112,
+    "formal_random_draws": 0
+  },
+  "source_inputs": "Plan/results/audit metadata and8checkpoints/16final-bank hashes are bound by input_manifest when root prepares; no source policy NPZ was loaded in these fixtures.",
+  "schema": {
+    "aggregate": "execution/results.json:policy_states[8].parts[4]",
+    "part_directory": "execution/seed_{seed}/checkpoint_{0000|6000}/{partition}",
+    "data_files": [
+      "natural_bank.npz(initial only)",
+      "cross.npz",
+      "sham.npz",
+      "cross_metrics.npz"
+    ],
+    "closed_windows": "overwrite_windows=[true,false]",
+    "detail_metrics": "L/D/delta/compatible/incompatible arrays with full group/background order"
+  },
+  "remaining": "Root main_preflight, completed cases receipt, independent audit freeze, then root prepare/execute. No formal run started by this agent."
+}

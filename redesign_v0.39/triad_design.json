@@ -1,0 +1,47 @@
+{
+  "version": "v0.39-triad-origin",
+  "description": "Three-resource, three-sender protocol formation with compositional message slots",
+  "input_namespace": "v0.28-frozen-private-visual-encoders",
+  "research_question": "Does a grounded protocol still form when three independently observed resources must be combined into one receiver action, and does partner-topology coverage affect slot-wise compositionality?",
+  "conditions": ["fixed_A", "rotating_AB", "random_ABC"],
+  "training_topologies": {
+    "fixed_A": "A on every update",
+    "rotating_AB": "A on even updates and B on odd updates",
+    "random_ABC": "A, B or C sampled from a deterministic per-update schedule"
+  },
+  "population": {
+    "agents": 4,
+    "private_types": [0, 1, 0, 1],
+    "resource_roles": 3,
+    "resource_strata": ["apple", "banana", "orange"],
+    "private_visual_encoders": "frozen encoders inherited from two-resource perceptual training",
+    "communication_initialization": "fresh random sender and receiver heads"
+  },
+  "protocol": {
+    "resources": 3,
+    "tokens_per_sender": 1,
+    "combined_message_length": 3,
+    "vocabulary": 7,
+    "receiver_codebook_size": 343,
+    "receiver_input": "ordered resource-0/resource-1/resource-2 token tuple",
+    "payoff": "(1/6)*sum(correct_resources)+(1/2)*all_three_correct"
+  },
+  "world": {
+    "sites": 6,
+    "positions": "ordered triples of distinct sites",
+    "train_photos_per_resource": 2,
+    "test_photos_per_resource": 1,
+    "train_map_rule": "partition-specific first-resource rank < second-resource rank",
+    "test_maps": 120
+  },
+  "updates": 1200,
+  "checkpoints": [0, 100, 600, 1200],
+  "formal_matrix": "4 seeds × 3 panels × 3 topology schedules = 36 chains",
+  "primary_unit": "seed×panel×formation_schedule×checkpoint",
+  "limits": [
+    "The three resource visual frontends are inherited and frozen; only communication heads are newly initialized.",
+    "A three-token tuple tests slot-wise grounded composition, not open-ended grammar or natural language.",
+    "The reward is shared and the joint policy-gradient update is centralized.",
+    "Four agents, six sites and experimenter-defined topology schedules are a controlled mechanism probe."
+  ]
+}

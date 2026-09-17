@@ -1,0 +1,23 @@
+{
+  "time_utc": "2026-09-15T19:59:18.666261+00:00",
+  "command": [
+    "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/.venv/bin/python",
+    "-m",
+    "pytest",
+    "research_program/triadic_position_reuse_study/tests/test_discovery.py",
+    "-q"
+  ],
+  "exit_code": 0,
+  "stdout": ".......                                                         [100%]\n7 passed, 9 subtests passed in 0.10s\n",
+  "stderr": "",
+  "elapsed_seconds": 0.23610362503677607,
+  "source_sha256": {
+    "research_program/triadic_position_reuse_study/discovery.py": "df0a872f56d5278790cdb621dca4c8b0db812e4c9d4bf9f49df52a3978a8c7f9",
+    "research_program/triadic_position_reuse_study/tests/test_discovery.py": "16ac9fc32614df2b5765c09d37f2469a5ba3d60c1d3bcfcf85d446ebb0c3faab"
+  },
+  "formal_message_files_read": 0,
+  "parameter_loads": 0,
+  "neural_forwards": 0,
+  "training_updates": 0,
+  "scope": "Seven pure tests: exact integer/Fraction selection, unequal listener strata, exact/near ties, negative and shared-position choices, base8 packet coding, and a fully synthetic 419904-world training packet set."
+}

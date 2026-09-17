@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "early_images": 9,
+  "remaining_images": 8,
+  "all_ordinary_images": 17,
+  "no_overlap": true,
+  "union_matches_collector_packet": true,
+  "all_packet_image_hashes_match": true,
+  "image_views": 0,
+  "model_calls": 0,
+  "network_requests": 0,
+  "early_packet_sha256": "2c584d2dfa24e1b496a78410b396388d6fb68d2e172b62254e8196107c14ed9e",
+  "remaining_packet_sha256": "abd3ea22cd214527eefe080c0f2395ba1f3e6a62d7c758a7e1ad69528f18466f"
+}

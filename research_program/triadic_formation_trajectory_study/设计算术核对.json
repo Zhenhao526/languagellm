@@ -1,0 +1,65 @@
+{
+  "status": "passed_static_arithmetic",
+  "at": "2026-09-15T20:19:45.809876+00:00",
+  "checkpoints": [
+    0,
+    100,
+    500,
+    1500,
+    3000,
+    6000
+  ],
+  "normalized_trapezoid_weights": [
+    {
+      "numerator": 1,
+      "denominator": 120
+    },
+    {
+      "numerator": 1,
+      "denominator": 24
+    },
+    {
+      "numerator": 7,
+      "denominator": 60
+    },
+    {
+      "numerator": 5,
+      "denominator": 24
+    },
+    {
+      "numerator": 3,
+      "denominator": 8
+    },
+    {
+      "numerator": 1,
+      "denominator": 4
+    }
+  ],
+  "sum_weights": "1",
+  "constant_curve_check": true,
+  "linear_curve_check": true,
+  "validation_static_source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_position_reuse_study/results/position_001/dataset/validation.npz",
+  "validation_static_sha256": "4a3a5a9636906e869f7d396a270fc69470f16d8d73368b64872f2e0ff5c4d2ec",
+  "recipient_unique_worlds": 284,
+  "donor_unique_worlds": 280,
+  "union_unique_worlds": 554,
+  "budget": {
+    "train_message_worlds": 33592320,
+    "train_message_modules": 201553920,
+    "validation_natural_worlds": 44320,
+    "validation_natural_modules": 398880,
+    "single_position_worlds": 207360,
+    "single_position_modules": 933120,
+    "cross_whole_grid_worlds": 165888,
+    "cross_whole_reused6000_worlds": 4608,
+    "cross_whole_new_worlds": 161280,
+    "cross_whole_new_modules": 967680,
+    "new_parameter_loads": 88,
+    "training_updates": 0,
+    "new_forward_modules": 203853600
+  },
+  "performed_new_neural_forwards": 0,
+  "performed_training": 0,
+  "new_policy_outputs_read": false,
+  "boundary": "This receipt verifies static counts/formulas only, not an executed trajectory or checkpoint compatibility."
+}

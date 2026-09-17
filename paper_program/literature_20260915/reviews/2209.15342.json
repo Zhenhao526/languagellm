@@ -1,0 +1,28 @@
+{
+  "arxiv_id": "2209.15342",
+  "review_mode": "full_text",
+  "confidence": "high",
+  "verdict": "must-read",
+  "paper_type": "mechanism_or_method",
+  "scores": {
+    "relevance": 100,
+    "evidence": 90,
+    "novelty": 85,
+    "impact": 91,
+    "reproducibility": 85,
+    "author_prior": 50,
+    "early_signal": 50
+  },
+  "contribution": "把 Lewis 游戏目标分成信息损失与共同适应损失，并诊断听者过拟合如何影响说者形成的协议。",
+  "evidence_summary": "§2.3–3.3 给出分解、冻结说者训练探针听者及听者收敛干预；§4–5 在六种子属性重建及 CelebA/ImageNet 指称任务比较，听者正则有帮助但弱于早停参照。",
+  "novelty_comparison": "相对 Chaabouni 2020 的泛化与组合性经验关系，提供目标分解和学习干预；我们 C_S 与之相邻，C_R 和旧任务约束前沿是不同问题，不能把多个 oracle 缺口相加当其分解。",
+  "recommendation_reasons": [
+    "发收负担与适应研究必须直接比较。",
+    "用充分训练的新听者区分编码歧义与现有听者限制。"
+  ],
+  "concerns": [
+    "主泛化指标使用重新训练的探针听者，并非原配对自然成功。",
+    "视觉任务中泛化提高并未同步提高 TopSim，不能泛化成组合性定律。"
+  ],
+  "summary": "全文核查 §2–5、结论及相关探针定义。必须保留作为 v0.9 的理论最近邻。"
+}

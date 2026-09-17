@@ -1,0 +1,29 @@
+{
+  "arxiv_id": "2605.11695",
+  "review_mode": "full_text",
+  "confidence": "medium",
+  "verdict": "must-read",
+  "paper_type": "mechanism_or_method",
+  "scores": {
+    "relevance": 99,
+    "evidence": 80,
+    "novelty": 79,
+    "impact": 86,
+    "reproducibility": 76,
+    "author_prior": 50,
+    "early_signal": 50
+  },
+  "contribution": "用本地 MH 式接受与私人冻结 DINO/MAE 感知，从随机符号模块形成共享离散序列，并考察感知异质性。",
+  "evidence_summary": "§3–6：118K COCO 训练/5K验证、DINO-B/B、B/S、B/MAE 三组；三种子和无通信、全接受、等接受率随机、ITM 接受控制；无预训练 BERT 权重。",
+  "novelty_comparison": "相对先前 MHCG，将随机文本模块与异质冻结视觉组合。我们的非 LLM 视觉符号路线不是空白；可能区别在新需求适应、旧用途约束和行动后果。",
+  "recommendation_reasons": [
+    "最直接排除“首次非语言预训练视觉主体产生约定”。",
+    "接受率匹配阴性控制与独立视觉测量空间值得学习。"
+  ],
+  "concerns": [
+    "按 arXiv v1，未核实同行评审发表。",
+    "仅三视觉配对、单数据集、三种子；精度与覆盖解释未完全区分。",
+    "MH 为近似的一步过滤，作者不声称精确后验采样。"
+  ],
+  "summary": "主文方法、控制、表3–6、局限和 BERT 初始化说明已核查。尚未直接操纵已建立约定的新区分扩展。"
+}

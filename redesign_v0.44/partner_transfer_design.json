@@ -1,0 +1,42 @@
+{
+  "version": "v0.44-partner-transfer-endpoint",
+  "description": "v0.43 双 token 形成终点的独立伙伴替换与协议兼容性",
+  "research_question": "角色对称化形成的协议能否被另一个独立形成的 agent 直接读懂；一个或全部 sender 被替换时，兼容性如何随角色模式、伙伴拓扑和资源排列变化？",
+  "factorial": {
+    "visual_groups": "4 seeds × 3 partitions × 6 resource-column assignments",
+    "endpoint_cultures_per_group": "2 role modes × 3 formation topologies",
+    "visual_groups_count": 72,
+    "culture_endpoints": 432,
+    "recipient_cultures": 6,
+    "donor_cultures": 6,
+    "evaluation_schedules": ["A", "B", "C"],
+    "role_permutations": 6,
+    "team_slots": 4
+  },
+  "transfer": {
+    "replacement_modes": ["none", "slot0", "slot1", "slot2", "all"],
+    "replacement_definition": "slot0/1/2 replaces the sender at that team position after the evaluated role permutation; all replaces all three senders",
+    "donor_pool": "another v0.43 endpoint culture with the same seed, partition and resource-column assignment",
+    "receiver": "recipient culture receiver remains fixed",
+    "adaptation": "none; endpoint compatibility assay",
+    "visual_frontends": "same frozen private frontends within a visual group",
+    "communication": "two tokens per resource sender, vocabulary 7"
+  },
+  "measures": {
+    "primary": ["target60 literal J", "target60 equivariant J", "replacement drop from native"],
+    "secondary": ["resource-slot accuracy", "cross-culture token agreement", "role-permutation stability"],
+    "native_control": "none replacement must reproduce the sealed v0.43 endpoint score for every recipient culture, schedule, role permutation and team",
+    "interpretation": "compatibility is direct endpoint reading, not post-replacement learning or open-ended language"
+  },
+  "hypotheses": [
+    "Independent communication conventions will be poorly compatible even when each culture succeeds natively.",
+    "Formation with random role order will reduce cross-culture replacement loss and make replacement-slot effects more uniform.",
+    "Replacing all senders will reduce function more than replacing one sender, while token agreement will predict residual function."
+  ],
+  "controls_and_limits": [
+    "No new parameters are trained; all transfer results are endpoint inference from v0.43 final states.",
+    "Keeping seed, partition and resource assignment fixed isolates communication compatibility from visual-front-end mismatch, but does not test new agents with new perception.",
+    "The task remains finite six-site grounded coordination with a two-token message and centralized reward inherited from v0.43.",
+    "Role-equivalent scores synchronize target axes and should be read together with literal scores."
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "status": "prepared_not_executed",
+  "created": "2026-09-15T18:19:02.951039+08:00",
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/ecology_information_bounds.py": "c3130bfae4f2c3441b6f04c1a62b2319602487848d70f47b3ccb68b7b6c0a00a",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/ecology_draft_counts.py": "0ff70e9b7fc70c2da5a475281d89eee8c7b0e2e4608dcd972897e534979c6edd"
+  },
+  "demand_support": "at_least_two_compatible_pairs",
+  "demand_tables": 996,
+  "layouts": 24,
+  "fixed_private_assignment": [
+    1,
+    2,
+    3
+  ],
+  "representative_states": 23904,
+  "expanded_states": 143424,
+  "expansion_rule": "All six publicly known private-site assignments are related by a bijection of the three nonpublic sites. The map distribution is uniform and menus contain all semantic actions; each context permits its own policy. Values are equal, not independent replicates.",
+  "conditions": [
+    "I0_D1",
+    "I1_D1"
+  ],
+  "constrained_agents": [
+    0,
+    1,
+    2
+  ],
+  "reward": "half the number of individually satisfied needs after physical matching; overload zero",
+  "relaxation": "Keep one agent local and grant the other two all current state and knowledge of its chosen action; maximize their response per state, then sum within the local observation classes, then maximize the focal action.",
+  "observation_I0": [
+    "all_three_demands",
+    "public_material",
+    "own_private_material"
+  ],
+  "observation_I1": [
+    "own_demand",
+    "public_material",
+    "own_private_material"
+  ],
+  "no_message": true,
+  "new_model_calls": 0,
+  "training_updates": 0,
+  "randomness": "Independent new state each round; past histories and shared/private randomness carry no current private variables. A mixture of deterministic policies cannot exceed this expected-reward upper bound.",
+  "labels": "Post-draft exact enumeration of a relaxation, not the exact unrestricted no-communication optimum."
+}

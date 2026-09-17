@@ -1,0 +1,32 @@
+{
+  "version": "v0.35",
+  "description": "Zero-shot identity holdout for complementary two-sender communication",
+  "input_namespace": "v0.34-34034",
+  "research_question": "Can a symbol protocol learned by residents be used by a same-type newcomer with no social communication training?",
+  "conditions": ["fixed_A", "rotating_AB"],
+  "topology_evaluation": ["A", "B", "C"],
+  "population": {
+    "resident_agents": 4,
+    "private_types": [0, 1, 0, 1],
+    "newcomer_private_types": [0, 1],
+    "newcomer_social_training": false,
+    "role_interventions": ["receiver", "food_sender", "water_sender"],
+    "identity_slots": [0, 1, 2, 3]
+  },
+  "protocol": {
+    "food_view": "food_only",
+    "water_view": "water_only",
+    "tokens_per_sender": 1,
+    "receiver_input": "ordered_food_then_water_token_pair",
+    "payoff": ".25*(cF+cW)+.5*(cF*cW)"
+  },
+  "endpoint_intervention": "For each schedule and held identity, replace only that identity's receiver, food-sender or water-sender model in the one team where it has that role; all other role models remain resident models.",
+  "primary_unit": "seed×panel, averaged over four held identities and three panels within seed",
+  "new_dino_inferences": 0,
+  "new_private_fits": 0,
+  "limits": [
+    "This is a zero-shot endpoint identity probe, not online newcomer adaptation.",
+    "The newcomer shares the resident private encoder type but has freshly reset communication modules.",
+    "The test evaluates grounded readout and token compatibility; it does not establish cultural transmission or a population-wide lexicon."
+  ]
+}

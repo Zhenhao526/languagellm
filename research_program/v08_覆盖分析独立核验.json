@@ -1,0 +1,25 @@
+{
+  "status": "synthetic_review_passed_real_recount_pending",
+  "reviewed_at": "2026-09-15T11:55:03.348379+00:00",
+  "audited_script": "/Users/xia/Documents/ChatGPT/语言/research_program/v08_receiver_coverage.py",
+  "audited_script_sha256": "a9d744656bad7a6986a5ed722244d038a53f08fd141ad9683196a31dfa40eaa8",
+  "independent_script": "/Users/xia/Documents/ChatGPT/语言/research_program/v08_覆盖分析独立核验.py",
+  "independent_script_sha256": "53864c36714a15f26e100c90566d03631292c4d5253cd5af301ee479797e8167",
+  "synthetic_tests_passed": 13,
+  "parameterized_subcases_passed": 8,
+  "new_model_calls": 0,
+  "original_analysis_runs_started": 0,
+  "real_data_recount_performed": false,
+  "review": {
+    "menu_equivariance": "All49 codes×2 goals×720 menus and saved one-hot action counts required; non-equivalence aborts full analysis.",
+    "sender_goal_compatibility_axis": "Both delivered and emitted histograms and same-code joint counts checked equal before retaining one row/map.",
+    "paired_worlds": "Uses one actual world, one delivered code, independent query menus and complementary goal order; action→physical-place routing and target correctness independently checked.",
+    "blocked_domain": "All49-code U is labeled counterfactual; actual allowed-message coverage is computed only from[0,0]. Nonzero delivered message is rejected.",
+    "marginal_categories": "Joint / both marginals without joint / food only / water only / neither are mutually exclusive and complete.",
+    "denominators": "Per lambda heldout:144 map-direction units,2304 unique protocol photo/map/direction cases,23040 actual endpoint worlds. Four seeds remain the independent units.",
+    "aggregation": "Balanced rates equal equal-weight per-seed averages; pooled failure shares are explicitly count-weighted and not automatically per-seed means.",
+    "interpretation": "New U and failure decomposition are post-hoc. N uses16 separate protocol photo pairs; J comes from real endpoint worlds. No photo-wise N-vs-J subtraction or language-formation inference."
+  },
+  "issue_resolved": "Suggested emitted-frequency equality across hidden compatibility axes, including blocked. Audited script now includes it and synthetic negative case passes.",
+  "pending": "Wait for all60 protocol runs statuscomplete, then call independent_real_recount(batch) to independently rebuild counts from saved tables/NPZ and compare with analyzed report. No call of audited analyze() is used by independent recount."
+}

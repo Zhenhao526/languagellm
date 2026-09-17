@@ -1,0 +1,97 @@
+{
+  "data_integrity_passed": true,
+  "request_timing_passed": true,
+  "processed_candidates": 17,
+  "planned_candidates": 17,
+  "request_count": 17,
+  "downloaded": 17,
+  "ordinary_candidates": 17,
+  "quarantine": [],
+  "old_available_pixels": 90,
+  "old_unavailable_pixels": 11,
+  "previous_batch_pixels": 43,
+  "previous_batches": {
+    "pixel_workflow_001": 24,
+    "pixel_workflow_002": 19
+  },
+  "near_duplicate_comparisons": 2397,
+  "near_duplicate_flags": 0,
+  "retry_after_waits": [],
+  "normal_request_intervals": [
+    {
+      "monotonic": 10.011200125096366,
+      "utc": 10.011278
+    },
+    {
+      "monotonic": 10.01142474997323,
+      "utc": 10.011511
+    },
+    {
+      "monotonic": 10.012450541951694,
+      "utc": 10.012524
+    },
+    {
+      "monotonic": 10.010318833985366,
+      "utc": 10.0104
+    },
+    {
+      "monotonic": 10.00393129105214,
+      "utc": 10.004014
+    },
+    {
+      "monotonic": 10.010773750022054,
+      "utc": 10.010852
+    },
+    {
+      "monotonic": 10.014378999941982,
+      "utc": 10.014441
+    },
+    {
+      "monotonic": 10.009383916971274,
+      "utc": 10.009463
+    },
+    {
+      "monotonic": 10.006796000059694,
+      "utc": 10.006859
+    },
+    {
+      "monotonic": 10.008274709107354,
+      "utc": 10.008363
+    },
+    {
+      "monotonic": 10.010806665988639,
+      "utc": 10.010889
+    },
+    {
+      "monotonic": 10.004183124983683,
+      "utc": 10.004244
+    },
+    {
+      "monotonic": 10.012226916966029,
+      "utc": 10.012309
+    },
+    {
+      "monotonic": 10.008400791091844,
+      "utc": 10.008485
+    },
+    {
+      "monotonic": 10.004123708000407,
+      "utc": 10.004214
+    },
+    {
+      "monotonic": 10.007880709017627,
+      "utc": 10.007949
+    }
+  ],
+  "wait_deadlines_passed": true,
+  "all_response_bytes_archived_with_caps": true,
+  "legacy_preprocessing_equality_checks": 17,
+  "packet_sha256": "a754f76bea4fd4d118b101de82d9b8ab8f5dbb931a2d59986ba4dbc3b5d4507a",
+  "sheet_count": 5,
+  "visual_review": "not_performed_by_collector",
+  "license_identity_review": "pending",
+  "model_calls": 0,
+  "confirmation_requests": 0,
+  "source_hashes_unchanged": true,
+  "old_batch_timing_failure_not_rewritten": true
+}

@@ -1,0 +1,137 @@
+{
+  "start_id": 3,
+  "name": "uniform_table_seed_2026091503",
+  "rng_seed": 2026091503,
+  "initial": {
+    "success_units": 134,
+    "score_denominator": 47808,
+    "score_fraction": "67/23904",
+    "score": 0.0028028781793842036,
+    "reward_histogram_success_units": {
+      "0": 23806,
+      "1": 62,
+      "2": 36
+    },
+    "local_observation_consistency": true,
+    "at_or_below_75_over_83": true
+  },
+  "final": {
+    "round": 6,
+    "success_units": 17030,
+    "score_denominator": 47808,
+    "score_fraction": "8515/23904",
+    "score": 0.3562165327978581,
+    "reward_histogram_success_units": {
+      "0": 11447,
+      "1": 7884,
+      "2": 4573
+    },
+    "local_observation_consistency": true,
+    "at_or_below_75_over_83": true
+  },
+  "full_rounds": 6,
+  "stop_reason": "no_strict_improvement_over_full_round",
+  "trajectory": [
+    {
+      "round": 0,
+      "success_units": 134,
+      "score_denominator": 47808,
+      "score_fraction": "67/23904",
+      "score": 0.0028028781793842036,
+      "reward_histogram_success_units": {
+        "0": 23806,
+        "1": 62,
+        "2": 36
+      },
+      "local_observation_consistency": true,
+      "at_or_below_75_over_83": true
+    },
+    {
+      "round": 1,
+      "success_units": 9178,
+      "score_denominator": 47808,
+      "score_fraction": "4589/23904",
+      "score": 0.19197623828647925,
+      "reward_histogram_success_units": {
+        "0": 18020,
+        "1": 2590,
+        "2": 3294
+      },
+      "local_observation_consistency": true,
+      "at_or_below_75_over_83": true
+    },
+    {
+      "round": 2,
+      "success_units": 14176,
+      "score_denominator": 47808,
+      "score_fraction": "443/1494",
+      "score": 0.2965194109772423,
+      "reward_histogram_success_units": {
+        "0": 13963,
+        "1": 5706,
+        "2": 4235
+      },
+      "local_observation_consistency": true,
+      "at_or_below_75_over_83": true
+    },
+    {
+      "round": 3,
+      "success_units": 16201,
+      "score_denominator": 47808,
+      "score_fraction": "16201/47808",
+      "score": 0.3388763386880857,
+      "reward_histogram_success_units": {
+        "0": 12158,
+        "1": 7291,
+        "2": 4455
+      },
+      "local_observation_consistency": true,
+      "at_or_below_75_over_83": true
+    },
+    {
+      "round": 4,
+      "success_units": 17010,
+      "score_denominator": 47808,
+      "score_fraction": "945/2656",
+      "score": 0.3557981927710843,
+      "reward_histogram_success_units": {
+        "0": 11467,
+        "1": 7864,
+        "2": 4573
+      },
+      "local_observation_consistency": true,
+      "at_or_below_75_over_83": true
+    },
+    {
+      "round": 5,
+      "success_units": 17030,
+      "score_denominator": 47808,
+      "score_fraction": "8515/23904",
+      "score": 0.3562165327978581,
+      "reward_histogram_success_units": {
+        "0": 11447,
+        "1": 7884,
+        "2": 4573
+      },
+      "local_observation_consistency": true,
+      "at_or_below_75_over_83": true
+    },
+    {
+      "round": 6,
+      "success_units": 17030,
+      "score_denominator": 47808,
+      "score_fraction": "8515/23904",
+      "score": 0.3562165327978581,
+      "reward_histogram_success_units": {
+        "0": 11447,
+        "1": 7884,
+        "2": 4573
+      },
+      "local_observation_consistency": true,
+      "at_or_below_75_over_83": true
+    }
+  ],
+  "final_policy_file": "start_03_final_policy.json",
+  "final_policy_sha256": "2c206383edfb94f2717a64a358af89e0d36c8bda380c0d28a88e3efae23e5b4f",
+  "coordinate_updates": 18
+}

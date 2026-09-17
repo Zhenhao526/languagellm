@@ -1,0 +1,6 @@
+{
+  "created_utc": "2026-09-15T12:35:27.389440+00:00",
+  "prior_sha256": "f153f1036ccd6bc6d372de9342b310bfffa6be1842e6eda809865d9b159ed3b9",
+  "new_example_source_sha256": "644d817ed30b5188d80349695cf1cde8298b2843bff5e34488eb797924a9080d",
+  "change": "Clarify display selection made at 8/64 complete, before case messages probed; not a pre-training registered measurement. Selection and calculations unchanged."
+}

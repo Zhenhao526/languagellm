@@ -1,0 +1,23 @@
+{
+  "status": "metadata_collection_complete",
+  "started_utc": "2026-09-15T18:08:47.423334+00:00",
+  "freeze_sha256": "eff41d18837ee97911e494b27c1168b3e1197e0a31f7d0dbdf3a6a7f87d2b457",
+  "pixel_requests": 0,
+  "image_views": 0,
+  "model_calls": 0,
+  "confirmation_pixel_access": 0,
+  "finished_utc": "2026-09-15T18:15:06.661772+00:00",
+  "actual_http_requests": 33,
+  "logical_requests": 33,
+  "extra_retries": 0,
+  "category_count": 6,
+  "unique_frame_files": 623,
+  "selected_metadata_files": 300,
+  "metadata_count": 300,
+  "provisionally_eligible_records": 106,
+  "provisionally_eligible_clusters": 79,
+  "unchanged_v1_inputs": true,
+  "pixels_ready": false,
+  "allocations_performed": false,
+  "threshold80_met_in_this_bounded_metadata_sample": false
+}

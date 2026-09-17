@@ -1,0 +1,15 @@
+{
+  "minecraft": "1.16.5",
+  "minerl_commit": "cdeae668c2f334e3c9117adf651b5a94436b45f8",
+  "mcp_commit": "1e71be5bd4c49bc4d6ab0ee559c31b298b7697a3",
+  "gradle": "6.8.1",
+  "java": "Zulu JDK8.0.504 x86_64 via Rosetta",
+  "jar_bytes": 465193245,
+  "jar_sha256": "ecd3ffffec4d5c9f7531b44cefaa0cfa34e0ab88e0159b405ac0d81bf843aba2",
+  "java_compilation_verified": true,
+  "official_model_modified": false,
+  "calibration_initializer": true,
+  "live_environment_verified": true,
+  "live_verification_scope": "Script movement, wood mining/pickup and bread use; paired noops. This is not policy competence.",
+  "live_evidence": "runs/20260914T072056.284528Z_script_movement_s101_f8 and logs/controls_v1_results.json"
+}

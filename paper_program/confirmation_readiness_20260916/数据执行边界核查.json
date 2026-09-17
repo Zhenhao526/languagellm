@@ -1,0 +1,285 @@
+{
+  "status": "complete_read_only_boundary_audit",
+  "created_utc": "2026-09-16T04:23:20.040624+00:00",
+  "scope": "只读元数据、已有代码与文件哈希；本轮未下载、未看图、未调用模型、未改旧文件；唯一新产物为本JSON。",
+  "process_status": {
+    "active_collector_handles_owned": [],
+    "claim": "现有v1三批及v2元数据收集均已有完成/退出记录，不应描述为仍运行。未据历史process_handle文件推断活进程。",
+    "v1_batch3": {
+      "session_id": 91720,
+      "pid": 45508,
+      "exit_code": 0
+    },
+    "v1_batch2": {
+      "session_id": 2214,
+      "pid": 40149,
+      "exit_code": 0
+    },
+    "v2": {
+      "session_id": 96240,
+      "exit_code": 0,
+      "finished_utc": "2026-09-15T18:15:06.661772+00:00"
+    },
+    "pid_spot_check": {
+      "command": "ps -p 40149,45508 -o pid=,lstart=,command=",
+      "exit_code": 1,
+      "output_empty": true,
+      "meaning": "两个已记录历史PID当前无条目；不作为整个工作区不存在其他进程的保证"
+    }
+  },
+  "v1": {
+    "cumulative": {
+      "workflow_originals_downloaded": 60,
+      "ordinary_format_originals": 57,
+      "mpo_quarantined": 3,
+      "ordinary_not_dual_visual_pass": 43,
+      "ordinary_dual_visual_pass": 14,
+      "source_license_metadata_supported_after_dual_visual_and_format_checks": 14,
+      "usable_for_limited_workflow": 11,
+      "workflow_target": 24,
+      "workflow_gap": 13,
+      "counts": {
+        "apple": 3,
+        "banana": 3,
+        "orange": 3,
+        "water": 2
+      },
+      "gaps": {
+        "apple": 1,
+        "banana": 1,
+        "orange": 1,
+        "water": 10
+      },
+      "resource_semantics_pending": [
+        "b2c10f3d16f0"
+      ],
+      "author_identity_pending": [
+        "1e0495e5e2cf"
+      ],
+      "source_medium_pending": [
+        "ad74fc351ebf"
+      ],
+      "total_pending": 3,
+      "usable_ids": [
+        "9bfe113779f7",
+        "a205a4056898",
+        "54c81b71c5ad",
+        "81487bb81e0a",
+        "946a3b801316",
+        "6d8e0ea1ad49",
+        "d341ecdb75be",
+        "0a437c5afb2b",
+        "1ab210b90590",
+        "8a3020fc290d",
+        "a5ea21b8b789"
+      ]
+    },
+    "batch_counts": [
+      {
+        "batch": "001",
+        "downloaded": 24,
+        "requests": 26,
+        "confirmation_requests": 0
+      },
+      {
+        "batch": "002",
+        "downloaded": 19,
+        "requests": 20,
+        "confirmation_requests": 0
+      },
+      {
+        "batch": "003",
+        "downloaded": 17,
+        "requests": 17,
+        "confirmation_requests": 0
+      }
+    ],
+    "remaining_reserve": {
+      "apple": 6,
+      "banana": 7,
+      "orange": 7,
+      "water": 16
+    },
+    "remaining_reserve_total": 36,
+    "workflow_use_only": true,
+    "independent_confirmation_completed": false
+  },
+  "confirmation48": {
+    "reserved_count": 48,
+    "download_candidate_overlap": 0,
+    "request_candidate_overlap": 0,
+    "known_blind_id_pixel_filename_matches": [],
+    "model_access_reported": 0,
+    "technical_limit": "已核三批请求/下载ID与已知命名像素目录，不是操作系统级访问日志或权限密封；共享工作区不具技术访问隔离。本轮未读取确认像素。"
+  },
+  "v2": {
+    "detail_count": 300,
+    "automatic_eligible_records": 106,
+    "automatic_proxy_clusters": 79,
+    "verified_independent_authors": null,
+    "eligible_pixel_images": 0,
+    "new_pixel_files_found": [],
+    "threshold80_met": false,
+    "pixel_allocations_performed": false,
+    "interpretation": "79为原固定元数据规则的关联键连通簇，存在未消歧作者/原作和多语言场景误配；不等于79已验收作者或只差1张图片。根事后28E/43U/8X非新入选门槛。"
+  },
+  "exclusions": {
+    "old_records": 101,
+    "old_available_pixels": 90,
+    "old_unavailable_pixels": 11,
+    "unresolved_old_authors": 3,
+    "downloaded_unique60": 60,
+    "reserved_clusters": 144,
+    "reserved_member_pages": 190,
+    "blocked_keys": 1180,
+    "blocked_pageids": 209,
+    "blocked_titles": 309,
+    "pending_alias_preserved": true,
+    "full_known_key_closure_matches": true,
+    "source_hashes_all_match": true,
+    "limit": "已记录键和关联闭包排除不是所有真实作者/转载独立性的证明；新框应继续保守排除，未知项不自动解禁。"
+  },
+  "historical_boundaries_to_preserve": [
+    "v1固定800元数据、144簇预约(24workflow/48confirmation/72reserve)、排序盐/顺序及三批24/19/17已运行事实保持；不得回写旧配额、候选和验收判断。",
+    "原确认48像素继续隔离，不挪为流程开发或用其模型成绩调整方案；11已接受流程图不能冒称新确认集。",
+    "旧101/已下60/原144预约簇的所有已知作者与原作成员、3未知旧作者/11无像素、未解决alias的限制保留；不得悄然缩排除。",
+    "v1历史参数错误、429及等待偏差、第一批timeout50/MPO/EXIF修正、AI评审不是人类且A早期部分非盲，均是不可追改的历史。",
+    "v2本次实际固定查询/300详情/79簇/33请求与E28U43X8事后注释原样保留；不能补一项后改称原方案达80或旧筛选早已适用新标准。"
+  ],
+  "prospective_numbers_modifiable_in_new_plan": [
+    "80是未验证的可行性候选阈值，20/40/10/10像素分配尚未执行；可依当前证据在新命名/冻结方案中替换，不要追改v2。",
+    "新来源类别/检索词、明确水场景、额外来源框、样本预算/停止规则可另行设计并在新请求前固定；原v2边界内未用预算不能自动滚入追加检索。",
+    "未来完全新材料框的工作流/确认规模可重新论证，但不能悄改v1已预约48的身份和使用历史；应说明新旧框关系和开发曝光。",
+    "语义/许可/独立来源核查不能以79元数据簇、零pHash召回或原生模型高分替代；改变内容标准必须前瞻留痕，不反向重判旧失败图为通过。"
+  ],
+  "reusable_entries": [
+    {
+      "stage": "旧排除与作者/原作闭包",
+      "path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/prepare_freeze.py",
+      "functions": [
+        "main"
+      ],
+      "helpers": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/metadata_helpers.py",
+      "dependency": "旧101、v1全部800元数据/603簇、144预约簇的190成员、三批60下载、旧alias补记；all_keys/components闭包",
+      "reuse": "算法可在新目录沿用；原main带冻结防覆盖，不可对已完成v2重新执行",
+      "source_sha256": "3403748c26c57132023cdb66349312e7ccecb3898ea95cd49d6d6592832d875c"
+    },
+    {
+      "stage": "原图下载/请求证据/格式隔离",
+      "path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/collect_pixels.py",
+      "functions": [
+        "prepare",
+        "request_once",
+        "wait_until",
+        "process_image",
+        "collect"
+      ],
+      "dependency": "Python标准库urllib、Pillow、NumPy；原版本硬编码第三批17配额/路径/133参考图、50MiB/timeout60、响应后10秒、双时钟Retry-After与原字节",
+      "reuse": "复用成熟请求与像素函数；新批另目录冻结清单及适配常量。不可直接重跑已完成第三批prepare/collect。未知格式/MPO继续隔离，不替换为通过",
+      "source_sha256": "969e685f4ecfbc5ffb583e74bfcbc8ebddd3e4e178807fcc28bfa3d19694264f"
+    },
+    {
+      "stage": "实际224像素/张量",
+      "path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/collect_pixels.py",
+      "functions": [
+        "process_image",
+        "crop_image"
+      ],
+      "dependency": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/encode_images.py:preprocess",
+      "reuse": "原图EXIF方向校正/RGB→最长边640 LANCZOS派生JPEG95→短边256 BICUBIC(round尺寸)→中心224；ImageNet RGB均值[.485,.456,.406]/std[.229,.224,.225]，float32 CHW。必须比对实际224裁剪与preprocess张量。只用preprocess，不运行encode_images.main（会调用DINO）",
+      "source_sha256": "969e685f4ecfbc5ffb583e74bfcbc8ebddd3e4e178807fcc28bfa3d19694264f"
+    },
+    {
+      "stage": "近重复",
+      "path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/collect_pixels.py",
+      "functions": [
+        "hash_image",
+        "finalize"
+      ],
+      "dependency": "原SHA1/派生SHA256＋64bit pHash及dHash；固定pHash≤8或dHash≤6召回，包含旧90可得像素、60已下像素、新批内部",
+      "reuse": "复用算法并在新方案扩大引用清单到全部已下载60；原第三批REFERENCE_COUNT=133只对应当时90+24+19，不能原样当新批参考数。旧11缺像素仍不能宣称全101像素已核",
+      "source_sha256": "969e685f4ecfbc5ffb583e74bfcbc8ebddd3e4e178807fcc28bfa3d19694264f"
+    },
+    {
+      "stage": "独立像素/时钟/哈希核对",
+      "path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/audit_collection.py",
+      "functions": [
+        "main"
+      ],
+      "dependency": "Pillow/NumPy、encode_images.preprocess（PyTorch仅张量，无模型）、旧hash函数",
+      "reuse": "独立重建640派生字节、EXIF全图、224裁剪及预处理、请求UTC/monotonic与近重复；新目录适配固定批次数，旧文件保持",
+      "source_sha256": "f75716b8661bbe98f314cd51a58c6c609e6a74311d26814af35f189f0c3ab21d"
+    },
+    {
+      "stage": "匿名视觉评审材料",
+      "path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/make_review_batch.py",
+      "functions": [
+        "main(early|remaining)"
+      ],
+      "dependency": "Pillow、macOS Arial字体、已下载manifest/blind全图与224裁剪；sheet仅blind_id无来源和模型分数",
+      "reuse": "保留整批/分包顺序与不重叠证明；人选分别封存判断后才能合并。现有完成批次不能重跑覆盖。两AI评审不能称人类或完全双盲，v1早期A曾见来源信息",
+      "source_sha256": "99f17d0859b4e5dc3c0f872eb10a7913e962377119fbd651cf1242cbd8022277"
+    },
+    {
+      "stage": "机械合并/来源整理",
+      "path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/merge_visual_reviews.py",
+      "functions": [
+        "main(folder,sha_a,sha_b)"
+      ],
+      "dependency": "两已封存JSON及同packet SHA，全部5项在两位均literal True才过",
+      "reuse": "不确定/分歧不改为通过；双视觉仅允许后续身份/许可核查，最终整理可参考finalize_curation.py/audit_curation.py，但这两个脚本有旧批常量/顶层写操作，不能直接import或重跑",
+      "source_sha256": "5e4d6d54240d9eef29e8e1908e902daca45577a028019581f307e0c158205efb"
+    },
+    {
+      "stage": "仅元数据匿名前序材料",
+      "path": "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water_review/prepare_packet.py",
+      "functions": [
+        "main"
+      ],
+      "dependency": "v2既有manifest/author_groups原字段与API响应、collector/root元数据注释",
+      "reuse": "它是元数据材料，不是像素盲评入口；28E/43U/8X是事后描述，不能用作原冻结像素验收标签",
+      "source_sha256": "f71b36b10dc8b78a2cac706f135161d8436154ba1b4f31b8cd1c69de80d358ad"
+    }
+  ],
+  "runtime": {
+    "verified_executable": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.3/deployment/.venv/bin/python",
+    "python": "3.12.14",
+    "pillow": "12.3.0",
+    "numpy": "1.26.4",
+    "frozen_pixel_contract": {
+      "python": "3.12.14",
+      "pillow": "12.3.0",
+      "numpy": "1.26.4"
+    },
+    "note": "未调用任何收集器main、像素处理函数、评审模型或encode_images.main；上述入口仅做静态读取。"
+  },
+  "v25_manifest": {
+    "path": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.25/results/joint_001/completion_manifest.json",
+    "sha256": "5b25a9d20959d56a11ae435392f15116c648620a09c682684bd58c6db1f77adb",
+    "artifact_count": 567,
+    "all_artifact_hashes_match": true,
+    "artifact_mismatches": [],
+    "source_hash_count": 19,
+    "input_hash_count": 71,
+    "all_source_and_input_hashes_match": true,
+    "classification": "前一goal turn完成的有界开发实验与证据封存：旧支持学习改善，new12自然迁移仍弱；是持续论文目标的进展，不是ICLR级证据目标完成。",
+    "new_social_runs": 12,
+    "reused_reference_runs": 24,
+    "publication_readiness": "not established; old-support learning improved, natural new12 transfer remains weak; independent material and central contribution incomplete"
+  },
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/README.md": "ae92c2a5286306b3f0601182437a0d98d01b75f7f0020651cc8edffef6a55ac5",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/curation_status_20260916.json": "809976027cd715b48a380c77ac0be4b48b089306f6305763d49988815a403519",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/candidate_review_order.json": "6266d8a22b1374cfb4a23876f7cc2052d464c656bd39222d7b5f46135ed673b8",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/provisional_allocations.json": "f90f7291f1a75b020acff49ac48611c675b7ae07108a73faca3dba45538515d5",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/old_exclusion_registry.json": "5e202b44dbb0c27436cb08396889ff91727bed976041f4e9d4851f31c7b0ea57",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/status.json": "d8c2ffda36c60160892ad0af5d0875e01cee965000ececd6e98dc4e5b3226e39",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/delivery_qa.json": "edfd99c0bfb3ceeeb657dade214e384939a15038103b31ebde2a1e81fe017632",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/process_handle.json": "99eb8b2679d152d104a3931d56b15a685a29beb0a53a7da1c68b2f1b5b2782dd",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/exclusion_registry.json": "2b58f8550f928f6edc167524882bb7a8e0b8281a786c4684bf19780cacbfafca",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/feasibility_summary.json": "136e02b3d067e977b4db3b8eb17d277c5eeee1319f3c7a31def838fdc05e2084",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water/固定元数据可行性计划.md": "7eb3a7b53babc49315cb9fdc843df506874d7ba977804f25fbc29e8e554d8ab2",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v2_water_review/元数据复核报告.md": "6743a7972a840af1d8c89f5151b01023687bb24b904a1ede20acdb7f84cf1bc0",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.25/results/joint_001/completion_manifest.json": "5b25a9d20959d56a11ae435392f15116c648620a09c682684bd58c6db1f77adb"
+  }
+}

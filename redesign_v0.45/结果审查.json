@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "passed_with_stated_limits": true,
+  "status": "passed_scientific_review",
+  "version": "v0.45-newcomer-adaptation",
+  "reviewed_files": [
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.45/newcomer_adaptation_design.json",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.45/newcomer_adaptation_train.py",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.45/newcomer_adaptation_analysis.py",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.45/newcomer_adaptation_audit.py",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.45/plot_newcomer_adaptation.py",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.45/visual_qa.py",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.45/build_newcomer_adaptation_report.py",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.45/build_review.py",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.45/package_results.py",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.45/README.md",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.45/results/newcomer_adaptation_001/invocation.json",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.45/results/newcomer_adaptation_001/training_complete.json",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.45/results/newcomer_adaptation_001/newcomer_adaptation_analysis.json",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.45/results/newcomer_adaptation_001/newcomer_adaptation_audit.json",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.45/results/newcomer_adaptation_001/plot_metadata.json",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.45/results/newcomer_adaptation_001/figures/01_newcomer_adaptation.png",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.45/results/newcomer_adaptation_001/visual_qa.json",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.45/results/newcomer_adaptation_001/陌生主体社会学习与协议恢复研究报告.md"
+  ],
+  "review_scope": [
+    "Checked all 432 formal newcomer chains, three checkpoints and six resident cultures.",
+    "Checked 15,552 saved endpoint protocol files and 3,456 training trace files.",
+    "Checked identity-012 target-60 J, role spread, newcomer-resident token agreement and position NMI.",
+    "Checked source/input binding and independent replays without importing production modules.",
+    "Checked raster QA and every absolute local report link."
+  ],
+  "findings": [
+    {
+      "type": "social_recovery",
+      "interpretation": "通信头被重置的 newcomer 在 resident 共同回报下从 1.62%–7.01% 的 update-0 J 恢复到 9.29%–43.69%，说明有限任务中存在反馈驱动的协议恢复。"
+    },
+    {
+      "type": "role_symmetry",
+      "interpretation": "随机角色 resident 的 update-300 role spread 为 8.19–16.86 个百分点，静态 resident 为 37.22–70.60 个百分点；形成阶段的角色随机化影响恢复后的轴稳定性。"
+    },
+    {
+      "type": "form_function_gap",
+      "interpretation": "pair agreement、J 和 position NMI 的变化并不一致；任务成功不能直接作为符号形式复刻或语言语义的证据。"
+    },
+    {
+      "type": "topology_scope",
+      "interpretation": "适应日程统一固定为 random_ABC，因此本批比较 resident 形成文化，不能单独识别适应拓扑的因果主效应。"
+    },
+    {
+      "type": "auditability",
+      "interpretation": "独立 NumPy 分析检查保存协议，独立 NumPy 审计重放 fixture、采样、reward、log-probability 和 action score，未导入生产模块。"
+    }
+  ],
+  "limitations": [
+    "只有 identity 0 被替换；视觉前端继承同一视觉组并冻结，未测试新感知系统。",
+    "任务是六站点、三资源、双 token 的有限协议，不能称为开放语言。",
+    "resident 冻结，未测试新成员加入时的双向协商、冲突和共同修复。",
+    "奖励集中且即时，没有库存、延迟、生存压力、互补分工或代际 bottleneck。",
+    "NMI 在 update 0 已偏高，需要熵校正、置换检验和未见组合测试。"
+  ],
+  "next_step": "Fully cross adaptation partner schedules, replacement granularity and update budgets; then add bidirectional resident adaptation and delayed resource consequences.",
+  "link_check": {
+    "local_links": 10,
+    "missing": []
+  },
+  "new_training_reviewed": true
+}

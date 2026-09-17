@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "created_at": "2026-09-15T16:32:40.691654+00:00",
+  "tests": 9,
+  "elapsed_seconds": 0.047,
+  "source_sha256": {
+    "metrics.py": "499d46c94a9a4b75482c785db3ce08062601ac2449f14f9e8d2637b9fecb2d48",
+    "tests/test_metrics.py": "bd62b407e8e9bcab9cb8fd68a2d14a0beed7e5830e08e8d3964595ea5d25ac19",
+    "指标定义与范围.md": "a94c11992a05ec739301585bd8a356eeaa8ea3caebd3de5f40190456828e2550",
+    "design_static_001/enumerate_design.py": "059e5768c5dc1f57fe3d5296712e7c085585ddb01c2be879799cb503e4e2073a",
+    "design_static_001/results.json": "580595aaaf7c46d6ad4ea462493def4942289be8395632a62aa6d2d1037a70f1",
+    "design_static_001/weighted_semantic_support.json": "349c4798bf372a50ed06c182ea11864d3e969fff3f0f2ac39ac37fdb0842e1ea",
+    "design_static_001/marginals.json": "5f31d74fc5ad453be916d882245513c902c4429273e6c99cf14411178ae78315",
+    "design_static_001/静态评估.md": "6143b5e1875b0c45f3c3ae7b6d41d69a83c70ac234c01722046babed4a8863b5"
+  },
+  "prior_test_receipt": "metrics_test_preflight_001.json",
+  "prior_failure_resolved_by_test_assertion_only": "Expected topology profiles192 instead of24; unchanged physical24 and unchanged metrics.py.",
+  "no_models_forward_or_training": true,
+  "monitor_gamma_is_only_sample_oracle": true
+}

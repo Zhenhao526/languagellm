@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "at": "2026-09-16T06:08:59.755777+00:00",
+  "tests": 3,
+  "test_command": "research_program/.plotting_venv/bin/python -m unittest research_program.triadic_rule_formation_study.test_summarize -v",
+  "test_tool_chunk": "9e6f28",
+  "test_seconds": 3.268,
+  "previous_pass_chunk": "fee9fd",
+  "compile_chunk": "bcc544",
+  "sources_sha256": {
+    "/Users/xia/Documents/ChatGPT/\u8bed\u8a00/research_program/triadic_rule_formation_study/summarize.py": "410207746a88ac0bec5946783285d32615b4ca5911d424c60aa836b1326300b5",
+    "/Users/xia/Documents/ChatGPT/\u8bed\u8a00/research_program/triadic_rule_formation_study/test_summarize.py": "cd2842c98a3f7d51c47e25ffb509d55700aa3e427d45bc861ffa5114494b93d5",
+    "/Users/xia/Documents/ChatGPT/\u8bed\u8a00/research_program/triadic_rule_formation_study/plot_results.py": "3fd4e2a2b632a43f3ef988e2527fa307dcbcadf4b02cbea3c1afe50b4164d7a3"
+  },
+  "preserved_failure_receipt": "/Users/xia/Documents/ChatGPT/\u8bed\u8a00/research_program/triadic_rule_formation_study/summary_preflight_failure_001.json",
+  "scope": [
+    "Synthetic64-run JSON fixture;independent exact primary arithmetic against frozen metrics.primary,all576 actual evaluations and64 aliases preserved.",
+    "All6 actor/window panels and36 backgrounds retained,six snapshot/five transition aggregation,separate nine Q strata and four endpoint domains.",
+    "Reject incomplete grid,modified alias,primary discrepancy,missing numeric audit field,changed source hash and output overwrite.",
+    "Plot-data percentages and percentage-point scaling checked;PNG rendering deferred until main and independent audit both pass."
+  ],
+  "formal_result_reads": 0,
+  "npz_reads": 0,
+  "checkpoint_loads": 0,
+  "model_forwards": 0
+}

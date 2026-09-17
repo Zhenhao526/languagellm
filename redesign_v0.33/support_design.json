@@ -1,0 +1,60 @@
+{
+  "version": "v0.33",
+  "description": "Complementary two-sender messages to one receiver, with single-sender and redundant-view controls",
+  "target12_pairs": [[0,1],[0,3],[1,2],[1,4],[2,0],[2,5],[3,2],[3,4],[4,0],[4,5],[5,1],[5,3]],
+  "training12_pairs": [[0,2],[0,5],[1,0],[1,3],[2,1],[2,4],[3,1],[3,5],[4,2],[4,3],[5,0],[5,4]],
+  "panels": [[0,1,2,3,4,5],[0,2,1,4,3,5],[0,3,1,5,2,4]],
+  "conditions": ["single_full", "dual_same_full", "dual_complementary"],
+  "population": {
+    "agents": 4,
+    "private_types": [0,1,0,1],
+    "dual_teams": [[0,1,2],[1,2,3],[2,3,0],[3,0,1]],
+    "single_teams": [[0,1],[1,2],[2,3],[3,0]],
+    "team_format": "dual tuple is receiver, food_sender, water_sender; single tuple is receiver, sender",
+    "schedule": "each update uses four teams so every agent is receiver once and sender in both dual roles once"
+  },
+  "views": {
+    "full": "both resource slots are visible",
+    "food_only": "only the food slot and its existence bit are visible in both frames",
+    "water_only": "only the water slot and its existence bit are visible in both frames",
+    "dual_same_full": "both senders receive full views",
+    "dual_complementary": "food sender receives food_only and water sender receives water_only"
+  },
+  "payoff": {
+    "formula": "R=.25*(cF+cW)+.5*(cF*cW)",
+    "baseline": 0.5,
+    "single_sender_uses_two_tokens": true,
+    "dual_sender_uses_one_token_each": true,
+    "receiver_decodes_ordered_food_then_water_tokens": true
+  },
+  "invariants": {
+    "target_row_degree": 2,
+    "target_column_degree": 2,
+    "training_row_degree": 2,
+    "training_column_degree": 2,
+    "target_edges": 12,
+    "training_edges": 12,
+    "target_and_training_disjoint": true,
+    "same_fixture_across_conditions": true,
+    "complementary_sender_observations": true,
+    "single_resource_test_bound": 0.5,
+    "target_information_bits": 1.585,
+    "training_information_bits": 1.585
+  },
+  "sampling": {
+    "base_worlds_per_team_slot": 120,
+    "expanded_worlds_per_team": 240,
+    "team_slots_per_update": 4,
+    "single_message_instances_per_update": 4,
+    "dual_message_instances_per_update": 8,
+    "actions_per_update": 8,
+    "updates_per_run": 2400,
+    "namespace": 33033
+  },
+  "limitations": [
+    "The four population members reuse two frozen private encoders and a fixed four-team schedule.",
+    "The complementary views are deterministic masks of the frozen two-frame visual input, not human perceptual development.",
+    "The task is a controlled two-resource protocol; one token per sender tests component exchange, not a full human language.",
+    "The receiver sees only two ordered discrete messages and no visual state."
+  ]
+}

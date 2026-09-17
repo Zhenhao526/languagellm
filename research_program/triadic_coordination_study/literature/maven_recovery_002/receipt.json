@@ -1,0 +1,21 @@
+{
+  "http_status": 200,
+  "final_url": "https://proceedings.neurips.cc/paper_files/paper/2019/file/f816dc0acface7498e10496222e9db10-Paper.pdf",
+  "headers": {
+    "Date": "Tue, 15 Sep 2026 15:13:37 GMT",
+    "Server": "Apache/2.4.68 (Debian)",
+    "Content-Length": "4187522",
+    "Content-Disposition": "inline; filename=NeurIPS-2019-maven-multi-agent-variational-exploration-Paper.pdf",
+    "X-Frame-Options": "DENY",
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": "same-origin",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Connection": "close",
+    "Content-Type": "application/pdf"
+  },
+  "bytes": 4187522,
+  "sha256": "754655e095eb48968603158a3f800ce79a9bb68db941f1678177bf97593a5fbc",
+  "pages": 12,
+  "same_bytes_as_first": true,
+  "first_page_identity_not_yet_manually_accepted": true
+}

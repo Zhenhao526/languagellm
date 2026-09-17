@@ -1,0 +1,14 @@
+{
+  "frozen_at": "2026-09-14T19:47:36.698044",
+  "source_sha256": {
+    "agents.py": "618f958999642d9bcda01218a99b088a71fc9eb49cd49621f624b7a8b50a6be1",
+    "backend.py": "0aa38e9c5a53c9f3275a8208912bfc356181839e7d338083570dd32c332c7e23",
+    "environment.py": "d87d037125c5041d18b3166a48d565668ce335112f2a9880aee4f4f6919331af",
+    "protocol.py": "2bc85ff7723459f09ea4aa1ba2020c19a2c042f8b5e6366431afa2ab1d80fab7",
+    "run.py": "f58c0daed472e4ead352461ab87ca3ba25148134e041d5d9ebf6d30b201cd6b8",
+    "probe.py": "35ffe452251e33ee8d87eb2b6d3f587619da4bfa5c81557c9344ffd2c63a6056"
+  },
+  "note": "Core source fixed before complete-rule capability controls and all symbolic pilot conditions. No further prompt tuning based on pilot condition outcomes.",
+  "rule_check": "results/rule_check_20260914_194603/results.json",
+  "rule_check_score": "8/8; independent declarative questions only, not full task competence"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "completed_utc": "2026-09-15T17:18:40.840002+00:00",
+  "tests": 4,
+  "elapsed_seconds": 0.001,
+  "scope": "Independent recipient route; retained self-generated history; hand-derived all-success masks; fixed budget",
+  "new_real_model_forwards": 0,
+  "training_calls": 0,
+  "new_diagnostic_results_read": false,
+  "source_sha256": {
+    "audit_execution.py": "582be0320974014a716c1e7640b3f8168a0deafb213f97ffd6cb29a13a9f199a",
+    "tests/test_audit_execution.py": "137b9f87fff6991f5db95ba846c214ce3388e36f78c0936c467ae38d721811dd"
+  },
+  "limitations": "Core helper tests only. Execution file adapter and complete result/metric replay are not yet implemented; no audit-completed claim."
+}

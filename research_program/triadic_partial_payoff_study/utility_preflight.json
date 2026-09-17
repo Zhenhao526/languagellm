@@ -1,0 +1,25 @@
+{
+  "actual_actor_backward_calls": 18,
+  "actual_actor_forward_calls": 18,
+  "actual_forward_module_samples": 72,
+  "command": "qwen_collect_pilot/.venv/bin/python -m unittest research_program.triadic_partial_payoff_study.tests.test_utility -v",
+  "exit_code": 0,
+  "formal_model_files_loaded": 0,
+  "formal_policy_results_loaded": 0,
+  "full_success_posterior_warning": "At fixed action probabilities, reducing alpha increases full-success posterior mass mechanically. This diagnostic alone is not evidence of learning improvement.",
+  "interpretation": "Tests only; scratch weights seed 761 and artificial observations, no formal training or task performance evaluation.",
+  "optimizer_updates": 0,
+  "schema": "triadic_partial_payoff_utility_preflight_v1",
+  "scratch_batch_worlds_per_call": 2,
+  "scratch_message_trajectories_per_world": 2,
+  "scratch_network_training_gradient_calls": 2,
+  "source_sha256": {
+    "research_program/triadic_partial_payoff_study/tests/test_utility.py": "d45afd12dd7cc1f8b78f669eb72c95030f1f6e06079873535568ca37b9fad108",
+    "research_program/triadic_partial_payoff_study/utility.py": "67040e814d92a100729a9904f366709a3372872bf22d197c554343dbd91258f8"
+  },
+  "suite_elapsed_seconds": 0.068,
+  "synthetic_callback_backward_calls": 18,
+  "synthetic_callback_forward_calls": 18,
+  "tests": 11,
+  "tool_chunk_id": "e31e8d"
+}

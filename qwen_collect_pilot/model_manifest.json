@@ -1,0 +1,70 @@
+{
+  "repository": "mlx-community/Qwen3.5-9B-8bit",
+  "revision": "16daa4818c54ce5f5436f929d52542eb65bbed9d",
+  "files": [
+    {
+      "name": "README.md",
+      "bytes": 666,
+      "sha256": null
+    },
+    {
+      "name": "chat_template.jinja",
+      "bytes": 7756,
+      "sha256": null
+    },
+    {
+      "name": "config.json",
+      "bytes": 3331,
+      "sha256": null
+    },
+    {
+      "name": "model-00001-of-00002.safetensors",
+      "bytes": 5339522525,
+      "sha256": "0dcb3cdba0f43743875c861792685da5266aebcb58f7c0e345b9cd090bb0d289"
+    },
+    {
+      "name": "model-00002-of-00002.safetensors",
+      "bytes": 5087069898,
+      "sha256": "5abf861e7a13e7af805105270b2648634b41fda02238ae8ee1bd64628acce9b1"
+    },
+    {
+      "name": "model.safetensors.index.json",
+      "bytes": 123593,
+      "sha256": null
+    },
+    {
+      "name": "preprocessor_config.json",
+      "bytes": 390,
+      "sha256": null
+    },
+    {
+      "name": "processor_config.json",
+      "bytes": 1300,
+      "sha256": null
+    },
+    {
+      "name": "tokenizer.json",
+      "bytes": 19989343,
+      "sha256": "87a7830d63fcf43bf241c3c5242e96e62dd3fdc29224ca26fed8ea333db72de4"
+    },
+    {
+      "name": "tokenizer_config.json",
+      "bytes": 1139,
+      "sha256": null
+    },
+    {
+      "name": "video_preprocessor_config.json",
+      "bytes": 385,
+      "sha256": null
+    },
+    {
+      "name": "vocab.json",
+      "bytes": 6722759,
+      "sha256": null
+    }
+  ],
+  "local_path": "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/models/Qwen3.5-9B-8bit",
+  "total_bytes": 10453443085,
+  "download_started": "2026-09-14T15:55:59+0800",
+  "download_completed": "2026-09-14T16:21:29+0800"
+}

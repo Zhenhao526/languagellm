@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "arxiv_id": "2601.10169",
+  "reviewed_at": "2026-09-15T13:10:32.800155+00:00",
+  "review_mode": "full_text",
+  "confidence": "high",
+  "verdict": "must-read",
+  "scores": {
+    "relevance": 98.0,
+    "evidence": 86.0,
+    "novelty": 84.0,
+    "impact": 88.0,
+    "reproducibility": 85.0,
+    "author_prior": 50.0,
+    "early_signal": 50.0,
+    "overall": 85.9
+  },
+  "paper_type": "mechanism_or_method",
+  "contribution": "CtD 先利用多目标样本学习概念代码本，再组合代码表达新图像；部分条件无需第二阶段训练即可泛化。",
+  "evidence_summary": "核查 ICLR 2025 正式 PDF 第2–8、34页：五数据集、GS/QT/代码本及无分解对照，组合划分按概念合取留出；附录 J 承认 oracle 目标分组、给定短语长度及传递潜向量。",
+  "novelty_comparison": "相对 Mu 与 Goodman 2021 的多目标概念交流，加入代码本与分解→组合程序。我们既无其概念分组监督，也未达到其零样本结果；换整数接口不是贡献充分条件。",
+  "summary": "全文方法与核心结果按正式论文核查；arXiv packet 另留存。建议使用 CtD-inspired 阳性对照，而非声称完整复现。",
+  "recommendation_reasons": [
+    "最直接的课程/概念分解结构阳性方法。",
+    "可移植为明确带额外监督的结构能力上界。"
+  ],
+  "concerns": [
+    "方法含研究者构造的概念组与已知消息长度。",
+    "不能把 2026 arXiv 上传日期写成首次发表年份；正式为 ICLR 2025。"
+  ]
+}

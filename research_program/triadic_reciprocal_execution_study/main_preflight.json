@@ -1,0 +1,61 @@
+{
+  "status": "passed_before_formal_prepare",
+  "at": "2026-09-16T03:42:00.103357+00:00",
+  "component_tests": {
+    "kernel": 9,
+    "environment": 6,
+    "root_runner": 5,
+    "total_distinct": 20
+  },
+  "root_test_command": "qwen_collect_pilot/.venv/bin/python -m unittest research_program.triadic_reciprocal_execution_study.tests.test_runner -v",
+  "root_test_invocations": [
+    {
+      "chunk": "d4033f",
+      "exit_code": 0,
+      "tests": 5,
+      "seconds": 0.021,
+      "before_unsigned_environment_fix": true
+    },
+    {
+      "chunk": "3c9dc4",
+      "exit_code": 0,
+      "tests": 5,
+      "seconds": 0.018,
+      "final_environment_source": true
+    }
+  ],
+  "root_real_forward_samples": 0,
+  "root_optimizer_updates": 0,
+  "root_mock_rollout_calls_total": 2,
+  "all_preflight_real_forward_module_samples": 648,
+  "all_preflight_optimizer_updates": 0,
+  "environment_first_failure": "Unsigned uint8 state with -1 no-execution material sentinel; fixed before formal model preparation. Both invocations in environment_preflight_001.json.",
+  "seed_selection": {
+    "seeds": [
+      57101,
+      57102,
+      57103,
+      57104
+    ],
+    "scope": "Exact numeric-boundary rg of existing triadic Python files excluding old source_snapshot before new seed constants",
+    "chunk": "5e22ad",
+    "matches": 0,
+    "new_scores_seen": false
+  },
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/runner.py": "0c25737af9a70c1376a3a2f91d870859e8fde545d39a0e277bcf68e87cfa7e67",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/plan.md": "422e50e10b4a01522e10533c4c16c08638fd0ad53ba1f1316fabff86dc4292fc",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/environment.py": "6395f574ce8e379adec1594404a857321a7eee4b6f6b661686502e006faaf763",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/kernel.py": "6070b2a263634a7259137f7bf6bda0249acd4bd2b357c574e57a141eebf11df9",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/tests/test_runner.py": "4b5b1524bb4fa97182c4e4c9bd170da1f0a434b78e9090d53a0466f89c83d1ca",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/tests/test_environment.py": "9f413942d1f55ca622ff57690229461646992bf48c208c51c1343c5205c3a335",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/tests/test_kernel.py": "248aa19b79ab29a99265f8b53860fd6aae0b2ffad8180fd878303c8c4d92c6b2",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/environment_preflight_001.json": "d4582153fa8dc4d71d852345ef87c130951acba808f331ba0c872ef66d65a6b9",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/kernel_preflight_001.json": "9c4828112256e6eda5fc5db942308c41340bcd8160cc3e0368991620d08f5687",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/design_review.md": "792f31492324a79eba6955f550a89871f3969dc134f035d33fc4e29042215409",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/literature_sources.json": "c6df272facce3056f217e08abafebb6038a52d4c09364fe95ca9290c2527a932"
+  },
+  "formal_parameters_loaded": 0,
+  "formal_forward_samples": 0,
+  "formal_updates": 0
+}

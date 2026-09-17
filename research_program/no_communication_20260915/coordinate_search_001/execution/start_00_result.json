@@ -1,0 +1,67 @@
+{
+  "start_id": 0,
+  "name": "fixed_AB_public_L",
+  "rng_seed": null,
+  "initial": {
+    "success_units": 17184,
+    "score_denominator": 47808,
+    "score_fraction": "179/498",
+    "score": 0.35943775100401604,
+    "reward_histogram_success_units": {
+      "0": 10320,
+      "1": 9984,
+      "2": 3600
+    },
+    "local_observation_consistency": true,
+    "at_or_below_75_over_83": true
+  },
+  "final": {
+    "round": 1,
+    "success_units": 17184,
+    "score_denominator": 47808,
+    "score_fraction": "179/498",
+    "score": 0.35943775100401604,
+    "reward_histogram_success_units": {
+      "0": 10320,
+      "1": 9984,
+      "2": 3600
+    },
+    "local_observation_consistency": true,
+    "at_or_below_75_over_83": true
+  },
+  "full_rounds": 1,
+  "stop_reason": "no_strict_improvement_over_full_round",
+  "trajectory": [
+    {
+      "round": 0,
+      "success_units": 17184,
+      "score_denominator": 47808,
+      "score_fraction": "179/498",
+      "score": 0.35943775100401604,
+      "reward_histogram_success_units": {
+        "0": 10320,
+        "1": 9984,
+        "2": 3600
+      },
+      "local_observation_consistency": true,
+      "at_or_below_75_over_83": true
+    },
+    {
+      "round": 1,
+      "success_units": 17184,
+      "score_denominator": 47808,
+      "score_fraction": "179/498",
+      "score": 0.35943775100401604,
+      "reward_histogram_success_units": {
+        "0": 10320,
+        "1": 9984,
+        "2": 3600
+      },
+      "local_observation_consistency": true,
+      "at_or_below_75_over_83": true
+    }
+  ],
+  "final_policy_file": "start_00_final_policy.json",
+  "final_policy_sha256": "89bf0f88e76bfe814bcafbbf0b81414b3b7eaad1f97497da0f64c884cd35679c",
+  "coordinate_updates": 3
+}

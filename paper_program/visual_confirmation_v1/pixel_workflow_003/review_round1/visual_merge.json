@@ -1,0 +1,429 @@
+{
+  "status": "sealed_reviews_mechanically_merged",
+  "created_utc": "2026-09-15T17:24:52.554351+00:00",
+  "review_kind": "Two independent AI visual reviews, not human judgments",
+  "source_hashes": {
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/review_round1/review_a.json": "d3ce14b0cbcb9a965435b9416297b884b39b58c9d4ac43fecc05606373a72370",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/review_round1/review_b.json": "9776eaec23a036c0bb25bdba0a40344f1f9cfb50f52b727832634d0f142d2ec3",
+    "/Users/xia/Documents/ChatGPT/语言/paper_program/visual_confirmation_v1/pixel_workflow_003/review_round1/packet.json": "a754f76bea4fd4d118b101de82d9b8ab8f5dbb931a2d59986ba4dbc3b5d4507a"
+  },
+  "merger_source_sha256": "5e4d6d54240d9eef29e8e1908e902daca45577a028019581f307e0c158205efb",
+  "records": [
+    {
+      "id": "090abae4640d",
+      "a_pass": false,
+      "b_pass": false,
+      "dual_visual_pass": false,
+      "decision": "conservative_visual_exclusion",
+      "pass_disagreement": false,
+      "criterion_disagreements": [],
+      "a_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": true,
+        "crop retains resource": true,
+        "no prominent text or watermark": false,
+        "no mixed foods or ambiguous liquid": false
+      },
+      "b_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": true,
+        "crop retains resource": true,
+        "no prominent text or watermark": false,
+        "no mixed foods or ambiguous liquid": false
+      }
+    },
+    {
+      "id": "0a437c5afb2b",
+      "a_pass": true,
+      "b_pass": true,
+      "dual_visual_pass": true,
+      "decision": "dual_visual_pass_pending_identity_license",
+      "pass_disagreement": false,
+      "criterion_disagreements": [],
+      "a_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": true,
+        "crop retains resource": true,
+        "no prominent text or watermark": true,
+        "no mixed foods or ambiguous liquid": true
+      },
+      "b_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": true,
+        "crop retains resource": true,
+        "no prominent text or watermark": true,
+        "no mixed foods or ambiguous liquid": true
+      }
+    },
+    {
+      "id": "1874a6676621",
+      "a_pass": false,
+      "b_pass": false,
+      "dual_visual_pass": false,
+      "decision": "conservative_visual_exclusion",
+      "pass_disagreement": false,
+      "criterion_disagreements": [
+        "food or visible water in transparent container identifiable",
+        "crop retains resource",
+        "no mixed foods or ambiguous liquid"
+      ],
+      "a_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": "uncertain",
+        "crop retains resource": false,
+        "no prominent text or watermark": true,
+        "no mixed foods or ambiguous liquid": "uncertain"
+      },
+      "b_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": true,
+        "crop retains resource": "uncertain",
+        "no prominent text or watermark": true,
+        "no mixed foods or ambiguous liquid": true
+      }
+    },
+    {
+      "id": "1ab210b90590",
+      "a_pass": true,
+      "b_pass": true,
+      "dual_visual_pass": true,
+      "decision": "dual_visual_pass_pending_identity_license",
+      "pass_disagreement": false,
+      "criterion_disagreements": [],
+      "a_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": true,
+        "crop retains resource": true,
+        "no prominent text or watermark": true,
+        "no mixed foods or ambiguous liquid": true
+      },
+      "b_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": true,
+        "crop retains resource": true,
+        "no prominent text or watermark": true,
+        "no mixed foods or ambiguous liquid": true
+      }
+    },
+    {
+      "id": "1e7c50ebf1a5",
+      "a_pass": false,
+      "b_pass": false,
+      "dual_visual_pass": false,
+      "decision": "conservative_visual_exclusion",
+      "pass_disagreement": false,
+      "criterion_disagreements": [],
+      "a_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": false,
+        "crop retains resource": false,
+        "no prominent text or watermark": true,
+        "no mixed foods or ambiguous liquid": true
+      },
+      "b_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": false,
+        "crop retains resource": false,
+        "no prominent text or watermark": true,
+        "no mixed foods or ambiguous liquid": true
+      }
+    },
+    {
+      "id": "21e86a035853",
+      "a_pass": false,
+      "b_pass": false,
+      "dual_visual_pass": false,
+      "decision": "conservative_visual_exclusion",
+      "pass_disagreement": false,
+      "criterion_disagreements": [
+        "no mixed foods or ambiguous liquid"
+      ],
+      "a_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": true,
+        "crop retains resource": true,
+        "no prominent text or watermark": false,
+        "no mixed foods or ambiguous liquid": "uncertain"
+      },
+      "b_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": true,
+        "crop retains resource": true,
+        "no prominent text or watermark": false,
+        "no mixed foods or ambiguous liquid": true
+      }
+    },
+    {
+      "id": "3aac61acf3ed",
+      "a_pass": false,
+      "b_pass": false,
+      "dual_visual_pass": false,
+      "decision": "conservative_visual_exclusion",
+      "pass_disagreement": false,
+      "criterion_disagreements": [],
+      "a_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": true,
+        "crop retains resource": true,
+        "no prominent text or watermark": true,
+        "no mixed foods or ambiguous liquid": false
+      },
+      "b_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": true,
+        "crop retains resource": true,
+        "no prominent text or watermark": true,
+        "no mixed foods or ambiguous liquid": false
+      }
+    },
+    {
+      "id": "54426026c4f0",
+      "a_pass": false,
+      "b_pass": false,
+      "dual_visual_pass": false,
+      "decision": "conservative_visual_exclusion",
+      "pass_disagreement": false,
+      "criterion_disagreements": [],
+      "a_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": true,
+        "crop retains resource": true,
+        "no prominent text or watermark": false,
+        "no mixed foods or ambiguous liquid": true
+      },
+      "b_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": true,
+        "crop retains resource": true,
+        "no prominent text or watermark": false,
+        "no mixed foods or ambiguous liquid": true
+      }
+    },
+    {
+      "id": "5bac50bfe1bd",
+      "a_pass": false,
+      "b_pass": false,
+      "dual_visual_pass": false,
+      "decision": "conservative_visual_exclusion",
+      "pass_disagreement": false,
+      "criterion_disagreements": [
+        "crop retains resource"
+      ],
+      "a_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": "uncertain",
+        "crop retains resource": true,
+        "no prominent text or watermark": false,
+        "no mixed foods or ambiguous liquid": "uncertain"
+      },
+      "b_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": "uncertain",
+        "crop retains resource": "uncertain",
+        "no prominent text or watermark": false,
+        "no mixed foods or ambiguous liquid": "uncertain"
+      }
+    },
+    {
+      "id": "627397eb8f81",
+      "a_pass": false,
+      "b_pass": false,
+      "dual_visual_pass": false,
+      "decision": "conservative_visual_exclusion",
+      "pass_disagreement": false,
+      "criterion_disagreements": [
+        "no mixed foods or ambiguous liquid"
+      ],
+      "a_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": false,
+        "crop retains resource": false,
+        "no prominent text or watermark": true,
+        "no mixed foods or ambiguous liquid": "uncertain"
+      },
+      "b_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": false,
+        "crop retains resource": false,
+        "no prominent text or watermark": true,
+        "no mixed foods or ambiguous liquid": true
+      }
+    },
+    {
+      "id": "730e4374d66b",
+      "a_pass": false,
+      "b_pass": false,
+      "dual_visual_pass": false,
+      "decision": "conservative_visual_exclusion",
+      "pass_disagreement": false,
+      "criterion_disagreements": [
+        "no prominent text or watermark"
+      ],
+      "a_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": "uncertain",
+        "crop retains resource": "uncertain",
+        "no prominent text or watermark": false,
+        "no mixed foods or ambiguous liquid": "uncertain"
+      },
+      "b_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": "uncertain",
+        "crop retains resource": "uncertain",
+        "no prominent text or watermark": true,
+        "no mixed foods or ambiguous liquid": "uncertain"
+      }
+    },
+    {
+      "id": "8a3020fc290d",
+      "a_pass": true,
+      "b_pass": true,
+      "dual_visual_pass": true,
+      "decision": "dual_visual_pass_pending_identity_license",
+      "pass_disagreement": false,
+      "criterion_disagreements": [],
+      "a_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": true,
+        "crop retains resource": true,
+        "no prominent text or watermark": true,
+        "no mixed foods or ambiguous liquid": true
+      },
+      "b_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": true,
+        "crop retains resource": true,
+        "no prominent text or watermark": true,
+        "no mixed foods or ambiguous liquid": true
+      }
+    },
+    {
+      "id": "8cb62548ce7a",
+      "a_pass": false,
+      "b_pass": false,
+      "dual_visual_pass": false,
+      "decision": "conservative_visual_exclusion",
+      "pass_disagreement": false,
+      "criterion_disagreements": [
+        "food or visible water in transparent container identifiable",
+        "crop retains resource",
+        "no mixed foods or ambiguous liquid"
+      ],
+      "a_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": false,
+        "crop retains resource": false,
+        "no prominent text or watermark": false,
+        "no mixed foods or ambiguous liquid": true
+      },
+      "b_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": "uncertain",
+        "crop retains resource": "uncertain",
+        "no prominent text or watermark": false,
+        "no mixed foods or ambiguous liquid": "uncertain"
+      }
+    },
+    {
+      "id": "a5ea21b8b789",
+      "a_pass": true,
+      "b_pass": true,
+      "dual_visual_pass": true,
+      "decision": "dual_visual_pass_pending_identity_license",
+      "pass_disagreement": false,
+      "criterion_disagreements": [],
+      "a_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": true,
+        "crop retains resource": true,
+        "no prominent text or watermark": true,
+        "no mixed foods or ambiguous liquid": true
+      },
+      "b_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": true,
+        "crop retains resource": true,
+        "no prominent text or watermark": true,
+        "no mixed foods or ambiguous liquid": true
+      }
+    },
+    {
+      "id": "a87199fb4e01",
+      "a_pass": false,
+      "b_pass": false,
+      "dual_visual_pass": false,
+      "decision": "conservative_visual_exclusion",
+      "pass_disagreement": false,
+      "criterion_disagreements": [],
+      "a_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": false,
+        "crop retains resource": false,
+        "no prominent text or watermark": true,
+        "no mixed foods or ambiguous liquid": true
+      },
+      "b_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": false,
+        "crop retains resource": false,
+        "no prominent text or watermark": true,
+        "no mixed foods or ambiguous liquid": true
+      }
+    },
+    {
+      "id": "ad74fc351ebf",
+      "a_pass": true,
+      "b_pass": true,
+      "dual_visual_pass": true,
+      "decision": "dual_visual_pass_pending_identity_license",
+      "pass_disagreement": false,
+      "criterion_disagreements": [],
+      "a_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": true,
+        "crop retains resource": true,
+        "no prominent text or watermark": true,
+        "no mixed foods or ambiguous liquid": true
+      },
+      "b_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": true,
+        "crop retains resource": true,
+        "no prominent text or watermark": true,
+        "no mixed foods or ambiguous liquid": true
+      }
+    },
+    {
+      "id": "c07d0806c053",
+      "a_pass": false,
+      "b_pass": false,
+      "dual_visual_pass": false,
+      "decision": "conservative_visual_exclusion",
+      "pass_disagreement": false,
+      "criterion_disagreements": [
+        "crop retains resource"
+      ],
+      "a_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": "uncertain",
+        "crop retains resource": true,
+        "no prominent text or watermark": true,
+        "no mixed foods or ambiguous liquid": "uncertain"
+      },
+      "b_criteria": {
+        "real photograph": true,
+        "food or visible water in transparent container identifiable": "uncertain",
+        "crop retains resource": "uncertain",
+        "no prominent text or watermark": true,
+        "no mixed foods or ambiguous liquid": "uncertain"
+      }
+    }
+  ],
+  "reviewed": 17,
+  "dual_pass": 5,
+  "pass_disagreements": 0,
+  "rule": "All5 criteria must literally be true in both sealed reviews. Uncertain or disagreement excludes; no original judgment rewritten.",
+  "source_identity_license_inferred": false,
+  "new_pixel_views": 0,
+  "new_model_calls": 0
+}
