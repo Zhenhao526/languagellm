@@ -6,7 +6,7 @@ The preregistered candidate criterion is natural return ≥ 0.60 plus minimum co
 
 ## Formal result
 
-The balanced formal matrix is archived in [`results/formal_20260918`](results/formal_20260918/). All three shards passed independent replay audit: 81 parent runs, 729 child runs, 243,000 parent training-log rows, 2,187,000 child training-log rows, 486,000 paired-noise trajectory rows, and maximum replay error 0.
+The balanced formal matrix is archived in [`results/formal_20260918`](results/formal_20260918/). All three shards passed independent replay audit: 81 parent runs, 729 child runs, 243,000 parent training-log rows, 2,187,000 child training-log rows, 1,458,000 paired-noise trajectory rows, and maximum replay error 0.
 
 For `coadapt` (nine seeds per cell), natural return for `unique4`/`repeat2` stayed below the 0.60 functional threshold in every noise arm. `shared4` reached 0.667 at p=0; `triple2` reached 0.637 at p=0.10, with 8/9 error-correcting candidates. No `unique4` or `repeat2` endpoint met the candidate criterion. The task-paired `repeat2−unique4` effect was small and inconsistent, while `shared4−unique4` was positive in most matched cells.
 
