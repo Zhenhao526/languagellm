@@ -132,7 +132,7 @@
     },
     "LOCAL_CLEANUP_RECEIPT_2026-09-18_storage_sweep.json": {
       "files": 1,
-      "bytes": 4714
+      "bytes": 4966
     }
   },
   "compact_archives": {
@@ -1228,8 +1228,8 @@
   },
   "policy": "raw training logs, checkpoints, model assets, literature caches and historical generated trees are not kept locally; Git history retains prior source snapshots",
   "additional_cleanup": {
-    "removed_file_or_tree_count": 107,
-    "removed_bytes": 17956501038,
+    "removed_file_or_tree_count": 108,
+    "removed_bytes": 17956507148,
     "removed_paths": [
       {
         "path": "/private/tmp/tabular_PI_stateless_silent",
@@ -1480,6 +1480,10 @@
         "files": null,
         "bytes": 36451,
         "kind": "tree"
+      },
+      {
+        "path": "/private/tmp/language_sync_hgs",
+        "bytes": 6110
       }
     ],
     "verified_after_remote_commit": "fc026e6504d3d78fb213604899c229dafa3a4e00",
@@ -1594,8 +1598,8 @@
       "formal_estimate": false
     },
     "storage_sweep_2026-09-18": {
-      "removed_file_or_tree_count": 24,
-      "removed_bytes": 2880603723,
+      "removed_file_or_tree_count": 25,
+      "removed_bytes": 2880609833,
       "paths": [
         "/private/tmp/ecs2_formal_out",
         "/private/tmp/ecs2_formal_prepared",
@@ -1681,6 +1685,13 @@
           "existed": true,
           "bytes_removed": 10473,
           "removed": true
+        },
+        {
+          "path": "/private/tmp/language_sync_hgs",
+          "existed": true,
+          "bytes_removed": 6110,
+          "removed": true,
+          "note": "stale clone fragment created by the archived task after final verification; removed after task stop"
         }
       ]
     }
