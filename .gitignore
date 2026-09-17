@@ -24,6 +24,14 @@
 **/runs/
 
 # High-volume generated experiment artifacts
+**/results/
+**/execution/
+**/correction_*/
+**/summary_*/
+**/data/
+**/radar_data/
+**/diagnostics/
+**/validation/
 **/results/**/*.npz
 **/results/**/*.npy
 **/results/**/*.pt
@@ -43,6 +51,27 @@
 *.onnx
 *.h5
 *.parquet
+*.csv
+*.response
+*.bin
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.mp4
+*.mov
+*.avi
+*.ogg
+*.jar
+*.dylib
+*.so
+*.zip
+*.gz
+*.tar
+*.7z
+*.metallib
 
 # Local logs and temporary exports
 logs/
