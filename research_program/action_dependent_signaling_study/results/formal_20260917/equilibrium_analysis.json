@@ -1,0 +1,1318 @@
+{
+  "schema": "action_dependent_equilibrium_analysis_v1",
+  "thresholds": {
+    "natural_min": 0.6,
+    "absolute_recombined_gap_max": 0.02
+  },
+  "runs": 256,
+  "seeds": [
+    76101,
+    76102,
+    76103,
+    76104,
+    76105,
+    76106,
+    76107,
+    76108,
+    76109,
+    76110,
+    76111,
+    76112,
+    76113,
+    76114,
+    76115,
+    76116,
+    76117,
+    76118,
+    76119,
+    76120,
+    76121,
+    76122,
+    76123,
+    76124,
+    76125,
+    76126,
+    76127,
+    76128,
+    76129,
+    76130,
+    76131,
+    76132
+  ],
+  "rows": [
+    {
+      "seed": 76101,
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "natural": 0.5631751819266765,
+      "recombined": 0.25197245230496473,
+      "recombined_minus_natural": -0.31120272962171175,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76102,
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "natural": 0.4571276892163624,
+      "recombined": 0.43450421344009854,
+      "recombined_minus_natural": -0.022623475776263835,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76103,
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "natural": 0.45923857048566696,
+      "recombined": 0.45842149272039323,
+      "recombined_minus_natural": -0.0008170777652737327,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76104,
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "natural": 0.6666666666666665,
+      "recombined": 0.6666666666666665,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": true
+    },
+    {
+      "seed": 76105,
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "natural": 0.45741695713282954,
+      "recombined": 0.24860502002469542,
+      "recombined_minus_natural": -0.20881193710813412,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76106,
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "natural": 0.4582089286424549,
+      "recombined": 0.2502482674829447,
+      "recombined_minus_natural": -0.20796066115951017,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76107,
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "natural": 0.46159450688293324,
+      "recombined": 0.2749321186539459,
+      "recombined_minus_natural": -0.18666238822898734,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76108,
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "natural": 0.4584055625003134,
+      "recombined": 0.249310919844085,
+      "recombined_minus_natural": -0.2090946426562284,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76109,
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "natural": 0.4578301495476085,
+      "recombined": 0.25089476022243967,
+      "recombined_minus_natural": -0.2069353893251688,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76110,
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "natural": 0.5632321580647028,
+      "recombined": 0.25224822045321055,
+      "recombined_minus_natural": -0.3109839376114923,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76111,
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "natural": 0.458914057988275,
+      "recombined": 0.24878298916173572,
+      "recombined_minus_natural": -0.21013106882653929,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76112,
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "natural": 0.6666666666666665,
+      "recombined": 0.6666666666666665,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": true
+    },
+    {
+      "seed": 76113,
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "natural": 0.4613803394450068,
+      "recombined": 0.25183853818004964,
+      "recombined_minus_natural": -0.20954180126495714,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76114,
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "natural": 0.4582040947222223,
+      "recombined": 0.2532035419875823,
+      "recombined_minus_natural": -0.20500055273463996,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76115,
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "natural": 0.45806777551437183,
+      "recombined": 0.2515731919195258,
+      "recombined_minus_natural": -0.20649458359484602,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76116,
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "natural": 0.45746604592474,
+      "recombined": 0.4197986505316335,
+      "recombined_minus_natural": -0.037667395393106484,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76117,
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "natural": 0.4568555146658708,
+      "recombined": 0.24956463628726383,
+      "recombined_minus_natural": -0.207290878378607,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76118,
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "natural": 0.5631687229172696,
+      "recombined": 0.25047730645635674,
+      "recombined_minus_natural": -0.31269141646091286,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76119,
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "natural": 0.5634320006549087,
+      "recombined": 0.5697339439450578,
+      "recombined_minus_natural": 0.0063019432901491035,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76120,
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "natural": 0.5623924231146744,
+      "recombined": 0.6666666666666665,
+      "recombined_minus_natural": 0.10427424355199211,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76121,
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "natural": 0.458764077267662,
+      "recombined": 0.24965534178068424,
+      "recombined_minus_natural": -0.20910873548697775,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76122,
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "natural": 0.4603093364876816,
+      "recombined": 0.45660069622084337,
+      "recombined_minus_natural": -0.0037086402668382035,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76123,
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "natural": 0.4593431019570359,
+      "recombined": 0.24743941241997638,
+      "recombined_minus_natural": -0.21190368953705954,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76124,
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "natural": 0.4604131428340128,
+      "recombined": 0.25505495914123966,
+      "recombined_minus_natural": -0.20535818369277314,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76125,
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "natural": 0.6666666666666665,
+      "recombined": 0.6666666666666665,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": true
+    },
+    {
+      "seed": 76126,
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "natural": 0.4555834971973928,
+      "recombined": 0.24949125139774603,
+      "recombined_minus_natural": -0.20609224579964674,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76127,
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "natural": 0.45947554952632375,
+      "recombined": 0.25098751010116405,
+      "recombined_minus_natural": -0.2084880394251597,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76128,
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "natural": 0.45828670311617337,
+      "recombined": 0.25384412984446025,
+      "recombined_minus_natural": -0.2044425732717131,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76129,
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "natural": 0.458339070718491,
+      "recombined": 0.4461533736282781,
+      "recombined_minus_natural": -0.012185697090212888,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76130,
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "natural": 0.45865733521506163,
+      "recombined": 0.26950201914218763,
+      "recombined_minus_natural": -0.189155316072874,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76131,
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "natural": 0.45676192252357983,
+      "recombined": 0.24900669743777942,
+      "recombined_minus_natural": -0.2077552250858004,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76132,
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "natural": 0.4589074005257723,
+      "recombined": 0.2527616964248045,
+      "recombined_minus_natural": -0.20614570410096777,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76101,
+      "task": "factorized",
+      "protocol": "staged",
+      "natural": 0.45717801583677414,
+      "recombined": 0.45717801583677414,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76102,
+      "task": "factorized",
+      "protocol": "staged",
+      "natural": 0.4563406363922483,
+      "recombined": 0.2786278732901965,
+      "recombined_minus_natural": -0.1777127631020518,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76103,
+      "task": "factorized",
+      "protocol": "staged",
+      "natural": 0.6666666666666665,
+      "recombined": 0.6666666666666665,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": true
+    },
+    {
+      "seed": 76104,
+      "task": "factorized",
+      "protocol": "staged",
+      "natural": 0.6666666666666665,
+      "recombined": 0.6666666666666665,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": true
+    },
+    {
+      "seed": 76105,
+      "task": "factorized",
+      "protocol": "staged",
+      "natural": 0.6666666666666665,
+      "recombined": 0.6666666666666665,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": true
+    },
+    {
+      "seed": 76106,
+      "task": "factorized",
+      "protocol": "staged",
+      "natural": 0.6666666666666665,
+      "recombined": 0.6666666666666665,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": true
+    },
+    {
+      "seed": 76107,
+      "task": "factorized",
+      "protocol": "staged",
+      "natural": 0.4554256951372688,
+      "recombined": 0.24919272775587134,
+      "recombined_minus_natural": -0.2062329673813975,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76108,
+      "task": "factorized",
+      "protocol": "staged",
+      "natural": 0.45745965170124736,
+      "recombined": 0.25159267443609035,
+      "recombined_minus_natural": -0.20586697726515701,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76109,
+      "task": "factorized",
+      "protocol": "staged",
+      "natural": 0.4578301495476085,
+      "recombined": 0.25089476022243967,
+      "recombined_minus_natural": -0.2069353893251688,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76110,
+      "task": "factorized",
+      "protocol": "staged",
+      "natural": 0.457768599383499,
+      "recombined": 0.25305630126129136,
+      "recombined_minus_natural": -0.20471229812220765,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76111,
+      "task": "factorized",
+      "protocol": "staged",
+      "natural": 0.458914057988275,
+      "recombined": 0.24878298916173572,
+      "recombined_minus_natural": -0.21013106882653929,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76112,
+      "task": "factorized",
+      "protocol": "staged",
+      "natural": 0.6666666666666665,
+      "recombined": 0.6666666666666665,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": true
+    },
+    {
+      "seed": 76113,
+      "task": "factorized",
+      "protocol": "staged",
+      "natural": 0.6666666666666665,
+      "recombined": 0.6666666666666665,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": true
+    },
+    {
+      "seed": 76114,
+      "task": "factorized",
+      "protocol": "staged",
+      "natural": 0.4582040947222223,
+      "recombined": 0.2508871085873079,
+      "recombined_minus_natural": -0.2073169861349144,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76115,
+      "task": "factorized",
+      "protocol": "staged",
+      "natural": 0.45855791089492326,
+      "recombined": 0.25268494296404354,
+      "recombined_minus_natural": -0.20587296793087972,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76116,
+      "task": "factorized",
+      "protocol": "staged",
+      "natural": 0.46182371409959044,
+      "recombined": 0.2504671657878267,
+      "recombined_minus_natural": -0.21135654831176376,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76117,
+      "task": "factorized",
+      "protocol": "staged",
+      "natural": 0.4568555146658708,
+      "recombined": 0.24966402813592367,
+      "recombined_minus_natural": -0.20719148652994715,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76118,
+      "task": "factorized",
+      "protocol": "staged",
+      "natural": 0.45750998106843044,
+      "recombined": 0.25089417743562004,
+      "recombined_minus_natural": -0.2066158036328104,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76119,
+      "task": "factorized",
+      "protocol": "staged",
+      "natural": 0.4583370651144941,
+      "recombined": 0.45922757840610245,
+      "recombined_minus_natural": 0.0008905132916083303,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76120,
+      "task": "factorized",
+      "protocol": "staged",
+      "natural": 0.6666666666666665,
+      "recombined": 0.6666666666666665,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": true
+    },
+    {
+      "seed": 76121,
+      "task": "factorized",
+      "protocol": "staged",
+      "natural": 0.4590064439914763,
+      "recombined": 0.2502947928810978,
+      "recombined_minus_natural": -0.20871165111037848,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76122,
+      "task": "factorized",
+      "protocol": "staged",
+      "natural": 0.6666666666666665,
+      "recombined": 0.6666666666666665,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": true
+    },
+    {
+      "seed": 76123,
+      "task": "factorized",
+      "protocol": "staged",
+      "natural": 0.4575407915660259,
+      "recombined": 0.2490919238623816,
+      "recombined_minus_natural": -0.2084488677036443,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76124,
+      "task": "factorized",
+      "protocol": "staged",
+      "natural": 0.4604131428340128,
+      "recombined": 0.2532301089671349,
+      "recombined_minus_natural": -0.20718303386687792,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76125,
+      "task": "factorized",
+      "protocol": "staged",
+      "natural": 0.4580041995753548,
+      "recombined": 0.24900407171266276,
+      "recombined_minus_natural": -0.20900012786269206,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76126,
+      "task": "factorized",
+      "protocol": "staged",
+      "natural": 0.4555834971973928,
+      "recombined": 0.24949125139774603,
+      "recombined_minus_natural": -0.20609224579964674,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76127,
+      "task": "factorized",
+      "protocol": "staged",
+      "natural": 0.4575959198211501,
+      "recombined": 0.250909761987301,
+      "recombined_minus_natural": -0.20668615783384908,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76128,
+      "task": "factorized",
+      "protocol": "staged",
+      "natural": 0.45828670311617337,
+      "recombined": 0.25384412984446025,
+      "recombined_minus_natural": -0.2044425732717131,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76129,
+      "task": "factorized",
+      "protocol": "staged",
+      "natural": 0.6666666666666665,
+      "recombined": 0.6666666666666665,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": true
+    },
+    {
+      "seed": 76130,
+      "task": "factorized",
+      "protocol": "staged",
+      "natural": 0.45865733521506163,
+      "recombined": 0.2564424333286956,
+      "recombined_minus_natural": -0.20221490188636604,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76131,
+      "task": "factorized",
+      "protocol": "staged",
+      "natural": 0.45899818193690006,
+      "recombined": 0.25219336558607164,
+      "recombined_minus_natural": -0.20680481635082842,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76132,
+      "task": "factorized",
+      "protocol": "staged",
+      "natural": 0.4592759166950824,
+      "recombined": 0.25103092316828707,
+      "recombined_minus_natural": -0.20824499352679532,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76101,
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "natural": 0.45922203630741887,
+      "recombined": 0.45922203630741887,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76102,
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "natural": 0.45709341378337376,
+      "recombined": 0.1573703555588581,
+      "recombined_minus_natural": -0.29972305822451567,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76103,
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "natural": 0.45737715807074053,
+      "recombined": 0.5637052559056747,
+      "recombined_minus_natural": 0.10632809783493413,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76104,
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "natural": 0.457988009645692,
+      "recombined": 0.35196827748558834,
+      "recombined_minus_natural": -0.10601973216010363,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76105,
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "natural": 0.5602670771611664,
+      "recombined": 0.45500673276424075,
+      "recombined_minus_natural": -0.10526034439692566,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76106,
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "natural": 0.45906608304788377,
+      "recombined": 0.3803029552199422,
+      "recombined_minus_natural": -0.07876312782794159,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76107,
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "natural": 0.4560384839961591,
+      "recombined": 0.3233917447699366,
+      "recombined_minus_natural": -0.1326467392262225,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76108,
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "natural": 0.45744539266824447,
+      "recombined": 0.27540829990329946,
+      "recombined_minus_natural": -0.182037092764945,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76109,
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "natural": 0.5623042117816426,
+      "recombined": 0.45840494982699737,
+      "recombined_minus_natural": -0.10389926195464522,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76110,
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "natural": 0.4579459703685703,
+      "recombined": 0.2183666163847602,
+      "recombined_minus_natural": -0.2395793539838101,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76111,
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "natural": 0.5638135153258266,
+      "recombined": 0.24878298916173572,
+      "recombined_minus_natural": -0.3150305261640909,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76112,
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "natural": 0.4608102349704381,
+      "recombined": 0.6605110102015426,
+      "recombined_minus_natural": 0.19970077523110447,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76113,
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "natural": 0.45855377217288823,
+      "recombined": 0.19197671452405693,
+      "recombined_minus_natural": -0.26657705764883133,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76114,
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "natural": 0.46003143451264167,
+      "recombined": 0.15625544850909787,
+      "recombined_minus_natural": -0.30377598600354383,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76115,
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "natural": 0.45726891347466964,
+      "recombined": 0.2375173791504946,
+      "recombined_minus_natural": -0.21975153432417505,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76116,
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "natural": 0.45797788755061364,
+      "recombined": 0.4320681374710502,
+      "recombined_minus_natural": -0.02590975007956342,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76117,
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "natural": 0.45627514090741345,
+      "recombined": 0.17708565337309495,
+      "recombined_minus_natural": -0.2791894875343185,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76118,
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "natural": 0.4566126625803733,
+      "recombined": 0.25,
+      "recombined_minus_natural": -0.2066126625803733,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76119,
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "natural": 0.4571052213438051,
+      "recombined": 0.13347717985754248,
+      "recombined_minus_natural": -0.3236280414862626,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76120,
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "natural": 0.45759552426556016,
+      "recombined": 0.2750812350902471,
+      "recombined_minus_natural": -0.18251428917531304,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76121,
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "natural": 0.4585822035796402,
+      "recombined": 0.3145745484044062,
+      "recombined_minus_natural": -0.144007655175234,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76122,
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "natural": 0.564618363257692,
+      "recombined": 0.6666666666666665,
+      "recombined_minus_natural": 0.10204830340897453,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76123,
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "natural": 0.4570573693438669,
+      "recombined": 0.2330272664983043,
+      "recombined_minus_natural": -0.22403010284556263,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76124,
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "natural": 0.45967831003831466,
+      "recombined": 0.5041685472299942,
+      "recombined_minus_natural": 0.044490237191679494,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76125,
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "natural": 0.45823404865500983,
+      "recombined": 0.24980143064335286,
+      "recombined_minus_natural": -0.20843261801165697,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76126,
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "natural": 0.45902261055918236,
+      "recombined": 0.1430060151361331,
+      "recombined_minus_natural": -0.3160165954230493,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76127,
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "natural": 0.4591687397230849,
+      "recombined": 0.6213149446408324,
+      "recombined_minus_natural": 0.16214620491774745,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76128,
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "natural": 0.4594083323735862,
+      "recombined": 0.4594083323735862,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76129,
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "natural": 0.4568436372976782,
+      "recombined": 0.3532399973921155,
+      "recombined_minus_natural": -0.1036036399055627,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76130,
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "natural": 0.46161011081338993,
+      "recombined": 0.41647869353908556,
+      "recombined_minus_natural": -0.045131417274304364,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76131,
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "natural": 0.4580048793746795,
+      "recombined": 0.24934309208269217,
+      "recombined_minus_natural": -0.2086617872919873,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76132,
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "natural": 0.4569068267986987,
+      "recombined": 0.0694672952142191,
+      "recombined_minus_natural": -0.38743953158447964,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76101,
+      "task": "entangled",
+      "protocol": "staged",
+      "natural": 0.45922203630741887,
+      "recombined": 0.45922203630741887,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76102,
+      "task": "entangled",
+      "protocol": "staged",
+      "natural": 0.45709341378337376,
+      "recombined": 0.06178944245148854,
+      "recombined_minus_natural": -0.3953039713318852,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76103,
+      "task": "entangled",
+      "protocol": "staged",
+      "natural": 0.6666666666666665,
+      "recombined": 0.6666666666666665,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": true
+    },
+    {
+      "seed": 76104,
+      "task": "entangled",
+      "protocol": "staged",
+      "natural": 0.6666666666666665,
+      "recombined": 0.6666666666666665,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": true
+    },
+    {
+      "seed": 76105,
+      "task": "entangled",
+      "protocol": "staged",
+      "natural": 0.6666666666666665,
+      "recombined": 0.6666666666666665,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": true
+    },
+    {
+      "seed": 76106,
+      "task": "entangled",
+      "protocol": "staged",
+      "natural": 0.4590613972087422,
+      "recombined": 0.4590613972087422,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76107,
+      "task": "entangled",
+      "protocol": "staged",
+      "natural": 0.455721598298098,
+      "recombined": 0.455721598298098,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76108,
+      "task": "entangled",
+      "protocol": "staged",
+      "natural": 0.6666666666666665,
+      "recombined": 0.6666666666666665,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": true
+    },
+    {
+      "seed": 76109,
+      "task": "entangled",
+      "protocol": "staged",
+      "natural": 0.45736695661722965,
+      "recombined": 0.04263304338277035,
+      "recombined_minus_natural": -0.4147339132344593,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76110,
+      "task": "entangled",
+      "protocol": "staged",
+      "natural": 0.4579459703685703,
+      "recombined": 0.042054029631429735,
+      "recombined_minus_natural": -0.4158919407371406,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76111,
+      "task": "entangled",
+      "protocol": "staged",
+      "natural": 0.4567016749158455,
+      "recombined": 0.4567016749158455,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76112,
+      "task": "entangled",
+      "protocol": "staged",
+      "natural": 0.6666666666666665,
+      "recombined": 0.6666666666666665,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": true
+    },
+    {
+      "seed": 76113,
+      "task": "entangled",
+      "protocol": "staged",
+      "natural": 0.6666666666666665,
+      "recombined": 0.6666666666666665,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": true
+    },
+    {
+      "seed": 76114,
+      "task": "entangled",
+      "protocol": "staged",
+      "natural": 0.45621734278593645,
+      "recombined": 0.0437826572140636,
+      "recombined_minus_natural": -0.41243468557187285,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76115,
+      "task": "entangled",
+      "protocol": "staged",
+      "natural": 0.45689208138190973,
+      "recombined": 0.107962246169534,
+      "recombined_minus_natural": -0.34892983521237575,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76116,
+      "task": "entangled",
+      "protocol": "staged",
+      "natural": 0.4586332508719725,
+      "recombined": 0.4320219566130198,
+      "recombined_minus_natural": -0.0266112942589527,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76117,
+      "task": "entangled",
+      "protocol": "staged",
+      "natural": 0.4554782030012452,
+      "recombined": 0.2981270949851038,
+      "recombined_minus_natural": -0.15735110801614138,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76118,
+      "task": "entangled",
+      "protocol": "staged",
+      "natural": 0.6666666666666665,
+      "recombined": 0.6666666666666665,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": true
+    },
+    {
+      "seed": 76119,
+      "task": "entangled",
+      "protocol": "staged",
+      "natural": 0.6666666666666665,
+      "recombined": 0.6666666666666665,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": true
+    },
+    {
+      "seed": 76120,
+      "task": "entangled",
+      "protocol": "staged",
+      "natural": 0.45759552426556016,
+      "recombined": 0.45759552426556016,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76121,
+      "task": "entangled",
+      "protocol": "staged",
+      "natural": 0.45777615950208406,
+      "recombined": 0.45777615950208406,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76122,
+      "task": "entangled",
+      "protocol": "staged",
+      "natural": 0.6666666666666665,
+      "recombined": 0.6666666666666665,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": true
+    },
+    {
+      "seed": 76123,
+      "task": "entangled",
+      "protocol": "staged",
+      "natural": 0.4597486588413776,
+      "recombined": 0.04025134115862248,
+      "recombined_minus_natural": -0.4194973176827551,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76124,
+      "task": "entangled",
+      "protocol": "staged",
+      "natural": 0.4613084829738936,
+      "recombined": 0.4613084829738936,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76125,
+      "task": "entangled",
+      "protocol": "staged",
+      "natural": 0.458116213059233,
+      "recombined": 0.43220547483231836,
+      "recombined_minus_natural": -0.025910738226914642,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76126,
+      "task": "entangled",
+      "protocol": "staged",
+      "natural": 0.45953135916143634,
+      "recombined": 0.04046864083856372,
+      "recombined_minus_natural": -0.4190627183228726,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76127,
+      "task": "entangled",
+      "protocol": "staged",
+      "natural": 0.45707355078601614,
+      "recombined": 0.04292644921398389,
+      "recombined_minus_natural": -0.4141471015720323,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76128,
+      "task": "entangled",
+      "protocol": "staged",
+      "natural": 0.4594083323735862,
+      "recombined": 0.4594083323735862,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76129,
+      "task": "entangled",
+      "protocol": "staged",
+      "natural": 0.6666666666666665,
+      "recombined": 0.6666666666666665,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": true
+    },
+    {
+      "seed": 76130,
+      "task": "entangled",
+      "protocol": "staged",
+      "natural": 0.46161011081338993,
+      "recombined": 0.46161011081338993,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76131,
+      "task": "entangled",
+      "protocol": "staged",
+      "natural": 0.4580048793746795,
+      "recombined": 0.4580048793746795,
+      "recombined_minus_natural": 0.0,
+      "composable_equilibrium": false
+    },
+    {
+      "seed": 76132,
+      "task": "entangled",
+      "protocol": "staged",
+      "natural": 0.4597128752068186,
+      "recombined": 0.36882903098239017,
+      "recombined_minus_natural": -0.09088384422442841,
+      "composable_equilibrium": false
+    }
+  ],
+  "contrasts": [
+    {
+      "task": "factorized",
+      "protocol": "simultaneous",
+      "seeds": 32,
+      "composable_equilibrium_count": 3,
+      "composable_equilibrium_rate": 0.09375,
+      "composable_equilibrium_wilson95": [
+        0.032400962626319516,
+        0.24218499335778831
+      ],
+      "natural_mean": 0.49440474427237735,
+      "natural_ci95_t": [
+        0.4698706872846732,
+        0.5189388012600815
+      ],
+      "recombined_minus_natural_mean": -0.15023993121544565,
+      "recombined_minus_natural_ci95_t": [
+        -0.19047805876047014,
+        -0.11000180367042116
+      ]
+    },
+    {
+      "task": "factorized",
+      "protocol": "staged",
+      "seeds": 32,
+      "composable_equilibrium_count": 9,
+      "composable_equilibrium_rate": 0.28125,
+      "composable_equilibrium_wilson95": [
+        0.15564406845647866,
+        0.4537483693811179
+      ],
+      "natural_mean": 0.5167364755781587,
+      "natural_ci95_t": [
+        0.4823704205147193,
+        0.5511025306415982
+      ],
+      "recombined_minus_natural_mean": -0.13490262851512566,
+      "recombined_minus_natural_ci95_t": [
+        -0.17074966610290865,
+        -0.09905559092734267
+      ]
+    },
+    {
+      "task": "factorized",
+      "protocol": "staged_minus_simultaneous",
+      "seeds": 32,
+      "natural_difference_mean": 0.022331731305781477,
+      "natural_difference_ci95_t": [
+        -0.015517751602083171,
+        0.060181214213646125
+      ],
+      "recombined_gap_difference_mean": 0.015337302700320021,
+      "recombined_gap_difference_ci95_t": [
+        -0.023100547233457724,
+        0.05377515263409777
+      ],
+      "mcnemar_staged_only": 7,
+      "mcnemar_simultaneous_only": 1,
+      "mcnemar_exact_p": 0.0703125
+    },
+    {
+      "task": "entangled",
+      "protocol": "simultaneous",
+      "seeds": 32,
+      "composable_equilibrium_count": 0,
+      "composable_equilibrium_rate": 0.0,
+      "composable_equilibrium_wilson95": [
+        0.0,
+        0.1071827150573635
+      ],
+      "natural_mean": 0.4712477367421858,
+      "natural_ci95_t": [
+        0.4585659292196035,
+        0.4839295442647681
+      ],
+      "recombined_minus_natural_mean": -0.13729774295196806,
+      "recombined_minus_natural_ci95_t": [
+        -0.1920589969303942,
+        -0.08253648897354195
+      ]
+    },
+    {
+      "task": "entangled",
+      "protocol": "staged",
+      "seeds": 32,
+      "composable_equilibrium_count": 10,
+      "composable_equilibrium_rate": 0.3125,
+      "composable_equilibrium_wilson95": [
+        0.17952352116618736,
+        0.4856699969803239
+      ],
+      "natural_mean": 0.5233402105801588,
+      "natural_ci95_t": [
+        0.4879318864249985,
+        0.558748534735319
+      ],
+      "recombined_minus_natural_mean": -0.1106487021372447,
+      "recombined_minus_natural_ci95_t": [
+        -0.17407105810764528,
+        -0.047226346166844124
+      ]
+    },
+    {
+      "task": "entangled",
+      "protocol": "staged_minus_simultaneous",
+      "seeds": 32,
+      "natural_difference_mean": 0.052092473837973045,
+      "natural_difference_ci95_t": [
+        0.01624605661192073,
+        0.08793889106402536
+      ],
+      "recombined_gap_difference_mean": 0.026649040814723357,
+      "recombined_gap_difference_ci95_t": [
+        -0.045201362630894165,
+        0.09849944426034088
+      ],
+      "mcnemar_staged_only": 10,
+      "mcnemar_simultaneous_only": 0,
+      "mcnemar_exact_p": 0.001953125
+    }
+  ]
+}

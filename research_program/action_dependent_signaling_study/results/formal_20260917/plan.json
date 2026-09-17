@@ -1,0 +1,124 @@
+{
+  "schema": "compositional_signaling_v1",
+  "prepared_sha256": "aecfdc5d09c5f4b3cf51f98ee682b1f8aed93df46d823e9a38e67cf52cedcb1c",
+  "sources": {
+    "research_program/action_dependent_signaling_study/__init__.py": "64fe0f95e75b066929067c56585b64ca8ebe41f5834c424fbbeb5adbeb8ac691",
+    "research_program/action_dependent_signaling_study/README.md": "9ddac86033ae332e39f00ad018e1029ea2b6b8dd5f904e074fe76570ca2d11d0",
+    "research_program/action_dependent_signaling_study/design.py": "35daeabf190dc3f02f8addb77273d9d2b7190bf81cb59b2552cc335952cd16c4",
+    "research_program/action_dependent_signaling_study/policy.py": "379c35bff921f71f18df4a87f51b10957902f78f3c003b5d9502448772bb0b91",
+    "research_program/action_dependent_signaling_study/environment.py": "bc64b0c4bdfc23d4c69566ebd1919dd4c470a91aeefb479f8aba855eb2bff688",
+    "research_program/action_dependent_signaling_study/runner.py": "ab34b782a05bd318b40337b10c1678f9a18906f6acc856769ba55fe6e44efbb5",
+    "research_program/action_dependent_signaling_study/aggregate.py": "b4fe99570f358ddece69d0dcf7674fe06efe1df64aed14975530299c85fc6cd5",
+    "research_program/action_dependent_signaling_study/audit.py": "337c99d1b022b25696b1f6b14ad35c0ce04c8e49a2fad26fa171fd401f9028f4",
+    "research_program/action_dependent_signaling_study/plan.md": "87827522f16c62d2e00337bcfe6ab97e60cf792e1be1ebeb192e3420d752f782",
+    "research_program/action_dependent_signaling_study/tests/test_game.py": "f3c5d8865e44e7e61399a5490b2d171e8ae90af426505b24f1d2d115433e5179"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.2.6"
+  },
+  "config": {
+    "schema": "action_dependent_signaling_v1",
+    "horizon": 6,
+    "message_slots": 2,
+    "action_start": 2,
+    "subtasks": 2,
+    "steps_per_subtask": 2,
+    "forms": {
+      "dual2": {
+        "alphabet_size": 2,
+        "length": 2
+      }
+    },
+    "protocols": {
+      "simultaneous": [
+        0,
+        1
+      ],
+      "staged": [
+        1,
+        3
+      ]
+    },
+    "null_message": -1,
+    "actions": [
+      "wait",
+      "take_site0",
+      "take_site1"
+    ],
+    "workers": 4,
+    "seeds": [
+      76101,
+      76102,
+      76103,
+      76104,
+      76105,
+      76106,
+      76107,
+      76108,
+      76109,
+      76110,
+      76111,
+      76112,
+      76113,
+      76114,
+      76115,
+      76116,
+      76117,
+      76118,
+      76119,
+      76120,
+      76121,
+      76122,
+      76123,
+      76124,
+      76125,
+      76126,
+      76127,
+      76128,
+      76129,
+      76130,
+      76131,
+      76132
+    ],
+    "conditions": [
+      "dual2_rotating_hidden_live_factorized_simultaneous",
+      "dual2_rotating_hidden_silent_factorized_simultaneous",
+      "dual2_rotating_hidden_live_entangled_simultaneous",
+      "dual2_rotating_hidden_silent_entangled_simultaneous",
+      "dual2_rotating_hidden_live_factorized_staged",
+      "dual2_rotating_hidden_silent_factorized_staged",
+      "dual2_rotating_hidden_live_entangled_staged",
+      "dual2_rotating_hidden_silent_entangled_staged"
+    ],
+    "updates": 3000,
+    "batch_size": 512,
+    "learning_rate": 0.08,
+    "entropy_initial": 0.01,
+    "entropy_zero_after": 5000,
+    "capacity": 2,
+    "task": "two binary private factors drive two resource sub-tasks",
+    "worker_observation": "worker sees each sub-task local site-0 type; site 1 is its complement; goal is hidden",
+    "partner_visibility": "hidden only; partner identity is not an input",
+    "pairing": "worlds, goals, partner draws and action/message uniforms are shared across protocol and channel arms",
+    "controls": [
+      "from-scratch silent",
+      "closed evaluation",
+      "whole-sequence permutation",
+      "slot recombination readout"
+    ],
+    "action_dependency": "staged exposes slot 0 before subtask 0 and slot 1 before subtask 1; simultaneous exposes both before subtask 0",
+    "no_teacher_or_language_prior": true,
+    "compositionality_test": "dual2 token slots are recombined from factor-matched sender contexts on held-out worlds",
+    "checkpoints": [
+      0,
+      500,
+      1000,
+      2000,
+      3000
+    ],
+    "runtime_policy": "float64 NumPy only",
+    "runs": 256,
+    "evaluation_episodes_per_worker": 4096
+  }
+}

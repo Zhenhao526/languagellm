@@ -1,0 +1,38 @@
+{
+  "schema": "generation_transmission_receipt_v1",
+  "status": "compact_archive_created_after_passed_audit",
+  "archive": "research_program/generation_transmission_study/results/formal_20260917",
+  "prepared_sha256": "846bffe310ddbe16231298f6315ae0b28701fefd2097a867e51f59e67cde338b",
+  "plan_sha256": "972c1d69baad7827c524b147ec77fa7ca9d4a217fcbd799c495c29eda5940f5d",
+  "freeze_sha256": "c94f2ae10f3b9552dd547dd4c17ba8a517d8f04463241a38cfe8d81d2f9404f4",
+  "audit_sha256": "6c95e30c22cc0004efd94b303cbe15ddceba5399e4544791bdff53b57f87141f",
+  "aggregate_sha256": "5f21f51db1b0ced9de0a358a910782152c8209ccde47cf9302e78e8da0f88362",
+  "compact_results_sha256": "a5cdaf0af19978774505785ea577c63fe2d414f25b4bcacf8c1e371832cebbfe",
+  "raw_results_sha256": "fd9172472498f89b69608180fb4c2c01a42f2f92f2ff2e5b1a61c602249b3de9",
+  "parent_runs": 8,
+  "child_runs": 48,
+  "seeds": 8,
+  "conditions": 6,
+  "updates": 3000,
+  "raw_execution_retained": false,
+  "audit_status": "passed",
+  "training_log_rows": 168000,
+  "final_checkpoints": 56,
+  "max_abs_replay_error": 0.0,
+  "paired_child_trajectory_rows": 48000,
+  "retained_files": [
+    "aggregate.json",
+    "aggregate.md",
+    "audit.json",
+    "compact_results.json",
+    "freeze.json",
+    "plan.json",
+    "prepared.json"
+  ],
+  "omitted": [
+    "execution/parent_seed_*/training.jsonl",
+    "execution/seed_*/training.jsonl",
+    "execution/*/checkpoint_*.npz",
+    "execution/results.json"
+  ]
+}

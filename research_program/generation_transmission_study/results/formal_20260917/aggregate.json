@@ -1,0 +1,881 @@
+{
+  "schema": "generation_transmission_aggregate_v1",
+  "parent_runs": 8,
+  "child_runs": 48,
+  "rows": [
+    {
+      "seed": 76101,
+      "condition": "sender_live",
+      "role": "sender",
+      "natural": 0.8000000000000002,
+      "closed": 0.21413440283157,
+      "permuted": 0.29927288225911297,
+      "scrambled": 0.28554066453512816,
+      "learning_curve_auc": 0.7524913968309364,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 1.0,
+        "sender_greedy_agreement": 1.0
+      },
+      "new_agent_semantic_success": 1.0
+    },
+    {
+      "seed": 76101,
+      "condition": "sender_scrambled",
+      "role": "sender",
+      "natural": 0.8000000000000002,
+      "closed": 0.21413440283157,
+      "permuted": 0.29927288225911297,
+      "scrambled": 0.28554066453512816,
+      "learning_curve_auc": 0.4770827238649087,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 1.0,
+        "sender_greedy_agreement": 1.0
+      },
+      "new_agent_semantic_success": 1.0
+    },
+    {
+      "seed": 76101,
+      "condition": "sender_silent",
+      "role": "sender",
+      "natural": 0.2298967619712362,
+      "closed": 0.21413440283157,
+      "permuted": 0.2772928479776361,
+      "scrambled": 0.27960431070958425,
+      "learning_curve_auc": 0.2298967619712362,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 1.0,
+        "sender_greedy_agreement": 0.0
+      },
+      "new_agent_semantic_success": 0.5
+    },
+    {
+      "seed": 76101,
+      "condition": "worker_live",
+      "role": "worker",
+      "natural": 0.8000000000000002,
+      "closed": 0.26275460717749755,
+      "permuted": 0.3140640155189136,
+      "scrambled": 0.23289282250242485,
+      "learning_curve_auc": 0.7605237633365666,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 0.40476190476190477,
+        "sender_greedy_agreement": 1.0
+      },
+      "new_agent_semantic_success": 1.0
+    },
+    {
+      "seed": 76101,
+      "condition": "worker_scrambled",
+      "role": "worker",
+      "natural": 0.23665130940834136,
+      "closed": 0.26275460717749755,
+      "permuted": 0.2967870999030067,
+      "scrambled": 0.2989088263821532,
+      "learning_curve_auc": 0.4024622130617523,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 0.39285714285714285,
+        "sender_greedy_agreement": 1.0
+      },
+      "new_agent_semantic_success": 0.5
+    },
+    {
+      "seed": 76101,
+      "condition": "worker_silent",
+      "role": "worker",
+      "natural": 0.32628516003879726,
+      "closed": 0.2994544131910766,
+      "permuted": 0.17359359844810865,
+      "scrambled": 0.1683438409311348,
+      "learning_curve_auc": 0.32628516003879726,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 0.3333333333333333,
+        "sender_greedy_agreement": 1.0
+      },
+      "new_agent_semantic_success": 0.75
+    },
+    {
+      "seed": 76102,
+      "condition": "sender_live",
+      "role": "sender",
+      "natural": 0.8,
+      "closed": 0.220744251215018,
+      "permuted": 0.306636083559487,
+      "scrambled": 0.2951399352890468,
+      "learning_curve_auc": 0.7578347769284315,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 1.0,
+        "sender_greedy_agreement": 1.0
+      },
+      "new_agent_semantic_success": 1.0
+    },
+    {
+      "seed": 76102,
+      "condition": "sender_scrambled",
+      "role": "sender",
+      "natural": 0.5067774978832427,
+      "closed": 0.220744251215018,
+      "permuted": 0.2918797770241649,
+      "scrambled": 0.29359192330163475,
+      "learning_curve_auc": 0.39902773139746783,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 1.0,
+        "sender_greedy_agreement": 0.0
+      },
+      "new_agent_semantic_success": 0.875
+    },
+    {
+      "seed": 76102,
+      "condition": "sender_silent",
+      "role": "sender",
+      "natural": 0.2940173231411767,
+      "closed": 0.220744251215018,
+      "permuted": 0.2940173231411767,
+      "scrambled": 0.29417930118003355,
+      "learning_curve_auc": 0.2940173231411767,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 1.0,
+        "sender_greedy_agreement": 0.5
+      },
+      "new_agent_semantic_success": 0.5
+    },
+    {
+      "seed": 76102,
+      "condition": "worker_live",
+      "role": "worker",
+      "natural": 0.8000000000000002,
+      "closed": 0.21886330230279272,
+      "permuted": 0.3022048015678589,
+      "scrambled": 0.2369916707496325,
+      "learning_curve_auc": 0.7539951821002777,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 0.42142857142857143,
+        "sender_greedy_agreement": 1.0
+      },
+      "new_agent_semantic_success": 1.0
+    },
+    {
+      "seed": 76102,
+      "condition": "worker_scrambled",
+      "role": "worker",
+      "natural": 0.29552915237628613,
+      "closed": 0.21886330230279272,
+      "permuted": 0.29552915237628613,
+      "scrambled": 0.29718275355218027,
+      "learning_curve_auc": 0.2597215417279112,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 0.4,
+        "sender_greedy_agreement": 1.0
+      },
+      "new_agent_semantic_success": 0.75
+    },
+    {
+      "seed": 76102,
+      "condition": "worker_silent",
+      "role": "worker",
+      "natural": 0.24794218520333167,
+      "closed": 0.29552915237628613,
+      "permuted": 0.18577902988731015,
+      "scrambled": 0.18831455169034786,
+      "learning_curve_auc": 0.24794218520333167,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 0.3523809523809524,
+        "sender_greedy_agreement": 1.0
+      },
+      "new_agent_semantic_success": 0.25
+    },
+    {
+      "seed": 76103,
+      "condition": "sender_live",
+      "role": "sender",
+      "natural": 0.8000000000000002,
+      "closed": 0.22571464587220869,
+      "permuted": 0.2938960247322023,
+      "scrambled": 0.29454392565243176,
+      "learning_curve_auc": 0.7526164767156981,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 1.0,
+        "sender_greedy_agreement": 1.0
+      },
+      "new_agent_semantic_success": 1.0
+    },
+    {
+      "seed": 76103,
+      "condition": "sender_scrambled",
+      "role": "sender",
+      "natural": 0.38573121667325466,
+      "closed": 0.22571464587220869,
+      "permuted": 0.29958762733813493,
+      "scrambled": 0.3003054284964311,
+      "learning_curve_auc": 0.34711222167827654,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 1.0,
+        "sender_greedy_agreement": 0.5
+      },
+      "new_agent_semantic_success": 0.5
+    },
+    {
+      "seed": 76103,
+      "condition": "sender_silent",
+      "role": "sender",
+      "natural": 0.23139772058837557,
+      "closed": 0.22571464587220869,
+      "permuted": 0.2951824150319622,
+      "scrambled": 0.3017821140276892,
+      "learning_curve_auc": 0.23139772058837554,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 1.0,
+        "sender_greedy_agreement": 0.0
+      },
+      "new_agent_semantic_success": 0.5
+    },
+    {
+      "seed": 76103,
+      "condition": "worker_live",
+      "role": "worker",
+      "natural": 0.8000000000000002,
+      "closed": 0.22671905697445974,
+      "permuted": 0.2847740667976424,
+      "scrambled": 0.25088408644400784,
+      "learning_curve_auc": 0.7513107809430256,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 0.430952380952381,
+        "sender_greedy_agreement": 1.0
+      },
+      "new_agent_semantic_success": 1.0
+    },
+    {
+      "seed": 76103,
+      "condition": "worker_scrambled",
+      "role": "worker",
+      "natural": 0.24038555992141447,
+      "closed": 0.22671905697445974,
+      "permuted": 0.3030697445972495,
+      "scrambled": 0.2969916502946955,
+      "learning_curve_auc": 0.2484610347085789,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 0.4119047619047619,
+        "sender_greedy_agreement": 1.0
+      },
+      "new_agent_semantic_success": 0.5
+    },
+    {
+      "seed": 76103,
+      "condition": "worker_silent",
+      "role": "worker",
+      "natural": 0.2157293713163065,
+      "closed": 0.3,
+      "permuted": 0.24646365422396857,
+      "scrambled": 0.22404223968565815,
+      "learning_curve_auc": 0.2157293713163065,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 0.38333333333333336,
+        "sender_greedy_agreement": 1.0
+      },
+      "new_agent_semantic_success": 0.0
+    },
+    {
+      "seed": 76104,
+      "condition": "sender_live",
+      "role": "sender",
+      "natural": 0.8,
+      "closed": 0.1968610736540921,
+      "permuted": 0.30283679863450547,
+      "scrambled": 0.29986123231993134,
+      "learning_curve_auc": 0.7626054921715698,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 1.0,
+        "sender_greedy_agreement": 1.0
+      },
+      "new_agent_semantic_success": 1.0
+    },
+    {
+      "seed": 76104,
+      "condition": "sender_scrambled",
+      "role": "sender",
+      "natural": -0.1809571661432695,
+      "closed": 0.1968610736540921,
+      "permuted": 0.29331590789108897,
+      "scrambled": 0.2952939932340903,
+      "learning_curve_auc": 0.21255058701316537,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 1.0,
+        "sender_greedy_agreement": 0.0
+      },
+      "new_agent_semantic_success": 0.0
+    },
+    {
+      "seed": 76104,
+      "condition": "sender_silent",
+      "role": "sender",
+      "natural": 0.3512659060588373,
+      "closed": 0.1968610736540921,
+      "permuted": 0.29547153982092167,
+      "scrambled": 0.2972356488688048,
+      "learning_curve_auc": 0.3512659060588373,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 1.0,
+        "sender_greedy_agreement": 0.0
+      },
+      "new_agent_semantic_success": 0.5
+    },
+    {
+      "seed": 76104,
+      "condition": "worker_live",
+      "role": "worker",
+      "natural": 0.8,
+      "closed": 0.22124127976906424,
+      "permuted": 0.2948280009622324,
+      "scrambled": 0.22332210728891025,
+      "learning_curve_auc": 0.7508299254269907,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 0.3952380952380952,
+        "sender_greedy_agreement": 1.0
+      },
+      "new_agent_semantic_success": 1.0
+    },
+    {
+      "seed": 76104,
+      "condition": "worker_scrambled",
+      "role": "worker",
+      "natural": 0.2387178253548231,
+      "closed": 0.22124127976906424,
+      "permuted": 0.30330767380322343,
+      "scrambled": 0.30264613904257875,
+      "learning_curve_auc": 0.3052411594900168,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 0.3619047619047619,
+        "sender_greedy_agreement": 1.0
+      },
+      "new_agent_semantic_success": 0.5
+    },
+    {
+      "seed": 76104,
+      "condition": "worker_silent",
+      "role": "worker",
+      "natural": 0.2099591051238874,
+      "closed": 0.2966923261967765,
+      "permuted": 0.1482559538128458,
+      "scrambled": 0.1610777002646139,
+      "learning_curve_auc": 0.2099591051238874,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 0.319047619047619,
+        "sender_greedy_agreement": 1.0
+      },
+      "new_agent_semantic_success": 0.0
+    },
+    {
+      "seed": 76105,
+      "condition": "sender_live",
+      "role": "sender",
+      "natural": 0.8000000000000002,
+      "closed": 0.17886706034310162,
+      "permuted": 0.30112198943653773,
+      "scrambled": 0.29351851951350905,
+      "learning_curve_auc": 0.7952654693335534,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 1.0,
+        "sender_greedy_agreement": 1.0
+      },
+      "new_agent_semantic_success": 1.0
+    },
+    {
+      "seed": 76105,
+      "condition": "sender_scrambled",
+      "role": "sender",
+      "natural": 0.24652607085779354,
+      "closed": 0.17886706034310162,
+      "permuted": 0.29382374499480135,
+      "scrambled": 0.2940304279907985,
+      "learning_curve_auc": 0.43729948321565243,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 1.0,
+        "sender_greedy_agreement": 0.0
+      },
+      "new_agent_semantic_success": 0.5
+    },
+    {
+      "seed": 76105,
+      "condition": "sender_silent",
+      "role": "sender",
+      "natural": 0.7431856320026394,
+      "closed": 0.17886706034310162,
+      "permuted": 0.2907768826789684,
+      "scrambled": 0.29321817406549044,
+      "learning_curve_auc": 0.7431856320026393,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 1.0,
+        "sender_greedy_agreement": 0.5
+      },
+      "new_agent_semantic_success": 1.0
+    },
+    {
+      "seed": 76105,
+      "condition": "worker_live",
+      "role": "worker",
+      "natural": 0.8,
+      "closed": 0.11163046131315595,
+      "permuted": 0.3010983646570661,
+      "scrambled": 0.23929704661947765,
+      "learning_curve_auc": 0.7492901309901554,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 0.4142857142857143,
+        "sender_greedy_agreement": 1.0
+      },
+      "new_agent_semantic_success": 1.0
+    },
+    {
+      "seed": 76105,
+      "condition": "worker_scrambled",
+      "role": "worker",
+      "natural": 0.36291188674639974,
+      "closed": 0.11163046131315595,
+      "permuted": 0.3007322431047107,
+      "scrambled": 0.298779594825482,
+      "learning_curve_auc": 0.3193342689773004,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 0.37142857142857144,
+        "sender_greedy_agreement": 1.0
+      },
+      "new_agent_semantic_success": 0.5
+    },
+    {
+      "seed": 76105,
+      "condition": "worker_silent",
+      "role": "worker",
+      "natural": 0.1914815718818648,
+      "closed": 0.29505735904320224,
+      "permuted": 0.1914815718818648,
+      "scrambled": 0.21188674639980473,
+      "learning_curve_auc": 0.19148157188186482,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 0.3333333333333333,
+        "sender_greedy_agreement": 1.0
+      },
+      "new_agent_semantic_success": 0.25
+    },
+    {
+      "seed": 76106,
+      "condition": "sender_live",
+      "role": "sender",
+      "natural": 0.8000000000000002,
+      "closed": 0.1966838925393926,
+      "permuted": 0.29834330578292656,
+      "scrambled": 0.286091572513614,
+      "learning_curve_auc": 0.7559280620921263,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 1.0,
+        "sender_greedy_agreement": 1.0
+      },
+      "new_agent_semantic_success": 1.0
+    },
+    {
+      "seed": 76106,
+      "condition": "sender_scrambled",
+      "role": "sender",
+      "natural": 0.27113674510551483,
+      "closed": 0.1966838925393926,
+      "permuted": 0.29539945213574836,
+      "scrambled": 0.29030347717853944,
+      "learning_curve_auc": 0.31281952601839974,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 1.0,
+        "sender_greedy_agreement": 0.0
+      },
+      "new_agent_semantic_success": 0.5
+    },
+    {
+      "seed": 76106,
+      "condition": "sender_silent",
+      "role": "sender",
+      "natural": 0.27113674510551483,
+      "closed": 0.1966838925393926,
+      "permuted": 0.29539945213574836,
+      "scrambled": 0.29030347717853944,
+      "learning_curve_auc": 0.27113674510551483,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 1.0,
+        "sender_greedy_agreement": 0.0
+      },
+      "new_agent_semantic_success": 0.5
+    },
+    {
+      "seed": 76106,
+      "condition": "worker_live",
+      "role": "worker",
+      "natural": 0.8000000000000002,
+      "closed": 0.18589371980676328,
+      "permuted": 0.2893719806763284,
+      "scrambled": 0.21493961352657004,
+      "learning_curve_auc": 0.7406743156199679,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 0.4238095238095238,
+        "sender_greedy_agreement": 1.0
+      },
+      "new_agent_semantic_success": 1.0
+    },
+    {
+      "seed": 76106,
+      "condition": "worker_scrambled",
+      "role": "worker",
+      "natural": 0.29933574879227043,
+      "closed": 0.18589371980676328,
+      "permuted": 0.2996980676328501,
+      "scrambled": 0.30537439613526557,
+      "learning_curve_auc": 0.2751650563607084,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 0.4095238095238095,
+        "sender_greedy_agreement": 1.0
+      },
+      "new_agent_semantic_success": 0.0
+    },
+    {
+      "seed": 76106,
+      "condition": "worker_silent",
+      "role": "worker",
+      "natural": 0.08809178743961352,
+      "closed": 0.3037439613526569,
+      "permuted": 0.15188405797101448,
+      "scrambled": 0.16745169082125605,
+      "learning_curve_auc": 0.0880917874396135,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 0.3619047619047619,
+        "sender_greedy_agreement": 1.0
+      },
+      "new_agent_semantic_success": 0.25
+    },
+    {
+      "seed": 76107,
+      "condition": "sender_live",
+      "role": "sender",
+      "natural": 0.8,
+      "closed": 0.20631493899413483,
+      "permuted": 0.3016113060637773,
+      "scrambled": 0.29389949612387695,
+      "learning_curve_auc": 0.757723514156172,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 1.0,
+        "sender_greedy_agreement": 1.0
+      },
+      "new_agent_semantic_success": 1.0
+    },
+    {
+      "seed": 76107,
+      "condition": "sender_scrambled",
+      "role": "sender",
+      "natural": 0.7533923059418437,
+      "closed": 0.20631493899413483,
+      "permuted": 0.30168456809321464,
+      "scrambled": 0.2880862324774775,
+      "learning_curve_auc": 0.45173061957921246,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 1.0,
+        "sender_greedy_agreement": 0.5
+      },
+      "new_agent_semantic_success": 1.0
+    },
+    {
+      "seed": 76107,
+      "condition": "sender_silent",
+      "role": "sender",
+      "natural": 0.29268216987406437,
+      "closed": 0.20631493899413483,
+      "permuted": 0.29268216987406437,
+      "scrambled": 0.29490593891434125,
+      "learning_curve_auc": 0.29268216987406437,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 1.0,
+        "sender_greedy_agreement": 0.0
+      },
+      "new_agent_semantic_success": 0.5
+    },
+    {
+      "seed": 76107,
+      "condition": "worker_live",
+      "role": "worker",
+      "natural": 0.8,
+      "closed": 0.29999999999999993,
+      "permuted": 0.282233502538071,
+      "scrambled": 0.23779308677785835,
+      "learning_curve_auc": 0.7485939892031263,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 0.36904761904761907,
+        "sender_greedy_agreement": 1.0
+      },
+      "new_agent_semantic_success": 1.0
+    },
+    {
+      "seed": 76107,
+      "condition": "worker_scrambled",
+      "role": "worker",
+      "natural": 0.2993352671017645,
+      "closed": 0.29999999999999993,
+      "permuted": 0.2993352671017645,
+      "scrambled": 0.30018129079042777,
+      "learning_curve_auc": 0.17570501974055272,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 0.3380952380952381,
+        "sender_greedy_agreement": 1.0
+      },
+      "new_agent_semantic_success": 0.75
+    },
+    {
+      "seed": 76107,
+      "condition": "worker_silent",
+      "role": "worker",
+      "natural": 0.18312787043751508,
+      "closed": 0.30102731447909103,
+      "permuted": 0.18330916122794294,
+      "scrambled": 0.1946821368141165,
+      "learning_curve_auc": 0.18312787043751508,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 0.2714285714285714,
+        "sender_greedy_agreement": 1.0
+      },
+      "new_agent_semantic_success": 0.5
+    },
+    {
+      "seed": 76108,
+      "condition": "sender_live",
+      "role": "sender",
+      "natural": 0.8,
+      "closed": 0.18719831399685424,
+      "permuted": 0.29863408189506035,
+      "scrambled": 0.2898622888811523,
+      "learning_curve_auc": 0.7430882684889503,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 1.0,
+        "sender_greedy_agreement": 1.0
+      },
+      "new_agent_semantic_success": 1.0
+    },
+    {
+      "seed": 76108,
+      "condition": "sender_scrambled",
+      "role": "sender",
+      "natural": -0.005416549309032896,
+      "closed": 0.18719831399685424,
+      "permuted": 0.291040605286077,
+      "scrambled": 0.2952882158451375,
+      "learning_curve_auc": 0.330819563535389,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 1.0,
+        "sender_greedy_agreement": 0.0
+      },
+      "new_agent_semantic_success": 0.0625
+    },
+    {
+      "seed": 76108,
+      "condition": "sender_silent",
+      "role": "sender",
+      "natural": 0.1170592218674024,
+      "closed": 0.18719831399685424,
+      "permuted": 0.2964704604966946,
+      "scrambled": 0.30138355815264173,
+      "learning_curve_auc": 0.11705922186740239,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 1.0,
+        "sender_greedy_agreement": 0.0
+      },
+      "new_agent_semantic_success": 0.25
+    },
+    {
+      "seed": 76108,
+      "condition": "worker_live",
+      "role": "worker",
+      "natural": 0.8000000000000002,
+      "closed": 0.19610875530057373,
+      "permuted": 0.3031179845347966,
+      "scrambled": 0.1973434771763532,
+      "learning_curve_auc": 0.7459715639810427,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 0.38333333333333336,
+        "sender_greedy_agreement": 1.0
+      },
+      "new_agent_semantic_success": 1.0
+    },
+    {
+      "seed": 76108,
+      "condition": "worker_scrambled",
+      "role": "worker",
+      "natural": 0.2999999999999999,
+      "closed": 0.19610875530057373,
+      "permuted": 0.2999999999999999,
+      "scrambled": 0.30124719381391857,
+      "learning_curve_auc": 0.3128939053795626,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 0.35714285714285715,
+        "sender_greedy_agreement": 1.0
+      },
+      "new_agent_semantic_success": 0.5
+    },
+    {
+      "seed": 76108,
+      "condition": "worker_silent",
+      "role": "worker",
+      "natural": 0.15165876777251186,
+      "closed": 0.2966949363931154,
+      "permuted": 0.2435520079820404,
+      "scrambled": 0.1908580693439761,
+      "learning_curve_auc": 0.15165876777251186,
+      "protocol_fidelity": {
+        "worker_greedy_agreement": 0.3238095238095238,
+        "sender_greedy_agreement": 1.0
+      },
+      "new_agent_semantic_success": 0.5
+    }
+  ],
+  "effects": {
+    "worker|live-minus-silent": {
+      "role": "worker",
+      "label": "live-minus-silent",
+      "values": [
+        0.4737148399612029,
+        0.5520578147966685,
+        0.5842706286836936,
+        0.5900408948761127,
+        0.6085184281181353,
+        0.7119082125603866,
+        0.6168721295624849,
+        0.6483412322274883
+      ],
+      "mean": 0.5982155225982716,
+      "ci95_t": [
+        0.5401257661609181,
+        0.6563052790356251
+      ]
+    },
+    "worker|live-minus-scrambled": {
+      "role": "worker",
+      "label": "live-minus-scrambled",
+      "values": [
+        0.5633486905916588,
+        0.5044708476237141,
+        0.5596144400785856,
+        0.5612821746451769,
+        0.4370881132536003,
+        0.5006642512077297,
+        0.5006647328982355,
+        0.5000000000000002
+      ],
+      "mean": 0.5158916562873377,
+      "ci95_t": [
+        0.4794707904564656,
+        0.5523125221182097
+      ]
+    },
+    "worker|curve-auc-live-minus-silent": {
+      "role": "worker",
+      "label": "curve-auc-live-minus-silent",
+      "values": [
+        0.4342386032977693,
+        0.506052996896946,
+        0.5355814096267191,
+        0.5408708203031033,
+        0.5578085591082906,
+        0.6525825281803543,
+        0.5654661187656111,
+        0.5943127962085308
+      ],
+      "mean": 0.5483642290484156,
+      "ci95_t": [
+        0.4951152856475083,
+        0.601613172449323
+      ]
+    },
+    "worker|child-minus-parent": {
+      "role": "worker",
+      "label": "child-minus-parent",
+      "values": [
+        0.0,
+        1.1102230246251565e-16,
+        0.0,
+        -1.1102230246251565e-16,
+        0.0,
+        2.220446049250313e-16,
+        0.0,
+        1.1102230246251565e-16
+      ],
+      "mean": 4.163336342344337e-17,
+      "ci95_t": [
+        -4.341212836269079e-17,
+        1.2667885520957754e-16
+      ]
+    },
+    "sender|live-minus-silent": {
+      "role": "sender",
+      "label": "live-minus-silent",
+      "values": [
+        0.570103238028764,
+        0.5059826768588234,
+        0.5686022794116246,
+        0.44873409394116276,
+        0.056814367997360726,
+        0.5288632548944854,
+        0.5073178301259357,
+        0.6829407781325977
+      ],
+      "mean": 0.4836698149238443,
+      "ci95_t": [
+        0.3285481449898021,
+        0.6387914848578865
+      ]
+    },
+    "sender|live-minus-scrambled": {
+      "role": "sender",
+      "label": "live-minus-scrambled",
+      "values": [
+        0.0,
+        0.2932225021167574,
+        0.4142687833267455,
+        0.9809571661432696,
+        0.5534739291422066,
+        0.5288632548944854,
+        0.046607694058156346,
+        0.805416549309033
+      ],
+      "mean": 0.4528512348738317,
+      "ci95_t": [
+        0.16733565002875528,
+        0.7383668197189082
+      ]
+    },
+    "sender|curve-auc-live-minus-silent": {
+      "role": "sender",
+      "label": "curve-auc-live-minus-silent",
+      "values": [
+        0.5225946348597001,
+        0.4638174537872548,
+        0.5212187561273225,
+        0.4113395861127325,
+        0.052079837330914036,
+        0.48479131698661143,
+        0.46504134428210764,
+        0.6260290466215479
+      ],
+      "mean": 0.44336399701352386,
+      "ci95_t": [
+        0.3011691329073185,
+        0.5855588611197292
+      ]
+    },
+    "sender|child-minus-parent": {
+      "role": "sender",
+      "label": "child-minus-parent",
+      "values": [
+        0.0,
+        0.0,
+        1.1102230246251565e-16,
+        -1.1102230246251565e-16,
+        1.1102230246251565e-16,
+        0.0,
+        -1.1102230246251565e-16,
+        -1.1102230246251565e-16
+      ],
+      "mean": -1.3877787807814457e-17,
+      "ci95_t": [
+        -9.134798677993687e-17,
+        6.359241116430796e-17
+      ]
+    }
+  }
+}

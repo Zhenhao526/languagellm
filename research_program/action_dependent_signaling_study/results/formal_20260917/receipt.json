@@ -1,0 +1,31 @@
+{
+  "schema": "action_dependent_signaling_receipt_v1",
+  "status": "compact_archive_created_after_passed_audit",
+  "archive": "research_program/action_dependent_signaling_study/results/formal_20260917",
+  "prepared_plan_sha256": "10cbb84040774adb548b601a5cd093e527acb82599303878fca700e232c19036",
+  "prepared_sha256": "aecfdc5d09c5f4b3cf51f98ee682b1f8aed93df46d823e9a38e67cf52cedcb1c",
+  "freeze_sha256": "5c12050ba73c8c37eee710fd972a1075250dd866b793aa797ba2c104e66cd52f",
+  "audit_sha256": "72b22b115756c91bf2d774ae5223e8530881cb1b86c9dd6f6605c6146fa82d84",
+  "aggregate_sha256": "cf5739b44e63fae9fee46ba4f593038041cc636268f90c2edc26a376df730fef",
+  "equilibrium_sha256": "fe2dd799ce2cfde36d87a9a3766a0aa5da51c15246b6b55b8cb1ea2d70a626e2",
+  "compact_results_sha256": "648ca81ebaa0b751530b503a5eb76e81c72dc5080a713b14dc01b1df9aa37307",
+  "runs": 256,
+  "conditions": 8,
+  "seeds": 32,
+  "updates": 3000,
+  "raw_execution_retained": false,
+  "raw_results_sha256": "6db951ea8a4eaafb49b6928b514dfe11e432300a677715b6857b82dd4e087f53",
+  "audit_status": "passed",
+  "max_abs_replay_error": 0.0,
+  "retained_files": [
+    "aggregate.json",
+    "aggregate.md",
+    "audit.json",
+    "compact_results.json",
+    "equilibrium_analysis.json",
+    "equilibrium_analysis.md",
+    "freeze.json",
+    "plan.json",
+    "prepared.json"
+  ]
+}

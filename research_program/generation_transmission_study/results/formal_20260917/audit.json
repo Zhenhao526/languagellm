@@ -1,0 +1,292 @@
+{
+  "schema": "generation_transmission_audit_v1",
+  "status": "passed",
+  "parent_runs": 8,
+  "child_runs": 48,
+  "training_log_rows": 168000,
+  "final_checkpoints": 56,
+  "max_abs_replay_error": 0.0,
+  "paired_child_trajectory_rows": 48000,
+  "rows": [
+    {
+      "seed": 76101,
+      "kind": "parent",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76102,
+      "kind": "parent",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76103,
+      "kind": "parent",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76104,
+      "kind": "parent",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76105,
+      "kind": "parent",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76106,
+      "kind": "parent",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76107,
+      "kind": "parent",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76108,
+      "kind": "parent",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76101,
+      "condition": "sender_live",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76101,
+      "condition": "sender_scrambled",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76101,
+      "condition": "sender_silent",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76101,
+      "condition": "worker_live",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76101,
+      "condition": "worker_scrambled",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76101,
+      "condition": "worker_silent",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76102,
+      "condition": "sender_live",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76102,
+      "condition": "sender_scrambled",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76102,
+      "condition": "sender_silent",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76102,
+      "condition": "worker_live",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76102,
+      "condition": "worker_scrambled",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76102,
+      "condition": "worker_silent",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76103,
+      "condition": "sender_live",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76103,
+      "condition": "sender_scrambled",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76103,
+      "condition": "sender_silent",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76103,
+      "condition": "worker_live",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76103,
+      "condition": "worker_scrambled",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76103,
+      "condition": "worker_silent",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76104,
+      "condition": "sender_live",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76104,
+      "condition": "sender_scrambled",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76104,
+      "condition": "sender_silent",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76104,
+      "condition": "worker_live",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76104,
+      "condition": "worker_scrambled",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76104,
+      "condition": "worker_silent",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76105,
+      "condition": "sender_live",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76105,
+      "condition": "sender_scrambled",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76105,
+      "condition": "sender_silent",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76105,
+      "condition": "worker_live",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76105,
+      "condition": "worker_scrambled",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76105,
+      "condition": "worker_silent",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76106,
+      "condition": "sender_live",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76106,
+      "condition": "sender_scrambled",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76106,
+      "condition": "sender_silent",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76106,
+      "condition": "worker_live",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76106,
+      "condition": "worker_scrambled",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76106,
+      "condition": "worker_silent",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76107,
+      "condition": "sender_live",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76107,
+      "condition": "sender_scrambled",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76107,
+      "condition": "sender_silent",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76107,
+      "condition": "worker_live",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76107,
+      "condition": "worker_scrambled",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76107,
+      "condition": "worker_silent",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76108,
+      "condition": "sender_live",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76108,
+      "condition": "sender_scrambled",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76108,
+      "condition": "sender_silent",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76108,
+      "condition": "worker_live",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76108,
+      "condition": "worker_scrambled",
+      "max_error": 0.0
+    },
+    {
+      "seed": 76108,
+      "condition": "worker_silent",
+      "max_error": 0.0
+    }
+  ]
+}

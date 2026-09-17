@@ -1,0 +1,87 @@
+{
+  "schema": "generation_transmission_v1",
+  "prepared_sha256": "846bffe310ddbe16231298f6315ae0b28701fefd2097a867e51f59e67cde338b",
+  "sources": {
+    "research_program/generation_transmission_study/__init__.py": "b38583d98634f95defbf53f6e139eab8ae9f887580a367a3f9fbae9b4cfcf2d7",
+    "research_program/generation_transmission_study/README.md": "99053276e8b2b65984a2cda5b11ec51a1831be8f066ad25913f6a9376c8b3ad1",
+    "research_program/generation_transmission_study/design.py": "5ad682561f23bcac25f3e566f0079fd0b00e375879b0851277f55b04909e65c1",
+    "research_program/generation_transmission_study/policy.py": "9b5296e99cf06377e066015cca37fb2bea64a33c6a3a57b976faac40b96917b7",
+    "research_program/generation_transmission_study/environment.py": "e3f6ac600d0af9fe13d83f9124dcb4b1d6f09edd68edf524ed8db3e8368fd883",
+    "research_program/generation_transmission_study/runner.py": "b3c345f01fafe09a4224f2d3d19f020e3f17ba8151ee4b228d1a86ec2ca54e38",
+    "research_program/generation_transmission_study/aggregate.py": "9475d52a6384d10c447c78e31a9fe54d03e369ee50425d5f27e3d129785fb640",
+    "research_program/generation_transmission_study/audit.py": "a02a091b4bbafb7b721766551cbd45826f9ea321abd41cdf59a8511514b73190",
+    "research_program/generation_transmission_study/plan.md": "a2a7db8421afec15e5e9fb08d0cdbfc35b17ad1ff9e85c789cfddc66e1039a49",
+    "research_program/generation_transmission_study/tests/test_game.py": "5598130b8c795decb058a25bebe1db0dc90fb0b0109e6c1792b53d66c3e8e516"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.2.6"
+  },
+  "config": {
+    "schema": "generation_transmission_v1",
+    "horizon": 5,
+    "action_start": 1,
+    "alphabet_size": 6,
+    "null_message": 6,
+    "actions": [
+      "wait",
+      "take_site0",
+      "take_site1"
+    ],
+    "workers": 4,
+    "capacity": 4,
+    "target_worker": 0,
+    "seeds": [
+      76101,
+      76102,
+      76103,
+      76104,
+      76105,
+      76106,
+      76107,
+      76108
+    ],
+    "conditions": [
+      "worker_live",
+      "worker_silent",
+      "worker_scrambled",
+      "sender_live",
+      "sender_silent",
+      "sender_scrambled"
+    ],
+    "updates": 3000,
+    "batch_size": 512,
+    "learning_rate": 0.08,
+    "entropy_initial": 0.01,
+    "entropy_zero_after": 5000,
+    "checkpoints": [
+      0,
+      500,
+      1000,
+      2000,
+      3000
+    ],
+    "runtime_policy": "float64 NumPy only",
+    "parent_phase": "rotating hidden-partner population trained live from scratch",
+    "replacement": "replace worker 0 or the sender after parent checkpoint; freeze the complementary side",
+    "channels": {
+      "live": "natural selected token delivered",
+      "silent": "NULL delivered while outcome rewards remain",
+      "scrambled": "a fresh random cyclic symbol offset is applied per episode"
+    },
+    "pairing": "parent and all child channel arms share phase-specific worlds, targets, partners, message/action uniforms and scramble draws",
+    "no_teacher_or_language_prior": true,
+    "primary_readouts": [
+      "new-agent natural return",
+      "live-minus-silent",
+      "live-minus-scrambled",
+      "learning-curve AUC",
+      "parent-code fidelity"
+    ],
+    "interpretation_boundary": "successful recovery is protocol transmission, not natural-language semantics or syntax",
+    "runs": 48,
+    "parent_runs": 8,
+    "child_runs": 48,
+    "evaluation_episodes_per_worker": 4096
+  }
+}

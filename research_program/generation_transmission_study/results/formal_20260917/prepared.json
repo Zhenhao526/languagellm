@@ -1,0 +1,67 @@
+{
+  "schema": "generation_transmission_v1",
+  "horizon": 5,
+  "action_start": 1,
+  "alphabet_size": 6,
+  "null_message": 6,
+  "actions": [
+    "wait",
+    "take_site0",
+    "take_site1"
+  ],
+  "workers": 4,
+  "capacity": 4,
+  "target_worker": 0,
+  "seeds": [
+    76101,
+    76102,
+    76103,
+    76104,
+    76105,
+    76106,
+    76107,
+    76108
+  ],
+  "conditions": [
+    "worker_live",
+    "worker_silent",
+    "worker_scrambled",
+    "sender_live",
+    "sender_silent",
+    "sender_scrambled"
+  ],
+  "updates": 3000,
+  "batch_size": 512,
+  "learning_rate": 0.08,
+  "entropy_initial": 0.01,
+  "entropy_zero_after": 5000,
+  "checkpoints": [
+    0,
+    500,
+    1000,
+    2000,
+    3000
+  ],
+  "runtime_policy": "float64 NumPy only",
+  "parent_phase": "rotating hidden-partner population trained live from scratch",
+  "replacement": "replace worker 0 or the sender after parent checkpoint; freeze the complementary side",
+  "channels": {
+    "live": "natural selected token delivered",
+    "silent": "NULL delivered while outcome rewards remain",
+    "scrambled": "a fresh random cyclic symbol offset is applied per episode"
+  },
+  "pairing": "parent and all child channel arms share phase-specific worlds, targets, partners, message/action uniforms and scramble draws",
+  "no_teacher_or_language_prior": true,
+  "primary_readouts": [
+    "new-agent natural return",
+    "live-minus-silent",
+    "live-minus-scrambled",
+    "learning-curve AUC",
+    "parent-code fidelity"
+  ],
+  "interpretation_boundary": "successful recovery is protocol transmission, not natural-language semantics or syntax",
+  "runs": 48,
+  "parent_runs": 8,
+  "child_runs": 48,
+  "evaluation_episodes_per_worker": 4096
+}
