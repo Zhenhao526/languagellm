@@ -17,6 +17,7 @@
 - [重复意义下的冗余压力正式归档](research_program/shared_redundancy_study/)
 - [重复意义压力曲线正式归档](research_program/repetition_pressure_study/)
 - [八意义容量压力正式归档](research_program/meaning_capacity_study/)
+- [生态因子化与新组合传递正式归档](research_program/ecological_factorization_study/)
 - [population signaling 源代码与紧凑结果](research_program/population_signaling_study/)
 - [本轮同步与清理说明](SYNC_2026-09-17.md)
 

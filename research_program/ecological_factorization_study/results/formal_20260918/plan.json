@@ -1,0 +1,197 @@
+{
+  "schema": "ecological_factorization_study_v1",
+  "prepared_sha256": "cee1c8201533596da61cb950329d45c84b15957a6bd2bdd46b79b0f3d8cb03eb",
+  "sources": {
+    "research_program/ecological_factorization_study/__init__.py": "3d4e88f180bd37702345abb2fda2beedfb88634a353e3057db1f9c9e45874b24",
+    "research_program/ecological_factorization_study/README.md": "20b24a1a2e3766a17bf2975277a947c14be426d0ce7419428e78375550fa8a1f",
+    "research_program/ecological_factorization_study/design.py": "be38cc434cbe2ae84322721a9d5e05f5c59b37d23c6585681dcfb47c99c3e515",
+    "research_program/ecological_factorization_study/policy.py": "c65cea540f35b8e437469481f6eea3a6c66f004b91db1e66a74de1eb3ef6068f",
+    "research_program/ecological_factorization_study/environment.py": "51f9d013ecc4e9de8c3218a6e43e98ff5e263b99313350362e1b982416f2dd25",
+    "research_program/ecological_factorization_study/runner.py": "f5bc8ceddd3d0f4969c5ff2f25c3baa734c4f98156bfa1edd338319a99a0b1f9",
+    "research_program/ecological_factorization_study/aggregate.py": "39881e1a322a756aaaf34cf5e44f832fc9807c61dc0ad8fd95f488d81bb74d32",
+    "research_program/ecological_factorization_study/audit.py": "afa94ae979cc9f7429b1a589edbfb6087c372e6bba4117e15d9703d6cd44cee7",
+    "research_program/ecological_factorization_study/plan.md": "59b73c76c789a19712483337efb27bd505f726fd8ca3e053f39afd4a9b4f258e",
+    "research_program/ecological_factorization_study/tests/test_game.py": "7380d5de76b5c32d151350d7276462a6ac167e958ddcaf90d5489df23ce23211"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.2.6"
+  },
+  "config": {
+    "schema": "ecological_factorization_study_v1",
+    "horizon": 6,
+    "action_start": 2,
+    "subtasks": 2,
+    "steps_per_subtask": 2,
+    "object_types": 3,
+    "forms": {
+      "mono9": {
+        "alphabet_size": 9,
+        "length": 1,
+        "state_count_joint_history": 10,
+        "state_count_slot_local": null,
+        "arrival_times": [
+          1
+        ]
+      },
+      "tri3": {
+        "alphabet_size": 3,
+        "length": 2,
+        "state_count_joint_history": 10,
+        "state_count_slot_local": 4,
+        "arrival_times": [
+          1,
+          3
+        ]
+      }
+    },
+    "tasks": [
+      "factorized",
+      "holistic"
+    ],
+    "representations": [
+      "joint_history",
+      "slot_local"
+    ],
+    "supports": [
+      "full",
+      "leave_one_out"
+    ],
+    "channels": [
+      "live",
+      "silent"
+    ],
+    "partner_mode": "rotating",
+    "partner_visibility": "hidden",
+    "workers": 4,
+    "capacity": 2,
+    "actions": [
+      "wait",
+      "take_site0",
+      "take_site1",
+      "take_site2"
+    ],
+    "seeds": [
+      78101,
+      78102,
+      78103,
+      78104,
+      78105,
+      78106,
+      78107,
+      78108,
+      78109
+    ],
+    "parent_conditions": [
+      "mono9_factorized",
+      "mono9_holistic",
+      "tri3_factorized",
+      "tri3_holistic"
+    ],
+    "child_conditions": [
+      "joint_history_mono9_factorized_full_live",
+      "joint_history_mono9_factorized_full_silent",
+      "joint_history_mono9_factorized_leave_one_out_live",
+      "joint_history_mono9_factorized_leave_one_out_silent",
+      "joint_history_mono9_holistic_full_live",
+      "joint_history_mono9_holistic_full_silent",
+      "joint_history_mono9_holistic_leave_one_out_live",
+      "joint_history_mono9_holistic_leave_one_out_silent",
+      "joint_history_tri3_factorized_full_live",
+      "joint_history_tri3_factorized_full_silent",
+      "joint_history_tri3_factorized_leave_one_out_live",
+      "joint_history_tri3_factorized_leave_one_out_silent",
+      "joint_history_tri3_holistic_full_live",
+      "joint_history_tri3_holistic_full_silent",
+      "joint_history_tri3_holistic_leave_one_out_live",
+      "joint_history_tri3_holistic_leave_one_out_silent",
+      "slot_local_tri3_factorized_full_live",
+      "slot_local_tri3_factorized_full_silent",
+      "slot_local_tri3_factorized_leave_one_out_live",
+      "slot_local_tri3_factorized_leave_one_out_silent",
+      "slot_local_tri3_holistic_full_live",
+      "slot_local_tri3_holistic_full_silent",
+      "slot_local_tri3_holistic_leave_one_out_live",
+      "slot_local_tri3_holistic_leave_one_out_silent"
+    ],
+    "updates": 3000,
+    "batch_size": 512,
+    "learning_rate": 0.08,
+    "entropy_initial": 0.01,
+    "entropy_zero_after": 5000,
+    "checkpoints": [
+      0,
+      500,
+      1000,
+      2000,
+      3000
+    ],
+    "goal_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "holistic_target_map": [
+      4,
+      0,
+      8,
+      2,
+      7,
+      1,
+      6,
+      3,
+      5
+    ],
+    "heldout_assignment": {
+      "78101": 0,
+      "78102": 1,
+      "78103": 2,
+      "78104": 3,
+      "78105": 4,
+      "78106": 5,
+      "78107": 6,
+      "78108": 7,
+      "78109": 8
+    },
+    "pairing": "forms, tasks, representation, support and live/silent arms share site permutations, goals, partners, message uniforms and action uniforms wherever the factor is held fixed",
+    "zero_shot_rule": "leave-one-out live heldout natural team return >= 0.60",
+    "no_teacher_or_language_prior": true,
+    "parent_runs": 36,
+    "child_runs": 216,
+    "runs": 252,
+    "runtime_policy": "float64 NumPy only"
+  }
+}

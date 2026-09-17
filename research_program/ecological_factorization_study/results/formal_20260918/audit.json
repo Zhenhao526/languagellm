@@ -1,0 +1,50 @@
+{
+  "schema": "ecological_factorization_audit_v1_merged",
+  "status": "passed",
+  "parts": [
+    {
+      "schema": "ecological_factorization_audit_v1",
+      "status": "passed",
+      "parent_runs": 12,
+      "child_runs": 72,
+      "parent_training_log_rows": 36000,
+      "child_training_log_rows": 216000,
+      "parent_checkpoints": 48,
+      "child_checkpoints": 288,
+      "paired_child_trajectory_rows": 108000,
+      "max_abs_replay_error": 0.0
+    },
+    {
+      "schema": "ecological_factorization_audit_v1",
+      "status": "passed",
+      "parent_runs": 12,
+      "child_runs": 72,
+      "parent_training_log_rows": 36000,
+      "child_training_log_rows": 216000,
+      "parent_checkpoints": 48,
+      "child_checkpoints": 288,
+      "paired_child_trajectory_rows": 108000,
+      "max_abs_replay_error": 0.0
+    },
+    {
+      "schema": "ecological_factorization_audit_v1",
+      "status": "passed",
+      "parent_runs": 12,
+      "child_runs": 72,
+      "parent_training_log_rows": 36000,
+      "child_training_log_rows": 216000,
+      "parent_checkpoints": 48,
+      "child_checkpoints": 288,
+      "paired_child_trajectory_rows": 108000,
+      "max_abs_replay_error": 0.0
+    }
+  ],
+  "parent_runs": 36,
+  "child_runs": 216,
+  "parent_training_log_rows": 108000,
+  "child_training_log_rows": 648000,
+  "parent_checkpoints": 144,
+  "child_checkpoints": 864,
+  "paired_child_trajectory_rows": 324000,
+  "max_abs_replay_error": 0.0
+}
