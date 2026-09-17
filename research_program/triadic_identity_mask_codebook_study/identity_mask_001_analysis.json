@@ -1,0 +1,153 @@
+{
+  "audit": {
+    "evaluation_count": 160,
+    "max_metric_recompute_error": 0.0,
+    "nonfinite_arrays": 0,
+    "plan_sha256": "7e756560657b2b959a6b79d8969f8ee7bdbd75e3b0e10e3363092311ba7cbf5b",
+    "prepared_sha256": "1e6ed13b914ebcb12906edbb1a8ffe212f15ba67378de2a2ab7a53a070ea3528",
+    "result_sha256": "3be15a23899ce7c1ebe29b99f0c0d50ed1d9d04d517a9d5e0dc885b769ffdf68",
+    "route_and_wire_checks": "passed",
+    "run_count": 24,
+    "schema": "triadic_identity_mask_audit_v1",
+    "status": "passed",
+    "training_log_rows": 28800
+  },
+  "design_sha256": "1e6ed13b914ebcb12906edbb1a8ffe212f15ba67378de2a2ab7a53a070ea3528",
+  "endpoint_worlds": 8244,
+  "experiment": "identity_mask_001",
+  "primary_measure": "masked_public_private_interaction",
+  "primary_statistics": {
+    "ci95_pp": [
+      -5.988209380067903,
+      4.108054115633164
+    ],
+    "mean_pp": -0.9400776322173697,
+    "positive_seeds": 2,
+    "sd_pp": 3.1724851036256734,
+    "values_pp": [
+      -1.855895196506549,
+      1.8801552644347408,
+      -5.021834061135372,
+      1.2372634643377012
+    ]
+  },
+  "result_sha256": "3be15a23899ce7c1ebe29b99f0c0d50ed1d9d04d517a9d5e0dc885b769ffdf68",
+  "schema": "triadic_identity_mask_codebook_analysis_v1",
+  "secondary_statistics": {
+    "masked_live_gain_private": {
+      "ci95_pp": [
+        -5.233014962796194,
+        13.92418429807033
+      ],
+      "mean_pp": 4.345584667637069,
+      "positive_seeds": 4,
+      "sd_pp": 6.019645714294785,
+      "values_pp": [
+        2.4017467248908297,
+        13.294517224648228,
+        0.4488112566715191,
+        1.2372634643376998
+      ]
+    },
+    "masked_live_gain_public": {
+      "ci95_pp": [
+        -9.946064143096415,
+        16.757078213935813
+      ],
+      "mean_pp": 3.4055070354196997,
+      "positive_seeds": 3,
+      "sd_pp": 8.390759748272398,
+      "values_pp": [
+        0.5458515283842807,
+        15.174672489082969,
+        -4.573022804463853,
+        2.474526928675401
+      ]
+    },
+    "stable_public_minus_private": {
+      "ci95_pp": [
+        -10.475607901653236,
+        1.0020513756949616
+      ],
+      "mean_pp": -4.736778262979137,
+      "positive_seeds": 0,
+      "sd_pp": 3.6065523742900036,
+      "values_pp": [
+        -2.438136826783113,
+        -8.090732654051436,
+        -7.520621057738963,
+        -0.8976225133430382
+      ]
+    },
+    "stable_route_private_gain": {
+      "ci95_pp": [
+        -6.189262153933423,
+        20.290426637193974
+      ],
+      "mean_pp": 7.050582241630277,
+      "positive_seeds": 4,
+      "sd_pp": 8.320545345737546,
+      "values_pp": [
+        4.815623483745754,
+        19.3110140708394,
+        3.068898592916061,
+        1.006792819019893
+      ]
+    },
+    "stable_route_public_gain": {
+      "ci95_pp": [
+        -8.1593843103087,
+        12.78699226761098
+      ],
+      "mean_pp": 2.3138039786511393,
+      "positive_seeds": 3,
+      "sd_pp": 6.5818476010138625,
+      "values_pp": [
+        2.377486656962641,
+        11.220281416787964,
+        -4.451722464822902,
+        0.10917030567685476
+      ]
+    }
+  },
+  "source_budget": "completed",
+  "summary_sha256": "0aecca7471d0457dbec2d81a7f54bc659fce0db9630df949153ef6fa664fab07",
+  "trajectory_interaction_pp": {
+    "0": {
+      "mean_pp": -0.02729257641921398,
+      "values_pp": [
+        -0.0970402717127608,
+        -0.0363901018922853,
+        0.048520135856380396,
+        -0.024260067928190198
+      ]
+    },
+    "100": {
+      "mean_pp": 0.8733624454148471,
+      "values_pp": [
+        0.13343037360504517,
+        2.6564774381368284,
+        0.4852013585638054,
+        0.21834061135370952
+      ]
+    },
+    "1200": {
+      "mean_pp": -0.9400776322173696,
+      "values_pp": [
+        -1.855895196506549,
+        1.8801552644347408,
+        -5.021834061135372,
+        1.2372634643377012
+      ]
+    },
+    "500": {
+      "mean_pp": 0.609534206695779,
+      "values_pp": [
+        0.9582726831635136,
+        -0.6671518680252286,
+        2.66860747210092,
+        -0.521591460456089
+      ]
+    }
+  }
+}

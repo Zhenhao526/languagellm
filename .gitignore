@@ -27,6 +27,7 @@
 # High-volume generated experiment artifacts
 **/results/
 **/execution/
+**/artifacts/
 **/correction_*/
 **/summary_*/
 **/data/
