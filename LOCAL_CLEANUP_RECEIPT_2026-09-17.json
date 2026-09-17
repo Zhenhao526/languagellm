@@ -3,7 +3,7 @@
   "timestamp_local": "2026-09-18",
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
-  "remote_commit_verified_after_sync": "1dae42cc5e870a5f8e76fd2f9e1f3aa21f5312d",
+  "remote_commit_verified_after_sync": "4e3f9e98d13c5aae02c3b0c9b9f6e4e8cd0bde85",
   "remote_main_verified": true,
   "compact_archives_verified": {
     "research_program/action_dependent_signaling_study/results/formal_20260917": {
@@ -858,7 +858,7 @@
         "kind": "tree"
       }
     ],
-    "verified_after_remote_commit": "1dae42cc5e870a5f8e76fd2f9e1f3aa21f5312d",
+    "verified_after_remote_commit": "4e3f9e98d13c5aae02c3b0c9b9f6e4e8cd0bde85",
     "current_batch": {
       "removed_file_or_tree_count": 25,
       "removed_bytes": 4987434931,
@@ -889,7 +889,7 @@
         "/private/tmp/mcs_smoke_out",
         "/private/tmp/mcs_smoke_prepared"
       ],
-      "verified_after_remote_commit": "1dae42cc5e870a5f8e76fd2f9e1f3aa21f5312d",
+      "verified_after_remote_commit": "4e3f9e98d13c5aae02c3b0c9b9f6e4e8cd0bde85",
       "archive": "research_program/meaning_capacity_study/results/formal_20260918",
       "archive_stats": {
         "files": 8,
@@ -1073,7 +1073,7 @@
       "/private/tmp/mcs_smoke_out",
       "/private/tmp/mcs_smoke_prepared"
     ],
-    "verified_after_remote_commit": "1dae42cc5e870a5f8e76fd2f9e1f3aa21f5312d",
+    "verified_after_remote_commit": "4e3f9e98d13c5aae02c3b0c9b9f6e4e8cd0bde85",
     "archive": "research_program/meaning_capacity_study/results/formal_20260918",
     "archive_stats": {
       "files": 8,
