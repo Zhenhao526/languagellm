@@ -8,6 +8,9 @@ The four-seed fixed-role confirmation is summarized in
 [fixed_002_confirmatory_结果与下一步.md](fixed_002_confirmatory_结果与下一步.md);
 raw executions stay local and `audit.py` performs the independent checks.
 
+The FI ability control is summarized in
+[fixed_004_fi_control_结果与下一步.md](fixed_004_fi_control_结果与下一步.md).
+
 Run the invariant tests from the repository root:
 
 ```bash
