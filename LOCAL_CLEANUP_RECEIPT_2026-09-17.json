@@ -3,7 +3,7 @@
   "timestamp_local": "2026-09-17",
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
-  "remote_commit_verified_after_sync": "283fcfb5eea4bfbf2f0b5c2ff2ba42fb8450be7c",
+  "remote_commit_verified_after_sync": "757faddc0b39c833e5f9c2f257867e82c2a6a8ce",
   "remote_main_verified": true,
   "compact_archives_verified": {
     "research_program/tabular_signaling_study/results/formal_20260917": {
@@ -37,6 +37,10 @@
     "research_program/population_signaling_study/results/formal_20260917": {
       "files": 11,
       "bytes": 4219273
+    },
+    "research_program/multi_generation_transmission_study/results/formal_20260917": {
+      "files": 11,
+      "bytes": 429349
     }
   },
   "raw_execution_trees_removed": {
@@ -72,6 +76,9 @@
     },
     "research_program/receiver_representation_study/results/receiver_formal_exec": {
       "present": false
+    },
+    "research_program/multi_generation_transmission_study/results/mgt_formal_exec": {
+      "present": false
     }
   },
   "temporary_raw_trees_removed": [
@@ -82,7 +89,14 @@
     "/tmp/action_dep_parent_repr",
     "/tmp/heldout_prepared_full_v3",
     "/tmp/action_dep_rebuilt_prepared",
-    "/tmp/rr_prepared_full"
+    "/tmp/rr_prepared_full",
+    "/tmp/mgt_formal_out",
+    "/tmp/mgt_formal_prepared",
+    "/tmp/mgt_parent_out",
+    "/tmp/mgt_parent_prepared",
+    "/tmp/mgt_smoke_parent",
+    "/tmp/mgt_smoke_prepared",
+    "/tmp/mgt_smoke_out"
   ],
   "tracked_paths_pruned_in_commit": 8338,
   "git_history_preserved": true,
@@ -126,28 +140,103 @@
     },
     "研究报告_共同符号形成机制_2026-09-17.md": {
       "files": 1,
-      "bytes": 26619
+      "bytes": 28396
     },
     "README.md": {
       "files": 1,
-      "bytes": 1076
+      "bytes": 1163
     },
     "research_program/README.md": {
       "files": 1,
-      "bytes": 1826
+      "bytes": 2023
     },
     "SYNC_2026-09-17.md": {
       "files": 1,
-      "bytes": 5981
+      "bytes": 6614
     },
     "STORAGE_POLICY.md": {
       "files": 1,
       "bytes": 1436
+    },
+    "research_program/multi_generation_transmission_study": {
+      "files": 19,
+      "bytes": 473034
     }
   },
   "local_environment": {
-    "files": 1089,
-    "bytes": 104249635
+    "files": 1200,
+    "bytes": 106899269
   },
-  "retention_policy": "source code, frozen plans, compact results, audit receipts, final report and local runtime only; raw process trees and literature caches are not kept in the working tree"
+  "retention_policy": "source code, frozen plans, compact results, audit receipts, final report and local runtime only; raw process trees and literature caches are not kept in the working tree",
+  "additional_cleanup": {
+    "removed_file_or_tree_count": 16,
+    "removed_bytes": 4408627848,
+    "removed_paths": [
+      {
+        "path": "/private/tmp/tabular_PI_stateless_silent",
+        "bytes": 143272829
+      },
+      {
+        "path": "/private/tmp/tabular_formal_key",
+        "bytes": 571224606
+      },
+      {
+        "path": "/private/tmp/tabular_FI_persistent",
+        "bytes": 571903096
+      },
+      {
+        "path": "/private/tmp/factorial_payoff_eval.npz",
+        "bytes": 148850367
+      },
+      {
+        "path": "/private/tmp/population_formal_paired",
+        "bytes": 214125839
+      },
+      {
+        "path": "/private/tmp/population_formal_invalid",
+        "bytes": 403379968
+      },
+      {
+        "path": "/private/tmp/population_formal_init_invalid",
+        "bytes": 462045922
+      },
+      {
+        "path": "/private/tmp/population_formal_final",
+        "bytes": 967829887
+      },
+      {
+        "path": "/private/tmp/population_smoke",
+        "bytes": 968660
+      },
+      {
+        "path": "/private/tmp/partner_switch_smoke",
+        "bytes": 35569806
+      },
+      {
+        "path": "/private/tmp/gct_smoke",
+        "bytes": 239114
+      },
+      {
+        "path": "/private/tmp/gct_formal_full_audit.json",
+        "bytes": 377769
+      },
+      {
+        "path": "/private/tmp/languagellm_restore",
+        "bytes": 350422601
+      },
+      {
+        "path": "/private/tmp/language_remote_current",
+        "bytes": 386311881
+      },
+      {
+        "path": "/private/tmp/language_jdk_range",
+        "bytes": 106151769
+      },
+      {
+        "path": "/private/tmp/language_gradle49.zip",
+        "bytes": 45953734
+      }
+    ],
+    "verified_after_remote_commit": "9ce96c026aea69444c899f053b3aac08ede941e9"
+  }
 }

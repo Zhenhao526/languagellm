@@ -1,0 +1,10 @@
+{
+  "schema": "multi_generation_transmission_audit_v1",
+  "status": "passed",
+  "runs": 108,
+  "training_log_rows": 324000,
+  "final_checkpoints": 108,
+  "paired_channel_trajectory_rows": 108000,
+  "stage2_parent_links": 72,
+  "max_abs_replay_error": 0.0
+}

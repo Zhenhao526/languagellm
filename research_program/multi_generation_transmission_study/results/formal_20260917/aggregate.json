@@ -1,0 +1,3874 @@
+{
+  "schema": "multi_generation_transmission_analysis_v1",
+  "parent_composable_seeds": [
+    76103,
+    76104,
+    76105,
+    76106,
+    76112,
+    76113,
+    76120,
+    76122,
+    76129
+  ],
+  "rule": {
+    "natural_min": 0.6,
+    "absolute_recombined_gap_max": 0.02
+  },
+  "rows": [
+    {
+      "seed": 76103,
+      "generation": 1,
+      "lineage": "worker_then_sender",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666666,
+      "silent": 0.21351035404141613,
+      "permuted": 0.26336005344021374,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76103,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666666,
+      "silent": 0.21751968503937008,
+      "permuted": 0.24507874015748032,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76103,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "live",
+      "channel": "silent",
+      "natural": 0.3439140419947506,
+      "silent": 0.21751968503937008,
+      "permuted": 0.24876968503937005,
+      "recombined_minus_natural": 0.10908792650918647,
+      "semantic_success": 0.28125,
+      "sender_sequences": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76103,
+      "generation": 1,
+      "lineage": "worker_then_sender",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": 0.12320474281897126,
+      "silent": 0.2558450233800935,
+      "permuted": 0.13468603874415497,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.09375,
+      "sender_sequences": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76103,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "silent",
+      "channel": "live",
+      "natural": 0.08087270341207349,
+      "silent": 0.25041010498687666,
+      "permuted": 0.10260826771653543,
+      "recombined_minus_natural": -0.04080544619422572,
+      "semantic_success": 0.140625,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76103,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": 0.16588746719160105,
+      "silent": 0.25041010498687666,
+      "permuted": 0.1421013779527559,
+      "recombined_minus_natural": 0.04363517060367453,
+      "semantic_success": 0.15625,
+      "sender_sequences": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76103,
+      "generation": 1,
+      "lineage": "sender_then_worker",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666666,
+      "silent": 0.15460086840347362,
+      "permuted": 0.26336005344021374,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76103,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666666,
+      "silent": 0.15973589238845143,
+      "permuted": 0.24507874015748032,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76103,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "live",
+      "channel": "silent",
+      "natural": 0.08181594488188976,
+      "silent": 0.2530757874015748,
+      "permuted": 0.17888779527559054,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.078125,
+      "sender_sequences": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76103,
+      "generation": 1,
+      "lineage": "sender_then_worker",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": 0.3689879759519038,
+      "silent": 0.15460086840347362,
+      "permuted": 0.2412324649298597,
+      "recombined_minus_natural": -0.12191048764195059,
+      "semantic_success": 0.15625,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76103,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "silent",
+      "channel": "live",
+      "natural": 0.3576525590551181,
+      "silent": 0.15973589238845143,
+      "permuted": 0.25143536745406825,
+      "recombined_minus_natural": -0.10806266404199477,
+      "semantic_success": 0.234375,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76103,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": 0.1360728346456693,
+      "silent": 0.2530757874015748,
+      "permuted": 0.1813894356955381,
+      "recombined_minus_natural": 0.01935695538057744,
+      "semantic_success": 0.125,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76104,
+      "generation": 1,
+      "lineage": "worker_then_sender",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666665,
+      "silent": 0.1653944020356234,
+      "permuted": 0.23330152671755724,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76104,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666664,
+      "silent": 0.15045617464972305,
+      "permuted": 0.26099706744868034,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76104,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "live",
+      "channel": "silent",
+      "natural": 0.13962202671880092,
+      "silent": 0.15045617464972305,
+      "permuted": 0.24551971326164873,
+      "recombined_minus_natural": 0.11037797328119908,
+      "semantic_success": 0.1875,
+      "sender_sequences": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76104,
+      "generation": 1,
+      "lineage": "worker_then_sender",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": -0.01964058524173028,
+      "silent": 0.24960241730279897,
+      "permuted": 0.11673027989821882,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.03125,
+      "sender_sequences": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76104,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "silent",
+      "channel": "live",
+      "natural": 0.16703323558162267,
+      "silent": 0.25162919517758225,
+      "permuted": 0.11856467904855002,
+      "recombined_minus_natural": -0.0743727598566308,
+      "semantic_success": 0.125,
+      "sender_sequences": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76104,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": 0.12992831541218636,
+      "silent": 0.25162919517758225,
+      "permuted": 0.10418703160638643,
+      "recombined_minus_natural": -0.0541707396546106,
+      "semantic_success": 0.046875,
+      "sender_sequences": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76104,
+      "generation": 1,
+      "lineage": "sender_then_worker",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666665,
+      "silent": 0.1941793893129771,
+      "permuted": 0.23330152671755724,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76104,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666664,
+      "silent": 0.18002606712284133,
+      "permuted": 0.26099706744868034,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76104,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "live",
+      "channel": "silent",
+      "natural": 0.28001792114695345,
+      "silent": 0.2559058325187357,
+      "permuted": 0.2010019550342131,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.171875,
+      "sender_sequences": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76104,
+      "generation": 1,
+      "lineage": "sender_then_worker",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": 0.1430502544529262,
+      "silent": 0.1941793893129771,
+      "permuted": 0.2527830788804071,
+      "recombined_minus_natural": -0.3097169211195928,
+      "semantic_success": 0.21875,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76104,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "silent",
+      "channel": "live",
+      "natural": 0.24490876507005535,
+      "silent": 0.18002606712284133,
+      "permuted": 0.2522401433691756,
+      "recombined_minus_natural": 0.11037797328119911,
+      "semantic_success": 0.171875,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76104,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": 0.19994297816878465,
+      "silent": 0.2559058325187357,
+      "permuted": 0.20678559791463016,
+      "recombined_minus_natural": -0.08031932225480613,
+      "semantic_success": 0.171875,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76105,
+      "generation": 1,
+      "lineage": "worker_then_sender",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666665,
+      "silent": 0.21724446614583334,
+      "permuted": 0.26708984375,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76105,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666665,
+      "silent": 0.2190418679549114,
+      "permuted": 0.2528180354267311,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76105,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "live",
+      "channel": "silent",
+      "natural": 0.26368760064412233,
+      "silent": 0.2190418679549114,
+      "permuted": 0.27012882447665054,
+      "recombined_minus_natural": -0.004830917874396101,
+      "semantic_success": 0.125,
+      "sender_sequences": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76105,
+      "generation": 1,
+      "lineage": "worker_then_sender",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": 0.19722493489583331,
+      "silent": 0.24043782552083331,
+      "permuted": 0.17106119791666669,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.109375,
+      "sender_sequences": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76105,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "silent",
+      "channel": "live",
+      "natural": 0.20390499194847023,
+      "silent": 0.24295491143317227,
+      "permuted": 0.19267310789049918,
+      "recombined_minus_natural": 0.010024154589371947,
+      "semantic_success": 0.15625,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76105,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": 0.15193236714975844,
+      "silent": 0.24295491143317227,
+      "permuted": 0.153743961352657,
+      "recombined_minus_natural": -0.029549114331723025,
+      "semantic_success": 0.125,
+      "sender_sequences": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76105,
+      "generation": 1,
+      "lineage": "sender_then_worker",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666665,
+      "silent": 0.24532063802083331,
+      "permuted": 0.26708984375,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76105,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666665,
+      "silent": 0.12391304347826088,
+      "permuted": 0.2528180354267311,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76105,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "live",
+      "channel": "silent",
+      "natural": 0.4412238325281803,
+      "silent": 0.2538244766505636,
+      "permuted": 0.20853462157809982,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.234375,
+      "sender_sequences": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76105,
+      "generation": 1,
+      "lineage": "sender_then_worker",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": 0.03759765625,
+      "silent": 0.24532063802083331,
+      "permuted": 0.24104817708333331,
+      "recombined_minus_natural": -0.20426432291666663,
+      "semantic_success": 0.1875,
+      "sender_sequences": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76105,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "silent",
+      "channel": "live",
+      "natural": 0.4257246376811594,
+      "silent": 0.12391304347826088,
+      "permuted": 0.2646940418679549,
+      "recombined_minus_natural": 0.14311594202898548,
+      "semantic_success": 0.1875,
+      "sender_sequences": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76105,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": 0.06876006441223832,
+      "silent": 0.2538244766505636,
+      "permuted": 0.1852657004830918,
+      "recombined_minus_natural": -0.10108695652173913,
+      "semantic_success": 0.125,
+      "sender_sequences": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76106,
+      "generation": 1,
+      "lineage": "worker_then_sender",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666666,
+      "silent": 0.09647435897435898,
+      "permuted": 0.2548076923076923,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76106,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666665,
+      "silent": 0.09688706563706563,
+      "permuted": 0.254021879021879,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76106,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "live",
+      "channel": "silent",
+      "natural": 0.24597812097812097,
+      "silent": 0.09688706563706563,
+      "permuted": 0.24597812097812097,
+      "recombined_minus_natural": 0.004021879021879032,
+      "semantic_success": 0.25,
+      "sender_sequences": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76106,
+      "generation": 1,
+      "lineage": "worker_then_sender",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": 0.10665064102564104,
+      "silent": 0.2427884615384615,
+      "permuted": 0.13365384615384615,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.09375,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76106,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "silent",
+      "channel": "live",
+      "natural": 0.18971203346203347,
+      "silent": 0.2530164092664093,
+      "permuted": 0.15118243243243243,
+      "recombined_minus_natural": 0.034226190476190466,
+      "semantic_success": 0.171875,
+      "sender_sequences": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76106,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": 0.1772442084942085,
+      "silent": 0.2530164092664093,
+      "permuted": 0.1446669884169884,
+      "recombined_minus_natural": 0.04669401544401544,
+      "semantic_success": 0.125,
+      "sender_sequences": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76106,
+      "generation": 1,
+      "lineage": "sender_then_worker",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666666,
+      "silent": 0.12267628205128205,
+      "permuted": 0.2548076923076923,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76106,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666665,
+      "silent": 0.1443050193050193,
+      "permuted": 0.254021879021879,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76106,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "live",
+      "channel": "silent",
+      "natural": 0.04761904761904762,
+      "silent": 0.2602557915057915,
+      "permuted": 0.1532738095238095,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.078125,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76106,
+      "generation": 1,
+      "lineage": "sender_then_worker",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": 0.1502403846153846,
+      "silent": 0.12267628205128205,
+      "permuted": 0.24799679487179488,
+      "recombined_minus_natural": 0.09975961538461539,
+      "semantic_success": 0.0625,
+      "sender_sequences": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76106,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "silent",
+      "channel": "live",
+      "natural": 0.2598536036036036,
+      "silent": 0.1443050193050193,
+      "permuted": 0.24135296010296012,
+      "recombined_minus_natural": -0.018701737451737477,
+      "semantic_success": 0.28125,
+      "sender_sequences": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76106,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": 0.20129504504504503,
+      "silent": 0.2602557915057915,
+      "permuted": 0.1488095238095238,
+      "recombined_minus_natural": 0.05208333333333337,
+      "semantic_success": 0.140625,
+      "sender_sequences": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76112,
+      "generation": 1,
+      "lineage": "worker_then_sender",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666666,
+      "silent": 0.12137330754352031,
+      "permuted": 0.25886524822695034,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76112,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666666,
+      "silent": 0.1310698621553885,
+      "permuted": 0.2413847117794486,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76112,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "live",
+      "channel": "silent",
+      "natural": 0.5574091478696742,
+      "silent": 0.1310698621553885,
+      "permuted": 0.24255952380952384,
+      "recombined_minus_natural": -0.09672619047619047,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76112,
+      "generation": 1,
+      "lineage": "worker_then_sender",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": 0.2936009026434559,
+      "silent": 0.2534252095422308,
+      "permuted": 0.20261121856866537,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.1875,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76112,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "silent",
+      "channel": "live",
+      "natural": 0.32460056390977443,
+      "silent": 0.23707706766917294,
+      "permuted": 0.19603696741854634,
+      "recombined_minus_natural": -0.0014880952380952883,
+      "semantic_success": 0.234375,
+      "sender_sequences": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76112,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": 0.29060933583959897,
+      "silent": 0.23707706766917294,
+      "permuted": 0.18836152882205515,
+      "recombined_minus_natural": -0.0014880952380952328,
+      "semantic_success": 0.1875,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76112,
+      "generation": 1,
+      "lineage": "sender_then_worker",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666666,
+      "silent": 0.1579626047711154,
+      "permuted": 0.25886524822695034,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76112,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666666,
+      "silent": 0.143718671679198,
+      "permuted": 0.2413847117794486,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76112,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "live",
+      "channel": "silent",
+      "natural": 0.050830200501253135,
+      "silent": 0.2386434837092732,
+      "permuted": 0.16243734335839596,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.046875,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76112,
+      "generation": 1,
+      "lineage": "sender_then_worker",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": 0.2419406834300451,
+      "silent": 0.1579626047711154,
+      "permuted": 0.24274661508704062,
+      "recombined_minus_natural": 0.2123629916183108,
+      "semantic_success": 0.1875,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76112,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "silent",
+      "channel": "live",
+      "natural": 0.24980419799498743,
+      "silent": 0.143718671679198,
+      "permuted": 0.24608395989974935,
+      "recombined_minus_natural": 0.05795739348370932,
+      "semantic_success": 0.21875,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76112,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": 0.13780545112781956,
+      "silent": 0.2386434837092732,
+      "permuted": 0.13937186716791983,
+      "recombined_minus_natural": -0.07914317042606517,
+      "semantic_success": 0.109375,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76113,
+      "generation": 1,
+      "lineage": "worker_then_sender",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666665,
+      "silent": 0.15228123935989105,
+      "permuted": 0.2734082397003745,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76113,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666665,
+      "silent": 0.15396715776550032,
+      "permuted": 0.2430939226519337,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76113,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "live",
+      "channel": "silent",
+      "natural": 0.35666052793124614,
+      "silent": 0.15396715776550032,
+      "permuted": 0.2569060773480663,
+      "recombined_minus_natural": -0.09016267648864335,
+      "semantic_success": 0.25,
+      "sender_sequences": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76113,
+      "generation": 1,
+      "lineage": "worker_then_sender",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": 0.12491487912836229,
+      "silent": 0.24914879128362274,
+      "permuted": 0.1279792305073204,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.078125,
+      "sender_sequences": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76113,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "silent",
+      "channel": "live",
+      "natural": 0.1444904849600982,
+      "silent": 0.2488489871086556,
+      "permuted": 0.15527163904235727,
+      "recombined_minus_natural": -0.004680785758133799,
+      "semantic_success": 0.140625,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76113,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": 0.18853591160220995,
+      "silent": 0.2488489871086556,
+      "permuted": 0.17422498465316147,
+      "recombined_minus_natural": -0.004680785758133799,
+      "semantic_success": 0.171875,
+      "sender_sequences": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76113,
+      "generation": 1,
+      "lineage": "sender_then_worker",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666665,
+      "silent": 0.1601974804221995,
+      "permuted": 0.2734082397003745,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76113,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666665,
+      "silent": 0.19287139349294047,
+      "permuted": 0.2430939226519337,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76113,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "live",
+      "channel": "silent",
+      "natural": 0.28054020871700425,
+      "silent": 0.24424493554327809,
+      "permuted": 0.17338090853284224,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.203125,
+      "sender_sequences": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76113,
+      "generation": 1,
+      "lineage": "sender_then_worker",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": 0.14104528430371127,
+      "silent": 0.1601974804221995,
+      "permuted": 0.24063670411985016,
+      "recombined_minus_natural": -0.09320735444330949,
+      "semantic_success": 0.1875,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76113,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "silent",
+      "channel": "live",
+      "natural": 0.18688612645794966,
+      "silent": 0.19287139349294047,
+      "permuted": 0.23925721301411912,
+      "recombined_minus_natural": -0.042395641497851466,
+      "semantic_success": 0.203125,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76113,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": 0.15005371393492942,
+      "silent": 0.24424493554327809,
+      "permuted": 0.18132289748311847,
+      "recombined_minus_natural": -0.05014579496623697,
+      "semantic_success": 0.140625,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76120,
+      "generation": 1,
+      "lineage": "worker_then_sender",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666665,
+      "silent": 0.09388083735909822,
+      "permuted": 0.2326892109500805,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76120,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666665,
+      "silent": 0.08952702702702703,
+      "permuted": 0.24597812097812097,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76120,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "live",
+      "channel": "silent",
+      "natural": 0.4543114543114543,
+      "silent": 0.08952702702702703,
+      "permuted": 0.254021879021879,
+      "recombined_minus_natural": 0.014076576576576572,
+      "semantic_success": 0.21875,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76120,
+      "generation": 1,
+      "lineage": "worker_then_sender",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": 0.13570853462157811,
+      "silent": 0.25583735909822863,
+      "permuted": 0.18562801932367148,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.15625,
+      "sender_sequences": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76120,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "silent",
+      "channel": "live",
+      "natural": 0.26878217503217505,
+      "silent": 0.24034749034749034,
+      "permuted": 0.1859314671814672,
+      "recombined_minus_natural": -0.026343307593307608,
+      "semantic_success": 0.21875,
+      "sender_sequences": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76120,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": 0.23741151866151866,
+      "silent": 0.24034749034749034,
+      "permuted": 0.18573037323037325,
+      "recombined_minus_natural": -0.007038288288288258,
+      "semantic_success": 0.234375,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76120,
+      "generation": 1,
+      "lineage": "sender_then_worker",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666665,
+      "silent": 0.22371175523349437,
+      "permuted": 0.2326892109500805,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76120,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666665,
+      "silent": 0.1179617117117117,
+      "permuted": 0.24597812097812097,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76120,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "live",
+      "channel": "silent",
+      "natural": 0.01138191763191763,
+      "silent": 0.24698359073359072,
+      "permuted": 0.14297779922779924,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.046875,
+      "sender_sequences": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76120,
+      "generation": 1,
+      "lineage": "sender_then_worker",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": 0.2427536231884058,
+      "silent": 0.22371175523349437,
+      "permuted": 0.24114331723027374,
+      "recombined_minus_natural": -0.19927536231884058,
+      "semantic_success": 0.25,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76120,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "silent",
+      "channel": "live",
+      "natural": 0.245978120978121,
+      "silent": 0.1179617117117117,
+      "permuted": 0.24959781209781212,
+      "recombined_minus_natural": 0.004424066924066883,
+      "semantic_success": 0.140625,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76120,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": 0.14378217503217502,
+      "silent": 0.24698359073359072,
+      "permuted": 0.14277670527670527,
+      "recombined_minus_natural": 0.12773487773487777,
+      "semantic_success": 0.125,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76122,
+      "generation": 1,
+      "lineage": "worker_then_sender",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666666,
+      "silent": 0.1523915921880172,
+      "permuted": 0.24379344587884808,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76122,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666666,
+      "silent": 0.15535993740219092,
+      "permuted": 0.25039123630672927,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76122,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "live",
+      "channel": "silent",
+      "natural": -0.07746478873239436,
+      "silent": 0.15535993740219092,
+      "permuted": 0.24178403755868544,
+      "recombined_minus_natural": -0.0892018779342723,
+      "semantic_success": 0.03125,
+      "sender_sequences": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76122,
+      "generation": 1,
+      "lineage": "worker_then_sender",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": 0.20485766302548825,
+      "silent": 0.2588960609069844,
+      "permuted": 0.15172955974842767,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.125,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76122,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "silent",
+      "channel": "live",
+      "natural": 0.16756651017214397,
+      "silent": 0.26154147104851333,
+      "permuted": 0.15062597809076683,
+      "recombined_minus_natural": -0.039984350547730835,
+      "semantic_success": 0.125,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76122,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": 0.10884194053208136,
+      "silent": 0.26154147104851333,
+      "permuted": 0.1486697965571205,
+      "recombined_minus_natural": -0.0019953051643192277,
+      "semantic_success": 0.09375,
+      "sender_sequences": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76122,
+      "generation": 1,
+      "lineage": "sender_then_worker",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666666,
+      "silent": 0.22269116186693147,
+      "permuted": 0.24379344587884808,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76122,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666666,
+      "silent": 0.2281298904538341,
+      "permuted": 0.25039123630672927,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76122,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "live",
+      "channel": "silent",
+      "natural": 0.13329420970266043,
+      "silent": 0.26271517996870114,
+      "permuted": 0.18470266040688577,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.171875,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76122,
+      "generation": 1,
+      "lineage": "sender_then_worker",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": 0.3559251903343264,
+      "silent": 0.22269116186693147,
+      "permuted": 0.26241310824230385,
+      "recombined_minus_natural": -0.10220125786163525,
+      "semantic_success": 0.28125,
+      "sender_sequences": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76122,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "silent",
+      "channel": "live",
+      "natural": 0.29870892018779344,
+      "silent": 0.2281298904538341,
+      "permuted": 0.2517605633802817,
+      "recombined_minus_natural": -0.033450704225352124,
+      "semantic_success": 0.265625,
+      "sender_sequences": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76122,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": 0.1618544600938967,
+      "silent": 0.26271517996870114,
+      "permuted": 0.17746478873239438,
+      "recombined_minus_natural": -0.0039514866979655505,
+      "semantic_success": 0.15625,
+      "sender_sequences": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76129,
+      "generation": 1,
+      "lineage": "worker_then_sender",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666665,
+      "silent": 0.19030989081567118,
+      "permuted": 0.2467886962106615,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76129,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666665,
+      "silent": 0.18755813953488373,
+      "permuted": 0.25503875968992246,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76129,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "live",
+      "channel": "silent",
+      "natural": 0.2596899224806201,
+      "silent": 0.18755813953488373,
+      "permuted": 0.2457364341085271,
+      "recombined_minus_natural": -0.2201550387596899,
+      "semantic_success": 0.15625,
+      "sender_sequences": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76129,
+      "generation": 1,
+      "lineage": "worker_then_sender",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": -0.020070648683365444,
+      "silent": 0.24598587026332688,
+      "permuted": 0.11062941554271034,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.015625,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76129,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "silent",
+      "channel": "live",
+      "natural": 0.045193798449612396,
+      "silent": 0.24457364341085266,
+      "permuted": 0.08089147286821705,
+      "recombined_minus_natural": -0.014961240310077513,
+      "semantic_success": 0.03125,
+      "sender_sequences": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76129,
+      "generation": 2,
+      "lineage": "worker_then_sender",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": 0.04244186046511628,
+      "silent": 0.24457364341085266,
+      "permuted": 0.08937984496124031,
+      "recombined_minus_natural": 0.06116279069767443,
+      "semantic_success": 0.0625,
+      "sender_sequences": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76129,
+      "generation": 1,
+      "lineage": "sender_then_worker",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666665,
+      "silent": 0.1848908156711625,
+      "permuted": 0.2467886962106615,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76129,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "live",
+      "channel": "live",
+      "natural": 0.6666666666666665,
+      "silent": 0.1534496124031008,
+      "permuted": 0.25503875968992246,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": true
+    },
+    {
+      "seed": 76129,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "live",
+      "channel": "silent",
+      "natural": 0.03686046511627908,
+      "silent": 0.2515503875968992,
+      "permuted": 0.16437984496124028,
+      "recombined_minus_natural": 0.0,
+      "semantic_success": 0.09375,
+      "sender_sequences": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76129,
+      "generation": 1,
+      "lineage": "sender_then_worker",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": -0.06310211946050097,
+      "silent": 0.1848908156711625,
+      "permuted": 0.24759152215799615,
+      "recombined_minus_natural": 0.10396596017983302,
+      "semantic_success": 0.0,
+      "sender_sequences": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76129,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "silent",
+      "channel": "live",
+      "natural": 0.5554263565891473,
+      "silent": 0.1534496124031008,
+      "permuted": 0.2577519379844961,
+      "recombined_minus_natural": -0.09728682170542635,
+      "semantic_success": 0.375,
+      "sender_sequences": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "composable": false
+    },
+    {
+      "seed": 76129,
+      "generation": 2,
+      "lineage": "sender_then_worker",
+      "g1_channel": "silent",
+      "channel": "silent",
+      "natural": 0.3073643410852713,
+      "silent": 0.2515503875968992,
+      "permuted": 0.1685658914728682,
+      "recombined_minus_natural": 0.0037984496124031653,
+      "semantic_success": 0.1875,
+      "sender_sequences": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "composable": false
+    }
+  ],
+  "groups": [
+    {
+      "lineage": "worker_then_sender",
+      "generation": 1,
+      "channel": "live",
+      "n": 9,
+      "natural_mean": 0.6666666666666665,
+      "natural_ci95_t": [
+        0.6666666666666664,
+        0.6666666666666666
+      ],
+      "recombined_minus_natural_mean": 0.0,
+      "recombined_minus_natural_ci95_t": [
+        0.0,
+        0.0
+      ],
+      "composable_count": 9,
+      "composable_rate": 1.0,
+      "semantic_success_mean": 0.375
+    },
+    {
+      "lineage": "worker_then_sender",
+      "generation": 1,
+      "channel": "silent",
+      "n": 9,
+      "natural_mean": 0.1273834515815816,
+      "natural_ci95_t": [
+        0.055281723526722906,
+        0.1994851796364403
+      ],
+      "recombined_minus_natural_mean": 0.0,
+      "recombined_minus_natural_ci95_t": [
+        0.0,
+        0.0
+      ],
+      "composable_count": 0,
+      "composable_rate": 0.0,
+      "semantic_success_mean": 0.09895833333333333
+    },
+    {
+      "lineage": "worker_then_sender",
+      "generation": 2,
+      "channel": "live",
+      "n": 18,
+      "natural_mean": 0.4217864720515557,
+      "natural_ci95_t": [
+        0.29178392999952074,
+        0.5517890141035907
+      ],
+      "recombined_minus_natural_mean": -0.00879920224625773,
+      "recombined_minus_natural_ci95_t": [
+        -0.020747233188879742,
+        0.0031488286963642833
+      ],
+      "composable_count": 9,
+      "composable_rate": 0.5,
+      "semantic_success_mean": 0.2621527777777778
+    },
+    {
+      "lineage": "worker_then_sender",
+      "generation": 2,
+      "channel": "silent",
+      "n": 18,
+      "natural_mean": 0.22425783219692638,
+      "natural_ci95_t": [
+        0.15021941828934018,
+        0.29829624610451255
+      ],
+      "recombined_minus_natural_mean": -0.011719038768564262,
+      "recombined_minus_natural_ci95_t": [
+        -0.05166365195435934,
+        0.028225574417230816
+      ],
+      "composable_count": 0,
+      "composable_rate": 0.0,
+      "semantic_success_mean": 0.17100694444444445
+    },
+    {
+      "lineage": "sender_then_worker",
+      "generation": 1,
+      "channel": "live",
+      "n": 9,
+      "natural_mean": 0.6666666666666665,
+      "natural_ci95_t": [
+        0.6666666666666664,
+        0.6666666666666666
+      ],
+      "recombined_minus_natural_mean": 0.0,
+      "recombined_minus_natural_ci95_t": [
+        0.0,
+        0.0
+      ],
+      "composable_count": 9,
+      "composable_rate": 1.0,
+      "semantic_success_mean": 0.375
+    },
+    {
+      "lineage": "sender_then_worker",
+      "generation": 1,
+      "channel": "silent",
+      "n": 9,
+      "natural_mean": 0.1798265481184669,
+      "natural_ci95_t": [
+        0.08010989632806527,
+        0.27954319990886856
+      ],
+      "recombined_minus_natural_mean": -0.06827634879102623,
+      "recombined_minus_natural_ci95_t": [
+        -0.19011389182030297,
+        0.05356119423825052
+      ],
+      "composable_count": 0,
+      "composable_rate": 0.0,
+      "semantic_success_mean": 0.1701388888888889
+    },
+    {
+      "lineage": "sender_then_worker",
+      "generation": 2,
+      "channel": "live",
+      "n": 18,
+      "natural_mean": 0.49027462708988523,
+      "natural_ci95_t": [
+        0.39086858756855936,
+        0.5896806666112111
+      ],
+      "recombined_minus_natural_mean": 0.000887655933088811,
+      "recombined_minus_natural_ci95_t": [
+        -0.029067423835876006,
+        0.03084273570205363
+      ],
+      "composable_count": 9,
+      "composable_rate": 0.5,
+      "semantic_success_mean": 0.3029513888888889
+    },
+    {
+      "lineage": "sender_then_worker",
+      "generation": 2,
+      "channel": "silent",
+      "n": 18,
+      "natural_mean": 0.1594730450772786,
+      "natural_ci95_t": [
+        0.10344832533758147,
+        0.21549776481697575
+      ],
+      "recombined_minus_natural_mean": -0.006204061933645622,
+      "recombined_minus_natural_ci95_t": [
+        -0.03181765366679869,
+        0.01940952979950744
+      ],
+      "composable_count": 0,
+      "composable_rate": 0.0,
+      "semantic_success_mean": 0.13368055555555555
+    }
+  ],
+  "effects": [
+    {
+      "lineage": "worker_then_sender",
+      "generation": 1,
+      "effect": "live-minus-silent",
+      "values": [
+        0.45315631262525047,
+        0.5012722646310431,
+        0.44942220052083315,
+        0.5701923076923077,
+        0.5452933591231464,
+        0.5143854273067755,
+        0.5727858293075683,
+        0.5142750744786494,
+        0.47635677585099534
+      ],
+      "mean": 0.5107932835040632,
+      "ci95_t": [
+        0.4780883202033295,
+        0.5434982468047969
+      ]
+    },
+    {
+      "lineage": "worker_then_sender",
+      "generation": 1,
+      "effect": "live-minus-permuted",
+      "values": [
+        0.4033066132264529,
+        0.4333651399491093,
+        0.3995768229166665,
+        0.41185897435897434,
+        0.4078014184397163,
+        0.39325842696629204,
+        0.433977455716586,
+        0.4228732207878185,
+        0.41987797045600506
+      ],
+      "mean": 0.4139884492019579,
+      "ci95_t": [
+        0.40368341998381596,
+        0.4242934784200998
+      ]
+    },
+    {
+      "lineage": "worker_then_sender",
+      "generation": 2,
+      "effect": "live-minus-silent",
+      "values": [
+        0.44914698162729655,
+        -0.16953740157480318,
+        0.5162104920169434,
+        -0.08459595959595959,
+        0.4476247987117551,
+        -0.039049919484702045,
+        0.5697796010296009,
+        -0.06330437580437581,
+        0.5355968045112781,
+        0.08752349624060149,
+        0.5126995089011662,
+        -0.10435850214855741,
+        0.5771396396396395,
+        0.028434684684684713,
+        0.5113067292644757,
+        -0.09397496087636936,
+        0.47910852713178276,
+        -0.19937984496124028
+      ],
+      "mean": 0.22002057218406762,
+      "ci95_t": [
+        0.06565304602048849,
+        0.37438809834764675
+      ]
+    },
+    {
+      "lineage": "worker_then_sender",
+      "generation": 2,
+      "effect": "live-minus-permuted",
+      "values": [
+        0.4215879265091863,
+        -0.02173556430446194,
+        0.40566959921798607,
+        0.04846855653307265,
+        0.4138486312399354,
+        0.011231884057971042,
+        0.4126447876447875,
+        0.03852960102960104,
+        0.42528195488721804,
+        0.1285635964912281,
+        0.4235727440147328,
+        -0.010781154082259076,
+        0.4206885456885455,
+        0.08285070785070786,
+        0.41627543035993736,
+        0.016940532081377135,
+        0.41162790697674406,
+        -0.03569767441860465
+      ],
+      "mean": 0.2227537784320947,
+      "ci95_t": [
+        0.12079573463086302,
+        0.3247118222333264
+      ]
+    },
+    {
+      "lineage": "sender_then_worker",
+      "generation": 1,
+      "effect": "live-minus-silent",
+      "values": [
+        0.512065798263193,
+        0.47248727735368945,
+        0.4213460286458332,
+        0.5439903846153846,
+        0.5087040618955512,
+        0.506469186244467,
+        0.4429549114331721,
+        0.44397550479973513,
+        0.481775850995504
+      ],
+      "mean": 0.4815298893607255,
+      "ci95_t": [
+        0.45311450112291635,
+        0.5099452775985346
+      ]
+    },
+    {
+      "lineage": "sender_then_worker",
+      "generation": 1,
+      "effect": "live-minus-permuted",
+      "values": [
+        0.4033066132264529,
+        0.4333651399491093,
+        0.3995768229166665,
+        0.41185897435897434,
+        0.4078014184397163,
+        0.39325842696629204,
+        0.433977455716586,
+        0.4228732207878185,
+        0.41987797045600506
+      ],
+      "mean": 0.4139884492019579,
+      "ci95_t": [
+        0.40368341998381596,
+        0.4242934784200998
+      ]
+    },
+    {
+      "lineage": "sender_then_worker",
+      "generation": 2,
+      "effect": "live-minus-silent",
+      "values": [
+        0.5069307742782152,
+        0.19791666666666669,
+        0.4866405995438251,
+        0.06488269794721402,
+        0.5427536231884056,
+        0.30181159420289855,
+        0.5223616473616473,
+        0.1155485842985843,
+        0.5229479949874687,
+        0.10608552631578944,
+        0.47379527317372605,
+        -0.005985267034990804,
+        0.5487049549549549,
+        0.12801640926640928,
+        0.4385367762128325,
+        0.07057902973395933,
+        0.5132170542635657,
+        0.4019767441860465
+      ],
+      "mean": 0.3298178157526232,
+      "ci95_t": [
+        0.22787251439347195,
+        0.43176311711177445
+      ]
+    },
+    {
+      "lineage": "sender_then_worker",
+      "generation": 2,
+      "effect": "live-minus-permuted",
+      "values": [
+        0.4215879265091863,
+        0.10621719160104987,
+        0.40566959921798607,
+        -0.007331378299120256,
+        0.4138486312399354,
+        0.1610305958132045,
+        0.4126447876447875,
+        0.018500643500643482,
+        0.42528195488721804,
+        0.003720238095238082,
+        0.4235727440147328,
+        -0.052371086556169455,
+        0.4206885456885455,
+        -0.0036196911196911263,
+        0.41627543035993736,
+        0.04694835680751175,
+        0.41162790697674406,
+        0.2976744186046512
+      ],
+      "mean": 0.24010926749924394,
+      "ci95_t": [
+        0.14132462126287765,
+        0.33889391373561023
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "lineage": "worker_then_sender",
+      "g1_channel": "live",
+      "g2_channel": "live",
+      "metric": "natural",
+      "generation2_minus_generation1_mean": 0.0,
+      "generation1_mean": 0.6666666666666665,
+      "generation2_mean": 0.6666666666666665
+    },
+    {
+      "lineage": "worker_then_sender",
+      "g1_channel": "live",
+      "g2_channel": "live",
+      "metric": "recombined_minus_natural",
+      "generation2_minus_generation1_mean": 0.0,
+      "generation1_mean": 0.0,
+      "generation2_mean": 0.0
+    },
+    {
+      "lineage": "worker_then_sender",
+      "g1_channel": "live",
+      "g2_channel": "silent",
+      "metric": "natural",
+      "generation2_minus_generation1_mean": -0.3840213273115115,
+      "generation1_mean": 0.6666666666666665,
+      "generation2_mean": 0.282645339355155
+    },
+    {
+      "lineage": "worker_then_sender",
+      "g1_channel": "live",
+      "g2_channel": "silent",
+      "metric": "recombined_minus_natural",
+      "generation2_minus_generation1_mean": -0.029279149571594547,
+      "generation1_mean": 0.0,
+      "generation2_mean": -0.029279149571594547
+    },
+    {
+      "lineage": "worker_then_sender",
+      "g1_channel": "silent",
+      "g2_channel": "live",
+      "metric": "natural",
+      "generation2_minus_generation1_mean": 0.049522825854863284,
+      "generation1_mean": 0.1273834515815816,
+      "generation2_mean": 0.17690627743644488
+    },
+    {
+      "lineage": "worker_then_sender",
+      "g1_channel": "silent",
+      "g2_channel": "live",
+      "metric": "recombined_minus_natural",
+      "generation2_minus_generation1_mean": -0.01759840449251546,
+      "generation1_mean": 0.0,
+      "generation2_mean": -0.01759840449251546
+    },
+    {
+      "lineage": "worker_then_sender",
+      "g1_channel": "silent",
+      "g2_channel": "silent",
+      "metric": "natural",
+      "generation2_minus_generation1_mean": 0.03848687345711613,
+      "generation1_mean": 0.1273834515815816,
+      "generation2_mean": 0.16587032503869772
+    },
+    {
+      "lineage": "worker_then_sender",
+      "g1_channel": "silent",
+      "g2_channel": "silent",
+      "metric": "recombined_minus_natural",
+      "generation2_minus_generation1_mean": 0.005841072034466028,
+      "generation1_mean": 0.0,
+      "generation2_mean": 0.005841072034466028
+    },
+    {
+      "lineage": "sender_then_worker",
+      "g1_channel": "live",
+      "g2_channel": "live",
+      "metric": "natural",
+      "generation2_minus_generation1_mean": 0.0,
+      "generation1_mean": 0.6666666666666665,
+      "generation2_mean": 0.6666666666666665
+    },
+    {
+      "lineage": "sender_then_worker",
+      "g1_channel": "live",
+      "g2_channel": "live",
+      "metric": "recombined_minus_natural",
+      "generation2_minus_generation1_mean": 0.0,
+      "generation1_mean": 0.0,
+      "generation2_mean": 0.0
+    },
+    {
+      "lineage": "sender_then_worker",
+      "g1_channel": "live",
+      "g2_channel": "silent",
+      "metric": "natural",
+      "generation2_minus_generation1_mean": -0.5151573613505348,
+      "generation1_mean": 0.6666666666666665,
+      "generation2_mean": 0.15150930531613174
+    },
+    {
+      "lineage": "sender_then_worker",
+      "g1_channel": "live",
+      "g2_channel": "silent",
+      "metric": "recombined_minus_natural",
+      "generation2_minus_generation1_mean": 0.0,
+      "generation1_mean": 0.0,
+      "generation2_mean": 0.0
+    },
+    {
+      "lineage": "sender_then_worker",
+      "g1_channel": "silent",
+      "g2_channel": "live",
+      "metric": "natural",
+      "generation2_minus_generation1_mean": 0.13405603939463703,
+      "generation1_mean": 0.1798265481184669,
+      "generation2_mean": 0.31388258751310394
+    },
+    {
+      "lineage": "sender_then_worker",
+      "g1_channel": "silent",
+      "g2_channel": "live",
+      "metric": "recombined_minus_natural",
+      "generation2_minus_generation1_mean": 0.07005166065720385,
+      "generation1_mean": -0.06827634879102623,
+      "generation2_mean": 0.001775311866177622
+    },
+    {
+      "lineage": "sender_then_worker",
+      "g1_channel": "silent",
+      "g2_channel": "silent",
+      "metric": "natural",
+      "generation2_minus_generation1_mean": -0.012389763280041433,
+      "generation1_mean": 0.1798265481184669,
+      "generation2_mean": 0.16743678483842547
+    },
+    {
+      "lineage": "sender_then_worker",
+      "g1_channel": "silent",
+      "g2_channel": "silent",
+      "metric": "recombined_minus_natural",
+      "generation2_minus_generation1_mean": 0.055868224923734985,
+      "generation1_mean": -0.06827634879102623,
+      "generation2_mean": -0.012408123867291246
+    }
+  ]
+}

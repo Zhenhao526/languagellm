@@ -1,0 +1,86 @@
+{
+  "schema": "multi_generation_transmission_study_v1",
+  "horizon": 6,
+  "action_start": 2,
+  "subtasks": 2,
+  "steps_per_subtask": 2,
+  "form": "dual2",
+  "partner_mode": "rotating",
+  "visibility": "hidden",
+  "task": "factorized",
+  "protocol": "staged",
+  "workers": 4,
+  "capacity": 2,
+  "target_worker": 0,
+  "seeds": [
+    76103,
+    76104,
+    76105,
+    76106,
+    76112,
+    76113,
+    76120,
+    76122,
+    76129
+  ],
+  "lineages": [
+    "worker_then_sender",
+    "sender_then_worker"
+  ],
+  "channels": [
+    "live",
+    "silent"
+  ],
+  "generations": [
+    1,
+    2
+  ],
+  "conditions": [
+    "worker_then_sender_g1live_g2live",
+    "worker_then_sender_g1live_g2silent",
+    "worker_then_sender_g1silent_g2live",
+    "worker_then_sender_g1silent_g2silent",
+    "sender_then_worker_g1live_g2live",
+    "sender_then_worker_g1live_g2silent",
+    "sender_then_worker_g1silent_g2live",
+    "sender_then_worker_g1silent_g2silent"
+  ],
+  "updates": 3000,
+  "batch_size": 512,
+  "learning_rate": 0.08,
+  "entropy_initial": 0.01,
+  "entropy_zero_after": 5000,
+  "checkpoints": [
+    0,
+    500,
+    1000,
+    2000,
+    3000
+  ],
+  "parent_condition": "dual2_rotating_hidden_live_factorized_staged",
+  "parent_root": "/private/tmp/mgt_parent_out/execution",
+  "parent_checkpoint_sha256": {
+    "76103": "173c31117692e4fec1f9836de58e1e229fa35d5186dab08d0bbaada221348bf6",
+    "76104": "c19cd0f5d934cd29fe6f5cc19d15ccc525f9d7e15cfc7010814e437376d9ea69",
+    "76105": "c66f0700150d01b635668281d2dfcb277346027c9c00c124d091569c532a5d43",
+    "76106": "fe21343fe542b48625d1e3a905f0033516e11dbff009057b90229034e1190fd4",
+    "76112": "9a64e2de80ebb45383ff9494838e2c881becddcfa2e8f2da0c91f861e3a71051",
+    "76113": "dfd3472de4eacace3a555ce99ee1a86f1d54eae4416573334e516ec2924f70a9",
+    "76120": "53214a9b725ecb3c143b44abfdbd82a4b747373eb8cccbbd3d3408c6e8ef7f16",
+    "76122": "961d7ab95e803504b89d76e8e56f3681ee02009862e2c1c95cf937c3c5721330",
+    "76129": "3b7fe0ed59796d05696747c6772ae9e493626f5967bbb0c1e7ee2207e1ad8086"
+  },
+  "parent_analysis_sha256": "b6c5169c19f69e59bd348a51b2b83231036f07131ee1b03dfe8fdc389e865e50",
+  "paired_design": "generation-1 live/silent and generation-2 live/silent arms share stage-specific worlds, goals, partners and uniforms",
+  "lineage_design": {
+    "worker_then_sender": "replace worker 0 with a slot-local receiver, then replace the sender while that receiver remains frozen",
+    "sender_then_worker": "replace the sender, then replace worker 0 with a slot-local receiver while the new sender remains frozen"
+  },
+  "replacement": "one component is newly initialized at each generation; the complementary components are inherited and frozen during that stage",
+  "composition_rule": "natural live return >= 0.60 and absolute recombined-minus-natural <= 0.02",
+  "no_teacher_or_language_prior": true,
+  "runs": 108,
+  "stage1_runs": 36,
+  "stage2_runs": 72,
+  "evaluation_episodes": 4096
+}
