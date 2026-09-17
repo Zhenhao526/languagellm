@@ -1,0 +1,5 @@
+# Meaning-capacity repetition curve
+
+The previous `shared4` result had only two hidden parity classes. This matrix repeats the same causal comparison with eight goal states and eight action stages. `unique8` uses eight distinct balanced Boolean functions; `repeat4` repeats four balanced meanings twice each; `shared8` repeats one three-bit parity eight times. All arms share horizon, action timing, partner rotation, hidden partner identity, learning rule and paired random streams.
+
+`triple2` exposes eight binary message states. `quad2` and `atomic16` expose sixteen raw states, so their difference isolates coordinate redundancy at equal capacity. Noise flips binary coordinates independently; atomic16 uses the matched probability that at least one of four coordinates would flip. A functional endpoint has natural return ≥ 0.60. A candidate additionally requires relevant code distance ≥ 2; `shared8` requires identical codewords within parity classes. The eight-class result is intended to test whether the earlier two-class positive survives higher semantic entropy.
