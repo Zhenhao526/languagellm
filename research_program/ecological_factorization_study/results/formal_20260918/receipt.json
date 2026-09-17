@@ -1,7 +1,7 @@
 {
   "schema": "ecological_factorization_receipt_v1",
   "created_local": "2026-09-18",
-  "source_plan_sha256": "0eb0325995c499eaca4190e0510b10bd0e68d40934c40fe782b6655344d6e17d",
+  "source_plan_sha256": "cee1c8201533596da61cb950329d45c84b15957a6bd2bdd46b79b0f3d8cb03eb",
   "formal_seeds": [
     78101,
     78102,
@@ -41,6 +41,5 @@
     "aggregate.md": "1d4c0d8b6a66245bc4fff6e0d360b21356459e19dfcf4869e126dbb518c6e948",
     "../../ecological_factorization_formal_结果与下一步.md": "5c0bff99fe5357eb8a596f2304361ec5935ef39354f1e79fab8b62e66a3cdf76"
   },
-  "analysis_note": "../../ecological_factorization_formal_结果与下一步.md",
-  "prepared_sha256": "cee1c8201533596da61cb950329d45c84b15957a6bd2bdd46b79b0f3d8cb03eb"
+  "analysis_note": "../../ecological_factorization_formal_结果与下一步.md"
 }

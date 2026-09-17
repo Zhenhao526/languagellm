@@ -24,3 +24,10 @@ acquired open vocabulary or human language.
 
 Raw execution trees are temporary. The formal archive stores frozen sources,
 compact results, replay audit, and the cleanup receipt.
+
+The formal 2026-09-18 matrix contains 36 parent and 216 child runs. Three
+independent shard replays passed with zero numerical error. Live communication
+improved full-support performance, but all nine seeds failed the pre-registered
+0.60 leave-one-combination-out endpoint; the detailed Chinese analysis is in
+[`ecological_factorization_formal_结果与下一步.md`](ecological_factorization_formal_结果与下一步.md),
+and compact results are in [`results/formal_20260918`](results/formal_20260918/).
