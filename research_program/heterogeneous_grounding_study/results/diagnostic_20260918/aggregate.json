@@ -1,0 +1,5162 @@
+{
+  "schema": "heterogeneous_grounding_analysis_v1",
+  "rule": {
+    "functional_natural_min": 0.6,
+    "primary": "leave-one-out live heldout natural return",
+    "population_intervention": "heterogeneous minus homogeneous"
+  },
+  "parents": [
+    {
+      "seed": 78301,
+      "population_mode": "heterogeneous",
+      "form": "dual2",
+      "task": "factorized",
+      "all_natural": 0.4592997233072917,
+      "all_permuted": 0.041742960611979164,
+      "all_natural_minus_permuted": 0.4175567626953125,
+      "live_minus_permuted": 0.4175567626953125,
+      "heldout_natural": 0.5881983439127604,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "final_parameter_sha256": "d8417e83bbcc6b4f3631ab70d302a8428e07e935ffa7540276c2dc9528c311b7"
+    },
+    {
+      "seed": 78301,
+      "population_mode": "heterogeneous",
+      "form": "mono4",
+      "task": "factorized",
+      "all_natural": 0.45833333333333326,
+      "all_permuted": 0.041666666666666685,
+      "all_natural_minus_permuted": 0.4166666666666666,
+      "live_minus_permuted": 0.4166666666666666,
+      "heldout_natural": 0.25,
+      "sender_codebook": [
+        [
+          3
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "final_parameter_sha256": "e1a8c0e16da80eef5e26b6d5bd7fe322415d01c82063345dd8bf3c378b7e32a1"
+    },
+    {
+      "seed": 78301,
+      "population_mode": "homogeneous",
+      "form": "dual2",
+      "task": "factorized",
+      "all_natural": 0.45922342936197913,
+      "all_permuted": 0.0416412353515625,
+      "all_natural_minus_permuted": 0.41758219401041663,
+      "live_minus_permuted": 0.41758219401041663,
+      "heldout_natural": 0.510340372721354,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "final_parameter_sha256": "eb31a406e577ed5af70e03adeb9e600d4c9ea16572da8535fb467c9bef4ab569"
+    },
+    {
+      "seed": 78301,
+      "population_mode": "homogeneous",
+      "form": "mono4",
+      "task": "factorized",
+      "all_natural": 0.45856221516927076,
+      "all_permuted": 0.04180653889973959,
+      "all_natural_minus_permuted": 0.41675567626953114,
+      "live_minus_permuted": 0.41675567626953114,
+      "heldout_natural": 0.38065338134765625,
+      "sender_codebook": [
+        [
+          3
+        ],
+        [
+          0
+        ],
+        [
+          3
+        ],
+        [
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "final_parameter_sha256": "3a3e660de352a4fb825b0ba15fe44bb44a2a7961803eb15214128910dc58f3cb"
+    }
+  ],
+  "parent_contrasts": [
+    {
+      "name": "heterogeneous_minus_homogeneous_parent_all",
+      "form": "mono4",
+      "task": "factorized",
+      "n": 1,
+      "mean": -0.0002288818359375,
+      "ci95_t": [
+        -0.0002288818359375,
+        -0.0002288818359375
+      ]
+    },
+    {
+      "name": "heterogeneous_minus_homogeneous_parent_message_gap",
+      "form": "mono4",
+      "task": "factorized",
+      "n": 1,
+      "mean": -8.900960286456483e-05,
+      "ci95_t": [
+        -8.900960286456483e-05,
+        -8.900960286456483e-05
+      ]
+    },
+    {
+      "name": "heterogeneous_minus_homogeneous_parent_all",
+      "form": "dual2",
+      "task": "factorized",
+      "n": 1,
+      "mean": 7.629394531255551e-05,
+      "ci95_t": [
+        7.629394531255551e-05,
+        7.629394531255551e-05
+      ]
+    },
+    {
+      "name": "heterogeneous_minus_homogeneous_parent_message_gap",
+      "form": "dual2",
+      "task": "factorized",
+      "n": 1,
+      "mean": -2.543131510412966e-05,
+      "ci95_t": [
+        -2.543131510412966e-05,
+        -2.543131510412966e-05
+      ]
+    }
+  ],
+  "children": [
+    {
+      "seed": 78301,
+      "condition": "homogeneous_joint_history_mono4_factorized_identity_full_live",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.3548787434895833,
+      "initial_heldout_natural": 0.08197021484375001,
+      "learning_gain": 0.2729085286458333,
+      "heldout_silent": 0.3548787434895833,
+      "heldout_permuted": 0.3548787434895833,
+      "all_natural": 0.45843505859374994,
+      "all_permuted": 0.04207356770833334,
+      "seen_natural": 0.49241129557291674,
+      "seen_permuted": 0.21510823567708331,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.41636149088541663,
+      "seen_natural_minus_permuted": 0.2773030598958334,
+      "functional": false,
+      "sender_codebook": [
+        [
+          3
+        ],
+        [
+          0
+        ],
+        [
+          3
+        ],
+        [
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "0dd7fbef2d3a65c483cc49065744a6908f131a77f8673a1fafe20fb959d3a058",
+      "recombined": null
+    },
+    {
+      "seed": 78301,
+      "condition": "homogeneous_joint_history_mono4_factorized_identity_full_silent",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": 0.45828247070312494,
+      "initial_heldout_natural": 0.14565022786458331,
+      "learning_gain": 0.31263224283854163,
+      "heldout_silent": 0.45828247070312494,
+      "heldout_permuted": 0.45828247070312494,
+      "all_natural": 0.24883015950520831,
+      "all_permuted": 0.24883015950520831,
+      "seen_natural": 0.18291219075520831,
+      "seen_permuted": 0.18291219075520831,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          3
+        ],
+        [
+          0
+        ],
+        [
+          3
+        ],
+        [
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "87e37f0fdf82276de41c1c36fba2a03ecc54df8574cf8cbbc91e1794ba4c1017",
+      "recombined": null
+    },
+    {
+      "seed": 78301,
+      "condition": "homogeneous_joint_history_mono4_factorized_identity_leave_one_out_live",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.25,
+      "initial_heldout_natural": 0.08197021484375001,
+      "learning_gain": 0.16802978515625,
+      "heldout_silent": 0.25,
+      "heldout_permuted": 0.25,
+      "all_natural": 0.45833333333333326,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.5278116861979167,
+      "seen_permuted": 0.2501017252604167,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.4166666666666666,
+      "seen_natural_minus_permuted": 0.27770996093750006,
+      "functional": false,
+      "sender_codebook": [
+        [
+          3
+        ],
+        [
+          0
+        ],
+        [
+          3
+        ],
+        [
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "8aadb5b7c44e78ae4e228f083d0a5dbb5ed5fd7915e0eea6f230ce163b0aa7bf",
+      "recombined": null
+    },
+    {
+      "seed": 78301,
+      "condition": "homogeneous_joint_history_mono4_factorized_identity_leave_one_out_silent",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": -0.06321207682291666,
+      "initial_heldout_natural": 0.14565022786458331,
+      "learning_gain": -0.20886230468749997,
+      "heldout_silent": -0.06321207682291666,
+      "heldout_permuted": -0.06321207682291666,
+      "all_natural": 0.24949137369791669,
+      "all_permuted": 0.24949137369791669,
+      "seen_natural": 0.35538736979166663,
+      "seen_permuted": 0.35538736979166663,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          3
+        ],
+        [
+          0
+        ],
+        [
+          3
+        ],
+        [
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "3bfad6aeab0d5ac2882c8941d3ac171409071ab883f3aaf2c3c91c2f558968f1",
+      "recombined": null
+    },
+    {
+      "seed": 78301,
+      "condition": "homogeneous_joint_history_mono4_factorized_swap_full_live",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.4583333333333332,
+      "initial_heldout_natural": 0.29033406575520837,
+      "learning_gain": 0.16799926757812483,
+      "heldout_silent": 0.4583333333333332,
+      "heldout_permuted": 0.4583333333333332,
+      "all_natural": 0.4587402343749999,
+      "all_permuted": 0.04176839192708333,
+      "seen_natural": 0.45777384440104163,
+      "seen_permuted": 0.179656982421875,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.4169718424479166,
+      "seen_natural_minus_permuted": 0.27811686197916663,
+      "functional": false,
+      "sender_codebook": [
+        [
+          3
+        ],
+        [
+          0
+        ],
+        [
+          3
+        ],
+        [
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "f177013e2e5a5dc590ca3b1eda9cabd25f9cc480c596043ad381a790303ef98e",
+      "recombined": null
+    },
+    {
+      "seed": 78301,
+      "condition": "homogeneous_joint_history_mono4_factorized_swap_full_silent",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": 0.2513224283854167,
+      "initial_heldout_natural": 0.041086832682291664,
+      "learning_gain": 0.21023559570312503,
+      "heldout_silent": 0.2513224283854167,
+      "heldout_permuted": 0.2513224283854167,
+      "all_natural": 0.24867757161458331,
+      "all_permuted": 0.24867757161458331,
+      "seen_natural": 0.25223795572916663,
+      "seen_permuted": 0.25223795572916663,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          3
+        ],
+        [
+          0
+        ],
+        [
+          3
+        ],
+        [
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "0463c2928c501c5553e788c21346076d9cd7c71de95ba79ce6fc85ce0611fb44",
+      "recombined": null
+    },
+    {
+      "seed": 78301,
+      "condition": "homogeneous_joint_history_mono4_factorized_swap_leave_one_out_live",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.25,
+      "initial_heldout_natural": 0.29033406575520837,
+      "learning_gain": -0.04033406575520837,
+      "heldout_silent": 0.25,
+      "heldout_permuted": 0.25,
+      "all_natural": 0.45833333333333326,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.5278116861979167,
+      "seen_permuted": 0.2501017252604167,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.4166666666666666,
+      "seen_natural_minus_permuted": 0.27770996093750006,
+      "functional": false,
+      "sender_codebook": [
+        [
+          3
+        ],
+        [
+          0
+        ],
+        [
+          3
+        ],
+        [
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "d2a4a862b5288b1616d88c29f93534e1ff9423a21e0a9eec1ceb34c7dc5fa632",
+      "recombined": null
+    },
+    {
+      "seed": 78301,
+      "condition": "homogeneous_joint_history_mono4_factorized_swap_leave_one_out_silent",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": -0.06321207682291666,
+      "initial_heldout_natural": 0.041086832682291664,
+      "learning_gain": -0.10429890950520831,
+      "heldout_silent": -0.06321207682291666,
+      "heldout_permuted": -0.06321207682291666,
+      "all_natural": 0.24949137369791669,
+      "all_permuted": 0.24949137369791669,
+      "seen_natural": 0.35538736979166663,
+      "seen_permuted": 0.35538736979166663,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          3
+        ],
+        [
+          0
+        ],
+        [
+          3
+        ],
+        [
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "a8e90721c40db8e6421a7ddf1fd7518ac12c55340715cc109dc03581e7af24eb",
+      "recombined": null
+    },
+    {
+      "seed": 78301,
+      "condition": "homogeneous_joint_history_dual2_factorized_identity_full_live",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.4583333333333332,
+      "initial_heldout_natural": 0.0005187988281250007,
+      "learning_gain": 0.4578145345052082,
+      "heldout_silent": 0.4583333333333332,
+      "heldout_permuted": 0.4583333333333332,
+      "all_natural": 0.4587402343749999,
+      "all_permuted": 0.04176839192708333,
+      "seen_natural": 0.45782470703124994,
+      "seen_permuted": 0.17970784505208331,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.4169718424479166,
+      "seen_natural_minus_permuted": 0.27811686197916663,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "00dd00c0d95729fdba5e73164a259bcfe1d7387d1fa3082b497c21d3ad3b39e8",
+      "recombined": 0.4583333333333332
+    },
+    {
+      "seed": 78301,
+      "condition": "homogeneous_joint_history_dual2_factorized_identity_full_silent",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": 0.35482788085937494,
+      "initial_heldout_natural": 0.290557861328125,
+      "learning_gain": 0.06427001953124994,
+      "heldout_silent": 0.35482788085937494,
+      "heldout_permuted": 0.35482788085937494,
+      "all_natural": 0.24933878580729166,
+      "all_permuted": 0.24933878580729166,
+      "seen_natural": 0.21637980143229166,
+      "seen_permuted": 0.21637980143229166,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "32fb4ff197e4996c46171c272c7a6f13ba0ec56b99b7af479b7f0a9fb0b8187f",
+      "recombined": null
+    },
+    {
+      "seed": 78301,
+      "condition": "homogeneous_joint_history_dual2_factorized_identity_leave_one_out_live",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.25,
+      "initial_heldout_natural": 0.0005187988281250007,
+      "learning_gain": 0.249481201171875,
+      "heldout_silent": 0.25,
+      "heldout_permuted": 0.25,
+      "all_natural": 0.45833333333333326,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.5278116861979167,
+      "seen_permuted": 0.2501017252604167,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.4166666666666666,
+      "seen_natural_minus_permuted": 0.27770996093750006,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "2a7c569eac59642d44886d7a5c6843a17a1bc753c38e798fb113c4cb4a7ad40b",
+      "recombined": 0.25
+    },
+    {
+      "seed": 78301,
+      "condition": "homogeneous_joint_history_dual2_factorized_identity_leave_one_out_silent",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": -0.16666666666666663,
+      "initial_heldout_natural": 0.290557861328125,
+      "learning_gain": -0.45722452799479163,
+      "heldout_silent": -0.16666666666666663,
+      "heldout_permuted": -0.16666666666666663,
+      "all_natural": 0.24999999999999997,
+      "all_permuted": 0.24999999999999997,
+      "seen_natural": 0.38885498046875,
+      "seen_permuted": 0.38885498046875,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "393ab35c5269af5da888636f47596d56ba748254494850fa8b4c81c41906c439",
+      "recombined": null
+    },
+    {
+      "seed": 78301,
+      "condition": "homogeneous_joint_history_dual2_factorized_swap_full_live",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.5632120768229167,
+      "initial_heldout_natural": 0.312591552734375,
+      "learning_gain": 0.25062052408854174,
+      "heldout_silent": 0.5632120768229167,
+      "heldout_permuted": 0.5632120768229167,
+      "all_natural": 0.4580281575520833,
+      "all_permuted": 0.04197184244791667,
+      "seen_natural": 0.42349243164062494,
+      "seen_permuted": 0.14659627278645831,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.41605631510416663,
+      "seen_natural_minus_permuted": 0.27689615885416663,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "501be0141a12413b42c3f5dec5e9bed103abf80abc93b6ac885f555da40d4789",
+      "recombined": 0.5632120768229167
+    },
+    {
+      "seed": 78301,
+      "condition": "homogeneous_joint_history_dual2_factorized_swap_full_silent",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": 0.251373291015625,
+      "initial_heldout_natural": 0.08301798502604167,
+      "learning_gain": 0.16835530598958331,
+      "heldout_silent": 0.251373291015625,
+      "heldout_permuted": 0.251373291015625,
+      "all_natural": 0.24984741210937497,
+      "all_permuted": 0.24984741210937497,
+      "seen_natural": 0.24994913736979166,
+      "seen_permuted": 0.24994913736979166,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "0e09e566abf6ad7be513203519b9041faf5108dd23426a0a70ba7444eb404ee8",
+      "recombined": null
+    },
+    {
+      "seed": 78301,
+      "condition": "homogeneous_joint_history_dual2_factorized_swap_leave_one_out_live",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.25,
+      "initial_heldout_natural": 0.312591552734375,
+      "learning_gain": -0.062591552734375,
+      "heldout_silent": 0.25,
+      "heldout_permuted": 0.25,
+      "all_natural": 0.45833333333333326,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.5278116861979167,
+      "seen_permuted": 0.2501017252604167,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.4166666666666666,
+      "seen_natural_minus_permuted": 0.27770996093750006,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "e1c93bf85f84cfadd3ada753bece3282277e5cd406791d3170c9a68263ad5601",
+      "recombined": 0.25
+    },
+    {
+      "seed": 78301,
+      "condition": "homogeneous_joint_history_dual2_factorized_swap_leave_one_out_silent",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": -0.06321207682291666,
+      "initial_heldout_natural": 0.08301798502604167,
+      "learning_gain": -0.14623006184895831,
+      "heldout_silent": -0.06321207682291666,
+      "heldout_permuted": -0.06321207682291666,
+      "all_natural": 0.24949137369791669,
+      "all_permuted": 0.24949137369791669,
+      "seen_natural": 0.35538736979166663,
+      "seen_permuted": 0.35538736979166663,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "271ed5bf85b48451fe8bb0de623dd7a88c25051dd2be295802dee78c2acedb44",
+      "recombined": null
+    },
+    {
+      "seed": 78301,
+      "condition": "homogeneous_slot_local_dual2_factorized_identity_full_live",
+      "population_mode": "homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.4583333333333332,
+      "initial_heldout_natural": 0.12495930989583333,
+      "learning_gain": 0.3333740234374999,
+      "heldout_silent": 0.4583333333333332,
+      "heldout_permuted": 0.4583333333333332,
+      "all_natural": 0.45833333333333326,
+      "all_permuted": 0.041666666666666664,
+      "seen_natural": 0.4583841959635417,
+      "seen_permuted": 0.18067423502604163,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.4166666666666666,
+      "seen_natural_minus_permuted": 0.27770996093750006,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "5bdfcdd5fc3e18b3d6bd3c0d79b965148e04c0f43f71eb4f19d8c76aeaa06d32",
+      "recombined": 0.4583333333333332
+    },
+    {
+      "seed": 78301,
+      "condition": "homogeneous_slot_local_dual2_factorized_identity_full_silent",
+      "population_mode": "homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": 0.356201171875,
+      "initial_heldout_natural": 0.14711507161458331,
+      "learning_gain": 0.20908610026041669,
+      "heldout_silent": 0.356201171875,
+      "heldout_permuted": 0.356201171875,
+      "all_natural": 0.24918619791666669,
+      "all_permuted": 0.24918619791666669,
+      "seen_natural": 0.21632893880208331,
+      "seen_permuted": 0.21632893880208331,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "2221bf234aaf096bb80438c6ca0b72a62e0c9a2d53fc40ba9323e0c3fd6e5704",
+      "recombined": null
+    },
+    {
+      "seed": 78301,
+      "condition": "homogeneous_slot_local_dual2_factorized_identity_leave_one_out_live",
+      "population_mode": "homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.25,
+      "initial_heldout_natural": 0.12495930989583333,
+      "learning_gain": 0.12504069010416669,
+      "heldout_silent": 0.25,
+      "heldout_permuted": 0.25,
+      "all_natural": 0.45833333333333326,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.5278116861979167,
+      "seen_permuted": 0.2501017252604167,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.4166666666666666,
+      "seen_natural_minus_permuted": 0.27770996093750006,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "c8fc8d8dd3f88e0572582c5efb45f7ff6b4a3fa33e55a340bccf32cec9702899",
+      "recombined": 0.25
+    },
+    {
+      "seed": 78301,
+      "condition": "homogeneous_slot_local_dual2_factorized_identity_leave_one_out_silent",
+      "population_mode": "homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": 0.04166666666666666,
+      "initial_heldout_natural": 0.14711507161458331,
+      "learning_gain": -0.10544840494791666,
+      "heldout_silent": 0.04166666666666666,
+      "heldout_permuted": 0.04166666666666666,
+      "all_natural": 0.24999999999999994,
+      "all_permuted": 0.24999999999999994,
+      "seen_natural": 0.3194783528645833,
+      "seen_permuted": 0.3194783528645833,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "83470368628fb5f4dbc69a4c8d47decb6bf0224402a17343b7f2332bc92c6e18",
+      "recombined": null
+    },
+    {
+      "seed": 78301,
+      "condition": "homogeneous_slot_local_dual2_factorized_swap_full_live",
+      "population_mode": "homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.4583333333333332,
+      "initial_heldout_natural": 0.12498982747395833,
+      "learning_gain": 0.3333435058593749,
+      "heldout_silent": 0.4583333333333332,
+      "heldout_permuted": 0.4583333333333332,
+      "all_natural": 0.45833333333333326,
+      "all_permuted": 0.041666666666666664,
+      "seen_natural": 0.4583841959635417,
+      "seen_permuted": 0.18067423502604163,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.4166666666666666,
+      "seen_natural_minus_permuted": 0.27770996093750006,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "4a759bb361fca5aaf5736b9c351fa54e1a94b653e75f96dcadb2477d9602585a",
+      "recombined": 0.4583333333333332
+    },
+    {
+      "seed": 78301,
+      "condition": "homogeneous_slot_local_dual2_factorized_swap_full_silent",
+      "population_mode": "homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": 0.3548787434895833,
+      "initial_heldout_natural": 0.042521158854166664,
+      "learning_gain": 0.31235758463541663,
+      "heldout_silent": 0.3548787434895833,
+      "heldout_permuted": 0.3548787434895833,
+      "all_natural": 0.2505086263020833,
+      "all_permuted": 0.2505086263020833,
+      "seen_natural": 0.2139892578125,
+      "seen_permuted": 0.2139892578125,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "bead926be6a8ddc1e37472c3ea0cb8ed7b1e6d9b135484a4fd6a6ed82ebc2405",
+      "recombined": null
+    },
+    {
+      "seed": 78301,
+      "condition": "homogeneous_slot_local_dual2_factorized_swap_leave_one_out_live",
+      "population_mode": "homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.25,
+      "initial_heldout_natural": 0.12498982747395833,
+      "learning_gain": 0.12501017252604169,
+      "heldout_silent": 0.25,
+      "heldout_permuted": 0.25,
+      "all_natural": 0.45833333333333326,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.5278116861979167,
+      "seen_permuted": 0.2501017252604167,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.4166666666666666,
+      "seen_natural_minus_permuted": 0.27770996093750006,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "51aa998108e7ffec33b44be5b987d0cfe832e963d8c1bd7cb4c7d05115095a98",
+      "recombined": 0.25
+    },
+    {
+      "seed": 78301,
+      "condition": "homogeneous_slot_local_dual2_factorized_swap_leave_one_out_silent",
+      "population_mode": "homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": -0.16666666666666663,
+      "initial_heldout_natural": 0.042521158854166664,
+      "learning_gain": -0.2091878255208333,
+      "heldout_silent": -0.16666666666666663,
+      "heldout_permuted": -0.16666666666666663,
+      "all_natural": 0.24999999999999997,
+      "all_permuted": 0.24999999999999997,
+      "seen_natural": 0.38885498046875,
+      "seen_permuted": 0.38885498046875,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "79c25c6fe5155278723b4bf10f3cf745c61d12236baecc9ed9575374c411e23c",
+      "recombined": null
+    },
+    {
+      "seed": 78301,
+      "condition": "heterogeneous_joint_history_mono4_factorized_identity_full_live",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.3548787434895833,
+      "initial_heldout_natural": 0.08197021484375001,
+      "learning_gain": 0.2729085286458333,
+      "heldout_silent": 0.3548787434895833,
+      "heldout_permuted": 0.3548787434895833,
+      "all_natural": 0.45843505859374994,
+      "all_permuted": 0.04207356770833334,
+      "seen_natural": 0.49241129557291674,
+      "seen_permuted": 0.21510823567708331,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.41636149088541663,
+      "seen_natural_minus_permuted": 0.2773030598958334,
+      "functional": false,
+      "sender_codebook": [
+        [
+          3
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "13c211838f427e31f02294a034dbd8d941882968d6f515868a07096a3762bb2e",
+      "recombined": null
+    },
+    {
+      "seed": 78301,
+      "condition": "heterogeneous_joint_history_mono4_factorized_identity_full_silent",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": 0.45828247070312494,
+      "initial_heldout_natural": 0.14565022786458331,
+      "learning_gain": 0.31263224283854163,
+      "heldout_silent": 0.45828247070312494,
+      "heldout_permuted": 0.45828247070312494,
+      "all_natural": 0.24883015950520831,
+      "all_permuted": 0.24883015950520831,
+      "seen_natural": 0.18291219075520831,
+      "seen_permuted": 0.18291219075520831,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          3
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "eeef8556afe2e0db710e40f8c8226790130d21828a957eec319d1018a200d0c0",
+      "recombined": null
+    },
+    {
+      "seed": 78301,
+      "condition": "heterogeneous_joint_history_mono4_factorized_identity_leave_one_out_live",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.25,
+      "initial_heldout_natural": 0.08197021484375001,
+      "learning_gain": 0.16802978515625,
+      "heldout_silent": 0.25,
+      "heldout_permuted": 0.25,
+      "all_natural": 0.45833333333333326,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.5278116861979167,
+      "seen_permuted": 0.2501017252604167,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.4166666666666666,
+      "seen_natural_minus_permuted": 0.27770996093750006,
+      "functional": false,
+      "sender_codebook": [
+        [
+          3
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "d4a37f6d64f8bda64da36fcb06cea97559fc2d3bda4a50e46d9195eefe302440",
+      "recombined": null
+    },
+    {
+      "seed": 78301,
+      "condition": "heterogeneous_joint_history_mono4_factorized_identity_leave_one_out_silent",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": -0.06321207682291666,
+      "initial_heldout_natural": 0.14565022786458331,
+      "learning_gain": -0.20886230468749997,
+      "heldout_silent": -0.06321207682291666,
+      "heldout_permuted": -0.06321207682291666,
+      "all_natural": 0.24949137369791669,
+      "all_permuted": 0.24949137369791669,
+      "seen_natural": 0.35538736979166663,
+      "seen_permuted": 0.35538736979166663,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          3
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "e351406aef4eb85835c142c04512b5a610e1437ad1510d53682ccac3ae5ba1b4",
+      "recombined": null
+    },
+    {
+      "seed": 78301,
+      "condition": "heterogeneous_joint_history_mono4_factorized_swap_full_live",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.4583333333333332,
+      "initial_heldout_natural": 0.29033406575520837,
+      "learning_gain": 0.16799926757812483,
+      "heldout_silent": 0.4583333333333332,
+      "heldout_permuted": 0.4583333333333332,
+      "all_natural": 0.45792643229166663,
+      "all_permuted": 0.04156494140624999,
+      "seen_natural": 0.458892822265625,
+      "seen_permuted": 0.18158976236979166,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.41636149088541663,
+      "seen_natural_minus_permuted": 0.27730305989583337,
+      "functional": false,
+      "sender_codebook": [
+        [
+          3
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "929e164bf8244cf942c9d28cbdd23a0e90be289db85910d0a1975c732d9d429c",
+      "recombined": null
+    },
+    {
+      "seed": 78301,
+      "condition": "heterogeneous_joint_history_mono4_factorized_swap_full_silent",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": 0.2513224283854167,
+      "initial_heldout_natural": 0.041086832682291664,
+      "learning_gain": 0.21023559570312503,
+      "heldout_silent": 0.2513224283854167,
+      "heldout_permuted": 0.2513224283854167,
+      "all_natural": 0.24867757161458331,
+      "all_permuted": 0.24867757161458331,
+      "seen_natural": 0.25223795572916663,
+      "seen_permuted": 0.25223795572916663,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          3
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "523b265d94b29e305bd62cf04585ae1350167332b27e3379eb2a36af596dec60",
+      "recombined": null
+    },
+    {
+      "seed": 78301,
+      "condition": "heterogeneous_joint_history_mono4_factorized_swap_leave_one_out_live",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.25,
+      "initial_heldout_natural": 0.29033406575520837,
+      "learning_gain": -0.04033406575520837,
+      "heldout_silent": 0.25,
+      "heldout_permuted": 0.25,
+      "all_natural": 0.45833333333333326,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.5278116861979167,
+      "seen_permuted": 0.2501017252604167,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.4166666666666666,
+      "seen_natural_minus_permuted": 0.27770996093750006,
+      "functional": false,
+      "sender_codebook": [
+        [
+          3
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "a9a217cb97d07e5ea2fe6a03494d9a31d2714fc45c30ecf9ab3f4016c2a3f951",
+      "recombined": null
+    },
+    {
+      "seed": 78301,
+      "condition": "heterogeneous_joint_history_mono4_factorized_swap_leave_one_out_silent",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": -0.06321207682291666,
+      "initial_heldout_natural": 0.041086832682291664,
+      "learning_gain": -0.10429890950520831,
+      "heldout_silent": -0.06321207682291666,
+      "heldout_permuted": -0.06321207682291666,
+      "all_natural": 0.24949137369791669,
+      "all_permuted": 0.24949137369791669,
+      "seen_natural": 0.35538736979166663,
+      "seen_permuted": 0.35538736979166663,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          3
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "e2dafe05585befce14d9287b4cbca5cad976ee27ded9f946256b0715767978c5",
+      "recombined": null
+    },
+    {
+      "seed": 78301,
+      "condition": "heterogeneous_joint_history_dual2_factorized_identity_full_live",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.4583333333333332,
+      "initial_heldout_natural": 0.0005187988281250007,
+      "learning_gain": 0.4578145345052082,
+      "heldout_silent": 0.4583333333333332,
+      "heldout_permuted": 0.4583333333333332,
+      "all_natural": 0.4587402343749999,
+      "all_permuted": 0.04176839192708333,
+      "seen_natural": 0.45782470703124994,
+      "seen_permuted": 0.17970784505208331,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.4169718424479166,
+      "seen_natural_minus_permuted": 0.27811686197916663,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "24b5db13dd4e2d8b8e3160a3825bf28ca8dadd436991dd1420381ce333f75a0d",
+      "recombined": 0.4583333333333332
+    },
+    {
+      "seed": 78301,
+      "condition": "heterogeneous_joint_history_dual2_factorized_identity_full_silent",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": 0.35482788085937494,
+      "initial_heldout_natural": 0.290557861328125,
+      "learning_gain": 0.06427001953124994,
+      "heldout_silent": 0.35482788085937494,
+      "heldout_permuted": 0.35482788085937494,
+      "all_natural": 0.24933878580729166,
+      "all_permuted": 0.24933878580729166,
+      "seen_natural": 0.21637980143229166,
+      "seen_permuted": 0.21637980143229166,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "d95aa2fdcc946b1b1bff6fec548f42eb1d741c283a0a86867f6c8ebe8e69ba66",
+      "recombined": null
+    },
+    {
+      "seed": 78301,
+      "condition": "heterogeneous_joint_history_dual2_factorized_identity_leave_one_out_live",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.25,
+      "initial_heldout_natural": 0.0005187988281250007,
+      "learning_gain": 0.249481201171875,
+      "heldout_silent": 0.25,
+      "heldout_permuted": 0.25,
+      "all_natural": 0.45833333333333326,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.5278116861979167,
+      "seen_permuted": 0.2501017252604167,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.4166666666666666,
+      "seen_natural_minus_permuted": 0.27770996093750006,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "2d3944cfc6b91949aadc4f5eef20405ae3fb20574b8a47a2d84c6916c32902f3",
+      "recombined": 0.25
+    },
+    {
+      "seed": 78301,
+      "condition": "heterogeneous_joint_history_dual2_factorized_identity_leave_one_out_silent",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": -0.16666666666666663,
+      "initial_heldout_natural": 0.290557861328125,
+      "learning_gain": -0.45722452799479163,
+      "heldout_silent": -0.16666666666666663,
+      "heldout_permuted": -0.16666666666666663,
+      "all_natural": 0.24999999999999997,
+      "all_permuted": 0.24999999999999997,
+      "seen_natural": 0.38885498046875,
+      "seen_permuted": 0.38885498046875,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "2de75d45a07d91e0dea8e860bcf58cf6636f77ff8378d924d1a9c09eb426eb64",
+      "recombined": null
+    },
+    {
+      "seed": 78301,
+      "condition": "heterogeneous_joint_history_dual2_factorized_swap_full_live",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.5632120768229167,
+      "initial_heldout_natural": 0.312591552734375,
+      "learning_gain": 0.25062052408854174,
+      "heldout_silent": 0.5632120768229167,
+      "heldout_permuted": 0.5632120768229167,
+      "all_natural": 0.45843505859374994,
+      "all_permuted": 0.04207356770833333,
+      "seen_natural": 0.42293294270833326,
+      "seen_permuted": 0.1456298828125,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.41636149088541663,
+      "seen_natural_minus_permuted": 0.27730305989583326,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "09d8d1cb39645c20be69a2cc9fa3467238929d5f33e465af9793be4f781254c7",
+      "recombined": 0.5632120768229167
+    },
+    {
+      "seed": 78301,
+      "condition": "heterogeneous_joint_history_dual2_factorized_swap_full_silent",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": 0.251373291015625,
+      "initial_heldout_natural": 0.08301798502604167,
+      "learning_gain": 0.16835530598958331,
+      "heldout_silent": 0.251373291015625,
+      "heldout_permuted": 0.251373291015625,
+      "all_natural": 0.24984741210937497,
+      "all_permuted": 0.24984741210937497,
+      "seen_natural": 0.24994913736979166,
+      "seen_permuted": 0.24994913736979166,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "796147a88024d7a298e7525bee69b1ce46e57275a6e6f953903ef9efc820021b",
+      "recombined": null
+    },
+    {
+      "seed": 78301,
+      "condition": "heterogeneous_joint_history_dual2_factorized_swap_leave_one_out_live",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.25,
+      "initial_heldout_natural": 0.312591552734375,
+      "learning_gain": -0.062591552734375,
+      "heldout_silent": 0.25,
+      "heldout_permuted": 0.25,
+      "all_natural": 0.45833333333333326,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.5278116861979167,
+      "seen_permuted": 0.2501017252604167,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.4166666666666666,
+      "seen_natural_minus_permuted": 0.27770996093750006,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "4efb254e5d76fd0f0da1ff560e66d968873650a9f39c76ffe5a3c71516f6743e",
+      "recombined": 0.25
+    },
+    {
+      "seed": 78301,
+      "condition": "heterogeneous_joint_history_dual2_factorized_swap_leave_one_out_silent",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": -0.06321207682291666,
+      "initial_heldout_natural": 0.08301798502604167,
+      "learning_gain": -0.14623006184895831,
+      "heldout_silent": -0.06321207682291666,
+      "heldout_permuted": -0.06321207682291666,
+      "all_natural": 0.24949137369791669,
+      "all_permuted": 0.24949137369791669,
+      "seen_natural": 0.35538736979166663,
+      "seen_permuted": 0.35538736979166663,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "78108640dd6ba9d2f84ddefc09e0b1d80021cee4eda31174975b70040ad0ee34",
+      "recombined": null
+    },
+    {
+      "seed": 78301,
+      "condition": "heterogeneous_slot_local_dual2_factorized_identity_full_live",
+      "population_mode": "heterogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.4583333333333332,
+      "initial_heldout_natural": 0.12495930989583333,
+      "learning_gain": 0.3333740234374999,
+      "heldout_silent": 0.4583333333333332,
+      "heldout_permuted": 0.4583333333333332,
+      "all_natural": 0.45833333333333326,
+      "all_permuted": 0.041666666666666664,
+      "seen_natural": 0.4583841959635417,
+      "seen_permuted": 0.18067423502604163,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.4166666666666666,
+      "seen_natural_minus_permuted": 0.27770996093750006,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "5152a92d4ec482e2ebd1b9fe32a637454ba8c7a6b440163f357381ad939321db",
+      "recombined": 0.4583333333333332
+    },
+    {
+      "seed": 78301,
+      "condition": "heterogeneous_slot_local_dual2_factorized_identity_full_silent",
+      "population_mode": "heterogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": 0.356201171875,
+      "initial_heldout_natural": 0.14711507161458331,
+      "learning_gain": 0.20908610026041669,
+      "heldout_silent": 0.356201171875,
+      "heldout_permuted": 0.356201171875,
+      "all_natural": 0.24918619791666669,
+      "all_permuted": 0.24918619791666669,
+      "seen_natural": 0.21632893880208331,
+      "seen_permuted": 0.21632893880208331,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "7632dbe67212dfee5b14c181421fe99dcdc44aea87c8b6058adf2d9c1d971151",
+      "recombined": null
+    },
+    {
+      "seed": 78301,
+      "condition": "heterogeneous_slot_local_dual2_factorized_identity_leave_one_out_live",
+      "population_mode": "heterogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.25,
+      "initial_heldout_natural": 0.12495930989583333,
+      "learning_gain": 0.12504069010416669,
+      "heldout_silent": 0.25,
+      "heldout_permuted": 0.25,
+      "all_natural": 0.45833333333333326,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.5278116861979167,
+      "seen_permuted": 0.2501017252604167,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.4166666666666666,
+      "seen_natural_minus_permuted": 0.27770996093750006,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "4091c888735f51c627475d2bd9f0caed21f4380e2ac2c8474e6c9deb7502cc10",
+      "recombined": 0.25
+    },
+    {
+      "seed": 78301,
+      "condition": "heterogeneous_slot_local_dual2_factorized_identity_leave_one_out_silent",
+      "population_mode": "heterogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": 0.04166666666666666,
+      "initial_heldout_natural": 0.14711507161458331,
+      "learning_gain": -0.10544840494791666,
+      "heldout_silent": 0.04166666666666666,
+      "heldout_permuted": 0.04166666666666666,
+      "all_natural": 0.24999999999999994,
+      "all_permuted": 0.24999999999999994,
+      "seen_natural": 0.3194783528645833,
+      "seen_permuted": 0.3194783528645833,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "400f6e0f11334d153b72377683ebc0745960ed6c1cc497a4dc3f9c4951931fde",
+      "recombined": null
+    },
+    {
+      "seed": 78301,
+      "condition": "heterogeneous_slot_local_dual2_factorized_swap_full_live",
+      "population_mode": "heterogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.4583333333333332,
+      "initial_heldout_natural": 0.12498982747395833,
+      "learning_gain": 0.3333435058593749,
+      "heldout_silent": 0.4583333333333332,
+      "heldout_permuted": 0.4583333333333332,
+      "all_natural": 0.45833333333333326,
+      "all_permuted": 0.041666666666666664,
+      "seen_natural": 0.4583841959635417,
+      "seen_permuted": 0.18067423502604163,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.4166666666666666,
+      "seen_natural_minus_permuted": 0.27770996093750006,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "2e25b32665980087e70ac5f294b4c7fa142db6274226b6b1f5965f3c8d16e42e",
+      "recombined": 0.4583333333333332
+    },
+    {
+      "seed": 78301,
+      "condition": "heterogeneous_slot_local_dual2_factorized_swap_full_silent",
+      "population_mode": "heterogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": 0.3548787434895833,
+      "initial_heldout_natural": 0.042521158854166664,
+      "learning_gain": 0.31235758463541663,
+      "heldout_silent": 0.3548787434895833,
+      "heldout_permuted": 0.3548787434895833,
+      "all_natural": 0.2505086263020833,
+      "all_permuted": 0.2505086263020833,
+      "seen_natural": 0.2139892578125,
+      "seen_permuted": 0.2139892578125,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "a630ede0bb1598df28e972ccd3860c57039b6955f6d2334b1c46a8254dbf3067",
+      "recombined": null
+    },
+    {
+      "seed": 78301,
+      "condition": "heterogeneous_slot_local_dual2_factorized_swap_leave_one_out_live",
+      "population_mode": "heterogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.25,
+      "initial_heldout_natural": 0.12498982747395833,
+      "learning_gain": 0.12501017252604169,
+      "heldout_silent": 0.25,
+      "heldout_permuted": 0.25,
+      "all_natural": 0.45833333333333326,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.5278116861979167,
+      "seen_permuted": 0.2501017252604167,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.4166666666666666,
+      "seen_natural_minus_permuted": 0.27770996093750006,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "3150e4cb06e11c7b28b69e10cdc791ea0c6fe0b511774ca01d18422faeaad9d9",
+      "recombined": 0.25
+    },
+    {
+      "seed": 78301,
+      "condition": "heterogeneous_slot_local_dual2_factorized_swap_leave_one_out_silent",
+      "population_mode": "heterogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": -0.16666666666666663,
+      "initial_heldout_natural": 0.042521158854166664,
+      "learning_gain": -0.2091878255208333,
+      "heldout_silent": -0.16666666666666663,
+      "heldout_permuted": -0.16666666666666663,
+      "all_natural": 0.24999999999999997,
+      "all_permuted": 0.24999999999999997,
+      "seen_natural": 0.38885498046875,
+      "seen_permuted": 0.38885498046875,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "sender_parameter_sha256": "b5a5d5bc112100e518b57e9d69aca80897c08ab5200a72781849542208b4c4ff",
+      "recombined": null
+    }
+  ],
+  "groups": [
+    {
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "n": 1,
+      "heldout_natural_mean": 0.3548787434895833,
+      "heldout_natural_ci95_t": [
+        0.3548787434895833,
+        0.3548787434895833
+      ],
+      "initial_heldout_natural_mean": 0.08197021484375001,
+      "learning_gain_mean": 0.2729085286458333,
+      "all_natural_mean": 0.45843505859374994,
+      "seen_natural_mean": 0.49241129557291674,
+      "all_natural_minus_permuted_mean": 0.41636149088541663,
+      "seen_natural_minus_permuted_mean": 0.2773030598958334,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": null,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "n": 1,
+      "heldout_natural_mean": 0.45828247070312494,
+      "heldout_natural_ci95_t": [
+        0.45828247070312494,
+        0.45828247070312494
+      ],
+      "initial_heldout_natural_mean": 0.14565022786458331,
+      "learning_gain_mean": 0.31263224283854163,
+      "all_natural_mean": 0.24883015950520831,
+      "seen_natural_mean": 0.18291219075520831,
+      "all_natural_minus_permuted_mean": 0.0,
+      "seen_natural_minus_permuted_mean": 0.0,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": null,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "live",
+      "n": 1,
+      "heldout_natural_mean": 0.25,
+      "heldout_natural_ci95_t": [
+        0.25,
+        0.25
+      ],
+      "initial_heldout_natural_mean": 0.08197021484375001,
+      "learning_gain_mean": 0.16802978515625,
+      "all_natural_mean": 0.45833333333333326,
+      "seen_natural_mean": 0.5278116861979167,
+      "all_natural_minus_permuted_mean": 0.4166666666666666,
+      "seen_natural_minus_permuted_mean": 0.27770996093750006,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": null,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "n": 1,
+      "heldout_natural_mean": -0.06321207682291666,
+      "heldout_natural_ci95_t": [
+        -0.06321207682291666,
+        -0.06321207682291666
+      ],
+      "initial_heldout_natural_mean": 0.14565022786458331,
+      "learning_gain_mean": -0.20886230468749997,
+      "all_natural_mean": 0.24949137369791669,
+      "seen_natural_mean": 0.35538736979166663,
+      "all_natural_minus_permuted_mean": 0.0,
+      "seen_natural_minus_permuted_mean": 0.0,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": null,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "n": 1,
+      "heldout_natural_mean": 0.4583333333333332,
+      "heldout_natural_ci95_t": [
+        0.4583333333333332,
+        0.4583333333333332
+      ],
+      "initial_heldout_natural_mean": 0.29033406575520837,
+      "learning_gain_mean": 0.16799926757812483,
+      "all_natural_mean": 0.4587402343749999,
+      "seen_natural_mean": 0.45777384440104163,
+      "all_natural_minus_permuted_mean": 0.4169718424479166,
+      "seen_natural_minus_permuted_mean": 0.27811686197916663,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": null,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "n": 1,
+      "heldout_natural_mean": 0.2513224283854167,
+      "heldout_natural_ci95_t": [
+        0.2513224283854167,
+        0.2513224283854167
+      ],
+      "initial_heldout_natural_mean": 0.041086832682291664,
+      "learning_gain_mean": 0.21023559570312503,
+      "all_natural_mean": 0.24867757161458331,
+      "seen_natural_mean": 0.25223795572916663,
+      "all_natural_minus_permuted_mean": 0.0,
+      "seen_natural_minus_permuted_mean": 0.0,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": null,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "live",
+      "n": 1,
+      "heldout_natural_mean": 0.25,
+      "heldout_natural_ci95_t": [
+        0.25,
+        0.25
+      ],
+      "initial_heldout_natural_mean": 0.29033406575520837,
+      "learning_gain_mean": -0.04033406575520837,
+      "all_natural_mean": 0.45833333333333326,
+      "seen_natural_mean": 0.5278116861979167,
+      "all_natural_minus_permuted_mean": 0.4166666666666666,
+      "seen_natural_minus_permuted_mean": 0.27770996093750006,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": null,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "n": 1,
+      "heldout_natural_mean": -0.06321207682291666,
+      "heldout_natural_ci95_t": [
+        -0.06321207682291666,
+        -0.06321207682291666
+      ],
+      "initial_heldout_natural_mean": 0.041086832682291664,
+      "learning_gain_mean": -0.10429890950520831,
+      "all_natural_mean": 0.24949137369791669,
+      "seen_natural_mean": 0.35538736979166663,
+      "all_natural_minus_permuted_mean": 0.0,
+      "seen_natural_minus_permuted_mean": 0.0,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": null,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "n": 1,
+      "heldout_natural_mean": 0.4583333333333332,
+      "heldout_natural_ci95_t": [
+        0.4583333333333332,
+        0.4583333333333332
+      ],
+      "initial_heldout_natural_mean": 0.0005187988281250007,
+      "learning_gain_mean": 0.4578145345052082,
+      "all_natural_mean": 0.4587402343749999,
+      "seen_natural_mean": 0.45782470703124994,
+      "all_natural_minus_permuted_mean": 0.4169718424479166,
+      "seen_natural_minus_permuted_mean": 0.27811686197916663,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": 0.4583333333333332,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "n": 1,
+      "heldout_natural_mean": 0.35482788085937494,
+      "heldout_natural_ci95_t": [
+        0.35482788085937494,
+        0.35482788085937494
+      ],
+      "initial_heldout_natural_mean": 0.290557861328125,
+      "learning_gain_mean": 0.06427001953124994,
+      "all_natural_mean": 0.24933878580729166,
+      "seen_natural_mean": 0.21637980143229166,
+      "all_natural_minus_permuted_mean": 0.0,
+      "seen_natural_minus_permuted_mean": 0.0,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": null,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "live",
+      "n": 1,
+      "heldout_natural_mean": 0.25,
+      "heldout_natural_ci95_t": [
+        0.25,
+        0.25
+      ],
+      "initial_heldout_natural_mean": 0.0005187988281250007,
+      "learning_gain_mean": 0.249481201171875,
+      "all_natural_mean": 0.45833333333333326,
+      "seen_natural_mean": 0.5278116861979167,
+      "all_natural_minus_permuted_mean": 0.4166666666666666,
+      "seen_natural_minus_permuted_mean": 0.27770996093750006,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": 0.25,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "n": 1,
+      "heldout_natural_mean": -0.16666666666666663,
+      "heldout_natural_ci95_t": [
+        -0.16666666666666663,
+        -0.16666666666666663
+      ],
+      "initial_heldout_natural_mean": 0.290557861328125,
+      "learning_gain_mean": -0.45722452799479163,
+      "all_natural_mean": 0.24999999999999997,
+      "seen_natural_mean": 0.38885498046875,
+      "all_natural_minus_permuted_mean": 0.0,
+      "seen_natural_minus_permuted_mean": 0.0,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": null,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "n": 1,
+      "heldout_natural_mean": 0.5632120768229167,
+      "heldout_natural_ci95_t": [
+        0.5632120768229167,
+        0.5632120768229167
+      ],
+      "initial_heldout_natural_mean": 0.312591552734375,
+      "learning_gain_mean": 0.25062052408854174,
+      "all_natural_mean": 0.4580281575520833,
+      "seen_natural_mean": 0.42349243164062494,
+      "all_natural_minus_permuted_mean": 0.41605631510416663,
+      "seen_natural_minus_permuted_mean": 0.27689615885416663,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": 0.5632120768229167,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "n": 1,
+      "heldout_natural_mean": 0.251373291015625,
+      "heldout_natural_ci95_t": [
+        0.251373291015625,
+        0.251373291015625
+      ],
+      "initial_heldout_natural_mean": 0.08301798502604167,
+      "learning_gain_mean": 0.16835530598958331,
+      "all_natural_mean": 0.24984741210937497,
+      "seen_natural_mean": 0.24994913736979166,
+      "all_natural_minus_permuted_mean": 0.0,
+      "seen_natural_minus_permuted_mean": 0.0,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": null,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "live",
+      "n": 1,
+      "heldout_natural_mean": 0.25,
+      "heldout_natural_ci95_t": [
+        0.25,
+        0.25
+      ],
+      "initial_heldout_natural_mean": 0.312591552734375,
+      "learning_gain_mean": -0.062591552734375,
+      "all_natural_mean": 0.45833333333333326,
+      "seen_natural_mean": 0.5278116861979167,
+      "all_natural_minus_permuted_mean": 0.4166666666666666,
+      "seen_natural_minus_permuted_mean": 0.27770996093750006,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": 0.25,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "n": 1,
+      "heldout_natural_mean": -0.06321207682291666,
+      "heldout_natural_ci95_t": [
+        -0.06321207682291666,
+        -0.06321207682291666
+      ],
+      "initial_heldout_natural_mean": 0.08301798502604167,
+      "learning_gain_mean": -0.14623006184895831,
+      "all_natural_mean": 0.24949137369791669,
+      "seen_natural_mean": 0.35538736979166663,
+      "all_natural_minus_permuted_mean": 0.0,
+      "seen_natural_minus_permuted_mean": 0.0,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": null,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "n": 1,
+      "heldout_natural_mean": 0.4583333333333332,
+      "heldout_natural_ci95_t": [
+        0.4583333333333332,
+        0.4583333333333332
+      ],
+      "initial_heldout_natural_mean": 0.12495930989583333,
+      "learning_gain_mean": 0.3333740234374999,
+      "all_natural_mean": 0.45833333333333326,
+      "seen_natural_mean": 0.4583841959635417,
+      "all_natural_minus_permuted_mean": 0.4166666666666666,
+      "seen_natural_minus_permuted_mean": 0.27770996093750006,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": 0.4583333333333332,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "n": 1,
+      "heldout_natural_mean": 0.356201171875,
+      "heldout_natural_ci95_t": [
+        0.356201171875,
+        0.356201171875
+      ],
+      "initial_heldout_natural_mean": 0.14711507161458331,
+      "learning_gain_mean": 0.20908610026041669,
+      "all_natural_mean": 0.24918619791666669,
+      "seen_natural_mean": 0.21632893880208331,
+      "all_natural_minus_permuted_mean": 0.0,
+      "seen_natural_minus_permuted_mean": 0.0,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": null,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "live",
+      "n": 1,
+      "heldout_natural_mean": 0.25,
+      "heldout_natural_ci95_t": [
+        0.25,
+        0.25
+      ],
+      "initial_heldout_natural_mean": 0.12495930989583333,
+      "learning_gain_mean": 0.12504069010416669,
+      "all_natural_mean": 0.45833333333333326,
+      "seen_natural_mean": 0.5278116861979167,
+      "all_natural_minus_permuted_mean": 0.4166666666666666,
+      "seen_natural_minus_permuted_mean": 0.27770996093750006,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": 0.25,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "n": 1,
+      "heldout_natural_mean": 0.04166666666666666,
+      "heldout_natural_ci95_t": [
+        0.04166666666666666,
+        0.04166666666666666
+      ],
+      "initial_heldout_natural_mean": 0.14711507161458331,
+      "learning_gain_mean": -0.10544840494791666,
+      "all_natural_mean": 0.24999999999999994,
+      "seen_natural_mean": 0.3194783528645833,
+      "all_natural_minus_permuted_mean": 0.0,
+      "seen_natural_minus_permuted_mean": 0.0,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": null,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "n": 1,
+      "heldout_natural_mean": 0.4583333333333332,
+      "heldout_natural_ci95_t": [
+        0.4583333333333332,
+        0.4583333333333332
+      ],
+      "initial_heldout_natural_mean": 0.12498982747395833,
+      "learning_gain_mean": 0.3333435058593749,
+      "all_natural_mean": 0.45833333333333326,
+      "seen_natural_mean": 0.4583841959635417,
+      "all_natural_minus_permuted_mean": 0.4166666666666666,
+      "seen_natural_minus_permuted_mean": 0.27770996093750006,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": 0.4583333333333332,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "n": 1,
+      "heldout_natural_mean": 0.3548787434895833,
+      "heldout_natural_ci95_t": [
+        0.3548787434895833,
+        0.3548787434895833
+      ],
+      "initial_heldout_natural_mean": 0.042521158854166664,
+      "learning_gain_mean": 0.31235758463541663,
+      "all_natural_mean": 0.2505086263020833,
+      "seen_natural_mean": 0.2139892578125,
+      "all_natural_minus_permuted_mean": 0.0,
+      "seen_natural_minus_permuted_mean": 0.0,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": null,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "live",
+      "n": 1,
+      "heldout_natural_mean": 0.25,
+      "heldout_natural_ci95_t": [
+        0.25,
+        0.25
+      ],
+      "initial_heldout_natural_mean": 0.12498982747395833,
+      "learning_gain_mean": 0.12501017252604169,
+      "all_natural_mean": 0.45833333333333326,
+      "seen_natural_mean": 0.5278116861979167,
+      "all_natural_minus_permuted_mean": 0.4166666666666666,
+      "seen_natural_minus_permuted_mean": 0.27770996093750006,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": 0.25,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "n": 1,
+      "heldout_natural_mean": -0.16666666666666663,
+      "heldout_natural_ci95_t": [
+        -0.16666666666666663,
+        -0.16666666666666663
+      ],
+      "initial_heldout_natural_mean": 0.042521158854166664,
+      "learning_gain_mean": -0.2091878255208333,
+      "all_natural_mean": 0.24999999999999997,
+      "seen_natural_mean": 0.38885498046875,
+      "all_natural_minus_permuted_mean": 0.0,
+      "seen_natural_minus_permuted_mean": 0.0,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": null,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "n": 1,
+      "heldout_natural_mean": 0.3548787434895833,
+      "heldout_natural_ci95_t": [
+        0.3548787434895833,
+        0.3548787434895833
+      ],
+      "initial_heldout_natural_mean": 0.08197021484375001,
+      "learning_gain_mean": 0.2729085286458333,
+      "all_natural_mean": 0.45843505859374994,
+      "seen_natural_mean": 0.49241129557291674,
+      "all_natural_minus_permuted_mean": 0.41636149088541663,
+      "seen_natural_minus_permuted_mean": 0.2773030598958334,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": null,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "n": 1,
+      "heldout_natural_mean": 0.45828247070312494,
+      "heldout_natural_ci95_t": [
+        0.45828247070312494,
+        0.45828247070312494
+      ],
+      "initial_heldout_natural_mean": 0.14565022786458331,
+      "learning_gain_mean": 0.31263224283854163,
+      "all_natural_mean": 0.24883015950520831,
+      "seen_natural_mean": 0.18291219075520831,
+      "all_natural_minus_permuted_mean": 0.0,
+      "seen_natural_minus_permuted_mean": 0.0,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": null,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "live",
+      "n": 1,
+      "heldout_natural_mean": 0.25,
+      "heldout_natural_ci95_t": [
+        0.25,
+        0.25
+      ],
+      "initial_heldout_natural_mean": 0.08197021484375001,
+      "learning_gain_mean": 0.16802978515625,
+      "all_natural_mean": 0.45833333333333326,
+      "seen_natural_mean": 0.5278116861979167,
+      "all_natural_minus_permuted_mean": 0.4166666666666666,
+      "seen_natural_minus_permuted_mean": 0.27770996093750006,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": null,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "n": 1,
+      "heldout_natural_mean": -0.06321207682291666,
+      "heldout_natural_ci95_t": [
+        -0.06321207682291666,
+        -0.06321207682291666
+      ],
+      "initial_heldout_natural_mean": 0.14565022786458331,
+      "learning_gain_mean": -0.20886230468749997,
+      "all_natural_mean": 0.24949137369791669,
+      "seen_natural_mean": 0.35538736979166663,
+      "all_natural_minus_permuted_mean": 0.0,
+      "seen_natural_minus_permuted_mean": 0.0,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": null,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "n": 1,
+      "heldout_natural_mean": 0.4583333333333332,
+      "heldout_natural_ci95_t": [
+        0.4583333333333332,
+        0.4583333333333332
+      ],
+      "initial_heldout_natural_mean": 0.29033406575520837,
+      "learning_gain_mean": 0.16799926757812483,
+      "all_natural_mean": 0.45792643229166663,
+      "seen_natural_mean": 0.458892822265625,
+      "all_natural_minus_permuted_mean": 0.41636149088541663,
+      "seen_natural_minus_permuted_mean": 0.27730305989583337,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": null,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "n": 1,
+      "heldout_natural_mean": 0.2513224283854167,
+      "heldout_natural_ci95_t": [
+        0.2513224283854167,
+        0.2513224283854167
+      ],
+      "initial_heldout_natural_mean": 0.041086832682291664,
+      "learning_gain_mean": 0.21023559570312503,
+      "all_natural_mean": 0.24867757161458331,
+      "seen_natural_mean": 0.25223795572916663,
+      "all_natural_minus_permuted_mean": 0.0,
+      "seen_natural_minus_permuted_mean": 0.0,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": null,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "live",
+      "n": 1,
+      "heldout_natural_mean": 0.25,
+      "heldout_natural_ci95_t": [
+        0.25,
+        0.25
+      ],
+      "initial_heldout_natural_mean": 0.29033406575520837,
+      "learning_gain_mean": -0.04033406575520837,
+      "all_natural_mean": 0.45833333333333326,
+      "seen_natural_mean": 0.5278116861979167,
+      "all_natural_minus_permuted_mean": 0.4166666666666666,
+      "seen_natural_minus_permuted_mean": 0.27770996093750006,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": null,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "n": 1,
+      "heldout_natural_mean": -0.06321207682291666,
+      "heldout_natural_ci95_t": [
+        -0.06321207682291666,
+        -0.06321207682291666
+      ],
+      "initial_heldout_natural_mean": 0.041086832682291664,
+      "learning_gain_mean": -0.10429890950520831,
+      "all_natural_mean": 0.24949137369791669,
+      "seen_natural_mean": 0.35538736979166663,
+      "all_natural_minus_permuted_mean": 0.0,
+      "seen_natural_minus_permuted_mean": 0.0,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": null,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "n": 1,
+      "heldout_natural_mean": 0.4583333333333332,
+      "heldout_natural_ci95_t": [
+        0.4583333333333332,
+        0.4583333333333332
+      ],
+      "initial_heldout_natural_mean": 0.0005187988281250007,
+      "learning_gain_mean": 0.4578145345052082,
+      "all_natural_mean": 0.4587402343749999,
+      "seen_natural_mean": 0.45782470703124994,
+      "all_natural_minus_permuted_mean": 0.4169718424479166,
+      "seen_natural_minus_permuted_mean": 0.27811686197916663,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": 0.4583333333333332,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "n": 1,
+      "heldout_natural_mean": 0.35482788085937494,
+      "heldout_natural_ci95_t": [
+        0.35482788085937494,
+        0.35482788085937494
+      ],
+      "initial_heldout_natural_mean": 0.290557861328125,
+      "learning_gain_mean": 0.06427001953124994,
+      "all_natural_mean": 0.24933878580729166,
+      "seen_natural_mean": 0.21637980143229166,
+      "all_natural_minus_permuted_mean": 0.0,
+      "seen_natural_minus_permuted_mean": 0.0,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": null,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "live",
+      "n": 1,
+      "heldout_natural_mean": 0.25,
+      "heldout_natural_ci95_t": [
+        0.25,
+        0.25
+      ],
+      "initial_heldout_natural_mean": 0.0005187988281250007,
+      "learning_gain_mean": 0.249481201171875,
+      "all_natural_mean": 0.45833333333333326,
+      "seen_natural_mean": 0.5278116861979167,
+      "all_natural_minus_permuted_mean": 0.4166666666666666,
+      "seen_natural_minus_permuted_mean": 0.27770996093750006,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": 0.25,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "n": 1,
+      "heldout_natural_mean": -0.16666666666666663,
+      "heldout_natural_ci95_t": [
+        -0.16666666666666663,
+        -0.16666666666666663
+      ],
+      "initial_heldout_natural_mean": 0.290557861328125,
+      "learning_gain_mean": -0.45722452799479163,
+      "all_natural_mean": 0.24999999999999997,
+      "seen_natural_mean": 0.38885498046875,
+      "all_natural_minus_permuted_mean": 0.0,
+      "seen_natural_minus_permuted_mean": 0.0,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": null,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "n": 1,
+      "heldout_natural_mean": 0.5632120768229167,
+      "heldout_natural_ci95_t": [
+        0.5632120768229167,
+        0.5632120768229167
+      ],
+      "initial_heldout_natural_mean": 0.312591552734375,
+      "learning_gain_mean": 0.25062052408854174,
+      "all_natural_mean": 0.45843505859374994,
+      "seen_natural_mean": 0.42293294270833326,
+      "all_natural_minus_permuted_mean": 0.41636149088541663,
+      "seen_natural_minus_permuted_mean": 0.27730305989583326,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": 0.5632120768229167,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "n": 1,
+      "heldout_natural_mean": 0.251373291015625,
+      "heldout_natural_ci95_t": [
+        0.251373291015625,
+        0.251373291015625
+      ],
+      "initial_heldout_natural_mean": 0.08301798502604167,
+      "learning_gain_mean": 0.16835530598958331,
+      "all_natural_mean": 0.24984741210937497,
+      "seen_natural_mean": 0.24994913736979166,
+      "all_natural_minus_permuted_mean": 0.0,
+      "seen_natural_minus_permuted_mean": 0.0,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": null,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "live",
+      "n": 1,
+      "heldout_natural_mean": 0.25,
+      "heldout_natural_ci95_t": [
+        0.25,
+        0.25
+      ],
+      "initial_heldout_natural_mean": 0.312591552734375,
+      "learning_gain_mean": -0.062591552734375,
+      "all_natural_mean": 0.45833333333333326,
+      "seen_natural_mean": 0.5278116861979167,
+      "all_natural_minus_permuted_mean": 0.4166666666666666,
+      "seen_natural_minus_permuted_mean": 0.27770996093750006,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": 0.25,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "n": 1,
+      "heldout_natural_mean": -0.06321207682291666,
+      "heldout_natural_ci95_t": [
+        -0.06321207682291666,
+        -0.06321207682291666
+      ],
+      "initial_heldout_natural_mean": 0.08301798502604167,
+      "learning_gain_mean": -0.14623006184895831,
+      "all_natural_mean": 0.24949137369791669,
+      "seen_natural_mean": 0.35538736979166663,
+      "all_natural_minus_permuted_mean": 0.0,
+      "seen_natural_minus_permuted_mean": 0.0,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": null,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "heterogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "n": 1,
+      "heldout_natural_mean": 0.4583333333333332,
+      "heldout_natural_ci95_t": [
+        0.4583333333333332,
+        0.4583333333333332
+      ],
+      "initial_heldout_natural_mean": 0.12495930989583333,
+      "learning_gain_mean": 0.3333740234374999,
+      "all_natural_mean": 0.45833333333333326,
+      "seen_natural_mean": 0.4583841959635417,
+      "all_natural_minus_permuted_mean": 0.4166666666666666,
+      "seen_natural_minus_permuted_mean": 0.27770996093750006,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": 0.4583333333333332,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "heterogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "n": 1,
+      "heldout_natural_mean": 0.356201171875,
+      "heldout_natural_ci95_t": [
+        0.356201171875,
+        0.356201171875
+      ],
+      "initial_heldout_natural_mean": 0.14711507161458331,
+      "learning_gain_mean": 0.20908610026041669,
+      "all_natural_mean": 0.24918619791666669,
+      "seen_natural_mean": 0.21632893880208331,
+      "all_natural_minus_permuted_mean": 0.0,
+      "seen_natural_minus_permuted_mean": 0.0,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": null,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "heterogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "live",
+      "n": 1,
+      "heldout_natural_mean": 0.25,
+      "heldout_natural_ci95_t": [
+        0.25,
+        0.25
+      ],
+      "initial_heldout_natural_mean": 0.12495930989583333,
+      "learning_gain_mean": 0.12504069010416669,
+      "all_natural_mean": 0.45833333333333326,
+      "seen_natural_mean": 0.5278116861979167,
+      "all_natural_minus_permuted_mean": 0.4166666666666666,
+      "seen_natural_minus_permuted_mean": 0.27770996093750006,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": 0.25,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "heterogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "n": 1,
+      "heldout_natural_mean": 0.04166666666666666,
+      "heldout_natural_ci95_t": [
+        0.04166666666666666,
+        0.04166666666666666
+      ],
+      "initial_heldout_natural_mean": 0.14711507161458331,
+      "learning_gain_mean": -0.10544840494791666,
+      "all_natural_mean": 0.24999999999999994,
+      "seen_natural_mean": 0.3194783528645833,
+      "all_natural_minus_permuted_mean": 0.0,
+      "seen_natural_minus_permuted_mean": 0.0,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": null,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "heterogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "n": 1,
+      "heldout_natural_mean": 0.4583333333333332,
+      "heldout_natural_ci95_t": [
+        0.4583333333333332,
+        0.4583333333333332
+      ],
+      "initial_heldout_natural_mean": 0.12498982747395833,
+      "learning_gain_mean": 0.3333435058593749,
+      "all_natural_mean": 0.45833333333333326,
+      "seen_natural_mean": 0.4583841959635417,
+      "all_natural_minus_permuted_mean": 0.4166666666666666,
+      "seen_natural_minus_permuted_mean": 0.27770996093750006,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": 0.4583333333333332,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "heterogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "n": 1,
+      "heldout_natural_mean": 0.3548787434895833,
+      "heldout_natural_ci95_t": [
+        0.3548787434895833,
+        0.3548787434895833
+      ],
+      "initial_heldout_natural_mean": 0.042521158854166664,
+      "learning_gain_mean": 0.31235758463541663,
+      "all_natural_mean": 0.2505086263020833,
+      "seen_natural_mean": 0.2139892578125,
+      "all_natural_minus_permuted_mean": 0.0,
+      "seen_natural_minus_permuted_mean": 0.0,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": null,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "heterogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "live",
+      "n": 1,
+      "heldout_natural_mean": 0.25,
+      "heldout_natural_ci95_t": [
+        0.25,
+        0.25
+      ],
+      "initial_heldout_natural_mean": 0.12498982747395833,
+      "learning_gain_mean": 0.12501017252604169,
+      "all_natural_mean": 0.45833333333333326,
+      "seen_natural_mean": 0.5278116861979167,
+      "all_natural_minus_permuted_mean": 0.4166666666666666,
+      "seen_natural_minus_permuted_mean": 0.27770996093750006,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": 0.25,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    },
+    {
+      "population_mode": "heterogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "n": 1,
+      "heldout_natural_mean": -0.16666666666666663,
+      "heldout_natural_ci95_t": [
+        -0.16666666666666663,
+        -0.16666666666666663
+      ],
+      "initial_heldout_natural_mean": 0.042521158854166664,
+      "learning_gain_mean": -0.2091878255208333,
+      "all_natural_mean": 0.24999999999999997,
+      "seen_natural_mean": 0.38885498046875,
+      "all_natural_minus_permuted_mean": 0.0,
+      "seen_natural_minus_permuted_mean": 0.0,
+      "live_minus_silent_mean": 0.0,
+      "natural_minus_permuted_mean": 0.0,
+      "recombined_mean": null,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.0
+    }
+  ],
+  "contrasts": [
+    {
+      "name": "swap_minus_identity",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "support": "full",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.10345458984374989,
+      "ci95_t": [
+        0.10345458984374989,
+        0.10345458984374989
+      ]
+    },
+    {
+      "name": "swap_minus_identity",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "support": "full",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.10345458984374989,
+      "ci95_t": [
+        0.10345458984374989,
+        0.10345458984374989
+      ]
+    },
+    {
+      "name": "swap_minus_identity",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "support": "full",
+      "channel": "silent",
+      "n": 1,
+      "mean": -0.20696004231770826,
+      "ci95_t": [
+        -0.20696004231770826,
+        -0.20696004231770826
+      ]
+    },
+    {
+      "name": "swap_minus_identity",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "support": "full",
+      "channel": "silent",
+      "n": 1,
+      "mean": -0.20696004231770826,
+      "ci95_t": [
+        -0.20696004231770826,
+        -0.20696004231770826
+      ]
+    },
+    {
+      "name": "swap_minus_identity",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "support": "leave_one_out",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "swap_minus_identity",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "support": "leave_one_out",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "swap_minus_identity",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "swap_minus_identity",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "heterogeneous_minus_homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "heterogeneous_minus_homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "heterogeneous_minus_homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "heterogeneous_minus_homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "heterogeneous_minus_homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "heterogeneous_minus_homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "heterogeneous_minus_homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "heterogeneous_minus_homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "swap_minus_identity",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "support": "full",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.10487874348958354,
+      "ci95_t": [
+        0.10487874348958354,
+        0.10487874348958354
+      ]
+    },
+    {
+      "name": "swap_minus_identity",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "support": "full",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.10487874348958354,
+      "ci95_t": [
+        0.10487874348958354,
+        0.10487874348958354
+      ]
+    },
+    {
+      "name": "swap_minus_identity",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "support": "full",
+      "channel": "silent",
+      "n": 1,
+      "mean": -0.10345458984374994,
+      "ci95_t": [
+        -0.10345458984374994,
+        -0.10345458984374994
+      ]
+    },
+    {
+      "name": "swap_minus_identity",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "support": "full",
+      "channel": "silent",
+      "n": 1,
+      "mean": -0.10345458984374994,
+      "ci95_t": [
+        -0.10345458984374994,
+        -0.10345458984374994
+      ]
+    },
+    {
+      "name": "swap_minus_identity",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "support": "leave_one_out",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "swap_minus_identity",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "support": "leave_one_out",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "swap_minus_identity",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "n": 1,
+      "mean": 0.10345458984374997,
+      "ci95_t": [
+        0.10345458984374997,
+        0.10345458984374997
+      ]
+    },
+    {
+      "name": "swap_minus_identity",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "n": 1,
+      "mean": 0.10345458984374997,
+      "ci95_t": [
+        0.10345458984374997,
+        0.10345458984374997
+      ]
+    },
+    {
+      "name": "heterogeneous_minus_homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "heterogeneous_minus_homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "heterogeneous_minus_homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "heterogeneous_minus_homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "heterogeneous_minus_homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "heterogeneous_minus_homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "heterogeneous_minus_homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "heterogeneous_minus_homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "swap_minus_identity",
+      "population_mode": "homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "support": "full",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "swap_minus_identity",
+      "population_mode": "heterogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "support": "full",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "swap_minus_identity",
+      "population_mode": "homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "support": "full",
+      "channel": "silent",
+      "n": 1,
+      "mean": -0.0013224283854166852,
+      "ci95_t": [
+        -0.0013224283854166852,
+        -0.0013224283854166852
+      ]
+    },
+    {
+      "name": "swap_minus_identity",
+      "population_mode": "heterogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "support": "full",
+      "channel": "silent",
+      "n": 1,
+      "mean": -0.0013224283854166852,
+      "ci95_t": [
+        -0.0013224283854166852,
+        -0.0013224283854166852
+      ]
+    },
+    {
+      "name": "swap_minus_identity",
+      "population_mode": "homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "support": "leave_one_out",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "swap_minus_identity",
+      "population_mode": "heterogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "support": "leave_one_out",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "swap_minus_identity",
+      "population_mode": "homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "n": 1,
+      "mean": -0.2083333333333333,
+      "ci95_t": [
+        -0.2083333333333333,
+        -0.2083333333333333
+      ]
+    },
+    {
+      "name": "swap_minus_identity",
+      "population_mode": "heterogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "n": 1,
+      "mean": -0.2083333333333333,
+      "ci95_t": [
+        -0.2083333333333333,
+        -0.2083333333333333
+      ]
+    },
+    {
+      "name": "heterogeneous_minus_homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "heterogeneous_minus_homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "heterogeneous_minus_homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "heterogeneous_minus_homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "heterogeneous_minus_homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "heterogeneous_minus_homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "heterogeneous_minus_homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "heterogeneous_minus_homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "dual2_minus_mono4",
+      "population_mode": "homogeneous",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.10345458984374989,
+      "ci95_t": [
+        0.10345458984374989,
+        0.10345458984374989
+      ]
+    },
+    {
+      "name": "slot_local_minus_joint_history",
+      "population_mode": "homogeneous",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "dual2_minus_mono4",
+      "population_mode": "homogeneous",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "n": 1,
+      "mean": -0.10345458984375,
+      "ci95_t": [
+        -0.10345458984375,
+        -0.10345458984375
+      ]
+    },
+    {
+      "name": "slot_local_minus_joint_history",
+      "population_mode": "homogeneous",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "n": 1,
+      "mean": 0.0013732910156250555,
+      "ci95_t": [
+        0.0013732910156250555,
+        0.0013732910156250555
+      ]
+    },
+    {
+      "name": "dual2_minus_mono4",
+      "population_mode": "homogeneous",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "slot_local_minus_joint_history",
+      "population_mode": "homogeneous",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "dual2_minus_mono4",
+      "population_mode": "homogeneous",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "n": 1,
+      "mean": -0.10345458984374997,
+      "ci95_t": [
+        -0.10345458984374997,
+        -0.10345458984374997
+      ]
+    },
+    {
+      "name": "slot_local_minus_joint_history",
+      "population_mode": "homogeneous",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "n": 1,
+      "mean": 0.2083333333333333,
+      "ci95_t": [
+        0.2083333333333333,
+        0.2083333333333333
+      ]
+    },
+    {
+      "name": "dual2_minus_mono4",
+      "population_mode": "homogeneous",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.10487874348958354,
+      "ci95_t": [
+        0.10487874348958354,
+        0.10487874348958354
+      ]
+    },
+    {
+      "name": "slot_local_minus_joint_history",
+      "population_mode": "homogeneous",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "n": 1,
+      "mean": -0.10487874348958354,
+      "ci95_t": [
+        -0.10487874348958354,
+        -0.10487874348958354
+      ]
+    },
+    {
+      "name": "dual2_minus_mono4",
+      "population_mode": "homogeneous",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "n": 1,
+      "mean": 5.086263020831483e-05,
+      "ci95_t": [
+        5.086263020831483e-05,
+        5.086263020831483e-05
+      ]
+    },
+    {
+      "name": "slot_local_minus_joint_history",
+      "population_mode": "homogeneous",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "n": 1,
+      "mean": 0.10350545247395831,
+      "ci95_t": [
+        0.10350545247395831,
+        0.10350545247395831
+      ]
+    },
+    {
+      "name": "dual2_minus_mono4",
+      "population_mode": "homogeneous",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "slot_local_minus_joint_history",
+      "population_mode": "homogeneous",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "dual2_minus_mono4",
+      "population_mode": "homogeneous",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "slot_local_minus_joint_history",
+      "population_mode": "homogeneous",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "n": 1,
+      "mean": -0.10345458984374997,
+      "ci95_t": [
+        -0.10345458984374997,
+        -0.10345458984374997
+      ]
+    },
+    {
+      "name": "dual2_minus_mono4",
+      "population_mode": "heterogeneous",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.10345458984374989,
+      "ci95_t": [
+        0.10345458984374989,
+        0.10345458984374989
+      ]
+    },
+    {
+      "name": "slot_local_minus_joint_history",
+      "population_mode": "heterogeneous",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "dual2_minus_mono4",
+      "population_mode": "heterogeneous",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "n": 1,
+      "mean": -0.10345458984375,
+      "ci95_t": [
+        -0.10345458984375,
+        -0.10345458984375
+      ]
+    },
+    {
+      "name": "slot_local_minus_joint_history",
+      "population_mode": "heterogeneous",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "n": 1,
+      "mean": 0.0013732910156250555,
+      "ci95_t": [
+        0.0013732910156250555,
+        0.0013732910156250555
+      ]
+    },
+    {
+      "name": "dual2_minus_mono4",
+      "population_mode": "heterogeneous",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "slot_local_minus_joint_history",
+      "population_mode": "heterogeneous",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "dual2_minus_mono4",
+      "population_mode": "heterogeneous",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "n": 1,
+      "mean": -0.10345458984374997,
+      "ci95_t": [
+        -0.10345458984374997,
+        -0.10345458984374997
+      ]
+    },
+    {
+      "name": "slot_local_minus_joint_history",
+      "population_mode": "heterogeneous",
+      "mapping": "identity",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "n": 1,
+      "mean": 0.2083333333333333,
+      "ci95_t": [
+        0.2083333333333333,
+        0.2083333333333333
+      ]
+    },
+    {
+      "name": "dual2_minus_mono4",
+      "population_mode": "heterogeneous",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.10487874348958354,
+      "ci95_t": [
+        0.10487874348958354,
+        0.10487874348958354
+      ]
+    },
+    {
+      "name": "slot_local_minus_joint_history",
+      "population_mode": "heterogeneous",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "n": 1,
+      "mean": -0.10487874348958354,
+      "ci95_t": [
+        -0.10487874348958354,
+        -0.10487874348958354
+      ]
+    },
+    {
+      "name": "dual2_minus_mono4",
+      "population_mode": "heterogeneous",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "n": 1,
+      "mean": 5.086263020831483e-05,
+      "ci95_t": [
+        5.086263020831483e-05,
+        5.086263020831483e-05
+      ]
+    },
+    {
+      "name": "slot_local_minus_joint_history",
+      "population_mode": "heterogeneous",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "n": 1,
+      "mean": 0.10350545247395831,
+      "ci95_t": [
+        0.10350545247395831,
+        0.10350545247395831
+      ]
+    },
+    {
+      "name": "dual2_minus_mono4",
+      "population_mode": "heterogeneous",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "slot_local_minus_joint_history",
+      "population_mode": "heterogeneous",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "live",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "dual2_minus_mono4",
+      "population_mode": "heterogeneous",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "n": 1,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "slot_local_minus_joint_history",
+      "population_mode": "heterogeneous",
+      "mapping": "swap",
+      "support": "leave_one_out",
+      "channel": "silent",
+      "n": 1,
+      "mean": -0.10345458984374997,
+      "ci95_t": [
+        -0.10345458984374997,
+        -0.10345458984374997
+      ]
+    },
+    {
+      "name": "leave_one_out_minus_full",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "identity",
+      "channel": "live",
+      "n": 1,
+      "mean": -0.10487874348958331,
+      "ci95_t": [
+        -0.10487874348958331,
+        -0.10487874348958331
+      ]
+    },
+    {
+      "name": "leave_one_out_minus_full",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "identity",
+      "channel": "silent",
+      "n": 1,
+      "mean": -0.5214945475260416,
+      "ci95_t": [
+        -0.5214945475260416,
+        -0.5214945475260416
+      ]
+    },
+    {
+      "name": "live_minus_silent_all",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "identity",
+      "support": "full",
+      "n": 1,
+      "mean": 0.20960489908854163,
+      "ci95_t": [
+        0.20960489908854163,
+        0.20960489908854163
+      ]
+    },
+    {
+      "name": "leave_one_out_minus_full",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "swap",
+      "channel": "live",
+      "n": 1,
+      "mean": -0.2083333333333332,
+      "ci95_t": [
+        -0.2083333333333332,
+        -0.2083333333333332
+      ]
+    },
+    {
+      "name": "leave_one_out_minus_full",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "swap",
+      "channel": "silent",
+      "n": 1,
+      "mean": -0.31453450520833337,
+      "ci95_t": [
+        -0.31453450520833337,
+        -0.31453450520833337
+      ]
+    },
+    {
+      "name": "live_minus_silent_all",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "swap",
+      "support": "full",
+      "n": 1,
+      "mean": 0.21006266276041657,
+      "ci95_t": [
+        0.21006266276041657,
+        0.21006266276041657
+      ]
+    },
+    {
+      "name": "leave_one_out_minus_full",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "identity",
+      "channel": "live",
+      "n": 1,
+      "mean": -0.2083333333333332,
+      "ci95_t": [
+        -0.2083333333333332,
+        -0.2083333333333332
+      ]
+    },
+    {
+      "name": "leave_one_out_minus_full",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "identity",
+      "channel": "silent",
+      "n": 1,
+      "mean": -0.5214945475260415,
+      "ci95_t": [
+        -0.5214945475260415,
+        -0.5214945475260415
+      ]
+    },
+    {
+      "name": "live_minus_silent_all",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "identity",
+      "support": "full",
+      "n": 1,
+      "mean": 0.20940144856770823,
+      "ci95_t": [
+        0.20940144856770823,
+        0.20940144856770823
+      ]
+    },
+    {
+      "name": "leave_one_out_minus_full",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "swap",
+      "channel": "live",
+      "n": 1,
+      "mean": -0.31321207682291674,
+      "ci95_t": [
+        -0.31321207682291674,
+        -0.31321207682291674
+      ]
+    },
+    {
+      "name": "leave_one_out_minus_full",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "swap",
+      "channel": "silent",
+      "n": 1,
+      "mean": -0.31458536783854163,
+      "ci95_t": [
+        -0.31458536783854163,
+        -0.31458536783854163
+      ]
+    },
+    {
+      "name": "live_minus_silent_all",
+      "population_mode": "homogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "swap",
+      "support": "full",
+      "n": 1,
+      "mean": 0.20818074544270834,
+      "ci95_t": [
+        0.20818074544270834,
+        0.20818074544270834
+      ]
+    },
+    {
+      "name": "leave_one_out_minus_full",
+      "population_mode": "homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "identity",
+      "channel": "live",
+      "n": 1,
+      "mean": -0.2083333333333332,
+      "ci95_t": [
+        -0.2083333333333332,
+        -0.2083333333333332
+      ]
+    },
+    {
+      "name": "leave_one_out_minus_full",
+      "population_mode": "homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "identity",
+      "channel": "silent",
+      "n": 1,
+      "mean": -0.31453450520833337,
+      "ci95_t": [
+        -0.31453450520833337,
+        -0.31453450520833337
+      ]
+    },
+    {
+      "name": "live_minus_silent_all",
+      "population_mode": "homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "identity",
+      "support": "full",
+      "n": 1,
+      "mean": 0.20914713541666657,
+      "ci95_t": [
+        0.20914713541666657,
+        0.20914713541666657
+      ]
+    },
+    {
+      "name": "leave_one_out_minus_full",
+      "population_mode": "homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "swap",
+      "channel": "live",
+      "n": 1,
+      "mean": -0.2083333333333332,
+      "ci95_t": [
+        -0.2083333333333332,
+        -0.2083333333333332
+      ]
+    },
+    {
+      "name": "leave_one_out_minus_full",
+      "population_mode": "homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "swap",
+      "channel": "silent",
+      "n": 1,
+      "mean": -0.52154541015625,
+      "ci95_t": [
+        -0.52154541015625,
+        -0.52154541015625
+      ]
+    },
+    {
+      "name": "live_minus_silent_all",
+      "population_mode": "homogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "swap",
+      "support": "full",
+      "n": 1,
+      "mean": 0.20782470703124994,
+      "ci95_t": [
+        0.20782470703124994,
+        0.20782470703124994
+      ]
+    },
+    {
+      "name": "leave_one_out_minus_full",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "identity",
+      "channel": "live",
+      "n": 1,
+      "mean": -0.10487874348958331,
+      "ci95_t": [
+        -0.10487874348958331,
+        -0.10487874348958331
+      ]
+    },
+    {
+      "name": "leave_one_out_minus_full",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "identity",
+      "channel": "silent",
+      "n": 1,
+      "mean": -0.5214945475260416,
+      "ci95_t": [
+        -0.5214945475260416,
+        -0.5214945475260416
+      ]
+    },
+    {
+      "name": "live_minus_silent_all",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "identity",
+      "support": "full",
+      "n": 1,
+      "mean": 0.20960489908854163,
+      "ci95_t": [
+        0.20960489908854163,
+        0.20960489908854163
+      ]
+    },
+    {
+      "name": "leave_one_out_minus_full",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "swap",
+      "channel": "live",
+      "n": 1,
+      "mean": -0.2083333333333332,
+      "ci95_t": [
+        -0.2083333333333332,
+        -0.2083333333333332
+      ]
+    },
+    {
+      "name": "leave_one_out_minus_full",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "swap",
+      "channel": "silent",
+      "n": 1,
+      "mean": -0.31453450520833337,
+      "ci95_t": [
+        -0.31453450520833337,
+        -0.31453450520833337
+      ]
+    },
+    {
+      "name": "live_minus_silent_all",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "mono4",
+      "mapping": "swap",
+      "support": "full",
+      "n": 1,
+      "mean": 0.20924886067708331,
+      "ci95_t": [
+        0.20924886067708331,
+        0.20924886067708331
+      ]
+    },
+    {
+      "name": "leave_one_out_minus_full",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "identity",
+      "channel": "live",
+      "n": 1,
+      "mean": -0.2083333333333332,
+      "ci95_t": [
+        -0.2083333333333332,
+        -0.2083333333333332
+      ]
+    },
+    {
+      "name": "leave_one_out_minus_full",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "identity",
+      "channel": "silent",
+      "n": 1,
+      "mean": -0.5214945475260415,
+      "ci95_t": [
+        -0.5214945475260415,
+        -0.5214945475260415
+      ]
+    },
+    {
+      "name": "live_minus_silent_all",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "identity",
+      "support": "full",
+      "n": 1,
+      "mean": 0.20940144856770823,
+      "ci95_t": [
+        0.20940144856770823,
+        0.20940144856770823
+      ]
+    },
+    {
+      "name": "leave_one_out_minus_full",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "swap",
+      "channel": "live",
+      "n": 1,
+      "mean": -0.31321207682291674,
+      "ci95_t": [
+        -0.31321207682291674,
+        -0.31321207682291674
+      ]
+    },
+    {
+      "name": "leave_one_out_minus_full",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "swap",
+      "channel": "silent",
+      "n": 1,
+      "mean": -0.31458536783854163,
+      "ci95_t": [
+        -0.31458536783854163,
+        -0.31458536783854163
+      ]
+    },
+    {
+      "name": "live_minus_silent_all",
+      "population_mode": "heterogeneous",
+      "representation": "joint_history",
+      "form": "dual2",
+      "mapping": "swap",
+      "support": "full",
+      "n": 1,
+      "mean": 0.20858764648437497,
+      "ci95_t": [
+        0.20858764648437497,
+        0.20858764648437497
+      ]
+    },
+    {
+      "name": "leave_one_out_minus_full",
+      "population_mode": "heterogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "identity",
+      "channel": "live",
+      "n": 1,
+      "mean": -0.2083333333333332,
+      "ci95_t": [
+        -0.2083333333333332,
+        -0.2083333333333332
+      ]
+    },
+    {
+      "name": "leave_one_out_minus_full",
+      "population_mode": "heterogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "identity",
+      "channel": "silent",
+      "n": 1,
+      "mean": -0.31453450520833337,
+      "ci95_t": [
+        -0.31453450520833337,
+        -0.31453450520833337
+      ]
+    },
+    {
+      "name": "live_minus_silent_all",
+      "population_mode": "heterogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "identity",
+      "support": "full",
+      "n": 1,
+      "mean": 0.20914713541666657,
+      "ci95_t": [
+        0.20914713541666657,
+        0.20914713541666657
+      ]
+    },
+    {
+      "name": "leave_one_out_minus_full",
+      "population_mode": "heterogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "swap",
+      "channel": "live",
+      "n": 1,
+      "mean": -0.2083333333333332,
+      "ci95_t": [
+        -0.2083333333333332,
+        -0.2083333333333332
+      ]
+    },
+    {
+      "name": "leave_one_out_minus_full",
+      "population_mode": "heterogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "swap",
+      "channel": "silent",
+      "n": 1,
+      "mean": -0.52154541015625,
+      "ci95_t": [
+        -0.52154541015625,
+        -0.52154541015625
+      ]
+    },
+    {
+      "name": "live_minus_silent_all",
+      "population_mode": "heterogeneous",
+      "representation": "slot_local",
+      "form": "dual2",
+      "mapping": "swap",
+      "support": "full",
+      "n": 1,
+      "mean": 0.20782470703124994,
+      "ci95_t": [
+        0.20782470703124994,
+        0.20782470703124994
+      ]
+    }
+  ]
+}

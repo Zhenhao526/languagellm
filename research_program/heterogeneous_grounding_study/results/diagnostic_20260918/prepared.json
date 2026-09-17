@@ -1,0 +1,177 @@
+{
+  "schema": "heterogeneous_grounding_study_v1",
+  "horizon": 6,
+  "action_start": 2,
+  "subtasks": 2,
+  "steps_per_subtask": 2,
+  "object_types": 2,
+  "forms": {
+    "mono4": {
+      "alphabet_size": 4,
+      "length": 1,
+      "state_count_joint_history": 5,
+      "state_count_slot_local": null,
+      "arrival_times": [
+        1
+      ]
+    },
+    "dual2": {
+      "alphabet_size": 2,
+      "length": 2,
+      "state_count_joint_history": 5,
+      "state_count_slot_local": 3,
+      "arrival_times": [
+        1,
+        3
+      ]
+    }
+  },
+  "tasks": [
+    "factorized"
+  ],
+  "mappings": [
+    "identity",
+    "swap"
+  ],
+  "population_modes": [
+    "homogeneous",
+    "heterogeneous"
+  ],
+  "representations": [
+    "joint_history",
+    "slot_local"
+  ],
+  "supports": [
+    "full",
+    "leave_one_out"
+  ],
+  "channels": [
+    "live",
+    "silent"
+  ],
+  "partner_mode": "rotating",
+  "partner_visibility": "hidden",
+  "workers": 4,
+  "heterogeneous_rule": "worker ids 0 and 2 use identity; ids 1 and 3 use swap; sender never observes partner identity",
+  "capacity": 2,
+  "actions": [
+    "wait",
+    "take_site0",
+    "take_site1"
+  ],
+  "seeds": [
+    78301,
+    78302,
+    78303,
+    78304,
+    78305,
+    78306,
+    78307,
+    78308,
+    78309
+  ],
+  "parent_conditions": [
+    "homogeneous_mono4_factorized",
+    "homogeneous_dual2_factorized",
+    "heterogeneous_mono4_factorized",
+    "heterogeneous_dual2_factorized"
+  ],
+  "child_conditions": [
+    "homogeneous_joint_history_mono4_factorized_identity_full_live",
+    "homogeneous_joint_history_mono4_factorized_identity_full_silent",
+    "homogeneous_joint_history_mono4_factorized_identity_leave_one_out_live",
+    "homogeneous_joint_history_mono4_factorized_identity_leave_one_out_silent",
+    "homogeneous_joint_history_mono4_factorized_swap_full_live",
+    "homogeneous_joint_history_mono4_factorized_swap_full_silent",
+    "homogeneous_joint_history_mono4_factorized_swap_leave_one_out_live",
+    "homogeneous_joint_history_mono4_factorized_swap_leave_one_out_silent",
+    "homogeneous_joint_history_dual2_factorized_identity_full_live",
+    "homogeneous_joint_history_dual2_factorized_identity_full_silent",
+    "homogeneous_joint_history_dual2_factorized_identity_leave_one_out_live",
+    "homogeneous_joint_history_dual2_factorized_identity_leave_one_out_silent",
+    "homogeneous_joint_history_dual2_factorized_swap_full_live",
+    "homogeneous_joint_history_dual2_factorized_swap_full_silent",
+    "homogeneous_joint_history_dual2_factorized_swap_leave_one_out_live",
+    "homogeneous_joint_history_dual2_factorized_swap_leave_one_out_silent",
+    "homogeneous_slot_local_dual2_factorized_identity_full_live",
+    "homogeneous_slot_local_dual2_factorized_identity_full_silent",
+    "homogeneous_slot_local_dual2_factorized_identity_leave_one_out_live",
+    "homogeneous_slot_local_dual2_factorized_identity_leave_one_out_silent",
+    "homogeneous_slot_local_dual2_factorized_swap_full_live",
+    "homogeneous_slot_local_dual2_factorized_swap_full_silent",
+    "homogeneous_slot_local_dual2_factorized_swap_leave_one_out_live",
+    "homogeneous_slot_local_dual2_factorized_swap_leave_one_out_silent",
+    "heterogeneous_joint_history_mono4_factorized_identity_full_live",
+    "heterogeneous_joint_history_mono4_factorized_identity_full_silent",
+    "heterogeneous_joint_history_mono4_factorized_identity_leave_one_out_live",
+    "heterogeneous_joint_history_mono4_factorized_identity_leave_one_out_silent",
+    "heterogeneous_joint_history_mono4_factorized_swap_full_live",
+    "heterogeneous_joint_history_mono4_factorized_swap_full_silent",
+    "heterogeneous_joint_history_mono4_factorized_swap_leave_one_out_live",
+    "heterogeneous_joint_history_mono4_factorized_swap_leave_one_out_silent",
+    "heterogeneous_joint_history_dual2_factorized_identity_full_live",
+    "heterogeneous_joint_history_dual2_factorized_identity_full_silent",
+    "heterogeneous_joint_history_dual2_factorized_identity_leave_one_out_live",
+    "heterogeneous_joint_history_dual2_factorized_identity_leave_one_out_silent",
+    "heterogeneous_joint_history_dual2_factorized_swap_full_live",
+    "heterogeneous_joint_history_dual2_factorized_swap_full_silent",
+    "heterogeneous_joint_history_dual2_factorized_swap_leave_one_out_live",
+    "heterogeneous_joint_history_dual2_factorized_swap_leave_one_out_silent",
+    "heterogeneous_slot_local_dual2_factorized_identity_full_live",
+    "heterogeneous_slot_local_dual2_factorized_identity_full_silent",
+    "heterogeneous_slot_local_dual2_factorized_identity_leave_one_out_live",
+    "heterogeneous_slot_local_dual2_factorized_identity_leave_one_out_silent",
+    "heterogeneous_slot_local_dual2_factorized_swap_full_live",
+    "heterogeneous_slot_local_dual2_factorized_swap_full_silent",
+    "heterogeneous_slot_local_dual2_factorized_swap_leave_one_out_live",
+    "heterogeneous_slot_local_dual2_factorized_swap_leave_one_out_silent"
+  ],
+  "updates": 3000,
+  "batch_size": 512,
+  "learning_rate": 0.08,
+  "entropy_initial": 0.01,
+  "entropy_zero_after": 5000,
+  "checkpoints": [
+    0,
+    500,
+    1000,
+    2000,
+    3000
+  ],
+  "goal_pairs": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "heldout_assignment": {
+    "78301": 0,
+    "78302": 1,
+    "78303": 2,
+    "78304": 3,
+    "78305": 0,
+    "78306": 1,
+    "78307": 2,
+    "78308": 3,
+    "78309": 0
+  },
+  "pairing": "population modes share semantic worlds, goals, partners, message uniforms and action uniforms within seed; heterogeneity changes only partner-specific surface mapping",
+  "zero_shot_rule": "leave-one-out live heldout natural team return >= 0.60",
+  "no_teacher_or_language_prior": true,
+  "parent_runs": 36,
+  "child_runs": 432,
+  "runs": 468,
+  "runtime_policy": "float64 NumPy only"
+}

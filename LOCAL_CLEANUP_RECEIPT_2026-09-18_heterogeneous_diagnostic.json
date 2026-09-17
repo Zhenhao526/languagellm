@@ -1,0 +1,51 @@
+{
+  "schema": "heterogeneous_grounding_diagnostic_cleanup_receipt_v1",
+  "created_utc": "2026-09-17T20:32:45Z",
+  "root": "/Users/xia/Documents/ChatGPT/语言",
+  "archive": "research_program/heterogeneous_grounding_study/results/diagnostic_20260918",
+  "archive_manifest_sha256": "4c918023f28d409e5a4749464d97c4e3ee7f5831839e0f74c5e325fee0df8ead",
+  "audit": "passed",
+  "formal_estimate": false,
+  "raw_paths_absent": true,
+  "deleted": [
+    {
+      "path": "/private/tmp/hgs_pilot",
+      "existed": true,
+      "bytes_removed": 11295643,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/hgs_pilot_prepared",
+      "existed": true,
+      "bytes_removed": 90129,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/hgs_pilot.log",
+      "existed": true,
+      "bytes_removed": 54,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/hgs_bench",
+      "existed": true,
+      "bytes_removed": 174883809,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/hgs_bench_prepared",
+      "existed": true,
+      "bytes_removed": 90129,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/hgs_bench.log",
+      "existed": true,
+      "bytes_removed": 54,
+      "removed": true
+    }
+  ],
+  "total_bytes_removed": 186359818,
+  "retained_local": "source package and compact one-seed diagnostic archive",
+  "source_commit": "pending synchronization commit"
+}

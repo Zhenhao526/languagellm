@@ -2,9 +2,9 @@
   "generated_at_local": "2026-09-18",
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
-  "remote_commit": "f802038",
-  "remote_main_verified": true,
-  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix, ecological-factorization formal matrix, compact archive, replay audit and new-combination analysis, object-surface remapping corrected formal matrix, parent surface-shift analysis, replay audit and cleanup receipt, incumbent-worker surface transfer formal matrix, repair curves, replay audit and cleanup receipt",
+  "remote_commit": "pending synchronization commit",
+  "remote_main_verified": false,
+  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix, ecological-factorization formal matrix, compact archive, replay audit and new-combination analysis, object-surface remapping corrected formal matrix, parent surface-shift analysis, replay audit and cleanup receipt, incumbent-worker surface transfer formal matrix, repair curves, replay audit and cleanup receipt, population-level perceptual heterogeneity formal matrix, three-shard replay audit, exploratory pilot curves, identifiability diagnosis and cleanup receipt",
   "retained_paths": {
     "research_program/action_dependent_signaling_study": {
       "files": 23,
@@ -113,6 +113,26 @@
     "LOCAL_CLEANUP_RECEIPT_2026-09-18_object_surface_transfer.json": {
       "files": 1,
       "bytes": 2345
+    },
+    "research_program/heterogeneous_grounding_study": {
+      "files": 10,
+      "bytes": 76374
+    },
+    "SYNC_2026-09-18_heterogeneous_grounding.md": {
+      "files": 1,
+      "bytes": 1685
+    },
+    "LOCAL_CLEANUP_RECEIPT_2026-09-18_heterogeneous_formal.json": {
+      "files": 1,
+      "bytes": 4360
+    },
+    "LOCAL_CLEANUP_RECEIPT_2026-09-18_heterogeneous_diagnostic.json": {
+      "files": 1,
+      "bytes": 1355
+    },
+    "LOCAL_CLEANUP_RECEIPT_2026-09-18_storage_sweep.json": {
+      "files": 1,
+      "bytes": 2836
     }
   },
   "compact_archives": {
@@ -191,6 +211,14 @@
     "research_program/object_surface_transfer_study/results/formal_20260918": {
       "files": 13,
       "bytes": 675591
+    },
+    "research_program/heterogeneous_grounding_study/results/diagnostic_20260918": {
+      "files": 11,
+      "bytes": 495720
+    },
+    "research_program/heterogeneous_grounding_study/results/formal_20260918": {
+      "files": 16,
+      "bytes": 3583274
     }
   },
   "raw_execution_trees": {
@@ -863,6 +891,190 @@
     "/private/tmp/ost_transfer_audit.log": {
       "present": false,
       "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/hgs_pilot": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/hgs_pilot_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/hgs_pilot.log": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/hgs_bench": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/hgs_bench_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/hgs_bench.log": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/hgs_formal_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/hgs_formal_shard1": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/hgs_formal_shard2": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/hgs_formal_shard3": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/hgs_formal_results.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/hgs_formal_results_shard1.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/hgs_formal_results_shard2.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/hgs_formal_results_shard3.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/hgs_formal_analysis.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/hgs_formal_analysis.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/hgs_formal_analysis_final.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/hgs_formal_analysis_final.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/hgs_formal_analysis_shard1.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/hgs_formal_analysis_shard1.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/hgs_formal_analysis_shard2.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/hgs_formal_analysis_shard2.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/hgs_formal_analysis_shard3.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/hgs_formal_analysis_shard3.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/hgs_formal_shard1_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/hgs_formal_shard2_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/hgs_formal_shard3_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/hgs_formal_shard1_audit.log": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/hgs_formal_shard2_audit.log": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/hgs_formal_shard3_audit.log": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/hgs_regen": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/hetero_readme_current.txt": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/ecs2_formal_out": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/ecs2_formal_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/ecs2_formal_analysis.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/ecs2_formal_analysis.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/ecs2_formal_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/ecs2_smoke_out": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/ecs2_smoke_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/ecs2_smoke_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/language_sync_hgs": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/ost_transfer_pilot": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/ost_transfer_pilot2": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/ost_transfer_pilot_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/ost_transfer_pilot2_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/minerl-mac-route-audit": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
     }
   },
   "temporary_raw_trees_removed": [
@@ -1270,7 +1482,7 @@
         "kind": "tree"
       }
     ],
-    "verified_after_remote_commit": "693208d84d3a8ed4b01aa7e59e0f9ae51795a61e",
+    "verified_after_remote_commit": "pending synchronization commit",
     "current_batch": {
       "removed_file_or_tree_count": 25,
       "removed_bytes": 4987434931,
@@ -1343,6 +1555,71 @@
         "/private/tmp/merge_repetition.py"
       ],
       "verified_after_remote_commit": "3ac403c6896e35ae3b02bc63cdadc2c3f06e125d"
+    },
+    "heterogeneous_formal_batch": {
+      "removed_file_or_tree_count": 2,
+      "removed_bytes": 871777,
+      "paths": [
+        "/private/tmp/hgs_regen",
+        "/private/tmp/hetero_readme_current.txt"
+      ],
+      "checked_absent": [
+        "/private/tmp/hgs_formal_prepared",
+        "/private/tmp/hgs_formal_results.json",
+        "/private/tmp/hgs_formal_analysis.json",
+        "/private/tmp/hgs_formal_analysis.md",
+        "/private/tmp/hgs_formal_analysis_final.json",
+        "/private/tmp/hgs_formal_analysis_final.md",
+        "/private/tmp/hgs_formal_results_shard1.json",
+        "/private/tmp/hgs_formal_results_shard2.json",
+        "/private/tmp/hgs_formal_results_shard3.json",
+        "/private/tmp/hgs_formal_analysis_shard1.json",
+        "/private/tmp/hgs_formal_analysis_shard1.md",
+        "/private/tmp/hgs_formal_analysis_shard2.json",
+        "/private/tmp/hgs_formal_analysis_shard2.md",
+        "/private/tmp/hgs_formal_analysis_shard3.json",
+        "/private/tmp/hgs_formal_analysis_shard3.md",
+        "/private/tmp/hgs_formal_shard1_audit.json",
+        "/private/tmp/hgs_formal_shard2_audit.json",
+        "/private/tmp/hgs_formal_shard3_audit.json",
+        "/private/tmp/hgs_formal_shard1_audit.log",
+        "/private/tmp/hgs_formal_shard2_audit.log",
+        "/private/tmp/hgs_formal_shard3_audit.log",
+        "/private/tmp/hgs_formal_shard1",
+        "/private/tmp/hgs_formal_shard2",
+        "/private/tmp/hgs_formal_shard3"
+      ],
+      "archive": "research_program/heterogeneous_grounding_study/results/formal_20260918",
+      "audit": "three independent shards passed; combined max_abs_replay_error=0.0",
+      "formal_estimate": false
+    },
+    "storage_sweep_2026-09-18": {
+      "removed_file_or_tree_count": 14,
+      "removed_bytes": 2455071926,
+      "paths": [
+        "/private/tmp/ecs2_formal_out",
+        "/private/tmp/ecs2_formal_prepared",
+        "/private/tmp/ecs2_formal_analysis.json",
+        "/private/tmp/ecs2_formal_analysis.md",
+        "/private/tmp/ecs2_formal_audit.json",
+        "/private/tmp/ecs2_smoke_out",
+        "/private/tmp/ecs2_smoke_prepared",
+        "/private/tmp/ecs2_smoke_audit.json",
+        "/private/tmp/language_sync_hgs",
+        "/private/tmp/ost_transfer_pilot",
+        "/private/tmp/ost_transfer_pilot2",
+        "/private/tmp/ost_transfer_pilot_prepared",
+        "/private/tmp/ost_transfer_pilot2_prepared",
+        "/private/tmp/minerl-mac-route-audit"
+      ],
+      "archive_checks": [
+        "research_program/error_correcting_signaling_study/results/formal_20260917",
+        "research_program/object_surface_transfer_study/results/formal_20260918",
+        "research_program/heterogeneous_grounding_study/results/formal_20260918"
+      ],
+      "stopped_processes": [
+        "git clone git@github.com:Zhenhao526/language.git /private/tmp/language_sync_hgs (pid 48721)"
+      ]
     }
   },
   "pending_designs": {},

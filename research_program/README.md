@@ -17,6 +17,8 @@
 - [ecological_factorization_study](ecological_factorization_study/README.md)：9 个三值目标组合、因子化/整体置换任务、等容量 `tri3`/`mono9` 和新 worker 的 leave-one-combination-out 传递；正式矩阵包含 36 个 parent 和 216 个 child，结果显示三值任务有弱通信收益，但没有零样本新组合恢复。
 - [object_surface_remap_study](object_surface_remap_study/README.md)：二值 `dual2`/`mono4` 容量匹配、固定 object-label permutation、slot-local/joint-history 与 leave-one-combination-out 传递；首轮通信对照失效的 diagnostic archive 保留，修正版九种子正式结果与审计位于 `object_surface_remap_study/results/formal_20260918_corrected/`。
 - [object_surface_transfer_study](object_surface_transfer_study/README.md)：在冻结 sender 后直接复制或重新初始化 worker，比较 identity 与 stable surface swap 下的零样本迁移成本和奖励修复；9 个 parent、72 个 child 的正式 endpoint、学习曲线和三片独立审计位于 `object_surface_transfer_study/results/formal_20260918/`。
+- [heterogeneous_grounding_study](heterogeneous_grounding_study/README.md)：把稳定的 surface-label 异质性提升到整个 parent population，比较隐藏伙伴、消息形式、接收表示和新 worker 的 leave-one-out 修复；9 个 seed、36 个 parent、432 个 child 的正式摘要和三片审计位于 `heterogeneous_grounding_study/results/formal_20260918/`。
+- [heterogeneous_grounding_study 诊断归档](heterogeneous_grounding_study/results/diagnostic_20260918/)：一枚种子的 3,000-update 候选干预通过 replay audit，但因目标 worker 覆盖使 child 流相同，暂不作为正式群体效应估计。
 - [repetition_pressure_study](repetition_pressure_study/README.md)：在唯一意义、局部重复和全局重复三种任务语义之间做容量匹配的冗余压力曲线；正式矩阵包含 81 个 parent 和 729 个 child run，结果归档于 `results/formal_20260918/`，详见 `meaning_capacity_formal_结果与下一步.md`。
 - [population_signaling_study](population_signaling_study/README.md)：128 个 run 的固定/轮换伙伴与公共 token 对照。
 

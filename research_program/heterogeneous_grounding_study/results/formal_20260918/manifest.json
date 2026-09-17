@@ -1,0 +1,89 @@
+{
+  "schema": "heterogeneous_grounding_archive_manifest_v1",
+  "study": "heterogeneous_grounding_study",
+  "formal_date": "2026-09-18",
+  "source_commit": "pending synchronization commit",
+  "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+  "raw_logs_retained": false,
+  "full_results_retained_in_archive": true,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 970,
+      "sha256": "9464adb74a19c33ae5d54d99090b0b867f28f3e7591fdf3e797d5f504d2b2939"
+    },
+    {
+      "path": "aggregate.json",
+      "bytes": 670892,
+      "sha256": "53c81113aa793ba5c66ada908b3512bae74bf6a5289db758113b58de2bc2c4b0"
+    },
+    {
+      "path": "aggregate.md",
+      "bytes": 27778,
+      "sha256": "f45fdb5a82120c44898c9176b38006925b1549f2f318fe0abfa2105a031ecb50"
+    },
+    {
+      "path": "audit.json",
+      "bytes": 403,
+      "sha256": "fc9d785d6fbbda6e525f781642372266ea737aec4d4dbb8085e4b55f609daf78"
+    },
+    {
+      "path": "audit_part1.json",
+      "bytes": 346,
+      "sha256": "77266d763de0b6525226c8183e552a3dbb33e23f15862be0b8ca1afc6a781d62"
+    },
+    {
+      "path": "audit_part2.json",
+      "bytes": 346,
+      "sha256": "77266d763de0b6525226c8183e552a3dbb33e23f15862be0b8ca1afc6a781d62"
+    },
+    {
+      "path": "audit_part3.json",
+      "bytes": 346,
+      "sha256": "77266d763de0b6525226c8183e552a3dbb33e23f15862be0b8ca1afc6a781d62"
+    },
+    {
+      "path": "execution_plan.json",
+      "bytes": 7784,
+      "sha256": "46e826514fc96b9a31146f13ab80dac025c3ce6ccdab959541d2e8c43fccd0a2"
+    },
+    {
+      "path": "freeze.json",
+      "bytes": 177,
+      "sha256": "51206f6c54a9d42ea3aad4b509c151bc5b74c1453713a9b572c46ebd1f8f5957"
+    },
+    {
+      "path": "pilot_curves.json",
+      "bytes": 82766,
+      "sha256": "dd6b0ebc4ec903ef4e8d7aa34d51ab48f9f10054a7366762bd343cd924f80080"
+    },
+    {
+      "path": "plan.json",
+      "bytes": 7784,
+      "sha256": "dc0e6e586810b919fcd73551fabdabfa4a84c35717fe29ac358a6ae5671a3d33"
+    },
+    {
+      "path": "prepared.json",
+      "bytes": 5858,
+      "sha256": "b4f38585f2ff12c8289ac1da6a52eb5422984a15ac2d26114a7b0db17e1283af"
+    },
+    {
+      "path": "results.json",
+      "bytes": 2773816,
+      "sha256": "18a60dfd1b7625c0c68560e5f68d2c24f0b62d74f8124b288b9d2c81bd37cbc7"
+    },
+    {
+      "path": "source_commit.txt",
+      "bytes": 31,
+      "sha256": "998326d5beb5e5c945f278f14a4305e8f7bdbb6d60604c29b5bd278e40430f0f"
+    },
+    {
+      "path": "validity.md",
+      "bytes": 1320,
+      "sha256": "5c80a186aee861924c049cffac561dd6b930a20049f50bff7a046af6d9b947ea"
+    }
+  ],
+  "file_count": 15,
+  "payload_bytes": 3580617,
+  "manifest_excludes_self": true
+}

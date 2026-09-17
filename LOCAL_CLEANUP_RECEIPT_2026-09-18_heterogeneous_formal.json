@@ -1,0 +1,170 @@
+{
+  "schema": "heterogeneous_grounding_formal_cleanup_receipt_v1",
+  "created_utc": "2026-09-17T21:50:15Z",
+  "root": "/Users/xia/Documents/ChatGPT/语言",
+  "archive": "research_program/heterogeneous_grounding_study/results/formal_20260918",
+  "archive_manifest_sha256": "c5076791e38359d964d29a4a67aab22d159fd58012c14e20a79627dd8f152a7a",
+  "audit": "three independent shards passed; combined max_abs_replay_error=0.0",
+  "formal_estimate": false,
+  "raw_execution_trees_absent": true,
+  "deleted": [
+    {
+      "path": "/private/tmp/hgs_regen",
+      "existed": true,
+      "bytes_removed": 869023,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/hetero_readme_current.txt",
+      "existed": true,
+      "bytes_removed": 2754,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/hgs_formal_prepared",
+      "existed": false,
+      "bytes_removed": 0,
+      "removed": false
+    },
+    {
+      "path": "/private/tmp/hgs_formal_results.json",
+      "existed": false,
+      "bytes_removed": 0,
+      "removed": false
+    },
+    {
+      "path": "/private/tmp/hgs_formal_analysis.json",
+      "existed": false,
+      "bytes_removed": 0,
+      "removed": false
+    },
+    {
+      "path": "/private/tmp/hgs_formal_analysis.md",
+      "existed": false,
+      "bytes_removed": 0,
+      "removed": false
+    },
+    {
+      "path": "/private/tmp/hgs_formal_analysis_final.json",
+      "existed": false,
+      "bytes_removed": 0,
+      "removed": false
+    },
+    {
+      "path": "/private/tmp/hgs_formal_analysis_final.md",
+      "existed": false,
+      "bytes_removed": 0,
+      "removed": false
+    },
+    {
+      "path": "/private/tmp/hgs_formal_results_shard1.json",
+      "existed": false,
+      "bytes_removed": 0,
+      "removed": false
+    },
+    {
+      "path": "/private/tmp/hgs_formal_results_shard2.json",
+      "existed": false,
+      "bytes_removed": 0,
+      "removed": false
+    },
+    {
+      "path": "/private/tmp/hgs_formal_results_shard3.json",
+      "existed": false,
+      "bytes_removed": 0,
+      "removed": false
+    },
+    {
+      "path": "/private/tmp/hgs_formal_analysis_shard1.json",
+      "existed": false,
+      "bytes_removed": 0,
+      "removed": false
+    },
+    {
+      "path": "/private/tmp/hgs_formal_analysis_shard1.md",
+      "existed": false,
+      "bytes_removed": 0,
+      "removed": false
+    },
+    {
+      "path": "/private/tmp/hgs_formal_analysis_shard2.json",
+      "existed": false,
+      "bytes_removed": 0,
+      "removed": false
+    },
+    {
+      "path": "/private/tmp/hgs_formal_analysis_shard2.md",
+      "existed": false,
+      "bytes_removed": 0,
+      "removed": false
+    },
+    {
+      "path": "/private/tmp/hgs_formal_analysis_shard3.json",
+      "existed": false,
+      "bytes_removed": 0,
+      "removed": false
+    },
+    {
+      "path": "/private/tmp/hgs_formal_analysis_shard3.md",
+      "existed": false,
+      "bytes_removed": 0,
+      "removed": false
+    },
+    {
+      "path": "/private/tmp/hgs_formal_shard1_audit.json",
+      "existed": false,
+      "bytes_removed": 0,
+      "removed": false
+    },
+    {
+      "path": "/private/tmp/hgs_formal_shard2_audit.json",
+      "existed": false,
+      "bytes_removed": 0,
+      "removed": false
+    },
+    {
+      "path": "/private/tmp/hgs_formal_shard3_audit.json",
+      "existed": false,
+      "bytes_removed": 0,
+      "removed": false
+    },
+    {
+      "path": "/private/tmp/hgs_formal_shard1_audit.log",
+      "existed": false,
+      "bytes_removed": 0,
+      "removed": false
+    },
+    {
+      "path": "/private/tmp/hgs_formal_shard2_audit.log",
+      "existed": false,
+      "bytes_removed": 0,
+      "removed": false
+    },
+    {
+      "path": "/private/tmp/hgs_formal_shard3_audit.log",
+      "existed": false,
+      "bytes_removed": 0,
+      "removed": false
+    },
+    {
+      "path": "/private/tmp/hgs_formal_shard1",
+      "existed": false,
+      "bytes_removed": 0,
+      "removed": false
+    },
+    {
+      "path": "/private/tmp/hgs_formal_shard2",
+      "existed": false,
+      "bytes_removed": 0,
+      "removed": false
+    },
+    {
+      "path": "/private/tmp/hgs_formal_shard3",
+      "existed": false,
+      "bytes_removed": 0,
+      "removed": false
+    }
+  ],
+  "total_bytes_removed": 871777,
+  "retained_local": "source package, frozen plans, compact diagnostic archive and compact formal archive"
+}

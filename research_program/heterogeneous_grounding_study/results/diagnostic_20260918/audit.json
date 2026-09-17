@@ -1,0 +1,13 @@
+{
+  "schema": "heterogeneous_grounding_audit_v1",
+  "status": "passed",
+  "parent_runs": 4,
+  "child_runs": 48,
+  "parent_training_log_rows": 12000,
+  "child_training_log_rows": 144000,
+  "parent_checkpoints": 16,
+  "child_checkpoints": 192,
+  "paired_live_silent_rows": 72000,
+  "paired_mapping_rows": 72000,
+  "max_abs_replay_error": 0.0
+}

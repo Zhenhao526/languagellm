@@ -22,6 +22,8 @@
 - [二元对象表面重映射修正版紧凑结果与审计](research_program/object_surface_remap_study/results/formal_20260918_corrected/)
 - [已形成协议的 incumbent worker 表面迁移实验](research_program/object_surface_transfer_study/)
 - [incumbent worker 迁移正式结果、修复曲线与审计](research_program/object_surface_transfer_study/results/formal_20260918/)
+- [群体感知异质性正式结果、配对对比与三片审计](research_program/heterogeneous_grounding_study/results/formal_20260918/)
+- [群体感知异质性诊断归档](research_program/heterogeneous_grounding_study/results/diagnostic_20260918/)
 - [population signaling 源代码与紧凑结果](research_program/population_signaling_study/)
 - [本轮同步与清理说明](SYNC_2026-09-17.md)
 - [生态因子化实验同步与清理说明](SYNC_2026-09-18.md)
@@ -29,5 +31,7 @@
 - [对象表面重映射本地清理收据](LOCAL_CLEANUP_RECEIPT_2026-09-18_object_surface_remap.json)
 - [incumbent worker 表面迁移实验同步与清理说明](SYNC_2026-09-18_object_surface_transfer.md)
 - [incumbent worker 表面迁移本地清理收据](LOCAL_CLEANUP_RECEIPT_2026-09-18_object_surface_transfer.json)
+- [群体感知异质性实验同步与清理说明](SYNC_2026-09-18_heterogeneous_grounding.md)
+- [群体感知异质性正式批次本地清理收据](LOCAL_CLEANUP_RECEIPT_2026-09-18_heterogeneous_formal.json)
 
 本地只保留当前实验源代码、冻结方案、紧凑结果、审计收据和运行环境。历史过程记录已同步至 GitHub。

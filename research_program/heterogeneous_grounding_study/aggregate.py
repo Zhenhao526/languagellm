@@ -193,16 +193,18 @@ def analyze(path):
         for form in design.FORMS:
             if not _valid_rep_form(representation, form):
                 continue
+            for support in design.SUPPORTS:
+                for channel in design.CHANNELS:
+                    for mode in design.POPULATION_MODES:
+                        result = _paired(
+                            child_rows,
+                            {"population_mode": mode, "representation": representation, "form": form, "mapping": "swap", "support": support, "channel": channel},
+                            {"population_mode": mode, "representation": representation, "form": form, "mapping": "identity", "support": support, "channel": channel},
+                        )
+                        _add_contrast(contrasts, "swap_minus_identity", result, population_mode=mode, representation=representation, form=form, support=support, channel=channel)
             for mapping in design.MAPPINGS:
                 for support in design.SUPPORTS:
                     for channel in design.CHANNELS:
-                        for mode in design.POPULATION_MODES:
-                            result = _paired(
-                                child_rows,
-                                {"population_mode": mode, "representation": representation, "form": form, "mapping": "swap", "support": support, "channel": channel},
-                                {"population_mode": mode, "representation": representation, "form": form, "mapping": "identity", "support": support, "channel": channel},
-                            )
-                            _add_contrast(contrasts, "swap_minus_identity", result, population_mode=mode, representation=representation, form=form, support=support, channel=channel)
                         result = _paired(
                             child_rows,
                             {"population_mode": "heterogeneous", "representation": representation, "form": form, "mapping": mapping, "support": support, "channel": channel},
