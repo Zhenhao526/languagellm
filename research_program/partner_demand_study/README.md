@@ -12,6 +12,9 @@ local only; the independent checks are implemented in `audit.py`.
 The four-cell `partner_006` credit-assignment longprobe is summarized in
 [partner_006_longprobe_结果与下一步.md](partner_006_longprobe_结果与下一步.md).
 
+The four-seed PI/scarce confirmation is summarized in
+[partner_007_confirmatory_结果与下一步.md](partner_007_confirmatory_结果与下一步.md).
+
 Run the low-cost invariants from the repository root:
 
 ```bash
