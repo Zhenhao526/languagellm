@@ -10,6 +10,11 @@ The abundant persistent arm shows a positive natural−closed and
 natural−permuted signature; the scarce arm does not show a permutation loss and
 is kept as a separate capacity condition.
 
+The four-seed switching confirmation is summarized in
+[tabular_003_switching_结果与下一步.md](tabular_003_switching_结果与下一步.md).
+Training-support permutation loss is clear, while held-out switching transfer
+attenuates and crosses zero in the scarce arm.
+
 Run tests from the repository root:
 
 ```bash
