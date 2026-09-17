@@ -2,7 +2,7 @@
   "generated_at_local": "2026-09-18",
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
-  "remote_commit": "4e3f9e98d13c5aae02c3b0c9b9f6e4e8cd0bde85",
+  "remote_commit": "693208d84d3a8ed4b01aa7e59e0f9ae51795a61e",
   "remote_main_verified": true,
   "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix",
   "retained_paths": {
@@ -881,7 +881,7 @@
         "kind": "tree"
       }
     ],
-    "verified_after_remote_commit": "4e3f9e98d13c5aae02c3b0c9b9f6e4e8cd0bde85",
+    "verified_after_remote_commit": "693208d84d3a8ed4b01aa7e59e0f9ae51795a61e",
     "current_batch": {
       "removed_file_or_tree_count": 25,
       "removed_bytes": 4987434931,
@@ -912,7 +912,7 @@
         "/private/tmp/mcs_smoke_out",
         "/private/tmp/mcs_smoke_prepared"
       ],
-      "verified_after_remote_commit": "4e3f9e98d13c5aae02c3b0c9b9f6e4e8cd0bde85",
+      "verified_after_remote_commit": "693208d84d3a8ed4b01aa7e59e0f9ae51795a61e",
       "archive": "research_program/meaning_capacity_study/results/formal_20260918",
       "archive_stats": {
         "files": 8,
