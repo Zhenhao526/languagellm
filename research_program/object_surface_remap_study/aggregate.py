@@ -46,8 +46,14 @@ def _metric(final, goal_kind, mode):
 def summarize(row):
     final = row["final"]
     natural = float(_metric(final, "heldout", "natural"))
+    initial = row.get("initial", {})
+    initial_natural = float(_metric(initial, "heldout", "natural")) if initial else None
     permuted = float(_metric(final, "heldout", "permuted"))
     silent = permuted if row["channel"] == "silent" else natural
+    all_natural = float(_metric(final, "all", "natural"))
+    all_permuted = float(_metric(final, "all", "permuted"))
+    seen_natural = float(_metric(final, "seen", "natural"))
+    seen_permuted = float(_metric(final, "seen", "permuted"))
     out = {
         "seed": int(row["seed"]),
         "condition": row["condition"],
@@ -59,12 +65,18 @@ def summarize(row):
         "channel": row["channel"],
         "heldout_goal": int(row["heldout_goal"]),
         "heldout_natural": natural,
+        "initial_heldout_natural": initial_natural,
+        "learning_gain": natural - initial_natural if initial_natural is not None else None,
         "heldout_silent": silent,
         "heldout_permuted": permuted,
-        "all_natural": float(_metric(final, "all", "natural")),
-        "seen_natural": float(_metric(final, "seen", "natural")),
+        "all_natural": all_natural,
+        "all_permuted": all_permuted,
+        "seen_natural": seen_natural,
+        "seen_permuted": seen_permuted,
         "live_minus_silent": natural - silent if row["channel"] == "live" else 0.0,
         "natural_minus_permuted": natural - permuted if row["channel"] == "live" else 0.0,
+        "all_natural_minus_permuted": all_natural - all_permuted if row["channel"] == "live" else 0.0,
+        "seen_natural_minus_permuted": seen_natural - seen_permuted if row["channel"] == "live" else 0.0,
         "functional": bool(natural >= 0.60),
         "sender_codebook": final["sender_codebook"],
         "pairwise_min_hamming": int(final["pairwise_min_hamming"]),
@@ -134,6 +146,8 @@ def analyze(path):
                         if not values:
                             continue
                         natural = [row["heldout_natural"] for row in values]
+                        initial_natural = [row["initial_heldout_natural"] for row in values if row["initial_heldout_natural"] is not None]
+                        gains = [row["learning_gain"] for row in values if row["learning_gain"] is not None]
                         recombined = [row["recombined"] for row in values if row["recombined"] is not None]
                         groups.append(
                             {
@@ -145,8 +159,12 @@ def analyze(path):
                                 "n": len(values),
                                 "heldout_natural_mean": float(np.mean(natural)),
                                 "heldout_natural_ci95_t": ci(natural),
+                                "initial_heldout_natural_mean": float(np.mean(initial_natural)) if initial_natural else None,
+                                "learning_gain_mean": float(np.mean(gains)) if gains else None,
                                 "all_natural_mean": float(np.mean([row["all_natural"] for row in values])),
                                 "seen_natural_mean": float(np.mean([row["seen_natural"] for row in values])),
+                                "all_natural_minus_permuted_mean": float(np.mean([row["all_natural_minus_permuted"] for row in values])),
+                                "seen_natural_minus_permuted_mean": float(np.mean([row["seen_natural_minus_permuted"] for row in values])),
                                 "live_minus_silent_mean": float(np.mean([row["live_minus_silent"] for row in values])),
                                 "natural_minus_permuted_mean": float(np.mean([row["natural_minus_permuted"] for row in values])),
                                 "recombined_mean": float(np.mean(recombined)) if recombined else None,
@@ -206,6 +224,24 @@ def analyze(path):
                     if result["n"]:
                         contrasts.append({"name": "leave_one_out_minus_full", "representation": representation, "form": form, "mapping": mapping, "channel": channel, **{k: v for k, v in result.items() if k != "values"}})
 
+    # The live/silent comparison is paired by seed and uses the all-goal
+    # endpoint, where the corrected evaluation schedule lets permutation mix
+    # messages across distinct goals.
+    for representation in design.REPRESENTATIONS:
+        for form in design.FORMS:
+            if representation == "slot_local" and form == "mono4":
+                continue
+            for mapping in design.MAPPINGS:
+                for support in design.SUPPORTS:
+                    result = _paired(
+                        rows,
+                        {"representation": representation, "form": form, "mapping": mapping, "support": support, "channel": "live"},
+                        {"representation": representation, "form": form, "mapping": mapping, "support": support, "channel": "silent"},
+                        value="all_natural",
+                    )
+                    if result["n"]:
+                        contrasts.append({"name": "live_minus_silent_all", "representation": representation, "form": form, "mapping": mapping, "support": support, **{k: v for k, v in result.items() if k != "values"}})
+
     return {"schema": "object_surface_remap_analysis_v1", "rule": {"functional_natural_min": 0.60, "primary": "leave-one-out live heldout natural return"}, "parents": parent_rows, "children": rows, "groups": groups, "contrasts": contrasts}
 
 
@@ -217,12 +253,17 @@ def write_md(path, data):
         "",
         "## Held-out live endpoint",
         "",
-        "| representation | form | mapping | support | channel | held-out natural | 95% CI | functional |",
-        "|---|---|---|---|---|---:|---|---:|",
+        "| representation | form | mapping | support | channel | initial | final | gain | 95% CI | functional |",
+        "|---|---|---|---|---|---:|---:|---:|---|---:|",
     ]
     for row in data["groups"]:
         lo, hi = row["heldout_natural_ci95_t"]
-        lines.append(f"| `{row['representation']}` | `{row['form']}` | `{row['mapping']}` | `{row['support']}` | `{row['channel']}` | {row['heldout_natural_mean']:.3f} | [{lo:.3f}, {hi:.3f}] | {row['functional_count']}/{row['n']} |")
+        initial = "—" if row["initial_heldout_natural_mean"] is None else f"{row['initial_heldout_natural_mean']:.3f}"
+        gain = "—" if row["learning_gain_mean"] is None else f"{row['learning_gain_mean']:.3f}"
+        lines.append(f"| `{row['representation']}` | `{row['form']}` | `{row['mapping']}` | `{row['support']}` | `{row['channel']}` | {initial} | {row['heldout_natural_mean']:.3f} | {gain} | [{lo:.3f}, {hi:.3f}] | {row['functional_count']}/{row['n']} |")
+    lines += ["", "## All-goal communication check", "", "The `natural−permuted` value uses the all-goal evaluation stream. A live positive value means the message changes behavior after the permutation control swaps messages across distinct goals.", "", "| representation | form | mapping | support | channel | natural−permuted |", "|---|---|---|---|---|---:|"]
+    for row in data["groups"]:
+        lines.append(f"| `{row['representation']}` | `{row['form']}` | `{row['mapping']}` | `{row['support']}` | `{row['channel']}` | {row['all_natural_minus_permuted_mean']:.3f} |")
     lines += ["", "## Paired contrasts", "", "| contrast | factors | mean difference | 95% CI | n |", "|---|---|---:|---|---:|"]
     for row in data["contrasts"]:
         factors = ", ".join(f"{key}={value}" for key, value in row.items() if key in {"representation", "form", "mapping", "support", "channel"})

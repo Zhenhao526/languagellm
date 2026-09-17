@@ -30,6 +30,12 @@ channel, and the two message representations. The primary endpoint is
 leave-one-out live held-out natural return `>= 0.60`; all evaluation streams are
 balanced across workers and paired within seed.
 
+For the all-goal communication check, four consecutive goal values are assigned
+to the same partner before rotating to the next partner. Thus each partner sees
+all four goal values and the `permuted` control rotates messages across distinct
+goals. The test suite asserts this mixing property; fixed held-out streams remain
+separate and are used only for the primary endpoint.
+
 ## Interpretation boundary
 
 The stable swap is learnable from reward because the scene always contains one

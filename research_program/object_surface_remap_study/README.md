@@ -16,6 +16,14 @@ leave-one-out live held-out return; permutation and silent controls check that a
 surface remap result is mediated by the message rather than a fixed action
 shortcut.
 
+The all-goal evaluation stream groups four consecutive goal values under the
+same partner. This is required for the permutation control to exchange messages
+across distinct goals, and a regression test checks that the control is not a
+no-op. The first 9-seed run is retained as a replay-audited diagnostic archive
+because it used a synchronized partner/goal cycle that made this control
+ineffective. The replacement run will be archived separately after the corrected
+stream passes audit.
+
 This is a finite tabular protocol-transfer experiment. It measures the
 conditions for local repair and transfer; it does not claim that the agents
 have acquired human language.

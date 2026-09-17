@@ -180,7 +180,10 @@ def balanced_eval_stream(seed, count, goal_kind, task, heldout, mapping="identit
     else:
         idx = np.arange(count) % len(GOAL_PAIRS)
     goal = np.asarray(GOAL_PAIRS, dtype=np.int8)[idx]
-    partner_id = (np.arange(count, dtype=np.int64) % WORKERS).astype(np.int8)
+    # Keep workers balanced while mixing all goal values inside each partner's
+    # block; otherwise the permutation control can rotate messages within a
+    # constant goal class and become a no-op.
+    partner_id = ((np.arange(count, dtype=np.int64) // len(GOAL_PAIRS)) % WORKERS).astype(np.int8)
     partner_uniform = (partner_id.astype(np.float64) + 0.5) / WORKERS
     return {"site_semantic": site_semantic, "site_surface": site_surface, "goal": goal, "target_bits": target_bits(goal, task), "partner_uniform": partner_uniform, "partner_id": partner_id, "message_uniforms": rng.random((count, max(MESSAGE_LENGTHS.values()))), "action_uniforms": rng.random((count, HORIZON)), "capacity": np.full((count, SUBTASKS, OBJECT_TYPES), CAPACITY, dtype=np.int8), "mapping": mapping, "seed": int(seed), "task": task, "support": "evaluation", "heldout_goal": int(heldout), "evaluation": True, "update": 0}
 

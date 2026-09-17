@@ -27,6 +27,9 @@ def main():
 
     eval_ep = design.balanced_eval_stream(123, 4 * 32, "heldout", "factorized", 0, "identity")
     assert np.bincount(eval_ep["partner_id"], minlength=design.WORKERS).tolist() == [32, 32, 32, 32]
+    mixed = design.balanced_eval_stream(123, 4 * 32, "all", "factorized", 0, "identity")
+    explicit = design.goal_index(mixed["goal"])
+    assert np.any(environment._permute_sequences(explicit, mixed["partner_id"]) != explicit)
     params = policy.make_policy(4, "dual2", "slot_local")
     tr = environment.rollout(params, eval_ep, "dual2", "factorized", "slot_local", "live", sample=False)
     assert tr["actions"].shape == (128, design.HORIZON)
