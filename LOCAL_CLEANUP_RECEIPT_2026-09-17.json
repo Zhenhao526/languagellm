@@ -140,7 +140,7 @@
     },
     "研究报告_共同符号形成机制_2026-09-17.md": {
       "files": 1,
-      "bytes": 28396
+      "bytes": 28421
     },
     "README.md": {
       "files": 1,
@@ -165,7 +165,7 @@
   },
   "local_environment": {
     "files": 1200,
-    "bytes": 106899269
+    "bytes": 106900460
   },
   "retention_policy": "source code, frozen plans, compact results, audit receipts, final report and local runtime only; raw process trees and literature caches are not kept in the working tree",
   "additional_cleanup": {

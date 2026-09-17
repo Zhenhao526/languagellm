@@ -44,7 +44,7 @@
     },
     "研究报告_共同符号形成机制_2026-09-17.md": {
       "files": 1,
-      "bytes": 28396
+      "bytes": 28421
     },
     "README.md": {
       "files": 1,
@@ -164,7 +164,7 @@
   "historical_cleanup_estimate_bytes": 3687981411,
   "local_environment": {
     "files": 1200,
-    "bytes": 106899269
+    "bytes": 106900460
   },
   "policy": "raw training logs, checkpoints, model assets, literature caches and historical generated trees are not kept locally; Git history retains prior source snapshots",
   "additional_cleanup": {
