@@ -1,6 +1,6 @@
 # Frozen plan: community merge
 
-The parent stage trains one role-symmetric policy per community. The same tabular policy supplies a sender head and a receiver head, and role assignment is balanced during parent training. The conflict population exposes identity in community 0 and a fixed pair-swap surface permutation in community 1; the aligned population uses identity in both communities.
+The parent stage trains one role-symmetric policy per community. Both community copies use the same frozen initialization and paired world stream, so the aligned population is a genuine shared-code baseline. The same tabular policy supplies a sender head and a receiver head, and role assignment is balanced during parent training. The conflict population exposes identity in community 0 and a fixed pair-swap surface permutation in community 1; the aligned population uses identity in both communities. This controlled conflict isolates the cost of an external convention shift; independently initialized cultures are a later extension.
 
 The child stage initializes a fresh policy and exposes it to all four incumbents. `alternating` assigns the fresh agent to sender and receiver roles in balanced blocks; `sender_only` is an ablation. `hidden` removes partner identity from the fresh policy, while `visible` gives separate partner-conditioned heads initialized from the same hidden parameters. `fresh_only` freezes incumbents; `coadapt` updates the incumbent that fills the opposite role.
 

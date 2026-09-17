@@ -301,7 +301,10 @@ def train_parent(seed, population, community, execution, updates=None):
     updates = design.PARENT_UPDATES if updates is None else int(updates)
     run = Path(execution) / "parents" / f"seed_{seed}_{population}_community_{community}"
     run.mkdir(parents=True, exist_ok=False)
-    params = policy.make_policy(seed + community * design.PARTNER_SALT)
+    # Use the same frozen initialization and paired stream for both community
+    # copies.  This makes ``aligned`` a genuine shared-code baseline; the
+    # conflict arm then differs only by the recorded external surface map.
+    params = policy.make_policy(seed)
     initial_hash = policy.parameter_hash(params)
     checkpoints = sorted(set([u for u in design.CHECKPOINTS if u <= updates] + [updates]))
     if 0 in checkpoints:
