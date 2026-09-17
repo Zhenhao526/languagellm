@@ -1,0 +1,16 @@
+{
+  "schema": "invalid_design_receipt_v1",
+  "status": "rejected_before_analysis",
+  "date": "2026-09-17",
+  "original_horizon": 7,
+  "action_start": 3,
+  "subtasks": 2,
+  "steps_per_subtask": 2,
+  "max_possible_team_return": 0.5714285714285714,
+  "functional_threshold": 0.6,
+  "reason": "The threshold exceeded the theoretical maximum return; all functional counts would be structurally impossible.",
+  "execution_path": "/tmp/ecs_formal_out",
+  "prepared_path": "/tmp/ecs_formal_prepared",
+  "raw_execution_retained": false,
+  "replacement": "Set HORIZON=6 and ACTION_START=2 before the corrected freeze and rerun."
+}

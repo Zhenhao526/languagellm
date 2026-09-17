@@ -2,10 +2,58 @@
   "generated_at_local": "2026-09-17",
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
-  "remote_commit": "332d36644972543de2314520b49dfd4d8ce9a225",
+  "remote_commit": "9bad5b78a7c2fb6a96061b4d637dd9089251a736",
   "remote_main_verified": true,
-  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report",
+  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts",
   "retained_paths": {
+    "research_program/action_dependent_signaling_study": {
+      "files": 23,
+      "bytes": 12626766
+    },
+    "research_program/compositional_signaling_study": {
+      "files": 20,
+      "bytes": 3406709
+    },
+    "research_program/error_correcting_signaling_study": {
+      "files": 21,
+      "bytes": 2194930
+    },
+    "research_program/generation_compositional_transmission_study": {
+      "files": 23,
+      "bytes": 600595
+    },
+    "research_program/generation_transmission_study": {
+      "files": 19,
+      "bytes": 1549912
+    },
+    "research_program/heldout_composition_study": {
+      "files": 22,
+      "bytes": 1706609
+    },
+    "research_program/multi_generation_chain_study": {
+      "files": 21,
+      "bytes": 3352646
+    },
+    "research_program/multi_generation_transmission_study": {
+      "files": 20,
+      "bytes": 473773
+    },
+    "research_program/noise_repair_study": {
+      "files": 18,
+      "bytes": 526368
+    },
+    "research_program/population_signaling_study": {
+      "files": 22,
+      "bytes": 4266351
+    },
+    "research_program/receiver_representation_study": {
+      "files": 22,
+      "bytes": 3589982
+    },
+    "research_program/shared_redundancy_study": {
+      "files": 19,
+      "bytes": 2214414
+    },
     "research_program/tabular_signaling_study": {
       "files": 23,
       "bytes": 3243758
@@ -14,115 +62,83 @@
       "files": 11,
       "bytes": 51394
     },
-    "research_program/compositional_signaling_study": {
-      "files": 20,
-      "bytes": 3406709
-    },
-    "research_program/action_dependent_signaling_study": {
-      "files": 23,
-      "bytes": 12626766
-    },
-    "research_program/generation_transmission_study": {
+    "research_program/ternary_composition_study": {
       "files": 19,
-      "bytes": 1549912
-    },
-    "research_program/generation_compositional_transmission_study": {
-      "files": 23,
-      "bytes": 600595
-    },
-    "research_program/heldout_composition_study": {
-      "files": 22,
-      "bytes": 1706609
-    },
-    "research_program/receiver_representation_study": {
-      "files": 22,
-      "bytes": 3589982
-    },
-    "research_program/population_signaling_study": {
-      "files": 22,
-      "bytes": 4266351
-    },
-    "研究报告_共同符号形成机制_2026-09-17.md": {
-      "files": 1,
-      "bytes": 28421
+      "bytes": 786700
     },
     "README.md": {
-      "files": 1,
-      "bytes": 1163
+      "files": 0,
+      "bytes": 0
     },
     "research_program/README.md": {
-      "files": 1,
-      "bytes": 2023
+      "files": 0,
+      "bytes": 0
     },
     "SYNC_2026-09-17.md": {
-      "files": 1,
-      "bytes": 6614
+      "files": 0,
+      "bytes": 0
     },
     "STORAGE_POLICY.md": {
-      "files": 1,
-      "bytes": 1436
+      "files": 0,
+      "bytes": 0
     },
-    "research_program/multi_generation_transmission_study": {
-      "files": 19,
-      "bytes": 473034
-    },
-    "research_program/multi_generation_chain_study": {
-      "files": 25,
-      "bytes": 3372953
-    },
-    "research_program/noise_repair_study": {
-      "files": 24,
-      "bytes": 579504
-    },
-    "research_program/ternary_composition_study": {
-      "files": 26,
-      "bytes": 837634
+    "研究报告_共同符号形成机制_2026-09-17.md": {
+      "files": 0,
+      "bytes": 0
     }
   },
   "compact_archives": {
-    "research_program/tabular_signaling_study/results/formal_20260917": {
-      "files": 12,
-      "bytes": 3199452
+    "research_program/action_dependent_signaling_study/results/formal_20260917": {
+      "files": 10,
+      "bytes": 12574763
     },
     "research_program/compositional_signaling_study/results/formal_20260917": {
       "files": 8,
       "bytes": 3359008
     },
-    "research_program/action_dependent_signaling_study/results/formal_20260917": {
-      "files": 10,
-      "bytes": 12574763
-    },
-    "research_program/generation_transmission_study/results/formal_20260917": {
+    "research_program/error_correcting_signaling_study/results/formal_20260917": {
       "files": 8,
-      "bytes": 1500468
+      "bytes": 2142015
     },
     "research_program/generation_compositional_transmission_study/results/formal_20260917": {
       "files": 10,
       "bytes": 566057
     },
+    "research_program/generation_transmission_study/results/formal_20260917": {
+      "files": 8,
+      "bytes": 1500468
+    },
     "research_program/heldout_composition_study/results/formal_20260917": {
       "files": 10,
       "bytes": 1667649
-    },
-    "research_program/receiver_representation_study/results/formal_20260917": {
-      "files": 10,
-      "bytes": 3546655
-    },
-    "research_program/population_signaling_study/results/formal_20260917": {
-      "files": 11,
-      "bytes": 4219273
-    },
-    "research_program/multi_generation_transmission_study/results/formal_20260917": {
-      "files": 11,
-      "bytes": 429349
     },
     "research_program/multi_generation_chain_study/results/formal_20260917": {
       "files": 11,
       "bytes": 3303018
     },
+    "research_program/multi_generation_transmission_study/results/formal_20260917": {
+      "files": 11,
+      "bytes": 429349
+    },
     "research_program/noise_repair_study/results/formal_20260917": {
       "files": 9,
       "bytes": 480182
+    },
+    "research_program/population_signaling_study/results/formal_20260917": {
+      "files": 11,
+      "bytes": 4219273
+    },
+    "research_program/receiver_representation_study/results/formal_20260917": {
+      "files": 10,
+      "bytes": 3546655
+    },
+    "research_program/shared_redundancy_study/results/formal_20260917": {
+      "files": 8,
+      "bytes": 2161275
+    },
+    "research_program/tabular_signaling_study/results/formal_20260917": {
+      "files": 12,
+      "bytes": 3199452
     },
     "research_program/ternary_composition_study/results/formal_20260917": {
       "files": 8,
@@ -166,10 +182,79 @@
     "research_program/multi_generation_transmission_study/results/mgt_formal_exec": {
       "present": false
     },
+    "research_program/multi_generation_chain_study/results/mgc_formal_exec": {
+      "present": false
+    },
     "research_program/noise_repair_study/results/noise_formal_exec": {
       "present": false
     },
     "research_program/ternary_composition_study/results/ternary_formal_exec": {
+      "present": false
+    },
+    "/tmp/ecs_corrected_formal_out": {
+      "present": false
+    },
+    "/tmp/ecs_corrected_formal_prepared": {
+      "present": false
+    },
+    "/tmp/ecs_corrected_archive": {
+      "present": false
+    },
+    "/tmp/ecs_corrected_audit.json": {
+      "present": false
+    },
+    "/tmp/ecs_compact_corrected.py": {
+      "present": false
+    },
+    "/tmp/ecs_corrected_runner.log": {
+      "present": false
+    },
+    "/tmp/ecs2_formal_out": {
+      "present": false
+    },
+    "/tmp/ecs2_formal_prepared": {
+      "present": false
+    },
+    "/tmp/ecs2_smoke_out": {
+      "present": false
+    },
+    "/tmp/ecs2_smoke_prepared": {
+      "present": false
+    },
+    "/tmp/ecs2_formal_audit.json": {
+      "present": false
+    },
+    "/tmp/ecs2_formal_analysis.json": {
+      "present": false
+    },
+    "/tmp/ecs2_formal_analysis.md": {
+      "present": false
+    },
+    "/tmp/ecs2_smoke_audit.json": {
+      "present": false
+    },
+    "/tmp/srs_formal_out": {
+      "present": false
+    },
+    "/tmp/srs_formal_prepared": {
+      "present": false
+    },
+    "/tmp/srs_formal_prepared2": {
+      "present": false
+    },
+    "/tmp/srs_formal_audit.json": {
+      "present": false
+    },
+    "/tmp/srs_formal_analysis.json": {
+      "present": false
+    },
+    "/tmp/srs_formal_analysis.md": {
+      "present": false
+    },
+    "/tmp/archive_ecs.py": {
+      "present": false
+    },
+    "/tmp/archive_srs.py": {
       "present": false
     }
   },
@@ -198,18 +283,56 @@
     "/tmp/tcs_formal_analysis.json",
     "/tmp/tcs_formal_analysis.md",
     "/tmp/tcs_formal_audit.json",
-    "/tmp/tcs_formal_audit2.json"
+    "/tmp/tcs_formal_audit2.json",
+    "/private/tmp/mgc_parent",
+    "/private/tmp/mgc_parent_prepared",
+    "/private/tmp/mgc_chain_formal",
+    "/private/tmp/mgc_chain_prepared_formal",
+    "/private/tmp/mgc_chain_prepared_formal_v2",
+    "/private/tmp/mgc_chain_audit_parts",
+    "/private/tmp/mgc_chain_smoke",
+    "/private/tmp/mgc_chain_prepared_smoke",
+    "/private/tmp/noise_formal",
+    "/private/tmp/noise_prepared_formal",
+    "/private/tmp/noise_prepared_formal_v2",
+    "/private/tmp/noise_prepared_smoke",
+    "/private/tmp/noise_prepared_smoke2",
+    "/private/tmp/noise_smoke",
+    "/private/tmp/ecs_corrected_formal_out",
+    "/private/tmp/ecs_corrected_formal_prepared",
+    "/private/tmp/ecs_corrected_archive",
+    "/private/tmp/ecs_corrected_audit.json",
+    "/private/tmp/ecs_compact_corrected.py",
+    "/private/tmp/ecs_corrected_runner.log",
+    "research_program/shared_redundancy_study/__pycache__",
+    "research_program/error_correcting_signaling_study/__pycache__",
+    "/tmp/ecs2_formal_out",
+    "/tmp/ecs2_formal_prepared",
+    "/tmp/ecs2_smoke_out",
+    "/tmp/ecs2_smoke_prepared",
+    "/tmp/ecs2_formal_audit.json",
+    "/tmp/ecs2_formal_analysis.json",
+    "/tmp/ecs2_formal_analysis.md",
+    "/tmp/ecs2_smoke_audit.json",
+    "/tmp/srs_formal_out",
+    "/tmp/srs_formal_prepared",
+    "/tmp/srs_formal_prepared2",
+    "/tmp/srs_formal_audit.json",
+    "/tmp/srs_formal_analysis.json",
+    "/tmp/srs_formal_analysis.md",
+    "/tmp/archive_ecs.py",
+    "/tmp/archive_srs.py"
   ],
   "tracked_paths_pruned_in_commit": 8338,
   "historical_cleanup_estimate_bytes": 3687981411,
   "local_environment": {
-    "files": 1838,
-    "bytes": 141967113
+    "files": 895,
+    "bytes": 73154917
   },
   "policy": "raw training logs, checkpoints, model assets, literature caches and historical generated trees are not kept locally; Git history retains prior source snapshots",
   "additional_cleanup": {
-    "removed_file_or_tree_count": 16,
-    "removed_bytes": 4408627848,
+    "removed_file_or_tree_count": 51,
+    "removed_bytes": 8263808543,
     "removed_paths": [
       {
         "path": "/private/tmp/tabular_PI_stateless_silent",
@@ -260,7 +383,7 @@
         "bytes": 377769
       },
       {
-        "path": "/private/tmp/languagellm_restore",
+        "path": "/private/tmp/language_restore",
         "bytes": 350422601
       },
       {
@@ -274,8 +397,335 @@
       {
         "path": "/private/tmp/language_gradle49.zip",
         "bytes": 45953734
+      },
+      {
+        "path": "/private/tmp/mgc_parent",
+        "bytes": 278992276
+      },
+      {
+        "path": "/private/tmp/mgc_parent_prepared",
+        "bytes": 50456
+      },
+      {
+        "path": "/private/tmp/mgc_chain_formal",
+        "bytes": 1029346951
+      },
+      {
+        "path": "/private/tmp/mgc_chain_prepared_formal",
+        "bytes": 155756
+      },
+      {
+        "path": "/private/tmp/mgc_chain_prepared_formal_v2",
+        "bytes": 155639
+      },
+      {
+        "path": "/private/tmp/mgc_chain_audit_parts",
+        "bytes": 116644
+      },
+      {
+        "path": "/private/tmp/mgc_chain_smoke",
+        "bytes": 1031817
+      },
+      {
+        "path": "/private/tmp/mgc_chain_prepared_smoke",
+        "bytes": 155189
+      },
+      {
+        "path": "/private/tmp/noise_formal",
+        "bytes": 211290248
+      },
+      {
+        "path": "/private/tmp/noise_prepared_formal",
+        "bytes": 141828
+      },
+      {
+        "path": "/private/tmp/noise_prepared_formal_v2",
+        "bytes": 141828
+      },
+      {
+        "path": "/private/tmp/noise_prepared_smoke",
+        "bytes": 141585
+      },
+      {
+        "path": "/private/tmp/noise_prepared_smoke2",
+        "bytes": 141828
+      },
+      {
+        "path": "/private/tmp/noise_smoke",
+        "bytes": 577716
+      },
+      {
+        "path": "/Users/xia/Documents/ChatGPT/语言/.exp_venv/lib/python3.12/site-packages/__pycache__",
+        "bytes": 4744
+      },
+      {
+        "path": "/private/tmp/ecs_corrected_formal_out",
+        "present": false,
+        "files": 1894,
+        "bytes": 2326514287,
+        "kind": "tree"
+      },
+      {
+        "path": "/private/tmp/ecs_corrected_formal_prepared",
+        "present": false,
+        "files": 12,
+        "bytes": 56234,
+        "kind": "tree"
+      },
+      {
+        "path": "/private/tmp/ecs_corrected_archive",
+        "present": false,
+        "files": 9,
+        "bytes": 3671148,
+        "kind": "tree"
+      },
+      {
+        "path": "/private/tmp/ecs_corrected_audit.json",
+        "present": false,
+        "files": 1,
+        "bytes": 315,
+        "kind": "file"
+      },
+      {
+        "path": "/private/tmp/ecs_compact_corrected.py",
+        "present": false,
+        "files": 1,
+        "bytes": 3380,
+        "kind": "file"
+      },
+      {
+        "path": "/private/tmp/ecs_corrected_runner.log",
+        "present": false,
+        "files": 1,
+        "bytes": 0,
+        "kind": "file"
+      },
+      {
+        "path": "research_program/shared_redundancy_study/__pycache__",
+        "present": false,
+        "files": 7,
+        "bytes": 83038,
+        "kind": "tree"
+      },
+      {
+        "path": "research_program/error_correcting_signaling_study/__pycache__",
+        "present": false,
+        "files": 7,
+        "bytes": 80702,
+        "kind": "tree"
+      },
+      {
+        "path": "research_program/repetition_pressure_study",
+        "present": false,
+        "files": 11,
+        "bytes": 53853,
+        "kind": "tree"
+      },
+      {
+        "path": ".exp_venv/lib/python3.12/site-packages/__pycache__",
+        "present": false,
+        "files": null,
+        "bytes": 4744,
+        "kind": "tree"
+      },
+      {
+        "path": ".exp_venv/lib/python3.12/site-packages/numpy/__pycache__",
+        "present": false,
+        "files": null,
+        "bytes": 70087,
+        "kind": "tree"
+      },
+      {
+        "path": ".exp_venv/lib/python3.12/site-packages/numpy/_utils/__pycache__",
+        "present": false,
+        "files": null,
+        "bytes": 14249,
+        "kind": "tree"
+      },
+      {
+        "path": ".exp_venv/lib/python3.12/site-packages/numpy/linalg/__pycache__",
+        "present": false,
+        "files": null,
+        "bytes": 129547,
+        "kind": "tree"
+      },
+      {
+        "path": ".exp_venv/lib/python3.12/site-packages/numpy/_core/__pycache__",
+        "present": false,
+        "files": null,
+        "bytes": 919591,
+        "kind": "tree"
+      },
+      {
+        "path": ".exp_venv/lib/python3.12/site-packages/numpy/_typing/__pycache__",
+        "present": false,
+        "files": null,
+        "bytes": 35625,
+        "kind": "tree"
+      },
+      {
+        "path": ".exp_venv/lib/python3.12/site-packages/numpy/lib/__pycache__",
+        "present": false,
+        "files": null,
+        "bytes": 889077,
+        "kind": "tree"
+      },
+      {
+        "path": ".exp_venv/lib/python3.12/site-packages/numpy/random/__pycache__",
+        "present": false,
+        "files": null,
+        "bytes": 10473,
+        "kind": "tree"
+      },
+      {
+        "path": ".exp_venv/lib/python3.12/site-packages/numpy/matrixlib/__pycache__",
+        "present": false,
+        "files": null,
+        "bytes": 36451,
+        "kind": "tree"
       }
     ],
-    "verified_after_remote_commit": "9ce96c026aea69444c899f053b3aac08ede941e9"
+    "verified_after_remote_commit": "9bad5b78a7c2fb6a96061b4d637dd9089251a736",
+    "current_batch": {
+      "removed_file_count": 1944,
+      "removed_bytes": 2332736190,
+      "paths": [
+        {
+          "path": "/private/tmp/ecs_corrected_formal_out",
+          "present": false,
+          "files": 1894,
+          "bytes": 2326514287,
+          "kind": "tree"
+        },
+        {
+          "path": "/private/tmp/ecs_corrected_formal_prepared",
+          "present": false,
+          "files": 12,
+          "bytes": 56234,
+          "kind": "tree"
+        },
+        {
+          "path": "/private/tmp/ecs_corrected_archive",
+          "present": false,
+          "files": 9,
+          "bytes": 3671148,
+          "kind": "tree"
+        },
+        {
+          "path": "/private/tmp/ecs_corrected_audit.json",
+          "present": false,
+          "files": 1,
+          "bytes": 315,
+          "kind": "file"
+        },
+        {
+          "path": "/private/tmp/ecs_compact_corrected.py",
+          "present": false,
+          "files": 1,
+          "bytes": 3380,
+          "kind": "file"
+        },
+        {
+          "path": "/private/tmp/ecs_corrected_runner.log",
+          "present": false,
+          "files": 1,
+          "bytes": 0,
+          "kind": "file"
+        },
+        {
+          "path": "research_program/shared_redundancy_study/__pycache__",
+          "present": false,
+          "files": 7,
+          "bytes": 83038,
+          "kind": "tree"
+        },
+        {
+          "path": "research_program/error_correcting_signaling_study/__pycache__",
+          "present": false,
+          "files": 7,
+          "bytes": 80702,
+          "kind": "tree"
+        },
+        {
+          "path": "research_program/repetition_pressure_study",
+          "present": false,
+          "files": 11,
+          "bytes": 53853,
+          "kind": "tree"
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/__pycache__",
+          "present": false,
+          "files": null,
+          "bytes": 4744,
+          "kind": "tree"
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/numpy/__pycache__",
+          "present": false,
+          "files": null,
+          "bytes": 70087,
+          "kind": "tree"
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/numpy/_utils/__pycache__",
+          "present": false,
+          "files": null,
+          "bytes": 14249,
+          "kind": "tree"
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/numpy/linalg/__pycache__",
+          "present": false,
+          "files": null,
+          "bytes": 129547,
+          "kind": "tree"
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/numpy/_core/__pycache__",
+          "present": false,
+          "files": null,
+          "bytes": 919591,
+          "kind": "tree"
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/numpy/_typing/__pycache__",
+          "present": false,
+          "files": null,
+          "bytes": 35625,
+          "kind": "tree"
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/numpy/lib/__pycache__",
+          "present": false,
+          "files": null,
+          "bytes": 889077,
+          "kind": "tree"
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/numpy/random/__pycache__",
+          "present": false,
+          "files": null,
+          "bytes": 10473,
+          "kind": "tree"
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/numpy/matrixlib/__pycache__",
+          "present": false,
+          "files": null,
+          "bytes": 36451,
+          "kind": "tree"
+        }
+      ],
+      "verified_after_remote_commit": "9bad5b78a7c2fb6a96061b4d637dd9089251a736"
+    }
+  },
+  "pending_designs": {},
+  "invalid_design_records": {
+    "research_program/error_correcting_signaling_study/results/invalid_20260917": {
+      "status": "rejected_before_analysis",
+      "reason": "theoretical maximum return 4/7 = 0.5714 was below functional threshold 0.60",
+      "data_retained": false
+    }
   }
 }

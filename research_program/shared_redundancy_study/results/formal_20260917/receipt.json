@@ -1,0 +1,20 @@
+{
+  "schema": "shared_redundancy_receipt_v1",
+  "status": "compact_archive_created_after_passed_audit",
+  "archive": "research_program/shared_redundancy_study/results/formal_20260917",
+  "prepared_sha256": "0047f8104a482d809572658882aa937325233e384264559950552dd51c1a7b5f",
+  "plan_sha256": "5cf253e09387af08acb5c69bf291ff312732bf53771f0dd26a049fa9d5e32873",
+  "freeze_sha256": "ca61cffa19cd3791aec8cb6f0016f76bed90b0dec67d3da718c24497cae26986",
+  "audit_sha256": "e3d9450881fe09c30cc63bedec4a05fc39b46c5867dee9d9facc53f69adcafde",
+  "aggregate_sha256": "a64a9c468c49db5e60169b7bfc28149ed1de52c672835cc7f8091a2b1662d04d",
+  "compact_results_sha256": "9a56c29844fa8852d35b723586d61f5ff7e655a723073df18ecd19ae581b7244",
+  "parent_runs": 27,
+  "runs": 243,
+  "parent_training_log_rows": 81000,
+  "training_log_rows": 729000,
+  "parent_final_checkpoints": 27,
+  "final_checkpoints": 243,
+  "paired_noise_trajectory_rows": 486000,
+  "max_abs_replay_error": 0.0,
+  "raw_execution_retained": false
+}

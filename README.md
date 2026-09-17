@@ -13,6 +13,8 @@
 - [三代严格组合留出链](research_program/multi_generation_chain_study/)
 - [噪声下的协议维持与修复](research_program/noise_repair_study/)
 - [三值属性与消息容量扩展](research_program/ternary_composition_study/)
+- [错误校正通信正式归档与失效记录](research_program/error_correcting_signaling_study/)
+- [重复意义下的冗余压力正式归档](research_program/shared_redundancy_study/)
 - [population signaling 源代码与紧凑结果](research_program/population_signaling_study/)
 - [本轮同步与清理说明](SYNC_2026-09-17.md)
 

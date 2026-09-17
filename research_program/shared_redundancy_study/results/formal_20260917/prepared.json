@@ -1,0 +1,124 @@
+{
+  "schema": "shared_redundancy_study_v1",
+  "horizon": 6,
+  "action_start": 2,
+  "subtasks": 2,
+  "steps_per_subtask": 2,
+  "task": "shared_parity",
+  "partner_mode": "rotating",
+  "partner_visibility": "hidden",
+  "forms": {
+    "dual2": {
+      "alphabet_size": 2,
+      "length": 2,
+      "state_count": 5,
+      "arrival_times": [
+        1,
+        1
+      ]
+    },
+    "triple2": {
+      "alphabet_size": 2,
+      "length": 3,
+      "state_count": 9,
+      "arrival_times": [
+        1,
+        1,
+        1
+      ]
+    },
+    "atomic8": {
+      "alphabet_size": 8,
+      "length": 1,
+      "state_count": 9,
+      "arrival_times": [
+        1
+      ]
+    }
+  },
+  "adaptations": [
+    "scratch",
+    "worker_only",
+    "coadapt"
+  ],
+  "noise_levels": [
+    0.0,
+    0.1,
+    0.25
+  ],
+  "noise_keys": {
+    "p00": 0.0,
+    "p10": 0.1,
+    "p25": 0.25
+  },
+  "atomic_corruption_probability": {
+    "p00": 0.0,
+    "p10": 0.2709999999999999,
+    "p25": 0.578125
+  },
+  "workers": 4,
+  "capacity": 2,
+  "actions": [
+    "wait",
+    "take_site0",
+    "take_site1"
+  ],
+  "seeds": [
+    79101,
+    79102,
+    79103,
+    79104,
+    79105,
+    79106,
+    79107,
+    79108,
+    79109
+  ],
+  "conditions": [
+    "dual2_scratch_p00",
+    "dual2_scratch_p10",
+    "dual2_scratch_p25",
+    "dual2_worker_only_p00",
+    "dual2_worker_only_p10",
+    "dual2_worker_only_p25",
+    "dual2_coadapt_p00",
+    "dual2_coadapt_p10",
+    "dual2_coadapt_p25",
+    "triple2_scratch_p00",
+    "triple2_scratch_p10",
+    "triple2_scratch_p25",
+    "triple2_worker_only_p00",
+    "triple2_worker_only_p10",
+    "triple2_worker_only_p25",
+    "triple2_coadapt_p00",
+    "triple2_coadapt_p10",
+    "triple2_coadapt_p25",
+    "atomic8_scratch_p00",
+    "atomic8_scratch_p10",
+    "atomic8_scratch_p25",
+    "atomic8_worker_only_p00",
+    "atomic8_worker_only_p10",
+    "atomic8_worker_only_p25",
+    "atomic8_coadapt_p00",
+    "atomic8_coadapt_p10",
+    "atomic8_coadapt_p25"
+  ],
+  "updates": 3000,
+  "parent_updates": 3000,
+  "batch_size": 512,
+  "learning_rate": 0.08,
+  "checkpoints": [
+    0,
+    500,
+    1000,
+    2000,
+    3000
+  ],
+  "pairing": "within each seed/form/adaptation, noise arms share worlds, goals, partners, message uniforms, action uniforms and noise uniforms",
+  "meaning": "both action stages require the same hidden parity of two private binary factors",
+  "capacity_control": "triple2 and atomic8 have eight raw message states; dual2 has four",
+  "no_teacher_or_language_prior": true,
+  "runs": 243,
+  "parent_runs": 27,
+  "evaluation_episodes_per_worker": 4096
+}

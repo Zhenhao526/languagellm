@@ -1,0 +1,143 @@
+{
+  "schema": "shared_redundancy_study_v1",
+  "prepared_sha256": "0047f8104a482d809572658882aa937325233e384264559950552dd51c1a7b5f",
+  "sources": {
+    "research_program/shared_redundancy_study/__init__.py": "8396e5942b71cb12d0479f6e78bb31ea1ab08445aae71181058e3d232e5c086d",
+    "research_program/shared_redundancy_study/design.py": "216369e8c4e043f63d5b4c6c7e3526d0522dadcf915888bb2bc2e397323d8885",
+    "research_program/shared_redundancy_study/policy.py": "4ef9f62a40caf9e943d4899b90c574e90e0ccc2df147f7d010085b1a60192f5b",
+    "research_program/shared_redundancy_study/environment.py": "70801a800eb7728ef53c5283fe61f2aafad4ac2168f1c439746b423f480bc036",
+    "research_program/shared_redundancy_study/runner.py": "f864240f856addda8a4a139566ca1aadf7ea275704e9a108853d9dd3c9386511",
+    "research_program/shared_redundancy_study/aggregate.py": "1457af31c66dd0f969880550e5ba62c7d58087a9b8a504f9121057554c567d76",
+    "research_program/shared_redundancy_study/audit.py": "1cb36e86c27250dcdf8a30f0e8aa1cc6721a0e2d9fbcc178370c9eaf7ec4a049",
+    "research_program/shared_redundancy_study/plan.md": "14af98b8cc37280ac253810659c9f308cf84116eaa9cc686d1d0454bc6f543ef",
+    "research_program/shared_redundancy_study/tests/test_game.py": "b965196f8496be34ebe5475cb520b9a45d39c80f7edb16ff9b6e1216360707ae"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.2.6"
+  },
+  "config": {
+    "schema": "shared_redundancy_study_v1",
+    "horizon": 6,
+    "action_start": 2,
+    "subtasks": 2,
+    "steps_per_subtask": 2,
+    "task": "shared_parity",
+    "partner_mode": "rotating",
+    "partner_visibility": "hidden",
+    "forms": {
+      "dual2": {
+        "alphabet_size": 2,
+        "length": 2,
+        "state_count": 5,
+        "arrival_times": [
+          1,
+          1
+        ]
+      },
+      "triple2": {
+        "alphabet_size": 2,
+        "length": 3,
+        "state_count": 9,
+        "arrival_times": [
+          1,
+          1,
+          1
+        ]
+      },
+      "atomic8": {
+        "alphabet_size": 8,
+        "length": 1,
+        "state_count": 9,
+        "arrival_times": [
+          1
+        ]
+      }
+    },
+    "adaptations": [
+      "scratch",
+      "worker_only",
+      "coadapt"
+    ],
+    "noise_levels": [
+      0.0,
+      0.1,
+      0.25
+    ],
+    "noise_keys": {
+      "p00": 0.0,
+      "p10": 0.1,
+      "p25": 0.25
+    },
+    "atomic_corruption_probability": {
+      "p00": 0.0,
+      "p10": 0.2709999999999999,
+      "p25": 0.578125
+    },
+    "workers": 4,
+    "capacity": 2,
+    "actions": [
+      "wait",
+      "take_site0",
+      "take_site1"
+    ],
+    "seeds": [
+      79101,
+      79102,
+      79103,
+      79104,
+      79105,
+      79106,
+      79107,
+      79108,
+      79109
+    ],
+    "conditions": [
+      "dual2_scratch_p00",
+      "dual2_scratch_p10",
+      "dual2_scratch_p25",
+      "dual2_worker_only_p00",
+      "dual2_worker_only_p10",
+      "dual2_worker_only_p25",
+      "dual2_coadapt_p00",
+      "dual2_coadapt_p10",
+      "dual2_coadapt_p25",
+      "triple2_scratch_p00",
+      "triple2_scratch_p10",
+      "triple2_scratch_p25",
+      "triple2_worker_only_p00",
+      "triple2_worker_only_p10",
+      "triple2_worker_only_p25",
+      "triple2_coadapt_p00",
+      "triple2_coadapt_p10",
+      "triple2_coadapt_p25",
+      "atomic8_scratch_p00",
+      "atomic8_scratch_p10",
+      "atomic8_scratch_p25",
+      "atomic8_worker_only_p00",
+      "atomic8_worker_only_p10",
+      "atomic8_worker_only_p25",
+      "atomic8_coadapt_p00",
+      "atomic8_coadapt_p10",
+      "atomic8_coadapt_p25"
+    ],
+    "updates": 3000,
+    "parent_updates": 3000,
+    "batch_size": 512,
+    "learning_rate": 0.08,
+    "checkpoints": [
+      0,
+      500,
+      1000,
+      2000,
+      3000
+    ],
+    "pairing": "within each seed/form/adaptation, noise arms share worlds, goals, partners, message uniforms, action uniforms and noise uniforms",
+    "meaning": "both action stages require the same hidden parity of two private binary factors",
+    "capacity_control": "triple2 and atomic8 have eight raw message states; dual2 has four",
+    "no_teacher_or_language_prior": true,
+    "runs": 243,
+    "parent_runs": 27,
+    "evaluation_episodes_per_worker": 4096
+  }
+}

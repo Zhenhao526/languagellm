@@ -1,0 +1,142 @@
+{
+  "schema": "error_correcting_signaling_study_v1",
+  "prepared_sha256": "d08bf2c112f6d9e23ed5ad3c10c7dda8780e8c4573c883ad7a98bf783a667b4d",
+  "sources": {
+    "research_program/error_correcting_signaling_study/__init__.py": "8396e5942b71cb12d0479f6e78bb31ea1ab08445aae71181058e3d232e5c086d",
+    "research_program/error_correcting_signaling_study/design.py": "8089d682df3fb64c7a9252b018eae968df068040735be2b98bc61e083e82e1c1",
+    "research_program/error_correcting_signaling_study/policy.py": "4ef9f62a40caf9e943d4899b90c574e90e0ccc2df147f7d010085b1a60192f5b",
+    "research_program/error_correcting_signaling_study/environment.py": "70801a800eb7728ef53c5283fe61f2aafad4ac2168f1c439746b423f480bc036",
+    "research_program/error_correcting_signaling_study/runner.py": "c915e91e33c719f9f3bf21ce5bbc729a3b709e31c8a0263440a000f208ee3be9",
+    "research_program/error_correcting_signaling_study/aggregate.py": "6ff3d23cb445a947518639e926320e804307579586fabb33a4ddba2774ef6a8f",
+    "research_program/error_correcting_signaling_study/audit.py": "826b9639abcbb8888274df6ccb7ded0a474b8ddf60abd28d87760dd7af03b471",
+    "research_program/error_correcting_signaling_study/plan.md": "a368d9cb70653a0085da895e295c5ca7525ec8d7c12b06e804311bb419728009",
+    "research_program/error_correcting_signaling_study/tests/test_game.py": "d6076d6b1277ce26830eaec5703c24fe943fb9cbe6249ee9e448117039b84beb"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.2.6"
+  },
+  "config": {
+    "schema": "error_correcting_signaling_study_v1",
+    "horizon": 6,
+    "action_start": 2,
+    "subtasks": 2,
+    "steps_per_subtask": 2,
+    "task": "factorized",
+    "partner_mode": "rotating",
+    "partner_visibility": "hidden",
+    "forms": {
+      "dual2": {
+        "alphabet_size": 2,
+        "length": 2,
+        "state_count": 5,
+        "arrival_times": [
+          2,
+          2
+        ]
+      },
+      "triple2": {
+        "alphabet_size": 2,
+        "length": 3,
+        "state_count": 9,
+        "arrival_times": [
+          2,
+          2,
+          2
+        ]
+      },
+      "atomic8": {
+        "alphabet_size": 8,
+        "length": 1,
+        "state_count": 9,
+        "arrival_times": [
+          2
+        ]
+      }
+    },
+    "adaptations": [
+      "scratch",
+      "worker_only",
+      "coadapt"
+    ],
+    "noise_levels": [
+      0.0,
+      0.1,
+      0.25
+    ],
+    "noise_keys": {
+      "p00": 0.0,
+      "p10": 0.1,
+      "p25": 0.25
+    },
+    "atomic_corruption_probability": {
+      "p00": 0.0,
+      "p10": 0.2709999999999999,
+      "p25": 0.578125
+    },
+    "workers": 4,
+    "capacity": 2,
+    "actions": [
+      "wait",
+      "take_site0",
+      "take_site1"
+    ],
+    "seeds": [
+      78101,
+      78102,
+      78103,
+      78104,
+      78105,
+      78106,
+      78107,
+      78108,
+      78109
+    ],
+    "conditions": [
+      "dual2_scratch_p00",
+      "dual2_scratch_p10",
+      "dual2_scratch_p25",
+      "dual2_worker_only_p00",
+      "dual2_worker_only_p10",
+      "dual2_worker_only_p25",
+      "dual2_coadapt_p00",
+      "dual2_coadapt_p10",
+      "dual2_coadapt_p25",
+      "triple2_scratch_p00",
+      "triple2_scratch_p10",
+      "triple2_scratch_p25",
+      "triple2_worker_only_p00",
+      "triple2_worker_only_p10",
+      "triple2_worker_only_p25",
+      "triple2_coadapt_p00",
+      "triple2_coadapt_p10",
+      "triple2_coadapt_p25",
+      "atomic8_scratch_p00",
+      "atomic8_scratch_p10",
+      "atomic8_scratch_p25",
+      "atomic8_worker_only_p00",
+      "atomic8_worker_only_p10",
+      "atomic8_worker_only_p25",
+      "atomic8_coadapt_p00",
+      "atomic8_coadapt_p10",
+      "atomic8_coadapt_p25"
+    ],
+    "updates": 3000,
+    "parent_updates": 3000,
+    "batch_size": 512,
+    "learning_rate": 0.08,
+    "checkpoints": [
+      0,
+      500,
+      1000,
+      2000,
+      3000
+    ],
+    "pairing": "within each seed/form/adaptation, noise arms share worlds, goals, partners, message uniforms, action uniforms and noise uniforms",
+    "capacity_control": "triple2 and atomic8 have eight raw message states; dual2 has four",
+    "no_teacher_or_language_prior": true,
+    "runs": 243,
+    "parent_runs": 27,
+    "evaluation_episodes_per_worker": 4096
+  }
+}
