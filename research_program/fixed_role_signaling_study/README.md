@@ -11,6 +11,12 @@ raw executions stay local and `audit.py` performs the independent checks.
 The FI ability control is summarized in
 [fixed_004_fi_control_结果与下一步.md](fixed_004_fi_control_结果与下一步.md).
 
+The explicit non-learning capacity gate is summarized in
+[fixed_ability_gate_结果与下一步.md](fixed_ability_gate_结果与下一步.md). It
+matches the environment oracle exactly on persistent and switching held-out
+episodes, so the next learning control should expose the target to the worker
+before returning to private-information signaling.
+
 Run the invariant tests from the repository root:
 
 ```bash
