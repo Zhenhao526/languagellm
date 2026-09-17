@@ -132,7 +132,7 @@
     },
     "LOCAL_CLEANUP_RECEIPT_2026-09-18_storage_sweep.json": {
       "files": 1,
-      "bytes": 2967
+      "bytes": 3211
     }
   },
   "compact_archives": {
@@ -1594,8 +1594,8 @@
       "formal_estimate": false
     },
     "storage_sweep_2026-09-18": {
-      "removed_file_or_tree_count": 14,
-      "removed_bytes": 2455071926,
+      "removed_file_or_tree_count": 15,
+      "removed_bytes": 2878493879,
       "paths": [
         "/private/tmp/ecs2_formal_out",
         "/private/tmp/ecs2_formal_prepared",
@@ -1619,6 +1619,15 @@
       ],
       "stopped_processes": [
         "git clone git@github.com:Zhenhao526/language.git /private/tmp/language_sync_hgs (pid 48721)"
+      ],
+      "follow_up_deletions": [
+        {
+          "path": "/private/tmp/language_sync_hgs",
+          "existed": true,
+          "bytes_removed": 423421953,
+          "removed": true,
+          "note": "completed stale clone after initial process termination"
+        }
       ]
     }
   },

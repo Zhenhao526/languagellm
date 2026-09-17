@@ -11,3 +11,4 @@
 
 三片正式分片的原始日志和 checkpoint 在审计后删除，仅保留紧凑 payload。临时目录清理记录在 `LOCAL_CLEANUP_RECEIPT_2026-09-18_heterogeneous_formal.json`；本批实际删除约 0.87 MB 的中间聚合和备份文件，之前自动清理的正式分片临时树均核验为不存在。
 远端核验提交：`fc026e6504d3d78fb213604899c229dafa3a4e00`（本地 `HEAD` 与 `origin/main` 已一致）。
+随后发现旧错误 clone 在进程结束时完成了写入，已再次删除；storage sweep 两次合计释放约 2.88 GB，当前 `/private/tmp` 约 20 MB。
