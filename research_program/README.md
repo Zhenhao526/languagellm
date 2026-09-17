@@ -16,6 +16,7 @@
 - [meaning_capacity_study](meaning_capacity_study/README.md)：把重复压力曲线扩展到 8 个意义类，比较 `triple2`、等容量 `quad2`/`atomic16`；正式矩阵已完成 81 个 parent 和 729 个 child run，结果显示低熵重复意义仍可形成冗余码，而 `unique8`/`repeat4` 没有满足候选标准。
 - [ecological_factorization_study](ecological_factorization_study/README.md)：9 个三值目标组合、因子化/整体置换任务、等容量 `tri3`/`mono9` 和新 worker 的 leave-one-combination-out 传递；正式矩阵包含 36 个 parent 和 216 个 child，结果显示三值任务有弱通信收益，但没有零样本新组合恢复。
 - [object_surface_remap_study](object_surface_remap_study/README.md)：二值 `dual2`/`mono4` 容量匹配、固定 object-label permutation、slot-local/joint-history 与 leave-one-combination-out 传递；首轮通信对照失效的 diagnostic archive 保留，修正版九种子正式结果与审计位于 `object_surface_remap_study/results/formal_20260918_corrected/`。
+- [object_surface_transfer_study](object_surface_transfer_study/README.md)：在冻结 sender 后直接复制或重新初始化 worker，比较 identity 与 stable surface swap 下的零样本迁移成本和奖励修复；9 个 parent、72 个 child 的正式 endpoint、学习曲线和三片独立审计位于 `object_surface_transfer_study/results/formal_20260918/`。
 - [repetition_pressure_study](repetition_pressure_study/README.md)：在唯一意义、局部重复和全局重复三种任务语义之间做容量匹配的冗余压力曲线；正式矩阵包含 81 个 parent 和 729 个 child run，结果归档于 `results/formal_20260918/`，详见 `meaning_capacity_formal_结果与下一步.md`。
 - [population_signaling_study](population_signaling_study/README.md)：128 个 run 的固定/轮换伙伴与公共 token 对照。
 

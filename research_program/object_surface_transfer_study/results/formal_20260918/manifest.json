@@ -1,0 +1,72 @@
+{
+  "schema": "object_surface_transfer_archive_manifest_v1",
+  "study": "object_surface_transfer_study",
+  "formal_date": "2026-09-18",
+  "source_commit": "7e3f422",
+  "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+  "raw_logs_retained": false,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1049,
+      "sha256": "746274cb17d5e4c2e238b401acd1870f59cca384ac4645d27332f739d6c05a3a"
+    },
+    {
+      "path": "aggregate.json",
+      "bytes": 113342,
+      "sha256": "be8d255f28086593a77092c3136b6fa50e1b8e9b0ce3e06e89244d2d738d28a6"
+    },
+    {
+      "path": "aggregate.md",
+      "bytes": 5535,
+      "sha256": "070eef112f13b215e2c97e1e7c625e5deba017e6856c97ead0124cc527e5920c"
+    },
+    {
+      "path": "audit.json",
+      "bytes": 438,
+      "sha256": "f0d67c230ed3c9c7831714b012f76701f28d29cade53688bc4839dcec504d0a2"
+    },
+    {
+      "path": "audit_shards.json",
+      "bytes": 1326,
+      "sha256": "c472582f43a5af888d4268ce25c322b18519d9f95edf6546d0eaebe3572431dd"
+    },
+    {
+      "path": "freeze.json",
+      "bytes": 177,
+      "sha256": "375115c49b64325780f152f8dbb83f3d5e528dca2ecf08aefaa70dcb3209d841"
+    },
+    {
+      "path": "learning_curves.json",
+      "bytes": 54431,
+      "sha256": "3358d9f31ca4df7ecbc95251bdfa2afaf22ee4a5ec853d7376d07c99b0083cba"
+    },
+    {
+      "path": "plan.json",
+      "bytes": 4038,
+      "sha256": "65e7882ce1d728e7fadcc0a27407573d0e3226bbecbbafabf63db108452cd5f9"
+    },
+    {
+      "path": "prepared.json",
+      "bytes": 2222,
+      "sha256": "afd283d9c03a2755d17b82890097eaf7f21e58d83e7a6975cd680334237fa76e"
+    },
+    {
+      "path": "results.json",
+      "bytes": 489867,
+      "sha256": "99d6c2c01c79f6a56db0b91724a56cf2281413d3fe1cf9d8f27cdeaa4d88be7d"
+    },
+    {
+      "path": "source_commit.txt",
+      "bytes": 8,
+      "sha256": "005f1b9f0b453936408347e58d281b7834265ccfe50ce1b96a695e722831fb1a"
+    },
+    {
+      "path": "validity.md",
+      "bytes": 1054,
+      "sha256": "4df778c5014140c4f4b1f167c7dcb603ca23b1c6d23347f6bcd9012bc4465db3"
+    }
+  ],
+  "file_count": 12,
+  "archive_bytes": 673487
+}

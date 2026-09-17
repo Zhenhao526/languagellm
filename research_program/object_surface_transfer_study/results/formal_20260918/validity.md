@@ -1,0 +1,5 @@
+# Validity and interpretation
+
+All three independent shard audits passed. They replayed every training stream, gradient, parameter hash, checkpoint, initial incumbent copy, frozen sender, and identity/swap plus live/silent paired stream. The aggregate counts are 9 parent runs, 72 child runs, 9,000 parent log rows, 72,000 child log rows, 12 parent checkpoints, 96 child checkpoints, 36,000 live/silent paired rows, and 18,000 mapping paired rows per shard; the combined audit totals are recorded in `audit.json`. Maximum absolute replay error was 0.
+
+The mapping intervention changes only the surface labels seen by the child worker. Initial incumbent identity versus swap is therefore a zero-shot transfer cost. The child receives reward under the new mapping, so the final value measures local repair, not passive generalization. Fresh children provide the ordinary-learning control. The task has two object types, two staged slots, four goal pairs, and a finite tabular receiver; it does not model open vocabulary, syntax, or human language origins.

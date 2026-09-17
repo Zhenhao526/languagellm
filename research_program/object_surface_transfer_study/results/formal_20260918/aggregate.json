@@ -1,0 +1,4252 @@
+{
+  "schema": "object_surface_transfer_analysis_v1",
+  "rule": {
+    "functional_natural_min": 0.6,
+    "primary": "initial and final full-support live heldout return; repair gain"
+  },
+  "parents": [
+    {
+      "seed": 78201,
+      "form": "dual2",
+      "task": "factorized",
+      "all_natural": 0.45777384440104163,
+      "all_permuted": 0.044006347656250014,
+      "live_minus_permuted": 0.41376749674479163,
+      "heldout_natural": 0.35462443033854163,
+      "sender_codebook": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "final_parameter_sha256": "a2158d39036451c0723a6e73a4a58fdec9fbbf49bb38909bf5212542bc046571"
+    },
+    {
+      "seed": 78202,
+      "form": "dual2",
+      "task": "factorized",
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "live_minus_permuted": 0.6249999999999998,
+      "heldout_natural": 0.6666666666666665,
+      "sender_codebook": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "99b636cadc376838e570098ba53cdf921d6ec5852d82637c82b0e2e05890b76c"
+    },
+    {
+      "seed": 78203,
+      "form": "dual2",
+      "task": "factorized",
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "live_minus_permuted": 0.6249999999999998,
+      "heldout_natural": 0.6666666666666665,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "7487355c292a436f36d5db0ced523c742dbe72fe027ab51a66fa5a47f6400354"
+    },
+    {
+      "seed": 78204,
+      "form": "dual2",
+      "task": "factorized",
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "live_minus_permuted": 0.6249999999999998,
+      "heldout_natural": 0.6666666666666665,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "ca616065bf3b7ed8c3434862f5ed819a50f2a0d94b6cd9b5331ec68bff4eefc4"
+    },
+    {
+      "seed": 78205,
+      "form": "dual2",
+      "task": "factorized",
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "live_minus_permuted": 0.6249999999999998,
+      "heldout_natural": 0.6666666666666665,
+      "sender_codebook": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "66bb2188e5aec7f7a12ece96a9c8bc7f90087f788426cb0eed29e999e5dbf81e"
+    },
+    {
+      "seed": 78206,
+      "form": "dual2",
+      "task": "factorized",
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "live_minus_permuted": 0.6249999999999998,
+      "heldout_natural": 0.6666666666666665,
+      "sender_codebook": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "9563a4549fa8d0461eee6f50376af5cd6ba3dff18e3ecf17f3eab9d620ebed6c"
+    },
+    {
+      "seed": 78207,
+      "form": "dual2",
+      "task": "factorized",
+      "all_natural": 0.45833333333333326,
+      "all_permuted": 0.041666666666666685,
+      "live_minus_permuted": 0.4166666666666666,
+      "heldout_natural": 0.25,
+      "sender_codebook": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "final_parameter_sha256": "8a1ff20a04407a757f8b64293dbeff1f5d164ffe4f4eaea00892add657d5186a"
+    },
+    {
+      "seed": 78208,
+      "form": "dual2",
+      "task": "factorized",
+      "all_natural": 0.537628173828125,
+      "all_permuted": 0.17233276367187497,
+      "live_minus_permuted": 0.36529541015625,
+      "heldout_natural": 0.6666666666666665,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "071975a44bb4c10e2370fcb1d0e17bea226df4c1d09d57ac28b8292c0ee7f984"
+    },
+    {
+      "seed": 78209,
+      "form": "dual2",
+      "task": "factorized",
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "live_minus_permuted": 0.6249999999999998,
+      "heldout_natural": 0.6666666666666665,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "59f70d44d7855c29f8d4f9269f55d594404b7252d138b5550164e774567287da"
+    }
+  ],
+  "children": [
+    {
+      "seed": 78201,
+      "condition": "fresh_identity_live",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 0,
+      "initial_heldout_natural": 0.125,
+      "heldout_natural": 0.4583333333333332,
+      "learning_gain": 0.3333333333333332,
+      "heldout_silent": 0.4583333333333332,
+      "heldout_permuted": 0.4583333333333332,
+      "all_natural": 0.46067301432291663,
+      "all_permuted": 0.041107177734375,
+      "seen_natural": 0.46194458007812494,
+      "seen_permuted": 0.18011474609375,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.41956583658854163,
+      "seen_natural_minus_permuted": 0.28182983398437494,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "final_parameter_sha256": "37fe29f27fcd9ab8861a4447bc98d515cf5b850967c1742ee3f2ed077d224541",
+      "recombined": 0.4583333333333332
+    },
+    {
+      "seed": 78201,
+      "condition": "fresh_identity_silent",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "initial_heldout_natural": 0.2909037272135417,
+      "heldout_natural": 0.455841064453125,
+      "learning_gain": 0.16493733723958331,
+      "heldout_silent": 0.455841064453125,
+      "heldout_permuted": 0.455841064453125,
+      "all_natural": 0.24791463216145831,
+      "all_permuted": 0.24791463216145831,
+      "seen_natural": 0.18047078450520831,
+      "seen_permuted": 0.18047078450520831,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "final_parameter_sha256": "6e6f329a78552b74114a292c41434ebb26dfe763c34d268050deba27a595f00b",
+      "recombined": null
+    },
+    {
+      "seed": 78201,
+      "condition": "fresh_swap_live",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 0,
+      "initial_heldout_natural": 0.125,
+      "heldout_natural": 0.35370890299479163,
+      "learning_gain": 0.22870890299479163,
+      "heldout_silent": 0.35370890299479163,
+      "heldout_permuted": 0.35370890299479163,
+      "all_natural": 0.4612325032552083,
+      "all_permuted": 0.03876749674479167,
+      "seen_natural": 0.49836222330729163,
+      "seen_permuted": 0.21241251627604163,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.42246500651041663,
+      "seen_natural_minus_permuted": 0.28594970703125,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "final_parameter_sha256": "7c027f3bc11a777202af89858b98ab4d8456c8fc98f375470e8056aefc12dcf3",
+      "recombined": 0.35370890299479163
+    },
+    {
+      "seed": 78201,
+      "condition": "fresh_swap_silent",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "initial_heldout_natural": 0.08501180013020833,
+      "heldout_natural": 0.455841064453125,
+      "learning_gain": 0.3708292643229167,
+      "heldout_silent": 0.455841064453125,
+      "heldout_permuted": 0.455841064453125,
+      "all_natural": 0.24791463216145831,
+      "all_permuted": 0.24791463216145831,
+      "seen_natural": 0.18047078450520831,
+      "seen_permuted": 0.18047078450520831,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "final_parameter_sha256": "2a4d97e81d59c70b450394ae7dc9155d5177e7e67cf6a7a53ef18abc4ba9581f",
+      "recombined": null
+    },
+    {
+      "seed": 78201,
+      "condition": "incumbent_identity_live",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 0,
+      "initial_heldout_natural": 0.35462443033854163,
+      "heldout_natural": 0.25,
+      "learning_gain": -0.10462443033854163,
+      "heldout_silent": 0.25,
+      "heldout_permuted": 0.25,
+      "all_natural": 0.45833333333333326,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.5278116861979167,
+      "seen_permuted": 0.2501017252604167,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.4166666666666666,
+      "seen_natural_minus_permuted": 0.27770996093750006,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "final_parameter_sha256": "d9969524befb2b9dd10576e3d9810a2815a3818c1e7b56a51a21beea5e654e15",
+      "recombined": 0.25
+    },
+    {
+      "seed": 78201,
+      "condition": "incumbent_identity_silent",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "initial_heldout_natural": 0.2283935546875,
+      "heldout_natural": 0.455841064453125,
+      "learning_gain": 0.227447509765625,
+      "heldout_silent": 0.455841064453125,
+      "heldout_permuted": 0.455841064453125,
+      "all_natural": 0.24791463216145831,
+      "all_permuted": 0.24791463216145831,
+      "seen_natural": 0.18047078450520831,
+      "seen_permuted": 0.18047078450520831,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "final_parameter_sha256": "225faad2d47a8d6a33123ed479abca7b7c32998d6fd38f829eea2e5de03b592a",
+      "recombined": null
+    },
+    {
+      "seed": 78201,
+      "condition": "incumbent_swap_live",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 0,
+      "initial_heldout_natural": 0.14629109700520831,
+      "heldout_natural": 0.6666666666666665,
+      "learning_gain": 0.5203755696614583,
+      "heldout_silent": 0.6666666666666665,
+      "heldout_permuted": 0.6666666666666665,
+      "all_natural": 0.45833333333333326,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.38885498046875,
+      "seen_permuted": 0.11114501953125,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.4166666666666666,
+      "seen_natural_minus_permuted": 0.2777099609375,
+      "functional": true,
+      "sender_codebook": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "final_parameter_sha256": "1a6b41febd2501bb28b5766b5f9c9a2b80eb2ad1fee230afd0dbe92d5b475f42",
+      "recombined": 0.6666666666666665
+    },
+    {
+      "seed": 78201,
+      "condition": "incumbent_swap_silent",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "initial_heldout_natural": 0.019114176432291664,
+      "heldout_natural": 0.24501546223958331,
+      "learning_gain": 0.22590128580729166,
+      "heldout_silent": 0.24501546223958331,
+      "heldout_permuted": 0.24501546223958331,
+      "all_natural": 0.24582926432291666,
+      "all_permuted": 0.24582926432291666,
+      "seen_natural": 0.24979654947916666,
+      "seen_permuted": 0.24979654947916666,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "final_parameter_sha256": "77a49b2eeef185f8e2493d3bd4dab8719e8875a2cfc3f4f1c616ea2d35e5fb80",
+      "recombined": null
+    },
+    {
+      "seed": 78202,
+      "condition": "fresh_identity_live",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 1,
+      "initial_heldout_natural": 0.27198282877604163,
+      "heldout_natural": 0.6666666666666665,
+      "learning_gain": 0.3946838378906249,
+      "heldout_silent": 0.6666666666666665,
+      "heldout_permuted": 0.6666666666666665,
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.6666666666666665,
+      "seen_permuted": 0.11124674479166666,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.6249999999999998,
+      "seen_natural_minus_permuted": 0.5554199218749999,
+      "functional": true,
+      "sender_codebook": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "c452d23f0ffcb4b1bdc05828a8bf687d6ec508c390f76db01001a8156fd339ea",
+      "recombined": 0.6666666666666665
+    },
+    {
+      "seed": 78202,
+      "condition": "fresh_identity_silent",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 1,
+      "initial_heldout_natural": 0.021575927734375,
+      "heldout_natural": 0.14374796549479166,
+      "learning_gain": 0.12217203776041666,
+      "heldout_silent": 0.14374796549479166,
+      "heldout_permuted": 0.14374796549479166,
+      "all_natural": 0.24842325846354169,
+      "all_permuted": 0.24842325846354169,
+      "seen_natural": 0.2854512532552083,
+      "seen_permuted": 0.2854512532552083,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "cac0e219236953b33f8149b961bc50a9edbb6a0db3243bb1e9a48c20a071e4fd",
+      "recombined": null
+    },
+    {
+      "seed": 78202,
+      "condition": "fresh_swap_live",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 1,
+      "initial_heldout_natural": 0.16790771484375,
+      "heldout_natural": 0.6666666666666665,
+      "learning_gain": 0.4987589518229165,
+      "heldout_silent": 0.6666666666666665,
+      "heldout_permuted": 0.6666666666666665,
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.6666666666666665,
+      "seen_permuted": 0.11124674479166666,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.6249999999999998,
+      "seen_natural_minus_permuted": 0.5554199218749999,
+      "functional": true,
+      "sender_codebook": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "ed05a7eb31aa04134b26ef07d45ba015e1694e60ebab07729fd1af4281450dac",
+      "recombined": 0.6666666666666665
+    },
+    {
+      "seed": 78202,
+      "condition": "fresh_swap_silent",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 1,
+      "initial_heldout_natural": 0.22923787434895831,
+      "heldout_natural": 0.14374796549479166,
+      "learning_gain": -0.08548990885416666,
+      "heldout_silent": 0.14374796549479166,
+      "heldout_permuted": 0.14374796549479166,
+      "all_natural": 0.24842325846354169,
+      "all_permuted": 0.24842325846354169,
+      "seen_natural": 0.2854512532552083,
+      "seen_permuted": 0.2854512532552083,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "5753a75e6b46a3997ba407510c6740fb7e0b1d5d81eba41d904199d0f7e1c985",
+      "recombined": null
+    },
+    {
+      "seed": 78202,
+      "condition": "incumbent_identity_live",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 1,
+      "initial_heldout_natural": 0.6666666666666665,
+      "heldout_natural": 0.6666666666666665,
+      "learning_gain": 0.0,
+      "heldout_silent": 0.6666666666666665,
+      "heldout_permuted": 0.6666666666666665,
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.6666666666666665,
+      "seen_permuted": 0.11124674479166666,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.6249999999999998,
+      "seen_natural_minus_permuted": 0.5554199218749999,
+      "functional": true,
+      "sender_codebook": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "bffae8bc8960cbcb9af7bfd751b1765b870210fc7d0f988c75592be615f59b9e",
+      "recombined": 0.6666666666666665
+    },
+    {
+      "seed": 78202,
+      "condition": "incumbent_identity_silent",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 1,
+      "initial_heldout_natural": 0.00012207031249999995,
+      "heldout_natural": 0.144866943359375,
+      "learning_gain": 0.144744873046875,
+      "heldout_silent": 0.144866943359375,
+      "heldout_permuted": 0.144866943359375,
+      "all_natural": 0.24852498372395831,
+      "all_permuted": 0.24852498372395831,
+      "seen_natural": 0.2842305501302083,
+      "seen_permuted": 0.2842305501302083,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "ef71307194445b192be51d37a0461e452d68a289052c78dcce2449a8011b3b59",
+      "recombined": null
+    },
+    {
+      "seed": 78202,
+      "condition": "incumbent_swap_live",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 1,
+      "initial_heldout_natural": -0.16666666666666663,
+      "heldout_natural": 0.6666666666666665,
+      "learning_gain": 0.8333333333333331,
+      "heldout_silent": 0.6666666666666665,
+      "heldout_permuted": 0.6666666666666665,
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.6666666666666665,
+      "seen_permuted": 0.11124674479166666,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.6249999999999998,
+      "seen_natural_minus_permuted": 0.5554199218749999,
+      "functional": true,
+      "sender_codebook": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "044ffc0089b2ba64fa12f28c86cfea9dd1e38daac0e4f43243eb51bfe8f62e79",
+      "recombined": 0.6666666666666665
+    },
+    {
+      "seed": 78202,
+      "condition": "incumbent_swap_silent",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 1,
+      "initial_heldout_natural": 0.312530517578125,
+      "heldout_natural": 0.45721435546874994,
+      "learning_gain": 0.14468383789062494,
+      "heldout_silent": 0.45721435546874994,
+      "heldout_permuted": 0.45721435546874994,
+      "all_natural": 0.24989827473958331,
+      "all_permuted": 0.24989827473958331,
+      "seen_natural": 0.18184407552083331,
+      "seen_permuted": 0.18184407552083331,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "3e1b5827b8807e573230194210e7199018aaaa262a629818670e8da97ea5b3ff",
+      "recombined": null
+    },
+    {
+      "seed": 78203,
+      "condition": "fresh_identity_live",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 2,
+      "initial_heldout_natural": 0.2502034505208333,
+      "heldout_natural": 0.6666666666666665,
+      "learning_gain": 0.4164632161458332,
+      "heldout_silent": 0.6666666666666665,
+      "heldout_permuted": 0.6666666666666665,
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.6666666666666665,
+      "seen_permuted": 0.11124674479166666,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.6249999999999998,
+      "seen_natural_minus_permuted": 0.5554199218749999,
+      "functional": true,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "ce29e468a60d7161f8ade0a767b3778b1b6f32cb644d23f7b66b2fb5272d2301",
+      "recombined": 0.6666666666666665
+    },
+    {
+      "seed": 78203,
+      "condition": "fresh_identity_silent",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 2,
+      "initial_heldout_natural": 0.29243977864583337,
+      "heldout_natural": 0.45731608072916663,
+      "learning_gain": 0.16487630208333326,
+      "heldout_silent": 0.45731608072916663,
+      "heldout_permuted": 0.45731608072916663,
+      "all_natural": 0.24796549479166663,
+      "all_permuted": 0.24796549479166663,
+      "seen_natural": 0.17950439453125,
+      "seen_permuted": 0.17950439453125,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "bd6f0d67761fd44fd87868df1e4347ce337efec8148ea4e4154d73a66f228b2f",
+      "recombined": null
+    },
+    {
+      "seed": 78203,
+      "condition": "fresh_swap_live",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 2,
+      "initial_heldout_natural": 0.2502034505208333,
+      "heldout_natural": 0.6666666666666665,
+      "learning_gain": 0.4164632161458332,
+      "heldout_silent": 0.6666666666666665,
+      "heldout_permuted": 0.6666666666666665,
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.6666666666666665,
+      "seen_permuted": 0.11124674479166666,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.6249999999999998,
+      "seen_natural_minus_permuted": 0.5554199218749999,
+      "functional": true,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "1e9f2963b40e63b87dba4290badcb92feb66c979f1fd9017eeee1ca62b82fe16",
+      "recombined": 0.6666666666666665
+    },
+    {
+      "seed": 78203,
+      "condition": "fresh_swap_silent",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 2,
+      "initial_heldout_natural": 0.082763671875,
+      "heldout_natural": 0.24796549479166666,
+      "learning_gain": 0.16520182291666666,
+      "heldout_silent": 0.24796549479166666,
+      "heldout_permuted": 0.24796549479166666,
+      "all_natural": 0.24593098958333331,
+      "all_permuted": 0.24593098958333331,
+      "seen_natural": 0.24786376953125,
+      "seen_permuted": 0.24786376953125,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "9ddf1151b97861d829bdfee60dab6e3c9d102204e9034605230e30a06cd9001b",
+      "recombined": null
+    },
+    {
+      "seed": 78203,
+      "condition": "incumbent_identity_live",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 2,
+      "initial_heldout_natural": 0.6666666666666665,
+      "heldout_natural": 0.6666666666666665,
+      "learning_gain": 0.0,
+      "heldout_silent": 0.6666666666666665,
+      "heldout_permuted": 0.6666666666666665,
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.6666666666666665,
+      "seen_permuted": 0.11124674479166666,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.6249999999999998,
+      "seen_natural_minus_permuted": 0.5554199218749999,
+      "functional": true,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "48f7df929ed7b60fc42d8908b853253c9147a45e6d209717fa7879caefc0624c",
+      "recombined": 0.6666666666666665
+    },
+    {
+      "seed": 78203,
+      "condition": "incumbent_identity_silent",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 2,
+      "initial_heldout_natural": 0.08333333333333331,
+      "heldout_natural": 0.35203043619791663,
+      "learning_gain": 0.2686971028645833,
+      "heldout_silent": 0.35203043619791663,
+      "heldout_permuted": 0.35203043619791663,
+      "all_natural": 0.24613444010416663,
+      "all_permuted": 0.24613444010416663,
+      "seen_natural": 0.21480305989583334,
+      "seen_permuted": 0.21480305989583334,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "d08644a787e6f2c469b004fa16ed1fee36eb306ae3b5b6be588444393fac83be",
+      "recombined": null
+    },
+    {
+      "seed": 78203,
+      "condition": "incumbent_swap_live",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 2,
+      "initial_heldout_natural": -0.16666666666666663,
+      "heldout_natural": 0.6666666666666665,
+      "learning_gain": 0.8333333333333331,
+      "heldout_silent": 0.6666666666666665,
+      "heldout_permuted": 0.6666666666666665,
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.6666666666666665,
+      "seen_permuted": 0.11124674479166666,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.6249999999999998,
+      "seen_natural_minus_permuted": 0.5554199218749999,
+      "functional": true,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "8e040c9a1477295348217e43ea24b38acf0564197bd9769b41fe7d3ae94befa4",
+      "recombined": 0.6666666666666665
+    },
+    {
+      "seed": 78203,
+      "condition": "incumbent_swap_silent",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 2,
+      "initial_heldout_natural": 0.2916666666666667,
+      "heldout_natural": 0.45731608072916663,
+      "learning_gain": 0.16564941406249994,
+      "heldout_silent": 0.45731608072916663,
+      "heldout_permuted": 0.45731608072916663,
+      "all_natural": 0.24796549479166663,
+      "all_permuted": 0.24796549479166663,
+      "seen_natural": 0.17950439453125,
+      "seen_permuted": 0.17950439453125,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "3050655ca2e6dc559fe9c19d8ac4d35ada9dc86b73d041127c9e83b5c410ca02",
+      "recombined": null
+    },
+    {
+      "seed": 78204,
+      "condition": "fresh_identity_live",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 3,
+      "initial_heldout_natural": 0.230499267578125,
+      "heldout_natural": 0.6666666666666665,
+      "learning_gain": 0.4361673990885415,
+      "heldout_silent": 0.6666666666666665,
+      "heldout_permuted": 0.6666666666666665,
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.6666666666666665,
+      "seen_permuted": 0.11124674479166666,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.6249999999999998,
+      "seen_natural_minus_permuted": 0.5554199218749999,
+      "functional": true,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "dedf64a39b2e80371bd2d45b9e41960d94c622b4c6ccc3fcba409edd1a35bc2b",
+      "recombined": 0.6666666666666665
+    },
+    {
+      "seed": 78204,
+      "condition": "fresh_identity_silent",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 3,
+      "initial_heldout_natural": 0.10263061523437499,
+      "heldout_natural": 0.5628560384114584,
+      "learning_gain": 0.46022542317708337,
+      "heldout_silent": 0.5628560384114584,
+      "heldout_permuted": 0.5628560384114584,
+      "all_natural": 0.245880126953125,
+      "all_permuted": 0.245880126953125,
+      "seen_natural": 0.14476521809895831,
+      "seen_permuted": 0.14476521809895831,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "ac7f885e5f404ba7ebb1990814fe7ce0bcbf950a019a3ec9c8b6a6e921d69cc1",
+      "recombined": null
+    },
+    {
+      "seed": 78204,
+      "condition": "fresh_swap_live",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 3,
+      "initial_heldout_natural": 0.021433512369791668,
+      "heldout_natural": 0.6666666666666665,
+      "learning_gain": 0.6452331542968749,
+      "heldout_silent": 0.6666666666666665,
+      "heldout_permuted": 0.6666666666666665,
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.6666666666666665,
+      "seen_permuted": 0.11124674479166666,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.6249999999999998,
+      "seen_natural_minus_permuted": 0.5554199218749999,
+      "functional": true,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "9a012a649aedfd1e097ec2466371b3438cde9719178bda55ee3b86a25c290fe9",
+      "recombined": 0.6666666666666665
+    },
+    {
+      "seed": 78204,
+      "condition": "fresh_swap_silent",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 3,
+      "initial_heldout_natural": 0.20585123697916666,
+      "heldout_natural": 0.4571126302083333,
+      "learning_gain": 0.25126139322916663,
+      "heldout_silent": 0.4571126302083333,
+      "heldout_permuted": 0.4571126302083333,
+      "all_natural": 0.24603271484375,
+      "all_permuted": 0.24603271484375,
+      "seen_natural": 0.18133544921875,
+      "seen_permuted": 0.18133544921875,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "6c36024cbf448ef2d073c420954ff47e245721a5a5d24262e57ee1f5afce643a",
+      "recombined": null
+    },
+    {
+      "seed": 78204,
+      "condition": "incumbent_identity_live",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 3,
+      "initial_heldout_natural": 0.6666666666666665,
+      "heldout_natural": 0.6666666666666665,
+      "learning_gain": 0.0,
+      "heldout_silent": 0.6666666666666665,
+      "heldout_permuted": 0.6666666666666665,
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.6666666666666665,
+      "seen_permuted": 0.11124674479166666,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.6249999999999998,
+      "seen_natural_minus_permuted": 0.5554199218749999,
+      "functional": true,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "6ce716e5050e11bb855751621263699d5e9b5e77b2dd3927e3a137538243631a",
+      "recombined": 0.6666666666666665
+    },
+    {
+      "seed": 78204,
+      "condition": "incumbent_identity_silent",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 3,
+      "initial_heldout_natural": 0.37432861328125,
+      "heldout_natural": 0.5609232584635416,
+      "learning_gain": 0.18659464518229163,
+      "heldout_silent": 0.5609232584635416,
+      "heldout_permuted": 0.5609232584635416,
+      "all_natural": 0.250152587890625,
+      "all_permuted": 0.250152587890625,
+      "seen_natural": 0.147613525390625,
+      "seen_permuted": 0.147613525390625,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "2ab0f287d3582e190eabc7198de3f987e132b16764104030c8f7d76a5ea13a20",
+      "recombined": null
+    },
+    {
+      "seed": 78204,
+      "condition": "incumbent_swap_live",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 3,
+      "initial_heldout_natural": -0.16666666666666663,
+      "heldout_natural": 0.6666666666666665,
+      "learning_gain": 0.8333333333333331,
+      "heldout_silent": 0.6666666666666665,
+      "heldout_permuted": 0.6666666666666665,
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.6666666666666665,
+      "seen_permuted": 0.11124674479166666,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.6249999999999998,
+      "seen_natural_minus_permuted": 0.5554199218749999,
+      "functional": true,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "b34b8dca282c82224e768754f653b3157a4590f2bad9bc7c773c6b659e3fd7ca",
+      "recombined": 0.6666666666666665
+    },
+    {
+      "seed": 78204,
+      "condition": "incumbent_swap_silent",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 3,
+      "initial_heldout_natural": 0.060882568359375,
+      "heldout_natural": 0.4583333333333332,
+      "learning_gain": 0.3974507649739582,
+      "heldout_silent": 0.4583333333333332,
+      "heldout_permuted": 0.4583333333333332,
+      "all_natural": 0.24999999999999994,
+      "all_permuted": 0.24999999999999994,
+      "seen_natural": 0.18052164713541666,
+      "seen_permuted": 0.18052164713541666,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "0512dbf592bd9e1955a34f505c43c94d6664a226368eb81cfbbde997616aaffa",
+      "recombined": null
+    },
+    {
+      "seed": 78205,
+      "condition": "fresh_identity_live",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 0,
+      "initial_heldout_natural": 0.0859375,
+      "heldout_natural": 0.6666666666666665,
+      "learning_gain": 0.5807291666666665,
+      "heldout_silent": 0.6666666666666665,
+      "heldout_permuted": 0.6666666666666665,
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.6666666666666665,
+      "seen_permuted": 0.11124674479166666,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.6249999999999998,
+      "seen_natural_minus_permuted": 0.5554199218749999,
+      "functional": true,
+      "sender_codebook": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "6dbfd4f28071345e66501bb9858ddd37cd4ca407c6c279fac2402d7a6db6c634",
+      "recombined": 0.6666666666666665
+    },
+    {
+      "seed": 78205,
+      "condition": "fresh_identity_silent",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "initial_heldout_natural": 0.0438232421875,
+      "heldout_natural": 0.25284830729166663,
+      "learning_gain": 0.20902506510416663,
+      "heldout_silent": 0.25284830729166663,
+      "heldout_permuted": 0.25284830729166663,
+      "all_natural": 0.25284830729166663,
+      "all_permuted": 0.25284830729166663,
+      "seen_natural": 0.24867757161458331,
+      "seen_permuted": 0.24867757161458331,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "6e9828fcf8a5c9d07f514851ff0680fa3c7cc4f6f9034cb3701b84c6e2e82251",
+      "recombined": null
+    },
+    {
+      "seed": 78205,
+      "condition": "fresh_swap_live",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 0,
+      "initial_heldout_natural": 0.29231770833333337,
+      "heldout_natural": 0.6666666666666665,
+      "learning_gain": 0.37434895833333315,
+      "heldout_silent": 0.6666666666666665,
+      "heldout_permuted": 0.6666666666666665,
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.6666666666666665,
+      "seen_permuted": 0.11124674479166666,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.6249999999999998,
+      "seen_natural_minus_permuted": 0.5554199218749999,
+      "functional": true,
+      "sender_codebook": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "7e024a2679e46ec14df4c1532c1d0dbab90da617b729cec34802538829f8c99f",
+      "recombined": 0.6666666666666665
+    },
+    {
+      "seed": 78205,
+      "condition": "fresh_swap_silent",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "initial_heldout_natural": 0.14744059244791669,
+      "heldout_natural": 0.14634195963541669,
+      "learning_gain": -0.0010986328125,
+      "heldout_silent": 0.14634195963541669,
+      "heldout_permuted": 0.14634195963541669,
+      "all_natural": 0.2531534830729167,
+      "all_permuted": 0.2531534830729167,
+      "seen_natural": 0.28428141276041663,
+      "seen_permuted": 0.28428141276041663,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "8d12d23efc1073ff2940d4f319aab45fe2ae71c4643519898aee77deb5960c80",
+      "recombined": null
+    },
+    {
+      "seed": 78205,
+      "condition": "incumbent_identity_live",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 0,
+      "initial_heldout_natural": 0.6666666666666665,
+      "heldout_natural": 0.6666666666666665,
+      "learning_gain": 0.0,
+      "heldout_silent": 0.6666666666666665,
+      "heldout_permuted": 0.6666666666666665,
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.6666666666666665,
+      "seen_permuted": 0.11124674479166666,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.6249999999999998,
+      "seen_natural_minus_permuted": 0.5554199218749999,
+      "functional": true,
+      "sender_codebook": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "510d2efabf590c4dc28a1936b730fd08018e68d54f838f0cabe9a93f8a679317",
+      "recombined": 0.6666666666666665
+    },
+    {
+      "seed": 78205,
+      "condition": "incumbent_identity_silent",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "initial_heldout_natural": 0.1671142578125,
+      "heldout_natural": 0.25284830729166663,
+      "learning_gain": 0.08573404947916663,
+      "heldout_silent": 0.25284830729166663,
+      "heldout_permuted": 0.25284830729166663,
+      "all_natural": 0.25284830729166663,
+      "all_permuted": 0.25284830729166663,
+      "seen_natural": 0.24867757161458331,
+      "seen_permuted": 0.24867757161458331,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "32448f533bcb28ee80f4464d62db5c8fc7c7c72d16b3264ea3a00b5551b9df74",
+      "recombined": null
+    },
+    {
+      "seed": 78205,
+      "condition": "incumbent_swap_live",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 0,
+      "initial_heldout_natural": -0.16666666666666663,
+      "heldout_natural": 0.6666666666666665,
+      "learning_gain": 0.8333333333333331,
+      "heldout_silent": 0.6666666666666665,
+      "heldout_permuted": 0.6666666666666665,
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.6666666666666665,
+      "seen_permuted": 0.11124674479166666,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.6249999999999998,
+      "seen_natural_minus_permuted": 0.5554199218749999,
+      "functional": true,
+      "sender_codebook": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "51c2a6c47941518b5e9f96517b91dfe30db262afae60c114c298cc962a728131",
+      "recombined": 0.6666666666666665
+    },
+    {
+      "seed": 78205,
+      "condition": "incumbent_swap_silent",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "initial_heldout_natural": 0.26987711588541663,
+      "heldout_natural": 0.25284830729166663,
+      "learning_gain": -0.01702880859375,
+      "heldout_silent": 0.25284830729166663,
+      "heldout_permuted": 0.25284830729166663,
+      "all_natural": 0.25284830729166663,
+      "all_permuted": 0.25284830729166663,
+      "seen_natural": 0.24867757161458331,
+      "seen_permuted": 0.24867757161458331,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "d58ed4239bdab7a397ebea0d27d27ff20991722a4a1f73847c077c80283fa3be",
+      "recombined": null
+    },
+    {
+      "seed": 78206,
+      "condition": "fresh_identity_live",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 1,
+      "initial_heldout_natural": 0.16130574544270834,
+      "heldout_natural": 0.6666666666666665,
+      "learning_gain": 0.5053609212239581,
+      "heldout_silent": 0.6666666666666665,
+      "heldout_permuted": 0.6666666666666665,
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.6666666666666665,
+      "seen_permuted": 0.11124674479166666,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.6249999999999998,
+      "seen_natural_minus_permuted": 0.5554199218749999,
+      "functional": true,
+      "sender_codebook": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "5563797f51fd94062b4b282b4085df660812dcbfb6887d60800c47895f8a8277",
+      "recombined": 0.6666666666666665
+    },
+    {
+      "seed": 78206,
+      "condition": "fresh_identity_silent",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 1,
+      "initial_heldout_natural": 0.270660400390625,
+      "heldout_natural": 0.247406005859375,
+      "learning_gain": -0.02325439453125,
+      "heldout_silent": 0.247406005859375,
+      "heldout_permuted": 0.247406005859375,
+      "all_natural": 0.251068115234375,
+      "all_permuted": 0.251068115234375,
+      "seen_natural": 0.25127156575520837,
+      "seen_permuted": 0.25127156575520837,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "1e746919f6ee227843d237bd3b9a91c0a08a953270c3964f9d8d520003419b96",
+      "recombined": null
+    },
+    {
+      "seed": 78206,
+      "condition": "fresh_swap_live",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 1,
+      "initial_heldout_natural": 0.267547607421875,
+      "heldout_natural": 0.6666666666666665,
+      "learning_gain": 0.3991190592447915,
+      "heldout_silent": 0.6666666666666665,
+      "heldout_permuted": 0.6666666666666665,
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.6666666666666665,
+      "seen_permuted": 0.11124674479166666,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.6249999999999998,
+      "seen_natural_minus_permuted": 0.5554199218749999,
+      "functional": true,
+      "sender_codebook": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "fd3d26e6eb36892b47480b61926ded8a594fa494bbef8a4dcebbb8a936320085",
+      "recombined": 0.6666666666666665
+    },
+    {
+      "seed": 78206,
+      "condition": "fresh_swap_silent",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 1,
+      "initial_heldout_natural": 0.16597493489583334,
+      "heldout_natural": 0.3507080078125,
+      "learning_gain": 0.18473307291666666,
+      "heldout_silent": 0.3507080078125,
+      "heldout_permuted": 0.3507080078125,
+      "all_natural": 0.2517293294270833,
+      "all_permuted": 0.2517293294270833,
+      "seen_natural": 0.2164306640625,
+      "seen_permuted": 0.2164306640625,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "563f256868e1fd828673041bd013e4152d4613df4dc020d5a13f89e80c06e460",
+      "recombined": null
+    },
+    {
+      "seed": 78206,
+      "condition": "incumbent_identity_live",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 1,
+      "initial_heldout_natural": 0.6666666666666665,
+      "heldout_natural": 0.6666666666666665,
+      "learning_gain": 0.0,
+      "heldout_silent": 0.6666666666666665,
+      "heldout_permuted": 0.6666666666666665,
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.6666666666666665,
+      "seen_permuted": 0.11124674479166666,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.6249999999999998,
+      "seen_natural_minus_permuted": 0.5554199218749999,
+      "functional": true,
+      "sender_codebook": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "128326b4306b79a51570e8016c9a258903b132e79b8e916752837f6c185026ca",
+      "recombined": 0.6666666666666665
+    },
+    {
+      "seed": 78206,
+      "condition": "incumbent_identity_silent",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 1,
+      "initial_heldout_natural": 0.124481201171875,
+      "heldout_natural": 0.247406005859375,
+      "learning_gain": 0.1229248046875,
+      "heldout_silent": 0.247406005859375,
+      "heldout_permuted": 0.247406005859375,
+      "all_natural": 0.251068115234375,
+      "all_permuted": 0.251068115234375,
+      "seen_natural": 0.25127156575520837,
+      "seen_permuted": 0.25127156575520837,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "85bc532ccb3915c3f2b8f7c38ce2d4594f001a8fac1d42e1b661ebc3f45ab065",
+      "recombined": null
+    },
+    {
+      "seed": 78206,
+      "condition": "incumbent_swap_live",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 1,
+      "initial_heldout_natural": -0.16666666666666663,
+      "heldout_natural": 0.6666666666666665,
+      "learning_gain": 0.8333333333333331,
+      "heldout_silent": 0.6666666666666665,
+      "heldout_permuted": 0.6666666666666665,
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.6666666666666665,
+      "seen_permuted": 0.11124674479166666,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.6249999999999998,
+      "seen_natural_minus_permuted": 0.5554199218749999,
+      "functional": true,
+      "sender_codebook": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "d087c0b2f8800532ec0f699808fdc631ae5526410b307a93521b61ebcb8bc0a2",
+      "recombined": 0.6666666666666665
+    },
+    {
+      "seed": 78206,
+      "condition": "incumbent_swap_silent",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 1,
+      "initial_heldout_natural": 0.1229248046875,
+      "heldout_natural": 0.146697998046875,
+      "learning_gain": 0.023773193359375,
+      "heldout_silent": 0.146697998046875,
+      "heldout_permuted": 0.146697998046875,
+      "all_natural": 0.24933878580729166,
+      "all_permuted": 0.24933878580729166,
+      "seen_natural": 0.28484090169270837,
+      "seen_permuted": 0.28484090169270837,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "973dcf0e4b8a66be33c3743a8d6f58e0c55fa59cfd79c2d95acbfe2331e654fd",
+      "recombined": null
+    },
+    {
+      "seed": 78207,
+      "condition": "fresh_identity_live",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 2,
+      "initial_heldout_natural": 0.0019022623697916665,
+      "heldout_natural": 0.25,
+      "learning_gain": 0.24809773763020834,
+      "heldout_silent": 0.25,
+      "heldout_permuted": 0.25,
+      "all_natural": 0.45929972330729163,
+      "all_permuted": 0.04166666666666668,
+      "seen_natural": 0.5272013346354167,
+      "seen_permuted": 0.25208536783854163,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.41763305664062494,
+      "seen_natural_minus_permuted": 0.2751159667968751,
+      "functional": false,
+      "sender_codebook": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "final_parameter_sha256": "d7c1ddbb0b39f176452055cd0fd8379ead1a62ef62357a8cc8e5ea18ad04def7",
+      "recombined": 0.25
+    },
+    {
+      "seed": 78207,
+      "condition": "fresh_identity_silent",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 2,
+      "initial_heldout_natural": 0.18974812825520834,
+      "heldout_natural": 0.04426066080729167,
+      "learning_gain": -0.14548746744791669,
+      "heldout_silent": 0.04426066080729167,
+      "heldout_permuted": 0.04426066080729167,
+      "all_natural": 0.25086466471354163,
+      "all_permuted": 0.25086466471354163,
+      "seen_natural": 0.31861368815104163,
+      "seen_permuted": 0.31861368815104163,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "final_parameter_sha256": "bf8780eb160742eb7cc97537f1d310bd43417065f334226ddb02a835d518f1fd",
+      "recombined": null
+    },
+    {
+      "seed": 78207,
+      "condition": "fresh_swap_live",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 2,
+      "initial_heldout_natural": 0.3149210611979167,
+      "heldout_natural": 0.4583333333333332,
+      "learning_gain": 0.14341227213541652,
+      "heldout_silent": 0.4583333333333332,
+      "heldout_permuted": 0.4583333333333332,
+      "all_natural": 0.4592997233072916,
+      "all_permuted": 0.04166666666666666,
+      "seen_natural": 0.45772298177083326,
+      "seen_permuted": 0.18260701497395831,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.4176330566406249,
+      "seen_natural_minus_permuted": 0.27511596679687494,
+      "functional": false,
+      "sender_codebook": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "final_parameter_sha256": "a64c15d74dd54ba4a7e0974301aee19e88f463cfc6cef14d5ff011b841e332bb",
+      "recombined": 0.4583333333333332
+    },
+    {
+      "seed": 78207,
+      "condition": "fresh_swap_silent",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 2,
+      "initial_heldout_natural": 0.19130452473958334,
+      "heldout_natural": 0.2508646647135417,
+      "learning_gain": 0.05956013997395834,
+      "heldout_silent": 0.2508646647135417,
+      "heldout_permuted": 0.2508646647135417,
+      "all_natural": 0.248931884765625,
+      "all_permuted": 0.248931884765625,
+      "seen_natural": 0.248016357421875,
+      "seen_permuted": 0.248016357421875,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "final_parameter_sha256": "7c71c6559a1768fe124b9b5753a7394d3cbc3bf42569f7144971e8cc6dda67f6",
+      "recombined": null
+    },
+    {
+      "seed": 78207,
+      "condition": "incumbent_identity_live",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 2,
+      "initial_heldout_natural": 0.25,
+      "heldout_natural": 0.25,
+      "learning_gain": 0.0,
+      "heldout_silent": 0.25,
+      "heldout_permuted": 0.25,
+      "all_natural": 0.45833333333333326,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.5278116861979167,
+      "seen_permuted": 0.25010172526041663,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.4166666666666666,
+      "seen_natural_minus_permuted": 0.2777099609375001,
+      "functional": false,
+      "sender_codebook": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "final_parameter_sha256": "95a5a09aa817af8d648357e3309bf6e41aa41e672794be728d47426b80b0742e",
+      "recombined": 0.25
+    },
+    {
+      "seed": 78207,
+      "condition": "incumbent_identity_silent",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 2,
+      "initial_heldout_natural": 0.063018798828125,
+      "heldout_natural": -0.06077067057291667,
+      "learning_gain": -0.12378946940104167,
+      "heldout_silent": -0.06077067057291667,
+      "heldout_permuted": -0.06077067057291667,
+      "all_natural": 0.24989827473958337,
+      "all_permuted": 0.24989827473958337,
+      "seen_natural": 0.35274251302083337,
+      "seen_permuted": 0.35274251302083337,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "final_parameter_sha256": "ae2845c5a5c7f2e2975aecb8333b7e46ebc631596a57e3f3d20f24e1e2da6db8",
+      "recombined": null
+    },
+    {
+      "seed": 78207,
+      "condition": "incumbent_swap_live",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 2,
+      "initial_heldout_natural": 0.25,
+      "heldout_natural": 0.6666666666666665,
+      "learning_gain": 0.4166666666666665,
+      "heldout_silent": 0.6666666666666665,
+      "heldout_permuted": 0.6666666666666665,
+      "all_natural": 0.45833333333333326,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.38885498046875,
+      "seen_permuted": 0.11114501953125,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.4166666666666666,
+      "seen_natural_minus_permuted": 0.2777099609375,
+      "functional": true,
+      "sender_codebook": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "final_parameter_sha256": "f43c8939f553ea5703f0f50a7db982136785513d19d0a68af9d426c14bb8ff7f",
+      "recombined": 0.6666666666666665
+    },
+    {
+      "seed": 78207,
+      "condition": "incumbent_swap_silent",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 2,
+      "initial_heldout_natural": 0.374481201171875,
+      "heldout_natural": 0.25345865885416663,
+      "learning_gain": -0.12102254231770837,
+      "heldout_silent": 0.25345865885416663,
+      "heldout_permuted": 0.25345865885416663,
+      "all_natural": 0.24979654947916669,
+      "all_permuted": 0.24979654947916669,
+      "seen_natural": 0.24715169270833331,
+      "seen_permuted": 0.24715169270833331,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "pairwise_min_hamming": 0,
+      "final_parameter_sha256": "530e7a5d3636e3f4f47ab59d6023f759a56e1ca165f6e6adf4cc3f1d11b427c3",
+      "recombined": null
+    },
+    {
+      "seed": 78208,
+      "condition": "fresh_identity_live",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 3,
+      "initial_heldout_natural": 0.00032552083333333386,
+      "heldout_natural": 0.6666666666666665,
+      "learning_gain": 0.6663411458333331,
+      "heldout_silent": 0.6666666666666665,
+      "heldout_permuted": 0.6666666666666665,
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.6666666666666665,
+      "seen_permuted": 0.11124674479166666,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.6249999999999998,
+      "seen_natural_minus_permuted": 0.5554199218749999,
+      "functional": true,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "b457a653f8faffb7c081760da2d26606e8562a8d889269a0c63963ac088a3ed4",
+      "recombined": 0.6666666666666665
+    },
+    {
+      "seed": 78208,
+      "condition": "fresh_identity_silent",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 3,
+      "initial_heldout_natural": 0.06351725260416667,
+      "heldout_natural": 0.3564046223958333,
+      "learning_gain": 0.29288736979166663,
+      "heldout_silent": 0.3564046223958333,
+      "heldout_permuted": 0.3564046223958333,
+      "all_natural": 0.24237060546875,
+      "all_permuted": 0.24237060546875,
+      "seen_natural": 0.21775309244791669,
+      "seen_permuted": 0.21775309244791669,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "76e873d050e2ca9813bcc9de4deafe6488cff130c3fd7dc4349dc72ac434cc0f",
+      "recombined": null
+    },
+    {
+      "seed": 78208,
+      "condition": "fresh_swap_live",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 3,
+      "initial_heldout_natural": 0.3148701985677083,
+      "heldout_natural": 0.6666666666666665,
+      "learning_gain": 0.3517964680989582,
+      "heldout_silent": 0.6666666666666665,
+      "heldout_permuted": 0.6666666666666665,
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.6666666666666665,
+      "seen_permuted": 0.11124674479166666,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.6249999999999998,
+      "seen_natural_minus_permuted": 0.5554199218749999,
+      "functional": true,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "acac7c6afdac3822d2d46bee7cc45cff4de25061a65ba3dbf8c3fc6ea89384b4",
+      "recombined": 0.6666666666666665
+    },
+    {
+      "seed": 78208,
+      "condition": "fresh_swap_silent",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 3,
+      "initial_heldout_natural": 0.37693277994791663,
+      "heldout_natural": 0.3564046223958333,
+      "learning_gain": -0.020528157552083315,
+      "heldout_silent": 0.3564046223958333,
+      "heldout_permuted": 0.3564046223958333,
+      "all_natural": 0.24237060546875,
+      "all_permuted": 0.24237060546875,
+      "seen_natural": 0.21775309244791669,
+      "seen_permuted": 0.21775309244791669,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "8b5020eddc6729e480f2adefb4fccb22d7d3b505dc24feb0aa95460cfb791af1",
+      "recombined": null
+    },
+    {
+      "seed": 78208,
+      "condition": "incumbent_identity_live",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 3,
+      "initial_heldout_natural": 0.6666666666666665,
+      "heldout_natural": 0.6666666666666665,
+      "learning_gain": 0.0,
+      "heldout_silent": 0.6666666666666665,
+      "heldout_permuted": 0.6666666666666665,
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.6666666666666665,
+      "seen_permuted": 0.11124674479166666,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.6249999999999998,
+      "seen_natural_minus_permuted": 0.5554199218749999,
+      "functional": true,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "69e5d44191986522210094d906fd39e69d6c05cca3a91a7f00429c0202da7b64",
+      "recombined": 0.6666666666666665
+    },
+    {
+      "seed": 78208,
+      "condition": "incumbent_identity_silent",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 3,
+      "initial_heldout_natural": 0.022501627604166664,
+      "heldout_natural": -0.06097412109375,
+      "learning_gain": -0.08347574869791666,
+      "heldout_silent": -0.06097412109375,
+      "heldout_permuted": -0.06097412109375,
+      "all_natural": 0.2508138020833333,
+      "all_permuted": 0.2508138020833333,
+      "seen_natural": 0.35569254557291663,
+      "seen_permuted": 0.35569254557291663,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "56fd367f05649acb32b9f533b39f51870ae94ccde3dd14b51a9998c439e0776b",
+      "recombined": null
+    },
+    {
+      "seed": 78208,
+      "condition": "incumbent_swap_live",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 3,
+      "initial_heldout_natural": -0.16666666666666663,
+      "heldout_natural": 0.6666666666666665,
+      "learning_gain": 0.8333333333333331,
+      "heldout_silent": 0.6666666666666665,
+      "heldout_permuted": 0.6666666666666665,
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.6666666666666665,
+      "seen_permuted": 0.11124674479166666,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.6249999999999998,
+      "seen_natural_minus_permuted": 0.5554199218749999,
+      "functional": true,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "97e6c3f09f273f656032faa12f1cfd6227a2506acb9b097b85347e64321cde97",
+      "recombined": 0.6666666666666665
+    },
+    {
+      "seed": 78208,
+      "condition": "incumbent_swap_silent",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 3,
+      "initial_heldout_natural": 0.23126220703125,
+      "heldout_natural": 0.3564046223958333,
+      "learning_gain": 0.12514241536458331,
+      "heldout_silent": 0.3564046223958333,
+      "heldout_permuted": 0.3564046223958333,
+      "all_natural": 0.24237060546875,
+      "all_permuted": 0.24237060546875,
+      "seen_natural": 0.21775309244791669,
+      "seen_permuted": 0.21775309244791669,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "835e8e04e987071f97680a485bf4e19214f5a9e9e52b651d3c752f5254cf4148",
+      "recombined": null
+    },
+    {
+      "seed": 78209,
+      "condition": "fresh_identity_live",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 0,
+      "initial_heldout_natural": 0.18633015950520831,
+      "heldout_natural": 0.6666666666666665,
+      "learning_gain": 0.4803365071614582,
+      "heldout_silent": 0.6666666666666665,
+      "heldout_permuted": 0.6666666666666665,
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.6666666666666665,
+      "seen_permuted": 0.11124674479166666,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.6249999999999998,
+      "seen_natural_minus_permuted": 0.5554199218749999,
+      "functional": true,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "cc6a8bed3dc28e9a992ad80b8e31495de2ae40d1f77328879f35a777175dea4c",
+      "recombined": 0.6666666666666665
+    },
+    {
+      "seed": 78209,
+      "condition": "fresh_identity_silent",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "initial_heldout_natural": 0.20753987630208331,
+      "heldout_natural": 0.352081298828125,
+      "learning_gain": 0.14454142252604169,
+      "heldout_silent": 0.352081298828125,
+      "heldout_permuted": 0.352081298828125,
+      "all_natural": 0.2524922688802083,
+      "all_permuted": 0.2524922688802083,
+      "seen_natural": 0.21465047200520831,
+      "seen_permuted": 0.21465047200520831,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "b288f6f97b72ad682d755e2aaef50a4de058e285d0182189f89ad3f1264dcf65",
+      "recombined": null
+    },
+    {
+      "seed": 78209,
+      "condition": "fresh_swap_live",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 0,
+      "initial_heldout_natural": 0.18846638997395831,
+      "heldout_natural": 0.6666666666666665,
+      "learning_gain": 0.4782002766927082,
+      "heldout_silent": 0.6666666666666665,
+      "heldout_permuted": 0.6666666666666665,
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.6666666666666665,
+      "seen_permuted": 0.11124674479166666,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.6249999999999998,
+      "seen_natural_minus_permuted": 0.5554199218749999,
+      "functional": true,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "dec6b71902caae8f675591cedbddfae083fdc94a25b087c57fe5167d003e2f2a",
+      "recombined": 0.6666666666666665
+    },
+    {
+      "seed": 78209,
+      "condition": "fresh_swap_silent",
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "initial_heldout_natural": 0.10663859049479166,
+      "heldout_natural": 0.3522847493489583,
+      "learning_gain": 0.24564615885416666,
+      "heldout_silent": 0.3522847493489583,
+      "heldout_permuted": 0.3522847493489583,
+      "all_natural": 0.25055948893229163,
+      "all_permuted": 0.25055948893229163,
+      "seen_natural": 0.21434529622395834,
+      "seen_permuted": 0.21434529622395834,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "7e7ba5c7843e60fc62ac49b13bf5a92f46a87f119ffe1ebec9a64cf460e6ad30",
+      "recombined": null
+    },
+    {
+      "seed": 78209,
+      "condition": "incumbent_identity_live",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 0,
+      "initial_heldout_natural": 0.6666666666666665,
+      "heldout_natural": 0.6666666666666665,
+      "learning_gain": 0.0,
+      "heldout_silent": 0.6666666666666665,
+      "heldout_permuted": 0.6666666666666665,
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.6666666666666665,
+      "seen_permuted": 0.11124674479166666,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.6249999999999998,
+      "seen_natural_minus_permuted": 0.5554199218749999,
+      "functional": true,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "6849ea407cad35ab69b50ba90f2987a81484e1c77026378143db4755c15be600",
+      "recombined": 0.6666666666666665
+    },
+    {
+      "seed": 78209,
+      "condition": "incumbent_identity_silent",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "initial_heldout_natural": 0.186126708984375,
+      "heldout_natural": 0.35248819986979163,
+      "learning_gain": 0.16636149088541663,
+      "heldout_silent": 0.35248819986979163,
+      "heldout_permuted": 0.35248819986979163,
+      "all_natural": 0.24862670898437497,
+      "all_permuted": 0.24862670898437497,
+      "seen_natural": 0.21404012044270831,
+      "seen_permuted": 0.21404012044270831,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "6755c5b8b15aadeb082f3fe6fd7853d3be322c715daa5e78415f549c0ab56757",
+      "recombined": null
+    },
+    {
+      "seed": 78209,
+      "condition": "incumbent_swap_live",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "heldout_goal": 0,
+      "initial_heldout_natural": -0.16666666666666663,
+      "heldout_natural": 0.6666666666666665,
+      "learning_gain": 0.8333333333333331,
+      "heldout_silent": 0.6666666666666665,
+      "heldout_permuted": 0.6666666666666665,
+      "all_natural": 0.6666666666666665,
+      "all_permuted": 0.041666666666666685,
+      "seen_natural": 0.6666666666666665,
+      "seen_permuted": 0.11124674479166666,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.6249999999999998,
+      "seen_natural_minus_permuted": 0.5554199218749999,
+      "functional": true,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "e2c9ecfc7a8067b8222b9e97b98cd7bdcbf822e50818febdf93acf0a37a5185e",
+      "recombined": 0.6666666666666665
+    },
+    {
+      "seed": 78209,
+      "condition": "incumbent_swap_silent",
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "initial_heldout_natural": 0.188262939453125,
+      "heldout_natural": 0.3522847493489583,
+      "learning_gain": 0.16402180989583331,
+      "heldout_silent": 0.3522847493489583,
+      "heldout_permuted": 0.3522847493489583,
+      "all_natural": 0.25055948893229163,
+      "all_permuted": 0.25055948893229163,
+      "seen_natural": 0.21424357096354166,
+      "seen_permuted": 0.21424357096354166,
+      "live_minus_silent": 0.0,
+      "natural_minus_permuted": 0.0,
+      "all_natural_minus_permuted": 0.0,
+      "seen_natural_minus_permuted": 0.0,
+      "functional": false,
+      "sender_codebook": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pairwise_min_hamming": 1,
+      "final_parameter_sha256": "abcca3265318200601767fa701655c81cd1d4ca5b6e0eb5348dc8cd87a7fc158",
+      "recombined": null
+    }
+  ],
+  "groups": [
+    {
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "n": 9,
+      "initial_heldout_natural_mean": 0.14594297055844907,
+      "initial_heldout_natural_ci95_t": [
+        0.0682330342795789,
+        0.22365290683731925
+      ],
+      "heldout_natural_mean": 0.597222222222222,
+      "heldout_natural_ci95_t": [
+        0.4839867315386593,
+        0.7104577129057847
+      ],
+      "learning_gain_mean": 0.45127925166377303,
+      "learning_gain_ci95_t": [
+        0.3545768218342983,
+        0.5479816814932478
+      ],
+      "all_natural_mean": 0.6207377115885415,
+      "all_natural_minus_permuted_mean": 0.5791332103587962,
+      "seen_natural_minus_permuted_mean": 0.4938761393229166,
+      "functional_count": 7,
+      "pairwise_min_hamming_mean": 0.7777777777777778
+    },
+    {
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "n": 9,
+      "initial_heldout_natural_mean": 0.1647598831741898,
+      "initial_heldout_natural_ci95_t": [
+        0.08094276282299359,
+        0.248577003525386
+      ],
+      "heldout_natural_mean": 0.31919578269675924,
+      "heldout_natural_ci95_t": [
+        0.19303337099231785,
+        0.4453581944012006
+      ],
+      "learning_gain_mean": 0.15443589952256945,
+      "learning_gain_ci95_t": [
+        0.021703709672507843,
+        0.28716808937263105
+      ],
+      "all_natural_mean": 0.24886971932870372,
+      "all_natural_minus_permuted_mean": 0.0,
+      "seen_natural_minus_permuted_mean": 0.0,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.7777777777777778
+    },
+    {
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "n": 9,
+      "initial_heldout_natural_mean": 0.2158519603587963,
+      "initial_heldout_natural_ci95_t": [
+        0.13974800271075166,
+        0.29195591800684095
+      ],
+      "heldout_natural_mean": 0.6087454336660879,
+      "heldout_natural_ci95_t": [
+        0.518140571437832,
+        0.6993502958943438
+      ],
+      "learning_gain_mean": 0.39289347330729146,
+      "learning_gain_ci95_t": [
+        0.27953622656756216,
+        0.5062507200470208
+      ],
+      "all_natural_mean": 0.6207998770254629,
+      "all_natural_minus_permuted_mean": 0.5794553403501156,
+      "seen_natural_minus_permuted_mean": 0.4943339029947916,
+      "functional_count": 7,
+      "pairwise_min_hamming_mean": 0.7777777777777778
+    },
+    {
+      "initialization": "fresh",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "n": 9,
+      "initial_heldout_natural_mean": 0.1767951117621528,
+      "initial_heldout_natural_ci95_t": [
+        0.1064363193911746,
+        0.24715390413313099
+      ],
+      "heldout_natural_mean": 0.30680790653935186,
+      "heldout_natural_ci95_t": [
+        0.2165967959593107,
+        0.397019017119393
+      ],
+      "learning_gain_mean": 0.13001279477719907,
+      "learning_gain_ci95_t": [
+        0.014215561948737257,
+        0.2458100276056609
+      ],
+      "all_natural_mean": 0.24833848741319445,
+      "all_natural_minus_permuted_mean": 0.0,
+      "seen_natural_minus_permuted_mean": 0.0,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.7777777777777778
+    },
+    {
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "live",
+      "n": 9,
+      "initial_heldout_natural_mean": 0.5856990107783564,
+      "initial_heldout_natural_ci95_t": [
+        0.46057494171541224,
+        0.7108230798413006
+      ],
+      "heldout_natural_mean": 0.574074074074074,
+      "heldout_natural_ci95_t": [
+        0.4328446040203659,
+        0.715303544127782
+      ],
+      "learning_gain_mean": -0.011624936704282404,
+      "learning_gain_ci95_t": [
+        -0.03843208724410444,
+        0.015182213835539636
+      ],
+      "all_natural_mean": 0.6203703703703702,
+      "all_natural_minus_permuted_mean": 0.5787037037037036,
+      "seen_natural_minus_permuted_mean": 0.4937065972222221,
+      "functional_count": 7,
+      "pairwise_min_hamming_mean": 0.7777777777777778
+    },
+    {
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "identity",
+      "support": "full",
+      "channel": "silent",
+      "n": 9,
+      "initial_heldout_natural_mean": 0.138824462890625,
+      "initial_heldout_natural_ci95_t": [
+        0.0493796557204232,
+        0.2282692700608268
+      ],
+      "heldout_natural_mean": 0.24940660264756945,
+      "heldout_natural_ci95_t": [
+        0.08537525505081911,
+        0.4134379502443198
+      ],
+      "learning_gain_mean": 0.11058213975694443,
+      "learning_gain_ci95_t": [
+        0.008147045056037666,
+        0.2130172344578512
+      ],
+      "all_natural_mean": 0.24955353913483794,
+      "all_natural_minus_permuted_mean": 0.0,
+      "seen_natural_minus_permuted_mean": 0.0,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.7777777777777778
+    },
+    {
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "live",
+      "n": 9,
+      "initial_heldout_natural_mean": -0.0855972855179398,
+      "initial_heldout_natural_ci95_t": [
+        -0.21084638549270765,
+        0.039651814456828055
+      ],
+      "heldout_natural_mean": 0.6666666666666665,
+      "heldout_natural_ci95_t": [
+        0.6666666666666665,
+        0.6666666666666665
+      ],
+      "learning_gain_mean": 0.7522639521846064,
+      "learning_gain_ci95_t": [
+        0.6270148522098385,
+        0.8775130521593743
+      ],
+      "all_natural_mean": 0.6203703703703702,
+      "all_natural_minus_permuted_mean": 0.5787037037037036,
+      "seen_natural_minus_permuted_mean": 0.4937065972222221,
+      "functional_count": 9,
+      "pairwise_min_hamming_mean": 0.7777777777777778
+    },
+    {
+      "initialization": "incumbent",
+      "representation": "joint_history",
+      "form": "dual2",
+      "task": "factorized",
+      "mapping": "swap",
+      "support": "full",
+      "channel": "silent",
+      "n": 9,
+      "initial_heldout_natural_mean": 0.2078891330295139,
+      "initial_heldout_natural_ci95_t": [
+        0.11574460120639618,
+        0.3000336648526316
+      ],
+      "heldout_natural_mean": 0.33106372974537035,
+      "heldout_natural_ci95_t": [
+        0.24398051999118125,
+        0.41814693949955944
+      ],
+      "learning_gain_mean": 0.12317459671585645,
+      "learning_gain_ci95_t": [
+        0.00823071554355638,
+        0.23811847788815654
+      ],
+      "all_natural_mean": 0.2487340856481481,
+      "all_natural_minus_permuted_mean": 0.0,
+      "seen_natural_minus_permuted_mean": 0.0,
+      "functional_count": 0,
+      "pairwise_min_hamming_mean": 0.7777777777777778
+    }
+  ],
+  "contrasts": [
+    {
+      "name": "initial_swap_minus_identity",
+      "initialization": "fresh",
+      "channel": "live",
+      "n": 9,
+      "mean": 0.06990898980034722,
+      "ci95_t": [
+        -0.06902616374408961,
+        0.20884414334478407
+      ]
+    },
+    {
+      "name": "swap_minus_identity",
+      "initialization": "fresh",
+      "channel": "live",
+      "n": 9,
+      "mean": 0.011523211443865736,
+      "ci95_t": [
+        -0.05113265521626858,
+        0.07417907810400005
+      ]
+    },
+    {
+      "name": "gain_swap_minus_identity",
+      "initialization": "fresh",
+      "channel": "live",
+      "n": 9,
+      "mean": -0.058385778356481476,
+      "ci95_t": [
+        -0.17949319271500816,
+        0.0627216360020452
+      ]
+    },
+    {
+      "name": "live_minus_silent_all",
+      "initialization": "fresh",
+      "mapping": "identity",
+      "n": 9,
+      "mean": 0.37186799225983785,
+      "ci95_t": [
+        0.30153698544025553,
+        0.4421989990794202
+      ]
+    },
+    {
+      "name": "communication_swap_minus_identity",
+      "initialization": "fresh",
+      "channel": "live",
+      "n": 9,
+      "mean": 0.00032212999131943826,
+      "ci95_t": [
+        -0.0004207030571831678,
+        0.0010649630398220443
+      ]
+    },
+    {
+      "name": "initial_swap_minus_identity",
+      "initialization": "fresh",
+      "channel": "silent",
+      "n": 9,
+      "mean": 0.012035228587962956,
+      "ci95_t": [
+        -0.12890018605508033,
+        0.15297064323100626
+      ]
+    },
+    {
+      "name": "swap_minus_identity",
+      "initialization": "fresh",
+      "channel": "silent",
+      "n": 9,
+      "mean": -0.012387876157407404,
+      "ci95_t": [
+        -0.1058720803274961,
+        0.0810963280126813
+      ]
+    },
+    {
+      "name": "gain_swap_minus_identity",
+      "initialization": "fresh",
+      "channel": "silent",
+      "n": 9,
+      "mean": -0.024423104745370353,
+      "ci95_t": [
+        -0.18787113851261217,
+        0.13902492902187147
+      ]
+    },
+    {
+      "name": "live_minus_silent_all",
+      "initialization": "fresh",
+      "mapping": "identity",
+      "n": 9,
+      "mean": 0.37186799225983785,
+      "ci95_t": [
+        0.30153698544025553,
+        0.4421989990794202
+      ]
+    },
+    {
+      "name": "communication_swap_minus_identity",
+      "initialization": "fresh",
+      "channel": "live",
+      "n": 9,
+      "mean": 0.00032212999131943826,
+      "ci95_t": [
+        -0.0004207030571831678,
+        0.0010649630398220443
+      ]
+    },
+    {
+      "name": "initial_swap_minus_identity",
+      "initialization": "incumbent",
+      "channel": "live",
+      "n": 9,
+      "mean": -0.6712962962962962,
+      "ci95_t": [
+        -0.9216693866624042,
+        -0.42092320593018817
+      ]
+    },
+    {
+      "name": "swap_minus_identity",
+      "initialization": "incumbent",
+      "channel": "live",
+      "n": 9,
+      "mean": 0.09259259259259256,
+      "ci95_t": [
+        -0.0486368774611155,
+        0.23382206264630062
+      ]
+    },
+    {
+      "name": "gain_swap_minus_identity",
+      "initialization": "incumbent",
+      "channel": "live",
+      "n": 9,
+      "mean": 0.7638888888888887,
+      "ci95_t": [
+        0.650653398205326,
+        0.8771243795724515
+      ]
+    },
+    {
+      "name": "live_minus_silent_all",
+      "initialization": "incumbent",
+      "mapping": "identity",
+      "n": 9,
+      "mean": 0.3708168312355323,
+      "ci95_t": [
+        0.30046811570596016,
+        0.4411655467651044
+      ]
+    },
+    {
+      "name": "communication_swap_minus_identity",
+      "initialization": "incumbent",
+      "channel": "live",
+      "n": 9,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "initial_swap_minus_identity",
+      "initialization": "incumbent",
+      "channel": "silent",
+      "n": 9,
+      "mean": 0.0690646701388889,
+      "ci95_t": [
+        -0.1009299852333862,
+        0.239059325511164
+      ]
+    },
+    {
+      "name": "swap_minus_identity",
+      "initialization": "incumbent",
+      "channel": "silent",
+      "n": 9,
+      "mean": 0.08165712709780092,
+      "ci95_t": [
+        -0.08733937803136586,
+        0.2506536322269677
+      ]
+    },
+    {
+      "name": "gain_swap_minus_identity",
+      "initialization": "incumbent",
+      "channel": "silent",
+      "n": 9,
+      "mean": 0.012592456958912014,
+      "ci95_t": [
+        -0.08059578266892323,
+        0.10578069658674727
+      ]
+    },
+    {
+      "name": "live_minus_silent_all",
+      "initialization": "incumbent",
+      "mapping": "identity",
+      "n": 9,
+      "mean": 0.3708168312355323,
+      "ci95_t": [
+        0.30046811570596016,
+        0.4411655467651044
+      ]
+    },
+    {
+      "name": "communication_swap_minus_identity",
+      "initialization": "incumbent",
+      "channel": "live",
+      "n": 9,
+      "mean": 0.0,
+      "ci95_t": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "incumbent_minus_fresh_initial",
+      "mapping": "identity",
+      "channel": "live",
+      "n": 9,
+      "mean": 0.4397560402199072,
+      "ci95_t": [
+        0.3308327255123865,
+        0.5486793549274279
+      ]
+    },
+    {
+      "name": "incumbent_minus_fresh_final",
+      "mapping": "identity",
+      "channel": "live",
+      "n": 9,
+      "mean": -0.023148148148148133,
+      "ci95_t": [
+        -0.07652787037037032,
+        0.03023157407407405
+      ]
+    },
+    {
+      "name": "incumbent_minus_fresh_gain",
+      "mapping": "identity",
+      "channel": "live",
+      "n": 9,
+      "mean": -0.46290418836805547,
+      "ci95_t": [
+        -0.5537183164482935,
+        -0.3720900602878175
+      ]
+    },
+    {
+      "name": "incumbent_minus_fresh_initial",
+      "mapping": "identity",
+      "channel": "silent",
+      "n": 9,
+      "mean": -0.02593542028356482,
+      "ci95_t": [
+        -0.13819432379395227,
+        0.08632348322682264
+      ]
+    },
+    {
+      "name": "incumbent_minus_fresh_final",
+      "mapping": "identity",
+      "channel": "silent",
+      "n": 9,
+      "mean": -0.06978918004918983,
+      "ci95_t": [
+        -0.17591410808368774,
+        0.0363357479853081
+      ]
+    },
+    {
+      "name": "incumbent_minus_fresh_gain",
+      "mapping": "identity",
+      "channel": "silent",
+      "n": 9,
+      "mean": -0.04385375976562499,
+      "ci95_t": [
+        -0.18025887073416763,
+        0.09255135120291763
+      ]
+    },
+    {
+      "name": "incumbent_minus_fresh_initial",
+      "mapping": "swap",
+      "channel": "live",
+      "n": 9,
+      "mean": -0.3014492458767361,
+      "ci95_t": [
+        -0.44138365237454646,
+        -0.16151483937892575
+      ]
+    },
+    {
+      "name": "incumbent_minus_fresh_final",
+      "mapping": "swap",
+      "channel": "live",
+      "n": 9,
+      "mean": 0.05792123300057869,
+      "ci95_t": [
+        -0.032683629227677174,
+        0.14852609522883456
+      ]
+    },
+    {
+      "name": "incumbent_minus_fresh_gain",
+      "mapping": "swap",
+      "channel": "live",
+      "n": 9,
+      "mean": 0.35937047887731477,
+      "ci95_t": [
+        0.2845874073888964,
+        0.43415355036573317
+      ]
+    },
+    {
+      "name": "incumbent_minus_fresh_initial",
+      "mapping": "swap",
+      "channel": "silent",
+      "n": 9,
+      "mean": 0.031094021267361112,
+      "ci95_t": [
+        -0.07257474280505882,
+        0.13476278533978103
+      ]
+    },
+    {
+      "name": "incumbent_minus_fresh_final",
+      "mapping": "swap",
+      "channel": "silent",
+      "n": 9,
+      "mean": 0.024255823206018476,
+      "ci95_t": [
+        -0.10726647260326073,
+        0.1557781190152977
+      ]
+    },
+    {
+      "name": "incumbent_minus_fresh_gain",
+      "mapping": "swap",
+      "channel": "silent",
+      "n": 9,
+      "mean": -0.006838198061342627,
+      "ci95_t": [
+        -0.12264625485768933,
+        0.10896985873500407
+      ]
+    }
+  ]
+}

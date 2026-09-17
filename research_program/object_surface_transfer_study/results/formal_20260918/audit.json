@@ -1,0 +1,16 @@
+{
+  "schema": "object_surface_transfer_audit_v1_combined",
+  "status": "passed",
+  "shards": 3,
+  "parent_runs": 9,
+  "child_runs": 72,
+  "parent_training_log_rows": 27000,
+  "child_training_log_rows": 216000,
+  "parent_checkpoints": 36,
+  "child_checkpoints": 288,
+  "paired_live_silent_rows": 108000,
+  "paired_mapping_rows": 54000,
+  "max_abs_replay_error": 0.0,
+  "sender_frozen_in_children": true,
+  "incumbent_copy_checked": true
+}

@@ -1,0 +1,87 @@
+{
+  "schema": "object_surface_transfer_local_cleanup_receipt_v1",
+  "created_utc": "2026-09-17T20:16:36Z",
+  "root": "/Users/xia/Documents/ChatGPT/语言",
+  "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+  "archive": "research_program/object_surface_transfer_study/results/formal_20260918",
+  "archive_manifest_sha256": "be796fa6ce62d807c40355b4860d33ccf6f4dc1b1fe20bcc6871f9d68ba1583f",
+  "audit": "passed",
+  "raw_execution_retained": false,
+  "raw_paths_absent": true,
+  "deleted": [
+    {
+      "path": "/private/tmp/ost_transfer_part1",
+      "existed": true,
+      "bytes_removed": 86933247,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/ost_transfer_part1.log",
+      "existed": true,
+      "bytes_removed": 54,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/ost_transfer_part1_audit.log",
+      "existed": true,
+      "bytes_removed": 382,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/ost_transfer_part2",
+      "existed": true,
+      "bytes_removed": 86928397,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/ost_transfer_part2.log",
+      "existed": true,
+      "bytes_removed": 54,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/ost_transfer_part2_audit.log",
+      "existed": true,
+      "bytes_removed": 382,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/ost_transfer_part3",
+      "existed": true,
+      "bytes_removed": 86935383,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/ost_transfer_part3.log",
+      "existed": true,
+      "bytes_removed": 54,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/ost_transfer_part3_audit.log",
+      "existed": true,
+      "bytes_removed": 382,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/ost_transfer_full",
+      "existed": true,
+      "bytes_removed": 260912692,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/ost_transfer_prepared",
+      "existed": true,
+      "bytes_removed": 73341,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/ost_transfer_audit.log",
+      "existed": true,
+      "bytes_removed": 0,
+      "removed": true
+    }
+  ],
+  "total_bytes_removed": 521784368,
+  "retained_local": "source code, frozen plan, compact endpoints, learning curves, audit receipts and report"
+}

@@ -2,9 +2,9 @@
   "generated_at_local": "2026-09-18",
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
-  "remote_commit": "798d5663722d4c3fd1b41d052e02e50ca5c76f90",
-  "remote_main_verified": true,
-  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix, ecological-factorization formal matrix, compact archive, replay audit and new-combination analysis, object-surface remapping corrected formal matrix, parent surface-shift analysis, replay audit and cleanup receipt",
+  "remote_commit": "7e3f422",
+  "remote_main_verified": false,
+  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix, ecological-factorization formal matrix, compact archive, replay audit and new-combination analysis, object-surface remapping corrected formal matrix, parent surface-shift analysis, replay audit and cleanup receipt, incumbent-worker surface transfer formal matrix, repair curves, replay audit and cleanup receipt",
   "retained_paths": {
     "research_program/action_dependent_signaling_study": {
       "files": 23,
@@ -101,6 +101,18 @@
     "research_program/object_surface_remap_study": {
       "files": 42,
       "bytes": 2405620
+    },
+    "research_program/object_surface_transfer_study": {
+      "files": 23,
+      "bytes": 742495
+    },
+    "SYNC_2026-09-18_object_surface_transfer.md": {
+      "files": 1,
+      "bytes": 947
+    },
+    "LOCAL_CLEANUP_RECEIPT_2026-09-18_object_surface_transfer.json": {
+      "files": 1,
+      "bytes": 2345
     }
   },
   "compact_archives": {
@@ -175,6 +187,10 @@
     "research_program/object_surface_remap_study/results/formal_20260918_corrected": {
       "files": 16,
       "bytes": 706547
+    },
+    "research_program/object_surface_transfer_study/results/formal_20260918": {
+      "files": 13,
+      "bytes": 675591
     }
   },
   "raw_execution_trees": {
@@ -823,6 +839,30 @@
     "/private/tmp/language_sync_v4": {
       "present": false,
       "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/ost_transfer_part1": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/ost_transfer_part2": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/ost_transfer_part3": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/ost_transfer_full": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/ost_transfer_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/ost_transfer_audit.log": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
     }
   },
   "temporary_raw_trees_removed": [
@@ -1319,29 +1359,31 @@
     }
   },
   "current_batch": {
-    "removed_file_or_tree_count": 16,
-    "removed_bytes": 4750,
-    "removed_bytes_exact": false,
-    "removed_bytes_note": "Meaning-capacity raw trees were deleted by the post-archive cleaner before byte accounting; no raw data is retained.",
+    "name": "object_surface_transfer_20260918",
+    "removed_file_or_tree_count": 12,
+    "removed_bytes": 521784368,
+    "removed_bytes_exact": true,
     "paths": [
-      "/private/tmp/build_repetition_archive.py",
-      "/private/tmp/repetition_archive",
-      "/private/tmp/mcs_formal_part1",
-      "/private/tmp/mcs_formal_part2",
-      "/private/tmp/mcs_formal_part3",
-      "/private/tmp/mcs_formal_prepared",
-      "/private/tmp/mcs_formal_merged",
-      "/private/tmp/mcs_part1_audit.json",
-      "/private/tmp/mcs_part2_audit.json",
-      "/private/tmp/mcs_part3_audit.json",
-      "/private/tmp/mcs_capacity_aggregate.json",
-      "/private/tmp/mcs_capacity_aggregate.md",
-      "/private/tmp/mcs_capacity_audit_part1.json",
-      "/private/tmp/mcs_capacity_audit_part2.json",
-      "/private/tmp/mcs_capacity_audit_part3.json",
-      "/private/tmp/language_sync_20260918"
+      "/private/tmp/ost_transfer_part1",
+      "/private/tmp/ost_transfer_part1.log",
+      "/private/tmp/ost_transfer_part1_audit.log",
+      "/private/tmp/ost_transfer_part2",
+      "/private/tmp/ost_transfer_part2.log",
+      "/private/tmp/ost_transfer_part2_audit.log",
+      "/private/tmp/ost_transfer_part3",
+      "/private/tmp/ost_transfer_part3.log",
+      "/private/tmp/ost_transfer_part3_audit.log",
+      "/private/tmp/ost_transfer_full",
+      "/private/tmp/ost_transfer_prepared",
+      "/private/tmp/ost_transfer_audit.log"
     ],
-    "verified_after_remote_commit": "ea95e84fa5bef45da5c75e8ed8edfb6bca7ace56"
+    "verified_after_remote_commit": "pending",
+    "archive": "research_program/object_surface_transfer_study/results/formal_20260918",
+    "archive_stats": {
+      "files": 13,
+      "bytes": 675591
+    },
+    "audit": "passed"
   },
   "raw_execution_trees_removed": {
     "/private/tmp/mcs_analysis.json": {
@@ -1446,66 +1488,34 @@
     }
   },
   "latest_batch": {
-    "name": "object_surface_remap_corrected_20260918",
-    "remote_commit": "798d5663722d4c3fd1b41d052e02e50ca5c76f90",
-    "archive": "research_program/object_surface_remap_study/results/formal_20260918_corrected",
+    "name": "object_surface_transfer_20260918",
+    "remote_commit": "pending",
+    "archive": "research_program/object_surface_transfer_study/results/formal_20260918",
     "archive_stats": {
-      "files": 16,
-      "bytes": 706235
+      "files": 13,
+      "bytes": 675591
     },
     "audit": "passed",
     "raw_execution_retained": false,
     "raw_paths": [
-      "/private/tmp/osr_bench2_out",
-      "/private/tmp/osr_bench2_prepared",
-      "/private/tmp/osr_bench_out",
-      "/private/tmp/osr_bench_prepared",
-      "/private/tmp/osr_corrected_aggregate.json",
-      "/private/tmp/osr_corrected_aggregate.md",
-      "/private/tmp/osr_corrected_audit_part1.json",
-      "/private/tmp/osr_corrected_audit_part1.log",
-      "/private/tmp/osr_corrected_audit_part2.json",
-      "/private/tmp/osr_corrected_audit_part2.log",
-      "/private/tmp/osr_corrected_audit_part3.json",
-      "/private/tmp/osr_corrected_audit_part3.log",
-      "/private/tmp/osr_corrected_merged",
-      "/private/tmp/osr_corrected_part1",
-      "/private/tmp/osr_corrected_part2",
-      "/private/tmp/osr_corrected_part3",
-      "/private/tmp/osr_corrected_prepared",
-      "/private/tmp/osr_corrected_smoke",
-      "/private/tmp/osr_parent_shift.json",
-      "/private/tmp/osr_parentpilot",
-      "/private/tmp/osr_parentpilot_long.log",
-      "/private/tmp/osr_parentpilot_long.py",
-      "/private/tmp/osr_remap_v3_bench",
-      "/private/tmp/osr_remap_v3_prepared",
-      "/private/tmp/osr_remap_v4_aggregate.json",
-      "/private/tmp/osr_remap_v4_aggregate.md",
-      "/private/tmp/osr_remap_v4_audit_part1.json",
-      "/private/tmp/osr_remap_v4_audit_part2.json",
-      "/private/tmp/osr_remap_v4_audit_part3.json",
-      "/private/tmp/osr_remap_v4_merged.json",
-      "/private/tmp/osr_remap_v4_parent_shift.json",
-      "/private/tmp/osr_remap_v4_part1",
-      "/private/tmp/osr_remap_v4_part2",
-      "/private/tmp/osr_remap_v4_part3",
-      "/private/tmp/osr_remap_v4_prepared",
-      "/private/tmp/osr_remap_v4_prepared_final",
-      "/private/tmp/osr_smoke_aggregate.json",
-      "/private/tmp/osr_smoke_aggregate.md",
-      "/private/tmp/osr_smoke_aggregate2.json",
-      "/private/tmp/osr_smoke_aggregate2.md",
-      "/private/tmp/osr_smoke_audit.json",
-      "/private/tmp/osr_smoke_out",
-      "/private/tmp/osr_smoke_prepared",
-      "/private/tmp/language_sync_v4"
+      "/private/tmp/ost_transfer_part1",
+      "/private/tmp/ost_transfer_part1.log",
+      "/private/tmp/ost_transfer_part1_audit.log",
+      "/private/tmp/ost_transfer_part2",
+      "/private/tmp/ost_transfer_part2.log",
+      "/private/tmp/ost_transfer_part2_audit.log",
+      "/private/tmp/ost_transfer_part3",
+      "/private/tmp/ost_transfer_part3.log",
+      "/private/tmp/ost_transfer_part3_audit.log",
+      "/private/tmp/ost_transfer_full",
+      "/private/tmp/ost_transfer_prepared",
+      "/private/tmp/ost_transfer_audit.log"
     ],
     "retained_package_stats": {
-      "files": 42,
-      "bytes": 2405620
+      "files": 23,
+      "bytes": 742495
     },
-    "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18_object_surface_remap.json",
+    "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18_object_surface_transfer.json",
     "verified_paths_absent": true,
     "remote_repository": "git@github.com:Zhenhao526/languagellm.git"
   }

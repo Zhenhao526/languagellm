@@ -1,0 +1,47 @@
+[
+  {
+    "schema": "object_surface_transfer_audit_v1",
+    "status": "passed",
+    "parent_runs": 3,
+    "child_runs": 24,
+    "parent_training_log_rows": 9000,
+    "child_training_log_rows": 72000,
+    "parent_checkpoints": 12,
+    "child_checkpoints": 96,
+    "paired_live_silent_rows": 36000,
+    "paired_mapping_rows": 18000,
+    "max_abs_replay_error": 0.0,
+    "sender_frozen_in_children": true,
+    "incumbent_copy_checked": true
+  },
+  {
+    "schema": "object_surface_transfer_audit_v1",
+    "status": "passed",
+    "parent_runs": 3,
+    "child_runs": 24,
+    "parent_training_log_rows": 9000,
+    "child_training_log_rows": 72000,
+    "parent_checkpoints": 12,
+    "child_checkpoints": 96,
+    "paired_live_silent_rows": 36000,
+    "paired_mapping_rows": 18000,
+    "max_abs_replay_error": 0.0,
+    "sender_frozen_in_children": true,
+    "incumbent_copy_checked": true
+  },
+  {
+    "schema": "object_surface_transfer_audit_v1",
+    "status": "passed",
+    "parent_runs": 3,
+    "child_runs": 24,
+    "parent_training_log_rows": 9000,
+    "child_training_log_rows": 72000,
+    "parent_checkpoints": 12,
+    "child_checkpoints": 96,
+    "paired_live_silent_rows": 36000,
+    "paired_mapping_rows": 18000,
+    "max_abs_replay_error": 0.0,
+    "sender_frozen_in_children": true,
+    "incumbent_copy_checked": true
+  }
+]
