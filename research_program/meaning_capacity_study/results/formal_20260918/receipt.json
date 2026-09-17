@@ -1,0 +1,32 @@
+{
+  "schema": "meaning_capacity_receipt_v1",
+  "status": "compact_archive_created_after_passed_sharded_audit",
+  "archive": "research_program/meaning_capacity_study/results/formal_20260918",
+  "prepared_sha256": "b7f10a1cae48f6cffcf7c019a99344c070e75dd58721d0fa251e930989e6ef5e",
+  "plan_sha256": "b89e07e6d5738a72fcfe65b76158e59f601478c2f79109a89f2116b11a5287ac",
+  "freeze_sha256": "7c3239da4030e9f036d867110923369c64f86dfd7205c12cbaed59fc5ffce72d",
+  "audit_sha256": "70b357d837f6e02fb01fec47c9053612ae37e4b8d4c415a4578ac8e1af25b9a1",
+  "aggregate_sha256": "78d1c8f7cc4dd0062567bc3b4efafd9f110d169c4a04c2092b6bd0c558efb760",
+  "aggregate_markdown_sha256": "91120d3cd83165277f27f27ac2b54b2e00862f9014e1f6089544a4c02b014880",
+  "compact_results_sha256": "6f01bafc270d045c6f242f12bb8d7014ec06208e8e4d646a34966ff5d8471a82",
+  "parent_runs": 81,
+  "runs": 729,
+  "parent_training_log_rows": 243000,
+  "training_log_rows": 2187000,
+  "parent_final_checkpoints": 81,
+  "final_checkpoints": 729,
+  "paired_noise_trajectory_rows": 1458000,
+  "max_abs_replay_error": 0.0,
+  "source_hashes_match_prepared_plan": true,
+  "raw_execution_retained": false,
+  "shard_audit_paths": [
+    "/private/tmp/mcs_formal_part1",
+    "/private/tmp/mcs_formal_part2",
+    "/private/tmp/mcs_formal_part3"
+  ],
+  "shard_audit_sha256": [
+    "f7de0fa76c08f1bcdffb84d15c3f646f53e5a67e125bcbffc26fc9b9f93251f6",
+    "f7de0fa76c08f1bcdffb84d15c3f646f53e5a67e125bcbffc26fc9b9f93251f6",
+    "f7de0fa76c08f1bcdffb84d15c3f646f53e5a67e125bcbffc26fc9b9f93251f6"
+  ]
+}

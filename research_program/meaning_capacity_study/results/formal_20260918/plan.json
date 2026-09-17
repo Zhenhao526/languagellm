@@ -1,0 +1,210 @@
+{
+  "schema": "meaning_capacity_study_v1",
+  "prepared_sha256": "b7f10a1cae48f6cffcf7c019a99344c070e75dd58721d0fa251e930989e6ef5e",
+  "sources": {
+    "research_program/meaning_capacity_study/__init__.py": "7ba5f5bfc94fa36b47a8a721942c87c1a77b518f119ad67fa74fac2b3141ec42",
+    "research_program/meaning_capacity_study/design.py": "c1f6caf5cbb718e7f2894f136446dab838cc4d4483694c544d53a042306bc377",
+    "research_program/meaning_capacity_study/policy.py": "ed4393f7097c20d86544eca91c311b97464801ff01ecbfa2cee40fadfe707f37",
+    "research_program/meaning_capacity_study/environment.py": "e41636d24f17d0f79c7d80ecd897c949225ea78cbcdd750969dcaeb1bfb2f0f8",
+    "research_program/meaning_capacity_study/runner.py": "84e9e9bd8e7b9e7bb557a43db7d8c0848333442a81f7065ee12dbf4b0bb5208b",
+    "research_program/meaning_capacity_study/aggregate.py": "79e79daefc6e6841beb23e7e30a661cd3a9633bb6a239fff38864363341ddbe1",
+    "research_program/meaning_capacity_study/audit.py": "0b5df0eda5303f077e8fc76af83d9d9a95bfeb4da930bf2fc35ae7518aa76fea",
+    "research_program/meaning_capacity_study/plan.md": "a7a64d6a595bf213de6bbb9e34d101df5010565eba40bcfe9ec61d2c8ce28a9a",
+    "research_program/meaning_capacity_study/tests/test_game.py": "8020950e672bd201268641c0804f37a1209d070242b490fa2921678000729a1b"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.2.6"
+  },
+  "config": {
+    "schema": "meaning_capacity_study_v1",
+    "horizon": 10,
+    "action_start": 2,
+    "subtasks": 8,
+    "steps_per_subtask": 1,
+    "goal_bits": 3,
+    "goal_count": 8,
+    "tasks": [
+      "unique8",
+      "repeat4",
+      "shared8"
+    ],
+    "partner_mode": "rotating",
+    "partner_visibility": "hidden",
+    "forms": {
+      "triple2": {
+        "alphabet_size": 2,
+        "length": 3,
+        "state_count": 9,
+        "arrival_times": [
+          2,
+          2,
+          2
+        ]
+      },
+      "quad2": {
+        "alphabet_size": 2,
+        "length": 4,
+        "state_count": 17,
+        "arrival_times": [
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "atomic16": {
+        "alphabet_size": 16,
+        "length": 1,
+        "state_count": 17,
+        "arrival_times": [
+          2
+        ]
+      }
+    },
+    "adaptations": [
+      "scratch",
+      "worker_only",
+      "coadapt"
+    ],
+    "noise_levels": [
+      0.0,
+      0.1,
+      0.25
+    ],
+    "noise_keys": {
+      "p00": 0.0,
+      "p10": 0.1,
+      "p25": 0.25
+    },
+    "atomic_corruption_probability": {
+      "p00": 0.0,
+      "p10": 0.3439,
+      "p25": 0.68359375
+    },
+    "workers": 4,
+    "capacity": 2,
+    "actions": [
+      "wait",
+      "take_site0",
+      "take_site1"
+    ],
+    "seeds": [
+      82101,
+      82102,
+      82103,
+      82104,
+      82105,
+      82106,
+      82107,
+      82108,
+      82109
+    ],
+    "conditions": [
+      "unique8_triple2_scratch_p00",
+      "unique8_triple2_scratch_p10",
+      "unique8_triple2_scratch_p25",
+      "unique8_triple2_worker_only_p00",
+      "unique8_triple2_worker_only_p10",
+      "unique8_triple2_worker_only_p25",
+      "unique8_triple2_coadapt_p00",
+      "unique8_triple2_coadapt_p10",
+      "unique8_triple2_coadapt_p25",
+      "unique8_quad2_scratch_p00",
+      "unique8_quad2_scratch_p10",
+      "unique8_quad2_scratch_p25",
+      "unique8_quad2_worker_only_p00",
+      "unique8_quad2_worker_only_p10",
+      "unique8_quad2_worker_only_p25",
+      "unique8_quad2_coadapt_p00",
+      "unique8_quad2_coadapt_p10",
+      "unique8_quad2_coadapt_p25",
+      "unique8_atomic16_scratch_p00",
+      "unique8_atomic16_scratch_p10",
+      "unique8_atomic16_scratch_p25",
+      "unique8_atomic16_worker_only_p00",
+      "unique8_atomic16_worker_only_p10",
+      "unique8_atomic16_worker_only_p25",
+      "unique8_atomic16_coadapt_p00",
+      "unique8_atomic16_coadapt_p10",
+      "unique8_atomic16_coadapt_p25",
+      "repeat4_triple2_scratch_p00",
+      "repeat4_triple2_scratch_p10",
+      "repeat4_triple2_scratch_p25",
+      "repeat4_triple2_worker_only_p00",
+      "repeat4_triple2_worker_only_p10",
+      "repeat4_triple2_worker_only_p25",
+      "repeat4_triple2_coadapt_p00",
+      "repeat4_triple2_coadapt_p10",
+      "repeat4_triple2_coadapt_p25",
+      "repeat4_quad2_scratch_p00",
+      "repeat4_quad2_scratch_p10",
+      "repeat4_quad2_scratch_p25",
+      "repeat4_quad2_worker_only_p00",
+      "repeat4_quad2_worker_only_p10",
+      "repeat4_quad2_worker_only_p25",
+      "repeat4_quad2_coadapt_p00",
+      "repeat4_quad2_coadapt_p10",
+      "repeat4_quad2_coadapt_p25",
+      "repeat4_atomic16_scratch_p00",
+      "repeat4_atomic16_scratch_p10",
+      "repeat4_atomic16_scratch_p25",
+      "repeat4_atomic16_worker_only_p00",
+      "repeat4_atomic16_worker_only_p10",
+      "repeat4_atomic16_worker_only_p25",
+      "repeat4_atomic16_coadapt_p00",
+      "repeat4_atomic16_coadapt_p10",
+      "repeat4_atomic16_coadapt_p25",
+      "shared8_triple2_scratch_p00",
+      "shared8_triple2_scratch_p10",
+      "shared8_triple2_scratch_p25",
+      "shared8_triple2_worker_only_p00",
+      "shared8_triple2_worker_only_p10",
+      "shared8_triple2_worker_only_p25",
+      "shared8_triple2_coadapt_p00",
+      "shared8_triple2_coadapt_p10",
+      "shared8_triple2_coadapt_p25",
+      "shared8_quad2_scratch_p00",
+      "shared8_quad2_scratch_p10",
+      "shared8_quad2_scratch_p25",
+      "shared8_quad2_worker_only_p00",
+      "shared8_quad2_worker_only_p10",
+      "shared8_quad2_worker_only_p25",
+      "shared8_quad2_coadapt_p00",
+      "shared8_quad2_coadapt_p10",
+      "shared8_quad2_coadapt_p25",
+      "shared8_atomic16_scratch_p00",
+      "shared8_atomic16_scratch_p10",
+      "shared8_atomic16_scratch_p25",
+      "shared8_atomic16_worker_only_p00",
+      "shared8_atomic16_worker_only_p10",
+      "shared8_atomic16_worker_only_p25",
+      "shared8_atomic16_coadapt_p00",
+      "shared8_atomic16_coadapt_p10",
+      "shared8_atomic16_coadapt_p25"
+    ],
+    "updates": 3000,
+    "parent_updates": 3000,
+    "batch_size": 512,
+    "learning_rate": 0.08,
+    "checkpoints": [
+      0,
+      500,
+      1000,
+      2000,
+      3000
+    ],
+    "pairing": "within each seed/task/adaptation, form and noise arms share worlds, goals, partners and action uniforms; message/noise streams are sliced from common maximum-length draws",
+    "meaning": {
+      "unique8": "eight distinct balanced Boolean functions, one per stage",
+      "repeat4": "four independent balanced Boolean meanings each recur in two stages",
+      "shared8": "the same hidden three-bit parity recurs in all eight stages"
+    },
+    "capacity_control": "quad2 and atomic16 have sixteen raw message states; triple2 has eight",
+    "candidate_rule": "natural return >= 0.60, cross-class/minimum Hamming distance >= 2; shared8 also requires identical codewords within each parity class",
+    "no_teacher_or_language_prior": true,
+    "runs": 729,
+    "parent_runs": 81,
+    "evaluation_episodes_per_worker": 4096
+  }
+}

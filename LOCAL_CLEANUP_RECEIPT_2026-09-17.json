@@ -2,8 +2,8 @@
   "schema": "local_cleanup_receipt_20260918_v9",
   "timestamp_local": "2026-09-18",
   "root": "/Users/xia/Documents/ChatGPT/语言",
-  "remote_repository": "git@github.com:Zhenhao526/language.git",
-  "remote_commit_verified_after_sync": "8ff9f2422ade290b06b1806a7fe67dffb40bba60",
+  "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+  "remote_commit_verified_after_sync": "40caff1a48a48623cb673485c05161a9f867aadc",
   "remote_main_verified": true,
   "compact_archives_verified": {
     "research_program/action_dependent_signaling_study/results/formal_20260917": {
@@ -13,6 +13,10 @@
     "research_program/compositional_signaling_study/results/formal_20260917": {
       "files": 8,
       "bytes": 3359008
+    },
+    "research_program/error_correcting_signaling_study/results/formal_20260917": {
+      "files": 8,
+      "bytes": 2142015
     },
     "research_program/generation_compositional_transmission_study/results/formal_20260917": {
       "files": 10,
@@ -46,6 +50,10 @@
       "files": 10,
       "bytes": 3546655
     },
+    "research_program/shared_redundancy_study/results/formal_20260917": {
+      "files": 8,
+      "bytes": 2161275
+    },
     "research_program/tabular_signaling_study/results/formal_20260917": {
       "files": 12,
       "bytes": 3199452
@@ -53,14 +61,6 @@
     "research_program/ternary_composition_study/results/formal_20260917": {
       "files": 8,
       "bytes": 749112
-    },
-    "research_program/error_correcting_signaling_study/results/formal_20260917": {
-      "files": 8,
-      "bytes": 2142015
-    },
-    "research_program/shared_redundancy_study/results/formal_20260917": {
-      "files": 8,
-      "bytes": 2161275
     },
     "research_program/repetition_pressure_study/results/formal_20260918": {
       "files": 8,
@@ -397,8 +397,8 @@
       "bytes": 3406709
     },
     "research_program/error_correcting_signaling_study": {
-      "files": 22,
-      "bytes": 3724063
+      "files": 21,
+      "bytes": 2194930
     },
     "research_program/generation_compositional_transmission_study": {
       "files": 23,
@@ -432,6 +432,10 @@
       "files": 22,
       "bytes": 3589982
     },
+    "research_program/shared_redundancy_study": {
+      "files": 19,
+      "bytes": 2214414
+    },
     "research_program/tabular_signaling_study": {
       "files": 23,
       "bytes": 3243758
@@ -464,19 +468,19 @@
       "files": 0,
       "bytes": 0
     },
-    "research_program/shared_redundancy_study": {
-      "files": 21,
-      "bytes": 2215455
+    "research_program/meaning_capacity_study": {
+      "files": 29,
+      "bytes": 7164091
     }
   },
   "local_environment": {
-    "files": 1295,
-    "bytes": 117467360
+    "files": 2156,
+    "bytes": 162273627
   },
   "retention_policy": "source code, frozen plans, compact results, audit receipts, final report and local runtime only; raw training logs, checkpoints, formal execution trees and temporary compaction scripts are not kept locally",
   "additional_cleanup": {
-    "removed_file_or_tree_count": 39,
-    "removed_bytes": 8261481457,
+    "removed_file_or_tree_count": 53,
+    "removed_bytes": 8263813293,
     "removed_paths": [
       {
         "path": "/private/tmp/tabular_PI_stateless_silent",
@@ -657,12 +661,82 @@
         "files": 7,
         "bytes": 80702,
         "kind": "tree"
+      },
+      {
+        "path": "research_program/repetition_pressure_study",
+        "present": false,
+        "files": 11,
+        "bytes": 53853,
+        "kind": "tree"
+      },
+      {
+        "path": ".exp_venv/lib/python3.12/site-packages/__pycache__",
+        "present": false,
+        "files": null,
+        "bytes": 4744,
+        "kind": "tree"
+      },
+      {
+        "path": ".exp_venv/lib/python3.12/site-packages/numpy/__pycache__",
+        "present": false,
+        "files": null,
+        "bytes": 70087,
+        "kind": "tree"
+      },
+      {
+        "path": ".exp_venv/lib/python3.12/site-packages/numpy/_utils/__pycache__",
+        "present": false,
+        "files": null,
+        "bytes": 14249,
+        "kind": "tree"
+      },
+      {
+        "path": ".exp_venv/lib/python3.12/site-packages/numpy/linalg/__pycache__",
+        "present": false,
+        "files": null,
+        "bytes": 129547,
+        "kind": "tree"
+      },
+      {
+        "path": ".exp_venv/lib/python3.12/site-packages/numpy/_core/__pycache__",
+        "present": false,
+        "files": null,
+        "bytes": 919591,
+        "kind": "tree"
+      },
+      {
+        "path": ".exp_venv/lib/python3.12/site-packages/numpy/_typing/__pycache__",
+        "present": false,
+        "files": null,
+        "bytes": 35625,
+        "kind": "tree"
+      },
+      {
+        "path": ".exp_venv/lib/python3.12/site-packages/numpy/lib/__pycache__",
+        "present": false,
+        "files": null,
+        "bytes": 889077,
+        "kind": "tree"
+      },
+      {
+        "path": ".exp_venv/lib/python3.12/site-packages/numpy/random/__pycache__",
+        "present": false,
+        "files": null,
+        "bytes": 10473,
+        "kind": "tree"
+      },
+      {
+        "path": ".exp_venv/lib/python3.12/site-packages/numpy/matrixlib/__pycache__",
+        "present": false,
+        "files": null,
+        "bytes": 36451,
+        "kind": "tree"
       }
     ],
-    "verified_after_remote_commit": "89090ef8ba51d5ba2dff4e317237cb741d149282",
+    "verified_after_remote_commit": "e690a23",
     "current_batch": {
-      "removed_file_count": 1932,
-      "removed_bytes": 2330409104,
+      "removed_file_count": 1944,
+      "removed_bytes": 2332736190,
       "paths": [
         {
           "path": "/private/tmp/ecs_corrected_formal_out",
@@ -719,8 +793,79 @@
           "files": 7,
           "bytes": 80702,
           "kind": "tree"
+        },
+        {
+          "path": "research_program/repetition_pressure_study",
+          "present": false,
+          "files": 11,
+          "bytes": 53853,
+          "kind": "tree"
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/__pycache__",
+          "present": false,
+          "files": null,
+          "bytes": 4744,
+          "kind": "tree"
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/numpy/__pycache__",
+          "present": false,
+          "files": null,
+          "bytes": 70087,
+          "kind": "tree"
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/numpy/_utils/__pycache__",
+          "present": false,
+          "files": null,
+          "bytes": 14249,
+          "kind": "tree"
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/numpy/linalg/__pycache__",
+          "present": false,
+          "files": null,
+          "bytes": 129547,
+          "kind": "tree"
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/numpy/_core/__pycache__",
+          "present": false,
+          "files": null,
+          "bytes": 919591,
+          "kind": "tree"
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/numpy/_typing/__pycache__",
+          "present": false,
+          "files": null,
+          "bytes": 35625,
+          "kind": "tree"
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/numpy/lib/__pycache__",
+          "present": false,
+          "files": null,
+          "bytes": 889077,
+          "kind": "tree"
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/numpy/random/__pycache__",
+          "present": false,
+          "files": null,
+          "bytes": 10473,
+          "kind": "tree"
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/numpy/matrixlib/__pycache__",
+          "present": false,
+          "files": null,
+          "bytes": 36451,
+          "kind": "tree"
         }
-      ]
+      ],
+      "verified_after_remote_commit": "e690a23"
     }
   },
   "pending_designs": {},
@@ -772,7 +917,7 @@
       "/private/tmp/build_repetition_archive.py",
       "/private/tmp/repetition_archive"
     ],
-    "verified_after_remote_commit": "8ff9f2422ade290b06b1806a7fe67dffb40bba60",
+    "verified_after_remote_commit": "3ac403c6896e35ae3b02bc63cdadc2c3f06e125d",
     "archive": "research_program/repetition_pressure_study/results/formal_20260918",
     "archive_stats": {
       "files": 8,
@@ -780,13 +925,11 @@
     },
     "retained_invalid_record": "research_program/repetition_pressure_study/results/invalid_20260917/unbalanced_unique4_partial_20260917"
   },
-  "sync_history": [
-    {
-      "date": "2026-09-18",
-      "commit": "8ff9f2422ade290b06b1806a7fe67dffb40bba60",
-      "repository": "git@github.com:Zhenhao526/language.git",
-      "archive": "research_program/repetition_pressure_study/results/formal_20260918",
-      "status": "verified"
+  "scope": ", eight-meaning capacity-pressure formal matrix",
+  "compact_archives": {
+    "research_program/meaning_capacity_study/results/formal_20260918": {
+      "files": 8,
+      "bytes": 7011461
     }
-  ]
+  }
 }
