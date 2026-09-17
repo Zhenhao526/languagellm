@@ -10,9 +10,9 @@
 
 - **固定分工 signaling 确认批次：**[结果与下一步](fixed_role_signaling_study/fixed_002_confirmatory_结果与下一步.md)把 agent 0 固定为 scout、agent 1 固定为唯一 worker，完成 4 个 seed × 4 个 PI＋scarce 条件、16 个 run、2,000 更新。live held-out natural−closed 为 **+0.387 pp**，但 natural−permuted 仅 **+0.0006 pp**；PI＋switching 四个 live cell 两个差值均为 0。消息互信息约 **0.332 bit**，没有置换损失。独立审计 16 个 run、32,000 条日志、96 个评价块通过；下一步先做显式需求标签的能力对照。
 
-- **固定分工 FI 能力对照：**[结果与下一步](fixed_role_signaling_study/fixed_004_fi_control_结果与下一步.md)完成 4 个 seed × FI silent/live、8 个 run、2,000 更新。live held-out natural−closed 为 **−2.475 pp**，natural−permuted 为 **−0.352 pp**；直接给 worker 需求仍没有稳定正收益。独立审计 8 个 run、16,000 条日志、48 个评价块通过。能力门槛未通过，下一步先做无消息显式计划执行测试。
+- **固定分工 FI 能力对照：**[结果与下一步](fixed_role_signaling_study/fixed_004_fi_control_结果与下一步.md)完成 4 个 seed × FI silent/live、8 个 run、2,000 更新。live held-out natural−closed 为 **−2.475 pp**，natural−permuted 为 **−0.352 pp**；直接给 worker 需求仍没有稳定正收益。独立审计 8 个 run、16,000 条日志、48 个评价块通过。该自博弈批次未通过能力门槛，随后加入了显式规则和同架构监督控制。
 
-- **固定分工显式需求能力门槛：**[结果与下一步](fixed_role_signaling_study/fixed_ability_gate_结果与下一步.md)让 worker 直接读取需求、两个站点类型和库存，不训练、不发消息；4 个 seed × persistent/switching × training-support/held-out 共 16 个块，直接规则逐块与有限期 oracle 完全一致（`direct−oracle=0`，非负回合率 1）。环境可解，下一步应做同架构 FI 显式目标学习控制，先排除 action learner/优化器瓶颈，再回到 PI 消息实验。
+- **固定分工显式需求能力门槛：**[结果与下一步](fixed_role_signaling_study/fixed_ability_gate_结果与下一步.md)让 worker 直接读取需求、两个站点类型和库存，不训练、不发消息；4 个 seed × persistent/switching × training-support/held-out 共 16 个块，直接规则逐块与有限期 oracle 完全一致（`direct−oracle=0`，非负回合率 1）。它排除了环境不可解，随后用同架构 FI 监督控制继续区分网络表达能力与自博弈信用分配。
 
 - **表格策略固定分工正对照：**[结果与下一步](tabular_signaling_study/tabular_002_confirmatory_结果与下一步.md)在同一任务接口完成 4 个 seed × abundant/scarce PI persistent live/silent、16 个 run、2,000 更新。abundant live 的 natural−closed 为 **+28.284 pp**、natural−permuted 为 **+21.854 pp**，4/4 seed 均为正；scarce live 虽 natural−closed **+11.132 pp**，但 permutation loss 为 0，因此单独保留。独立回放审计 32,000 条日志、16 个 checkpoint，最大误差 0。该正对照把后续问题收窄为神经动作学习/信用分配与消息形成的区分。
 
