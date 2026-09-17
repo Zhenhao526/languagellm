@@ -79,6 +79,7 @@ logs/
 **/temp/
 **/*.bak
 **/*.tmp
+*.log
 
 # Literature cache and downloaded full texts
 文献调研_2026-09-14/数据/
