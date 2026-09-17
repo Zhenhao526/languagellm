@@ -1,9 +1,9 @@
 {
-  "schema": "local_cleanup_receipt_20260917_v4",
+  "schema": "local_cleanup_receipt_20260917_v5",
   "timestamp_local": "2026-09-17",
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
-  "remote_commit_verified_after_sync": "329b9fa24a0570e8105b0207c19c0ee9b3f3d02b",
+  "remote_commit_verified_after_sync": "c654af648429e2c6fd24682cbc760e8876fd6391",
   "remote_main_verified": true,
   "compact_archives_verified": {
     "research_program/tabular_signaling_study/results/formal_20260917": {
@@ -16,11 +16,19 @@
     },
     "research_program/action_dependent_signaling_study/results/formal_20260917": {
       "files": 10,
-      "bytes": 3764110
+      "bytes": 12574763
     },
     "research_program/generation_transmission_study/results/formal_20260917": {
       "files": 8,
       "bytes": 1500468
+    },
+    "research_program/generation_compositional_transmission_study/results/formal_20260917": {
+      "files": 10,
+      "bytes": 566057
+    },
+    "research_program/heldout_composition_study/results/formal_20260917": {
+      "files": 10,
+      "bytes": 1667649
     },
     "research_program/population_signaling_study/results/formal_20260917": {
       "files": 11,
@@ -51,8 +59,21 @@
     },
     "research_program/generation_transmission_study/results/generation_formal_exec": {
       "present": false
+    },
+    "research_program/generation_compositional_transmission_study/results/gct_formal_exec": {
+      "present": false
+    },
+    "research_program/heldout_composition_study/results/heldout_formal_exec": {
+      "present": false
     }
   },
+  "temporary_raw_trees_removed": [
+    "/tmp/action_dep_rebuilt",
+    "/tmp/gct_formal_full",
+    "/tmp/heldout_formal_full",
+    "/tmp/heldout_prepared_full_v3",
+    "/tmp/action_dep_rebuilt_prepared"
+  ],
   "tracked_paths_pruned_in_commit": 8338,
   "git_history_preserved": true,
   "historical_cleanup_estimate_bytes": 3687981411,
@@ -71,11 +92,19 @@
     },
     "research_program/action_dependent_signaling_study": {
       "files": 23,
-      "bytes": 3816158
+      "bytes": 12626766
     },
     "research_program/generation_transmission_study": {
       "files": 19,
       "bytes": 1549912
+    },
+    "research_program/generation_compositional_transmission_study": {
+      "files": 23,
+      "bytes": 600595
+    },
+    "research_program/heldout_composition_study": {
+      "files": 22,
+      "bytes": 1706609
     },
     "research_program/population_signaling_study": {
       "files": 22,
@@ -83,24 +112,28 @@
     },
     "研究报告_共同符号形成机制_2026-09-17.md": {
       "files": 1,
-      "bytes": 19829
+      "bytes": 23195
     },
     "README.md": {
       "files": 1,
-      "bytes": 764
+      "bytes": 979
     },
     "research_program/README.md": {
       "files": 1,
-      "bytes": 1201
+      "bytes": 1619
     },
     "SYNC_2026-09-17.md": {
       "files": 1,
-      "bytes": 4255
+      "bytes": 5372
     },
     "STORAGE_POLICY.md": {
       "files": 1,
       "bytes": 1436
     }
+  },
+  "local_environment": {
+    "files": 1067,
+    "bytes": 100652398
   },
   "retention_policy": "source code, frozen plans, compact results, audit receipts, final report and local runtime only; raw process trees and literature caches are not kept in the working tree"
 }
