@@ -18,9 +18,12 @@
 - [重复意义压力曲线正式归档](research_program/repetition_pressure_study/)
 - [八意义容量压力正式归档](research_program/meaning_capacity_study/)
 - [生态因子化与新组合传递正式归档](research_program/ecological_factorization_study/)
-- [二元对象表面重映射实验设计与诊断归档](research_program/object_surface_remap_study/)
+- [二元对象表面重映射实验设计与正式修正版结果](research_program/object_surface_remap_study/)
+- [二元对象表面重映射修正版紧凑结果与审计](research_program/object_surface_remap_study/results/formal_20260918_corrected/)
 - [population signaling 源代码与紧凑结果](research_program/population_signaling_study/)
 - [本轮同步与清理说明](SYNC_2026-09-17.md)
 - [生态因子化实验同步与清理说明](SYNC_2026-09-18.md)
+- [对象表面重映射实验同步与清理说明](SYNC_2026-09-18_object_surface_remap.md)
+- [对象表面重映射本地清理收据](LOCAL_CLEANUP_RECEIPT_2026-09-18_object_surface_remap.json)
 
 本地只保留当前实验源代码、冻结方案、紧凑结果、审计收据和运行环境。历史过程记录已同步至 GitHub。

@@ -2,9 +2,9 @@
   "generated_at_local": "2026-09-18",
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "remote_repository": "git@github.com:Zhenhao526/language.git",
-  "remote_commit": "5ad5d381cac1c0a9f624b05ac20182033be55859",
+  "remote_commit": "1f4b63d14593b4f7c4d9c33092b2b3ecb3e148b6",
   "remote_main_verified": true,
-  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix, ecological-factorization formal matrix, compact archive, replay audit and new-combination analysis",
+  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix, ecological-factorization formal matrix, compact archive, replay audit and new-combination analysis, object-surface remapping corrected formal matrix, parent surface-shift analysis, replay audit and cleanup receipt",
   "retained_paths": {
     "research_program/action_dependent_signaling_study": {
       "files": 23,
@@ -97,6 +97,10 @@
     "research_program/ecological_factorization_study": {
       "files": 20,
       "bytes": 1648983
+    },
+    "research_program/object_surface_remap_study": {
+      "files": 42,
+      "bytes": 2405620
     }
   },
   "compact_archives": {
@@ -167,6 +171,10 @@
     "research_program/ecological_factorization_study/results/formal_20260918": {
       "files": 8,
       "bytes": 1581444
+    },
+    "research_program/object_surface_remap_study/results/formal_20260918_corrected": {
+      "files": 16,
+      "bytes": 706235
     }
   },
   "raw_execution_trees": {
@@ -639,6 +647,182 @@
       "present": false,
       "removed_in_batch": "2026-09-18",
       "audit": "formal shard replay passed"
+    },
+    "/private/tmp/osr_bench2_out": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_bench2_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_bench_out": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_bench_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_corrected_aggregate.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_corrected_aggregate.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_corrected_audit_part1.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_corrected_audit_part1.log": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_corrected_audit_part2.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_corrected_audit_part2.log": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_corrected_audit_part3.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_corrected_audit_part3.log": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_corrected_merged": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_corrected_part1": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_corrected_part2": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_corrected_part3": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_corrected_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_corrected_smoke": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_parent_shift.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_parentpilot": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_parentpilot_long.log": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_parentpilot_long.py": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_remap_v3_bench": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_remap_v3_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_remap_v4_aggregate.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_remap_v4_aggregate.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_remap_v4_audit_part1.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_remap_v4_audit_part2.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_remap_v4_audit_part3.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_remap_v4_merged.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_remap_v4_parent_shift.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_remap_v4_part1": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_remap_v4_part2": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_remap_v4_part3": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_remap_v4_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_remap_v4_prepared_final": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_smoke_aggregate.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_smoke_aggregate.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_smoke_aggregate2.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_smoke_aggregate2.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_smoke_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_smoke_out": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/osr_smoke_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/language_sync_v4": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
     }
   },
   "temporary_raw_trees_removed": [
@@ -1262,44 +1446,66 @@
     }
   },
   "latest_batch": {
-    "name": "ecological_factorization_20260918",
-    "remote_commit": "5ad5d381cac1c0a9f624b05ac20182033be55859",
-    "archive": "research_program/ecological_factorization_study/results/formal_20260918",
+    "name": "object_surface_remap_corrected_20260918",
+    "remote_commit": "1f4b63d14593b4f7c4d9c33092b2b3ecb3e148b6",
+    "archive": "research_program/object_surface_remap_study/results/formal_20260918_corrected",
     "archive_stats": {
-      "files": 8,
-      "bytes": 1581444
+      "files": 16,
+      "bytes": 706235
     },
     "audit": "passed",
     "raw_execution_retained": false,
     "raw_paths": [
-      "/private/tmp/eco_smoke_prepared",
-      "/private/tmp/eco_smoke_out",
-      "/private/tmp/eco_smoke_prepared2",
-      "/private/tmp/eco_smoke_out2",
-      "/private/tmp/eco_bench_p",
-      "/private/tmp/eco_bench_o",
-      "/private/tmp/eco_long_p",
-      "/private/tmp/eco_long_o",
-      "/private/tmp/efs_long_prepared",
-      "/private/tmp/efs_long",
-      "/private/tmp/efs_long_audit.json",
-      "/private/tmp/efs_long_aggregate.json",
-      "/private/tmp/efs_long_aggregate.md",
-      "/private/tmp/eco_formal_prepared",
-      "/private/tmp/eco_formal_part1",
-      "/private/tmp/eco_formal_part2",
-      "/private/tmp/eco_formal_part3",
-      "/private/tmp/eco_formal_merged",
-      "/private/tmp/eco_formal_part1_audit.json",
-      "/private/tmp/eco_formal_part2_audit.json",
-      "/private/tmp/eco_formal_part3_audit.json",
-      "/private/tmp/language_sync_check"
+      "/private/tmp/osr_bench2_out",
+      "/private/tmp/osr_bench2_prepared",
+      "/private/tmp/osr_bench_out",
+      "/private/tmp/osr_bench_prepared",
+      "/private/tmp/osr_corrected_aggregate.json",
+      "/private/tmp/osr_corrected_aggregate.md",
+      "/private/tmp/osr_corrected_audit_part1.json",
+      "/private/tmp/osr_corrected_audit_part1.log",
+      "/private/tmp/osr_corrected_audit_part2.json",
+      "/private/tmp/osr_corrected_audit_part2.log",
+      "/private/tmp/osr_corrected_audit_part3.json",
+      "/private/tmp/osr_corrected_audit_part3.log",
+      "/private/tmp/osr_corrected_merged",
+      "/private/tmp/osr_corrected_part1",
+      "/private/tmp/osr_corrected_part2",
+      "/private/tmp/osr_corrected_part3",
+      "/private/tmp/osr_corrected_prepared",
+      "/private/tmp/osr_corrected_smoke",
+      "/private/tmp/osr_parent_shift.json",
+      "/private/tmp/osr_parentpilot",
+      "/private/tmp/osr_parentpilot_long.log",
+      "/private/tmp/osr_parentpilot_long.py",
+      "/private/tmp/osr_remap_v3_bench",
+      "/private/tmp/osr_remap_v3_prepared",
+      "/private/tmp/osr_remap_v4_aggregate.json",
+      "/private/tmp/osr_remap_v4_aggregate.md",
+      "/private/tmp/osr_remap_v4_audit_part1.json",
+      "/private/tmp/osr_remap_v4_audit_part2.json",
+      "/private/tmp/osr_remap_v4_audit_part3.json",
+      "/private/tmp/osr_remap_v4_merged.json",
+      "/private/tmp/osr_remap_v4_parent_shift.json",
+      "/private/tmp/osr_remap_v4_part1",
+      "/private/tmp/osr_remap_v4_part2",
+      "/private/tmp/osr_remap_v4_part3",
+      "/private/tmp/osr_remap_v4_prepared",
+      "/private/tmp/osr_remap_v4_prepared_final",
+      "/private/tmp/osr_smoke_aggregate.json",
+      "/private/tmp/osr_smoke_aggregate.md",
+      "/private/tmp/osr_smoke_aggregate2.json",
+      "/private/tmp/osr_smoke_aggregate2.md",
+      "/private/tmp/osr_smoke_audit.json",
+      "/private/tmp/osr_smoke_out",
+      "/private/tmp/osr_smoke_prepared",
+      "/private/tmp/language_sync_v4"
     ],
     "retained_package_stats": {
-      "files": 20,
-      "bytes": 1648983
+      "files": 42,
+      "bytes": 2405620
     },
-    "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18.json",
+    "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18_object_surface_remap.json",
     "verified_paths_absent": true
   }
 }

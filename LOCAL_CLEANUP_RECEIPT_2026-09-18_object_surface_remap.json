@@ -1,0 +1,287 @@
+{
+  "schema": "object_surface_remap_local_cleanup_receipt_v1",
+  "created_utc": "2026-09-17T19:36:27.782872+00:00",
+  "root": "/Users/xia/Documents/ChatGPT/语言",
+  "remote_repository": "git@github.com:Zhenhao526/language.git",
+  "remote_main_commit_verified": "1f4b63d14593b4f7c4d9c33092b2b3ecb3e148b6",
+  "archive": "research_program/object_surface_remap_study/results/formal_20260918_corrected",
+  "archive_manifest_sha256": "eb080b7bdc8b787940b313d9e76ddec15ecc652b70fb41fdd92f382171106e72",
+  "audit": "passed",
+  "raw_execution_retained": false,
+  "raw_paths_absent": true,
+  "deleted": [
+    {
+      "path": "/private/tmp/language_sync_v4",
+      "existed": true,
+      "bytes_removed": 6726770,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_bench2_out",
+      "existed": true,
+      "bytes_removed": 5500266,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_bench2_prepared",
+      "existed": true,
+      "bytes_removed": 72423,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_bench_out",
+      "existed": true,
+      "bytes_removed": 5493509,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_bench_prepared",
+      "existed": true,
+      "bytes_removed": 71173,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_corrected_aggregate.json",
+      "existed": true,
+      "bytes_removed": 316321,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_corrected_aggregate.md",
+      "existed": true,
+      "bytes_removed": 12230,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_corrected_audit_part1.json",
+      "existed": true,
+      "bytes_removed": 341,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_corrected_audit_part1.log",
+      "existed": true,
+      "bytes_removed": 317,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_corrected_audit_part2.json",
+      "existed": true,
+      "bytes_removed": 341,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_corrected_audit_part2.log",
+      "existed": true,
+      "bytes_removed": 317,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_corrected_audit_part3.json",
+      "existed": true,
+      "bytes_removed": 341,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_corrected_audit_part3.log",
+      "existed": true,
+      "bytes_removed": 317,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_corrected_merged",
+      "existed": true,
+      "bytes_removed": 1369450,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_corrected_part1",
+      "existed": true,
+      "bytes_removed": 251491960,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_corrected_part2",
+      "existed": true,
+      "bytes_removed": 251489572,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_corrected_part3",
+      "existed": true,
+      "bytes_removed": 251493989,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_corrected_prepared",
+      "existed": true,
+      "bytes_removed": 75933,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_corrected_smoke",
+      "existed": true,
+      "bytes_removed": 719695,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_parent_shift.json",
+      "existed": true,
+      "bytes_removed": 6383,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_parentpilot",
+      "existed": true,
+      "bytes_removed": 5536946,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_parentpilot_long",
+      "existed": true,
+      "bytes_removed": 281875,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_parentpilot_long.log",
+      "existed": true,
+      "bytes_removed": 0,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_parentpilot_long.py",
+      "existed": true,
+      "bytes_removed": 553,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_remap_v3_bench",
+      "existed": true,
+      "bytes_removed": 5559012,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_remap_v3_prepared",
+      "existed": true,
+      "bytes_removed": 71395,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_remap_v4_aggregate.json",
+      "existed": true,
+      "bytes_removed": 316321,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_remap_v4_aggregate.md",
+      "existed": true,
+      "bytes_removed": 12230,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_remap_v4_audit_part1.json",
+      "existed": true,
+      "bytes_removed": 341,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_remap_v4_audit_part2.json",
+      "existed": true,
+      "bytes_removed": 341,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_remap_v4_audit_part3.json",
+      "existed": true,
+      "bytes_removed": 341,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_remap_v4_merged.json",
+      "existed": true,
+      "bytes_removed": 1369000,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_remap_v4_parent_shift.json",
+      "existed": true,
+      "bytes_removed": 104998,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_remap_v4_part1",
+      "existed": true,
+      "bytes_removed": 251500892,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_remap_v4_part2",
+      "existed": true,
+      "bytes_removed": 251498559,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_remap_v4_part3",
+      "existed": true,
+      "bytes_removed": 251499527,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_remap_v4_prepared",
+      "existed": true,
+      "bytes_removed": 72622,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_remap_v4_prepared_final",
+      "existed": true,
+      "bytes_removed": 75933,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_smoke_aggregate.json",
+      "existed": true,
+      "bytes_removed": 42048,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_smoke_aggregate.md",
+      "existed": true,
+      "bytes_removed": 1031,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_smoke_aggregate2.json",
+      "existed": true,
+      "bytes_removed": 12841,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_smoke_aggregate2.md",
+      "existed": true,
+      "bytes_removed": 1640,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_smoke_audit.json",
+      "existed": true,
+      "bytes_removed": 320,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_smoke_out",
+      "existed": true,
+      "bytes_removed": 1464266,
+      "removed": true
+    },
+    {
+      "path": "/private/tmp/osr_smoke_prepared",
+      "existed": true,
+      "bytes_removed": 71173,
+      "removed": true
+    }
+  ],
+  "total_bytes_removed": 1544335853,
+  "retained_local": "source code, freeze/plan, compact results, audit bundle, report and local NumPy runtime",
+  "remote_main_commit_verified_after_sync": "1f4b63d14593b4f7c4d9c33092b2b3ecb3e148b6"
+}
