@@ -86,7 +86,9 @@ def target_bits(goal, task):
     a, b = g[..., 0], g[..., 1]
     parity = np.bitwise_xor(a, b)
     if task == "unique4":
-        return np.stack([a, b, parity, a & b], axis=-1).astype(np.int8)
+        # Four distinct balanced Boolean meanings keep each action stage at
+        # the same 50/50 target rate while exposing all four goal states.
+        return np.stack([a, b, parity, 1 - parity], axis=-1).astype(np.int8)
     if task == "repeat2":
         return np.stack([a, a, b, b], axis=-1).astype(np.int8)
     return np.repeat(parity[..., None], SUBTASKS, axis=-1).astype(np.int8)
@@ -169,7 +171,7 @@ def prepare():
         "checkpoints": list(CHECKPOINTS),
         "pairing": "within each seed/form/adaptation, noise arms share worlds, goals, partners, message uniforms, action uniforms and noise uniforms",
         "meaning": {
-            "unique4": "four distinct Boolean functions of two private binary factors, one per stage",
+            "unique4": "four distinct balanced Boolean functions, one per stage",
             "repeat2": "two independent Boolean meanings each recur in two stages",
             "shared4": "the same hidden parity of two private binary factors recurs in all four stages",
         },

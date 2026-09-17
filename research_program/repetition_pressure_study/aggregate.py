@@ -46,7 +46,20 @@ def analyze(parents_path, results_path):
          tr=next((r for r in rows if r['seed']==seed and r['task']==task and r['form']=='triple2' and r['adaptation']==adaptation and r['noise_key']==noise_key),None); at=next((r for r in rows if r['seed']==seed and r['task']==task and r['form']=='atomic8' and r['adaptation']==adaptation and r['noise_key']==noise_key),None)
          if tr is not None and at is not None: pairs.append(tr['natural']-at['natural'])
         if pairs: form_effects.append({'task':task,'noise_key':noise_key,'adaptation':adaptation,'triple2_minus_atomic8':float(np.mean(pairs)),'ci95_t':ci(pairs)})
-    return {'schema':'repetition_pressure_analysis_v1','rule':{'functional_natural_min':0.60,'error_correcting_candidate':'triple2 natural >= 0.60; shared4 requires cross-parity Hamming distance >= 2 and within-parity distance = 0; unique4/repeat2 require full codebook minimum distance >= 2'},'parents':parent_rows,'rows':rows,'groups':groups,'adaptation_effects':adaptation_effects,'form_effects':form_effects}
+    task_effects=[]
+    for form in design.FORMS:
+      for noise_key in design.NOISE_KEYS:
+       for adaptation in design.ADAPTATIONS:
+        repeat_minus_unique=[]; shared_minus_unique=[]
+        for seed in sorted({r['seed'] for r in rows}):
+         unique=next((r for r in rows if r['seed']==seed and r['task']=='unique4' and r['form']==form and r['noise_key']==noise_key and r['adaptation']==adaptation),None)
+         repeat=next((r for r in rows if r['seed']==seed and r['task']=='repeat2' and r['form']==form and r['noise_key']==noise_key and r['adaptation']==adaptation),None)
+         shared=next((r for r in rows if r['seed']==seed and r['task']=='shared4' and r['form']==form and r['noise_key']==noise_key and r['adaptation']==adaptation),None)
+         if unique is not None and repeat is not None: repeat_minus_unique.append(repeat['natural']-unique['natural'])
+         if unique is not None and shared is not None: shared_minus_unique.append(shared['natural']-unique['natural'])
+        if repeat_minus_unique and shared_minus_unique:
+         task_effects.append({'form':form,'noise_key':noise_key,'adaptation':adaptation,'repeat2_minus_unique4':float(np.mean(repeat_minus_unique)),'repeat2_ci95_t':ci(repeat_minus_unique),'shared4_minus_unique4':float(np.mean(shared_minus_unique)),'shared4_ci95_t':ci(shared_minus_unique)})
+    return {'schema':'repetition_pressure_analysis_v1','rule':{'functional_natural_min':0.60,'error_correcting_candidate':'triple2 natural >= 0.60; shared4 requires cross-parity Hamming distance >= 2 and within-parity distance = 0; unique4/repeat2 require full codebook minimum distance >= 2'},'parents':parent_rows,'rows':rows,'groups':groups,'adaptation_effects':adaptation_effects,'form_effects':form_effects,'task_effects':task_effects}
 
 def write_md(path,data):
     groups={(r['task'],r['form'],r['adaptation'],r['noise_key']):r for r in data['groups']}
@@ -62,6 +75,8 @@ def write_md(path,data):
     for row in data['form_effects']: lines.append(f"| `{row['task']}` | {design.NOISE_KEYS[row['noise_key']]:.2f} | `{row['adaptation']}` | {row['triple2_minus_atomic8']:.3f} [{row['ci95_t'][0]:.3f},{row['ci95_t'][1]:.3f}] |")
     lines += ['', '| task | form | noise | coadapt−worker_only new | coadapt−worker_only incumbent |','|---|---|---:|---:|---:|']
     for row in data['adaptation_effects']: lines.append(f"| `{row['task']}` | `{row['form']}` | {design.NOISE_KEYS[row['noise_key']]:.2f} | {row['coadapt_minus_worker_only_natural']:.3f} [{row['ci95_t'][0]:.3f},{row['ci95_t'][1]:.3f}] | {row['coadapt_minus_worker_only_incumbent']:.3f} [{row['incumbent_ci95_t'][0]:.3f},{row['incumbent_ci95_t'][1]:.3f}] |")
+    lines += ['', '| form | noise | adaptation | repeat2−unique4 | shared4−unique4 |','|---|---:|---|---:|---:|']
+    for row in data['task_effects']: lines.append(f"| `{row['form']}` | {design.NOISE_KEYS[row['noise_key']]:.2f} | `{row['adaptation']}` | {row['repeat2_minus_unique4']:.3f} [{row['repeat2_ci95_t'][0]:.3f},{row['repeat2_ci95_t'][1]:.3f}] | {row['shared4_minus_unique4']:.3f} [{row['shared4_ci95_t'][0]:.3f},{row['shared4_ci95_t'][1]:.3f}] |")
     lines += ['', 'The analysis separates task repetition, code-space form, maintenance (`worker_only`) and renegotiation (`coadapt`). It is a mechanism test, not a claim that any learned code is natural language.']
     Path(path).write_text('\n'.join(lines)+'\n')
 

@@ -56,8 +56,9 @@ def audit(prepared, parents_path, execution):
     runner.verify(prepared)
     parents_path = Path(parents_path)
     execution = Path(execution)
-    parent_payload = json.loads((parents_path / "parents.json").read_text())
-    parent_files = sorted((parents_path / "parents").glob("seed_*_*/result.json"))
+    parent_root = parents_path / "parents" if (parents_path / "parents").is_dir() else parents_path
+    parent_payload = json.loads((parents_path / "parents.json").read_text()) if (parents_path / "parents.json").is_file() else json.loads((parent_root / "parents.json").read_text())
+    parent_files = sorted(parent_root.glob("seed_*_*/result.json"))
     present_parent_keys = {(int(row["seed"]), row["task"], row["form"]) for row in parent_payload["results"]}
     assert len(parent_files) == len(parent_payload["results"])
     parent_by = {}

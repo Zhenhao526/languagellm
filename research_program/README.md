@@ -13,6 +13,7 @@
 - [ternary_composition_study](ternary_composition_study/plan.md)：三值属性、等容量 `mono9`/`tri3`、任务耦合和行动时序矩阵，检验组合结构随容量扩展的边界。
 - [error_correcting_signaling_study](error_correcting_signaling_study/README.md)：容量匹配的冗余编码、信道噪声与 sender–receiver 修复；包含 243 个 child run 的正式紧凑归档，并保留一次因理论阈值不可达而拒绝的设计记录。
 - [shared_redundancy_study](shared_redundancy_study/README.md)：让同一隐藏意义跨两个行动阶段重复有效，检验重复后果是否足以诱导 `triple2` 形成 parity 冗余码；包含 243 个 child run 的正式紧凑归档。
+- [repetition_pressure_study](repetition_pressure_study/README.md)：在唯一意义、局部重复和全局重复三种任务语义之间做容量匹配的冗余压力曲线；正式矩阵包含 81 个 parent 和 729 个 child run。
 - [population_signaling_study](population_signaling_study/README.md)：128 个 run 的固定/轮换伙伴与公共 token 对照。
 
 各 signaling 包的 `results/formal_20260917/` 只保留紧凑汇总、冻结 JSON、审计和哈希收据；temporal 包保留源码、冻结方案、紧凑审计和结果报告，不保留原始日志或 checkpoint。完整阶段历史仍可从 Git 历史中的旧提交恢复；当前工作树只展开继续实验所需的代码和记录。

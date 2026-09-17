@@ -48,7 +48,7 @@ def prepare(out):
     out = Path(out).resolve()
     design.require(not out.exists(), "refuse overwrite")
     cfg = design.prepare()
-    cfg.update({"runs": len(design.SEEDS) * len(design.CONDITIONS), "parent_runs": len(design.SEEDS) * len(design.FORMS), "evaluation_episodes_per_worker": 4096})
+    cfg.update({"runs": len(design.SEEDS) * len(design.CONDITIONS), "parent_runs": len(design.SEEDS) * len(design.TASKS) * len(design.FORMS), "evaluation_episodes_per_worker": 4096})
     sources = source_hashes()
     out.mkdir(parents=True)
     for rel in sources:
@@ -227,7 +227,7 @@ def _run_train(params, seed, form, task, noise_p, run, *, updates, train_sender,
             params["worker_logits"] -= design.LEARNING_RATE * scale * grad["worker_logits"]
         else:
             params["worker_logits"][int(train_workers)] -= design.LEARNING_RATE * scale * grad["worker_logits"][int(train_workers)]
-        rows.append({"update": update, "seed": int(seed), "form": form, "noise_p": float(noise_p), "world_sha256": design.array_sha(episode["site_type"]), "goal_sha256": design.array_sha(episode["goal"]), "partner_sha256": design.array_sha(episode["partner_id"]), "message_uniform_sha256": design.array_sha(episode["message_uniforms"]), "action_uniform_sha256": design.array_sha(episode["action_uniforms"]), "noise_uniform_sha256": design.array_sha(episode["noise_uniforms"]), "return_mean": float(trajectory["team_return"][trajectory["active"]].mean()), "active_count": int(trajectory["active"].sum()), "gradient_norm": norm, "gradient_clip_scale": scale, "parameter_sha256": policy.combined_parameter_hash(params), "elapsed_seconds": time.perf_counter() - start})
+        rows.append({"update": update, "seed": int(seed), "task": task, "form": form, "noise_p": float(noise_p), "world_sha256": design.array_sha(episode["site_type"]), "goal_sha256": design.array_sha(episode["goal"]), "partner_sha256": design.array_sha(episode["partner_id"]), "message_uniform_sha256": design.array_sha(episode["message_uniforms"]), "action_uniform_sha256": design.array_sha(episode["action_uniforms"]), "noise_uniform_sha256": design.array_sha(episode["noise_uniforms"]), "return_mean": float(trajectory["team_return"][trajectory["active"]].mean()), "active_count": int(trajectory["active"].sum()), "gradient_norm": norm, "gradient_clip_scale": scale, "parameter_sha256": policy.combined_parameter_hash(params), "elapsed_seconds": time.perf_counter() - start})
         if update in checkpoints:
             rows[-1]["checkpoint_sha256"] = save_checkpoint(run / f"checkpoint_{update:04d}.npz", params, update, form)
     log = run / "training.jsonl"
