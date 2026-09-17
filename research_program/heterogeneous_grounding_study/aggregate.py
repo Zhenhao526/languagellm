@@ -1,0 +1,346 @@
+"""Paired analysis for the population-level perceptual-heterogeneity study."""
+from __future__ import annotations
+
+import argparse
+import json
+import math
+from pathlib import Path
+
+import numpy as np
+
+from . import design
+
+
+# Formal runs use nine paired seeds.  The value is retained in the compact
+# report so the interval calculation is deterministic and dependency-free.
+T_CRIT_95_DF8 = 2.306004
+
+
+def ci(values):
+    x = np.asarray(values, dtype=np.float64)
+    if len(x) == 0:
+        return [None, None]
+    mean = float(x.mean())
+    if len(x) < 2:
+        return [mean, mean]
+    half = T_CRIT_95_DF8 * float(x.std(ddof=1)) / math.sqrt(len(x))
+    return [mean - half, mean + half]
+
+
+def load(path):
+    return json.loads(Path(path).read_text())
+
+
+def _results(payload, key):
+    if key in payload:
+        return payload[key]
+    if "results" in payload and key == "children":
+        return payload["results"]
+    raise KeyError(key)
+
+
+def _metric(final, goal_kind, mode):
+    return final[goal_kind][mode]["team_return_mean"]
+
+
+def summarize(row):
+    final = row["final"]
+    natural = float(_metric(final, "heldout", "natural"))
+    initial = row.get("initial", {})
+    initial_natural = float(_metric(initial, "heldout", "natural")) if initial else None
+    permuted = float(_metric(final, "heldout", "permuted"))
+    silent = permuted if row["channel"] == "silent" else natural
+    all_natural = float(_metric(final, "all", "natural"))
+    all_permuted = float(_metric(final, "all", "permuted"))
+    seen_natural = float(_metric(final, "seen", "natural"))
+    seen_permuted = float(_metric(final, "seen", "permuted"))
+    return {
+        "seed": int(row["seed"]),
+        "condition": row["condition"],
+        "population_mode": row["population_mode"],
+        "representation": row["representation"],
+        "form": row["form"],
+        "task": row["task"],
+        "mapping": row["mapping"],
+        "support": row["support"],
+        "channel": row["channel"],
+        "heldout_goal": int(row["heldout_goal"]),
+        "heldout_natural": natural,
+        "initial_heldout_natural": initial_natural,
+        "learning_gain": natural - initial_natural if initial_natural is not None else None,
+        "heldout_silent": silent,
+        "heldout_permuted": permuted,
+        "all_natural": all_natural,
+        "all_permuted": all_permuted,
+        "seen_natural": seen_natural,
+        "seen_permuted": seen_permuted,
+        "live_minus_silent": natural - silent if row["channel"] == "live" else 0.0,
+        "natural_minus_permuted": natural - permuted if row["channel"] == "live" else 0.0,
+        "all_natural_minus_permuted": all_natural - all_permuted if row["channel"] == "live" else 0.0,
+        "seen_natural_minus_permuted": seen_natural - seen_permuted if row["channel"] == "live" else 0.0,
+        "functional": bool(natural >= 0.60),
+        "sender_codebook": final["sender_codebook"],
+        "pairwise_min_hamming": int(final["pairwise_min_hamming"]),
+        "sender_parameter_sha256": row["final_parameter_sha256"],
+        "recombined": float(_metric(final, "heldout", "raw_recombined")) if "raw_recombined" in final["heldout"] else None,
+    }
+
+
+def _find(rows, **kwargs):
+    for row in rows:
+        if all(row.get(key) == value for key, value in kwargs.items()):
+            return row
+    return None
+
+
+def _paired(rows, left_kwargs, right_kwargs, value="heldout_natural"):
+    diffs = []
+    for seed in sorted({row["seed"] for row in rows}):
+        left = _find(rows, seed=seed, **left_kwargs)
+        right = _find(rows, seed=seed, **right_kwargs)
+        if left is not None and right is not None:
+            diffs.append(float(left[value]) - float(right[value]))
+    return {"n": len(diffs), "mean": float(np.mean(diffs)) if diffs else None, "ci95_t": ci(diffs), "values": diffs}
+
+
+def _valid_rep_form(representation, form):
+    return not (representation == "slot_local" and form == "mono4")
+
+
+def _group(rows, mode, representation, form, mapping, support, channel):
+    values = [
+        row for row in rows
+        if row["population_mode"] == mode
+        and row["representation"] == representation
+        and row["form"] == form
+        and row["mapping"] == mapping
+        and row["support"] == support
+        and row["channel"] == channel
+    ]
+    if not values:
+        return None
+    natural = [row["heldout_natural"] for row in values]
+    initial = [row["initial_heldout_natural"] for row in values if row["initial_heldout_natural"] is not None]
+    gains = [row["learning_gain"] for row in values if row["learning_gain"] is not None]
+    recombined = [row["recombined"] for row in values if row["recombined"] is not None]
+    return {
+        "population_mode": mode,
+        "representation": representation,
+        "form": form,
+        "mapping": mapping,
+        "support": support,
+        "channel": channel,
+        "n": len(values),
+        "heldout_natural_mean": float(np.mean(natural)),
+        "heldout_natural_ci95_t": ci(natural),
+        "initial_heldout_natural_mean": float(np.mean(initial)) if initial else None,
+        "learning_gain_mean": float(np.mean(gains)) if gains else None,
+        "all_natural_mean": float(np.mean([row["all_natural"] for row in values])),
+        "seen_natural_mean": float(np.mean([row["seen_natural"] for row in values])),
+        "all_natural_minus_permuted_mean": float(np.mean([row["all_natural_minus_permuted"] for row in values])),
+        "seen_natural_minus_permuted_mean": float(np.mean([row["seen_natural_minus_permuted"] for row in values])),
+        "live_minus_silent_mean": float(np.mean([row["live_minus_silent"] for row in values])),
+        "natural_minus_permuted_mean": float(np.mean([row["natural_minus_permuted"] for row in values])),
+        "recombined_mean": float(np.mean(recombined)) if recombined else None,
+        "functional_count": int(sum(row["functional"] for row in values)),
+        "pairwise_min_hamming_mean": float(np.mean([row["pairwise_min_hamming"] for row in values])),
+    }
+
+
+def _add_contrast(contrasts, name, result, **factors):
+    if result["n"]:
+        contrasts.append({"name": name, **factors, **{key: value for key, value in result.items() if key != "values"}})
+
+
+def analyze(path):
+    payload = load(path)
+    parents = _results(payload, "parents")
+    children = _results(payload, "children")
+    parent_rows = []
+    for row in parents:
+        final = row["final"]
+        parent_rows.append({
+            "seed": int(row["seed"]),
+            "population_mode": row["population_mode"],
+            "form": row["form"],
+            "task": row["task"],
+            "all_natural": float(_metric(final, "all", "natural")),
+            "all_permuted": float(_metric(final, "all", "permuted")),
+            "all_natural_minus_permuted": float(_metric(final, "all", "natural") - _metric(final, "all", "permuted")),
+            "live_minus_permuted": float(_metric(final, "all", "natural") - _metric(final, "all", "permuted")),
+            "heldout_natural": float(_metric(final, "heldout", "natural")),
+            "sender_codebook": final["sender_codebook"],
+            "pairwise_min_hamming": int(final["pairwise_min_hamming"]),
+            "final_parameter_sha256": row["final_parameter_sha256"],
+        })
+    child_rows = [summarize(row) for row in children]
+
+    groups = []
+    for mode in design.POPULATION_MODES:
+        for representation in design.REPRESENTATIONS:
+            for form in design.FORMS:
+                if not _valid_rep_form(representation, form):
+                    continue
+                for mapping in design.MAPPINGS:
+                    for support in design.SUPPORTS:
+                        for channel in design.CHANNELS:
+                            group = _group(child_rows, mode, representation, form, mapping, support, channel)
+                            if group is not None:
+                                groups.append(group)
+
+    contrasts = []
+    for representation in design.REPRESENTATIONS:
+        for form in design.FORMS:
+            if not _valid_rep_form(representation, form):
+                continue
+            for mapping in design.MAPPINGS:
+                for support in design.SUPPORTS:
+                    for channel in design.CHANNELS:
+                        for mode in design.POPULATION_MODES:
+                            result = _paired(
+                                child_rows,
+                                {"population_mode": mode, "representation": representation, "form": form, "mapping": "swap", "support": support, "channel": channel},
+                                {"population_mode": mode, "representation": representation, "form": form, "mapping": "identity", "support": support, "channel": channel},
+                            )
+                            _add_contrast(contrasts, "swap_minus_identity", result, population_mode=mode, representation=representation, form=form, support=support, channel=channel)
+                        result = _paired(
+                            child_rows,
+                            {"population_mode": "heterogeneous", "representation": representation, "form": form, "mapping": mapping, "support": support, "channel": channel},
+                            {"population_mode": "homogeneous", "representation": representation, "form": form, "mapping": mapping, "support": support, "channel": channel},
+                        )
+                        _add_contrast(contrasts, "heterogeneous_minus_homogeneous", result, representation=representation, form=form, mapping=mapping, support=support, channel=channel)
+
+    for mode in design.POPULATION_MODES:
+        for mapping in design.MAPPINGS:
+            for support in design.SUPPORTS:
+                for channel in design.CHANNELS:
+                    result = _paired(
+                        child_rows,
+                        {"population_mode": mode, "representation": "joint_history", "form": "dual2", "mapping": mapping, "support": support, "channel": channel},
+                        {"population_mode": mode, "representation": "joint_history", "form": "mono4", "mapping": mapping, "support": support, "channel": channel},
+                    )
+                    _add_contrast(contrasts, "dual2_minus_mono4", result, population_mode=mode, mapping=mapping, support=support, channel=channel)
+                    result = _paired(
+                        child_rows,
+                        {"population_mode": mode, "representation": "slot_local", "form": "dual2", "mapping": mapping, "support": support, "channel": channel},
+                        {"population_mode": mode, "representation": "joint_history", "form": "dual2", "mapping": mapping, "support": support, "channel": channel},
+                    )
+                    _add_contrast(contrasts, "slot_local_minus_joint_history", result, population_mode=mode, mapping=mapping, support=support, channel=channel)
+
+    for mode in design.POPULATION_MODES:
+        for representation in design.REPRESENTATIONS:
+            for form in design.FORMS:
+                if not _valid_rep_form(representation, form):
+                    continue
+                for mapping in design.MAPPINGS:
+                    for channel in design.CHANNELS:
+                        result = _paired(
+                            child_rows,
+                            {"population_mode": mode, "representation": representation, "form": form, "mapping": mapping, "support": "leave_one_out", "channel": channel},
+                            {"population_mode": mode, "representation": representation, "form": form, "mapping": mapping, "support": "full", "channel": channel},
+                        )
+                        _add_contrast(contrasts, "leave_one_out_minus_full", result, population_mode=mode, representation=representation, form=form, mapping=mapping, channel=channel)
+                    result = _paired(
+                        child_rows,
+                        {"population_mode": mode, "representation": representation, "form": form, "mapping": mapping, "support": "full", "channel": "live"},
+                        {"population_mode": mode, "representation": representation, "form": form, "mapping": mapping, "support": "full", "channel": "silent"},
+                        value="all_natural",
+                    )
+                    _add_contrast(contrasts, "live_minus_silent_all", result, population_mode=mode, representation=representation, form=form, mapping=mapping, support="full")
+
+    parent_contrasts = []
+    for form in design.FORMS:
+        for task in design.TASKS:
+            result = _paired(
+                parent_rows,
+                {"population_mode": "heterogeneous", "form": form, "task": task},
+                {"population_mode": "homogeneous", "form": form, "task": task},
+                value="all_natural",
+            )
+            _add_contrast(parent_contrasts, "heterogeneous_minus_homogeneous_parent_all", result, form=form, task=task)
+            result = _paired(
+                parent_rows,
+                {"population_mode": "heterogeneous", "form": form, "task": task},
+                {"population_mode": "homogeneous", "form": form, "task": task},
+                value="all_natural_minus_permuted",
+            )
+            _add_contrast(parent_contrasts, "heterogeneous_minus_homogeneous_parent_message_gap", result, form=form, task=task)
+
+    return {
+        "schema": "heterogeneous_grounding_analysis_v1",
+        "rule": {"functional_natural_min": 0.60, "primary": "leave-one-out live heldout natural return", "population_intervention": "heterogeneous minus homogeneous"},
+        "parents": parent_rows,
+        "parent_contrasts": parent_contrasts,
+        "children": child_rows,
+        "groups": groups,
+        "contrasts": contrasts,
+    }
+
+
+def write_md(path, data):
+    lines = [
+        "# Population-level perceptual heterogeneity",
+        "",
+        "The sender observes a semantic goal but not partner identity. In the homogeneous population every worker maps visible surface labels identically. In the heterogeneous population workers 1 and 3 swap the two visible labels. The child replaces worker 0, while the sender and the other workers remain frozen.",
+        "",
+        "## Parent population endpoint",
+        "",
+        "| population | form | all-goal natural | all-goal natural−permuted |",
+        "|---|---|---:|---:|",
+    ]
+    for row in data["parents"]:
+        lines.append(f"| `{row['population_mode']}` | `{row['form']}` | {row['all_natural']:.3f} | {row['all_natural_minus_permuted']:.3f} |")
+    lines += [
+        "",
+        "The parent contrasts compare the two population modes at matched seeds.",
+        "",
+        "| contrast | factors | mean difference | 95% CI | n |",
+        "|---|---|---:|---|---:|",
+    ]
+    for row in data["parent_contrasts"]:
+        factors = ", ".join(f"{key}={value}" for key, value in row.items() if key in {"form", "task"})
+        lo, hi = row["ci95_t"]
+        lines.append(f"| `{row['name']}` | {factors} | {row['mean']:.3f} | [{lo:.3f}, {hi:.3f}] | {row['n']} |")
+    lines += [
+        "",
+        "## Held-out live endpoint",
+        "",
+        "| population | representation | form | mapping | support | channel | initial | final | gain | 95% CI | functional |",
+        "|---|---|---|---|---|---|---:|---:|---:|---|---:|",
+    ]
+    for row in data["groups"]:
+        lo, hi = row["heldout_natural_ci95_t"]
+        initial = "—" if row["initial_heldout_natural_mean"] is None else f"{row['initial_heldout_natural_mean']:.3f}"
+        gain = "—" if row["learning_gain_mean"] is None else f"{row['learning_gain_mean']:.3f}"
+        lines.append(f"| `{row['population_mode']}` | `{row['representation']}` | `{row['form']}` | `{row['mapping']}` | `{row['support']}` | `{row['channel']}` | {initial} | {row['heldout_natural_mean']:.3f} | {gain} | [{lo:.3f}, {hi:.3f}] | {row['functional_count']}/{row['n']} |")
+    lines += [
+        "",
+        "## Communication and heterogeneity checks",
+        "",
+        "`all_natural−permuted` is the causal message check: positive values mean that shuffling messages across a worker's complete goal block changes behavior. `heterogeneous_minus_homogeneous` isolates the effect of population-level label conventions while holding semantic worlds, goals, partners, and random draws fixed.",
+        "",
+        "| contrast | factors | mean difference | 95% CI | n |",
+        "|---|---|---:|---|---:|",
+    ]
+    for row in data["contrasts"]:
+        factor_keys = {"population_mode", "representation", "form", "mapping", "support", "channel"}
+        factors = ", ".join(f"{key}={value}" for key, value in row.items() if key in factor_keys)
+        lo, hi = row["ci95_t"]
+        lines.append(f"| `{row['name']}` | {factors} | {row['mean']:.3f} | [{lo:.3f}, {hi:.3f}] | {row['n']} |")
+    lines += [
+        "",
+        "This finite tabular study measures protocol formation and repair under controlled perceptual conventions. It does not claim that the agents possess human language.",
+    ]
+    Path(path).write_text("\n".join(lines) + "\n")
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--results", required=True)
+    parser.add_argument("--out", required=True)
+    parser.add_argument("--markdown", required=True)
+    args = parser.parse_args()
+    data = analyze(args.results)
+    Path(args.out).write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n")
+    write_md(args.markdown, data)
+    print(json.dumps({"status": "written", "parent_rows": len(data["parents"]), "child_rows": len(data["children"]), "groups": len(data["groups"])}, ensure_ascii=False))
