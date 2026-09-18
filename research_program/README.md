@@ -21,6 +21,7 @@
 - [heterogeneous_grounding_study 诊断归档](heterogeneous_grounding_study/results/diagnostic_20260918/)：一枚种子的 3,000-update 候选干预通过 replay audit，但因目标 worker 覆盖使 child 流相同，暂不作为正式群体效应估计。
 - [partner_exposure_study](partner_exposure_study/README.md)：修正 target-worker 不可识别性，让 fresh sender 在每个 batch 接触四个实际伙伴；正式矩阵为 18 个 parent、144 个 child，交叉 hidden/visible、sender-only/coadapt 和 full/leave-one-out，完整 replay audit 通过。
 - [community_merge_study](community_merge_study/README.md)：在四符号双槽位的角色对称 referential game 中，控制 aligned/conflict 社区码本、伙伴身份可见性、fresh-only/coadapt、full/heldout-combination/heldout-value 和 alternating/sender-only；正式矩阵为 36 个 parent、432 个 child，独立 replay audit 通过，结果归档于 `results/formal_20260918/`。
+- [structured_factorization_study](structured_factorization_study/README.md)：保持社区冲突 referential game 不变，因果操纵 holistic 完整表格与 factorized slot/attribute 参数共享；正式矩阵为 72 个 parent、216 个 child，独立 replay audit 通过，factorized 在 aligned hidden 条件下实现组合留出而 holistic 对照失败。
 - [repetition_pressure_study](repetition_pressure_study/README.md)：在唯一意义、局部重复和全局重复三种任务语义之间做容量匹配的冗余压力曲线；正式矩阵包含 81 个 parent 和 729 个 child run，结果归档于 `results/formal_20260918/`，详见 `meaning_capacity_formal_结果与下一步.md`。
 - [population_signaling_study](population_signaling_study/README.md)：128 个 run 的固定/轮换伙伴与公共 token 对照。
 

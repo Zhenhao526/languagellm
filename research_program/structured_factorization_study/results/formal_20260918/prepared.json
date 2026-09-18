@@ -1,0 +1,176 @@
+{
+  "schema": "structured_factorization_study_v1",
+  "task": "referential_selection",
+  "form": {
+    "name": "quad2",
+    "alphabet_size": 4,
+    "length": 2,
+    "message_state_count": 17
+  },
+  "architectures": [
+    "holistic",
+    "factorized"
+  ],
+  "architecture_intervention": "holistic stores one sender/receiver row per complete meaning/message; factorized shares sender rows by attribute value and receiver scores additively by slot and attribute",
+  "attributes": 2,
+  "values_per_attribute": 3,
+  "meanings": 9,
+  "scene_size": 4,
+  "communities": 2,
+  "partners_per_community": 2,
+  "partners": 4,
+  "populations": [
+    "aligned",
+    "conflict"
+  ],
+  "visibilities": [
+    "hidden",
+    "visible"
+  ],
+  "supports": [
+    "full",
+    "heldout_combo",
+    "heldout_value"
+  ],
+  "roles": [
+    "alternating"
+  ],
+  "channels": [
+    "live",
+    "silent"
+  ],
+  "surface_rule": "aligned identity in both communities; conflict swaps (0,1) and (2,3) in community 1",
+  "role_rule": "alternating balances fresh sender and fresh receiver for all four partners",
+  "message_symbols": [
+    "@",
+    "#",
+    "￥",
+    "%"
+  ],
+  "goal_pairs": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ]
+  ],
+  "seeds": [
+    78601,
+    78602,
+    78603,
+    78604,
+    78605,
+    78606,
+    78607,
+    78608,
+    78609
+  ],
+  "parent_conditions": [
+    "holistic_aligned",
+    "holistic_conflict",
+    "factorized_aligned",
+    "factorized_conflict"
+  ],
+  "child_conditions": [
+    "holistic_aligned_hidden_full",
+    "holistic_aligned_hidden_heldout_combo",
+    "holistic_aligned_hidden_heldout_value",
+    "holistic_aligned_visible_full",
+    "holistic_aligned_visible_heldout_combo",
+    "holistic_aligned_visible_heldout_value",
+    "holistic_conflict_hidden_full",
+    "holistic_conflict_hidden_heldout_combo",
+    "holistic_conflict_hidden_heldout_value",
+    "holistic_conflict_visible_full",
+    "holistic_conflict_visible_heldout_combo",
+    "holistic_conflict_visible_heldout_value",
+    "factorized_aligned_hidden_full",
+    "factorized_aligned_hidden_heldout_combo",
+    "factorized_aligned_hidden_heldout_value",
+    "factorized_aligned_visible_full",
+    "factorized_aligned_visible_heldout_combo",
+    "factorized_aligned_visible_heldout_value",
+    "factorized_conflict_hidden_full",
+    "factorized_conflict_hidden_heldout_combo",
+    "factorized_conflict_hidden_heldout_value",
+    "factorized_conflict_visible_full",
+    "factorized_conflict_visible_heldout_combo",
+    "factorized_conflict_visible_heldout_value"
+  ],
+  "updates": 3000,
+  "batch_size": 512,
+  "learning_rate": 0.08,
+  "entropy_initial": 0.01,
+  "checkpoints": [
+    0,
+    500,
+    1000,
+    2000,
+    3000
+  ],
+  "heldout_combo_assignment": {
+    "78601": 0,
+    "78602": 1,
+    "78603": 2,
+    "78604": 3,
+    "78605": 4,
+    "78606": 5,
+    "78607": 6,
+    "78608": 7,
+    "78609": 8
+  },
+  "heldout_value_assignment": {
+    "78601": 0,
+    "78602": 1,
+    "78603": 2,
+    "78604": 0,
+    "78605": 1,
+    "78606": 2,
+    "78607": 0,
+    "78608": 1,
+    "78609": 2
+  },
+  "primary_readouts": [
+    "architecture effect on heldout combination/value return",
+    "live-minus-silent and natural-minus-permuted",
+    "cross-partner code consistency",
+    "slot-wise factor alignment and community conflict cost"
+  ],
+  "functional_rule": "held-out natural return >= 0.60",
+  "no_teacher_or_language_prior": true,
+  "parent_runs": 36,
+  "child_runs": 216,
+  "runs": 252,
+  "runtime_policy": "float64 NumPy only"
+}

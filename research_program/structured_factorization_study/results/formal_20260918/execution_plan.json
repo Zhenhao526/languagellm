@@ -1,0 +1,30 @@
+{
+  "schema": "structured_factorization_execution_plan_v1",
+  "source_commit": "6480b69ca505fab007ff9fc0c1e88785bda0c32e",
+  "seeds": [
+    78601,
+    78602,
+    78603,
+    78604,
+    78605,
+    78606,
+    78607,
+    78608,
+    78609
+  ],
+  "parent_runs": 72,
+  "child_runs": 216,
+  "updates_per_run": 3000,
+  "parent_training_log_rows": 216000,
+  "child_training_log_rows": 648000,
+  "parent_checkpoints": 288,
+  "child_checkpoints": 864,
+  "paired_architecture_rows": 324000,
+  "paired_visibility_rows": 324000,
+  "paired_population_rows": 324000,
+  "paired_support_rows": 432000,
+  "audit_status": "passed",
+  "max_abs_replay_error": 0.0,
+  "raw_execution_root": "/private/tmp/structured_factor_formal_out/execution",
+  "raw_execution_retained_in_archive": false
+}

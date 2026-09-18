@@ -1,0 +1,72 @@
+{
+  "schema": "structured_factorization_formal_archive_manifest_v1",
+  "study": "structured_factorization_formal",
+  "formal_date": "2026-09-18",
+  "source_commit": "6480b69ca505fab007ff9fc0c1e88785bda0c32e",
+  "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+  "raw_logs_retained": false,
+  "full_results_retained_in_archive": true,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1279,
+      "sha256": "cd508119f51d8af75cd33ad38d2576e64db0e2db3b6139cb95fd586c37b59acc"
+    },
+    {
+      "path": "aggregate.json",
+      "bytes": 133804,
+      "sha256": "9b2509fb4c1825109d17a56e4a8b05fb50c826aa231e474aee65ed96a15ef7bc"
+    },
+    {
+      "path": "aggregate.md",
+      "bytes": 5585,
+      "sha256": "8739de6bde7f1535746d0791df4a2154918dd18393eb0c9ac1d6038aeab347ba"
+    },
+    {
+      "path": "audit.json",
+      "bytes": 619,
+      "sha256": "e405a55697cea9a230a43829dd9c7f20dae6ccb714d7c86d27577b22d7c1c799"
+    },
+    {
+      "path": "execution_plan.json",
+      "bytes": 768,
+      "sha256": "675e192cb0fbbb5a3e4aaf4173db2609f470fd46b25a017c6b87c027bf9e68a3"
+    },
+    {
+      "path": "freeze.json",
+      "bytes": 177,
+      "sha256": "5804b4d29d68adabf1b5fa09e9df26cf52bc5bbbe46be4a82a560d6ea381bb67"
+    },
+    {
+      "path": "plan.json",
+      "bytes": 5656,
+      "sha256": "416d86a41c44f789e948519050d7fcb65410cdee6dffa56ddf35ed0de0e44430"
+    },
+    {
+      "path": "prepared.json",
+      "bytes": 3721,
+      "sha256": "87040c4c3287e5b34ece36c879e9655b76b5d2e36514f3b1a2dced81f9bc79c0"
+    },
+    {
+      "path": "results.json",
+      "bytes": 2902693,
+      "sha256": "d26a69f81aff10ef99ee55edd768cc410cc7284eff74697cfc4df585bed8c1c1"
+    },
+    {
+      "path": "source_commit.txt",
+      "bytes": 41,
+      "sha256": "26403814de334799f7600ca259eb3f51987c36d12b53e7456aa39fc84fe0c1c1"
+    },
+    {
+      "path": "validity.md",
+      "bytes": 740,
+      "sha256": "bb4a0999a66e877ce3701cd1042b770a7728c8aa6643cb038119cf64c3a8baae"
+    }
+  ],
+  "file_count": 11,
+  "payload_bytes": 3055083,
+  "manifest_excludes_self": true,
+  "audit": "passed",
+  "parent_runs": 72,
+  "child_runs": 216
+}

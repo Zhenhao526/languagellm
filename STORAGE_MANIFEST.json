@@ -4,7 +4,7 @@
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
   "remote_commit": "11582a826ce829d7fc30c8c0d7856340a0f0f971",
   "remote_main_verified": true,
-  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix, ecological-factorization formal matrix, compact archive, replay audit and new-combination analysis, object-surface remapping corrected formal matrix, parent surface-shift analysis, replay audit and cleanup receipt, incumbent-worker surface transfer formal matrix, repair curves, replay audit and cleanup receipt, population-level perceptual heterogeneity formal matrix, three-shard replay audit, exploratory pilot curves, identifiability diagnosis and cleanup receipt, multi-partner sender alignment formal matrix, diagnostic smoke, replay audit and cleanup receipt, community codebook conflict and role-symmetric referential game formal matrix, replay audit, compact archive and cleanup receipt",
+  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix, ecological-factorization formal matrix, compact archive, replay audit and new-combination analysis, object-surface remapping corrected formal matrix, parent surface-shift analysis, replay audit and cleanup receipt, incumbent-worker surface transfer formal matrix, repair curves, replay audit and cleanup receipt, population-level perceptual heterogeneity formal matrix, three-shard replay audit, exploratory pilot curves, identifiability diagnosis and cleanup receipt, multi-partner sender alignment formal matrix, diagnostic smoke, replay audit and cleanup receipt, community codebook conflict and role-symmetric referential game formal matrix, replay audit, compact archive and cleanup receipt, structured factor-sharing architecture intervention, formal matrix, replay audit and cleanup receipt",
   "retained_paths": {
     "research_program/action_dependent_signaling_study": {
       "files": 23,
@@ -157,6 +157,18 @@
     "LOCAL_CLEANUP_RECEIPT_2026-09-18_community_merge.json": {
       "files": 1,
       "bytes": 3808
+    },
+    "research_program/structured_factorization_study": {
+      "files": 23,
+      "bytes": 3121140
+    },
+    "SYNC_2026-09-18_structured_factorization.md": {
+      "files": 1,
+      "bytes": 1613
+    },
+    "LOCAL_CLEANUP_RECEIPT_2026-09-18_structured_factorization.json": {
+      "files": 1,
+      "bytes": 3083
     }
   },
   "compact_archives": {
@@ -255,6 +267,10 @@
     "research_program/community_merge_study/results/formal_20260918": {
       "files": 12,
       "bytes": 5533302
+    },
+    "research_program/structured_factorization_study/results/formal_20260918": {
+      "files": 12,
+      "bytes": 3057218
     }
   },
   "raw_execution_trees": {
@@ -1275,6 +1291,82 @@
     "/private/tmp/community_merge_smoke_prepared": {
       "present": false,
       "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/structured_factor_check_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/structured_factor_formal_analysis.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/structured_factor_formal_analysis.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/structured_factor_formal_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/structured_factor_formal_out": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/structured_factor_formal_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/structured_factor_long_analysis.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/structured_factor_long_analysis.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/structured_factor_long_out": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/structured_factor_long_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/structured_factor_parallel_audit.py": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/structured_factor_parallel_children.py": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/structured_factor_pilot_analysis.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/structured_factor_pilot_analysis.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/structured_factor_pilot_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/structured_factor_pilot_out": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/structured_factor_pilot_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/structured_factor_pilot_prepared2": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/structured_factor_pilot_prepared3": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
     }
   },
   "temporary_raw_trees_removed": [
@@ -1443,18 +1535,37 @@
     "/private/tmp/community_merge_smoke4_prepared",
     "/private/tmp/community_merge_smoke_audit.json",
     "/private/tmp/community_merge_smoke_out",
-    "/private/tmp/community_merge_smoke_prepared"
+    "/private/tmp/community_merge_smoke_prepared",
+    "/private/tmp/structured_factor_check_prepared",
+    "/private/tmp/structured_factor_formal_analysis.json",
+    "/private/tmp/structured_factor_formal_analysis.md",
+    "/private/tmp/structured_factor_formal_audit.json",
+    "/private/tmp/structured_factor_formal_out",
+    "/private/tmp/structured_factor_formal_prepared",
+    "/private/tmp/structured_factor_long_analysis.json",
+    "/private/tmp/structured_factor_long_analysis.md",
+    "/private/tmp/structured_factor_long_out",
+    "/private/tmp/structured_factor_long_prepared",
+    "/private/tmp/structured_factor_parallel_audit.py",
+    "/private/tmp/structured_factor_parallel_children.py",
+    "/private/tmp/structured_factor_pilot_analysis.json",
+    "/private/tmp/structured_factor_pilot_analysis.md",
+    "/private/tmp/structured_factor_pilot_audit.json",
+    "/private/tmp/structured_factor_pilot_out",
+    "/private/tmp/structured_factor_pilot_prepared",
+    "/private/tmp/structured_factor_pilot_prepared2",
+    "/private/tmp/structured_factor_pilot_prepared3"
   ],
   "tracked_paths_pruned_in_commit": 8338,
   "historical_cleanup_estimate_bytes": 3687981411,
   "local_environment": {
-    "files": 1440,
-    "bytes": 144706574
+    "files": 1553,
+    "bytes": 149980463
   },
   "policy": "raw training logs, checkpoints, model assets, literature caches and historical generated trees are not kept locally; Git history retains prior source snapshots",
   "additional_cleanup": {
-    "removed_file_or_tree_count": 149,
-    "removed_bytes": 20189739183,
+    "removed_file_or_tree_count": 168,
+    "removed_bytes": 21270564393,
     "removed_paths": [
       {
         "path": "/private/tmp/tabular_PI_stateless_silent",
@@ -1898,6 +2009,101 @@
         "path": "/private/tmp/community_merge_smoke_prepared",
         "kind": "directory",
         "bytes": 92269
+      },
+      {
+        "path": "/private/tmp/structured_factor_check_prepared",
+        "kind": "directory",
+        "bytes": 73476
+      },
+      {
+        "path": "/private/tmp/structured_factor_formal_analysis.json",
+        "kind": "file",
+        "bytes": 133804
+      },
+      {
+        "path": "/private/tmp/structured_factor_formal_analysis.md",
+        "kind": "file",
+        "bytes": 5585
+      },
+      {
+        "path": "/private/tmp/structured_factor_formal_audit.json",
+        "kind": "file",
+        "bytes": 619
+      },
+      {
+        "path": "/private/tmp/structured_factor_formal_out",
+        "kind": "directory",
+        "bytes": 914629883
+      },
+      {
+        "path": "/private/tmp/structured_factor_formal_prepared",
+        "kind": "directory",
+        "bytes": 73476
+      },
+      {
+        "path": "/private/tmp/structured_factor_long_analysis.json",
+        "kind": "file",
+        "bytes": 118325
+      },
+      {
+        "path": "/private/tmp/structured_factor_long_analysis.md",
+        "kind": "file",
+        "bytes": 5586
+      },
+      {
+        "path": "/private/tmp/structured_factor_long_out",
+        "kind": "directory",
+        "bytes": 101616544
+      },
+      {
+        "path": "/private/tmp/structured_factor_long_prepared",
+        "kind": "directory",
+        "bytes": 73476
+      },
+      {
+        "path": "/private/tmp/structured_factor_parallel_audit.py",
+        "kind": "file",
+        "bytes": 1814
+      },
+      {
+        "path": "/private/tmp/structured_factor_parallel_children.py",
+        "kind": "file",
+        "bytes": 2271
+      },
+      {
+        "path": "/private/tmp/structured_factor_pilot_analysis.json",
+        "kind": "file",
+        "bytes": 134765
+      },
+      {
+        "path": "/private/tmp/structured_factor_pilot_analysis.md",
+        "kind": "file",
+        "bytes": 5606
+      },
+      {
+        "path": "/private/tmp/structured_factor_pilot_audit.json",
+        "kind": "file",
+        "bytes": 610
+      },
+      {
+        "path": "/private/tmp/structured_factor_pilot_out",
+        "kind": "directory",
+        "bytes": 63729389
+      },
+      {
+        "path": "/private/tmp/structured_factor_pilot_prepared",
+        "kind": "directory",
+        "bytes": 73123
+      },
+      {
+        "path": "/private/tmp/structured_factor_pilot_prepared2",
+        "kind": "directory",
+        "bytes": 73413
+      },
+      {
+        "path": "/private/tmp/structured_factor_pilot_prepared3",
+        "kind": "directory",
+        "bytes": 73445
       }
     ],
     "verified_after_remote_commit": "fc026e6504d3d78fb213604899c229dafa3a4e00",
@@ -2282,47 +2488,41 @@
     }
   },
   "latest_batch": {
-    "name": "community_merge_20260918",
-    "remote_commit": "ec3b9e19bb262b3b84eb7e64b3d22aa43e44c9ab",
-    "archive": "research_program/community_merge_study/results/formal_20260918",
+    "name": "structured_factorization_20260918",
+    "source_commit": "6480b69ca505fab007ff9fc0c1e88785bda0c32e",
+    "archive": "research_program/structured_factorization_study/results/formal_20260918",
     "archive_stats": {
       "files": 12,
-      "bytes": 5533302
+      "bytes": 3057218
     },
     "audit": "passed",
     "raw_execution_retained": false,
     "raw_paths": [
-      "/private/tmp/community_merge_formal2_out",
-      "/private/tmp/community_merge_formal2_prepared",
-      "/private/tmp/community_merge_formal2_analysis.json",
-      "/private/tmp/community_merge_formal2_analysis.md",
-      "/private/tmp/community_merge_formal2_audit.json",
-      "/private/tmp/community_merge_parallel_audit.py",
-      "/private/tmp/community_merge_parallel_audit.log",
-      "/private/tmp/community_merge_long_analysis.json",
-      "/private/tmp/community_merge_long_analysis.md",
-      "/private/tmp/community_merge_long_out",
-      "/private/tmp/community_merge_long_prepared",
-      "/private/tmp/community_merge_pilot2_analysis.json",
-      "/private/tmp/community_merge_pilot2_analysis.md",
-      "/private/tmp/community_merge_pilot2_out",
-      "/private/tmp/community_merge_pilot2_prepared",
-      "/private/tmp/community_merge_pilot_analysis.json",
-      "/private/tmp/community_merge_pilot_analysis.md",
-      "/private/tmp/community_merge_pilot_out",
-      "/private/tmp/community_merge_pilot_prepared",
-      "/private/tmp/community_merge_smoke4_audit.json",
-      "/private/tmp/community_merge_smoke4_out",
-      "/private/tmp/community_merge_smoke4_prepared",
-      "/private/tmp/community_merge_smoke_audit.json",
-      "/private/tmp/community_merge_smoke_out",
-      "/private/tmp/community_merge_smoke_prepared"
+      "/private/tmp/structured_factor_check_prepared",
+      "/private/tmp/structured_factor_formal_analysis.json",
+      "/private/tmp/structured_factor_formal_analysis.md",
+      "/private/tmp/structured_factor_formal_audit.json",
+      "/private/tmp/structured_factor_formal_out",
+      "/private/tmp/structured_factor_formal_prepared",
+      "/private/tmp/structured_factor_long_analysis.json",
+      "/private/tmp/structured_factor_long_analysis.md",
+      "/private/tmp/structured_factor_long_out",
+      "/private/tmp/structured_factor_long_prepared",
+      "/private/tmp/structured_factor_parallel_audit.py",
+      "/private/tmp/structured_factor_parallel_children.py",
+      "/private/tmp/structured_factor_pilot_analysis.json",
+      "/private/tmp/structured_factor_pilot_analysis.md",
+      "/private/tmp/structured_factor_pilot_audit.json",
+      "/private/tmp/structured_factor_pilot_out",
+      "/private/tmp/structured_factor_pilot_prepared",
+      "/private/tmp/structured_factor_pilot_prepared2",
+      "/private/tmp/structured_factor_pilot_prepared3"
     ],
     "retained_package_stats": {
       "files": 23,
-      "bytes": 5613612
+      "bytes": 3121140
     },
-    "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18_community_merge.json",
+    "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18_structured_factorization.json",
     "verified_paths_absent": true,
     "remote_repository": "git@github.com:Zhenhao526/languagellm.git"
   },
@@ -2371,5 +2571,45 @@
     "verified_paths_absent": true,
     "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
     "bytes_removed": 1702302369
+  },
+  "structured_factorization_batch": {
+    "name": "structured_factorization_20260918",
+    "source_commit": "6480b69ca505fab007ff9fc0c1e88785bda0c32e",
+    "archive": "research_program/structured_factorization_study/results/formal_20260918",
+    "archive_stats": {
+      "files": 12,
+      "bytes": 3057218
+    },
+    "audit": "passed",
+    "raw_execution_retained": false,
+    "raw_paths": [
+      "/private/tmp/structured_factor_check_prepared",
+      "/private/tmp/structured_factor_formal_analysis.json",
+      "/private/tmp/structured_factor_formal_analysis.md",
+      "/private/tmp/structured_factor_formal_audit.json",
+      "/private/tmp/structured_factor_formal_out",
+      "/private/tmp/structured_factor_formal_prepared",
+      "/private/tmp/structured_factor_long_analysis.json",
+      "/private/tmp/structured_factor_long_analysis.md",
+      "/private/tmp/structured_factor_long_out",
+      "/private/tmp/structured_factor_long_prepared",
+      "/private/tmp/structured_factor_parallel_audit.py",
+      "/private/tmp/structured_factor_parallel_children.py",
+      "/private/tmp/structured_factor_pilot_analysis.json",
+      "/private/tmp/structured_factor_pilot_analysis.md",
+      "/private/tmp/structured_factor_pilot_audit.json",
+      "/private/tmp/structured_factor_pilot_out",
+      "/private/tmp/structured_factor_pilot_prepared",
+      "/private/tmp/structured_factor_pilot_prepared2",
+      "/private/tmp/structured_factor_pilot_prepared3"
+    ],
+    "retained_package_stats": {
+      "files": 23,
+      "bytes": 3121140
+    },
+    "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18_structured_factorization.json",
+    "verified_paths_absent": true,
+    "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+    "bytes_removed": 1080825210
   }
 }

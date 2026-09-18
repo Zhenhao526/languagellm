@@ -1,0 +1,112 @@
+{
+  "schema": "structured_factorization_storage_cleanup_receipt_v1",
+  "generated_at_local": "2026-09-18",
+  "root": "/Users/xia/Documents/ChatGPT/语言",
+  "reason": "retain structured factor-sharing source and verified formal archive while removing raw formal, smoke and diagnostic execution trees",
+  "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+  "source_commit": "6480b69ca505fab007ff9fc0c1e88785bda0c32e",
+  "archive": "/Users/xia/Documents/ChatGPT/语言/research_program/structured_factorization_study/results/formal_20260918",
+  "archive_manifest_verified": true,
+  "audit_status": "passed",
+  "raw_execution_retained": false,
+  "deleted": [
+    {
+      "path": "/private/tmp/structured_factor_check_prepared",
+      "kind": "directory",
+      "bytes": 73476
+    },
+    {
+      "path": "/private/tmp/structured_factor_formal_analysis.json",
+      "kind": "file",
+      "bytes": 133804
+    },
+    {
+      "path": "/private/tmp/structured_factor_formal_analysis.md",
+      "kind": "file",
+      "bytes": 5585
+    },
+    {
+      "path": "/private/tmp/structured_factor_formal_audit.json",
+      "kind": "file",
+      "bytes": 619
+    },
+    {
+      "path": "/private/tmp/structured_factor_formal_out",
+      "kind": "directory",
+      "bytes": 914629883
+    },
+    {
+      "path": "/private/tmp/structured_factor_formal_prepared",
+      "kind": "directory",
+      "bytes": 73476
+    },
+    {
+      "path": "/private/tmp/structured_factor_long_analysis.json",
+      "kind": "file",
+      "bytes": 118325
+    },
+    {
+      "path": "/private/tmp/structured_factor_long_analysis.md",
+      "kind": "file",
+      "bytes": 5586
+    },
+    {
+      "path": "/private/tmp/structured_factor_long_out",
+      "kind": "directory",
+      "bytes": 101616544
+    },
+    {
+      "path": "/private/tmp/structured_factor_long_prepared",
+      "kind": "directory",
+      "bytes": 73476
+    },
+    {
+      "path": "/private/tmp/structured_factor_parallel_audit.py",
+      "kind": "file",
+      "bytes": 1814
+    },
+    {
+      "path": "/private/tmp/structured_factor_parallel_children.py",
+      "kind": "file",
+      "bytes": 2271
+    },
+    {
+      "path": "/private/tmp/structured_factor_pilot_analysis.json",
+      "kind": "file",
+      "bytes": 134765
+    },
+    {
+      "path": "/private/tmp/structured_factor_pilot_analysis.md",
+      "kind": "file",
+      "bytes": 5606
+    },
+    {
+      "path": "/private/tmp/structured_factor_pilot_audit.json",
+      "kind": "file",
+      "bytes": 610
+    },
+    {
+      "path": "/private/tmp/structured_factor_pilot_out",
+      "kind": "directory",
+      "bytes": 63729389
+    },
+    {
+      "path": "/private/tmp/structured_factor_pilot_prepared",
+      "kind": "directory",
+      "bytes": 73123
+    },
+    {
+      "path": "/private/tmp/structured_factor_pilot_prepared2",
+      "kind": "directory",
+      "bytes": 73413
+    },
+    {
+      "path": "/private/tmp/structured_factor_pilot_prepared3",
+      "kind": "directory",
+      "bytes": 73445
+    }
+  ],
+  "deleted_path_count": 19,
+  "total_bytes_removed": 1080825210,
+  "post_delete_paths_absent": true
+}

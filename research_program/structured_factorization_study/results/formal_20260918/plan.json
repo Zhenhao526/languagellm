@@ -1,0 +1,196 @@
+{
+  "schema": "structured_factorization_study_v1",
+  "prepared_sha256": "87040c4c3287e5b34ece36c879e9655b76b5d2e36514f3b1a2dced81f9bc79c0",
+  "sources": {
+    "research_program/structured_factorization_study/__init__.py": "c7a0b0a16637bff2e9eb7f1ac1dca50f147313d454e62bd0cab4b078d5a22b19",
+    "research_program/structured_factorization_study/README.md": "47b5913b6f4a9a363dfc853d8884217fc041d062952b9c5e2188bf287d7ed1f3",
+    "research_program/structured_factorization_study/design.py": "ed8e674ecaa2bc9b92253c27bfe45f0ccce67008acbfad2638be7dd3ba8b62e6",
+    "research_program/structured_factorization_study/policy.py": "580244c9d78138309000551c46dc13ba9f58039ad1af9094834eaf0b0f25a3e4",
+    "research_program/structured_factorization_study/environment.py": "5a0c68a7c2afd24c18aaf62616ec50635dd0feb3c33e9c45f79b292e7524fb10",
+    "research_program/structured_factorization_study/runner.py": "8585ce870709d76ddfc3ffb74b6f32e52f4b5198fba230542a9143d28f7b1a72",
+    "research_program/structured_factorization_study/aggregate.py": "a4e68da9b2d7c9f5c2ba34054efffee9acaa4716355ac57afad166ce1cc84b21",
+    "research_program/structured_factorization_study/audit.py": "95932ad0008ddf6510634343b5ab7b8a8f954e62ca55ecf68d902087c64adc70",
+    "research_program/structured_factorization_study/plan.md": "139d889ab03e349597816c1290b2f5b7c9dd6d181d23cd556364f94705c845dd",
+    "research_program/structured_factorization_study/tests/test_game.py": "b455bf45705f878cd769703740f7b263b290cc1eaa973c234a9dde33e976d1ec"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.2.6"
+  },
+  "config": {
+    "schema": "structured_factorization_study_v1",
+    "task": "referential_selection",
+    "form": {
+      "name": "quad2",
+      "alphabet_size": 4,
+      "length": 2,
+      "message_state_count": 17
+    },
+    "architectures": [
+      "holistic",
+      "factorized"
+    ],
+    "architecture_intervention": "holistic stores one sender/receiver row per complete meaning/message; factorized shares sender rows by attribute value and receiver scores additively by slot and attribute",
+    "attributes": 2,
+    "values_per_attribute": 3,
+    "meanings": 9,
+    "scene_size": 4,
+    "communities": 2,
+    "partners_per_community": 2,
+    "partners": 4,
+    "populations": [
+      "aligned",
+      "conflict"
+    ],
+    "visibilities": [
+      "hidden",
+      "visible"
+    ],
+    "supports": [
+      "full",
+      "heldout_combo",
+      "heldout_value"
+    ],
+    "roles": [
+      "alternating"
+    ],
+    "channels": [
+      "live",
+      "silent"
+    ],
+    "surface_rule": "aligned identity in both communities; conflict swaps (0,1) and (2,3) in community 1",
+    "role_rule": "alternating balances fresh sender and fresh receiver for all four partners",
+    "message_symbols": [
+      "@",
+      "#",
+      "￥",
+      "%"
+    ],
+    "goal_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "seeds": [
+      78601,
+      78602,
+      78603,
+      78604,
+      78605,
+      78606,
+      78607,
+      78608,
+      78609
+    ],
+    "parent_conditions": [
+      "holistic_aligned",
+      "holistic_conflict",
+      "factorized_aligned",
+      "factorized_conflict"
+    ],
+    "child_conditions": [
+      "holistic_aligned_hidden_full",
+      "holistic_aligned_hidden_heldout_combo",
+      "holistic_aligned_hidden_heldout_value",
+      "holistic_aligned_visible_full",
+      "holistic_aligned_visible_heldout_combo",
+      "holistic_aligned_visible_heldout_value",
+      "holistic_conflict_hidden_full",
+      "holistic_conflict_hidden_heldout_combo",
+      "holistic_conflict_hidden_heldout_value",
+      "holistic_conflict_visible_full",
+      "holistic_conflict_visible_heldout_combo",
+      "holistic_conflict_visible_heldout_value",
+      "factorized_aligned_hidden_full",
+      "factorized_aligned_hidden_heldout_combo",
+      "factorized_aligned_hidden_heldout_value",
+      "factorized_aligned_visible_full",
+      "factorized_aligned_visible_heldout_combo",
+      "factorized_aligned_visible_heldout_value",
+      "factorized_conflict_hidden_full",
+      "factorized_conflict_hidden_heldout_combo",
+      "factorized_conflict_hidden_heldout_value",
+      "factorized_conflict_visible_full",
+      "factorized_conflict_visible_heldout_combo",
+      "factorized_conflict_visible_heldout_value"
+    ],
+    "updates": 3000,
+    "batch_size": 512,
+    "learning_rate": 0.08,
+    "entropy_initial": 0.01,
+    "checkpoints": [
+      0,
+      500,
+      1000,
+      2000,
+      3000
+    ],
+    "heldout_combo_assignment": {
+      "78601": 0,
+      "78602": 1,
+      "78603": 2,
+      "78604": 3,
+      "78605": 4,
+      "78606": 5,
+      "78607": 6,
+      "78608": 7,
+      "78609": 8
+    },
+    "heldout_value_assignment": {
+      "78601": 0,
+      "78602": 1,
+      "78603": 2,
+      "78604": 0,
+      "78605": 1,
+      "78606": 2,
+      "78607": 0,
+      "78608": 1,
+      "78609": 2
+    },
+    "primary_readouts": [
+      "architecture effect on heldout combination/value return",
+      "live-minus-silent and natural-minus-permuted",
+      "cross-partner code consistency",
+      "slot-wise factor alignment and community conflict cost"
+    ],
+    "functional_rule": "held-out natural return >= 0.60",
+    "no_teacher_or_language_prior": true,
+    "parent_runs": 36,
+    "child_runs": 216,
+    "runs": 252,
+    "runtime_policy": "float64 NumPy only"
+  }
+}
