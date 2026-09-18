@@ -1,0 +1,183 @@
+{
+  "schema": "open_world_grounding_transfer_archive_manifest_v1",
+  "archive": "research_program/open_world_grounding_transfer_study/results/formal_20260918",
+  "payload_file_count": 35,
+  "payload_bytes": 7949602,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1573,
+      "sha256": "a11603b7246bb440464688ac48fc2d423bb44f1e0844a8cf2bcfeb344da7fa81"
+    },
+    {
+      "path": "combined_audit.json",
+      "bytes": 1100,
+      "sha256": "93dd055a2c2976138b7efd9e096f815aeaa26b3ac53624aee56ea47384bc8f93"
+    },
+    {
+      "path": "expansion_aggregate.json",
+      "bytes": 18865,
+      "sha256": "70335cd0d241b1efe7e46a9961126d0ace7021dc0928b498a9f809ab07676b8a"
+    },
+    {
+      "path": "expansion_aggregate.md",
+      "bytes": 931,
+      "sha256": "9af53fac2b0c3b710157584d4bb982b59b5d13ad06adafb34ae9348d500cf022"
+    },
+    {
+      "path": "expansion_results.json",
+      "bytes": 1057784,
+      "sha256": "33647ed66cbc154eedf85e305a53acc737d4405c3c3ca4f436bd7fcbc7047821"
+    },
+    {
+      "path": "expansion_seed_analysis.json",
+      "bytes": 12152,
+      "sha256": "9999b057444a4eec4d2a0311e027b8064c25d5c7b20254cf82ab76e2035763bd"
+    },
+    {
+      "path": "expansion_seed_analysis.md",
+      "bytes": 944,
+      "sha256": "474c5ccaed883682734dbd2aabc8a25169a9811e4afb52a7c517bbb4786090ed"
+    },
+    {
+      "path": "freeze.json",
+      "bytes": 177,
+      "sha256": "933dac80ea7096630689b1429a3df10ed669acbbd2eda48467b2213b00e2f1e5"
+    },
+    {
+      "path": "implementation_note.md",
+      "bytes": 674,
+      "sha256": "017cd3eaf4730f608bb7015e0ee165de88ebf0e5e952a74887c6ed083c8a61b1"
+    },
+    {
+      "path": "part_audits/expansion_part1.json",
+      "bytes": 629,
+      "sha256": "b8e2068fc15c2ec67a040e30816ef6aaf74c56a6cb762ed1539e1c25c90c9dcf"
+    },
+    {
+      "path": "part_audits/expansion_part2.json",
+      "bytes": 629,
+      "sha256": "8db026908165f75d16ca39f3a65527806686f2eebdbdf3d1230a90143abee2fd"
+    },
+    {
+      "path": "part_audits/expansion_part3.json",
+      "bytes": 629,
+      "sha256": "ec1fce05fbc88c40081302decda959f0cd8be8b7305a9cb2b8da81996ee7bfaf"
+    },
+    {
+      "path": "part_audits/transfer_part1.json",
+      "bytes": 433,
+      "sha256": "b1f90b54ea5bf2d5bdbb2a909f5ad40c004d56ceeef197e552c3214e9c11e106"
+    },
+    {
+      "path": "part_audits/transfer_part2.json",
+      "bytes": 433,
+      "sha256": "fc56b84ef98629d5032794a7c9d00e26a2c4cb2b68d6030b30e6ebe9d9be3ba5"
+    },
+    {
+      "path": "part_audits/transfer_part3.json",
+      "bytes": 433,
+      "sha256": "f6ead285a1d1531076743c855af310bbde5e92ca4d478a152b46c1b1933db96e"
+    },
+    {
+      "path": "plan.json",
+      "bytes": 7145,
+      "sha256": "3081403d856a660d4060cb87471ff8d326e3287834690a4ea3746ce1fedecd65"
+    },
+    {
+      "path": "plan.md",
+      "bytes": 2190,
+      "sha256": "4d09da70f8e952e29cec8531497fcbcf5b8edf536501270aec71c6309c0be03c"
+    },
+    {
+      "path": "prepared.json",
+      "bytes": 4776,
+      "sha256": "c8f3bf24ed5941a832cff13f71b8452c11c41e12bdb987ba31be617e665ac367"
+    },
+    {
+      "path": "source_commit.txt",
+      "bytes": 129,
+      "sha256": "46738488dad6fb023ff732707c71c00332aeb62a69aecee1375f30bd710c783d"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_grounding_transfer_study/README.md",
+      "bytes": 1573,
+      "sha256": "a11603b7246bb440464688ac48fc2d423bb44f1e0844a8cf2bcfeb344da7fa81"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_grounding_transfer_study/__init__.py",
+      "bytes": 77,
+      "sha256": "c7a0b0a16637bff2e9eb7f1ac1dca50f147313d454e62bd0cab4b078d5a22b19"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_grounding_transfer_study/aggregate.py",
+      "bytes": 4786,
+      "sha256": "1cbc090dc02ee35a4cc16c124be2c1c0ea027dfa66fd2e3ad4acff476d981313"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_grounding_transfer_study/audit.py",
+      "bytes": 8884,
+      "sha256": "ca09f72982e7ca13903129509790531fba37c87d49da1f76073618437793f47f"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_grounding_transfer_study/design.py",
+      "bytes": 16982,
+      "sha256": "a286dbf395b9292b24d65fe164847712f9a8011af43ad0007b4dd87871f70213"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_grounding_transfer_study/environment.py",
+      "bytes": 9723,
+      "sha256": "4a137b4636dfce7ba9375e8ef5fe8c185d4a207b57449fc0a493a78a24f1736a"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_grounding_transfer_study/plan.md",
+      "bytes": 2190,
+      "sha256": "4d09da70f8e952e29cec8531497fcbcf5b8edf536501270aec71c6309c0be03c"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_grounding_transfer_study/policy.py",
+      "bytes": 11662,
+      "sha256": "f24c81c5c5ee901fc43ef0d2b135c782172a8f517e0d28ea30f3546d34db4c72"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_grounding_transfer_study/runner.py",
+      "bytes": 38832,
+      "sha256": "81658177875cbde1f7581de68388f5297c796622fe9648af3ee6dd5a0be6f6d8"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_grounding_transfer_study/tests/test_game.py",
+      "bytes": 4193,
+      "sha256": "4cf380d9427f1e076d1f8d467eca6f4aa25640b1933337c97ef54f9a2d331227"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_grounding_transfer_study/transfer_analysis.py",
+      "bytes": 5661,
+      "sha256": "501011f5c17583c7df1c5ef995e2e7ff062faa92b863a36185b736a886730acd"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_grounding_transfer_study/transfer_audit.py",
+      "bytes": 6187,
+      "sha256": "fed1d1373b55222500189ee0d52d38b27b03ec00fc8093e170f733c1cca106bc"
+    },
+    {
+      "path": "transfer_analysis.json",
+      "bytes": 88298,
+      "sha256": "c5074d8aa64b66f259a2fdd041d424909a4c4751bd0aaa604119d3f841a3da2d"
+    },
+    {
+      "path": "transfer_analysis.md",
+      "bytes": 6777,
+      "sha256": "c1680b9bb1902564af8d7bced3d254208cf93e4c07fe3b5ce7cdd231fc23837c"
+    },
+    {
+      "path": "transfer_results.json",
+      "bytes": 6631315,
+      "sha256": "bbbc1482c407950a9701f29277710ad18abc48ab7f0b034426406fed5cf9de88"
+    },
+    {
+      "path": "validity.md",
+      "bytes": 836,
+      "sha256": "64632200ae211b40b7dc6b7b013e9450e0e21a30529987a68d5313b83d472b33"
+    }
+  ]
+}

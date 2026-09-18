@@ -1,0 +1,13 @@
+{
+  "schema": "open_world_grounding_transfer_audit_v1",
+  "status": "partial",
+  "prepared_schema": "open_world_grounding_transfer_study_v1",
+  "transfer_runs": 72,
+  "expected_transfer_runs": 216,
+  "training_log_rows": 162000,
+  "checkpoints": 288,
+  "paired_stream_rows": 243000,
+  "max_abs_replay_error": 0.0,
+  "incumbent_frozen": true,
+  "raw_execution_tree": "/private/tmp/open_world_grounding_formal_transfer_p1/execution"
+}

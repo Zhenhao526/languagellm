@@ -45,6 +45,8 @@
 - [开放世界文化传递：冻结 incumbent 后的角色替换正式结果](research_program/open_world_cultural_transmission_study/results/formal_20260918/)
 - [开放世界文化传递实验同步与清理说明](SYNC_2026-09-18_open_world_cultural_transmission.md)
 - [开放世界文化传递本地清理收据](LOCAL_CLEANUP_RECEIPT_2026-09-18_open_world_cultural_transmission.json)
+- [开放世界 grounding transfer：表面置换与组合文化传递正式结果](research_program/open_world_grounding_transfer_study/results/formal_20260918/)
+- [开放世界 grounding transfer 源代码与实验设计](research_program/open_world_grounding_transfer_study/)
 - [population signaling 源代码与紧凑结果](research_program/population_signaling_study/)
 - [本轮同步与清理说明](SYNC_2026-09-17.md)
 - [生态因子化实验同步与清理说明](SYNC_2026-09-18.md)

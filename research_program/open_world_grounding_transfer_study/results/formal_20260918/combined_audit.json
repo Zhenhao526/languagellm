@@ -1,0 +1,30 @@
+{
+  "schema": "open_world_grounding_transfer_combined_audit_v1",
+  "status": "passed",
+  "prepared_schema": "open_world_grounding_transfer_study_v1",
+  "expansion": {
+    "parent_runs": 54,
+    "child_runs": 27,
+    "parent_training_log_rows": 162000,
+    "child_training_log_rows": 81000,
+    "parent_checkpoints": 216,
+    "child_checkpoints": 108,
+    "paired_architecture_rows": 81000
+  },
+  "transfer": {
+    "transfer_runs": 216,
+    "training_log_rows": 486000,
+    "checkpoints": 864,
+    "paired_stream_rows": 729000
+  },
+  "expected": {
+    "parent_runs": 54,
+    "expansion_child_runs": 27,
+    "transfer_runs": 216
+  },
+  "max_abs_replay_error": 0.0,
+  "incumbent_frozen": true,
+  "raw_execution_retained": false,
+  "surface_mapping_pairing": "semantic scene, goal and random streams are shared; fresh_scene_sha256 is expected to differ only between identity and reverse arms",
+  "correction_note": "Only the formal corrected implementation is included; the fresh receiver surface mapping is a stable bijection and the held-out double-new meaning is absent from all transfer supports."
+}

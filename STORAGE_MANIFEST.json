@@ -4,7 +4,7 @@
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
   "remote_commit": "ea76d8cf9d55960495cac008f5f7b178e4632e00",
   "remote_main_verified": true,
-  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix, ecological-factorization formal matrix, compact archive, replay audit and new-combination analysis, object-surface remapping corrected formal matrix, parent surface-shift analysis, replay audit and cleanup receipt, incumbent-worker surface transfer formal matrix, repair curves, replay audit and cleanup receipt, population-level perceptual heterogeneity formal matrix, three-shard replay audit, exploratory pilot curves, identifiability diagnosis and cleanup receipt, multi-partner sender alignment formal matrix, diagnostic smoke, replay audit and cleanup receipt, community codebook conflict and role-symmetric referential game formal matrix, replay audit, compact archive and cleanup receipt, structured factor-sharing architecture intervention, formal matrix, replay audit and cleanup receipt; learnable routing factorization formal matrix, low-gradient sensitivity baseline, replay audits and cleanup receipt; shared sender/receiver routing role-symmetry intervention, tied versus independent routing and combined replay audit; routing initialization control formal matrix, combined replay audit and cleanup receipt; open-world ontology expansion formal matrix, v4 role=2 recombination reevaluation, replay audit, compact archive, invalid-design notes and cleanup receipt; open-world cultural transmission formal matrix, frozen incumbent role replacement, corrected zero-update control, six-shard replay audit, transfer analysis, compact archive and cleanup receipt",
+  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix, ecological-factorization formal matrix, compact archive, replay audit and new-combination analysis, object-surface remapping corrected formal matrix, parent surface-shift analysis, replay audit and cleanup receipt, incumbent-worker surface transfer formal matrix, repair curves, replay audit and cleanup receipt, population-level perceptual heterogeneity formal matrix, three-shard replay audit, exploratory pilot curves, identifiability diagnosis and cleanup receipt, multi-partner sender alignment formal matrix, diagnostic smoke, replay audit and cleanup receipt, community codebook conflict and role-symmetric referential game formal matrix, replay audit, compact archive and cleanup receipt, structured factor-sharing architecture intervention, formal matrix, replay audit and cleanup receipt; learnable routing factorization formal matrix, low-gradient sensitivity baseline, replay audits and cleanup receipt; shared sender/receiver routing role-symmetry intervention, tied versus independent routing and combined replay audit; routing initialization control formal matrix, combined replay audit and cleanup receipt; open-world ontology expansion formal matrix, v4 role=2 recombination reevaluation, replay audit, compact archive, invalid-design notes and cleanup receipt; open-world cultural transmission formal matrix, frozen incumbent role replacement, corrected zero-update control, six-shard replay audit, transfer analysis, compact archive and cleanup receipt; open-world grounding transfer formal matrix, identity/reverse fresh-receiver surface intervention, six-shard replay audit, transfer analysis, compact archive and cleanup receipt",
   "retained_paths": {
     "research_program/action_dependent_signaling_study": {
       "files": 23,
@@ -241,6 +241,22 @@
     "LOCAL_CLEANUP_RECEIPT_2026-09-18_open_world_cultural_transmission.json": {
       "files": 1,
       "bytes": 6407
+    },
+    "research_program/open_world_grounding_transfer_study": {
+      "files": 50,
+      "bytes": 8071492
+    },
+    "research_program/open_world_grounding_transfer_study/results/formal_20260918": {
+      "files": 36,
+      "bytes": 7956022
+    },
+    "SYNC_2026-09-18_open_world_grounding_transfer.md": {
+      "files": 1,
+      "bytes": 927
+    },
+    "LOCAL_CLEANUP_RECEIPT_2026-09-18_open_world_grounding_transfer.json": {
+      "files": 1,
+      "bytes": 4484
     }
   },
   "compact_archives": {
@@ -359,6 +375,10 @@
     "research_program/routing_initialization_control_study/results/formal_20260918": {
       "files": 27,
       "bytes": 1664514
+    },
+    "research_program/open_world_grounding_transfer_study/results/formal_20260918": {
+      "files": 36,
+      "bytes": 7956022
     }
   },
   "raw_execution_trees": {
@@ -3024,31 +3044,32 @@
     }
   },
   "latest_batch": {
-    "name": "open_world_cultural_transmission_20260918",
-    "source_commit": "f2e46725b5031ac8868be1073452578b686208a8",
-    "archive": "research_program/open_world_cultural_transmission_study/results/formal_20260918",
+    "name": "open_world_grounding_transfer_20260918",
+    "source_commit": "5d5ab6bbea5af2c36caf3d8e182278a0ad2b99f0",
+    "archive": "research_program/open_world_grounding_transfer_study/results/formal_20260918",
     "archive_stats": {
-      "files": 38,
-      "bytes": 2984082
+      "files": 36,
+      "bytes": 7956022
     },
     "archive_payload_stats": {
-      "files": 37,
-      "bytes": 2977171
+      "files": 35,
+      "bytes": 7949602
     },
-    "audit": "combined expansion+transfer replay passed; max_abs_replay_error=0.0; incumbent frozen",
+    "archive_manifest_sha256": "1f3d3d386f79daf15ed918d53a8f445191a666dd3a9680d1d1bfcd95d24f2a8d",
+    "audit": "combined expansion+transfer replay passed; max_abs_replay_error=0.0; incumbent frozen; mapping pairing checked",
     "raw_execution_retained": false,
-    "raw_paths_deleted": 41,
-    "files_deleted": 1381,
-    "bytes_removed": 548975928,
-    "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18_open_world_cultural_transmission.json",
-    "correction_archived": "expanded_single_none formal control uses 0 updates; unintended diagnostic batch discarded",
+    "raw_paths_deleted": 28,
+    "files_deleted": 2179,
+    "bytes_removed": 974114379,
+    "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18_open_world_grounding_transfer.json",
     "verified_paths_absent": true,
     "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
-    "remote_commit": "ea76d8cf9d55960495cac008f5f7b178e4632e00",
+    "remote_commit": "pending final push",
     "source_package_stats": {
-      "files": 52,
-      "bytes": 3094567
-    }
+      "files": 50,
+      "bytes": 8071492
+    },
+    "design_note": "fresh receiver sees identity or reverse=[3,2,1,0]; semantic stream and random uniforms are paired"
   },
   "community_merge_batch": {
     "name": "community_merge_20260918",
@@ -3251,5 +3272,33 @@
       "files": 52,
       "bytes": 3094567
     }
+  },
+  "open_world_grounding_transfer_batch": {
+    "name": "open_world_grounding_transfer_20260918",
+    "source_commit": "5d5ab6bbea5af2c36caf3d8e182278a0ad2b99f0",
+    "archive": "research_program/open_world_grounding_transfer_study/results/formal_20260918",
+    "archive_stats": {
+      "files": 36,
+      "bytes": 7956022
+    },
+    "archive_payload_stats": {
+      "files": 35,
+      "bytes": 7949602
+    },
+    "archive_manifest_sha256": "1f3d3d386f79daf15ed918d53a8f445191a666dd3a9680d1d1bfcd95d24f2a8d",
+    "audit": "combined expansion+transfer replay passed; max_abs_replay_error=0.0; incumbent frozen; mapping pairing checked",
+    "raw_execution_retained": false,
+    "raw_paths_deleted": 28,
+    "files_deleted": 2179,
+    "bytes_removed": 974114379,
+    "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18_open_world_grounding_transfer.json",
+    "verified_paths_absent": true,
+    "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+    "remote_commit": "pending final push",
+    "source_package_stats": {
+      "files": 50,
+      "bytes": 8071492
+    },
+    "design_note": "fresh receiver sees identity or reverse=[3,2,1,0]; semantic stream and random uniforms are paired"
   }
 }

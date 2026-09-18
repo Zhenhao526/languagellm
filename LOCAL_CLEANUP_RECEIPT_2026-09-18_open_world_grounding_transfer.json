@@ -1,0 +1,158 @@
+{
+  "schema": "local_cleanup_receipt_v1",
+  "created": "2026-09-18",
+  "batch": "open_world_grounding_transfer_20260918",
+  "archive": "research_program/open_world_grounding_transfer_study/results/formal_20260918",
+  "archive_manifest_sha256": "1f3d3d386f79daf15ed918d53a8f445191a666dd3a9680d1d1bfcd95d24f2a8d",
+  "archive_payload_file_count": 35,
+  "archive_payload_bytes": 7949602,
+  "combined_audit_sha256": "93dd055a2c2976138b7efd9e096f815aeaa26b3ac53624aee56ea47384bc8f93",
+  "combined_audit_status": "passed",
+  "combined_audit_max_abs_replay_error": 0.0,
+  "removed_paths": [
+    {
+      "path": "/private/tmp/open_world_grounding_expansion_pilot",
+      "files": 74,
+      "bytes": 9741794
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_expansion_pilot_audit.json",
+      "files": 1,
+      "bytes": 621
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_formal_expansion_aggregate.json",
+      "files": 1,
+      "bytes": 18865
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_formal_expansion_aggregate.md",
+      "files": 1,
+      "bytes": 931
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_formal_expansion_audit_p1.json",
+      "files": 1,
+      "bytes": 629
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_formal_expansion_audit_p2.json",
+      "files": 1,
+      "bytes": 629
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_formal_expansion_audit_p3.json",
+      "files": 1,
+      "bytes": 629
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_formal_expansion_p1",
+      "files": 191,
+      "bytes": 83305470
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_formal_expansion_p2",
+      "files": 191,
+      "bytes": 83309582
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_formal_expansion_p3",
+      "files": 191,
+      "bytes": 83301593
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_formal_expansion_seed_analysis.json",
+      "files": 1,
+      "bytes": 12152
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_formal_expansion_seed_analysis.md",
+      "files": 1,
+      "bytes": 944
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_formal_merged_expansion_results.json",
+      "files": 1,
+      "bytes": 1057055
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_formal_merged_transfer_results.json",
+      "files": 1,
+      "bytes": 6627427
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_formal_prepared_v2",
+      "files": 15,
+      "bytes": 122848
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_formal_transfer_analysis.json",
+      "files": 1,
+      "bytes": 88298
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_formal_transfer_analysis.md",
+      "files": 1,
+      "bytes": 6777
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_formal_transfer_audit_p1.json",
+      "files": 1,
+      "bytes": 433
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_formal_transfer_audit_p2.json",
+      "files": 1,
+      "bytes": 433
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_formal_transfer_audit_p3.json",
+      "files": 1,
+      "bytes": 433
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_formal_transfer_p1",
+      "files": 434,
+      "bytes": 226605144
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_formal_transfer_p2",
+      "files": 434,
+      "bytes": 226592622
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_formal_transfer_p3",
+      "files": 434,
+      "bytes": 226583306
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_prepared",
+      "files": 15,
+      "bytes": 121924
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_transfer_pilot",
+      "files": 182,
+      "bytes": 26561619
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_transfer_pilot_analysis.json",
+      "files": 1,
+      "bytes": 45677
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_transfer_pilot_analysis.md",
+      "files": 1,
+      "bytes": 6118
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_transfer_pilot_audit.json",
+      "files": 1,
+      "bytes": 426
+    }
+  ],
+  "removed_file_count": 2179,
+  "removed_bytes": 974114379,
+  "remaining_raw_temp_matches": [],
+  "policy": "formal replay verified before deleting all raw execution trees, audit intermediates and temporary payloads; compact archive and source remain."
+}
