@@ -1,0 +1,33 @@
+{
+  "schema": "routing_initialization_control_audit_v1",
+  "status": "passed",
+  "prepared_schema": "routing_initialization_control_study_v1",
+  "parent_runs": 54,
+  "child_runs": 81,
+  "expected_parent_runs": 54,
+  "expected_child_runs": 81,
+  "parent_training_log_rows": 162000,
+  "child_training_log_rows": 243000,
+  "parent_checkpoints": 216,
+  "child_checkpoints": 324,
+  "paired_architecture_rows": 243000,
+  "paired_visibility_rows": 0,
+  "paired_population_rows": 0,
+  "paired_support_rows": 162000,
+  "max_abs_replay_error": 0.0,
+  "shards": [
+    {
+      "audit": "/private/tmp/routing_init_control_formal_part1/audit.json",
+      "raw_execution_tree": "/private/tmp/routing_init_control_formal_part1/execution"
+    },
+    {
+      "audit": "/private/tmp/routing_init_control_formal_part2/audit.json",
+      "raw_execution_tree": "/private/tmp/routing_init_control_formal_part2/execution"
+    },
+    {
+      "audit": "/private/tmp/routing_init_control_formal_part3/audit.json",
+      "raw_execution_tree": "/private/tmp/routing_init_control_formal_part3/execution"
+    }
+  ],
+  "merged_execution_tree": "/private/tmp/routing_init_control_formal_merged"
+}

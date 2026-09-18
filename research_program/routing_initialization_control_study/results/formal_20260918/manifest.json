@@ -1,0 +1,138 @@
+{
+  "schema": "routing_initialization_control_archive_manifest_v1",
+  "archive": "research_program/routing_initialization_control_study/results/formal_20260918",
+  "payload_file_count": 26,
+  "payload_bytes": 1659651,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1090,
+      "sha256": "76d2053b48f1c7f7990244276dbfaa768bcb46f170d47506ac299202fa5a55ca"
+    },
+    {
+      "path": "aggregate.json",
+      "bytes": 62208,
+      "sha256": "7f258968a920a512b60a9ee9acd66ba656388b86e3bacdab029d72e0c04c67b6"
+    },
+    {
+      "path": "aggregate.md",
+      "bytes": 2657,
+      "sha256": "1456df0065414fae30a78f4197af7cac57eede18078d4f668d9f976599a19d6c"
+    },
+    {
+      "path": "combined_audit.json",
+      "bytes": 1164,
+      "sha256": "99384f075d9afa502664e26cf155ca0a1f30b4ff566a57bb958a055572ce23b3"
+    },
+    {
+      "path": "freeze.json",
+      "bytes": 177,
+      "sha256": "c1bc9a502df0704e1cc85d7e39321bbd21425b8d1d6ca49e2ecadb0006e0f2db"
+    },
+    {
+      "path": "part_audits/part1.json",
+      "bytes": 604,
+      "sha256": "eccb20e2e9b878d9906c379bc49d99b59285a1857bbb2fde7c9fb70600c92697"
+    },
+    {
+      "path": "part_audits/part2.json",
+      "bytes": 604,
+      "sha256": "07940f01c3ef7b2e040b0131c16f0ec3fd944ca6d5f53f38a4d8e14948a0503b"
+    },
+    {
+      "path": "part_audits/part3.json",
+      "bytes": 604,
+      "sha256": "851a83a0c1bc133f4fdae6cb59846adc01b1a0b5bc5267854d1c9034c42f6d94"
+    },
+    {
+      "path": "plan.json",
+      "bytes": 5121,
+      "sha256": "d9e7deaa56db861e689dc4f6e74a561e5035c71de944a3254ca27a9fee00acc4"
+    },
+    {
+      "path": "prepared.json",
+      "bytes": 3148,
+      "sha256": "7178a0eefedb7058afcf46fbf2637b604f53f57bb847027b482279385f091167"
+    },
+    {
+      "path": "results.json",
+      "bytes": 1392555,
+      "sha256": "dc2fec2035ebfddae2495712ae59b2ebc928716a3f482c4732d723e90577fb74"
+    },
+    {
+      "path": "seed_analysis.json",
+      "bytes": 94960,
+      "sha256": "d23974222eab6a57a7b7235f06a03a07a7877b4af835295e91956becd3b65bdd"
+    },
+    {
+      "path": "seed_analysis.md",
+      "bytes": 528,
+      "sha256": "71fcb878b47b46c3c846f00e6cdf8ba03359d3e326c9e60421b7b5e4307a1a53"
+    },
+    {
+      "path": "source_commit.txt",
+      "bytes": 53,
+      "sha256": "2729bd84b8607a3ec547c4352383487cffa06c192bcb1d2dec625d397c13ad05"
+    },
+    {
+      "path": "source_snapshot/research_program/routing_initialization_control_study/README.md",
+      "bytes": 958,
+      "sha256": "7e3b0a10c05f807d1039550d548336a6674b112f706013aa88b15f2b49cd246c"
+    },
+    {
+      "path": "source_snapshot/research_program/routing_initialization_control_study/__init__.py",
+      "bytes": 77,
+      "sha256": "c7a0b0a16637bff2e9eb7f1ac1dca50f147313d454e62bd0cab4b078d5a22b19"
+    },
+    {
+      "path": "source_snapshot/research_program/routing_initialization_control_study/aggregate.py",
+      "bytes": 9129,
+      "sha256": "b7b1f57b0e611f6bb61ec318868a8e6788813d2ad28499689e20d96e833c2f21"
+    },
+    {
+      "path": "source_snapshot/research_program/routing_initialization_control_study/audit.py",
+      "bytes": 10040,
+      "sha256": "352ff8889e074d34efd3150b61a850675b58183448d4621724e330cf7d13b055"
+    },
+    {
+      "path": "source_snapshot/research_program/routing_initialization_control_study/design.py",
+      "bytes": 12118,
+      "sha256": "3211d2222cc57a25a85a8607147b65a395ecd032ce854126016553f5cc76a50e"
+    },
+    {
+      "path": "source_snapshot/research_program/routing_initialization_control_study/environment.py",
+      "bytes": 9303,
+      "sha256": "c3a5de15699176ae6c6ed30a167239d9c2348a813ec89e7443bb148fc597ca14"
+    },
+    {
+      "path": "source_snapshot/research_program/routing_initialization_control_study/plan.md",
+      "bytes": 1431,
+      "sha256": "a39034562cd6dda1d9a13c0555130fbb5fc5be7ba051b599eb9d054f53ecba49"
+    },
+    {
+      "path": "source_snapshot/research_program/routing_initialization_control_study/policy.py",
+      "bytes": 11755,
+      "sha256": "91fbcc4d6915c11f3350daae814cc419e677a95b1885e6ea5ddd28c28ef66336"
+    },
+    {
+      "path": "source_snapshot/research_program/routing_initialization_control_study/runner.py",
+      "bytes": 29531,
+      "sha256": "cda2370173edd316e3b3c6b8174eae5719ef7bb19f6acf4ab0a213716cc1c13e"
+    },
+    {
+      "path": "source_snapshot/research_program/routing_initialization_control_study/seed_analysis.py",
+      "bytes": 7152,
+      "sha256": "f17a28dc52002002452df18b865c61529154090e03212ea2d25c2aa9e6766af0"
+    },
+    {
+      "path": "source_snapshot/research_program/routing_initialization_control_study/tests/test_game.py",
+      "bytes": 1916,
+      "sha256": "68d6a093d05cf11aeb6e80cffc3e61bb22701b3cacf901d7132858de515b38ba"
+    },
+    {
+      "path": "validity.md",
+      "bytes": 768,
+      "sha256": "af37d69117e8cf7b224ae258d2956fa6ec782c7219df471208c0cf41d58c54d4"
+    }
+  ]
+}

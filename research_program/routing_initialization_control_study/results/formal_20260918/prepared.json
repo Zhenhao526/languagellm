@@ -1,0 +1,162 @@
+{
+  "schema": "routing_initialization_control_study_v1",
+  "task": "referential_selection",
+  "form": {
+    "name": "quad2",
+    "alphabet_size": 4,
+    "length": 2,
+    "message_state_count": 17
+  },
+  "architectures": [
+    "routed",
+    "sync_routed",
+    "tied_routed"
+  ],
+  "architecture_intervention": "routed learns independent random sender/receiver routes; sync_routed initializes independent routes identically; tied_routed shares one route during learning; all arms keep separate factor tables",
+  "attributes": 2,
+  "values_per_attribute": 3,
+  "meanings": 9,
+  "scene_size": 4,
+  "communities": 2,
+  "partners_per_community": 2,
+  "partners": 4,
+  "populations": [
+    "aligned"
+  ],
+  "visibilities": [
+    "hidden"
+  ],
+  "supports": [
+    "full",
+    "heldout_combo",
+    "heldout_value"
+  ],
+  "roles": [
+    "alternating"
+  ],
+  "channels": [
+    "live",
+    "silent"
+  ],
+  "surface_rule": "aligned identity in both communities; conflict swaps (0,1) and (2,3) in community 1",
+  "role_rule": "alternating balances fresh sender and fresh receiver for all four partners",
+  "message_symbols": [
+    "@",
+    "#",
+    "￥",
+    "%"
+  ],
+  "goal_pairs": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ]
+  ],
+  "seeds": [
+    78701,
+    78702,
+    78703,
+    78704,
+    78705,
+    78706,
+    78707,
+    78708,
+    78709
+  ],
+  "parent_conditions": [
+    "routed_aligned",
+    "sync_routed_aligned",
+    "tied_routed_aligned"
+  ],
+  "child_conditions": [
+    "routed_aligned_hidden_full",
+    "routed_aligned_hidden_heldout_combo",
+    "routed_aligned_hidden_heldout_value",
+    "sync_routed_aligned_hidden_full",
+    "sync_routed_aligned_hidden_heldout_combo",
+    "sync_routed_aligned_hidden_heldout_value",
+    "tied_routed_aligned_hidden_full",
+    "tied_routed_aligned_hidden_heldout_combo",
+    "tied_routed_aligned_hidden_heldout_value"
+  ],
+  "updates": 3000,
+  "batch_size": 512,
+  "learning_rate": 0.08,
+  "route_init_scale": 0.5,
+  "route_temperature": 5.0,
+  "entropy_initial": 0.01,
+  "checkpoints": [
+    0,
+    500,
+    1000,
+    2000,
+    3000
+  ],
+  "heldout_combo_assignment": {
+    "78701": 0,
+    "78702": 1,
+    "78703": 2,
+    "78704": 3,
+    "78705": 4,
+    "78706": 5,
+    "78707": 6,
+    "78708": 7,
+    "78709": 8
+  },
+  "heldout_value_assignment": {
+    "78701": 0,
+    "78702": 1,
+    "78703": 2,
+    "78704": 0,
+    "78705": 1,
+    "78706": 2,
+    "78707": 0,
+    "78708": 1,
+    "78709": 2
+  },
+  "primary_readouts": [
+    "architecture effect on heldout combination/value return",
+    "live-minus-silent and natural-minus-permuted",
+    "cross-partner code consistency",
+    "slot-wise factor alignment and community conflict cost",
+    "routing alignment up to slot permutation"
+  ],
+  "functional_rule": "held-out natural return >= 0.60",
+  "no_teacher_or_language_prior": true,
+  "parent_runs": 27,
+  "child_runs": 81,
+  "runs": 108,
+  "runtime_policy": "float64 NumPy only"
+}

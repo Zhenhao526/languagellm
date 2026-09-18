@@ -1,0 +1,67 @@
+{
+  "schema": "local_cleanup_receipt_v1",
+  "created": "2026-09-18",
+  "batch": "routing_initialization_control_20260918",
+  "archive": "research_program/routing_initialization_control_study/results/formal_20260918",
+  "archive_manifest_sha256": "eb4c0778751582c89ffd0e432044eb1496941fac80d1ab36b9cf8ee56838ba1b",
+  "archive_payload_file_count": 26,
+  "archive_payload_bytes": 1659651,
+  "combined_audit_sha256": "99384f075d9afa502664e26cf155ca0a1f30b4ff566a57bb958a055572ce23b3",
+  "combined_audit_status": "passed",
+  "removed_paths": [
+    {
+      "path": "/private/tmp/routing_init_control_formal_merged",
+      "files": 6,
+      "bytes": 1554072
+    },
+    {
+      "path": "/private/tmp/routing_init_control_formal_part1",
+      "files": 318,
+      "bytes": 136561990
+    },
+    {
+      "path": "/private/tmp/routing_init_control_formal_part2",
+      "files": 318,
+      "bytes": 136563807
+    },
+    {
+      "path": "/private/tmp/routing_init_control_formal_part3",
+      "files": 318,
+      "bytes": 136561800
+    },
+    {
+      "path": "/private/tmp/routing_init_control_formal_prepared",
+      "files": 13,
+      "bytes": 94704
+    },
+    {
+      "path": "/private/tmp/routing_init_control_pilot_analysis.json",
+      "files": 1,
+      "bytes": 55972
+    },
+    {
+      "path": "/private/tmp/routing_init_control_pilot_analysis.md",
+      "files": 1,
+      "bytes": 2660
+    },
+    {
+      "path": "/private/tmp/routing_init_control_pilot_audit.json",
+      "files": 1,
+      "bytes": 602
+    },
+    {
+      "path": "/private/tmp/routing_init_control_pilot_execution",
+      "files": 92,
+      "bytes": 23044396
+    },
+    {
+      "path": "/private/tmp/routing_init_control_pilot_prepared",
+      "files": 13,
+      "bytes": 94704
+    }
+  ],
+  "removed_file_count": 1081,
+  "removed_bytes": 434534707,
+  "remaining_raw_temp_matches": [],
+  "policy": "raw training logs, checkpoints, pilot trees and merged temporary payloads removed after archive and replay-audit verification; compact source, endpoint results, audit receipts and hashes retained in the repository."
+}

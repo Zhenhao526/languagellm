@@ -1,0 +1,19 @@
+{
+  "schema": "shared_routing_audit_v1",
+  "status": "partial",
+  "prepared_schema": "routing_initialization_control_study_v1",
+  "parent_runs": 18,
+  "child_runs": 27,
+  "expected_parent_runs": 54,
+  "expected_child_runs": 81,
+  "parent_training_log_rows": 54000,
+  "child_training_log_rows": 81000,
+  "parent_checkpoints": 72,
+  "child_checkpoints": 108,
+  "paired_architecture_rows": 81000,
+  "paired_visibility_rows": 0,
+  "paired_population_rows": 0,
+  "paired_support_rows": 54000,
+  "max_abs_replay_error": 0.0,
+  "raw_execution_tree": "/private/tmp/routing_init_control_formal_part3/execution"
+}

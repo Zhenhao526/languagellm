@@ -1,0 +1,3091 @@
+{
+  "schema": "routing_initialization_control_seed_analysis_v1",
+  "seed_rows": [
+    {
+      "seed": 78701,
+      "architecture": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "full",
+      "all_natural": 0.3505859375,
+      "heldout_combo_natural": 0.16961669921875,
+      "heldout_value_natural": 0.56634521484375,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.12908935546875,
+      "sender_route_best_alignment": 0.6024043317632138,
+      "receiver_route_best_alignment": 0.8010679825139992,
+      "route_mismatch_mean_abs": 0.5258171201504677,
+      "sender_route_entropy": 0.40105084515577016,
+      "receiver_route_entropy": 0.3648909610210521
+    },
+    {
+      "seed": 78701,
+      "architecture": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_combo",
+      "all_natural": 0.1424560546875,
+      "heldout_combo_natural": -0.25,
+      "heldout_value_natural": 0.08050537109375,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": -0.29052734375,
+      "sender_route_best_alignment": 0.6027088928368118,
+      "receiver_route_best_alignment": 0.7178902232459593,
+      "route_mismatch_mean_abs": 0.6129599392375269,
+      "sender_route_entropy": 0.401395803073035,
+      "receiver_route_entropy": 0.36463344542334625
+    },
+    {
+      "seed": 78701,
+      "architecture": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_value",
+      "all_natural": 0.17266845703125,
+      "heldout_combo_natural": -0.21490478515625,
+      "heldout_value_natural": -0.23809814453125,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": -0.25543212890625,
+      "sender_route_best_alignment": 0.6062066450497368,
+      "receiver_route_best_alignment": 0.5019142568557463,
+      "route_mismatch_mean_abs": 0.8287107696124012,
+      "sender_route_entropy": 0.4053152001036476,
+      "receiver_route_entropy": 0.034349531534991186
+    },
+    {
+      "seed": 78701,
+      "architecture": "sync_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "full",
+      "all_natural": 0.57489013671875,
+      "heldout_combo_natural": 0.35150146484375,
+      "heldout_value_natural": 0.525146484375,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.31097412109375,
+      "sender_route_best_alignment": 0.5006586775046994,
+      "receiver_route_best_alignment": 0.5002114568897833,
+      "route_mismatch_mean_abs": 0.0005664289319888401,
+      "sender_route_entropy": 0.01674411350260139,
+      "receiver_route_entropy": 0.020183124970688422
+    },
+    {
+      "seed": 78701,
+      "architecture": "sync_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_combo",
+      "all_natural": 0.57672119140625,
+      "heldout_combo_natural": 0.18060302734375,
+      "heldout_value_natural": 0.47113037109375,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.14007568359375,
+      "sender_route_best_alignment": 0.500692926051033,
+      "receiver_route_best_alignment": 0.5002617455664838,
+      "route_mismatch_mean_abs": 0.0006621455708470812,
+      "sender_route_entropy": 0.017042444991777674,
+      "receiver_route_entropy": 0.02102891313309002
+    },
+    {
+      "seed": 78701,
+      "architecture": "sync_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_value",
+      "all_natural": 0.5745849609375,
+      "heldout_combo_natural": 0.18060302734375,
+      "heldout_value_natural": 0.33624267578125,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.14007568359375,
+      "sender_route_best_alignment": 0.5006814446922364,
+      "receiver_route_best_alignment": 0.5009714188394672,
+      "route_mismatch_mean_abs": 0.0015205980501491415,
+      "sender_route_entropy": 0.017011065779021374,
+      "receiver_route_entropy": 0.02573230872333032
+    },
+    {
+      "seed": 78701,
+      "architecture": "tied_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "full",
+      "all_natural": 0.5745849609375,
+      "heldout_combo_natural": 0.37835693359375,
+      "heldout_value_natural": 0.57763671875,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.33782958984375,
+      "sender_route_best_alignment": 0.5147503164518972,
+      "receiver_route_best_alignment": 0.5147503164518972,
+      "route_mismatch_mean_abs": 0.0,
+      "sender_route_entropy": 0.06981187867658493,
+      "receiver_route_entropy": 0.06981187867658493
+    },
+    {
+      "seed": 78701,
+      "architecture": "tied_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_combo",
+      "all_natural": 0.5697021484375,
+      "heldout_combo_natural": 0.60357666015625,
+      "heldout_value_natural": 0.57794189453125,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.56304931640625,
+      "sender_route_best_alignment": 0.9844830089246945,
+      "receiver_route_best_alignment": 0.9844830089246945,
+      "route_mismatch_mean_abs": 0.0,
+      "sender_route_entropy": 0.07060025213148845,
+      "receiver_route_entropy": 0.07060025213148845
+    },
+    {
+      "seed": 78701,
+      "architecture": "tied_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_value",
+      "all_natural": 0.31610107421875,
+      "heldout_combo_natural": -0.14593505859375,
+      "heldout_value_natural": -0.20025634765625,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": -0.18646240234375,
+      "sender_route_best_alignment": 0.5043147754606376,
+      "receiver_route_best_alignment": 0.5043147754606376,
+      "route_mismatch_mean_abs": 0.0,
+      "sender_route_entropy": 0.029487501644385017,
+      "receiver_route_entropy": 0.029487501644385017
+    },
+    {
+      "seed": 78702,
+      "architecture": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "full",
+      "all_natural": 0.7607421875,
+      "heldout_combo_natural": 0.7747802734375,
+      "heldout_value_natural": 0.6337890625,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.718994140625,
+      "sender_route_best_alignment": 0.8414545064523364,
+      "receiver_route_best_alignment": 0.8375707698442372,
+      "route_mismatch_mean_abs": 0.24587701515580146,
+      "sender_route_entropy": 0.3648491236487011,
+      "receiver_route_entropy": 0.39010267417407946
+    },
+    {
+      "seed": 78702,
+      "architecture": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_combo",
+      "all_natural": 0.5263671875,
+      "heldout_combo_natural": 0.375,
+      "heldout_value_natural": 0.407958984375,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.3192138671875,
+      "sender_route_best_alignment": 0.8425926855541315,
+      "receiver_route_best_alignment": 0.5407960780892145,
+      "route_mismatch_mean_abs": 0.5751920360857312,
+      "sender_route_entropy": 0.3636634169461233,
+      "receiver_route_entropy": 0.19216702638587185
+    },
+    {
+      "seed": 78702,
+      "architecture": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_value",
+      "all_natural": 0.51507568359375,
+      "heldout_combo_natural": 1.0,
+      "heldout_value_natural": -0.0198974609375,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.9442138671875,
+      "sender_route_best_alignment": 0.8716956542305236,
+      "receiver_route_best_alignment": 0.501142418950403,
+      "route_mismatch_mean_abs": 0.5931274771903913,
+      "sender_route_entropy": 0.3338543899164039,
+      "receiver_route_entropy": 0.037272994889485524
+    },
+    {
+      "seed": 78702,
+      "architecture": "sync_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "full",
+      "all_natural": 0.5794677734375,
+      "heldout_combo_natural": 0.60662841796875,
+      "heldout_value_natural": 0.57794189453125,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.55084228515625,
+      "sender_route_best_alignment": 0.500064820929841,
+      "receiver_route_best_alignment": 0.501663360641232,
+      "route_mismatch_mean_abs": 0.0015985397113911011,
+      "sender_route_entropy": 0.03504593182859969,
+      "receiver_route_entropy": 0.04169277942463727
+    },
+    {
+      "seed": 78702,
+      "architecture": "sync_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_combo",
+      "all_natural": 0.5806884765625,
+      "heldout_combo_natural": 0.60662841796875,
+      "heldout_value_natural": 0.63470458984375,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.55084228515625,
+      "sender_route_best_alignment": 0.5000506414630983,
+      "receiver_route_best_alignment": 0.5021465826974105,
+      "route_mismatch_mean_abs": 0.0020959412343122706,
+      "sender_route_entropy": 0.03447733625015925,
+      "receiver_route_entropy": 0.041271363759443194
+    },
+    {
+      "seed": 78702,
+      "architecture": "sync_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_value",
+      "all_natural": 0.50592041015625,
+      "heldout_combo_natural": 1.0,
+      "heldout_value_natural": 0.10125732421875,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.9442138671875,
+      "sender_route_best_alignment": 0.5001411239528156,
+      "receiver_route_best_alignment": 0.9964097883541467,
+      "route_mismatch_mean_abs": 0.496268664401331,
+      "sender_route_entropy": 0.035861030175810535,
+      "receiver_route_entropy": 0.023709966827834657
+    },
+    {
+      "seed": 78702,
+      "architecture": "tied_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "full",
+      "all_natural": 0.57366943359375,
+      "heldout_combo_natural": 0.17694091796875,
+      "heldout_value_natural": 0.57794189453125,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.12115478515625,
+      "sender_route_best_alignment": 0.5001482756160567,
+      "receiver_route_best_alignment": 0.5001482756160567,
+      "route_mismatch_mean_abs": 0.0,
+      "sender_route_entropy": 0.008210526122440453,
+      "receiver_route_entropy": 0.008210526122440453
+    },
+    {
+      "seed": 78702,
+      "architecture": "tied_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_combo",
+      "all_natural": 0.57366943359375,
+      "heldout_combo_natural": 0.17694091796875,
+      "heldout_value_natural": 0.57794189453125,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.12115478515625,
+      "sender_route_best_alignment": 0.5001532607555332,
+      "receiver_route_best_alignment": 0.5001532607555332,
+      "route_mismatch_mean_abs": 0.0,
+      "sender_route_entropy": 0.008304803713880789,
+      "receiver_route_entropy": 0.008304803713880789
+    },
+    {
+      "seed": 78702,
+      "architecture": "tied_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_value",
+      "all_natural": 0.3048095703125,
+      "heldout_combo_natural": 0.17694091796875,
+      "heldout_value_natural": -0.25,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.12115478515625,
+      "sender_route_best_alignment": 0.500184370436682,
+      "receiver_route_best_alignment": 0.500184370436682,
+      "route_mismatch_mean_abs": 0.0,
+      "sender_route_entropy": 0.009400994633702177,
+      "receiver_route_entropy": 0.009400994633702177
+    },
+    {
+      "seed": 78703,
+      "architecture": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "full",
+      "all_natural": 0.56817626953125,
+      "heldout_combo_natural": 0.59747314453125,
+      "heldout_value_natural": 0.5684814453125,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.52154541015625,
+      "sender_route_best_alignment": 0.5005555045434633,
+      "receiver_route_best_alignment": 0.5000498465591271,
+      "route_mismatch_mean_abs": 0.001191045309616947,
+      "sender_route_entropy": 0.010589461985575768,
+      "receiver_route_entropy": 0.01811183955386719
+    },
+    {
+      "seed": 78703,
+      "architecture": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_combo",
+      "all_natural": 0.569091796875,
+      "heldout_combo_natural": 0.18792724609375,
+      "heldout_value_natural": 0.5684814453125,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.11199951171875,
+      "sender_route_best_alignment": 0.500551433218736,
+      "receiver_route_best_alignment": 0.5000671253062233,
+      "route_mismatch_mean_abs": 0.001208141263273046,
+      "sender_route_entropy": 0.010627869080840815,
+      "receiver_route_entropy": 0.018245928255164676
+    },
+    {
+      "seed": 78703,
+      "architecture": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_value",
+      "all_natural": 0.296875,
+      "heldout_combo_natural": 0.59747314453125,
+      "heldout_value_natural": -0.25,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.52154541015625,
+      "sender_route_best_alignment": 0.5006896860198763,
+      "receiver_route_best_alignment": 0.5000654507756157,
+      "route_mismatch_mean_abs": 0.0016073934027378027,
+      "sender_route_entropy": 0.011838867714930656,
+      "receiver_route_entropy": 0.02170158152177778
+    },
+    {
+      "seed": 78703,
+      "architecture": "sync_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "full",
+      "all_natural": 0.57122802734375,
+      "heldout_combo_natural": 0.59747314453125,
+      "heldout_value_natural": 0.56390380859375,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.52154541015625,
+      "sender_route_best_alignment": 0.5005492925675435,
+      "receiver_route_best_alignment": 0.5011093889262591,
+      "route_mismatch_mean_abs": 0.0006474459828226488,
+      "sender_route_entropy": 0.01057999811472695,
+      "receiver_route_entropy": 0.014491511485497953
+    },
+    {
+      "seed": 78703,
+      "architecture": "sync_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_combo",
+      "all_natural": 0.56756591796875,
+      "heldout_combo_natural": 0.18792724609375,
+      "heldout_value_natural": 0.56390380859375,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.11199951171875,
+      "sender_route_best_alignment": 0.5005468837088224,
+      "receiver_route_best_alignment": 0.5012004377618895,
+      "route_mismatch_mean_abs": 0.0007325846741489817,
+      "sender_route_entropy": 0.010625057647451686,
+      "receiver_route_entropy": 0.015017136973948922
+    },
+    {
+      "seed": 78703,
+      "architecture": "sync_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_value",
+      "all_natural": 0.30206298828125,
+      "heldout_combo_natural": 0.59747314453125,
+      "heldout_value_natural": -0.25,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.52154541015625,
+      "sender_route_best_alignment": 0.5006843350901257,
+      "receiver_route_best_alignment": 0.5014808990725967,
+      "route_mismatch_mean_abs": 0.000894025201120086,
+      "sender_route_entropy": 0.01184063782585125,
+      "receiver_route_entropy": 0.017056879587515644
+    },
+    {
+      "seed": 78703,
+      "architecture": "tied_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "full",
+      "all_natural": 1.0,
+      "heldout_combo_natural": 1.0,
+      "heldout_value_natural": 1.0,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.924072265625,
+      "sender_route_best_alignment": 0.9992459254043291,
+      "receiver_route_best_alignment": 0.9992459254043291,
+      "route_mismatch_mean_abs": 0.0,
+      "sender_route_entropy": 0.00613244837793042,
+      "receiver_route_entropy": 0.00613244837793042
+    },
+    {
+      "seed": 78703,
+      "architecture": "tied_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_combo",
+      "all_natural": 1.0,
+      "heldout_combo_natural": 1.0,
+      "heldout_value_natural": 1.0,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.924072265625,
+      "sender_route_best_alignment": 0.9992288023278628,
+      "receiver_route_best_alignment": 0.9992288023278628,
+      "route_mismatch_mean_abs": 0.0,
+      "sender_route_entropy": 0.006258688288248657,
+      "receiver_route_entropy": 0.006258688288248657
+    },
+    {
+      "seed": 78703,
+      "architecture": "tied_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_value",
+      "all_natural": 0.69085693359375,
+      "heldout_combo_natural": 1.0,
+      "heldout_value_natural": 0.08172607421875,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.924072265625,
+      "sender_route_best_alignment": 0.9992077029029287,
+      "receiver_route_best_alignment": 0.9992077029029287,
+      "route_mismatch_mean_abs": 0.0,
+      "sender_route_entropy": 0.006418012973176742,
+      "receiver_route_entropy": 0.006418012973176742
+    },
+    {
+      "seed": 78704,
+      "architecture": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "full",
+      "all_natural": 0.5013427734375,
+      "heldout_combo_natural": 1.0,
+      "heldout_value_natural": 0.5062255859375,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.94757080078125,
+      "sender_route_best_alignment": 0.7349687943284351,
+      "receiver_route_best_alignment": 0.905567238484472,
+      "route_mismatch_mean_abs": 0.6405360328129072,
+      "sender_route_entropy": 0.40569059123665957,
+      "receiver_route_entropy": 0.25459014630712573
+    },
+    {
+      "seed": 78704,
+      "architecture": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_combo",
+      "all_natural": 0.23431396484375,
+      "heldout_combo_natural": -0.25,
+      "heldout_value_natural": 0.6551513671875,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": -0.30242919921875,
+      "sender_route_best_alignment": 0.7498176017156548,
+      "receiver_route_best_alignment": 0.9733848341865067,
+      "route_mismatch_mean_abs": 0.7232024359021616,
+      "sender_route_entropy": 0.4009042660483594,
+      "receiver_route_entropy": 0.11109557149329696
+    },
+    {
+      "seed": 78704,
+      "architecture": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_value",
+      "all_natural": 0.254150390625,
+      "heldout_combo_natural": 1.0,
+      "heldout_value_natural": -0.25,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.94757080078125,
+      "sender_route_best_alignment": 0.7744742204503288,
+      "receiver_route_best_alignment": 0.5030937639760026,
+      "route_mismatch_mean_abs": 0.7056006931746633,
+      "sender_route_entropy": 0.37868298730710814,
+      "receiver_route_entropy": 0.037395859776732376
+    },
+    {
+      "seed": 78704,
+      "architecture": "sync_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "full",
+      "all_natural": 0.57550048828125,
+      "heldout_combo_natural": 0.61334228515625,
+      "heldout_value_natural": 0.520263671875,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.5609130859375,
+      "sender_route_best_alignment": 0.5006535896241553,
+      "receiver_route_best_alignment": 0.5003669650090473,
+      "route_mismatch_mean_abs": 0.001020554633202518,
+      "sender_route_entropy": 0.016396781322612006,
+      "receiver_route_entropy": 0.019894264163275367
+    },
+    {
+      "seed": 78704,
+      "architecture": "sync_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_combo",
+      "all_natural": 0.5770263671875,
+      "heldout_combo_natural": 0.61334228515625,
+      "heldout_value_natural": 0.6441650390625,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.5609130859375,
+      "sender_route_best_alignment": 0.5006790684693289,
+      "receiver_route_best_alignment": 0.5005063313605672,
+      "route_mismatch_mean_abs": 0.001185399829895988,
+      "sender_route_entropy": 0.016711355919820703,
+      "receiver_route_entropy": 0.020893249722203387
+    },
+    {
+      "seed": 78704,
+      "architecture": "sync_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_value",
+      "all_natural": 0.586181640625,
+      "heldout_combo_natural": 0.77508544921875,
+      "heldout_value_natural": 0.3267822265625,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.72265625,
+      "sender_route_best_alignment": 0.5006850833003719,
+      "receiver_route_best_alignment": 0.50272210638133,
+      "route_mismatch_mean_abs": 0.003407189681701931,
+      "sender_route_entropy": 0.01663425186902972,
+      "receiver_route_entropy": 0.032459832427849764
+    },
+    {
+      "seed": 78704,
+      "architecture": "tied_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "full",
+      "all_natural": 0.57305908203125,
+      "heldout_combo_natural": 0.61334228515625,
+      "heldout_value_natural": 0.361572265625,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.5609130859375,
+      "sender_route_best_alignment": 0.500361798356003,
+      "receiver_route_best_alignment": 0.500361798356003,
+      "route_mismatch_mean_abs": 0.0,
+      "sender_route_entropy": 0.010642581141068566,
+      "receiver_route_entropy": 0.010642581141068566
+    },
+    {
+      "seed": 78704,
+      "architecture": "tied_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_combo",
+      "all_natural": 0.57061767578125,
+      "heldout_combo_natural": 0.61334228515625,
+      "heldout_value_natural": 0.41650390625,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.5609130859375,
+      "sender_route_best_alignment": 0.500795372278875,
+      "receiver_route_best_alignment": 0.500795372278875,
+      "route_mismatch_mean_abs": 0.0,
+      "sender_route_entropy": 0.013252508921387707,
+      "receiver_route_entropy": 0.013252508921387707
+    },
+    {
+      "seed": 78704,
+      "architecture": "tied_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_value",
+      "all_natural": 0.57763671875,
+      "heldout_combo_natural": 1.0,
+      "heldout_value_natural": 0.25079345703125,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.94757080078125,
+      "sender_route_best_alignment": 0.6968689254053861,
+      "receiver_route_best_alignment": 0.6968689254053861,
+      "route_mismatch_mean_abs": 0.0,
+      "sender_route_entropy": 0.3386376448504906,
+      "receiver_route_entropy": 0.3386376448504906
+    },
+    {
+      "seed": 78705,
+      "architecture": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "full",
+      "all_natural": 0.31182861328125,
+      "heldout_combo_natural": 0.1680908203125,
+      "heldout_value_natural": 0.24835205078125,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.101318359375,
+      "sender_route_best_alignment": 0.9830004423153624,
+      "receiver_route_best_alignment": 0.500845739136791,
+      "route_mismatch_mean_abs": 0.4972099971227053,
+      "sender_route_entropy": 0.0861200885742392,
+      "receiver_route_entropy": 0.01913228907141752
+    },
+    {
+      "seed": 78705,
+      "architecture": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_combo",
+      "all_natural": 0.26910400390625,
+      "heldout_combo_natural": -0.02386474609375,
+      "heldout_value_natural": 0.17449951171875,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": -0.09063720703125,
+      "sender_route_best_alignment": 0.9881867709487633,
+      "receiver_route_best_alignment": 0.5009199516460597,
+      "route_mismatch_mean_abs": 0.5022122646489504,
+      "sender_route_entropy": 0.06298532533857341,
+      "receiver_route_entropy": 0.020120777236563185
+    },
+    {
+      "seed": 78705,
+      "architecture": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_value",
+      "all_natural": 0.17633056640625,
+      "heldout_combo_natural": -0.24114990234375,
+      "heldout_value_natural": -0.1944580078125,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": -0.30792236328125,
+      "sender_route_best_alignment": 0.9894754770217788,
+      "receiver_route_best_alignment": 0.5007786638515143,
+      "route_mismatch_mean_abs": 0.5048817264400919,
+      "sender_route_entropy": 0.05484090397177185,
+      "receiver_route_entropy": 0.021522850365259534
+    },
+    {
+      "seed": 78705,
+      "architecture": "sync_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "full",
+      "all_natural": 0.5733642578125,
+      "heldout_combo_natural": 0.3670654296875,
+      "heldout_value_natural": 0.57489013671875,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.30029296875,
+      "sender_route_best_alignment": 0.5003483450113698,
+      "receiver_route_best_alignment": 0.9944960008204531,
+      "route_mismatch_mean_abs": 0.49414765580908326,
+      "sender_route_entropy": 0.014293750676163133,
+      "receiver_route_entropy": 0.031879969941106256
+    },
+    {
+      "seed": 78705,
+      "architecture": "sync_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_combo",
+      "all_natural": 0.57183837890625,
+      "heldout_combo_natural": 0.3670654296875,
+      "heldout_value_natural": 0.57489013671875,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.30029296875,
+      "sender_route_best_alignment": 0.5003638413695589,
+      "receiver_route_best_alignment": 0.9970006849530219,
+      "route_mismatch_mean_abs": 0.4966368435834629,
+      "sender_route_entropy": 0.014714073048027028,
+      "receiver_route_entropy": 0.01964551511212716
+    },
+    {
+      "seed": 78705,
+      "architecture": "sync_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_value",
+      "all_natural": 0.3170166015625,
+      "heldout_combo_natural": -0.21185302734375,
+      "heldout_value_natural": -0.19598388671875,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": -0.27862548828125,
+      "sender_route_best_alignment": 0.5005246049157029,
+      "receiver_route_best_alignment": 0.9944493045407498,
+      "route_mismatch_mean_abs": 0.4939246996250468,
+      "sender_route_entropy": 0.01764758835155517,
+      "receiver_route_entropy": 0.032276830244022656
+    },
+    {
+      "seed": 78705,
+      "architecture": "tied_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "full",
+      "all_natural": 0.57672119140625,
+      "heldout_combo_natural": 1.0,
+      "heldout_value_natural": 0.57733154296875,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.9332275390625,
+      "sender_route_best_alignment": 0.5000889916559845,
+      "receiver_route_best_alignment": 0.5000889916559845,
+      "route_mismatch_mean_abs": 0.0,
+      "sender_route_entropy": 0.00877626704630419,
+      "receiver_route_entropy": 0.00877626704630419
+    },
+    {
+      "seed": 78705,
+      "architecture": "tied_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_combo",
+      "all_natural": 0.57733154296875,
+      "heldout_combo_natural": 0.59228515625,
+      "heldout_value_natural": 0.5721435546875,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.5255126953125,
+      "sender_route_best_alignment": 0.5001065852145923,
+      "receiver_route_best_alignment": 0.5001065852145923,
+      "route_mismatch_mean_abs": 0.0,
+      "sender_route_entropy": 0.009125121525655585,
+      "receiver_route_entropy": 0.009125121525655585
+    },
+    {
+      "seed": 78705,
+      "architecture": "tied_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_value",
+      "all_natural": 0.320068359375,
+      "heldout_combo_natural": -0.2408447265625,
+      "heldout_value_natural": -0.192626953125,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": -0.3076171875,
+      "sender_route_best_alignment": 0.5001059022260592,
+      "receiver_route_best_alignment": 0.5001059022260592,
+      "route_mismatch_mean_abs": 0.0,
+      "sender_route_entropy": 0.010218148204089856,
+      "receiver_route_entropy": 0.010218148204089856
+    },
+    {
+      "seed": 78706,
+      "architecture": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "full",
+      "all_natural": 0.58099365234375,
+      "heldout_combo_natural": 0.599609375,
+      "heldout_value_natural": 0.5965576171875,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.53955078125,
+      "sender_route_best_alignment": 0.500902513231011,
+      "receiver_route_best_alignment": 0.5003104171179449,
+      "route_mismatch_mean_abs": 0.0014585508158609399,
+      "sender_route_entropy": 0.01052631159287739,
+      "receiver_route_entropy": 0.019790271919659104
+    },
+    {
+      "seed": 78706,
+      "architecture": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_combo",
+      "all_natural": 0.58770751953125,
+      "heldout_combo_natural": 0.20745849609375,
+      "heldout_value_natural": 0.652099609375,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.14739990234375,
+      "sender_route_best_alignment": 0.5009066043528617,
+      "receiver_route_best_alignment": 0.5003281269115727,
+      "route_mismatch_mean_abs": 0.0015516118099279472,
+      "sender_route_entropy": 0.010556921260177494,
+      "receiver_route_entropy": 0.020359870005000127
+    },
+    {
+      "seed": 78706,
+      "architecture": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_value",
+      "all_natural": 0.5806884765625,
+      "heldout_combo_natural": 0.599609375,
+      "heldout_value_natural": 0.46258544921875,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.53955078125,
+      "sender_route_best_alignment": 0.5009114282241971,
+      "receiver_route_best_alignment": 0.5008576154140817,
+      "route_mismatch_mean_abs": 0.002139028882600057,
+      "sender_route_entropy": 0.010586381950464544,
+      "receiver_route_entropy": 0.023659121848110063
+    },
+    {
+      "seed": 78706,
+      "architecture": "sync_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "full",
+      "all_natural": 0.58892822265625,
+      "heldout_combo_natural": 0.20745849609375,
+      "heldout_value_natural": 0.652099609375,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.14739990234375,
+      "sender_route_best_alignment": 0.5008919642242252,
+      "receiver_route_best_alignment": 0.5013255835323723,
+      "route_mismatch_mean_abs": 0.0004689141132253117,
+      "sender_route_entropy": 0.010470357906663641,
+      "receiver_route_entropy": 0.01326104429665365
+    },
+    {
+      "seed": 78706,
+      "architecture": "sync_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_combo",
+      "all_natural": 0.58892822265625,
+      "heldout_combo_natural": 0.20745849609375,
+      "heldout_value_natural": 0.652099609375,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.14739990234375,
+      "sender_route_best_alignment": 0.5008903440990088,
+      "receiver_route_best_alignment": 0.501432115881627,
+      "route_mismatch_mean_abs": 0.0005754970276494328,
+      "sender_route_entropy": 0.010469638366702831,
+      "receiver_route_entropy": 0.013867024193749543
+    },
+    {
+      "seed": 78706,
+      "architecture": "sync_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_value",
+      "all_natural": 0.5855712890625,
+      "heldout_combo_natural": 0.36187744140625,
+      "heldout_value_natural": 0.46258544921875,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.30181884765625,
+      "sender_route_best_alignment": 0.500900262900718,
+      "receiver_route_best_alignment": 0.5019100565932109,
+      "route_mismatch_mean_abs": 0.0010458185338553848,
+      "sender_route_entropy": 0.01052572834048931,
+      "receiver_route_entropy": 0.01652695979684955
+    },
+    {
+      "seed": 78706,
+      "architecture": "tied_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "full",
+      "all_natural": 0.56817626953125,
+      "heldout_combo_natural": 0.59625244140625,
+      "heldout_value_natural": 0.5782470703125,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.53619384765625,
+      "sender_route_best_alignment": 0.5002796544756037,
+      "receiver_route_best_alignment": 0.5002796544756037,
+      "route_mismatch_mean_abs": 0.0,
+      "sender_route_entropy": 0.006293268743196981,
+      "receiver_route_entropy": 0.006293268743196981
+    },
+    {
+      "seed": 78706,
+      "architecture": "tied_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_combo",
+      "all_natural": 0.57244873046875,
+      "heldout_combo_natural": 0.190673828125,
+      "heldout_value_natural": 0.5782470703125,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.130615234375,
+      "sender_route_best_alignment": 0.5002827312274003,
+      "receiver_route_best_alignment": 0.5002827312274003,
+      "route_mismatch_mean_abs": 0.0,
+      "sender_route_entropy": 0.006316197412135469,
+      "receiver_route_entropy": 0.006316197412135469
+    },
+    {
+      "seed": 78706,
+      "architecture": "tied_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_value",
+      "all_natural": 0.2919921875,
+      "heldout_combo_natural": 0.59625244140625,
+      "heldout_value_natural": -0.25,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.53619384765625,
+      "sender_route_best_alignment": 0.5003646734892879,
+      "receiver_route_best_alignment": 0.5003646734892879,
+      "route_mismatch_mean_abs": 0.0,
+      "sender_route_entropy": 0.007119493658072595,
+      "receiver_route_entropy": 0.007119493658072595
+    },
+    {
+      "seed": 78707,
+      "architecture": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "full",
+      "all_natural": 0.18975830078125,
+      "heldout_combo_natural": -0.01959228515625,
+      "heldout_value_natural": 0.0472412109375,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": -0.0750732421875,
+      "sender_route_best_alignment": 0.573780308933809,
+      "receiver_route_best_alignment": 0.7412962802543854,
+      "route_mismatch_mean_abs": 0.5935766040402797,
+      "sender_route_entropy": 0.4226092934753235,
+      "receiver_route_entropy": 0.3564050041075737
+    },
+    {
+      "seed": 78707,
+      "architecture": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_combo",
+      "all_natural": 0.10858154296875,
+      "heldout_combo_natural": -0.13494873046875,
+      "heldout_value_natural": 0.06524658203125,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": -0.1904296875,
+      "sender_route_best_alignment": 0.5728196294356297,
+      "receiver_route_best_alignment": 0.9376825367490895,
+      "route_mismatch_mean_abs": 0.39960234724570654,
+      "sender_route_entropy": 0.41953853513570893,
+      "receiver_route_entropy": 0.19449180079420034
+    },
+    {
+      "seed": 78707,
+      "architecture": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_value",
+      "all_natural": 0.1448974609375,
+      "heldout_combo_natural": 0.24713134765625,
+      "heldout_value_natural": -0.21917724609375,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.191650390625,
+      "sender_route_best_alignment": 0.5590479303597365,
+      "receiver_route_best_alignment": 0.997080600002994,
+      "route_mismatch_mean_abs": 0.4380326696432575,
+      "sender_route_entropy": 0.4048827461225152,
+      "receiver_route_entropy": 0.0199535002166926
+    },
+    {
+      "seed": 78707,
+      "architecture": "sync_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "full",
+      "all_natural": 0.5782470703125,
+      "heldout_combo_natural": 0.36065673828125,
+      "heldout_value_natural": 0.57000732421875,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.30517578125,
+      "sender_route_best_alignment": 0.5002889616717708,
+      "receiver_route_best_alignment": 0.5001238061328387,
+      "route_mismatch_mean_abs": 0.0006633235592632988,
+      "sender_route_entropy": 0.013727785793042051,
+      "receiver_route_entropy": 0.01780011377277184
+    },
+    {
+      "seed": 78707,
+      "architecture": "sync_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_combo",
+      "all_natural": 0.5782470703125,
+      "heldout_combo_natural": 0.36065673828125,
+      "heldout_value_natural": 0.57000732421875,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.30517578125,
+      "sender_route_best_alignment": 0.5002934200649932,
+      "receiver_route_best_alignment": 0.5001477795459094,
+      "route_mismatch_mean_abs": 0.0006952250258229325,
+      "sender_route_entropy": 0.013901682869850102,
+      "receiver_route_entropy": 0.01815467671738775
+    },
+    {
+      "seed": 78707,
+      "architecture": "sync_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_value",
+      "all_natural": 0.315185546875,
+      "heldout_combo_natural": 0.36065673828125,
+      "heldout_value_natural": -0.19903564453125,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.30517578125,
+      "sender_route_best_alignment": 0.5002709368265258,
+      "receiver_route_best_alignment": 0.5001483631480961,
+      "route_mismatch_mean_abs": 0.0006122886250300644,
+      "sender_route_entropy": 0.016155270350011755,
+      "receiver_route_entropy": 0.019814297163065313
+    },
+    {
+      "seed": 78707,
+      "architecture": "tied_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "full",
+      "all_natural": 0.573974609375,
+      "heldout_combo_natural": 1.0,
+      "heldout_value_natural": 0.5751953125,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.94451904296875,
+      "sender_route_best_alignment": 0.5002817576272272,
+      "receiver_route_best_alignment": 0.5002817576272272,
+      "route_mismatch_mean_abs": 0.0,
+      "sender_route_entropy": 0.009024682848064432,
+      "receiver_route_entropy": 0.009024682848064432
+    },
+    {
+      "seed": 78707,
+      "architecture": "tied_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_combo",
+      "all_natural": 0.5751953125,
+      "heldout_combo_natural": 0.59320068359375,
+      "heldout_value_natural": 0.57061767578125,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.5377197265625,
+      "sender_route_best_alignment": 0.5003981479844045,
+      "receiver_route_best_alignment": 0.5003981479844045,
+      "route_mismatch_mean_abs": 0.0,
+      "sender_route_entropy": 0.009782204948097032,
+      "receiver_route_entropy": 0.009782204948097032
+    },
+    {
+      "seed": 78707,
+      "architecture": "tied_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_value",
+      "all_natural": 0.32525634765625,
+      "heldout_combo_natural": 1.0,
+      "heldout_value_natural": -0.1920166015625,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.94451904296875,
+      "sender_route_best_alignment": 0.5003896958673643,
+      "receiver_route_best_alignment": 0.5003896958673643,
+      "route_mismatch_mean_abs": 0.0,
+      "sender_route_entropy": 0.010776923293105605,
+      "receiver_route_entropy": 0.010776923293105605
+    },
+    {
+      "seed": 78708,
+      "architecture": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "full",
+      "all_natural": 0.56787109375,
+      "heldout_combo_natural": 0.361572265625,
+      "heldout_value_natural": 0.73724365234375,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.2972412109375,
+      "sender_route_best_alignment": 0.5001619328161306,
+      "receiver_route_best_alignment": 0.5000400860644536,
+      "route_mismatch_mean_abs": 0.0006679085723104814,
+      "sender_route_entropy": 0.016755124272955467,
+      "receiver_route_entropy": 0.020706890142283045
+    },
+    {
+      "seed": 78708,
+      "architecture": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_combo",
+      "all_natural": 0.56787109375,
+      "heldout_combo_natural": 0.361572265625,
+      "heldout_value_natural": 0.73724365234375,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.2972412109375,
+      "sender_route_best_alignment": 0.5001773244894159,
+      "receiver_route_best_alignment": 0.5000662741945127,
+      "route_mismatch_mean_abs": 0.000730167501280028,
+      "sender_route_entropy": 0.01736216256467911,
+      "receiver_route_entropy": 0.021647571974756287
+    },
+    {
+      "seed": 78708,
+      "architecture": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_value",
+      "all_natural": 0.57611083984375,
+      "heldout_combo_natural": 0.52911376953125,
+      "heldout_value_natural": 0.4732666015625,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.46478271484375,
+      "sender_route_best_alignment": 0.5001673614212222,
+      "receiver_route_best_alignment": 0.50024812556803,
+      "route_mismatch_mean_abs": 0.001689625466771651,
+      "sender_route_entropy": 0.016997011968314074,
+      "receiver_route_entropy": 0.02668068415955451
+    },
+    {
+      "seed": 78708,
+      "architecture": "sync_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "full",
+      "all_natural": 0.57550048828125,
+      "heldout_combo_natural": 0.19891357421875,
+      "heldout_value_natural": 0.65545654296875,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.13458251953125,
+      "sender_route_best_alignment": 0.5000536916939473,
+      "receiver_route_best_alignment": 0.5006284241319918,
+      "route_mismatch_mean_abs": 0.0009003596831384745,
+      "sender_route_entropy": 0.01667024053724244,
+      "receiver_route_entropy": 0.021898320485586334
+    },
+    {
+      "seed": 78708,
+      "architecture": "sync_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_combo",
+      "all_natural": 0.56787109375,
+      "heldout_combo_natural": 0.19891357421875,
+      "heldout_value_natural": 0.65545654296875,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.13458251953125,
+      "sender_route_best_alignment": 0.5000584978570269,
+      "receiver_route_best_alignment": 0.5016532671972846,
+      "route_mismatch_mean_abs": 0.0018930816606477564,
+      "sender_route_entropy": 0.01719513775800601,
+      "receiver_route_entropy": 0.027650862845109186
+    },
+    {
+      "seed": 78708,
+      "architecture": "sync_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_value",
+      "all_natural": 0.5782470703125,
+      "heldout_combo_natural": 0.366455078125,
+      "heldout_value_natural": 0.4732666015625,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.3021240234375,
+      "sender_route_best_alignment": 0.5000430172870075,
+      "receiver_route_best_alignment": 0.9978225898904646,
+      "route_mismatch_mean_abs": 0.4978656071774721,
+      "sender_route_entropy": 0.016878879226433458,
+      "receiver_route_entropy": 0.015388395301205837
+    },
+    {
+      "seed": 78708,
+      "architecture": "tied_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "full",
+      "all_natural": 1.0,
+      "heldout_combo_natural": 1.0,
+      "heldout_value_natural": 1.0,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.9356689453125,
+      "sender_route_best_alignment": 0.9991157132658819,
+      "receiver_route_best_alignment": 0.9991157132658819,
+      "route_mismatch_mean_abs": 0.0,
+      "sender_route_entropy": 0.007011965543341667,
+      "receiver_route_entropy": 0.007011965543341667
+    },
+    {
+      "seed": 78708,
+      "architecture": "tied_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_combo",
+      "all_natural": 1.0,
+      "heldout_combo_natural": 1.0,
+      "heldout_value_natural": 1.0,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.9356689453125,
+      "sender_route_best_alignment": 0.9991877960404261,
+      "receiver_route_best_alignment": 0.9991877960404261,
+      "route_mismatch_mean_abs": 0.0,
+      "sender_route_entropy": 0.006526051637246069,
+      "receiver_route_entropy": 0.006526051637246069
+    },
+    {
+      "seed": 78708,
+      "architecture": "tied_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_value",
+      "all_natural": 0.69390869140625,
+      "heldout_combo_natural": 1.0,
+      "heldout_value_natural": 0.0869140625,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.9356689453125,
+      "sender_route_best_alignment": 0.9988332309015469,
+      "receiver_route_best_alignment": 0.9988332309015469,
+      "route_mismatch_mean_abs": 0.0,
+      "sender_route_entropy": 0.0088902206494768,
+      "receiver_route_entropy": 0.0088902206494768
+    },
+    {
+      "seed": 78709,
+      "architecture": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "full",
+      "all_natural": 0.4097900390625,
+      "heldout_combo_natural": 0.60296630859375,
+      "heldout_value_natural": 0.45648193359375,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.5413818359375,
+      "sender_route_best_alignment": 0.5267283390568225,
+      "receiver_route_best_alignment": 0.8786415100431781,
+      "route_mismatch_mean_abs": 0.4053698491000006,
+      "sender_route_entropy": 0.13370419809261055,
+      "receiver_route_entropy": 0.3099333347704435
+    },
+    {
+      "seed": 78709,
+      "architecture": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_combo",
+      "all_natural": 0.26055908203125,
+      "heldout_combo_natural": -0.02203369140625,
+      "heldout_value_natural": 0.0606689453125,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": -0.0836181640625,
+      "sender_route_best_alignment": 0.5269671650899216,
+      "receiver_route_best_alignment": 0.9801143964580026,
+      "route_mismatch_mean_abs": 0.507081561547924,
+      "sender_route_entropy": 0.13430307409133346,
+      "receiver_route_entropy": 0.09508967933710631
+    },
+    {
+      "seed": 78709,
+      "architecture": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_value",
+      "all_natural": 0.28863525390625,
+      "heldout_combo_natural": -0.02203369140625,
+      "heldout_value_natural": 0.04296875,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": -0.0836181640625,
+      "sender_route_best_alignment": 0.527061499720183,
+      "receiver_route_best_alignment": 0.9891896203784634,
+      "route_mismatch_mean_abs": 0.5162511200986464,
+      "sender_route_entropy": 0.13455553523432903,
+      "receiver_route_entropy": 0.05633338859224383
+    },
+    {
+      "seed": 78709,
+      "architecture": "sync_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "full",
+      "all_natural": 0.5745849609375,
+      "heldout_combo_natural": 0.36859130859375,
+      "heldout_value_natural": 0.5843505859375,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.3070068359375,
+      "sender_route_best_alignment": 0.5008551179843655,
+      "receiver_route_best_alignment": 0.9956556882145864,
+      "route_mismatch_mean_abs": 0.49480057023022084,
+      "sender_route_entropy": 0.02042246593073976,
+      "receiver_route_entropy": 0.026614808173417413
+    },
+    {
+      "seed": 78709,
+      "architecture": "sync_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_combo",
+      "all_natural": 0.56695556640625,
+      "heldout_combo_natural": 0.197998046875,
+      "heldout_value_natural": 0.56939697265625,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.13641357421875,
+      "sender_route_best_alignment": 0.5015233631745819,
+      "receiver_route_best_alignment": 0.9971333166406955,
+      "route_mismatch_mean_abs": 0.49560995346611353,
+      "sender_route_entropy": 0.029110326680456294,
+      "receiver_route_entropy": 0.019156254026909562
+    },
+    {
+      "seed": 78709,
+      "architecture": "sync_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_value",
+      "all_natural": 0.1815185546875,
+      "heldout_combo_natural": -0.25,
+      "heldout_value_natural": -0.25,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": -0.31158447265625,
+      "sender_route_best_alignment": 0.5082425561140004,
+      "receiver_route_best_alignment": 0.995843251473291,
+      "route_mismatch_mean_abs": 0.4885551729823899,
+      "sender_route_entropy": 0.07256955232161719,
+      "receiver_route_entropy": 0.025820205583522566
+    },
+    {
+      "seed": 78709,
+      "architecture": "tied_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "full",
+      "all_natural": 0.57244873046875,
+      "heldout_combo_natural": 0.5977783203125,
+      "heldout_value_natural": 0.57672119140625,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.53619384765625,
+      "sender_route_best_alignment": 0.5000121889983843,
+      "receiver_route_best_alignment": 0.5000121889983843,
+      "route_mismatch_mean_abs": 0.0,
+      "sender_route_entropy": 0.008447076122744266,
+      "receiver_route_entropy": 0.008447076122744266
+    },
+    {
+      "seed": 78709,
+      "architecture": "tied_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_combo",
+      "all_natural": 0.56756591796875,
+      "heldout_combo_natural": 0.197998046875,
+      "heldout_value_natural": 0.57122802734375,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": 0.13641357421875,
+      "sender_route_best_alignment": 0.5000145004344215,
+      "receiver_route_best_alignment": 0.5000145004344215,
+      "route_mismatch_mean_abs": 0.0,
+      "sender_route_entropy": 0.008597746601883553,
+      "receiver_route_entropy": 0.008597746601883553
+    },
+    {
+      "seed": 78709,
+      "architecture": "tied_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_value",
+      "all_natural": 0.30908203125,
+      "heldout_combo_natural": -0.2060546875,
+      "heldout_value_natural": -0.197509765625,
+      "heldout_combo_message_gap": 0.0,
+      "heldout_combo_live_silent": -0.26763916015625,
+      "sender_route_best_alignment": 0.5000039229882717,
+      "receiver_route_best_alignment": 0.5000039229882717,
+      "route_mismatch_mean_abs": 0.0,
+      "sender_route_entropy": 0.009872990636984446,
+      "receiver_route_entropy": 0.009872990636984446
+    }
+  ],
+  "condition_summary": [
+    {
+      "architecture": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "full",
+      "n": 9,
+      "all_natural": {
+        "n": 9,
+        "mean": 0.4712320963541667,
+        "sd": 0.1726539905106812,
+        "ci95": [
+          0.35843148922052165,
+          0.5840327034878118
+        ]
+      },
+      "heldout_combo_natural": {
+        "n": 9,
+        "mean": 0.4727240668402778,
+        "sd": 0.32735468561159714,
+        "ci95": [
+          0.2588523389073677,
+          0.6865957947731879
+        ]
+      },
+      "heldout_value_natural": {
+        "n": 9,
+        "mean": 0.4845241970486111,
+        "sd": 0.21233614868120873,
+        "ci95": [
+          0.34579791324355474,
+          0.6232504808536674
+        ]
+      },
+      "heldout_combo_message_gap": {
+        "n": 9,
+        "mean": 0.0,
+        "sd": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "heldout_combo_live_silent": {
+        "n": 9,
+        "mean": 0.41351318359375,
+        "sd": 0.3265427562343988,
+        "ci95": [
+          0.20017191618727612,
+          0.6268544510002239
+        ]
+      },
+      "sender_route_best_alignment": {
+        "n": 9,
+        "mean": 0.640439630382287,
+        "sd": 0.17472373483624942,
+        "ci95": [
+          0.5262867902892707,
+          0.7545924704753033
+        ]
+      },
+      "receiver_route_best_alignment": {
+        "n": 9,
+        "mean": 0.6850433188909544,
+        "sd": 0.18114413273758495,
+        "ci95": [
+          0.5666958188357322,
+          0.8033908189461766
+        ]
+      },
+      "route_mismatch_mean_abs": {
+        "n": 9,
+        "mean": 0.32352268034221665,
+        "sd": 0.2667168231987879,
+        "ci95": [
+          0.1492676891856752,
+          0.49777767149875807
+        ]
+      },
+      "sender_route_entropy": {
+        "n": 9,
+        "mean": 0.20576611533719028,
+        "sd": 0.18770989670311186,
+        "ci95": [
+          0.08312898282449052,
+          0.32840324784989006
+        ]
+      },
+      "receiver_route_entropy": {
+        "n": 9,
+        "mean": 0.19485149011861125,
+        "sd": 0.1706734586682756,
+        "ci95": [
+          0.08334483045533786,
+          0.30635814978188464
+        ]
+      },
+      "heldout_combo_functional_count": 3,
+      "heldout_value_functional_count": 2
+    },
+    {
+      "architecture": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_combo",
+      "n": 9,
+      "all_natural": {
+        "n": 9,
+        "mean": 0.3628946940104167,
+        "sd": 0.19712536612774817,
+        "ci95": [
+          0.23410612147362123,
+          0.49168326654721217
+        ]
+      },
+      "heldout_combo_natural": {
+        "n": 9,
+        "mean": 0.05012342664930555,
+        "sd": 0.2427370308383319,
+        "ci95": [
+          -0.10846476683173795,
+          0.20871162013034905
+        ]
+      },
+      "heldout_value_natural": {
+        "n": 9,
+        "mean": 0.3779839409722222,
+        "sd": 0.28429944579918404,
+        "ci95": [
+          0.19224163638342198,
+          0.5637262455610225
+        ]
+      },
+      "heldout_combo_message_gap": {
+        "n": 9,
+        "mean": 0.0,
+        "sd": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "heldout_combo_live_silent": {
+        "n": 9,
+        "mean": -0.009087456597222222,
+        "sd": 0.23746508692368856,
+        "ci95": [
+          -0.1642313133873654,
+          0.146056400192921
+        ]
+      },
+      "sender_route_best_alignment": {
+        "n": 9,
+        "mean": 0.6427475675157696,
+        "sd": 0.177233353912443,
+        "ci95": [
+          0.5269551096263068,
+          0.7585400254052324
+        ]
+      },
+      "receiver_route_best_alignment": {
+        "n": 9,
+        "mean": 0.6834721718652379,
+        "sd": 0.22145883632986463,
+        "ci95": [
+          0.5387857321297264,
+          0.8281586116007494
+        ]
+      },
+      "route_mismatch_mean_abs": {
+        "n": 9,
+        "mean": 0.369304500582498,
+        "sd": 0.2896442875377562,
+        "ci95": [
+          0.1800702327244973,
+          0.5585387684404987
+        ]
+      },
+      "sender_route_entropy": {
+        "n": 9,
+        "mean": 0.2023708192820923,
+        "sd": 0.18843143974401635,
+        "ci95": [
+          0.07926227864933495,
+          0.32547935991484966
+        ]
+      },
+      "receiver_route_entropy": {
+        "n": 9,
+        "mean": 0.11531685232281179,
+        "sd": 0.11781137606151613,
+        "ci95": [
+          0.03834675329595458,
+          0.192286951349669
+        ]
+      },
+      "heldout_combo_functional_count": 0,
+      "heldout_value_functional_count": 3
+    },
+    {
+      "architecture": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_value",
+      "n": 9,
+      "all_natural": {
+        "n": 9,
+        "mean": 0.3339369032118056,
+        "sd": 0.17632381569625713,
+        "ci95": [
+          0.21873867695691757,
+          0.4491351294666936
+        ]
+      },
+      "heldout_combo_natural": {
+        "n": 9,
+        "mean": 0.3883599175347222,
+        "sd": 0.4749937948065963,
+        "ci95": [
+          0.07803063826107931,
+          0.698689196808365
+        ]
+      },
+      "heldout_value_natural": {
+        "n": 9,
+        "mean": -0.02142333984375,
+        "sd": 0.296568177119123,
+        "ci95": [
+          -0.21518121556157702,
+          0.17233453587407702
+        ]
+      },
+      "heldout_combo_message_gap": {
+        "n": 9,
+        "mean": 0.0,
+        "sd": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "heldout_combo_live_silent": {
+        "n": 9,
+        "mean": 0.3291490342881944,
+        "sd": 0.4739870415977879,
+        "ci95": [
+          0.01947750044430635,
+          0.6388205681320824
+        ]
+      },
+      "sender_route_best_alignment": {
+        "n": 9,
+        "mean": 0.6477477669441759,
+        "sd": 0.18443004927888978,
+        "ci95": [
+          0.5272534680819679,
+          0.7682420658063839
+        ]
+      },
+      "receiver_route_best_alignment": {
+        "n": 9,
+        "mean": 0.61048561286365,
+        "sd": 0.21695273687034214,
+        "ci95": [
+          0.46874315810835976,
+          0.7522280676189402
+        ]
+      },
+      "route_mismatch_mean_abs": {
+        "n": 9,
+        "mean": 0.39911561154572905,
+        "sd": 0.31939357578582694,
+        "ci95": [
+          0.19044514203232213,
+          0.607786081059136
+        ]
+      },
+      "sender_route_entropy": {
+        "n": 9,
+        "mean": 0.19461711380994276,
+        "sd": 0.18160446879610037,
+        "ci95": [
+          0.0759688608631572,
+          0.31326536675672834
+        ]
+      },
+      "receiver_route_entropy": {
+        "n": 9,
+        "mean": 0.030985501433871934,
+        "sd": 0.01174788611085693,
+        "ci95": [
+          0.023310215841445405,
+          0.03866078702629846
+        ]
+      },
+      "heldout_combo_functional_count": 2,
+      "heldout_value_functional_count": 0
+    },
+    {
+      "architecture": "sync_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "full",
+      "n": 9,
+      "all_natural": {
+        "n": 9,
+        "mean": 0.5768568250868056,
+        "sd": 0.005136370209898731,
+        "ci95": [
+          0.5735010632163384,
+          0.5802125869572727
+        ]
+      },
+      "heldout_combo_natural": {
+        "n": 9,
+        "mean": 0.407958984375,
+        "sd": 0.16206285084842023,
+        "ci95": [
+          0.30207792182069876,
+          0.5138400469293012
+        ]
+      },
+      "heldout_value_natural": {
+        "n": 9,
+        "mean": 0.5804511176215278,
+        "sd": 0.04727018630312222,
+        "ci95": [
+          0.5495679292368213,
+          0.6113343060062343
+        ]
+      },
+      "heldout_combo_message_gap": {
+        "n": 9,
+        "mean": 0.0,
+        "sd": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "heldout_combo_live_silent": {
+        "n": 9,
+        "mean": 0.3487481011284722,
+        "sd": 0.16184042959024944,
+        "ci95": [
+          0.24301235379617592,
+          0.4544838484607685
+        ]
+      },
+      "sender_route_best_alignment": {
+        "n": 9,
+        "mean": 0.5004849401346576,
+        "sd": 0.00031325108919807705,
+        "ci95": [
+          0.5002802827563815,
+          0.5006895975129337
+        ]
+      },
+      "receiver_route_best_alignment": {
+        "n": 9,
+        "mean": 0.6106200749220627,
+        "sd": 0.21796673817675946,
+        "ci95": [
+          0.46821513931324654,
+          0.7530250105308789
+        ]
+      },
+      "route_mismatch_mean_abs": {
+        "n": 9,
+        "mean": 0.1105348658504818,
+        "sd": 0.21767341027892587,
+        "ci95": [
+          -0.0316784288650831,
+          0.2527481605660467
+        ]
+      },
+      "sender_route_entropy": {
+        "n": 9,
+        "mean": 0.017150158401376785,
+        "sd": 0.0074127248192596895,
+        "ci95": [
+          0.012307178186127121,
+          0.021993138616626447
+        ]
+      },
+      "receiver_route_entropy": {
+        "n": 9,
+        "mean": 0.023079548523737167,
+        "sd": 0.009044046969796389,
+        "ci95": [
+          0.01717077117013686,
+          0.028988325877337472
+        ]
+      },
+      "heldout_combo_functional_count": 2,
+      "heldout_value_functional_count": 2
+    },
+    {
+      "architecture": "sync_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_combo",
+      "n": 9,
+      "all_natural": {
+        "n": 9,
+        "mean": 0.5750935872395834,
+        "sd": 0.00728597191547444,
+        "ci95": [
+          0.5703334189214734,
+          0.5798537555576934
+        ]
+      },
+      "heldout_combo_natural": {
+        "n": 9,
+        "mean": 0.3245103624131944,
+        "sd": 0.17712188545313737,
+        "ci95": [
+          0.20879073058381137,
+          0.44022999424257747
+        ]
+      },
+      "heldout_value_natural": {
+        "n": 9,
+        "mean": 0.5928615993923612,
+        "sd": 0.06006566534132353,
+        "ci95": [
+          0.5536186980360298,
+          0.6321045007486925
+        ]
+      },
+      "heldout_combo_message_gap": {
+        "n": 9,
+        "mean": 0.0,
+        "sd": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "heldout_combo_live_silent": {
+        "n": 9,
+        "mean": 0.2652994791666667,
+        "sd": 0.17976284779687485,
+        "ci95": [
+          0.14785441860604176,
+          0.3827445397272916
+        ]
+      },
+      "sender_route_best_alignment": {
+        "n": 9,
+        "mean": 0.5005665540286057,
+        "sd": 0.00045952713376952946,
+        "ci95": [
+          0.500266329634543,
+          0.5008667784226685
+        ]
+      },
+      "receiver_route_best_alignment": {
+        "n": 9,
+        "mean": 0.6112758068449877,
+        "sd": 0.21872404088666364,
+        "ci95": [
+          0.4683761001323675,
+          0.7541755135576079
+        ]
+      },
+      "route_mismatch_mean_abs": {
+        "n": 9,
+        "mean": 0.11112074134143343,
+        "sd": 0.21827682524867245,
+        "ci95": [
+          -0.03148678448769923,
+          0.25372826717056607
+        ]
+      },
+      "sender_route_entropy": {
+        "n": 9,
+        "mean": 0.01824967261469462,
+        "sd": 0.0081876118295331,
+        "ci95": [
+          0.012900432886066328,
+          0.02359891234332291
+        ]
+      },
+      "receiver_route_entropy": {
+        "n": 9,
+        "mean": 0.021853888498218746,
+        "sd": 0.008281124272140415,
+        "ci95": [
+          0.016443553973753675,
+          0.027264223022683817
+        ]
+      },
+      "heldout_combo_functional_count": 2,
+      "heldout_value_functional_count": 4
+    },
+    {
+      "architecture": "sync_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_value",
+      "n": 9,
+      "all_natural": {
+        "n": 9,
+        "mean": 0.4384765625,
+        "sd": 0.15837175012741386,
+        "ci95": [
+          0.33500701908342295,
+          0.5419461059165771
+        ]
+      },
+      "heldout_combo_natural": {
+        "n": 9,
+        "mean": 0.3533664279513889,
+        "sd": 0.4137085581706368,
+        "ci95": [
+          0.0830768366132395,
+          0.6236560192895383
+        ]
+      },
+      "heldout_value_natural": {
+        "n": 9,
+        "mean": 0.08945719401041667,
+        "sd": 0.3160433012085634,
+        "ci95": [
+          -0.11702442944584475,
+          0.2959388174666781
+        ]
+      },
+      "heldout_combo_message_gap": {
+        "n": 9,
+        "mean": 0.0,
+        "sd": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "heldout_combo_live_silent": {
+        "n": 9,
+        "mean": 0.2941555447048611,
+        "sd": 0.4148611485240601,
+        "ci95": [
+          0.02311292766914186,
+          0.5651981617405804
+        ]
+      },
+      "sender_route_best_alignment": {
+        "n": 9,
+        "mean": 0.5013525961199449,
+        "sd": 0.00259944614920261,
+        "ci95": [
+          0.49965429130246586,
+          0.5030509009374239
+        ]
+      },
+      "receiver_route_best_alignment": {
+        "n": 9,
+        "mean": 0.7213064198103726,
+        "sd": 0.26072401299926334,
+        "ci95": [
+          0.5509667313175205,
+          0.8916461083032247
+        ]
+      },
+      "route_mismatch_mean_abs": {
+        "n": 9,
+        "mean": 0.22045489603089957,
+        "sd": 0.259666481867426,
+        "ci95": [
+          0.05080612787751457,
+          0.39010366418428455
+        ]
+      },
+      "sender_route_entropy": {
+        "n": 9,
+        "mean": 0.023902667137757752,
+        "sd": 0.019636410685236118,
+        "ci95": [
+          0.011073545490070155,
+          0.03673178878544535
+        ]
+      },
+      "receiver_route_entropy": {
+        "n": 9,
+        "mean": 0.023198408406132923,
+        "sd": 0.006484818787302265,
+        "ci95": [
+          0.01896166013176211,
+          0.027435156680503735
+        ]
+      },
+      "heldout_combo_functional_count": 2,
+      "heldout_value_functional_count": 0
+    },
+    {
+      "architecture": "tied_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "full",
+      "n": 9,
+      "all_natural": {
+        "n": 9,
+        "mean": 0.6680704752604166,
+        "sd": 0.1881999520920734,
+        "ci95": [
+          0.5451131732269286,
+          0.7910277772939046
+        ]
+      },
+      "heldout_combo_natural": {
+        "n": 9,
+        "mean": 0.7069634331597222,
+        "sd": 0.3092998238167333,
+        "ci95": [
+          0.5048875482661231,
+          0.9090393180533213
+        ]
+      },
+      "heldout_value_natural": {
+        "n": 9,
+        "mean": 0.6471828884548612,
+        "sd": 0.2121151398897312,
+        "ci95": [
+          0.5086009970602368,
+          0.7857647798494856
+        ]
+      },
+      "heldout_combo_message_gap": {
+        "n": 9,
+        "mean": 0.0,
+        "sd": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "heldout_combo_live_silent": {
+        "n": 9,
+        "mean": 0.6477525499131944,
+        "sd": 0.30302722330023035,
+        "ci95": [
+          0.44977476402371064,
+          0.8457303358026782
+        ]
+      },
+      "sender_route_best_alignment": {
+        "n": 9,
+        "mean": 0.6126982913168186,
+        "sd": 0.21916681313880895,
+        "ci95": [
+          0.4695093067327968,
+          0.7558872759008405
+        ]
+      },
+      "receiver_route_best_alignment": {
+        "n": 9,
+        "mean": 0.6126982913168186,
+        "sd": 0.21916681313880895,
+        "ci95": [
+          0.4695093067327968,
+          0.7558872759008405
+        ]
+      },
+      "route_mismatch_mean_abs": {
+        "n": 9,
+        "mean": 0.0,
+        "sd": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "sender_route_entropy": {
+        "n": 9,
+        "mean": 0.014927854957963988,
+        "sd": 0.02063070729596525,
+        "ci95": [
+          0.001449126191266692,
+          0.028406583724661285
+        ]
+      },
+      "receiver_route_entropy": {
+        "n": 9,
+        "mean": 0.014927854957963988,
+        "sd": 0.02063070729596525,
+        "ci95": [
+          0.001449126191266692,
+          0.028406583724661285
+        ]
+      },
+      "heldout_combo_functional_count": 5,
+      "heldout_value_functional_count": 2
+    },
+    {
+      "architecture": "tied_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_combo",
+      "n": 9,
+      "all_natural": {
+        "n": 9,
+        "mean": 0.6673923068576388,
+        "sd": 0.18859322823767732,
+        "ci95": [
+          0.544178064409023,
+          0.7906065493062546
+        ]
+      },
+      "heldout_combo_natural": {
+        "n": 9,
+        "mean": 0.552001953125,
+        "sd": 0.3177449288032957,
+        "ci95": [
+          0.3444085996401801,
+          0.7595953066098199
+        ]
+      },
+      "heldout_value_natural": {
+        "n": 9,
+        "mean": 0.6516248914930556,
+        "sd": 0.20420519414999194,
+        "ci95": [
+          0.5182108313150608,
+          0.7850389516710503
+        ]
+      },
+      "heldout_combo_message_gap": {
+        "n": 9,
+        "mean": 0.0,
+        "sd": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "heldout_combo_live_silent": {
+        "n": 9,
+        "mean": 0.4927910698784722,
+        "sd": 0.3144638661576564,
+        "ci95": [
+          0.2873413439888034,
+          0.698240795768141
+        ]
+      },
+      "sender_route_best_alignment": {
+        "n": 9,
+        "mean": 0.664961133909801,
+        "sd": 0.24704072628673648,
+        "ci95": [
+          0.5035611927357999,
+          0.8263610750838022
+        ]
+      },
+      "receiver_route_best_alignment": {
+        "n": 9,
+        "mean": 0.664961133909801,
+        "sd": 0.24704072628673648,
+        "ci95": [
+          0.5035611927357999,
+          0.8263610750838022
+        ]
+      },
+      "route_mismatch_mean_abs": {
+        "n": 9,
+        "mean": 0.0,
+        "sd": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "sender_route_entropy": {
+        "n": 9,
+        "mean": 0.015418175020002589,
+        "sd": 0.020808798535372267,
+        "ci95": [
+          0.0018230933102260424,
+          0.029013256729779134
+        ]
+      },
+      "receiver_route_entropy": {
+        "n": 9,
+        "mean": 0.015418175020002589,
+        "sd": 0.020808798535372267,
+        "ci95": [
+          0.0018230933102260424,
+          0.029013256729779134
+        ]
+      },
+      "heldout_combo_functional_count": 4,
+      "heldout_value_functional_count": 2
+    },
+    {
+      "architecture": "tied_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_value",
+      "n": 9,
+      "all_natural": {
+        "n": 9,
+        "mean": 0.4255235460069444,
+        "sd": 0.17488550144942322,
+        "ci95": [
+          0.31126501839332127,
+          0.5397820736205676
+        ]
+      },
+      "heldout_combo_natural": {
+        "n": 9,
+        "mean": 0.4644843207465278,
+        "sd": 0.5664445760885081,
+        "ci95": [
+          0.09440719770203587,
+          0.8345614437910197
+        ]
+      },
+      "heldout_value_natural": {
+        "n": 9,
+        "mean": -0.09588623046875,
+        "sd": 0.18455055928365807,
+        "ci95": [
+          -0.21645926253407327,
+          0.02468680159657327
+        ]
+      },
+      "heldout_combo_message_gap": {
+        "n": 9,
+        "mean": 0.0,
+        "sd": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "heldout_combo_live_silent": {
+        "n": 9,
+        "mean": 0.4052734375,
+        "sd": 0.563957350544877,
+        "ci95": [
+          0.036821301810680385,
+          0.7737255731893196
+        ]
+      },
+      "sender_route_best_alignment": {
+        "n": 9,
+        "mean": 0.6333636888531294,
+        "sd": 0.21700990256753414,
+        "ci95": [
+          0.4915838858423405,
+          0.7751434918639184
+        ]
+      },
+      "receiver_route_best_alignment": {
+        "n": 9,
+        "mean": 0.6333636888531294,
+        "sd": 0.21700990256753414,
+        "ci95": [
+          0.4915838858423405,
+          0.7751434918639184
+        ]
+      },
+      "route_mismatch_mean_abs": {
+        "n": 9,
+        "mean": 0.0,
+        "sd": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "sender_route_entropy": {
+        "n": 9,
+        "mean": 0.04786910339372043,
+        "sd": 0.10925842593475403,
+        "ci95": [
+          -0.02351306821698554,
+          0.1192512750044264
+        ]
+      },
+      "receiver_route_entropy": {
+        "n": 9,
+        "mean": 0.04786910339372043,
+        "sd": 0.10925842593475403,
+        "ci95": [
+          -0.02351306821698554,
+          0.1192512750044264
+        ]
+      },
+      "heldout_combo_functional_count": 4,
+      "heldout_value_functional_count": 0
+    }
+  ],
+  "contrasts": [
+    {
+      "left": "tied_routed",
+      "right": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "full",
+      "paired_seed_differences": [
+        {
+          "seed": 78701,
+          "all": 0.2239990234375,
+          "heldout_combo": 0.208740234375,
+          "heldout_value": 0.01129150390625
+        },
+        {
+          "seed": 78702,
+          "all": -0.18707275390625,
+          "heldout_combo": -0.59783935546875,
+          "heldout_value": -0.05584716796875
+        },
+        {
+          "seed": 78703,
+          "all": 0.43182373046875,
+          "heldout_combo": 0.40252685546875,
+          "heldout_value": 0.4315185546875
+        },
+        {
+          "seed": 78704,
+          "all": 0.07171630859375,
+          "heldout_combo": -0.38665771484375,
+          "heldout_value": -0.1446533203125
+        },
+        {
+          "seed": 78705,
+          "all": 0.264892578125,
+          "heldout_combo": 0.8319091796875,
+          "heldout_value": 0.3289794921875
+        },
+        {
+          "seed": 78706,
+          "all": -0.0128173828125,
+          "heldout_combo": -0.00335693359375,
+          "heldout_value": -0.018310546875
+        },
+        {
+          "seed": 78707,
+          "all": 0.38421630859375,
+          "heldout_combo": 1.01959228515625,
+          "heldout_value": 0.5279541015625
+        },
+        {
+          "seed": 78708,
+          "all": 0.43212890625,
+          "heldout_combo": 0.638427734375,
+          "heldout_value": 0.26275634765625
+        },
+        {
+          "seed": 78709,
+          "all": 0.16265869140625,
+          "heldout_combo": -0.00518798828125,
+          "heldout_value": 0.1202392578125
+        }
+      ],
+      "all": {
+        "n": 9,
+        "mean": 0.19683837890625,
+        "sd": 0.21190398495527807,
+        "ci95": [
+          0.05839444206880165,
+          0.3352823157436984
+        ]
+      },
+      "heldout_combo": {
+        "n": 9,
+        "mean": 0.23423936631944445,
+        "sd": 0.5429057444731525,
+        "ci95": [
+          -0.12045905340301519,
+          0.588937786041904
+        ]
+      },
+      "heldout_value": {
+        "n": 9,
+        "mean": 0.16265869140625,
+        "sd": 0.23533361809729228,
+        "ci95": [
+          0.008907394249352385,
+          0.3164099885631476
+        ]
+      }
+    },
+    {
+      "left": "tied_routed",
+      "right": "sync_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "full",
+      "paired_seed_differences": [
+        {
+          "seed": 78701,
+          "all": -0.00030517578125,
+          "heldout_combo": 0.02685546875,
+          "heldout_value": 0.052490234375
+        },
+        {
+          "seed": 78702,
+          "all": -0.00579833984375,
+          "heldout_combo": -0.4296875,
+          "heldout_value": 0.0
+        },
+        {
+          "seed": 78703,
+          "all": 0.42877197265625,
+          "heldout_combo": 0.40252685546875,
+          "heldout_value": 0.43609619140625
+        },
+        {
+          "seed": 78704,
+          "all": -0.00244140625,
+          "heldout_combo": 0.0,
+          "heldout_value": -0.15869140625
+        },
+        {
+          "seed": 78705,
+          "all": 0.00335693359375,
+          "heldout_combo": 0.6329345703125,
+          "heldout_value": 0.00244140625
+        },
+        {
+          "seed": 78706,
+          "all": -0.020751953125,
+          "heldout_combo": 0.3887939453125,
+          "heldout_value": -0.0738525390625
+        },
+        {
+          "seed": 78707,
+          "all": -0.0042724609375,
+          "heldout_combo": 0.63934326171875,
+          "heldout_value": 0.00518798828125
+        },
+        {
+          "seed": 78708,
+          "all": 0.42449951171875,
+          "heldout_combo": 0.80108642578125,
+          "heldout_value": 0.34454345703125
+        },
+        {
+          "seed": 78709,
+          "all": -0.00213623046875,
+          "heldout_combo": 0.22918701171875,
+          "heldout_value": -0.00762939453125
+        }
+      ],
+      "all": {
+        "n": 9,
+        "mean": 0.0912136501736111,
+        "sd": 0.19028605916141614,
+        "ci95": [
+          -0.03310657514518077,
+          0.215533875492403
+        ]
+      },
+      "heldout_combo": {
+        "n": 9,
+        "mean": 0.2990044487847222,
+        "sd": 0.3869012060783636,
+        "ci95": [
+          0.04622899414685799,
+          0.5517799034225864
+        ]
+      },
+      "heldout_value": {
+        "n": 9,
+        "mean": 0.06673177083333333,
+        "sd": 0.1943885885254164,
+        "ci95": [
+          -0.06026877366993873,
+          0.1937323153366054
+        ]
+      }
+    },
+    {
+      "left": "sync_routed",
+      "right": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "full",
+      "paired_seed_differences": [
+        {
+          "seed": 78701,
+          "all": 0.22430419921875,
+          "heldout_combo": 0.181884765625,
+          "heldout_value": -0.04119873046875
+        },
+        {
+          "seed": 78702,
+          "all": -0.1812744140625,
+          "heldout_combo": -0.16815185546875,
+          "heldout_value": -0.05584716796875
+        },
+        {
+          "seed": 78703,
+          "all": 0.0030517578125,
+          "heldout_combo": 0.0,
+          "heldout_value": -0.00457763671875
+        },
+        {
+          "seed": 78704,
+          "all": 0.07415771484375,
+          "heldout_combo": -0.38665771484375,
+          "heldout_value": 0.0140380859375
+        },
+        {
+          "seed": 78705,
+          "all": 0.26153564453125,
+          "heldout_combo": 0.198974609375,
+          "heldout_value": 0.3265380859375
+        },
+        {
+          "seed": 78706,
+          "all": 0.0079345703125,
+          "heldout_combo": -0.39215087890625,
+          "heldout_value": 0.0555419921875
+        },
+        {
+          "seed": 78707,
+          "all": 0.38848876953125,
+          "heldout_combo": 0.3802490234375,
+          "heldout_value": 0.52276611328125
+        },
+        {
+          "seed": 78708,
+          "all": 0.00762939453125,
+          "heldout_combo": -0.16265869140625,
+          "heldout_value": -0.081787109375
+        },
+        {
+          "seed": 78709,
+          "all": 0.164794921875,
+          "heldout_combo": -0.234375,
+          "heldout_value": 0.12786865234375
+        }
+      ],
+      "all": {
+        "n": 9,
+        "mean": 0.1056247287326389,
+        "sd": 0.17134583659732383,
+        "ci95": [
+          -0.006321217844279345,
+          0.21757067530955715
+        ]
+      },
+      "heldout_combo": {
+        "n": 9,
+        "mean": -0.06476508246527778,
+        "sd": 0.27213569158938694,
+        "ci95": [
+          -0.24256040097034393,
+          0.11303023603978836
+        ]
+      },
+      "heldout_value": {
+        "n": 9,
+        "mean": 0.09592692057291667,
+        "sd": 0.20256247941464015,
+        "ci95": [
+          -0.036413899311314876,
+          0.2282677404571482
+        ]
+      }
+    },
+    {
+      "left": "tied_routed",
+      "right": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_combo",
+      "paired_seed_differences": [
+        {
+          "seed": 78701,
+          "all": 0.42724609375,
+          "heldout_combo": 0.85357666015625,
+          "heldout_value": 0.4974365234375
+        },
+        {
+          "seed": 78702,
+          "all": 0.04730224609375,
+          "heldout_combo": -0.19805908203125,
+          "heldout_value": 0.16998291015625
+        },
+        {
+          "seed": 78703,
+          "all": 0.430908203125,
+          "heldout_combo": 0.81207275390625,
+          "heldout_value": 0.4315185546875
+        },
+        {
+          "seed": 78704,
+          "all": 0.3363037109375,
+          "heldout_combo": 0.86334228515625,
+          "heldout_value": -0.2386474609375
+        },
+        {
+          "seed": 78705,
+          "all": 0.3082275390625,
+          "heldout_combo": 0.61614990234375,
+          "heldout_value": 0.39764404296875
+        },
+        {
+          "seed": 78706,
+          "all": -0.0152587890625,
+          "heldout_combo": -0.01678466796875,
+          "heldout_value": -0.0738525390625
+        },
+        {
+          "seed": 78707,
+          "all": 0.46661376953125,
+          "heldout_combo": 0.7281494140625,
+          "heldout_value": 0.50537109375
+        },
+        {
+          "seed": 78708,
+          "all": 0.43212890625,
+          "heldout_combo": 0.638427734375,
+          "heldout_value": 0.26275634765625
+        },
+        {
+          "seed": 78709,
+          "all": 0.3070068359375,
+          "heldout_combo": 0.22003173828125,
+          "heldout_value": 0.51055908203125
+        }
+      ],
+      "all": {
+        "n": 9,
+        "mean": 0.3044976128472222,
+        "sd": 0.17429991102963285,
+        "ci95": [
+          0.19062167097452876,
+          0.41837355471991566
+        ]
+      },
+      "heldout_combo": {
+        "n": 9,
+        "mean": 0.5018785264756944,
+        "sd": 0.3987217090252905,
+        "ci95": [
+          0.24138034324583796,
+          0.7623767097055509
+        ]
+      },
+      "heldout_value": {
+        "n": 9,
+        "mean": 0.2736409505208333,
+        "sd": 0.27255050663583424,
+        "ci95": [
+          0.09557461951875496,
+          0.4517072815229117
+        ]
+      }
+    },
+    {
+      "left": "tied_routed",
+      "right": "sync_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_combo",
+      "paired_seed_differences": [
+        {
+          "seed": 78701,
+          "all": -0.00701904296875,
+          "heldout_combo": 0.4229736328125,
+          "heldout_value": 0.1068115234375
+        },
+        {
+          "seed": 78702,
+          "all": -0.00701904296875,
+          "heldout_combo": -0.4296875,
+          "heldout_value": -0.0567626953125
+        },
+        {
+          "seed": 78703,
+          "all": 0.43243408203125,
+          "heldout_combo": 0.81207275390625,
+          "heldout_value": 0.43609619140625
+        },
+        {
+          "seed": 78704,
+          "all": -0.00640869140625,
+          "heldout_combo": 0.0,
+          "heldout_value": -0.2276611328125
+        },
+        {
+          "seed": 78705,
+          "all": 0.0054931640625,
+          "heldout_combo": 0.2252197265625,
+          "heldout_value": -0.00274658203125
+        },
+        {
+          "seed": 78706,
+          "all": -0.0164794921875,
+          "heldout_combo": -0.01678466796875,
+          "heldout_value": -0.0738525390625
+        },
+        {
+          "seed": 78707,
+          "all": -0.0030517578125,
+          "heldout_combo": 0.2325439453125,
+          "heldout_value": 0.0006103515625
+        },
+        {
+          "seed": 78708,
+          "all": 0.43212890625,
+          "heldout_combo": 0.80108642578125,
+          "heldout_value": 0.34454345703125
+        },
+        {
+          "seed": 78709,
+          "all": 0.0006103515625,
+          "heldout_combo": 0.0,
+          "heldout_value": 0.0018310546875
+        }
+      ],
+      "all": {
+        "n": 9,
+        "mean": 0.09229871961805555,
+        "sd": 0.1928452046505582,
+        "ci95": [
+          -0.03369348075364248,
+          0.21829091998975358
+        ]
+      },
+      "heldout_combo": {
+        "n": 9,
+        "mean": 0.22749159071180555,
+        "sd": 0.403740353310552,
+        "ci95": [
+          -0.03628544011775511,
+          0.4912686215413662
+        ]
+      },
+      "heldout_value": {
+        "n": 9,
+        "mean": 0.05876329210069445,
+        "sd": 0.20908662214984566,
+        "ci95": [
+          -0.07783996770387139,
+          0.19536655190526028
+        ]
+      }
+    },
+    {
+      "left": "sync_routed",
+      "right": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_combo",
+      "paired_seed_differences": [
+        {
+          "seed": 78701,
+          "all": 0.43426513671875,
+          "heldout_combo": 0.43060302734375,
+          "heldout_value": 0.390625
+        },
+        {
+          "seed": 78702,
+          "all": 0.0543212890625,
+          "heldout_combo": 0.23162841796875,
+          "heldout_value": 0.22674560546875
+        },
+        {
+          "seed": 78703,
+          "all": -0.00152587890625,
+          "heldout_combo": 0.0,
+          "heldout_value": -0.00457763671875
+        },
+        {
+          "seed": 78704,
+          "all": 0.34271240234375,
+          "heldout_combo": 0.86334228515625,
+          "heldout_value": -0.010986328125
+        },
+        {
+          "seed": 78705,
+          "all": 0.302734375,
+          "heldout_combo": 0.39093017578125,
+          "heldout_value": 0.400390625
+        },
+        {
+          "seed": 78706,
+          "all": 0.001220703125,
+          "heldout_combo": 0.0,
+          "heldout_value": 0.0
+        },
+        {
+          "seed": 78707,
+          "all": 0.46966552734375,
+          "heldout_combo": 0.49560546875,
+          "heldout_value": 0.5047607421875
+        },
+        {
+          "seed": 78708,
+          "all": 0.0,
+          "heldout_combo": -0.16265869140625,
+          "heldout_value": -0.081787109375
+        },
+        {
+          "seed": 78709,
+          "all": 0.306396484375,
+          "heldout_combo": 0.22003173828125,
+          "heldout_value": 0.50872802734375
+        }
+      ],
+      "all": {
+        "n": 9,
+        "mean": 0.21219889322916666,
+        "sd": 0.19680253523121854,
+        "ci95": [
+          0.08362123687810388,
+          0.3407765495802294
+        ]
+      },
+      "heldout_combo": {
+        "n": 9,
+        "mean": 0.2743869357638889,
+        "sd": 0.3122818992069473,
+        "ci95": [
+          0.07036276161534999,
+          0.4784111099124278
+        ]
+      },
+      "heldout_value": {
+        "n": 9,
+        "mean": 0.2148776584201389,
+        "sd": 0.24217267550795238,
+        "ci95": [
+          0.05665817708827667,
+          0.3730971397520011
+        ]
+      }
+    },
+    {
+      "left": "tied_routed",
+      "right": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_value",
+      "paired_seed_differences": [
+        {
+          "seed": 78701,
+          "all": 0.1434326171875,
+          "heldout_combo": 0.0689697265625,
+          "heldout_value": 0.037841796875
+        },
+        {
+          "seed": 78702,
+          "all": -0.21026611328125,
+          "heldout_combo": -0.82305908203125,
+          "heldout_value": -0.2301025390625
+        },
+        {
+          "seed": 78703,
+          "all": 0.39398193359375,
+          "heldout_combo": 0.40252685546875,
+          "heldout_value": 0.33172607421875
+        },
+        {
+          "seed": 78704,
+          "all": 0.323486328125,
+          "heldout_combo": 0.0,
+          "heldout_value": 0.50079345703125
+        },
+        {
+          "seed": 78705,
+          "all": 0.14373779296875,
+          "heldout_combo": 0.00030517578125,
+          "heldout_value": 0.0018310546875
+        },
+        {
+          "seed": 78706,
+          "all": -0.2886962890625,
+          "heldout_combo": -0.00335693359375,
+          "heldout_value": -0.71258544921875
+        },
+        {
+          "seed": 78707,
+          "all": 0.18035888671875,
+          "heldout_combo": 0.75286865234375,
+          "heldout_value": 0.02716064453125
+        },
+        {
+          "seed": 78708,
+          "all": 0.1177978515625,
+          "heldout_combo": 0.47088623046875,
+          "heldout_value": -0.3863525390625
+        },
+        {
+          "seed": 78709,
+          "all": 0.02044677734375,
+          "heldout_combo": -0.18402099609375,
+          "heldout_value": -0.240478515625
+        }
+      ],
+      "all": {
+        "n": 9,
+        "mean": 0.0915866427951389,
+        "sd": 0.22360309068309622,
+        "ci95": [
+          -0.054500709784483986,
+          0.23767399537476178
+        ]
+      },
+      "heldout_combo": {
+        "n": 9,
+        "mean": 0.07612440321180555,
+        "sd": 0.4492322285099764,
+        "ci95": [
+          -0.217373986081379,
+          0.3696227925049901
+        ]
+      },
+      "heldout_value": {
+        "n": 9,
+        "mean": -0.074462890625,
+        "sd": 0.3675816632058972,
+        "ci95": [
+          -0.3146162439195195,
+          0.16569046266951948
+        ]
+      }
+    },
+    {
+      "left": "tied_routed",
+      "right": "sync_routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_value",
+      "paired_seed_differences": [
+        {
+          "seed": 78701,
+          "all": -0.25848388671875,
+          "heldout_combo": -0.3265380859375,
+          "heldout_value": -0.5364990234375
+        },
+        {
+          "seed": 78702,
+          "all": -0.20111083984375,
+          "heldout_combo": -0.82305908203125,
+          "heldout_value": -0.35125732421875
+        },
+        {
+          "seed": 78703,
+          "all": 0.3887939453125,
+          "heldout_combo": 0.40252685546875,
+          "heldout_value": 0.33172607421875
+        },
+        {
+          "seed": 78704,
+          "all": -0.008544921875,
+          "heldout_combo": 0.22491455078125,
+          "heldout_value": -0.07598876953125
+        },
+        {
+          "seed": 78705,
+          "all": 0.0030517578125,
+          "heldout_combo": -0.02899169921875,
+          "heldout_value": 0.00335693359375
+        },
+        {
+          "seed": 78706,
+          "all": -0.2935791015625,
+          "heldout_combo": 0.234375,
+          "heldout_value": -0.71258544921875
+        },
+        {
+          "seed": 78707,
+          "all": 0.01007080078125,
+          "heldout_combo": 0.63934326171875,
+          "heldout_value": 0.00701904296875
+        },
+        {
+          "seed": 78708,
+          "all": 0.11566162109375,
+          "heldout_combo": 0.633544921875,
+          "heldout_value": -0.3863525390625
+        },
+        {
+          "seed": 78709,
+          "all": 0.1275634765625,
+          "heldout_combo": 0.0439453125,
+          "heldout_value": 0.052490234375
+        }
+      ],
+      "all": {
+        "n": 9,
+        "mean": -0.012953016493055556,
+        "sd": 0.2159087439597129,
+        "ci95": [
+          -0.154013395880068,
+          0.12810736289395688
+        ]
+      },
+      "heldout_combo": {
+        "n": 9,
+        "mean": 0.1111178927951389,
+        "sd": 0.4681593542525793,
+        "ci95": [
+          -0.19474621864987962,
+          0.4169820042401574
+        ]
+      },
+      "heldout_value": {
+        "n": 9,
+        "mean": -0.18534342447916666,
+        "sd": 0.33123288520873123,
+        "ci95": [
+          -0.4017489094822044,
+          0.03106206052387106
+        ]
+      }
+    },
+    {
+      "left": "sync_routed",
+      "right": "routed",
+      "population": "aligned",
+      "visibility": "hidden",
+      "support": "heldout_value",
+      "paired_seed_differences": [
+        {
+          "seed": 78701,
+          "all": 0.40191650390625,
+          "heldout_combo": 0.3955078125,
+          "heldout_value": 0.5743408203125
+        },
+        {
+          "seed": 78702,
+          "all": -0.0091552734375,
+          "heldout_combo": 0.0,
+          "heldout_value": 0.12115478515625
+        },
+        {
+          "seed": 78703,
+          "all": 0.00518798828125,
+          "heldout_combo": 0.0,
+          "heldout_value": 0.0
+        },
+        {
+          "seed": 78704,
+          "all": 0.33203125,
+          "heldout_combo": -0.22491455078125,
+          "heldout_value": 0.5767822265625
+        },
+        {
+          "seed": 78705,
+          "all": 0.14068603515625,
+          "heldout_combo": 0.029296875,
+          "heldout_value": -0.00152587890625
+        },
+        {
+          "seed": 78706,
+          "all": 0.0048828125,
+          "heldout_combo": -0.23773193359375,
+          "heldout_value": 0.0
+        },
+        {
+          "seed": 78707,
+          "all": 0.1702880859375,
+          "heldout_combo": 0.113525390625,
+          "heldout_value": 0.0201416015625
+        },
+        {
+          "seed": 78708,
+          "all": 0.00213623046875,
+          "heldout_combo": -0.16265869140625,
+          "heldout_value": 0.0
+        },
+        {
+          "seed": 78709,
+          "all": -0.10711669921875,
+          "heldout_combo": -0.22796630859375,
+          "heldout_value": -0.29296875
+        }
+      ],
+      "all": {
+        "n": 9,
+        "mean": 0.10453965928819445,
+        "sd": 0.17096362308849866,
+        "ci95": [
+          -0.007156574462958004,
+          0.2162358930393469
+        ]
+      },
+      "heldout_combo": {
+        "n": 9,
+        "mean": -0.034993489583333336,
+        "sd": 0.20756967724058922,
+        "ci95": [
+          -0.17060567871385163,
+          0.10061869954718494
+        ]
+      },
+      "heldout_value": {
+        "n": 9,
+        "mean": 0.11088053385416667,
+        "sd": 0.2856597325771354,
+        "ci95": [
+          -0.07575049142956179,
+          0.2975115591378951
+        ]
+      }
+    }
+  ],
+  "run_counts": {
+    "children": 81,
+    "seeds": 9
+  }
+}

@@ -4,7 +4,7 @@
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
   "remote_commit": "5bc48092e256691e95a044126ab0e3e52d44b3d4",
   "remote_main_verified": true,
-  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix, ecological-factorization formal matrix, compact archive, replay audit and new-combination analysis, object-surface remapping corrected formal matrix, parent surface-shift analysis, replay audit and cleanup receipt, incumbent-worker surface transfer formal matrix, repair curves, replay audit and cleanup receipt, population-level perceptual heterogeneity formal matrix, three-shard replay audit, exploratory pilot curves, identifiability diagnosis and cleanup receipt, multi-partner sender alignment formal matrix, diagnostic smoke, replay audit and cleanup receipt, community codebook conflict and role-symmetric referential game formal matrix, replay audit, compact archive and cleanup receipt, structured factor-sharing architecture intervention, formal matrix, replay audit and cleanup receipt; learnable routing factorization formal matrix, low-gradient sensitivity baseline, replay audits and cleanup receipt; shared sender/receiver routing role-symmetry intervention, tied versus independent routing and combined replay audit",
+  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix, ecological-factorization formal matrix, compact archive, replay audit and new-combination analysis, object-surface remapping corrected formal matrix, parent surface-shift analysis, replay audit and cleanup receipt, incumbent-worker surface transfer formal matrix, repair curves, replay audit and cleanup receipt, population-level perceptual heterogeneity formal matrix, three-shard replay audit, exploratory pilot curves, identifiability diagnosis and cleanup receipt, multi-partner sender alignment formal matrix, diagnostic smoke, replay audit and cleanup receipt, community codebook conflict and role-symmetric referential game formal matrix, replay audit, compact archive and cleanup receipt, structured factor-sharing architecture intervention, formal matrix, replay audit and cleanup receipt; learnable routing factorization formal matrix, low-gradient sensitivity baseline, replay audits and cleanup receipt; shared sender/receiver routing role-symmetry intervention, tied versus independent routing and combined replay audit; routing initialization control formal matrix, combined replay audit and cleanup receipt",
   "retained_paths": {
     "research_program/action_dependent_signaling_study": {
       "files": 23,
@@ -193,6 +193,22 @@
     "LOCAL_CLEANUP_RECEIPT_2026-09-18_shared_routing.json": {
       "files": 1,
       "bytes": 2883
+    },
+    "research_program/routing_initialization_control_study": {
+      "files": 39,
+      "bytes": 1757924
+    },
+    "research_program/routing_initialization_control_study/results/formal_20260918": {
+      "files": 27,
+      "bytes": 1664514
+    },
+    "SYNC_2026-09-18_routing_initialization_control.md": {
+      "files": 1,
+      "bytes": 1273
+    },
+    "LOCAL_CLEANUP_RECEIPT_2026-09-18_routing_initialization_control.json": {
+      "files": 1,
+      "bytes": 2078
     }
   },
   "compact_archives": {
@@ -307,6 +323,10 @@
     "research_program/shared_routing_study/results/formal_20260918": {
       "files": 28,
       "bytes": 7023624
+    },
+    "research_program/routing_initialization_control_study/results/formal_20260918": {
+      "files": 27,
+      "bytes": 1664514
     }
   },
   "raw_execution_trees": {
@@ -1590,7 +1610,17 @@
     "/private/tmp/structured_factor_pilot_out",
     "/private/tmp/structured_factor_pilot_prepared",
     "/private/tmp/structured_factor_pilot_prepared2",
-    "/private/tmp/structured_factor_pilot_prepared3"
+    "/private/tmp/structured_factor_pilot_prepared3",
+    "/private/tmp/routing_init_control_formal_merged",
+    "/private/tmp/routing_init_control_formal_part1",
+    "/private/tmp/routing_init_control_formal_part2",
+    "/private/tmp/routing_init_control_formal_part3",
+    "/private/tmp/routing_init_control_formal_prepared",
+    "/private/tmp/routing_init_control_pilot_analysis.json",
+    "/private/tmp/routing_init_control_pilot_analysis.md",
+    "/private/tmp/routing_init_control_pilot_audit.json",
+    "/private/tmp/routing_init_control_pilot_execution",
+    "/private/tmp/routing_init_control_pilot_prepared"
   ],
   "tracked_paths_pruned_in_commit": 8338,
   "historical_cleanup_estimate_bytes": 5558370327,
@@ -2544,25 +2574,65 @@
     "/private/tmp/mcs_smoke_prepared": {
       "present": false,
       "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/routing_init_control_formal_merged": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/routing_init_control_formal_part1": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/routing_init_control_formal_part2": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/routing_init_control_formal_part3": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/routing_init_control_formal_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/routing_init_control_pilot_analysis.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/routing_init_control_pilot_analysis.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/routing_init_control_pilot_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/routing_init_control_pilot_execution": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/routing_init_control_pilot_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
     }
   },
   "latest_batch": {
-    "name": "shared_routing_20260918",
-    "source_commit": "5e4fd39dcc27ad74758d02d38e24ebe943c9e413",
-    "archive": "research_program/shared_routing_study/results/formal_20260918",
+    "name": "routing_initialization_control_20260918",
+    "source_commit": "da31e74b",
+    "archive": "research_program/routing_initialization_control_study/results/formal_20260918",
     "archive_stats": {
-      "files": 28,
-      "bytes": 7023624
+      "files": 27,
+      "bytes": 1664514
     },
     "audit": "combined replay passed; max_abs_replay_error=0.0",
     "raw_execution_retained": false,
-    "raw_paths_deleted": 13,
-    "files_deleted": 4204,
-    "bytes_removed": 1870388916,
-    "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18_shared_routing.json",
+    "raw_paths_deleted": 10,
+    "files_deleted": 1081,
+    "bytes_removed": 434534707,
+    "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18_routing_initialization_control.json",
     "verified_paths_absent": true,
     "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
-    "remote_commit": "5bc48092e256691e95a044126ab0e3e52d44b3d4"
+    "remote_commit": "pending push"
   },
   "community_merge_batch": {
     "name": "community_merge_20260918",
@@ -2690,5 +2760,23 @@
     "verified_paths_absent": true,
     "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
     "remote_commit": "5bc48092e256691e95a044126ab0e3e52d44b3d4"
+  },
+  "routing_initialization_control_batch": {
+    "name": "routing_initialization_control_20260918",
+    "source_commit": "da31e74b",
+    "archive": "research_program/routing_initialization_control_study/results/formal_20260918",
+    "archive_stats": {
+      "files": 27,
+      "bytes": 1664514
+    },
+    "audit": "combined replay passed; max_abs_replay_error=0.0",
+    "raw_execution_retained": false,
+    "raw_paths_deleted": 10,
+    "files_deleted": 1081,
+    "bytes_removed": 434534707,
+    "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18_routing_initialization_control.json",
+    "verified_paths_absent": true,
+    "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+    "remote_commit": "pending push"
   }
 }
