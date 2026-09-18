@@ -1,0 +1,142 @@
+{
+  "schema": "community_merge_storage_cleanup_receipt_v1",
+  "generated_at_local": "2026-09-18",
+  "root": "/Users/xia/Documents/ChatGPT/语言",
+  "reason": "retain source, frozen design, compact formal archive and audit while removing raw community-merge execution trees and superseded diagnostics from local storage",
+  "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+  "source_commit": "ec3b9e19bb262b3b84eb7e64b3d22aa43e44c9ab",
+  "archive": "/Users/xia/Documents/ChatGPT/语言/research_program/community_merge_study/results/formal_20260918",
+  "archive_manifest_verified": true,
+  "audit_status": "passed",
+  "raw_execution_retained": false,
+  "deleted": [
+    {
+      "path": "/private/tmp/community_merge_formal2_out",
+      "kind": "directory",
+      "bytes": 1601799636
+    },
+    {
+      "path": "/private/tmp/community_merge_formal2_prepared",
+      "kind": "directory",
+      "bytes": 92777
+    },
+    {
+      "path": "/private/tmp/community_merge_formal2_analysis.json",
+      "kind": "file",
+      "bytes": 242725
+    },
+    {
+      "path": "/private/tmp/community_merge_formal2_analysis.md",
+      "kind": "file",
+      "bytes": 19386
+    },
+    {
+      "path": "/private/tmp/community_merge_formal2_audit.json",
+      "kind": "file",
+      "bytes": 631
+    },
+    {
+      "path": "/private/tmp/community_merge_parallel_audit.py",
+      "kind": "file",
+      "bytes": 1973
+    },
+    {
+      "path": "/private/tmp/community_merge_parallel_audit.log",
+      "kind": "file",
+      "bytes": 929
+    },
+    {
+      "path": "/private/tmp/community_merge_long_analysis.json",
+      "kind": "file",
+      "bytes": 80363
+    },
+    {
+      "path": "/private/tmp/community_merge_long_analysis.md",
+      "kind": "file",
+      "bytes": 10850
+    },
+    {
+      "path": "/private/tmp/community_merge_long_out",
+      "kind": "directory",
+      "bytes": 58777126
+    },
+    {
+      "path": "/private/tmp/community_merge_long_prepared",
+      "kind": "directory",
+      "bytes": 92048
+    },
+    {
+      "path": "/private/tmp/community_merge_pilot2_analysis.json",
+      "kind": "file",
+      "bytes": 200587
+    },
+    {
+      "path": "/private/tmp/community_merge_pilot2_analysis.md",
+      "kind": "file",
+      "bytes": 19498
+    },
+    {
+      "path": "/private/tmp/community_merge_pilot2_out",
+      "kind": "directory",
+      "bytes": 39044939
+    },
+    {
+      "path": "/private/tmp/community_merge_pilot2_prepared",
+      "kind": "directory",
+      "bytes": 92048
+    },
+    {
+      "path": "/private/tmp/community_merge_pilot_analysis.json",
+      "kind": "file",
+      "bytes": 48960
+    },
+    {
+      "path": "/private/tmp/community_merge_pilot_analysis.md",
+      "kind": "file",
+      "bytes": 8028
+    },
+    {
+      "path": "/private/tmp/community_merge_pilot_out",
+      "kind": "directory",
+      "bytes": 494178
+    },
+    {
+      "path": "/private/tmp/community_merge_pilot_prepared",
+      "kind": "directory",
+      "bytes": 91825
+    },
+    {
+      "path": "/private/tmp/community_merge_smoke4_audit.json",
+      "kind": "file",
+      "bytes": 588
+    },
+    {
+      "path": "/private/tmp/community_merge_smoke4_out",
+      "kind": "directory",
+      "bytes": 405546
+    },
+    {
+      "path": "/private/tmp/community_merge_smoke4_prepared",
+      "kind": "directory",
+      "bytes": 92777
+    },
+    {
+      "path": "/private/tmp/community_merge_smoke_audit.json",
+      "kind": "file",
+      "bytes": 588
+    },
+    {
+      "path": "/private/tmp/community_merge_smoke_out",
+      "kind": "directory",
+      "bytes": 592094
+    },
+    {
+      "path": "/private/tmp/community_merge_smoke_prepared",
+      "kind": "directory",
+      "bytes": 92269
+    }
+  ],
+  "deleted_path_count": 25,
+  "total_bytes_removed": 1702302369,
+  "post_delete_paths_absent": true
+}

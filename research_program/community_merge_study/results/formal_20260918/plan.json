@@ -1,0 +1,219 @@
+{
+  "schema": "community_merge_study_v1",
+  "prepared_sha256": "b002ca72f4c46b356f796063c1ed26feefa1ee09dd8bfc92f537da5780ea5286",
+  "sources": {
+    "research_program/community_merge_study/__init__.py": "c7a0b0a16637bff2e9eb7f1ac1dca50f147313d454e62bd0cab4b078d5a22b19",
+    "research_program/community_merge_study/README.md": "bb92e72cf006b5b76724509d1ea5091502aa1dda7004623746081cd3ae5d13f6",
+    "research_program/community_merge_study/design.py": "e2667e24da335de283da0b78c4fc2b91c165693b6f926d7d9276f259a7219d7c",
+    "research_program/community_merge_study/policy.py": "5c438b3f1acced17e7919a31d369ec9f16f08b91a8528d45d8bd11e43ac82912",
+    "research_program/community_merge_study/environment.py": "8f031c015cae2f633bbe35df4b27c79cb6d9d63392192706d897d59dc50e43c0",
+    "research_program/community_merge_study/runner.py": "50d86c5718c3ef3b9c3eb78648ee3773d633f286535821ecc43dded2f9c1ba6d",
+    "research_program/community_merge_study/aggregate.py": "a3463f5e881eef6522e24141884a699a4d5f04467864a702d910379ba506a062",
+    "research_program/community_merge_study/audit.py": "ba2cc897d2e658499942a3e75d5d8f257a86ddd5f10304b829acb5440fda8956",
+    "research_program/community_merge_study/plan.md": "5c1617030fab618201d844c3f0d1601d09e2e802ae010643d246b18211c25c98",
+    "research_program/community_merge_study/tests/test_game.py": "6894b54a948a13b006fd5029e3c001120881d73cb36bb1ffe546e91fb111ecfe"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.2.6"
+  },
+  "config": {
+    "schema": "community_merge_study_v1",
+    "task": "referential_selection",
+    "form": {
+      "name": "quad2",
+      "alphabet_size": 4,
+      "length": 2,
+      "message_state_count": 17
+    },
+    "attributes": 2,
+    "values_per_attribute": 3,
+    "meanings": 9,
+    "scene_size": 4,
+    "communities": 2,
+    "partners_per_community": 2,
+    "partners": 4,
+    "populations": [
+      "aligned",
+      "conflict"
+    ],
+    "visibilities": [
+      "hidden",
+      "visible"
+    ],
+    "adaptations": [
+      "fresh_only",
+      "coadapt"
+    ],
+    "supports": [
+      "full",
+      "heldout_combo",
+      "heldout_value"
+    ],
+    "roles": [
+      "alternating",
+      "sender_only"
+    ],
+    "channels": [
+      "live",
+      "silent"
+    ],
+    "surface_rule": "aligned uses identity in both communities; conflict swaps (0,1) and (2,3) in community 1",
+    "role_rule": "alternating balances fresh sender and fresh receiver for every partner; sender_only fixes fresh as sender",
+    "partner_exposure": "every alternating child block contains both roles for all four partners",
+    "message_symbols": [
+      "@",
+      "#",
+      "￥",
+      "%"
+    ],
+    "goal_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "seeds": [
+      78501,
+      78502,
+      78503,
+      78504,
+      78505,
+      78506,
+      78507,
+      78508,
+      78509
+    ],
+    "parent_conditions": [
+      "aligned",
+      "conflict"
+    ],
+    "child_conditions": [
+      "aligned_hidden_fresh_only_full_alternating",
+      "aligned_hidden_fresh_only_full_sender_only",
+      "aligned_hidden_fresh_only_heldout_combo_alternating",
+      "aligned_hidden_fresh_only_heldout_combo_sender_only",
+      "aligned_hidden_fresh_only_heldout_value_alternating",
+      "aligned_hidden_fresh_only_heldout_value_sender_only",
+      "aligned_hidden_coadapt_full_alternating",
+      "aligned_hidden_coadapt_full_sender_only",
+      "aligned_hidden_coadapt_heldout_combo_alternating",
+      "aligned_hidden_coadapt_heldout_combo_sender_only",
+      "aligned_hidden_coadapt_heldout_value_alternating",
+      "aligned_hidden_coadapt_heldout_value_sender_only",
+      "aligned_visible_fresh_only_full_alternating",
+      "aligned_visible_fresh_only_full_sender_only",
+      "aligned_visible_fresh_only_heldout_combo_alternating",
+      "aligned_visible_fresh_only_heldout_combo_sender_only",
+      "aligned_visible_fresh_only_heldout_value_alternating",
+      "aligned_visible_fresh_only_heldout_value_sender_only",
+      "aligned_visible_coadapt_full_alternating",
+      "aligned_visible_coadapt_full_sender_only",
+      "aligned_visible_coadapt_heldout_combo_alternating",
+      "aligned_visible_coadapt_heldout_combo_sender_only",
+      "aligned_visible_coadapt_heldout_value_alternating",
+      "aligned_visible_coadapt_heldout_value_sender_only",
+      "conflict_hidden_fresh_only_full_alternating",
+      "conflict_hidden_fresh_only_full_sender_only",
+      "conflict_hidden_fresh_only_heldout_combo_alternating",
+      "conflict_hidden_fresh_only_heldout_combo_sender_only",
+      "conflict_hidden_fresh_only_heldout_value_alternating",
+      "conflict_hidden_fresh_only_heldout_value_sender_only",
+      "conflict_hidden_coadapt_full_alternating",
+      "conflict_hidden_coadapt_full_sender_only",
+      "conflict_hidden_coadapt_heldout_combo_alternating",
+      "conflict_hidden_coadapt_heldout_combo_sender_only",
+      "conflict_hidden_coadapt_heldout_value_alternating",
+      "conflict_hidden_coadapt_heldout_value_sender_only",
+      "conflict_visible_fresh_only_full_alternating",
+      "conflict_visible_fresh_only_full_sender_only",
+      "conflict_visible_fresh_only_heldout_combo_alternating",
+      "conflict_visible_fresh_only_heldout_combo_sender_only",
+      "conflict_visible_fresh_only_heldout_value_alternating",
+      "conflict_visible_fresh_only_heldout_value_sender_only",
+      "conflict_visible_coadapt_full_alternating",
+      "conflict_visible_coadapt_full_sender_only",
+      "conflict_visible_coadapt_heldout_combo_alternating",
+      "conflict_visible_coadapt_heldout_combo_sender_only",
+      "conflict_visible_coadapt_heldout_value_alternating",
+      "conflict_visible_coadapt_heldout_value_sender_only"
+    ],
+    "updates": 3000,
+    "batch_size": 512,
+    "learning_rate": 0.08,
+    "entropy_initial": 0.01,
+    "checkpoints": [
+      0,
+      500,
+      1000,
+      2000,
+      3000
+    ],
+    "heldout_combo_assignment": {
+      "78501": 0,
+      "78502": 1,
+      "78503": 2,
+      "78504": 3,
+      "78505": 4,
+      "78506": 5,
+      "78507": 6,
+      "78508": 7,
+      "78509": 8
+    },
+    "heldout_value_assignment": {
+      "78501": 0,
+      "78502": 1,
+      "78503": 2,
+      "78504": 0,
+      "78505": 1,
+      "78506": 2,
+      "78507": 0,
+      "78508": 1,
+      "78509": 2
+    },
+    "primary_readouts": [
+      "heldout_combo and heldout_value referential return",
+      "role-conditioned live-minus-silent message effect",
+      "fresh sender cross-partner code consistency",
+      "slot recombination and community codebook convergence"
+    ],
+    "functional_rule": "held-out natural return >= 0.60",
+    "no_teacher_or_language_prior": true,
+    "parent_runs": 36,
+    "child_runs": 432,
+    "runs": 468,
+    "runtime_policy": "float64 NumPy only"
+  }
+}

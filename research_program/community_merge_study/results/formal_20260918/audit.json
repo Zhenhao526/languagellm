@@ -1,0 +1,20 @@
+{
+  "schema": "community_merge_audit_v1",
+  "status": "passed",
+  "prepared_schema": "community_merge_study_v1",
+  "parent_runs": 36,
+  "child_runs": 432,
+  "expected_parent_runs": 36,
+  "expected_child_runs": 432,
+  "parent_training_log_rows": 108000,
+  "child_training_log_rows": 1296000,
+  "parent_checkpoints": 144,
+  "child_checkpoints": 1728,
+  "paired_visibility_rows": 648000,
+  "paired_adaptation_rows": 1296000,
+  "paired_population_rows": 648000,
+  "paired_support_rows": 864000,
+  "paired_role_rows": 648000,
+  "max_abs_replay_error": 0.0,
+  "raw_execution_tree": "/private/tmp/community_merge_formal2_out/execution"
+}

@@ -4,7 +4,7 @@
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
   "remote_commit": "11582a826ce829d7fc30c8c0d7856340a0f0f971",
   "remote_main_verified": true,
-  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix, ecological-factorization formal matrix, compact archive, replay audit and new-combination analysis, object-surface remapping corrected formal matrix, parent surface-shift analysis, replay audit and cleanup receipt, incumbent-worker surface transfer formal matrix, repair curves, replay audit and cleanup receipt, population-level perceptual heterogeneity formal matrix, three-shard replay audit, exploratory pilot curves, identifiability diagnosis and cleanup receipt, multi-partner sender alignment formal matrix, diagnostic smoke, replay audit and cleanup receipt",
+  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix, ecological-factorization formal matrix, compact archive, replay audit and new-combination analysis, object-surface remapping corrected formal matrix, parent surface-shift analysis, replay audit and cleanup receipt, incumbent-worker surface transfer formal matrix, repair curves, replay audit and cleanup receipt, population-level perceptual heterogeneity formal matrix, three-shard replay audit, exploratory pilot curves, identifiability diagnosis and cleanup receipt, multi-partner sender alignment formal matrix, diagnostic smoke, replay audit and cleanup receipt, community codebook conflict and role-symmetric referential game formal matrix, replay audit, compact archive and cleanup receipt",
   "retained_paths": {
     "research_program/action_dependent_signaling_study": {
       "files": 23,
@@ -145,6 +145,18 @@
     "LOCAL_CLEANUP_RECEIPT_2026-09-18_partner_exposure.json": {
       "files": 1,
       "bytes": 3259
+    },
+    "research_program/community_merge_study": {
+      "files": 23,
+      "bytes": 5613612
+    },
+    "SYNC_2026-09-18_community_merge.md": {
+      "files": 1,
+      "bytes": 1639
+    },
+    "LOCAL_CLEANUP_RECEIPT_2026-09-18_community_merge.json": {
+      "files": 1,
+      "bytes": 3808
     }
   },
   "compact_archives": {
@@ -239,6 +251,10 @@
     "research_program/partner_exposure_study/results/diagnostic_20260918": {
       "files": 11,
       "bytes": 183718
+    },
+    "research_program/community_merge_study/results/formal_20260918": {
+      "files": 12,
+      "bytes": 5533302
     }
   },
   "raw_execution_trees": {
@@ -1159,6 +1175,106 @@
     "/private/tmp/partner_exposure_formal_analysis.md": {
       "present": false,
       "bytes_removed": 14032
+    },
+    "/private/tmp/community_merge_formal2_out": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/community_merge_formal2_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/community_merge_formal2_analysis.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/community_merge_formal2_analysis.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/community_merge_formal2_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/community_merge_parallel_audit.py": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/community_merge_parallel_audit.log": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/community_merge_long_analysis.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/community_merge_long_analysis.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/community_merge_long_out": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/community_merge_long_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/community_merge_pilot2_analysis.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/community_merge_pilot2_analysis.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/community_merge_pilot2_out": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/community_merge_pilot2_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/community_merge_pilot_analysis.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/community_merge_pilot_analysis.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/community_merge_pilot_out": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/community_merge_pilot_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/community_merge_smoke4_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/community_merge_smoke4_out": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/community_merge_smoke4_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/community_merge_smoke_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/community_merge_smoke_out": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/community_merge_smoke_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
     }
   },
   "temporary_raw_trees_removed": [
@@ -1302,18 +1418,43 @@
     "/private/tmp/eco_formal_part1_audit.json",
     "/private/tmp/eco_formal_part2_audit.json",
     "/private/tmp/eco_formal_part3_audit.json",
-    "/private/tmp/language_sync_check"
+    "/private/tmp/language_sync_check",
+    "/private/tmp/community_merge_formal2_out",
+    "/private/tmp/community_merge_formal2_prepared",
+    "/private/tmp/community_merge_formal2_analysis.json",
+    "/private/tmp/community_merge_formal2_analysis.md",
+    "/private/tmp/community_merge_formal2_audit.json",
+    "/private/tmp/community_merge_parallel_audit.py",
+    "/private/tmp/community_merge_parallel_audit.log",
+    "/private/tmp/community_merge_long_analysis.json",
+    "/private/tmp/community_merge_long_analysis.md",
+    "/private/tmp/community_merge_long_out",
+    "/private/tmp/community_merge_long_prepared",
+    "/private/tmp/community_merge_pilot2_analysis.json",
+    "/private/tmp/community_merge_pilot2_analysis.md",
+    "/private/tmp/community_merge_pilot2_out",
+    "/private/tmp/community_merge_pilot2_prepared",
+    "/private/tmp/community_merge_pilot_analysis.json",
+    "/private/tmp/community_merge_pilot_analysis.md",
+    "/private/tmp/community_merge_pilot_out",
+    "/private/tmp/community_merge_pilot_prepared",
+    "/private/tmp/community_merge_smoke4_audit.json",
+    "/private/tmp/community_merge_smoke4_out",
+    "/private/tmp/community_merge_smoke4_prepared",
+    "/private/tmp/community_merge_smoke_audit.json",
+    "/private/tmp/community_merge_smoke_out",
+    "/private/tmp/community_merge_smoke_prepared"
   ],
   "tracked_paths_pruned_in_commit": 8338,
   "historical_cleanup_estimate_bytes": 3687981411,
   "local_environment": {
-    "files": 1333,
-    "bytes": 129774459
+    "files": 1440,
+    "bytes": 144706574
   },
   "policy": "raw training logs, checkpoints, model assets, literature caches and historical generated trees are not kept locally; Git history retains prior source snapshots",
   "additional_cleanup": {
-    "removed_file_or_tree_count": 124,
-    "removed_bytes": 18487436814,
+    "removed_file_or_tree_count": 149,
+    "removed_bytes": 20189739183,
     "removed_paths": [
       {
         "path": "/private/tmp/tabular_PI_stateless_silent",
@@ -1632,6 +1773,131 @@
       {
         "path": "/private/tmp/partner_exposure_formal_analysis.md",
         "bytes": 14032
+      },
+      {
+        "path": "/private/tmp/community_merge_formal2_out",
+        "kind": "directory",
+        "bytes": 1601799636
+      },
+      {
+        "path": "/private/tmp/community_merge_formal2_prepared",
+        "kind": "directory",
+        "bytes": 92777
+      },
+      {
+        "path": "/private/tmp/community_merge_formal2_analysis.json",
+        "kind": "file",
+        "bytes": 242725
+      },
+      {
+        "path": "/private/tmp/community_merge_formal2_analysis.md",
+        "kind": "file",
+        "bytes": 19386
+      },
+      {
+        "path": "/private/tmp/community_merge_formal2_audit.json",
+        "kind": "file",
+        "bytes": 631
+      },
+      {
+        "path": "/private/tmp/community_merge_parallel_audit.py",
+        "kind": "file",
+        "bytes": 1973
+      },
+      {
+        "path": "/private/tmp/community_merge_parallel_audit.log",
+        "kind": "file",
+        "bytes": 929
+      },
+      {
+        "path": "/private/tmp/community_merge_long_analysis.json",
+        "kind": "file",
+        "bytes": 80363
+      },
+      {
+        "path": "/private/tmp/community_merge_long_analysis.md",
+        "kind": "file",
+        "bytes": 10850
+      },
+      {
+        "path": "/private/tmp/community_merge_long_out",
+        "kind": "directory",
+        "bytes": 58777126
+      },
+      {
+        "path": "/private/tmp/community_merge_long_prepared",
+        "kind": "directory",
+        "bytes": 92048
+      },
+      {
+        "path": "/private/tmp/community_merge_pilot2_analysis.json",
+        "kind": "file",
+        "bytes": 200587
+      },
+      {
+        "path": "/private/tmp/community_merge_pilot2_analysis.md",
+        "kind": "file",
+        "bytes": 19498
+      },
+      {
+        "path": "/private/tmp/community_merge_pilot2_out",
+        "kind": "directory",
+        "bytes": 39044939
+      },
+      {
+        "path": "/private/tmp/community_merge_pilot2_prepared",
+        "kind": "directory",
+        "bytes": 92048
+      },
+      {
+        "path": "/private/tmp/community_merge_pilot_analysis.json",
+        "kind": "file",
+        "bytes": 48960
+      },
+      {
+        "path": "/private/tmp/community_merge_pilot_analysis.md",
+        "kind": "file",
+        "bytes": 8028
+      },
+      {
+        "path": "/private/tmp/community_merge_pilot_out",
+        "kind": "directory",
+        "bytes": 494178
+      },
+      {
+        "path": "/private/tmp/community_merge_pilot_prepared",
+        "kind": "directory",
+        "bytes": 91825
+      },
+      {
+        "path": "/private/tmp/community_merge_smoke4_audit.json",
+        "kind": "file",
+        "bytes": 588
+      },
+      {
+        "path": "/private/tmp/community_merge_smoke4_out",
+        "kind": "directory",
+        "bytes": 405546
+      },
+      {
+        "path": "/private/tmp/community_merge_smoke4_prepared",
+        "kind": "directory",
+        "bytes": 92777
+      },
+      {
+        "path": "/private/tmp/community_merge_smoke_audit.json",
+        "kind": "file",
+        "bytes": 588
+      },
+      {
+        "path": "/private/tmp/community_merge_smoke_out",
+        "kind": "directory",
+        "bytes": 592094
+      },
+      {
+        "path": "/private/tmp/community_merge_smoke_prepared",
+        "kind": "directory",
+        "bytes": 92269
       }
     ],
     "verified_after_remote_commit": "fc026e6504d3d78fb213604899c229dafa3a4e00",
@@ -2016,24 +2282,94 @@
     }
   },
   "latest_batch": {
-    "name": "partner_exposure_20260918",
-    "remote_commit": "11582a826ce829d7fc30c8c0d7856340a0f0f971",
-    "archive": "research_program/partner_exposure_study/results/formal_20260918",
+    "name": "community_merge_20260918",
+    "remote_commit": "ec3b9e19bb262b3b84eb7e64b3d22aa43e44c9ab",
+    "archive": "research_program/community_merge_study/results/formal_20260918",
     "archive_stats": {
       "files": 12,
-      "bytes": 2107216
+      "bytes": 5533302
     },
     "audit": "passed",
     "raw_execution_retained": false,
     "raw_paths": [
-      "/private/tmp/partner_exposure_formal_execution"
+      "/private/tmp/community_merge_formal2_out",
+      "/private/tmp/community_merge_formal2_prepared",
+      "/private/tmp/community_merge_formal2_analysis.json",
+      "/private/tmp/community_merge_formal2_analysis.md",
+      "/private/tmp/community_merge_formal2_audit.json",
+      "/private/tmp/community_merge_parallel_audit.py",
+      "/private/tmp/community_merge_parallel_audit.log",
+      "/private/tmp/community_merge_long_analysis.json",
+      "/private/tmp/community_merge_long_analysis.md",
+      "/private/tmp/community_merge_long_out",
+      "/private/tmp/community_merge_long_prepared",
+      "/private/tmp/community_merge_pilot2_analysis.json",
+      "/private/tmp/community_merge_pilot2_analysis.md",
+      "/private/tmp/community_merge_pilot2_out",
+      "/private/tmp/community_merge_pilot2_prepared",
+      "/private/tmp/community_merge_pilot_analysis.json",
+      "/private/tmp/community_merge_pilot_analysis.md",
+      "/private/tmp/community_merge_pilot_out",
+      "/private/tmp/community_merge_pilot_prepared",
+      "/private/tmp/community_merge_smoke4_audit.json",
+      "/private/tmp/community_merge_smoke4_out",
+      "/private/tmp/community_merge_smoke4_prepared",
+      "/private/tmp/community_merge_smoke_audit.json",
+      "/private/tmp/community_merge_smoke_out",
+      "/private/tmp/community_merge_smoke_prepared"
     ],
     "retained_package_stats": {
-      "files": 33,
-      "bytes": 2360346
+      "files": 23,
+      "bytes": 5613612
     },
-    "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18_partner_exposure.json",
+    "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18_community_merge.json",
     "verified_paths_absent": true,
     "remote_repository": "git@github.com:Zhenhao526/languagellm.git"
+  },
+  "community_merge_batch": {
+    "name": "community_merge_20260918",
+    "remote_commit": "ec3b9e19bb262b3b84eb7e64b3d22aa43e44c9ab",
+    "archive": "research_program/community_merge_study/results/formal_20260918",
+    "archive_stats": {
+      "files": 12,
+      "bytes": 5533302
+    },
+    "audit": "passed",
+    "raw_execution_retained": false,
+    "raw_paths": [
+      "/private/tmp/community_merge_formal2_out",
+      "/private/tmp/community_merge_formal2_prepared",
+      "/private/tmp/community_merge_formal2_analysis.json",
+      "/private/tmp/community_merge_formal2_analysis.md",
+      "/private/tmp/community_merge_formal2_audit.json",
+      "/private/tmp/community_merge_parallel_audit.py",
+      "/private/tmp/community_merge_parallel_audit.log",
+      "/private/tmp/community_merge_long_analysis.json",
+      "/private/tmp/community_merge_long_analysis.md",
+      "/private/tmp/community_merge_long_out",
+      "/private/tmp/community_merge_long_prepared",
+      "/private/tmp/community_merge_pilot2_analysis.json",
+      "/private/tmp/community_merge_pilot2_analysis.md",
+      "/private/tmp/community_merge_pilot2_out",
+      "/private/tmp/community_merge_pilot2_prepared",
+      "/private/tmp/community_merge_pilot_analysis.json",
+      "/private/tmp/community_merge_pilot_analysis.md",
+      "/private/tmp/community_merge_pilot_out",
+      "/private/tmp/community_merge_pilot_prepared",
+      "/private/tmp/community_merge_smoke4_audit.json",
+      "/private/tmp/community_merge_smoke4_out",
+      "/private/tmp/community_merge_smoke4_prepared",
+      "/private/tmp/community_merge_smoke_audit.json",
+      "/private/tmp/community_merge_smoke_out",
+      "/private/tmp/community_merge_smoke_prepared"
+    ],
+    "retained_package_stats": {
+      "files": 23,
+      "bytes": 5613612
+    },
+    "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18_community_merge.json",
+    "verified_paths_absent": true,
+    "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+    "bytes_removed": 1702302369
   }
 }

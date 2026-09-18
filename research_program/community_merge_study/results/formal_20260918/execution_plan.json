@@ -1,0 +1,31 @@
+{
+  "schema": "community_merge_execution_plan_v1",
+  "source_commit": "ec3b9e19bb262b3b84eb7e64b3d22aa43e44c9ab",
+  "seeds": [
+    78501,
+    78502,
+    78503,
+    78504,
+    78505,
+    78506,
+    78507,
+    78508,
+    78509
+  ],
+  "parent_runs": 36,
+  "child_runs": 432,
+  "updates_per_run": 3000,
+  "parent_training_log_rows": 108000,
+  "child_training_log_rows": 1296000,
+  "parent_checkpoints": 144,
+  "child_checkpoints": 1728,
+  "paired_visibility_rows": 648000,
+  "paired_adaptation_rows": 1296000,
+  "paired_population_rows": 648000,
+  "paired_support_rows": 864000,
+  "paired_role_rows": 648000,
+  "audit_status": "passed",
+  "max_abs_replay_error": 0.0,
+  "raw_execution_root": "/private/tmp/community_merge_formal2_out/execution",
+  "raw_execution_retained_in_archive": false
+}
