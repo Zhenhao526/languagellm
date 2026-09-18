@@ -1,0 +1,193 @@
+{
+  "schema": "open_world_cultural_transmission_archive_manifest_v1",
+  "archive": "research_program/open_world_cultural_transmission_study/results/formal_20260918",
+  "payload_file_count": 37,
+  "payload_bytes": 2977171,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2032,
+      "sha256": "613233e2eb6e71baae684e648374c3a231df277137601de179644ef04796c314"
+    },
+    {
+      "path": "combined_audit.json",
+      "bytes": 952,
+      "sha256": "7d53a9d5c6d0bf2a81afeb99cf404d73ebdc357d9e7d1cee96eb91344c2a0249"
+    },
+    {
+      "path": "expansion_aggregate.json",
+      "bytes": 18865,
+      "sha256": "70335cd0d241b1efe7e46a9961126d0ace7021dc0928b498a9f809ab07676b8a"
+    },
+    {
+      "path": "expansion_aggregate.md",
+      "bytes": 931,
+      "sha256": "9af53fac2b0c3b710157584d4bb982b59b5d13ad06adafb34ae9348d500cf022"
+    },
+    {
+      "path": "expansion_results.json",
+      "bytes": 1054706,
+      "sha256": "27dd7b11abba2bcee7143fbed3018c0881b90ad1128bec07c55cf4e5c1088c77"
+    },
+    {
+      "path": "expansion_seed_analysis.json",
+      "bytes": 12152,
+      "sha256": "9999b057444a4eec4d2a0311e027b8064c25d5c7b20254cf82ab76e2035763bd"
+    },
+    {
+      "path": "expansion_seed_analysis.md",
+      "bytes": 944,
+      "sha256": "474c5ccaed883682734dbd2aabc8a25169a9811e4afb52a7c517bbb4786090ed"
+    },
+    {
+      "path": "freeze.json",
+      "bytes": 177,
+      "sha256": "9df2ba3e79dbe3369bef33a5a9c8ea7514544e47390fa792d1e0259bff2f4f98"
+    },
+    {
+      "path": "implementation_correction.md",
+      "bytes": 419,
+      "sha256": "38d74516c3e7b28e978e9b717c9a0ced6dd8227c510472ea971fb8b055014c44"
+    },
+    {
+      "path": "part_audits/expansion_part1.json",
+      "bytes": 654,
+      "sha256": "24f4b8f8555f36f36b352242d46bab62fcefcf9e3e152cc486c07a59b6aac6d3"
+    },
+    {
+      "path": "part_audits/expansion_part2.json",
+      "bytes": 654,
+      "sha256": "3943fe47556b941265b7ffe9b5070807c5cedf0738c0c0296b2f33327d515b68"
+    },
+    {
+      "path": "part_audits/expansion_part3.json",
+      "bytes": 654,
+      "sha256": "9f59ae5020b0ab45f43c1c4e28eb7984c9acee9566173aa9d20acefbacbb8e02"
+    },
+    {
+      "path": "part_audits/transfer_part1.json",
+      "bytes": 465,
+      "sha256": "9524335645f66e7c85f516852922c828429762ee01039ee188344ac294ff476b"
+    },
+    {
+      "path": "part_audits/transfer_part2.json",
+      "bytes": 465,
+      "sha256": "2801002059de5add001b40b3b40ca19c4040ea1494632fdb6cc4c43a072858dc"
+    },
+    {
+      "path": "part_audits/transfer_part3.json",
+      "bytes": 465,
+      "sha256": "4d0f8d0c92534a69e93a11ebbdbc5d2ea3f5358ebc6153e4d4aadb9b571863db"
+    },
+    {
+      "path": "plan.json",
+      "bytes": 6070,
+      "sha256": "403a2d9cd2a7086dce8f9bb0c9cdc7fc5e00ba652444bb9a9d7b9ca74caa1f46"
+    },
+    {
+      "path": "plan.md",
+      "bytes": 2567,
+      "sha256": "c89b61ed5765e40378aa4ad2c8eda4e1fcd3e038abb2328c6b41d8f707586ab5"
+    },
+    {
+      "path": "prepared.json",
+      "bytes": 3696,
+      "sha256": "df1574ee35dcf5562b5fb19c8c6c1a36f0a8c9115818b0045f42a814d3665478"
+    },
+    {
+      "path": "source_commit.txt",
+      "bytes": 138,
+      "sha256": "9b963ce2d1333e300a23254feb027432509a84f3dd1ab73ce3d5ec2037aae395"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_cultural_transmission_study/README.md",
+      "bytes": 1193,
+      "sha256": "a4a45133682c21b8a67672993e5aa3cc6cdf9db0ff8931990883034e71c73827"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_cultural_transmission_study/__init__.py",
+      "bytes": 77,
+      "sha256": "c7a0b0a16637bff2e9eb7f1ac1dca50f147313d454e62bd0cab4b078d5a22b19"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_cultural_transmission_study/aggregate.py",
+      "bytes": 4786,
+      "sha256": "1cbc090dc02ee35a4cc16c124be2c1c0ea027dfa66fd2e3ad4acff476d981313"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_cultural_transmission_study/audit.py",
+      "bytes": 8887,
+      "sha256": "0f9249893471c3203b89736131a677e47e7939fdcdda6896b03047db689080e1"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_cultural_transmission_study/design.py",
+      "bytes": 15367,
+      "sha256": "f6f4b7a8512f145b0f1668e40b07a091fa1e446950451bb3d2d953271cf1fcb6"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_cultural_transmission_study/environment.py",
+      "bytes": 9565,
+      "sha256": "f89e698ba7badbe36081da597e44a0b224483dc2694ff1a52e5072cea8d99972"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_cultural_transmission_study/plan.md",
+      "bytes": 2567,
+      "sha256": "c89b61ed5765e40378aa4ad2c8eda4e1fcd3e038abb2328c6b41d8f707586ab5"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_cultural_transmission_study/policy.py",
+      "bytes": 11662,
+      "sha256": "f24c81c5c5ee901fc43ef0d2b135c782172a8f517e0d28ea30f3546d34db4c72"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_cultural_transmission_study/runner.py",
+      "bytes": 37924,
+      "sha256": "909fb1eead216f591431fb3a9c42cc6cc45e3c233e822c504a1dbb7759c6813c"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_cultural_transmission_study/seed_analysis.py",
+      "bytes": 4720,
+      "sha256": "ccdc1a175d2c86b03bc30d0ff8599d6380ae1189b704497837832c6b820fe01f"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_cultural_transmission_study/tests/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_cultural_transmission_study/tests/test_game.py",
+      "bytes": 3791,
+      "sha256": "cbd56f2a23a668f28a8f89d6259c8d366ffd9cceb242571d9a808e838840a803"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_cultural_transmission_study/transfer_analysis.py",
+      "bytes": 4275,
+      "sha256": "969e6c46b9518a65634b7da03db48b15ff80c67cb038fee8a791218baac2bd99"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_cultural_transmission_study/transfer_audit.py",
+      "bytes": 5671,
+      "sha256": "2fc19070fdead20f81884392504d75fc900281ea435dc6e5ba1df400465d7f72"
+    },
+    {
+      "path": "transfer_analysis.json",
+      "bytes": 32263,
+      "sha256": "a45c12291f02b39f00eda7e827bdfc0225031a4739970c2381b7351e24c13aab"
+    },
+    {
+      "path": "transfer_analysis.md",
+      "bytes": 2383,
+      "sha256": "6ef05cdd4e0ad4784c3eb1723b65d426606a0f7419fa0b94ba68eee08a2c8da8"
+    },
+    {
+      "path": "transfer_results.json",
+      "bytes": 1724531,
+      "sha256": "afb31a0448fb5cf0381febf22bd415663847cefaea464f8df79c046b4f391ad7"
+    },
+    {
+      "path": "validity.md",
+      "bytes": 503,
+      "sha256": "4b1c5cc341d6ac315ec0abb98a1ff362e61a71a58783db97790b3192e2b5df46"
+    }
+  ]
+}

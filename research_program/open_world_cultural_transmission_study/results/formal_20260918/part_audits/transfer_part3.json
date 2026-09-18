@@ -1,0 +1,14 @@
+{
+  "schema": "open_world_cultural_transmission_transfer_audit_v1",
+  "status": "partial",
+  "prepared_schema": "open_world_cultural_transmission_study_v1",
+  "transfer_runs": 36,
+  "expected_transfer_runs": 108,
+  "training_log_rows": 81000,
+  "checkpoints": 144,
+  "paired_stream_rows": 81000,
+  "max_abs_replay_error": 0.0,
+  "incumbent_frozen": true,
+  "raw_execution_tree": "removed_raw_execution/transfer_part3/execution",
+  "raw_execution_retained": false
+}

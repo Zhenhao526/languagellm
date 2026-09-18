@@ -4,7 +4,7 @@
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
   "remote_commit": "b0cdf955efb0e650ef0bc2d594d9bfe775042c05",
   "remote_main_verified": true,
-  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix, ecological-factorization formal matrix, compact archive, replay audit and new-combination analysis, object-surface remapping corrected formal matrix, parent surface-shift analysis, replay audit and cleanup receipt, incumbent-worker surface transfer formal matrix, repair curves, replay audit and cleanup receipt, population-level perceptual heterogeneity formal matrix, three-shard replay audit, exploratory pilot curves, identifiability diagnosis and cleanup receipt, multi-partner sender alignment formal matrix, diagnostic smoke, replay audit and cleanup receipt, community codebook conflict and role-symmetric referential game formal matrix, replay audit, compact archive and cleanup receipt, structured factor-sharing architecture intervention, formal matrix, replay audit and cleanup receipt; learnable routing factorization formal matrix, low-gradient sensitivity baseline, replay audits and cleanup receipt; shared sender/receiver routing role-symmetry intervention, tied versus independent routing and combined replay audit; routing initialization control formal matrix, combined replay audit and cleanup receipt; open-world ontology expansion formal matrix, v4 role=2 recombination reevaluation, replay audit, compact archive, invalid-design notes and cleanup receipt",
+  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix, ecological-factorization formal matrix, compact archive, replay audit and new-combination analysis, object-surface remapping corrected formal matrix, parent surface-shift analysis, replay audit and cleanup receipt, incumbent-worker surface transfer formal matrix, repair curves, replay audit and cleanup receipt, population-level perceptual heterogeneity formal matrix, three-shard replay audit, exploratory pilot curves, identifiability diagnosis and cleanup receipt, multi-partner sender alignment formal matrix, diagnostic smoke, replay audit and cleanup receipt, community codebook conflict and role-symmetric referential game formal matrix, replay audit, compact archive and cleanup receipt, structured factor-sharing architecture intervention, formal matrix, replay audit and cleanup receipt; learnable routing factorization formal matrix, low-gradient sensitivity baseline, replay audits and cleanup receipt; shared sender/receiver routing role-symmetry intervention, tied versus independent routing and combined replay audit; routing initialization control formal matrix, combined replay audit and cleanup receipt; open-world ontology expansion formal matrix, v4 role=2 recombination reevaluation, replay audit, compact archive, invalid-design notes and cleanup receipt; open-world cultural transmission formal matrix, frozen incumbent role replacement, corrected zero-update control, six-shard replay audit, transfer analysis, compact archive and cleanup receipt",
   "retained_paths": {
     "research_program/action_dependent_signaling_study": {
       "files": 23,
@@ -225,6 +225,22 @@
     "research_program/open_world_expansion_study": {
       "files": 44,
       "bytes": 3144663
+    },
+    "research_program/open_world_cultural_transmission_study": {
+      "files": 52,
+      "bytes": 3094567
+    },
+    "research_program/open_world_cultural_transmission_study/results/formal_20260918": {
+      "files": 38,
+      "bytes": 2984082
+    },
+    "SYNC_2026-09-18_open_world_cultural_transmission.md": {
+      "files": 1,
+      "bytes": 1383
+    },
+    "LOCAL_CLEANUP_RECEIPT_2026-09-18_open_world_cultural_transmission.json": {
+      "files": 1,
+      "bytes": 6407
     }
   },
   "compact_archives": {
@@ -1670,7 +1686,48 @@
     "/private/tmp/open_world_expansion_v4_audit_part2.json",
     "/private/tmp/open_world_expansion_v4_audit_part3.json",
     "/private/tmp/open_world_expansion_v4_formal_prepared",
-    "/private/tmp/open_world_expansion_v4_reevaluated"
+    "/private/tmp/open_world_expansion_v4_reevaluated",
+    "/private/tmp/open_world_transfer_diag_analysis.json",
+    "/private/tmp/open_world_transfer_diag_analysis.md",
+    "/private/tmp/open_world_transfer_diag_expansion",
+    "/private/tmp/open_world_transfer_diag_expansion_audit.json",
+    "/private/tmp/open_world_transfer_diag_prepared",
+    "/private/tmp/open_world_transfer_diag_transfer",
+    "/private/tmp/open_world_transfer_diag_transfer2",
+    "/private/tmp/open_world_transfer_diag_transfer_audit.json",
+    "/private/tmp/open_world_transfer_formal_expansion_aggregate.json",
+    "/private/tmp/open_world_transfer_formal_expansion_aggregate.md",
+    "/private/tmp/open_world_transfer_formal_expansion_audit_part1.json",
+    "/private/tmp/open_world_transfer_formal_expansion_audit_part1_sanitized.json",
+    "/private/tmp/open_world_transfer_formal_expansion_audit_part2.json",
+    "/private/tmp/open_world_transfer_formal_expansion_audit_part2_sanitized.json",
+    "/private/tmp/open_world_transfer_formal_expansion_audit_part3.json",
+    "/private/tmp/open_world_transfer_formal_expansion_audit_part3_sanitized.json",
+    "/private/tmp/open_world_transfer_formal_expansion_seed_analysis.json",
+    "/private/tmp/open_world_transfer_formal_expansion_seed_analysis.md",
+    "/private/tmp/open_world_transfer_formal_merged_expansion_results.json",
+    "/private/tmp/open_world_transfer_formal_merged_transfer_results.json",
+    "/private/tmp/open_world_transfer_formal_p1",
+    "/private/tmp/open_world_transfer_formal_p2",
+    "/private/tmp/open_world_transfer_formal_p3",
+    "/private/tmp/open_world_transfer_formal_prepared",
+    "/private/tmp/open_world_transfer_formal_transfer_analysis.json",
+    "/private/tmp/open_world_transfer_formal_transfer_analysis.md",
+    "/private/tmp/open_world_transfer_formal_transfer_analysis_part1.json",
+    "/private/tmp/open_world_transfer_formal_transfer_analysis_part1.md",
+    "/private/tmp/open_world_transfer_formal_transfer_analysis_part2.json",
+    "/private/tmp/open_world_transfer_formal_transfer_analysis_part2.md",
+    "/private/tmp/open_world_transfer_formal_transfer_analysis_part3.json",
+    "/private/tmp/open_world_transfer_formal_transfer_analysis_part3.md",
+    "/private/tmp/open_world_transfer_formal_transfer_audit_part1.json",
+    "/private/tmp/open_world_transfer_formal_transfer_audit_part1_sanitized.json",
+    "/private/tmp/open_world_transfer_formal_transfer_audit_part2.json",
+    "/private/tmp/open_world_transfer_formal_transfer_audit_part2_sanitized.json",
+    "/private/tmp/open_world_transfer_formal_transfer_audit_part3.json",
+    "/private/tmp/open_world_transfer_formal_transfer_audit_part3_sanitized.json",
+    "/private/tmp/open_world_transfer_formal_transfer_p1",
+    "/private/tmp/open_world_transfer_formal_transfer_p2",
+    "/private/tmp/open_world_transfer_formal_transfer_p3"
   ],
   "tracked_paths_pruned_in_commit": 8338,
   "historical_cleanup_estimate_bytes": 5558370327,
@@ -2800,33 +2857,198 @@
     "/private/tmp/open_world_expansion_v4_reevaluated": {
       "present": false,
       "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_diag_analysis.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_diag_analysis.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_diag_expansion": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_diag_expansion_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_diag_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_diag_transfer": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_diag_transfer2": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_diag_transfer_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_formal_expansion_aggregate.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_formal_expansion_aggregate.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_formal_expansion_audit_part1.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_formal_expansion_audit_part1_sanitized.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_formal_expansion_audit_part2.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_formal_expansion_audit_part2_sanitized.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_formal_expansion_audit_part3.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_formal_expansion_audit_part3_sanitized.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_formal_expansion_seed_analysis.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_formal_expansion_seed_analysis.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_formal_merged_expansion_results.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_formal_merged_transfer_results.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_formal_p1": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_formal_p2": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_formal_p3": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_formal_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_formal_transfer_analysis.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_formal_transfer_analysis.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_formal_transfer_analysis_part1.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_formal_transfer_analysis_part1.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_formal_transfer_analysis_part2.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_formal_transfer_analysis_part2.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_formal_transfer_analysis_part3.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_formal_transfer_analysis_part3.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_formal_transfer_audit_part1.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_formal_transfer_audit_part1_sanitized.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_formal_transfer_audit_part2.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_formal_transfer_audit_part2_sanitized.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_formal_transfer_audit_part3.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_formal_transfer_audit_part3_sanitized.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_formal_transfer_p1": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_formal_transfer_p2": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_transfer_formal_transfer_p3": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
     }
   },
   "latest_batch": {
-    "name": "open_world_expansion_20260918",
-    "source_commit": "ee967ca7f20144b535b311752160726d482ea1e7",
-    "archive": "research_program/open_world_expansion_study/results/formal_20260918",
+    "name": "open_world_cultural_transmission_20260918",
+    "source_commit": "f2e46725b5031ac8868be1073452578b686208a8",
+    "archive": "research_program/open_world_cultural_transmission_study/results/formal_20260918",
     "archive_stats": {
-      "files": 32,
-      "bytes": 3054349
+      "files": 38,
+      "bytes": 2984082
     },
     "archive_payload_stats": {
-      "files": 31,
-      "bytes": 3048795
+      "files": 37,
+      "bytes": 2977171
     },
-    "audit": "combined replay passed; max_abs_replay_error=0.0; v4 endpoint reevaluation recorded",
+    "audit": "combined expansion+transfer replay passed; max_abs_replay_error=0.0; incumbent frozen",
     "raw_execution_retained": false,
-    "raw_paths_deleted": 34,
-    "files_deleted": 3763,
-    "bytes_removed": 1494698343,
-    "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18_open_world_expansion.json",
-    "invalid_designs_archived": [
-      "v1 wrong base-4 old-meaning indices and shortcut-prone distractors",
-      "v2 trained the double-new meaning and is diagnostic only"
-    ],
+    "raw_paths_deleted": 41,
+    "files_deleted": 1381,
+    "bytes_removed": 548975928,
+    "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18_open_world_cultural_transmission.json",
+    "correction_archived": "expanded_single_none formal control uses 0 updates; unintended diagnostic batch discarded",
     "verified_paths_absent": true,
     "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
-    "remote_commit": "b0cdf955efb0e650ef0bc2d594d9bfe775042c05"
+    "remote_commit": "pending final push",
+    "source_package_stats": {
+      "files": 52,
+      "bytes": 3094567
+    }
   },
   "community_merge_batch": {
     "name": "community_merge_20260918",
@@ -3001,6 +3223,33 @@
     "source_package_stats": {
       "files": 44,
       "bytes": 3144663
+    }
+  },
+  "open_world_cultural_transmission_batch": {
+    "name": "open_world_cultural_transmission_20260918",
+    "source_commit": "f2e46725b5031ac8868be1073452578b686208a8",
+    "archive": "research_program/open_world_cultural_transmission_study/results/formal_20260918",
+    "archive_stats": {
+      "files": 38,
+      "bytes": 2984082
+    },
+    "archive_payload_stats": {
+      "files": 37,
+      "bytes": 2977171
+    },
+    "audit": "combined expansion+transfer replay passed; max_abs_replay_error=0.0; incumbent frozen",
+    "raw_execution_retained": false,
+    "raw_paths_deleted": 41,
+    "files_deleted": 1381,
+    "bytes_removed": 548975928,
+    "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18_open_world_cultural_transmission.json",
+    "correction_archived": "expanded_single_none formal control uses 0 updates; unintended diagnostic batch discarded",
+    "verified_paths_absent": true,
+    "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+    "remote_commit": "pending final push",
+    "source_package_stats": {
+      "files": 52,
+      "bytes": 3094567
     }
   }
 }

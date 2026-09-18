@@ -1,0 +1,201 @@
+{
+  "schema": "open_world_cultural_transmission_study_v1",
+  "task": "open_world_referential_selection",
+  "form": {
+    "name": "quad2_open4",
+    "alphabet_size": 4,
+    "length": 2,
+    "message_state_count": 17
+  },
+  "architectures": [
+    "holistic",
+    "factorized",
+    "tied_routed"
+  ],
+  "architecture_intervention": "holistic indexes complete meanings; factorized fixes slot-to-attribute factors; tied_routed shares a learned route coordinate while factor tables remain role-specific",
+  "attributes": 2,
+  "values_per_attribute": 4,
+  "old_values": 3,
+  "new_value": 3,
+  "meanings": 16,
+  "old_meanings": 9,
+  "old_meaning_indices": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10
+  ],
+  "scene_size": 4,
+  "communities": 2,
+  "partners_per_community": 2,
+  "partners": 4,
+  "populations": [
+    "aligned"
+  ],
+  "visibilities": [
+    "hidden"
+  ],
+  "supports": [
+    "expanded_single_pair"
+  ],
+  "transfer_supports": [
+    "expanded_single_sender",
+    "expanded_single_receiver",
+    "expanded_single_pair",
+    "expanded_single_none"
+  ],
+  "all_supports": [
+    "old_combo",
+    "expanded_single_pair",
+    "expanded_single_sender",
+    "expanded_single_receiver",
+    "expanded_single_none"
+  ],
+  "eval_kinds": [
+    "old_seen",
+    "old_combo",
+    "new_single",
+    "new_double",
+    "all"
+  ],
+  "roles": [
+    "alternating",
+    "pair"
+  ],
+  "channels": [
+    "live",
+    "silent"
+  ],
+  "parent_support": "old_world",
+  "stages": [
+    "closed_parent",
+    "single_new_pair_expansion",
+    "incumbent_replacement"
+  ],
+  "child_intervention": "the expansion stage assigns both fresh roles for new-single meanings and leaves new-double out of training; transfer stages replace sender, receiver, both, or neither role while retaining the same single-new support",
+  "message_symbols": [
+    "@",
+    "#",
+    "￥",
+    "%"
+  ],
+  "goal_pairs": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      3
+    ]
+  ],
+  "seeds": [
+    88001,
+    88002,
+    88003,
+    88004,
+    88005,
+    88006,
+    88007,
+    88008,
+    88009
+  ],
+  "parent_conditions": [
+    "holistic_aligned",
+    "factorized_aligned",
+    "tied_routed_aligned"
+  ],
+  "child_conditions": [
+    "holistic_aligned_hidden_expanded_single_pair",
+    "factorized_aligned_hidden_expanded_single_pair",
+    "tied_routed_aligned_hidden_expanded_single_pair"
+  ],
+  "transfer_conditions": [
+    "holistic_aligned_hidden_expanded_single_sender",
+    "holistic_aligned_hidden_expanded_single_receiver",
+    "holistic_aligned_hidden_expanded_single_pair",
+    "holistic_aligned_hidden_expanded_single_none",
+    "factorized_aligned_hidden_expanded_single_sender",
+    "factorized_aligned_hidden_expanded_single_receiver",
+    "factorized_aligned_hidden_expanded_single_pair",
+    "factorized_aligned_hidden_expanded_single_none",
+    "tied_routed_aligned_hidden_expanded_single_sender",
+    "tied_routed_aligned_hidden_expanded_single_receiver",
+    "tied_routed_aligned_hidden_expanded_single_pair",
+    "tied_routed_aligned_hidden_expanded_single_none"
+  ],
+  "updates": 3000,
+  "batch_size": 512,
+  "learning_rate": 0.08,
+  "route_init_scale": 0.5,
+  "route_temperature": 5.0,
+  "entropy_initial": 0.01,
+  "checkpoints": [
+    0,
+    500,
+    1000,
+    2000,
+    3000
+  ]
+}

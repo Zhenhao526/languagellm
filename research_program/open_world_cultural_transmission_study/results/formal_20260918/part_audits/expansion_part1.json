@@ -1,0 +1,20 @@
+{
+  "schema": "open_world_cultural_transmission_expansion_audit_v1",
+  "status": "partial",
+  "prepared_schema": "open_world_cultural_transmission_study_v1",
+  "parent_runs": 18,
+  "child_runs": 9,
+  "expected_parent_runs": 54,
+  "expected_child_runs": 27,
+  "parent_training_log_rows": 54000,
+  "child_training_log_rows": 27000,
+  "parent_checkpoints": 72,
+  "child_checkpoints": 36,
+  "paired_architecture_rows": 27000,
+  "paired_support_rows": 0,
+  "paired_visibility_rows": 0,
+  "paired_population_rows": 0,
+  "max_abs_replay_error": 0.0,
+  "raw_execution_tree": "removed_raw_execution/expansion_part1/execution",
+  "raw_execution_retained": false
+}

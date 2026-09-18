@@ -1,0 +1,226 @@
+{
+  "schema": "local_cleanup_receipt_v1",
+  "created": "2026-09-18",
+  "batch": "open_world_cultural_transmission_20260918",
+  "archive": "research_program/open_world_cultural_transmission_study/results/formal_20260918",
+  "archive_manifest_sha256": "058625ea35ac3d3044bcd14243670d1843555ef0d97639e529454f30c38d0980",
+  "archive_payload_file_count": 37,
+  "archive_payload_bytes": 2977171,
+  "combined_audit_sha256": "7d53a9d5c6d0bf2a81afeb99cf404d73ebdc357d9e7d1cee96eb91344c2a0249",
+  "combined_audit_status": "passed",
+  "combined_audit_max_abs_replay_error": 0.0,
+  "removed_paths": [
+    {
+      "path": "/private/tmp/open_world_transfer_diag_analysis.json",
+      "files": 1,
+      "bytes": 18785
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_diag_analysis.md",
+      "files": 1,
+      "bytes": 2392
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_diag_expansion",
+      "files": 38,
+      "bytes": 3644932
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_diag_expansion_audit.json",
+      "files": 1,
+      "bytes": 589
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_diag_prepared",
+      "files": 15,
+      "bytes": 115421
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_diag_transfer",
+      "files": 50,
+      "bytes": 6464778
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_diag_transfer2",
+      "files": 6,
+      "bytes": 537600
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_diag_transfer_audit.json",
+      "files": 1,
+      "bytes": 425
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_formal_expansion_aggregate.json",
+      "files": 1,
+      "bytes": 18865
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_formal_expansion_aggregate.md",
+      "files": 1,
+      "bytes": 931
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_formal_expansion_audit_part1.json",
+      "files": 1,
+      "bytes": 624
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_formal_expansion_audit_part1_sanitized.json",
+      "files": 1,
+      "bytes": 654
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_formal_expansion_audit_part2.json",
+      "files": 1,
+      "bytes": 624
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_formal_expansion_audit_part2_sanitized.json",
+      "files": 1,
+      "bytes": 654
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_formal_expansion_audit_part3.json",
+      "files": 1,
+      "bytes": 624
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_formal_expansion_audit_part3_sanitized.json",
+      "files": 1,
+      "bytes": 654
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_formal_expansion_seed_analysis.json",
+      "files": 1,
+      "bytes": 12152
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_formal_expansion_seed_analysis.md",
+      "files": 1,
+      "bytes": 944
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_formal_merged_expansion_results.json",
+      "files": 1,
+      "bytes": 1055111
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_formal_merged_transfer_results.json",
+      "files": 1,
+      "bytes": 1726691
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_formal_p1",
+      "files": 191,
+      "bytes": 76173697
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_formal_p2",
+      "files": 191,
+      "bytes": 76178238
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_formal_p3",
+      "files": 191,
+      "bytes": 76169858
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_formal_prepared",
+      "files": 15,
+      "bytes": 115708
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_formal_transfer_analysis.json",
+      "files": 1,
+      "bytes": 32263
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_formal_transfer_analysis.md",
+      "files": 1,
+      "bytes": 2383
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_formal_transfer_analysis_part1.json",
+      "files": 1,
+      "bytes": 23109
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_formal_transfer_analysis_part1.md",
+      "files": 1,
+      "bytes": 2379
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_formal_transfer_analysis_part2.json",
+      "files": 1,
+      "bytes": 22384
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_formal_transfer_analysis_part2.md",
+      "files": 1,
+      "bytes": 2375
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_formal_transfer_analysis_part3.json",
+      "files": 1,
+      "bytes": 22379
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_formal_transfer_analysis_part3.md",
+      "files": 1,
+      "bytes": 2379
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_formal_transfer_audit_part1.json",
+      "files": 1,
+      "bytes": 445
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_formal_transfer_audit_part1_sanitized.json",
+      "files": 1,
+      "bytes": 465
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_formal_transfer_audit_part2.json",
+      "files": 1,
+      "bytes": 445
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_formal_transfer_audit_part2_sanitized.json",
+      "files": 1,
+      "bytes": 465
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_formal_transfer_audit_part3.json",
+      "files": 1,
+      "bytes": 445
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_formal_transfer_audit_part3_sanitized.json",
+      "files": 1,
+      "bytes": 465
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_formal_transfer_p1",
+      "files": 218,
+      "bytes": 102210540
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_formal_transfer_p2",
+      "files": 218,
+      "bytes": 102207729
+    },
+    {
+      "path": "/private/tmp/open_world_transfer_formal_transfer_p3",
+      "files": 218,
+      "bytes": 102204327
+    }
+  ],
+  "removed_file_count": 1381,
+  "removed_bytes": 548975928,
+  "remaining_raw_temp_matches": [],
+  "discarded_diagnostic_batches": [
+    "initial expanded_single_none transfer run with unintended 3000 updates"
+  ],
+  "policy": "raw logs, checkpoints, diagnostic trees, merged temporary payloads and audit intermediates removed after archive and replay verification; compact source, endpoint results, audit receipts and hashes retained."
+}
