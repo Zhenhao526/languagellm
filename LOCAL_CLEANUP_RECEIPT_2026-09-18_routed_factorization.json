@@ -4,7 +4,7 @@
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "reason": "retain routed source, compact formal archives and verified audit while removing raw training, checkpoint, pilot and diagnostic trees",
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
-  "source_commit": "4577b32",
+  "source_commit": "4577b3210e470c10f74b3142b13d595d415aefbb",
   "archives": [
     {
       "path": "research_program/routed_factorization_study/results/formal_20260918_scaled",
@@ -245,5 +245,8 @@
   "deleted_path_count": 37,
   "deleted_file_count": 7477,
   "deleted_regular_file_bytes": 2938503019,
-  "remaining_tmp_routed_paths": []
+  "remaining_tmp_routed_paths": [],
+  "remote_commit": "d585f82fbcb2a7dea4e1c805e178781f9fd6bdcd",
+  "remote_branch": "main",
+  "remote_url": "https://github.com/Zhenhao526/languagellm"
 }
