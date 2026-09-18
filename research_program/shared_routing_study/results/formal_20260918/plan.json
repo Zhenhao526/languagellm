@@ -1,0 +1,229 @@
+{
+  "schema": "shared_routing_study_v1",
+  "prepared_sha256": "4316b181f5d6d9529bf0147062d3df2eaccbdef8a8f88ec33c919e00bcb16d8d",
+  "sources": {
+    "research_program/shared_routing_study/__init__.py": "c7a0b0a16637bff2e9eb7f1ac1dca50f147313d454e62bd0cab4b078d5a22b19",
+    "research_program/shared_routing_study/README.md": "d784c5e1675e96208f926b9e8b48dec6a5a2be30eb3a932b293d76b7d7d06368",
+    "research_program/shared_routing_study/design.py": "2f9a2c909db7db9254694594aa0e065ecc025be52eb7e3ccc6e2818d368d4b5d",
+    "research_program/shared_routing_study/policy.py": "f24c81c5c5ee901fc43ef0d2b135c782172a8f517e0d28ea30f3546d34db4c72",
+    "research_program/shared_routing_study/environment.py": "81b9b5ef93cd11bfdcb1c18ae954161eb8b2f476623a8e42b69e229543fe2d65",
+    "research_program/shared_routing_study/runner.py": "5e9725e7a540d760468fa7bbfe7aa80c3b71c6bc14e19b1ac79745d5150e8c07",
+    "research_program/shared_routing_study/aggregate.py": "b7b1f57b0e611f6bb61ec318868a8e6788813d2ad28499689e20d96e833c2f21",
+    "research_program/shared_routing_study/audit.py": "352ff8889e074d34efd3150b61a850675b58183448d4621724e330cf7d13b055",
+    "research_program/shared_routing_study/plan.md": "2e7fbc9fc9a490834c6ccc2ed0b6291f0b8ff9c499900c2c62d765efd3a7760a",
+    "research_program/shared_routing_study/tests/test_game.py": "f4cd160d5149cb996ebf3c1ba4f9e832e83489b5dd0e8324506713ff3563acd3"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.2.6"
+  },
+  "config": {
+    "schema": "shared_routing_study_v1",
+    "task": "referential_selection",
+    "form": {
+      "name": "quad2",
+      "alphabet_size": 4,
+      "length": 2,
+      "message_state_count": 17
+    },
+    "architectures": [
+      "holistic",
+      "factorized",
+      "routed",
+      "tied_routed"
+    ],
+    "architecture_intervention": "holistic stores one sender/receiver row per complete meaning/message; factorized fixes slot j to attribute j; routed shares atomic factor tables but learns independent sender/receiver slot-to-attribute matrices; tied_routed shares one learned routing matrix between sender and receiver while keeping their factor tables separate",
+    "attributes": 2,
+    "values_per_attribute": 3,
+    "meanings": 9,
+    "scene_size": 4,
+    "communities": 2,
+    "partners_per_community": 2,
+    "partners": 4,
+    "populations": [
+      "aligned",
+      "conflict"
+    ],
+    "visibilities": [
+      "hidden",
+      "visible"
+    ],
+    "supports": [
+      "full",
+      "heldout_combo",
+      "heldout_value"
+    ],
+    "roles": [
+      "alternating"
+    ],
+    "channels": [
+      "live",
+      "silent"
+    ],
+    "surface_rule": "aligned identity in both communities; conflict swaps (0,1) and (2,3) in community 1",
+    "role_rule": "alternating balances fresh sender and fresh receiver for all four partners",
+    "message_symbols": [
+      "@",
+      "#",
+      "￥",
+      "%"
+    ],
+    "goal_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "seeds": [
+      78701,
+      78702,
+      78703,
+      78704,
+      78705,
+      78706,
+      78707,
+      78708,
+      78709
+    ],
+    "parent_conditions": [
+      "holistic_aligned",
+      "holistic_conflict",
+      "factorized_aligned",
+      "factorized_conflict",
+      "routed_aligned",
+      "routed_conflict",
+      "tied_routed_aligned",
+      "tied_routed_conflict"
+    ],
+    "child_conditions": [
+      "holistic_aligned_hidden_full",
+      "holistic_aligned_hidden_heldout_combo",
+      "holistic_aligned_hidden_heldout_value",
+      "holistic_aligned_visible_full",
+      "holistic_aligned_visible_heldout_combo",
+      "holistic_aligned_visible_heldout_value",
+      "holistic_conflict_hidden_full",
+      "holistic_conflict_hidden_heldout_combo",
+      "holistic_conflict_hidden_heldout_value",
+      "holistic_conflict_visible_full",
+      "holistic_conflict_visible_heldout_combo",
+      "holistic_conflict_visible_heldout_value",
+      "factorized_aligned_hidden_full",
+      "factorized_aligned_hidden_heldout_combo",
+      "factorized_aligned_hidden_heldout_value",
+      "factorized_aligned_visible_full",
+      "factorized_aligned_visible_heldout_combo",
+      "factorized_aligned_visible_heldout_value",
+      "factorized_conflict_hidden_full",
+      "factorized_conflict_hidden_heldout_combo",
+      "factorized_conflict_hidden_heldout_value",
+      "factorized_conflict_visible_full",
+      "factorized_conflict_visible_heldout_combo",
+      "factorized_conflict_visible_heldout_value",
+      "routed_aligned_hidden_full",
+      "routed_aligned_hidden_heldout_combo",
+      "routed_aligned_hidden_heldout_value",
+      "routed_aligned_visible_full",
+      "routed_aligned_visible_heldout_combo",
+      "routed_aligned_visible_heldout_value",
+      "routed_conflict_hidden_full",
+      "routed_conflict_hidden_heldout_combo",
+      "routed_conflict_hidden_heldout_value",
+      "routed_conflict_visible_full",
+      "routed_conflict_visible_heldout_combo",
+      "routed_conflict_visible_heldout_value",
+      "tied_routed_aligned_hidden_full",
+      "tied_routed_aligned_hidden_heldout_combo",
+      "tied_routed_aligned_hidden_heldout_value",
+      "tied_routed_aligned_visible_full",
+      "tied_routed_aligned_visible_heldout_combo",
+      "tied_routed_aligned_visible_heldout_value",
+      "tied_routed_conflict_hidden_full",
+      "tied_routed_conflict_hidden_heldout_combo",
+      "tied_routed_conflict_hidden_heldout_value",
+      "tied_routed_conflict_visible_full",
+      "tied_routed_conflict_visible_heldout_combo",
+      "tied_routed_conflict_visible_heldout_value"
+    ],
+    "updates": 3000,
+    "batch_size": 512,
+    "learning_rate": 0.08,
+    "route_init_scale": 0.5,
+    "route_temperature": 5.0,
+    "entropy_initial": 0.01,
+    "checkpoints": [
+      0,
+      500,
+      1000,
+      2000,
+      3000
+    ],
+    "heldout_combo_assignment": {
+      "78701": 0,
+      "78702": 1,
+      "78703": 2,
+      "78704": 3,
+      "78705": 4,
+      "78706": 5,
+      "78707": 6,
+      "78708": 7,
+      "78709": 8
+    },
+    "heldout_value_assignment": {
+      "78701": 0,
+      "78702": 1,
+      "78703": 2,
+      "78704": 0,
+      "78705": 1,
+      "78706": 2,
+      "78707": 0,
+      "78708": 1,
+      "78709": 2
+    },
+    "primary_readouts": [
+      "architecture effect on heldout combination/value return",
+      "live-minus-silent and natural-minus-permuted",
+      "cross-partner code consistency",
+      "slot-wise factor alignment and community conflict cost",
+      "routing alignment up to slot permutation"
+    ],
+    "functional_rule": "held-out natural return >= 0.60",
+    "no_teacher_or_language_prior": true,
+    "parent_runs": 72,
+    "child_runs": 432,
+    "runs": 504,
+    "runtime_policy": "float64 NumPy only"
+  }
+}

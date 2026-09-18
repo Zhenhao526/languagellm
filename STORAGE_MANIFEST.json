@@ -4,7 +4,7 @@
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
   "remote_commit": "5bc48092e256691e95a044126ab0e3e52d44b3d4",
   "remote_main_verified": true,
-  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix, ecological-factorization formal matrix, compact archive, replay audit and new-combination analysis, object-surface remapping corrected formal matrix, parent surface-shift analysis, replay audit and cleanup receipt, incumbent-worker surface transfer formal matrix, repair curves, replay audit and cleanup receipt, population-level perceptual heterogeneity formal matrix, three-shard replay audit, exploratory pilot curves, identifiability diagnosis and cleanup receipt, multi-partner sender alignment formal matrix, diagnostic smoke, replay audit and cleanup receipt, community codebook conflict and role-symmetric referential game formal matrix, replay audit, compact archive and cleanup receipt, structured factor-sharing architecture intervention, formal matrix, replay audit and cleanup receipt; learnable routing factorization formal matrix, low-gradient sensitivity baseline, replay audits and cleanup receipt",
+  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix, ecological-factorization formal matrix, compact archive, replay audit and new-combination analysis, object-surface remapping corrected formal matrix, parent surface-shift analysis, replay audit and cleanup receipt, incumbent-worker surface transfer formal matrix, repair curves, replay audit and cleanup receipt, population-level perceptual heterogeneity formal matrix, three-shard replay audit, exploratory pilot curves, identifiability diagnosis and cleanup receipt, multi-partner sender alignment formal matrix, diagnostic smoke, replay audit and cleanup receipt, community codebook conflict and role-symmetric referential game formal matrix, replay audit, compact archive and cleanup receipt, structured factor-sharing architecture intervention, formal matrix, replay audit and cleanup receipt; learnable routing factorization formal matrix, low-gradient sensitivity baseline, replay audits and cleanup receipt; shared sender/receiver routing role-symmetry intervention, tied versus independent routing and combined replay audit",
   "retained_paths": {
     "research_program/action_dependent_signaling_study": {
       "files": 23,
@@ -181,6 +181,18 @@
     "LOCAL_CLEANUP_RECEIPT_2026-09-18_routed_factorization.json": {
       "files": 1,
       "bytes": 6090
+    },
+    "research_program/shared_routing_study": {
+      "files": 58,
+      "bytes": 7382688
+    },
+    "SYNC_2026-09-18_shared_routing.md": {
+      "files": 1,
+      "bytes": 1835
+    },
+    "LOCAL_CLEANUP_RECEIPT_2026-09-18_shared_routing.json": {
+      "files": 1,
+      "bytes": 2883
     }
   },
   "compact_archives": {
@@ -291,6 +303,10 @@
     "research_program/routed_factorization_study/results/formal_20260918_low_gradient": {
       "files": 21,
       "bytes": 4850268
+    },
+    "research_program/shared_routing_study/results/formal_20260918": {
+      "files": 37,
+      "bytes": 7156130
     }
   },
   "raw_execution_trees": {
@@ -1577,7 +1593,7 @@
     "/private/tmp/structured_factor_pilot_prepared3"
   ],
   "tracked_paths_pruned_in_commit": 8338,
-  "historical_cleanup_estimate_bytes": 3687981411,
+  "historical_cleanup_estimate_bytes": 5558370327,
   "local_environment": {
     "files": 1553,
     "bytes": 149980463
@@ -2375,6 +2391,17 @@
       ],
       "verified_after_remote_commit": "5bc48092e256691e95a044126ab0e3e52d44b3d4",
       "raw_execution_retained": false
+    },
+    "shared_routing_2026-09-18": {
+      "removed_file_or_tree_count": 13,
+      "removed_file_count": 4204,
+      "removed_bytes": 1870388916,
+      "receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18_shared_routing.json",
+      "archives_verified": [
+        "research_program/shared_routing_study/results/formal_20260918"
+      ],
+      "verified_after_remote_commit": "5bc48092e256691e95a044126ab0e3e52d44b3d4",
+      "raw_execution_retained": false
     }
   },
   "pending_designs": {},
@@ -2520,24 +2547,19 @@
     }
   },
   "latest_batch": {
-    "name": "routed_factorization_20260918",
-    "source_commit": "4577b3210e470c10f74b3142b13d595d415aefbb",
-    "archive": "research_program/routed_factorization_study/results/formal_20260918_scaled",
+    "name": "shared_routing_20260918",
+    "source_commit": "5e4fd39dcc27ad74758d02d38e24ebe943c9e413",
+    "archive": "research_program/shared_routing_study/results/formal_20260918",
     "archive_stats": {
-      "files": 23,
-      "bytes": 4866567
+      "files": 37,
+      "bytes": 7156130
     },
-    "sensitivity_archive": "research_program/routed_factorization_study/results/formal_20260918_low_gradient",
-    "sensitivity_archive_stats": {
-      "files": 21,
-      "bytes": 4850268
-    },
-    "audit": "both independent replay audits passed; max_abs_replay_error=0.0",
+    "audit": "combined replay passed; max_abs_replay_error=0.0",
     "raw_execution_retained": false,
-    "raw_paths_deleted": 37,
-    "files_deleted": 7477,
-    "bytes_removed": 2938503019,
-    "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18_routed_factorization.json",
+    "raw_paths_deleted": 13,
+    "files_deleted": 4204,
+    "bytes_removed": 1870388916,
+    "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18_shared_routing.json",
     "verified_paths_absent": true,
     "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
     "remote_commit": "5bc48092e256691e95a044126ab0e3e52d44b3d4"
@@ -2647,6 +2669,24 @@
     "files_deleted": 7477,
     "bytes_removed": 2938503019,
     "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18_routed_factorization.json",
+    "verified_paths_absent": true,
+    "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+    "remote_commit": "5bc48092e256691e95a044126ab0e3e52d44b3d4"
+  },
+  "shared_routing_batch": {
+    "name": "shared_routing_20260918",
+    "source_commit": "5e4fd39dcc27ad74758d02d38e24ebe943c9e413",
+    "archive": "research_program/shared_routing_study/results/formal_20260918",
+    "archive_stats": {
+      "files": 37,
+      "bytes": 7156130
+    },
+    "audit": "combined replay passed; max_abs_replay_error=0.0",
+    "raw_execution_retained": false,
+    "raw_paths_deleted": 13,
+    "files_deleted": 4204,
+    "bytes_removed": 1870388916,
+    "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18_shared_routing.json",
     "verified_paths_absent": true,
     "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
     "remote_commit": "5bc48092e256691e95a044126ab0e3e52d44b3d4"

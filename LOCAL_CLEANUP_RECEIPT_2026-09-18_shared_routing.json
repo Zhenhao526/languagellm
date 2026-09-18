@@ -1,0 +1,110 @@
+{
+  "schema": "shared_routing_storage_cleanup_receipt_v1",
+  "generated_at_local": "2026-09-18",
+  "root": "/Users/xia/Documents/ChatGPT/语言",
+  "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+  "source_commit": "5e4fd39dcc27ad74758d02d38e24ebe943c9e413",
+  "archive": "research_program/shared_routing_study/results/formal_20260918",
+  "archive_manifest_sha256": "5920786a7e7cc59c07f05d72e72e392d8fa68be78c3bbecde5adf4ec5387d5b8",
+  "archive_payload_count": 36,
+  "archive_payload_bytes": 7149011,
+  "combined_audit": "passed",
+  "deleted": [
+    {
+      "path": "/private/tmp/shared_routing_formal_part1",
+      "present": true,
+      "kind": "directory",
+      "files": 1347,
+      "bytes": 609688841
+    },
+    {
+      "path": "/private/tmp/shared_routing_formal_part2",
+      "present": true,
+      "kind": "directory",
+      "files": 1347,
+      "bytes": 609709144
+    },
+    {
+      "path": "/private/tmp/shared_routing_formal_part3",
+      "present": true,
+      "kind": "directory",
+      "files": 1347,
+      "bytes": 609696789
+    },
+    {
+      "path": "/private/tmp/shared_routing_formal_prepared",
+      "present": true,
+      "kind": "directory",
+      "files": 13,
+      "bytes": 101478
+    },
+    {
+      "path": "/private/tmp/shared_routing_formal_merged",
+      "present": true,
+      "kind": "directory",
+      "files": 9,
+      "bytes": 6908149
+    },
+    {
+      "path": "/private/tmp/shared_routing_formal_merged_preview.json",
+      "present": true,
+      "kind": "file",
+      "files": 1,
+      "bytes": 3117015
+    },
+    {
+      "path": "/private/tmp/shared_routing_formal_preview.json",
+      "present": true,
+      "kind": "file",
+      "files": 1,
+      "bytes": 331606
+    },
+    {
+      "path": "/private/tmp/shared_routing_formal_preview.md",
+      "present": true,
+      "kind": "file",
+      "files": 1,
+      "bytes": 17506
+    },
+    {
+      "path": "/private/tmp/shared_routing_pilot_analysis.json",
+      "present": true,
+      "kind": "file",
+      "files": 1,
+      "bytes": 73988
+    },
+    {
+      "path": "/private/tmp/shared_routing_pilot_analysis.md",
+      "present": true,
+      "kind": "file",
+      "files": 1,
+      "bytes": 3785
+    },
+    {
+      "path": "/private/tmp/shared_routing_pilot_audit.json",
+      "present": true,
+      "kind": "file",
+      "files": 1,
+      "bytes": 585
+    },
+    {
+      "path": "/private/tmp/shared_routing_pilot_execution",
+      "present": true,
+      "kind": "directory",
+      "files": 122,
+      "bytes": 30638552
+    },
+    {
+      "path": "/private/tmp/shared_routing_pilot_prepared",
+      "present": true,
+      "kind": "directory",
+      "files": 13,
+      "bytes": 101478
+    }
+  ],
+  "deleted_path_count": 13,
+  "deleted_file_count": 4204,
+  "deleted_regular_file_bytes": 1870388916,
+  "remaining_tmp_shared_routing_paths": [],
+  "raw_execution_retained": false
+}

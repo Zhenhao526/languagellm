@@ -1,0 +1,195 @@
+{
+  "schema": "shared_routing_formal_archive_v1",
+  "generated_at_local": "2026-09-18",
+  "source_commit": "5e4fd39dcc27ad74758d02d38e24ebe943c9e413",
+  "task": "role-symmetric shared routing and held-out-combination transfer",
+  "parent_runs": 144,
+  "child_runs": 432,
+  "updates": 3000,
+  "payload_count": 36,
+  "payload_bytes": 7149011,
+  "payload": [
+    {
+      "path": "README.md",
+      "bytes": 1217,
+      "sha256": "1d88d73a135f37e4f5a50cfd21f378c2a3b5478e83fc9d5294febc54f79c0bc2"
+    },
+    {
+      "path": "aggregate.json",
+      "bytes": 331606,
+      "sha256": "c80006f8c5da07f1113b19897a589159479c59529cda82fb9174028077c1c34a"
+    },
+    {
+      "path": "aggregate.md",
+      "bytes": 17506,
+      "sha256": "78675368e8e0573ba68323fbacd335f66a556d0f11497b78ffa5b89e9db39b53"
+    },
+    {
+      "path": "combined_audit.json",
+      "bytes": 1116,
+      "sha256": "c2a8a443b4d692a58622f09926904e6a3d6c12897ada8e6e7a79337ae7be5260"
+    },
+    {
+      "path": "freeze.json",
+      "bytes": 177,
+      "sha256": "79e38ec73352ec5f6baa28312f5bdeee71bf1aefc4538ba357240d6299ce3cf6"
+    },
+    {
+      "path": "part_audits/part1.json",
+      "bytes": 600,
+      "sha256": "5f7052a8c58a1709cfa75f86d909471435939100cda817d137f103488ad6e5e5"
+    },
+    {
+      "path": "part_audits/part2.json",
+      "bytes": 600,
+      "sha256": "2d052152e031560030e862735139914dc1a72f50b029e6d2ac88d5b10606d966"
+    },
+    {
+      "path": "part_audits/part3.json",
+      "bytes": 600,
+      "sha256": "a363ab3173cab69eb90022a7ee3fb1bbc0c4d10f40fc710e695adb1d4414fb2e"
+    },
+    {
+      "path": "plan.json",
+      "bytes": 7039,
+      "sha256": "10aa0ee43e75d7d0cb0fe952a9cd178656b0dd01e0c9289b59d02b77e9fc5119"
+    },
+    {
+      "path": "prepared.json",
+      "bytes": 5148,
+      "sha256": "4316b181f5d6d9529bf0147062d3df2eaccbdef8a8f88ec33c919e00bcb16d8d"
+    },
+    {
+      "path": "results.json",
+      "bytes": 6115686,
+      "sha256": "203520572196ee1885d21bb08bc67852c6ac4fcd6054b1f9457a2b4a8543d2d9"
+    },
+    {
+      "path": "seed_analysis.json",
+      "bytes": 439849,
+      "sha256": "6d1df48e8d74584b9fe6fb600c6157e941d0d0458b1ab152d100b7dc4d05e79c"
+    },
+    {
+      "path": "seed_analysis.md",
+      "bytes": 586,
+      "sha256": "384a8e660032866ae196f301bd6ce78934c767cca91df4cd85b220e0e6f617c4"
+    },
+    {
+      "path": "source_commit.txt",
+      "bytes": 41,
+      "sha256": "da0b5a4d40a95f021f72a5dfa1d8e6a8bda649200883b529a57d5f175ce48daf"
+    },
+    {
+      "path": "source_snapshot/research_program/shared_routing_study/README.md",
+      "bytes": 2527,
+      "sha256": "d784c5e1675e96208f926b9e8b48dec6a5a2be30eb3a932b293d76b7d7d06368"
+    },
+    {
+      "path": "source_snapshot/research_program/shared_routing_study/__init__.py",
+      "bytes": 77,
+      "sha256": "c7a0b0a16637bff2e9eb7f1ac1dca50f147313d454e62bd0cab4b078d5a22b19"
+    },
+    {
+      "path": "source_snapshot/research_program/shared_routing_study/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 231,
+      "sha256": "2c7c5df29fb4f98e19f2c9604a7b1ed8e05073ce784ac6a00b4738dc46d174be"
+    },
+    {
+      "path": "source_snapshot/research_program/shared_routing_study/__pycache__/aggregate.cpython-312.pyc",
+      "bytes": 13797,
+      "sha256": "5c84bd31ee14861f09db90d7416f43f83727480123629097f7073bc6f8d90eaa"
+    },
+    {
+      "path": "source_snapshot/research_program/shared_routing_study/__pycache__/audit.cpython-312.pyc",
+      "bytes": 14322,
+      "sha256": "54ee0ae2f355f3a9c9eeb2ae1a4b869c9c019835e2a1c3d1ae3f6c059a0fc402"
+    },
+    {
+      "path": "source_snapshot/research_program/shared_routing_study/__pycache__/design.cpython-312.pyc",
+      "bytes": 21450,
+      "sha256": "9c29d6a9c486188ab76d9ae31a671ad53b821f2f60ea56f307033e02d0728e63"
+    },
+    {
+      "path": "source_snapshot/research_program/shared_routing_study/__pycache__/environment.cpython-312.pyc",
+      "bytes": 15181,
+      "sha256": "2e998b93376da91c1c1f0dfd7a9a9f98f4184bc3586b6946381e2737d85afa1b"
+    },
+    {
+      "path": "source_snapshot/research_program/shared_routing_study/__pycache__/policy.cpython-312.pyc",
+      "bytes": 17322,
+      "sha256": "25293cc4b0f043a133ed5b366f50f6c27ccfdee78fc1ae0b16044a99645b96bc"
+    },
+    {
+      "path": "source_snapshot/research_program/shared_routing_study/__pycache__/runner.cpython-312.pyc",
+      "bytes": 44016,
+      "sha256": "35746680ad46951262b1ca471f83e463540aa74ae9de4e3ca0f7af26caad137d"
+    },
+    {
+      "path": "source_snapshot/research_program/shared_routing_study/aggregate.py",
+      "bytes": 9129,
+      "sha256": "b7b1f57b0e611f6bb61ec318868a8e6788813d2ad28499689e20d96e833c2f21"
+    },
+    {
+      "path": "source_snapshot/research_program/shared_routing_study/audit.py",
+      "bytes": 10040,
+      "sha256": "352ff8889e074d34efd3150b61a850675b58183448d4621724e330cf7d13b055"
+    },
+    {
+      "path": "source_snapshot/research_program/shared_routing_study/design.py",
+      "bytes": 12267,
+      "sha256": "2f9a2c909db7db9254694594aa0e065ecc025be52eb7e3ccc6e2818d368d4b5d"
+    },
+    {
+      "path": "source_snapshot/research_program/shared_routing_study/environment.py",
+      "bytes": 9288,
+      "sha256": "81b9b5ef93cd11bfdcb1c18ae954161eb8b2f476623a8e42b69e229543fe2d65"
+    },
+    {
+      "path": "source_snapshot/research_program/shared_routing_study/plan.md",
+      "bytes": 2536,
+      "sha256": "2e7fbc9fc9a490834c6ccc2ed0b6291f0b8ff9c499900c2c62d765efd3a7760a"
+    },
+    {
+      "path": "source_snapshot/research_program/shared_routing_study/policy.py",
+      "bytes": 11662,
+      "sha256": "f24c81c5c5ee901fc43ef0d2b135c782172a8f517e0d28ea30f3546d34db4c72"
+    },
+    {
+      "path": "source_snapshot/research_program/shared_routing_study/runner.py",
+      "bytes": 29500,
+      "sha256": "5e9725e7a540d760468fa7bbfe7aa80c3b71c6bc14e19b1ac79745d5150e8c07"
+    },
+    {
+      "path": "source_snapshot/research_program/shared_routing_study/seed_analysis.py",
+      "bytes": 6975,
+      "sha256": "23a64673354d7783d6399bb4154ce96f2b6c4e2e8070ee1e179772738dc906fb"
+    },
+    {
+      "path": "source_snapshot/research_program/shared_routing_study/tests/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "source_snapshot/research_program/shared_routing_study/tests/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 152,
+      "sha256": "46bb5bb03855468a0b131ab1ee90d831ff64c219aa0832d6f322f3d29ae521b7"
+    },
+    {
+      "path": "source_snapshot/research_program/shared_routing_study/tests/__pycache__/test_game.cpython-312.pyc",
+      "bytes": 3998,
+      "sha256": "8acb6bd68a41597362ad2751e0dd1bf4aea47a00c68493f8567cbd1e333db1b3"
+    },
+    {
+      "path": "source_snapshot/research_program/shared_routing_study/tests/test_game.py",
+      "bytes": 2088,
+      "sha256": "f4cd160d5149cb996ebf3c1ba4f9e832e83489b5dd0e8324506713ff3563acd3"
+    },
+    {
+      "path": "validity.md",
+      "bytes": 682,
+      "sha256": "0704b8bfd9a6f8decce08f2e7c738f8486efa474071cb7c44d745b066b7eeff0"
+    }
+  ],
+  "audit_status": "passed",
+  "raw_execution_retained": false
+}

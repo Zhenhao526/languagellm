@@ -1,0 +1,41 @@
+{
+  "schema": "shared_routing_combined_audit_v1",
+  "status": "passed",
+  "part_statuses": [
+    "partial",
+    "partial",
+    "partial"
+  ],
+  "part_audits": [
+    "part_audits/part1.json",
+    "part_audits/part2.json",
+    "part_audits/part3.json"
+  ],
+  "expected": {
+    "parent_runs": 144,
+    "child_runs": 432,
+    "parent_training_log_rows": 432000,
+    "child_training_log_rows": 1296000,
+    "parent_checkpoints": 576,
+    "child_checkpoints": 1728,
+    "paired_architecture_rows": 1944000,
+    "paired_visibility_rows": 648000,
+    "paired_population_rows": 648000,
+    "paired_support_rows": 864000
+  },
+  "actual": {
+    "parent_runs": 144,
+    "child_runs": 432,
+    "parent_training_log_rows": 432000,
+    "child_training_log_rows": 1296000,
+    "parent_checkpoints": 576,
+    "child_checkpoints": 1728,
+    "paired_architecture_rows": 1944000,
+    "paired_visibility_rows": 648000,
+    "paired_population_rows": 648000,
+    "paired_support_rows": 864000,
+    "max_abs_replay_error": 0.0
+  },
+  "paired_streams_are_disjoint": true,
+  "source_prepared": "/private/tmp/shared_routing_formal_prepared"
+}
