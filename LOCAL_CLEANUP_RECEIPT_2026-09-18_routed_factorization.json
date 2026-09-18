@@ -1,0 +1,249 @@
+{
+  "schema": "routed_factorization_storage_cleanup_receipt_v1",
+  "generated_at_local": "2026-09-18",
+  "root": "/Users/xia/Documents/ChatGPT/语言",
+  "reason": "retain routed source, compact formal archives and verified audit while removing raw training, checkpoint, pilot and diagnostic trees",
+  "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+  "source_commit": "4577b32",
+  "archives": [
+    {
+      "path": "research_program/routed_factorization_study/results/formal_20260918_scaled",
+      "audit_status": "passed",
+      "manifest_verified": true
+    },
+    {
+      "path": "research_program/routed_factorization_study/results/formal_20260918_low_gradient",
+      "audit_status": "passed",
+      "manifest_verified": true
+    }
+  ],
+  "raw_execution_retained": false,
+  "deleted": [
+    {
+      "path": "/private/tmp/routed_baseline_repo",
+      "kind": "directory",
+      "bytes": 80341,
+      "files": 10
+    },
+    {
+      "path": "/private/tmp/routed_diag_long",
+      "kind": "directory",
+      "bytes": 2469998,
+      "files": 7
+    },
+    {
+      "path": "/private/tmp/routed_diag_scale",
+      "kind": "directory",
+      "bytes": 509266,
+      "files": 5
+    },
+    {
+      "path": "/private/tmp/routed_diag_scale_long",
+      "kind": "directory",
+      "bytes": 2470074,
+      "files": 7
+    },
+    {
+      "path": "/private/tmp/routed_diag_scale_temp5",
+      "kind": "directory",
+      "bytes": 2469056,
+      "files": 7
+    },
+    {
+      "path": "/private/tmp/routed_diag_scale_temp5_grid",
+      "kind": "directory",
+      "bytes": 15100974,
+      "files": 37
+    },
+    {
+      "path": "/private/tmp/routed_diag_scale_temp5_prepared",
+      "kind": "directory",
+      "bytes": 95880,
+      "files": 13
+    },
+    {
+      "path": "/private/tmp/routed_diag_temp5",
+      "kind": "directory",
+      "bytes": 2470144,
+      "files": 7
+    },
+    {
+      "path": "/private/tmp/routed_formal_baseline",
+      "kind": "directory",
+      "bytes": 4754119,
+      "files": 4
+    },
+    {
+      "path": "/private/tmp/routed_formal_part1",
+      "kind": "directory",
+      "bytes": 456861434,
+      "files": 1010
+    },
+    {
+      "path": "/private/tmp/routed_formal_part2",
+      "kind": "directory",
+      "bytes": 456862489,
+      "files": 1010
+    },
+    {
+      "path": "/private/tmp/routed_formal_part3",
+      "kind": "directory",
+      "bytes": 456874237,
+      "files": 1010
+    },
+    {
+      "path": "/private/tmp/routed_formal_prepared",
+      "kind": "directory",
+      "bytes": 91121,
+      "files": 13
+    },
+    {
+      "path": "/private/tmp/routed_parallel_audit.py",
+      "kind": "file",
+      "bytes": 5989,
+      "files": 1
+    },
+    {
+      "path": "/private/tmp/routed_parallel_pilot.py",
+      "kind": "file",
+      "bytes": 3509,
+      "files": 1
+    },
+    {
+      "path": "/private/tmp/routed_parent3k",
+      "kind": "directory",
+      "bytes": 16622242,
+      "files": 45
+    },
+    {
+      "path": "/private/tmp/routed_parent3k_prepared",
+      "kind": "directory",
+      "bytes": 91121,
+      "files": 13
+    },
+    {
+      "path": "/private/tmp/routed_pilot_20260918",
+      "kind": "directory",
+      "bytes": 27493986,
+      "files": 245
+    },
+    {
+      "path": "/private/tmp/routed_pilot_20260918_parallel",
+      "kind": "directory",
+      "bytes": 95906547,
+      "files": 726
+    },
+    {
+      "path": "/private/tmp/routed_pilot_prepared",
+      "kind": "directory",
+      "bytes": 91121,
+      "files": 13
+    },
+    {
+      "path": "/private/tmp/routed_pilot_prepared2",
+      "kind": "directory",
+      "bytes": 95230,
+      "files": 13
+    },
+    {
+      "path": "/private/tmp/routed_scaled_formal",
+      "kind": "directory",
+      "bytes": 4753249,
+      "files": 4
+    },
+    {
+      "path": "/private/tmp/routed_scaled_formal_part1",
+      "kind": "directory",
+      "bytes": 456896175,
+      "files": 1011
+    },
+    {
+      "path": "/private/tmp/routed_scaled_formal_part2",
+      "kind": "directory",
+      "bytes": 456927529,
+      "files": 1011
+    },
+    {
+      "path": "/private/tmp/routed_scaled_formal_part3",
+      "kind": "directory",
+      "bytes": 456913332,
+      "files": 1011
+    },
+    {
+      "path": "/private/tmp/routed_scaled_formal_prepared",
+      "kind": "directory",
+      "bytes": 96698,
+      "files": 13
+    },
+    {
+      "path": "/private/tmp/routed_scaled_prepared",
+      "kind": "directory",
+      "bytes": 95490,
+      "files": 13
+    },
+    {
+      "path": "/private/tmp/routed_scaled_prepared_3000",
+      "kind": "directory",
+      "bytes": 95490,
+      "files": 13
+    },
+    {
+      "path": "/private/tmp/routed_scaled_smoke",
+      "kind": "directory",
+      "bytes": 4777339,
+      "files": 26
+    },
+    {
+      "path": "/private/tmp/routed_scaled_smoke_3000",
+      "kind": "directory",
+      "bytes": 11706368,
+      "files": 30
+    },
+    {
+      "path": "/private/tmp/routed_smoke",
+      "kind": "directory",
+      "bytes": 3284919,
+      "files": 63
+    },
+    {
+      "path": "/private/tmp/routed_smoke2",
+      "kind": "directory",
+      "bytes": 444069,
+      "files": 43
+    },
+    {
+      "path": "/private/tmp/routed_smoke_prepared",
+      "kind": "directory",
+      "bytes": 91121,
+      "files": 13
+    },
+    {
+      "path": "/private/tmp/routed_timing",
+      "kind": "directory",
+      "bytes": 901805,
+      "files": 14
+    },
+    {
+      "path": "/private/tmp/routed_timing_prepared",
+      "kind": "directory",
+      "bytes": 91121,
+      "files": 13
+    },
+    {
+      "path": "/private/tmp/make_routed_archives.py",
+      "kind": "file",
+      "bytes": 6008,
+      "files": 1
+    },
+    {
+      "path": "/private/tmp/add_routed_seed_analysis.py",
+      "kind": "file",
+      "bytes": 3428,
+      "files": 1
+    }
+  ],
+  "deleted_path_count": 37,
+  "deleted_file_count": 7477,
+  "deleted_regular_file_bytes": 2938503019,
+  "remaining_tmp_routed_paths": []
+}

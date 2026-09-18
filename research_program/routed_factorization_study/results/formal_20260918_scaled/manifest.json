@@ -1,0 +1,118 @@
+{
+  "schema": "routed_factorization_archive_manifest_v1",
+  "source_commit": "4577b3210e470c10f74b3142b13d595d415aefbb",
+  "payload_count": 22,
+  "payload_bytes": 4862545,
+  "payload": [
+    {
+      "path": "README.md",
+      "bytes": 1694,
+      "sha256": "9d910960decbd5799d4870d4009ce0dd0e0d2848008e6bc59cdb3f7d180a771f"
+    },
+    {
+      "path": "aggregate.json",
+      "bytes": 228590,
+      "sha256": "810ffaef413ec2e50be184633b20d05680240dd248bdb9eb533a7e27ea79005f"
+    },
+    {
+      "path": "aggregate.md",
+      "bytes": 10772,
+      "sha256": "d6f3fa8e5ac932b8a07b8dcdd0957e32f8a7b490da3f7e8bf2b103b224a3e26f"
+    },
+    {
+      "path": "audit.json",
+      "bytes": 628,
+      "sha256": "abe6327b47fe50b98236edbcc355e46c9dad610bc19bd9fbc02e695134bb0689"
+    },
+    {
+      "path": "freeze.json",
+      "bytes": 177,
+      "sha256": "c9eaea2593bfdcb17faf6d4cc4df0d2eac3b678538681f4beac72443c887b53b"
+    },
+    {
+      "path": "plan.json",
+      "bytes": 6322,
+      "sha256": "f08a00fc62c2978565e33afa4a53af73f9a5028148ae5de06cc2bdefb09d3bbc"
+    },
+    {
+      "path": "prepared.json",
+      "bytes": 4395,
+      "sha256": "a9fe97bef7ac862a69efc2f31f77ae99f8646b30fd53b71f8953616d46359393"
+    },
+    {
+      "path": "results.json",
+      "bytes": 4513259,
+      "sha256": "3157490ffdfddefd5a580242f253368e7e3c78929f646ed2d588776c5c8d2cfc"
+    },
+    {
+      "path": "seed_analysis.json",
+      "bytes": 9619,
+      "sha256": "be132f907930acfbaed15c79bade85aabb915711274394f70b8c9491be132e39"
+    },
+    {
+      "path": "seed_analysis.md",
+      "bytes": 900,
+      "sha256": "6d51190681c1462bfbe328bd33f15fcaa4cfad944ab1615d121409cf77017e7e"
+    },
+    {
+      "path": "source_commit.txt",
+      "bytes": 41,
+      "sha256": "64dca6f96239e717727c66a47458bfde22e2fc621affa4cc2f0dc254734c7874"
+    },
+    {
+      "path": "source_snapshot/research_program/routed_factorization_study/README.md",
+      "bytes": 2214,
+      "sha256": "83c4cc3e16cc2754ba9c5c34fcf902d4c7e9f7b21535cdc2f033f4df07dff8aa"
+    },
+    {
+      "path": "source_snapshot/research_program/routed_factorization_study/__init__.py",
+      "bytes": 77,
+      "sha256": "c7a0b0a16637bff2e9eb7f1ac1dca50f147313d454e62bd0cab4b078d5a22b19"
+    },
+    {
+      "path": "source_snapshot/research_program/routed_factorization_study/aggregate.py",
+      "bytes": 9135,
+      "sha256": "ba990758ce4e8fee4f8347be392ce847a4084dc6d29421b1215f08d7e59026ca"
+    },
+    {
+      "path": "source_snapshot/research_program/routed_factorization_study/audit.py",
+      "bytes": 10046,
+      "sha256": "23e722907d90e6be79df81ad6a30834979f953aa7c1efce07a383f3802f53ecb"
+    },
+    {
+      "path": "source_snapshot/research_program/routed_factorization_study/design.py",
+      "bytes": 11699,
+      "sha256": "582ef43058ed91829dca533066202ac92da9f82490d24db059122b7ed3ceadf5"
+    },
+    {
+      "path": "source_snapshot/research_program/routed_factorization_study/environment.py",
+      "bytes": 9271,
+      "sha256": "d6aa1666050bd78daed38623c1760ed38a46d99e7681989aa42aeb38a7be353f"
+    },
+    {
+      "path": "source_snapshot/research_program/routed_factorization_study/plan.md",
+      "bytes": 2304,
+      "sha256": "47cafc7b0850ff7a3e8c112152879dfb0b21101736ced5963347c7723a7089e4"
+    },
+    {
+      "path": "source_snapshot/research_program/routed_factorization_study/policy.py",
+      "bytes": 10288,
+      "sha256": "2470ccc8b19a0bf5313cf83a74a596f5c5e9b915167d6bdd5954c762980b04d0"
+    },
+    {
+      "path": "source_snapshot/research_program/routed_factorization_study/runner.py",
+      "bytes": 29033,
+      "sha256": "46a2f1e89b15ba6ba11721762f70ade09170c9401c4f255a626f7c7f0e5a8f9c"
+    },
+    {
+      "path": "source_snapshot/research_program/routed_factorization_study/tests/test_game.py",
+      "bytes": 1737,
+      "sha256": "c3850ba4e0fcc8e5f3765799cbb997ac83ec678c291931d3d82205a881f68a62"
+    },
+    {
+      "path": "validity.md",
+      "bytes": 344,
+      "sha256": "7439645630eb77714ddd6f0c5b09cabaa58e266eebf4be8e6e104a41d181c9d4"
+    }
+  ]
+}

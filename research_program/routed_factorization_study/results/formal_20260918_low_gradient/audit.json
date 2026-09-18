@@ -1,0 +1,20 @@
+{
+  "schema": "routed_factorization_audit_v1",
+  "status": "passed",
+  "prepared_schema": "routed_factorization_study_v1",
+  "parent_runs": 108,
+  "child_runs": 324,
+  "expected_parent_runs": 108,
+  "expected_child_runs": 324,
+  "parent_training_log_rows": 324000,
+  "child_training_log_rows": 972000,
+  "parent_checkpoints": 432,
+  "child_checkpoints": 1296,
+  "paired_architecture_rows": 972000,
+  "paired_visibility_rows": 486000,
+  "paired_population_rows": 486000,
+  "paired_support_rows": 648000,
+  "max_abs_replay_error": 0.0,
+  "raw_execution_tree": "/private/tmp/routed_formal_baseline/execution",
+  "audit_workers": 8
+}

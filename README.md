@@ -32,6 +32,8 @@
 - [结构化因子复用正式结果](research_program/structured_factorization_study/results/formal_20260918/)
 - [结构化因子复用实验同步与清理说明](SYNC_2026-09-18_structured_factorization.md)
 - [结构化因子复用正式批次本地清理收据](LOCAL_CLEANUP_RECEIPT_2026-09-18_structured_factorization.json)
+- [可学习 routing 因子化正式结果](research_program/routed_factorization_study/results/formal_20260918_scaled/)
+- [可学习 routing 低梯度敏感性基线](research_program/routed_factorization_study/results/formal_20260918_low_gradient/)
 - [population signaling 源代码与紧凑结果](research_program/population_signaling_study/)
 - [本轮同步与清理说明](SYNC_2026-09-17.md)
 - [生态因子化实验同步与清理说明](SYNC_2026-09-18.md)

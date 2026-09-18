@@ -1,0 +1,1 @@
+pre-4577b32 working-tree snapshot; authoritative source is source_snapshot plus plan hashes
