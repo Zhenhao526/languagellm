@@ -1,0 +1,205 @@
+{
+  "schema": "open_world_expansion_study_v1",
+  "prepared_sha256": "b87a9df09f23747cac41b2ad7e0f1092e7e89a356cdd1e5c28a46b75b1a7b0c8",
+  "sources": {
+    "research_program/open_world_expansion_study/__init__.py": "c7a0b0a16637bff2e9eb7f1ac1dca50f147313d454e62bd0cab4b078d5a22b19",
+    "research_program/open_world_expansion_study/README.md": "09a7381b023b7330cc2fae98b818ee71e671c560383ffea04f6a48d7eff32686",
+    "research_program/open_world_expansion_study/design.py": "6daa63ea13c293b8a2f54b489f570d8b8f29d6271297e26665fec3686f4af93c",
+    "research_program/open_world_expansion_study/policy.py": "f24c81c5c5ee901fc43ef0d2b135c782172a8f517e0d28ea30f3546d34db4c72",
+    "research_program/open_world_expansion_study/environment.py": "f89e698ba7badbe36081da597e44a0b224483dc2694ff1a52e5072cea8d99972",
+    "research_program/open_world_expansion_study/runner.py": "d5ea1387a37d48e9f14d47d8256fa7597fdc5ddd32c1e38b747426c64f8c3d0b",
+    "research_program/open_world_expansion_study/aggregate.py": "1cbc090dc02ee35a4cc16c124be2c1c0ea027dfa66fd2e3ad4acff476d981313",
+    "research_program/open_world_expansion_study/audit.py": "a1bfa71ebfbe8c08de4b4632ef007d5bb33fc3d2040c91d4bced48859efc4219",
+    "research_program/open_world_expansion_study/plan.md": "1c77ce4392958f92ee4a1cd3ce8792b157ca54fb4114f3cc3fbfe8de9e7820b5",
+    "research_program/open_world_expansion_study/tests/test_game.py": "c66b8b03005cb4a43c430cb6f2ce9606871fb72cda0178783c6bd7f47363543b"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.2.6"
+  },
+  "config": {
+    "schema": "open_world_expansion_study_v1",
+    "task": "open_world_referential_selection",
+    "form": {
+      "name": "quad2_open4",
+      "alphabet_size": 4,
+      "length": 2,
+      "message_state_count": 17
+    },
+    "architectures": [
+      "holistic",
+      "factorized",
+      "tied_routed"
+    ],
+    "architecture_intervention": "holistic indexes complete meanings; factorized fixes slot-to-attribute factors; tied_routed shares a learned route coordinate while factor tables remain role-specific",
+    "attributes": 2,
+    "values_per_attribute": 4,
+    "old_values": 3,
+    "new_value": 3,
+    "meanings": 16,
+    "old_meanings": 9,
+    "old_meaning_indices": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10
+    ],
+    "scene_size": 4,
+    "communities": 2,
+    "partners_per_community": 2,
+    "partners": 4,
+    "populations": [
+      "aligned"
+    ],
+    "visibilities": [
+      "hidden"
+    ],
+    "supports": [
+      "old_combo",
+      "expanded_alternating",
+      "expanded_pair",
+      "expanded_single_alternating",
+      "expanded_single_pair"
+    ],
+    "eval_kinds": [
+      "old_seen",
+      "old_combo",
+      "new_single",
+      "new_double",
+      "all"
+    ],
+    "roles": [
+      "alternating",
+      "pair"
+    ],
+    "channels": [
+      "live",
+      "silent"
+    ],
+    "parent_support": "old_world",
+    "child_intervention": "expanded_pair assigns both fresh roles for all new meanings; expanded_single_pair does so only for new-single meanings and leaves new-double out of training; alternating arms keep one fresh role against an incumbent",
+    "message_symbols": [
+      "@",
+      "#",
+      "￥",
+      "%"
+    ],
+    "goal_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "seeds": [
+      88001,
+      88002,
+      88003,
+      88004,
+      88005,
+      88006,
+      88007,
+      88008,
+      88009
+    ],
+    "parent_conditions": [
+      "holistic_aligned",
+      "factorized_aligned",
+      "tied_routed_aligned"
+    ],
+    "child_conditions": [
+      "holistic_aligned_hidden_old_combo",
+      "holistic_aligned_hidden_expanded_alternating",
+      "holistic_aligned_hidden_expanded_pair",
+      "holistic_aligned_hidden_expanded_single_alternating",
+      "holistic_aligned_hidden_expanded_single_pair",
+      "factorized_aligned_hidden_old_combo",
+      "factorized_aligned_hidden_expanded_alternating",
+      "factorized_aligned_hidden_expanded_pair",
+      "factorized_aligned_hidden_expanded_single_alternating",
+      "factorized_aligned_hidden_expanded_single_pair",
+      "tied_routed_aligned_hidden_old_combo",
+      "tied_routed_aligned_hidden_expanded_alternating",
+      "tied_routed_aligned_hidden_expanded_pair",
+      "tied_routed_aligned_hidden_expanded_single_alternating",
+      "tied_routed_aligned_hidden_expanded_single_pair"
+    ],
+    "updates": 3000,
+    "batch_size": 512,
+    "learning_rate": 0.08,
+    "route_init_scale": 0.5,
+    "route_temperature": 5.0,
+    "entropy_initial": 0.01,
+    "checkpoints": [
+      0,
+      500,
+      1000,
+      2000,
+      3000
+    ]
+  }
+}

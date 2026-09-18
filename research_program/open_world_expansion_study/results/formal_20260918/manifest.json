@@ -1,0 +1,163 @@
+{
+  "schema": "open_world_expansion_archive_manifest_v1",
+  "archive": "research_program/open_world_expansion_study/results/formal_20260918",
+  "payload_file_count": 31,
+  "payload_bytes": 3048795,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2271,
+      "sha256": "94b5b7b3fe1d2e462ac6c7d87c614c2c57f302f3ed0061d7f6b63d3c8a320899"
+    },
+    {
+      "path": "aggregate.json",
+      "bytes": 94573,
+      "sha256": "148d79f967e1f2ef146dfc0f82f0ca426cc2f547f99844e0d9e242a82afdd01d"
+    },
+    {
+      "path": "aggregate.md",
+      "bytes": 4195,
+      "sha256": "a7ebdecdf45eec2eda87535e75f10282f6ace16681d3c8a996bdbe72293354e2"
+    },
+    {
+      "path": "combined_audit.json",
+      "bytes": 1239,
+      "sha256": "6b15ee68bf974fa3f7efd1064748f6f40d2c5a49dda91ebb16fd3b96e9264235"
+    },
+    {
+      "path": "freeze.json",
+      "bytes": 177,
+      "sha256": "951c503a56db2f3e90130890e6e86ee83e61da694487687be36e9590ea6c60cd"
+    },
+    {
+      "path": "invalid_design_notes.md",
+      "bytes": 760,
+      "sha256": "d30d7a4693af646817c5880de1492b6248f3b06a6dc8b8a3afcd5b214741d55a"
+    },
+    {
+      "path": "part_audits/part1.json",
+      "bytes": 629,
+      "sha256": "b52fb9ff5048e95029743c1336e82afda44784294e09f4549ff56c7ad83557c0"
+    },
+    {
+      "path": "part_audits/part2.json",
+      "bytes": 629,
+      "sha256": "028055305e258f9276dea3930e9d57ff09b259aac04ac04ef3c171874e2da0a4"
+    },
+    {
+      "path": "part_audits/part3.json",
+      "bytes": 629,
+      "sha256": "ac50164b2c3f9a74ddbfd62f16ebd74c354f73f1ce3c5f657e8978dd8048f316"
+    },
+    {
+      "path": "plan.json",
+      "bytes": 5205,
+      "sha256": "db49b04e7cc6e53499ccc57c1f87a817c60bf49fd4e67a56dad7fb00c59caf85"
+    },
+    {
+      "path": "plan.md",
+      "bytes": 2796,
+      "sha256": "1c77ce4392958f92ee4a1cd3ce8792b157ca54fb4114f3cc3fbfe8de9e7820b5"
+    },
+    {
+      "path": "prepared.json",
+      "bytes": 3296,
+      "sha256": "b87a9df09f23747cac41b2ad7e0f1092e7e89a356cdd1e5c28a46b75b1a7b0c8"
+    },
+    {
+      "path": "results.json",
+      "bytes": 2771340,
+      "sha256": "2528abc1f6508c3e9c57c6527dc8f5e9456a53c850bd59d6f64512cb57c60204"
+    },
+    {
+      "path": "seed_analysis.json",
+      "bytes": 60995,
+      "sha256": "bc14c1f4db8f8df8973de3de2849c34f4b429388e37274e6d1869e5642994c83"
+    },
+    {
+      "path": "seed_analysis.md",
+      "bytes": 4211,
+      "sha256": "272a685cd60a8c8d15caf951634e109f369e0646c37b9b002ac6cdb9491cd1ce"
+    },
+    {
+      "path": "source_commit.txt",
+      "bytes": 220,
+      "sha256": "ae5e926beb58ebe00d5dd5ca7b5f03be4b2800a614cdd9ac872fd27c94ef2ed2"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_expansion_study/README.md",
+      "bytes": 1334,
+      "sha256": "09a7381b023b7330cc2fae98b818ee71e671c560383ffea04f6a48d7eff32686"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_expansion_study/__init__.py",
+      "bytes": 77,
+      "sha256": "c7a0b0a16637bff2e9eb7f1ac1dca50f147313d454e62bd0cab4b078d5a22b19"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_expansion_study/aggregate.py",
+      "bytes": 4786,
+      "sha256": "1cbc090dc02ee35a4cc16c124be2c1c0ea027dfa66fd2e3ad4acff476d981313"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_expansion_study/audit.py",
+      "bytes": 8865,
+      "sha256": "a1bfa71ebfbe8c08de4b4632ef007d5bb33fc3d2040c91d4bced48859efc4219"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_expansion_study/design.py",
+      "bytes": 13692,
+      "sha256": "6daa63ea13c293b8a2f54b489f570d8b8f29d6271297e26665fec3686f4af93c"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_expansion_study/environment.py",
+      "bytes": 9565,
+      "sha256": "f89e698ba7badbe36081da597e44a0b224483dc2694ff1a52e5072cea8d99972"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_expansion_study/plan.md",
+      "bytes": 2796,
+      "sha256": "1c77ce4392958f92ee4a1cd3ce8792b157ca54fb4114f3cc3fbfe8de9e7820b5"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_expansion_study/policy.py",
+      "bytes": 11662,
+      "sha256": "f24c81c5c5ee901fc43ef0d2b135c782172a8f517e0d28ea30f3546d34db4c72"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_expansion_study/runner.py",
+      "bytes": 29814,
+      "sha256": "d5ea1387a37d48e9f14d47d8256fa7597fdc5ddd32c1e38b747426c64f8c3d0b"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_expansion_study/seed_analysis.py",
+      "bytes": 4720,
+      "sha256": "ccdc1a175d2c86b03bc30d0ff8599d6380ae1189b704497837832c6b820fe01f"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_expansion_study/tests/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "source_snapshot/research_program/open_world_expansion_study/tests/test_game.py",
+      "bytes": 3003,
+      "sha256": "c66b8b03005cb4a43c430cb6f2ce9606871fb72cda0178783c6bd7f47363543b"
+    },
+    {
+      "path": "support_contrasts.json",
+      "bytes": 4255,
+      "sha256": "d7e53f40fcfc8b96d659cac47b535b6c0d4679c5295d28dc3a48688144106a56"
+    },
+    {
+      "path": "support_contrasts.md",
+      "bytes": 505,
+      "sha256": "99afd6f7121d5f0afed8331f3916738281fd570a405540bd0a30e84b67ba79c1"
+    },
+    {
+      "path": "validity.md",
+      "bytes": 556,
+      "sha256": "cfc0aa7f9eeb91f0eeeb64c363f282685a272683f0d53b305f168387a65016e6"
+    }
+  ]
+}

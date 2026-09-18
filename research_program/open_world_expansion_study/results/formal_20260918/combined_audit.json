@@ -1,0 +1,36 @@
+{
+  "schema": "open_world_expansion_audit_v4",
+  "status": "passed",
+  "prepared_schema": "open_world_expansion_study_v1",
+  "parent_runs": 54,
+  "child_runs": 135,
+  "expected_parent_runs": 54,
+  "expected_child_runs": 135,
+  "parent_training_log_rows": 162000,
+  "child_training_log_rows": 405000,
+  "parent_checkpoints": 216,
+  "child_checkpoints": 540,
+  "paired_architecture_rows": 405000,
+  "paired_support_rows": 162000,
+  "paired_visibility_rows": 0,
+  "paired_population_rows": 0,
+  "max_abs_replay_error": 0.0,
+  "training_source": "v3 execution trees replayed against v4 source; only recombination evaluation changed",
+  "shards": [
+    {
+      "audit": "part_audits/part1.json",
+      "raw_execution_tree": "removed_raw_execution/v3_formal_part1/execution"
+    },
+    {
+      "audit": "part_audits/part2.json",
+      "raw_execution_tree": "removed_raw_execution/v3_formal_part2/execution"
+    },
+    {
+      "audit": "part_audits/part3.json",
+      "raw_execution_tree": "removed_raw_execution/v3_formal_part3/execution"
+    }
+  ],
+  "merged_result_payload": "results.json",
+  "raw_execution_retained": false,
+  "archive_note": "Raw v3 execution trees and temporary audit paths were removed after this archive was verified."
+}

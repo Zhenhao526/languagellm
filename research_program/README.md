@@ -25,6 +25,7 @@
 - [routed_factorization_study](routed_factorization_study/README.md)：在同一 referential game 中加入不固定 slot—attribute 对应关系的可学习 routing；9 seed、108 parent、324 child 的正式结果显示部分槽位对齐但组合泛化对优化盆地敏感，另存低梯度 routing 基线。
 - [shared_routing_study](shared_routing_study/README.md)：在 holistic、fixed factorized、independent routed 之外加入 sender/receiver 共享 routing 的角色对称干预；9 seed、144 parent、432 child 的正式矩阵检验共享组合坐标是否能恢复 held-out combination。
 - [routing_initialization_control_study](routing_initialization_control_study/README.md)：让 independent routing 从同一矩阵初始化但独立更新，用于排除 shared routing 的初始化混淆；9 seed、54 parent、81 child 的 aligned/hidden 正式控制与 replay audit 位于 `results/formal_20260918/`。
+- [open_world_expansion_study](open_world_expansion_study/README.md)：把父代限制在 3×3 旧本体，让子代首次接触第 4 个值，并严格留出双新值组合；54 parent、135 child、9 seed 的正式端点、source snapshot 与 replay audit 位于 `results/formal_20260918/`。
 - [repetition_pressure_study](repetition_pressure_study/README.md)：在唯一意义、局部重复和全局重复三种任务语义之间做容量匹配的冗余压力曲线；正式矩阵包含 81 个 parent 和 729 个 child run，结果归档于 `results/formal_20260918/`，详见 `meaning_capacity_formal_结果与下一步.md`。
 - [population_signaling_study](population_signaling_study/README.md)：128 个 run 的固定/轮换伙伴与公共 token 对照。
 

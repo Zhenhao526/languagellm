@@ -1,0 +1,3 @@
+ee967ca7f20144b535b311752160726d482ea1e7
+The v4 formal endpoints replayed v3 training trees with the corrected role=2 recombination evaluator.
+The source files matched plan.json hashes before archive metadata was added.

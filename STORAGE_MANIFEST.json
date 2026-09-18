@@ -4,7 +4,7 @@
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
   "remote_commit": "c2c5959c",
   "remote_main_verified": true,
-  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix, ecological-factorization formal matrix, compact archive, replay audit and new-combination analysis, object-surface remapping corrected formal matrix, parent surface-shift analysis, replay audit and cleanup receipt, incumbent-worker surface transfer formal matrix, repair curves, replay audit and cleanup receipt, population-level perceptual heterogeneity formal matrix, three-shard replay audit, exploratory pilot curves, identifiability diagnosis and cleanup receipt, multi-partner sender alignment formal matrix, diagnostic smoke, replay audit and cleanup receipt, community codebook conflict and role-symmetric referential game formal matrix, replay audit, compact archive and cleanup receipt, structured factor-sharing architecture intervention, formal matrix, replay audit and cleanup receipt; learnable routing factorization formal matrix, low-gradient sensitivity baseline, replay audits and cleanup receipt; shared sender/receiver routing role-symmetry intervention, tied versus independent routing and combined replay audit; routing initialization control formal matrix, combined replay audit and cleanup receipt",
+  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix, ecological-factorization formal matrix, compact archive, replay audit and new-combination analysis, object-surface remapping corrected formal matrix, parent surface-shift analysis, replay audit and cleanup receipt, incumbent-worker surface transfer formal matrix, repair curves, replay audit and cleanup receipt, population-level perceptual heterogeneity formal matrix, three-shard replay audit, exploratory pilot curves, identifiability diagnosis and cleanup receipt, multi-partner sender alignment formal matrix, diagnostic smoke, replay audit and cleanup receipt, community codebook conflict and role-symmetric referential game formal matrix, replay audit, compact archive and cleanup receipt, structured factor-sharing architecture intervention, formal matrix, replay audit and cleanup receipt; learnable routing factorization formal matrix, low-gradient sensitivity baseline, replay audits and cleanup receipt; shared sender/receiver routing role-symmetry intervention, tied versus independent routing and combined replay audit; routing initialization control formal matrix, combined replay audit and cleanup receipt; open-world ontology expansion formal matrix, v4 role=2 recombination reevaluation, replay audit, compact archive, invalid-design notes and cleanup receipt",
   "retained_paths": {
     "research_program/action_dependent_signaling_study": {
       "files": 23,
@@ -209,6 +209,22 @@
     "LOCAL_CLEANUP_RECEIPT_2026-09-18_routing_initialization_control.json": {
       "files": 1,
       "bytes": 2078
+    },
+    "research_program/open_world_expansion_study/results/formal_20260918": {
+      "files": 32,
+      "bytes": 3054349
+    },
+    "SYNC_2026-09-18_open_world_expansion.md": {
+      "files": 1,
+      "bytes": 1536
+    },
+    "LOCAL_CLEANUP_RECEIPT_2026-09-18_open_world_expansion.json": {
+      "files": 1,
+      "bytes": 5231
+    },
+    "research_program/open_world_expansion_study": {
+      "files": 44,
+      "bytes": 3144663
     }
   },
   "compact_archives": {
@@ -1620,7 +1636,41 @@
     "/private/tmp/routing_init_control_pilot_analysis.md",
     "/private/tmp/routing_init_control_pilot_audit.json",
     "/private/tmp/routing_init_control_pilot_execution",
-    "/private/tmp/routing_init_control_pilot_prepared"
+    "/private/tmp/routing_init_control_pilot_prepared",
+    "/private/tmp/open_world_expansion_formal_merged",
+    "/private/tmp/open_world_expansion_formal_part1",
+    "/private/tmp/open_world_expansion_formal_part2",
+    "/private/tmp/open_world_expansion_formal_part3",
+    "/private/tmp/open_world_expansion_formal_prepared",
+    "/private/tmp/open_world_expansion_pilot_analysis",
+    "/private/tmp/open_world_expansion_pilot_audit.json",
+    "/private/tmp/open_world_expansion_pilot_audit2.json",
+    "/private/tmp/open_world_expansion_pilot_execution",
+    "/private/tmp/open_world_expansion_pilot_execution2",
+    "/private/tmp/open_world_expansion_pilot_execution3",
+    "/private/tmp/open_world_expansion_pilot_prepared",
+    "/private/tmp/open_world_expansion_v2_formal_merged",
+    "/private/tmp/open_world_expansion_v2_formal_part1",
+    "/private/tmp/open_world_expansion_v2_formal_part2",
+    "/private/tmp/open_world_expansion_v2_formal_part3",
+    "/private/tmp/open_world_expansion_v2_formal_prepared",
+    "/private/tmp/open_world_expansion_v2_pilot_analysis",
+    "/private/tmp/open_world_expansion_v2_pilot_audit.json",
+    "/private/tmp/open_world_expansion_v2_pilot_execution",
+    "/private/tmp/open_world_expansion_v2_pilot_prepared",
+    "/private/tmp/open_world_expansion_v3_formal_merged",
+    "/private/tmp/open_world_expansion_v3_formal_part1",
+    "/private/tmp/open_world_expansion_v3_formal_part2",
+    "/private/tmp/open_world_expansion_v3_formal_part3",
+    "/private/tmp/open_world_expansion_v3_formal_prepared",
+    "/private/tmp/open_world_expansion_v3_pilot_analysis",
+    "/private/tmp/open_world_expansion_v3_pilot_execution",
+    "/private/tmp/open_world_expansion_v3_pilot_prepared",
+    "/private/tmp/open_world_expansion_v4_audit_part1.json",
+    "/private/tmp/open_world_expansion_v4_audit_part2.json",
+    "/private/tmp/open_world_expansion_v4_audit_part3.json",
+    "/private/tmp/open_world_expansion_v4_formal_prepared",
+    "/private/tmp/open_world_expansion_v4_reevaluated"
   ],
   "tracked_paths_pruned_in_commit": 8338,
   "historical_cleanup_estimate_bytes": 5558370327,
@@ -2614,25 +2664,169 @@
     "/private/tmp/routing_init_control_pilot_prepared": {
       "present": false,
       "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_formal_merged": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_formal_part1": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_formal_part2": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_formal_part3": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_formal_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_pilot_analysis": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_pilot_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_pilot_audit2.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_pilot_execution": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_pilot_execution2": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_pilot_execution3": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_pilot_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_v2_formal_merged": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_v2_formal_part1": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_v2_formal_part2": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_v2_formal_part3": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_v2_formal_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_v2_pilot_analysis": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_v2_pilot_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_v2_pilot_execution": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_v2_pilot_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_v3_formal_merged": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_v3_formal_part1": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_v3_formal_part2": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_v3_formal_part3": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_v3_formal_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_v3_pilot_analysis": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_v3_pilot_execution": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_v3_pilot_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_v4_audit_part1.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_v4_audit_part2.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_v4_audit_part3.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_v4_formal_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_expansion_v4_reevaluated": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
     }
   },
   "latest_batch": {
-    "name": "routing_initialization_control_20260918",
-    "source_commit": "da31e74b",
-    "archive": "research_program/routing_initialization_control_study/results/formal_20260918",
+    "name": "open_world_expansion_20260918",
+    "source_commit": "ee967ca7f20144b535b311752160726d482ea1e7",
+    "archive": "research_program/open_world_expansion_study/results/formal_20260918",
     "archive_stats": {
-      "files": 27,
-      "bytes": 1664514
+      "files": 32,
+      "bytes": 3054349
     },
-    "audit": "combined replay passed; max_abs_replay_error=0.0",
+    "archive_payload_stats": {
+      "files": 31,
+      "bytes": 3048795
+    },
+    "audit": "combined replay passed; max_abs_replay_error=0.0; v4 endpoint reevaluation recorded",
     "raw_execution_retained": false,
-    "raw_paths_deleted": 10,
-    "files_deleted": 1081,
-    "bytes_removed": 434534707,
-    "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18_routing_initialization_control.json",
+    "raw_paths_deleted": 34,
+    "files_deleted": 3763,
+    "bytes_removed": 1494698343,
+    "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18_open_world_expansion.json",
+    "invalid_designs_archived": [
+      "v1 wrong base-4 old-meaning indices and shortcut-prone distractors",
+      "v2 trained the double-new meaning and is diagnostic only"
+    ],
     "verified_paths_absent": true,
     "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
-    "remote_commit": "c2c5959c"
+    "remote_commit": "pending final push"
   },
   "community_merge_batch": {
     "name": "community_merge_20260918",
@@ -2778,5 +2972,35 @@
     "verified_paths_absent": true,
     "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
     "remote_commit": "c2c5959c"
+  },
+  "open_world_expansion_batch": {
+    "name": "open_world_expansion_20260918",
+    "source_commit": "ee967ca7f20144b535b311752160726d482ea1e7",
+    "archive": "research_program/open_world_expansion_study/results/formal_20260918",
+    "archive_stats": {
+      "files": 32,
+      "bytes": 3054349
+    },
+    "archive_payload_stats": {
+      "files": 31,
+      "bytes": 3048795
+    },
+    "audit": "combined replay passed; max_abs_replay_error=0.0; v4 endpoint reevaluation recorded",
+    "raw_execution_retained": false,
+    "raw_paths_deleted": 34,
+    "files_deleted": 3763,
+    "bytes_removed": 1494698343,
+    "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18_open_world_expansion.json",
+    "invalid_designs_archived": [
+      "v1 wrong base-4 old-meaning indices and shortcut-prone distractors",
+      "v2 trained the double-new meaning and is diagnostic only"
+    ],
+    "verified_paths_absent": true,
+    "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+    "remote_commit": "pending final push",
+    "source_package_stats": {
+      "files": 44,
+      "bytes": 3144663
+    }
   }
 }

@@ -1,0 +1,192 @@
+{
+  "schema": "local_cleanup_receipt_v1",
+  "created": "2026-09-18",
+  "batch": "open_world_expansion_20260918",
+  "archive": "research_program/open_world_expansion_study/results/formal_20260918",
+  "archive_manifest_sha256": "c6a237befecaec9fab96194732b42b1df33778f420ac22a1caaa94129d5b93d2",
+  "archive_payload_file_count": 31,
+  "archive_payload_bytes": 3048795,
+  "combined_audit_sha256": "6b15ee68bf974fa3f7efd1064748f6f40d2c5a49dda91ebb16fd3b96e9264235",
+  "combined_audit_status": "passed",
+  "combined_audit_max_abs_replay_error": 0.0,
+  "removed_paths": [
+    {
+      "path": "/private/tmp/open_world_expansion_formal_merged",
+      "files": 6,
+      "bytes": 2037050
+    },
+    {
+      "path": "/private/tmp/open_world_expansion_formal_part1",
+      "files": 318,
+      "bytes": 137737506
+    },
+    {
+      "path": "/private/tmp/open_world_expansion_formal_part2",
+      "files": 318,
+      "bytes": 137739353
+    },
+    {
+      "path": "/private/tmp/open_world_expansion_formal_part3",
+      "files": 318,
+      "bytes": 137730981
+    },
+    {
+      "path": "/private/tmp/open_world_expansion_formal_prepared",
+      "files": 13,
+      "bytes": 90182
+    },
+    {
+      "path": "/private/tmp/open_world_expansion_pilot_analysis",
+      "files": 4,
+      "bytes": 73040
+    },
+    {
+      "path": "/private/tmp/open_world_expansion_pilot_audit.json",
+      "files": 1,
+      "bytes": 596
+    },
+    {
+      "path": "/private/tmp/open_world_expansion_pilot_audit2.json",
+      "files": 1,
+      "bytes": 596
+    },
+    {
+      "path": "/private/tmp/open_world_expansion_pilot_execution",
+      "files": 77,
+      "bytes": 15704553
+    },
+    {
+      "path": "/private/tmp/open_world_expansion_pilot_execution2",
+      "files": 62,
+      "bytes": 677586
+    },
+    {
+      "path": "/private/tmp/open_world_expansion_pilot_execution3",
+      "files": 62,
+      "bytes": 677589
+    },
+    {
+      "path": "/private/tmp/open_world_expansion_pilot_prepared",
+      "files": 13,
+      "bytes": 90010
+    },
+    {
+      "path": "/private/tmp/open_world_expansion_v2_formal_merged",
+      "files": 6,
+      "bytes": 2015925
+    },
+    {
+      "path": "/private/tmp/open_world_expansion_v2_formal_part1",
+      "files": 318,
+      "bytes": 137719449
+    },
+    {
+      "path": "/private/tmp/open_world_expansion_v2_formal_part2",
+      "files": 318,
+      "bytes": 137725563
+    },
+    {
+      "path": "/private/tmp/open_world_expansion_v2_formal_part3",
+      "files": 318,
+      "bytes": 137713121
+    },
+    {
+      "path": "/private/tmp/open_world_expansion_v2_formal_prepared",
+      "files": 13,
+      "bytes": 91825
+    },
+    {
+      "path": "/private/tmp/open_world_expansion_v2_pilot_analysis",
+      "files": 4,
+      "bytes": 88603
+    },
+    {
+      "path": "/private/tmp/open_world_expansion_v2_pilot_audit.json",
+      "files": 1,
+      "bytes": 599
+    },
+    {
+      "path": "/private/tmp/open_world_expansion_v2_pilot_execution",
+      "files": 77,
+      "bytes": 15698925
+    },
+    {
+      "path": "/private/tmp/open_world_expansion_v2_pilot_prepared",
+      "files": 13,
+      "bytes": 91341
+    },
+    {
+      "path": "/private/tmp/open_world_expansion_v3_formal_merged",
+      "files": 6,
+      "bytes": 2938950
+    },
+    {
+      "path": "/private/tmp/open_world_expansion_v3_formal_part1",
+      "files": 444,
+      "bytes": 200604957
+    },
+    {
+      "path": "/private/tmp/open_world_expansion_v3_formal_part2",
+      "files": 444,
+      "bytes": 200613758
+    },
+    {
+      "path": "/private/tmp/open_world_expansion_v3_formal_part3",
+      "files": 444,
+      "bytes": 200595204
+    },
+    {
+      "path": "/private/tmp/open_world_expansion_v3_formal_prepared",
+      "files": 13,
+      "bytes": 94241
+    },
+    {
+      "path": "/private/tmp/open_world_expansion_v3_pilot_analysis",
+      "files": 4,
+      "bytes": 147193
+    },
+    {
+      "path": "/private/tmp/open_world_expansion_v3_pilot_execution",
+      "files": 107,
+      "bytes": 22866207
+    },
+    {
+      "path": "/private/tmp/open_world_expansion_v3_pilot_prepared",
+      "files": 13,
+      "bytes": 94241
+    },
+    {
+      "path": "/private/tmp/open_world_expansion_v4_audit_part1.json",
+      "files": 1,
+      "bytes": 606
+    },
+    {
+      "path": "/private/tmp/open_world_expansion_v4_audit_part2.json",
+      "files": 1,
+      "bytes": 606
+    },
+    {
+      "path": "/private/tmp/open_world_expansion_v4_audit_part3.json",
+      "files": 1,
+      "bytes": 606
+    },
+    {
+      "path": "/private/tmp/open_world_expansion_v4_formal_prepared",
+      "files": 13,
+      "bytes": 94272
+    },
+    {
+      "path": "/private/tmp/open_world_expansion_v4_reevaluated",
+      "files": 11,
+      "bytes": 2943109
+    }
+  ],
+  "removed_file_count": 3763,
+  "removed_bytes": 1494698343,
+  "remaining_raw_temp_matches": [],
+  "invalid_designs_archived": [
+    "v1: wrong base-4 old-meaning indices and shortcut-prone distractors",
+    "v2: double-new meaning was present in training support"
+  ],
+  "policy": "raw logs, checkpoints, pilot trees, merged temporary payloads and v4 reevaluation trees removed after archive and replay-audit verification; compact source, endpoints, audit receipts and hashes retained in the repository."
+}

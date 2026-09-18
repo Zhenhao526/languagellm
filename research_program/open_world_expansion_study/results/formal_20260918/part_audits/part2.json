@@ -1,0 +1,20 @@
+{
+  "schema": "open_world_expansion_audit_v1",
+  "status": "partial",
+  "prepared_schema": "open_world_expansion_study_v1",
+  "parent_runs": 18,
+  "child_runs": 45,
+  "expected_parent_runs": 54,
+  "expected_child_runs": 135,
+  "parent_training_log_rows": 54000,
+  "child_training_log_rows": 135000,
+  "parent_checkpoints": 72,
+  "child_checkpoints": 180,
+  "paired_architecture_rows": 135000,
+  "paired_support_rows": 54000,
+  "paired_visibility_rows": 0,
+  "paired_population_rows": 0,
+  "max_abs_replay_error": 0.0,
+  "raw_execution_tree": "removed_raw_execution/v3_formal_part2/execution",
+  "raw_execution_retained": false
+}
