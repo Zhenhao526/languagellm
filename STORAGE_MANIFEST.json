@@ -183,8 +183,8 @@
       "bytes": 6090
     },
     "research_program/shared_routing_study": {
-      "files": 58,
-      "bytes": 7382688
+      "files": 40,
+      "bytes": 7119713
     },
     "SYNC_2026-09-18_shared_routing.md": {
       "files": 1,
@@ -305,8 +305,8 @@
       "bytes": 4850268
     },
     "research_program/shared_routing_study/results/formal_20260918": {
-      "files": 37,
-      "bytes": 7156130
+      "files": 28,
+      "bytes": 7023624
     }
   },
   "raw_execution_trees": {
@@ -2551,8 +2551,8 @@
     "source_commit": "5e4fd39dcc27ad74758d02d38e24ebe943c9e413",
     "archive": "research_program/shared_routing_study/results/formal_20260918",
     "archive_stats": {
-      "files": 37,
-      "bytes": 7156130
+      "files": 28,
+      "bytes": 7023624
     },
     "audit": "combined replay passed; max_abs_replay_error=0.0",
     "raw_execution_retained": false,
@@ -2678,8 +2678,8 @@
     "source_commit": "5e4fd39dcc27ad74758d02d38e24ebe943c9e413",
     "archive": "research_program/shared_routing_study/results/formal_20260918",
     "archive_stats": {
-      "files": 37,
-      "bytes": 7156130
+      "files": 28,
+      "bytes": 7023624
     },
     "audit": "combined replay passed; max_abs_replay_error=0.0",
     "raw_execution_retained": false,

@@ -6,8 +6,8 @@
   "parent_runs": 144,
   "child_runs": 432,
   "updates": 3000,
-  "payload_count": 36,
-  "payload_bytes": 7149011,
+  "payload_count": 27,
+  "payload_bytes": 7018542,
   "payload": [
     {
       "path": "README.md",
@@ -90,41 +90,6 @@
       "sha256": "c7a0b0a16637bff2e9eb7f1ac1dca50f147313d454e62bd0cab4b078d5a22b19"
     },
     {
-      "path": "source_snapshot/research_program/shared_routing_study/__pycache__/__init__.cpython-312.pyc",
-      "bytes": 231,
-      "sha256": "2c7c5df29fb4f98e19f2c9604a7b1ed8e05073ce784ac6a00b4738dc46d174be"
-    },
-    {
-      "path": "source_snapshot/research_program/shared_routing_study/__pycache__/aggregate.cpython-312.pyc",
-      "bytes": 13797,
-      "sha256": "5c84bd31ee14861f09db90d7416f43f83727480123629097f7073bc6f8d90eaa"
-    },
-    {
-      "path": "source_snapshot/research_program/shared_routing_study/__pycache__/audit.cpython-312.pyc",
-      "bytes": 14322,
-      "sha256": "54ee0ae2f355f3a9c9eeb2ae1a4b869c9c019835e2a1c3d1ae3f6c059a0fc402"
-    },
-    {
-      "path": "source_snapshot/research_program/shared_routing_study/__pycache__/design.cpython-312.pyc",
-      "bytes": 21450,
-      "sha256": "9c29d6a9c486188ab76d9ae31a671ad53b821f2f60ea56f307033e02d0728e63"
-    },
-    {
-      "path": "source_snapshot/research_program/shared_routing_study/__pycache__/environment.cpython-312.pyc",
-      "bytes": 15181,
-      "sha256": "2e998b93376da91c1c1f0dfd7a9a9f98f4184bc3586b6946381e2737d85afa1b"
-    },
-    {
-      "path": "source_snapshot/research_program/shared_routing_study/__pycache__/policy.cpython-312.pyc",
-      "bytes": 17322,
-      "sha256": "25293cc4b0f043a133ed5b366f50f6c27ccfdee78fc1ae0b16044a99645b96bc"
-    },
-    {
-      "path": "source_snapshot/research_program/shared_routing_study/__pycache__/runner.cpython-312.pyc",
-      "bytes": 44016,
-      "sha256": "35746680ad46951262b1ca471f83e463540aa74ae9de4e3ca0f7af26caad137d"
-    },
-    {
       "path": "source_snapshot/research_program/shared_routing_study/aggregate.py",
       "bytes": 9129,
       "sha256": "b7b1f57b0e611f6bb61ec318868a8e6788813d2ad28499689e20d96e833c2f21"
@@ -168,16 +133,6 @@
       "path": "source_snapshot/research_program/shared_routing_study/tests/__init__.py",
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "path": "source_snapshot/research_program/shared_routing_study/tests/__pycache__/__init__.cpython-312.pyc",
-      "bytes": 152,
-      "sha256": "46bb5bb03855468a0b131ab1ee90d831ff64c219aa0832d6f322f3d29ae521b7"
-    },
-    {
-      "path": "source_snapshot/research_program/shared_routing_study/tests/__pycache__/test_game.cpython-312.pyc",
-      "bytes": 3998,
-      "sha256": "8acb6bd68a41597362ad2751e0dd1bf4aea47a00c68493f8567cbd1e333db1b3"
     },
     {
       "path": "source_snapshot/research_program/shared_routing_study/tests/test_game.py",

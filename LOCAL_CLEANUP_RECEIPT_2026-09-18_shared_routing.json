@@ -5,9 +5,9 @@
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
   "source_commit": "5e4fd39dcc27ad74758d02d38e24ebe943c9e413",
   "archive": "research_program/shared_routing_study/results/formal_20260918",
-  "archive_manifest_sha256": "5920786a7e7cc59c07f05d72e72e392d8fa68be78c3bbecde5adf4ec5387d5b8",
-  "archive_payload_count": 36,
-  "archive_payload_bytes": 7149011,
+  "archive_manifest_sha256": "f7e01d222363e5599bac30beba23331043a5b698bdb049e5808eabcc22e0d39c",
+  "archive_payload_count": 27,
+  "archive_payload_bytes": 7018542,
   "combined_audit": "passed",
   "deleted": [
     {
