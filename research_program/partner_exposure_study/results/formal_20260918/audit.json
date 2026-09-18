@@ -11,5 +11,7 @@
   "paired_adaptation_rows": 432000,
   "paired_population_rows": 432000,
   "paired_support_rows": 216000,
-  "max_abs_replay_error": 0.0
+  "max_abs_replay_error": 0.0,
+  "raw_execution_tree": null,
+  "raw_execution_tree_retained": false
 }

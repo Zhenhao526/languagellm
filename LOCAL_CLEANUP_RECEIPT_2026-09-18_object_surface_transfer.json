@@ -2,9 +2,9 @@
   "schema": "object_surface_transfer_local_cleanup_receipt_v1",
   "created_utc": "2026-09-17T20:16:36Z",
   "root": "/Users/xia/Documents/ChatGPT/语言",
-  "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+  "remote_repository": "git@github.com:Zhenhao526/language.git",
   "archive": "research_program/object_surface_transfer_study/results/formal_20260918",
-  "archive_manifest_sha256": "be796fa6ce62d807c40355b4860d33ccf6f4dc1b1fe20bcc6871f9d68ba1583f",
+  "archive_manifest_sha256": "cebe6e1ec453a07396692c363357b1013e25410c8203d725954a0f00f7f28468",
   "audit": "passed",
   "raw_execution_retained": false,
   "raw_paths_absent": true,
@@ -84,5 +84,21 @@
   ],
   "total_bytes_removed": 521784368,
   "retained_local": "source code, frozen plan, compact endpoints, learning curves, audit receipts and report",
-  "remote_main_commit_verified": "f802038"
+  "remote_main_commit_verified": "f802038",
+  "remote_base_commit": "558f6d04cbeeb2379cd384ee11fd77cc671d099f",
+  "full_results_retained_in_remote_tree": true,
+  "full_results_retained_in_local_archive": false,
+  "remote_only_results": {
+    "path": "research_program/object_surface_transfer_study/results/formal_20260918/results.json",
+    "bytes": 489867,
+    "sha256": "99d6c2c01c79f6a56db0b91724a56cf2281413d3fe1cf9d8f27cdeaa4d88be7d"
+  },
+  "deleted_local_results": [
+    {
+      "path": "research_program/object_surface_transfer_study/results/formal_20260918/results.json",
+      "bytes_removed": 489867,
+      "removed": true
+    }
+  ],
+  "remote_parent_commit_verified": "731ccdef98da1a7ef511c1aecc6cf00fa62527df"
 }

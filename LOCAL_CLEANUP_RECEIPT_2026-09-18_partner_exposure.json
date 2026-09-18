@@ -107,7 +107,25 @@
   ],
   "total_bytes_removed": 530929666,
   "retained_local": "partner_exposure source package, compact formal and diagnostic archives, frozen plans, report and receipts",
-  "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+  "remote_repository": "git@github.com:Zhenhao526/language.git",
   "source_commit": "11582a826ce829d7fc30c8c0d7856340a0f0f971",
-  "raw_execution_retained": false
+  "raw_execution_retained": false,
+  "remote_base_commit": "558f6d04cbeeb2379cd384ee11fd77cc671d099f",
+  "full_results_retained_in_remote_tree": true,
+  "full_results_retained_in_local_archive": false,
+  "remote_only_results": {
+    "path": "research_program/partner_exposure_study/results/formal_20260918/results.json",
+    "bytes": 1807618,
+    "sha256": "3dd484f81842ef7106a4fa2af35e73db184d857cf4e941edb3bd8fa8e6583118"
+  },
+  "deleted_local_results": [
+    {
+      "path": "research_program/partner_exposure_study/results/formal_20260918/results.json",
+      "bytes_removed": 1807618,
+      "removed": true
+    }
+  ],
+  "archive": "research_program/partner_exposure_study/results/formal_20260918",
+  "archive_manifest_sha256": "d81820a86e4482540b79eb6841062e056ed06c1fb2fa5a69fbdc8b1463b943bc",
+  "remote_parent_commit_verified": "731ccdef98da1a7ef511c1aecc6cf00fa62527df"
 }

@@ -16,5 +16,6 @@
   "paired_support_rows": 864000,
   "paired_role_rows": 648000,
   "max_abs_replay_error": 0.0,
-  "raw_execution_tree": "/private/tmp/community_merge_formal2_out/execution"
+  "raw_execution_tree": null,
+  "raw_execution_tree_retained": false
 }

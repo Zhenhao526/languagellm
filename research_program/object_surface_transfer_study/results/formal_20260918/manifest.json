@@ -3,13 +3,13 @@
   "study": "object_surface_transfer_study",
   "formal_date": "2026-09-18",
   "source_commit": "7e3f422",
-  "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+  "remote_repository": "git@github.com:Zhenhao526/language.git",
   "raw_logs_retained": false,
   "files": [
     {
       "path": "README.md",
-      "bytes": 1049,
-      "sha256": "746274cb17d5e4c2e238b401acd1870f59cca384ac4645d27332f739d6c05a3a"
+      "bytes": 1140,
+      "sha256": "efe546516e455230a39c3940f2ebd6b6ff0329beff00d4e999fc0452959d90e8"
     },
     {
       "path": "aggregate.json",
@@ -52,11 +52,6 @@
       "sha256": "afd283d9c03a2755d17b82890097eaf7f21e58d83e7a6975cd680334237fa76e"
     },
     {
-      "path": "results.json",
-      "bytes": 489867,
-      "sha256": "99d6c2c01c79f6a56db0b91724a56cf2281413d3fe1cf9d8f27cdeaa4d88be7d"
-    },
-    {
       "path": "source_commit.txt",
       "bytes": 8,
       "sha256": "005f1b9f0b453936408347e58d281b7834265ccfe50ce1b96a695e722831fb1a"
@@ -67,6 +62,19 @@
       "sha256": "4df778c5014140c4f4b1f167c7dcb603ca23b1c6d23347f6bcd9012bc4465db3"
     }
   ],
-  "file_count": 12,
-  "archive_bytes": 673487
+  "file_count": 11,
+  "archive_bytes": 673487,
+  "remote_base_commit": "558f6d04cbeeb2379cd384ee11fd77cc671d099f",
+  "full_results_retained_in_archive": false,
+  "full_results_retained_in_remote_tree": true,
+  "remote_only_files": [
+    {
+      "path": "results.json",
+      "bytes": 489867,
+      "sha256": "99d6c2c01c79f6a56db0b91724a56cf2281413d3fe1cf9d8f27cdeaa4d88be7d"
+    }
+  ],
+  "remote_payload_bytes": 489867,
+  "payload_bytes": 183711,
+  "manifest_excludes_self": true
 }

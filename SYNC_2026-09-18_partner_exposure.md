@@ -12,4 +12,4 @@
 - `research_program/partner_exposure_study/results/diagnostic_20260918/`
 
 源代码提交：`11582a826ce829d7fc30c8c0d7856340a0f0f971`
-远端仓库：`git@github.com:Zhenhao526/languagellm.git`
+远端仓库：`git@github.com:Zhenhao526/language.git`

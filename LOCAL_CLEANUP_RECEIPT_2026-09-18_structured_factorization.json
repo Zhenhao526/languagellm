@@ -3,9 +3,9 @@
   "generated_at_local": "2026-09-18",
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "reason": "retain structured factor-sharing source and verified formal archive while removing raw formal, smoke and diagnostic execution trees",
-  "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+  "remote_repository": "git@github.com:Zhenhao526/language.git",
   "source_commit": "6480b69ca505fab007ff9fc0c1e88785bda0c32e",
-  "archive": "/Users/xia/Documents/ChatGPT/语言/research_program/structured_factorization_study/results/formal_20260918",
+  "archive": "research_program/structured_factorization_study/results/formal_20260918",
   "archive_manifest_verified": true,
   "audit_status": "passed",
   "raw_execution_retained": false,
@@ -108,5 +108,22 @@
   ],
   "deleted_path_count": 19,
   "total_bytes_removed": 1080825210,
-  "post_delete_paths_absent": true
+  "post_delete_paths_absent": true,
+  "remote_base_commit": "558f6d04cbeeb2379cd384ee11fd77cc671d099f",
+  "full_results_retained_in_remote_tree": true,
+  "full_results_retained_in_local_archive": false,
+  "remote_only_results": {
+    "path": "research_program/structured_factorization_study/results/formal_20260918/results.json",
+    "bytes": 2902693,
+    "sha256": "d26a69f81aff10ef99ee55edd768cc410cc7284eff74697cfc4df585bed8c1c1"
+  },
+  "deleted_local_results": [
+    {
+      "path": "research_program/structured_factorization_study/results/formal_20260918/results.json",
+      "bytes_removed": 2902693,
+      "removed": true
+    }
+  ],
+  "archive_manifest_sha256": "23d9d0c4282a8ce0cafd815c7946d171aeada1eb3e2cdfa5f32fb9cc9ce6829a",
+  "remote_parent_commit_verified": "731ccdef98da1a7ef511c1aecc6cf00fa62527df"
 }

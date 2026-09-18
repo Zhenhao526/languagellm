@@ -3,9 +3,9 @@
   "generated_at_local": "2026-09-18",
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "reason": "retain source, frozen design, compact formal archive and audit while removing raw community-merge execution trees and superseded diagnostics from local storage",
-  "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+  "remote_repository": "git@github.com:Zhenhao526/language.git",
   "source_commit": "ec3b9e19bb262b3b84eb7e64b3d22aa43e44c9ab",
-  "archive": "/Users/xia/Documents/ChatGPT/语言/research_program/community_merge_study/results/formal_20260918",
+  "archive": "research_program/community_merge_study/results/formal_20260918",
   "archive_manifest_verified": true,
   "audit_status": "passed",
   "raw_execution_retained": false,
@@ -138,5 +138,22 @@
   ],
   "deleted_path_count": 25,
   "total_bytes_removed": 1702302369,
-  "post_delete_paths_absent": true
+  "post_delete_paths_absent": true,
+  "remote_base_commit": "558f6d04cbeeb2379cd384ee11fd77cc671d099f",
+  "full_results_retained_in_remote_tree": true,
+  "full_results_retained_in_local_archive": false,
+  "remote_only_results": {
+    "path": "research_program/community_merge_study/results/formal_20260918/results.json",
+    "bytes": 5252837,
+    "sha256": "0aab80f305a300db3be2e0bee31dd6d406ce0c1cfae2139d4b002c8d2261f35e"
+  },
+  "deleted_local_results": [
+    {
+      "path": "research_program/community_merge_study/results/formal_20260918/results.json",
+      "bytes_removed": 5252837,
+      "removed": true
+    }
+  ],
+  "archive_manifest_sha256": "1ad6e3343695c74b9d20629f8910bf191f073d64923717449ac9f8a6c95e2fd7",
+  "remote_parent_commit_verified": "731ccdef98da1a7ef511c1aecc6cf00fa62527df"
 }

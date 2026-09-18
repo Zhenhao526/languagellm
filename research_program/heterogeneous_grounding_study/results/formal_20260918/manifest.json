@@ -3,14 +3,14 @@
   "study": "heterogeneous_grounding_study",
   "formal_date": "2026-09-18",
   "source_commit": "fc026e6504d3d78fb213604899c229dafa3a4e00",
-  "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+  "remote_repository": "git@github.com:Zhenhao526/language.git",
   "raw_logs_retained": false,
-  "full_results_retained_in_archive": true,
+  "full_results_retained_in_archive": false,
   "files": [
     {
       "path": "README.md",
-      "bytes": 970,
-      "sha256": "9464adb74a19c33ae5d54d99090b0b867f28f3e7591fdf3e797d5f504d2b2939"
+      "bytes": 1065,
+      "sha256": "4c2a088da90979e4e47c58e554463e08fd840fd957327ee86ca425e01e429ce4"
     },
     {
       "path": "aggregate.json",
@@ -68,11 +68,6 @@
       "sha256": "b4f38585f2ff12c8289ac1da6a52eb5422984a15ac2d26114a7b0db17e1283af"
     },
     {
-      "path": "results.json",
-      "bytes": 2773816,
-      "sha256": "18a60dfd1b7625c0c68560e5f68d2c24f0b62d74f8124b288b9d2c81bd37cbc7"
-    },
-    {
       "path": "source_commit.txt",
       "bytes": 41,
       "sha256": "f8cfd45e858a783d1bb43a0c81ca2764ddba1f04be606083b7db173ca0fe47b0"
@@ -83,7 +78,17 @@
       "sha256": "5c80a186aee861924c049cffac561dd6b930a20049f50bff7a046af6d9b947ea"
     }
   ],
-  "file_count": 15,
-  "payload_bytes": 3580627,
-  "manifest_excludes_self": true
+  "file_count": 14,
+  "payload_bytes": 806906,
+  "manifest_excludes_self": true,
+  "remote_base_commit": "558f6d04cbeeb2379cd384ee11fd77cc671d099f",
+  "full_results_retained_in_remote_tree": true,
+  "remote_only_files": [
+    {
+      "path": "results.json",
+      "bytes": 2773816,
+      "sha256": "18a60dfd1b7625c0c68560e5f68d2c24f0b62d74f8124b288b9d2c81bd37cbc7"
+    }
+  ],
+  "remote_payload_bytes": 2773816
 }

@@ -3,14 +3,14 @@
   "study": "partner_exposure_formal",
   "formal_date": "2026-09-18",
   "source_commit": "11582a826ce829d7fc30c8c0d7856340a0f0f971",
-  "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+  "remote_repository": "git@github.com:Zhenhao526/language.git",
   "raw_logs_retained": false,
-  "full_results_retained_in_archive": true,
+  "full_results_retained_in_archive": false,
   "files": [
     {
       "path": "README.md",
-      "bytes": 989,
-      "sha256": "022ea648f79ba60516f7f86de3ee83882b007611a0c1912f61c6604f34a776a5"
+      "bytes": 1024,
+      "sha256": "409040d844ef3c6070c9fa03fecd04912629a6906fb1c0dbc026d539ddaa30ad"
     },
     {
       "path": "aggregate.json",
@@ -24,8 +24,8 @@
     },
     {
       "path": "audit.json",
-      "bytes": 410,
-      "sha256": "31d0026b876d1021646c7088f19e1c6101d3b7f0cd915b86c2bddd9d5258b24f"
+      "bytes": 480,
+      "sha256": "f80725da8fc39e5b5962b4469f189443b69b419f52eb0dee3801a643ca2ac027"
     },
     {
       "path": "execution_plan.json",
@@ -48,11 +48,6 @@
       "sha256": "78ee2d677b1121c8b76127d239c258efe6fd445d2a02f78fee2c1a7141b3674f"
     },
     {
-      "path": "results.json",
-      "bytes": 1807618,
-      "sha256": "3dd484f81842ef7106a4fa2af35e73db184d857cf4e941edb3bd8fa8e6583118"
-    },
-    {
       "path": "source_commit.txt",
       "bytes": 41,
       "sha256": "a7e08b43f003c6bbcbc36f0cdc187c1958b6ab2ec18eddd2dc36acb4a5967c9e"
@@ -63,10 +58,20 @@
       "sha256": "79c38b6b6e52a105671e031a16180d5a64ed60bb7a6783ca4fa019e3a4f96d64"
     }
   ],
-  "file_count": 11,
-  "payload_bytes": 2105096,
+  "file_count": 10,
+  "payload_bytes": 297583,
   "manifest_excludes_self": true,
   "audit": "passed",
   "parent_runs": 18,
-  "child_runs": 144
+  "child_runs": 144,
+  "remote_base_commit": "558f6d04cbeeb2379cd384ee11fd77cc671d099f",
+  "full_results_retained_in_remote_tree": true,
+  "remote_only_files": [
+    {
+      "path": "results.json",
+      "bytes": 1807618,
+      "sha256": "3dd484f81842ef7106a4fa2af35e73db184d857cf4e941edb3bd8fa8e6583118"
+    }
+  ],
+  "remote_payload_bytes": 1807618
 }
