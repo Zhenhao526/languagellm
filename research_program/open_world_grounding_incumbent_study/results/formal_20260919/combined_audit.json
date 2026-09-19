@@ -1,0 +1,40 @@
+{
+  "schema": "open_world_grounding_incumbent_combined_audit_v1",
+  "status": "passed",
+  "prepared_schema": "open_world_grounding_incumbent_study_v1",
+  "expansion": {
+    "parent_runs": 36,
+    "child_runs": 18,
+    "parent_training_log_rows": 108000,
+    "child_training_log_rows": 54000,
+    "parent_checkpoints": 144,
+    "child_checkpoints": 72,
+    "paired_architecture_rows": 27000
+  },
+  "transfer": {
+    "transfer_runs": 288,
+    "training_log_rows": 648000,
+    "checkpoints": 1152,
+    "paired_stream_rows": 1296000
+  },
+  "expected": {
+    "parent_runs": 36,
+    "expansion_child_runs": 18,
+    "transfer_runs": 288
+  },
+  "receiver_copy_audit": {
+    "status": "passed",
+    "checks": 144,
+    "expected_checks": 144
+  },
+  "max_abs_replay_error": 0.0,
+  "incumbent_frozen": true,
+  "raw_execution_retained": false,
+  "surface_mapping_pairing": "identity and reverse share semantic scenes, goals, partners, messages and action uniforms; only fresh-receiver scene labels differ",
+  "receiver_initialization_pairing": "incumbent_receiver copies all receiver_* arrays from the frozen expansion policy; sender_* arrays remain freshly initialized; exact copy verified at checkpoint_0000 for 144 transfer runs",
+  "notes": [
+    "All six replay shards completed with maximum replay error 0.0.",
+    "The 144-run receiver-copy audit is an independent checkpoint comparison performed before raw execution cleanup.",
+    "The supplementary paired t analysis was added after the run and reads only the frozen transfer result table; it does not change training or endpoints."
+  ]
+}

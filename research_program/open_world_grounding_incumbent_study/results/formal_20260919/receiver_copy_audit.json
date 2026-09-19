@@ -1,0 +1,30 @@
+{
+  "schema": "open_world_grounding_incumbent_receiver_copy_audit_v1",
+  "status": "passed",
+  "receiver_copy_checks": 144,
+  "expected_checks": 144,
+  "parts": [
+    {
+      "part": 1,
+      "status": "passed",
+      "receiver_copy_checks": 48,
+      "parameter_comparison": "all receiver_* arrays exactly equal the frozen expansion incumbent; fresh sender_* arrays differ",
+      "raw_execution_tree": "removed_raw_execution/open_world_grounding_incumbent_transfer_p1/execution"
+    },
+    {
+      "part": 2,
+      "status": "passed",
+      "receiver_copy_checks": 48,
+      "parameter_comparison": "all receiver_* arrays exactly equal the frozen expansion incumbent; fresh sender_* arrays differ",
+      "raw_execution_tree": "removed_raw_execution/open_world_grounding_incumbent_transfer_p2/execution"
+    },
+    {
+      "part": 3,
+      "status": "passed",
+      "receiver_copy_checks": 48,
+      "parameter_comparison": "all receiver_* arrays exactly equal the frozen expansion incumbent; fresh sender_* arrays differ",
+      "raw_execution_tree": "removed_raw_execution/open_world_grounding_incumbent_transfer_p3/execution"
+    }
+  ],
+  "method": "Load each transfer checkpoint_0000.npz and its frozen expansion incumbent checkpoint; compare all receiver_* parameter arrays exactly and require at least one sender_* array to differ."
+}

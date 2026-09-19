@@ -1,0 +1,250 @@
+{
+  "schema": "open_world_grounding_incumbent_study_v1",
+  "prepared_sha256": "c75a490934085f1056a2a737e68a3964e616aeb130e98a3822f6a4479f5f14e3",
+  "sources": {
+    "research_program/open_world_grounding_incumbent_study/__init__.py": "c7a0b0a16637bff2e9eb7f1ac1dca50f147313d454e62bd0cab4b078d5a22b19",
+    "research_program/open_world_grounding_incumbent_study/README.md": "8541fb0aad4e39d76841e4a85fcaf564c8a5f00e48182f0ede756392e0e60f69",
+    "research_program/open_world_grounding_incumbent_study/design.py": "19ed1ed7988967eceadcdadfa589a7694403f671c4f87c5cc28a01a59f0966d5",
+    "research_program/open_world_grounding_incumbent_study/policy.py": "f24c81c5c5ee901fc43ef0d2b135c782172a8f517e0d28ea30f3546d34db4c72",
+    "research_program/open_world_grounding_incumbent_study/environment.py": "4a137b4636dfce7ba9375e8ef5fe8c185d4a207b57449fc0a493a78a24f1736a",
+    "research_program/open_world_grounding_incumbent_study/runner.py": "e9f9b879953fbd02ce35f5be2397cb500b23b547b8bfc444005b61ce7e16766d",
+    "research_program/open_world_grounding_incumbent_study/aggregate.py": "1cbc090dc02ee35a4cc16c124be2c1c0ea027dfa66fd2e3ad4acff476d981313",
+    "research_program/open_world_grounding_incumbent_study/audit.py": "f21cc0816154f7ef6f59b0f52144c6bb9bc987dd158560859b55634e23546d85",
+    "research_program/open_world_grounding_incumbent_study/transfer_audit.py": "c73d5b740ae2b805ebbe3f90382ac5d6050ca5fbd6c609e96fca92acf424cced",
+    "research_program/open_world_grounding_incumbent_study/transfer_analysis.py": "9233e0e370e94042c97093ad550c682221485716160c31f77cc9a91e7b774448",
+    "research_program/open_world_grounding_incumbent_study/plan.md": "4c9a1be6bbc92628d4295b8ec60c6fb585c0647ad5343b42f327d556c6a1dd97",
+    "research_program/open_world_grounding_incumbent_study/tests/test_game.py": "6355a803c477e9314a66853c88dff52115344a8341b2ece7caa56cad47931996"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.2.6"
+  },
+  "config": {
+    "schema": "open_world_grounding_incumbent_study_v1",
+    "task": "open_world_referential_selection",
+    "form": {
+      "name": "quad2_open4",
+      "alphabet_size": 4,
+      "length": 2,
+      "message_state_count": 17
+    },
+    "architectures": [
+      "holistic",
+      "factorized"
+    ],
+    "architecture_intervention": "holistic indexes complete meanings; factorized fixes slot-to-attribute factors; tied_routed shares a learned route coordinate while factor tables remain role-specific",
+    "attributes": 2,
+    "values_per_attribute": 4,
+    "old_values": 3,
+    "new_value": 3,
+    "meanings": 16,
+    "old_meanings": 9,
+    "old_meaning_indices": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10
+    ],
+    "scene_size": 4,
+    "communities": 2,
+    "partners_per_community": 2,
+    "partners": 4,
+    "populations": [
+      "aligned"
+    ],
+    "visibilities": [
+      "hidden"
+    ],
+    "supports": [
+      "expanded_single_pair"
+    ],
+    "transfer_supports": [
+      "expanded_single_sender",
+      "expanded_single_receiver",
+      "expanded_single_pair",
+      "expanded_single_none"
+    ],
+    "object_surface_mappings": [
+      "identity",
+      "reverse"
+    ],
+    "receiver_initializations": [
+      "fresh",
+      "incumbent_receiver"
+    ],
+    "all_supports": [
+      "old_combo",
+      "expanded_single_pair",
+      "expanded_single_sender",
+      "expanded_single_receiver",
+      "expanded_single_none"
+    ],
+    "eval_kinds": [
+      "old_seen",
+      "old_combo",
+      "new_single",
+      "new_double",
+      "all"
+    ],
+    "roles": [
+      "alternating",
+      "pair"
+    ],
+    "channels": [
+      "live",
+      "silent"
+    ],
+    "parent_support": "old_world",
+    "stages": [
+      "closed_parent",
+      "single_new_pair_expansion",
+      "incumbent_replacement"
+    ],
+    "child_intervention": "the expansion stage assigns both fresh roles for new-single meanings and leaves new-double out of training; transfer stages replace sender, receiver, both, or neither role while retaining the same single-new support",
+    "grounding_intervention": "incumbent receivers see canonical object labels; fresh receivers see identity or a stable reverse attribute permutation",
+    "receiver_initialization_intervention": "fresh policy keeps a random receiver; incumbent_receiver copies only the frozen incumbent receiver table while sender parameters remain fresh",
+    "message_symbols": [
+      "@",
+      "#",
+      "￥",
+      "%"
+    ],
+    "goal_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "seeds": [
+      88001,
+      88002,
+      88003,
+      88004,
+      88005,
+      88006,
+      88007,
+      88008,
+      88009
+    ],
+    "parent_conditions": [
+      "holistic_aligned",
+      "factorized_aligned"
+    ],
+    "child_conditions": [
+      "holistic_aligned_hidden_expanded_single_pair",
+      "factorized_aligned_hidden_expanded_single_pair"
+    ],
+    "transfer_conditions": [
+      "holistic_aligned_hidden_identity_fresh_expanded_single_sender",
+      "holistic_aligned_hidden_identity_fresh_expanded_single_receiver",
+      "holistic_aligned_hidden_identity_fresh_expanded_single_pair",
+      "holistic_aligned_hidden_identity_fresh_expanded_single_none",
+      "holistic_aligned_hidden_identity_incumbent_receiver_expanded_single_sender",
+      "holistic_aligned_hidden_identity_incumbent_receiver_expanded_single_receiver",
+      "holistic_aligned_hidden_identity_incumbent_receiver_expanded_single_pair",
+      "holistic_aligned_hidden_identity_incumbent_receiver_expanded_single_none",
+      "holistic_aligned_hidden_reverse_fresh_expanded_single_sender",
+      "holistic_aligned_hidden_reverse_fresh_expanded_single_receiver",
+      "holistic_aligned_hidden_reverse_fresh_expanded_single_pair",
+      "holistic_aligned_hidden_reverse_fresh_expanded_single_none",
+      "holistic_aligned_hidden_reverse_incumbent_receiver_expanded_single_sender",
+      "holistic_aligned_hidden_reverse_incumbent_receiver_expanded_single_receiver",
+      "holistic_aligned_hidden_reverse_incumbent_receiver_expanded_single_pair",
+      "holistic_aligned_hidden_reverse_incumbent_receiver_expanded_single_none",
+      "factorized_aligned_hidden_identity_fresh_expanded_single_sender",
+      "factorized_aligned_hidden_identity_fresh_expanded_single_receiver",
+      "factorized_aligned_hidden_identity_fresh_expanded_single_pair",
+      "factorized_aligned_hidden_identity_fresh_expanded_single_none",
+      "factorized_aligned_hidden_identity_incumbent_receiver_expanded_single_sender",
+      "factorized_aligned_hidden_identity_incumbent_receiver_expanded_single_receiver",
+      "factorized_aligned_hidden_identity_incumbent_receiver_expanded_single_pair",
+      "factorized_aligned_hidden_identity_incumbent_receiver_expanded_single_none",
+      "factorized_aligned_hidden_reverse_fresh_expanded_single_sender",
+      "factorized_aligned_hidden_reverse_fresh_expanded_single_receiver",
+      "factorized_aligned_hidden_reverse_fresh_expanded_single_pair",
+      "factorized_aligned_hidden_reverse_fresh_expanded_single_none",
+      "factorized_aligned_hidden_reverse_incumbent_receiver_expanded_single_sender",
+      "factorized_aligned_hidden_reverse_incumbent_receiver_expanded_single_receiver",
+      "factorized_aligned_hidden_reverse_incumbent_receiver_expanded_single_pair",
+      "factorized_aligned_hidden_reverse_incumbent_receiver_expanded_single_none"
+    ],
+    "updates": 3000,
+    "batch_size": 512,
+    "learning_rate": 0.08,
+    "route_init_scale": 0.5,
+    "route_temperature": 5.0,
+    "entropy_initial": 0.01,
+    "checkpoints": [
+      0,
+      500,
+      1000,
+      2000,
+      3000
+    ]
+  }
+}

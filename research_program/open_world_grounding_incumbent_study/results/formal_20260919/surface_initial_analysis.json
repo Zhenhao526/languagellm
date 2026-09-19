@@ -1,0 +1,930 @@
+{
+  "schema": "open_world_grounding_incumbent_surface_initial_analysis_v1",
+  "source_results": "transfer_results.json",
+  "support": "expanded_single_receiver",
+  "endpoint": "new_double natural and donor-recombined mean team return",
+  "seeds": [
+    88001,
+    88002,
+    88003,
+    88004,
+    88005,
+    88006,
+    88007,
+    88008,
+    88009
+  ],
+  "interval_method": "paired Student t interval, df=8, critical value 2.3060041352",
+  "functional_threshold": 0.6,
+  "transfers": 288,
+  "cells": {
+    "factorized/identity/fresh": {
+      "support": "expanded_single_receiver",
+      "initial_natural": {
+        "n": 9,
+        "mean": -0.17604573567708334,
+        "ci95_t_df8": [
+          -0.3465845750217111,
+          -0.005506896332455602
+        ],
+        "values_by_seed": [
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          0.41558837890625,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25
+        ]
+      },
+      "final_natural": {
+        "n": 9,
+        "mean": 1.0,
+        "ci95_t_df8": [
+          1.0,
+          1.0
+        ],
+        "values_by_seed": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "repair_gain": {
+        "n": 9,
+        "mean": 1.1760457356770833,
+        "ci95_t_df8": [
+          1.0055068963324556,
+          1.346584575021711
+        ],
+        "values_by_seed": [
+          1.25,
+          1.25,
+          1.25,
+          1.25,
+          0.58441162109375,
+          1.25,
+          1.25,
+          1.25,
+          1.25
+        ]
+      },
+      "final_recombined": {
+        "n": 9,
+        "mean": 1.0,
+        "ci95_t_df8": [
+          1.0,
+          1.0
+        ],
+        "values_by_seed": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "functional_final_count_at_0_60": 9
+    },
+    "factorized/identity/incumbent_receiver": {
+      "support": "expanded_single_receiver",
+      "initial_natural": {
+        "n": 9,
+        "mean": 1.0,
+        "ci95_t_df8": [
+          1.0,
+          1.0
+        ],
+        "values_by_seed": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "final_natural": {
+        "n": 9,
+        "mean": 1.0,
+        "ci95_t_df8": [
+          1.0,
+          1.0
+        ],
+        "values_by_seed": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "repair_gain": {
+        "n": 9,
+        "mean": 0.0,
+        "ci95_t_df8": [
+          0.0,
+          0.0
+        ],
+        "values_by_seed": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "final_recombined": {
+        "n": 9,
+        "mean": 1.0,
+        "ci95_t_df8": [
+          1.0,
+          1.0
+        ],
+        "values_by_seed": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "functional_final_count_at_0_60": 9
+    },
+    "factorized/reverse/fresh": {
+      "support": "expanded_single_receiver",
+      "initial_natural": {
+        "n": 9,
+        "mean": -0.12202962239583333,
+        "ci95_t_df8": [
+          -0.4171298423346802,
+          0.17307059754301357
+        ],
+        "values_by_seed": [
+          0.9017333984375,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25
+        ]
+      },
+      "final_natural": {
+        "n": 9,
+        "mean": 1.0,
+        "ci95_t_df8": [
+          1.0,
+          1.0
+        ],
+        "values_by_seed": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "repair_gain": {
+        "n": 9,
+        "mean": 1.1220296223958333,
+        "ci95_t_df8": [
+          0.8269294024569864,
+          1.41712984233468
+        ],
+        "values_by_seed": [
+          0.0982666015625,
+          1.25,
+          1.25,
+          1.25,
+          1.25,
+          1.25,
+          1.25,
+          1.25,
+          1.25
+        ]
+      },
+      "final_recombined": {
+        "n": 9,
+        "mean": 1.0,
+        "ci95_t_df8": [
+          1.0,
+          1.0
+        ],
+        "values_by_seed": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "functional_final_count_at_0_60": 9
+    },
+    "factorized/reverse/incumbent_receiver": {
+      "support": "expanded_single_receiver",
+      "initial_natural": {
+        "n": 9,
+        "mean": -0.25,
+        "ci95_t_df8": [
+          -0.25,
+          -0.25
+        ],
+        "values_by_seed": [
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25
+        ]
+      },
+      "final_natural": {
+        "n": 9,
+        "mean": 1.0,
+        "ci95_t_df8": [
+          1.0,
+          1.0
+        ],
+        "values_by_seed": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "repair_gain": {
+        "n": 9,
+        "mean": 1.25,
+        "ci95_t_df8": [
+          1.25,
+          1.25
+        ],
+        "values_by_seed": [
+          1.25,
+          1.25,
+          1.25,
+          1.25,
+          1.25,
+          1.25,
+          1.25,
+          1.25,
+          1.25
+        ]
+      },
+      "final_recombined": {
+        "n": 9,
+        "mean": 1.0,
+        "ci95_t_df8": [
+          1.0,
+          1.0
+        ],
+        "values_by_seed": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "functional_final_count_at_0_60": 9
+    },
+    "holistic/identity/fresh": {
+      "support": "expanded_single_receiver",
+      "initial_natural": {
+        "n": 9,
+        "mean": 0.1964043511284722,
+        "ci95_t_df8": [
+          -0.23466018784133552,
+          0.6274688900982799
+        ],
+        "values_by_seed": [
+          1.0,
+          -0.25,
+          -0.25,
+          -0.25,
+          0.31793212890625,
+          0.89990234375,
+          -0.25,
+          0.7998046875,
+          -0.25
+        ]
+      },
+      "final_natural": {
+        "n": 9,
+        "mean": -0.25,
+        "ci95_t_df8": [
+          -0.25,
+          -0.25
+        ],
+        "values_by_seed": [
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25
+        ]
+      },
+      "repair_gain": {
+        "n": 9,
+        "mean": -0.4464043511284722,
+        "ci95_t_df8": [
+          -0.8774688900982799,
+          -0.015339812158664479
+        ],
+        "values_by_seed": [
+          -1.25,
+          0.0,
+          0.0,
+          0.0,
+          -0.56793212890625,
+          -1.14990234375,
+          0.0,
+          -1.0498046875,
+          0.0
+        ]
+      },
+      "final_recombined": {
+        "n": 9,
+        "mean": -0.25,
+        "ci95_t_df8": [
+          -0.25,
+          -0.25
+        ],
+        "values_by_seed": [
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25
+        ]
+      },
+      "functional_final_count_at_0_60": 0
+    },
+    "holistic/identity/incumbent_receiver": {
+      "support": "expanded_single_receiver",
+      "initial_natural": {
+        "n": 9,
+        "mean": -0.25,
+        "ci95_t_df8": [
+          -0.25,
+          -0.25
+        ],
+        "values_by_seed": [
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25
+        ]
+      },
+      "final_natural": {
+        "n": 9,
+        "mean": -0.25,
+        "ci95_t_df8": [
+          -0.25,
+          -0.25
+        ],
+        "values_by_seed": [
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25
+        ]
+      },
+      "repair_gain": {
+        "n": 9,
+        "mean": 0.0,
+        "ci95_t_df8": [
+          0.0,
+          0.0
+        ],
+        "values_by_seed": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "final_recombined": {
+        "n": 9,
+        "mean": -0.25,
+        "ci95_t_df8": [
+          -0.25,
+          -0.25
+        ],
+        "values_by_seed": [
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25
+        ]
+      },
+      "functional_final_count_at_0_60": 0
+    },
+    "holistic/reverse/fresh": {
+      "support": "expanded_single_receiver",
+      "initial_natural": {
+        "n": 9,
+        "mean": -0.1431206597222222,
+        "ci95_t_df8": [
+          -0.3895848603706709,
+          0.1033435409262265
+        ],
+        "values_by_seed": [
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          0.7119140625,
+          -0.25,
+          -0.25,
+          -0.25
+        ]
+      },
+      "final_natural": {
+        "n": 9,
+        "mean": -0.25,
+        "ci95_t_df8": [
+          -0.25,
+          -0.25
+        ],
+        "values_by_seed": [
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25
+        ]
+      },
+      "repair_gain": {
+        "n": 9,
+        "mean": -0.10687934027777778,
+        "ci95_t_df8": [
+          -0.3533435409262265,
+          0.13958486037067092
+        ],
+        "values_by_seed": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.9619140625,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "final_recombined": {
+        "n": 9,
+        "mean": -0.25,
+        "ci95_t_df8": [
+          -0.25,
+          -0.25
+        ],
+        "values_by_seed": [
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25
+        ]
+      },
+      "functional_final_count_at_0_60": 0
+    },
+    "holistic/reverse/incumbent_receiver": {
+      "support": "expanded_single_receiver",
+      "initial_natural": {
+        "n": 9,
+        "mean": -0.25,
+        "ci95_t_df8": [
+          -0.25,
+          -0.25
+        ],
+        "values_by_seed": [
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25
+        ]
+      },
+      "final_natural": {
+        "n": 9,
+        "mean": -0.25,
+        "ci95_t_df8": [
+          -0.25,
+          -0.25
+        ],
+        "values_by_seed": [
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25
+        ]
+      },
+      "repair_gain": {
+        "n": 9,
+        "mean": 0.0,
+        "ci95_t_df8": [
+          0.0,
+          0.0
+        ],
+        "values_by_seed": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "final_recombined": {
+        "n": 9,
+        "mean": -0.25,
+        "ci95_t_df8": [
+          -0.25,
+          -0.25
+        ],
+        "values_by_seed": [
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25
+        ]
+      },
+      "functional_final_count_at_0_60": 0
+    }
+  },
+  "contrasts": {
+    "factorized/incumbent_receiver:reverse-minus-identity/initial:new_double": {
+      "n": 9,
+      "mean": -1.25,
+      "ci95_t_df8": [
+        -1.25,
+        -1.25
+      ],
+      "values_by_seed": [
+        -1.25,
+        -1.25,
+        -1.25,
+        -1.25,
+        -1.25,
+        -1.25,
+        -1.25,
+        -1.25,
+        -1.25
+      ]
+    },
+    "factorized/fresh_receiver:reverse-minus-identity/initial:new_double": {
+      "n": 9,
+      "mean": 0.05401611328125,
+      "ci95_t_df8": [
+        -0.30480020154103815,
+        0.41283242810353815
+      ],
+      "values_by_seed": [
+        1.1517333984375,
+        0.0,
+        0.0,
+        0.0,
+        -0.66558837890625,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "factorized/surface-by-initialization-interaction/initial:new_double": {
+      "n": 9,
+      "mean": -1.30401611328125,
+      "ci95_t_df8": [
+        -1.6628324281035383,
+        -0.9451997984589618
+      ],
+      "values_by_seed": [
+        -2.4017333984375,
+        -1.25,
+        -1.25,
+        -1.25,
+        -0.58441162109375,
+        -1.25,
+        -1.25,
+        -1.25,
+        -1.25
+      ]
+    },
+    "factorized/incumbent_receiver:reverse-minus-identity/final:new_double": {
+      "n": 9,
+      "mean": 0.0,
+      "ci95_t_df8": [
+        0.0,
+        0.0
+      ],
+      "values_by_seed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "factorized/fresh_receiver:reverse-minus-identity/final:new_double": {
+      "n": 9,
+      "mean": 0.0,
+      "ci95_t_df8": [
+        0.0,
+        0.0
+      ],
+      "values_by_seed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "factorized/surface-by-initialization-interaction/final:new_double": {
+      "n": 9,
+      "mean": 0.0,
+      "ci95_t_df8": [
+        0.0,
+        0.0
+      ],
+      "values_by_seed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "factorized/incumbent_receiver/reverse:repair_gain": {
+      "n": 9,
+      "mean": 1.25,
+      "ci95_t_df8": [
+        1.25,
+        1.25
+      ],
+      "values_by_seed": [
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25
+      ]
+    },
+    "holistic/incumbent_receiver:reverse-minus-identity/initial:new_double": {
+      "n": 9,
+      "mean": 0.0,
+      "ci95_t_df8": [
+        0.0,
+        0.0
+      ],
+      "values_by_seed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "holistic/fresh_receiver:reverse-minus-identity/initial:new_double": {
+      "n": 9,
+      "mean": -0.3395250108506944,
+      "ci95_t_df8": [
+        -0.7224132629816045,
+        0.043363241280215625
+      ],
+      "values_by_seed": [
+        -1.25,
+        0.0,
+        0.0,
+        0.0,
+        -0.56793212890625,
+        -0.18798828125,
+        0.0,
+        -1.0498046875,
+        0.0
+      ]
+    },
+    "holistic/surface-by-initialization-interaction/initial:new_double": {
+      "n": 9,
+      "mean": 0.3395250108506944,
+      "ci95_t_df8": [
+        -0.043363241280215625,
+        0.7224132629816045
+      ],
+      "values_by_seed": [
+        1.25,
+        0.0,
+        0.0,
+        0.0,
+        0.56793212890625,
+        0.18798828125,
+        0.0,
+        1.0498046875,
+        0.0
+      ]
+    },
+    "holistic/incumbent_receiver:reverse-minus-identity/final:new_double": {
+      "n": 9,
+      "mean": 0.0,
+      "ci95_t_df8": [
+        0.0,
+        0.0
+      ],
+      "values_by_seed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "holistic/fresh_receiver:reverse-minus-identity/final:new_double": {
+      "n": 9,
+      "mean": 0.0,
+      "ci95_t_df8": [
+        0.0,
+        0.0
+      ],
+      "values_by_seed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "holistic/surface-by-initialization-interaction/final:new_double": {
+      "n": 9,
+      "mean": 0.0,
+      "ci95_t_df8": [
+        0.0,
+        0.0
+      ],
+      "values_by_seed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "holistic/incumbent_receiver/reverse:repair_gain": {
+      "n": 9,
+      "mean": 0.0,
+      "ci95_t_df8": [
+        0.0,
+        0.0
+      ],
+      "values_by_seed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+}

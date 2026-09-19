@@ -1,0 +1,19 @@
+{
+  "schema": "open_world_grounding_incumbent_expansion_audit_v1",
+  "status": "partial",
+  "prepared_schema": "open_world_grounding_incumbent_study_v1",
+  "parent_runs": 12,
+  "child_runs": 6,
+  "expected_parent_runs": 36,
+  "expected_child_runs": 18,
+  "parent_training_log_rows": 36000,
+  "child_training_log_rows": 18000,
+  "parent_checkpoints": 48,
+  "child_checkpoints": 24,
+  "paired_architecture_rows": 9000,
+  "paired_support_rows": 0,
+  "paired_visibility_rows": 0,
+  "paired_population_rows": 0,
+  "max_abs_replay_error": 0.0,
+  "raw_execution_tree": "removed_raw_execution/execution"
+}
