@@ -1,10 +1,10 @@
 {
-  "generated_at_local": "2026-09-18",
+  "generated_at_local": "2026-09-19",
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
-  "remote_commit": "c19b6d9184881ac89dfdaad1443ba633226b88ed",
+  "remote_commit": "41dd3c91bd8bddca494471efaf651bbd40d79dd1",
   "remote_main_verified": true,
-  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix, ecological-factorization formal matrix, compact archive, replay audit and new-combination analysis, object-surface remapping corrected formal matrix, parent surface-shift analysis, replay audit and cleanup receipt, incumbent-worker surface transfer formal matrix, repair curves, replay audit and cleanup receipt, population-level perceptual heterogeneity formal matrix, three-shard replay audit, exploratory pilot curves, identifiability diagnosis and cleanup receipt, multi-partner sender alignment formal matrix, diagnostic smoke, replay audit and cleanup receipt, community codebook conflict and role-symmetric referential game formal matrix, replay audit, compact archive and cleanup receipt, structured factor-sharing architecture intervention, formal matrix, replay audit and cleanup receipt; learnable routing factorization formal matrix, low-gradient sensitivity baseline, replay audits and cleanup receipt; shared sender/receiver routing role-symmetry intervention, tied versus independent routing and combined replay audit; routing initialization control formal matrix, combined replay audit and cleanup receipt; open-world ontology expansion formal matrix, v4 role=2 recombination reevaluation, replay audit, compact archive, invalid-design notes and cleanup receipt; open-world cultural transmission formal matrix, frozen incumbent role replacement, corrected zero-update control, six-shard replay audit, transfer analysis, compact archive and cleanup receipt; open-world grounding transfer formal matrix, identity/reverse fresh-receiver surface intervention, six-shard replay audit, transfer analysis, compact archive and cleanup receipt",
+  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix, ecological-factorization formal matrix, compact archive, replay audit and new-combination analysis, object-surface remapping corrected formal matrix, parent surface-shift analysis, replay audit and cleanup receipt, incumbent-worker surface transfer formal matrix, repair curves, replay audit and cleanup receipt, population-level perceptual heterogeneity formal matrix, three-shard replay audit, exploratory pilot curves, identifiability diagnosis and cleanup receipt, multi-partner sender alignment formal matrix, diagnostic smoke, replay audit and cleanup receipt, community codebook conflict and role-symmetric referential game formal matrix, replay audit, compact archive and cleanup receipt, structured factor-sharing architecture intervention, formal matrix, replay audit and cleanup receipt; learnable routing factorization formal matrix, low-gradient sensitivity baseline, replay audits and cleanup receipt; shared sender/receiver routing role-symmetry intervention, tied versus independent routing and combined replay audit; routing initialization control formal matrix, combined replay audit and cleanup receipt; open-world ontology expansion formal matrix, v4 role=2 recombination reevaluation, replay audit, compact archive, invalid-design notes and cleanup receipt; open-world cultural transmission formal matrix, frozen incumbent role replacement, corrected zero-update control, six-shard replay audit, transfer analysis, compact archive and cleanup receipt; open-world grounding transfer formal matrix, identity/reverse fresh-receiver surface intervention, six-shard replay audit, transfer analysis, compact archive and cleanup receipt; open-world incumbent receiver initialization × surface mapping formal matrix, six replay audits, exact receiver-copy audit, supplemental interaction analysis, archive and local cleanup receipt",
   "retained_paths": {
     "research_program/action_dependent_signaling_study": {
       "files": 23,
@@ -67,12 +67,12 @@
       "bytes": 786700
     },
     "README.md": {
-      "files": 0,
-      "bytes": 0
+      "files": 1,
+      "bytes": 6508
     },
     "research_program/README.md": {
-      "files": 0,
-      "bytes": 0
+      "files": 1,
+      "bytes": 8911
     },
     "SYNC_2026-09-17.md": {
       "files": 0,
@@ -83,8 +83,8 @@
       "bytes": 0
     },
     "研究报告_共同符号形成机制_2026-09-17.md": {
-      "files": 0,
-      "bytes": 0
+      "files": 1,
+      "bytes": 92715
     },
     "research_program/repetition_pressure_study": {
       "files": 21,
@@ -257,6 +257,22 @@
     "LOCAL_CLEANUP_RECEIPT_2026-09-18_open_world_grounding_transfer.json": {
       "files": 1,
       "bytes": 4484
+    },
+    "research_program/open_world_grounding_incumbent_study": {
+      "files": 56,
+      "bytes": 9723595
+    },
+    "research_program/open_world_grounding_incumbent_study/results/formal_20260919": {
+      "files": 41,
+      "bytes": 9598330
+    },
+    "SYNC_2026-09-19_open_world_grounding_incumbent.md": {
+      "files": 1,
+      "bytes": 1441
+    },
+    "LOCAL_CLEANUP_RECEIPT_2026-09-19_open_world_grounding_incumbent.json": {
+      "files": 1,
+      "bytes": 6264
     }
   },
   "compact_archives": {
@@ -1475,6 +1491,142 @@
     "/private/tmp/structured_factor_pilot_prepared3": {
       "present": false,
       "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_grounding_incumbent_expansion_aggregate.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_expansion_aggregate.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_expansion_audit_p1.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_expansion_audit_p2.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_expansion_audit_p3.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_expansion_p1": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_expansion_p2": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_expansion_p3": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_expansion_pilot": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_expansion_pilot_audit_v2.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_expansion_seed_analysis.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_expansion_seed_analysis.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_formal_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_merged_expansion_results.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_merged_transfer_results.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_pilot_analysis.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_pilot_analysis.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_prepared_pilot": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_prepared_pilot_v2": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_receiver_copy_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_surface_initial_analysis.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_surface_initial_analysis.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_transfer_analysis.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_transfer_analysis.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_transfer_analysis_frozen.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_transfer_analysis_frozen.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_transfer_audit_p1.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_transfer_audit_p2.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_transfer_audit_p3.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_transfer_p1": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_transfer_p2": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_transfer_p3": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_transfer_pilot": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_transfer_pilot_audit_v2.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
     }
   },
   "temporary_raw_trees_removed": [
@@ -1747,7 +1899,41 @@
     "/private/tmp/open_world_transfer_formal_transfer_audit_part3_sanitized.json",
     "/private/tmp/open_world_transfer_formal_transfer_p1",
     "/private/tmp/open_world_transfer_formal_transfer_p2",
-    "/private/tmp/open_world_transfer_formal_transfer_p3"
+    "/private/tmp/open_world_transfer_formal_transfer_p3",
+    "/private/tmp/open_world_grounding_incumbent_expansion_aggregate.json",
+    "/private/tmp/open_world_grounding_incumbent_expansion_aggregate.md",
+    "/private/tmp/open_world_grounding_incumbent_expansion_audit_p1.json",
+    "/private/tmp/open_world_grounding_incumbent_expansion_audit_p2.json",
+    "/private/tmp/open_world_grounding_incumbent_expansion_audit_p3.json",
+    "/private/tmp/open_world_grounding_incumbent_expansion_p1",
+    "/private/tmp/open_world_grounding_incumbent_expansion_p2",
+    "/private/tmp/open_world_grounding_incumbent_expansion_p3",
+    "/private/tmp/open_world_grounding_incumbent_expansion_pilot",
+    "/private/tmp/open_world_grounding_incumbent_expansion_pilot_audit_v2.json",
+    "/private/tmp/open_world_grounding_incumbent_expansion_seed_analysis.json",
+    "/private/tmp/open_world_grounding_incumbent_expansion_seed_analysis.md",
+    "/private/tmp/open_world_grounding_incumbent_formal_prepared",
+    "/private/tmp/open_world_grounding_incumbent_merged_expansion_results.json",
+    "/private/tmp/open_world_grounding_incumbent_merged_transfer_results.json",
+    "/private/tmp/open_world_grounding_incumbent_pilot_analysis.json",
+    "/private/tmp/open_world_grounding_incumbent_pilot_analysis.md",
+    "/private/tmp/open_world_grounding_incumbent_prepared_pilot",
+    "/private/tmp/open_world_grounding_incumbent_prepared_pilot_v2",
+    "/private/tmp/open_world_grounding_incumbent_receiver_copy_audit.json",
+    "/private/tmp/open_world_grounding_incumbent_surface_initial_analysis.json",
+    "/private/tmp/open_world_grounding_incumbent_surface_initial_analysis.md",
+    "/private/tmp/open_world_grounding_incumbent_transfer_analysis.json",
+    "/private/tmp/open_world_grounding_incumbent_transfer_analysis.md",
+    "/private/tmp/open_world_grounding_incumbent_transfer_analysis_frozen.json",
+    "/private/tmp/open_world_grounding_incumbent_transfer_analysis_frozen.md",
+    "/private/tmp/open_world_grounding_incumbent_transfer_audit_p1.json",
+    "/private/tmp/open_world_grounding_incumbent_transfer_audit_p2.json",
+    "/private/tmp/open_world_grounding_incumbent_transfer_audit_p3.json",
+    "/private/tmp/open_world_grounding_incumbent_transfer_p1",
+    "/private/tmp/open_world_grounding_incumbent_transfer_p2",
+    "/private/tmp/open_world_grounding_incumbent_transfer_p3",
+    "/private/tmp/open_world_grounding_incumbent_transfer_pilot",
+    "/private/tmp/open_world_grounding_incumbent_transfer_pilot_audit_v2.json"
   ],
   "tracked_paths_pruned_in_commit": 8338,
   "historical_cleanup_estimate_bytes": 5558370327,
@@ -2575,29 +2761,51 @@
     }
   },
   "current_batch": {
-    "name": "object_surface_transfer_20260918",
-    "removed_file_or_tree_count": 12,
-    "removed_bytes": 521784368,
+    "name": "open_world_grounding_incumbent_20260919",
+    "removed_file_or_tree_count": 34,
+    "removed_bytes": 1161803240,
     "removed_bytes_exact": true,
     "paths": [
-      "/private/tmp/ost_transfer_part1",
-      "/private/tmp/ost_transfer_part1.log",
-      "/private/tmp/ost_transfer_part1_audit.log",
-      "/private/tmp/ost_transfer_part2",
-      "/private/tmp/ost_transfer_part2.log",
-      "/private/tmp/ost_transfer_part2_audit.log",
-      "/private/tmp/ost_transfer_part3",
-      "/private/tmp/ost_transfer_part3.log",
-      "/private/tmp/ost_transfer_part3_audit.log",
-      "/private/tmp/ost_transfer_full",
-      "/private/tmp/ost_transfer_prepared",
-      "/private/tmp/ost_transfer_audit.log"
+      "/private/tmp/open_world_grounding_incumbent_expansion_aggregate.json",
+      "/private/tmp/open_world_grounding_incumbent_expansion_aggregate.md",
+      "/private/tmp/open_world_grounding_incumbent_expansion_audit_p1.json",
+      "/private/tmp/open_world_grounding_incumbent_expansion_audit_p2.json",
+      "/private/tmp/open_world_grounding_incumbent_expansion_audit_p3.json",
+      "/private/tmp/open_world_grounding_incumbent_expansion_p1",
+      "/private/tmp/open_world_grounding_incumbent_expansion_p2",
+      "/private/tmp/open_world_grounding_incumbent_expansion_p3",
+      "/private/tmp/open_world_grounding_incumbent_expansion_pilot",
+      "/private/tmp/open_world_grounding_incumbent_expansion_pilot_audit_v2.json",
+      "/private/tmp/open_world_grounding_incumbent_expansion_seed_analysis.json",
+      "/private/tmp/open_world_grounding_incumbent_expansion_seed_analysis.md",
+      "/private/tmp/open_world_grounding_incumbent_formal_prepared",
+      "/private/tmp/open_world_grounding_incumbent_merged_expansion_results.json",
+      "/private/tmp/open_world_grounding_incumbent_merged_transfer_results.json",
+      "/private/tmp/open_world_grounding_incumbent_pilot_analysis.json",
+      "/private/tmp/open_world_grounding_incumbent_pilot_analysis.md",
+      "/private/tmp/open_world_grounding_incumbent_prepared_pilot",
+      "/private/tmp/open_world_grounding_incumbent_prepared_pilot_v2",
+      "/private/tmp/open_world_grounding_incumbent_receiver_copy_audit.json",
+      "/private/tmp/open_world_grounding_incumbent_surface_initial_analysis.json",
+      "/private/tmp/open_world_grounding_incumbent_surface_initial_analysis.md",
+      "/private/tmp/open_world_grounding_incumbent_transfer_analysis.json",
+      "/private/tmp/open_world_grounding_incumbent_transfer_analysis.md",
+      "/private/tmp/open_world_grounding_incumbent_transfer_analysis_frozen.json",
+      "/private/tmp/open_world_grounding_incumbent_transfer_analysis_frozen.md",
+      "/private/tmp/open_world_grounding_incumbent_transfer_audit_p1.json",
+      "/private/tmp/open_world_grounding_incumbent_transfer_audit_p2.json",
+      "/private/tmp/open_world_grounding_incumbent_transfer_audit_p3.json",
+      "/private/tmp/open_world_grounding_incumbent_transfer_p1",
+      "/private/tmp/open_world_grounding_incumbent_transfer_p2",
+      "/private/tmp/open_world_grounding_incumbent_transfer_p3",
+      "/private/tmp/open_world_grounding_incumbent_transfer_pilot",
+      "/private/tmp/open_world_grounding_incumbent_transfer_pilot_audit_v2.json"
     ],
-    "verified_after_remote_commit": "f802038",
-    "archive": "research_program/object_surface_transfer_study/results/formal_20260918",
+    "verified_after_remote_commit": "41dd3c91bd8bddca494471efaf651bbd40d79dd1",
+    "archive": "research_program/open_world_grounding_incumbent_study/results/formal_20260919",
     "archive_stats": {
-      "files": 13,
-      "bytes": 675591
+      "files": 41,
+      "bytes": 9598330
     },
     "audit": "passed"
   },
@@ -3041,35 +3249,175 @@
     "/private/tmp/open_world_transfer_formal_transfer_p3": {
       "present": false,
       "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/open_world_grounding_incumbent_expansion_aggregate.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_expansion_aggregate.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_expansion_audit_p1.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_expansion_audit_p2.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_expansion_audit_p3.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_expansion_p1": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_expansion_p2": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_expansion_p3": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_expansion_pilot": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_expansion_pilot_audit_v2.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_expansion_seed_analysis.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_expansion_seed_analysis.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_formal_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_merged_expansion_results.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_merged_transfer_results.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_pilot_analysis.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_pilot_analysis.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_prepared_pilot": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_prepared_pilot_v2": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_receiver_copy_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_surface_initial_analysis.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_surface_initial_analysis.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_transfer_analysis.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_transfer_analysis.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_transfer_analysis_frozen.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_transfer_analysis_frozen.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_transfer_audit_p1.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_transfer_audit_p2.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_transfer_audit_p3.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_transfer_p1": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_transfer_p2": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_transfer_p3": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_transfer_pilot": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
+    },
+    "/private/tmp/open_world_grounding_incumbent_transfer_pilot_audit_v2.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-19"
     }
   },
   "latest_batch": {
-    "name": "open_world_grounding_transfer_20260918",
-    "source_commit": "5d5ab6bbea5af2c36caf3d8e182278a0ad2b99f0",
-    "archive": "research_program/open_world_grounding_transfer_study/results/formal_20260918",
+    "name": "open_world_grounding_incumbent_20260919",
+    "source_commit": "0a83039f69874026070f970fdfc8bc3ef7857b5a",
+    "source_package_commit": "9cf2acbe",
+    "archive": "research_program/open_world_grounding_incumbent_study/results/formal_20260919",
     "archive_stats": {
-      "files": 36,
-      "bytes": 7956022
+      "files": 41,
+      "bytes": 9598330
     },
     "archive_payload_stats": {
-      "files": 35,
-      "bytes": 7949602
+      "files": 40,
+      "bytes": 9591080
     },
-    "archive_manifest_sha256": "1f3d3d386f79daf15ed918d53a8f445191a666dd3a9680d1d1bfcd95d24f2a8d",
-    "audit": "combined expansion+transfer replay passed; max_abs_replay_error=0.0; incumbent frozen; mapping pairing checked",
+    "archive_manifest_sha256": "791fbc498e76bf1d5756caf9ae27e90f052ec2ea24e72ad7c2db6d0ebed71e11",
+    "audit": "passed; six replay shards; max_abs_replay_error=0.0; incumbent frozen; 144/144 receiver-copy checks passed",
     "raw_execution_retained": false,
-    "raw_paths_deleted": 28,
-    "files_deleted": 2179,
-    "bytes_removed": 974114379,
-    "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18_open_world_grounding_transfer.json",
+    "raw_paths_deleted": 34,
+    "files_deleted": 2478,
+    "bytes_removed": 1161803240,
+    "bytes_removed_exact": true,
     "verified_paths_absent": true,
+    "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-19_open_world_grounding_incumbent.json",
+    "sync_record": "SYNC_2026-09-19_open_world_grounding_incumbent.md",
     "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
-    "remote_commit": "c19b6d9184881ac89dfdaad1443ba633226b88ed",
+    "remote_commit": "41dd3c91bd8bddca494471efaf651bbd40d79dd1",
+    "remote_main_verified": true,
     "source_package_stats": {
-      "files": 50,
-      "bytes": 8071492
+      "files": 56,
+      "bytes": 9723595
     },
-    "design_note": "fresh receiver sees identity or reverse=[3,2,1,0]; semantic stream and random uniforms are paired"
+    "design_note": "Crosses incumbent/fresh receiver initialization with identity/reverse stable object-surface mapping; (3,3) is held out and single-new feedback is the repair support."
   },
   "community_merge_batch": {
     "name": "community_merge_20260918",
@@ -3300,5 +3648,37 @@
       "bytes": 8071492
     },
     "design_note": "fresh receiver sees identity or reverse=[3,2,1,0]; semantic stream and random uniforms are paired"
+  },
+  "open_world_grounding_incumbent_batch": {
+    "name": "open_world_grounding_incumbent_20260919",
+    "source_commit": "0a83039f69874026070f970fdfc8bc3ef7857b5a",
+    "source_package_commit": "9cf2acbe",
+    "archive": "research_program/open_world_grounding_incumbent_study/results/formal_20260919",
+    "archive_stats": {
+      "files": 41,
+      "bytes": 9598330
+    },
+    "archive_payload_stats": {
+      "files": 40,
+      "bytes": 9591080
+    },
+    "archive_manifest_sha256": "791fbc498e76bf1d5756caf9ae27e90f052ec2ea24e72ad7c2db6d0ebed71e11",
+    "audit": "passed; six replay shards; max_abs_replay_error=0.0; incumbent frozen; 144/144 receiver-copy checks passed",
+    "raw_execution_retained": false,
+    "raw_paths_deleted": 34,
+    "files_deleted": 2478,
+    "bytes_removed": 1161803240,
+    "bytes_removed_exact": true,
+    "verified_paths_absent": true,
+    "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-19_open_world_grounding_incumbent.json",
+    "sync_record": "SYNC_2026-09-19_open_world_grounding_incumbent.md",
+    "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+    "remote_commit": "41dd3c91bd8bddca494471efaf651bbd40d79dd1",
+    "remote_main_verified": true,
+    "source_package_stats": {
+      "files": 56,
+      "bytes": 9723595
+    },
+    "design_note": "Crosses incumbent/fresh receiver initialization with identity/reverse stable object-surface mapping; (3,3) is held out and single-new feedback is the repair support."
   }
 }

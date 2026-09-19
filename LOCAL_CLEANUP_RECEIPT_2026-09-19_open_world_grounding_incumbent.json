@@ -1,0 +1,225 @@
+{
+  "schema": "local_cleanup_receipt_v1",
+  "date": "2026-09-19",
+  "batch": "open_world_grounding_incumbent_20260919",
+  "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+  "artifact_commit": "41dd3c91bd8bddca494471efaf651bbd40d79dd1",
+  "remote_main_verified": true,
+  "archive": "research_program/open_world_grounding_incumbent_study/results/formal_20260919",
+  "archive_payload_file_count": 40,
+  "archive_payload_bytes": 9591080,
+  "archive_manifest_sha256": "791fbc498e76bf1d5756caf9ae27e90f052ec2ea24e72ad7c2db6d0ebed71e11",
+  "removed_path_count": 34,
+  "removed_file_count": 2478,
+  "removed_bytes": 1161803240,
+  "removed_bytes_exact": true,
+  "removed_paths": [
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_expansion_aggregate.json",
+      "kind": "file",
+      "files": 1,
+      "bytes": 11409
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_expansion_aggregate.md",
+      "kind": "file",
+      "files": 1,
+      "bytes": 532
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_expansion_audit_p1.json",
+      "kind": "file",
+      "files": 1,
+      "bytes": 633
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_expansion_audit_p2.json",
+      "kind": "file",
+      "files": 1,
+      "bytes": 633
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_expansion_audit_p3.json",
+      "kind": "file",
+      "files": 1,
+      "bytes": 633
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_expansion_p1",
+      "kind": "tree",
+      "files": 128,
+      "bytes": 55517905
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_expansion_p2",
+      "kind": "tree",
+      "files": 128,
+      "bytes": 55518715
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_expansion_p3",
+      "kind": "tree",
+      "files": 128,
+      "bytes": 55516290
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_expansion_pilot",
+      "kind": "tree",
+      "files": 50,
+      "bytes": 6493066
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_expansion_pilot_audit_v2.json",
+      "kind": "file",
+      "files": 1,
+      "bytes": 631
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_expansion_seed_analysis.json",
+      "kind": "file",
+      "files": 1,
+      "bytes": 6926
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_expansion_seed_analysis.md",
+      "kind": "file",
+      "files": 1,
+      "bytes": 541
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_formal_prepared",
+      "kind": "tree",
+      "files": 15,
+      "bytes": 127585
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_merged_expansion_results.json",
+      "kind": "file",
+      "files": 1,
+      "bytes": 688605
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_merged_transfer_results.json",
+      "kind": "file",
+      "files": 1,
+      "bytes": 8664017
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_pilot_analysis.json",
+      "kind": "file",
+      "files": 1,
+      "bytes": 77988
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_pilot_analysis.md",
+      "kind": "file",
+      "files": 1,
+      "bytes": 10258
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_prepared_pilot",
+      "kind": "tree",
+      "files": 15,
+      "bytes": 127568
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_prepared_pilot_v2",
+      "kind": "tree",
+      "files": 15,
+      "bytes": 127585
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_receiver_copy_audit.json",
+      "kind": "file",
+      "files": 1,
+      "bytes": 1343
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_surface_initial_analysis.json",
+      "kind": "file",
+      "files": 1,
+      "bytes": 17153
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_surface_initial_analysis.md",
+      "kind": "file",
+      "files": 1,
+      "bytes": 2453
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_transfer_analysis.json",
+      "kind": "file",
+      "files": 1,
+      "bytes": 119115
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_transfer_analysis.md",
+      "kind": "file",
+      "files": 1,
+      "bytes": 10658
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_transfer_analysis_frozen.json",
+      "kind": "file",
+      "files": 1,
+      "bytes": 117621
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_transfer_analysis_frozen.md",
+      "kind": "file",
+      "files": 1,
+      "bytes": 10241
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_transfer_audit_p1.json",
+      "kind": "file",
+      "files": 1,
+      "bytes": 438
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_transfer_audit_p2.json",
+      "kind": "file",
+      "files": 1,
+      "bytes": 438
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_transfer_audit_p3.json",
+      "kind": "file",
+      "files": 1,
+      "bytes": 438
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_transfer_p1",
+      "kind": "tree",
+      "files": 578,
+      "bytes": 313449756
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_transfer_p2",
+      "kind": "tree",
+      "files": 578,
+      "bytes": 313411279
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_transfer_p3",
+      "kind": "tree",
+      "files": 578,
+      "bytes": 313411633
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_transfer_pilot",
+      "kind": "tree",
+      "files": 242,
+      "bytes": 38358715
+    },
+    {
+      "path": "/private/tmp/open_world_grounding_incumbent_transfer_pilot_audit_v2.json",
+      "kind": "file",
+      "files": 1,
+      "bytes": 439
+    }
+  ],
+  "verified_paths_absent": true,
+  "raw_training_logs_and_checkpoints_retained": false,
+  "audit_status": "passed: replay max_abs_error=0.0; incumbent frozen; 144/144 copied-receiver checkpoint checks passed"
+}
