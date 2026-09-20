@@ -53,3 +53,11 @@
 ## 2026-09-20 — v2.1 protocol frozen
 
 **Status.** The development gate revealed a prompt contradiction, so the formal matrix remains closed. V2.1 removes “You do not know the private order” only from the known-codebook helper prompt and adds an explicit three-step code lookup/identity/action procedure. The generic one-worker policy and all four v2 gate thresholds are unchanged. The next development seed is `20260928`; the formal seeds `20260925`–`20260927` remain unused and reserved. See `calibration_plan_v2_1.md`.
+
+## 2026-09-20 — v2.1 known-codebook development gate
+
+**Status.** Completed development-only run with seed `20260928`; gate failed, so no paired matrix was launched. Protocol source commit: `f655ab0e0224254f7ab0a163730f592a0457047d`. Result, analysis and SHA-256 manifest are archived under `results/calibration_v2_1_development_20260928*`.
+
+**Observed.** Sender encoding was 36/36 and unassigned-helper waiting was 36/36. The designated helper selected the right destination in 33/36 but the right item in only 22/36; 11 wrong item actions selected `I0` despite another board entry matching object and attribute, and three rounds ended in waiting. Item accuracy was the same in both blocks, 11/18.
+
+**Next version.** V2.2 adds a common rule in every condition to scan the public board and return the `item_id` whose object and attribute match the decoded order. The codebook condition gets the same exact field-matching procedure alongside its existing role lookup. Thresholds stay fixed; a new development seed (`20260929`) must pass before using the still-unused formal seeds `20260925`–`20260927`.

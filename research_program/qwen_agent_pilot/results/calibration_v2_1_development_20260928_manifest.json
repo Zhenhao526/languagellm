@@ -1,0 +1,26 @@
+{
+  "generated_at_local": "2026-09-20",
+  "calibration_version": "matched_channel_calibration_v2_1_clear_codebook_action",
+  "role": "development_only_not_in_paired_matrix",
+  "protocol_source_commit": "f655ab0e0224254f7ab0a163730f592a0457047d",
+  "model": "mlx-community/Qwen3.5-9B-8bit",
+  "model_revision": "16daa4818c54ce5f5436f929d52542eb65bbed9d",
+  "seed": 20260928,
+  "condition": "known_codebook",
+  "episodes": 36,
+  "model_calls": 108,
+  "gate_passed": false,
+  "replay_audit": "passed; all 36 environment outcomes recomputed; codebook messages and helper action schemas valid",
+  "raw_completions_retained": false,
+  "chain_of_thought_retained": false,
+  "files": {
+    "calibration_v2_1_development_20260928.json": {
+      "bytes": 64045,
+      "sha256": "a198ea84f43a9ac8693b3cbbd9295e8af066377ce1e5cd85e47f91740eaa733d"
+    },
+    "calibration_v2_1_development_20260928_analysis.md": {
+      "bytes": 2134,
+      "sha256": "8b949bc75fd0d5d397758fc8c38b85174d447088f26e9f54e1f4f49a8bd60c31"
+    }
+  }
+}
