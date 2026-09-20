@@ -1,0 +1,32 @@
+{
+  "generated_at_local": "2026-09-20",
+  "calibration_version": "matched_channel_calibration_v1",
+  "protocol_source_commit": "99e8d90dd877f31150a83d786951f18207aa1ffc",
+  "model": "mlx-community/Qwen3.5-9B-8bit",
+  "model_revision": "16daa4818c54ce5f5436f929d52542eb65bbed9d",
+  "seeds": [
+    20260921,
+    20260922,
+    20260923
+  ],
+  "conditions": [
+    "blank",
+    "known_codebook",
+    "free_symbols"
+  ],
+  "episodes": 324,
+  "model_calls": 972,
+  "audit": "passed: paired schedules, replayed outcomes, message/action protocol, and known-codebook encoders",
+  "raw_completions_retained": false,
+  "chain_of_thought_retained": false,
+  "files": {
+    "calibration_20260920.json": {
+      "bytes": 631169,
+      "sha256": "09f48f9a5b106419a44bb4489d89479410865b357b18c61d12548f2fd18a9bbd"
+    },
+    "calibration_20260920_analysis.md": {
+      "bytes": 3912,
+      "sha256": "e9d9906e39ba9553c0326059c615599b370a77ff1d50d9f205acc9c91df84b32"
+    }
+  }
+}

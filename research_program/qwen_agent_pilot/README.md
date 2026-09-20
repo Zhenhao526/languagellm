@@ -16,6 +16,8 @@ The first prompt-only run cannot separate weak communication from task competenc
 
 The preregistered screening protocol and runner are in [`calibration_plan.md`](calibration_plan.md) and [`calibration.py`](calibration.py). It pairs the same schedule and decoding seeds across three conditions: closed channel, a fixed shared codebook, and free symbols. It uses three seeds (324 episodes and 972 model calls in total) and saves an atomic checkpoint after every seed-condition run. This distinguishes task execution under a supplied code from performance when a code must form through interaction, while keeping the result explicitly exploratory.
 
+The v1 matrix is complete. It confirms that Qwen can encode and decode the supplied codebook, but the task prompt did not clearly tell non-designated helpers to wait; that rule was followed inconsistently, including in the positive-control condition. Free-symbol message–meaning association also varied sharply by seed, with one seed collapsing to a single string. See the [audited v1 result and interpretation](results/calibration_20260920_analysis.md), the [episode-level data](results/calibration_20260920.json), and the [integrity manifest](results/calibration_20260920_manifest.json). A revised prompt will state the one-worker rule consistently across arms and will be validated on a development seed before a new held-out matrix.
+
 With the local server running, start or resume the matrix from the repository root:
 
 ```sh
