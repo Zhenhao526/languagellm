@@ -1,0 +1,46 @@
+{
+  "status": "paused_by_user",
+  "pause_date_local": "2026-09-20",
+  "protocol_source_commit": "305f89260d9243d97686cd8917f131fd4b560400",
+  "model_revision": "16daa4818c54ce5f5436f929d52542eb65bbed9d",
+  "checkpoint": {
+    "path": "research_program/qwen_agent_pilot/results/calibration_v4_20261002-04.json",
+    "bytes": 1270944,
+    "sha256": "04ed4c704cdf4b1bd077377a78bc690df93f3d7d0a6301d7c4d8089d2740ce46",
+    "completed_seed_condition_runs": 3,
+    "completed_episodes": 288,
+    "completed_model_calls": 864,
+    "completed_conditions_for_seed_20261002": [
+      "hidden_scalar",
+      "hidden_component",
+      "public_partner_scalar"
+    ],
+    "committed_as_interim_archive": true
+  },
+  "aggregate_audit": {
+    "path": "research_program/qwen_agent_pilot/results/calibration_v4_20261002-04_paused_audit.json",
+    "status": "passed",
+    "runs_checked": 3,
+    "episodes_replayed": 288,
+    "errors": [],
+    "sha256": "2647fd8ef95e2791a2c42ed08d21502939b0260f8d6d66e89cd3d6dfa893116e"
+  },
+  "interrupted_cell": {
+    "condition": "public_partner_component",
+    "seed": 20261002,
+    "last_confirmed_progress": "60/96 episodes",
+    "exact_progress_at_termination_known": false,
+    "partial_episode_records_written": false,
+    "included_in_checkpoint": false,
+    "resume_behavior": "restart this full cell from episode 0"
+  },
+  "processes": {
+    "experiment_runner_stopped": true,
+    "model_server_stopped": true,
+    "other_research_experiment_processes_found": false
+  },
+  "resume_commands": [
+    "/Users/xia/.venvs/qwen35-mlx/bin/python -m mlx_vlm.server --host 127.0.0.1 --port 8080 --model /Users/xia/Models/Qwen3.5-9B-8bit",
+    "PYTHONPATH=. /Users/xia/.venvs/qwen35-mlx/bin/python -m research_program.qwen_agent_pilot.calibration_v4 --model /Users/xia/Models/Qwen3.5-9B-8bit --seed 20261002 --seed 20261003 --seed 20261004 --out research_program/qwen_agent_pilot/results/calibration_v4_20261002-04.json --resume"
+  ]
+}

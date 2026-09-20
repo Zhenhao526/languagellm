@@ -3882,5 +3882,40 @@
     "python_bytecode_cache_removed_bytes": 2277534,
     "python_bytecode_cache_directories_removed": 11,
     "external_downloads_archive_action": "preserved; separate LMDB datasets, not classified as language-experiment artifacts"
+  },
+  "qwen_v4_pause_record_2026_09_20": {
+    "status": "paused_by_user",
+    "protocol_source_commit": "305f89260d9243d97686cd8917f131fd4b560400",
+    "checkpoint": "research_program/qwen_agent_pilot/results/calibration_v4_20261002-04.json",
+    "checkpoint_sha256": "04ed4c704cdf4b1bd077377a78bc690df93f3d7d0a6301d7c4d8089d2740ce46",
+    "checkpoint_bytes": 1270944,
+    "checkpoint_committed_as_interim_archive": true,
+    "completed_seed_condition_runs": 3,
+    "completed_episodes": 288,
+    "completed_model_calls": 864,
+    "completed_conditions_for_seed_20261002": [
+      "hidden_scalar",
+      "hidden_component",
+      "public_partner_scalar"
+    ],
+    "audit": {
+      "path": "research_program/qwen_agent_pilot/results/calibration_v4_20261002-04_paused_audit.json",
+      "status": "passed",
+      "runs_checked": 3,
+      "episodes_replayed": 288,
+      "errors": [],
+      "sha256": "2647fd8ef95e2791a2c42ed08d21502939b0260f8d6d66e89cd3d6dfa893116e"
+    },
+    "incomplete_cell": {
+      "condition": "public_partner_component",
+      "seed": 20261002,
+      "last_confirmed_progress": "60/96 episodes",
+      "exact_progress_at_termination_known": false,
+      "partial_records_in_checkpoint": false,
+      "resume_behavior": "rerun the full cell from episode 0"
+    },
+    "experiment_runner_stopped": true,
+    "model_server_stopped": true,
+    "resume_requires": "restart the same model server and runner with --resume"
   }
 }

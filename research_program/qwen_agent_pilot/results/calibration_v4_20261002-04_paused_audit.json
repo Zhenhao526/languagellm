@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "calibration_version": "factorized_information_feedback_v4",
+  "results_file": "research_program/qwen_agent_pilot/results/calibration_v4_20261002-04.json",
+  "results_sha256": "04ed4c704cdf4b1bd077377a78bc690df93f3d7d0a6301d7c4d8089d2740ce46",
+  "runs_checked": 3,
+  "episodes_replayed": 288,
+  "run_checks": [
+    {
+      "condition": "hidden_scalar",
+      "seed": 20261002,
+      "episodes_checked": 96
+    },
+    {
+      "condition": "hidden_component",
+      "seed": 20261002,
+      "episodes_checked": 96
+    },
+    {
+      "condition": "public_partner_scalar",
+      "seed": 20261002,
+      "episodes_checked": 96
+    }
+  ],
+  "paired_seed_count": 1,
+  "raw_model_completions_retained": false,
+  "chain_of_thought_retained": false,
+  "errors": []
+}

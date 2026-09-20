@@ -157,3 +157,15 @@ V3 adds an environment-supplied decoded-order upper bound, separate from peer co
 **Public-partner scalar result.** Joint success, designated-item correctness, designated-destination correctness, and exact helper interpretation were all 0 (the exact-interpretation denominator was 192); the unassigned helper waited in 96/96 episodes. All 96 messages were protocol-valid, but 95 used one form and one used another. Message entropy was 0.084 bits; empirical mutual information was 0.043 bits with meaning, 0.032 with payload, 0.010 with partner position, and 0.017 with requester. These tiny values are consistent with the 95:1 message skew and do not show a useful shared mapping.
 
 **Cross-arm reading.** Making the intended helper public did not rescue the scalar-feedback cell: it still had no successful task execution or exact interpretation. Combined with the two hidden-partner cells, this indicates that partner visibility alone is not sufficient under this prompt/task setup. It does not identify whether the bottleneck is symbol grounding, insufficient exposure, task-policy abstention, or model capability. The next paired cell keeps partner visibility public and changes only scalar versus component-wise feedback. All conclusions remain single-seed diagnostics pending the remaining conditions and seeds.
+
+## 2026-09-20 — user-requested pause of the v4 formal matrix
+
+**Status.** The experiment runner and local MLX model server are stopped. The preserved matrix checkpoint contains three completed cells for seed `20261002`—`hidden_scalar`, `hidden_component`, and `public_partner_scalar`—for 288 episodes and 864 model calls. Its SHA-256 is `04ed4c704cdf4b1bd077377a78bc690df93f3d7d0a6301d7c4d8089d2740ce46`. The aggregate replay audit passed all 288 episodes with zero errors; the checkpoint and audit are archived with this pause record.
+
+**Interrupted cell.** The runner had begun `public_partner_component` for seed `20261002`; its last confirmed progress output was 60/96 episodes. By the time the pause was applied, the runner process had already exited. The active cell is not present in the atomic checkpoint and no partial episode records were written. Its exact final progress is therefore unknown and none of it is counted. On resumption, the runner will restart this whole cell from episode 0, then skip the three completed cells.
+
+**Resume commands.** Start the local server, then run the matrix command with `--resume` from the repository root. The checkpoint configuration is unchanged.
+
+    /Users/xia/.venvs/qwen35-mlx/bin/python -m mlx_vlm.server --host 127.0.0.1 --port 8080 --model /Users/xia/Models/Qwen3.5-9B-8bit
+
+    PYTHONPATH=. /Users/xia/.venvs/qwen35-mlx/bin/python -m research_program.qwen_agent_pilot.calibration_v4 --model /Users/xia/Models/Qwen3.5-9B-8bit --seed 20261002 --seed 20261003 --seed 20261004 --out research_program/qwen_agent_pilot/results/calibration_v4_20261002-04.json --resume
