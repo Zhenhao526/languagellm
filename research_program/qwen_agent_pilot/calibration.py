@@ -20,8 +20,13 @@ from .pilot import (
 )
 
 CONDITIONS = ("blank", "known_codebook", "free_symbols")
-CALIBRATION_VERSION = "matched_channel_calibration_v1"
-DEFAULT_SEEDS = (20260921, 20260922, 20260923)
+CALIBRATION_VERSION = "matched_channel_calibration_v2_explicit_allocation"
+DEFAULT_SEEDS = (20260925, 20260926, 20260927)
+CALIBRATION_SYSTEM = SYSTEM + (
+    "\nEvery order has exactly one designated helper. Only that helper should act; "
+    "the other helper must wait. If you cannot confidently identify yourself as the "
+    "designated helper from the information available to you, wait rather than duplicate work."
+)
 
 # Six opaque, fixed-length codewords, chosen before collection and held constant
 # across seeds. Each pair has Hamming distance >= 4 over the permitted alphabet.
@@ -93,6 +98,12 @@ def _condition_owner_prompt(episode: dict, condition: str) -> str:
 
 def _condition_helper_prompt(episode: dict, agent: str, message: str, condition: str) -> str:
     prompt = _helper_prompt(episode, agent, message)
+    prompt += (
+        "\nAction-allocation rule: exactly one helper is responsible for this order. "
+        "Only the responsible helper should select an item and destination; the other helper "
+        "must wait by returning null. If you cannot confidently determine that you are the "
+        "responsible helper, wait rather than duplicate the action."
+    )
     if condition == "known_codebook":
         prompt += (
             "\nBoth sides already know this fixed mapping from opaque messages to complete orders. "
@@ -190,7 +201,7 @@ def run_condition(base_url: str, model: str, seed: int, condition: str,
     if condition not in CONDITIONS:
         raise ValueError(f"condition must be one of {CONDITIONS}")
     requests.get(base_url.rstrip("/") + "/models", timeout=timeout).raise_for_status()
-    histories = {agent: [{"role": "system", "content": SYSTEM}] for agent in AGENTS}
+    histories = {agent: [{"role": "system", "content": CALIBRATION_SYSTEM}] for agent in AGENTS}
     records = []
     prompt_tokens = completion_tokens = 0
     started = time.time()

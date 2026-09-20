@@ -27,3 +27,15 @@
 **Limits fixed in advance.** This is a one-seed, one-model, 36-episode feasibility run. The six meanings are a small set of holistic tuples, not a factorial design, so it cannot establish compositional grammar. A shared pretrained language model, common English task instructions, and punctuation symbols with pretrained associations also prevent treating the result as de novo language emergence. There is no condition comparison in this pilot, so it cannot estimate effects of environment or communication hyperparameters. A successful run will only establish that the local interaction loop works and provide exploratory behavior for designing the next controlled study.
 
 **Primary pilot readouts.** Protocol-valid message rate; joint success by block and requester; within-requester/meaning exact message repeatability; and cross-requester agreement on the final message for the same meaning. These are descriptive pilot measures, not confirmatory tests.
+
+## 2026-09-20 — matched channel calibration v1
+
+**Status.** Completed and pushed to `main`; protocol/runner commit `99e8d90d`, archived data commit `edda3612`, sync receipt `55fa0614`. Full protocol is `calibration_plan.md`; results and replay audit are in `results/calibration_20260920_analysis.md` and `results/calibration_20260920_manifest.json`.
+
+**Design.** Three paired seeds (`20260921`–`20260923`) crossed with blank channel, known shared codebook and free symbols; 36 episodes per cell, 324 total and 972 model calls. All 324 schedules matched across conditions and all 324 outcomes replayed from the task generator. No raw completions or hidden reasoning were retained.
+
+**Result.** Joint success was blank 5/108, known codebook 11/108, and free symbols 2/108. The known-codebook sender selected the exact code in 108/108 rounds; designated item-plus-destination accuracy was 89/108. The other helper waited in only 12/108 rounds, including 0/36 for each of the first two codebook seeds. Free-symbol message–meaning mutual information varied by seed (0.989, 0.679, 0.075 bits); the last seed used one string for all meanings, so its 6/6 cross-sender agreement is message collapse, not evidence of a semantic convention.
+
+**Diagnosis.** The v1 helper prompt permitted waiting but did not clearly state that only the designated helper should act. Both helpers often chose the same correct item. Since the known-codebook condition also failed the wait component, joint reward confounds message decoding with an underspecified action-allocation rule. The results are diagnostic and do not support a claim of language emergence.
+
+**Next step.** V2 adds the same explicit single-worker rule to all conditions. A known-codebook development run with a held-out seed must meet predeclared encoding, target-action, waiting and joint-success thresholds before the new paired matrix proceeds. V1 remains archived and will not be pooled with V2.

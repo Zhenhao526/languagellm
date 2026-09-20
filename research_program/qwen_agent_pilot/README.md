@@ -14,17 +14,26 @@ The first prompt-only run cannot separate weak communication from task competenc
 
 ## Matched channel calibration
 
-The preregistered screening protocol and runner are in [`calibration_plan.md`](calibration_plan.md) and [`calibration.py`](calibration.py). It pairs the same schedule and decoding seeds across three conditions: closed channel, a fixed shared codebook, and free symbols. It uses three seeds (324 episodes and 972 model calls in total) and saves an atomic checkpoint after every seed-condition run. This distinguishes task execution under a supplied code from performance when a code must form through interaction, while keeping the result explicitly exploratory.
+The v1 screening protocol is preserved in [`calibration_plan.md`](calibration_plan.md), and its runner version is available at Git commit `99e8d90d`. The v1 matrix paired the same schedule and decoding seeds across three conditions: closed channel, a fixed shared codebook, and free symbols. It used three seeds (324 episodes and 972 model calls) and saved an atomic checkpoint after every seed-condition run.
 
-The v1 matrix is complete. It confirms that Qwen can encode and decode the supplied codebook, but the task prompt did not clearly tell non-designated helpers to wait; that rule was followed inconsistently, including in the positive-control condition. Free-symbol message–meaning association also varied sharply by seed, with one seed collapsing to a single string. See the [audited v1 result and interpretation](results/calibration_20260920_analysis.md), the [episode-level data](results/calibration_20260920.json), and the [integrity manifest](results/calibration_20260920_manifest.json). A revised prompt will state the one-worker rule consistently across arms and will be validated on a development seed before a new held-out matrix.
+The v1 matrix is complete. Qwen encoded the supplied codebook correctly, but the task prompt did not clearly tell non-designated helpers to wait; that rule was followed inconsistently, including in the positive-control condition. Free-symbol message–meaning association varied sharply by seed, with one seed collapsing to a single string. See the [audited v1 result and interpretation](results/calibration_20260920_analysis.md), the [episode-level data](results/calibration_20260920.json), and the [integrity manifest](results/calibration_20260920_manifest.json).
 
-With the local server running, start or resume the matrix from the repository root:
+The current runner is v2, which adds the same explicit one-worker action rule to every condition. Its frozen plan is [`calibration_plan_v2.md`](calibration_plan_v2.md). Run the known-codebook development gate first; it is excluded from the formal matrix and must pass all four thresholds before free-symbol comparisons proceed:
+
+```sh
+PYTHONPATH=. /Users/xia/.venvs/qwen35-mlx/bin/python \
+  -m research_program.qwen_agent_pilot.calibration_dev \
+  --model /Users/xia/Models/Qwen3.5-9B-8bit \
+  --out research_program/qwen_agent_pilot/results/calibration_v2_development_20260924.json
+```
+
+If the gate passes, run or resume the paired v2 matrix from the repository root. The default seeds are `20260925`, `20260926`, and `20260927`:
 
 ```sh
 PYTHONPATH=. /Users/xia/.venvs/qwen35-mlx/bin/python \
   -m research_program.qwen_agent_pilot.calibration \
   --model /Users/xia/Models/Qwen3.5-9B-8bit \
-  --out research_program/qwen_agent_pilot/results/calibration_20260920.json
+  --out research_program/qwen_agent_pilot/results/calibration_v2_20260920.json
 ```
 
 If a run is interrupted, pass `--resume` with the same output path. The checkpoint locks model name, seeds, temperature and token limit. It does not include model weights, raw completions or hidden reasoning.

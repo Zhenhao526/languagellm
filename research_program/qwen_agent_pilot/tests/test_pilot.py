@@ -7,8 +7,10 @@ from research_program.qwen_agent_pilot.environment import (
 )
 from research_program.qwen_agent_pilot.analyze import analyze_result
 from research_program.qwen_agent_pilot.calibration import (
-    CODEWORDS, CONDITIONS, _condition_order, run_condition, run_matrix,
+    CALIBRATION_SYSTEM, CODEWORDS, CONDITIONS, DEFAULT_SEEDS, _condition_helper_prompt,
+    _condition_order, run_condition, run_matrix,
 )
+from research_program.qwen_agent_pilot.calibration_dev import evaluate_gate
 from research_program.qwen_agent_pilot.pilot import parse_output, run_pilot, valid_message
 
 
@@ -122,6 +124,15 @@ def test_calibration_conditions_are_matched_and_codebook_is_valid():
     assert _condition_order(0) == list(CONDITIONS)
     assert _condition_order(1) == ["known_codebook", "free_symbols", "blank"]
     assert _condition_order(2) == ["free_symbols", "blank", "known_codebook"]
+    assert DEFAULT_SEEDS == (20260925, 20260926, 20260927)
+    assert "Every order has exactly one designated helper" in CALIBRATION_SYSTEM
+    episode = make_episode(0, 9)
+    helper_prompts = [
+        _condition_helper_prompt(episode, episode["helpers"][0], "@#%&", condition)
+        for condition in CONDITIONS
+    ]
+    assert all("exactly one helper is responsible" in prompt for prompt in helper_prompts)
+    assert all("wait rather than duplicate the action" in prompt for prompt in helper_prompts)
 
     schedules = {}
     for condition in CONDITIONS:
@@ -157,6 +168,18 @@ def test_calibration_conditions_are_matched_and_codebook_is_valid():
     assert schedules["blank"] == schedules["known_codebook"] == schedules["free_symbols"]
 
 
+def test_calibration_development_gate():
+    passing = {
+        "known_codebook_encoder_accuracy": 1.0,
+        "designated_helper_both_correct_rate": 30 / 36,
+        "unassigned_wait_rate": 30 / 36,
+        "team_success_rate": 28 / 36,
+    }
+    assert evaluate_gate(passing)["passed"]
+    passing["unassigned_wait_rate"] = 28 / 36
+    assert not evaluate_gate(passing)["passed"]
+
+
 def test_calibration_matrix_checkpoints_and_resumes():
     calls = []
 
@@ -185,5 +208,6 @@ if __name__ == "__main__":
     test_joint_reward_requires_assignment_and_destination()
     test_mocked_runner_completes_balanced_schedule_and_metrics()
     test_calibration_conditions_are_matched_and_codebook_is_valid()
+    test_calibration_development_gate()
     test_calibration_matrix_checkpoints_and_resumes()
     print("qwen_agent_pilot tests passed")
