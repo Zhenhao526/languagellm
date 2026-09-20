@@ -39,3 +39,13 @@
 **Diagnosis.** The v1 helper prompt permitted waiting but did not clearly state that only the designated helper should act. Both helpers often chose the same correct item. Since the known-codebook condition also failed the wait component, joint reward confounds message decoding with an underspecified action-allocation rule. The results are diagnostic and do not support a claim of language emergence.
 
 **Next step.** V2 adds the same explicit single-worker rule to all conditions. A known-codebook development run with a held-out seed must meet predeclared encoding, target-action, waiting and joint-success thresholds before the new paired matrix proceeds. V1 remains archived and will not be pooled with V2.
+
+## 2026-09-20 — v2 known-codebook development gate
+
+**Status.** Completed development-only run with seed `20260924`; gate failed, so the paired v2 matrix was not started. Protocol source commit: `37b71197bd03f2590d1072f05905b9f5efab5eec`. Result, analysis and SHA-256 manifest are in `results/calibration_v2_development_20260924*`.
+
+**Observed.** The sender encoded all 36 orders correctly. The unassigned helper waited in 36/36 episodes, but the designated helper completed the item-plus-destination action in only 14/36; joint success was 14/36. Thus the global one-worker instruction fixed duplicate actions but caused substantial designated-helper abstention.
+
+**Prompt diagnosis.** The known-codebook helper still inherited “You do not know the private order” immediately before receiving a full codebook. This conflicts with the lookup task and plausibly explains the extra abstention. The four prespecified gates were encoding ≥35/36, designated action ≥29/36, waiting ≥29/36 and joint success ≥27/36; encoding and waiting passed, designated action and joint success failed.
+
+**Next version.** V2.1 removes that contradictory sentence in the known-codebook arm and gives an exact lookup procedure. It retains the common one-worker rule, the same gate thresholds and formal paired seeds `20260925`–`20260927`. A new development seed (`20260928`) must pass all gates before any free-symbol matrix is launched. This failed run remains a separate development artifact and is excluded from later comparisons.

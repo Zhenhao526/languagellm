@@ -1,0 +1,26 @@
+{
+  "generated_at_local": "2026-09-20",
+  "calibration_version": "matched_channel_calibration_v2_explicit_allocation",
+  "role": "development_only_not_in_paired_matrix",
+  "protocol_source_commit": "37b71197bd03f2590d1072f05905b9f5efab5eec",
+  "model": "mlx-community/Qwen3.5-9B-8bit",
+  "model_revision": "16daa4818c54ce5f5436f929d52542eb65bbed9d",
+  "seed": 20260924,
+  "condition": "known_codebook",
+  "episodes": 36,
+  "model_calls": 108,
+  "gate_passed": false,
+  "replay_audit": "passed; all 36 environment outcomes recomputed; codebook mapping and helper action schemas valid",
+  "raw_completions_retained": false,
+  "chain_of_thought_retained": false,
+  "files": {
+    "calibration_v2_development_20260924.json": {
+      "bytes": 62825,
+      "sha256": "882092388a8ad8c303851f81215e22773dab66d2306eff13349139aab95e35ed"
+    },
+    "calibration_v2_development_20260924_analysis.md": {
+      "bytes": 2114,
+      "sha256": "cb06a42b6ff9242405849963f31724f3696494b4625680fd97cbf79fe2ae6b3c"
+    }
+  }
+}

@@ -27,6 +27,8 @@ PYTHONPATH=. /Users/xia/.venvs/qwen35-mlx/bin/python \
   --out research_program/qwen_agent_pilot/results/calibration_v2_development_20260924.json
 ```
 
+The first v2 development gate failed: the codebook sender encoded 36/36 orders and unassigned helpers waited 36/36 times, but designated helpers acted correctly in only 14/36 rounds. The prompt still said helpers did not know the private order before presenting the codebook. The failure and its replay audit are archived [here](results/calibration_v2_development_20260924_analysis.md); no v2 matrix has been run. V2.1 will remove that contradiction and use a new development seed before opening the formal matrix.
+
 If the gate passes, run or resume the paired v2 matrix from the repository root. The default seeds are `20260925`, `20260926`, and `20260927`:
 
 ```sh
