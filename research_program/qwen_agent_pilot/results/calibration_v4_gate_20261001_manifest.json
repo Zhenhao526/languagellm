@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "calibration_version": "factorized_information_feedback_v4",
+  "protocol_source_commit": "305f89260d9243d97686cd8917f131fd4b560400",
+  "model_revision": "16daa4818c54ce5f5436f929d52542eb65bbed9d",
+  "seed": 20261001,
+  "condition": "oracle_decoded",
+  "episodes": 96,
+  "model_calls": 288,
+  "elapsed_seconds": 2235.0626089572906,
+  "gate_thresholds_passed": true,
+  "audit_status": "passed",
+  "raw_model_completions_retained": false,
+  "chain_of_thought_retained": false,
+  "results_sha256": "e3d8943d7f06dd50d2cee5b27ece7aeaa27d0d8afffd7e37e736f836f41a1bea",
+  "audit_sha256": "29eb1c57844255157ce99f4008bd44d37ef301ea8695a6134b3c0d2daf971724",
+  "source_sha256": {
+    "research_program/qwen_agent_pilot/audit_calibration_v4.py": "32d97b1a0c5d9c12e3f47307676af917d9b04641eb891119d353890e65464d7d",
+    "research_program/qwen_agent_pilot/calibration_plan_v4.md": "f97b465e1ed01a9ad05fc84e90b21f0f20dd5511b82dc1983a4362c23b374b6f",
+    "research_program/qwen_agent_pilot/calibration_v4.py": "def17b05ef264e9a94f6aeafee493de14028cc24535d50fc686628f0e9320c40",
+    "research_program/qwen_agent_pilot/factorized_environment.py": "f043862f3f4567b9d8050bc18c9cf2e1258a1939946a7b1067a7b0a891ee587c"
+  }
+}

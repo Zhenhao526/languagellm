@@ -31,7 +31,7 @@
 - [open_world_grounding_incumbent_study](open_world_grounding_incumbent_study/README.md)：把 receiver 初始化（随机/复制 incumbent）与 identity/reverse 表面置换交叉；36 parent、18 expansion child、288 transfer run，六片 replay audit 与 144 次精确 receiver-copy 核验通过。
 - [qwen_agent_pilot](qwen_agent_pilot/README.md)：Qwen3.5-9B-8bit 三上下文合作任务可行性预实验；含义 × 请求者平衡、symbol-only 消息通道和本地 MLX 运行方案。首个36轮批次协议有效率为100%，联合成功1/36，消息未按含义区分；结果和限制归档于 `qwen_agent_pilot/results/pilot_20260920_analysis.md`。这只是单模型、单种子探索性结果。
 - [Qwen LLM 语言涌现相关工作与差异化方向](llm_language_emergence_prior_art_2026-09.md)：记录截至 2026-09-20 的 GlossoGen 与 ICLR 2026 under-review 直接相关工作，并收窄可行创新点。
-- [qwen_agent_pilot v4](qwen_agent_pilot/calibration_plan_v4.md)：16 个组合意义 × 隐藏/公开执行者 × 标量/逐项反馈的三上下文机制筛查；含已知码本与直接语义控制。协议和审计实现完成，模型运行待 task gate。
+- [qwen_agent_pilot v4](qwen_agent_pilot/calibration_plan_v4.md)：16 个组合意义 × 隐藏/公开执行者 × 标量/逐项反馈的三上下文机制筛查；含已知码本与直接语义控制。协议与审计实现完成，96 轮 direct-order gate 全部通过并已重放审计；正式配对矩阵待运行。
 - [本轮同步与本地清理记录](../SYNC_2026-09-19_open_world_grounding_incumbent.md)
 - [本轮本地清理收据](../LOCAL_CLEANUP_RECEIPT_2026-09-19_open_world_grounding_incumbent.json)
 - [repetition_pressure_study](repetition_pressure_study/README.md)：在唯一意义、局部重复和全局重复三种任务语义之间做容量匹配的冗余压力曲线；正式矩阵包含 81 个 parent 和 729 个 child run，结果归档于 `results/formal_20260918/`，详见 `meaning_capacity_formal_结果与下一步.md`。

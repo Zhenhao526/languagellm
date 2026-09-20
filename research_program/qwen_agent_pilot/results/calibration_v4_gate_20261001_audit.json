@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "calibration_version": "factorized_information_feedback_v4",
+  "results_file": "research_program/qwen_agent_pilot/results/calibration_v4_gate_20261001.json",
+  "results_sha256": "e3d8943d7f06dd50d2cee5b27ece7aeaa27d0d8afffd7e37e736f836f41a1bea",
+  "runs_checked": 1,
+  "episodes_replayed": 96,
+  "run_checks": [
+    {
+      "condition": "oracle_decoded",
+      "seed": 20261001,
+      "episodes_checked": 96
+    }
+  ],
+  "paired_seed_count": 1,
+  "raw_model_completions_retained": false,
+  "chain_of_thought_retained": false,
+  "errors": []
+}

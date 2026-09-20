@@ -120,4 +120,14 @@ V3 adds an environment-supplied decoded-order upper bound, separate from peer co
 
 **Measurement and interpretation boundary.** V4 records receiver reports by semantic field, task actions, shared message forms, repeatability, cross-requester agreement, and mutual information with payload, partner position, and requester. This stage does not hold out combinations, so it cannot establish compositionality or zero-shot language generalization. Results will be called convention-learning diagnostics, not de novo language origin. Formal seeds are `20261002`–`20261004`; the separate 96-episode direct-order task gate uses `20261001` and is required before the matrix.
 
-**Implementation checks.** The v4 environment, runner, replay auditor, and plan have been added. The schedule, scoring, role-visibility prompt, feedback distinction, parser failure handling, and mock-record replay audit are covered by six unit tests. These tests pass. At log time the local model server is stopped and no v4 model calls have been made.
+**Implementation checks.** The v4 environment, runner, replay auditor, and plan have been added. The schedule, scoring, role-visibility prompt, feedback distinction, parser failure handling, and mock-record replay audit are covered by six unit tests. These tests passed before the model run began.
+
+## 2026-09-20 — v4 oracle task-competence gate
+
+**Status.** Passed. Seed `20261001`; source commit `305f89260d9243d97686cd8917f131fd4b560400`; 96 episodes and 288 model calls. Data, independent replay audit, gate interpretation, and hashes are in `results/calibration_v4_gate_20261001*`.
+
+**Observed.** Designated item-plus-destination actions, non-designated waits, and joint successes were each 96/96. Requester JSON was valid 96/96; helper JSON, interpretation schemas, and action schemas were each valid 192/192. All four structured interpretation fields matched the directly supplied order in 192/192 helper reports. This is an oracle task control; those exact interpretations are not message-decoding evidence.
+
+**Audit and runtime.** Independent replay of all 96 boards, targets, actions, outcomes, and feedback records passed. The run took 2,235.1 seconds and consumed 4.41 million prompt tokens because complete interaction histories are sent at every turn. No raw completions or hidden reasoning were retained.
+
+**Decision.** The preregistered thresholds pass. Proceed with paired conditions `hidden_scalar`, `hidden_component`, `public_partner_scalar`, `public_partner_component`, `known_codebook`, and `oracle_decoded` on fresh seeds `20261002`–`20261004`. This is still a mechanism screening matrix; a positive result would require held-out composition and receiver-transfer tests before any language-formation claim.
