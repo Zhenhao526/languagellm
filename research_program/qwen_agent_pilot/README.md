@@ -52,6 +52,12 @@ PYTHONPATH=. /Users/xia/.venvs/qwen35-mlx/bin/python \
   --out research_program/qwen_agent_pilot/results/calibration_v3_20260920_audit.json
 ```
 
+## Factorial information and feedback calibration (v4)
+
+The next frozen diagnostic is in [`calibration_plan_v4.md`](calibration_plan_v4.md). It crosses a 16-order factorial meaning space with hidden vs. environment-revealed helper assignment and scalar vs. component-wise outcome feedback. It retains known-codebook and direct-order controls, records each helper's structured interpretation privately, and keeps messages opaque and 4–8 characters long. The purpose is to distinguish content decoding, actor selection, and task execution after v3's all-wait result. This is a screening test, not a test of held-out compositionality or de novo language origin.
+
+The v4 environment, runner, replay auditor, and tests are `factorized_environment.py`, `calibration_v4.py`, `audit_calibration_v4.py`, and `tests/test_calibration_v4.py`. Implementation and mock-replay tests pass. Before formal seeds `20261002`–`20261004`, the plan requires a separate 96-episode direct-order task gate on seed `20261001`; no v4 model run has started yet.
+
 ## Reproduce locally
 
 The pinned Apple Silicon environment is recorded in [`requirements.macos-arm64.lock`](requirements.macos-arm64.lock), and the model revision plus official expected shard hashes are in [`model_lock.json`](model_lock.json). Model weights are stored at `/Users/xia/Models/Qwen3.5-9B-8bit` and are not part of this repository. Start the API server bound to loopback:
