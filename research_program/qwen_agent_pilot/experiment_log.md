@@ -61,3 +61,7 @@
 **Observed.** Sender encoding was 36/36 and unassigned-helper waiting was 36/36. The designated helper selected the right destination in 33/36 but the right item in only 22/36; 11 wrong item actions selected `I0` despite another board entry matching object and attribute, and three rounds ended in waiting. Item accuracy was the same in both blocks, 11/18.
 
 **Next version.** V2.2 adds a common rule in every condition to scan the public board and return the `item_id` whose object and attribute match the decoded order. The codebook condition gets the same exact field-matching procedure alongside its existing role lookup. Thresholds stay fixed; a new development seed (`20260929`) must pass before using the still-unused formal seeds `20260925`–`20260927`.
+
+## 2026-09-20 — v2.2 item-grounding protocol frozen
+
+V2.2 adds one common candidate-board rule to all conditions: scan the board for the entry whose `object` and `attribute` fields both match the decoded order, then copy that entry's `item_id`. The codebook helper prompt repeats this as an explicit lookup step. The one-worker rule and four development thresholds remain unchanged. Development seed `20260929` is the only next run; formal seeds `20260925`–`20260927` remain unused. If any gate fails, do not launch the paired matrix.

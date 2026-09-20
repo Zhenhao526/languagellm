@@ -18,7 +18,26 @@ The v1 screening protocol is preserved in [`calibration_plan.md`](calibration_pl
 
 The v1 matrix is complete. Qwen encoded the supplied codebook correctly, but the task prompt did not clearly tell non-designated helpers to wait; that rule was followed inconsistently, including in the positive-control condition. Free-symbol message–meaning association varied sharply by seed, with one seed collapsing to a single string. See the [audited v1 result and interpretation](results/calibration_20260920_analysis.md), the [episode-level data](results/calibration_20260920.json), and the [integrity manifest](results/calibration_20260920_manifest.json).
 
-The v2.1 development run retained the common one-worker rule and clarified codebook use. The unassigned helper waited in 36/36 rounds, but designated item accuracy was only 22/36; 11 wrong item choices selected `I0` while another candidate matched the decoded object and attribute. The full result and audit are [archived here](results/calibration_v2_1_development_20260928_analysis.md). Together with the earlier [v2 gate failure](results/calibration_v2_development_20260924_analysis.md), this shows that the task instructions still need to make board-item grounding explicit. No paired matrix has been run under the revised prompts. The next protocol version will preserve these development records, add one common board-matching rule across conditions, and use a new gate seed before any free-symbol comparison.
+V2 and v2.1 development gates both failed; their results are preserved [here](results/calibration_v2_development_20260924_analysis.md) and [here](results/calibration_v2_1_development_20260928_analysis.md). V2.2 adds a shared instruction to match decoded object and attribute values to the board entry and copy its `item_id`. Its frozen plan is [`calibration_plan_v2_2.md`](calibration_plan_v2_2.md). First run the development gate with seed `20260929`; it is excluded from the paired matrix:
+
+```sh
+PYTHONPATH=. /Users/xia/.venvs/qwen35-mlx/bin/python \
+  -m research_program.qwen_agent_pilot.calibration_dev \
+  --model /Users/xia/Models/Qwen3.5-9B-8bit \
+  --seed 20260929 \
+  --out research_program/qwen_agent_pilot/results/calibration_v2_2_development_20260929.json
+```
+
+Only if all four predeclared thresholds pass should the paired matrix start. It uses the unused seeds `20260925`–`20260927`:
+
+```sh
+PYTHONPATH=. /Users/xia/.venvs/qwen35-mlx/bin/python \
+  -m research_program.qwen_agent_pilot.calibration \
+  --model /Users/xia/Models/Qwen3.5-9B-8bit \
+  --out research_program/qwen_agent_pilot/results/calibration_v2_2_20260920.json
+```
+
+Pass `--resume` with the same output path to continue an interrupted matrix. Each completed seed-condition run is checkpointed atomically.
 
 ## Reproduce locally
 
