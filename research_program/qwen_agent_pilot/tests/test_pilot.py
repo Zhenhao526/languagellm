@@ -10,7 +10,7 @@ from research_program.qwen_agent_pilot.calibration import (
     CALIBRATION_SYSTEM, CODEWORDS, CONDITIONS, DEFAULT_SEEDS, _condition_helper_prompt,
     _condition_order, run_condition, run_matrix,
 )
-from research_program.qwen_agent_pilot.calibration_dev import evaluate_gate
+from research_program.qwen_agent_pilot.calibration_dev import DEVELOPMENT_SEED, evaluate_gate
 from research_program.qwen_agent_pilot.pilot import parse_output, run_pilot, valid_message
 
 
@@ -125,6 +125,7 @@ def test_calibration_conditions_are_matched_and_codebook_is_valid():
     assert _condition_order(1) == ["known_codebook", "free_symbols", "blank"]
     assert _condition_order(2) == ["free_symbols", "blank", "known_codebook"]
     assert DEFAULT_SEEDS == (20260925, 20260926, 20260927)
+    assert DEVELOPMENT_SEED == 20260928
     assert "Every order has exactly one designated helper" in CALIBRATION_SYSTEM
     episode = make_episode(0, 9)
     helper_prompts = [
@@ -133,6 +134,10 @@ def test_calibration_conditions_are_matched_and_codebook_is_valid():
     ]
     assert all("exactly one helper is responsible" in prompt for prompt in helper_prompts)
     assert all("wait rather than duplicate the action" in prompt for prompt in helper_prompts)
+    codebook_prompt = helper_prompts[CONDITIONS.index("known_codebook")]
+    assert "You do not know the private order." not in codebook_prompt
+    assert "Do not abstain when the matching row names you." in codebook_prompt
+    assert "responsible_helper" in codebook_prompt
 
     schedules = {}
     for condition in CONDITIONS:

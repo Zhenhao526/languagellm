@@ -49,3 +49,7 @@
 **Prompt diagnosis.** The known-codebook helper still inherited “You do not know the private order” immediately before receiving a full codebook. This conflicts with the lookup task and plausibly explains the extra abstention. The four prespecified gates were encoding ≥35/36, designated action ≥29/36, waiting ≥29/36 and joint success ≥27/36; encoding and waiting passed, designated action and joint success failed.
 
 **Next version.** V2.1 removes that contradictory sentence in the known-codebook arm and gives an exact lookup procedure. It retains the common one-worker rule, the same gate thresholds and formal paired seeds `20260925`–`20260927`. A new development seed (`20260928`) must pass all gates before any free-symbol matrix is launched. This failed run remains a separate development artifact and is excluded from later comparisons.
+
+## 2026-09-20 — v2.1 protocol frozen
+
+**Status.** The development gate revealed a prompt contradiction, so the formal matrix remains closed. V2.1 removes “You do not know the private order” only from the known-codebook helper prompt and adds an explicit three-step code lookup/identity/action procedure. The generic one-worker policy and all four v2 gate thresholds are unchanged. The next development seed is `20260928`; the formal seeds `20260925`–`20260927` remain unused and reserved. See `calibration_plan_v2_1.md`.

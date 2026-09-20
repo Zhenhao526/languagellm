@@ -20,7 +20,7 @@ from .pilot import (
 )
 
 CONDITIONS = ("blank", "known_codebook", "free_symbols")
-CALIBRATION_VERSION = "matched_channel_calibration_v2_explicit_allocation"
+CALIBRATION_VERSION = "matched_channel_calibration_v2_1_clear_codebook_action"
 DEFAULT_SEEDS = (20260925, 20260926, 20260927)
 CALIBRATION_SYSTEM = SYSTEM + (
     "\nEvery order has exactly one designated helper. Only that helper should act; "
@@ -105,9 +105,16 @@ def _condition_helper_prompt(episode: dict, agent: str, message: str, condition:
         "responsible helper, wait rather than duplicate the action."
     )
     if condition == "known_codebook":
+        prompt = prompt.replace(
+            "You do not know the private order.",
+            "Use the exact codebook below to decode the private order.",
+        )
         prompt += (
             "\nBoth sides already know this fixed mapping from opaque messages to complete orders. "
-            "Resolve responsible_helper to the exact agent identity.\n"
+            "Follow this procedure exactly: find the row whose message equals the received string. "
+            "If that row's responsible_helper equals your identity, act on its object, attribute and "
+            "destination. If the row names a different helper, return null and wait. "
+            "If no row matches, return null and wait. Do not abstain when the matching row names you.\n"
             f"Shared codebook: {_helper_codebook(episode)}"
         )
     elif condition == "blank":

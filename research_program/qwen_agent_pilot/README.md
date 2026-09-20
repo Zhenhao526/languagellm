@@ -18,24 +18,25 @@ The v1 screening protocol is preserved in [`calibration_plan.md`](calibration_pl
 
 The v1 matrix is complete. Qwen encoded the supplied codebook correctly, but the task prompt did not clearly tell non-designated helpers to wait; that rule was followed inconsistently, including in the positive-control condition. Free-symbol message–meaning association varied sharply by seed, with one seed collapsing to a single string. See the [audited v1 result and interpretation](results/calibration_20260920_analysis.md), the [episode-level data](results/calibration_20260920.json), and the [integrity manifest](results/calibration_20260920_manifest.json).
 
-The current runner is v2, which adds the same explicit one-worker action rule to every condition. Its frozen plan is [`calibration_plan_v2.md`](calibration_plan_v2.md). Run the known-codebook development gate first; it is excluded from the formal matrix and must pass all four thresholds before free-symbol comparisons proceed:
+The current runner is v2.1. It retains the common one-worker rule and clarifies how a helper must use the already-known codebook. Its frozen plan is [`calibration_plan_v2_1.md`](calibration_plan_v2_1.md). Run the known-codebook development gate first; it is excluded from the formal matrix and must pass all four thresholds before free-symbol comparisons proceed:
 
 ```sh
 PYTHONPATH=. /Users/xia/.venvs/qwen35-mlx/bin/python \
   -m research_program.qwen_agent_pilot.calibration_dev \
   --model /Users/xia/Models/Qwen3.5-9B-8bit \
-  --out research_program/qwen_agent_pilot/results/calibration_v2_development_20260924.json
+  --seed 20260928 \
+  --out research_program/qwen_agent_pilot/results/calibration_v2_1_development_20260928.json
 ```
 
-The first v2 development gate failed: the codebook sender encoded 36/36 orders and unassigned helpers waited 36/36 times, but designated helpers acted correctly in only 14/36 rounds. The prompt still said helpers did not know the private order before presenting the codebook. The failure and its replay audit are archived [here](results/calibration_v2_development_20260924_analysis.md); no v2 matrix has been run. V2.1 will remove that contradiction and use a new development seed before opening the formal matrix.
+The first v2 development gate failed: the codebook sender encoded 36/36 orders and unassigned helpers waited 36/36 times, but designated helpers acted correctly in only 14/36 rounds. The prompt still said helpers did not know the private order before presenting the codebook. The failure and its replay audit are archived [here](results/calibration_v2_development_20260924_analysis.md); no paired matrix has been run under a revised action rule.
 
-If the gate passes, run or resume the paired v2 matrix from the repository root. The default seeds are `20260925`, `20260926`, and `20260927`:
+If the v2.1 gate passes, run or resume the paired v2.1 matrix from the repository root. The default seeds are `20260925`, `20260926`, and `20260927`:
 
 ```sh
 PYTHONPATH=. /Users/xia/.venvs/qwen35-mlx/bin/python \
   -m research_program.qwen_agent_pilot.calibration \
   --model /Users/xia/Models/Qwen3.5-9B-8bit \
-  --out research_program/qwen_agent_pilot/results/calibration_v2_20260920.json
+  --out research_program/qwen_agent_pilot/results/calibration_v2_1_20260920.json
 ```
 
 If a run is interrupted, pass `--resume` with the same output path. The checkpoint locks model name, seeds, temperature and token limit. It does not include model weights, raw completions or hidden reasoning.

@@ -9,7 +9,7 @@ from pathlib import Path
 from .calibration import CALIBRATION_VERSION, _git_commit, run_condition
 from .pilot import MODEL_ID
 
-DEVELOPMENT_SEED = 20260924
+DEVELOPMENT_SEED = 20260928
 THRESHOLDS = {
     "known_codebook_encoder_accuracy": 35 / 36,
     "designated_helper_both_correct_rate": 29 / 36,
