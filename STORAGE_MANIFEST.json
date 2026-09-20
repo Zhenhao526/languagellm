@@ -2,7 +2,7 @@
   "generated_at_local": "2026-09-20",
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
-  "remote_commit": "edda3612cd41b2bb5ffc8e75ec82ef39d02f1f0c",
+  "remote_commit": "61b07f861c047781391ebc6760ccfe6a704fbad8",
   "remote_main_verified": true,
   "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix, ecological-factorization formal matrix, compact archive, replay audit and new-combination analysis, object-surface remapping corrected formal matrix, parent surface-shift analysis, replay audit and cleanup receipt, incumbent-worker surface transfer formal matrix, repair curves, replay audit and cleanup receipt, population-level perceptual heterogeneity formal matrix, three-shard replay audit, exploratory pilot curves, identifiability diagnosis and cleanup receipt, multi-partner sender alignment formal matrix, diagnostic smoke, replay audit and cleanup receipt, community codebook conflict and role-symmetric referential game formal matrix, replay audit, compact archive and cleanup receipt, structured factor-sharing architecture intervention, formal matrix, replay audit and cleanup receipt; learnable routing factorization formal matrix, low-gradient sensitivity baseline, replay audits and cleanup receipt; shared sender/receiver routing role-symmetry intervention, tied versus independent routing and combined replay audit; routing initialization control formal matrix, combined replay audit and cleanup receipt; open-world ontology expansion formal matrix, v4 role=2 recombination reevaluation, replay audit, compact archive, invalid-design notes and cleanup receipt; open-world cultural transmission formal matrix, frozen incumbent role replacement, corrected zero-update control, six-shard replay audit, transfer analysis, compact archive and cleanup receipt; open-world grounding transfer formal matrix, identity/reverse fresh-receiver surface intervention, six-shard replay audit, transfer analysis, compact archive and cleanup receipt; open-world incumbent receiver initialization × surface mapping formal matrix, six replay audits, exact receiver-copy audit, supplemental interaction analysis, archive and local cleanup receipt; local Qwen3.5 three-context symbol-channel pilot source, compact result, audit report, model lock and storage receipt; local Qwen matched channel calibration v1, paired three-seed matrix, audited episode archive and documented task-rule limitation",
   "retained_paths": {
@@ -285,6 +285,14 @@
     "LOCAL_CLEANUP_RECEIPT_2026-09-20_qwen_agent_pilot.json": {
       "files": 1,
       "bytes": 2868
+    },
+    "LOCAL_CLEANUP_RECEIPT_2026-09-20_storage_sweep.json": {
+      "files": 1,
+      "bytes": 2324
+    },
+    "SYNC_2026-09-20_storage_sweep.md": {
+      "files": 1,
+      "bytes": 1038
     }
   },
   "compact_archives": {
@@ -1954,8 +1962,8 @@
   "tracked_paths_pruned_in_commit": 8338,
   "historical_cleanup_estimate_bytes": 5558370327,
   "local_environment": {
-    "files": 934,
-    "bytes": 105049524
+    "files": 954,
+    "bytes": 105353341
   },
   "policy": "Raw training logs, checkpoints, literature caches and historical generated trees are not kept locally. The pinned Qwen3.5-9B-8bit checkpoint is retained as a necessary local asset for follow-up LLM experiments and is excluded from Git; Git history retains prior source snapshots.",
   "additional_cleanup": {
@@ -3750,5 +3758,17 @@
       "remote_main_verified": true,
       "model_asset": "/Users/xia/Models/Qwen3.5-9B-8bit (outside Git; verified in model_lock.json)"
     }
+  },
+  "storage_sweep_2026_09_20": {
+    "receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-20_storage_sweep.json",
+    "sync_note": "SYNC_2026-09-20_storage_sweep.md",
+    "reclaimed_approx": "1.6 GB Homebrew downloads plus approximately 251 MB pip cache",
+    "preserved": [
+      "tracked experiment source, plans, compact results, reports and Git history",
+      ".exp_venv used by multiple study runners",
+      "active Qwen3.5-9B-8bit model and active matrix checkpoint file",
+      "pending VS Code update because its installer was running"
+    ],
+    "active_matrix_archive_status": "still running at cleanup; partial checkpoint retained, not represented as a final archive"
   }
 }
