@@ -94,4 +94,18 @@ V3 adds an environment-supplied decoded-order upper bound, separate from peer co
 
 **Observed.** With the complete request supplied directly by the environment, designated item-plus-destination accuracy, unassigned-helper waiting, and joint success were all 36/36. All schemas passed and all outcomes replayed. This supports using the task for channel comparisons; it does not test peer language.
 
-**Next step.** Run the preregistered four-arm, three-seed matrix on the still-unused seeds `20260925`–`20260927`. Keep the oracle upper bound separate from the three peer-channel conditions.
+**Next step.** The preregistered four-arm, three-seed matrix on `20260925`–`20260927` is complete and replay-audited. The oracle upper bound remains separate from peer-channel evidence; see the v3 matrix record below.
+
+## 2026-09-20 — v3 paired channel calibration matrix
+
+**Status.** Completed 12 seed-condition runs, 432 episodes and 1,296 model calls. The protocol and runner source commit was `e78b4baa707e67402f5e2276f400fe1e690ac04e`. Results, analysis, replay audit and SHA-256 manifest are in `results/calibration_v3_20260920*`.
+
+**Paired joint success.** Across seeds `20260925`–`20260927`, blank was 0/108, environment-oracle decoded was 106/108, known codebook was 71/108, and free symbols was 0/108. Per-seed counts were blank 0/36, 0/36, 0/36; oracle 36/36, 34/36, 36/36; codebook 20/36, 26/36, 25/36; and free symbols 0/36 in all three seeds. The unassigned helper waited in 108/108 episodes in each condition.
+
+**Task execution and channel behavior.** The designated helper acted in 107/108 oracle and 71/108 codebook episodes, and in none of the blank or free-symbol episodes. Every designated action in the codebook arm selected the correct item and destination. The oracle produced 106/108 correct items and 107/108 correct destinations. Codebook encoding was exact in 108/108 rounds. Free-symbol messages were valid in 100/108 rounds; message–meaning mutual information was 0.377, 0.075 and 1.018 bits by seed. The middle seed used a single string for every meaning; its 6/6 final-block cross-sender agreement is message collapse, not a shared semantic code. No free-symbol team succeeded.
+
+**Audit.** `audit_calibration_v3.py` replayed all 432 outcomes, recomputed all 12 run summaries, and verified 324 paired schedule comparisons. The audit passed. All owner/helper outputs parsed as JSON; 863/864 helper action schemas passed, with the sole failure in the oracle condition. Raw completions and hidden reasoning were not retained.
+
+**Interpretation and limit.** Direct environment provision confirms the task can be completed. The shared codebook supports successful behavior when decoded, while the free-symbol condition never activates the designated helper. This leaves an activation/grounding bottleneck and prevents a behavioral claim about what free messages meant. Three seeds support screening only; this does not demonstrate language emergence or establish a reliable effect size.
+
+**Next design decision.** Separate symbol-to-meaning alignment from helper activation, increase exposure, and evaluate transfer to held-out meaning combinations. Any change to action incentives or feedback requires a new frozen protocol and fresh seeds; keep this matrix as its own baseline.

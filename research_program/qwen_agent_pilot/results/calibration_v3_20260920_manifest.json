@@ -1,0 +1,167 @@
+{
+  "batch": "qwen_matched_channel_calibration_v3_20260920",
+  "generated_at_local": "2026-09-20",
+  "repository": "git@github.com:Zhenhao526/languagellm.git",
+  "protocol_source_commit": "e78b4baa707e67402f5e2276f400fe1e690ac04e",
+  "protocol": "matched_channel_calibration_v3_oracle_task_control",
+  "model": {
+    "repo_id": "mlx-community/Qwen3.5-9B-8bit",
+    "local_path": "/Users/xia/Models/Qwen3.5-9B-8bit",
+    "revision": "16daa4818c54ce5f5436f929d52542eb65bbed9d",
+    "uploaded_to_git": false
+  },
+  "design": {
+    "seeds": [
+      20260925,
+      20260926,
+      20260927
+    ],
+    "conditions": [
+      "blank",
+      "oracle_decoded",
+      "known_codebook",
+      "free_symbols"
+    ],
+    "episodes_per_seed_condition": 36,
+    "runs": 12,
+    "episodes": 432,
+    "model_calls": 1296,
+    "temperature": 0.35,
+    "max_tokens": 120,
+    "message_alphabet": "@#%&+=?~",
+    "free_symbol_length": [
+      4,
+      8
+    ],
+    "condition_order_by_seed": {
+      "20260925": [
+        "blank",
+        "oracle_decoded",
+        "known_codebook",
+        "free_symbols"
+      ],
+      "20260926": [
+        "oracle_decoded",
+        "known_codebook",
+        "free_symbols",
+        "blank"
+      ],
+      "20260927": [
+        "known_codebook",
+        "free_symbols",
+        "blank",
+        "oracle_decoded"
+      ]
+    },
+    "screening_only": true
+  },
+  "audit": {
+    "status": "passed",
+    "runs_checked": 12,
+    "episodes_replayed": 432,
+    "paired_schedule_comparisons": 324,
+    "run_summaries_recomputed": 12,
+    "condition_totals": {
+      "blank": {
+        "episodes": 108,
+        "joint_successes": 0,
+        "designated_item_correct": 0,
+        "designated_destination_correct": 0,
+        "designated_helper_both_correct": 0,
+        "unassigned_waited": 108,
+        "valid_messages": 0,
+        "message_count": 0,
+        "codebook_exact_encodings": 0,
+        "helper_actions": 216,
+        "helper_action_schemas_valid": 216,
+        "owner_json_valid": 108,
+        "owner_calls": 108,
+        "helper_json_valid": 216
+      },
+      "oracle_decoded": {
+        "episodes": 108,
+        "joint_successes": 106,
+        "designated_item_correct": 106,
+        "designated_destination_correct": 107,
+        "designated_helper_both_correct": 106,
+        "unassigned_waited": 108,
+        "valid_messages": 0,
+        "message_count": 0,
+        "codebook_exact_encodings": 0,
+        "helper_actions": 216,
+        "helper_action_schemas_valid": 215,
+        "owner_json_valid": 108,
+        "owner_calls": 108,
+        "helper_json_valid": 216
+      },
+      "known_codebook": {
+        "episodes": 108,
+        "joint_successes": 71,
+        "designated_item_correct": 71,
+        "designated_destination_correct": 71,
+        "designated_helper_both_correct": 71,
+        "unassigned_waited": 108,
+        "valid_messages": 108,
+        "message_count": 108,
+        "codebook_exact_encodings": 108,
+        "helper_actions": 216,
+        "helper_action_schemas_valid": 216,
+        "owner_json_valid": 108,
+        "owner_calls": 108,
+        "helper_json_valid": 216
+      },
+      "free_symbols": {
+        "episodes": 108,
+        "joint_successes": 0,
+        "designated_item_correct": 0,
+        "designated_destination_correct": 0,
+        "designated_helper_both_correct": 0,
+        "unassigned_waited": 108,
+        "valid_messages": 100,
+        "message_count": 108,
+        "codebook_exact_encodings": 0,
+        "helper_actions": 216,
+        "helper_action_schemas_valid": 216,
+        "owner_json_valid": 108,
+        "owner_calls": 108,
+        "helper_json_valid": 216
+      }
+    }
+  },
+  "raw_model_completions_retained": false,
+  "chain_of_thought_retained": false,
+  "files": {
+    "research_program/qwen_agent_pilot/results/calibration_v3_20260920.json": {
+      "bytes": 796615,
+      "sha256": "856e9b81a2c4883cb3b0bfe27ed2ffb53fae7fa71f39c817b2075c81b10dd8ba"
+    },
+    "research_program/qwen_agent_pilot/results/calibration_v3_20260920_audit.json": {
+      "bytes": 5458,
+      "sha256": "7a53ae39526c62bbee22b308593118353cd801db6db26158ce484cb87010d6a1"
+    },
+    "research_program/qwen_agent_pilot/results/calibration_v3_20260920_analysis.md": {
+      "bytes": 5235,
+      "sha256": "b46c0d37c3102af60d6ceaf0bd707aa2a5ce48b42871fe6a311e6a06c6a5aaa5"
+    },
+    "research_program/qwen_agent_pilot/calibration.py": {
+      "bytes": 21038,
+      "sha256": "57df8f83e73667b48de1e5b6090b4f28502ecdca89e96ecdec47049ed98db3cf"
+    },
+    "research_program/qwen_agent_pilot/environment.py": {
+      "bytes": 4160,
+      "sha256": "79a12142bda308e201a11682344e9ed079ad3e6d0d1441d161bdad2a16b8d588"
+    },
+    "research_program/qwen_agent_pilot/pilot.py": {
+      "bytes": 15225,
+      "sha256": "6fb406c868dd425f346c823e7efb3274776a7305db9d8871f2f61c9ff93c55b7"
+    },
+    "research_program/qwen_agent_pilot/calibration_plan_v3.md": {
+      "bytes": 3535,
+      "sha256": "b4d9d165376cbc430ac67682c5deb196fbaea1b2b94f501e747c66e9a39e803a"
+    },
+    "research_program/qwen_agent_pilot/audit_calibration_v3.py": {
+      "bytes": 15591,
+      "sha256": "795539a6ee521039881e2966a496d5042b0299662837b958d8d2357b27eb2c2a"
+    }
+  }
+}

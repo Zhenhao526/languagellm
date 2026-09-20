@@ -18,7 +18,7 @@ The v1 screening protocol is preserved in [`calibration_plan.md`](calibration_pl
 
 The v1 matrix is complete. Qwen encoded the supplied codebook correctly, but the task prompt did not clearly tell non-designated helpers to wait; that rule was followed inconsistently, including in the positive-control condition. Free-symbol message–meaning association varied sharply by seed, with one seed collapsing to a single string. See the [audited v1 result and interpretation](results/calibration_20260920_analysis.md), the [episode-level data](results/calibration_20260920.json), and the [integrity manifest](results/calibration_20260920_manifest.json).
 
-V2, v2.1, and v2.2 development results are preserved [here](results/calibration_v2_development_20260924_analysis.md), [here](results/calibration_v2_1_development_20260928_analysis.md), and [here](results/calibration_v2_2_development_20260929_analysis.md). None passed its prespecified task gate, so no revised paired matrix has been run. V3 adds an environment-provided decoded-order upper bound to test task competence separately from message interpretation. This is an external task-control condition, not peer communication. The frozen protocol is [`calibration_plan_v3.md`](calibration_plan_v3.md).
+V2, v2.1, and v2.2 development results are preserved [here](results/calibration_v2_development_20260924_analysis.md), [here](results/calibration_v2_1_development_20260928_analysis.md), and [here](results/calibration_v2_2_development_20260929_analysis.md). None passed its prespecified task gate. V3 added an environment-provided decoded-order upper bound to test task competence separately from message interpretation. This is an external task-control condition, not peer communication. The frozen protocol is [`calibration_plan_v3.md`](calibration_plan_v3.md).
 
 First run the 36-episode oracle task-competence gate with seed `20260930`:
 
@@ -32,7 +32,9 @@ PYTHONPATH=. /Users/xia/.venvs/qwen35-mlx/bin/python \
 
 The v3 oracle gate passed: 36/36 designated actions, 36/36 unassigned-helper waits, and 36/36 joint successes. The result is a task-control development run, not part of the matrix; see its [analysis](results/calibration_v3_development_20260930_analysis.md) and [integrity manifest](results/calibration_v3_development_20260930_manifest.json).
 
-If all three thresholds pass, run or resume the four-condition matrix (432 episodes, 1,296 model calls) on the unused paired seeds `20260925`–`20260927`:
+The oracle gate passed. The paired four-condition matrix is now complete: 432 episodes and 1,296 model calls on seeds `20260925`–`20260927`. Joint success was 0/108 with a blank channel, 106/108 with the environment-provided oracle, 71/108 with the known codebook, and 0/108 with free symbols. The designated helper never acted in the free-symbol arm, so its zero reward does not by itself tell whether any message carried partial meaning. The six-of-six agreement in one free-symbol seed came from a single constant string. See the [analysis and seed-level results](results/calibration_v3_20260920_analysis.md), the [episode records](results/calibration_v3_20260920.json), the [replay audit](results/calibration_v3_20260920_audit.json), and the [integrity manifest](results/calibration_v3_20260920_manifest.json).
+
+To reproduce or resume the matrix with the same protocol and output path:
 
 ```sh
 PYTHONPATH=. /Users/xia/.venvs/qwen35-mlx/bin/python \
@@ -41,7 +43,14 @@ PYTHONPATH=. /Users/xia/.venvs/qwen35-mlx/bin/python \
   --out research_program/qwen_agent_pilot/results/calibration_v3_20260920.json
 ```
 
-Pass `--resume` with the same output path to continue an interrupted matrix. Each completed seed-condition run is checkpointed atomically.
+Pass `--resume` with the same output path to continue an interrupted matrix. Each completed seed-condition run is checkpointed atomically. Replay the finished record and verify its paired schedule with:
+
+```sh
+PYTHONPATH=. /Users/xia/.venvs/qwen35-mlx/bin/python \
+  -m research_program.qwen_agent_pilot.audit_calibration_v3 \
+  --results research_program/qwen_agent_pilot/results/calibration_v3_20260920.json \
+  --out research_program/qwen_agent_pilot/results/calibration_v3_20260920_audit.json
+```
 
 ## Reproduce locally
 
