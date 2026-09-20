@@ -1,9 +1,14 @@
 from unittest.mock import Mock, patch
+from pathlib import Path
+from tempfile import TemporaryDirectory
 
 from research_program.qwen_agent_pilot.environment import (
     AGENTS, EPISODES_PER_BLOCK, MEANING_POOL, PILOT_EPISODES, make_episode, score_episode,
 )
 from research_program.qwen_agent_pilot.analyze import analyze_result
+from research_program.qwen_agent_pilot.calibration import (
+    CODEWORDS, CONDITIONS, _condition_order, run_condition, run_matrix,
+)
 from research_program.qwen_agent_pilot.pilot import parse_output, run_pilot, valid_message
 
 
@@ -107,9 +112,78 @@ def test_mocked_runner_completes_balanced_schedule_and_metrics():
     assert audit["cross_sender_meaning_agreement"] == 6
 
 
+def test_calibration_conditions_are_matched_and_codebook_is_valid():
+    assert len(CODEWORDS) == len(MEANING_POOL) == 6
+    assert all(valid_message(word) and len(word) == 6 for word in CODEWORDS)
+    assert all(
+        sum(left != right for left, right in zip(CODEWORDS[i], CODEWORDS[j])) >= 4
+        for i in range(len(CODEWORDS)) for j in range(i + 1, len(CODEWORDS))
+    )
+    assert _condition_order(0) == list(CONDITIONS)
+    assert _condition_order(1) == ["known_codebook", "free_symbols", "blank"]
+    assert _condition_order(2) == ["free_symbols", "blank", "known_codebook"]
+
+    schedules = {}
+    for condition in CONDITIONS:
+        calls = []
+
+        def fake_post(base_url, model, messages, seed, temperature, max_tokens, timeout):
+            prompt = messages[-1]["content"]
+            calls.append(prompt)
+            if "Private order:" in prompt and condition == "blank":
+                return '{"message":""}', {"prompt_tokens": 10, "completion_tokens": 2}
+            if "Private order:" in prompt:
+                return '{"message":"+%~?=&"}', {"prompt_tokens": 10, "completion_tokens": 3}
+            return '{"action":null}', {"prompt_tokens": 10, "completion_tokens": 3}
+
+        with patch("research_program.qwen_agent_pilot.calibration.requests.get", return_value=Mock()), \
+                patch("research_program.qwen_agent_pilot.calibration._post", side_effect=fake_post):
+            result = run_condition("http://127.0.0.1:8080/v1", "mock", 9, condition)
+
+        assert len(calls) == 108
+        assert result["episodes"] == PILOT_EPISODES
+        assert result["model_calls"] == 108
+        assert result["team_success_rate"] == 0.0
+        if condition == "blank":
+            assert all(row["message"] == "" and row["message_valid"] is None for row in result["records"])
+        elif condition == "known_codebook":
+            assert result["known_codebook_encoder_accuracy"] == 1 / 6
+        else:
+            assert result["valid_message_rate_nonblank_channels"] == 1.0
+        schedules[condition] = [
+            (row["episode"], row["block"], row["owner"], row["meaning_id"], row["goal"])
+            for row in result["records"]
+        ]
+    assert schedules["blank"] == schedules["known_codebook"] == schedules["free_symbols"]
+
+
+def test_calibration_matrix_checkpoints_and_resumes():
+    calls = []
+
+    def fake_run_condition(base_url, model, seed, condition, temperature, max_tokens, timeout):
+        calls.append((seed, condition))
+        return {"seed": seed, "condition": condition, "team_success_rate": 0.25,
+                "episodes": PILOT_EPISODES, "records": []}
+
+    with TemporaryDirectory() as temp_dir:
+        out = Path(temp_dir) / "calibration.json"
+        with patch("research_program.qwen_agent_pilot.calibration.run_condition",
+                   side_effect=fake_run_condition):
+            result = run_matrix("http://localhost/v1", "mock", (11, 12), out)
+        assert len(result["runs"]) == 6
+        assert len(result["paired_seed_contrasts"]) == 2
+        assert len(calls) == 6
+        with patch("research_program.qwen_agent_pilot.calibration.run_condition") as skipped:
+            resumed = run_matrix("http://localhost/v1", "mock", (11, 12), out, resume=True)
+        skipped.assert_not_called()
+        assert resumed["runs"] == result["runs"]
+
+
 if __name__ == "__main__":
     test_balanced_episode_generation()
     test_symbol_channel_and_invalid_suppression()
     test_joint_reward_requires_assignment_and_destination()
     test_mocked_runner_completes_balanced_schedule_and_metrics()
+    test_calibration_conditions_are_matched_and_codebook_is_valid()
+    test_calibration_matrix_checkpoints_and_resumes()
     print("qwen_agent_pilot tests passed")

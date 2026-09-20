@@ -12,6 +12,21 @@ The 2026-09-20 run completed 36 balanced episodes in 210.7 seconds. All 36 reque
 
 The first prompt-only run cannot separate weak communication from task competence, sparse feedback or insufficient exposure. The next step is a matched calibration of an empty channel, a known shared codebook and free symbol communication before increasing repetitions or varying ecological factors.
 
+## Matched channel calibration
+
+The preregistered screening protocol and runner are in [`calibration_plan.md`](calibration_plan.md) and [`calibration.py`](calibration.py). It pairs the same schedule and decoding seeds across three conditions: closed channel, a fixed shared codebook, and free symbols. It uses three seeds (324 episodes and 972 model calls in total) and saves an atomic checkpoint after every seed-condition run. This distinguishes task execution under a supplied code from performance when a code must form through interaction, while keeping the result explicitly exploratory.
+
+With the local server running, start or resume the matrix from the repository root:
+
+```sh
+PYTHONPATH=. /Users/xia/.venvs/qwen35-mlx/bin/python \
+  -m research_program.qwen_agent_pilot.calibration \
+  --model /Users/xia/Models/Qwen3.5-9B-8bit \
+  --out research_program/qwen_agent_pilot/results/calibration_20260920.json
+```
+
+If a run is interrupted, pass `--resume` with the same output path. The checkpoint locks model name, seeds, temperature and token limit. It does not include model weights, raw completions or hidden reasoning.
+
 ## Reproduce locally
 
 The pinned Apple Silicon environment is recorded in [`requirements.macos-arm64.lock`](requirements.macos-arm64.lock), and the model revision plus official expected shard hashes are in [`model_lock.json`](model_lock.json). Model weights are stored at `/Users/xia/Models/Qwen3.5-9B-8bit` and are not part of this repository. Start the API server bound to loopback:
