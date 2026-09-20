@@ -29,6 +29,7 @@
 - [open_world_cultural_transmission_study](open_world_cultural_transmission_study/README.md)：冻结 single-new 扩展后替换 sender、receiver、双方或不训练的新 worker；54 parent、27 expansion child、108 transfer run 的正式端点与六片 replay audit 位于 `results/formal_20260918/`。
 - [open_world_grounding_transfer_study](open_world_grounding_transfer_study/README.md)：在同一开放世界文化传递矩阵中加入 fresh receiver 的 identity/reverse 对象表面置换；54 parent、27 expansion child、216 transfer run，三片 expansion 与三片 transfer replay audit 均通过。
 - [open_world_grounding_incumbent_study](open_world_grounding_incumbent_study/README.md)：把 receiver 初始化（随机/复制 incumbent）与 identity/reverse 表面置换交叉；36 parent、18 expansion child、288 transfer run，六片 replay audit 与 144 次精确 receiver-copy 核验通过。
+- [qwen_agent_pilot](qwen_agent_pilot/README.md)：Qwen3.5-9B-8bit 三上下文合作任务可行性预实验；含义 × 请求者平衡、symbol-only 消息通道和本地 MLX 运行方案。实际模型批次等待权重完整性校验后启动；该批次为探索性，不能单独证明语言涌现。
 - [本轮同步与本地清理记录](../SYNC_2026-09-19_open_world_grounding_incumbent.md)
 - [本轮本地清理收据](../LOCAL_CLEANUP_RECEIPT_2026-09-19_open_world_grounding_incumbent.json)
 - [repetition_pressure_study](repetition_pressure_study/README.md)：在唯一意义、局部重复和全局重复三种任务语义之间做容量匹配的冗余压力曲线；正式矩阵包含 81 个 parent 和 729 个 child run，结果归档于 `results/formal_20260918/`，详见 `meaning_capacity_formal_结果与下一步.md`。
