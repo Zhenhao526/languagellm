@@ -19,8 +19,8 @@ from .pilot import (
     parse_output, valid_message,
 )
 
-CONDITIONS = ("blank", "known_codebook", "free_symbols")
-CALIBRATION_VERSION = "matched_channel_calibration_v2_2_explicit_board_grounding"
+CONDITIONS = ("blank", "oracle_decoded", "known_codebook", "free_symbols")
+CALIBRATION_VERSION = "matched_channel_calibration_v3_oracle_task_control"
 DEFAULT_SEEDS = (20260925, 20260926, 20260927)
 CALIBRATION_SYSTEM = SYSTEM + (
     "\nEvery order has exactly one designated helper. Only that helper should act; "
@@ -72,7 +72,7 @@ def _helper_codebook(episode: dict) -> str:
 def _condition_owner_prompt(episode: dict, condition: str) -> str:
     if condition == "free_symbols":
         return _owner_prompt(episode)
-    if condition == "blank":
+    if condition in {"blank", "oracle_decoded"}:
         goal = episode["goal"]
         return (
             f"Round {episode['episode']}. Your identity is {episode['owner']}; you are the requester.\n"
@@ -125,6 +125,20 @@ def _condition_helper_prompt(episode: dict, agent: str, message: str, condition:
             "If no row matches, return null and wait. Do not abstain when the matching row names you.\n"
             f"Shared codebook: {_helper_codebook(episode)}"
         )
+    elif condition == "oracle_decoded":
+        goal = episode["goal"]
+        decoded = {
+            "object": goal["object"],
+            "attribute": goal["attribute"],
+            "responsible_helper": goal["partner"],
+            "destination": goal["destination"],
+        }
+        prompt += (
+            "\nEnvironment-provided decoded request (task-capability upper-bound condition; "
+            "this is not a message from the requester): "
+            f"{json.dumps(decoded, ensure_ascii=False, separators=(',', ':'))}. "
+            "Use these fields as the request and follow the same action-allocation and board-selection rules."
+        )
     elif condition == "blank":
         prompt += "\nThe communication channel is closed; the empty message contains no information."
     elif condition != "free_symbols":
@@ -161,6 +175,7 @@ def _summarize(condition: str, seed: int, records: list[dict], wall_time: float,
         for meaning in meanings
     )
     syntax_records = [r for r in records if r["message"]]
+    symbol_condition = condition in {"known_codebook", "free_symbols"}
     return {
         "condition": condition,
         "seed": seed,
@@ -180,7 +195,7 @@ def _summarize(condition: str, seed: int, records: list[dict], wall_time: float,
         ),
         "valid_message_rate_nonblank_channels": (
             sum(r["message_valid"] is True for r in records) / n
-            if condition != "blank" else None
+            if symbol_condition else None
         ),
         "known_codebook_encoder_accuracy": (
             sum(r["encoder_correct"] for r in records) / n
@@ -188,16 +203,16 @@ def _summarize(condition: str, seed: int, records: list[dict], wall_time: float,
         ),
         "unique_messages": len({r["message"] for r in syntax_records}),
         "sender_meaning_exact_repeat_rate": (
-            stable / len(repeated) if repeated and condition != "blank" else None
+            stable / len(repeated) if repeated and symbol_condition else None
         ),
         "cross_sender_agreement_final_block": (
-            cross_sender / len(meanings) if meanings and condition != "blank" else None
+            cross_sender / len(meanings) if meanings and symbol_condition else None
         ),
         "message_owner_mutual_information_bits": (
-            _mi(records, "message", "owner") if condition != "blank" else None
+            _mi(records, "message", "owner") if symbol_condition else None
         ),
         "message_meaning_mutual_information_bits": (
-            _mi(records, "message", "meaning_id") if condition != "blank" else None
+            _mi(records, "message", "meaning_id") if symbol_condition else None
         ),
         "team_success_rate": sum(r["outcome"]["success"] for r in records) / n,
         "designated_item_accuracy": sum(r["outcome"]["designated_item_correct"] for r in records) / n,
@@ -231,7 +246,7 @@ def run_condition(base_url: str, model: str, seed: int, condition: str,
         prompt_tokens += int(usage.get("prompt_tokens", 0) or 0)
         completion_tokens += int(usage.get("completion_tokens", 0) or 0)
         generated = owner_result["message"] or ""
-        if condition == "blank":
+        if condition in {"blank", "oracle_decoded"}:
             message = ""
             encoder_correct = None
             message_valid = None
@@ -337,6 +352,7 @@ def run_matrix(base_url: str, model: str, seeds: tuple[int, ...], out: Path,
             "message_alphabet": "@#%&+=?~",
             "message_length": [MIN_MESSAGE_LENGTH, MAX_MESSAGE_LENGTH],
             "known_codebook": {str(key): value for key, value in CODEBOOK.items()},
+            "oracle_decoded_condition": "environment-provided semantic upper bound; not a peer message",
             "episode_schedule": "same balanced 36 episodes within each paired seed and condition",
             "condition_order_by_seed": {
                 str(seed): _condition_order(index) for index, seed in enumerate(seeds)
@@ -373,6 +389,10 @@ def run_matrix(base_url: str, model: str, seeds: tuple[int, ...], out: Path,
             "free_minus_codebook_success_rate": (
                 next(run for run in matrix["runs"] if run["seed"] == seed and run["condition"] == "free_symbols")["team_success_rate"]
                 - next(run for run in matrix["runs"] if run["seed"] == seed and run["condition"] == "known_codebook")["team_success_rate"]
+            ),
+            "free_minus_oracle_success_rate": (
+                next(run for run in matrix["runs"] if run["seed"] == seed and run["condition"] == "free_symbols")["team_success_rate"]
+                - next(run for run in matrix["runs"] if run["seed"] == seed and run["condition"] == "oracle_decoded")["team_success_rate"]
             ),
         } for seed in seeds
     ] if len(matrix["runs"]) == len(seeds) * len(CONDITIONS) else []

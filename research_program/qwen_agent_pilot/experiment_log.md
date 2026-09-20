@@ -75,3 +75,15 @@
 ## 2026-09-20 — v2.2 item-grounding protocol frozen
 
 V2.2 adds one common candidate-board rule to all conditions: scan the board for the entry whose `object` and `attribute` fields both match the decoded order, then copy that entry's `item_id`. The codebook helper prompt repeats this as an explicit lookup step. The one-worker rule and four development thresholds remain unchanged. Development seed `20260929` is the only next run; formal seeds `20260925`–`20260927` remain unused. If any gate fails, do not launch the paired matrix.
+
+## 2026-09-20 — v2.2 known-codebook development gate
+
+**Status.** Completed development-only run with seed `20260929`; gate failed and the paired matrix was not started. Protocol source commit: `e337fc3ede3eb79d68b53d1438a9183baf8ea613`. Result, analysis and SHA-256 manifest are in `results/calibration_v2_2_development_20260929*`.
+
+**Observed.** Sender encoding was 36/36, unassigned-helper waiting 35/36, designated item accuracy 22/36, destination accuracy 23/36, and joint success 21/36. Among 23 designated actions, 22 selected the correct board item and all 23 selected the correct destination. A acted correctly in 11/12 assigned rounds, C in 11/12, and B in 0/12 for this seed. This single run cannot establish a persistent identity effect.
+
+**Interpretation.** The shared board-match prompt appears to have fixed most item selection when agents act. The remaining gate failure is unstable designated-helper activation; further prompt tuning on one seed would risk overfitting.
+
+## 2026-09-20 — v3 oracle task-control protocol frozen
+
+V3 adds an environment-supplied decoded-order upper bound, separate from peer communication, to test task competence with message interpretation removed. The formal matrix retains blank, oracle-decoded, known-codebook and free-symbol conditions. Development seed `20260930` must pass designated-action, unassigned-wait and joint-success thresholds before any paired matrix. If it passes, the unused paired seeds remain `20260925`–`20260927` (four arms, 432 episodes). See `calibration_plan_v3.md`.

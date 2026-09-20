@@ -11,6 +11,9 @@ from research_program.qwen_agent_pilot.calibration import (
     _condition_order, run_condition, run_matrix,
 )
 from research_program.qwen_agent_pilot.calibration_dev import DEVELOPMENT_SEED, evaluate_gate
+from research_program.qwen_agent_pilot.calibration_oracle_dev import (
+    DEVELOPMENT_SEED as ORACLE_DEVELOPMENT_SEED, evaluate_gate as evaluate_oracle_gate,
+)
 from research_program.qwen_agent_pilot.pilot import parse_output, run_pilot, valid_message
 
 
@@ -122,8 +125,9 @@ def test_calibration_conditions_are_matched_and_codebook_is_valid():
         for i in range(len(CODEWORDS)) for j in range(i + 1, len(CODEWORDS))
     )
     assert _condition_order(0) == list(CONDITIONS)
-    assert _condition_order(1) == ["known_codebook", "free_symbols", "blank"]
-    assert _condition_order(2) == ["free_symbols", "blank", "known_codebook"]
+    assert _condition_order(1) == ["oracle_decoded", "known_codebook", "free_symbols", "blank"]
+    assert _condition_order(2) == ["known_codebook", "free_symbols", "blank", "oracle_decoded"]
+    assert ORACLE_DEVELOPMENT_SEED == 20260930
     assert DEFAULT_SEEDS == (20260925, 20260926, 20260927)
     assert DEVELOPMENT_SEED == 20260929
     assert "Every order has exactly one designated helper" in CALIBRATION_SYSTEM
@@ -140,6 +144,9 @@ def test_calibration_conditions_are_matched_and_codebook_is_valid():
     assert "You do not know the private order." not in codebook_prompt
     assert "Do not abstain when the matching row names you." in codebook_prompt
     assert "copy that entry's item_id" in codebook_prompt
+    oracle_prompt = helper_prompts[CONDITIONS.index("oracle_decoded")]
+    assert "Environment-provided decoded request" in oracle_prompt
+    assert "not a message from the requester" in oracle_prompt
     assert "responsible_helper" in codebook_prompt
 
     schedules = {}
@@ -163,8 +170,9 @@ def test_calibration_conditions_are_matched_and_codebook_is_valid():
         assert result["episodes"] == PILOT_EPISODES
         assert result["model_calls"] == 108
         assert result["team_success_rate"] == 0.0
-        if condition == "blank":
+        if condition in {"blank", "oracle_decoded"}:
             assert all(row["message"] == "" and row["message_valid"] is None for row in result["records"])
+            assert result["valid_message_rate_nonblank_channels"] is None
         elif condition == "known_codebook":
             assert result["known_codebook_encoder_accuracy"] == 1 / 6
         else:
@@ -188,6 +196,17 @@ def test_calibration_development_gate():
     assert not evaluate_gate(passing)["passed"]
 
 
+def test_oracle_task_competence_gate():
+    passing = {
+        "designated_helper_both_correct_rate": 30 / 36,
+        "unassigned_wait_rate": 30 / 36,
+        "team_success_rate": 28 / 36,
+    }
+    assert evaluate_oracle_gate(passing)["passed"]
+    passing["team_success_rate"] = 26 / 36
+    assert not evaluate_oracle_gate(passing)["passed"]
+
+
 def test_calibration_matrix_checkpoints_and_resumes():
     calls = []
 
@@ -201,9 +220,9 @@ def test_calibration_matrix_checkpoints_and_resumes():
         with patch("research_program.qwen_agent_pilot.calibration.run_condition",
                    side_effect=fake_run_condition):
             result = run_matrix("http://localhost/v1", "mock", (11, 12), out)
-        assert len(result["runs"]) == 6
+        assert len(result["runs"]) == 8
         assert len(result["paired_seed_contrasts"]) == 2
-        assert len(calls) == 6
+        assert len(calls) == 8
         with patch("research_program.qwen_agent_pilot.calibration.run_condition") as skipped:
             resumed = run_matrix("http://localhost/v1", "mock", (11, 12), out, resume=True)
         skipped.assert_not_called()
@@ -217,5 +236,6 @@ if __name__ == "__main__":
     test_mocked_runner_completes_balanced_schedule_and_metrics()
     test_calibration_conditions_are_matched_and_codebook_is_valid()
     test_calibration_development_gate()
+    test_oracle_task_competence_gate()
     test_calibration_matrix_checkpoints_and_resumes()
     print("qwen_agent_pilot tests passed")

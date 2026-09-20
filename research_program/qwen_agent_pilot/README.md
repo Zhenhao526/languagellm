@@ -18,7 +18,28 @@ The v1 screening protocol is preserved in [`calibration_plan.md`](calibration_pl
 
 The v1 matrix is complete. Qwen encoded the supplied codebook correctly, but the task prompt did not clearly tell non-designated helpers to wait; that rule was followed inconsistently, including in the positive-control condition. Free-symbol message–meaning association varied sharply by seed, with one seed collapsing to a single string. See the [audited v1 result and interpretation](results/calibration_20260920_analysis.md), the [episode-level data](results/calibration_20260920.json), and the [integrity manifest](results/calibration_20260920_manifest.json).
 
-V2 and v2.1 development gates failed on responsibility and item grounding; v2.2 improved item execution but still failed the designated-action threshold. Results and replay audits are preserved [here](results/calibration_v2_development_20260924_analysis.md), [here](results/calibration_v2_1_development_20260928_analysis.md), and [here](results/calibration_v2_2_development_20260929_analysis.md). No paired matrix has been run under these revised prompts. The next protocol adds an environment-provided decoded-order upper bound to test task competence separately from message interpretation. The formal comparison remains closed until that task-competence check passes.
+V2, v2.1, and v2.2 development results are preserved [here](results/calibration_v2_development_20260924_analysis.md), [here](results/calibration_v2_1_development_20260928_analysis.md), and [here](results/calibration_v2_2_development_20260929_analysis.md). None passed its prespecified task gate, so no revised paired matrix has been run. V3 adds an environment-provided decoded-order upper bound to test task competence separately from message interpretation. This is an external task-control condition, not peer communication. The frozen protocol is [`calibration_plan_v3.md`](calibration_plan_v3.md).
+
+First run the 36-episode oracle task-competence gate with seed `20260930`:
+
+```sh
+PYTHONPATH=. /Users/xia/.venvs/qwen35-mlx/bin/python \
+  -m research_program.qwen_agent_pilot.calibration_oracle_dev \
+  --model /Users/xia/Models/Qwen3.5-9B-8bit \
+  --seed 20260930 \
+  --out research_program/qwen_agent_pilot/results/calibration_v3_development_20260930.json
+```
+
+If all three thresholds pass, run or resume the four-condition matrix (432 episodes, 1,296 model calls) on the unused paired seeds `20260925`–`20260927`:
+
+```sh
+PYTHONPATH=. /Users/xia/.venvs/qwen35-mlx/bin/python \
+  -m research_program.qwen_agent_pilot.calibration \
+  --model /Users/xia/Models/Qwen3.5-9B-8bit \
+  --out research_program/qwen_agent_pilot/results/calibration_v3_20260920.json
+```
+
+Pass `--resume` with the same output path to continue an interrupted matrix. Each completed seed-condition run is checkpointed atomically.
 
 ## Reproduce locally
 
