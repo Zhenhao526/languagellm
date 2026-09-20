@@ -1,0 +1,74 @@
+{
+  "batch": "qwen_three_context_collection_pilot_20260920",
+  "generated_at_local": "2026-09-20",
+  "workspace_root": "/Users/xia/Documents/ChatGPT/语言",
+  "remote": {
+    "repository": "https://github.com/Zhenhao526/languagellm",
+    "branch": "main",
+    "artifact_commit": "fe4f9d1bfaeb7bab001686d3232ad7ca8c892cee",
+    "remote_main_verified_after_push": true
+  },
+  "experiment": {
+    "source_commit_for_run": "848d72a09bb6a7954b46bd96ecaab873ccf66e00",
+    "protocol": "balanced_six_meaning_two_block_v2",
+    "seed": 20260920,
+    "episodes": 36,
+    "model_calls": 108,
+    "result": {
+      "path": "research_program/qwen_agent_pilot/results/pilot_20260920.json",
+      "bytes": 33662,
+      "sha256": "3b3415687d269cff439b2334e28f59028e1d10fffb71e670fb0fc334f3e0f3d2"
+    },
+    "analysis": {
+      "path": "research_program/qwen_agent_pilot/results/pilot_20260920_analysis.md",
+      "bytes": 3424,
+      "sha256": "f56d99aa0ffa8ff791376333229fa1fa9ce0d579a8faf01d6823b62df29a4811"
+    },
+    "result_manifest_sha256": "59ca18668fe6a5b00004742af06e40324b9fad97fc041dacec0d0d3e7f69ed2f",
+    "raw_model_completions_retained": false,
+    "chain_of_thought_retained": false,
+    "reconstruction_and_outcome_audit": "passed"
+  },
+  "local_model_asset": {
+    "repo_id": "mlx-community/Qwen3.5-9B-8bit",
+    "revision": "16daa4818c54ce5f5436f929d52542eb65bbed9d",
+    "path": "/Users/xia/Models/Qwen3.5-9B-8bit",
+    "directory_files": 42,
+    "directory_bytes": 10453448252,
+    "weight_shard_bytes": 10426592423,
+    "model_lock_path": "research_program/qwen_agent_pilot/model_lock.json",
+    "model_lock_sha256": "10b8092f32b20e2cf32923f3a00a67ba3ae777ad0761d3f3fe187f58b98c4a01",
+    "shards": [
+      {
+        "file": "model-00001-of-00002.safetensors",
+        "size_bytes": 5339522525,
+        "sha256": "0dcb3cdba0f43743875c861792685da5266aebcb58f7c0e345b9cd090bb0d289",
+        "verified": true
+      },
+      {
+        "file": "model-00002-of-00002.safetensors",
+        "size_bytes": 5087069898,
+        "sha256": "5abf861e7a13e7af805105270b2648634b41fda02238ae8ee1bd64628acce9b1",
+        "verified": true
+      }
+    ],
+    "uploaded_to_git": false,
+    "duplicate_huggingface_cache_copy_found": false,
+    "needed_for_follow_up_experiments": true
+  },
+  "runtime_environment": {
+    "path": "/Users/xia/.venvs/qwen35-mlx",
+    "requirements_lock": "research_program/qwen_agent_pilot/requirements.macos-arm64.lock",
+    "model_server_stopped_after_run": true
+  },
+  "cleanup": {
+    "zero_byte_stale_incomplete_files_removed": 2,
+    "bytes_reclaimed": 0,
+    "remaining_incomplete_weight_files": 0,
+    "available_disk_at_check": "approximately 1.1 TiB",
+    "zero_byte_partial_bytes_reclaimed": 0,
+    "generated_python_cache_directories_removed": 2,
+    "bytes_reclaimed_from_python_caches": 30787,
+    "bytes_reclaimed_total": 30787
+  }
+}
