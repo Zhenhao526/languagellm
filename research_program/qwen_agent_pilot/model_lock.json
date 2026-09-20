@@ -1,0 +1,25 @@
+{
+  "repo_id": "mlx-community/Qwen3.5-9B-8bit",
+  "revision": "16daa4818c54ce5f5436f929d52542eb65bbed9d",
+  "model_card": "https://huggingface.co/mlx-community/Qwen3.5-9B-8bit",
+  "download_transport": "https://hf-mirror.com (transfer only; verify each shard against official Hugging Face Hub SHA-256 metadata)",
+  "local_path": "/Users/xia/Models/Qwen3.5-9B-8bit",
+  "weights_uploaded_to_git": false,
+  "verification_status": "verified",
+  "verified_at": "2026-09-20",
+  "verification_method": "SHA-256 over each complete local shard, matched against official Hub metadata for the pinned revision",
+  "expected_total_repo_bytes": 10453444655,
+  "expected_total_shard_bytes": 10426592423,
+  "shards": [
+    {
+      "file": "model-00001-of-00002.safetensors",
+      "size_bytes": 5339522525,
+      "sha256": "0dcb3cdba0f43743875c861792685da5266aebcb58f7c0e345b9cd090bb0d289"
+    },
+    {
+      "file": "model-00002-of-00002.safetensors",
+      "size_bytes": 5087069898,
+      "sha256": "5abf861e7a13e7af805105270b2648634b41fda02238ae8ee1bd64628acce9b1"
+    }
+  ]
+}

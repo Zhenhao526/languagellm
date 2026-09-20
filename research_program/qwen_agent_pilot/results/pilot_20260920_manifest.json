@@ -1,0 +1,38 @@
+{
+  "name": "qwen_three_context_collection_pilot_20260920",
+  "date_local": "2026-09-20",
+  "protocol": "balanced_six_meaning_two_block_v2",
+  "schema": "qwen_three_context_collection_pilot_v2",
+  "source_commit_for_run": "848d72a09bb6a7954b46bd96ecaab873ccf66e00",
+  "model_lock": "model_lock.json",
+  "model_lock_sha256": "10b8092f32b20e2cf32923f3a00a67ba3ae777ad0761d3f3fe187f58b98c4a01",
+  "seed": 20260920,
+  "episodes": 36,
+  "model_calls": 108,
+  "result": {
+    "path": "pilot_20260920.json",
+    "bytes": 33662,
+    "sha256": "3b3415687d269cff439b2334e28f59028e1d10fffb71e670fb0fc334f3e0f3d2"
+  },
+  "analysis": {
+    "path": "pilot_20260920_analysis.md",
+    "bytes": 3424,
+    "sha256": "f56d99aa0ffa8ff791376333229fa1fa9ce0d579a8faf01d6823b62df29a4811",
+    "script_path": "analyze.py",
+    "script_sha256": "ab119410c84ab4238eb76a9fe3073fe270e693701f4a27848e15a7a409b24d92"
+  },
+  "audit": {
+    "environment_reconstruction": "passed",
+    "joint_outcome_replay": "passed",
+    "raw_completions_retained": false,
+    "chain_of_thought_retained": false
+  },
+  "summary": {
+    "valid_messages": "36/36",
+    "distinct_messages": 2,
+    "within_sender_meaning_repeat": "15/18",
+    "final_cross_sender_meaning_agreement": "0/6",
+    "joint_success": "1/36"
+  },
+  "model_weights_in_git": false
+}

@@ -47,7 +47,7 @@
 - [开放世界文化传递本地清理收据](LOCAL_CLEANUP_RECEIPT_2026-09-18_open_world_cultural_transmission.json)
 - [开放世界 grounding transfer：表面置换与组合文化传递正式结果](research_program/open_world_grounding_transfer_study/results/formal_20260918/)
 - [incumbent receiver 的表面置换损失与组合修复正式结果](research_program/open_world_grounding_incumbent_study/results/formal_20260919/)
-- [Qwen 三上下文协作预实验方案与运行记录](research_program/qwen_agent_pilot/)
+- [Qwen 三上下文协作预实验方案与结果分析](research_program/qwen_agent_pilot/)
 - [本轮同步与本地清理记录](SYNC_2026-09-19_open_world_grounding_incumbent.md)
 - [本轮本地清理收据](LOCAL_CLEANUP_RECEIPT_2026-09-19_open_world_grounding_incumbent.json)
 - [开放世界 grounding transfer 源代码与实验设计](research_program/open_world_grounding_transfer_study/)

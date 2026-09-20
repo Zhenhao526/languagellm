@@ -192,6 +192,9 @@ def run_pilot(base_url: str, model: str, seed: int, episodes: int = PILOT_EPISOD
             "meaning_id": episode["meaning_id"],
             "owner": owner,
             "goal": episode["goal"],
+            "public_board": episode["scene"],
+            "target_item_id": episode["target_item_id"],
+            "destinations": episode["destinations"],
             "message": message,
             "message_valid": owner_result["message_valid"],
             "owner_json_valid": owner_result["json_valid"],
@@ -226,7 +229,7 @@ def run_pilot(base_url: str, model: str, seed: int, episodes: int = PILOT_EPISOD
         cross_sender_match.append(all_valid and len({x["message"] for x in senders}) == 1)
 
     return {
-        "schema": "qwen_three_context_collection_pilot_v2",
+        "schema": "qwen_three_context_collection_pilot_v3",
         "task_version": "balanced_six_meaning_two_block_v2",
         "model": model,
         "model_revision": "16daa4818c54ce5f5436f929d52542eb65bbed9d",
@@ -263,6 +266,27 @@ def run_pilot(base_url: str, model: str, seed: int, episodes: int = PILOT_EPISOD
                 if r["owner"] == owner and r["block"] == block
             ) / sum(r["owner"] == owner and r["block"] == block for r in records)
             for owner in AGENTS for block in sorted({r["block"] for r in records})
+        },
+        "designated_item_accuracy_by_block": {
+            str(block): sum(
+                r["outcome"]["designated_item_correct"]
+                for r in records if r["block"] == block
+            ) / sum(r["block"] == block for r in records)
+            for block in sorted({r["block"] for r in records})
+        },
+        "designated_destination_accuracy_by_block": {
+            str(block): sum(
+                r["outcome"]["designated_destination_correct"]
+                for r in records if r["block"] == block
+            ) / sum(r["block"] == block for r in records)
+            for block in sorted({r["block"] for r in records})
+        },
+        "unassigned_wait_rate_by_block": {
+            str(block): sum(
+                r["outcome"]["unassigned_helper_waited"]
+                for r in records if r["block"] == block
+            ) / sum(r["block"] == block for r in records)
+            for block in sorted({r["block"] for r in records})
         },
         "records": records,
         "raw_model_completions_retained": False,

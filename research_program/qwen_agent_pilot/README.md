@@ -6,9 +6,15 @@ The pilot uses no processing stage, road event, shared image, object index as a 
 
 The first run is a feasibility and prompt-compliance test, not evidence of language emergence. Qwen already has strong linguistic and symbolic priors; a successful convention may reflect those priors and shared instructions. The run must therefore be interpreted alongside the non-linguistic policy results and later baseline/ablation conditions.
 
+## First pilot result
+
+The 2026-09-20 run completed 36 balanced episodes in 210.7 seconds. All 36 requester messages passed the symbol constraint and all 72 helper actions parsed, but joint success was only 1/36. The model used just two distinct strings; in the final block each requester sent one constant string across all six meanings, and the three senders did not share one message per meaning. This is a protocol-compliance result, not evidence that a semantic code formed. The episode audit and limits are in [`results/pilot_20260920_analysis.md`](results/pilot_20260920_analysis.md); the compact episode record and SHA-256 receipt are [`results/pilot_20260920.json`](results/pilot_20260920.json) and [`results/pilot_20260920_manifest.json`](results/pilot_20260920_manifest.json).
+
+The first prompt-only run cannot separate weak communication from task competence, sparse feedback or insufficient exposure. The next step is a matched calibration of an empty channel, a known shared codebook and free symbol communication before increasing repetitions or varying ecological factors.
+
 ## Reproduce locally
 
-The pinned Apple Silicon environment is recorded in [`requirements.macos-arm64.lock`](requirements.macos-arm64.lock). Model weights are stored at `/Users/xia/Models/Qwen3.5-9B-8bit` and are not part of this repository. Start the API server bound to loopback:
+The pinned Apple Silicon environment is recorded in [`requirements.macos-arm64.lock`](requirements.macos-arm64.lock), and the model revision plus official expected shard hashes are in [`model_lock.json`](model_lock.json). Model weights are stored at `/Users/xia/Models/Qwen3.5-9B-8bit` and are not part of this repository. Start the API server bound to loopback:
 
 ```sh
 /Users/xia/.venvs/qwen35-mlx/bin/python -m mlx_vlm.server \

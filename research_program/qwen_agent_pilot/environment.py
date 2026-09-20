@@ -104,6 +104,8 @@ def score_episode(episode: dict, actions: dict[str, dict | None]) -> dict:
     return {
         "success": success,
         "reward": 1.0 if success else -0.25,
+        "designated_item_correct": bool(exact_item),
+        "designated_destination_correct": bool(exact_destination),
         "designated_helper_correct": bool(exact_item and exact_destination),
         "unassigned_helper_waited": bool(unassigned_waited),
     }

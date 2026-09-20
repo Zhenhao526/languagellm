@@ -3,6 +3,7 @@ from unittest.mock import Mock, patch
 from research_program.qwen_agent_pilot.environment import (
     AGENTS, EPISODES_PER_BLOCK, MEANING_POOL, PILOT_EPISODES, make_episode, score_episode,
 )
+from research_program.qwen_agent_pilot.analyze import analyze_result
 from research_program.qwen_agent_pilot.pilot import parse_output, run_pilot, valid_message
 
 
@@ -54,14 +55,20 @@ def test_joint_reward_requires_assignment_and_destination():
     goal = episode["goal"]
     correct = {goal["partner"]: {"item_id": episode["target_item_id"],
                                  "destination": goal["destination"]}}
-    assert score_episode(episode, correct)["success"]
+    correct_outcome = score_episode(episode, correct)
+    assert correct_outcome["success"]
+    assert correct_outcome["designated_item_correct"]
+    assert correct_outcome["designated_destination_correct"]
     wrong_destination_value = next(
         destination for destination in episode["destinations"]
         if destination != goal["destination"]
     )
     wrong_destination = {goal["partner"]: {"item_id": episode["target_item_id"],
                                            "destination": wrong_destination_value}}
-    assert not score_episode(episode, wrong_destination)["success"]
+    wrong_outcome = score_episode(episode, wrong_destination)
+    assert not wrong_outcome["success"]
+    assert wrong_outcome["designated_item_correct"]
+    assert not wrong_outcome["designated_destination_correct"]
     other = next(a for a in episode["helpers"] if a != goal["partner"])
     duplicated = dict(correct)
     duplicated[other] = {"item_id": episode["target_item_id"],
@@ -92,6 +99,12 @@ def test_mocked_runner_completes_balanced_schedule_and_metrics():
     assert result["cross_sender_message_agreement_rate_all_meanings"] == 1.0
     assert result["prompt_tokens_reported_by_server"] == 1080
     assert result["team_success_rate_by_block"] == {"0": 0.0, "1": 0.0}
+    assert result["designated_item_accuracy_by_block"] == {"0": 0.0, "1": 0.0}
+    assert result["records"][0]["target_item_id"] in {f"I{i}" for i in range(4)}
+    audit = analyze_result(result)
+    assert audit["episodes"] == PILOT_EPISODES
+    assert audit["stable_sender_meaning_pairs"] == 18
+    assert audit["cross_sender_meaning_agreement"] == 6
 
 
 if __name__ == "__main__":
