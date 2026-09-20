@@ -1,0 +1,2574 @@
+{
+  "calibration_version": "matched_channel_calibration_v2_2_explicit_board_grounding",
+  "role": "development_only_not_in_paired_matrix",
+  "protocol_source_commit": "e337fc3ede3eb79d68b53d1438a9183baf8ea613",
+  "model": "/Users/xia/Models/Qwen3.5-9B-8bit",
+  "model_revision": "16daa4818c54ce5f5436f929d52542eb65bbed9d",
+  "seed": 20260929,
+  "temperature": 0.35,
+  "max_tokens": 120,
+  "condition": "known_codebook",
+  "gate_thresholds": {
+    "known_codebook_encoder_accuracy": 0.9722222222222222,
+    "designated_helper_both_correct_rate": 0.8055555555555556,
+    "unassigned_wait_rate": 0.8055555555555556,
+    "team_success_rate": 0.75
+  },
+  "gate": {
+    "passed": false,
+    "checks": {
+      "known_codebook_encoder_accuracy": {
+        "observed": 1.0,
+        "threshold": 0.9722222222222222,
+        "passed": true
+      },
+      "designated_helper_both_correct_rate": {
+        "observed": 0.6111111111111112,
+        "threshold": 0.8055555555555556,
+        "passed": false
+      },
+      "unassigned_wait_rate": {
+        "observed": 0.9722222222222222,
+        "threshold": 0.8055555555555556,
+        "passed": true
+      },
+      "team_success_rate": {
+        "observed": 0.5833333333333334,
+        "threshold": 0.75,
+        "passed": false
+      }
+    }
+  },
+  "raw_model_completions_retained": false,
+  "chain_of_thought_retained": false,
+  "run": {
+    "condition": "known_codebook",
+    "seed": 20260929,
+    "episodes": 36,
+    "wall_time_seconds": 445.585351228714,
+    "model_calls": 108,
+    "prompt_tokens_reported_by_server": 1082416,
+    "completion_tokens_reported_by_server": 1006,
+    "owner_json_valid_rate": 1.0,
+    "helper_json_valid_rate": 1.0,
+    "helper_action_valid_rate": 0.9861111111111112,
+    "valid_message_rate_nonblank_channels": 1.0,
+    "known_codebook_encoder_accuracy": 1.0,
+    "unique_messages": 6,
+    "sender_meaning_exact_repeat_rate": 1.0,
+    "cross_sender_agreement_final_block": 1.0,
+    "message_owner_mutual_information_bits": 0.0,
+    "message_meaning_mutual_information_bits": 2.584962500721156,
+    "team_success_rate": 0.5833333333333334,
+    "designated_item_accuracy": 0.6111111111111112,
+    "designated_destination_accuracy": 0.6388888888888888,
+    "designated_helper_both_correct_rate": 0.6111111111111112,
+    "unassigned_wait_rate": 0.9722222222222222,
+    "team_success_by_block": {
+      "0": 0.5555555555555556,
+      "1": 0.6111111111111112
+    },
+    "metrics_by_block": {
+      "0": {
+        "n": 18,
+        "team_success": 10,
+        "designated_item_correct": 11,
+        "designated_destination_correct": 12,
+        "unassigned_helper_waited": 17
+      },
+      "1": {
+        "n": 18,
+        "team_success": 11,
+        "designated_item_correct": 11,
+        "designated_destination_correct": 11,
+        "unassigned_helper_waited": 18
+      }
+    },
+    "records": [
+      {
+        "episode": 0,
+        "block": 0,
+        "meaning_id": 2,
+        "owner": "B",
+        "goal": {
+          "object": "stone",
+          "attribute": "green",
+          "partner": "A",
+          "partner_position": 0,
+          "destination": "forest camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "stone",
+            "attribute": "blue"
+          },
+          {
+            "item_id": "I1",
+            "object": "wood",
+            "attribute": "blue"
+          },
+          {
+            "item_id": "I2",
+            "object": "stone",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I3",
+            "object": "stone",
+            "attribute": "red"
+          }
+        ],
+        "target_item_id": "I2",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "?##&+?",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "A": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "C": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "A": {
+            "item_id": "I2",
+            "destination": "forest camp"
+          },
+          "C": null
+        },
+        "outcome": {
+          "success": true,
+          "reward": 1.0,
+          "designated_item_correct": true,
+          "designated_destination_correct": true,
+          "designated_helper_correct": true,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 1,
+        "block": 0,
+        "meaning_id": 5,
+        "owner": "B",
+        "goal": {
+          "object": "stone",
+          "attribute": "red",
+          "partner": "C",
+          "partner_position": 1,
+          "destination": "hill camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "wood",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I1",
+            "object": "stone",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I2",
+            "object": "stone",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I3",
+            "object": "stone",
+            "attribute": "blue"
+          }
+        ],
+        "target_item_id": "I2",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "@%=~#+",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "A": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "C": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "A": null,
+          "C": {
+            "item_id": "I2",
+            "destination": "hill camp"
+          }
+        },
+        "outcome": {
+          "success": true,
+          "reward": 1.0,
+          "designated_item_correct": true,
+          "designated_destination_correct": true,
+          "designated_helper_correct": true,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 2,
+        "block": 0,
+        "meaning_id": 0,
+        "owner": "B",
+        "goal": {
+          "object": "berry",
+          "attribute": "red",
+          "partner": "A",
+          "partner_position": 0,
+          "destination": "river camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "berry",
+            "attribute": "blue"
+          },
+          {
+            "item_id": "I1",
+            "object": "berry",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I2",
+            "object": "stone",
+            "attribute": "blue"
+          },
+          {
+            "item_id": "I3",
+            "object": "berry",
+            "attribute": "red"
+          }
+        ],
+        "target_item_id": "I3",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "+%~?=&",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "A": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "C": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "A": {
+            "item_id": "I3",
+            "destination": "river camp"
+          },
+          "C": null
+        },
+        "outcome": {
+          "success": true,
+          "reward": 1.0,
+          "designated_item_correct": true,
+          "designated_destination_correct": true,
+          "designated_helper_correct": true,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 3,
+        "block": 0,
+        "meaning_id": 0,
+        "owner": "C",
+        "goal": {
+          "object": "berry",
+          "attribute": "red",
+          "partner": "A",
+          "partner_position": 0,
+          "destination": "river camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "wood",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I1",
+            "object": "berry",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I2",
+            "object": "berry",
+            "attribute": "blue"
+          },
+          {
+            "item_id": "I3",
+            "object": "berry",
+            "attribute": "red"
+          }
+        ],
+        "target_item_id": "I3",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "+%~?=&",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "A": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "B": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "A": {
+            "item_id": "I3",
+            "destination": "river camp"
+          },
+          "B": null
+        },
+        "outcome": {
+          "success": true,
+          "reward": 1.0,
+          "designated_item_correct": true,
+          "designated_destination_correct": true,
+          "designated_helper_correct": true,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 4,
+        "block": 0,
+        "meaning_id": 3,
+        "owner": "A",
+        "goal": {
+          "object": "berry",
+          "attribute": "blue",
+          "partner": "C",
+          "partner_position": 1,
+          "destination": "forest camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "berry",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I1",
+            "object": "berry",
+            "attribute": "blue"
+          },
+          {
+            "item_id": "I2",
+            "object": "stone",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I3",
+            "object": "berry",
+            "attribute": "green"
+          }
+        ],
+        "target_item_id": "I1",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "%?~~&=",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "B": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "C": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "B": null,
+          "C": {
+            "item_id": "I1",
+            "destination": "forest camp"
+          }
+        },
+        "outcome": {
+          "success": true,
+          "reward": 1.0,
+          "designated_item_correct": true,
+          "designated_destination_correct": true,
+          "designated_helper_correct": true,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 5,
+        "block": 0,
+        "meaning_id": 5,
+        "owner": "A",
+        "goal": {
+          "object": "stone",
+          "attribute": "red",
+          "partner": "C",
+          "partner_position": 1,
+          "destination": "hill camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "stone",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I1",
+            "object": "stone",
+            "attribute": "blue"
+          },
+          {
+            "item_id": "I2",
+            "object": "wood",
+            "attribute": "blue"
+          },
+          {
+            "item_id": "I3",
+            "object": "stone",
+            "attribute": "green"
+          }
+        ],
+        "target_item_id": "I0",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "@%=~#+",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "B": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "C": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "B": null,
+          "C": {
+            "item_id": "I0",
+            "destination": "hill camp"
+          }
+        },
+        "outcome": {
+          "success": true,
+          "reward": 1.0,
+          "designated_item_correct": true,
+          "designated_destination_correct": true,
+          "designated_helper_correct": true,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 6,
+        "block": 0,
+        "meaning_id": 0,
+        "owner": "A",
+        "goal": {
+          "object": "berry",
+          "attribute": "red",
+          "partner": "B",
+          "partner_position": 0,
+          "destination": "river camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "wood",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I1",
+            "object": "berry",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I2",
+            "object": "berry",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I3",
+            "object": "berry",
+            "attribute": "blue"
+          }
+        ],
+        "target_item_id": "I2",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "+%~?=&",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "B": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "C": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "B": null,
+          "C": null
+        },
+        "outcome": {
+          "success": false,
+          "reward": -0.25,
+          "designated_item_correct": false,
+          "designated_destination_correct": false,
+          "designated_helper_correct": false,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 7,
+        "block": 0,
+        "meaning_id": 2,
+        "owner": "C",
+        "goal": {
+          "object": "stone",
+          "attribute": "green",
+          "partner": "A",
+          "partner_position": 0,
+          "destination": "forest camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "stone",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I1",
+            "object": "berry",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I2",
+            "object": "stone",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I3",
+            "object": "stone",
+            "attribute": "blue"
+          }
+        ],
+        "target_item_id": "I2",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "?##&+?",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "A": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "B": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "A": {
+            "item_id": "I2",
+            "destination": "forest camp"
+          },
+          "B": null
+        },
+        "outcome": {
+          "success": true,
+          "reward": 1.0,
+          "designated_item_correct": true,
+          "designated_destination_correct": true,
+          "designated_helper_correct": true,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 8,
+        "block": 0,
+        "meaning_id": 4,
+        "owner": "A",
+        "goal": {
+          "object": "wood",
+          "attribute": "green",
+          "partner": "B",
+          "partner_position": 0,
+          "destination": "river camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "stone",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I1",
+            "object": "wood",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I2",
+            "object": "wood",
+            "attribute": "blue"
+          },
+          {
+            "item_id": "I3",
+            "object": "wood",
+            "attribute": "green"
+          }
+        ],
+        "target_item_id": "I3",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "~=~&?&",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "B": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "C": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "B": null,
+          "C": null
+        },
+        "outcome": {
+          "success": false,
+          "reward": -0.25,
+          "designated_item_correct": false,
+          "designated_destination_correct": false,
+          "designated_helper_correct": false,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 9,
+        "block": 0,
+        "meaning_id": 3,
+        "owner": "C",
+        "goal": {
+          "object": "berry",
+          "attribute": "blue",
+          "partner": "B",
+          "partner_position": 1,
+          "destination": "forest camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "wood",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I1",
+            "object": "berry",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I2",
+            "object": "berry",
+            "attribute": "blue"
+          },
+          {
+            "item_id": "I3",
+            "object": "berry",
+            "attribute": "green"
+          }
+        ],
+        "target_item_id": "I2",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "%?~~&=",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "A": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "B": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "A": null,
+          "B": null
+        },
+        "outcome": {
+          "success": false,
+          "reward": -0.25,
+          "designated_item_correct": false,
+          "designated_destination_correct": false,
+          "designated_helper_correct": false,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 10,
+        "block": 0,
+        "meaning_id": 4,
+        "owner": "C",
+        "goal": {
+          "object": "wood",
+          "attribute": "green",
+          "partner": "A",
+          "partner_position": 0,
+          "destination": "river camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "wood",
+            "attribute": "blue"
+          },
+          {
+            "item_id": "I1",
+            "object": "stone",
+            "attribute": "blue"
+          },
+          {
+            "item_id": "I2",
+            "object": "wood",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I3",
+            "object": "wood",
+            "attribute": "green"
+          }
+        ],
+        "target_item_id": "I3",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "~=~&?&",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "A": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "B": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "A": {
+            "item_id": "I0",
+            "destination": "river camp"
+          },
+          "B": null
+        },
+        "outcome": {
+          "success": false,
+          "reward": -0.25,
+          "designated_item_correct": false,
+          "designated_destination_correct": true,
+          "designated_helper_correct": false,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 11,
+        "block": 0,
+        "meaning_id": 2,
+        "owner": "A",
+        "goal": {
+          "object": "stone",
+          "attribute": "green",
+          "partner": "B",
+          "partner_position": 0,
+          "destination": "forest camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "wood",
+            "attribute": "blue"
+          },
+          {
+            "item_id": "I1",
+            "object": "stone",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I2",
+            "object": "stone",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I3",
+            "object": "stone",
+            "attribute": "blue"
+          }
+        ],
+        "target_item_id": "I2",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "?##&+?",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "B": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "C": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "B": null,
+          "C": null
+        },
+        "outcome": {
+          "success": false,
+          "reward": -0.25,
+          "designated_item_correct": false,
+          "designated_destination_correct": false,
+          "designated_helper_correct": false,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 12,
+        "block": 0,
+        "meaning_id": 1,
+        "owner": "C",
+        "goal": {
+          "object": "wood",
+          "attribute": "blue",
+          "partner": "B",
+          "partner_position": 1,
+          "destination": "hill camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "wood",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I1",
+            "object": "stone",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I2",
+            "object": "wood",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I3",
+            "object": "wood",
+            "attribute": "blue"
+          }
+        ],
+        "target_item_id": "I3",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "~=@%+~",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "A": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "B": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "A": null,
+          "B": null
+        },
+        "outcome": {
+          "success": false,
+          "reward": -0.25,
+          "designated_item_correct": false,
+          "designated_destination_correct": false,
+          "designated_helper_correct": false,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 13,
+        "block": 0,
+        "meaning_id": 1,
+        "owner": "A",
+        "goal": {
+          "object": "wood",
+          "attribute": "blue",
+          "partner": "C",
+          "partner_position": 1,
+          "destination": "hill camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "wood",
+            "attribute": "blue"
+          },
+          {
+            "item_id": "I1",
+            "object": "wood",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I2",
+            "object": "berry",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I3",
+            "object": "wood",
+            "attribute": "red"
+          }
+        ],
+        "target_item_id": "I0",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "~=@%+~",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "B": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "C": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "B": null,
+          "C": {
+            "item_id": "I0",
+            "destination": "hill camp"
+          }
+        },
+        "outcome": {
+          "success": true,
+          "reward": 1.0,
+          "designated_item_correct": true,
+          "designated_destination_correct": true,
+          "designated_helper_correct": true,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 14,
+        "block": 0,
+        "meaning_id": 1,
+        "owner": "B",
+        "goal": {
+          "object": "wood",
+          "attribute": "blue",
+          "partner": "C",
+          "partner_position": 1,
+          "destination": "hill camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "wood",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I1",
+            "object": "berry",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I2",
+            "object": "wood",
+            "attribute": "blue"
+          },
+          {
+            "item_id": "I3",
+            "object": "wood",
+            "attribute": "green"
+          }
+        ],
+        "target_item_id": "I2",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "~=@%+~",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "A": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "C": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "A": {
+            "item_id": "I2",
+            "destination": "hill camp"
+          },
+          "C": {
+            "item_id": "I2",
+            "destination": "hill camp"
+          }
+        },
+        "outcome": {
+          "success": false,
+          "reward": -0.25,
+          "designated_item_correct": true,
+          "designated_destination_correct": true,
+          "designated_helper_correct": true,
+          "unassigned_helper_waited": false
+        }
+      },
+      {
+        "episode": 15,
+        "block": 0,
+        "meaning_id": 3,
+        "owner": "B",
+        "goal": {
+          "object": "berry",
+          "attribute": "blue",
+          "partner": "C",
+          "partner_position": 1,
+          "destination": "forest camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "stone",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I1",
+            "object": "berry",
+            "attribute": "blue"
+          },
+          {
+            "item_id": "I2",
+            "object": "berry",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I3",
+            "object": "berry",
+            "attribute": "green"
+          }
+        ],
+        "target_item_id": "I1",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "%?~~&=",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "A": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "C": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "A": null,
+          "C": {
+            "item_id": "I1",
+            "destination": "forest camp"
+          }
+        },
+        "outcome": {
+          "success": true,
+          "reward": 1.0,
+          "designated_item_correct": true,
+          "designated_destination_correct": true,
+          "designated_helper_correct": true,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 16,
+        "block": 0,
+        "meaning_id": 5,
+        "owner": "C",
+        "goal": {
+          "object": "stone",
+          "attribute": "red",
+          "partner": "B",
+          "partner_position": 1,
+          "destination": "hill camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "wood",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I1",
+            "object": "stone",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I2",
+            "object": "stone",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I3",
+            "object": "stone",
+            "attribute": "blue"
+          }
+        ],
+        "target_item_id": "I2",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "@%=~#+",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "A": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "B": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "A": null,
+          "B": null
+        },
+        "outcome": {
+          "success": false,
+          "reward": -0.25,
+          "designated_item_correct": false,
+          "designated_destination_correct": false,
+          "designated_helper_correct": false,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 17,
+        "block": 0,
+        "meaning_id": 4,
+        "owner": "B",
+        "goal": {
+          "object": "wood",
+          "attribute": "green",
+          "partner": "A",
+          "partner_position": 0,
+          "destination": "river camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "wood",
+            "attribute": "blue"
+          },
+          {
+            "item_id": "I1",
+            "object": "stone",
+            "attribute": "blue"
+          },
+          {
+            "item_id": "I2",
+            "object": "wood",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I3",
+            "object": "wood",
+            "attribute": "red"
+          }
+        ],
+        "target_item_id": "I2",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "~=~&?&",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "A": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "C": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "A": {
+            "item_id": "I2",
+            "destination": "river camp"
+          },
+          "C": null
+        },
+        "outcome": {
+          "success": true,
+          "reward": 1.0,
+          "designated_item_correct": true,
+          "designated_destination_correct": true,
+          "designated_helper_correct": true,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 18,
+        "block": 1,
+        "meaning_id": 0,
+        "owner": "B",
+        "goal": {
+          "object": "berry",
+          "attribute": "red",
+          "partner": "A",
+          "partner_position": 0,
+          "destination": "river camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "berry",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I1",
+            "object": "stone",
+            "attribute": "blue"
+          },
+          {
+            "item_id": "I2",
+            "object": "berry",
+            "attribute": "blue"
+          },
+          {
+            "item_id": "I3",
+            "object": "berry",
+            "attribute": "red"
+          }
+        ],
+        "target_item_id": "I3",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "+%~?=&",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "A": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "C": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "A": {
+            "item_id": "I3",
+            "destination": "river camp"
+          },
+          "C": null
+        },
+        "outcome": {
+          "success": true,
+          "reward": 1.0,
+          "designated_item_correct": true,
+          "designated_destination_correct": true,
+          "designated_helper_correct": true,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 19,
+        "block": 1,
+        "meaning_id": 1,
+        "owner": "B",
+        "goal": {
+          "object": "wood",
+          "attribute": "blue",
+          "partner": "C",
+          "partner_position": 1,
+          "destination": "hill camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "wood",
+            "attribute": "blue"
+          },
+          {
+            "item_id": "I1",
+            "object": "wood",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I2",
+            "object": "wood",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I3",
+            "object": "stone",
+            "attribute": "green"
+          }
+        ],
+        "target_item_id": "I0",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "~=@%+~",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "A": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "C": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "A": null,
+          "C": {
+            "item_id": "I0",
+            "destination": "hill camp"
+          }
+        },
+        "outcome": {
+          "success": true,
+          "reward": 1.0,
+          "designated_item_correct": true,
+          "designated_destination_correct": true,
+          "designated_helper_correct": true,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 20,
+        "block": 1,
+        "meaning_id": 4,
+        "owner": "A",
+        "goal": {
+          "object": "wood",
+          "attribute": "green",
+          "partner": "B",
+          "partner_position": 0,
+          "destination": "river camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "wood",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I1",
+            "object": "stone",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I2",
+            "object": "wood",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I3",
+            "object": "wood",
+            "attribute": "blue"
+          }
+        ],
+        "target_item_id": "I0",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "~=~&?&",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "B": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "C": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "B": null,
+          "C": null
+        },
+        "outcome": {
+          "success": false,
+          "reward": -0.25,
+          "designated_item_correct": false,
+          "designated_destination_correct": false,
+          "designated_helper_correct": false,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 21,
+        "block": 1,
+        "meaning_id": 0,
+        "owner": "A",
+        "goal": {
+          "object": "berry",
+          "attribute": "red",
+          "partner": "B",
+          "partner_position": 0,
+          "destination": "river camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "berry",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I1",
+            "object": "berry",
+            "attribute": "blue"
+          },
+          {
+            "item_id": "I2",
+            "object": "wood",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I3",
+            "object": "berry",
+            "attribute": "red"
+          }
+        ],
+        "target_item_id": "I3",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "+%~?=&",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "B": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "C": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "B": null,
+          "C": null
+        },
+        "outcome": {
+          "success": false,
+          "reward": -0.25,
+          "designated_item_correct": false,
+          "designated_destination_correct": false,
+          "designated_helper_correct": false,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 22,
+        "block": 1,
+        "meaning_id": 1,
+        "owner": "A",
+        "goal": {
+          "object": "wood",
+          "attribute": "blue",
+          "partner": "C",
+          "partner_position": 1,
+          "destination": "hill camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "wood",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I1",
+            "object": "stone",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I2",
+            "object": "wood",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I3",
+            "object": "wood",
+            "attribute": "blue"
+          }
+        ],
+        "target_item_id": "I3",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "~=@%+~",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "B": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "C": {
+            "json_valid": true,
+            "action_valid": false
+          }
+        },
+        "actions": {
+          "B": null,
+          "C": null
+        },
+        "outcome": {
+          "success": false,
+          "reward": -0.25,
+          "designated_item_correct": false,
+          "designated_destination_correct": false,
+          "designated_helper_correct": false,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 23,
+        "block": 1,
+        "meaning_id": 3,
+        "owner": "C",
+        "goal": {
+          "object": "berry",
+          "attribute": "blue",
+          "partner": "B",
+          "partner_position": 1,
+          "destination": "forest camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "berry",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I1",
+            "object": "berry",
+            "attribute": "blue"
+          },
+          {
+            "item_id": "I2",
+            "object": "stone",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I3",
+            "object": "berry",
+            "attribute": "red"
+          }
+        ],
+        "target_item_id": "I1",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "%?~~&=",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "A": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "B": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "A": null,
+          "B": null
+        },
+        "outcome": {
+          "success": false,
+          "reward": -0.25,
+          "designated_item_correct": false,
+          "designated_destination_correct": false,
+          "designated_helper_correct": false,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 24,
+        "block": 1,
+        "meaning_id": 2,
+        "owner": "B",
+        "goal": {
+          "object": "stone",
+          "attribute": "green",
+          "partner": "A",
+          "partner_position": 0,
+          "destination": "forest camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "stone",
+            "attribute": "blue"
+          },
+          {
+            "item_id": "I1",
+            "object": "wood",
+            "attribute": "blue"
+          },
+          {
+            "item_id": "I2",
+            "object": "stone",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I3",
+            "object": "stone",
+            "attribute": "red"
+          }
+        ],
+        "target_item_id": "I2",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "?##&+?",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "A": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "C": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "A": {
+            "item_id": "I2",
+            "destination": "forest camp"
+          },
+          "C": null
+        },
+        "outcome": {
+          "success": true,
+          "reward": 1.0,
+          "designated_item_correct": true,
+          "designated_destination_correct": true,
+          "designated_helper_correct": true,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 25,
+        "block": 1,
+        "meaning_id": 4,
+        "owner": "C",
+        "goal": {
+          "object": "wood",
+          "attribute": "green",
+          "partner": "A",
+          "partner_position": 0,
+          "destination": "river camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "wood",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I1",
+            "object": "wood",
+            "attribute": "blue"
+          },
+          {
+            "item_id": "I2",
+            "object": "wood",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I3",
+            "object": "berry",
+            "attribute": "red"
+          }
+        ],
+        "target_item_id": "I2",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "~=~&?&",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "A": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "B": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "A": {
+            "item_id": "I2",
+            "destination": "river camp"
+          },
+          "B": null
+        },
+        "outcome": {
+          "success": true,
+          "reward": 1.0,
+          "designated_item_correct": true,
+          "designated_destination_correct": true,
+          "designated_helper_correct": true,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 26,
+        "block": 1,
+        "meaning_id": 2,
+        "owner": "C",
+        "goal": {
+          "object": "stone",
+          "attribute": "green",
+          "partner": "A",
+          "partner_position": 0,
+          "destination": "forest camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "stone",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I1",
+            "object": "stone",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I2",
+            "object": "stone",
+            "attribute": "blue"
+          },
+          {
+            "item_id": "I3",
+            "object": "wood",
+            "attribute": "blue"
+          }
+        ],
+        "target_item_id": "I0",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "?##&+?",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "A": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "B": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "A": {
+            "item_id": "I0",
+            "destination": "forest camp"
+          },
+          "B": null
+        },
+        "outcome": {
+          "success": true,
+          "reward": 1.0,
+          "designated_item_correct": true,
+          "designated_destination_correct": true,
+          "designated_helper_correct": true,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 27,
+        "block": 1,
+        "meaning_id": 0,
+        "owner": "C",
+        "goal": {
+          "object": "berry",
+          "attribute": "red",
+          "partner": "A",
+          "partner_position": 0,
+          "destination": "river camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "stone",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I1",
+            "object": "berry",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I2",
+            "object": "berry",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I3",
+            "object": "berry",
+            "attribute": "blue"
+          }
+        ],
+        "target_item_id": "I1",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "+%~?=&",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "A": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "B": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "A": {
+            "item_id": "I1",
+            "destination": "river camp"
+          },
+          "B": null
+        },
+        "outcome": {
+          "success": true,
+          "reward": 1.0,
+          "designated_item_correct": true,
+          "designated_destination_correct": true,
+          "designated_helper_correct": true,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 28,
+        "block": 1,
+        "meaning_id": 5,
+        "owner": "A",
+        "goal": {
+          "object": "stone",
+          "attribute": "red",
+          "partner": "C",
+          "partner_position": 1,
+          "destination": "hill camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "berry",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I1",
+            "object": "stone",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I2",
+            "object": "stone",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I3",
+            "object": "stone",
+            "attribute": "blue"
+          }
+        ],
+        "target_item_id": "I2",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "@%=~#+",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "B": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "C": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "B": null,
+          "C": {
+            "item_id": "I2",
+            "destination": "hill camp"
+          }
+        },
+        "outcome": {
+          "success": true,
+          "reward": 1.0,
+          "designated_item_correct": true,
+          "designated_destination_correct": true,
+          "designated_helper_correct": true,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 29,
+        "block": 1,
+        "meaning_id": 5,
+        "owner": "C",
+        "goal": {
+          "object": "stone",
+          "attribute": "red",
+          "partner": "B",
+          "partner_position": 1,
+          "destination": "hill camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "stone",
+            "attribute": "blue"
+          },
+          {
+            "item_id": "I1",
+            "object": "berry",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I2",
+            "object": "stone",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I3",
+            "object": "stone",
+            "attribute": "red"
+          }
+        ],
+        "target_item_id": "I3",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "@%=~#+",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "A": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "B": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "A": null,
+          "B": null
+        },
+        "outcome": {
+          "success": false,
+          "reward": -0.25,
+          "designated_item_correct": false,
+          "designated_destination_correct": false,
+          "designated_helper_correct": false,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 30,
+        "block": 1,
+        "meaning_id": 4,
+        "owner": "B",
+        "goal": {
+          "object": "wood",
+          "attribute": "green",
+          "partner": "A",
+          "partner_position": 0,
+          "destination": "river camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "berry",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I1",
+            "object": "wood",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I2",
+            "object": "wood",
+            "attribute": "blue"
+          },
+          {
+            "item_id": "I3",
+            "object": "wood",
+            "attribute": "red"
+          }
+        ],
+        "target_item_id": "I1",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "~=~&?&",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "A": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "C": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "A": {
+            "item_id": "I1",
+            "destination": "river camp"
+          },
+          "C": null
+        },
+        "outcome": {
+          "success": true,
+          "reward": 1.0,
+          "designated_item_correct": true,
+          "designated_destination_correct": true,
+          "designated_helper_correct": true,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 31,
+        "block": 1,
+        "meaning_id": 2,
+        "owner": "A",
+        "goal": {
+          "object": "stone",
+          "attribute": "green",
+          "partner": "B",
+          "partner_position": 0,
+          "destination": "forest camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "stone",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I1",
+            "object": "stone",
+            "attribute": "blue"
+          },
+          {
+            "item_id": "I2",
+            "object": "stone",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I3",
+            "object": "wood",
+            "attribute": "red"
+          }
+        ],
+        "target_item_id": "I2",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "?##&+?",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "B": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "C": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "B": null,
+          "C": null
+        },
+        "outcome": {
+          "success": false,
+          "reward": -0.25,
+          "designated_item_correct": false,
+          "designated_destination_correct": false,
+          "designated_helper_correct": false,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 32,
+        "block": 1,
+        "meaning_id": 1,
+        "owner": "C",
+        "goal": {
+          "object": "wood",
+          "attribute": "blue",
+          "partner": "B",
+          "partner_position": 1,
+          "destination": "hill camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "wood",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I1",
+            "object": "wood",
+            "attribute": "blue"
+          },
+          {
+            "item_id": "I2",
+            "object": "wood",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I3",
+            "object": "stone",
+            "attribute": "green"
+          }
+        ],
+        "target_item_id": "I1",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "~=@%+~",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "A": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "B": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "A": null,
+          "B": null
+        },
+        "outcome": {
+          "success": false,
+          "reward": -0.25,
+          "designated_item_correct": false,
+          "designated_destination_correct": false,
+          "designated_helper_correct": false,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 33,
+        "block": 1,
+        "meaning_id": 3,
+        "owner": "A",
+        "goal": {
+          "object": "berry",
+          "attribute": "blue",
+          "partner": "C",
+          "partner_position": 1,
+          "destination": "forest camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "berry",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I1",
+            "object": "stone",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I2",
+            "object": "berry",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I3",
+            "object": "berry",
+            "attribute": "blue"
+          }
+        ],
+        "target_item_id": "I3",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "%?~~&=",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "B": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "C": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "B": null,
+          "C": {
+            "item_id": "I3",
+            "destination": "forest camp"
+          }
+        },
+        "outcome": {
+          "success": true,
+          "reward": 1.0,
+          "designated_item_correct": true,
+          "designated_destination_correct": true,
+          "designated_helper_correct": true,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 34,
+        "block": 1,
+        "meaning_id": 5,
+        "owner": "B",
+        "goal": {
+          "object": "stone",
+          "attribute": "red",
+          "partner": "C",
+          "partner_position": 1,
+          "destination": "hill camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "stone",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I1",
+            "object": "wood",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I2",
+            "object": "stone",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I3",
+            "object": "stone",
+            "attribute": "blue"
+          }
+        ],
+        "target_item_id": "I2",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "@%=~#+",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "A": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "C": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "A": null,
+          "C": {
+            "item_id": "I2",
+            "destination": "hill camp"
+          }
+        },
+        "outcome": {
+          "success": true,
+          "reward": 1.0,
+          "designated_item_correct": true,
+          "designated_destination_correct": true,
+          "designated_helper_correct": true,
+          "unassigned_helper_waited": true
+        }
+      },
+      {
+        "episode": 35,
+        "block": 1,
+        "meaning_id": 3,
+        "owner": "B",
+        "goal": {
+          "object": "berry",
+          "attribute": "blue",
+          "partner": "C",
+          "partner_position": 1,
+          "destination": "forest camp"
+        },
+        "public_board": [
+          {
+            "item_id": "I0",
+            "object": "berry",
+            "attribute": "blue"
+          },
+          {
+            "item_id": "I1",
+            "object": "berry",
+            "attribute": "red"
+          },
+          {
+            "item_id": "I2",
+            "object": "berry",
+            "attribute": "green"
+          },
+          {
+            "item_id": "I3",
+            "object": "wood",
+            "attribute": "red"
+          }
+        ],
+        "target_item_id": "I0",
+        "destinations": [
+          "river camp",
+          "hill camp",
+          "forest camp"
+        ],
+        "message": "%?~~&=",
+        "message_valid": true,
+        "encoder_correct": true,
+        "owner_json_valid": true,
+        "helper_results": {
+          "A": {
+            "json_valid": true,
+            "action_valid": true
+          },
+          "C": {
+            "json_valid": true,
+            "action_valid": true
+          }
+        },
+        "actions": {
+          "A": null,
+          "C": {
+            "item_id": "I0",
+            "destination": "forest camp"
+          }
+        },
+        "outcome": {
+          "success": true,
+          "reward": 1.0,
+          "designated_item_correct": true,
+          "designated_destination_correct": true,
+          "designated_helper_correct": true,
+          "unassigned_helper_waited": true
+        }
+      }
+    ]
+  }
+}

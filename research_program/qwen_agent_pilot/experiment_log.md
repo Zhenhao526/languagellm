@@ -62,6 +62,16 @@
 
 **Next version.** V2.2 adds a common rule in every condition to scan the public board and return the `item_id` whose object and attribute match the decoded order. The codebook condition gets the same exact field-matching procedure alongside its existing role lookup. Thresholds stay fixed; a new development seed (`20260929`) must pass before using the still-unused formal seeds `20260925`–`20260927`.
 
+## 2026-09-20 — v2.2 known-codebook development gate
+
+**Status.** Completed development-only run with seed `20260929`; gate failed and the paired matrix was not started. Protocol source commit: `e337fc3ede3eb79d68b53d1438a9183baf8ea613`. Data, analysis and SHA-256 manifest are in `results/calibration_v2_2_development_20260929*`.
+
+**Observed.** Sender encoding was 36/36, unassigned-helper waiting 35/36, designated item accuracy 22/36, destination accuracy 23/36, and joint success 21/36. Among 23 designated actions, 22 selected the correct board item and all 23 selected the correct destination; 13 designated rounds had no action. A acted correctly in 11/12 assigned rounds, C in 11/12, and B in 0/12 for this seed. This single run cannot establish an identity effect.
+
+**Interpretation.** The shared board-match prompt appears to have fixed most item selection when agents act. The remaining gate failure is unstable designated-helper activation. Repeatedly tuning prompts on one seed would overfit the control and obscure whether the model understands roles, the codebook, or the task.
+
+**Next version.** V3 adds an environment-provided decoded-order upper bound, clearly separated from peer communication. It tests whether the three-context model can perform the collection task when message interpretation is removed. If this upper-bound condition passes, run the paired blank/oracle/known-codebook/free-symbol matrix on the reserved seeds `20260925`–`20260927`; otherwise simplify the task before any language comparison. The v2.2 development record remains separate.
+
 ## 2026-09-20 — v2.2 item-grounding protocol frozen
 
 V2.2 adds one common candidate-board rule to all conditions: scan the board for the entry whose `object` and `attribute` fields both match the decoded order, then copy that entry's `item_id`. The codebook helper prompt repeats this as an explicit lookup step. The one-worker rule and four development thresholds remain unchanged. Development seed `20260929` is the only next run; formal seeds `20260925`–`20260927` remain unused. If any gate fails, do not launch the paired matrix.

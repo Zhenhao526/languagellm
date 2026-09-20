@@ -18,26 +18,7 @@ The v1 screening protocol is preserved in [`calibration_plan.md`](calibration_pl
 
 The v1 matrix is complete. Qwen encoded the supplied codebook correctly, but the task prompt did not clearly tell non-designated helpers to wait; that rule was followed inconsistently, including in the positive-control condition. Free-symbol message–meaning association varied sharply by seed, with one seed collapsing to a single string. See the [audited v1 result and interpretation](results/calibration_20260920_analysis.md), the [episode-level data](results/calibration_20260920.json), and the [integrity manifest](results/calibration_20260920_manifest.json).
 
-V2 and v2.1 development gates both failed; their results are preserved [here](results/calibration_v2_development_20260924_analysis.md) and [here](results/calibration_v2_1_development_20260928_analysis.md). V2.2 adds a shared instruction to match decoded object and attribute values to the board entry and copy its `item_id`. Its frozen plan is [`calibration_plan_v2_2.md`](calibration_plan_v2_2.md). First run the development gate with seed `20260929`; it is excluded from the paired matrix:
-
-```sh
-PYTHONPATH=. /Users/xia/.venvs/qwen35-mlx/bin/python \
-  -m research_program.qwen_agent_pilot.calibration_dev \
-  --model /Users/xia/Models/Qwen3.5-9B-8bit \
-  --seed 20260929 \
-  --out research_program/qwen_agent_pilot/results/calibration_v2_2_development_20260929.json
-```
-
-Only if all four predeclared thresholds pass should the paired matrix start. It uses the unused seeds `20260925`–`20260927`:
-
-```sh
-PYTHONPATH=. /Users/xia/.venvs/qwen35-mlx/bin/python \
-  -m research_program.qwen_agent_pilot.calibration \
-  --model /Users/xia/Models/Qwen3.5-9B-8bit \
-  --out research_program/qwen_agent_pilot/results/calibration_v2_2_20260920.json
-```
-
-Pass `--resume` with the same output path to continue an interrupted matrix. Each completed seed-condition run is checkpointed atomically.
+V2 and v2.1 development gates failed on responsibility and item grounding; v2.2 improved item execution but still failed the designated-action threshold. Results and replay audits are preserved [here](results/calibration_v2_development_20260924_analysis.md), [here](results/calibration_v2_1_development_20260928_analysis.md), and [here](results/calibration_v2_2_development_20260929_analysis.md). No paired matrix has been run under these revised prompts. The next protocol adds an environment-provided decoded-order upper bound to test task competence separately from message interpretation. The formal comparison remains closed until that task-competence check passes.
 
 ## Reproduce locally
 
