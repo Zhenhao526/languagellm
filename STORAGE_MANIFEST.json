@@ -2,9 +2,9 @@
   "generated_at_local": "2026-09-20",
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
-  "remote_commit": "61b07f861c047781391ebc6760ccfe6a704fbad8",
+  "remote_commit": "303ea2511373736e76df4a97b945fc0024893869",
   "remote_main_verified": true,
-  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix, ecological-factorization formal matrix, compact archive, replay audit and new-combination analysis, object-surface remapping corrected formal matrix, parent surface-shift analysis, replay audit and cleanup receipt, incumbent-worker surface transfer formal matrix, repair curves, replay audit and cleanup receipt, population-level perceptual heterogeneity formal matrix, three-shard replay audit, exploratory pilot curves, identifiability diagnosis and cleanup receipt, multi-partner sender alignment formal matrix, diagnostic smoke, replay audit and cleanup receipt, community codebook conflict and role-symmetric referential game formal matrix, replay audit, compact archive and cleanup receipt, structured factor-sharing architecture intervention, formal matrix, replay audit and cleanup receipt; learnable routing factorization formal matrix, low-gradient sensitivity baseline, replay audits and cleanup receipt; shared sender/receiver routing role-symmetry intervention, tied versus independent routing and combined replay audit; routing initialization control formal matrix, combined replay audit and cleanup receipt; open-world ontology expansion formal matrix, v4 role=2 recombination reevaluation, replay audit, compact archive, invalid-design notes and cleanup receipt; open-world cultural transmission formal matrix, frozen incumbent role replacement, corrected zero-update control, six-shard replay audit, transfer analysis, compact archive and cleanup receipt; open-world grounding transfer formal matrix, identity/reverse fresh-receiver surface intervention, six-shard replay audit, transfer analysis, compact archive and cleanup receipt; open-world incumbent receiver initialization × surface mapping formal matrix, six replay audits, exact receiver-copy audit, supplemental interaction analysis, archive and local cleanup receipt; local Qwen3.5 three-context symbol-channel pilot source, compact result, audit report, model lock and storage receipt; local Qwen matched channel calibration v1, paired three-seed matrix, audited episode archive and documented task-rule limitation",
+  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix, ecological-factorization formal matrix, compact archive, replay audit and new-combination analysis, object-surface remapping corrected formal matrix, parent surface-shift analysis, replay audit and cleanup receipt, incumbent-worker surface transfer formal matrix, repair curves, replay audit and cleanup receipt, population-level perceptual heterogeneity formal matrix, three-shard replay audit, exploratory pilot curves, identifiability diagnosis and cleanup receipt, multi-partner sender alignment formal matrix, diagnostic smoke, replay audit and cleanup receipt, community codebook conflict and role-symmetric referential game formal matrix, replay audit, compact archive and cleanup receipt, structured factor-sharing architecture intervention, formal matrix, replay audit and cleanup receipt; learnable routing factorization formal matrix, low-gradient sensitivity baseline, replay audits and cleanup receipt; shared sender/receiver routing role-symmetry intervention, tied versus independent routing and combined replay audit; routing initialization control formal matrix, combined replay audit and cleanup receipt; open-world ontology expansion formal matrix, v4 role=2 recombination reevaluation, replay audit, compact archive, invalid-design notes and cleanup receipt; open-world cultural transmission formal matrix, frozen incumbent role replacement, corrected zero-update control, six-shard replay audit, transfer analysis, compact archive and cleanup receipt; open-world grounding transfer formal matrix, identity/reverse fresh-receiver surface intervention, six-shard replay audit, transfer analysis, compact archive and cleanup receipt; open-world incumbent receiver initialization × surface mapping formal matrix, six replay audits, exact receiver-copy audit, supplemental interaction analysis, archive and local cleanup receipt; local Qwen3.5 three-context symbol-channel pilot source, compact result, audit report, model lock and storage receipt; local Qwen matched channel calibration v1, paired three-seed matrix, audited episode archive and documented task-rule limitation; Qwen v3 paired matched-channel calibration, episode replay audit, SHA-256 archive and local storage sweep receipt",
   "retained_paths": {
     "research_program/action_dependent_signaling_study": {
       "files": 23,
@@ -275,8 +275,8 @@
       "bytes": 6264
     },
     "research_program/qwen_agent_pilot": {
-      "files": 12,
-      "bytes": 88670
+      "files": 40,
+      "bytes": 1883122
     },
     "SYNC_2026-09-20_qwen_agent_pilot.md": {
       "files": 1,
@@ -293,6 +293,14 @@
     "SYNC_2026-09-20_storage_sweep.md": {
       "files": 1,
       "bytes": 1038
+    },
+    "research_program/qwen_agent_pilot/results/calibration_v3_20260920": {
+      "files": 4,
+      "bytes": 812511
+    },
+    "SYNC_2026-09-20_qwen_calibration_v3.md": {
+      "files": 1,
+      "bytes": 906
     }
   },
   "compact_archives": {
@@ -1962,8 +1970,8 @@
   "tracked_paths_pruned_in_commit": 8338,
   "historical_cleanup_estimate_bytes": 5558370327,
   "local_environment": {
-    "files": 954,
-    "bytes": 105353341
+    "files": 960,
+    "bytes": 106187862
   },
   "policy": "Raw training logs, checkpoints, literature caches and historical generated trees are not kept locally. The pinned Qwen3.5-9B-8bit checkpoint is retained as a necessary local asset for follow-up LLM experiments and is excluded from Git; Git history retains prior source snapshots.",
   "additional_cleanup": {
@@ -3770,5 +3778,47 @@
       "pending VS Code update because its installer was running"
     ],
     "active_matrix_archive_status": "still running at cleanup; partial checkpoint retained, not represented as a final archive"
+  },
+  "qwen_matched_channel_calibration_v3_batch": {
+    "name": "qwen_matched_channel_calibration_v3_20260920",
+    "protocol_source_commit": "e78b4baa707e67402f5e2276f400fe1e690ac04e",
+    "archive_commit": "303ea2511373736e76df4a97b945fc0024893869",
+    "protocol": "matched_channel_calibration_v3_oracle_task_control",
+    "seeds": [
+      20260925,
+      20260926,
+      20260927
+    ],
+    "conditions": [
+      "blank",
+      "oracle_decoded",
+      "known_codebook",
+      "free_symbols"
+    ],
+    "episodes": 432,
+    "model_calls": 1296,
+    "archive": [
+      "research_program/qwen_agent_pilot/results/calibration_v3_20260920.json",
+      "research_program/qwen_agent_pilot/results/calibration_v3_20260920_analysis.md",
+      "research_program/qwen_agent_pilot/results/calibration_v3_20260920_audit.json",
+      "research_program/qwen_agent_pilot/results/calibration_v3_20260920_manifest.json"
+    ],
+    "archive_stats": {
+      "files": 4,
+      "bytes": 812511
+    },
+    "manifest_sha256": "0b5a3918a26532f4f81ecf2994067800c1a146f2989708fcd98b70dc8ba62a31",
+    "audit": "passed; 432 outcome replays; 324 paired schedule comparisons; 12 run summaries recomputed",
+    "pooled_joint_success": {
+      "blank": "0/108",
+      "oracle_decoded": "106/108",
+      "known_codebook": "71/108",
+      "free_symbols": "0/108"
+    },
+    "raw_model_completions_retained": false,
+    "chain_of_thought_retained": false,
+    "model_weights_uploaded_to_git": false,
+    "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
+    "remote_commit": "303ea2511373736e76df4a97b945fc0024893869"
   }
 }
