@@ -131,3 +131,13 @@ V3 adds an environment-supplied decoded-order upper bound, separate from peer co
 **Audit and runtime.** Independent replay of all 96 boards, targets, actions, outcomes, and feedback records passed. The run took 2,235.1 seconds and consumed 4.41 million prompt tokens because complete interaction histories are sent at every turn. No raw completions or hidden reasoning were retained.
 
 **Decision.** The preregistered thresholds pass. Proceed with paired conditions `hidden_scalar`, `hidden_component`, `public_partner_scalar`, `public_partner_component`, `known_codebook`, and `oracle_decoded` on fresh seeds `20261002`–`20261004`. This is still a mechanism screening matrix; a positive result would require held-out composition and receiver-transfer tests before any language-formation claim.
+
+## 2026-09-20 — v4 formal matrix: first hidden-partner, scalar-feedback cell
+
+**Status.** One formal cell has completed: `hidden_scalar`, seed `20261002`, 96 episodes and 288 model calls. The frozen protocol source is `305f89260d9243d97686cd8917f131fd4b560400`. At the time of this entry, `hidden_component` for the same seed was still running. This is an interim record, not the full matrix result.
+
+**Observed.** The cell produced 3/96 joint successes, 7/96 correct designated items, 13/96 correct destinations, and 64/96 unassigned-helper waits. Helpers' structured interpretations were exact in 0/192 reports. Field accuracy was object 63/192 (0.328), attribute 61/192 (0.318), responsible helper 0/192, and destination 60/192 (0.313). The owner emitted valid messages in 95/96 episodes; all 95 were the same six-symbol string, `%&+=@~`. Message entropy and empirical mutual information with meaning, payload, partner position, and requester were all 0. The one-string consistency is message collapse, not a shared convention.
+
+**Block pattern.** Joint success was 1/48 in block 0 and 2/48 in block 1; exact helper interpretations stayed 0/96 in each block. This cell gives no evidence of within-cell semantic learning.
+
+**Audit and limit.** Independent replay passed for all 96 episodes with zero errors. The audited one-cell checkpoint SHA-256 was `170510c9d171c92a12743aa6d46df44d3caa6384d13c463d6f755c6e229adf6c`. This is one seed in one factorial arm; it cannot identify an effect of feedback granularity. The paired `hidden_component` cell and the remaining frozen conditions must complete before interpreting the factorial contrasts. The partial episode file remains a local checkpoint and is not yet the final archived matrix.
