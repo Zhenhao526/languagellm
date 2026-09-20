@@ -2,7 +2,7 @@
   "generated_at_local": "2026-09-20",
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
-  "remote_commit": "303ea2511373736e76df4a97b945fc0024893869",
+  "remote_commit": "75f28243833c830e559e2213fdd343776e030cf2",
   "remote_main_verified": true,
   "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix, ecological-factorization formal matrix, compact archive, replay audit and new-combination analysis, object-surface remapping corrected formal matrix, parent surface-shift analysis, replay audit and cleanup receipt, incumbent-worker surface transfer formal matrix, repair curves, replay audit and cleanup receipt, population-level perceptual heterogeneity formal matrix, three-shard replay audit, exploratory pilot curves, identifiability diagnosis and cleanup receipt, multi-partner sender alignment formal matrix, diagnostic smoke, replay audit and cleanup receipt, community codebook conflict and role-symmetric referential game formal matrix, replay audit, compact archive and cleanup receipt, structured factor-sharing architecture intervention, formal matrix, replay audit and cleanup receipt; learnable routing factorization formal matrix, low-gradient sensitivity baseline, replay audits and cleanup receipt; shared sender/receiver routing role-symmetry intervention, tied versus independent routing and combined replay audit; routing initialization control formal matrix, combined replay audit and cleanup receipt; open-world ontology expansion formal matrix, v4 role=2 recombination reevaluation, replay audit, compact archive, invalid-design notes and cleanup receipt; open-world cultural transmission formal matrix, frozen incumbent role replacement, corrected zero-update control, six-shard replay audit, transfer analysis, compact archive and cleanup receipt; open-world grounding transfer formal matrix, identity/reverse fresh-receiver surface intervention, six-shard replay audit, transfer analysis, compact archive and cleanup receipt; open-world incumbent receiver initialization × surface mapping formal matrix, six replay audits, exact receiver-copy audit, supplemental interaction analysis, archive and local cleanup receipt; local Qwen3.5 three-context symbol-channel pilot source, compact result, audit report, model lock and storage receipt; local Qwen matched channel calibration v1, paired three-seed matrix, audited episode archive and documented task-rule limitation; Qwen v3 paired matched-channel calibration, episode replay audit, SHA-256 archive and local storage sweep receipt",
   "retained_paths": {
@@ -3820,5 +3820,67 @@
     "model_weights_uploaded_to_git": false,
     "remote_repository": "git@github.com:Zhenhao526/languagellm.git",
     "remote_commit": "303ea2511373736e76df4a97b945fc0024893869"
+  },
+  "repository_sync_check_2026_09_20": {
+    "repository": "git@github.com:Zhenhao526/languagellm.git",
+    "branch": "main",
+    "verified_parent_commit": "75f28243833c830e559e2213fdd343776e030cf2",
+    "local_only_commits_before_record": 0,
+    "remote_only_commits_before_record": 0,
+    "push_result_before_record": "Everything up-to-date",
+    "commit_history_count_before_record": 114,
+    "historical_versions_reachable_from_main": true
+  },
+  "qwen_matched_channel_calibration_v4_gate_batch": {
+    "name": "qwen_matched_channel_calibration_v4_oracle_gate_20261001",
+    "protocol_source_commit": "305f89260d9243d97686cd8917f131fd4b560400",
+    "archive_commit": "75f28243833c830e559e2213fdd343776e030cf2",
+    "protocol": "factorized_information_feedback_v4",
+    "seed": 20261001,
+    "condition": "oracle_decoded",
+    "episodes": 96,
+    "model_calls": 288,
+    "result": "research_program/qwen_agent_pilot/results/calibration_v4_gate_20261001.json",
+    "analysis": "research_program/qwen_agent_pilot/results/calibration_v4_gate_20261001_analysis.md",
+    "audit": "passed; 96 outcome replays; zero discrepancies",
+    "manifest": "research_program/qwen_agent_pilot/results/calibration_v4_gate_20261001_manifest.json",
+    "raw_model_completions_retained": false,
+    "chain_of_thought_retained": false,
+    "remote_repository": "git@github.com:Zhenhao526/languagellm.git"
+  },
+  "qwen_matched_channel_calibration_v4_formal_matrix": {
+    "name": "qwen_matched_channel_calibration_v4_20261002_04",
+    "protocol_source_commit": "305f89260d9243d97686cd8917f131fd4b560400",
+    "model_revision": "16daa4818c54ce5f5436f929d52542eb65bbed9d",
+    "seeds": [
+      20261002,
+      20261003,
+      20261004
+    ],
+    "conditions": [
+      "hidden_scalar",
+      "hidden_component",
+      "public_partner_scalar",
+      "public_partner_component",
+      "known_codebook",
+      "oracle_decoded"
+    ],
+    "episodes_per_seed_condition": 96,
+    "status_at_storage_check": "running; only a partial local checkpoint exists and is not a final archive",
+    "local_checkpoint": "research_program/qwen_agent_pilot/results/calibration_v4_20261002-04.json",
+    "completed_seed_condition_runs_at_storage_check": 1,
+    "checkpoint_uploaded_to_git": false,
+    "preserve_until_run_and_audit_finish": true
+  },
+  "storage_inventory_2026_09_20": {
+    "workspace_bytes_approx": 214000000,
+    "git_history_bytes_approx": 89000000,
+    "local_qwen_model_bytes_approx": 9700000000,
+    "local_qwen_runtime_bytes_approx": 595000000,
+    "workspace_experiment_environment_bytes_approx": 22000000,
+    "available_volume_space_approx": "1.1 TiB",
+    "python_bytecode_cache_removed_bytes": 2277534,
+    "python_bytecode_cache_directories_removed": 11,
+    "external_downloads_archive_action": "preserved; separate LMDB datasets, not classified as language-experiment artifacts"
   }
 }
