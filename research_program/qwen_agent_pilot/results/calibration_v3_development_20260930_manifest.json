@@ -1,0 +1,26 @@
+{
+  "generated_at_local": "2026-09-20",
+  "calibration_version": "matched_channel_calibration_v3_oracle_task_control",
+  "role": "task_competence_development_only_not_in_paired_matrix",
+  "protocol_source_commit": "ddb799300f15c2197ccefc421c22955ae2212ea7",
+  "model": "mlx-community/Qwen3.5-9B-8bit",
+  "model_revision": "16daa4818c54ce5f5436f929d52542eb65bbed9d",
+  "seed": 20260930,
+  "condition": "oracle_decoded",
+  "episodes": 36,
+  "model_calls": 108,
+  "gate_passed": true,
+  "replay_audit": "passed; all 36 environment outcomes recomputed; all owner/helper/action schemas valid",
+  "raw_completions_retained": false,
+  "chain_of_thought_retained": false,
+  "files": {
+    "calibration_v3_development_20260930.json": {
+      "bytes": 63662,
+      "sha256": "9b6c7deaacc591aa0cb77e5fc69dda05299a5640fe91dde3d715499e22777b67"
+    },
+    "calibration_v3_development_20260930_analysis.md": {
+      "bytes": 1608,
+      "sha256": "28521438df2888e3f68b370c1757cbfff1307f07df9f95f640fe93512cb681b6"
+    }
+  }
+}

@@ -30,6 +30,8 @@ PYTHONPATH=. /Users/xia/.venvs/qwen35-mlx/bin/python \
   --out research_program/qwen_agent_pilot/results/calibration_v3_development_20260930.json
 ```
 
+The v3 oracle gate passed: 36/36 designated actions, 36/36 unassigned-helper waits, and 36/36 joint successes. The result is a task-control development run, not part of the matrix; see its [analysis](results/calibration_v3_development_20260930_analysis.md) and [integrity manifest](results/calibration_v3_development_20260930_manifest.json).
+
 If all three thresholds pass, run or resume the four-condition matrix (432 episodes, 1,296 model calls) on the unused paired seeds `20260925`–`20260927`:
 
 ```sh

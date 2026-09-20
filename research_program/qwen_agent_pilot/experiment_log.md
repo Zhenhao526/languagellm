@@ -87,3 +87,11 @@ V2.2 adds one common candidate-board rule to all conditions: scan the board for 
 ## 2026-09-20 — v3 oracle task-control protocol frozen
 
 V3 adds an environment-supplied decoded-order upper bound, separate from peer communication, to test task competence with message interpretation removed. The formal matrix retains blank, oracle-decoded, known-codebook and free-symbol conditions. Development seed `20260930` must pass designated-action, unassigned-wait and joint-success thresholds before any paired matrix. If it passes, the unused paired seeds remain `20260925`–`20260927` (four arms, 432 episodes). See `calibration_plan_v3.md`.
+
+## 2026-09-20 — v3 oracle task-competence gate
+
+**Status.** Passed. Seed `20260930`, protocol source commit `ddb799300f15c2197ccefc421c22955ae2212ea7`; result, analysis and SHA-256 manifest are in `results/calibration_v3_development_20260930*`.
+
+**Observed.** With the complete request supplied directly by the environment, designated item-plus-destination accuracy, unassigned-helper waiting, and joint success were all 36/36. All schemas passed and all outcomes replayed. This supports using the task for channel comparisons; it does not test peer language.
+
+**Next step.** Run the preregistered four-arm, three-seed matrix on the still-unused seeds `20260925`–`20260927`. Keep the oracle upper bound separate from the three peer-channel conditions.
